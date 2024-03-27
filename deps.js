@@ -21,6 +21,8 @@ export const REPOS = [
   "w3c/editcontext",
   "w3c/clipboard-apis",
   "whatwg/html",
+  "w3c/selection-api",
+  "w3c/uievents",
 ];
 
 import { configSync } from "https://deno.land/std@0.137.0/dotenv/mod.ts";
