@@ -1,0 +1,113 @@
+id,closed,title,url,created_at,updated_at,user,labels,reactions
+2196870286,false,"Migrate away from ""queue a task""",https://github.com/w3c/selection-api/issues/174,2024-03-20T07:41:57Z,2024-03-20T07:41:58Z,annevk,,0
+2194418902,false,Clarify how `selection.modify()` when the granularity parameter is `paragraph` handles non-editable elements in an editing host,https://github.com/w3c/selection-api/issues/173,2024-03-19T09:12:32Z,2024-03-19T09:21:58Z,zp1996,,0
+2167357985,false,Selection.direction doesn't handle multiple ranges,https://github.com/w3c/selection-api/issues/171,2024-03-04T17:22:57Z,2024-03-11T00:49:03Z,smaug----,,0
+2111567258,true,Skip posting a task for `selectionchange` event in some cases,https://github.com/w3c/selection-api/issues/170,2024-02-01T05:08:21Z,2024-03-20T06:07:13Z,ShuangshuangZhou,,0
+2042304468,false,"Need spec changes to Range and StaticRange to support nodes in different tree? ",https://github.com/w3c/selection-api/issues/169,2023-12-14T19:05:37Z,2024-03-27T16:19:18Z,sefeng211,,0
+1895995282,false,Specify the behavior when DOM mutation occurs across shadow-crossing selection,https://github.com/w3c/selection-api/issues/168,2023-09-14T08:11:48Z,2023-09-18T21:59:06Z,rniwa,,0
+1895986003,false,getSelection().addRange should allow range with both boundary points in shadow tree,https://github.com/w3c/selection-api/issues/167,2023-09-14T08:06:37Z,2023-09-14T08:06:37Z,rniwa,,0
+1844019339,false,Define `Selection.rangeCount` when an input field is focused,https://github.com/w3c/selection-api/issues/166,2023-08-09T21:09:59Z,2023-09-12T11:03:40Z,whsieh,,0
+1679396072,true,toString should return the selected text in input / textarea element,https://github.com/w3c/selection-api/issues/165,2023-04-22T07:35:42Z,2023-04-22T08:32:27Z,rniwa,Compatibility,0
+1678210874,true,Should TreeWalker be expanded to support shadow roots in support of the selection API?,https://github.com/w3c/selection-api/issues/164,2023-04-21T09:33:35Z,2023-04-21T22:23:04Z,keithamus,,0
+1678208756,false,"Serialization of the current selection, when that selection crosses shadow roots",https://github.com/w3c/selection-api/issues/163,2023-04-21T09:31:55Z,2023-04-21T09:31:55Z,keithamus,,0
+1653016487,true,collapse() and extend() should not exit early when called with a node within a shadow tree,https://github.com/w3c/selection-api/issues/162,2023-04-04T01:29:03Z,2023-04-04T06:29:53Z,rniwa,Compatibility,0
+1503058584,false,getComposedRange() review,https://github.com/w3c/selection-api/issues/161,2022-12-19T14:29:57Z,2023-04-21T09:34:04Z,annevk,NewAPI,0
+1319237081,false,`selectstart` event handler needs to be exposed on `Text`,https://github.com/w3c/selection-api/issues/159,2022-07-27T08:55:42Z,2022-10-14T13:44:11Z,dontcallmedom,,0
+1269832750,false,"interop: Trailing whitespace in h1/h2 is selectable in firefox, not selectable in chrome",https://github.com/w3c/selection-api/issues/149,2022-06-13T19:02:15Z,2022-07-12T21:51:41Z,untitaker,Compatibility,0
+1036216548,true,"when i use selection-api ,how can i ban double click",https://github.com/w3c/selection-api/issues/147,2021-10-26T12:06:41Z,2021-10-26T23:39:58Z,for18,,0
+1017837636,false,Having a matching `selectend` event?,https://github.com/w3c/selection-api/issues/146,2021-10-06T09:00:04Z,2022-07-12T21:40:13Z,patrickhlauke,NewAPI,0
+902709410,true,"Remove the references to ""context object""",https://github.com/w3c/selection-api/issues/134,2021-05-26T17:19:45Z,2021-05-28T03:48:21Z,saschanaz,,0
+843753490,true,add privacy considerations section,https://github.com/w3c/selection-api/issues/133,2021-03-29T20:00:51Z,2022-07-13T02:15:39Z,samuelweiler,privacy-tracker,0
+843753170,true,add security considerations section,https://github.com/w3c/selection-api/issues/132,2021-03-29T20:00:29Z,2022-07-13T02:15:31Z,samuelweiler,security-tracker,0
+762464176,false,Define the order between select and selectionchange,https://github.com/w3c/selection-api/issues/129,2020-12-11T15:19:24Z,2021-01-20T07:56:51Z,saschanaz,Compatibility,0
+743013100,true,Remove outdated note about getSelection(),https://github.com/w3c/selection-api/issues/128,2020-11-14T14:27:37Z,2022-07-12T21:39:22Z,saschanaz,Editorial,0
+705003509,true,What happens to direction when the range associated with the selection is modified?,https://github.com/w3c/selection-api/issues/127,2020-09-19T21:50:35Z,2022-07-13T17:17:52Z,darinadler,Compatibility|Editorial,0
+705002874,true,"Text says ""below"" when talking about text that is ""above""",https://github.com/w3c/selection-api/issues/126,2020-09-19T21:45:12Z,2022-07-12T21:51:58Z,darinadler,Editorial,0
+704912211,true,selectAllChildren method specifies that it selects characters if passed a text node,https://github.com/w3c/selection-api/issues/125,2020-09-19T16:28:56Z,2021-06-10T23:54:37Z,darinadler,Compatibility,1
+704911580,false,collapse and setBaseAndExtent methods contain redundant checks of offset,https://github.com/w3c/selection-api/issues/124,2020-09-19T16:25:04Z,2020-09-21T00:09:00Z,darinadler,Compatibility|Editorial,0
+641751648,true,TPAC planning and specification status report,https://github.com/w3c/selection-api/issues/122,2020-06-19T06:57:19Z,2021-02-24T08:17:23Z,LJWatson,,0
+597153404,false,Add accessibility section,https://github.com/w3c/selection-api/issues/121,2020-04-09T09:35:59Z,2020-04-09T09:35:59Z,LJWatson,,0
+576732402,false,Add Internationalization Considerations section,https://github.com/w3c/selection-api/issues/120,2020-03-06T06:46:40Z,2020-03-06T06:47:32Z,marcoscaceres,,0
+558600183,false,Throw InvalidNodeTypeError on DocumentType nodes,https://github.com/w3c/selection-api/issues/118,2020-02-01T21:25:09Z,2020-09-20T23:22:56Z,pshaughn,Compatibility,0
+558572866,true,What task source do we queue events on?,https://github.com/w3c/selection-api/issues/117,2020-02-01T17:46:31Z,2022-07-13T02:38:13Z,pshaughn,Editorial,0
+558462941,true,containsNode could return true for a node that doesn't intersect the selection at all,https://github.com/w3c/selection-api/issues/116,2020-02-01T02:19:35Z,2022-07-12T23:06:46Z,pshaughn,Editorial,1
+537786317,true,Allow Selection to contain multiple ranges,https://github.com/w3c/selection-api/issues/115,2019-12-13T21:31:01Z,2020-01-22T07:54:53Z,IgnacioHR,,1
+526370804,true,Define getSelection on DocumentOrShadowRoot instead of Document,https://github.com/w3c/selection-api/issues/114,2019-11-21T05:19:04Z,2022-07-13T02:33:04Z,pmdartus,NewAPI,0
+502981632,false,Selecting across wbr element Bug 584141,https://github.com/w3c/selection-api/issues/113,2019-10-05T16:06:55Z,2019-12-10T09:20:27Z,nos111,,1
+486798117,true,"Add an event for ""selection change attempt failure""",https://github.com/w3c/selection-api/issues/112,2019-08-29T07:53:29Z,2019-08-29T17:43:48Z,Zhang-Junzhi,,0
+483309784,true,Specification status report for TPAC 2019,https://github.com/w3c/selection-api/issues/111,2019-08-21T09:35:40Z,2022-07-13T02:28:06Z,LJWatson,,0
+444841988,false,"Define behavior for user action of ""selecting all"".",https://github.com/w3c/selection-api/issues/105,2019-05-16T09:14:02Z,2019-06-11T23:14:57Z,mbrodesser,Compatibility,0
+433586246,false,Changing the selection creates a Range object,https://github.com/w3c/selection-api/issues/103,2019-04-16T05:10:41Z,2022-07-12T21:31:29Z,rniwa,Compatibility,0
+415096686,false,Add Selection/Range methods based on anchestor element,https://github.com/w3c/selection-api/issues/102,2019-02-27T12:18:52Z,2019-03-05T23:47:01Z,SetTrend,NewAPI,0
+378001598,false,Make setBaseAndExtent and other setter methods on Selection work with shadow DOM,https://github.com/w3c/selection-api/issues/99,2018-11-06T19:35:30Z,2023-07-25T07:36:46Z,rniwa,,0
+378000709,true,Add getComposedRange to Selection,https://github.com/w3c/selection-api/issues/98,2018-11-06T19:33:02Z,2022-12-19T14:37:32Z,rniwa,NewAPI,0
+370982411,true,edge 中selection.focusOffset计算错误,https://github.com/w3c/selection-api/issues/97,2018-10-17T09:33:54Z,2022-07-12T21:32:52Z,zhangyonglan,Compatibility,0
+279317740,false,No definition of hidden selections,https://github.com/w3c/selection-api/issues/94,2017-12-05T10:14:06Z,2018-02-21T04:02:48Z,hugoholgersson,Compatibility,0
+261308199,true,Include information about where the selection is ending,https://github.com/w3c/selection-api/issues/93,2017-09-28T12:55:54Z,2022-07-13T02:29:35Z,lauradaquila,,0
+258093118,true,Add [Exposed] to all interfaces,https://github.com/w3c/selection-api/issues/92,2017-09-15T16:17:39Z,2019-06-04T07:21:23Z,annevk,,0
+225780811,false,Specify when the selection collapsing happen on mouse click,https://github.com/w3c/selection-api/issues/90,2017-05-02T18:28:24Z,2017-05-07T14:55:42Z,saschanaz,Compatibility,0
+213531282,false,Background section is a mess,https://github.com/w3c/selection-api/issues/84,2017-03-11T14:18:22Z,2022-07-13T02:39:15Z,gustafl,Editorial,0
+212274388,false,Clarify how text selection in <input> and <textarea> work with Selection interface,https://github.com/w3c/selection-api/issues/83,2017-03-06T22:46:42Z,2022-01-27T10:40:46Z,tkent-google,,0
+208805413,true,Bahavior without browsing context,https://github.com/w3c/selection-api/issues/82,2017-02-20T07:44:34Z,2022-07-12T23:20:54Z,tkent-google,Compatibility,0
+207443085,true,Let addRange not update existing range,https://github.com/w3c/selection-api/issues/80,2017-02-14T07:59:27Z,2017-02-27T05:05:26Z,yoichio,Compatibility,0
+207129687,false,Selection should detach associated Range when Range move to another root.,https://github.com/w3c/selection-api/issues/79,2017-02-13T06:07:47Z,2022-07-13T03:03:23Z,yosinch,Compatibility,0
+202722423,true,Specify the selection behavior when selecting text in textarea or input,https://github.com/w3c/selection-api/issues/78,2017-01-24T04:32:01Z,2022-07-13T03:46:25Z,rniwa,Compatibility,0
+192840018,true,Use <pre class=idl> for IDL blocks,https://github.com/w3c/selection-api/issues/76,2016-12-01T12:59:05Z,2016-12-06T23:43:57Z,foolip,,0
+178082472,true,Limit onselectionchange to Document until known to be needed elsewhere,https://github.com/w3c/selection-api/issues/75,2016-09-20T14:50:13Z,2021-07-13T09:14:38Z,foolip,Compatibility,0
+176305666,false,"user-select: none and selectionchange event ",https://github.com/w3c/selection-api/issues/74,2016-09-12T06:52:56Z,2016-09-20T10:58:59Z,caub,Compatibility,0
+171791079,false,Add API to make selection visible,https://github.com/w3c/selection-api/issues/73,2016-08-18T00:24:57Z,2016-08-18T03:25:47Z,gked,NewAPI,0
+170006361,false,setBaseAndExtent should clear selection when baseNode or extentNode is null,https://github.com/w3c/selection-api/issues/72,2016-08-08T19:38:07Z,2018-10-12T06:24:35Z,rniwa,Compatibility,0
+166886732,false,Triple-click selection bounds,https://github.com/w3c/selection-api/issues/70,2016-07-21T18:28:58Z,2020-04-01T23:00:24Z,caub,Compatibility,2
+162717158,true,Normative references,https://github.com/w3c/selection-api/issues/69,2016-06-28T15:36:38Z,2016-08-01T20:16:39Z,dontcallmedom,,0
+141152963,true,"setBaseAndExtent() and setPositon() should be marked as ""deprecated""",https://github.com/w3c/selection-api/issues/67,2016-03-16T02:18:46Z,2016-08-08T19:14:39Z,yosinch,,0
+132504769,false,Pass the original events or add events types in selectionchange,https://github.com/w3c/selection-api/issues/65,2016-02-09T19:10:46Z,2016-08-18T00:32:12Z,caub,NewAPI,1
+121191832,true,The node argument of collapse and setPosition should be nullable,https://github.com/w3c/selection-api/issues/64,2015-12-09T09:10:44Z,2016-01-11T09:27:19Z,foolip,,0
+108527324,true,Event handlers missing,https://github.com/w3c/selection-api/issues/60,2015-09-27T10:18:23Z,2016-09-20T15:09:15Z,teoli2003,Compatibility,0
+102609072,false,We need to expose line direction coordinate as a property,https://github.com/w3c/selection-api/issues/59,2015-08-23T10:59:52Z,2016-08-18T00:36:46Z,rniwa,NewAPI,0
+102608954,false,Need an API to get the current caret rects,https://github.com/w3c/selection-api/issues/58,2015-08-23T10:56:26Z,2016-08-18T00:30:00Z,rniwa,NewAPI,0
+102606245,false,Expose with which bidi-level caret is affiliated as well as API to set it,https://github.com/w3c/selection-api/issues/57,2015-08-23T10:10:10Z,2020-01-23T15:44:56Z,rniwa,NewAPI,0
+102335987,false,Add beforeselectionchange event,https://github.com/w3c/selection-api/issues/56,2015-08-21T09:19:43Z,2019-08-30T07:08:57Z,Reinmar,NewAPI,3
+101886605,true,The spec doesn't define event handlers onselectstart and onselectionchange,https://github.com/w3c/selection-api/issues/55,2015-08-19T12:56:12Z,2016-01-10T02:37:39Z,smaug----,,0
+101468558,true,Clarify the additions of this spec to GlobalEventHandlers,https://github.com/w3c/selection-api/issues/54,2015-08-17T17:22:01Z,2016-10-14T10:34:22Z,ehsan,Compatibility,0
+101094502,false,Selection events for text controls,https://github.com/w3c/selection-api/issues/53,2015-08-14T20:11:15Z,2020-11-06T12:35:16Z,ehsan,Compatibility,1
+101036804,true,Should selectionchange be fired when the Range object is directly mutated,https://github.com/w3c/selection-api/issues/52,2015-08-14T15:34:27Z,2015-08-14T23:27:42Z,mystor,,0
+100863092,false,setPosition/collapse should taken an optional argument for whether the caret is before or after a line break,https://github.com/w3c/selection-api/issues/51,2015-08-13T20:39:50Z,2020-01-23T15:56:23Z,rniwa,NewAPI,3
+100596319,true,Clarify selectstart event behaviour,https://github.com/w3c/selection-api/issues/50,2015-08-12T17:42:38Z,2015-08-13T01:23:13Z,mystor,,0
+96004658,true,Is Selection.removeAllRanges() and Selection.removeRange(range) doing the same thing?,https://github.com/w3c/selection-api/issues/48,2015-07-20T07:40:54Z,2015-08-13T01:25:47Z,paritosh-in,,0
+85240296,true,"Define caret behavior around replaced, SVG, and MathML elements",https://github.com/w3c/selection-api/issues/47,2015-06-04T19:24:58Z,2015-08-03T10:04:20Z,johanneswilm,,0
+85201747,false,Define the interaction with user-select CSS property,https://github.com/w3c/selection-api/issues/46,2015-06-04T17:43:15Z,2017-06-23T14:47:20Z,rniwa,Compatibility,0
+85200354,true,Expand selectstart to cover use cases for contenteditable=typing,https://github.com/w3c/selection-api/issues/45,2015-06-04T17:39:47Z,2015-08-12T21:41:53Z,rniwa,,0
+55817828,true,Add APIs to save/restore selection,https://github.com/w3c/selection-api/issues/43,2015-01-28T21:25:06Z,2015-01-28T21:25:57Z,BenjamP,,0
+55370972,false,Add APIs to save/restore selection,https://github.com/w3c/selection-api/issues/42,2015-01-24T13:36:46Z,2019-04-16T07:54:33Z,kojiishi,NewAPI,0
+54257752,false,Support multi range selection,https://github.com/w3c/selection-api/issues/41,2015-01-13T22:29:18Z,2018-06-09T22:10:36Z,rniwa,NewAPI,0
+53482688,true,Why does getRangeAt must return a reference to (not a copy of) the range?,https://github.com/w3c/selection-api/issues/40,2015-01-06T05:30:03Z,2022-07-12T23:23:06Z,kojiishi,Compatibility,0
+52937744,true,"support selection.containsNode(obj, true)",https://github.com/w3c/selection-api/issues/39,2014-12-26T20:21:37Z,2015-01-01T05:13:46Z,paulchef,,0
+51626251,true,Specify Selection.setPosition()?,https://github.com/w3c/selection-api/issues/38,2014-12-10T23:33:46Z,2015-08-13T01:44:50Z,foolip,,0
+51626140,true,Specify Selection.modify()?,https://github.com/w3c/selection-api/issues/37,2014-12-10T23:32:25Z,2022-07-13T05:43:28Z,foolip,Compatibility,2
+51601619,true,Specify Selection.empty() as an alias of removeAllRanges(),https://github.com/w3c/selection-api/issues/36,2014-12-10T19:41:38Z,2015-08-13T01:30:27Z,foolip,,0
+51600580,true,Specify Selection.type?,https://github.com/w3c/selection-api/issues/35,2014-12-10T19:32:32Z,2014-12-10T19:35:20Z,foolip,,0
+51600397,false,Specify baseNode/baseOffset/extentNode/extentOffset?,https://github.com/w3c/selection-api/issues/34,2014-12-10T19:31:03Z,2018-10-15T21:43:57Z,foolip,Compatibility,0
+51599020,true,unsigned long is never negative,https://github.com/w3c/selection-api/issues/33,2014-12-10T19:19:04Z,2015-08-19T13:38:53Z,foolip,,0
+51590568,false,Need to be able to tell if the caret is displayed at the beginning or the end of the line,https://github.com/w3c/selection-api/issues/32,2014-12-10T18:04:11Z,2016-08-18T00:31:16Z,BenjamP,NewAPI,2
+51590415,false,Need a way to get combining character status from Range or offset,https://github.com/w3c/selection-api/issues/31,2014-12-10T18:02:54Z,2016-08-18T00:31:23Z,BenjamP,NewAPI,0
+51566598,true,Make some arguments optional,https://github.com/w3c/selection-api/issues/30,2014-12-10T14:52:51Z,2016-03-01T06:47:25Z,foolip,,0
+51564353,true,"Add a ""Selection interface"" section",https://github.com/w3c/selection-api/issues/29,2014-12-10T14:32:45Z,2016-09-20T14:32:08Z,foolip,Editorial,0
+51367017,false,"Specify where the caret should be placed in the markup ",https://github.com/w3c/selection-api/issues/28,2014-12-08T23:22:36Z,2016-08-18T00:34:49Z,BenjamP,Compatibility,0
+51023192,false,caret-based selection movement,https://github.com/w3c/selection-api/issues/27,2014-12-04T20:15:57Z,2016-08-18T00:39:00Z,johanneswilm,Compatibility,0
+50780893,false,Should we include the default result in the beforeSelectionChange Event?,https://github.com/w3c/selection-api/issues/26,2014-12-03T05:06:46Z,2016-08-18T00:34:49Z,BenjamP,Compatibility,0
+49650458,true,What if the underlying range is changed?,https://github.com/w3c/selection-api/issues/25,2014-11-21T03:38:11Z,2014-11-21T04:12:55Z,hgl,,0
+47341069,false,Parallel Selection-like object for concurrent editing?,https://github.com/w3c/selection-api/issues/23,2014-10-30T22:55:24Z,2016-08-18T00:34:58Z,BenjamP,NewAPI,0
+47094577,false,Address non-selectable text,https://github.com/w3c/selection-api/issues/22,2014-10-28T23:27:03Z,2016-08-18T00:40:16Z,joanmarie,NewAPI|Compatibility,0
+46668999,false,Need a way to get BiDi dir from Range,https://github.com/w3c/selection-api/issues/21,2014-10-23T19:56:01Z,2016-08-18T00:31:47Z,BenjamP,NewAPI,0
+44551220,true,"Remove ""Specification"" from the title",https://github.com/w3c/selection-api/issues/15,2014-10-01T10:58:12Z,2014-12-03T05:05:47Z,AFBarstow,,0
+43825824,true,Add Selection.type to the spec,https://github.com/w3c/selection-api/issues/14,2014-09-24T23:11:39Z,2015-08-13T08:09:59Z,BenjamP,,0
+43168577,false,Clarify relationship between selectstart/selectionchange and keyboard/mouse events,https://github.com/w3c/selection-api/issues/11,2014-09-18T19:18:43Z,2016-08-18T00:35:31Z,rniwa,Compatibility,0
+42837381,true,Define select and selectionchange events,https://github.com/w3c/selection-api/issues/9,2014-09-16T01:54:37Z,2014-09-17T00:07:10Z,rniwa,,0
+42837370,true,Ensure we can only add ranges that are in the document associated with the selection,https://github.com/w3c/selection-api/issues/8,2014-09-16T01:54:25Z,2014-09-17T01:08:52Z,rniwa,,0
+42837341,false,Selection.toString is under specified,https://github.com/w3c/selection-api/issues/7,2014-09-16T01:53:51Z,2017-06-30T00:26:03Z,rniwa,Compatibility,0
+42837299,false,Define the visually equivalency.,https://github.com/w3c/selection-api/issues/6,2014-09-16T01:52:58Z,2016-08-18T00:35:31Z,rniwa,Compatibility,0
+42837274,false,Determine whether deleteFromDocument should replace selection's range or not,https://github.com/w3c/selection-api/issues/5,2014-09-16T01:52:31Z,2016-08-18T00:35:31Z,rniwa,Compatibility,0
+42837246,false,Determine whether removeRange needs to check object equality or not,https://github.com/w3c/selection-api/issues/4,2014-09-16T01:51:56Z,2016-08-18T00:35:31Z,rniwa,Compatibility,0
+42837138,false,Determine whether addRange() and removeAllRanges() should reset direction,https://github.com/w3c/selection-api/issues/3,2014-09-16T01:49:23Z,2020-02-04T00:10:29Z,rniwa,Compatibility,0
+42837111,false,Clarify association between a selection and its range,https://github.com/w3c/selection-api/issues/2,2014-09-16T01:48:52Z,2018-11-12T23:58:42Z,rniwa,Compatibility,0
+42837058,true,"Define ""editing hosts cannot have a selection""",https://github.com/w3c/selection-api/issues/1,2014-09-16T01:47:33Z,2022-07-13T03:42:20Z,rniwa,Editorial,0
