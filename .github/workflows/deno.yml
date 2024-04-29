@@ -13,9 +13,9 @@ on:
     - cron: "0 0/12 * * *"
   
   workflow_dispatch:
-  # push:
-  #   branches:
-  #     - main
+    push:
+      branches:
+        - hsinyi-custom-repos
 
 permissions:
   contents: write
