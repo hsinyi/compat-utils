@@ -8,10 +8,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1973432495,true,Clarify `mousedown` event target if the preceding `pointerdown` event listener removes the target,https://github.com/w3c/pointerevents/issues/492,2023-11-02T03:20:48Z,2024-01-31T17:57:20Z,masayuki-nakano,v3|v3-blocking,0
 1949960442,true,What happens when the pointer capture target is removed from DOM?,https://github.com/w3c/pointerevents/issues/487,2023-10-18T14:56:27Z,2023-11-08T15:48:18Z,mustaqahmed,v3|v3-blocking,0
 1938128000,true,Implicit release of pointer capture on DOM removal doesn't match touch-events,https://github.com/w3c/pointerevents/issues/486,2023-10-11T15:41:25Z,2023-12-06T16:36:52Z,flackr,v3|v3-blocking,0
-1896822640,false,Wide review for Pointer Events 3,https://github.com/w3c/pointerevents/issues/482,2023-09-14T15:29:16Z,2024-03-26T15:44:49Z,plehegar,v3|v3-blocking|w3c,0
+1896822640,false,Wide review for Pointer Events 3,https://github.com/w3c/pointerevents/issues/482,2023-09-14T15:29:16Z,2024-04-24T10:39:59Z,plehegar,v3|v3-blocking|w3c,0
 1875761694,true,"[chore] Failed job: Couldn’t find “non secure context“ ",https://github.com/w3c/pointerevents/issues/481,2023-08-31T15:26:24Z,2023-09-25T16:50:10Z,plehegar,admin,0
 1864950512,true,Add support for laptop touchpads responding to the `touch-action` prop,https://github.com/w3c/pointerevents/issues/478,2023-08-24T11:25:40Z,2023-10-24T22:01:28Z,NashJames,,0
-1814993315,true,Clarify `pointerleave` and `pointerout` events when first pointer move after removing an element under the pointer,https://github.com/w3c/pointerevents/issues/477,2023-07-21T00:42:54Z,2024-02-14T16:26:36Z,masayuki-nakano,v3|v3-blocking|needs-wpt,0
+1814993315,true,Clarify `pointerleave` and `pointerout` events when first pointer move after removing an element under the pointer,https://github.com/w3c/pointerevents/issues/477,2023-07-21T00:42:54Z,2024-04-11T08:12:20Z,masayuki-nakano,v3|v3-blocking|needs-wpt,0
 1770553325,true,Title hover before/after show event,https://github.com/w3c/pointerevents/issues/475,2023-06-23T00:14:12Z,2023-06-23T00:18:08Z,madprops,,0
 1726410559,true,consider to change the behavior of getCoalescedEvents on non-SecureContext,https://github.com/w3c/pointerevents/issues/472,2023-05-25T19:57:40Z,2023-08-30T17:32:58Z,smaug----,v3,0
 1724291480,false,Making PointerEvents a living standard after v3?,https://github.com/w3c/pointerevents/issues/471,2023-05-24T15:44:40Z,2023-09-14T15:40:16Z,mustaqahmed,future|w3c,0
@@ -56,7 +56,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 846922562,true,Clarify what the target of the click event should be after capturing pointer events,https://github.com/w3c/pointerevents/issues/356,2021-03-31T16:16:30Z,2024-02-26T14:50:17Z,smaug----,v3,0
 846823656,true,"Order of pointer events across frames when using pointer capture ",https://github.com/w3c/pointerevents/issues/355,2021-03-31T15:00:57Z,2022-11-28T14:59:27Z,liviutinta,v3,0
 849820902,false,touch-action: disable webview swipe back behavior,https://github.com/w3c/pointerevents/issues/358,2021-03-30T13:59:06Z,2024-03-12T14:33:08Z,liamdebeasi,future,31
-819611060,false,Multi-pen support and persistent pointerId,https://github.com/w3c/pointerevents/issues/353,2021-03-02T04:48:16Z,2024-02-27T20:43:50Z,scottlow,future,0
+819611060,false,Multi-pen support and persistent pointerId,https://github.com/w3c/pointerevents/issues/353,2021-03-02T04:48:16Z,2024-04-24T15:05:38Z,scottlow,future,0
 784444415,true,Should pointerover and pointerenter work on mobile?,https://github.com/w3c/pointerevents/issues/346,2021-01-12T17:40:48Z,2022-06-02T17:04:50Z,trusktr,,0
 782717341,true,event.movementX is always zero in pointerup event.,https://github.com/w3c/pointerevents/issues/344,2021-01-10T01:05:14Z,2021-01-10T01:44:36Z,trusktr,,0
 769109541,true,Reserved pointerIds for special cases,https://github.com/w3c/pointerevents/issues/343,2020-12-16T17:06:12Z,2021-01-12T18:42:26Z,mustaqahmed,,0
@@ -185,7 +185,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 164862421,true,"Current draft: the definitions of tiltY and twist are ""hidden""!",https://github.com/w3c/pointerevents/issues/103,2016-07-11T15:15:35Z,2016-07-12T18:43:53Z,mustaqahmed,,0
 164861588,true,"Current draft: the definitions of tiltY and twist is not visible""",https://github.com/w3c/pointerevents/issues/102,2016-07-11T15:12:17Z,2016-07-11T15:34:25Z,mustaqahmed,,0
 164390499,true,"Should ""click"", ""dblclick"" and ""contextmenu"" events be PointerEvents?",https://github.com/w3c/pointerevents/issues/100,2016-07-07T19:39:57Z,2023-05-17T15:29:03Z,RByers,bug|v3,0
-163690936,true,What should be the 'detail' property of pointer events?,https://github.com/w3c/pointerevents/issues/98,2016-07-04T14:44:19Z,2023-07-11T15:55:30Z,NavidZ,,2
+163690936,true,What should be the 'detail' property of pointer events?,https://github.com/w3c/pointerevents/issues/98,2016-07-04T14:44:19Z,2024-04-06T10:39:03Z,NavidZ,,2
 162638687,true,strange/interesting results for Wacom Intuos Pro hovering clicks,https://github.com/w3c/pointerevents/issues/97,2016-06-28T09:14:30Z,2016-06-28T19:18:08Z,patrickhlauke,,0
 161724978,true,Add feature detection section,https://github.com/w3c/pointerevents/issues/94,2016-06-22T16:14:00Z,2016-08-05T19:09:16Z,RByers,,0
 161470880,true,Clarify click event firing for chorded buttons,https://github.com/w3c/pointerevents/issues/93,2016-06-21T15:40:45Z,2016-07-06T18:40:28Z,mustaqahmed,,0
