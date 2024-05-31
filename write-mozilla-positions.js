@@ -1,9 +1,9 @@
 import activities_json from "https://raw.githubusercontent.com/mozilla/standards-positions/main/activities.json" assert { type: "json" };
 import { csv_to_json, fetchWithToken, GH_PROJECT_ID } from "./deps.js";
-import { parseArgs } from "https://deno.land/std@0.224.0/flags/mod.ts";
-import { ensureDirSync } from "https://deno.land/std@0.224.0/fs/mod.ts";
+import { parse } from "https://deno.land/std@0.119.0/flags/mod.ts";
+import { ensureDirSync } from "https://deno.land/std@0.119.0/fs/mod.ts";
 
-const flags = parseArgs(Deno.args, {
+const flags = parse(Deno.args, {
   backfill_project_metadata: false,
   remote_fetch_project_issues: false,
 });
