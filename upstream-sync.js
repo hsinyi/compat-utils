@@ -2,7 +2,7 @@
 
 import { parse as parseCsv } from "https://deno.land/std@0.82.0/encoding/csv.ts";
 
-import { configSync } from "https://deno.land/std@0.137.0/dotenv/mod.ts";
+import { configSync } from "https://deno.land/std@0.224.0/dotenv/mod.ts";
 const CONFIG = Object.assign({}, Deno.env.toObject(), configSync());
 
 /*
