@@ -23,7 +23,7 @@ export const REPOS = [
   "whatwg/html",
 ];
 
-import { configSync } from "https://deno.land/std@0.137.0/dotenv/mod.ts";
+import { configSync } from "https://deno.land/std@0.224.0/dotenv/mod.ts";
 const CONFIG = Object.assign({}, Deno.env.toObject(), configSync());
 export const { GH_TOKEN, GH_PROJECT_ID } = CONFIG;
 
