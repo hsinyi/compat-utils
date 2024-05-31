@@ -1,5 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2285828515,false,`MutationObserver` flag to observe mutations in (open) shadow trees to facilitate polyfills of HTML syntax,https://github.com/whatwg/dom/issues/1287,2024-05-08T15:02:58Z,2024-05-09T11:16:52Z,LeaVerou,topic: shadow|needs implementer interest|addition/proposal,1
+2322048867,true,Closed Shadow DOM blocks accessibility testing,https://github.com/whatwg/dom/issues/1290,2024-05-28T23:02:18Z,2024-05-29T13:19:39Z,tgrushka,topic: shadow|accessibility,4
+2304047539,false,Add a method like .addTeardown to AbortSignal,https://github.com/whatwg/dom/issues/1289,2024-05-18T11:43:23Z,2024-05-23T01:26:27Z,Jamesernator,needs implementer interest|addition/proposal|topic: aborting,1
+2300332837,false,Request for mechanism to determine if children changed steps are called as a result of script or parser,https://github.com/whatwg/dom/issues/1288,2024-05-16T12:55:35Z,2024-05-16T14:22:07Z,lukewarlow,addition/proposal|needs concrete proposal|topic: nodes,0
+2285828515,false,`MutationObserver` flag to observe mutations in (open) shadow trees to facilitate polyfills of HTML syntax,https://github.com/whatwg/dom/issues/1287,2024-05-08T15:02:58Z,2024-05-15T08:05:09Z,LeaVerou,topic: shadow|needs implementer interest|addition/proposal,2
 2276092070,false,Proposal: elementsFromRect(),https://github.com/whatwg/dom/issues/1286,2024-05-02T17:24:16Z,2024-05-07T20:22:07Z,justinfagnani,needs implementer interest|addition/proposal,11
 2268549974,false,Proposal: SelectorObserver,https://github.com/whatwg/dom/issues/1285,2024-04-29T09:30:09Z,2024-04-30T19:44:56Z,keithamus,needs implementer interest|addition/proposal,4
 2266687616,false,`mutationObserver.disconnect({ flush: true })`,https://github.com/whatwg/dom/issues/1283,2024-04-27T01:16:32Z,2024-04-29T06:48:44Z,LeaVerou,needs implementer interest|addition/proposal|topic: nodes,1
@@ -14,7 +17,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2186991156,false,Add extend and modify methods for the Range object,https://github.com/whatwg/dom/issues/1264,2024-03-14T18:20:58Z,2024-03-14T18:20:58Z,snnsnn,needs implementer interest|addition/proposal,0
 2165019807,false,Ability to reset an AbortSignal.timeout,https://github.com/whatwg/dom/issues/1263,2024-03-02T23:04:35Z,2024-03-03T07:40:48Z,jasnell,,0
 2156327954,true,"""connected"" should be defined for all kinds of nodes",https://github.com/whatwg/dom/issues/1259,2024-02-27T11:17:39Z,2024-02-28T08:11:30Z,zcorpan,,1
-2134995640,false,Atomic move operation for element reparenting & reordering,https://github.com/whatwg/dom/issues/1255,2024-02-14T19:00:33Z,2024-05-08T15:09:18Z,domfarolino,needs implementer interest|addition/proposal|stage: 1,139
+2134995640,false,Atomic move operation for element reparenting & reordering,https://github.com/whatwg/dom/issues/1255,2024-02-14T19:00:33Z,2024-05-16T03:10:31Z,domfarolino,needs implementer interest|addition/proposal|stage: 1,163
 2121320218,false,Make some ShadowRoot attributes mutable,https://github.com/whatwg/dom/issues/1252,2024-02-06T17:20:13Z,2024-02-06T18:47:14Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,0
 2116555216,true,Support for appending a cloned template adjacent to an existing element,https://github.com/whatwg/dom/issues/1250,2024-02-03T16:00:00Z,2024-02-04T07:46:29Z,bahrus,needs implementer interest|addition/proposal,0
 2106290867,true,How should `clonable` work in `cloneNode(false)`?,https://github.com/whatwg/dom/issues/1249,2024-01-29T19:48:11Z,2024-04-04T07:27:24Z,mfreed7,topic: shadow|topic: nodes,0
@@ -479,7 +482,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 179494457,true,"Standardize srcElement, returnValue, and window.event",https://github.com/whatwg/dom/issues/334,2016-09-27T13:34:13Z,2018-06-07T23:12:03Z,annevk,topic: shadow|web reality|topic: events,3
 179033427,true,Consider adding Promise-based API for listerning event,https://github.com/whatwg/dom/issues/333,2016-09-24T14:44:05Z,2017-03-16T13:51:23Z,upsuper,,1
 178690609,true,Why is the second parameter to MutationObserver.observe() optional?,https://github.com/whatwg/dom/issues/332,2016-09-22T18:49:37Z,2016-09-23T06:52:08Z,cdumez,,0
-178479710,false,Symbols should be allowed as Event types.,https://github.com/whatwg/dom/issues/331,2016-09-21T22:38:26Z,2022-01-27T20:15:02Z,bicknellr,needs implementer interest|topic: events|addition/proposal,21
+178479710,false,Symbols should be allowed as Event types.,https://github.com/whatwg/dom/issues/331,2016-09-21T22:38:26Z,2022-01-27T20:15:02Z,bicknellr,needs implementer interest|topic: events|addition/proposal,23
 178126061,true,Will there be a special nodeType for shadow root?,https://github.com/whatwg/dom/issues/330,2016-09-20T17:38:07Z,2016-09-21T18:04:54Z,dvoytenko,,1
 177088210,true,Make Element's slot attributes Unscopable,https://github.com/whatwg/dom/issues/328,2016-09-15T04:53:17Z,2016-09-15T08:12:04Z,hayatoito,,0
 176583562,true,event.composedPath() should not return every items in path if event.currentTarget is window,https://github.com/whatwg/dom/issues/326,2016-09-13T08:44:08Z,2016-09-14T04:43:55Z,hayatoito,,0
