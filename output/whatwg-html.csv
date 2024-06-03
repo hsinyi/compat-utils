@@ -459,7 +459,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1752408827,true,https://html.spec.whatwg.org/#hide-popover-algorithm's invocation of https://html.spec.whatwg.org/#hide-all-popovers-until loops infinitely for certain nested popovers,https://github.com/whatwg/html/issues/9415,2023-06-12T10:19:05Z,2023-06-14T12:34:26Z,mbrodesser-Igalia,topic: popover,0
 1752342253,true,"Popover: consider renaming ""auto popover list"" to ""auto showing popover list"" ",https://github.com/whatwg/html/issues/9413,2023-06-12T09:44:30Z,2023-09-26T09:55:34Z,mbrodesser-Igalia,clarification|editorial|topic: popover,1
 1752223030,true,https://html.spec.whatwg.org/#hide-popover-algorithm lacks initial value for `nestedHide` variable,https://github.com/whatwg/html/issues/9412,2023-06-12T08:37:30Z,2023-06-14T11:17:57Z,mbrodesser-Igalia,topic: popover,0
-1748867844,false,Timer initialization steps for repeating timers does not match UA behavior,https://github.com/whatwg/html/issues/9402,2023-06-09T00:42:31Z,2023-06-09T06:26:46Z,shaseley,compat|topic: event loop,3
+1748867844,false,Timer initialization steps for repeating timers does not match UA behavior,https://github.com/whatwg/html/issues/9402,2023-06-09T00:42:31Z,2023-06-09T06:26:46Z,shaseley,compat|topic: event loop,4
 1745526561,true,"""Update the image data"" can dereference null ""pending request"" in multiple places",https://github.com/whatwg/html/issues/9398,2023-06-07T10:06:19Z,2023-06-09T12:15:43Z,awesomekling,topic: img,0
 1744994841,true,Is it expected that Document has [LegacyOverrideBuiltIns]?,https://github.com/whatwg/html/issues/9394,2023-06-07T04:11:51Z,2023-06-07T12:14:44Z,yuki3,,0
 1743957228,true,"issues with optionality of oldParent in HTML element removing steps, particularly with removal of optgroups",https://github.com/whatwg/html/issues/9390,2023-06-06T14:09:00Z,2023-08-25T10:54:15Z,dbaron,topic: forms|topic: img|integration,0
@@ -3211,7 +3211,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 268891928,true,"Dev edition: ""About this specification"" is on every page, oops!",https://github.com/whatwg/html/issues/3160,2017-10-26T19:59:56Z,2017-10-31T22:13:41Z,domenic,dev edition,0
 268702623,true,<img> element state,https://github.com/whatwg/html/issues/3158,2017-10-26T10:11:04Z,2017-11-23T10:24:59Z,annevk,clarification|topic: img,0
 267478371,true,Noah clause,https://github.com/whatwg/html/issues/3156,2017-10-22T16:26:53Z,2017-10-23T17:42:12Z,Pacerier,,0
-267401893,false,Should setInterval account for execution delays to prevent drift?,https://github.com/whatwg/html/issues/3151,2017-10-21T18:09:15Z,2018-01-17T03:34:09Z,lpd-au,interop,0
+267401893,false,Should setInterval account for execution delays to prevent drift?,https://github.com/whatwg/html/issues/3151,2017-10-21T18:09:15Z,2018-01-17T03:34:09Z,lpd-au,interop,1
 267278577,false,Cross-origin error muting is possibly not interoperable,https://github.com/whatwg/html/issues/3149,2017-10-20T19:23:40Z,2017-10-22T15:21:52Z,domenic,topic: script|interop,0
 267061925,true,"Make <slot>'s UA style, ""display: contents"", be !important",https://github.com/whatwg/html/issues/3143,2017-10-20T04:39:49Z,2017-10-20T06:08:50Z,hayatoito,,0
 266869002,true,"""Two adjacent Text nodes in the document, contai...""",https://github.com/whatwg/html/issues/3142,2017-10-19T14:43:28Z,2017-10-22T16:12:12Z,Pacerier,,0
@@ -4312,7 +4312,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 147086397,false,<li> inside <summary> inherits list-style-position: inside,https://github.com/whatwg/html/issues/1020,2016-04-09T04:04:56Z,2019-08-21T13:41:30Z,aethanyc,topic: rendering|needs tests|interop,0
 147002364,true,Element interfaces across browsers,https://github.com/whatwg/html/issues/1015,2016-04-08T18:26:50Z,2016-04-22T19:45:58Z,domenic,compat,0
 146973001,true,Allow start day of week to be specified for <input type=date />,https://github.com/whatwg/html/issues/1014,2016-04-08T16:17:57Z,2016-04-29T20:30:35Z,ghost,addition/proposal,0
-146815410,false,Introduce pointer to <script> element in module scripts,https://github.com/whatwg/html/issues/1013,2016-04-08T05:08:46Z,2024-03-14T13:38:13Z,annevk,addition/proposal|topic: script,9
+146815410,false,Introduce pointer to <script> element in module scripts,https://github.com/whatwg/html/issues/1013,2016-04-08T05:08:46Z,2024-03-14T13:38:13Z,annevk,addition/proposal|topic: script,10
 146576462,true,Editornal: missing closed parenthesis,https://github.com/whatwg/html/issues/1009,2016-04-07T10:37:46Z,2016-04-08T02:22:38Z,momdo,,0
 146343884,true,"Developers.whatwg requesting insecure Google fonts ",https://github.com/whatwg/html/issues/1007,2016-04-06T15:08:50Z,2016-04-12T19:08:57Z,pjconnors,,0
 146189083,true,Workers: Curtail the browser's license to kill,https://github.com/whatwg/html/issues/1004,2016-04-06T05:20:01Z,2017-04-19T07:37:31Z,lars-t-hansen,normative change|needs implementer interest|topic: workers,0
