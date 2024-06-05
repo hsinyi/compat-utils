@@ -1,9 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2333893692,false,"Editorial: For `CONTRIBUTING.md`, add explicit references to patterns we've evolved over time",https://github.com/whatwg/html/pull/10392,2024-06-04T16:05:05Z,2024-06-04T17:21:55Z,domfarolino,,1
+2335131210,false,Add a `noopener-allow-popups` value to COOP,https://github.com/whatwg/html/pull/10394,2024-06-05T07:34:33Z,2024-06-05T10:06:14Z,yoavweiss,,0
+2334993245,false,Don't set hashChange to true for classic history API navigate events,https://github.com/whatwg/html/pull/10393,2024-06-05T06:13:48Z,2024-06-05T06:16:34Z,domenic,,0
+2333893692,false,"Editorial: For `CONTRIBUTING.md`, add explicit references to patterns we've evolved over time",https://github.com/whatwg/html/pull/10392,2024-06-04T16:05:05Z,2024-06-05T11:50:17Z,domfarolino,,1
 2329069209,true,Match order of arguments when calling 'getting the descendant script fetch options',https://github.com/whatwg/html/pull/10385,2024-06-01T10:41:13Z,2024-06-03T04:44:32Z,jamierocks,topic: script,0
 2326224026,false,Latest WebAssembly ESM Integration rebase,https://github.com/whatwg/html/pull/10380,2024-05-30T17:37:52Z,2024-05-30T22:20:14Z,guybedford,,0
 2323722981,true,Navigation: Pass a global object to consume history-action activation AO,https://github.com/whatwg/html/pull/10375,2024-05-29T16:21:03Z,2024-05-30T02:10:19Z,ADKaster,topic: navigation,0
-2322971728,false,Add an `omit` value to Cross-Origin-Opener-Policy,https://github.com/whatwg/html/pull/10374,2024-05-29T10:32:55Z,2024-05-29T10:34:25Z,yoavweiss,,0
+2322971728,true,Add an `omit` value to Cross-Origin-Opener-Policy,https://github.com/whatwg/html/pull/10374,2024-05-29T10:32:55Z,2024-06-05T07:31:31Z,yoavweiss,,0
 2317911685,true,Editorial: fix more typos,https://github.com/whatwg/html/pull/10369,2024-05-26T20:01:59Z,2024-05-27T13:53:57Z,jmdyck,,0
 2316977161,true,Fix typo in ElementContentEditable,https://github.com/whatwg/html/pull/10367,2024-05-25T12:46:39Z,2024-06-03T06:48:49Z,FabijanC,,0
 2313820321,false,Add oncontentvisibilityautostatechange,https://github.com/whatwg/html/pull/10364,2024-05-23T20:49:37Z,2024-05-27T15:39:57Z,vmpstr,,0
@@ -240,7 +242,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1911295610,true,Editorial: clarify adoption agency step 13.3,https://github.com/whatwg/html/pull/9785,2023-09-25T11:40:32Z,2023-09-26T06:55:28Z,not-my-profile,,0
 1909692719,true,"Editorial: make note about ""in body"" insertion mode account for edge case",https://github.com/whatwg/html/pull/9780,2023-09-23T03:33:03Z,2023-09-26T11:05:32Z,not-my-profile,topic: parser,0
 1909681938,true,Meta: make Wattsi Syntax link more prominent in CONTRIBUTING.md,https://github.com/whatwg/html/pull/9779,2023-09-23T02:46:33Z,2023-09-25T07:35:18Z,not-my-profile,,0
-1909677474,false,Add popover=hint,https://github.com/whatwg/html/pull/9778,2023-09-23T02:27:22Z,2024-06-04T09:29:02Z,josepharhar,topic: popover,1
+1909677474,false,Add popover=hint,https://github.com/whatwg/html/pull/9778,2023-09-23T02:27:22Z,2024-06-05T11:47:27Z,josepharhar,topic: popover,1
 1909479750,false,Queue toggle events and dialog close with microtasks,https://github.com/whatwg/html/pull/9775,2023-09-22T20:24:57Z,2023-11-14T08:05:49Z,josepharhar,,0
 1908359160,true,Un-break build by making review-drafts/2023-07.wattsi use non-void <ref></ref>,https://github.com/whatwg/html/pull/9772,2023-09-22T07:38:51Z,2023-09-22T08:38:40Z,sideshowbarker,,0
 1907618502,false,Add TextTrackCue ctor & cue + cuebackground attributes,https://github.com/whatwg/html/pull/9771,2023-09-21T19:22:21Z,2023-11-19T23:57:57Z,marcoscaceres,addition/proposal|topic: media,1
@@ -446,7 +448,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1629849072,true,"Add ""check and possibly close popover stack"" algorithm",https://github.com/whatwg/html/pull/9048,2023-03-17T19:38:48Z,2023-05-08T16:13:16Z,josepharhar,topic: popover,0
 1629737267,true,Spec :user-invalid & :user-valid,https://github.com/whatwg/html/pull/9047,2023-03-17T18:17:04Z,2023-08-28T17:13:49Z,nt1m,,2
 1627835465,true,Modernize and correct <dialog> show() and showModal(),https://github.com/whatwg/html/pull/9039,2023-03-16T16:15:40Z,2023-03-19T17:22:52Z,annevk,topic: dialog|topic: popover,0
-1627734287,false,Add the HostSystemUTCEpochNanoseconds abstract operation,https://github.com/whatwg/html/pull/9038,2023-03-16T15:21:28Z,2023-11-14T08:05:50Z,Ms2ger,do not merge yet|integration,1
+1627734287,false,Add the HostSystemUTCEpochNanoseconds abstract operation,https://github.com/whatwg/html/pull/9038,2023-03-16T15:21:28Z,2024-06-05T10:19:37Z,Ms2ger,do not merge yet|integration,1
 1625594332,true,Define the processing model for dns-prefetch,https://github.com/whatwg/html/pull/9029,2023-03-15T14:03:08Z,2023-03-16T12:05:54Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1623904502,true,accessibility popover guidance,https://github.com/whatwg/html/pull/9024,2023-03-14T16:50:03Z,2023-03-20T12:55:01Z,scottaohara,accessibility|topic: popover,0
 1623084942,true,"Export ""listener"" and ""event handler map"".",https://github.com/whatwg/html/pull/9021,2023-03-14T09:35:47Z,2023-03-17T08:14:35Z,yoshisatoyanagisawa,,0
