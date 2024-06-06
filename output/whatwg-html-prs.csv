@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2335131210,false,Add a `noopener-allow-popups` value to COOP,https://github.com/whatwg/html/pull/10394,2024-06-05T07:34:33Z,2024-06-05T10:06:14Z,yoavweiss,,0
-2334993245,false,Don't set hashChange to true for classic history API navigate events,https://github.com/whatwg/html/pull/10393,2024-06-05T06:13:48Z,2024-06-05T06:16:34Z,domenic,,0
-2333893692,false,"Editorial: For `CONTRIBUTING.md`, add explicit references to patterns we've evolved over time",https://github.com/whatwg/html/pull/10392,2024-06-04T16:05:05Z,2024-06-05T11:50:17Z,domfarolino,,1
+2334993245,false,Don't set hashChange to true for classic history API navigate events,https://github.com/whatwg/html/pull/10393,2024-06-05T06:13:48Z,2024-06-05T21:40:53Z,domenic,,0
+2333893692,false,"Editorial: For `CONTRIBUTING.md`, add explicit references to patterns we've evolved over time",https://github.com/whatwg/html/pull/10392,2024-06-04T16:05:05Z,2024-06-05T12:22:56Z,domfarolino,,1
 2329069209,true,Match order of arguments when calling 'getting the descendant script fetch options',https://github.com/whatwg/html/pull/10385,2024-06-01T10:41:13Z,2024-06-03T04:44:32Z,jamierocks,topic: script,0
 2326224026,false,Latest WebAssembly ESM Integration rebase,https://github.com/whatwg/html/pull/10380,2024-05-30T17:37:52Z,2024-05-30T22:20:14Z,guybedford,,0
 2323722981,true,Navigation: Pass a global object to consume history-action activation AO,https://github.com/whatwg/html/pull/10375,2024-05-29T16:21:03Z,2024-05-30T02:10:19Z,ADKaster,topic: navigation,0
@@ -35,7 +35,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2235643011,true,Editorial: Upstream outerHTML property from DOM Parsing,https://github.com/whatwg/html/pull/10270,2024-04-10T13:45:27Z,2024-04-18T07:35:37Z,lukewarlow,addition/proposal|topic: parser,0
 2234668173,true,"Add subresource integrity support for ES modules, through importmaps",https://github.com/whatwg/html/pull/10269,2024-04-10T03:02:35Z,2024-05-31T01:11:51Z,yoavweiss,addition/proposal|topic: script,0
 2234134025,true,Editorial: Add warning about lack of sanitization to HTML parsing functions.,https://github.com/whatwg/html/pull/10267,2024-04-09T19:06:20Z,2024-04-10T09:34:23Z,lukewarlow,,0
-2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-06-03T20:06:51Z,dbaron,normative change|topic: rendering,2
+2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-06-05T15:47:57Z,dbaron,normative change|topic: rendering,2
 2233706241,true,Editorial: Upstream innerHTML property from DOM Parsing spec,https://github.com/whatwg/html/pull/10264,2024-04-09T15:20:35Z,2024-04-15T10:06:49Z,lukewarlow,addition/proposal|topic: parser,0
 2232343705,true,Fix typo in MessagePort postMessage,https://github.com/whatwg/html/pull/10263,2024-04-08T23:50:42Z,2024-04-09T02:08:04Z,Kaiido,,0
 2230935302,true,Closed shadow roots can be serializable too,https://github.com/whatwg/html/pull/10260,2024-04-08T11:21:50Z,2024-04-10T06:51:57Z,annevk,normative change|topic: shadow,0
@@ -303,7 +303,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2023-07-20T13:26:04Z,cijian23,spam,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,true,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-10-11T23:22:22Z,josepharhar,addition/proposal|topic: parser|impacts documentation,1
-1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2024-06-04T19:29:32Z,graveljp,topic: canvas,0
+1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2024-06-05T20:58:05Z,graveljp,topic: canvas,0
 1810870126,true,Define srcdoc documents as matching about:srcdoc URL,https://github.com/whatwg/html/pull/9534,2023-07-18T23:37:14Z,2023-07-20T03:49:15Z,domfarolino,topic: browsing context|topic: document.open()|topic: javascript: URLs,0
 1810164917,true,Fix non-fetch-scheme-params-initiator-origin assignment,https://github.com/whatwg/html/pull/9532,2023-07-18T15:25:02Z,2023-07-19T07:17:21Z,domfarolino,topic: navigation,0
 1809663999,true,Add types to parameters of script fetching algorithms,https://github.com/whatwg/html/pull/9530,2023-07-18T10:39:07Z,2023-07-20T06:18:13Z,nicolo-ribaudo,,0
