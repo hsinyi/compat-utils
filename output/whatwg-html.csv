@@ -1,6 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2346169253,false,HTML parser doesn't tell when it should suspend and resume,https://github.com/whatwg/html/issues/10406,2024-06-11T11:26:35Z,2024-06-11T11:26:35Z,dSalieri,,0
-2338907359,false,Meeting 3 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10401,2024-06-06T18:27:54Z,2024-06-06T18:27:54Z,past,agenda+,0
+2347151517,false,Proposal: CSS reading-order-items,https://github.com/whatwg/html/issues/10407,2024-06-11T19:38:53Z,2024-06-11T21:08:22Z,dizhang168,,0
+2346169253,false,HTML parser doesn't tell when it should suspend and resume,https://github.com/whatwg/html/issues/10406,2024-06-11T11:26:35Z,2024-06-11T14:18:15Z,dSalieri,clarification|topic: parser,0
+2338907359,false,Meeting 3 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10401,2024-06-06T18:27:54Z,2024-06-11T17:48:24Z,past,agenda+,0
 2338735543,false,Upcoming WHATNOT meeting on 6/13/2024,https://github.com/whatwg/html/issues/10400,2024-06-06T16:52:14Z,2024-06-06T16:52:14Z,past,agenda+,0
 2336942518,true,CSS colors parsed for canvas use should explicitly state the element to resolve currentcolor against,https://github.com/whatwg/html/issues/10398,2024-06-05T22:37:08Z,2024-06-08T06:36:02Z,heycam,topic: canvas,0
 2336759924,false,Error codes for parse errors during tree construction,https://github.com/whatwg/html/issues/10397,2024-06-05T20:16:27Z,2024-06-06T13:04:50Z,stevecheckoway,topic: parser,0
@@ -246,7 +247,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2041234260,false,"colspan=""0"": Formalize a way to get a cell to span all/remaining columns",https://github.com/whatwg/html/issues/9992,2023-12-14T08:53:57Z,2024-01-08T16:57:21Z,andrerom,addition/proposal|needs implementer interest|topic: table,1
 2040145190,false,select.showPicker() in content-visibility: hidden subtree,https://github.com/whatwg/html/issues/9991,2023-12-13T17:10:42Z,2023-12-19T20:46:09Z,lukewarlow,,0
 2036911436,true,Editorial: link the Promise<T> type throughout,https://github.com/whatwg/html/issues/9987,2023-12-12T03:38:59Z,2024-03-15T08:02:25Z,domenic,good first issue|editorial,0
-2033957372,false,<datalist> behavior(s) are inconsistent and unhelpful when options are prefiltered,https://github.com/whatwg/html/issues/9986,2023-12-09T17:36:53Z,2023-12-09T18:19:06Z,broofa,,0
+2033957372,false,<datalist> behavior(s) are inconsistent and unhelpful when options are prefiltered,https://github.com/whatwg/html/issues/9986,2023-12-09T17:36:53Z,2023-12-09T18:19:06Z,broofa,,1
 2028951452,false,"ShadowRoot with true delegatesFocus, predict the target",https://github.com/whatwg/html/issues/9982,2023-12-06T16:32:41Z,2023-12-06T16:33:36Z,flavi1,addition/proposal|needs implementer interest,0
 2028286303,false,Normative references to discontinued specs in HTML Standard,https://github.com/whatwg/html/issues/9981,2023-12-06T11:00:58Z,2023-12-07T06:39:38Z,dontcallmedom-bot,clarification,0
 2024998082,true,Event handler attributes missing from element content attribute definitions,https://github.com/whatwg/html/issues/9978,2023-12-04T23:40:38Z,2023-12-04T23:44:50Z,isAdrisal,,0
@@ -393,7 +394,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2024-03-14T17:43:28Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,5
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,true,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-09-07T21:38:07Z,past,agenda+,0
-1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-06-10T17:09:15Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|agenda+|topic: popover,36
+1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-06-11T22:06:35Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|agenda+|topic: popover,36
 1862349856,false,Add `allow-unique-origin` keyword in iframe/CSP sandbox,https://github.com/whatwg/html/issues/9623,2023-08-22T23:56:53Z,2023-10-01T15:12:22Z,shhnjk,,0
 1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-28T19:21:24Z,woody-li,,0
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
@@ -658,7 +659,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1591498385,true,Feature request: Enable inclusion of .gz CSS and JS files without WebServer and the http protocol,https://github.com/whatwg/html/issues/8918,2023-02-20T09:44:46Z,2023-02-24T13:11:06Z,lucajung,,0
 1591397416,false,Canvas 2D context color serialization,https://github.com/whatwg/html/issues/8917,2023-02-20T08:41:59Z,2024-04-19T12:31:50Z,annevk,topic: canvas|integration,0
 1591084557,false,`<picture>` and `<source>` elements: How should 404s with placeholder image data be handled?,https://github.com/whatwg/html/issues/8916,2023-02-20T03:53:17Z,2023-02-24T21:31:11Z,DavidJCobb,clarification|topic: img|topic: fetch,0
-1589837748,false,Adding document subtitle to the spec.,https://github.com/whatwg/html/issues/8909,2023-02-17T19:06:05Z,2023-02-18T05:24:06Z,diekus,addition/proposal|needs implementer interest,0
+1589837748,false,Adding document subtitle to the spec.,https://github.com/whatwg/html/issues/8909,2023-02-17T19:06:05Z,2024-06-11T15:08:50Z,diekus,addition/proposal|needs implementer interest,0
 1589211658,true,ssh protocol handler is broken,https://github.com/whatwg/html/issues/8907,2023-02-17T11:26:55Z,2023-02-24T15:24:44Z,SoniEx2,security/privacy|topic: custom protocols,0
 1588826401,false,"""unloading document cleanup steps"" run in an unclear order",https://github.com/whatwg/html/issues/8906,2023-02-17T06:35:28Z,2023-12-14T05:40:49Z,domenic,,0
 1588690305,true,The previous focus change that was applied to dialog close has unexpected behavior for non-modal dialogs,https://github.com/whatwg/html/issues/8904,2023-02-17T03:18:23Z,2023-05-12T16:51:31Z,sirisian,topic: dialog,0
@@ -2045,7 +2046,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 564341501,true,Example of focusable areas should not include link elements that have an href attribute,https://github.com/whatwg/html/issues/5282,2020-02-12T23:24:47Z,2020-02-14T18:15:19Z,ekashida,,0
 564274023,true,Schemelessly same site's algorithm appears to have a typo,https://github.com/whatwg/html/issues/5281,2020-02-12T21:10:45Z,2020-02-14T12:55:10Z,sbingler,,0
 564125567,false,Shadow DOM and semantic HTML,https://github.com/whatwg/html/issues/5280,2020-02-12T16:42:40Z,2020-02-12T17:54:44Z,hadriann,clarification|topic: shadow|accessibility,0
-563509542,true,Read and Modify an input Element's Dirty Flag,https://github.com/whatwg/html/issues/5275,2020-02-11T22:02:49Z,2023-08-01T04:10:32Z,scottfr,addition/proposal|needs implementer interest|topic: forms,2
+563509542,true,Read and Modify an input Element's Dirty Flag,https://github.com/whatwg/html/issues/5275,2020-02-11T22:02:49Z,2023-08-01T04:10:32Z,scottfr,addition/proposal|needs implementer interest|topic: forms,3
 563258563,false,First-party-origin WindowProxy isolation,https://github.com/whatwg/html/issues/5273,2020-02-11T14:50:13Z,2020-02-12T14:43:49Z,annevk,security/privacy|topic: multiple globals|topic: location,0
 563250043,false,First-party-origin History isolation,https://github.com/whatwg/html/issues/5272,2020-02-11T14:37:15Z,2020-02-11T15:34:17Z,annevk,topic: history,0
 562874426,true,Describe the algorithm used to parse the type attribute for link elements,https://github.com/whatwg/html/issues/5270,2020-02-10T22:45:48Z,2020-02-11T10:40:15Z,ehsan,,0
@@ -2634,7 +2635,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 386462297,true,Should the innerHTML of void elements include child nodes?,https://github.com/whatwg/html/issues/4220,2018-12-01T14:18:38Z,2018-12-19T20:52:39Z,Zirro,topic: parser|interop,0
 385599781,false,Syntax for <template> variables,https://github.com/whatwg/html/issues/4219,2018-11-29T07:15:18Z,2023-02-27T16:26:31Z,indolering,,1
 385465256,true,Consider making `X-Frame-Options: deny` to create a new browsing context group,https://github.com/whatwg/html/issues/4218,2018-11-28T21:30:53Z,2018-11-30T22:43:42Z,rniwa,addition/proposal|topic: navigation|topic: browsing context,0
-385405818,false,Image decode() algorithm has odd behavior,https://github.com/whatwg/html/issues/4217,2018-11-28T18:42:41Z,2018-11-30T11:18:06Z,bzbarsky,topic: img|interop,0
+385405818,false,Image decode() algorithm has odd behavior,https://github.com/whatwg/html/issues/4217,2018-11-28T18:42:41Z,2024-06-11T19:52:33Z,bzbarsky,topic: img|interop,0
 385368034,true,"Make <input type=""file""> reject dropped file(s) that don't match ""accept"" attribute",https://github.com/whatwg/html/issues/4216,2018-11-28T17:04:12Z,2018-12-10T08:52:21Z,caugner,,0
 385295522,true,MediaStream in HTMLMediaElement: Does it have a first frame?,https://github.com/whatwg/html/issues/4215,2018-11-28T14:33:12Z,2019-06-04T15:31:22Z,Pehrsons,topic: media,0
 385257818,true,Event loop does not account for worklets,https://github.com/whatwg/html/issues/4213,2018-11-28T13:01:53Z,2020-03-26T17:18:31Z,annevk,topic: event loop,0
@@ -3086,7 +3087,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 291547569,true,How should document.body setter behave when root is not an `<html>`?,https://github.com/whatwg/html/issues/3403,2018-01-25T12:06:56Z,2018-02-12T16:20:10Z,bzbarsky,interop,0
 291429949,true,"custom-elements: A step to add ""is"" content attribute in ""new""",https://github.com/whatwg/html/issues/3402,2018-01-25T02:31:28Z,2018-02-22T16:52:34Z,tkent-google,topic: custom elements,0
 291411857,false,"Please add default=""default"" to specification of submit buttons in forms",https://github.com/whatwg/html/issues/3401,2018-01-25T00:43:20Z,2021-11-06T02:23:34Z,Nadya678,addition/proposal|needs implementer interest|topic: forms,0
-291410137,false,"Allow <input type=""color""> to give an alpha channel and/or colors beyond sRGB?",https://github.com/whatwg/html/issues/3400,2018-01-25T00:32:53Z,2024-05-30T07:31:14Z,domenic,addition/proposal|needs implementer interest|topic: forms,41
+291410137,false,"Allow <input type=""color""> to give an alpha channel and/or colors beyond sRGB?",https://github.com/whatwg/html/issues/3400,2018-01-25T00:32:53Z,2024-05-30T07:31:14Z,domenic,addition/proposal|needs implementer interest|topic: forms,42
 291244767,true,Combine createImageBitmap() / createPattern() / drawImage() checks,https://github.com/whatwg/html/issues/3399,2018-01-24T15:14:36Z,2018-01-29T08:41:16Z,annevk,clarification|topic: canvas,0
 291182587,false,value of input elements with type Submit are not marked as translatable,https://github.com/whatwg/html/issues/3396,2018-01-24T11:58:21Z,2018-01-24T12:57:49Z,samhed,clarification|topic: forms,0
 291171366,false,Unified dictionary for getContext(),https://github.com/whatwg/html/issues/3395,2018-01-24T11:16:43Z,2018-01-26T10:04:02Z,annevk,normative change|topic: canvas,0
