@@ -30,7 +30,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2268312798,true,Editorial: group area's shape with other IDL attributes,https://github.com/whatwg/html/pull/10305,2024-04-29T07:23:37Z,2024-05-02T09:36:50Z,annevk,,1
 2267305629,true,"Editorial: Fix some typos, mostly markup",https://github.com/whatwg/html/pull/10302,2024-04-28T02:41:30Z,2024-04-29T14:46:52Z,jmdyck,,0
 2255690691,true,Always fire CloseWatcher/dialog cancel events,https://github.com/whatwg/html/pull/10291,2024-04-22T06:28:19Z,2024-05-10T01:54:43Z,domenic,normative change|topic: dialog|topic: close watchers,0
-2250995268,false,Switch trusted types sinks to use union type,https://github.com/whatwg/html/pull/10286,2024-04-18T15:34:38Z,2024-06-11T13:53:31Z,lukewarlow,,0
+2250995268,true,Switch trusted types sinks to use union type,https://github.com/whatwg/html/pull/10286,2024-04-18T15:34:38Z,2024-06-12T12:08:44Z,lukewarlow,,0
 2250131496,false,"Wrap ""activate view transition"" with script prepare/clean up",https://github.com/whatwg/html/pull/10284,2024-04-18T08:49:59Z,2024-04-22T12:24:23Z,noamr,,0
 2248917789,true,Editorial: Upstream the createContextualFragment method from DOM Parsing,https://github.com/whatwg/html/pull/10283,2024-04-17T18:06:22Z,2024-04-24T04:27:22Z,lukewarlow,addition/proposal|topic: parser,0
 2248730082,true,Editorial: Upstream the insertAdjacentHTML method from DOM Parsing,https://github.com/whatwg/html/pull/10282,2024-04-17T16:35:48Z,2024-04-19T08:33:33Z,lukewarlow,addition/proposal|topic: parser,0
@@ -62,7 +62,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2184548191,true,Upstream IDL changes from Trusted Types,https://github.com/whatwg/html/pull/10199,2024-03-13T17:32:11Z,2024-03-19T11:39:29Z,lukewarlow,,0
 2184496735,true,Upstream long-animation-frames monkey-patches,https://github.com/whatwg/html/pull/10198,2024-03-13T17:02:02Z,2024-03-27T02:30:41Z,noamr,integration|topic: timing,0
 2183409617,true,Fix: Editorial - link Promise<T> type throughout #9987,https://github.com/whatwg/html/pull/10197,2024-03-13T08:36:14Z,2024-03-15T08:02:24Z,tawandamoyo,,0
-2176725898,false,Support automatic user prompt handing in WebDriver BiDi,https://github.com/whatwg/html/pull/10189,2024-03-08T20:31:39Z,2024-06-11T09:28:36Z,jgraham,,0
+2176725898,false,Support automatic user prompt handing in WebDriver BiDi,https://github.com/whatwg/html/pull/10189,2024-03-08T20:31:39Z,2024-06-12T09:38:19Z,jgraham,,0
 2176615177,false,Use DOM's post-insertion steps for `<script>` elements,https://github.com/whatwg/html/pull/10188,2024-03-08T19:04:28Z,2024-05-13T14:40:57Z,domfarolino,topic: script,0
 2173817692,true,Improve non-normative note for rel-expect,https://github.com/whatwg/html/pull/10184,2024-03-07T13:03:21Z,2024-03-11T06:42:47Z,noamr,,0
 2171531993,true,[rendering] Simplify some UA styles to use shorthands where appropriate,https://github.com/whatwg/html/pull/10181,2024-03-06T13:35:35Z,2024-03-07T10:00:21Z,emilio,,0
@@ -307,7 +307,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2023-07-20T13:26:04Z,cijian23,spam,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,true,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-10-11T23:22:22Z,josepharhar,addition/proposal|topic: parser|impacts documentation,1
-1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2024-06-11T22:37:29Z,graveljp,topic: canvas,0
+1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2024-06-12T02:00:04Z,graveljp,topic: canvas,0
 1810870126,true,Define srcdoc documents as matching about:srcdoc URL,https://github.com/whatwg/html/pull/9534,2023-07-18T23:37:14Z,2023-07-20T03:49:15Z,domfarolino,topic: browsing context|topic: document.open()|topic: javascript: URLs,0
 1810164917,true,Fix non-fetch-scheme-params-initiator-origin assignment,https://github.com/whatwg/html/pull/9532,2023-07-18T15:25:02Z,2023-07-19T07:17:21Z,domfarolino,topic: navigation,0
 1809663999,true,Add types to parameters of script fetching algorithms,https://github.com/whatwg/html/pull/9530,2023-07-18T10:39:07Z,2023-07-20T06:18:13Z,nicolo-ribaudo,,0
