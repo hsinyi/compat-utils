@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2349545692,false,Partitioning :visited links history,https://github.com/WebKit/standards-positions/issues/363,2024-06-12T19:35:54Z,2024-06-12T19:35:54Z,kyraseevers,,1
 2345730892,false,Support 'color-interpolation: linearrgb' on SVG gradients,https://github.com/WebKit/standards-positions/issues/362,2024-06-11T08:22:09Z,2024-06-11T08:22:09Z,fsoder,,0
-2341205415,false,Prioritized Task Scheduling,https://github.com/WebKit/standards-positions/issues/361,2024-06-07T21:42:50Z,2024-06-10T22:31:14Z,shaseley,venue: WICG|from: Google,0
+2341205415,false,Prioritized Task Scheduling,https://github.com/WebKit/standards-positions/issues/361,2024-06-07T21:42:50Z,2024-06-17T07:55:55Z,shaseley,venue: WICG|from: Google,0
 2335355085,false,Add a noopener-allow-popups value to COOP,https://github.com/WebKit/standards-positions/issues/360,2024-06-05T09:22:30Z,2024-06-05T09:32:31Z,yoavweiss,,0
 2335052062,false,ServiceWorkerAutoPreload,https://github.com/WebKit/standards-positions/issues/359,2024-06-05T06:51:34Z,2024-06-05T06:54:28Z,sisidovski,,0
 2327550362,false,VisibilityState performance entry,https://github.com/WebKit/standards-positions/issues/358,2024-05-31T10:56:35Z,2024-05-31T10:56:35Z,yoavweiss,,0
@@ -9,13 +9,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2321216233,false,New `trusted-eval` keyword for CSP script-src,https://github.com/WebKit/standards-positions/issues/355,2024-05-28T14:23:13Z,2024-06-05T21:32:11Z,lukewarlow,topic: security|venue: W3C Web Application Security WG|from: Google|from: Igalia,0
 2320433162,false,Timing Info for ServiceWorker static routing API,https://github.com/WebKit/standards-positions/issues/354,2024-05-28T08:19:49Z,2024-05-28T08:19:49Z,quasi-mod,,0
 2317066829,false,Local Peer-to-Peer API,https://github.com/WebKit/standards-positions/issues/352,2024-05-25T14:45:11Z,2024-06-05T17:08:06Z,MrBrain295,,1
-2311298620,false,improved styling of <details> and <summary> elements,https://github.com/WebKit/standards-positions/issues/351,2024-05-22T19:13:08Z,2024-05-27T14:12:58Z,dbaron,topic: css|topic: html|venue: WHATWG HTML Workstream|venue: W3C CSS WG|venue: Open UI CG,0
+2311298620,true,improved styling of <details> and <summary> elements,https://github.com/WebKit/standards-positions/issues/351,2024-05-22T19:13:08Z,2024-06-17T06:49:11Z,dbaron,position: support|topic: css|topic: html|venue: WHATWG HTML Workstream|venue: W3C CSS WG|venue: Open UI CG,0
 2299035854,false,Support Skip-Ad media session action,https://github.com/WebKit/standards-positions/issues/350,2024-05-15T23:40:46Z,2024-05-22T22:54:17Z,jiajiabingcheng,topic: media|venue: W3C Media WG,0
 2296515495,false,Partitioned Popins,https://github.com/WebKit/standards-positions/issues/349,2024-05-14T22:27:46Z,2024-05-22T22:49:11Z,arichiv,topic: security,0
 2296294954,false,CSS calc-size() function,https://github.com/WebKit/standards-positions/issues/348,2024-05-14T19:48:25Z,2024-05-22T22:52:52Z,dbaron,topic: css|venue: W3C CSS WG|topic: animation|from: Google,9
 2295594619,true,"Gyroscope, Accelerometer, Magnetometer, Motion, Orientation",https://github.com/WebKit/standards-positions/issues/347,2024-05-14T14:14:26Z,2024-05-21T04:25:43Z,marcoscaceres,position: oppose|concerns: duplication|concerns: privacy|concerns: venue|concerns: use cases|concerns: power|concerns: device independence,0
 2287358498,false,CSSPageRule to inherit from CSSGroupingRule,https://github.com/WebKit/standards-positions/issues/346,2024-05-09T10:10:35Z,2024-05-23T06:56:47Z,mstensho,topic: css|venue: W3C CSS WG,0
-2284027211,false,HTML Fullscreen Without A Gesture,https://github.com/WebKit/standards-positions/issues/345,2024-05-07T19:02:39Z,2024-06-11T18:19:21Z,michaelwasserman,topic: media|from: Google,0
+2284027211,false,HTML Fullscreen Without A Gesture,https://github.com/WebKit/standards-positions/issues/345,2024-05-07T19:02:39Z,2024-06-11T18:19:21Z,michaelwasserman,topic: media|from: Google,1
 2278627985,false,Support Video Chapter in MediaMetadata,https://github.com/WebKit/standards-positions/issues/344,2024-05-04T00:53:03Z,2024-05-22T23:00:19Z,jiajiabingcheng,topic: media|venue: W3C Media WG,0
 2278526424,false,WebAssembly: JS String Builtins,https://github.com/WebKit/standards-positions/issues/343,2024-05-03T22:37:08Z,2024-05-22T23:12:13Z,ajklein,topic: javascript|topic: web assembly|venue: W3C Web Assembly WG,0
 2274250837,true,Allow converting VideoFrame to RGB pixel formats by calling VideoFrame.copyTo(),https://github.com/WebKit/standards-positions/issues/341,2024-05-01T21:49:28Z,2024-05-18T04:41:19Z,Djuffin,position: support|concerns: API design,0
@@ -67,7 +67,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2065947992,true,WebGPU: Separate Read-only Depth-stencil,https://github.com/WebKit/standards-positions/issues/295,2024-01-04T16:19:15Z,2024-01-18T00:45:22Z,Kangz,duplicate|topic: graphics,0
 2065940821,true,WebGPU: Render to slice of 3D texture,https://github.com/WebKit/standards-positions/issues/294,2024-01-04T16:16:13Z,2024-01-18T00:46:37Z,Kangz,duplicate|topic: graphics,0
 2054810580,true,WebKit/standards-positions,https://github.com/WebKit/standards-positions/issues/293,2023-12-23T14:53:20Z,2023-12-23T14:55:02Z,fwadnjar,invalid,0
-2054753382,false,Observable,https://github.com/WebKit/standards-positions/issues/292,2023-12-23T11:01:19Z,2024-01-08T16:08:07Z,keithamus,topic: dom|venue: WICG|topic: events|from: Google,2
+2054753382,false,Observable,https://github.com/WebKit/standards-positions/issues/292,2023-12-23T11:01:19Z,2024-06-17T07:35:01Z,keithamus,topic: dom|venue: WICG|topic: events|from: Google,2
 2047215591,false,FileSystemObserver,https://github.com/WebKit/standards-positions/issues/291,2023-12-18T18:32:15Z,2024-01-18T00:29:52Z,a-sully,from: Google|venue: WHATWG Storage Workstream,0
 2040475545,true,CSS Import Once (`@import-once` or similar),https://github.com/WebKit/standards-positions/issues/290,2023-12-13T21:12:42Z,2024-01-15T09:59:06Z,trusktr,invalid|topic: css|venue: W3C CSS WG,0
 2038651171,false,New 'onmove' event handler for the Window object,https://github.com/WebKit/standards-positions/issues/289,2023-12-12T22:37:51Z,2024-05-17T02:45:49Z,javifernandez,venue: WHATWG HTML Workstream|topic: events|from: Igalia,0
@@ -166,7 +166,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1717829568,false,Private Aggregation API,https://github.com/WebKit/standards-positions/issues/189,2023-05-19T21:04:20Z,2023-06-27T11:49:37Z,alexmturner,topic: privacy|from: Google|venue: PATCG,0
 1716318458,false,Ignore target names which contain both `\n` and `<` characters,https://github.com/WebKit/standards-positions/issues/188,2023-05-18T21:57:07Z,2023-06-01T17:48:42Z,shhnjk,topic: html|topic: markup|topic: security|venue: WHATWG HTML Workstream,0
 1711981452,true,Motion Path,https://github.com/WebKit/standards-positions/issues/187,2023-05-16T13:00:57Z,2023-09-06T16:48:13Z,danielsakhapov,position: support|topic: css|venue: W3C CSS WG|topic: animation|venue: W3C SVG WG,0
-1710698096,false,Trusted Types,https://github.com/WebKit/standards-positions/issues/186,2023-05-15T19:26:49Z,2024-01-18T13:28:18Z,bartoszniemczura,topic: javascript|topic: security|concerns: complexity|venue: W3C Web Application Security WG|from: Google,6
+1710698096,false,Trusted Types,https://github.com/WebKit/standards-positions/issues/186,2023-05-15T19:26:49Z,2024-06-17T06:45:09Z,bartoszniemczura,topic: javascript|topic: security|concerns: complexity|venue: W3C Web Application Security WG|from: Google,6
 1706585656,false,HTTPS Upgrades,https://github.com/WebKit/standards-positions/issues/185,2023-05-11T21:32:33Z,2023-06-27T11:49:02Z,christhompson,topic: networking|venue: WHATWG Fetch Workstream|topic: fetch,0
 1701160842,false,Isolated Web Apps,https://github.com/WebKit/standards-positions/issues/184,2023-05-09T01:32:35Z,2023-10-04T17:57:06Z,reillyeon,blocked|topic: security|topic: device apis|topic: app-like capabilities|venue: WICG|from: Google|topic: permissions,1
 1696777862,false,WebAuthn PRF extension,https://github.com/WebKit/standards-positions/issues/183,2023-05-04T22:22:59Z,2024-05-22T06:12:54Z,agl,topic: authentication|venue: W3C Web Authentication WG,11
