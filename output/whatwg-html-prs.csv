@@ -6,8 +6,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2341067049,true,docs: remove redundant “to”,https://github.com/whatwg/html/pull/10403,2024-06-07T19:47:56Z,2024-06-10T08:32:12Z,j9t,,0
 2339810486,true,Report opener for WebDriver,https://github.com/whatwg/html/pull/10402,2024-06-07T07:44:29Z,2024-06-13T10:30:42Z,OrKoN,,0
 2337905772,true,Stop calling parse a CSS <color> with OffscreenCanvas,https://github.com/whatwg/html/pull/10399,2024-06-06T10:25:05Z,2024-06-08T06:36:01Z,annevk,clarification|topic: canvas,0
-2335131210,false,Add a `noopener-allow-popups` value to COOP,https://github.com/whatwg/html/pull/10394,2024-06-05T07:34:33Z,2024-06-17T12:21:19Z,yoavweiss,addition/proposal|needs implementer interest|agenda+,0
-2334993245,false,Don't set hashChange to true for classic history API navigate events,https://github.com/whatwg/html/pull/10393,2024-06-05T06:13:48Z,2024-06-10T10:49:38Z,domenic,,0
+2335131210,false,Add a `noopener-allow-popups` value to COOP,https://github.com/whatwg/html/pull/10394,2024-06-05T07:34:33Z,2024-06-20T06:46:09Z,yoavweiss,addition/proposal|needs implementer interest|agenda+,0
+2334993245,true,Don't set hashChange to true for classic history API navigate events,https://github.com/whatwg/html/pull/10393,2024-06-05T06:13:48Z,2024-06-20T07:04:40Z,domenic,,0
 2333893692,false,"Editorial: For `CONTRIBUTING.md`, add explicit references to patterns we've evolved over time",https://github.com/whatwg/html/pull/10392,2024-06-04T16:05:05Z,2024-06-05T12:22:56Z,domfarolino,,1
 2329069209,true,Match order of arguments when calling 'getting the descendant script fetch options',https://github.com/whatwg/html/pull/10385,2024-06-01T10:41:13Z,2024-06-03T04:44:32Z,jamierocks,topic: script,0
 2326224026,false,Latest WebAssembly ESM Integration rebase,https://github.com/whatwg/html/pull/10380,2024-05-30T17:37:52Z,2024-05-30T22:20:14Z,guybedford,,0
@@ -42,7 +42,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2235643011,true,Editorial: Upstream outerHTML property from DOM Parsing,https://github.com/whatwg/html/pull/10270,2024-04-10T13:45:27Z,2024-04-18T07:35:37Z,lukewarlow,addition/proposal|topic: parser,0
 2234668173,true,"Add subresource integrity support for ES modules, through importmaps",https://github.com/whatwg/html/pull/10269,2024-04-10T03:02:35Z,2024-05-31T01:11:51Z,yoavweiss,addition/proposal|topic: script,0
 2234134025,true,Editorial: Add warning about lack of sanitization to HTML parsing functions.,https://github.com/whatwg/html/pull/10267,2024-04-09T19:06:20Z,2024-04-10T09:34:23Z,lukewarlow,,0
-2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-06-18T20:48:26Z,dbaron,normative change|topic: rendering,2
+2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-06-20T02:04:53Z,dbaron,normative change|topic: rendering,2
 2233706241,true,Editorial: Upstream innerHTML property from DOM Parsing spec,https://github.com/whatwg/html/pull/10264,2024-04-09T15:20:35Z,2024-04-15T10:06:49Z,lukewarlow,addition/proposal|topic: parser,0
 2232343705,true,Fix typo in MessagePort postMessage,https://github.com/whatwg/html/pull/10263,2024-04-08T23:50:42Z,2024-04-09T02:08:04Z,Kaiido,,0
 2230935302,true,Closed shadow roots can be serializable too,https://github.com/whatwg/html/pull/10260,2024-04-08T11:21:50Z,2024-04-10T06:51:57Z,annevk,normative change|topic: shadow,0
@@ -1251,7 +1251,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 786265314,true,"Editorial: Stop using ""the"" when referring to the link element element variable",https://github.com/whatwg/html/pull/6289,2021-01-14T19:42:11Z,2021-01-14T20:31:39Z,domfarolino,editorial,0
 785410324,true,Add a final newline normalization for form payloads,https://github.com/whatwg/html/pull/6287,2021-01-13T20:14:50Z,2021-05-20T12:17:38Z,andreubotella,,0
 785107778,true,Meta: default branch rename,https://github.com/whatwg/html/pull/6285,2021-01-13T13:32:36Z,2021-01-15T08:39:51Z,annevk,,0
-785081823,false,[WIP] Temporal proposal HTML serialization support,https://github.com/whatwg/html/pull/6284,2021-01-13T12:56:15Z,2023-11-14T08:05:50Z,littledan,addition/proposal|needs tests|topic: serialize and transfer,3
+785081823,false,[WIP] Temporal proposal HTML serialization support,https://github.com/whatwg/html/pull/6284,2021-01-13T12:56:15Z,2024-06-20T11:46:45Z,littledan,addition/proposal|needs tests|topic: serialize and transfer,3
 784125935,true,Obsolete <object usemap>,https://github.com/whatwg/html/pull/6283,2021-01-12T10:50:41Z,2021-03-03T15:55:25Z,annevk,removal/deprecation|topic: embed and object|impacts documentation,0
 784103377,true,Specify escaping in the multipart/form-data encoding algorithm,https://github.com/whatwg/html/pull/6282,2021-01-12T10:19:55Z,2024-05-27T04:57:17Z,andreubotella,topic: forms,0
 784068149,true,Remove the object element from submittable elements,https://github.com/whatwg/html/pull/6281,2021-01-12T09:33:13Z,2021-01-14T06:36:00Z,annevk,removal/deprecation|topic: forms|topic: embed and object|impacts documentation,0
