@@ -15,7 +15,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2322971728,true,Add an `omit` value to Cross-Origin-Opener-Policy,https://github.com/whatwg/html/pull/10374,2024-05-29T10:32:55Z,2024-06-05T07:31:31Z,yoavweiss,,0
 2317911685,true,Editorial: fix more typos,https://github.com/whatwg/html/pull/10369,2024-05-26T20:01:59Z,2024-05-27T13:53:57Z,jmdyck,,0
 2316977161,true,Fix typo in ElementContentEditable,https://github.com/whatwg/html/pull/10367,2024-05-25T12:46:39Z,2024-06-03T06:48:49Z,FabijanC,,0
-2313820321,false,Add oncontentvisibilityautostatechange,https://github.com/whatwg/html/pull/10364,2024-05-23T20:49:37Z,2024-06-13T08:26:37Z,vmpstr,,0
+2313820321,false,Add oncontentvisibilityautostatechange,https://github.com/whatwg/html/pull/10364,2024-05-23T20:49:37Z,2024-06-20T15:22:36Z,vmpstr,,0
 2312491563,true,Editorial: Fix navigation API to check correct activation,https://github.com/whatwg/html/pull/10363,2024-05-23T10:03:04Z,2024-05-24T02:57:34Z,lukewarlow,,0
 2309582998,true,Fix wrong button reference for close requests,https://github.com/whatwg/html/pull/10358,2024-05-22T05:09:59Z,2024-05-22T05:26:06Z,domenic,,0
 2306366771,true,changes to the html page,https://github.com/whatwg/html/pull/10356,2024-05-20T16:43:07Z,2024-05-20T19:37:56Z,Dilarasyg,invalid,0
@@ -42,7 +42,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2235643011,true,Editorial: Upstream outerHTML property from DOM Parsing,https://github.com/whatwg/html/pull/10270,2024-04-10T13:45:27Z,2024-04-18T07:35:37Z,lukewarlow,addition/proposal|topic: parser,0
 2234668173,true,"Add subresource integrity support for ES modules, through importmaps",https://github.com/whatwg/html/pull/10269,2024-04-10T03:02:35Z,2024-05-31T01:11:51Z,yoavweiss,addition/proposal|topic: script,0
 2234134025,true,Editorial: Add warning about lack of sanitization to HTML parsing functions.,https://github.com/whatwg/html/pull/10267,2024-04-09T19:06:20Z,2024-04-10T09:34:23Z,lukewarlow,,0
-2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-06-20T02:04:53Z,dbaron,normative change|topic: rendering,2
+2233818920,false,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-06-20T17:39:58Z,dbaron,normative change|topic: rendering,2
 2233706241,true,Editorial: Upstream innerHTML property from DOM Parsing spec,https://github.com/whatwg/html/pull/10264,2024-04-09T15:20:35Z,2024-04-15T10:06:49Z,lukewarlow,addition/proposal|topic: parser,0
 2232343705,true,Fix typo in MessagePort postMessage,https://github.com/whatwg/html/pull/10263,2024-04-08T23:50:42Z,2024-04-09T02:08:04Z,Kaiido,,0
 2230935302,true,Closed shadow roots can be serializable too,https://github.com/whatwg/html/pull/10260,2024-04-08T11:21:50Z,2024-04-10T06:51:57Z,annevk,normative change|topic: shadow,0
@@ -215,7 +215,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
 1933058172,true,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2024-04-04T11:37:04Z,jrandolf,do not merge yet|integration,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
-1932098948,false,Add invokers (invoketarget & invokeaction),https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-05-17T09:20:36Z,keithamus,,0
+1932098948,false,Add invokers (invoketarget & invokeaction),https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-05-17T09:20:36Z,keithamus,,1
 1931367969,true,Editorial: remove some copypasta around CORS settings attribute,https://github.com/whatwg/html/pull/9840,2023-10-07T14:14:19Z,2023-10-08T14:25:55Z,annevk,,0
 1930976617,true,"Fix typo in ""History-action activation-consuming APIs""",https://github.com/whatwg/html/pull/9839,2023-10-06T21:55:17Z,2023-10-10T04:56:14Z,CanadaHonk,,0
 1930460108,true,Perform a microtask checkpoint only after a task,https://github.com/whatwg/html/pull/9838,2023-10-06T15:38:05Z,2023-10-10T05:26:36Z,annevk,topic: event loop,1
@@ -2249,7 +2249,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 300555187,true,Mark focus events composed,https://github.com/whatwg/html/pull/3512,2018-02-27T09:36:57Z,2018-03-02T08:20:55Z,annevk,normative change|topic: focus,0
 300226229,true,No duplicates in StructuredSerializeWithTransfer's transferList,https://github.com/whatwg/html/pull/3508,2018-02-26T12:52:27Z,2018-02-26T15:36:59Z,annevk,topic: serialize and transfer,0
 300021575,true,"Fix issue #3503: phrasing of ""as good, if not better, as""",https://github.com/whatwg/html/pull/3504,2018-02-25T12:18:16Z,2018-02-26T08:36:34Z,ediosyncratic,,0
-299733910,true,Add heading-focused outlines and :heading,https://github.com/whatwg/html/pull/3499,2018-02-23T14:44:28Z,2022-08-29T16:15:21Z,annevk,normative change|addition/proposal|accessibility|needs tests,23
+299733910,true,Add heading-focused outlines and :heading,https://github.com/whatwg/html/pull/3499,2018-02-23T14:44:28Z,2024-06-20T23:04:19Z,annevk,normative change|addition/proposal|accessibility|needs tests,23
 299347542,true,Editorial: align currentcolor with CSS,https://github.com/whatwg/html/pull/3496,2018-02-22T13:10:40Z,2018-02-23T05:18:45Z,annevk,clarification,0
 299312645,true,"Make <frame> fire load synchronously with ""completely loaded""",https://github.com/whatwg/html/pull/3495,2018-02-22T11:11:43Z,2018-02-23T07:18:28Z,annevk,,0
 298754341,true,Queue a task to run all the autofocusing steps,https://github.com/whatwg/html/pull/3488,2018-02-20T21:25:54Z,2018-03-07T05:32:43Z,domenic,topic: focus,0
