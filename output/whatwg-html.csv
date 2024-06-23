@@ -2,7 +2,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2367687964,true,Improving Enumerated Attributes in the HTML Standard,https://github.com/whatwg/html/issues/10426,2024-06-22T08:25:54Z,2024-06-22T10:29:21Z,adx04,invalid,0
 2367318674,false,Structured serialization does not allow [[PrivateElements]] or any other ES-internal internal slots,https://github.com/whatwg/html/issues/10425,2024-06-21T22:25:30Z,2024-06-21T22:25:30Z,hotsphink,,0
 2367309496,false,RawJSON objects should be structured serializable/deserializable,https://github.com/whatwg/html/issues/10424,2024-06-21T22:12:30Z,2024-06-22T09:53:08Z,hotsphink,addition/proposal|needs implementer interest|topic: serialize and transfer,0
-2367172534,false,Allow for named base URLs so that relative links can be used for multiple websites or subsites,https://github.com/whatwg/html/issues/10423,2024-06-21T20:02:42Z,2024-06-21T20:06:54Z,knowler,addition/proposal|needs implementer interest,1
+2367172534,false,Allow for named base URLs so that relative links can be used for multiple websites or subsites,https://github.com/whatwg/html/issues/10423,2024-06-21T20:02:42Z,2024-06-21T20:06:54Z,knowler,addition/proposal|needs implementer interest,2
 2366601411,false,Upcoming WHATNOT meeting on 6/27/2024,https://github.com/whatwg/html/issues/10422,2024-06-21T13:54:03Z,2024-06-21T13:54:04Z,past,agenda+,0
 2364363412,true,Warning for probably-buggy WebIDL conversions?,https://github.com/whatwg/html/issues/10419,2024-06-20T12:49:45Z,2024-06-21T22:14:12Z,benjamingr,,0
 2363995193,false,window.close() incorrectly refers to incumbent global object's node navigable,https://github.com/whatwg/html/issues/10418,2024-06-20T09:39:56Z,2024-06-20T12:36:10Z,awesomekling,,0
@@ -30,11 +30,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2324176691,false,HTML Video and its Source Elements Should Support SRCSET and SIZES,https://github.com/whatwg/html/issues/10379,2024-05-29T20:16:56Z,2024-05-29T20:16:56Z,scottjehl,,4
 2324127724,false,HTML Video: Allow a child Picture Element to Control the Video Poster Image,https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2024-05-30T14:47:25Z,scottjehl,,11
 2324097406,false,"Specify That Responsive Video Elements Re-Evaluate Sources on Media Change, Like Picture",https://github.com/whatwg/html/issues/10377,2024-05-29T19:33:05Z,2024-05-29T19:33:05Z,scottjehl,,3
-2324056660,false,Video loading=lazy attribute support,https://github.com/whatwg/html/issues/10376,2024-05-29T19:09:50Z,2024-06-21T23:56:12Z,scottjehl,addition/proposal|needs implementer interest,9
+2324056660,false,Video loading=lazy attribute support,https://github.com/whatwg/html/issues/10376,2024-05-29T19:09:50Z,2024-06-21T23:56:12Z,scottjehl,addition/proposal|needs implementer interest,10
 2322953911,false,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-06-20T16:54:56Z,yoavweiss,addition/proposal|needs implementer interest,0
 2322574083,true,a element defines content model as only Transparent,https://github.com/whatwg/html/issues/10372,2024-05-29T07:26:47Z,2024-05-29T09:29:39Z,andrewnicols,,0
 2320740955,false,Fetch priority hint for dynamic modules,https://github.com/whatwg/html/issues/10371,2024-05-28T10:48:17Z,2024-05-28T10:48:17Z,yoavweiss,addition/proposal|needs implementer interest,0
-2317914185,true,Feature Request: Top Layer Stack Management,https://github.com/whatwg/html/issues/10370,2024-05-26T20:09:09Z,2024-06-04T17:41:14Z,Link2Twenty,addition/proposal|needs implementer interest,2
+2317914185,true,Feature Request: Top Layer Stack Management,https://github.com/whatwg/html/issues/10370,2024-05-26T20:09:09Z,2024-06-22T19:24:20Z,Link2Twenty,addition/proposal|needs implementer interest,3
 2313961283,true,Upcoming WHATNOT meeting on 5/30/2024,https://github.com/whatwg/html/issues/10365,2024-05-23T22:28:10Z,2024-05-31T08:03:34Z,cwilso,agenda+,0
 2311904507,false,Provide native validation messages for native validity states on Form Associated Custom Elements,https://github.com/whatwg/html/issues/10360,2024-05-23T04:20:35Z,2024-05-23T04:20:35Z,KonnorRogers,addition/proposal|needs implementer interest,3
 2311448525,true,Issue with Step 10 of inner navigate event firing algorithm,https://github.com/whatwg/html/issues/10359,2024-05-22T20:44:12Z,2024-05-24T02:57:35Z,lukewarlow,topic: navigation|topic: user activation,0
@@ -1368,7 +1368,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 971369340,false,Use the real tokenizer and tree builder for meta prescan,https://github.com/whatwg/html/issues/6962,2021-08-16T05:05:55Z,2021-10-26T20:19:45Z,hsivonen,topic: parser,0
 970980066,false,"Unrecognized ""value"" attribute.",https://github.com/whatwg/html/issues/6961,2021-08-14T19:27:30Z,2021-08-31T08:13:48Z,AndySky21,,0
 970640067,true,[COOP] Unable to reconcile html/cross-origin-opener-policy/coop-same-origin-allow-popups-document-write.html with the specification,https://github.com/whatwg/html/issues/6960,2021-08-13T18:54:59Z,2021-08-30T21:39:21Z,cdumez,,0
-968973347,false,Implement favicon.svg fallback,https://github.com/whatwg/html/issues/6957,2021-08-12T14:45:45Z,2021-08-20T13:05:09Z,j9t,,6
+968973347,false,Implement favicon.svg fallback,https://github.com/whatwg/html/issues/6957,2021-08-12T14:45:45Z,2024-06-22T23:07:25Z,j9t,,6
 966579582,true,[Suggestion] Global state attribute,https://github.com/whatwg/html/issues/6953,2021-08-11T12:06:33Z,2021-08-11T16:41:07Z,OmidHekayati,,0
 966409896,true,Consider less politically charged example text,https://github.com/whatwg/html/issues/6952,2021-08-11T10:19:11Z,2021-08-31T10:33:06Z,edent,,3
 964657164,true,"Interface of submit event, Event to SubmitEvent",https://github.com/whatwg/html/issues/6948,2021-08-10T06:58:42Z,2021-08-11T15:53:30Z,PaperStrike,good first issue|topic: events,0
