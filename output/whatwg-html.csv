@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2370304215,false,Add AbortSignal for popover.showPopover() for initialize internal CloseWatcher,https://github.com/whatwg/html/issues/10428,2024-06-24T13:47:19Z,2024-06-24T15:22:59Z,Jxck,addition/proposal|needs implementer interest|topic: popover,0
 2367687964,true,Improving Enumerated Attributes in the HTML Standard,https://github.com/whatwg/html/issues/10426,2024-06-22T08:25:54Z,2024-06-22T10:29:21Z,adx04,invalid,0
 2367318674,false,Structured serialization does not allow [[PrivateElements]] or any other ES-internal internal slots,https://github.com/whatwg/html/issues/10425,2024-06-21T22:25:30Z,2024-06-21T22:25:30Z,hotsphink,,0
 2367309496,false,RawJSON objects should be structured serializable/deserializable,https://github.com/whatwg/html/issues/10424,2024-06-21T22:12:30Z,2024-06-22T09:53:08Z,hotsphink,addition/proposal|needs implementer interest|topic: serialize and transfer,0
@@ -12,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2350552903,true," Upcoming WHATNOT meeting on 6/20/2024",https://github.com/whatwg/html/issues/10408,2024-06-13T08:42:21Z,2024-06-21T13:57:26Z,saschanaz,agenda+,1
 2347151517,false,Proposal: CSS reading-order-items,https://github.com/whatwg/html/issues/10407,2024-06-11T19:38:53Z,2024-06-21T23:52:50Z,dizhang168,addition/proposal|topic: focus,0
 2346169253,false,HTML parser doesn't tell when it should suspend and resume,https://github.com/whatwg/html/issues/10406,2024-06-11T11:26:35Z,2024-06-11T14:18:15Z,dSalieri,clarification|topic: parser,1
-2338907359,false,Meeting 3 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10401,2024-06-06T18:27:54Z,2024-06-21T21:20:12Z,past,agenda+,0
+2338907359,false,Meeting 3 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10401,2024-06-06T18:27:54Z,2024-06-24T19:23:14Z,past,agenda+,0
 2338735543,true,Upcoming WHATNOT meeting on 6/13/2024,https://github.com/whatwg/html/issues/10400,2024-06-06T16:52:14Z,2024-06-13T20:31:14Z,past,agenda+,0
 2336942518,true,CSS colors parsed for canvas use should explicitly state the element to resolve currentcolor against,https://github.com/whatwg/html/issues/10398,2024-06-05T22:37:08Z,2024-06-08T06:36:02Z,heycam,topic: canvas,0
 2336759924,false,Error codes for parse errors during tree construction,https://github.com/whatwg/html/issues/10397,2024-06-05T20:16:27Z,2024-06-06T13:04:50Z,stevecheckoway,topic: parser,0
@@ -281,7 +282,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1998116614,true,How to serialize new CSS color functions in canvas?,https://github.com/whatwg/html/issues/9939,2023-11-17T01:59:39Z,2023-11-17T02:42:23Z,Loirooriol,,0
 1998110326,true,Orphan nested dedicated worker closing seems buggy,https://github.com/whatwg/html/issues/9938,2023-11-17T01:55:30Z,2023-11-18T03:12:22Z,Kaiido,clarification|topic: workers,0
 1997946764,true,Upcoming WHATNOT meeting on 11/30/2023,https://github.com/whatwg/html/issues/9937,2023-11-16T23:11:47Z,2023-12-01T00:02:06Z,past,agenda+,0
-1997483561,false,A popover on top of a modal dialog should be interactable,https://github.com/whatwg/html/issues/9936,2023-11-16T18:24:20Z,2024-06-06T19:43:11Z,benfrain,topic: dialog|topic: popover,9
+1997483561,false,A popover on top of a modal dialog should be interactable,https://github.com/whatwg/html/issues/9936,2023-11-16T18:24:20Z,2024-06-24T21:20:16Z,benfrain,topic: dialog|topic: popover,9
 1996392285,false,Cookie API,https://github.com/whatwg/html/issues/9935,2023-11-16T09:05:17Z,2024-01-16T15:59:46Z,kettanaito,addition/proposal|needs implementer interest|topic: cookie,67
 1990956391,true,Enable lazy loading for URLs on use href,https://github.com/whatwg/html/issues/9929,2023-11-13T15:59:05Z,2023-11-14T03:49:00Z,lfre,addition/proposal|needs implementer interest,0
 1990529573,false,Switch back to official CSSWG specs,https://github.com/whatwg/html/issues/9928,2023-11-13T12:12:23Z,2023-11-13T12:14:28Z,Loirooriol,,0
@@ -859,7 +860,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1393739571,true,"Typo in section ""4.8.13 The area element""",https://github.com/whatwg/html/issues/8346,2022-10-02T11:55:31Z,2022-10-06T07:32:09Z,chalkygames123,good first issue,0
 1392819673,true,Upcoming HTML standard issue triage meeting on 10/13/2022,https://github.com/whatwg/html/issues/8341,2022-09-30T18:38:43Z,2022-10-13T19:06:25Z,past,agenda+,0
 1392531918,true,Inclusion criteria for the events index,https://github.com/whatwg/html/issues/8340,2022-09-30T14:31:10Z,2022-10-07T06:20:06Z,tidoust,clarification|topic: events,0
-1392180603,true,"Allow modal dialogs to trap focus, avoiding tabbing to the URL bar",https://github.com/whatwg/html/issues/8339,2022-09-30T09:54:45Z,2023-11-22T12:31:11Z,koddsson,normative change|needs implementer interest|a11y-tracker|topic: dialog,2
+1392180603,true,"Allow modal dialogs to trap focus, avoiding tabbing to the URL bar",https://github.com/whatwg/html/issues/8339,2022-09-30T09:54:45Z,2023-11-22T12:31:11Z,koddsson,normative change|needs implementer interest|a11y-tracker|topic: dialog,3
 1391534684,true,HTMLOptionsCollection length setter should specify what happens when you go over the option limit.,https://github.com/whatwg/html/issues/8337,2022-09-29T21:39:17Z,2022-10-19T04:30:07Z,emilio,topic: forms,0
 1391446593,false,Link to updated reporting interface,https://github.com/whatwg/html/issues/8336,2022-09-29T20:18:41Z,2022-09-29T20:18:41Z,jyasskin,,0
 1390812834,false,Date picker access in contenteditable elements,https://github.com/whatwg/html/issues/8335,2022-09-29T12:47:01Z,2023-11-21T19:34:13Z,OvidijusParsiunas,addition/proposal|needs implementer interest,0
@@ -1100,7 +1101,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1177177506,true,Question: Expected behavior for Object.keys with storage objects,https://github.com/whatwg/html/issues/7741,2022-03-22T18:50:05Z,2022-03-22T18:55:43Z,jasonnutter,,0
 1176559847,true,HTML syntax: omitting <body> should not be allowed if first child is <noscript>,https://github.com/whatwg/html/issues/7737,2022-03-22T10:14:53Z,2022-09-15T17:15:31Z,zcorpan,good first issue|document conformance,0
 1176210826,true,Should a preload with SRI and a main request without SRI be matched?,https://github.com/whatwg/html/issues/7736,2022-03-22T03:17:51Z,2022-05-19T00:42:57Z,hiroshige-g,security/privacy|topic: fetch|topic: resource hints (inc. preload),0
-1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-06-22T03:22:38Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,62
+1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-06-24T19:12:24Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,63
 1175078464,false,"Modern browsers don't implement ""4.10.21.2 Implicit submission"" correctly",https://github.com/whatwg/html/issues/7730,2022-03-21T08:59:00Z,2022-03-21T12:40:28Z,IliasDewachter,topic: forms,0
 1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2022-03-23T21:36:38Z,domenic,topic: navigation|interop,1
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
@@ -3093,7 +3094,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 292255410,true,<script> processing model with various children,https://github.com/whatwg/html/issues/3419,2018-01-29T00:39:00Z,2018-02-12T16:00:16Z,domenic,topic: script|interop,0
 292127534,true,"Add value / placeholder behavior to the <input type=""date""> spec",https://github.com/whatwg/html/issues/3413,2018-01-27T15:06:45Z,2018-01-28T11:42:55Z,MrFaul,addition/proposal|needs implementer interest|topic: forms,0
 291996180,true,Proposal: Allow adding separator rows to <select> boxes using <hr>,https://github.com/whatwg/html/issues/3410,2018-01-26T18:50:22Z,2023-05-02T14:41:02Z,a2sheppy,addition/proposal|topic: forms,0
-291918679,false,Canvas hit regions proposal,https://github.com/whatwg/html/issues/3407,2018-01-26T14:33:05Z,2022-06-08T09:57:06Z,annevk,addition/proposal|needs implementer interest|topic: canvas|accessibility,3
+291918679,false,Canvas hit regions proposal,https://github.com/whatwg/html/issues/3407,2018-01-26T14:33:05Z,2022-06-08T09:57:06Z,annevk,addition/proposal|needs implementer interest|topic: canvas|accessibility,4
 291583266,true,Define webgl2 context,https://github.com/whatwg/html/issues/3404,2018-01-25T14:12:40Z,2018-08-30T07:11:30Z,annevk,topic: canvas|integration,1
 291547569,true,How should document.body setter behave when root is not an `<html>`?,https://github.com/whatwg/html/issues/3403,2018-01-25T12:06:56Z,2018-02-12T16:20:10Z,bzbarsky,interop,0
 291429949,true,"custom-elements: A step to add ""is"" content attribute in ""new""",https://github.com/whatwg/html/issues/3402,2018-01-25T02:31:28Z,2018-02-22T16:52:34Z,tkent-google,topic: custom elements,0
@@ -3647,7 +3648,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 211719444,true,"innerText license was MIT, not CC BY",https://github.com/whatwg/html/issues/2408,2017-03-03T15:29:07Z,2017-03-07T09:59:11Z,annevk,,0
 211513300,true,`contextmenu` and multiple `<menu>`s,https://github.com/whatwg/html/issues/2406,2017-03-02T20:50:33Z,2018-01-22T12:47:04Z,Yay295,,0
 211350495,true,Should UA style for dialog contain display:block?,https://github.com/whatwg/html/issues/2405,2017-03-02T10:31:42Z,2017-03-24T04:11:58Z,ghost,topic: rendering,0
-211311639,false,A tag to display date and/or time to the user in his preferred format.,https://github.com/whatwg/html/issues/2404,2017-03-02T07:33:07Z,2024-01-24T23:41:44Z,lostmsu,addition/proposal|needs implementer interest|i18n-tracker,7
+211311639,false,A tag to display date and/or time to the user in his preferred format.,https://github.com/whatwg/html/issues/2404,2017-03-02T07:33:07Z,2024-01-24T23:41:44Z,lostmsu,addition/proposal|needs implementer interest|i18n-tracker,8
 210689268,true,setRangeText one-argument form doesn't define what the selection mode should be,https://github.com/whatwg/html/issues/2403,2017-02-28T05:15:04Z,2018-05-07T09:39:50Z,bzbarsky,clarification|good first issue,0
 210080003,true,Processing the result of a redirect fetch during navigation relies on nonexistent tasks queued by Fetch,https://github.com/whatwg/html/issues/2396,2017-02-24T15:38:41Z,2017-03-20T12:30:02Z,jdm,topic: navigation,0
 210038745,true,There is no field on the error event that would carry an error reason when adding a script to DOM fails,https://github.com/whatwg/html/issues/2395,2017-02-24T12:39:11Z,2017-03-09T23:37:40Z,juj,,0
@@ -3773,7 +3774,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,3
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
 195183669,true,Worker Stock Ticker Example is Broken (500 Responses),https://github.com/whatwg/html/issues/2172,2016-12-13T07:47:39Z,2016-12-16T18:55:16Z,JosephPecoraro,,0
-195122486,true,"Should <dialog> actually create a ""control group"" for focus?",https://github.com/whatwg/html/issues/2171,2016-12-13T00:02:02Z,2023-01-26T09:48:11Z,domenic,addition/proposal|needs implementer interest|topic: focus|topic: dialog,1
+195122486,true,"Should <dialog> actually create a ""control group"" for focus?",https://github.com/whatwg/html/issues/2171,2016-12-13T00:02:02Z,2023-01-26T09:48:11Z,domenic,addition/proposal|needs implementer interest|topic: focus|topic: dialog,2
 194993683,false,Blink HTML parser divergence,https://github.com/whatwg/html/issues/2168,2016-12-12T14:52:24Z,2022-11-28T10:36:02Z,gsnedders,topic: parser|interop,0
 194879917,true,Does removing the open attribute trigger the close event on a <dialog>?,https://github.com/whatwg/html/issues/2166,2016-12-12T02:50:15Z,2016-12-16T08:39:56Z,nt1m,clarification,0
 194865625,true,What should happen if absolute-anchored keyword value of position is inherited?,https://github.com/whatwg/html/issues/2165,2016-12-11T23:34:48Z,2016-12-12T20:40:59Z,upsuper,,0
