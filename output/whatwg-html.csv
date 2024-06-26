@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2373350515,false,fragment parsing algorithm steps take DocumentFragment but it's never used,https://github.com/whatwg/html/issues/10434,2024-06-25T18:20:05Z,2024-06-25T18:21:15Z,lukewarlow,topic: parser,0
+2373350515,true,fragment parsing algorithm steps take DocumentFragment but it's never used,https://github.com/whatwg/html/issues/10434,2024-06-25T18:20:05Z,2024-06-26T01:05:48Z,lukewarlow,topic: parser,0
 2372772317,false,TC39 AsyncContext Integration,https://github.com/whatwg/html/issues/10432,2024-06-25T13:56:55Z,2024-06-25T14:00:17Z,legendecas,addition/proposal|needs implementer interest,0
 2371966968,false,Should clicking a label contained in a button with popovertarget toggle the popover?,https://github.com/whatwg/html/issues/10431,2024-06-25T07:56:12Z,2024-06-25T07:56:12Z,vinhill,,0
 2371474176,false,DOMString and USVString are not linked in IDL,https://github.com/whatwg/html/issues/10429,2024-06-25T02:10:18Z,2024-06-25T02:17:58Z,nektro,clarification,0
@@ -8,7 +8,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2367318674,false,Structured serialization does not allow [[PrivateElements]] or any other ES-internal internal slots,https://github.com/whatwg/html/issues/10425,2024-06-21T22:25:30Z,2024-06-21T22:25:30Z,hotsphink,,0
 2367309496,false,RawJSON objects should be structured serializable/deserializable,https://github.com/whatwg/html/issues/10424,2024-06-21T22:12:30Z,2024-06-22T09:53:08Z,hotsphink,addition/proposal|needs implementer interest|topic: serialize and transfer,0
 2367172534,false,Allow for named base URLs so that relative links can be used for multiple websites or subsites,https://github.com/whatwg/html/issues/10423,2024-06-21T20:02:42Z,2024-06-21T20:06:54Z,knowler,addition/proposal|needs implementer interest,2
-2366601411,false,Upcoming WHATNOT meeting on 6/27/2024,https://github.com/whatwg/html/issues/10422,2024-06-21T13:54:03Z,2024-06-21T13:54:04Z,past,agenda+,0
+2366601411,false,Upcoming WHATNOT meeting on 6/27/2024,https://github.com/whatwg/html/issues/10422,2024-06-21T13:54:03Z,2024-06-26T07:00:29Z,past,agenda+,0
 2364363412,true,Warning for probably-buggy WebIDL conversions?,https://github.com/whatwg/html/issues/10419,2024-06-20T12:49:45Z,2024-06-21T22:14:12Z,benjamingr,,0
 2363995193,false,window.close() incorrectly refers to incumbent global object's node navigable,https://github.com/whatwg/html/issues/10418,2024-06-20T09:39:56Z,2024-06-20T12:36:10Z,awesomekling,,0
 2354782917,true,Status of `onbeforeinput` event handler attribute,https://github.com/whatwg/html/issues/10414,2024-06-15T11:48:55Z,2024-06-17T09:25:12Z,j9t,,0
@@ -330,7 +330,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1927438850,false,Support Markdown text input,https://github.com/whatwg/html/issues/9833,2023-10-05T05:56:29Z,2023-12-31T16:58:00Z,Crissov,addition/proposal|needs implementer interest,3
 1926931991,false,The spec language for `enumerated attributes` is not consistent,https://github.com/whatwg/html/issues/9832,2023-10-04T20:29:09Z,2024-01-10T17:45:45Z,mfreed7,good first issue|editorial,0
 1925910247,false,User Activation: siblings are not processed,https://github.com/whatwg/html/issues/9831,2023-10-04T10:37:18Z,2023-10-09T22:06:23Z,CanadaHonk,interop|topic: user activation,0
-1924272839,false,Don't force <details> to be a block.,https://github.com/whatwg/html/issues/9830,2023-10-03T14:27:09Z,2024-02-09T15:45:11Z,emilio,topic: rendering,7
+1924272839,true,Don't force <details> to be a block.,https://github.com/whatwg/html/issues/9830,2023-10-03T14:27:09Z,2024-06-26T00:57:11Z,emilio,topic: rendering,7
 1923913566,false,Proposed Element : Transcript,https://github.com/whatwg/html/issues/9829,2023-10-03T11:25:04Z,2024-01-08T17:13:23Z,brennanyoung,addition/proposal|needs implementer interest|topic: media|accessibility,1
 1922743343,true,Navigation: navigate to a fragment updates the navigation api for same-document navigation twice.,https://github.com/whatwg/html/issues/9826,2023-10-02T21:23:00Z,2024-01-09T04:09:00Z,ADKaster,topic: navigation,0
 1921479717,false,Event loop: update the rendering step mismatches implementations in subtle ways,https://github.com/whatwg/html/issues/9824,2023-10-02T08:34:58Z,2023-12-19T20:30:36Z,noamr,topic: event loop,1
@@ -1024,7 +1024,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1245490159,false,Consider being strict about range mismatch for media,https://github.com/whatwg/html/issues/7950,2022-05-23T17:27:12Z,2022-05-24T07:26:22Z,noamr,topic: media|interop,1
 1245461464,true,Typo in section 2.1.4 DOM trees,https://github.com/whatwg/html/issues/7949,2022-05-23T16:58:18Z,2022-05-26T15:27:55Z,AegisFair,good first issue,1
 1244030392,false,Add color-interpolation-method support for canvas gradients,https://github.com/whatwg/html/issues/7947,2022-05-21T16:39:32Z,2022-05-22T10:24:36Z,weinig,addition/proposal|topic: canvas,5
-1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2024-04-03T14:48:25Z,BenjaminAster,addition/proposal|needs implementer interest,30
+1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2024-04-03T14:48:25Z,BenjaminAster,addition/proposal|needs implementer interest,33
 1242018223,false,(Background) Tab Suspending,https://github.com/whatwg/html/issues/7942,2022-05-19T16:18:36Z,2022-05-19T16:18:36Z,johannhof,,0
 1242006437,false,Throttling and clamping of setTimeout and setInterval,https://github.com/whatwg/html/issues/7941,2022-05-19T16:08:39Z,2022-05-20T08:26:05Z,johannhof,topic: event loop|topic: timing,0
 1241898306,false,Make `<embed>` and `<object>` behave like `<iframe>` for image loading,https://github.com/whatwg/html/issues/7939,2022-05-19T14:43:19Z,2022-06-27T20:59:41Z,farre,normative change|topic: navigation|topic: embed and object,0
