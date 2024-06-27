@@ -11,7 +11,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2367318674,false,Structured serialization does not allow [[PrivateElements]] or any other ES-internal internal slots,https://github.com/whatwg/html/issues/10425,2024-06-21T22:25:30Z,2024-06-21T22:25:30Z,hotsphink,,0
 2367309496,false,RawJSON objects should be structured serializable/deserializable,https://github.com/whatwg/html/issues/10424,2024-06-21T22:12:30Z,2024-06-22T09:53:08Z,hotsphink,addition/proposal|needs implementer interest|topic: serialize and transfer,0
 2367172534,false,Allow for named base URLs so that relative links can be used for multiple websites or subsites,https://github.com/whatwg/html/issues/10423,2024-06-21T20:02:42Z,2024-06-21T20:06:54Z,knowler,addition/proposal|needs implementer interest,2
-2366601411,false,Upcoming WHATNOT meeting on 6/27/2024,https://github.com/whatwg/html/issues/10422,2024-06-21T13:54:03Z,2024-06-26T07:00:29Z,past,agenda+,0
+2366601411,true,Upcoming WHATNOT meeting on 6/27/2024,https://github.com/whatwg/html/issues/10422,2024-06-21T13:54:03Z,2024-06-27T10:39:48Z,past,agenda+,0
 2364363412,true,Warning for probably-buggy WebIDL conversions?,https://github.com/whatwg/html/issues/10419,2024-06-20T12:49:45Z,2024-06-21T22:14:12Z,benjamingr,,0
 2363995193,false,window.close() incorrectly refers to incumbent global object's node navigable,https://github.com/whatwg/html/issues/10418,2024-06-20T09:39:56Z,2024-06-20T12:36:10Z,awesomekling,,0
 2354782917,true,Status of `onbeforeinput` event handler attribute,https://github.com/whatwg/html/issues/10414,2024-06-15T11:48:55Z,2024-06-17T09:25:12Z,j9t,,0
@@ -1346,7 +1346,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 992032832,true,What should happen when a page redirects to a data: URL?,https://github.com/whatwg/html/issues/7045,2021-09-09T10:00:45Z,2021-09-10T16:27:33Z,jakearchibald,,0
 991247586,true,"[COOP] ""check if enforcing report-only COOP would require a browsing context group switch"" algorithm doesn't seem to match WPT tests",https://github.com/whatwg/html/issues/7041,2021-09-08T15:10:35Z,2021-09-09T00:17:32Z,cdumez,,0
 991235595,false,"[COOP] Typo in ""check if enforcing report-only COOP would require a browsing context group switch"" algorithm",https://github.com/whatwg/html/issues/7040,2021-09-08T14:59:14Z,2021-09-08T15:57:54Z,cdumez,clarification|topic: cross-origin-opener-policy,1
-991105055,false,Proposal for Element.currentLang and Element.currentDir,https://github.com/whatwg/html/issues/7039,2021-09-08T12:48:15Z,2024-03-26T13:33:47Z,claviska,addition/proposal|needs implementer interest|i18n-tracker,46
+991105055,false,Proposal for Element.currentLang and Element.currentDir,https://github.com/whatwg/html/issues/7039,2021-09-08T12:48:15Z,2024-03-26T13:33:47Z,claviska,addition/proposal|needs implementer interest|i18n-tracker,47
 991087850,true,SubmitEvent.submitter should be HTMLButtonElement instead of HTMLElement,https://github.com/whatwg/html/issues/7038,2021-09-08T12:32:51Z,2021-09-08T18:01:55Z,poacher2k,,0
 990422869,false,Why is <object> doing half of replaced element sizing negotiation?,https://github.com/whatwg/html/issues/7037,2021-09-07T23:19:15Z,2021-09-08T13:11:25Z,tabatkins,topic: embed and object,0
 990069095,false,Where are steps about recalculate styles and update layer tree before painting? (question),https://github.com/whatwg/html/issues/7036,2021-09-07T14:50:55Z,2021-09-16T09:32:47Z,dSalieri,clarification|interop,0
@@ -2252,7 +2252,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 497040604,false,Define a policy container,https://github.com/whatwg/html/issues/4926,2019-09-23T11:28:43Z,2021-05-21T10:44:17Z,annevk,clarification|needs tests|interop|integration|topic: policy container,6
 496594293,true,Design questions about IDREF/Element attribute reflection,https://github.com/whatwg/html/issues/4925,2019-09-21T00:49:20Z,2022-06-30T08:19:53Z,alice,accessibility,0
 496188244,true,COEP mismatches in dedicated workers should block.,https://github.com/whatwg/html/issues/4924,2019-09-20T07:14:14Z,2020-04-20T09:12:18Z,mikewest,topic: cross-origin-embedder-policy,0
-495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2024-01-31T10:50:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,183
+495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2024-01-31T10:50:35Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,184
 495810632,false,Allow an extra dimension to the size array for 3D favicon,https://github.com/whatwg/html/issues/4922,2019-09-19T13:46:29Z,2021-01-28T22:05:11Z,rcabanier,addition/proposal|needs implementer interest|topic: link,0
 495595729,true,Decide how to treat CSP sandbox in COOP,https://github.com/whatwg/html/issues/4921,2019-09-19T06:18:06Z,2020-06-24T17:33:26Z,shhnjk,security/privacy|topic: cross-origin-opener-policy,0
 495587240,true,Consider restricting SharedArrayBuffer to same-origin usage,https://github.com/whatwg/html/issues/4920,2019-09-19T05:50:59Z,2019-12-05T15:38:02Z,annevk,addition/proposal|topic: serialize and transfer,0
