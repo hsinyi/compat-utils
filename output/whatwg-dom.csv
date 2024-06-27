@@ -207,7 +207,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 578817761,true,"""slotable"" should probably be spelled ""slottable""",https://github.com/whatwg/dom/issues/844,2020-03-10T19:42:37Z,2020-03-14T09:43:00Z,dbaron,clarification,0
 577461238,false,"""callback is listener’s callback""",https://github.com/whatwg/dom/issues/842,2020-03-08T07:51:42Z,2020-03-08T14:33:33Z,domenic,topic: events,1
 573024742,false,Which target could we expose in Event Timing?,https://github.com/whatwg/dom/issues/838,2020-02-28T21:52:12Z,2020-03-04T14:52:23Z,npm1,,0
-573000518,false,Proposal: A Range.prototype.replaceContents(...),https://github.com/whatwg/dom/issues/837,2020-02-28T20:57:35Z,2023-09-03T02:18:34Z,WebReflection,needs implementer interest|addition/proposal|topic: ranges,13
+573000518,false,Proposal: A Range.prototype.replaceContents(...),https://github.com/whatwg/dom/issues/837,2020-02-28T20:57:35Z,2023-09-03T02:18:34Z,WebReflection,needs implementer interest|addition/proposal|topic: ranges,14
 563355953,false,Node insertion step 7.7 isn't upgrading disconnected uncustomized elements that browsers do upgrade,https://github.com/whatwg/dom/issues/833,2020-02-11T17:17:01Z,2020-02-13T12:10:07Z,pshaughn,topic: custom elements,0
 562731160,false,[infra] Integrating generation of W3C-ready review drafts into build pipeline,https://github.com/whatwg/dom/issues/832,2020-02-10T18:02:36Z,2020-02-10T18:10:11Z,sideshowbarker,,0
 561925806,true,Declarative Shadow DOM,https://github.com/whatwg/dom/issues/831,2020-02-07T23:39:21Z,2023-12-15T05:00:11Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,154
@@ -255,7 +255,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 423017912,true,Wrong return type of Node::getRootNode(),https://github.com/whatwg/dom/issues/739,2019-03-20T00:53:42Z,2019-03-20T07:57:20Z,SetTrend,,1
 422508516,true,Reference to struct in inner invoke,https://github.com/whatwg/dom/issues/738,2019-03-19T01:57:21Z,2020-06-29T08:27:07Z,Zirro,,0
 418687232,false,isEqualNode and <template>,https://github.com/whatwg/dom/issues/737,2019-03-08T08:39:44Z,2019-04-05T12:53:37Z,jakearchibald,,1
-418208052,false,Proposal: a DocumentFragment whose nodes do not get removed once inserted,https://github.com/whatwg/dom/issues/736,2019-03-06T19:28:54Z,2023-10-05T09:14:17Z,WebReflection,needs implementer interest|addition/proposal,68
+418208052,false,Proposal: a DocumentFragment whose nodes do not get removed once inserted,https://github.com/whatwg/dom/issues/736,2019-03-06T19:28:54Z,2023-10-05T09:14:17Z,WebReflection,needs implementer interest|addition/proposal,71
 413102117,true,window.event and IFRAMEs,https://github.com/whatwg/dom/issues/735,2019-02-21T20:08:55Z,2020-12-08T19:09:14Z,cvazac,topic: events,0
 411169284,true,Dispatching slotchange within a compound microtask,https://github.com/whatwg/dom/issues/734,2019-02-17T09:52:36Z,2019-03-29T15:11:22Z,annevk,topic: shadow,0
 407741641,true,Should adopting change an element's prototype?,https://github.com/whatwg/dom/issues/731,2019-02-07T15:00:08Z,2019-02-07T15:25:33Z,jakearchibald,,0
@@ -369,7 +369,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 275862932,true,Simply MutationObserver callback handling with optional reference property in MutationObserverInit object,https://github.com/whatwg/dom/issues/539,2017-11-21T21:18:34Z,2018-03-17T08:01:40Z,d2ydx2,,0
 274056398,true,No way to resolve a Promise with a cross domain WindowProxy,https://github.com/whatwg/dom/issues/536,2017-11-15T07:12:02Z,2018-02-07T19:39:52Z,esprehn,,0
 272064812,true,Touch/Trackpad finger position,https://github.com/whatwg/dom/issues/534,2017-11-08T03:40:03Z,2017-11-08T08:14:12Z,felipenmoura,,0
-271164894,false,Make it possible to observe connected-ness of a node,https://github.com/whatwg/dom/issues/533,2017-11-04T04:10:12Z,2024-04-27T01:11:04Z,rniwa,addition/proposal,39
+271164894,false,Make it possible to observe connected-ness of a node,https://github.com/whatwg/dom/issues/533,2017-11-04T04:10:12Z,2024-04-27T01:11:04Z,rniwa,addition/proposal,40
 271004744,true,Update WebIDL definition(s) to use new mixin syntax,https://github.com/whatwg/dom/issues/532,2017-11-03T14:51:11Z,2017-12-19T10:22:26Z,tobie,,0
 270832950,true,Composed shadow DOM,https://github.com/whatwg/dom/issues/531,2017-11-02T22:52:12Z,2018-03-13T10:34:59Z,treshugart,,3
 270778185,true,label-input association across Shadow DOM boundary,https://github.com/whatwg/dom/issues/530,2017-11-02T19:24:22Z,2017-11-09T22:33:21Z,tomalec,,0
@@ -520,7 +520,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 163808031,true,Upstream retargeting algorithm,https://github.com/whatwg/dom/issues/276,2016-07-05T09:28:53Z,2016-07-22T07:39:19Z,annevk,topic: shadow,0
 161349408,true,Note that about:blank also results in quirks mode,https://github.com/whatwg/dom/issues/272,2016-06-21T04:55:48Z,2016-07-05T09:22:21Z,annevk,,0
 161216942,true,selectionchange possible improvements,https://github.com/whatwg/dom/issues/271,2016-06-20T15:02:20Z,2016-06-20T18:14:22Z,caub,,0
-161112784,false,Proposal: DOMChangeList,https://github.com/whatwg/dom/issues/270,2016-06-20T03:54:43Z,2018-02-19T13:22:26Z,wycats,,100
+161112784,false,Proposal: DOMChangeList,https://github.com/whatwg/dom/issues/270,2016-06-20T03:54:43Z,2018-02-19T13:22:26Z,wycats,,103
 159624707,true,Point out that initial about:blank also results in quirks mode,https://github.com/whatwg/dom/issues/268,2016-06-10T12:30:10Z,2016-07-05T09:22:49Z,annevk,good first issue,0
 158750924,true,What happens if a 'once' eventListener dispatches a similar event?,https://github.com/whatwg/dom/issues/265,2016-06-06T19:06:49Z,2016-06-07T16:51:53Z,cdumez,,0
 158732710,true,.createElement's namespace handling doesn't seem to match what UAs do,https://github.com/whatwg/dom/issues/264,2016-06-06T17:36:17Z,2016-06-08T13:21:50Z,smaug----,,0

@@ -1,9 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2376341975,false,move style changes for opening/closing details into UA sheet rather than being style attribute manipulation,https://github.com/whatwg/html/issues/10438,2024-06-26T21:52:52Z,2024-06-26T21:52:53Z,dbaron,,0
+2376337197,false,should default reset/submit button text and default summary text use node's language rather than being locale-specific?,https://github.com/whatwg/html/issues/10437,2024-06-26T21:49:45Z,2024-06-26T21:49:45Z,dbaron,i18n-tracker,0
+2375865288,false,Should popovertarget work on a reset button / input in a form?,https://github.com/whatwg/html/issues/10436,2024-06-26T17:04:31Z,2024-06-26T23:37:03Z,lukewarlow,topic: forms|topic: popover,0
 2373350515,true,fragment parsing algorithm steps take DocumentFragment but it's never used,https://github.com/whatwg/html/issues/10434,2024-06-25T18:20:05Z,2024-06-26T01:05:48Z,lukewarlow,topic: parser,0
 2372772317,false,TC39 AsyncContext Integration,https://github.com/whatwg/html/issues/10432,2024-06-25T13:56:55Z,2024-06-25T14:00:17Z,legendecas,addition/proposal|needs implementer interest,0
 2371966968,false,Should clicking a label contained in a button with popovertarget toggle the popover?,https://github.com/whatwg/html/issues/10431,2024-06-25T07:56:12Z,2024-06-25T07:56:12Z,vinhill,,0
 2371474176,false,DOMString and USVString are not linked in IDL,https://github.com/whatwg/html/issues/10429,2024-06-25T02:10:18Z,2024-06-25T02:17:58Z,nektro,clarification,0
-2370304215,false,Add AbortSignal for popover.showPopover() for initialize internal CloseWatcher,https://github.com/whatwg/html/issues/10428,2024-06-24T13:47:19Z,2024-06-24T15:22:59Z,Jxck,addition/proposal|needs implementer interest|topic: popover,0
+2370304215,false,Add AbortSignal for popover.showPopover() for initialize internal CloseWatcher,https://github.com/whatwg/html/issues/10428,2024-06-24T13:47:19Z,2024-06-26T17:00:15Z,Jxck,addition/proposal|needs implementer interest|topic: popover,0
 2367687964,true,Improving Enumerated Attributes in the HTML Standard,https://github.com/whatwg/html/issues/10426,2024-06-22T08:25:54Z,2024-06-22T10:29:21Z,adx04,invalid,0
 2367318674,false,Structured serialization does not allow [[PrivateElements]] or any other ES-internal internal slots,https://github.com/whatwg/html/issues/10425,2024-06-21T22:25:30Z,2024-06-21T22:25:30Z,hotsphink,,0
 2367309496,false,RawJSON objects should be structured serializable/deserializable,https://github.com/whatwg/html/issues/10424,2024-06-21T22:12:30Z,2024-06-22T09:53:08Z,hotsphink,addition/proposal|needs implementer interest|topic: serialize and transfer,0
@@ -17,7 +20,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2350552903,true," Upcoming WHATNOT meeting on 6/20/2024",https://github.com/whatwg/html/issues/10408,2024-06-13T08:42:21Z,2024-06-21T13:57:26Z,saschanaz,agenda+,1
 2347151517,false,Proposal: CSS reading-order-items,https://github.com/whatwg/html/issues/10407,2024-06-11T19:38:53Z,2024-06-21T23:52:50Z,dizhang168,addition/proposal|topic: focus,0
 2346169253,false,HTML parser doesn't tell when it should suspend and resume,https://github.com/whatwg/html/issues/10406,2024-06-11T11:26:35Z,2024-06-11T14:18:15Z,dSalieri,clarification|topic: parser,1
-2338907359,false,Meeting 3 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10401,2024-06-06T18:27:54Z,2024-06-24T19:23:14Z,past,agenda+,0
+2338907359,false,Meeting 3 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10401,2024-06-06T18:27:54Z,2024-06-26T15:13:06Z,past,agenda+,0
 2338735543,true,Upcoming WHATNOT meeting on 6/13/2024,https://github.com/whatwg/html/issues/10400,2024-06-06T16:52:14Z,2024-06-13T20:31:14Z,past,agenda+,0
 2336942518,true,CSS colors parsed for canvas use should explicitly state the element to resolve currentcolor against,https://github.com/whatwg/html/issues/10398,2024-06-05T22:37:08Z,2024-06-08T06:36:02Z,heycam,topic: canvas,0
 2336759924,false,Error codes for parse errors during tree construction,https://github.com/whatwg/html/issues/10397,2024-06-05T20:16:27Z,2024-06-06T13:04:50Z,stevecheckoway,topic: parser,0
@@ -308,7 +311,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1967040842,true,Description of the width/height attributes are just a repeated string over and over again,https://github.com/whatwg/html/issues/9889,2023-10-29T15:42:21Z,2023-10-31T06:44:58Z,Zegnat,spec tooling,0
 1965994661,true,Back To Top Button,https://github.com/whatwg/html/issues/9886,2023-10-27T18:20:26Z,2023-10-30T13:48:29Z,VaibhavSharma24,spec tooling|editorial|meta,0
 1963468594,false,autocomplete tokens for EID and IMEI,https://github.com/whatwg/html/issues/9884,2023-10-26T12:35:32Z,2024-04-30T14:39:24Z,annevk,addition/proposal|needs implementer interest|topic: forms,0
-1961555431,false,Tie in AbortControllers with CustomElements,https://github.com/whatwg/html/issues/9881,2023-10-25T14:24:15Z,2023-10-27T09:01:43Z,keithamus,addition/proposal|needs implementer interest|topic: custom elements,3
+1961555431,false,Tie in AbortControllers with CustomElements,https://github.com/whatwg/html/issues/9881,2023-10-25T14:24:15Z,2024-06-26T17:50:57Z,keithamus,addition/proposal|needs implementer interest|topic: custom elements,3
 1960081159,false,Third-party cookie blocking and rendering media URLs with Content-Security-Policy,https://github.com/whatwg/html/issues/9879,2023-10-24T21:10:35Z,2023-11-14T13:20:59Z,DCtheTall,,0
 1959607137,false,Missing `reportValidity()` hook,https://github.com/whatwg/html/issues/9878,2023-10-24T16:10:13Z,2024-02-13T13:16:16Z,jpzwarte,addition/proposal|needs implementer interest|topic: custom elements|topic: forms|needs concrete proposal,2
 1954805614,true,Upcoming HTML standard issue triage meeting on 11/2/2023,https://github.com/whatwg/html/issues/9874,2023-10-20T18:11:00Z,2023-11-02T23:41:44Z,past,agenda+,0
@@ -1164,7 +1167,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1123649711,false,[meta] Add var-coloring code from Bikeshed?,https://github.com/whatwg/html/issues/7579,2022-02-03T23:15:57Z,2022-02-03T23:30:28Z,tabatkins,spec tooling,0
 1123546788,false,:active and activating via the keyboard,https://github.com/whatwg/html/issues/7578,2022-02-03T20:58:41Z,2023-11-30T18:37:04Z,domenic,interop|topic: style,1
 1123237456,false,Escaping multipart/form-data,https://github.com/whatwg/html/issues/7575,2022-02-03T15:38:57Z,2022-04-08T18:06:58Z,michaelweiser,topic: forms,1
-1123054970,false,Server-Sent Events (SSE) - add Keep-Alive Messages definition,https://github.com/whatwg/html/issues/7571,2022-02-03T12:57:07Z,2022-11-20T14:20:14Z,liran2000,addition/proposal|needs implementer interest|topic: eventsource,0
+1123054970,false,Server-Sent Events (SSE) - add Keep-Alive Messages definition,https://github.com/whatwg/html/issues/7571,2022-02-03T12:57:07Z,2024-06-26T12:58:59Z,liran2000,addition/proposal|needs implementer interest|topic: eventsource,0
 1122834062,false,"Tweak the default alignment of `input[type=""range""]`",https://github.com/whatwg/html/issues/7570,2022-02-03T09:17:12Z,2022-02-18T23:12:56Z,tomayac,needs implementer interest|topic: rendering|topic: forms,1
 1122827015,false,[Meta] Make navigation to outdated hashes in the spec possible,https://github.com/whatwg/html/issues/7569,2022-02-03T09:10:09Z,2022-02-03T09:12:27Z,tomayac,spec tooling,0
 1122391040,false,Merging Client Hints Infrastructure into HTML (and FETCH) Standards,https://github.com/whatwg/html/issues/7568,2022-02-02T21:11:03Z,2022-03-16T09:24:15Z,arichiv,,0
