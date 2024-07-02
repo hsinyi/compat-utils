@@ -1,18 +1,19 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2384571498,false,Update `@@foo` symbol notation to `%Symbol.foo%` notation,https://github.com/whatwg/html/pull/10450,2024-07-01T19:19:30Z,2024-07-01T19:21:03Z,ljharb,,0
-2384264134,false,All objects have a [[PrivateElements]] internal slot,https://github.com/whatwg/html/pull/10447,2024-07-01T16:33:10Z,2024-07-01T16:34:43Z,annevk,topic: serialize and transfer,0
-2383914416,false,<th scope> has no auto keyword,https://github.com/whatwg/html/pull/10446,2024-07-01T13:48:54Z,2024-07-01T14:48:13Z,annevk,,1
+2385756221,false,Refactored search script using async/await and modern JavaScript syntax.,https://github.com/whatwg/html/pull/10453,2024-07-02T09:35:14Z,2024-07-02T09:35:14Z,Imran-imtiaz48,,0
+2384571498,true,Update `@@foo` symbol notation to `%Symbol.foo%` notation,https://github.com/whatwg/html/pull/10450,2024-07-01T19:19:30Z,2024-07-02T02:27:01Z,ljharb,,0
+2384264134,true,All objects have a [[PrivateElements]] internal slot,https://github.com/whatwg/html/pull/10447,2024-07-01T16:33:10Z,2024-07-02T01:36:16Z,annevk,topic: serialize and transfer,0
+2383914416,true,<th scope> has no auto keyword,https://github.com/whatwg/html/pull/10446,2024-07-01T13:48:54Z,2024-07-02T01:33:54Z,annevk,,1
 2378281914,true,Editorial: add missing variable url to navigate method steps,https://github.com/whatwg/html/pull/10440,2024-06-27T14:11:55Z,2024-07-01T07:55:11Z,farre,topic: navigation,0
 2373393669,true,Change fragment parsing algorithm steps to only take Element,https://github.com/whatwg/html/pull/10435,2024-06-25T18:42:11Z,2024-06-26T09:25:09Z,lukewarlow,,0
 2372834330,true,mudei o titulo (apenas um teste),https://github.com/whatwg/html/pull/10433,2024-06-25T14:20:41Z,2024-06-26T00:54:43Z,adeilson975,invalid,0
 2371481108,true,Editorial: fix variable declaration in navigate,https://github.com/whatwg/html/pull/10430,2024-06-25T02:17:26Z,2024-06-26T00:53:42Z,domenic,,0
 2368446804,true,Delete demos directory,https://github.com/whatwg/html/pull/10427,2024-06-23T08:37:41Z,2024-06-24T04:55:21Z,Wes101652,invalid,0
 2366114338,true,Meta: update GitHub Actions,https://github.com/whatwg/html/pull/10421,2024-06-21T09:23:40Z,2024-06-21T23:52:04Z,domenic,,0
-2366065180,false,Fix window.close() navigable reference,https://github.com/whatwg/html/pull/10420,2024-06-21T08:56:47Z,2024-06-21T09:04:23Z,domenic,,1
+2366065180,true,Fix window.close() navigable reference,https://github.com/whatwg/html/pull/10420,2024-06-21T08:56:47Z,2024-07-02T08:54:29Z,domenic,,1
 2356771259,true,Editorial: Add missing attribute to overview,https://github.com/whatwg/html/pull/10415,2024-06-17T08:47:49Z,2024-06-17T09:25:11Z,j9t,,0
 2354729450,true,Editorial: Correct order,https://github.com/whatwg/html/pull/10413,2024-06-15T10:28:55Z,2024-06-17T06:39:18Z,j9t,,0
 2350784608,true,Editorial: add Oxford commas,https://github.com/whatwg/html/pull/10409,2024-06-13T10:29:27Z,2024-06-13T10:38:46Z,OrKoN,,0
-2341073432,false,Create a 'report an exception' algorithm per #958,https://github.com/whatwg/html/pull/10404,2024-06-07T19:53:20Z,2024-06-27T21:27:26Z,jeremyroman,,0
+2341073432,false,Create a 'report an exception' algorithm per #958,https://github.com/whatwg/html/pull/10404,2024-06-07T19:53:20Z,2024-07-02T08:27:34Z,jeremyroman,,0
 2341067049,true,docs: remove redundant “to”,https://github.com/whatwg/html/pull/10403,2024-06-07T19:47:56Z,2024-06-10T08:32:12Z,j9t,,0
 2339810486,true,Report opener for WebDriver,https://github.com/whatwg/html/pull/10402,2024-06-07T07:44:29Z,2024-06-13T10:30:42Z,OrKoN,,0
 2337905772,true,Stop calling parse a CSS <color> with OffscreenCanvas,https://github.com/whatwg/html/pull/10399,2024-06-06T10:25:05Z,2024-06-08T06:36:01Z,annevk,clarification|topic: canvas,0
@@ -225,7 +226,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
 1933058172,true,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2024-04-04T11:37:04Z,jrandolf,do not merge yet|integration,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
-1932098948,false,Add invokers (invoketarget & invokeaction),https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-06-27T22:40:27Z,keithamus,,1
+1932098948,false,Add invokers (invoketarget & invokeaction),https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-07-02T09:47:19Z,keithamus,,1
 1931367969,true,Editorial: remove some copypasta around CORS settings attribute,https://github.com/whatwg/html/pull/9840,2023-10-07T14:14:19Z,2023-10-08T14:25:55Z,annevk,,0
 1930976617,true,"Fix typo in ""History-action activation-consuming APIs""",https://github.com/whatwg/html/pull/9839,2023-10-06T21:55:17Z,2023-10-10T04:56:14Z,CanadaHonk,,0
 1930460108,true,Perform a microtask checkpoint only after a task,https://github.com/whatwg/html/pull/9838,2023-10-06T15:38:05Z,2023-10-10T05:26:36Z,annevk,topic: event loop,1
