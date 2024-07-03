@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2386013302,false,Focusability of `<dialog>` itself,https://github.com/whatwg/html/issues/10454,2024-07-02T11:31:45Z,2024-07-02T11:41:43Z,jpzwarte,,0
+2386787719,false,Elements with invalid filters,https://github.com/whatwg/html/issues/10455,2024-07-02T17:29:03Z,2024-07-02T17:29:54Z,shallawa,,0
+2386013302,false,Focusability of `<dialog>` itself,https://github.com/whatwg/html/issues/10454,2024-07-02T11:31:45Z,2024-07-02T19:17:53Z,jpzwarte,,0
 2384908323,false,Should dialog removal steps unset is modal flag?,https://github.com/whatwg/html/issues/10452,2024-07-01T23:30:29Z,2024-07-02T01:41:54Z,lukewarlow,topic: dialog,0
 2384853014,false,Show popover 11.5 ignores throwExceptions,https://github.com/whatwg/html/issues/10451,2024-07-01T22:40:50Z,2024-07-02T02:22:51Z,lukewarlow,topic: popover,0
 2384430169,false,structuredClone should not throw for Arguments exotic objects,https://github.com/whatwg/html/issues/10449,2024-07-01T17:58:43Z,2024-07-01T19:41:26Z,michaelficarra,addition/proposal|needs implementer interest|topic: serialize and transfer,1
@@ -40,7 +41,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2332754365,true,Issue with hashChange determination for NavigateEvent when dispatched through replaceState/pushState,https://github.com/whatwg/html/issues/10389,2024-06-04T07:23:28Z,2024-06-20T07:02:22Z,rwlbuis,,0
 2330910794,true,"The term ""insertion point""",https://github.com/whatwg/html/issues/10388,2024-06-03T11:35:39Z,2024-06-12T10:24:49Z,dSalieri,topic: parser,0
 2329978148,false,Bug in timer initialisation steps: the id's of cleared but still live timers can be reused,https://github.com/whatwg/html/issues/10387,2024-06-03T01:18:29Z,2024-06-24T07:41:59Z,majaha,topic: timing,0
-2329503779,false,setTimeout() nesting levels: browsers do not match specification,https://github.com/whatwg/html/issues/10386,2024-06-02T06:56:17Z,2024-06-10T10:51:36Z,majaha,topic: timing,0
+2329503779,false,setTimeout() nesting levels: browsers do not match specification,https://github.com/whatwg/html/issues/10386,2024-06-02T06:56:17Z,2024-07-02T16:52:35Z,majaha,topic: timing,0
 2327536552,false,"[Proposal] Capturing Real User Monitoring (RUM) ",https://github.com/whatwg/html/issues/10383,2024-05-31T10:48:37Z,2024-06-01T10:08:29Z,hemanth,addition/proposal|needs implementer interest,0
 2327513339,false,[Proposal] capture screen,https://github.com/whatwg/html/issues/10382,2024-05-31T10:35:41Z,2024-05-31T10:43:43Z,hemanth,addition/proposal|needs implementer interest,1
 2326705799,true,Upcoming WHATNOT meeting on 6/6/2024,https://github.com/whatwg/html/issues/10381,2024-05-30T23:34:22Z,2024-06-06T17:00:23Z,past,agenda+,0
@@ -114,7 +115,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2240037535,false,Module script dependencies and fetch priority,https://github.com/whatwg/html/issues/10276,2024-04-12T12:18:39Z,2024-05-06T13:37:40Z,yoavweiss,,0
 2238379090,true,Upcoming WHATNOT meeting on 4/18/2024,https://github.com/whatwg/html/issues/10275,2024-04-11T19:06:54Z,2024-04-18T18:40:20Z,past,agenda+,0
 2238307794,false,"Not clear purpose of early return in ""finalize a same-document navigation""",https://github.com/whatwg/html/issues/10274,2024-04-11T18:22:34Z,2024-05-01T13:50:48Z,kalenikaliaksandr,topic: navigation,0
-2237234871,false,Allow slotting indirect children,https://github.com/whatwg/html/issues/10273,2024-04-11T08:54:22Z,2024-05-10T17:28:01Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow,6
+2237234871,false,Allow slotting indirect children,https://github.com/whatwg/html/issues/10273,2024-04-11T08:54:22Z,2024-05-10T17:28:01Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow,7
 2235842720,false,ECMAScript's OrdinaryFunctionCreate has another new parameter,https://github.com/whatwg/html/issues/10271,2024-04-10T15:10:05Z,2024-04-10T17:45:52Z,Ms2ger,integration,0
 2232213961,false,Can messageerror fire on Worker?,https://github.com/whatwg/html/issues/10262,2024-04-08T22:27:49Z,2024-04-19T09:13:27Z,foolip,topic: workers,0
 2231603753,true,"""scripts may run for the newly-created document"" never updated for about:blank iframes.",https://github.com/whatwg/html/issues/10261,2024-04-08T16:09:53Z,2024-04-12T05:49:45Z,kalenikaliaksandr,topic: navigation,0
@@ -451,7 +452,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1821261026,false,HTML Parser: confusion about  adoption agency algorithm,https://github.com/whatwg/html/issues/9559,2023-07-25T22:29:47Z,2023-10-01T15:37:56Z,stasoid,clarification|topic: parser,0
 1819321957,true,Evolving the HTML base tag further,https://github.com/whatwg/html/issues/9555,2023-07-25T00:13:44Z,2023-07-25T02:17:59Z,linuxguist,,0
 1817304169,true,"""This requirement is not a hard requirement, how...""",https://github.com/whatwg/html/issues/9553,2023-07-23T21:37:56Z,2023-07-25T18:23:27Z,Lanpun,,0
-1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2024-05-08T06:31:13Z,thany,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,14
+1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2024-05-08T06:31:13Z,thany,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,15
 1813664808,true,Considering event.waitUntil(promise) for async listeners,https://github.com/whatwg/html/issues/9540,2023-07-20T10:30:06Z,2024-06-12T17:00:22Z,WebReflection,,2
 1812387860,true,Consider making `=` in unquoted attribute values not a parse error,https://github.com/whatwg/html/issues/9536,2023-07-19T17:26:24Z,2023-08-18T08:47:13Z,tabatkins,document conformance,1
 1812006723,true,Environment settings objects used when fetching a module worker script graph are still wrong,https://github.com/whatwg/html/issues/9535,2023-07-19T13:53:30Z,2023-07-24T06:15:07Z,nicolo-ribaudo,topic: script,0
@@ -976,7 +977,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1299514217,false,"Apply/Cancel using showPicker() of type=""color""",https://github.com/whatwg/html/issues/8090,2022-07-08T23:38:19Z,2022-07-12T01:52:00Z,codedread,,0
 1299174100,true,Upcoming HTML standard issue triage meeting on 8/4/2022,https://github.com/whatwg/html/issues/8089,2022-07-08T15:34:38Z,2022-08-05T15:30:52Z,past,agenda+,0
 1299124184,true,Margin-block-start takes hidden elements into account causing empty space,https://github.com/whatwg/html/issues/8088,2022-07-08T14:52:03Z,2022-07-09T08:49:10Z,LukaszJaro,,0
-1297039069,false,"Add createImageBitMaps's imageOrientation ""none""",https://github.com/whatwg/html/issues/8085,2022-07-07T08:43:36Z,2024-07-02T03:09:13Z,zcorpan,normative change|addition/proposal|topic: canvas|needs compat analysis,0
+1297039069,false,"Add createImageBitMaps's imageOrientation ""none""",https://github.com/whatwg/html/issues/8085,2022-07-07T08:43:36Z,2024-07-02T23:41:06Z,zcorpan,normative change|addition/proposal|topic: canvas|needs compat analysis,0
 1295936796,false,Proposal: actively peeking/deleting message in queen from Window/WebWorker,https://github.com/whatwg/html/issues/8083,2022-07-06T14:34:52Z,2022-07-07T10:00:32Z,Zhang-Junzhi,,0
 1295686187,true,Improve UX : Fluent UI transitions for non SPA websites,https://github.com/whatwg/html/issues/8082,2022-07-06T11:22:32Z,2022-07-08T09:13:02Z,perelengo,,0
 1295622672,false,Review accessibility of the content models venn diagram,https://github.com/whatwg/html/issues/8081,2022-07-06T10:29:39Z,2023-10-17T15:53:07Z,zcorpan,accessibility|editorial,0
@@ -1482,7 +1483,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 897523809,true,target's TLBC should be target's BC's TLBC in has focus steps,https://github.com/whatwg/html/issues/6703,2021-05-20T22:42:13Z,2021-06-17T20:04:20Z,domenic,good first issue,0
 897285343,true,"Consider moving XHR's definition of ""entry list"" to HTML",https://github.com/whatwg/html/issues/6701,2021-05-20T18:51:21Z,2021-11-29T17:20:57Z,andreubotella,clarification|integration,0
 896536690,true,Allow certain tasks to run even when document is not fully active?,https://github.com/whatwg/html/issues/6699,2021-05-20T09:25:43Z,2021-05-27T06:23:41Z,rakina,topic: fetch|topic: document lifecycle,0
-895874485,false,Allow HTML web apps to force 24 hour time format in <input type=time>,https://github.com/whatwg/html/issues/6698,2021-05-19T20:49:24Z,2024-04-17T10:47:19Z,skissane,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,72
+895874485,false,Allow HTML web apps to force 24 hour time format in <input type=time>,https://github.com/whatwg/html/issues/6698,2021-05-19T20:49:24Z,2024-04-17T10:47:19Z,skissane,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,73
 895436878,false,Specify scroll into view for find-in-page and sequential focus navigation,https://github.com/whatwg/html/issues/6694,2021-05-19T13:18:38Z,2021-05-20T11:54:29Z,zcorpan,,0
 890889194,false,Navigating to same url - replace or add?,https://github.com/whatwg/html/issues/6682,2021-05-13T09:34:50Z,2021-08-31T13:25:45Z,jakearchibald,topic: navigation|topic: history|interop,0
 890289078,true,Author control and possible race condition in dialog.close,https://github.com/whatwg/html/issues/6681,2021-05-12T16:48:23Z,2021-05-13T16:03:36Z,AutoSponge,,0
@@ -2501,7 +2502,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 432733675,true,Proposal: to add a noblock type to script tags,https://github.com/whatwg/html/issues/4529,2019-04-12T20:31:44Z,2021-03-29T19:54:36Z,ahmedHusseinF,,1
 432671204,true,Add onbeforeinput to GlobalEventHandlers,https://github.com/whatwg/html/issues/4526,2019-04-12T17:34:38Z,2022-06-09T19:26:22Z,phistuck,,1
 431923083,true,Chrome's registerProtocolHandler web+ handling is at odds with the specification,https://github.com/whatwg/html/issues/4524,2019-04-11T09:32:10Z,2020-01-20T14:05:18Z,annevk,interop,0
-431891509,false,Proposal: to add the attribute format for input times,https://github.com/whatwg/html/issues/4523,2019-04-11T08:21:17Z,2024-01-31T14:30:53Z,FANMixco,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,8
+431891509,false,Proposal: to add the attribute format for input times,https://github.com/whatwg/html/issues/4523,2019-04-11T08:21:17Z,2024-01-31T14:30:53Z,FANMixco,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,9
 431692194,true,Unexpected behaviour of <picture> and it's children compared to <img>,https://github.com/whatwg/html/issues/4522,2019-04-10T20:15:43Z,2019-04-10T20:42:24Z,MelvinIdema,,0
 431661424,false,Expose transferList on MessageEvent,https://github.com/whatwg/html/issues/4521,2019-04-10T18:55:53Z,2020-01-22T17:17:42Z,surma,addition/proposal|needs implementer interest|topic: serialize and transfer,1
 431573865,true,Handling of not-an-HTMLElement custom element constructor return values is different from DOM,https://github.com/whatwg/html/issues/4520,2019-04-10T15:37:27Z,2019-04-15T22:01:19Z,bzbarsky,topic: custom elements,0
@@ -4374,7 +4375,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 144460958,true,Introduce Promise type BeforeUnloadEvent.prototype.returnValue to allow auto-saving on unloading a page,https://github.com/whatwg/html/issues/963,2016-03-30T04:27:29Z,2019-03-29T16:10:38Z,duanyao,addition/proposal,0
 144454099,true,"Make <iframe src=""about:blank""> to be XHTML mode if the parent document is a XHTML document",https://github.com/whatwg/html/issues/962,2016-03-30T03:32:26Z,2016-03-30T07:20:30Z,duanyao,,0
 144279126,false,text input empty string storage,https://github.com/whatwg/html/issues/959,2016-03-29T14:21:08Z,2016-04-04T11:36:15Z,TheTesla,normative change|compat,0
-144242350,false,"Clarify ""report an exception""",https://github.com/whatwg/html/issues/958,2016-03-29T12:01:52Z,2024-07-02T08:57:28Z,Ms2ger,topic: multiple globals,0
+144242350,false,"Clarify ""report an exception""",https://github.com/whatwg/html/issues/958,2016-03-29T12:01:52Z,2024-07-02T15:53:59Z,Ms2ger,topic: multiple globals,0
 144235836,true,"""get the current value of the event handler"" has backwards script-enabled check",https://github.com/whatwg/html/issues/957,2016-03-29T11:34:09Z,2016-04-29T20:33:12Z,Ms2ger,good first issue,0
 144208959,true,Should we preserve the playbackRate between play/pause from user interface?,https://github.com/whatwg/html/issues/956,2016-03-29T09:30:38Z,2016-04-05T09:57:19Z,alastor0325,topic: media,0
 144194271,true,Move https://images.whatwg.org/robots.jpeg into this repository,https://github.com/whatwg/html/issues/955,2016-03-29T08:34:17Z,2016-03-29T22:47:15Z,annevk,good first issue,0
