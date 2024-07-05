@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2391185450,false,Investigate making the invalid state of `<button type>` _not_ submit,https://github.com/whatwg/html/issues/10462,2024-07-04T16:27:59Z,2024-07-04T16:28:00Z,keithamus,addition/proposal|needs implementer interest,2
+2390995807,false,Permissions Policy should be moved into the Policy Container,https://github.com/whatwg/html/issues/10461,2024-07-04T14:25:11Z,2024-07-04T14:25:24Z,clelland,,0
 2390244386,false,Deprecate canPlayType for media elements in favor media capabilities,https://github.com/whatwg/html/issues/10460,2024-07-04T08:16:38Z,2024-07-04T08:24:51Z,marcoscaceres,removal/deprecation|topic: media,0
 2388964443,false,Issues with the intrinsic size of text-entry input elements,https://github.com/whatwg/html/issues/10458,2024-07-03T15:51:30Z,2024-07-04T07:48:48Z,jfkthame,topic: rendering|topic: forms,0
 2388887362,false,Should COOP-related browsing context switch result in nullification of a popup's WindowProxy's `window`?,https://github.com/whatwg/html/issues/10457,2024-07-03T15:12:10Z,2024-07-04T07:18:41Z,yoavweiss,,0
@@ -13,7 +15,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2378594970,false,Add an imperative way to set popover invoker relationships,https://github.com/whatwg/html/issues/10442,2024-06-27T16:22:41Z,2024-07-01T21:31:15Z,mfreed7,addition/proposal|topic: popover,0
 2378355375,false,Upcoming WHATNOT meeting on 7/4/2024,https://github.com/whatwg/html/issues/10441,2024-06-27T14:39:24Z,2024-06-27T14:39:24Z,past,agenda+,0
 2376341975,false,move style changes for opening/closing details into UA sheet rather than being style attribute manipulation,https://github.com/whatwg/html/issues/10438,2024-06-26T21:52:52Z,2024-07-01T10:05:20Z,dbaron,topic: rendering,2
-2376337197,false,should default reset/submit button text and default summary text use node's language rather than being locale-specific?,https://github.com/whatwg/html/issues/10437,2024-06-26T21:49:45Z,2024-06-27T18:16:09Z,dbaron,topic: forms|i18n-tracker,0
+2376337197,false,should default reset/submit button text and default summary text use node's language rather than being locale-specific?,https://github.com/whatwg/html/issues/10437,2024-06-26T21:49:45Z,2024-07-04T18:07:50Z,dbaron,topic: forms|i18n-tracker,0
 2375865288,false,Should popovertarget work on a reset button / input in a form?,https://github.com/whatwg/html/issues/10436,2024-06-26T17:04:31Z,2024-06-26T23:37:03Z,lukewarlow,topic: forms|topic: popover,0
 2373350515,true,fragment parsing algorithm steps take DocumentFragment but it's never used,https://github.com/whatwg/html/issues/10434,2024-06-25T18:20:05Z,2024-06-26T01:05:48Z,lukewarlow,topic: parser,0
 2372772317,false,TC39 AsyncContext Integration,https://github.com/whatwg/html/issues/10432,2024-06-25T13:56:55Z,2024-06-25T14:00:17Z,legendecas,addition/proposal|needs implementer interest,0
@@ -40,7 +42,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2336451670,false,"Use align-content for form control centering instead of html ""magic""",https://github.com/whatwg/html/issues/10396,2024-06-05T17:26:55Z,2024-06-22T00:36:59Z,bfgeek,topic: rendering|topic: forms,1
 2335978837,true,Lack of CSS Styling Capabilities for <option> Tags,https://github.com/whatwg/html/issues/10395,2024-06-05T13:50:34Z,2024-06-07T08:54:23Z,sardarshoaib791,,0
 2333421017,true,Spec for the <div align> and <center> elements doesn't match reality.,https://github.com/whatwg/html/issues/10391,2024-06-04T12:34:20Z,2024-06-13T08:33:50Z,emilio,topic: rendering,5
-2333210470,false,[forms] Number input intrinsic size.,https://github.com/whatwg/html/issues/10390,2024-06-04T10:51:57Z,2024-06-07T17:04:11Z,emilio,topic: rendering|topic: forms,0
+2333210470,false,[forms] Number input intrinsic size.,https://github.com/whatwg/html/issues/10390,2024-06-04T10:51:57Z,2024-07-04T15:43:24Z,emilio,topic: rendering|topic: forms,0
 2332754365,true,Issue with hashChange determination for NavigateEvent when dispatched through replaceState/pushState,https://github.com/whatwg/html/issues/10389,2024-06-04T07:23:28Z,2024-06-20T07:02:22Z,rwlbuis,,0
 2330910794,true,"The term ""insertion point""",https://github.com/whatwg/html/issues/10388,2024-06-03T11:35:39Z,2024-06-12T10:24:49Z,dSalieri,topic: parser,0
 2329978148,false,Bug in timer initialisation steps: the id's of cleared but still live timers can be reused,https://github.com/whatwg/html/issues/10387,2024-06-03T01:18:29Z,2024-06-24T07:41:59Z,majaha,topic: timing,0
@@ -72,7 +74,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2286104421,false,How should UAs handle web authors setting dropEffect values?,https://github.com/whatwg/html/issues/10336,2024-05-08T17:35:57Z,2024-05-09T19:52:10Z,ragoulik,topic: drag and drop,0
 2286099886,false,Drag and drop spec allows multiple values for dropEffect which might cause browsers to behave differently.,https://github.com/whatwg/html/issues/10335,2024-05-08T17:33:16Z,2024-05-09T19:52:31Z,ragoulik,topic: drag and drop,0
 2286095415,false,The dropEffect column in the Drag and Drop events summary table should clarify it represents default values.,https://github.com/whatwg/html/issues/10334,2024-05-08T17:30:20Z,2024-05-09T19:53:11Z,ragoulik,topic: drag and drop,0
-2285993751,false,Consider improving interoperability of <iframe> throttling margins.,https://github.com/whatwg/html/issues/10333,2024-05-08T16:32:05Z,2024-05-16T09:14:12Z,emilio,topic: rendering,0
+2285993751,false,Consider improving interoperability of <iframe> throttling margins.,https://github.com/whatwg/html/issues/10333,2024-05-08T16:32:05Z,2024-07-04T15:45:11Z,emilio,topic: rendering,0
 2284498823,false,Clean up HTML <-> DOM hooks,https://github.com/whatwg/html/issues/10331,2024-05-08T01:38:50Z,2024-05-09T19:54:22Z,domenic,clarification,2
 2284438697,true,template.content has unusable value,https://github.com/whatwg/html/issues/10330,2024-05-08T00:22:14Z,2024-05-08T05:28:39Z,dSalieri,,0
 2282705966,true,"If a web author sets dropEffect to something that is not allowed according to spec, should UA respect their choice by updating dropEffect attribute?",https://github.com/whatwg/html/issues/10326,2024-05-07T09:10:32Z,2024-05-08T16:18:10Z,kashishjain6,,0
@@ -192,7 +194,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2144668268,false,"align=""justify"" should align to start, not to left",https://github.com/whatwg/html/issues/10148,2024-02-20T15:38:05Z,2024-02-21T18:03:20Z,Loirooriol,topic: rendering|needs tests,0
 2143265229,false,UI Element Attribute,https://github.com/whatwg/html/issues/10146,2024-02-19T23:05:03Z,2024-04-17T11:33:27Z,MrMatthewLayton,addition/proposal|needs implementer interest,2
 2142919582,false,"Render-blocking: the definition of ""created by its node document's parser"" is a little bit vague",https://github.com/whatwg/html/issues/10145,2024-02-19T18:08:51Z,2024-03-14T22:55:05Z,cathiechen,topic: parser,0
-2141312881,false,Improve DX of element reference attributes by allowing relative references instead of only ids,https://github.com/whatwg/html/issues/10143,2024-02-19T01:30:10Z,2024-03-08T19:32:09Z,LeaVerou,addition/proposal|needs implementer interest,15
+2141312881,false,Improve DX of element reference attributes by allowing relative references instead of only ids,https://github.com/whatwg/html/issues/10143,2024-02-19T01:30:10Z,2024-07-04T23:46:25Z,LeaVerou,addition/proposal|needs implementer interest,16
 2141042150,false,"ImageBitmapRenderingContext: clarify behaviour with `premultiplyAlpha: ""none""` createImageBitmap option and canvas",https://github.com/whatwg/html/issues/10142,2024-02-18T15:27:58Z,2024-04-08T22:18:01Z,hybridherbst,topic: canvas,0
 2140571376,true,"Dark mode styling for ""yes"" table attributes is not ledgible",https://github.com/whatwg/html/issues/10141,2024-02-17T20:28:28Z,2024-03-05T02:47:14Z,ADKaster,spec tooling,0
 2137613348,true,Using multiple h1 tag in a page,https://github.com/whatwg/html/issues/10138,2024-02-15T23:28:03Z,2024-02-16T03:27:59Z,bhojpress,,0
@@ -426,7 +428,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2024-03-14T17:43:28Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,5
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,true,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-09-07T21:38:07Z,past,agenda+,0
-1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-06-20T16:29:57Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,39
+1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-07-04T16:43:15Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,39
 1862349856,false,Add `allow-unique-origin` keyword in iframe/CSP sandbox,https://github.com/whatwg/html/issues/9623,2023-08-22T23:56:53Z,2023-10-01T15:12:22Z,shhnjk,,0
 1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-28T19:21:24Z,woody-li,,0
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
@@ -1040,7 +1042,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1245490159,false,Consider being strict about range mismatch for media,https://github.com/whatwg/html/issues/7950,2022-05-23T17:27:12Z,2022-05-24T07:26:22Z,noamr,topic: media|interop,1
 1245461464,true,Typo in section 2.1.4 DOM trees,https://github.com/whatwg/html/issues/7949,2022-05-23T16:58:18Z,2022-05-26T15:27:55Z,AegisFair,good first issue,1
 1244030392,false,Add color-interpolation-method support for canvas gradients,https://github.com/whatwg/html/issues/7947,2022-05-21T16:39:32Z,2022-05-22T10:24:36Z,weinig,addition/proposal|topic: canvas,5
-1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2024-04-03T14:48:25Z,BenjaminAster,addition/proposal|needs implementer interest,34
+1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2024-04-03T14:48:25Z,BenjaminAster,addition/proposal|needs implementer interest,35
 1242018223,false,(Background) Tab Suspending,https://github.com/whatwg/html/issues/7942,2022-05-19T16:18:36Z,2022-05-19T16:18:36Z,johannhof,,0
 1242006437,false,Throttling and clamping of setTimeout and setInterval,https://github.com/whatwg/html/issues/7941,2022-05-19T16:08:39Z,2022-05-20T08:26:05Z,johannhof,topic: event loop|topic: timing,0
 1241898306,false,Make `<embed>` and `<object>` behave like `<iframe>` for image loading,https://github.com/whatwg/html/issues/7939,2022-05-19T14:43:19Z,2022-06-27T20:59:41Z,farre,normative change|topic: navigation|topic: embed and object,0
@@ -1238,7 +1240,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1073943544,false,Focus restoration for same-document/fragment back-forward navigation,https://github.com/whatwg/html/issues/7397,2021-12-08T02:30:02Z,2022-08-08T07:17:42Z,WestonThayer,addition/proposal|topic: history|interop|topic: focus,2
 1072970331,false,"Meta: specs using ""page visibility change steps""",https://github.com/whatwg/html/issues/7396,2021-12-07T06:32:05Z,2021-12-07T06:33:00Z,marcoscaceres,,0
 1072436933,false,<select> dynamic <option> insertion doesn't match browser reality,https://github.com/whatwg/html/issues/7395,2021-12-06T17:56:35Z,2021-12-13T20:18:49Z,dandclark,topic: forms,0
-1071265898,false,"Element request: `<h>` to reconcile heading levels, outlines, and components",https://github.com/whatwg/html/issues/7390,2021-12-04T18:17:36Z,2024-03-04T12:06:52Z,kellytk,addition/proposal|needs implementer interest,17
+1071265898,false,"Element request: `<h>` to reconcile heading levels, outlines, and components",https://github.com/whatwg/html/issues/7390,2021-12-04T18:17:36Z,2024-03-04T12:06:52Z,kellytk,addition/proposal|needs implementer interest,18
 1071222545,false,Support link modulepreload for import assertions,https://github.com/whatwg/html/issues/7388,2021-12-04T14:41:49Z,2021-12-21T21:04:51Z,uasan,addition/proposal|needs implementer interest|topic: link,1
 1071104407,true,"js drawImage ",https://github.com/whatwg/html/issues/7387,2021-12-04T03:00:23Z,2021-12-04T11:57:32Z,Ali-Hassan-Ali,,0
 1071062389,true,What should happen when setting `location.hash = location.hash`?,https://github.com/whatwg/html/issues/7386,2021-12-04T00:07:21Z,2022-01-12T17:14:26Z,cpeterso,topic: navigation|interop,0
@@ -2529,7 +2531,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 427195396,true,drawImage() tainting may not be interoperable,https://github.com/whatwg/html/issues/4490,2019-03-29T22:04:39Z,2019-04-05T13:52:28Z,domenic,topic: canvas|security/privacy|topic: multiple globals|needs tests,0
 427194257,false,Unclear whether document unloading should abort fetches,https://github.com/whatwg/html/issues/4489,2019-03-29T22:00:32Z,2021-01-28T13:57:41Z,domenic,compat|topic: navigation|topic: fetch|interop|topic: document lifecycle,0
 427192152,false,popstate transitioning between documents may not be interoperable,https://github.com/whatwg/html/issues/4488,2019-03-29T21:53:11Z,2019-04-05T12:09:12Z,domenic,topic: history|interop|topic: document lifecycle,0
-427188591,false," Definition of ""ended playback"" prevents looping when loop attribute is added after playback has ended",https://github.com/whatwg/html/issues/4487,2019-03-29T21:40:40Z,2019-04-02T20:57:25Z,domenic,topic: media,0
+427188591,false," Definition of ""ended playback"" prevents looping when loop attribute is added after playback has ended",https://github.com/whatwg/html/issues/4487,2019-03-29T21:40:40Z,2024-07-04T15:00:35Z,domenic,topic: media,0
 427186856,false,"The ""rules for updating the text track rendering"" are not run when mode changes from hidden to showing",https://github.com/whatwg/html/issues/4486,2019-03-29T21:34:24Z,2019-04-26T00:28:52Z,domenic,good first issue|topic: media,0
 427186050,false,Consider specifying <canvas> polygon edge antialiasing,https://github.com/whatwg/html/issues/4485,2019-03-29T21:32:04Z,2019-03-29T22:42:07Z,domenic,topic: canvas,0
 427185276,false,"Unclear how ismap="""" coords append to existing URLs",https://github.com/whatwg/html/issues/4484,2019-03-29T21:29:26Z,2019-03-29T21:30:30Z,domenic,needs tests|topic: hyperlink,0
@@ -4378,7 +4380,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 144460958,true,Introduce Promise type BeforeUnloadEvent.prototype.returnValue to allow auto-saving on unloading a page,https://github.com/whatwg/html/issues/963,2016-03-30T04:27:29Z,2019-03-29T16:10:38Z,duanyao,addition/proposal,0
 144454099,true,"Make <iframe src=""about:blank""> to be XHTML mode if the parent document is a XHTML document",https://github.com/whatwg/html/issues/962,2016-03-30T03:32:26Z,2016-03-30T07:20:30Z,duanyao,,0
 144279126,false,text input empty string storage,https://github.com/whatwg/html/issues/959,2016-03-29T14:21:08Z,2016-04-04T11:36:15Z,TheTesla,normative change|compat,0
-144242350,false,"Clarify ""report an exception""",https://github.com/whatwg/html/issues/958,2016-03-29T12:01:52Z,2024-07-04T10:40:09Z,Ms2ger,topic: multiple globals,0
+144242350,false,"Clarify ""report an exception""",https://github.com/whatwg/html/issues/958,2016-03-29T12:01:52Z,2024-07-04T13:12:44Z,Ms2ger,topic: multiple globals,0
 144235836,true,"""get the current value of the event handler"" has backwards script-enabled check",https://github.com/whatwg/html/issues/957,2016-03-29T11:34:09Z,2016-04-29T20:33:12Z,Ms2ger,good first issue,0
 144208959,true,Should we preserve the playbackRate between play/pause from user interface?,https://github.com/whatwg/html/issues/956,2016-03-29T09:30:38Z,2016-04-05T09:57:19Z,alastor0325,topic: media,0
 144194271,true,Move https://images.whatwg.org/robots.jpeg into this repository,https://github.com/whatwg/html/issues/955,2016-03-29T08:34:17Z,2016-03-29T22:47:15Z,annevk,good first issue,0
