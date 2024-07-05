@@ -1,6 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2391185450,false,Investigate making the invalid state of `<button type>` _not_ submit,https://github.com/whatwg/html/issues/10462,2024-07-04T16:27:59Z,2024-07-04T16:28:00Z,keithamus,addition/proposal|needs implementer interest,2
-2390995807,false,Permissions Policy should be moved into the Policy Container,https://github.com/whatwg/html/issues/10461,2024-07-04T14:25:11Z,2024-07-04T14:25:24Z,clelland,,0
+2392054951,false,Upcoming WHATNOT meeting on 2024-07-11,https://github.com/whatwg/html/issues/10463,2024-07-05T07:51:43Z,2024-07-05T07:51:49Z,annevk,agenda+,0
+2391185450,false,Investigate making the invalid state of `<button type>` _not_ submit,https://github.com/whatwg/html/issues/10462,2024-07-04T16:27:59Z,2024-07-05T08:08:25Z,keithamus,addition/proposal|needs implementer interest|topic: forms,3
+2390995807,false,Permissions Policy should be moved into the Policy Container,https://github.com/whatwg/html/issues/10461,2024-07-04T14:25:11Z,2024-07-04T14:25:24Z,clelland,,1
 2390244386,false,Deprecate canPlayType for media elements in favor media capabilities,https://github.com/whatwg/html/issues/10460,2024-07-04T08:16:38Z,2024-07-04T08:24:51Z,marcoscaceres,removal/deprecation|topic: media,0
 2388964443,false,Issues with the intrinsic size of text-entry input elements,https://github.com/whatwg/html/issues/10458,2024-07-03T15:51:30Z,2024-07-04T07:48:48Z,jfkthame,topic: rendering|topic: forms,0
 2388887362,false,Should COOP-related browsing context switch result in nullification of a popup's WindowProxy's `window`?,https://github.com/whatwg/html/issues/10457,2024-07-03T15:12:10Z,2024-07-04T07:18:41Z,yoavweiss,,0
@@ -13,7 +14,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2382256310,true,"offsetParent, offsetLeft & offsetTop should be on Element or Node instead of HTMLElement",https://github.com/whatwg/html/issues/10445,2024-06-30T13:30:35Z,2024-07-01T01:24:56Z,jogibear9988,,0
 2378870903,false,A way to declare ties in ordered lists,https://github.com/whatwg/html/issues/10443,2024-06-27T18:45:33Z,2024-06-27T18:46:03Z,simevidas,addition/proposal|needs implementer interest,3
 2378594970,false,Add an imperative way to set popover invoker relationships,https://github.com/whatwg/html/issues/10442,2024-06-27T16:22:41Z,2024-07-01T21:31:15Z,mfreed7,addition/proposal|topic: popover,0
-2378355375,false,Upcoming WHATNOT meeting on 7/4/2024,https://github.com/whatwg/html/issues/10441,2024-06-27T14:39:24Z,2024-06-27T14:39:24Z,past,agenda+,0
+2378355375,true,Upcoming WHATNOT meeting on 7/4/2024,https://github.com/whatwg/html/issues/10441,2024-06-27T14:39:24Z,2024-07-05T07:52:21Z,past,agenda+,0
 2376341975,false,move style changes for opening/closing details into UA sheet rather than being style attribute manipulation,https://github.com/whatwg/html/issues/10438,2024-06-26T21:52:52Z,2024-07-01T10:05:20Z,dbaron,topic: rendering,2
 2376337197,false,should default reset/submit button text and default summary text use node's language rather than being locale-specific?,https://github.com/whatwg/html/issues/10437,2024-06-26T21:49:45Z,2024-07-04T18:07:50Z,dbaron,topic: forms|i18n-tracker,0
 2375865288,false,Should popovertarget work on a reset button / input in a form?,https://github.com/whatwg/html/issues/10436,2024-06-26T17:04:31Z,2024-06-26T23:37:03Z,lukewarlow,topic: forms|topic: popover,0
@@ -42,7 +43,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2336451670,false,"Use align-content for form control centering instead of html ""magic""",https://github.com/whatwg/html/issues/10396,2024-06-05T17:26:55Z,2024-06-22T00:36:59Z,bfgeek,topic: rendering|topic: forms,1
 2335978837,true,Lack of CSS Styling Capabilities for <option> Tags,https://github.com/whatwg/html/issues/10395,2024-06-05T13:50:34Z,2024-06-07T08:54:23Z,sardarshoaib791,,0
 2333421017,true,Spec for the <div align> and <center> elements doesn't match reality.,https://github.com/whatwg/html/issues/10391,2024-06-04T12:34:20Z,2024-06-13T08:33:50Z,emilio,topic: rendering,5
-2333210470,false,[forms] Number input intrinsic size.,https://github.com/whatwg/html/issues/10390,2024-06-04T10:51:57Z,2024-07-04T15:43:24Z,emilio,topic: rendering|topic: forms,0
+2333210470,false,[forms] Number input intrinsic size.,https://github.com/whatwg/html/issues/10390,2024-06-04T10:51:57Z,2024-07-05T08:43:24Z,emilio,topic: rendering|topic: forms,0
 2332754365,true,Issue with hashChange determination for NavigateEvent when dispatched through replaceState/pushState,https://github.com/whatwg/html/issues/10389,2024-06-04T07:23:28Z,2024-06-20T07:02:22Z,rwlbuis,,0
 2330910794,true,"The term ""insertion point""",https://github.com/whatwg/html/issues/10388,2024-06-03T11:35:39Z,2024-06-12T10:24:49Z,dSalieri,topic: parser,0
 2329978148,false,Bug in timer initialisation steps: the id's of cleared but still live timers can be reused,https://github.com/whatwg/html/issues/10387,2024-06-03T01:18:29Z,2024-06-24T07:41:59Z,majaha,topic: timing,0
@@ -54,7 +55,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2324127724,false,HTML Video: Allow a child Picture Element to Control the Video Poster Image,https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2024-05-30T14:47:25Z,scottjehl,,12
 2324097406,false,"Specify That Responsive Video Elements Re-Evaluate Sources on Media Change, Like Picture",https://github.com/whatwg/html/issues/10377,2024-05-29T19:33:05Z,2024-05-29T19:33:05Z,scottjehl,,3
 2324056660,false,Video loading=lazy attribute support,https://github.com/whatwg/html/issues/10376,2024-05-29T19:09:50Z,2024-06-21T23:56:12Z,scottjehl,addition/proposal|needs implementer interest,10
-2322953911,false,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-07-03T18:09:49Z,yoavweiss,addition/proposal|needs implementer interest|agenda+,0
+2322953911,false,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-07-05T07:58:05Z,yoavweiss,addition/proposal|needs implementer interest|agenda+,0
 2322574083,true,a element defines content model as only Transparent,https://github.com/whatwg/html/issues/10372,2024-05-29T07:26:47Z,2024-05-29T09:29:39Z,andrewnicols,,0
 2320740955,false,Fetch priority hint for dynamic modules,https://github.com/whatwg/html/issues/10371,2024-05-28T10:48:17Z,2024-05-28T10:48:17Z,yoavweiss,addition/proposal|needs implementer interest,0
 2317914185,true,Feature Request: Top Layer Stack Management,https://github.com/whatwg/html/issues/10370,2024-05-26T20:09:09Z,2024-07-01T16:42:28Z,Link2Twenty,addition/proposal|needs implementer interest,3
@@ -194,7 +195,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2144668268,false,"align=""justify"" should align to start, not to left",https://github.com/whatwg/html/issues/10148,2024-02-20T15:38:05Z,2024-02-21T18:03:20Z,Loirooriol,topic: rendering|needs tests,0
 2143265229,false,UI Element Attribute,https://github.com/whatwg/html/issues/10146,2024-02-19T23:05:03Z,2024-04-17T11:33:27Z,MrMatthewLayton,addition/proposal|needs implementer interest,2
 2142919582,false,"Render-blocking: the definition of ""created by its node document's parser"" is a little bit vague",https://github.com/whatwg/html/issues/10145,2024-02-19T18:08:51Z,2024-03-14T22:55:05Z,cathiechen,topic: parser,0
-2141312881,false,Improve DX of element reference attributes by allowing relative references instead of only ids,https://github.com/whatwg/html/issues/10143,2024-02-19T01:30:10Z,2024-07-04T23:46:25Z,LeaVerou,addition/proposal|needs implementer interest,16
+2141312881,false,Improve DX of element reference attributes by allowing relative references instead of only ids,https://github.com/whatwg/html/issues/10143,2024-02-19T01:30:10Z,2024-07-05T08:45:14Z,LeaVerou,addition/proposal|needs implementer interest,16
 2141042150,false,"ImageBitmapRenderingContext: clarify behaviour with `premultiplyAlpha: ""none""` createImageBitmap option and canvas",https://github.com/whatwg/html/issues/10142,2024-02-18T15:27:58Z,2024-04-08T22:18:01Z,hybridherbst,topic: canvas,0
 2140571376,true,"Dark mode styling for ""yes"" table attributes is not ledgible",https://github.com/whatwg/html/issues/10141,2024-02-17T20:28:28Z,2024-03-05T02:47:14Z,ADKaster,spec tooling,0
 2137613348,true,Using multiple h1 tag in a page,https://github.com/whatwg/html/issues/10138,2024-02-15T23:28:03Z,2024-02-16T03:27:59Z,bhojpress,,0
@@ -982,7 +983,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1299514217,false,"Apply/Cancel using showPicker() of type=""color""",https://github.com/whatwg/html/issues/8090,2022-07-08T23:38:19Z,2022-07-12T01:52:00Z,codedread,,0
 1299174100,true,Upcoming HTML standard issue triage meeting on 8/4/2022,https://github.com/whatwg/html/issues/8089,2022-07-08T15:34:38Z,2022-08-05T15:30:52Z,past,agenda+,0
 1299124184,true,Margin-block-start takes hidden elements into account causing empty space,https://github.com/whatwg/html/issues/8088,2022-07-08T14:52:03Z,2022-07-09T08:49:10Z,LukaszJaro,,0
-1297039069,false,"Add createImageBitMaps's imageOrientation ""none""",https://github.com/whatwg/html/issues/8085,2022-07-07T08:43:36Z,2024-07-02T23:41:06Z,zcorpan,normative change|addition/proposal|topic: canvas|needs compat analysis,0
+1297039069,false,"Add createImageBitMaps's imageOrientation ""none""",https://github.com/whatwg/html/issues/8085,2022-07-07T08:43:36Z,2024-07-05T04:48:44Z,zcorpan,normative change|addition/proposal|topic: canvas|needs compat analysis,0
 1295936796,false,Proposal: actively peeking/deleting message in queen from Window/WebWorker,https://github.com/whatwg/html/issues/8083,2022-07-06T14:34:52Z,2022-07-07T10:00:32Z,Zhang-Junzhi,,0
 1295686187,true,Improve UX : Fluent UI transitions for non SPA websites,https://github.com/whatwg/html/issues/8082,2022-07-06T11:22:32Z,2022-07-08T09:13:02Z,perelengo,,0
 1295622672,false,Review accessibility of the content models venn diagram,https://github.com/whatwg/html/issues/8081,2022-07-06T10:29:39Z,2023-10-17T15:53:07Z,zcorpan,accessibility|editorial,0
