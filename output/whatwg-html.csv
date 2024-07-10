@@ -55,7 +55,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2324127724,false,HTML Video: Allow a child Picture Element to Control the Video Poster Image,https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2024-05-30T14:47:25Z,scottjehl,,12
 2324097406,false,"Specify That Responsive Video Elements Re-Evaluate Sources on Media Change, Like Picture",https://github.com/whatwg/html/issues/10377,2024-05-29T19:33:05Z,2024-05-29T19:33:05Z,scottjehl,,3
 2324056660,false,Video loading=lazy attribute support,https://github.com/whatwg/html/issues/10376,2024-05-29T19:09:50Z,2024-06-21T23:56:12Z,scottjehl,addition/proposal|needs implementer interest,11
-2322953911,false,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-07-05T07:58:05Z,yoavweiss,addition/proposal|needs implementer interest|agenda+,0
+2322953911,false,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-07-09T13:01:33Z,yoavweiss,addition/proposal|needs implementer interest,0
 2322574083,true,a element defines content model as only Transparent,https://github.com/whatwg/html/issues/10372,2024-05-29T07:26:47Z,2024-05-29T09:29:39Z,andrewnicols,,0
 2320740955,false,Fetch priority hint for dynamic modules,https://github.com/whatwg/html/issues/10371,2024-05-28T10:48:17Z,2024-05-28T10:48:17Z,yoavweiss,addition/proposal|needs implementer interest,0
 2317914185,true,Feature Request: Top Layer Stack Management,https://github.com/whatwg/html/issues/10370,2024-05-26T20:09:09Z,2024-07-01T16:42:28Z,Link2Twenty,addition/proposal|needs implementer interest,3
@@ -121,7 +121,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2240037535,false,Module script dependencies and fetch priority,https://github.com/whatwg/html/issues/10276,2024-04-12T12:18:39Z,2024-05-06T13:37:40Z,yoavweiss,,0
 2238379090,true,Upcoming WHATNOT meeting on 4/18/2024,https://github.com/whatwg/html/issues/10275,2024-04-11T19:06:54Z,2024-04-18T18:40:20Z,past,agenda+,0
 2238307794,false,"Not clear purpose of early return in ""finalize a same-document navigation""",https://github.com/whatwg/html/issues/10274,2024-04-11T18:22:34Z,2024-05-01T13:50:48Z,kalenikaliaksandr,topic: navigation,0
-2237234871,false,Allow slotting indirect children,https://github.com/whatwg/html/issues/10273,2024-04-11T08:54:22Z,2024-07-03T16:36:42Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow,7
+2237234871,false,Allow slotting indirect children,https://github.com/whatwg/html/issues/10273,2024-04-11T08:54:22Z,2024-07-09T16:51:54Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow,7
 2235842720,false,ECMAScript's OrdinaryFunctionCreate has another new parameter,https://github.com/whatwg/html/issues/10271,2024-04-10T15:10:05Z,2024-04-10T17:45:52Z,Ms2ger,integration,0
 2232213961,false,Can messageerror fire on Worker?,https://github.com/whatwg/html/issues/10262,2024-04-08T22:27:49Z,2024-04-19T09:13:27Z,foolip,topic: workers,0
 2231603753,true,"""scripts may run for the newly-created document"" never updated for about:blank iframes.",https://github.com/whatwg/html/issues/10261,2024-04-08T16:09:53Z,2024-04-12T05:49:45Z,kalenikaliaksandr,topic: navigation,0
@@ -660,7 +660,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1616220344,true,togglePopover() algorithm does not check popover validity when force == false and when the popover visibility state is hidden,https://github.com/whatwg/html/issues/8999,2023-03-09T01:04:13Z,2023-06-28T14:34:59Z,nt1m,topic: popover,0
 1614714505,true,WPT testing non-standard behavior for popover focusing steps,https://github.com/whatwg/html/issues/8994,2023-03-08T06:11:02Z,2023-06-08T05:51:31Z,nt1m,topic: focus|topic: popover,0
 1612593381,true,WPT tests for unspecified PopoverInvokerElement removing steps,https://github.com/whatwg/html/issues/8991,2023-03-07T02:28:43Z,2023-06-06T06:42:40Z,nt1m,topic: popover,0
-1612445163,false,Proposal: fallback/mirror hrefs,https://github.com/whatwg/html/issues/8990,2023-03-07T00:12:00Z,2023-03-07T00:17:16Z,rhendric,,1
+1612445163,false,Proposal: fallback/mirror hrefs,https://github.com/whatwg/html/issues/8990,2023-03-07T00:12:00Z,2024-07-09T22:57:34Z,rhendric,,2
 1612250131,true,Get the popover invokers algorithm looks incomplete/inaccurate,https://github.com/whatwg/html/issues/8989,2023-03-06T21:44:10Z,2023-03-14T15:26:20Z,nt1m,topic: popover,0
 1611994469,true,Do non-HTML elements reflect between popoverTargetElement and popovertarget attribute?,https://github.com/whatwg/html/issues/8988,2023-03-06T18:27:01Z,2023-03-06T21:43:00Z,nt1m,topic: popover|topic: reflect,0
 1610405810,false,Worker data: url is opaque cross origin right?,https://github.com/whatwg/html/issues/8986,2023-03-05T23:05:55Z,2023-03-11T10:01:56Z,hamishwillee,,0
@@ -1306,7 +1306,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1024282534,true,Should delegatesFocus use the flat tree?,https://github.com/whatwg/html/issues/7207,2021-10-12T20:04:11Z,2021-11-01T15:51:04Z,domenic,topic: shadow|topic: focus|agenda+,2
 1024133516,true,Question about HTML editing program,https://github.com/whatwg/html/issues/7206,2021-10-12T18:29:47Z,2021-10-12T18:39:18Z,iyutr,,0
 1023135821,true,Upcoming HTML standard issue triage meeting on 11/4/2021,https://github.com/whatwg/html/issues/7201,2021-10-11T21:37:12Z,2021-11-05T19:05:20Z,past,agenda+,0
-1022684024,false,Upstreaming from the Sanitizer API,https://github.com/whatwg/html/issues/7197,2021-10-11T13:07:01Z,2023-02-24T16:05:22Z,mozfreddyb,addition/proposal|security/privacy,0
+1022684024,false,Upstreaming from the Sanitizer API,https://github.com/whatwg/html/issues/7197,2021-10-11T13:07:01Z,2024-07-09T17:24:00Z,mozfreddyb,addition/proposal|security/privacy,0
 1021858089,true,"""If the byte at encodingPosition is not 0x3D (=)...""",https://github.com/whatwg/html/issues/7193,2021-10-10T02:13:05Z,2021-10-12T08:36:00Z,JKingweb,topic: parser,0
 1020881664,false,Pausing user activation (consume-only-on-reject),https://github.com/whatwg/html/issues/7192,2021-10-08T09:20:00Z,2021-10-08T09:28:49Z,johannhof,addition/proposal|topic: user activation,1
 1020758481,false,allow back-forward cache to no-store pages as long as cookies do not change,https://github.com/whatwg/html/issues/7189,2021-10-08T06:51:48Z,2024-05-13T11:23:41Z,fergald,topic: history,1
@@ -3029,7 +3029,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-06-14T18:51:29Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,26
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2023-10-07T13:45:11Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,171
+305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2024-07-09T21:34:28Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,171
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
