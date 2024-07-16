@@ -1,7 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2410599871,false,Auto directionality of slot behaves different than for other elements,https://github.com/whatwg/html/issues/10488,2024-07-16T08:56:37Z,2024-07-16T08:56:37Z,vinhill,,0
 2409878809,false,Extend current slot beyond shadow-DOM or create a new slot like element,https://github.com/whatwg/html/issues/10485,2024-07-16T00:21:01Z,2024-07-16T00:21:01Z,anthonyhoegberg,addition/proposal|needs implementer interest,0
-2409864542,false,Meeting 4 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10484,2024-07-16T00:12:34Z,2024-07-16T00:14:38Z,gregwhitworth,,0
-2409694121,false,Static checker for the spec?,https://github.com/whatwg/html/issues/10483,2024-07-15T21:42:15Z,2024-07-15T21:42:15Z,jmdyck,,0
+2409864542,false,Meeting 4 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10484,2024-07-16T00:12:34Z,2024-07-16T08:22:54Z,gregwhitworth,agenda+,0
+2409694121,false,Static checker for the spec?,https://github.com/whatwg/html/issues/10483,2024-07-15T21:42:15Z,2024-07-16T07:06:13Z,jmdyck,spec tooling,2
 2407536902,true,HTMLOptionsCollection index replacement seems inconsistent,https://github.com/whatwg/html/issues/10479,2024-07-14T18:02:38Z,2024-07-14T21:32:43Z,vpzomtrrfrt,,0
 2407364805,false,"""Fragment serializing algorithm"" outputs node itself instead of its contents for elements in non-HTML documents",https://github.com/whatwg/html/issues/10478,2024-07-14T10:17:33Z,2024-07-14T10:17:33Z,sppmacd,,0
 2405965895,false,Redundant step for button in body,https://github.com/whatwg/html/issues/10476,2024-07-12T16:36:05Z,2024-07-15T08:13:43Z,blr-Oliver,clarification|topic: parser,0
@@ -442,7 +443,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2024-03-14T17:43:28Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,5
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,true,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-09-07T21:38:07Z,past,agenda+,0
-1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-07-10T22:40:58Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,39
+1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-07-16T11:17:10Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|agenda+|topic: popover,39
 1862349856,false,Add `allow-unique-origin` keyword in iframe/CSP sandbox,https://github.com/whatwg/html/issues/9623,2023-08-22T23:56:53Z,2023-10-01T15:12:22Z,shhnjk,,0
 1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-28T19:21:24Z,woody-li,,0
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
@@ -945,7 +946,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1352461926,false,What's the right way to support mobile screens in the UA stylesheet?,https://github.com/whatwg/html/issues/8224,2022-08-26T16:09:08Z,2022-09-05T12:35:13Z,mfreed7,topic: rendering,0
 1349791269,true,details element toggle event should bubble,https://github.com/whatwg/html/issues/8220,2022-08-24T17:24:55Z,2023-02-22T01:34:17Z,gibson042,,0
 1348683698,false,Window object support for multi-screen devices,https://github.com/whatwg/html/issues/8217,2022-08-24T00:33:25Z,2022-09-07T04:21:01Z,michaelwasserman,topic: user activation,0
-1348599445,false,Remove CanvasRenderingContext2D.scrollPathIntoView,https://github.com/whatwg/html/issues/8216,2022-08-23T22:08:30Z,2024-07-15T17:47:28Z,junov,removal/deprecation|topic: canvas,5
+1348599445,true,Remove CanvasRenderingContext2D.scrollPathIntoView,https://github.com/whatwg/html/issues/8216,2022-08-23T22:08:30Z,2024-07-16T04:18:54Z,junov,removal/deprecation|topic: canvas,5
 1347804392,false,Allow more characters in dataset?,https://github.com/whatwg/html/issues/8215,2022-08-23T11:35:48Z,2022-09-01T22:34:44Z,annevk,normative change|needs tests,0
 1347386327,false,Canvas2D: Repeating/mirrored gradients,https://github.com/whatwg/html/issues/8214,2022-08-23T06:05:33Z,2022-09-08T03:33:33Z,litherum,addition/proposal|topic: canvas,3
 1344098102,true,More intuitive and high-performance copying of typed array bytes?,https://github.com/whatwg/html/issues/8210,2022-08-19T08:07:47Z,2022-08-19T08:44:53Z,juj,,0
@@ -1056,7 +1057,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1245490159,false,Consider being strict about range mismatch for media,https://github.com/whatwg/html/issues/7950,2022-05-23T17:27:12Z,2022-05-24T07:26:22Z,noamr,topic: media|interop,1
 1245461464,true,Typo in section 2.1.4 DOM trees,https://github.com/whatwg/html/issues/7949,2022-05-23T16:58:18Z,2022-05-26T15:27:55Z,AegisFair,good first issue,1
 1244030392,false,Add color-interpolation-method support for canvas gradients,https://github.com/whatwg/html/issues/7947,2022-05-21T16:39:32Z,2022-05-22T10:24:36Z,weinig,addition/proposal|topic: canvas,5
-1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2024-04-03T14:48:25Z,BenjaminAster,addition/proposal|needs implementer interest,40
+1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2024-04-03T14:48:25Z,BenjaminAster,addition/proposal|needs implementer interest,41
 1242018223,false,(Background) Tab Suspending,https://github.com/whatwg/html/issues/7942,2022-05-19T16:18:36Z,2022-05-19T16:18:36Z,johannhof,,0
 1242006437,false,Throttling and clamping of setTimeout and setInterval,https://github.com/whatwg/html/issues/7941,2022-05-19T16:08:39Z,2022-05-20T08:26:05Z,johannhof,topic: event loop|topic: timing,0
 1241898306,false,Make `<embed>` and `<object>` behave like `<iframe>` for image loading,https://github.com/whatwg/html/issues/7939,2022-05-19T14:43:19Z,2022-06-27T20:59:41Z,farre,normative change|topic: navigation|topic: embed and object,0
@@ -1099,7 +1100,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1212616847,false,[canvas] Define OffscreenCanvasRenderingContext2D's font setter in detail,https://github.com/whatwg/html/issues/7847,2022-04-22T17:37:11Z,2023-05-04T18:52:08Z,emilio,topic: canvas,0
 1211933864,true,How can microtasks run without a task?,https://github.com/whatwg/html/issues/7845,2022-04-22T07:26:22Z,2023-10-10T05:26:36Z,annevk,topic: event loop,0
 1210820388,false,Can a nested worker outlive its parent worker?,https://github.com/whatwg/html/issues/7840,2022-04-21T10:17:56Z,2022-04-21T11:51:55Z,andreubotella,topic: workers,0
-1209001363,false,Make self.name writable in DedicatedWorkerGlobalScope,https://github.com/whatwg/html/issues/7838,2022-04-20T00:24:33Z,2023-10-06T04:42:27Z,connorjclark,addition/proposal|needs implementer interest|topic: workers,4
+1209001363,false,Make self.name writable in DedicatedWorkerGlobalScope,https://github.com/whatwg/html/issues/7838,2022-04-20T00:24:33Z,2023-10-06T04:42:27Z,connorjclark,addition/proposal|needs implementer interest|topic: workers,5
 1208006942,false,"Rendering of ""bitmaprenderer""-backed canvas",https://github.com/whatwg/html/issues/7833,2022-04-19T08:51:04Z,2023-09-18T20:31:05Z,annevk,topic: canvas|interop,0
 1207220491,false,Specify back button history-entry skipping?,https://github.com/whatwg/html/issues/7832,2022-04-18T16:35:55Z,2024-05-10T01:46:00Z,domenic,topic: history|interop|topic: user activation,9
 1206401736,true,Proposal: extend FocusOptions to allow specifying `:focus-visible` behavior.,https://github.com/whatwg/html/issues/7830,2022-04-17T15:04:38Z,2022-07-13T03:58:59Z,emilio,addition/proposal|topic: focus,9
@@ -3805,7 +3806,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195734740,true,Wring,https://github.com/whatwg/html/issues/2181,2016-12-15T07:24:47Z,2016-12-15T07:25:56Z,cheoklune,,0
 195651796,true,Making Location.ancestorOrigins a FrozenArray is not Web-Compatible,https://github.com/whatwg/html/issues/2179,2016-12-14T21:33:44Z,2017-01-13T00:55:08Z,cdumez,,0
 195558416,true,"""when a select element does not have a sizes attribute""",https://github.com/whatwg/html/issues/2178,2016-12-14T15:18:37Z,2017-02-23T16:42:03Z,deltab,good first issue,0
-195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2024-04-09T02:08:30Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,134
+195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2024-04-09T02:08:30Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,135
 195497838,true,selectionStart/End/Direction on input and textarea should not be nullable,https://github.com/whatwg/html/issues/2175,2016-12-14T10:46:42Z,2017-01-18T09:22:04Z,foolip,,0
 195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,3
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
