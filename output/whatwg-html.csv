@@ -1,11 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2412272948,false,"VideoFrame is missing from the ""not origin-clean"" definition for CanvasImageSource ",https://github.com/whatwg/html/issues/10489,2024-07-17T00:16:58Z,2024-07-17T00:16:58Z,weinig,,0
+2412272948,false,"VideoFrame is missing from the ""not origin-clean"" definition for CanvasImageSource ",https://github.com/whatwg/html/issues/10489,2024-07-17T00:16:58Z,2024-07-17T07:32:27Z,weinig,topic: canvas,0
 2410599871,false,Auto directionality of slot behaves different than for other elements,https://github.com/whatwg/html/issues/10488,2024-07-16T08:56:37Z,2024-07-16T14:16:24Z,vinhill,,0
 2409878809,false,Extend current slot beyond shadow-DOM or create a new slot like element,https://github.com/whatwg/html/issues/10485,2024-07-16T00:21:01Z,2024-07-16T00:21:01Z,anthonyhoegberg,addition/proposal|needs implementer interest,0
 2409864542,false,Meeting 4 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10484,2024-07-16T00:12:34Z,2024-07-16T17:26:01Z,gregwhitworth,agenda+,0
-2409694121,false,Static checker for the spec?,https://github.com/whatwg/html/issues/10483,2024-07-15T21:42:15Z,2024-07-16T15:58:00Z,jmdyck,spec tooling,3
+2409694121,false,Static checker for the spec?,https://github.com/whatwg/html/issues/10483,2024-07-15T21:42:15Z,2024-07-17T01:01:42Z,jmdyck,spec tooling,3
 2407536902,true,HTMLOptionsCollection index replacement seems inconsistent,https://github.com/whatwg/html/issues/10479,2024-07-14T18:02:38Z,2024-07-14T21:32:43Z,vpzomtrrfrt,,0
-2407364805,false,"""Fragment serializing algorithm"" outputs node itself instead of its contents for elements in non-HTML documents",https://github.com/whatwg/html/issues/10478,2024-07-14T10:17:33Z,2024-07-14T10:17:33Z,sppmacd,,0
+2407364805,false,"""Fragment serializing algorithm"" outputs node itself instead of its contents for elements in non-HTML documents",https://github.com/whatwg/html/issues/10478,2024-07-14T10:17:33Z,2024-07-17T00:42:36Z,sppmacd,agenda+,0
 2405965895,false,Redundant step for button in body,https://github.com/whatwg/html/issues/10476,2024-07-12T16:36:05Z,2024-07-15T08:13:43Z,blr-Oliver,clarification|topic: parser,0
 2405202063,false,Provide some way of changing an elements location in the DOM tree without triggering connect/disconnect CEReactions,https://github.com/whatwg/html/issues/10475,2024-07-12T09:58:22Z,2024-07-12T10:01:44Z,keithamus,addition/proposal|needs implementer interest|topic: custom elements,1
 2402731596,true,Make an exhaustive list of incompatibilties with SGML,https://github.com/whatwg/html/issues/10472,2024-07-11T09:37:30Z,2024-07-12T01:17:00Z,ben221199,,0
@@ -444,7 +444,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2024-03-14T17:43:28Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,5
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,true,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-09-07T21:38:07Z,past,agenda+,0
-1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-07-16T14:25:58Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|agenda+|topic: popover,39
+1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-07-17T12:05:47Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|agenda+|topic: popover,39
 1862349856,false,Add `allow-unique-origin` keyword in iframe/CSP sandbox,https://github.com/whatwg/html/issues/9623,2023-08-22T23:56:53Z,2023-10-01T15:12:22Z,shhnjk,,0
 1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-28T19:21:24Z,woody-li,,0
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
@@ -824,7 +824,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1462764097,false,GC for cached attr-associated elements?,https://github.com/whatwg/html/issues/8545,2022-11-24T05:03:47Z,2024-03-22T15:20:51Z,alice,topic: reflect,0
 1462756977,false,Shadow DOM and ElementInternals ARIAMixin properties,https://github.com/whatwg/html/issues/8544,2022-11-24T04:53:36Z,2023-03-09T23:24:06Z,alice,topic: shadow|topic: custom elements|topic: reflect,0
 1461018906,false,Is it possible to allow `<a>` elements to nest within each other in the future?,https://github.com/whatwg/html/issues/8541,2022-11-23T05:01:58Z,2022-12-06T17:50:58Z,LIXiangChen,,0
-1459558712,false,An iframe whose history can be transferred across parent navigations,https://github.com/whatwg/html/issues/8538,2022-11-22T10:15:42Z,2024-01-28T08:16:46Z,jakearchibald,,24
+1459558712,false,An iframe whose history can be transferred across parent navigations,https://github.com/whatwg/html/issues/8538,2022-11-22T10:15:42Z,2024-01-28T08:16:46Z,jakearchibald,,25
 1457097101,false,"Bogus assertion in ""prepare the script element""?",https://github.com/whatwg/html/issues/8534,2022-11-20T23:58:15Z,2022-11-20T23:58:15Z,awesomekling,,0
 1456832762,false,A means to extend the life of transient activation,https://github.com/whatwg/html/issues/8529,2022-11-20T09:29:10Z,2022-11-20T09:30:13Z,marcoscaceres,topic: user activation,0
 1455877461,true,"What should happen when the last valid <meta name=""referrer"" content=""...""> tag is removed?",https://github.com/whatwg/html/issues/8525,2022-11-18T22:00:32Z,2022-12-08T07:49:02Z,a4sriniv,topic: fetch|agenda+,0
@@ -1282,7 +1282,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1053212394,true,"Export ""visibility state"", [=Document/hidden=] and [=Document/visible=]",https://github.com/whatwg/html/issues/7336,2021-11-15T04:49:54Z,2021-11-17T09:15:52Z,marcoscaceres,meta,0
 1052859826,true,How can I add transition in <details>,https://github.com/whatwg/html/issues/7334,2021-11-14T06:26:33Z,2021-11-14T18:02:33Z,Aryan-Wanve,,0
 1052671548,true,"Transition ",https://github.com/whatwg/html/issues/7333,2021-11-13T12:30:44Z,2021-11-13T17:53:21Z,Aryan-Wanve,,1
-1052566016,false,How should the meta refresh URL resolve?,https://github.com/whatwg/html/issues/7332,2021-11-13T07:13:14Z,2021-11-19T13:20:28Z,danny0838,needs tests|interop,0
+1052566016,false,How should the meta refresh URL resolve?,https://github.com/whatwg/html/issues/7332,2021-11-13T07:13:14Z,2024-07-17T12:04:16Z,danny0838,needs tests|interop,0
 1052312922,true,Canvas2D Layers,https://github.com/whatwg/html/issues/7329,2021-11-12T18:53:17Z,2022-08-26T07:35:35Z,Juanmihd,addition/proposal|needs implementer interest|topic: canvas,0
 1051374840,false,Performance isolation for `srcdoc` iframes (a la Origin-Agent-Cluster),https://github.com/whatwg/html/issues/7328,2021-11-11T21:27:18Z,2021-11-17T15:31:00Z,josephrocca,topic: agent|topic: sandbox,2
 1050958997,false,<object> element can tell whether child document loaded or not,https://github.com/whatwg/html/issues/7327,2021-11-11T13:04:25Z,2023-11-08T10:43:36Z,antosart,topic: embed and object,0
@@ -3124,7 +3124,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 292769199,false,"""If image is not origin-clean, then set the Canv...""",https://github.com/whatwg/html/issues/3432,2018-01-30T12:42:49Z,2018-01-30T13:36:46Z,Ms2ger,topic: canvas,0
 292764304,true,"Replace ""solid black"" with ""opaque black""",https://github.com/whatwg/html/issues/3431,2018-01-30T12:26:07Z,2018-03-11T04:31:34Z,annevk,clarification|good first issue|topic: canvas,0
 292759924,true,Give <canvas>'s toDataURL() and toBlob() default parameter values,https://github.com/whatwg/html/issues/3430,2018-01-30T12:10:12Z,2019-01-30T20:57:15Z,annevk,clarification|good first issue|topic: canvas,0
-292728682,false,Path2D constructor and SVG,https://github.com/whatwg/html/issues/3429,2018-01-30T10:24:56Z,2024-07-16T20:00:10Z,annevk,clarification|topic: canvas,0
+292728682,false,Path2D constructor and SVG,https://github.com/whatwg/html/issues/3429,2018-01-30T10:24:56Z,2024-07-17T06:32:55Z,annevk,clarification|topic: canvas,0
 292583176,false,Defer 'align' behavior to CSS via 'justify-items: legacy',https://github.com/whatwg/html/issues/3428,2018-01-29T22:24:04Z,2018-01-31T07:57:58Z,fantasai,topic: rendering,0
 292529867,true,"""Notify about rejected promises"" should use a task source",https://github.com/whatwg/html/issues/3427,2018-01-29T19:26:11Z,2019-02-04T15:47:14Z,domenic,topic: event loop,0
 292435411,true,"Replace ""identity transform"" with ""identity matrix""",https://github.com/whatwg/html/issues/3426,2018-01-29T14:53:05Z,2018-03-14T04:20:40Z,annevk,clarification|good first issue|topic: canvas,0
@@ -3917,7 +3917,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 184685503,true,HTML Issu,https://github.com/whatwg/html/issues/1949,2016-10-23T11:43:56Z,2016-10-23T17:34:03Z,mohamedsaieed,,0
 184436261,true,Meta: update TEAM PR advice,https://github.com/whatwg/html/issues/1943,2016-10-21T09:11:04Z,2016-10-28T22:51:41Z,annevk,,0
 184255906,true,Incomplete IDL definition for selection control,https://github.com/whatwg/html/issues/1939,2016-10-20T15:06:04Z,2016-10-25T09:32:24Z,gagern,spec tooling,0
-184197968,true,"Reconsider FAQ: <di>, <div> or <li> wrapping <dt> and <dd>",https://github.com/whatwg/html/issues/1937,2016-10-20T10:58:38Z,2017-09-09T14:44:45Z,Crissov,addition/proposal|document conformance,14
+184197968,true,"Reconsider FAQ: <di>, <div> or <li> wrapping <dt> and <dd>",https://github.com/whatwg/html/issues/1937,2016-10-20T10:58:38Z,2017-09-09T14:44:45Z,Crissov,addition/proposal|document conformance,15
 183938912,false,Expose both requested and actual preload state,https://github.com/whatwg/html/issues/1932,2016-10-19T11:44:41Z,2019-03-29T19:51:43Z,foolip,needs implementer interest|topic: media,0
 183913493,false,"Investigate ""salvageable"" and WebSocket interaction",https://github.com/whatwg/html/issues/1931,2016-10-19T09:42:00Z,2023-04-28T06:04:00Z,zcorpan,topic: navigation|topic: websockets,1
 183879706,true,Document object's Window object,https://github.com/whatwg/html/issues/1930,2016-10-19T06:51:32Z,2019-03-01T16:36:54Z,annevk,clarification,0
