@@ -1,18 +1,20 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2417501694,false,WIP: Upstream XMLSerializer from DOM Parsing and Serialization spec,https://github.com/whatwg/html/pull/10498,2024-07-18T22:12:06Z,2024-07-19T11:26:53Z,lukewarlow,,1
+2417453524,true,Update fragment serializing algorithm steps node argument to accept Documents,https://github.com/whatwg/html/pull/10497,2024-07-18T21:30:53Z,2024-07-19T06:42:54Z,lukewarlow,,0
 2414883032,true,Fix usages of 'map' that should be 'ordered map'.,https://github.com/whatwg/html/pull/10494,2024-07-18T00:11:57Z,2024-07-18T04:02:40Z,twifkak,,0
-2414346184,true,[Editorial] Update Jay's name.,https://github.com/whatwg/html/pull/10493,2024-07-17T19:00:20Z,2024-07-18T05:48:44Z,hober,,0
-2413758331,false,Fix the definition of pixelated for createImageBitmap.,https://github.com/whatwg/html/pull/10491,2024-07-17T14:22:40Z,2024-07-18T00:48:06Z,schenney-chromium,,1
+2414346184,true,[Editorial] Update Jay's name.,https://github.com/whatwg/html/pull/10493,2024-07-17T19:00:20Z,2024-07-18T21:52:23Z,hober,,0
+2413758331,false,Fix the definition of pixelated for createImageBitmap.,https://github.com/whatwg/html/pull/10491,2024-07-17T14:22:40Z,2024-07-18T15:21:59Z,schenney-chromium,,1
 2413276898,true,Remove browsing context parameter from WebDriver integration,https://github.com/whatwg/html/pull/10490,2024-07-17T10:47:40Z,2024-07-18T06:56:28Z,OrKoN,topic: navigation|integration,0
 2410484493,true,Editorial: clarify same origin-domain,https://github.com/whatwg/html/pull/10487,2024-07-16T07:59:52Z,2024-07-16T09:04:54Z,annevk,,0
 2410190017,true,"Add missing definition for drawFocusIfNeeded(path, element)",https://github.com/whatwg/html/pull/10486,2024-07-16T04:35:17Z,2024-07-16T13:07:27Z,domenic,topic: canvas,0
 2409480402,true,Remove canvas 2d scrollPathIntoView,https://github.com/whatwg/html/pull/10482,2024-07-15T19:37:07Z,2024-07-16T13:11:33Z,schenney-chromium,removal/deprecation|topic: canvas,0
 2408585855,false,Update 2D canvas color serialization,https://github.com/whatwg/html/pull/10481,2024-07-15T12:12:40Z,2024-07-16T12:57:34Z,annevk,topic: canvas,0
 2408492792,true,Review Draft Publication: July 2024,https://github.com/whatwg/html/pull/10480,2024-07-15T11:24:03Z,2024-07-15T11:26:11Z,annevk,,0
-2404454373,true,Editorial: Fix lots of typos,https://github.com/whatwg/html/pull/10474,2024-07-12T00:59:27Z,2024-07-12T03:06:42Z,jmdyck,,0
+2404454373,true,Editorial: Fix lots of typos,https://github.com/whatwg/html/pull/10474,2024-07-12T00:59:27Z,2024-07-18T15:47:38Z,jmdyck,,0
 2403671121,true,Add missing throwExceptions check in show popover,https://github.com/whatwg/html/pull/10473,2024-07-11T17:13:50Z,2024-07-12T02:52:41Z,josepharhar,topic: popover,0
 2401386846,false,hidePopover with button click not timeout,https://github.com/whatwg/html/pull/10469,2024-07-10T18:18:01Z,2024-07-18T04:42:13Z,Jxck,,0
 2389513089,true,Set dialog is modal to false when removed from the document.,https://github.com/whatwg/html/pull/10459,2024-07-03T21:26:01Z,2024-07-08T14:06:58Z,lukewarlow,topic: dialog,0
-2388847339,false,Enhance <input type=color> with alpha and colorspace=display-p3,https://github.com/whatwg/html/pull/10456,2024-07-03T14:53:52Z,2024-07-17T08:44:49Z,annevk,addition/proposal|topic: forms|impacts documentation,7
+2388847339,false,Enhance <input type=color> with alpha and colorspace=display-p3,https://github.com/whatwg/html/pull/10456,2024-07-03T14:53:52Z,2024-07-18T17:44:20Z,annevk,addition/proposal|topic: forms|impacts documentation,7
 2385756221,true,Refactored search script using async/await and modern JavaScript syntax.,https://github.com/whatwg/html/pull/10453,2024-07-02T09:35:14Z,2024-07-18T01:27:48Z,Imran-imtiaz48,,0
 2384571498,true,Update `@@foo` symbol notation to `%Symbol.foo%` notation,https://github.com/whatwg/html/pull/10450,2024-07-01T19:19:30Z,2024-07-02T18:30:25Z,ljharb,,0
 2384264134,true,All objects have a [[PrivateElements]] internal slot,https://github.com/whatwg/html/pull/10447,2024-07-01T16:33:10Z,2024-07-02T01:36:16Z,annevk,topic: serialize and transfer,0
@@ -279,7 +281,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1908359160,true,Un-break build by making review-drafts/2023-07.wattsi use non-void <ref></ref>,https://github.com/whatwg/html/pull/9772,2023-09-22T07:38:51Z,2023-09-22T08:38:40Z,sideshowbarker,,0
 1907618502,false,Add TextTrackCue ctor & cue + cuebackground attributes,https://github.com/whatwg/html/pull/9771,2023-09-21T19:22:21Z,2023-11-19T23:57:57Z,marcoscaceres,addition/proposal|topic: media,1
 1904941276,false,Specify URL encoding for links (header+element),https://github.com/whatwg/html/pull/9764,2023-09-20T12:56:24Z,2023-11-14T08:05:50Z,noamr,needs tests|topic: link|topic: resource hints (inc. preload),0
-1902888166,false,Make navigate() use UTF-8 in the URL parser,https://github.com/whatwg/html/pull/9756,2023-09-19T12:36:19Z,2024-07-15T14:07:10Z,annevk,normative change|topic: navigation|needs tests,0
+1902888166,false,Make navigate() use UTF-8 in the URL parser,https://github.com/whatwg/html/pull/9756,2023-09-19T12:36:19Z,2024-07-19T04:42:42Z,annevk,normative change|topic: navigation,0
 1902869687,true,Editorial: remove API URL character encoding,https://github.com/whatwg/html/pull/9755,2023-09-19T12:25:50Z,2023-09-19T15:11:58Z,annevk,,0
 1901979709,true,Add showPicker to <select> elements,https://github.com/whatwg/html/pull/9754,2023-09-19T00:31:48Z,2023-11-16T12:00:15Z,lukewarlow,,1
 1901138540,true,Correct <source> dimension property handling,https://github.com/whatwg/html/pull/9752,2023-09-18T15:00:56Z,2023-09-25T15:24:56Z,annevk,do not merge yet,0
@@ -1483,7 +1485,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 677096804,true,Remove stray reference to <input type=range multiple>,https://github.com/whatwg/html/pull/5807,2020-08-11T18:25:50Z,2020-08-17T05:45:35Z,domenic,topic: focus,0
 676889575,true,Allow mutating <input disabled type=checkbox/radio>,https://github.com/whatwg/html/pull/5805,2020-08-11T13:43:50Z,2020-11-04T20:49:59Z,saschanaz,topic: forms,0
 675521231,true,Fix 3 editorial typos,https://github.com/whatwg/html/pull/5800,2020-08-08T12:53:14Z,2020-08-11T18:26:20Z,carmacleod,clarification|topic: focus,0
-675267167,false,Fix #4562: add support for internationalized email addresses,https://github.com/whatwg/html/pull/5799,2020-08-07T20:44:11Z,2024-05-06T14:48:50Z,aphillips,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,0
+675267167,false,Fix #4562: add support for internationalized email addresses,https://github.com/whatwg/html/pull/5799,2020-08-07T20:44:11Z,2024-07-19T06:45:28Z,aphillips,addition/proposal|needs implementer interest|topic: forms|i18n-tracker|agenda+,0
 674532263,true,"Improve ""completely loaded"" specification",https://github.com/whatwg/html/pull/5797,2020-08-06T18:55:54Z,2020-08-18T15:49:28Z,domenic,clarification|topic: navigation|topic: events|topic: browsing context,0
 674059796,true,registerProtocolHandler(): creating a navigable URL cannot fail,https://github.com/whatwg/html/pull/5795,2020-08-06T06:40:18Z,2023-03-04T14:53:55Z,annevk,,0
 674034628,true,registerProtocolHandler(): drop scheme from note,https://github.com/whatwg/html/pull/5794,2020-08-06T05:44:55Z,2020-08-06T13:52:34Z,annevk,topic: custom protocols,0
