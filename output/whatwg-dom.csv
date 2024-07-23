@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2420657377,false,Proposal: rate limiting event listeners (debounce / throttle),https://github.com/whatwg/dom/issues/1298,2024-07-20T07:09:23Z,2024-07-22T08:46:19Z,FND,needs implementer interest|addition/proposal,61
+2420657377,false,Proposal: rate limiting event listeners (debounce / throttle),https://github.com/whatwg/dom/issues/1298,2024-07-20T07:09:23Z,2024-07-22T08:46:19Z,FND,needs implementer interest|addition/proposal,62
 2365728533,true,Proposal: getCornerPoints(),https://github.com/whatwg/dom/issues/1294,2024-06-21T05:12:18Z,2024-07-02T13:55:32Z,jogibear9988,needs implementer interest|addition/proposal,0
 2363725962,false,AbortSignal.any() assertion failure,https://github.com/whatwg/dom/issues/1293,2024-06-20T07:26:03Z,2024-07-15T23:13:03Z,vinhill,,0
 2327619596,false,Should post-connected steps be able to run multiple times during insertion?,https://github.com/whatwg/dom/issues/1291,2024-05-31T11:27:01Z,2024-05-31T11:27:01Z,domfarolino,,0
@@ -448,7 +448,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 204449541,true,EventTarget.addEventListener lacks a proper definition on how to handle invalid callback,https://github.com/whatwg/dom/issues/405,2017-01-31T22:59:27Z,2017-02-27T17:45:16Z,denschub,,0
 204224775,true,"Event not dispatched by the user agent should not fallback to legacy ",https://github.com/whatwg/dom/issues/404,2017-01-31T07:45:24Z,2017-02-14T11:53:07Z,upsuper,,0
 200931774,true,[discussion] Async nature of MutationObserver can cause room for error?,https://github.com/whatwg/dom/issues/399,2017-01-16T05:01:04Z,2017-07-05T10:42:55Z,trusktr,,1
-200843550,false,Consider adding localNameFilter to MutationObserver,https://github.com/whatwg/dom/issues/398,2017-01-15T02:28:48Z,2024-07-22T17:56:42Z,smaug----,addition/proposal|needs concrete proposal,3
+200843550,false,Consider adding localNameFilter to MutationObserver,https://github.com/whatwg/dom/issues/398,2017-01-15T02:28:48Z,2024-07-22T17:56:42Z,smaug----,addition/proposal|needs concrete proposal,4
 200789285,true,Method to retrieve tagName from element constructors,https://github.com/whatwg/dom/issues/396,2017-01-14T08:06:53Z,2017-01-14T08:41:30Z,justinfagnani,,0
 199769642,true,"Remove ""Historical"" section?",https://github.com/whatwg/dom/issues/394,2017-01-10T09:22:06Z,2018-03-16T10:05:44Z,annevk,,0
 199113942,true,Specify ShadowRoot.innerHTML,https://github.com/whatwg/dom/issues/393,2017-01-06T03:03:23Z,2017-01-06T07:47:59Z,sideshowbarker,,0
@@ -487,7 +487,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 179494457,true,"Standardize srcElement, returnValue, and window.event",https://github.com/whatwg/dom/issues/334,2016-09-27T13:34:13Z,2018-06-07T23:12:03Z,annevk,topic: shadow|web reality|topic: events,3
 179033427,true,Consider adding Promise-based API for listerning event,https://github.com/whatwg/dom/issues/333,2016-09-24T14:44:05Z,2017-03-16T13:51:23Z,upsuper,,1
 178690609,true,Why is the second parameter to MutationObserver.observe() optional?,https://github.com/whatwg/dom/issues/332,2016-09-22T18:49:37Z,2016-09-23T06:52:08Z,cdumez,,0
-178479710,false,Symbols should be allowed as Event types.,https://github.com/whatwg/dom/issues/331,2016-09-21T22:38:26Z,2022-01-27T20:15:02Z,bicknellr,needs implementer interest|topic: events|addition/proposal,23
+178479710,false,Symbols should be allowed as Event types.,https://github.com/whatwg/dom/issues/331,2016-09-21T22:38:26Z,2022-01-27T20:15:02Z,bicknellr,needs implementer interest|topic: events|addition/proposal,24
 178126061,true,Will there be a special nodeType for shadow root?,https://github.com/whatwg/dom/issues/330,2016-09-20T17:38:07Z,2016-09-21T18:04:54Z,dvoytenko,,1
 177088210,true,Make Element's slot attributes Unscopable,https://github.com/whatwg/dom/issues/328,2016-09-15T04:53:17Z,2016-09-15T08:12:04Z,hayatoito,,0
 176583562,true,event.composedPath() should not return every items in path if event.currentTarget is window,https://github.com/whatwg/dom/issues/326,2016-09-13T08:44:08Z,2016-09-14T04:43:55Z,hayatoito,,0
