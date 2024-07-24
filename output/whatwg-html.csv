@@ -1,13 +1,15 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2425263484,false,Pseudo elements for <video> content and controls,https://github.com/whatwg/html/issues/10507,2024-07-23T13:44:51Z,2024-07-23T14:09:25Z,jakearchibald,addition/proposal|needs implementer interest,0
-2424258842,true,[Clipboard] [Editing] Copying selected html does not contain the latest value for input/textarea?,https://github.com/whatwg/html/issues/10506,2024-07-23T04:58:44Z,2024-07-23T10:11:08Z,roraja,,0
+2427187420,false,Navigation API: a way to share custom info across a cross-document navigation,https://github.com/whatwg/html/issues/10509,2024-07-24T10:25:59Z,2024-07-24T10:25:59Z,noamr,addition/proposal|needs implementer interest,0
+2427016162,false,Definition of all event handler attributes,https://github.com/whatwg/html/issues/10508,2024-07-24T09:13:40Z,2024-07-24T09:13:40Z,lukewarlow,,0
+2425263484,false,Pseudo elements for <video> content and controls,https://github.com/whatwg/html/issues/10507,2024-07-23T13:44:51Z,2024-07-24T08:45:02Z,jakearchibald,addition/proposal|needs implementer interest,1
+2424258842,true,[Clipboard] [Editing] Copying selected html does not contain the latest value for input/textarea?,https://github.com/whatwg/html/issues/10506,2024-07-23T04:58:44Z,2024-07-24T04:45:55Z,roraja,,0
 2422751311,false,How to convert negative number to a time string in stepDown?,https://github.com/whatwg/html/issues/10503,2024-07-22T12:27:14Z,2024-07-22T14:18:41Z,vinhill,,0
 2421629576,true,Reduce network traffic by specifying a checksum attribute,https://github.com/whatwg/html/issues/10502,2024-07-21T22:38:04Z,2024-07-22T03:32:29Z,graph,addition/proposal|needs implementer interest,0
 2419223572,true,The dialog tag open has a black border,https://github.com/whatwg/html/issues/10500,2024-07-19T15:33:37Z,2024-07-19T21:56:34Z,Ruy5,,0
 2417643962,false,Toggle (show/hide) button,https://github.com/whatwg/html/issues/10499,2024-07-19T01:40:07Z,2024-07-21T14:14:54Z,muan,addition/proposal|needs implementer interest,2
 2416973388,false,Upcoming WHATNOT meeting on 2024-07-25,https://github.com/whatwg/html/issues/10496,2024-07-18T17:22:58Z,2024-07-21T13:41:00Z,past,agenda+,0
 2416760376,false,"createPattern does not define how to resolve images without defined natural dimensions (e.g. some SVG images)  ",https://github.com/whatwg/html/issues/10495,2024-07-18T15:41:55Z,2024-07-19T01:11:47Z,weinig,topic: canvas,2
-2414294529,false,Should orientation metadata (such as exif) be used when drawing HTMLImageElements/SVGImageElements to canvas?,https://github.com/whatwg/html/issues/10492,2024-07-17T18:27:46Z,2024-07-23T08:44:07Z,weinig,topic: canvas|topic: img,0
+2414294529,false,Should orientation metadata (such as exif) be used when drawing HTMLImageElements/SVGImageElements to canvas?,https://github.com/whatwg/html/issues/10492,2024-07-17T18:27:46Z,2024-07-24T10:02:36Z,weinig,topic: canvas|topic: img,0
 2412272948,false,"VideoFrame is missing from the ""not origin-clean"" definition for CanvasImageSource ",https://github.com/whatwg/html/issues/10489,2024-07-17T00:16:58Z,2024-07-17T07:32:27Z,weinig,topic: canvas,0
 2410599871,false,Auto directionality of slot behaves different than for other elements,https://github.com/whatwg/html/issues/10488,2024-07-16T08:56:37Z,2024-07-16T14:16:24Z,vinhill,,0
 2409878809,false,Extend current slot beyond shadow-DOM or create a new slot like element,https://github.com/whatwg/html/issues/10485,2024-07-16T00:21:01Z,2024-07-16T00:21:01Z,anthonyhoegberg,addition/proposal|needs implementer interest,0
@@ -715,7 +717,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1593054158,true,Formalize default value reflection concept,https://github.com/whatwg/html/issues/8927,2023-02-21T08:39:59Z,2023-03-03T19:05:12Z,annevk,clarification|topic: reflect,0
 1593051488,true,Use positive number instead of non-negative number greater than zero,https://github.com/whatwg/html/issues/8926,2023-02-21T08:37:48Z,2023-03-03T19:04:58Z,annevk,clarification|topic: reflect,1
 1591498385,true,Feature request: Enable inclusion of .gz CSS and JS files without WebServer and the http protocol,https://github.com/whatwg/html/issues/8918,2023-02-20T09:44:46Z,2023-02-24T13:11:06Z,lucajung,,0
-1591397416,false,Canvas 2D context color serialization,https://github.com/whatwg/html/issues/8917,2023-02-20T08:41:59Z,2024-07-15T06:54:27Z,annevk,topic: canvas|integration,0
+1591397416,false,Canvas 2D context color serialization,https://github.com/whatwg/html/issues/8917,2023-02-20T08:41:59Z,2024-07-24T01:23:05Z,annevk,topic: canvas|integration,0
 1591084557,false,`<picture>` and `<source>` elements: How should 404s with placeholder image data be handled?,https://github.com/whatwg/html/issues/8916,2023-02-20T03:53:17Z,2023-02-24T21:31:11Z,DavidJCobb,clarification|topic: img|topic: fetch,0
 1589837748,false,Adding document subtitle to the spec.,https://github.com/whatwg/html/issues/8909,2023-02-17T19:06:05Z,2024-06-11T15:08:50Z,diekus,addition/proposal|needs implementer interest,0
 1589211658,true,ssh protocol handler is broken,https://github.com/whatwg/html/issues/8907,2023-02-17T11:26:55Z,2023-02-24T15:24:44Z,SoniEx2,security/privacy|topic: custom protocols,0
