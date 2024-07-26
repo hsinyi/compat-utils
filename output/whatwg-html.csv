@@ -1,9 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2430671307,false,[rendering] animation frame callback handling when iframes are involved,https://github.com/whatwg/html/issues/10521,2024-07-25T17:58:37Z,2024-07-25T22:57:46Z,emilio,topic: rendering|agenda+,0
+2430667894,false,Timing of cloning for the `<selectedoption>` element,https://github.com/whatwg/html/issues/10520,2024-07-25T17:56:27Z,2024-07-25T23:00:31Z,josepharhar,,0
+2430315277,false,Proposal: Element 'sensitive' attribute,https://github.com/whatwg/html/issues/10519,2024-07-25T15:29:50Z,2024-07-25T15:30:08Z,vmpstr,,1
+2429939244,false,Discussing new ways of tackling User-Agent discrimination,https://github.com/whatwg/html/issues/10518,2024-07-25T13:15:13Z,2024-07-25T13:15:13Z,BenjaminAster,addition/proposal|needs implementer interest,6
 2429293395,false,Specify error event filename/lineno/colno,https://github.com/whatwg/html/issues/10517,2024-07-25T07:56:01Z,2024-07-25T08:07:44Z,domenic,interop|topic: error reporting,0
 2429263337,false,"Update all call sites of the old ""report the exception"" ",https://github.com/whatwg/html/issues/10516,2024-07-25T07:40:01Z,2024-07-25T07:40:01Z,domenic,integration|topic: error reporting,0
 2429211442,false,Editorial improvements to unhandled promise rejections,https://github.com/whatwg/html/issues/10515,2024-07-25T07:13:35Z,2024-07-25T07:13:35Z,domenic,clarification|topic: error reporting,0
 2429124307,false,Exception reporting muting is not interoperable,https://github.com/whatwg/html/issues/10514,2024-07-25T06:24:13Z,2024-07-25T07:44:14Z,domenic,interop|topic: error reporting,0
-2428415711,false,Consider adding `view-transition` as a token for `blocking`,https://github.com/whatwg/html/issues/10513,2024-07-24T20:27:55Z,2024-07-24T20:27:55Z,noamr,addition/proposal|needs implementer interest,0
+2428415711,false,Consider adding `view-transition` as a token for `blocking`,https://github.com/whatwg/html/issues/10513,2024-07-24T20:27:55Z,2024-07-25T15:30:31Z,noamr,addition/proposal|needs implementer interest,1
 2427187420,true,Navigation API: a way to share custom info across a cross-document navigation,https://github.com/whatwg/html/issues/10509,2024-07-24T10:25:59Z,2024-07-25T01:04:32Z,noamr,addition/proposal|needs implementer interest,0
 2427016162,true,Definition of all event handler attributes,https://github.com/whatwg/html/issues/10508,2024-07-24T09:13:40Z,2024-07-25T01:00:25Z,lukewarlow,,0
 2425263484,false,Pseudo elements for <video> content and controls,https://github.com/whatwg/html/issues/10507,2024-07-23T13:44:51Z,2024-07-24T08:45:02Z,jakearchibald,addition/proposal|needs implementer interest,1
@@ -12,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2421629576,true,Reduce network traffic by specifying a checksum attribute,https://github.com/whatwg/html/issues/10502,2024-07-21T22:38:04Z,2024-07-22T03:32:29Z,graph,addition/proposal|needs implementer interest,0
 2419223572,true,The dialog tag open has a black border,https://github.com/whatwg/html/issues/10500,2024-07-19T15:33:37Z,2024-07-19T21:56:34Z,Ruy5,,0
 2417643962,false,Toggle (show/hide) button,https://github.com/whatwg/html/issues/10499,2024-07-19T01:40:07Z,2024-07-24T21:41:43Z,muan,addition/proposal|needs implementer interest,2
-2416973388,false,Upcoming WHATNOT meeting on 2024-07-25,https://github.com/whatwg/html/issues/10496,2024-07-18T17:22:58Z,2024-07-24T18:17:29Z,past,agenda+,0
+2416973388,false,Upcoming WHATNOT meeting on 2024-07-25,https://github.com/whatwg/html/issues/10496,2024-07-18T17:22:58Z,2024-07-25T23:01:45Z,past,agenda+,0
 2416760376,false,"createPattern does not define how to resolve images without defined natural dimensions (e.g. some SVG images)  ",https://github.com/whatwg/html/issues/10495,2024-07-18T15:41:55Z,2024-07-19T01:11:47Z,weinig,topic: canvas,2
 2414294529,false,Should orientation metadata (such as exif) be used when drawing HTMLImageElements/SVGImageElements to canvas?,https://github.com/whatwg/html/issues/10492,2024-07-17T18:27:46Z,2024-07-24T14:09:12Z,weinig,topic: canvas|topic: img,0
 2412272948,false,"VideoFrame is missing from the ""not origin-clean"" definition for CanvasImageSource ",https://github.com/whatwg/html/issues/10489,2024-07-17T00:16:58Z,2024-07-17T07:32:27Z,weinig,topic: canvas,0
@@ -281,7 +285,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2077589057,true,Upcoming WHATNOT meeting on 1/25/2024,https://github.com/whatwg/html/issues/10052,2024-01-11T21:08:45Z,2024-01-26T00:55:47Z,past,agenda+,0
 2076160228,false,Inheritance with shadow DOM for `spellcheck` attribute,https://github.com/whatwg/html/issues/10050,2024-01-11T09:40:09Z,2024-01-11T19:23:49Z,sanketj,topic: shadow|needs tests,0
 2075798919,false,"""in parallel"" in algorithm headers can be confusing",https://github.com/whatwg/html/issues/10049,2024-01-11T05:41:57Z,2024-01-11T09:42:35Z,domenic,clarification,1
-2075560644,true,Close watchers: detecting close requests vs. other closes,https://github.com/whatwg/html/issues/10047,2024-01-11T01:59:20Z,2024-05-10T01:54:43Z,domenic,normative change|topic: dialog|topic: close watchers,3
+2075560644,true,Close watchers: detecting close requests vs. other closes,https://github.com/whatwg/html/issues/10047,2024-01-11T01:59:20Z,2024-07-25T17:36:40Z,domenic,normative change|topic: dialog|topic: close watchers,3
 2075526270,true,Close watchers: history-action user activation is consumed even for the first close watcher,https://github.com/whatwg/html/issues/10046,2024-01-11T01:22:58Z,2024-04-02T08:54:10Z,domenic,normative change|topic: dialog|topic: close watchers,1
 2069375890,false,A way to disable animation of cancelled drag for editor apps like VS Code,https://github.com/whatwg/html/issues/10039,2024-01-08T00:28:08Z,2024-01-12T05:27:14Z,zcbenz,addition/proposal|needs implementer interest,1
 2069074912,true,Should past user activations be kept after refresh?,https://github.com/whatwg/html/issues/10038,2024-01-07T10:29:21Z,2024-01-07T11:44:31Z,CanadaHonk,,0
@@ -459,7 +463,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2024-03-14T17:43:28Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,5
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,true,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-09-07T21:38:07Z,past,agenda+,0
-1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-07-18T17:21:24Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,41
+1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-07-25T16:12:27Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,41
 1862349856,false,Add `allow-unique-origin` keyword in iframe/CSP sandbox,https://github.com/whatwg/html/issues/9623,2023-08-22T23:56:53Z,2023-10-01T15:12:22Z,shhnjk,,0
 1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-28T19:21:24Z,woody-li,,0
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
