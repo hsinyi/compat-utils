@@ -137,6 +137,7 @@ api/AudioContext/createMediaElementSource,,25,,15,,6,,false,true,false,https://w
 api/AudioContext/createMediaStreamDestination,,25,,25,,11,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audiocontext-createmediastreamdestination,W3C
 api/AudioContext/createMediaStreamSource,,25,,22,,11,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audiocontext-createmediastreamsource,W3C
 api/AudioContext/createMediaStreamTrackSource,,68,,,,,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audiocontext-createmediastreamtracksource,W3C
+api/AudioContext/error_event,,,,128,,,,true,true,false,https://webaudio.github.io/web-audio-api/#dom-audiocontext-onerror,W3C
 api/AudioContext/getOutputTimestamp,,70,,57,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audiocontext-getoutputtimestamp,W3C
 api/AudioContext/outputLatency,,70,,102,,,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audiocontext-outputlatency,W3C
 api/AudioContext/resume,,40,,41,,9,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audiocontext-resume,W3C
@@ -670,6 +671,7 @@ api/CSSPageDescriptors/size,,129,,,,,,true,true,false,https://drafts.csswg.org/c
 api/CSSPageRule,,19,,1,,3,,false,true,false,https://drafts.csswg.org/cssom/#the-csspagerule-interface,W3C
 api/CSSPageRule/selectorText,,110,,1,,3,,false,true,false,https://drafts.csswg.org/cssom/#dom-cssgroupingrule-selectortext,W3C
 api/CSSPageRule/style,,19,,1,,3,,false,true,false,https://drafts.csswg.org/cssom/#dom-cssgroupingrule-style,W3C
+api/CSSPageRule/style/type_CSSPageDescriptors,,129,,,,,,true,true,false,,NONE
 api/CSSPerspective,,,,66,,16.4,,false,true,false,https://drafts.css-houdini.org/css-typed-om/#cssperspective,W3C
 api/CSSPerspective/CSSPerspective,,,,66,,16.4,,false,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-cssperspective-cssperspective,W3C
 api/CSSPerspective/length,,,,66,,16.4,,false,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-cssperspective-length,W3C
@@ -1003,10 +1005,10 @@ api/CanvasRenderingContext2D/wordSpacing,,115,,99,,,,false,true,false,https://ht
 api/CaptureController,,,,109,,,,true,true,false,https://w3c.github.io/mediacapture-screen-share/#dom-capturecontroller,W3C
 api/CaptureController/CaptureController,,,,109,,,,true,true,false,https://w3c.github.io/mediacapture-screen-share/#dom-capturecontroller-constructor,W3C
 api/CaptureController/setFocusBehavior,,,,109,,,,true,true,false,https://w3c.github.io/mediacapture-screen-share/#dom-capturecontroller-setfocusbehavior,W3C
-api/CaretPosition,,20,,,,,,true,true,false,https://drafts.csswg.org/cssom-view/#caret-position,W3C
-api/CaretPosition/getClientRect,,23,,,,,,true,true,false,https://drafts.csswg.org/cssom-view/#dom-caretposition-getclientrect,W3C
-api/CaretPosition/offset,,20,,,,,,true,true,false,https://drafts.csswg.org/cssom-view/#dom-caretposition-offset,W3C
-api/CaretPosition/offsetNode,,20,,,,,,true,true,false,https://drafts.csswg.org/cssom-view/#dom-caretposition-offsetnode,W3C
+api/CaretPosition,,20,,128,,,,false,true,false,https://drafts.csswg.org/cssom-view/#caret-position,W3C
+api/CaretPosition/getClientRect,,23,,128,,,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-caretposition-getclientrect,W3C
+api/CaretPosition/offset,,20,,128,,,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-caretposition-offset,W3C
+api/CaretPosition/offsetNode,,20,,128,,,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-caretposition-offsetnode,W3C
 api/ChannelMergerNode,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#ChannelMergerNode,W3C
 api/ChannelMergerNode/ChannelMergerNode,,53,,55,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-channelmergernode-constructor-channelmergernode,W3C
 api/ChannelSplitterNode,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#ChannelSplitterNode,W3C
@@ -1511,7 +1513,7 @@ api/Document/bgColor,,1,,64,,11,,false,true,true,https://html.spec.whatwg.org/mu
 api/Document/body,,60,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-document-body-dev,WHATWG
 api/Document/browsingTopics,,,,115,,,,true,false,false,,NONE
 api/Document/captureEvents,,1,,64,,11,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-captureevents,WHATWG
-api/Document/caretPositionFromPoint,,20,,,,,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-document-caretpositionfrompoint,W3C
+api/Document/caretPositionFromPoint,,20,,128,,,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-document-caretpositionfrompoint,W3C
 api/Document/caretRangeFromPoint,,,,4,,5,,false,false,false,,NONE
 api/Document/characterSet,,1,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-document-characterset①,WHATWG
 api/Document/childElementCount,,25,,29,,9,,false,true,false,https://dom.spec.whatwg.org/#dom-parentnode-childelementcount,WHATWG
@@ -1773,7 +1775,7 @@ api/Element/ariaBusy,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria
 api/Element/ariaChecked,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariachecked,W3C
 api/Element/ariaColCount,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariacolcount,W3C
 api/Element/ariaColIndex,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariacolindex,W3C
-api/Element/ariaColIndexText,,119,,,,,,true,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariacolindextext,W3C
+api/Element/ariaColIndexText,,119,,128,,,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariacolindextext,W3C
 api/Element/ariaColSpan,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariacolspan,W3C
 api/Element/ariaControlsElements,,,,,,16.4,,true,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariacontrolselements,W3C
 api/Element/ariaCurrent,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariacurrent,W3C
@@ -1806,7 +1808,7 @@ api/Element/ariaRequired,,119,,81,,12.1,,false,true,false,https://w3c.github.io/
 api/Element/ariaRoleDescription,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariaorientation,W3C
 api/Element/ariaRowCount,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariarowcount,W3C
 api/Element/ariaRowIndex,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariarowindex,W3C
-api/Element/ariaRowIndexText,,119,,,,,,true,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariarowindextext,W3C
+api/Element/ariaRowIndexText,,119,,128,,,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariarowindextext,W3C
 api/Element/ariaRowSpan,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariarowspan,W3C
 api/Element/ariaSelected,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariaselected,W3C
 api/Element/ariaSetSize,,119,,84,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariasetsize,W3C
@@ -1854,7 +1856,7 @@ api/Element/contentvisibilityautostatechange_event,,124,,108,,,,false,true,false
 api/Element/contextmenu_event,,6,,1,,3,,false,true,false,https://w3c.github.io/uievents/#event-type-contextmenu,W3C
 api/Element/contextmenu_event/type_pointerevent,,,,92,,,,true,true,false,,NONE
 api/Element/copy_event,,22,,1,,3,,false,true,false,https://w3c.github.io/clipboard-apis/#clipboard-event-copy,W3C
-api/Element/currentCSSZoom,,126,,,,,,true,true,false,https://drafts.csswg.org/cssom-view/#dom-element-currentcsszoom,W3C
+api/Element/currentCSSZoom,,126,,128,,,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-element-currentcsszoom,W3C
 api/Element/cut_event,,22,,1,,3,,false,true,false,https://w3c.github.io/clipboard-apis/#clipboard-event-cut,W3C
 api/Element/dblclick_event,,6,,1,,3,,false,true,false,https://w3c.github.io/uievents/#event-type-dblclick,W3C
 api/Element/elementTiming,,,,77,,,,true,true,false,https://wicg.github.io/element-timing/#dom-element-elementtiming,W3CCG
@@ -2000,7 +2002,7 @@ api/ElementInternals/ariaBusy,,119,,81,,16.4,,false,true,false,https://w3c.githu
 api/ElementInternals/ariaChecked,,119,,81,,16.4,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariachecked,W3C
 api/ElementInternals/ariaColCount,,119,,81,,16.4,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariacolcount,W3C
 api/ElementInternals/ariaColIndex,,119,,81,,16.4,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariacolindex,W3C
-api/ElementInternals/ariaColIndexText,,119,,,,,,true,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariacolindextext,W3C
+api/ElementInternals/ariaColIndexText,,119,,128,,,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariacolindextext,W3C
 api/ElementInternals/ariaColSpan,,119,,81,,16.4,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariacolspan,W3C
 api/ElementInternals/ariaControlsElements,,,,,,16.4,,true,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariacontrolselements,W3C
 api/ElementInternals/ariaCurrent,,119,,81,,16.4,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariacurrent,W3C
@@ -2033,7 +2035,7 @@ api/ElementInternals/ariaRequired,,119,,81,,16.4,,false,true,false,https://w3c.g
 api/ElementInternals/ariaRoleDescription,,119,,81,,16.4,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariaroledescription,W3C
 api/ElementInternals/ariaRowCount,,119,,81,,16.4,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariarowcount,W3C
 api/ElementInternals/ariaRowIndex,,119,,81,,16.4,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariarowindex,W3C
-api/ElementInternals/ariaRowIndexText,,119,,,,,,true,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariarowindextext,W3C
+api/ElementInternals/ariaRowIndexText,,119,,128,,,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariarowindextext,W3C
 api/ElementInternals/ariaRowSpan,,119,,81,,16.4,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariarowspan,W3C
 api/ElementInternals/ariaSelected,,119,,81,,16.4,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariaselected,W3C
 api/ElementInternals/ariaSetSize,,119,,84,,16.4,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariasetsize,W3C
@@ -4305,7 +4307,7 @@ api/MediaSession/setActionHandler/previoustrack_type,,82,,73,,15,,false,true,fal
 api/MediaSession/setActionHandler/seekbackward_type,,82,,73,,15,,false,true,false,,NONE
 api/MediaSession/setActionHandler/seekforward_type,,82,,73,,15,,false,true,false,,NONE
 api/MediaSession/setActionHandler/seekto_type,,82,,78,,15,,false,true,false,,NONE
-api/MediaSession/setActionHandler/skipad_type,,82,,,,15,,false,true,false,,NONE
+api/MediaSession/setActionHandler/skipad_type,,82,,128,,15,,false,true,false,,NONE
 api/MediaSession/setActionHandler/stop_type,,82,,77,,15,,false,true,false,,NONE
 api/MediaSession/setActionHandler/togglecamera_type,,,,93,,,,false,true,false,,NONE
 api/MediaSession/setActionHandler/togglemicrophone_type,,,,93,,,,false,true,false,,NONE
@@ -4964,8 +4966,10 @@ api/OverconstrainedError,,,,63,,11,,false,true,false,https://w3c.github.io/media
 api/OverconstrainedError/OverconstrainedError,,,,63,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-overconstrainederror,W3C
 api/OverconstrainedError/constraint,,,,63,,11.1,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-overconstrainederror-constraint,W3C
 api/PageRevealEvent,,,,123,,,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-pagerevealevent-interface,WHATWG
+api/PageRevealEvent/PageRevealEvent,,,,128,,,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-pagerevealevent-interface,WHATWG
 api/PageRevealEvent/viewTransition,,,,126,,,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-pagerevealevent-viewtransition,WHATWG
 api/PageSwapEvent,,,,124,,,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-pageswapevent-interface,WHATWG
+api/PageSwapEvent/PageSwapEvent,,,,128,,,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-pageswapevent-interface,WHATWG
 api/PageSwapEvent/activation,,,,124,,,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-pageswapevent-activation,WHATWG
 api/PageSwapEvent/viewTransition,,,,126,,,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-pageswapevent-viewtransition,WHATWG
 api/PageTransitionEvent,,1.5,,4,,5,,false,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-pagetransitionevent-interface,WHATWG
@@ -5359,6 +5363,7 @@ api/PointerEvent/getCoalescedEvents,,59,,58,,,,false,true,false,https://w3c.gith
 api/PointerEvent/getPredictedEvents,,89,,77,,,,false,true,false,https://w3c.github.io/pointerevents/#dom-pointerevent-getpredictedevents,W3C
 api/PointerEvent/height,,59,,55,,13,,false,true,false,https://w3c.github.io/pointerevents/#dom-pointerevent-height,W3C
 api/PointerEvent/isPrimary,,59,,55,,13,,false,true,false,https://w3c.github.io/pointerevents/#dom-pointerevent-isprimary,W3C
+api/PointerEvent/persistentDeviceId,,,,128,,,,true,true,false,,NONE
 api/PointerEvent/pointerId,,59,,55,,13,,false,true,false,https://w3c.github.io/pointerevents/#dom-pointerevent-pointerid,W3C
 api/PointerEvent/pointerType,,59,,55,,13,,false,true,false,https://w3c.github.io/pointerevents/#dom-pointerevent-pointertype,W3C
 api/PointerEvent/pointerType/fractional_coordinates,,,,64,,,,false,true,false,,NONE
@@ -7317,7 +7322,7 @@ api/SubtleCrypto/deriveKey,,34,,41,,11,,false,true,false,https://w3c.github.io/w
 api/SubtleCrypto/deriveKey/derivedKeyAlgorithm_option_aes,,34,,41,,≤13.1,,false,true,false,https://w3c.github.io/webcrypto/#SubtleCrypto-method-deriveKey,W3C
 api/SubtleCrypto/deriveKey/derivedKeyAlgorithm_option_hkdf,,119,,41,,≤13.1,,false,true,false,https://w3c.github.io/webcrypto/#SubtleCrypto-method-deriveKey,W3C
 api/SubtleCrypto/deriveKey/derivedKeyAlgorithm_option_hmac,,34,,41,,≤13.1,,false,true,false,https://w3c.github.io/webcrypto/#SubtleCrypto-method-deriveKey,W3C
-api/SubtleCrypto/deriveKey/derivedKeyAlgorithm_option_pbkdf2,,,,41,,≤13.1,,false,true,false,https://w3c.github.io/webcrypto/#SubtleCrypto-method-deriveKey,W3C
+api/SubtleCrypto/deriveKey/derivedKeyAlgorithm_option_pbkdf2,,119,,41,,≤13.1,,false,true,false,https://w3c.github.io/webcrypto/#SubtleCrypto-method-deriveKey,W3C
 api/SubtleCrypto/digest,,34,,37,,7,,false,true,false,https://w3c.github.io/webcrypto/#SubtleCrypto-method-digest,W3C
 api/SubtleCrypto/encrypt,,34,,37,,7,,false,true,false,https://w3c.github.io/webcrypto/#SubtleCrypto-method-encrypt,W3C
 api/SubtleCrypto/exportKey,,34,,37,,7,,false,true,false,https://w3c.github.io/webcrypto/#SubtleCrypto-method-exportKey,W3C
@@ -10753,11 +10758,11 @@ css/properties/rotate/x_y_z_angle,,72,,104,,14.1,,false,true,false,,NONE
 css/properties/row-gap,,52,,47,,10.1,,false,true,false,https://drafts.csswg.org/css-align/#column-row-gap,W3C
 css/properties/row-gap/flex_context,,63,,84,,14.1,,false,true,false,https://drafts.csswg.org/css-align/#column-row-gap,W3C
 css/properties/row-gap/grid_context,,61,,66,,12,,false,true,false,https://drafts.csswg.org/css-align/#column-row-gap,W3C
-css/properties/ruby-align,,38,,,,,,true,true,false,https://drafts.csswg.org/css-ruby/#ruby-align-property,W3C
-css/properties/ruby-align/center,,38,,,,,,true,true,false,https://drafts.csswg.org/css-ruby/#valdef-ruby-align-center,W3C
-css/properties/ruby-align/space-around,,38,,,,,,true,true,false,https://drafts.csswg.org/css-ruby/#valdef-ruby-align-space-around,W3C
-css/properties/ruby-align/space-between,,38,,,,,,true,true,false,https://drafts.csswg.org/css-ruby/#valdef-ruby-align-space-between,W3C
-css/properties/ruby-align/start,,38,,,,,,true,true,false,https://drafts.csswg.org/css-ruby/#valdef-ruby-align-start,W3C
+css/properties/ruby-align,,38,,128,,,,false,true,false,https://drafts.csswg.org/css-ruby/#ruby-align-property,W3C
+css/properties/ruby-align/center,,38,,128,,,,false,true,false,https://drafts.csswg.org/css-ruby/#valdef-ruby-align-center,W3C
+css/properties/ruby-align/space-around,,38,,128,,,,false,true,false,https://drafts.csswg.org/css-ruby/#valdef-ruby-align-space-around,W3C
+css/properties/ruby-align/space-between,,38,,128,,,,false,true,false,https://drafts.csswg.org/css-ruby/#valdef-ruby-align-space-between,W3C
+css/properties/ruby-align/start,,38,,128,,,,false,true,false,https://drafts.csswg.org/css-ruby/#valdef-ruby-align-start,W3C
 css/properties/ruby-position,,38,,84,,7,,false,true,false,https://drafts.csswg.org/css-ruby/#rubypos,W3C
 css/properties/ruby-position/alternate,,88,,,,,,true,true,false,,NONE
 css/properties/rx,,≤72,,≤80,,,,false,true,false,https://svgwg.org/svg2-draft/geometry.html#RX,W3C
@@ -11798,7 +11803,7 @@ html/elements/iframe/referrerpolicy/no-referrer-when-downgrade,,50,,51,,,,false,
 html/elements/iframe/referrerpolicy/origin-when-cross-origin,,50,,51,,,,false,true,false,,NONE
 html/elements/iframe/referrerpolicy/unsafe-url,,50,,51,,,,false,true,false,,NONE
 html/elements/iframe/sandbox,,17,,5,,5,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-sandbox,WHATWG
-html/elements/iframe/sandbox/allow-downloads,,82,,83,,,,false,true,false,https://html.spec.whatwg.org/multipage/browsers.html#attr-iframe-sandbox-allow-downloads,WHATWG
+html/elements/iframe/sandbox/allow-downloads,,82,,83,,17,,false,true,false,https://html.spec.whatwg.org/multipage/browsers.html#attr-iframe-sandbox-allow-downloads,WHATWG
 html/elements/iframe/sandbox/allow-forms,,≤49,,5,,5,,false,true,false,https://html.spec.whatwg.org/multipage/browsers.html#attr-iframe-sandbox-allow-forms,WHATWG
 html/elements/iframe/sandbox/allow-modals,,49,,46,,11.1,,false,true,false,https://html.spec.whatwg.org/multipage/browsers.html#attr-iframe-sandbox-allow-modals,WHATWG
 html/elements/iframe/sandbox/allow-orientation-lock,,≤49,,68,,,,false,true,false,https://html.spec.whatwg.org/multipage/browsers.html#attr-iframe-sandbox-allow-orientation-lock,WHATWG
@@ -13165,6 +13170,7 @@ javascript/builtins/Promise/race,,29,,32,,8,,false,true,false,https://tc39.es/ec
 javascript/builtins/Promise/reject,,29,,32,,8,,false,true,false,https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.reject,TC39
 javascript/builtins/Promise/resolve,,29,,32,,8,,false,true,false,https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.resolve,TC39
 javascript/builtins/Promise/then,,29,,32,,8,,false,true,false,https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.prototype.then,TC39
+javascript/builtins/Promise/try,,,,128,,,,true,true,false,https://tc39.es/proposal-promise-try/#sec-promise.try,TC39
 javascript/builtins/Promise/withResolvers,,121,,119,,17.4,,false,true,false,https://tc39.es/proposal-promise-with-resolvers/#sec-promise.withResolvers,TC39
 javascript/builtins/Proxy,,18,,49,,10,,false,true,false,https://tc39.es/ecma262/multipage/reflection.html#sec-proxy-objects,TC39
 javascript/builtins/Proxy/Proxy,,18,,49,,10,,false,true,false,https://tc39.es/ecma262/multipage/reflection.html#sec-proxy-constructor,TC39
