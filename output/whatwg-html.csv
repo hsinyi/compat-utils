@@ -2,7 +2,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2432148321,false,"""On platforms where Esc is the close request, the user agent will first fire an appropriately-initialized keydown and keyup event sequence"" is confusing",https://github.com/whatwg/html/issues/10523,2024-07-26T12:35:10Z,2024-07-26T13:35:00Z,smaug----,,0
 2430671307,false,[rendering] animation frame callback handling when iframes are involved,https://github.com/whatwg/html/issues/10521,2024-07-25T17:58:37Z,2024-07-26T17:04:16Z,emilio,topic: rendering|agenda+,0
 2430667894,false,Timing of cloning for the `<selectedoption>` element,https://github.com/whatwg/html/issues/10520,2024-07-25T17:56:27Z,2024-07-26T07:22:27Z,josepharhar,,0
-2430315277,false,Proposal: Element 'sensitive' attribute,https://github.com/whatwg/html/issues/10519,2024-07-25T15:29:50Z,2024-07-25T15:30:08Z,vmpstr,,2
+2430315277,false,Proposal: Element 'sensitive' attribute,https://github.com/whatwg/html/issues/10519,2024-07-25T15:29:50Z,2024-07-25T15:30:08Z,vmpstr,,3
 2429939244,false,Discussing new ways of tackling User-Agent discrimination,https://github.com/whatwg/html/issues/10518,2024-07-25T13:15:13Z,2024-07-27T10:24:41Z,BenjaminAster,addition/proposal|needs implementer interest,9
 2429293395,false,Specify error event filename/lineno/colno,https://github.com/whatwg/html/issues/10517,2024-07-25T07:56:01Z,2024-07-25T08:07:44Z,domenic,interop|topic: error reporting,0
 2429263337,false,"Update all call sites of the old ""report the exception"" ",https://github.com/whatwg/html/issues/10516,2024-07-25T07:40:01Z,2024-07-25T07:40:01Z,domenic,integration|topic: error reporting,0
@@ -464,7 +464,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2024-03-14T17:43:28Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,5
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,true,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-09-07T21:38:07Z,past,agenda+,0
-1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-07-25T16:12:27Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,41
+1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-07-25T16:12:27Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,42
 1862349856,false,Add `allow-unique-origin` keyword in iframe/CSP sandbox,https://github.com/whatwg/html/issues/9623,2023-08-22T23:56:53Z,2023-10-01T15:12:22Z,shhnjk,,0
 1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-28T19:21:24Z,woody-li,,0
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
@@ -493,7 +493,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1821261026,false,HTML Parser: confusion about  adoption agency algorithm,https://github.com/whatwg/html/issues/9559,2023-07-25T22:29:47Z,2023-10-01T15:37:56Z,stasoid,clarification|topic: parser,0
 1819321957,true,Evolving the HTML base tag further,https://github.com/whatwg/html/issues/9555,2023-07-25T00:13:44Z,2023-07-25T02:17:59Z,linuxguist,,0
 1817304169,true,"""This requirement is not a hard requirement, how...""",https://github.com/whatwg/html/issues/9553,2023-07-23T21:37:56Z,2023-07-25T18:23:27Z,Lanpun,,0
-1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2024-05-08T06:31:13Z,thany,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,15
+1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2024-05-08T06:31:13Z,thany,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,16
 1813664808,true,Considering event.waitUntil(promise) for async listeners,https://github.com/whatwg/html/issues/9540,2023-07-20T10:30:06Z,2024-06-12T17:00:22Z,WebReflection,,2
 1812387860,true,Consider making `=` in unquoted attribute values not a parse error,https://github.com/whatwg/html/issues/9536,2023-07-19T17:26:24Z,2023-08-18T08:47:13Z,tabatkins,document conformance,1
 1812006723,true,Environment settings objects used when fetching a module worker script graph are still wrong,https://github.com/whatwg/html/issues/9535,2023-07-19T13:53:30Z,2023-07-24T06:15:07Z,nicolo-ribaudo,topic: script,0
@@ -3092,7 +3092,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 301777319,true,"quirk mode ",https://github.com/whatwg/html/issues/3521,2018-03-02T14:08:38Z,2018-03-02T14:09:54Z,ghost,,0
 301686491,false,<meter> interoperability issue with values on boundaries,https://github.com/whatwg/html/issues/3520,2018-03-02T08:19:32Z,2022-03-11T08:40:22Z,tkent-google,clarification|interop,0
 301660842,true,I need feedback to see if I am right?,https://github.com/whatwg/html/issues/3519,2018-03-02T05:50:39Z,2018-03-02T10:10:56Z,Thezone1975,,0
-301576285,false,Proposal: HTML passwordrules attribute,https://github.com/whatwg/html/issues/3518,2018-03-01T22:02:50Z,2024-04-27T23:38:58Z,dbates-wk,addition/proposal|needs implementer interest|document conformance|security/privacy|topic: forms,70
+301576285,false,Proposal: HTML passwordrules attribute,https://github.com/whatwg/html/issues/3518,2018-03-01T22:02:50Z,2024-04-27T23:38:58Z,dbates-wk,addition/proposal|needs implementer interest|document conformance|security/privacy|topic: forms,71
 301126578,false,API for structured serialized data,https://github.com/whatwg/html/issues/3517,2018-02-28T18:07:55Z,2024-07-15T07:43:12Z,devsnek,addition/proposal|needs implementer interest|topic: serialize and transfer,7
 300769187,true,Add element reflection counterparts to id-reference counterparts,https://github.com/whatwg/html/issues/3515,2018-02-27T19:51:04Z,2022-11-11T14:43:18Z,domenic,addition/proposal|topic: shadow|accessibility|impacts documentation,0
 300576902,false,Define all focus events,https://github.com/whatwg/html/issues/3514,2018-02-27T10:41:03Z,2024-03-29T19:01:00Z,annevk,interop|topic: focus|integration,3
