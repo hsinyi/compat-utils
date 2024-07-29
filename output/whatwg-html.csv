@@ -8,7 +8,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2429263337,false,"Update all call sites of the old ""report the exception"" ",https://github.com/whatwg/html/issues/10516,2024-07-25T07:40:01Z,2024-07-25T07:40:01Z,domenic,integration|topic: error reporting,0
 2429211442,false,Editorial improvements to unhandled promise rejections,https://github.com/whatwg/html/issues/10515,2024-07-25T07:13:35Z,2024-07-25T07:13:35Z,domenic,clarification|topic: error reporting,0
 2429124307,false,Exception reporting muting is not interoperable,https://github.com/whatwg/html/issues/10514,2024-07-25T06:24:13Z,2024-07-25T07:44:14Z,domenic,interop|topic: error reporting,0
-2428415711,false,Consider adding `view-transition` as a token for `blocking`,https://github.com/whatwg/html/issues/10513,2024-07-24T20:27:55Z,2024-07-25T15:30:31Z,noamr,addition/proposal|needs implementer interest,1
+2428415711,false,Consider adding `view-transition` as a token for `blocking`,https://github.com/whatwg/html/issues/10513,2024-07-24T20:27:55Z,2024-07-25T15:30:31Z,noamr,addition/proposal|needs implementer interest,2
 2427187420,true,Navigation API: a way to share custom info across a cross-document navigation,https://github.com/whatwg/html/issues/10509,2024-07-24T10:25:59Z,2024-07-25T01:04:32Z,noamr,addition/proposal|needs implementer interest,0
 2427016162,false,Definition of all event handler attributes,https://github.com/whatwg/html/issues/10508,2024-07-24T09:13:40Z,2024-07-27T07:01:01Z,lukewarlow,,0
 2425263484,false,Pseudo elements for <video> content and controls,https://github.com/whatwg/html/issues/10507,2024-07-23T13:44:51Z,2024-07-24T08:45:02Z,jakearchibald,addition/proposal|needs implementer interest,1
@@ -23,7 +23,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2412272948,false,"VideoFrame is missing from the ""not origin-clean"" definition for CanvasImageSource ",https://github.com/whatwg/html/issues/10489,2024-07-17T00:16:58Z,2024-07-17T07:32:27Z,weinig,topic: canvas,0
 2410599871,false,Auto directionality of slot behaves different than for other elements,https://github.com/whatwg/html/issues/10488,2024-07-16T08:56:37Z,2024-07-16T14:16:24Z,vinhill,,0
 2409878809,false,Extend current slot beyond shadow-DOM or create a new slot like element,https://github.com/whatwg/html/issues/10485,2024-07-16T00:21:01Z,2024-07-16T00:21:01Z,anthonyhoegberg,addition/proposal|needs implementer interest,0
-2409864542,false,Meeting 4 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10484,2024-07-16T00:12:34Z,2024-07-16T17:26:01Z,gregwhitworth,agenda+,0
+2409864542,true,Meeting 4 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10484,2024-07-16T00:12:34Z,2024-07-28T16:38:29Z,gregwhitworth,agenda+,0
 2409694121,false,Static checker for the spec?,https://github.com/whatwg/html/issues/10483,2024-07-15T21:42:15Z,2024-07-23T13:38:07Z,jmdyck,spec tooling,3
 2407536902,true,HTMLOptionsCollection index replacement seems inconsistent,https://github.com/whatwg/html/issues/10479,2024-07-14T18:02:38Z,2024-07-14T21:32:43Z,vpzomtrrfrt,,0
 2407364805,false,"""Fragment serializing algorithm"" outputs node itself instead of its contents for elements in non-HTML documents",https://github.com/whatwg/html/issues/10478,2024-07-14T10:17:33Z,2024-07-18T17:21:07Z,sppmacd,,0
@@ -464,7 +464,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2024-03-14T17:43:28Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,5
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,true,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-09-07T21:38:07Z,past,agenda+,0
-1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-07-25T16:12:27Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,42
+1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-07-25T16:12:27Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,44
 1862349856,false,Add `allow-unique-origin` keyword in iframe/CSP sandbox,https://github.com/whatwg/html/issues/9623,2023-08-22T23:56:53Z,2023-10-01T15:12:22Z,shhnjk,,0
 1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-28T19:21:24Z,woody-li,,0
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
