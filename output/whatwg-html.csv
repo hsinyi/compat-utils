@@ -1,10 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2436813728,false,Errors when attaching a declarative shadow root,https://github.com/whatwg/html/issues/10527,2024-07-30T03:40:01Z,2024-07-30T04:13:25Z,jeremyroman,topic: shadow|topic: error reporting,0
+2438692937,false,"image.decode() interacts weirdly with the sync cases in ""update the image data""",https://github.com/whatwg/html/issues/10531,2024-07-30T21:15:03Z,2024-07-30T21:15:45Z,emilio,topic: img,0
+2436813728,false,Errors when attaching a declarative shadow root,https://github.com/whatwg/html/issues/10527,2024-07-30T03:40:01Z,2024-07-30T21:21:12Z,jeremyroman,topic: shadow|topic: error reporting,0
 2436794190,false,Error reporting in HostEnqueuePromiseJob is not specified nor interoperable,https://github.com/whatwg/html/issues/10526,2024-07-30T03:15:40Z,2024-07-30T04:13:36Z,jeremyroman,topic: shadow|interop|topic: error reporting,0
 2435979361,false,"[parsing] ""adoption agency algorithm"" ambiguity",https://github.com/whatwg/html/issues/10525,2024-07-29T17:36:32Z,2024-07-29T17:37:18Z,rshadr,,0
 2432148321,false,"""On platforms where Esc is the close request, the user agent will first fire an appropriately-initialized keydown and keyup event sequence"" is confusing",https://github.com/whatwg/html/issues/10523,2024-07-26T12:35:10Z,2024-07-29T06:42:41Z,smaug----,topic: close watchers,1
 2430671307,false,[rendering] animation frame callback handling when iframes are involved,https://github.com/whatwg/html/issues/10521,2024-07-25T17:58:37Z,2024-07-26T17:04:16Z,emilio,topic: rendering|agenda+,0
-2430667894,false,Timing of cloning for the `<selectedoption>` element,https://github.com/whatwg/html/issues/10520,2024-07-25T17:56:27Z,2024-07-29T20:50:27Z,josepharhar,,0
+2430667894,false,Timing of cloning for the `<selectedoption>` element,https://github.com/whatwg/html/issues/10520,2024-07-25T17:56:27Z,2024-07-30T15:01:18Z,josepharhar,,0
 2430315277,false,Proposal: Element 'sensitive' attribute,https://github.com/whatwg/html/issues/10519,2024-07-25T15:29:50Z,2024-07-25T15:30:08Z,vmpstr,,3
 2429939244,false,Discussing new ways of tackling User-Agent discrimination,https://github.com/whatwg/html/issues/10518,2024-07-25T13:15:13Z,2024-07-27T10:24:41Z,BenjaminAster,addition/proposal|needs implementer interest,9
 2429293395,false,Specify error event filename/lineno/colno,https://github.com/whatwg/html/issues/10517,2024-07-25T07:56:01Z,2024-07-25T08:07:44Z,domenic,interop|topic: error reporting,0
@@ -146,7 +147,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2024-07-12T04:11:52Z,bfgeek,normative change|needs implementer interest|topic: rendering,1
 2258787056,false,Sentence in 6.11.7 doesn't seem right,https://github.com/whatwg/html/issues/10295,2024-04-23T12:44:29Z,2024-04-23T12:44:29Z,Zhang-Junzhi,,0
 2258703067,true,SEO issue of <a> elements put dependently inside a context,https://github.com/whatwg/html/issues/10294,2024-04-23T12:03:03Z,2024-04-24T03:15:29Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
-2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2024-04-23T09:10:07Z,pfteter,addition/proposal|needs implementer interest|topic: forms,2
+2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2024-04-23T09:10:07Z,pfteter,addition/proposal|needs implementer interest|topic: forms,3
 2256664178,false,"Allow data:image in srcset. And the U+002C COMMA character (,) issue",https://github.com/whatwg/html/issues/10292,2024-04-22T14:17:45Z,2024-04-22T20:25:51Z,janmazanek,,0
 2254541416,true,Should light DOM form controls in a form-associated custom element be ignored during form reset?,https://github.com/whatwg/html/issues/10290,2024-04-20T12:59:06Z,2024-04-22T13:44:58Z,kleinfreund,topic: custom elements,0
 2254517789,false,"Allow SVGSVGElement as image parameter in CanvasRenderingContext2D.drawImage() ",https://github.com/whatwg/html/issues/10289,2024-04-20T10:32:52Z,2024-07-15T16:05:08Z,hfmanson,addition/proposal|needs implementer interest|topic: canvas,0
@@ -613,7 +614,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1678411261,true,Popover: there is a circle for show other auto popover while hiding,https://github.com/whatwg/html/issues/9196,2023-04-21T12:04:32Z,2023-06-08T11:51:44Z,cathiechen,topic: popover,0
 1677543108,true,Upcoming HTML standard issue triage meeting on 5/4/2023,https://github.com/whatwg/html/issues/9193,2023-04-20T23:18:15Z,2023-05-04T17:03:14Z,past,agenda+,0
 1676587334,false,Clarification on the DOM being a tree,https://github.com/whatwg/html/issues/9189,2023-04-20T12:03:44Z,2024-01-15T18:37:26Z,MrHBS,clarification,0
-1688386216,false,Clarification for <link> behavior in Declarative Shadow DOM,https://github.com/whatwg/html/issues/9232,2023-04-19T04:02:35Z,2024-07-11T16:25:05Z,bakura10,topic: shadow|topic: link,1
+1688386216,false,Clarification for <link> behavior in Declarative Shadow DOM,https://github.com/whatwg/html/issues/9232,2023-04-19T04:02:35Z,2024-07-30T15:04:58Z,bakura10,topic: shadow|topic: link,1
 1673113171,false,Make <img> src attribute optional if srcset is present,https://github.com/whatwg/html/issues/9181,2023-04-18T13:13:27Z,2024-06-19T10:04:50Z,foolip,document conformance|topic: img,1
 1671435300,true,The element could move to other document when showPopover,https://github.com/whatwg/html/issues/9177,2023-04-17T15:21:06Z,2023-05-05T09:13:47Z,cathiechen,topic: popover,0
 1669058371,true,Make number's and <input>'s get along better,https://github.com/whatwg/html/issues/9172,2023-04-14T23:52:47Z,2023-04-15T10:36:59Z,ghost,,0
@@ -1261,7 +1262,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1088670414,true,OffscreenCanvas.getContext: definition missing about unsupported context,https://github.com/whatwg/html/issues/7445,2021-12-25T23:49:29Z,2021-12-26T00:27:58Z,rinsuki,,0
 1087720198,true,Should we remove window.blur?,https://github.com/whatwg/html/issues/7441,2021-12-23T13:31:05Z,2022-10-31T05:07:08Z,camillelamy,,0
 1085481721,false,meta tag with attribute http-equiv has a small arbitrary limit on the headers that can be specified,https://github.com/whatwg/html/issues/7435,2021-12-21T06:23:22Z,2021-12-28T19:56:51Z,jacobpersico,clarification,0
-1083879762,false,Allow objects to customize serialization / deserialization for structured clone,https://github.com/whatwg/html/issues/7428,2021-12-18T17:42:47Z,2024-05-15T12:05:34Z,jasnell,,4
+1083879762,false,Allow objects to customize serialization / deserialization for structured clone,https://github.com/whatwg/html/issues/7428,2021-12-18T17:42:47Z,2024-07-30T22:29:53Z,jasnell,,4
 1083874633,true,Need a caretmove event for monitoring caret changes on HTMLInputElement/HTMLTextAreaElement,https://github.com/whatwg/html/issues/7426,2021-12-18T17:14:18Z,2021-12-19T14:21:24Z,LeaVerou,,1
 1081754607,false,Anchor tag with download prop skips contents after # character,https://github.com/whatwg/html/issues/7422,2021-12-16T04:19:59Z,2021-12-27T00:03:37Z,rostamiani,needs tests,0
 1080376605,false,Export DND related definitions,https://github.com/whatwg/html/issues/7421,2021-12-14T22:59:23Z,2021-12-15T08:03:28Z,johanneswilm,meta,1
@@ -1514,7 +1515,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 913304191,true,"""Set task's script evaluation environment settin...""",https://github.com/whatwg/html/issues/6742,2021-06-07T08:51:07Z,2021-06-17T09:11:43Z,ricea,,0
 912106696,true,Possible typo in iframe example code,https://github.com/whatwg/html/issues/6740,2021-06-05T05:16:26Z,2021-06-17T09:09:03Z,schalkneethling,,0
 912017513,true,Upcoming HTML standard issue triage meeting on 7/1/2021,https://github.com/whatwg/html/issues/6739,2021-06-05T00:00:18Z,2021-07-20T00:36:59Z,past,agenda+,0
-910338827,false,Support `<optgroup>` in `<datalist>`,https://github.com/whatwg/html/issues/6733,2021-06-03T10:10:20Z,2021-06-03T10:46:27Z,cawa-93,addition/proposal|needs implementer interest|topic: forms,20
+910338827,false,Support `<optgroup>` in `<datalist>`,https://github.com/whatwg/html/issues/6733,2021-06-03T10:10:20Z,2021-06-03T10:46:27Z,cawa-93,addition/proposal|needs implementer interest|topic: forms,21
 909451964,true,[SUGGESTION] Disabling developer tools,https://github.com/whatwg/html/issues/6732,2021-06-02T12:33:19Z,2021-06-02T19:53:26Z,drodil,,3
 909339015,false,"Canvas textBaseline ""em square"" not defined",https://github.com/whatwg/html/issues/6731,2021-06-02T10:15:21Z,2024-07-16T18:48:13Z,AshleyScirra,topic: canvas|interop,4
 909192951,true,[Suggestion] dialog element,https://github.com/whatwg/html/issues/6730,2021-06-02T07:11:15Z,2023-01-26T14:34:09Z,OmidHekayati,topic: dialog,5
@@ -1867,7 +1868,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 677993252,true,"COEP reporting ""blocked-url"" should probably be ""blockedURL""",https://github.com/whatwg/html/issues/5818,2020-08-12T21:34:29Z,2020-08-21T14:57:33Z,domenic,topic: cross-origin-embedder-policy,0
 677391669,false,Allow for the possibility of user agents implementing landmark navigation,https://github.com/whatwg/html/issues/5813,2020-08-12T05:17:57Z,2023-04-07T18:30:10Z,carmacleod,clarification|accessibility|a11y-tracker,1
 677391273,false,Consider allowing label elements to provide a label for landmark elements,https://github.com/whatwg/html/issues/5812,2020-08-12T05:17:05Z,2021-11-12T00:28:02Z,carmacleod,addition/proposal|accessibility|a11y-tracker,0
-677390392,true,Consider creating an HTML search element,https://github.com/whatwg/html/issues/5811,2020-08-12T05:15:08Z,2023-03-24T01:54:41Z,carmacleod,addition/proposal|accessibility|a11y-tracker,23
+677390392,true,Consider creating an HTML search element,https://github.com/whatwg/html/issues/5811,2020-08-12T05:15:08Z,2023-03-24T01:54:41Z,carmacleod,addition/proposal|accessibility|a11y-tracker,24
 676925106,true,"Possible loophole in COOP together with sandbox=""allow-popups""",https://github.com/whatwg/html/issues/5806,2020-08-11T14:28:47Z,2020-08-12T14:24:18Z,zcorpan,topic: sandbox,0
 676541043,true,Confusing description of invalid value default for the `formmethod` attribute,https://github.com/whatwg/html/issues/5804,2020-08-11T02:57:58Z,2020-08-17T14:57:26Z,triple-underscore,topic: forms,1
 676414389,false,BroadcastChannel needs partitioning,https://github.com/whatwg/html/issues/5803,2020-08-10T21:02:22Z,2023-12-04T12:07:01Z,rniwa,normative change|security/privacy|topic: serialize and transfer|topic: storage,10
