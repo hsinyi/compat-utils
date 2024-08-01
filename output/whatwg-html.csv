@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2441060320,false,Upcoming WHATNOT meeting on 2024-08-01,https://github.com/whatwg/html/issues/10534,2024-07-31T22:40:51Z,2024-07-31T22:41:03Z,cwilso,agenda+,0
-2440413757,false,Discussing how to focus navigate display: contents elements that are focusable in CSS reading-flow,https://github.com/whatwg/html/issues/10533,2024-07-31T16:08:06Z,2024-07-31T16:11:34Z,dizhang168,addition/proposal|topic: focus|agenda+,0
+2440413757,false,Discussing how to focus navigate display: contents elements that are focusable in CSS reading-flow,https://github.com/whatwg/html/issues/10533,2024-07-31T16:08:06Z,2024-08-01T04:17:45Z,dizhang168,addition/proposal|topic: focus|agenda+,0
 2439394011,false,Silence Jake diagram conformance warnings on CI,https://github.com/whatwg/html/issues/10532,2024-07-31T07:58:59Z,2024-07-31T07:58:59Z,domenic,,0
 2438692937,false,"image.decode() interacts weirdly with the sync cases in ""update the image data""",https://github.com/whatwg/html/issues/10531,2024-07-30T21:15:03Z,2024-07-31T12:47:34Z,emilio,topic: img,0
 2436813728,false,Errors when attaching a declarative shadow root,https://github.com/whatwg/html/issues/10527,2024-07-30T03:40:01Z,2024-07-30T21:21:12Z,jeremyroman,topic: shadow|topic: error reporting,0
@@ -18,7 +18,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2428415711,false,Consider adding `view-transition` as a token for `blocking`,https://github.com/whatwg/html/issues/10513,2024-07-24T20:27:55Z,2024-07-31T14:51:33Z,noamr,addition/proposal|needs implementer interest,2
 2427187420,true,Navigation API: a way to share custom info across a cross-document navigation,https://github.com/whatwg/html/issues/10509,2024-07-24T10:25:59Z,2024-07-25T01:04:32Z,noamr,addition/proposal|needs implementer interest,0
 2427016162,false,Definition of all event handler attributes,https://github.com/whatwg/html/issues/10508,2024-07-24T09:13:40Z,2024-07-27T07:01:01Z,lukewarlow,,0
-2425263484,false,Pseudo elements for <video> content and controls,https://github.com/whatwg/html/issues/10507,2024-07-23T13:44:51Z,2024-07-24T08:45:02Z,jakearchibald,addition/proposal|needs implementer interest,1
+2425263484,false,Pseudo elements for <video> content and controls,https://github.com/whatwg/html/issues/10507,2024-07-23T13:44:51Z,2024-07-24T08:45:02Z,jakearchibald,addition/proposal|needs implementer interest,2
 2424258842,true,[Clipboard] [Editing] Copying selected html does not contain the latest value for input/textarea?,https://github.com/whatwg/html/issues/10506,2024-07-23T04:58:44Z,2024-07-24T04:45:55Z,roraja,,0
 2422751311,false,How to convert negative number to a time string in stepDown?,https://github.com/whatwg/html/issues/10503,2024-07-22T12:27:14Z,2024-07-22T14:18:41Z,vinhill,,0
 2421629576,true,Reduce network traffic by specifying a checksum attribute,https://github.com/whatwg/html/issues/10502,2024-07-21T22:38:04Z,2024-07-22T03:32:29Z,graph,addition/proposal|needs implementer interest,0
@@ -1166,7 +1166,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1177177506,true,Question: Expected behavior for Object.keys with storage objects,https://github.com/whatwg/html/issues/7741,2022-03-22T18:50:05Z,2022-03-22T18:55:43Z,jasonnutter,,0
 1176559847,true,HTML syntax: omitting <body> should not be allowed if first child is <noscript>,https://github.com/whatwg/html/issues/7737,2022-03-22T10:14:53Z,2022-09-15T17:15:31Z,zcorpan,good first issue|document conformance,0
 1176210826,true,Should a preload with SRI and a main request without SRI be matched?,https://github.com/whatwg/html/issues/7736,2022-03-22T03:17:51Z,2022-05-19T00:42:57Z,hiroshige-g,security/privacy|topic: fetch|topic: resource hints (inc. preload),0
-1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-07-18T19:41:05Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,68
+1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-07-18T19:41:05Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,69
 1175078464,false,"Modern browsers don't implement ""4.10.21.2 Implicit submission"" correctly",https://github.com/whatwg/html/issues/7730,2022-03-21T08:59:00Z,2022-03-21T12:40:28Z,IliasDewachter,topic: forms,0
 1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2022-03-23T21:36:38Z,domenic,topic: navigation|interop,1
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
@@ -3223,7 +3223,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 281530944,true,Dev edition styling is too zoomed in,https://github.com/whatwg/html/issues/3284,2017-12-12T20:44:11Z,2018-03-05T01:30:29Z,domenic,dev edition,0
 281420267,true,Specify behaviour for sessionStorage with opaque origins,https://github.com/whatwg/html/issues/3283,2017-12-12T15:14:29Z,2020-07-10T17:28:42Z,Zirro,good first issue|interop|topic: storage,0
 281348083,true,Add accessibility role mappings to element definitions,https://github.com/whatwg/html/issues/3282,2017-12-12T11:22:08Z,2019-12-16T17:43:13Z,LJWatson,accessibility|dev edition,13
-280795713,false,"Consider adding <input type=""year"">",https://github.com/whatwg/html/issues/3281,2017-12-10T09:26:30Z,2024-07-11T03:56:17Z,guss77,addition/proposal|topic: forms,71
+280795713,false,"Consider adding <input type=""year"">",https://github.com/whatwg/html/issues/3281,2017-12-10T09:26:30Z,2024-07-11T03:56:17Z,guss77,addition/proposal|topic: forms,72
 280649013,true,Treatment of fallback image on <img src=''>,https://github.com/whatwg/html/issues/3280,2017-12-08T23:39:38Z,2018-01-04T19:41:10Z,mwenge,topic: img|interop,0
 280509596,false,"Cross-reference ""namesake method""",https://github.com/whatwg/html/issues/3278,2017-12-08T14:39:22Z,2017-12-08T15:01:46Z,Ms2ger,clarification|topic: forms,0
 280093497,true,Proposal: RangeList,https://github.com/whatwg/html/issues/3277,2017-12-07T11:22:43Z,2017-12-07T11:45:13Z,WebReflection,,0
@@ -3699,7 +3699,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 213902195,true,Float compatibility issues on implementations of CanvasContext2D getImageData(),https://github.com/whatwg/html/issues/2433,2017-03-13T21:25:49Z,2020-03-05T15:44:12Z,fserb,topic: canvas,1
 213828969,true,<ol>/<li> behavior and shadow DOM,https://github.com/whatwg/html/issues/2432,2017-03-13T16:50:40Z,2018-09-01T15:04:40Z,domenic,topic: shadow|topic: rendering|topic: parser,0
 213780471,true,""" intializedzed""",https://github.com/whatwg/html/issues/2430,2017-03-13T14:18:47Z,2017-03-14T06:57:57Z,Ms2ger,good first issue,0
-213779272,false,"<img> setting src = """" should maybe be sync",https://github.com/whatwg/html/issues/2429,2017-03-13T14:14:57Z,2019-09-04T12:02:20Z,zcorpan,topic: img,0
+213779272,false,"<img> setting src = """" should maybe be sync",https://github.com/whatwg/html/issues/2429,2017-03-13T14:14:57Z,2024-08-01T10:51:53Z,zcorpan,topic: img,0
 213087481,false,"`<input type=""range"">` is sensitive to the order of attribute setting",https://github.com/whatwg/html/issues/2427,2017-03-09T16:17:14Z,2017-10-09T09:01:48Z,wycats,normative change|topic: forms,1
 212846165,true,setRangeText should probably set the dirty value flag,https://github.com/whatwg/html/issues/2425,2017-03-08T20:24:00Z,2017-03-16T21:58:47Z,bzbarsky,compat|topic: forms,0
 212836353,true,selectionStart/selectionEnd behavior needs to be specified,https://github.com/whatwg/html/issues/2424,2017-03-08T19:44:52Z,2018-03-16T09:20:25Z,bzbarsky,topic: forms|interop,0
