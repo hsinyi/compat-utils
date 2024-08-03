@@ -1972,7 +1972,6 @@ api/Element/setAttributeNS,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.or
 api/Element/setAttributeNode,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#dom-element-setattributenode,WHATWG
 api/Element/setAttributeNodeNS,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#dom-element-setattributenodens,WHATWG
 api/Element/setCapture,,4,,,,,,false,false,true,,NONE
-api/Element/setHTML,,94,"[{""name"":""dom.security.sanitizer.enabled"",""type"":""preference"",""value_to_set"":""true""}]",105,,,,false,true,true,https://wicg.github.io/sanitizer-api/#dom-element-sethtml,W3CCG
 api/Element/setHTMLUnsafe,,123,,124,,17.4,,false,true,false,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-element-sethtmlunsafe,WHATWG
 api/Element/setPointerCapture,,59,,55,,13,,false,true,false,https://w3c.github.io/pointerevents/#dom-element-setpointercapture,W3C
 api/Element/shadowRoot,,63,,35,,10,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-element-shadowroot①,WHATWG
@@ -4161,6 +4160,7 @@ api/MathMLElement/style,,71,,109,,13.1,,false,true,false,https://drafts.csswg.or
 api/MathMLElement/tabIndex,,71,,109,,13.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-tabindex,WHATWG
 api/MediaCapabilities,,63,,66,,13,,false,true,false,https://w3c.github.io/media-capabilities/#media-capabilities-interface,W3C
 api/MediaCapabilities/decodingInfo,,63,,66,,13,,false,true,false,https://w3c.github.io/media-capabilities/#ref-for-dom-mediacapabilities-decodinginfo,W3C
+api/MediaCapabilities/decodingInfo/configuration_keySystemConfiguration_parameter,,129,,80,,,,false,true,false,https://w3c.github.io/media-capabilities/#dom-mediadecodingconfiguration-keysystemconfiguration,W3C
 api/MediaCapabilities/encodingInfo,,63,,101,,15.4,,false,true,false,https://w3c.github.io/media-capabilities/#ref-for-dom-mediacapabilities-encodinginfo,W3C
 api/MediaController,,,,,,6,,false,false,true,,NONE
 api/MediaController/MediaController,,,,,,6,,false,false,true,,NONE
@@ -6834,11 +6834,6 @@ api/SVGVKernElement,,,,6,,5.1,,false,true,true,https://www.w3.org/TR/SVG11/fonts
 api/SVGViewElement,,15,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/linking.html#InterfaceSVGViewElement,W3C
 api/SVGViewElement/preserveAspectRatio,,15,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio,W3C
 api/SVGViewElement/viewBox,,15,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox,W3C
-api/Sanitizer,,83,"[{""name"":""dom.security.sanitizer.enabled"",""type"":""preference"",""value_to_set"":""true""}]",105,,,,false,true,true,https://wicg.github.io/sanitizer-api/#sanitizer-api,W3CCG
-api/Sanitizer/Sanitizer,,83,"[{""name"":""dom.security.sanitizer.enabled"",""type"":""preference"",""value_to_set"":""true""}]",105,,,,false,true,true,https://wicg.github.io/sanitizer-api/#dom-sanitizer-sanitizer,W3CCG
-api/Sanitizer/getConfiguration,,,,105,,,,false,false,true,,NONE
-api/Sanitizer/getDefaultConfiguration_static,,,,105,,,,false,false,true,,NONE
-api/Sanitizer/sanitize,,83,"[{""name"":""dom.security.sanitizer.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,false,false,true,,NONE
 api/Scheduler,,101,"[{""name"":""dom.enable_web_task_scheduling"",""type"":""preference"",""value_to_set"":""true""}]",94,,,,false,true,false,https://wicg.github.io/scheduling-apis/#scheduler,W3CCG
 api/Scheduler/postTask,,101,"[{""name"":""dom.enable_web_task_scheduling"",""type"":""preference"",""value_to_set"":""true""}]",94,,,,false,true,false,https://wicg.github.io/scheduling-apis/#dom-scheduler-posttask,W3CCG
 api/Scheduling,,,,87,,,,true,true,false,https://wicg.github.io/is-input-pending/#the-scheduling-interface,W3CCG
@@ -9258,8 +9253,8 @@ css/at-rules/media/device-aspect-ratio,,2,,1,,3,,false,true,true,https://drafts.
 css/at-rules/media/device-height,,2,,1,,3,,false,true,true,https://drafts.csswg.org/mediaqueries/#device-height,W3C
 css/at-rules/media/device-posture,,,,,,,,true,true,false,https://w3c.github.io/device-posture/#the-device-posture-media-feature,W3C
 css/at-rules/media/device-width,,2,,1,,3,,false,true,true,https://drafts.csswg.org/mediaqueries/#device-width,W3C
-css/at-rules/media/display-mode,,47,,42,,13,,false,true,false,https://drafts.csswg.org/mediaqueries-5/#display-mode,W3C
-css/at-rules/media/display-mode/picture-in-picture,,,,123,,,,true,true,false,https://drafts.csswg.org/mediaqueries-5/#display-mode-picture-in-picture,W3C
+css/at-rules/media/display-mode,,47,,42,,13,,false,true,false,https://drafts.csswg.org/mediaqueries-5/#display-modes,W3C
+css/at-rules/media/display-mode/picture-in-picture,,,,123,,,,true,true,false,https://drafts.csswg.org/mediaqueries-5/#valdef-media-display-mode-picture-in-picture,W3C
 css/at-rules/media/dynamic-range,,100,,98,,13.1,,false,true,false,https://drafts.csswg.org/mediaqueries-5/#dynamic-range,W3C
 css/at-rules/media/forced-colors,,89,,89,,16,,false,true,false,https://drafts.csswg.org/mediaqueries-5/#forced-colors,W3C
 css/at-rules/media/grid,,2,,1,,3,,false,true,false,https://drafts.csswg.org/mediaqueries/#grid,W3C
@@ -9802,8 +9797,8 @@ css/properties/content/url,,1,,1,,1,,false,true,false,https://drafts.csswg.org/c
 css/properties/content-visibility,,125,,85,,18,,false,true,false,https://drafts.csswg.org/css-contain/#content-visibility,W3C
 css/properties/content-visibility/auto,,125,,85,,18,,false,true,false,https://drafts.csswg.org/css-contain/#valdef-content-visibility-auto,W3C
 css/properties/content-visibility/hidden,,125,,85,,18,,false,true,false,https://drafts.csswg.org/css-contain/#valdef-content-visibility-hidden,W3C
-css/properties/content-visibility/is_transitionable,,,,117,,18,,false,true,false,https://drafts.csswg.org/css-contain-3/#content-visibility-animation,W3C
-css/properties/content-visibility/keyframe_animatable,,,,116,,18,,false,true,false,https://drafts.csswg.org/css-contain-3/#content-visibility-animation,W3C
+css/properties/content-visibility/is_transitionable,,,,117,,18,,false,true,false,https://drafts.csswg.org/css-contain/#content-visibility-animation,W3C
+css/properties/content-visibility/keyframe_animatable,,,,116,,18,,false,true,false,https://drafts.csswg.org/css-contain/#content-visibility-animation,W3C
 css/properties/content-visibility/visible,,125,,85,,18,,false,true,false,https://drafts.csswg.org/css-contain/#valdef-content-visibility-visible,W3C
 css/properties/counter-increment,,1,,2,,3,,false,true,false,https://drafts.csswg.org/css-lists/#increment-set,W3C
 css/properties/counter-increment/list-item,,1,,≤83,,≤13.1,,false,true,false,https://drafts.csswg.org/css-lists-3/#valdef-counter-increment-list-item,W3C
@@ -10043,7 +10038,7 @@ css/properties/font-variant-east-asian/jis04,,34,,63,,9.1,,false,true,false,http
 css/properties/font-variant-east-asian/jis78,,34,,63,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-east-asian-jis78,W3C
 css/properties/font-variant-east-asian/jis83,,34,,63,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-east-asian-jis83,W3C
 css/properties/font-variant-east-asian/jis90,,34,,63,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-east-asian-jis90,W3C
-css/properties/font-variant-east-asian/normal,,34,,63,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-east-asian-normal,W3C
+css/properties/font-variant-east-asian/normal,,34,,63,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-variant-east-asian-normal-value,W3C
 css/properties/font-variant-east-asian/proportional-width,,34,,63,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-east-asian-proportional-width,W3C
 css/properties/font-variant-east-asian/ruby,,34,,63,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-east-asian-ruby,W3C
 css/properties/font-variant-east-asian/simplified,,34,,63,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-east-asian-simplified,W3C
@@ -10063,7 +10058,7 @@ css/properties/font-variant-ligatures/normal,,34,,31,,7,,false,true,false,https:
 css/properties/font-variant-numeric,,34,,52,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-variant-numeric-prop,W3C
 css/properties/font-variant-numeric/diagonal-fractions,,34,,52,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-numeric-diagonal-fractions,W3C
 css/properties/font-variant-numeric/lining-nums,,34,,52,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-numeric-lining-nums,W3C
-css/properties/font-variant-numeric/normal,,34,,52,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-numeric-normal,W3C
+css/properties/font-variant-numeric/normal,,34,,52,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-variant-numeric-normal-value,W3C
 css/properties/font-variant-numeric/oldstyle-nums,,34,,52,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-numeric-oldstyle-nums,W3C
 css/properties/font-variant-numeric/ordinal,,34,,52,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-numeric-ordinal,W3C
 css/properties/font-variant-numeric/proportional-nums,,34,,52,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-numeric-proportional-nums,W3C
@@ -10071,14 +10066,14 @@ css/properties/font-variant-numeric/slashed-zero,,34,,52,,9.1,,false,true,false,
 css/properties/font-variant-numeric/stacked-fractions,,34,,52,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-numeric-stacked-fractions,W3C
 css/properties/font-variant-numeric/tabular-nums,,34,,52,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-numeric-tabular-nums,W3C
 css/properties/font-variant-position,,34,,117,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-variant-position-prop,W3C
-css/properties/font-variant-position/normal,,≤72,,117,,≤13.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-position-normal,W3C
+css/properties/font-variant-position/normal,,≤72,,117,,≤13.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-variant-position-normal-value,W3C
 css/properties/font-variant-position/sub,,≤72,,117,,≤13.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-position-sub,W3C
 css/properties/font-variant-position/super,,≤72,,117,,≤13.1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-variant-position-super,W3C
 css/properties/font-variation-settings,,62,,62,,11,,false,true,false,https://drafts.csswg.org/css-fonts/#font-variation-settings-def,W3C
 css/properties/font-weight,,1,,2,,1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-weight-prop,W3C
 css/properties/font-weight/bold,,1,,2,,1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-weight-bold,W3C
 css/properties/font-weight/bolder,,1,,2,,1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-weight-bolder,W3C
-css/properties/font-weight/lighter,,1,,2,,1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-weight-lgither,W3C
+css/properties/font-weight/lighter,,1,,2,,1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-weight-lighter,W3C
 css/properties/font-weight/normal,,1,,2,,1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-weight-normal,W3C
 css/properties/font-weight/number,,61,,62,,11,,false,true,false,,NONE
 css/properties/forced-color-adjust,,113,,89,,,,false,true,false,https://drafts.csswg.org/css-color-adjust/#forced-color-adjust-prop,W3C
@@ -10117,7 +10112,7 @@ css/properties/grid-template-columns/fit-content,,52,,57,,10.1,,false,true,false
 css/properties/grid-template-columns/masonry,,77,"[{""name"":""layout.css.grid-template-masonry-value.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,preview,,true,true,false,https://drafts.csswg.org/css-grid-3/#masonry-layout,W3C
 css/properties/grid-template-columns/max-content,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-max-content,W3C
 css/properties/grid-template-columns/min-content,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-min-content,W3C
-css/properties/grid-template-columns/minmax,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#valdef-grid-template-columns-minmax,W3C
+css/properties/grid-template-columns/minmax,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#funcdef-grid-template-columns-minmax,W3C
 css/properties/grid-template-columns/none,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid-2/#valdef-grid-template-rows-none,W3C
 css/properties/grid-template-columns/repeat,,76,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#repeat-notation,W3C
 css/properties/grid-template-columns/subgrid,,71,,117,,16,,false,true,false,https://drafts.csswg.org/css-grid/#subgrids,W3C
@@ -10128,7 +10123,7 @@ css/properties/grid-template-rows/fit-content,,52,,57,,10.1,,false,true,false,ht
 css/properties/grid-template-rows/masonry,,77,"[{""name"":""layout.css.grid-template-masonry-value.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,preview,,true,true,false,https://drafts.csswg.org/css-grid-3/#masonry-layout,W3C
 css/properties/grid-template-rows/max-content,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-max-content,W3C
 css/properties/grid-template-rows/min-content,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-min-content,W3C
-css/properties/grid-template-rows/minmax,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#valdef-grid-template-columns-minmax,W3C
+css/properties/grid-template-rows/minmax,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#funcdef-grid-template-columns-minmax,W3C
 css/properties/grid-template-rows/none,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#valdef-grid-template-rows-none,W3C
 css/properties/grid-template-rows/repeat,,76,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#repeat-notation,W3C
 css/properties/grid-template-rows/subgrid,,71,,117,,16,,false,true,false,https://drafts.csswg.org/css-grid/#subgrids,W3C
@@ -10330,7 +10325,7 @@ css/properties/list-style-image,,1,,1,,1,,false,true,false,https://drafts.csswg.
 css/properties/list-style-image/none,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-lists/#valdef-list-style-image-none,W3C
 css/properties/list-style-position,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-lists/#list-style-position-property,W3C
 css/properties/list-style-position/inside,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-lists/#valdef-list-style-position-inside,W3C
-css/properties/list-style-position/outside,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-lists/#valdef-list-style-position-outside,W3C
+css/properties/list-style-position/outside,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-lists/#list-style-position-outside,W3C
 css/properties/list-style-type,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-lists/#text-markers,W3C
 css/properties/list-style-type/afar,,,,91,,5,,false,true,false,,NONE
 css/properties/list-style-type/amharic,,,,91,,5,,false,true,false,,NONE
@@ -10631,7 +10626,7 @@ css/properties/overflow-x/auto,,3.5,,1,,3,,false,true,false,https://drafts.csswg
 css/properties/overflow-x/clip,,81,,90,,16,,false,true,false,https://drafts.csswg.org/css-overflow/#valdef-overflow-auto,W3C
 css/properties/overflow-x/hidden,,3.5,,1,,3,,false,true,false,https://drafts.csswg.org/css-overflow/#valdef-overflow-hidden,W3C
 css/properties/overflow-x/scroll,,3.5,,1,,3,,false,true,false,https://drafts.csswg.org/css-overflow/#valdef-overflow-scroll,W3C
-css/properties/overflow-x/visible,,3.5,,1,,3,,false,true,false,https://drafts.csswg.org/css-overflow/#valdef-overflow-visble,W3C
+css/properties/overflow-x/visible,,3.5,,1,,3,,false,true,false,https://drafts.csswg.org/css-overflow/#valdef-overflow-visible,W3C
 css/properties/overflow-y,,3.5,,1,,3,,false,true,false,https://drafts.csswg.org/css-overflow/#overflow-properties,W3C
 css/properties/overflow-y/auto,,3.5,,1,,3,,false,true,false,https://drafts.csswg.org/css-overflow/#valdef-overflow-auto,W3C
 css/properties/overflow-y/clip,,81,,90,,16,,false,true,false,https://drafts.csswg.org/css-overflow/#valdef-overflow-clip,W3C
@@ -10975,10 +10970,10 @@ css/properties/text-underline-position/left,,74,,71,,,,false,true,false,,NONE
 css/properties/text-underline-position/right,,74,,71,,,,false,true,false,,NONE
 css/properties/text-underline-position/under,,74,,33,,12.1,,false,true,false,,NONE
 css/properties/text-wrap,,121,,114,,17.4,,false,true,false,https://drafts.csswg.org/css-text-4/#text-wrap,W3C
-css/properties/text-wrap/balance,,121,,114,,17.5,,false,true,false,https://drafts.csswg.org/css-text-4/#valdef-text-wrap-balance,W3C
+css/properties/text-wrap/balance,,121,,114,,17.5,,false,true,false,https://drafts.csswg.org/css-text-4/#valdef-text-wrap-style-balance,W3C
 css/properties/text-wrap/nowrap,,124,,114,,17.4,,false,true,false,https://drafts.csswg.org/css-text-4/#valdef-text-wrap-mode-nowrap,W3C
-css/properties/text-wrap/pretty,,,,117,,,,false,true,false,https://drafts.csswg.org/css-text-4/#valdef-text-wrap-pretty,W3C
-css/properties/text-wrap/stable,,121,,,,17.5,,false,true,false,https://drafts.csswg.org/css-text-4/#valdef-text-wrap-stable,W3C
+css/properties/text-wrap/pretty,,,,117,,,,false,true,false,https://drafts.csswg.org/css-text-4/#valdef-text-wrap-style-pretty,W3C
+css/properties/text-wrap/stable,,121,,,,17.5,,false,true,false,https://drafts.csswg.org/css-text-4/#valdef-text-wrap-style-stable,W3C
 css/properties/text-wrap/wrap,,124,,114,,17.4,,false,true,false,https://drafts.csswg.org/css-text-4/#valdef-text-wrap-mode-wrap,W3C
 css/properties/text-wrap-mode,,124,,,,17.4,,false,true,false,https://drafts.csswg.org/css-text-4/#text-wrap-mode,W3C
 css/properties/text-wrap-mode/nowrap,,124,,,,17.4,,false,true,false,,NONE
@@ -11411,8 +11406,8 @@ css/types/color/rgb/space_separated_parameters,,52,,65,,12.1,,false,true,false,,
 css/types/color/rgb_hexadecimal_notation,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-color/#hex-notation,W3C
 css/types/color/rgb_hexadecimal_notation/alpha_hexadecimal_notation,,49,,62,,10,,false,true,false,,NONE
 css/types/color/system-color,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-color/#css-system-colors,W3C
-css/types/color/system-color/accentcolor_accentcolortext,,103,,115,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""true""}]",16.5,,false,true,false,https://drafts.csswg.org/css-color/#valdef-system-color-accentcolor,W3C
-css/types/color/system-color/mark_marktext_buttonborder,,109,,,,,,true,true,false,https://drafts.csswg.org/css-color/#valdef-system-color-mark,W3C
+css/types/color/system-color/accentcolor_accentcolortext,,103,,115,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""true""}]",16.5,,false,true,false,https://drafts.csswg.org/css-color/#valdef-color-accentcolor,W3C
+css/types/color/system-color/mark_marktext_buttonborder,,109,,,,,,true,true,false,https://drafts.csswg.org/css-color/#valdef-color-mark,W3C
 css/types/color/transparent,,3,,1,,3.1,,false,true,false,https://drafts.csswg.org/css-color/#transparent-color,W3C
 css/types/cos,,108,,111,,15.4,,false,true,false,https://drafts.csswg.org/css-values/#trig-funcs,W3C
 css/types/counter,,1,,1,,3,,false,true,false,https://drafts.csswg.org/css-lists/#counter-functions,W3C
@@ -12540,7 +12535,7 @@ http/headers/Set-Cookie/SameSite/secure_context_required,,69,"[{""name"":""netwo
 http/headers/Set-Cookie/cookie_prefixes,,50,,49,,13,,false,true,false,,NONE
 http/headers/Set-Login,,,,120,,,,true,true,false,https://fedidcg.github.io/FedCM/#login-status-http,UNKNOWN
 http/headers/Snapshot-Content-Location,,,,63,,,,false,false,false,,NONE
-http/headers/SourceMap,,55,,18,,7,,false,true,false,https://tc39.es/source-map-spec/#linking-generated-code,TC39
+http/headers/SourceMap,,55,,18,,7,,false,true,false,https://tc39.es/source-map/#linking-generated-code,TC39
 http/headers/Speculation-Rules,,,,121,,,,true,true,false,https://wicg.github.io/nav-speculation/speculation-rules.html#speculation-rules-header,W3CCG
 http/headers/Strict-Transport-Security,,4,,4,,7,,false,true,false,https://www.rfc-editor.org/rfc/rfc6797#section-6.1,UNKNOWN
 http/headers/Supports-Loading-Mode,,,,109,,,,true,true,false,https://wicg.github.io/nav-speculation/prerendering.html#supports-loading-mode,W3CCG
