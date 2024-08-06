@@ -1,12 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2448336571,false,Consume user activation when creating a new top-level traversable,https://github.com/whatwg/html/pull/10547,2024-08-05T11:39:11Z,2024-08-05T11:43:38Z,CanadaHonk,,0
+2448702538,false,Complete draft spec for customizable `<select>`,https://github.com/whatwg/html/pull/10548,2024-08-05T14:28:06Z,2024-08-05T18:01:06Z,josepharhar,,0
+2448336571,false,Consume user activation when creating a new top-level traversable,https://github.com/whatwg/html/pull/10547,2024-08-05T11:39:11Z,2024-08-05T13:41:13Z,CanadaHonk,,0
 2446405917,true,Update 404.html,https://github.com/whatwg/html/pull/10544,2024-08-03T15:21:29Z,2024-08-03T21:50:23Z,PrantikLamichhane,invalid,0
 2445484125,false,"Editorial: Update uses of WebIDL ""invoke a callback function""",https://github.com/whatwg/html/pull/10543,2024-08-02T17:48:42Z,2024-08-05T06:00:10Z,jeremyroman,integration,0
 2444165903,false,Fix example that rejects promises from in parallel,https://github.com/whatwg/html/pull/10541,2024-08-02T06:25:21Z,2024-08-02T06:26:48Z,domenic,,0
-2443787607,false,Reconstruct active formatting elements for PLAINTEXT element.,https://github.com/whatwg/html/pull/10540,2024-08-02T01:31:30Z,2024-08-02T08:06:29Z,dmsnell,needs implementer interest|topic: parser,0
+2443787607,false,Clarify how PLAINTEXT elements may contain child nodes.,https://github.com/whatwg/html/pull/10540,2024-08-02T01:31:30Z,2024-08-05T22:34:35Z,dmsnell,needs implementer interest|topic: parser,0
 2437596520,true,Fix Jake diagram conformance issues,https://github.com/whatwg/html/pull/10530,2024-07-30T11:24:16Z,2024-07-31T07:41:01Z,yoavweiss,,0
 2437215499,true,Editorial: fix cross-reference for exception reporting global,https://github.com/whatwg/html/pull/10529,2024-07-30T08:20:00Z,2024-08-02T05:20:57Z,Ms2ger,,0
-2437162429,false,Dynamic import maps,https://github.com/whatwg/html/pull/10528,2024-07-30T07:54:57Z,2024-08-05T08:47:31Z,yoavweiss,,0
+2437162429,false,Dynamic import maps,https://github.com/whatwg/html/pull/10528,2024-07-30T07:54:57Z,2024-08-05T15:44:53Z,yoavweiss,,0
 2434585445,false,Further fixes to keydown vs. keyup for close requests,https://github.com/whatwg/html/pull/10524,2024-07-29T06:42:25Z,2024-07-30T02:58:34Z,domenic,topic: close watchers,1
 2431085399,false,Add support for internationalized email addresses,https://github.com/whatwg/html/pull/10522,2024-07-25T22:42:22Z,2024-07-25T23:06:18Z,aphillips,,0
 2424062926,false,Fix bug in timer initialisation steps involving reusing cleared IDs,https://github.com/whatwg/html/pull/10505,2024-07-23T01:41:24Z,2024-07-30T09:39:18Z,majaha,,0
@@ -47,7 +48,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2334993245,true,Don't set hashChange to true for classic history API navigate events,https://github.com/whatwg/html/pull/10393,2024-06-05T06:13:48Z,2024-06-20T07:04:40Z,domenic,,0
 2333893692,false,"Editorial: For `CONTRIBUTING.md`, add explicit references to patterns we've evolved over time",https://github.com/whatwg/html/pull/10392,2024-06-04T16:05:05Z,2024-06-24T07:24:19Z,domfarolino,,1
 2329069209,true,Match order of arguments when calling 'getting the descendant script fetch options',https://github.com/whatwg/html/pull/10385,2024-06-01T10:41:13Z,2024-06-03T04:44:32Z,jamierocks,topic: script,0
-2326224026,false,Latest WebAssembly ESM Integration rebase,https://github.com/whatwg/html/pull/10380,2024-05-30T17:37:52Z,2024-07-25T18:36:01Z,guybedford,,0
+2326224026,false,Latest WebAssembly ESM Integration rebase,https://github.com/whatwg/html/pull/10380,2024-05-30T17:37:52Z,2024-08-05T21:50:04Z,guybedford,,0
 2323722981,true,Navigation: Pass a global object to consume history-action activation AO,https://github.com/whatwg/html/pull/10375,2024-05-29T16:21:03Z,2024-05-30T02:10:19Z,ADKaster,topic: navigation,0
 2322971728,true,Add an `omit` value to Cross-Origin-Opener-Policy,https://github.com/whatwg/html/pull/10374,2024-05-29T10:32:55Z,2024-06-05T07:31:31Z,yoavweiss,,0
 2317911685,true,Editorial: fix more typos,https://github.com/whatwg/html/pull/10369,2024-05-26T20:01:59Z,2024-05-27T13:53:57Z,jmdyck,,0
@@ -252,7 +253,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
 1933058172,true,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2024-04-04T11:37:04Z,jrandolf,do not merge yet|integration,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
-1932098948,false,Add invoker commands (commandfor & command),https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-07-25T21:45:30Z,keithamus,,1
+1932098948,false,Add invoker commands (commandfor & command),https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2024-08-05T22:59:58Z,keithamus,,1
 1931367969,true,Editorial: remove some copypasta around CORS settings attribute,https://github.com/whatwg/html/pull/9840,2023-10-07T14:14:19Z,2023-10-08T14:25:55Z,annevk,,0
 1930976617,true,"Fix typo in ""History-action activation-consuming APIs""",https://github.com/whatwg/html/pull/9839,2023-10-06T21:55:17Z,2023-10-10T04:56:14Z,CanadaHonk,,0
 1930460108,true,Perform a microtask checkpoint only after a task,https://github.com/whatwg/html/pull/9838,2023-10-06T15:38:05Z,2023-10-10T05:26:36Z,annevk,topic: event loop,1
@@ -286,7 +287,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1911295610,true,Editorial: clarify adoption agency step 13.3,https://github.com/whatwg/html/pull/9785,2023-09-25T11:40:32Z,2023-09-26T06:55:28Z,not-my-profile,,0
 1909692719,true,"Editorial: make note about ""in body"" insertion mode account for edge case",https://github.com/whatwg/html/pull/9780,2023-09-23T03:33:03Z,2023-09-26T11:05:32Z,not-my-profile,topic: parser,0
 1909681938,true,Meta: make Wattsi Syntax link more prominent in CONTRIBUTING.md,https://github.com/whatwg/html/pull/9779,2023-09-23T02:46:33Z,2023-09-25T07:35:18Z,not-my-profile,,0
-1909677474,false,Add popover=hint,https://github.com/whatwg/html/pull/9778,2023-09-23T02:27:22Z,2024-07-25T16:12:24Z,josepharhar,topic: popover,2
+1909677474,false,Add popover=hint,https://github.com/whatwg/html/pull/9778,2023-09-23T02:27:22Z,2024-08-05T21:43:29Z,josepharhar,topic: popover,2
 1909479750,false,Queue toggle events and dialog close with microtasks,https://github.com/whatwg/html/pull/9775,2023-09-22T20:24:57Z,2023-11-14T08:05:49Z,josepharhar,,0
 1908359160,true,Un-break build by making review-drafts/2023-07.wattsi use non-void <ref></ref>,https://github.com/whatwg/html/pull/9772,2023-09-22T07:38:51Z,2023-09-22T08:38:40Z,sideshowbarker,,0
 1907618502,false,Add TextTrackCue ctor & cue + cuebackground attributes,https://github.com/whatwg/html/pull/9771,2023-09-21T19:22:21Z,2023-11-19T23:57:57Z,marcoscaceres,addition/proposal|topic: media,1
