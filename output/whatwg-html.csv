@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2450464848,false,"Document ""can have its URL rewritten"" incorrectly rejects file:// URL with only query changed",https://github.com/whatwg/html/issues/10551,2024-08-06T09:57:59Z,2024-08-06T11:48:21Z,awesomekling,,0
 2448889828,false,inconsistent input label `:active` and `:hover` behavior,https://github.com/whatwg/html/issues/10549,2024-08-05T15:46:27Z,2024-08-05T15:46:27Z,valler,,0
 2447483380,true,Script element schematic diagram for async/defer is not readable in dark mode,https://github.com/whatwg/html/issues/10546,2024-08-05T02:50:27Z,2024-08-05T18:51:42Z,jverkoey,,0
 2447089916,true,Chinese Translation of HTML Standard Completed,https://github.com/whatwg/html/issues/10545,2024-08-04T11:21:53Z,2024-08-05T07:46:43Z,JinDX,,0
@@ -22,7 +23,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2429939244,false,Discussing new ways of tackling User-Agent discrimination,https://github.com/whatwg/html/issues/10518,2024-07-25T13:15:13Z,2024-07-31T13:23:08Z,BenjaminAster,addition/proposal|needs implementer interest,10
 2429293395,false,Specify error event filename/lineno/colno,https://github.com/whatwg/html/issues/10517,2024-07-25T07:56:01Z,2024-07-25T08:07:44Z,domenic,interop|topic: error reporting,0
 2429263337,false,"Update all call sites of the old ""report the exception"" ",https://github.com/whatwg/html/issues/10516,2024-07-25T07:40:01Z,2024-07-25T07:40:01Z,domenic,integration|topic: error reporting,0
-2429211442,false,Editorial improvements to unhandled promise rejections,https://github.com/whatwg/html/issues/10515,2024-07-25T07:13:35Z,2024-07-25T07:13:35Z,domenic,clarification|topic: error reporting,0
+2429211442,false,Editorial improvements to unhandled promise rejections,https://github.com/whatwg/html/issues/10515,2024-07-25T07:13:35Z,2024-08-06T08:50:21Z,domenic,clarification|topic: error reporting,0
 2429124307,false,Exception reporting muting is not interoperable,https://github.com/whatwg/html/issues/10514,2024-07-25T06:24:13Z,2024-07-25T07:44:14Z,domenic,interop|topic: error reporting,0
 2428415711,false,Consider adding `view-transition` as a token for `blocking`,https://github.com/whatwg/html/issues/10513,2024-07-24T20:27:55Z,2024-07-31T14:51:33Z,noamr,addition/proposal|needs implementer interest,2
 2427187420,true,Navigation API: a way to share custom info across a cross-document navigation,https://github.com/whatwg/html/issues/10509,2024-07-24T10:25:59Z,2024-07-25T01:04:32Z,noamr,addition/proposal|needs implementer interest,0
@@ -438,7 +439,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1898282732,false,Make the currentTime setter clamp to duration,https://github.com/whatwg/html/issues/9742,2023-09-15T12:01:03Z,2023-10-01T13:56:23Z,foolip,topic: media|interop,0
 1897463521,false,<link rel=preconnect> doesn't support the media attribute,https://github.com/whatwg/html/issues/9737,2023-09-14T23:06:06Z,2023-10-01T13:57:11Z,zcorpan,topic: link|topic: resource hints (inc. preload),0
 1896732258,false,Add mechanism for a button-like element to behave like an `<area>`,https://github.com/whatwg/html/issues/9736,2023-09-14T14:44:51Z,2023-10-01T13:58:14Z,lukewarlow,addition/proposal|needs implementer interest,1
-1896195861,false,Add `ToggleEvent`s to `<dialog>.showModal()`,https://github.com/whatwg/html/issues/9733,2023-09-14T09:54:56Z,2024-07-12T13:53:39Z,keithamus,addition/proposal|topic: events|topic: dialog,4
+1896195861,false,Add `ToggleEvent`s to `<dialog>.showModal()`,https://github.com/whatwg/html/issues/9733,2023-09-14T09:54:56Z,2024-08-06T08:19:13Z,keithamus,addition/proposal|topic: events|topic: dialog,5
 1895159373,true,StructuredClone of prototype objects,https://github.com/whatwg/html/issues/9730,2023-09-13T19:47:08Z,2023-09-14T07:24:25Z,ADKaster,,0
 1894241096,false,"[Cookie Layering] Add a ""has cross-site ancestor"" bit to pass on to Fetch",https://github.com/whatwg/html/issues/9729,2023-09-13T10:33:38Z,2023-10-01T13:59:39Z,johannhof,addition/proposal|topic: fetch|needs concrete proposal,0
 1894172116,true,Use HTML's URL-parser wrapper in EventSource,https://github.com/whatwg/html/issues/9728,2023-09-13T09:54:35Z,2023-09-19T15:12:04Z,domenic,clarification|topic: eventsource,0
@@ -1175,7 +1176,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1177177506,true,Question: Expected behavior for Object.keys with storage objects,https://github.com/whatwg/html/issues/7741,2022-03-22T18:50:05Z,2022-03-22T18:55:43Z,jasonnutter,,0
 1176559847,true,HTML syntax: omitting <body> should not be allowed if first child is <noscript>,https://github.com/whatwg/html/issues/7737,2022-03-22T10:14:53Z,2022-09-15T17:15:31Z,zcorpan,good first issue|document conformance,0
 1176210826,true,Should a preload with SRI and a main request without SRI be matched?,https://github.com/whatwg/html/issues/7736,2022-03-22T03:17:51Z,2022-05-19T00:42:57Z,hiroshige-g,security/privacy|topic: fetch|topic: resource hints (inc. preload),0
-1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-07-18T19:41:05Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,70
+1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2024-07-18T19:41:05Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,71
 1175078464,false,"Modern browsers don't implement ""4.10.21.2 Implicit submission"" correctly",https://github.com/whatwg/html/issues/7730,2022-03-21T08:59:00Z,2022-03-21T12:40:28Z,IliasDewachter,topic: forms,0
 1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2022-03-23T21:36:38Z,domenic,topic: navigation|interop,1
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
@@ -3173,7 +3174,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 291547569,true,How should document.body setter behave when root is not an `<html>`?,https://github.com/whatwg/html/issues/3403,2018-01-25T12:06:56Z,2018-02-12T16:20:10Z,bzbarsky,interop,0
 291429949,true,"custom-elements: A step to add ""is"" content attribute in ""new""",https://github.com/whatwg/html/issues/3402,2018-01-25T02:31:28Z,2018-02-22T16:52:34Z,tkent-google,topic: custom elements,0
 291411857,false,"Please add default=""default"" to specification of submit buttons in forms",https://github.com/whatwg/html/issues/3401,2018-01-25T00:43:20Z,2021-11-06T02:23:34Z,Nadya678,addition/proposal|needs implementer interest|topic: forms,0
-291410137,false,"Allow <input type=""color""> to give an alpha channel and/or colors beyond sRGB?",https://github.com/whatwg/html/issues/3400,2018-01-25T00:32:53Z,2024-07-16T19:43:30Z,domenic,addition/proposal|needs implementer interest|topic: forms,43
+291410137,false,"Allow <input type=""color""> to give an alpha channel and/or colors beyond sRGB?",https://github.com/whatwg/html/issues/3400,2018-01-25T00:32:53Z,2024-07-16T19:43:30Z,domenic,addition/proposal|needs implementer interest|topic: forms,44
 291244767,true,Combine createImageBitmap() / createPattern() / drawImage() checks,https://github.com/whatwg/html/issues/3399,2018-01-24T15:14:36Z,2018-01-29T08:41:16Z,annevk,clarification|topic: canvas,0
 291182587,false,value of input elements with type Submit are not marked as translatable,https://github.com/whatwg/html/issues/3396,2018-01-24T11:58:21Z,2018-01-24T12:57:49Z,samhed,clarification|topic: forms,0
 291171366,false,Unified dictionary for getContext(),https://github.com/whatwg/html/issues/3395,2018-01-24T11:16:43Z,2018-01-26T10:04:02Z,annevk,normative change|topic: canvas,0
