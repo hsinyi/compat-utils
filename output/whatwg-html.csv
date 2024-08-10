@@ -13,11 +13,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2440413757,false,Discussing how to focus navigate display: contents elements that are focusable in CSS reading-flow,https://github.com/whatwg/html/issues/10533,2024-07-31T16:08:06Z,2024-08-01T20:33:23Z,dizhang168,addition/proposal|topic: focus|agenda+,0
 2439394011,false,Silence Jake diagram conformance warnings on CI,https://github.com/whatwg/html/issues/10532,2024-07-31T07:58:59Z,2024-07-31T07:58:59Z,domenic,,0
 2438692937,false,"image.decode() interacts weirdly with the sync cases in ""update the image data""",https://github.com/whatwg/html/issues/10531,2024-07-30T21:15:03Z,2024-08-07T23:52:23Z,emilio,topic: img,0
-2436813728,false,Errors when attaching a declarative shadow root,https://github.com/whatwg/html/issues/10527,2024-07-30T03:40:01Z,2024-08-09T05:10:07Z,jeremyroman,topic: shadow|agenda+|topic: error reporting,0
+2436813728,false,Errors when attaching a declarative shadow root,https://github.com/whatwg/html/issues/10527,2024-07-30T03:40:01Z,2024-08-09T17:14:15Z,jeremyroman,topic: shadow|agenda+|topic: error reporting,0
 2436794190,false,Error reporting in HostEnqueuePromiseJob is not specified nor interoperable,https://github.com/whatwg/html/issues/10526,2024-07-30T03:15:40Z,2024-07-30T04:13:36Z,jeremyroman,topic: shadow|interop|topic: error reporting,0
 2435979361,false,"[parsing] ""adoption agency algorithm"" ambiguity",https://github.com/whatwg/html/issues/10525,2024-07-29T17:36:32Z,2024-07-29T17:37:18Z,rshadr,,0
 2432148321,false,"""On platforms where Esc is the close request, the user agent will first fire an appropriately-initialized keydown and keyup event sequence"" is confusing",https://github.com/whatwg/html/issues/10523,2024-07-26T12:35:10Z,2024-07-29T06:42:41Z,smaug----,topic: close watchers,1
-2430671307,false,[rendering] animation frame callback handling when iframes are involved,https://github.com/whatwg/html/issues/10521,2024-07-25T17:58:37Z,2024-08-07T22:47:44Z,emilio,topic: rendering|agenda+,0
+2430671307,false,[rendering] animation frame callback handling when iframes are involved,https://github.com/whatwg/html/issues/10521,2024-07-25T17:58:37Z,2024-08-09T15:04:48Z,emilio,topic: rendering|agenda+,0
 2430667894,false,Timing of cloning for the `<selectedoption>` element,https://github.com/whatwg/html/issues/10520,2024-07-25T17:56:27Z,2024-08-05T18:45:21Z,josepharhar,,0
 2430315277,false,Proposal: Element 'sensitive' attribute,https://github.com/whatwg/html/issues/10519,2024-07-25T15:29:50Z,2024-07-25T15:30:08Z,vmpstr,,4
 2429939244,false,Discussing new ways of tackling User-Agent discrimination,https://github.com/whatwg/html/issues/10518,2024-07-25T13:15:13Z,2024-07-31T13:23:08Z,BenjaminAster,addition/proposal|needs implementer interest,10
@@ -28,7 +28,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2428415711,false,Consider adding `view-transition` as a token for `blocking`,https://github.com/whatwg/html/issues/10513,2024-07-24T20:27:55Z,2024-07-31T14:51:33Z,noamr,addition/proposal|needs implementer interest,2
 2427187420,true,Navigation API: a way to share custom info across a cross-document navigation,https://github.com/whatwg/html/issues/10509,2024-07-24T10:25:59Z,2024-07-25T01:04:32Z,noamr,addition/proposal|needs implementer interest,0
 2427016162,false,Definition of all event handler attributes,https://github.com/whatwg/html/issues/10508,2024-07-24T09:13:40Z,2024-07-27T07:01:01Z,lukewarlow,,0
-2425263484,false,Pseudo elements for <video> content and controls,https://github.com/whatwg/html/issues/10507,2024-07-23T13:44:51Z,2024-07-24T08:45:02Z,jakearchibald,addition/proposal|needs implementer interest,8
+2425263484,false,Pseudo elements for <video> content and controls,https://github.com/whatwg/html/issues/10507,2024-07-23T13:44:51Z,2024-07-24T08:45:02Z,jakearchibald,addition/proposal|needs implementer interest,9
 2424258842,true,[Clipboard] [Editing] Copying selected html does not contain the latest value for input/textarea?,https://github.com/whatwg/html/issues/10506,2024-07-23T04:58:44Z,2024-07-24T04:45:55Z,roraja,,0
 2422751311,false,How to convert negative number to a time string in stepDown?,https://github.com/whatwg/html/issues/10503,2024-07-22T12:27:14Z,2024-08-05T04:35:59Z,vinhill,,0
 2421629576,true,Reduce network traffic by specifying a checksum attribute,https://github.com/whatwg/html/issues/10502,2024-07-21T22:38:04Z,2024-07-22T03:32:29Z,graph,addition/proposal|needs implementer interest,0
@@ -929,7 +929,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2024-07-01T14:51:47Z,ian97531,addition/proposal|needs implementer interest|topic: workers,12
 1399126032,false,How do shadow roots and slots interact with the content model?,https://github.com/whatwg/html/issues/8361,2022-10-06T08:47:59Z,2022-10-07T10:52:20Z,castholm,,0
 1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,85
-1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2022-10-06T15:43:39Z,annevk,addition/proposal|topic: script,1
+1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2022-10-06T15:43:39Z,annevk,addition/proposal|topic: script,2
 1396727910,false,"Which type of replaced elements should a ""`<img>` with empty src or without src"" be treated",https://github.com/whatwg/html/issues/8354,2022-10-04T19:11:52Z,2022-10-14T18:58:36Z,cathiechen,topic: rendering|topic: img,0
 1396199556,true,Consistify spelling of realm,https://github.com/whatwg/html/issues/8353,2022-10-04T12:32:09Z,2022-10-06T07:14:58Z,annevk,clarification,0
 1393739571,true,"Typo in section ""4.8.13 The area element""",https://github.com/whatwg/html/issues/8346,2022-10-02T11:55:31Z,2022-10-06T07:32:09Z,chalkygames123,good first issue,0
