@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2459304355,false,HTMLConstructor construction steps: Incorrect exception specified in step 11.,https://github.com/whatwg/html/issues/10553,2024-08-10T21:59:33Z,2024-08-10T21:59:33Z,pwombwell,,0
+2459304355,false,HTMLConstructor construction steps: Incorrect exception specified in step 11.,https://github.com/whatwg/html/issues/10553,2024-08-10T21:59:33Z,2024-08-12T07:30:06Z,pwombwell,topic: custom elements,0
 2450464848,false,"Document ""can have its URL rewritten"" incorrectly rejects file:// URL with only query changed",https://github.com/whatwg/html/issues/10551,2024-08-06T09:57:59Z,2024-08-06T11:48:21Z,awesomekling,,0
 2448889828,false,inconsistent input label `:active` and `:hover` behavior,https://github.com/whatwg/html/issues/10549,2024-08-05T15:46:27Z,2024-08-09T06:51:11Z,valler,,0
 2447483380,true,Script element schematic diagram for async/defer is not readable in dark mode,https://github.com/whatwg/html/issues/10546,2024-08-05T02:50:27Z,2024-08-05T18:51:42Z,jverkoey,,0
@@ -14,7 +14,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2440413757,false,Discussing how to focus navigate display: contents elements that are focusable in CSS reading-flow,https://github.com/whatwg/html/issues/10533,2024-07-31T16:08:06Z,2024-08-01T20:33:23Z,dizhang168,addition/proposal|topic: focus|agenda+,0
 2439394011,false,Silence Jake diagram conformance warnings on CI,https://github.com/whatwg/html/issues/10532,2024-07-31T07:58:59Z,2024-07-31T07:58:59Z,domenic,,0
 2438692937,false,"image.decode() interacts weirdly with the sync cases in ""update the image data""",https://github.com/whatwg/html/issues/10531,2024-07-30T21:15:03Z,2024-08-07T23:52:23Z,emilio,topic: img,0
-2436813728,false,Errors when attaching a declarative shadow root,https://github.com/whatwg/html/issues/10527,2024-07-30T03:40:01Z,2024-08-09T17:14:15Z,jeremyroman,topic: shadow|agenda+|topic: error reporting,0
+2436813728,false,Errors when attaching a declarative shadow root,https://github.com/whatwg/html/issues/10527,2024-07-30T03:40:01Z,2024-08-12T11:40:55Z,jeremyroman,topic: shadow|topic: parser|agenda+|topic: error reporting,0
 2436794190,false,Error reporting in HostEnqueuePromiseJob is not specified nor interoperable,https://github.com/whatwg/html/issues/10526,2024-07-30T03:15:40Z,2024-07-30T04:13:36Z,jeremyroman,topic: shadow|interop|topic: error reporting,0
 2435979361,false,"[parsing] ""adoption agency algorithm"" ambiguity",https://github.com/whatwg/html/issues/10525,2024-07-29T17:36:32Z,2024-07-29T17:37:18Z,rshadr,,0
 2432148321,false,"""On platforms where Esc is the close request, the user agent will first fire an appropriately-initialized keydown and keyup event sequence"" is confusing",https://github.com/whatwg/html/issues/10523,2024-07-26T12:35:10Z,2024-07-29T06:42:41Z,smaug----,topic: close watchers,1
@@ -29,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2428415711,false,Consider adding `view-transition` as a token for `blocking`,https://github.com/whatwg/html/issues/10513,2024-07-24T20:27:55Z,2024-07-31T14:51:33Z,noamr,addition/proposal|needs implementer interest,2
 2427187420,true,Navigation API: a way to share custom info across a cross-document navigation,https://github.com/whatwg/html/issues/10509,2024-07-24T10:25:59Z,2024-07-25T01:04:32Z,noamr,addition/proposal|needs implementer interest,0
 2427016162,false,Definition of all event handler attributes,https://github.com/whatwg/html/issues/10508,2024-07-24T09:13:40Z,2024-07-27T07:01:01Z,lukewarlow,,0
-2425263484,false,Pseudo elements for <video> content and controls,https://github.com/whatwg/html/issues/10507,2024-07-23T13:44:51Z,2024-07-24T08:45:02Z,jakearchibald,addition/proposal|needs implementer interest,9
+2425263484,false,Pseudo elements for <video> content and controls,https://github.com/whatwg/html/issues/10507,2024-07-23T13:44:51Z,2024-08-12T06:24:14Z,jakearchibald,addition/proposal|needs implementer interest|topic: media,9
 2424258842,true,[Clipboard] [Editing] Copying selected html does not contain the latest value for input/textarea?,https://github.com/whatwg/html/issues/10506,2024-07-23T04:58:44Z,2024-07-24T04:45:55Z,roraja,,0
 2422751311,false,How to convert negative number to a time string in stepDown?,https://github.com/whatwg/html/issues/10503,2024-07-22T12:27:14Z,2024-08-05T04:35:59Z,vinhill,,0
 2421629576,true,Reduce network traffic by specifying a checksum attribute,https://github.com/whatwg/html/issues/10502,2024-07-21T22:38:04Z,2024-07-22T03:32:29Z,graph,addition/proposal|needs implementer interest,0
@@ -639,7 +639,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1666214684,false,Popover: spec for dealing with element removal is incorrect,https://github.com/whatwg/html/issues/9161,2023-04-13T11:13:30Z,2023-06-26T18:45:44Z,jakearchibald,topic: popover,0
 1666173855,true,Popover parent/child relationship doesn't seem correct,https://github.com/whatwg/html/issues/9160,2023-04-13T10:45:41Z,2023-05-08T16:13:14Z,jakearchibald,topic: popover,0
 1666044457,false,Exporting definitions linked to by 3+ specs,https://github.com/whatwg/html/issues/9159,2023-04-13T09:19:24Z,2023-04-13T12:25:33Z,dontcallmedom,,0
-1666005013,false,Consider a different process for standardizing registerProtocolHandler schemes,https://github.com/whatwg/html/issues/9158,2023-04-13T08:55:08Z,2024-07-11T07:35:46Z,zcorpan,meta|topic: custom protocols,3
+1666005013,false,Consider a different process for standardizing registerProtocolHandler schemes,https://github.com/whatwg/html/issues/9158,2023-04-13T08:55:08Z,2024-08-12T09:32:07Z,zcorpan,meta|topic: custom protocols,3
 1665007054,false,Add payto to registerProtocolHandler safe listed schemes,https://github.com/whatwg/html/issues/9154,2023-04-12T18:01:28Z,2023-10-30T15:34:31Z,rastislavcore,topic: custom protocols,0
 1664864169,true,Popover invoker example shouldn't have `aria-haspopup`,https://github.com/whatwg/html/issues/9153,2023-04-12T16:18:18Z,2023-05-09T15:23:43Z,mfreed7,accessibility|a11y-tracker|topic: popover,0
 1664663316,true,popover focus state weirdness,https://github.com/whatwg/html/issues/9152,2023-04-12T14:17:31Z,2023-04-24T13:54:05Z,jakearchibald,topic: popover,0
