@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2464881277,false,"Fix ""can have its URL rewritten"" buggy fallthrough",https://github.com/whatwg/html/pull/10558,2024-08-14T04:35:32Z,2024-08-14T11:36:07Z,domenic,topic: navigation,1
+2467498874,false,"Add ""same origin with its ancestors""",https://github.com/whatwg/html/pull/10559,2024-08-15T06:30:36Z,2024-08-15T08:19:08Z,domenic,topic: origin|integration,0
+2464881277,true,"Fix ""can have its URL rewritten"" buggy fallthrough",https://github.com/whatwg/html/pull/10558,2024-08-14T04:35:32Z,2024-08-15T01:08:30Z,domenic,topic: navigation,1
 2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2024-08-14T11:39:55Z,josepharhar,normative change|topic: parser,0
 2458340131,true,Remove exception reporting from declarative shadow dom,https://github.com/whatwg/html/pull/10552,2024-08-09T17:13:23Z,2024-08-14T15:44:52Z,mfreed7,normative change|topic: shadow|topic: parser,0
 2450354011,true,Editorial: modernize promise rejection tracking,https://github.com/whatwg/html/pull/10550,2024-08-06T09:07:03Z,2024-08-07T01:10:54Z,domenic,topic: error reporting,0
@@ -7,14 +8,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2448336571,false,Consume user activation when creating a new top-level traversable,https://github.com/whatwg/html/pull/10547,2024-08-05T11:39:11Z,2024-08-06T03:04:58Z,CanadaHonk,,0
 2446405917,true,Update 404.html,https://github.com/whatwg/html/pull/10544,2024-08-03T15:21:29Z,2024-08-03T21:50:23Z,PrantikLamichhane,invalid,0
 2445484125,true,"Editorial: Update uses of WebIDL ""invoke a callback function""",https://github.com/whatwg/html/pull/10543,2024-08-02T17:48:42Z,2024-08-07T00:59:53Z,jeremyroman,integration,0
-2444165903,false,Fix example that rejects promises from in parallel,https://github.com/whatwg/html/pull/10541,2024-08-02T06:25:21Z,2024-08-14T11:12:33Z,domenic,,0
+2444165903,true,Fix example that rejects promises from in parallel,https://github.com/whatwg/html/pull/10541,2024-08-02T06:25:21Z,2024-08-15T01:06:23Z,domenic,,0
 2443787607,true,Clarify how PLAINTEXT elements may contain child nodes.,https://github.com/whatwg/html/pull/10540,2024-08-02T01:31:30Z,2024-08-14T17:47:43Z,dmsnell,needs implementer interest|topic: parser,0
 2437596520,true,Fix Jake diagram conformance issues,https://github.com/whatwg/html/pull/10530,2024-07-30T11:24:16Z,2024-07-31T07:41:01Z,yoavweiss,,0
 2437215499,true,Editorial: fix cross-reference for exception reporting global,https://github.com/whatwg/html/pull/10529,2024-07-30T08:20:00Z,2024-08-02T05:20:57Z,Ms2ger,,0
 2437162429,false,Dynamic import maps,https://github.com/whatwg/html/pull/10528,2024-07-30T07:54:57Z,2024-08-11T00:14:32Z,yoavweiss,,2
-2434585445,false,Further fixes to keydown vs. keyup for close requests,https://github.com/whatwg/html/pull/10524,2024-07-29T06:42:25Z,2024-08-14T16:17:43Z,domenic,topic: close watchers,1
-2431085399,false,Add support for internationalized email addresses,https://github.com/whatwg/html/pull/10522,2024-07-25T22:42:22Z,2024-07-25T23:06:18Z,aphillips,,0
-2424062926,false,Fix bug in timer initialisation steps involving reusing cleared IDs,https://github.com/whatwg/html/pull/10505,2024-07-23T01:41:24Z,2024-08-15T00:04:02Z,majaha,,0
+2434585445,true,Further fixes to keydown vs. keyup for close requests,https://github.com/whatwg/html/pull/10524,2024-07-29T06:42:25Z,2024-08-15T01:18:42Z,domenic,topic: close watchers,1
+2431085399,false,Add support for internationalized email addresses,https://github.com/whatwg/html/pull/10522,2024-07-25T22:42:22Z,2024-08-15T11:33:58Z,aphillips,i18n-tracker,0
+2424062926,true,Fix bug in timer initialisation steps involving reusing cleared IDs,https://github.com/whatwg/html/pull/10505,2024-07-23T01:41:24Z,2024-08-15T06:32:56Z,majaha,,0
 2417501694,false,WIP: Upstream XMLSerializer from DOM Parsing and Serialization spec,https://github.com/whatwg/html/pull/10498,2024-07-18T22:12:06Z,2024-07-19T23:54:16Z,lukewarlow,,1
 2417453524,true,Update fragment serializing algorithm steps node argument to accept Documents,https://github.com/whatwg/html/pull/10497,2024-07-18T21:30:53Z,2024-07-19T06:42:54Z,lukewarlow,,0
 2414883032,true,Fix usages of 'map' that should be 'ordered map'.,https://github.com/whatwg/html/pull/10494,2024-07-18T00:11:57Z,2024-07-18T04:02:40Z,twifkak,,0
@@ -24,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2410484493,true,Editorial: clarify same origin-domain,https://github.com/whatwg/html/pull/10487,2024-07-16T07:59:52Z,2024-07-16T09:04:54Z,annevk,,0
 2410190017,true,"Add missing definition for drawFocusIfNeeded(path, element)",https://github.com/whatwg/html/pull/10486,2024-07-16T04:35:17Z,2024-07-16T13:07:27Z,domenic,topic: canvas,0
 2409480402,true,Remove canvas 2d scrollPathIntoView,https://github.com/whatwg/html/pull/10482,2024-07-15T19:37:07Z,2024-07-16T13:11:33Z,schenney-chromium,removal/deprecation|topic: canvas,0
-2408585855,false,Update 2D canvas color serialization,https://github.com/whatwg/html/pull/10481,2024-07-15T12:12:40Z,2024-07-16T12:57:34Z,annevk,topic: canvas,0
+2408585855,false,Update 2D canvas color serialization,https://github.com/whatwg/html/pull/10481,2024-07-15T12:12:40Z,2024-08-15T10:20:58Z,annevk,topic: canvas|agenda+,0
 2408492792,true,Review Draft Publication: July 2024,https://github.com/whatwg/html/pull/10480,2024-07-15T11:24:03Z,2024-07-15T11:26:11Z,annevk,,0
 2404454373,true,Editorial: Fix lots of typos,https://github.com/whatwg/html/pull/10474,2024-07-12T00:59:27Z,2024-07-18T15:47:38Z,jmdyck,,0
 2403671121,true,Add missing throwExceptions check in show popover,https://github.com/whatwg/html/pull/10473,2024-07-11T17:13:50Z,2024-07-12T02:52:41Z,josepharhar,topic: popover,0
@@ -108,7 +109,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2184496735,true,Upstream long-animation-frames monkey-patches,https://github.com/whatwg/html/pull/10198,2024-03-13T17:02:02Z,2024-03-27T02:30:41Z,noamr,integration|topic: timing,0
 2183409617,true,Fix: Editorial - link Promise<T> type throughout #9987,https://github.com/whatwg/html/pull/10197,2024-03-13T08:36:14Z,2024-03-15T08:02:24Z,tawandamoyo,,0
 2176725898,false,Support automatic user prompt handing in WebDriver BiDi,https://github.com/whatwg/html/pull/10189,2024-03-08T20:31:39Z,2024-08-08T10:08:47Z,jgraham,,0
-2176615177,false,Use DOM's post-connection steps for `<script>` elements,https://github.com/whatwg/html/pull/10188,2024-03-08T19:04:28Z,2024-07-24T14:16:54Z,domfarolino,topic: script,0
+2176615177,false,Use DOM's post-connection steps for `<script>` elements,https://github.com/whatwg/html/pull/10188,2024-03-08T19:04:28Z,2024-08-15T11:21:00Z,domfarolino,topic: script,0
 2173817692,true,Improve non-normative note for rel-expect,https://github.com/whatwg/html/pull/10184,2024-03-07T13:03:21Z,2024-03-11T06:42:47Z,noamr,,0
 2171531993,true,[rendering] Simplify some UA styles to use shorthands where appropriate,https://github.com/whatwg/html/pull/10181,2024-03-06T13:35:35Z,2024-03-07T10:00:21Z,emilio,,0
 2170671202,true,Update README.md,https://github.com/whatwg/html/pull/10179,2024-03-06T05:30:34Z,2024-03-06T05:45:16Z,Mahakpreet001,spam|invalid,0
@@ -1479,7 +1480,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 684440612,true,Meta: add link-type-alternate as ID for rel=alternate,https://github.com/whatwg/html/pull/5855,2020-08-24T07:32:41Z,2020-08-30T11:01:47Z,annevk,,0
 682464294,true,Augment COEP violation report,https://github.com/whatwg/html/pull/5848,2020-08-20T06:41:35Z,2020-08-21T14:57:29Z,yutakahirano,topic: cross-origin-embedder-policy,0
 681629747,true,Meta: export preload and alternate,https://github.com/whatwg/html/pull/5843,2020-08-19T07:56:22Z,2020-08-20T15:52:28Z,horo-t,,0
-681220681,false,Add the autocorrect attribute,https://github.com/whatwg/html/pull/5841,2020-08-18T17:45:09Z,2024-08-14T13:29:54Z,whsieh,addition/proposal|i18n-tracker|topic: editing|agenda+,1
+681220681,false,Add the autocorrect attribute,https://github.com/whatwg/html/pull/5841,2020-08-18T17:45:09Z,2024-08-15T08:48:30Z,whsieh,addition/proposal|i18n-tracker|topic: editing|agenda+,1
 680444028,true,Update to use undefined instead of void in IDL,https://github.com/whatwg/html/pull/5838,2020-08-17T18:33:00Z,2020-08-18T15:16:18Z,domenic,,0
 680108269,true,Issue #5552 - Update `whenDefined` steps to resolve with the class,https://github.com/whatwg/html/pull/5833,2020-08-17T10:00:28Z,2020-09-08T15:18:36Z,WebReflection,,0
 680073580,true,Improve definition of currently focused area,https://github.com/whatwg/html/pull/5832,2020-08-17T09:08:26Z,2020-08-18T09:52:06Z,annevk,topic: focus,0
@@ -1500,7 +1501,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 677096804,true,Remove stray reference to <input type=range multiple>,https://github.com/whatwg/html/pull/5807,2020-08-11T18:25:50Z,2020-08-17T05:45:35Z,domenic,topic: focus,0
 676889575,true,Allow mutating <input disabled type=checkbox/radio>,https://github.com/whatwg/html/pull/5805,2020-08-11T13:43:50Z,2020-11-04T20:49:59Z,saschanaz,topic: forms,0
 675521231,true,Fix 3 editorial typos,https://github.com/whatwg/html/pull/5800,2020-08-08T12:53:14Z,2020-08-11T18:26:20Z,carmacleod,clarification|topic: focus,0
-675267167,false,Fix #4562: add support for internationalized email addresses,https://github.com/whatwg/html/pull/5799,2020-08-07T20:44:11Z,2024-08-13T16:07:12Z,aphillips,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,0
+675267167,true,Fix #4562: add support for internationalized email addresses,https://github.com/whatwg/html/pull/5799,2020-08-07T20:44:11Z,2024-08-15T11:34:55Z,aphillips,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,0
 674532263,true,"Improve ""completely loaded"" specification",https://github.com/whatwg/html/pull/5797,2020-08-06T18:55:54Z,2020-08-18T15:49:28Z,domenic,clarification|topic: navigation|topic: events|topic: browsing context,0
 674059796,true,registerProtocolHandler(): creating a navigable URL cannot fail,https://github.com/whatwg/html/pull/5795,2020-08-06T06:40:18Z,2023-03-04T14:53:55Z,annevk,,0
 674034628,true,registerProtocolHandler(): drop scheme from note,https://github.com/whatwg/html/pull/5794,2020-08-06T05:44:55Z,2020-08-06T13:52:34Z,annevk,topic: custom protocols,0
