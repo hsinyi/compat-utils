@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2470070491,false,Editorial: consistently format the empty string keyword,https://github.com/whatwg/html/pull/10564,2024-08-16T11:21:38Z,2024-08-16T11:50:55Z,annevk,,0
 2469748999,true,small change 404.html,https://github.com/whatwg/html/pull/10563,2024-08-16T08:11:09Z,2024-08-16T11:09:47Z,Kabwemwaba,invalid,0
-2468462371,false,Fix incorrect recursion for dir=auto special cases.,https://github.com/whatwg/html/pull/10561,2024-08-15T16:43:24Z,2024-08-15T19:26:55Z,dbaron,,0
+2468462371,false,Fix incorrect recursion for dir=auto special cases.,https://github.com/whatwg/html/pull/10561,2024-08-15T16:43:24Z,2024-08-16T20:35:53Z,dbaron,i18n-tracker,0
 2467498874,false,"Add ""same origin with its ancestors""",https://github.com/whatwg/html/pull/10559,2024-08-15T06:30:36Z,2024-08-15T08:19:08Z,domenic,topic: origin|integration,0
 2464881277,true,"Fix ""can have its URL rewritten"" buggy fallthrough",https://github.com/whatwg/html/pull/10558,2024-08-14T04:35:32Z,2024-08-15T01:08:30Z,domenic,topic: navigation,1
 2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2024-08-16T06:11:38Z,josepharhar,normative change|topic: parser,0
@@ -34,7 +34,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2403671121,true,Add missing throwExceptions check in show popover,https://github.com/whatwg/html/pull/10473,2024-07-11T17:13:50Z,2024-07-12T02:52:41Z,josepharhar,topic: popover,0
 2401386846,false,hidePopover with button click not timeout,https://github.com/whatwg/html/pull/10469,2024-07-10T18:18:01Z,2024-08-14T12:07:46Z,Jxck,topic: popover,0
 2389513089,true,Set dialog is modal to false when removed from the document.,https://github.com/whatwg/html/pull/10459,2024-07-03T21:26:01Z,2024-07-08T14:06:58Z,lukewarlow,topic: dialog,0
-2388847339,false,Enhance <input type=color> with alpha and colorspace=display-p3,https://github.com/whatwg/html/pull/10456,2024-07-03T14:53:52Z,2024-07-22T17:22:06Z,annevk,addition/proposal|topic: forms|impacts documentation,8
+2388847339,false,Enhance <input type=color> with alpha and colorspace=display-p3,https://github.com/whatwg/html/pull/10456,2024-07-03T14:53:52Z,2024-08-16T12:34:09Z,annevk,addition/proposal|topic: forms|impacts documentation,8
 2384571498,true,Update `@@foo` symbol notation to `%Symbol.foo%` notation,https://github.com/whatwg/html/pull/10450,2024-07-01T19:19:30Z,2024-07-02T18:30:25Z,ljharb,,0
 2384264134,true,All objects have a [[PrivateElements]] internal slot,https://github.com/whatwg/html/pull/10447,2024-07-01T16:33:10Z,2024-07-02T01:36:16Z,annevk,topic: serialize and transfer,0
 2383914416,true,<th scope> has no auto keyword,https://github.com/whatwg/html/pull/10446,2024-07-01T13:48:54Z,2024-07-02T01:33:54Z,annevk,,1
@@ -1314,7 +1314,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 775270773,true,add sftp to safelisted scheme,https://github.com/whatwg/html/pull/6255,2020-12-28T08:15:08Z,2021-04-28T14:47:34Z,vapier,,1
 774931989,true,Specify that the ::file-selector-button pseudo applies to the button in a file input.,https://github.com/whatwg/html/pull/6250,2020-12-26T20:55:29Z,2021-01-06T18:54:49Z,emilio,addition/proposal|topic: rendering,0
 774636016,true,Editorial: Introduce #concept-document-origin,https://github.com/whatwg/html/pull/6249,2020-12-25T05:35:26Z,2021-01-12T07:45:59Z,domfarolino,clarification|topic: origin,1
-773322054,false,Editorial: Export concepts used by Encrypted Media Extensions,https://github.com/whatwg/html/pull/6242,2020-12-22T23:54:07Z,2024-05-14T23:05:53Z,saschanaz,topic: media|integration,0
+773322054,false,Editorial: Export concepts used by Encrypted Media Extensions,https://github.com/whatwg/html/pull/6242,2020-12-22T23:54:07Z,2024-08-16T14:47:44Z,saschanaz,topic: media|integration,0
 769809444,true,"Remove unused parameters in ""check if COOP requires a BCG switch"" calls",https://github.com/whatwg/html/pull/6234,2020-12-17T10:09:20Z,2020-12-17T17:52:07Z,ParisMeuleman,topic: cross-origin-opener-policy,0
 763223345,true,Fix typo in whatwg/html/pull/6172,https://github.com/whatwg/html/pull/6222,2020-12-12T03:10:24Z,2020-12-17T22:33:37Z,jan-ivar,,0
 762716449,true,My name changed,https://github.com/whatwg/html/pull/6221,2020-12-11T18:16:19Z,2020-12-14T17:47:37Z,takkaria,,0
