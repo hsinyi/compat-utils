@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2470622085,false,[templates] A declarative JavaScript templating API,https://github.com/WICG/webcomponents/issues/1069,2024-08-16T16:57:03Z,2024-08-19T00:04:56Z,justinfagnani,,26
+2470622085,false,[templates] A declarative JavaScript templating API,https://github.com/WICG/webcomponents/issues/1069,2024-08-16T16:57:03Z,2024-08-19T00:04:56Z,justinfagnani,,27
 2468760837,false,"Reference Target, level 2",https://github.com/WICG/webcomponents/issues/1068,2024-08-15T19:15:29Z,2024-08-15T19:15:29Z,Westbrook,,0
 2461455491,false,2024 TPAC planning,https://github.com/WICG/webcomponents/issues/1065,2024-08-12T16:39:21Z,2024-08-17T00:23:16Z,rniwa,,1
 2438131296,false,Simplified custom element definition,https://github.com/WICG/webcomponents/issues/1064,2024-07-30T15:35:32Z,2024-08-10T14:22:33Z,dead-claudia,,0
@@ -383,7 +383,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 194735048,true,CE reaction queue's not-really-sync behavior doesn't provide strong enough guarantees about when reactions occur,https://github.com/WICG/webcomponents/issues/616,2016-12-10T01:30:24Z,2017-09-06T07:50:15Z,bicknellr,custom-elements,0
 194507772,true," components v1 native implementation - inner components problem",https://github.com/WICG/webcomponents/issues/615,2016-12-09T03:52:16Z,2023-04-20T19:56:52Z,tnikolai2,v1|custom-elements,0
 194260342,true,fullscreenchange should be dispatched on each ancestor shadow root,https://github.com/WICG/webcomponents/issues/614,2016-12-08T06:48:13Z,2023-04-20T19:25:08Z,rniwa,v1|shadow-dom,0
-192941959,true,defining and instantiating customized built‐in elements as if they were autonomous custom elements,https://github.com/WICG/webcomponents/issues/613,2016-12-01T19:39:28Z,2017-09-06T07:47:42Z,zamfofex,custom-elements,1
+192941959,true,defining and instantiating customized built‐in elements as if they were autonomous custom elements,https://github.com/WICG/webcomponents/issues/613,2016-12-01T19:39:28Z,2017-09-06T07:47:42Z,ghost,custom-elements,1
 191949307,true,[shadow-dom] [spec-bug] in asignedNodes description.,https://github.com/WICG/webcomponents/issues/612,2016-11-28T08:53:03Z,2016-12-05T01:34:07Z,trusktr,,0
 191893131,true,Method for detecting finally-distributed nodes.,https://github.com/WICG/webcomponents/issues/611,2016-11-27T23:16:47Z,2017-09-19T08:06:44Z,trusktr,shadow-dom,0
 191372249,true,[idea] [shadow-dom] Provide a version number on shadow roots so they can be distinguished.,https://github.com/WICG/webcomponents/issues/610,2016-11-23T20:25:22Z,2016-12-04T01:40:30Z,trusktr,,0
@@ -424,8 +424,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 177781473,true,"createElement needs [CEReactions] because it sets is=""""",https://github.com/WICG/webcomponents/issues/570,2016-09-19T13:15:12Z,2017-10-17T06:58:42Z,domenic,v1|custom-elements,0
 177780954,true,Make createElement report an exception instead of propagating an exception,https://github.com/WICG/webcomponents/issues/569,2016-09-19T13:13:00Z,2016-10-11T07:43:50Z,rniwa,v1|custom-elements,0
 177678187,true,Status codes for HTML Imports,https://github.com/WICG/webcomponents/issues/568,2016-09-18T21:19:32Z,2017-07-10T06:25:33Z,tomalec,html-imports,0
-176928627,true,accessibility considerations: states and behaviors,https://github.com/WICG/webcomponents/issues/567,2016-09-14T14:51:27Z,2018-02-19T21:50:18Z,zamfofex,custom-elements,0
-176784759,true,registry: Add an API to retrieve the localName given a custom element constructor,https://github.com/WICG/webcomponents/issues/566,2016-09-14T00:27:03Z,2024-08-17T22:56:46Z,treshugart,custom-elements|needs spec,7
+176928627,true,accessibility considerations: states and behaviors,https://github.com/WICG/webcomponents/issues/567,2016-09-14T14:51:27Z,2018-02-19T21:50:18Z,ghost,custom-elements,0
+176784759,true,registry: Add an API to retrieve the localName given a custom element constructor,https://github.com/WICG/webcomponents/issues/566,2016-09-14T00:27:03Z,2024-08-17T22:56:46Z,treshugart,custom-elements|needs spec,6
 176770095,true,[idea] Make use of `observedAttributes` optional,https://github.com/WICG/webcomponents/issues/565,2016-09-13T22:46:23Z,2024-03-28T11:15:41Z,trusktr,,2
 176411660,true,Is <slot> a replaced element or not?,https://github.com/WICG/webcomponents/issues/564,2016-09-12T15:49:19Z,2016-12-06T04:29:17Z,sodatea,shadow-dom,0
 175412214,true,CustomElements: upgrade runs connectedCallback on an element with a throwing constructor,https://github.com/WICG/webcomponents/issues/563,2016-09-07T04:50:42Z,2016-09-15T14:33:03Z,davaajav-shino,,0
@@ -480,7 +480,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 158235841,true,"Should custom elements be adoptable if so, how?",https://github.com/WICG/webcomponents/issues/512,2016-06-02T20:46:29Z,2016-07-21T09:25:57Z,rniwa,v1|custom-elements,0
 158110360,true,Add <a> to safelist of elements that can call attachShadowRoot,https://github.com/WICG/webcomponents/issues/511,2016-06-02T10:38:33Z,2018-02-20T09:06:50Z,PaulKinlan,shadow-dom|needs implementer interest,2
 157944696,true,Best practices for styling web components,https://github.com/WICG/webcomponents/issues/510,2016-06-01T16:00:06Z,2016-06-06T03:52:39Z,straker,,0
-157746490,true,"The is="""" attribute is confusing? Maybe we should encourage only ES6 class-based extension.",https://github.com/WICG/webcomponents/issues/509,2016-05-31T19:06:24Z,2024-01-14T15:19:11Z,trusktr,custom-elements,123
+157746490,true,"The is="""" attribute is confusing? Maybe we should encourage only ES6 class-based extension.",https://github.com/WICG/webcomponents/issues/509,2016-05-31T19:06:24Z,2024-01-14T15:19:11Z,trusktr,custom-elements,122
 157729809,true,What happens in these slot/content scenarios?,https://github.com/WICG/webcomponents/issues/508,2016-05-31T17:45:13Z,2016-06-01T06:31:42Z,trusktr,shadow-dom,0
 156950254,true,shadow tree -> iframe <- contentWindow.frameElement encapsulation issue,https://github.com/WICG/webcomponents/issues/507,2016-05-26T10:13:47Z,2017-09-06T09:04:42Z,andyearnshaw,shadow-dom,0
 156830223,true,customElements.define not working,https://github.com/WICG/webcomponents/issues/506,2016-05-25T19:25:00Z,2016-05-25T23:16:38Z,hasan3ysf,,0
@@ -659,7 +659,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 104311013,true,ownerDocument of a node in a shadow tree isn't well defined,https://github.com/WICG/webcomponents/issues/303,2015-09-01T16:58:03Z,2016-01-13T07:18:10Z,rniwa,v1|shadow-dom,0
 104308305,true,The order of node trees is not well defined when one tree is not inside a shadow tree,https://github.com/WICG/webcomponents/issues/302,2015-09-01T16:45:13Z,2015-09-04T09:41:26Z,rniwa,v1|shadow-dom,0
 104305425,true,Introduction section shouldn't refer to a Shadow DOM 101 article,https://github.com/WICG/webcomponents/issues/301,2015-09-01T16:31:45Z,2015-09-04T09:59:28Z,rniwa,v1|shadow-dom,0
-104200810,true,Support Custom Pseudo-elements,https://github.com/WICG/webcomponents/issues/300,2015-09-01T07:05:02Z,2018-02-22T05:31:48Z,hayatoito,v2|shadow-dom,10
+104200810,true,Support Custom Pseudo-elements,https://github.com/WICG/webcomponents/issues/300,2015-09-01T07:05:02Z,2018-02-22T05:31:48Z,hayatoito,v2|shadow-dom,9
 103392070,true,Is there a custom pseudo-elements proposal or spec anywhere?,https://github.com/WICG/webcomponents/issues/298,2015-08-27T00:13:25Z,2015-09-01T03:36:47Z,philipwalton,v2|shadow-dom,0
 100690382,true,Need to update CSS Scoping for closed shadow tree,https://github.com/WICG/webcomponents/issues/293,2015-08-13T04:57:30Z,2015-10-08T08:43:19Z,kojiishi,v1|shadow-dom,0
 98741471,true,Custom element callbacks for builtins,https://github.com/WICG/webcomponents/issues/291,2015-08-03T13:21:01Z,2016-03-01T10:16:28Z,annevk,custom-elements,0
@@ -789,7 +789,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 93212141,true,[Custom]: Make unresolved state an explicit flag. (bugzilla: 27762),https://github.com/WICG/webcomponents/issues/160,2015-07-06T07:36:02Z,2016-03-08T22:40:41Z,hayatoito,custom-elements,0
 93212121,true,ARIA custom element API,https://github.com/WICG/webcomponents/issues/159,2015-07-06T07:35:59Z,2018-03-05T08:07:08Z,hayatoito,custom-elements|needs concrete proposal,0
 93212095,true,"[Custom]: ""All Algorithms in One Diagram"" (bugzilla: 27780)",https://github.com/WICG/webcomponents/issues/158,2015-07-06T07:35:54Z,2016-03-03T03:01:33Z,hayatoito,custom-elements,0
-93212082,true,Scripts in HTML Imports should be scoped to the import (treat imports as script modules) (bugzilla: 27836),https://github.com/WICG/webcomponents/issues/157,2015-07-06T07:35:51Z,2017-07-10T07:16:35Z,hayatoito,html-imports,1
+93212082,true,Scripts in HTML Imports should be scoped to the import (treat imports as script modules) (bugzilla: 27836),https://github.com/WICG/webcomponents/issues/157,2015-07-06T07:35:51Z,2017-07-10T07:16:35Z,hayatoito,html-imports,0
 93212065,true,registerElement() should be scoped to modules (bugzilla: 27835),https://github.com/WICG/webcomponents/issues/156,2015-07-06T07:35:48Z,2016-03-11T12:42:30Z,hayatoito,custom-elements,0
 93212044,true,[Custom]: Typo instantation ---> instantiation (bugzilla: 27914),https://github.com/WICG/webcomponents/issues/155,2015-07-06T07:35:45Z,2016-03-03T03:18:05Z,hayatoito,custom-elements,0
 93212017,true,"[Custom]: define registry primitive; (""namespace"" support needed?) (bugzilla: 24578)",https://github.com/WICG/webcomponents/issues/154,2015-07-06T07:35:41Z,2016-06-21T15:06:40Z,hayatoito,custom-elements,0
@@ -810,7 +810,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 93211858,true,Custom elements should use ES6 class constructor (bugzilla: 28541),https://github.com/WICG/webcomponents/issues/139,2015-07-06T07:35:02Z,2016-03-01T05:34:33Z,hayatoito,custom-elements,0
 93211853,true,[Shadow] Replace node distribution mechanism by the named slot proposal (bugzilla: 28542),https://github.com/WICG/webcomponents/issues/138,2015-07-06T07:35:00Z,2015-07-21T07:54:24Z,hayatoito,,0
 93211843,true,Custom elements should call user defined constructor synchronously (bugzilla: 28543),https://github.com/WICG/webcomponents/issues/137,2015-07-06T07:34:58Z,2016-03-03T03:01:33Z,hayatoito,custom-elements,0
-93211825,true,Declarative syntax for custom elements,https://github.com/WICG/webcomponents/issues/136,2015-07-06T07:34:55Z,2016-07-21T10:32:07Z,hayatoito,v2|custom-elements,2
+93211825,true,Declarative syntax for custom elements,https://github.com/WICG/webcomponents/issues/136,2015-07-06T07:34:55Z,2016-07-21T10:32:07Z,hayatoito,v2|custom-elements,1
 93211812,false,customElements.define() should take a template as an argument,https://github.com/WICG/webcomponents/issues/135,2015-07-06T07:34:53Z,2023-04-20T20:00:03Z,hayatoito,custom-elements|needs concrete proposal|declarative custom elements,2
 93211795,true,Custom elements should not upgrade elements by setting prototype (bugzilla: 28544),https://github.com/WICG/webcomponents/issues/134,2015-07-06T07:34:51Z,2016-03-03T03:01:33Z,hayatoito,custom-elements,0
 93211781,true,Remove the support for inherting from builtin subclasses of HTMLElement and SVGElement (bugzilla: 28547),https://github.com/WICG/webcomponents/issues/133,2015-07-06T07:34:47Z,2016-04-30T18:53:28Z,hayatoito,v1|custom-elements,0
