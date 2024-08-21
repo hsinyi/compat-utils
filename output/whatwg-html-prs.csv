@@ -3,10 +3,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2472074141,true,added universal selector in style.css,https://github.com/whatwg/html/pull/10566,2024-08-18T17:38:31Z,2024-08-19T02:01:03Z,Usman-Nadiry,invalid,0
 2470070491,true,Editorial: consistently format the empty string keyword,https://github.com/whatwg/html/pull/10564,2024-08-16T11:21:38Z,2024-08-19T12:25:38Z,annevk,,0
 2469748999,true,small change 404.html,https://github.com/whatwg/html/pull/10563,2024-08-16T08:11:09Z,2024-08-16T11:09:47Z,Kabwemwaba,invalid,0
-2468462371,false,Fix incorrect recursion for dir=auto special cases.,https://github.com/whatwg/html/pull/10561,2024-08-15T16:43:24Z,2024-08-20T01:22:41Z,dbaron,i18n-tracker,0
+2468462371,false,Fix incorrect recursion for dir=auto special cases.,https://github.com/whatwg/html/pull/10561,2024-08-15T16:43:24Z,2024-08-20T21:14:04Z,dbaron,i18n-tracker,0
 2467498874,false,"Add ""same origin with its ancestors""",https://github.com/whatwg/html/pull/10559,2024-08-15T06:30:36Z,2024-08-15T08:19:08Z,domenic,topic: origin|integration,0
 2464881277,true,"Fix ""can have its URL rewritten"" buggy fallthrough",https://github.com/whatwg/html/pull/10558,2024-08-14T04:35:32Z,2024-08-15T01:08:30Z,domenic,topic: navigation,1
-2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2024-08-19T21:29:38Z,josepharhar,normative change|topic: parser,0
+2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2024-08-20T15:18:59Z,josepharhar,normative change|topic: parser,1
 2458340131,true,Remove exception reporting from declarative shadow dom,https://github.com/whatwg/html/pull/10552,2024-08-09T17:13:23Z,2024-08-14T15:44:52Z,mfreed7,normative change|topic: shadow|topic: parser,0
 2450354011,true,Editorial: modernize promise rejection tracking,https://github.com/whatwg/html/pull/10550,2024-08-06T09:07:03Z,2024-08-07T01:10:54Z,domenic,topic: error reporting,0
 2448702538,false,Complete draft spec for customizable `<select>`,https://github.com/whatwg/html/pull/10548,2024-08-05T14:28:06Z,2024-08-19T16:23:59Z,josepharhar,,0
@@ -19,7 +19,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2437215499,true,Editorial: fix cross-reference for exception reporting global,https://github.com/whatwg/html/pull/10529,2024-07-30T08:20:00Z,2024-08-02T05:20:57Z,Ms2ger,,0
 2437162429,false,Dynamic import maps,https://github.com/whatwg/html/pull/10528,2024-07-30T07:54:57Z,2024-08-16T06:30:58Z,yoavweiss,,2
 2434585445,true,Further fixes to keydown vs. keyup for close requests,https://github.com/whatwg/html/pull/10524,2024-07-29T06:42:25Z,2024-08-15T01:18:42Z,domenic,topic: close watchers,1
-2431085399,false,Add support for internationalized email addresses,https://github.com/whatwg/html/pull/10522,2024-07-25T22:42:22Z,2024-08-20T08:56:16Z,aphillips,i18n-tracker,0
+2431085399,false,Add support for internationalized email addresses,https://github.com/whatwg/html/pull/10522,2024-07-25T22:42:22Z,2024-08-20T15:12:40Z,aphillips,i18n-tracker,0
 2424062926,true,Fix bug in timer initialisation steps involving reusing cleared IDs,https://github.com/whatwg/html/pull/10505,2024-07-23T01:41:24Z,2024-08-15T06:32:56Z,majaha,,0
 2417501694,false,WIP: Upstream XMLSerializer from DOM Parsing and Serialization spec,https://github.com/whatwg/html/pull/10498,2024-07-18T22:12:06Z,2024-07-19T23:54:16Z,lukewarlow,,1
 2417453524,true,Update fragment serializing algorithm steps node argument to accept Documents,https://github.com/whatwg/html/pull/10497,2024-07-18T21:30:53Z,2024-07-19T06:42:54Z,lukewarlow,,0
@@ -58,7 +58,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2334993245,true,Don't set hashChange to true for classic history API navigate events,https://github.com/whatwg/html/pull/10393,2024-06-05T06:13:48Z,2024-06-20T07:04:40Z,domenic,,0
 2333893692,false,"Editorial: For `CONTRIBUTING.md`, add explicit references to patterns we've evolved over time",https://github.com/whatwg/html/pull/10392,2024-06-04T16:05:05Z,2024-06-24T07:24:19Z,domfarolino,,1
 2329069209,true,Match order of arguments when calling 'getting the descendant script fetch options',https://github.com/whatwg/html/pull/10385,2024-06-01T10:41:13Z,2024-06-03T04:44:32Z,jamierocks,topic: script,0
-2326224026,false,Latest WebAssembly ESM Integration rebase,https://github.com/whatwg/html/pull/10380,2024-05-30T17:37:52Z,2024-08-14T16:15:52Z,guybedford,,0
+2326224026,false,Latest WebAssembly ESM Integration rebase,https://github.com/whatwg/html/pull/10380,2024-05-30T17:37:52Z,2024-08-20T22:43:36Z,guybedford,,0
 2323722981,true,Navigation: Pass a global object to consume history-action activation AO,https://github.com/whatwg/html/pull/10375,2024-05-29T16:21:03Z,2024-05-30T02:10:19Z,ADKaster,topic: navigation,0
 2322971728,true,Add an `omit` value to Cross-Origin-Opener-Policy,https://github.com/whatwg/html/pull/10374,2024-05-29T10:32:55Z,2024-06-05T07:31:31Z,yoavweiss,,0
 2317911685,true,Editorial: fix more typos,https://github.com/whatwg/html/pull/10369,2024-05-26T20:01:59Z,2024-05-27T13:53:57Z,jmdyck,,0
@@ -129,7 +129,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2158124994,true,[Editorial] Export creating NRR,https://github.com/whatwg/html/pull/10167,2024-02-28T05:11:30Z,2024-02-28T05:24:27Z,rubberyuzu,,0
 2157384688,true,Editorial: Specify that connectedness is a prerequisite for script execution,https://github.com/whatwg/html/pull/10165,2024-02-27T18:54:52Z,2024-03-04T04:16:34Z,domfarolino,topic: script,0
 2150141047,false,WIP dialog closedby attribute spec,https://github.com/whatwg/html/pull/10157,2024-02-22T23:57:03Z,2024-05-08T22:04:06Z,lukewarlow,topic: close watchers,0
-2148367262,false,Add may-block reasons to NotRestoredReasons,https://github.com/whatwg/html/pull/10154,2024-02-22T07:06:43Z,2024-08-20T05:01:32Z,rubberyuzu,,0
+2148367262,false,Add may-block reasons to NotRestoredReasons,https://github.com/whatwg/html/pull/10154,2024-02-22T07:06:43Z,2024-08-20T13:27:01Z,rubberyuzu,,0
 2147120013,true,Create code.txt,https://github.com/whatwg/html/pull/10152,2024-02-21T15:58:38Z,2024-02-21T16:05:47Z,owaislodhi01,spam|invalid,0
 2143978728,true,Allow WebDriver BiDi access original opener,https://github.com/whatwg/html/pull/10147,2024-02-20T09:52:35Z,2024-03-21T12:45:50Z,OrKoN,,0
 2141556349,true,Meta: Dark mode fixes,https://github.com/whatwg/html/pull/10144,2024-02-19T05:44:57Z,2024-05-06T16:33:21Z,andreubotella,,0
@@ -1754,7 +1754,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 533006662,true,Update the WEBLINK reference from RFC5988 to RFC8288.,https://github.com/whatwg/html/pull/5127,2019-12-04T23:34:40Z,2019-12-19T19:10:45Z,jyasskin,,0
 532959317,true,Prevent infinite recursion when upgrading custom elements,https://github.com/whatwg/html/pull/5126,2019-12-04T21:58:37Z,2020-01-22T19:43:26Z,domenic,topic: custom elements,0
 532837130,true,Do not report work outside of event loop,https://github.com/whatwg/html/pull/5123,2019-12-04T17:42:47Z,2019-12-05T16:24:08Z,npm1,topic: event loop,0
-531814636,false,ElementInternals: Add a capability to set the default focus behavior,https://github.com/whatwg/html/pull/5120,2019-12-03T08:36:28Z,2023-11-14T08:05:51Z,tkent-google,addition/proposal|topic: custom elements|topic: focus,3
+531814636,false,ElementInternals: Add a capability to set the default focus behavior,https://github.com/whatwg/html/pull/5120,2019-12-03T08:36:28Z,2023-11-14T08:05:51Z,tkent-google,addition/proposal|topic: custom elements|topic: focus,4
 530829628,true,Create main.yml,https://github.com/whatwg/html/pull/5116,2019-12-02T00:47:59Z,2019-12-02T10:29:52Z,win-romeo,,0
 530165618,true,Disallow serializing and transferring non-origin-clean ImageBitmap,https://github.com/whatwg/html/pull/5114,2019-11-29T05:43:34Z,2019-12-18T19:04:50Z,yutakahirano,normative change|topic: serialize and transfer,1
 528480974,true,Add support for Content-DPR response header,https://github.com/whatwg/html/pull/5112,2019-11-26T04:32:16Z,2021-03-03T05:48:41Z,eeeps,addition/proposal|needs implementer interest|topic: img,0
