@@ -2,7 +2,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2481972589,false,Upcoming WHATNOT meeting on 2024-08-29,https://github.com/whatwg/html/issues/10574,2024-08-22T23:27:09Z,2024-08-22T23:27:09Z,past,agenda+,0
 2476594876,false,Add src attribute to <template> to load a template from file,https://github.com/whatwg/html/issues/10571,2024-08-20T21:51:03Z,2024-08-21T18:58:28Z,mildred,addition/proposal|needs implementer interest,2
 2476560638,true,Proposal for adding volume attribute to the <audio> element in HTML,https://github.com/whatwg/html/issues/10570,2024-08-20T21:22:12Z,2024-08-21T03:50:46Z,Kjess1e,,0
-2474740840,false,Specify primitive appearance for <meter>,https://github.com/whatwg/html/issues/10569,2024-08-20T05:20:10Z,2024-08-20T07:19:38Z,domenic,topic: rendering,0
+2474740840,false,Specify primitive appearance for <meter>,https://github.com/whatwg/html/issues/10569,2024-08-20T05:20:10Z,2024-08-23T13:32:27Z,domenic,topic: rendering,0
 2473734829,false,Meeting 6 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10568,2024-08-19T16:20:34Z,2024-08-20T20:55:45Z,josepharhar,agenda+,0
 2468450019,true,Upcoming WHATNOT meeting on 2024-08-22,https://github.com/whatwg/html/issues/10560,2024-08-15T16:36:03Z,2024-08-23T06:36:53Z,past,agenda+,0
 2463696771,true,Upcoming WHATNOT meeting on 2024-08-15,https://github.com/whatwg/html/issues/10556,2024-08-13T15:58:38Z,2024-08-15T16:48:04Z,past,agenda+,0
@@ -33,7 +33,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2429263337,false,"Update all call sites of the old ""report the exception"" ",https://github.com/whatwg/html/issues/10516,2024-07-25T07:40:01Z,2024-07-25T07:40:01Z,domenic,integration|topic: error reporting,0
 2429211442,true,Editorial improvements to unhandled promise rejections,https://github.com/whatwg/html/issues/10515,2024-07-25T07:13:35Z,2024-08-07T01:10:53Z,domenic,clarification|topic: error reporting,0
 2429124307,false,Exception reporting muting is not interoperable,https://github.com/whatwg/html/issues/10514,2024-07-25T06:24:13Z,2024-07-25T07:44:14Z,domenic,interop|topic: error reporting,0
-2428415711,false,Consider adding `view-transition` as a token for `blocking`,https://github.com/whatwg/html/issues/10513,2024-07-24T20:27:55Z,2024-07-31T14:51:33Z,noamr,addition/proposal|needs implementer interest,2
+2428415711,false,Consider adding `view-transition` as a token for `blocking`,https://github.com/whatwg/html/issues/10513,2024-07-24T20:27:55Z,2024-08-23T21:37:42Z,noamr,addition/proposal|needs implementer interest,2
 2427187420,true,Navigation API: a way to share custom info across a cross-document navigation,https://github.com/whatwg/html/issues/10509,2024-07-24T10:25:59Z,2024-07-25T01:04:32Z,noamr,addition/proposal|needs implementer interest,0
 2427016162,false,Definition of all event handler attributes,https://github.com/whatwg/html/issues/10508,2024-07-24T09:13:40Z,2024-07-27T07:01:01Z,lukewarlow,,0
 2425263484,false,Pseudo elements for <video> content and controls,https://github.com/whatwg/html/issues/10507,2024-07-23T13:44:51Z,2024-08-12T06:24:14Z,jakearchibald,addition/proposal|needs implementer interest|topic: media,12
@@ -249,7 +249,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2151600541,false,Add a way to automatically get script license and unminified code (if available),https://github.com/whatwg/html/issues/10158,2024-02-23T18:33:44Z,2024-02-23T18:33:44Z,Orisphera,addition/proposal|needs implementer interest,0
 2149864472,true,Upcoming WHATNOT meeting on 3/7/2024,https://github.com/whatwg/html/issues/10156,2024-02-22T20:14:39Z,2024-03-15T19:00:37Z,past,agenda+,0
 2148780029,false,It's not clear how constraint validation works for FACE if the 'validation anchor' is null,https://github.com/whatwg/html/issues/10155,2024-02-22T10:52:33Z,2024-02-26T13:41:19Z,EdgarChen,topic: custom elements|topic: forms,2
-2148084073,true,"Allow comment tags (`<!`, `--`, and `>`) to be nested.",https://github.com/whatwg/html/issues/10153,2024-02-22T02:59:53Z,2024-08-01T18:04:45Z,RokeJulianLockhart,addition/proposal|needs implementer interest,1
+2148084073,true,"Allow comment tags (`<!`, `--`, and `>`) to be nested.",https://github.com/whatwg/html/issues/10153,2024-02-22T02:59:53Z,2024-08-23T19:56:18Z,RokeJulianLockhart,addition/proposal|needs implementer interest,1
 2146266830,true,"Different parsing behavior for ""</script>"" and ""</div>"" strings",https://github.com/whatwg/html/issues/10151,2024-02-21T09:39:53Z,2024-02-21T10:14:20Z,mbrodesser-Igalia,,0
 2144701703,true,Clarification on Element reflected IDL attribute steps,https://github.com/whatwg/html/issues/10150,2024-02-20T15:54:32Z,2024-02-21T17:05:33Z,josepharhar,topic: reflect,0
 2144700071,false,"""Align descendants"" believes used margins are altered in overconstrained cases, but that's no longer the case",https://github.com/whatwg/html/issues/10149,2024-02-20T15:53:41Z,2024-02-21T22:36:36Z,Loirooriol,topic: rendering,0
@@ -1709,7 +1709,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 795384605,false,Link same resource at multiple urls so client can use one that it has cached.,https://github.com/whatwg/html/issues/6335,2021-01-27T19:33:25Z,2021-02-04T17:07:01Z,PrinsFrank,addition/proposal|needs implementer interest,0
 794307223,false,Permanent anchor request for same site,https://github.com/whatwg/html/issues/6329,2021-01-26T15:06:56Z,2021-01-26T15:19:45Z,englehardt,anchor permanence,0
 794190031,true,COEP still doesn't check for HTTPS,https://github.com/whatwg/html/issues/6328,2021-01-26T12:23:49Z,2021-02-02T20:17:33Z,zcorpan,topic: cross-origin-embedder-policy,0
-793729364,false,Add hyphenation-hint as HTML-element,https://github.com/whatwg/html/issues/6326,2021-01-25T21:12:59Z,2021-04-26T07:51:15Z,OskarGrosser,addition/proposal|topic: rendering|i18n-tracker,1
+793729364,false,Add hyphenation-hint as HTML-element,https://github.com/whatwg/html/issues/6326,2021-01-25T21:12:59Z,2024-08-23T13:08:09Z,OskarGrosser,addition/proposal|topic: rendering|i18n-tracker,1
 792865991,false,Img: add method to check if image format is supported,https://github.com/whatwg/html/issues/6324,2021-01-24T18:50:31Z,2024-01-12T16:19:26Z,mpetroff,addition/proposal|topic: img,2
 792298497,false,media fragments support for anchor links,https://github.com/whatwg/html/issues/6323,2021-01-22T20:53:36Z,2021-01-25T09:27:12Z,heeplr,,0
 791036154,true,Proposal: new element for measurements <m>,https://github.com/whatwg/html/issues/6319,2021-01-21T12:39:48Z,2021-01-30T04:15:15Z,futekov,,3
