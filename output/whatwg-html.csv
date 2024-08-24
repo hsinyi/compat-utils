@@ -249,7 +249,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2151600541,false,Add a way to automatically get script license and unminified code (if available),https://github.com/whatwg/html/issues/10158,2024-02-23T18:33:44Z,2024-02-23T18:33:44Z,Orisphera,addition/proposal|needs implementer interest,0
 2149864472,true,Upcoming WHATNOT meeting on 3/7/2024,https://github.com/whatwg/html/issues/10156,2024-02-22T20:14:39Z,2024-03-15T19:00:37Z,past,agenda+,0
 2148780029,false,It's not clear how constraint validation works for FACE if the 'validation anchor' is null,https://github.com/whatwg/html/issues/10155,2024-02-22T10:52:33Z,2024-02-26T13:41:19Z,EdgarChen,topic: custom elements|topic: forms,2
-2148084073,true,"Allow comment tags (`<!`, `--`, and `>`) to be nested.",https://github.com/whatwg/html/issues/10153,2024-02-22T02:59:53Z,2024-08-23T19:56:18Z,RokeJulianLockhart,addition/proposal|needs implementer interest,1
+2148084073,true,"Allow comment tags (`<!`, `--`, and `>`) to be nested.",https://github.com/whatwg/html/issues/10153,2024-02-22T02:59:53Z,2024-08-23T19:56:18Z,RokeJulianLockhart,addition/proposal|needs implementer interest,2
 2146266830,true,"Different parsing behavior for ""</script>"" and ""</div>"" strings",https://github.com/whatwg/html/issues/10151,2024-02-21T09:39:53Z,2024-02-21T10:14:20Z,mbrodesser-Igalia,,0
 2144701703,true,Clarification on Element reflected IDL attribute steps,https://github.com/whatwg/html/issues/10150,2024-02-20T15:54:32Z,2024-02-21T17:05:33Z,josepharhar,topic: reflect,0
 2144700071,false,"""Align descendants"" believes used margins are altered in overconstrained cases, but that's no longer the case",https://github.com/whatwg/html/issues/10149,2024-02-20T15:53:41Z,2024-02-21T22:36:36Z,Loirooriol,topic: rendering,0
@@ -444,7 +444,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1899693712,true,Modification GIF Folder Preview Script,https://github.com/whatwg/html/issues/9749,2023-09-17T07:50:44Z,2023-09-17T08:10:35Z,deiraf,,0
 1899506717,true,"Missing links in ""Kinds of content"" list",https://github.com/whatwg/html/issues/9748,2023-09-16T17:14:26Z,2023-09-23T11:44:17Z,rshadr,editorial,0
 1898699206,false,`<details>` element does not fire a `beforetoggle` event.,https://github.com/whatwg/html/issues/9743,2023-09-15T15:53:21Z,2023-10-01T13:56:00Z,keithamus,addition/proposal|topic: events,1
-1898282732,false,Make the currentTime setter clamp to duration,https://github.com/whatwg/html/issues/9742,2023-09-15T12:01:03Z,2023-10-01T13:56:23Z,foolip,topic: media|interop,0
+1898282732,false,Make the currentTime setter clamp to duration,https://github.com/whatwg/html/issues/9742,2023-09-15T12:01:03Z,2024-08-24T06:59:24Z,foolip,topic: media|interop,0
 1897463521,false,<link rel=preconnect> doesn't support the media attribute,https://github.com/whatwg/html/issues/9737,2023-09-14T23:06:06Z,2023-10-01T13:57:11Z,zcorpan,topic: link|topic: resource hints (inc. preload),0
 1896732258,false,Add mechanism for a button-like element to behave like an `<area>`,https://github.com/whatwg/html/issues/9736,2023-09-14T14:44:51Z,2023-10-01T13:58:14Z,lukewarlow,addition/proposal|needs implementer interest,1
 1896195861,false,Add `ToggleEvent`s to `<dialog>.showModal()`,https://github.com/whatwg/html/issues/9733,2023-09-14T09:54:56Z,2024-08-06T08:19:13Z,keithamus,addition/proposal|topic: events|topic: dialog,5
@@ -1709,7 +1709,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 795384605,false,Link same resource at multiple urls so client can use one that it has cached.,https://github.com/whatwg/html/issues/6335,2021-01-27T19:33:25Z,2021-02-04T17:07:01Z,PrinsFrank,addition/proposal|needs implementer interest,0
 794307223,false,Permanent anchor request for same site,https://github.com/whatwg/html/issues/6329,2021-01-26T15:06:56Z,2021-01-26T15:19:45Z,englehardt,anchor permanence,0
 794190031,true,COEP still doesn't check for HTTPS,https://github.com/whatwg/html/issues/6328,2021-01-26T12:23:49Z,2021-02-02T20:17:33Z,zcorpan,topic: cross-origin-embedder-policy,0
-793729364,false,Add hyphenation-hint as HTML-element,https://github.com/whatwg/html/issues/6326,2021-01-25T21:12:59Z,2024-08-23T13:08:09Z,OskarGrosser,addition/proposal|topic: rendering|i18n-tracker,1
+793729364,false,Add hyphenation-hint as HTML-element,https://github.com/whatwg/html/issues/6326,2021-01-25T21:12:59Z,2024-08-23T13:08:09Z,OskarGrosser,addition/proposal|topic: rendering|i18n-tracker,2
 792865991,false,Img: add method to check if image format is supported,https://github.com/whatwg/html/issues/6324,2021-01-24T18:50:31Z,2024-01-12T16:19:26Z,mpetroff,addition/proposal|topic: img,2
 792298497,false,media fragments support for anchor links,https://github.com/whatwg/html/issues/6323,2021-01-22T20:53:36Z,2021-01-25T09:27:12Z,heeplr,,0
 791036154,true,Proposal: new element for measurements <m>,https://github.com/whatwg/html/issues/6319,2021-01-21T12:39:48Z,2021-01-30T04:15:15Z,futekov,,3
@@ -2572,7 +2572,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 431692194,true,Unexpected behaviour of <picture> and it's children compared to <img>,https://github.com/whatwg/html/issues/4522,2019-04-10T20:15:43Z,2019-04-10T20:42:24Z,MelvinIdema,,0
 431661424,false,Expose transferList on MessageEvent,https://github.com/whatwg/html/issues/4521,2019-04-10T18:55:53Z,2020-01-22T17:17:42Z,surma,addition/proposal|needs implementer interest|topic: serialize and transfer,1
 431573865,true,Handling of not-an-HTMLElement custom element constructor return values is different from DOM,https://github.com/whatwg/html/issues/4520,2019-04-10T15:37:27Z,2019-04-15T22:01:19Z,bzbarsky,topic: custom elements,0
-431028845,false,"Make ""as a download"" and ""obtaining a file name"" more explicit",https://github.com/whatwg/html/issues/4518,2019-04-09T15:22:13Z,2024-04-04T15:17:31Z,xyaoinum,clarification|good first issue,0
+431028845,false,"Make ""as a download"" and ""obtaining a file name"" more explicit",https://github.com/whatwg/html/issues/4518,2019-04-09T15:22:13Z,2024-08-24T08:34:00Z,xyaoinum,clarification|good first issue,0
 430955905,false,A `<label>`'s activation behavior shouldn't be platform specific,https://github.com/whatwg/html/issues/4516,2019-04-09T13:04:18Z,2019-04-10T12:14:21Z,mbrodesser,topic: forms|interop,0
 430946058,true,Broken 'href' in `multipage/links.html',https://github.com/whatwg/html/issues/4515,2019-04-09T12:43:21Z,2020-04-29T19:09:32Z,stvar,,0
 430493979,false,The behaviour for repeated calls to `focus({ preventScroll })` should be clarified,https://github.com/whatwg/html/issues/4512,2019-04-08T14:47:39Z,2019-04-11T09:46:41Z,mbrodesser,interop|topic: focus,0
@@ -3556,7 +3556,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 232231572,true,Focus state is unspecified when user agent itself loses focus.,https://github.com/whatwg/html/issues/2716,2017-05-30T12:08:33Z,2020-12-11T22:35:19Z,tobie,topic: focus,2
 232185004,true,Does <hr> create a new block formatting context?,https://github.com/whatwg/html/issues/2715,2017-05-30T08:57:45Z,2017-06-02T07:18:11Z,zcorpan,compat|topic: rendering|interop,1
 231970358,true,Proposal: Add the option to define the scroll behavior of focus(),https://github.com/whatwg/html/issues/2712,2017-05-29T09:22:06Z,2017-05-30T22:07:26Z,jihyerish,,2
-231747000,false,"Need hook for when a browsing context gains or loses focus ",https://github.com/whatwg/html/issues/2711,2017-05-26T22:19:50Z,2024-07-15T16:12:49Z,tobie,topic: focus|integration,15
+231747000,false,"Need hook for when a browsing context gains or loses focus ",https://github.com/whatwg/html/issues/2711,2017-05-26T22:19:50Z,2024-08-24T04:22:04Z,tobie,topic: focus|integration,15
 231746300,true,Expose `history.index` in addition to `history.length`,https://github.com/whatwg/html/issues/2710,2017-05-26T22:15:11Z,2021-12-07T09:20:04Z,dvoytenko,addition/proposal|topic: history,0
 231212752,true,Form submission: Should check connected twice,https://github.com/whatwg/html/issues/2708,2017-05-25T01:06:01Z,2017-09-22T12:04:33Z,tkent-google,topic: navigation|topic: forms,0
 231138283,true,Incumbent algorithm gives inconsistent results for timer callbacks and event handlers; remove skip-when-determining-incumbent counter?,https://github.com/whatwg/html/issues/2706,2017-05-24T18:56:29Z,2017-06-28T22:55:17Z,dbates-wk,topic: multiple globals,0

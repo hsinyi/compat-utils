@@ -9344,7 +9344,6 @@ css/properties/-webkit-cursor-visibility,,,,,,≤13.1,,true,false,false,,NONE
 css/properties/-webkit-hyphenate-limit-after,,,,,,≤13.1,,true,false,false,,NONE
 css/properties/-webkit-hyphenate-limit-before,,,,,,≤13.1,,true,false,false,,NONE
 css/properties/-webkit-hyphenate-limit-lines,,,,,,≤13.1,,true,false,false,,NONE
-css/properties/-webkit-initial-letter,,,,,,≤13.1,,true,false,false,,NONE
 css/properties/-webkit-line-align,,,,,,≤13.1,,true,false,false,,NONE
 css/properties/-webkit-line-box-contain,,,,,,≤13.1,,true,false,false,,NONE
 css/properties/-webkit-line-grid,,,,,,≤13.1,,true,false,false,,NONE
@@ -9982,9 +9981,9 @@ css/properties/font-feature-settings,,34,,48,,9.1,,false,true,false,https://draf
 css/properties/font-feature-settings/normal,,15,,16,,9.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-feature-settings-normal-value,W3C
 css/properties/font-kerning,,32,,33,,9,,false,true,false,https://drafts.csswg.org/css-fonts/#font-kerning-prop,W3C
 css/properties/font-language-override,,34,,,,,,false,true,false,https://drafts.csswg.org/css-fonts/#font-language-override-prop,W3C
-css/properties/font-optical-sizing,,62,,79,,11,,false,true,false,https://drafts.csswg.org/css-fonts/#font-optical-sizing-def,W3C
-css/properties/font-optical-sizing/auto,,≤72,,79,,≤13.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-optical-sizing-auto-value,W3C
-css/properties/font-optical-sizing/none,,≤72,,79,,≤13.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-optical-sizing-none-value,W3C
+css/properties/font-optical-sizing,,62,,79,,13.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-optical-sizing-def,W3C
+css/properties/font-optical-sizing/auto,,62,,79,,13.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-optical-sizing-auto-value,W3C
+css/properties/font-optical-sizing/none,,62,,79,,13.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-optical-sizing-none-value,W3C
 css/properties/font-palette,,107,,101,,15.4,,false,true,false,https://drafts.csswg.org/css-fonts/#font-palette-prop,W3C
 css/properties/font-palette/animation_computed,,,,121,,,,true,true,false,,NONE
 css/properties/font-palette/dark,,107,,101,,15.4,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-palette-dark,W3C
@@ -10865,7 +10864,7 @@ css/properties/speak-as/normal,,,,,,11.1,,true,true,false,https://drafts.csswg.o
 css/properties/speak-as/spell-out,,,,,,11.1,,true,true,false,https://drafts.csswg.org/css-speech-1/#valdef-speak-as-spell-out,W3C
 css/properties/stop-color,,≤72,,≤80,,≤13.1,,false,true,false,https://svgwg.org/svg2-draft/pservers.html#StopColorProperty,W3C
 css/properties/stop-opacity,,≤72,,≤80,,≤13.1,,false,true,false,https://svgwg.org/svg2-draft/pservers.html#StopOpacityProperty,W3C
-css/properties/stroke,,≤72,,≤80,,≤13.1,,false,true,false,https://drafts.fxtf.org/fill-stroke-3/#stroke-shorthand,W3C
+css/properties/stroke,,≤72,,≤80,,≤13.1,,false,true,false,https://svgwg.org/svg2-draft/painting.html#SpecifyingStrokePaint,W3C
 css/properties/stroke-color,,,,,,≤13.1,,true,true,false,https://drafts.fxtf.org/fill-stroke-3/#stroke-color,W3C
 css/properties/stroke-dasharray,,≤72,,≤80,,≤13.1,,false,true,false,https://drafts.fxtf.org/fill-stroke-3/#stroke-dasharray,W3C
 css/properties/stroke-dasharray/none,,≤72,,≤80,,≤13.1,,false,true,false,https://drafts.fxtf.org/fill-stroke-3/#valdef-stroke-dasharray-none,W3C
@@ -11750,9 +11749,9 @@ html/elements/font/color,,1,,1,,≤4,,false,true,true,,NONE
 html/elements/font/face,,1,,1,,≤4,,false,true,true,,NONE
 html/elements/font/size,,1,,1,,≤4,,false,true,true,,NONE
 html/elements/footer,,4,,5,,5,,false,true,false,https://html.spec.whatwg.org/multipage/sections.html#the-footer-element,WHATWG
-html/elements/form,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/multipage/forms.html#the-form-element,WHATWG
+html/elements/form,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/forms.html#the-form-element,WHATWG
 html/elements/form/accept-charset,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/forms.html#attr-form-accept-charset,WHATWG
-html/elements/form/action,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-action,WHATWG
+html/elements/form/action,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-action,WHATWG
 html/elements/form/autocomplete,,4,,14,,6,,false,true,false,https://html.spec.whatwg.org/multipage/forms.html#attr-form-autocomplete,WHATWG
 html/elements/form/autocomplete/new-password,,67,,,,,,false,true,false,,NONE
 html/elements/form/autocomplete/one-time-code,,109,,93,,12,,false,true,false,,NONE
@@ -12893,7 +12892,7 @@ javascript/builtins/Intl/Collator/resolvedOptions,,29,,24,,10,,false,true,false,
 javascript/builtins/Intl/Collator/supportedLocalesOf,,29,,24,,10,,false,true,false,https://tc39.es/ecma402/#sec-intl.collator.supportedlocalesof,TC39
 javascript/builtins/Intl/DateTimeFormat,,29,,24,,10,,false,true,false,https://tc39.es/ecma402/#datetimeformat-objects,TC39
 javascript/builtins/Intl/DateTimeFormat/DateTimeFormat,,29,,24,,10,,false,true,false,https://tc39.es/ecma402/#sec-intl-datetimeformat-constructor,TC39
-javascript/builtins/Intl/DateTimeFormat/DateTimeFormat/IntlLegacyConstructedSymbol,,54,,91,,14.1,,false,true,true,,NONE
+javascript/builtins/Intl/DateTimeFormat/DateTimeFormat/IntlLegacyConstructedSymbol,,54,,91,,14.1,,false,true,true,https://tc39.es/ecma402/#sec-chaindatetimeformat,TC39
 javascript/builtins/Intl/DateTimeFormat/DateTimeFormat/locales_parameter,,29,,24,,10,,false,true,false,,NONE
 javascript/builtins/Intl/DateTimeFormat/DateTimeFormat/options_parameter,,29,,24,,10,,false,true,false,,NONE
 javascript/builtins/Intl/DateTimeFormat/DateTimeFormat/options_parameter/options_calendar_parameter,,76,,80,,14.1,,false,true,false,,NONE
@@ -12955,7 +12954,7 @@ javascript/builtins/Intl/Locale/script,,75,,74,,14,,false,true,false,https://tc3
 javascript/builtins/Intl/Locale/toString,,75,,74,,14,,false,true,false,https://tc39.es/ecma402/#sec-Intl.Locale.prototype.toString,TC39
 javascript/builtins/Intl/NumberFormat,,29,,24,,10,,false,true,false,https://tc39.es/ecma402/#numberformat-objects,TC39
 javascript/builtins/Intl/NumberFormat/NumberFormat,,29,,24,,10,,false,true,false,https://tc39.es/ecma402/#sec-intl-numberformat-constructor,TC39
-javascript/builtins/Intl/NumberFormat/NumberFormat/IntlLegacyConstructedSymbol,,54,,91,,14.1,,false,true,true,,NONE
+javascript/builtins/Intl/NumberFormat/NumberFormat/IntlLegacyConstructedSymbol,,54,,91,,14.1,,false,true,true,https://tc39.es/ecma402/#sec-chainnumberformat,TC39
 javascript/builtins/Intl/NumberFormat/NumberFormat/locales_parameter,,29,,24,,10,,false,true,false,,NONE
 javascript/builtins/Intl/NumberFormat/NumberFormat/options_parameter,,29,,24,,10,,false,true,false,,NONE
 javascript/builtins/Intl/NumberFormat/NumberFormat/options_parameter/options_compactDisplay_parameter,,78,,77,,14.1,,false,true,false,,NONE
@@ -13008,7 +13007,6 @@ javascript/builtins/Intl/RelativeTimeFormat/RelativeTimeFormat/options_parameter
 javascript/builtins/Intl/RelativeTimeFormat/format,,65,,71,,14,,false,true,false,https://tc39.es/ecma402/#sec-Intl.RelativeTimeFormat.prototype.format,TC39
 javascript/builtins/Intl/RelativeTimeFormat/formatToParts,,70,,71,,14,,false,true,false,https://tc39.es/ecma402/#sec-Intl.RelativeTimeFormat.prototype.formatToParts,TC39
 javascript/builtins/Intl/RelativeTimeFormat/resolvedOptions,,65,,71,,14,,false,true,false,https://tc39.es/ecma402/#sec-intl.relativetimeformat.prototype.resolvedoptions,TC39
-javascript/builtins/Intl/RelativeTimeFormat/resolvedOptions/numberingSystem,,70,,73,,14,,false,true,false,,NONE
 javascript/builtins/Intl/RelativeTimeFormat/supportedLocalesOf,,65,,71,,14,,false,true,false,https://tc39.es/ecma402/#sec-Intl.RelativeTimeFormat.supportedLocalesOf,TC39
 javascript/builtins/Intl/Segmenter,,125,,87,,14.1,,false,true,false,https://tc39.es/ecma402/#segmenter-objects,TC39
 javascript/builtins/Intl/Segmenter/Segmenter,,125,,87,,14.1,,false,true,false,https://tc39.es/ecma402/#sec-intl-segmenter-constructor,TC39
@@ -13338,9 +13336,9 @@ javascript/builtins/String/substr,,1,,1,,1,,false,true,true,https://tc39.es/ecma
 javascript/builtins/String/substring,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.substring,TC39
 javascript/builtins/String/sup,,1,,1,,1,,false,true,true,https://tc39.es/ecma262/multipage/additional-ecmascript-features-for-web-browsers.html#sec-string.prototype.sup,TC39
 javascript/builtins/String/toLocaleLowerCase,,1,,1,,1.3,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.tolocalelowercase,TC39
-javascript/builtins/String/toLocaleLowerCase/locale,,55,,58,,10,,false,true,false,,NONE
+javascript/builtins/String/toLocaleLowerCase/locales_parameter,,55,,58,,10,,false,true,false,,NONE
 javascript/builtins/String/toLocaleUpperCase,,1,,1,,1.3,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.tolocaleuppercase,TC39
-javascript/builtins/String/toLocaleUpperCase/locale,,55,,58,,10,,false,true,false,,NONE
+javascript/builtins/String/toLocaleUpperCase/locales_parameter,,55,,58,,10,,false,true,false,,NONE
 javascript/builtins/String/toLowerCase,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.tolowercase,TC39
 javascript/builtins/String/toString,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.tostring,TC39
 javascript/builtins/String/toUpperCase,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.touppercase,TC39
