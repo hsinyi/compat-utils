@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2484731873,false,syntax for defining blocks of javascript files,https://github.com/whatwg/html/issues/10576,2024-08-24T17:10:21Z,2024-08-24T17:11:16Z,arcanisgk,addition/proposal|needs implementer interest,0
 2481972589,false,Upcoming WHATNOT meeting on 2024-08-29,https://github.com/whatwg/html/issues/10574,2024-08-22T23:27:09Z,2024-08-22T23:27:09Z,past,agenda+,0
 2476594876,false,Add src attribute to <template> to load a template from file,https://github.com/whatwg/html/issues/10571,2024-08-20T21:51:03Z,2024-08-21T18:58:28Z,mildred,addition/proposal|needs implementer interest,2
 2476560638,true,Proposal for adding volume attribute to the <audio> element in HTML,https://github.com/whatwg/html/issues/10570,2024-08-20T21:22:12Z,2024-08-21T03:50:46Z,Kjess1e,,0
@@ -419,7 +420,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1920253804,false,Defining a Non-Script Native HTML Component Model,https://github.com/whatwg/html/issues/9815,2023-09-30T13:13:26Z,2023-10-01T13:42:28Z,brandonmcconnell,addition/proposal|needs implementer interest,0
 1918999120,false,"Move ""Parse state"" section under ""Tree construction"" section",https://github.com/whatwg/html/issues/9814,2023-09-29T10:16:57Z,2023-10-01T13:42:45Z,not-my-profile,clarification|topic: parser,0
 1918851525,false,Meta: `dfn` elements made interactive by `html-dfn.js` aren't keyboard accessible,https://github.com/whatwg/html/issues/9813,2023-09-29T08:40:23Z,2023-10-01T13:43:05Z,not-my-profile,,0
-1918848965,false,HTML Video Element: Proposal for adding [srcset] + [posterset] + [sizes] on video element as well [posterset] on source elements,https://github.com/whatwg/html/issues/9812,2023-09-29T08:38:35Z,2023-10-03T08:48:49Z,Schepp,addition/proposal|needs implementer interest,3
+1918848965,false,HTML Video Element: Proposal for adding [srcset] + [posterset] + [sizes] on video element as well [posterset] on source elements,https://github.com/whatwg/html/issues/9812,2023-09-29T08:38:35Z,2023-10-03T08:48:49Z,Schepp,addition/proposal|needs implementer interest,4
 1918809473,false,Meta: Links that take you where you already are,https://github.com/whatwg/html/issues/9811,2023-09-29T08:17:19Z,2023-10-01T13:43:49Z,not-my-profile,,0
 1917630242,false,consider whether document-level language fallback rules make sense in all cases,https://github.com/whatwg/html/issues/9807,2023-09-28T14:06:24Z,2023-10-01T13:44:10Z,dbaron,i18n-tracker|needs tests,0
 1914439377,true,Navigables:  fireNavigateEventOnCommit is unused in apply the history step,https://github.com/whatwg/html/issues/9800,2023-09-26T23:34:38Z,2023-10-17T03:43:27Z,ADKaster,topic: navigation,0
@@ -1569,7 +1570,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 874600526,false,legend seems to be recognised/used even when not *first* child,https://github.com/whatwg/html/issues/6645,2021-05-03T13:59:41Z,2021-12-03T08:11:21Z,patrickhlauke,clarification,1
 874511738,true,`id` were mis-typed as `is`,https://github.com/whatwg/html/issues/6644,2021-05-03T12:03:10Z,2021-05-03T13:33:05Z,ianthedev,,0
 872435429,true,Cross-Origin-Embedder-Policy: credentialless,https://github.com/whatwg/html/issues/6637,2021-04-30T12:33:31Z,2021-11-02T12:55:38Z,ArthurSonzogni,topic: cross-origin-embedder-policy,0
-872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2024-05-29T19:10:59Z,asuh,addition/proposal|topic: media,13
+872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2024-05-29T19:10:59Z,asuh,addition/proposal|topic: media,14
 872059164,true,`:active` pseudo-class specification doesn't account for children/labels of disabled form elements,https://github.com/whatwg/html/issues/6635,2021-04-30T02:11:14Z,2022-02-10T19:06:49Z,alystair,topic: rendering|topic: forms,0
 870905892,false,Allow <source> to use <img>'s sizes data as a fallback,https://github.com/whatwg/html/issues/6633,2021-04-29T11:24:34Z,2022-02-04T15:46:29Z,jakearchibald,addition/proposal|topic: img,32
 870188337,true,import.meta.url always uses percent-encodings,https://github.com/whatwg/html/issues/6630,2021-04-28T17:34:16Z,2023-02-24T16:09:38Z,guybedford,,0
@@ -2829,7 +2830,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 357490424,false,Should XHR etc. still fire events after its document has gone inactive?,https://github.com/whatwg/html/issues/4007,2018-09-06T04:16:32Z,2018-09-07T14:16:46Z,TimothyGu,topic: fetch|topic: document lifecycle,0
 357460068,true,"""Hexademical character reference start state""",https://github.com/whatwg/html/issues/4006,2018-09-06T01:18:36Z,2018-09-10T12:32:01Z,stevecheckoway,good first issue|topic: parser,0
 357331672,false,WindowProxy exposes cross-origin side channel,https://github.com/whatwg/html/issues/4005,2018-09-05T17:35:35Z,2018-09-06T14:48:10Z,jakemco,security/privacy|topic: multiple globals,0
-357287740,false,The <video> poster attribute should accept multiple sources,https://github.com/whatwg/html/issues/4004,2018-09-05T15:37:34Z,2024-05-30T15:29:57Z,benwiley4000,addition/proposal|topic: media,5
+357287740,false,The <video> poster attribute should accept multiple sources,https://github.com/whatwg/html/issues/4004,2018-09-05T15:37:34Z,2024-05-30T15:29:57Z,benwiley4000,addition/proposal|topic: media,6
 357276278,false,meta refresh waiting is broken,https://github.com/whatwg/html/issues/4003,2018-09-05T15:11:39Z,2018-09-05T15:11:39Z,TimothyGu,topic: navigation,0
 356971691,false,Consider a blocklist for schemes instead of a safelist,https://github.com/whatwg/html/issues/3998,2018-09-04T20:52:06Z,2024-07-29T18:16:15Z,asankah,addition/proposal|topic: custom protocols,2
 356945492,false,Chrome/Safari handles bareword calls to Window methods differently than Firefox,https://github.com/whatwg/html/issues/3997,2018-09-04T19:29:56Z,2018-09-07T14:41:18Z,TimothyGu,topic: multiple globals|interop,0
