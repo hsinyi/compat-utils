@@ -30,13 +30,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2432148321,true,"""On platforms where Esc is the close request, the user agent will first fire an appropriately-initialized keydown and keyup event sequence"" is confusing",https://github.com/whatwg/html/issues/10523,2024-07-26T12:35:10Z,2024-08-15T01:18:42Z,smaug----,topic: close watchers,1
 2430671307,false,[rendering] animation frame callback handling when iframes are involved,https://github.com/whatwg/html/issues/10521,2024-07-25T17:58:37Z,2024-08-15T17:38:49Z,emilio,topic: rendering,1
 2430667894,false,Timing of cloning for the `<selectedoption>` element,https://github.com/whatwg/html/issues/10520,2024-07-25T17:56:27Z,2024-08-05T18:45:21Z,josepharhar,,0
-2430315277,false,Proposal: Element 'sensitive' attribute,https://github.com/whatwg/html/issues/10519,2024-07-25T15:29:50Z,2024-08-15T19:15:10Z,vmpstr,addition/proposal|needs implementer interest,4
+2430315277,false,Proposal: Element 'sensitive' attribute,https://github.com/whatwg/html/issues/10519,2024-07-25T15:29:50Z,2024-08-26T20:49:17Z,vmpstr,addition/proposal|needs implementer interest|agenda+,4
 2429939244,false,Discussing new ways of tackling User-Agent discrimination,https://github.com/whatwg/html/issues/10518,2024-07-25T13:15:13Z,2024-07-31T13:23:08Z,BenjaminAster,addition/proposal|needs implementer interest,10
 2429293395,false,Specify error event filename/lineno/colno,https://github.com/whatwg/html/issues/10517,2024-07-25T07:56:01Z,2024-07-25T08:07:44Z,domenic,interop|topic: error reporting,0
 2429263337,false,"Update all call sites of the old ""report the exception"" ",https://github.com/whatwg/html/issues/10516,2024-07-25T07:40:01Z,2024-07-25T07:40:01Z,domenic,integration|topic: error reporting,0
 2429211442,true,Editorial improvements to unhandled promise rejections,https://github.com/whatwg/html/issues/10515,2024-07-25T07:13:35Z,2024-08-07T01:10:53Z,domenic,clarification|topic: error reporting,0
 2429124307,false,Exception reporting muting is not interoperable,https://github.com/whatwg/html/issues/10514,2024-07-25T06:24:13Z,2024-07-25T07:44:14Z,domenic,interop|topic: error reporting,0
-2428415711,false,Consider adding `view-transition` as a token for `blocking`,https://github.com/whatwg/html/issues/10513,2024-07-24T20:27:55Z,2024-08-26T00:02:21Z,noamr,addition/proposal|needs implementer interest,2
+2428415711,false,Consider adding `view-transition` as a token for `blocking`,https://github.com/whatwg/html/issues/10513,2024-07-24T20:27:55Z,2024-08-26T14:54:02Z,noamr,addition/proposal|needs implementer interest,2
 2427187420,true,Navigation API: a way to share custom info across a cross-document navigation,https://github.com/whatwg/html/issues/10509,2024-07-24T10:25:59Z,2024-07-25T01:04:32Z,noamr,addition/proposal|needs implementer interest,0
 2427016162,false,Definition of all event handler attributes,https://github.com/whatwg/html/issues/10508,2024-07-24T09:13:40Z,2024-07-27T07:01:01Z,lukewarlow,,0
 2425263484,false,Pseudo elements for <video> content and controls,https://github.com/whatwg/html/issues/10507,2024-07-23T13:44:51Z,2024-08-12T06:24:14Z,jakearchibald,addition/proposal|needs implementer interest|topic: media,12
@@ -492,7 +492,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2024-03-14T17:43:28Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,5
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,true,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-09-07T21:38:07Z,past,agenda+,0
-1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-08-16T06:16:29Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,46
+1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-08-16T06:16:29Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,48
 1862349856,false,Add `allow-unique-origin` keyword in iframe/CSP sandbox,https://github.com/whatwg/html/issues/9623,2023-08-22T23:56:53Z,2023-10-01T15:12:22Z,shhnjk,,0
 1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-28T19:21:24Z,woody-li,,0
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
@@ -1304,7 +1304,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1073943544,false,Focus restoration for same-document/fragment back-forward navigation,https://github.com/whatwg/html/issues/7397,2021-12-08T02:30:02Z,2022-08-08T07:17:42Z,WestonThayer,addition/proposal|topic: history|interop|topic: focus,2
 1072970331,false,"Meta: specs using ""page visibility change steps""",https://github.com/whatwg/html/issues/7396,2021-12-07T06:32:05Z,2021-12-07T06:33:00Z,marcoscaceres,,0
 1072436933,false,<select> dynamic <option> insertion doesn't match browser reality,https://github.com/whatwg/html/issues/7395,2021-12-06T17:56:35Z,2021-12-13T20:18:49Z,dandclark,topic: forms,0
-1071265898,false,"Element request: `<h>` to reconcile heading levels, outlines, and components",https://github.com/whatwg/html/issues/7390,2021-12-04T18:17:36Z,2024-03-04T12:06:52Z,kellytk,addition/proposal|needs implementer interest,18
+1071265898,false,"Element request: `<h>` to reconcile heading levels, outlines, and components",https://github.com/whatwg/html/issues/7390,2021-12-04T18:17:36Z,2024-03-04T12:06:52Z,kellytk,addition/proposal|needs implementer interest,19
 1071222545,false,Support link modulepreload for import assertions,https://github.com/whatwg/html/issues/7388,2021-12-04T14:41:49Z,2021-12-21T21:04:51Z,uasan,addition/proposal|needs implementer interest|topic: link,1
 1071104407,true,"js drawImage ",https://github.com/whatwg/html/issues/7387,2021-12-04T03:00:23Z,2021-12-04T11:57:32Z,Ali-Hassan-Ali,,0
 1071062389,true,What should happen when setting `location.hash = location.hash`?,https://github.com/whatwg/html/issues/7386,2021-12-04T00:07:21Z,2022-01-12T17:14:26Z,cpeterso,topic: navigation|interop,0
@@ -1488,8 +1488,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 948054143,true,Upcoming HTML standard issue triage meeting on 8/5/2021,https://github.com/whatwg/html/issues/6884,2021-07-19T21:47:51Z,2021-09-02T23:46:39Z,past,agenda+,0
 947056780,true,"HTML  syntax not correct ",https://github.com/whatwg/html/issues/6875,2021-07-18T15:14:36Z,2021-07-18T16:16:52Z,harshit-dugar,spam,0
 946697785,true,"Missing parameter in the steps of ""7.10.5.8 [[Set]] ( P, V, Receiver )"" ",https://github.com/whatwg/html/issues/6873,2021-07-17T03:27:53Z,2021-07-23T10:30:54Z,yvt,good first issue,0
-946636592,false,setCustomValidity() seems pointless on <fieldset>,https://github.com/whatwg/html/issues/6870,2021-07-16T22:42:56Z,2024-04-24T14:41:30Z,domenic,addition/proposal|needs implementer interest|topic: forms,10
-946624070,false,Add required-attribute support for fieldsets,https://github.com/whatwg/html/issues/6868,2021-07-16T22:08:49Z,2023-02-13T13:51:43Z,fstrr,addition/proposal|topic: forms,15
+946636592,false,setCustomValidity() seems pointless on <fieldset>,https://github.com/whatwg/html/issues/6870,2021-07-16T22:42:56Z,2024-04-24T14:41:30Z,domenic,addition/proposal|needs implementer interest|topic: forms,11
+946624070,false,Add required-attribute support for fieldsets,https://github.com/whatwg/html/issues/6868,2021-07-16T22:08:49Z,2023-02-13T13:51:43Z,fstrr,addition/proposal|topic: forms,16
 946138075,true,How does authors specify CSS module scripts on script element?,https://github.com/whatwg/html/issues/6864,2021-07-16T10:03:55Z,2021-07-16T15:12:20Z,mtrootyy,,0
 945561794,true,Proposal: stop triggering navigations to about:blank on iframe insertion,https://github.com/whatwg/html/issues/6863,2021-07-15T16:28:37Z,2021-08-10T17:20:50Z,rakina,,2
 944085079,false,specifying BFCache interactions with window.open and browsing context groups,https://github.com/whatwg/html/issues/6858,2021-07-14T06:19:10Z,2022-04-19T21:25:19Z,fergald,topic: navigation|topic: history,0
@@ -2160,7 +2160,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 560439237,false,Data URL dedicated worker needs its own agent cluster,https://github.com/whatwg/html/issues/5254,2020-02-05T15:16:21Z,2020-04-14T10:50:27Z,annevk,topic: workers|topic: agent,0
 558782698,true,"Fragment check in the ""flush autofocus candidate"" algorithm caused a compatibility issue",https://github.com/whatwg/html/issues/5252,2020-02-03T00:20:31Z,2021-02-26T19:22:03Z,tkent-google,topic: focus,0
 558458637,true,"Clarify whether loading=""lazy"" should be honored on data url or local file images",https://github.com/whatwg/html/issues/5251,2020-02-01T01:50:13Z,2020-02-03T22:46:21Z,hiikezoe,clarification|topic: img,0
-558453967,true,Clarify then the check whether script is disabled for lazy-load,https://github.com/whatwg/html/issues/5250,2020-02-01T01:19:45Z,2020-02-12T13:20:28Z,hiikezoe,topic: img,0
+558453967,true,Clarify then the check whether script is disabled for lazy-load,https://github.com/whatwg/html/issues/5250,2020-02-01T01:19:45Z,2024-08-26T13:47:32Z,hiikezoe,topic: img,0
 557595820,false,application-name description and language negotiation,https://github.com/whatwg/html/issues/5245,2020-01-30T16:09:02Z,2021-01-25T11:25:05Z,aphillips,clarification|i18n-needs-resolution,0
 556839911,true,<img> relevant mutations is missing the referrerpolicy attribute,https://github.com/whatwg/html/issues/5244,2020-01-29T12:47:21Z,2020-05-01T15:07:03Z,zcorpan,topic: img,0
 556717640,false,HTMLObjectElement.codeBase is a DOMString but reflects as URL,https://github.com/whatwg/html/issues/5241,2020-01-29T08:46:47Z,2020-01-30T06:41:40Z,TimothyGu,,0
@@ -3083,7 +3083,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2024-08-22T18:55:26Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms|agenda+,76
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2024-08-22T18:55:26Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms|agenda+,80
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
