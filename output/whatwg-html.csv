@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2495901933,false,Spec is missing that </p> is optional before <dialog>,https://github.com/whatwg/html/issues/10590,2024-08-30T00:43:44Z,2024-08-30T05:46:20Z,laughinghan,,1
 2495218582,false,Upcoming WHATNOT meeting on 2024-09-05,https://github.com/whatwg/html/issues/10589,2024-08-29T18:06:58Z,2024-08-29T18:06:59Z,past,agenda+,0
 2492588952,false,Iframe `sandbox` compatibility with Service Workers,https://github.com/whatwg/html/issues/10585,2024-08-28T16:56:47Z,2024-08-28T16:56:47Z,BlobTheKat,addition/proposal|needs implementer interest,1
 2492022165,false,A way to get mouse coordinates without mouse moving,https://github.com/whatwg/html/issues/10584,2024-08-28T13:03:38Z,2024-08-28T18:47:19Z,oleedd,addition/proposal|needs implementer interest,0
@@ -1535,7 +1536,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 923084614,true,Extend `atob` and `btoa` to support non-ASCII strings,https://github.com/whatwg/html/issues/6779,2021-06-16T20:46:05Z,2021-07-22T22:15:36Z,ethanresnick,addition/proposal|needs implementer interest,1
 922214329,true,Setting document.domain should not work for any public suffix,https://github.com/whatwg/html/issues/6775,2021-06-16T07:36:40Z,2021-06-16T17:09:25Z,thorlacius,,0
 921850934,true,What should history.back() do when sync navigations are involved?,https://github.com/whatwg/html/issues/6773,2021-06-15T22:22:03Z,2022-10-31T05:07:06Z,domenic,topic: history|interop,0
-920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2024-07-15T14:29:23Z,sodatea,topic: script,39
+920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2024-07-15T14:29:23Z,sodatea,topic: script,40
 918518896,true,Web compat: don't run async scripts between adjacent sync <script>s,https://github.com/whatwg/html/issues/6761,2021-06-11T09:48:42Z,2024-06-10T19:07:31Z,zcorpan,compat|topic: parser|topic: script,0
 917707970,false,How should timers account for system sleep/suspend?,https://github.com/whatwg/html/issues/6759,2021-06-10T18:46:38Z,2024-01-02T18:59:04Z,shaseley,,0
 917578796,false,Additional definitions exports for Pointer Events,https://github.com/whatwg/html/issues/6758,2021-06-10T17:04:44Z,2021-08-04T17:33:43Z,plehegar,anchor permanence|editorial,0
@@ -2306,13 +2307,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 505215511,true,input[type=checkbox] is mutable even when disabled on every browser,https://github.com/whatwg/html/issues/5000,2019-10-10T11:43:45Z,2022-06-23T23:38:00Z,saschanaz,topic: forms|topic: events,2
 505188330,false,[Proposal] Require a httpCode for MediaError,https://github.com/whatwg/html/issues/4999,2019-10-10T10:46:21Z,2019-10-14T05:15:04Z,ysbcc,addition/proposal|needs implementer interest|topic: media,1
 504964886,true,[Proposal] Script or Link Tag Cache,https://github.com/whatwg/html/issues/4998,2019-10-10T00:34:14Z,2019-10-14T22:24:37Z,prezire,,0
-504809932,true,Consider PICTURE { display: contents; },https://github.com/whatwg/html/issues/4995,2019-10-09T18:10:27Z,2022-02-18T13:00:36Z,fantasai,normative change|needs implementer interest|topic: rendering|topic: img|needs compat analysis,2
+504809932,true,Consider PICTURE { display: contents; },https://github.com/whatwg/html/issues/4995,2019-10-09T18:10:27Z,2024-08-30T09:47:41Z,fantasai,normative change|needs implementer interest|topic: rendering|topic: img|needs compat analysis,2
 504407479,true,Flushing of autofocus candidates should happen before updating the rendering of documents,https://github.com/whatwg/html/issues/4992,2019-10-09T04:30:36Z,2019-10-18T05:22:00Z,rniwa,topic: focus|topic: event loop,0
 504286373,true,Structured cloning of errors makes invalid assumptions about [[GetPrototypeOf]],https://github.com/whatwg/html/issues/4991,2019-10-08T21:21:47Z,2020-04-23T21:46:57Z,bzbarsky,clarification|good first issue|topic: serialize and transfer,0
 504207648,true,Adopt the allowance of headings inside legend from W3C HTML5.2?,https://github.com/whatwg/html/issues/4990,2019-10-08T18:33:50Z,2020-02-19T13:51:38Z,SelenIT,addition/proposal|document conformance|accessibility|impacts documentation,9
 504066480,true,"""Create a similar-origin window agent"" is weird",https://github.com/whatwg/html/issues/4988,2019-10-08T14:06:18Z,2020-03-31T17:10:56Z,annevk,topic: agent,0
 503894667,false,autocomplete attribute for credit-card expiration details,https://github.com/whatwg/html/issues/4987,2019-10-08T08:12:59Z,2019-11-09T00:48:55Z,battre,addition/proposal|topic: forms|i18n-tracker,1
-503891219,false,autocomplete attribute for street-address details,https://github.com/whatwg/html/issues/4986,2019-10-08T08:05:20Z,2023-05-11T21:46:08Z,battre,addition/proposal|needs implementer interest|accessibility|topic: forms|i18n-tracker,43
+503891219,false,autocomplete attribute for street-address details,https://github.com/whatwg/html/issues/4986,2019-10-08T08:05:20Z,2023-05-11T21:46:08Z,battre,addition/proposal|needs implementer interest|accessibility|topic: forms|i18n-tracker,44
 503719928,true,Base6,https://github.com/whatwg/html/issues/4981,2019-10-07T22:17:00Z,2019-10-08T02:10:35Z,Deadmau8772,,0
 503657569,false,Attempt to remove implied-document definition,https://github.com/whatwg/html/issues/4980,2019-10-07T19:55:46Z,2020-06-24T16:37:26Z,dtapuska,clarification|topic: event loop,0
 503606041,false,Multiple Selections from Datalist,https://github.com/whatwg/html/issues/4979,2019-10-07T18:06:20Z,2021-03-21T00:07:52Z,ecc521,addition/proposal|needs implementer interest|topic: forms,2
