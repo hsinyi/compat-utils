@@ -567,7 +567,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1767690214,true,auto-sizes concrete object size ignoring natural dimensions is not implementable,https://github.com/whatwg/html/issues/9448,2023-06-21T14:08:37Z,2023-11-30T12:59:38Z,zcorpan,topic: img,1
 1765973926,false,HTML Video Element: Proposal For Support for Srcset and Sizes attributes on source elements,https://github.com/whatwg/html/issues/9446,2023-06-20T18:52:24Z,2023-06-21T07:29:11Z,scottjehl,addition/proposal|topic: media,20
 1764161923,true,Spec clarification: Are values in fontVariant & fontKerning case sensitive?,https://github.com/whatwg/html/issues/9445,2023-06-19T20:09:46Z,2023-06-19T22:59:06Z,yiyix,,0
-1763904590,false,"Import with type text, bytes, and URL",https://github.com/whatwg/html/issues/9444,2023-06-19T17:07:43Z,2024-04-23T09:55:27Z,kriskowal,addition/proposal|needs implementer interest|topic: script,10
+1763904590,false,"Import with type text, bytes, and URL",https://github.com/whatwg/html/issues/9444,2023-06-19T17:07:43Z,2024-04-23T09:55:27Z,kriskowal,addition/proposal|needs implementer interest|topic: script,11
 1763586145,false,Why is checking document validity skipped sometimes?,https://github.com/whatwg/html/issues/9441,2023-06-19T13:47:43Z,2023-09-04T13:10:28Z,mbrodesser-Igalia,topic: popover,0
 1759295446,true,Upcoming HTML standard issue triage meeting on 6/29/2023,https://github.com/whatwg/html/issues/9432,2023-06-15T17:52:32Z,2023-06-29T14:43:18Z,past,agenda+,0
 1758822017,true,`nestedShow` is not initialized in https://html.spec.whatwg.org/#show-popover,https://github.com/whatwg/html/issues/9429,2023-06-15T13:17:53Z,2023-06-29T14:03:02Z,mbrodesser-Igalia,topic: popover,0
@@ -1114,7 +1114,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1245490159,false,Consider being strict about range mismatch for media,https://github.com/whatwg/html/issues/7950,2022-05-23T17:27:12Z,2022-05-24T07:26:22Z,noamr,topic: media|interop,1
 1245461464,true,Typo in section 2.1.4 DOM trees,https://github.com/whatwg/html/issues/7949,2022-05-23T16:58:18Z,2022-05-26T15:27:55Z,AegisFair,good first issue,1
 1244030392,false,Add color-interpolation-method support for canvas gradients,https://github.com/whatwg/html/issues/7947,2022-05-21T16:39:32Z,2022-05-22T10:24:36Z,weinig,addition/proposal|topic: canvas,5
-1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2024-04-03T14:48:25Z,BenjaminAster,addition/proposal|needs implementer interest,43
+1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2024-04-03T14:48:25Z,BenjaminAster,addition/proposal|needs implementer interest,44
 1242018223,false,(Background) Tab Suspending,https://github.com/whatwg/html/issues/7942,2022-05-19T16:18:36Z,2022-05-19T16:18:36Z,johannhof,,0
 1242006437,false,Throttling and clamping of setTimeout and setInterval,https://github.com/whatwg/html/issues/7941,2022-05-19T16:08:39Z,2022-05-20T08:26:05Z,johannhof,topic: event loop|topic: timing,0
 1241898306,false,Make `<embed>` and `<object>` behave like `<iframe>` for image loading,https://github.com/whatwg/html/issues/7939,2022-05-19T14:43:19Z,2022-06-27T20:59:41Z,farre,normative change|topic: navigation|topic: embed and object,0
@@ -1919,7 +1919,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 670624449,false,Table grouping should clear row spans,https://github.com/whatwg/html/issues/5776,2020-08-01T07:39:57Z,2020-08-04T07:54:25Z,Manishearth,topic: table,0
 668491123,true,How should errors in cross-origin importScripts() sanitized when reported to WorkerGlobalScope error event?,https://github.com/whatwg/html/issues/5772,2020-07-30T08:31:52Z,2020-07-31T17:32:27Z,hiroshige-g,,0
 668316042,true,"""reset the rendering context to its default state"" should also clear the ""current default path""",https://github.com/whatwg/html/issues/5771,2020-07-30T02:45:19Z,2021-05-11T19:48:32Z,Kaiido,good first issue|compat|topic: canvas,0
-667632550,true,Changing the session history spec to converge on historical & modern browser behaviour,https://github.com/whatwg/html/issues/5767,2020-07-29T07:55:23Z,2022-10-31T05:07:03Z,jakearchibald,topic: history,0
+667632550,true,Changing the session history spec to converge on historical & modern browser behaviour,https://github.com/whatwg/html/issues/5767,2020-07-29T07:55:23Z,2024-08-31T17:47:15Z,jakearchibald,topic: history,0
 666772419,false,"Should ""message"" events be fired on closed MessagePorts?",https://github.com/whatwg/html/issues/5765,2020-07-28T05:07:28Z,2024-03-12T05:14:48Z,karlt,topic: serialize and transfer,0
 666548263,true,"""For example, an element that is both flow conte...""",https://github.com/whatwg/html/issues/5764,2020-07-27T19:59:53Z,2020-08-05T19:24:12Z,tabatkins,good first issue|document conformance,1
 666334122,false,"Proposal for fillAndStroke function ",https://github.com/whatwg/html/issues/5762,2020-07-27T14:21:28Z,2023-05-18T12:23:40Z,GMartigny,addition/proposal|needs implementer interest|topic: canvas,0
