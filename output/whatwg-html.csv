@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2499123001,false,`<datalist>` displaying both label and values for `option` elements,https://github.com/whatwg/html/issues/10594,2024-09-01T00:57:02Z,2024-09-01T01:25:59Z,joshdales,,0
+2499736085,false,"The term ""literal"" is not defined, particularly as applied to a character",https://github.com/whatwg/html/issues/10595,2024-09-01T23:24:30Z,2024-09-01T23:33:55Z,dirkf,,0
+2499123001,false,`<datalist>` displaying both label and values for `option` elements is a little confusing,https://github.com/whatwg/html/issues/10594,2024-09-01T00:57:02Z,2024-09-01T17:19:12Z,joshdales,,0
 2497494012,false,Support disabling CloseWatcher integration in `<dialog>`,https://github.com/whatwg/html/issues/10592,2024-08-30T15:11:55Z,2024-08-30T21:04:31Z,lucacasonato,addition/proposal|needs implementer interest|topic: dialog,2
 2495901933,false,Spec is missing that </p> is optional before <dialog>,https://github.com/whatwg/html/issues/10590,2024-08-30T00:43:44Z,2024-08-30T05:46:20Z,laughinghan,,1
 2495218582,false,Upcoming WHATNOT meeting on 2024-09-05,https://github.com/whatwg/html/issues/10589,2024-08-29T18:06:58Z,2024-08-29T18:06:59Z,past,agenda+,0
@@ -1899,7 +1900,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 678407193,false,Support Japanese phonetic names to `autocomplete` attribute,https://github.com/whatwg/html/issues/5821,2020-08-13T12:42:54Z,2020-10-16T21:05:57Z,agektmr,addition/proposal|topic: forms|i18n-tracker|i18n-jlreq,12
 678317247,false,Try using dark red for the header font color,https://github.com/whatwg/html/issues/5819,2020-08-13T10:06:48Z,2020-08-17T12:27:49Z,luchiified,,0
 677993252,true,"COEP reporting ""blocked-url"" should probably be ""blockedURL""",https://github.com/whatwg/html/issues/5818,2020-08-12T21:34:29Z,2020-08-21T14:57:33Z,domenic,topic: cross-origin-embedder-policy,0
-677391669,false,Allow for the possibility of user agents implementing landmark navigation,https://github.com/whatwg/html/issues/5813,2020-08-12T05:17:57Z,2023-04-07T18:30:10Z,carmacleod,clarification|accessibility|a11y-tracker,1
+677391669,false,Allow for the possibility of user agents implementing landmark navigation,https://github.com/whatwg/html/issues/5813,2020-08-12T05:17:57Z,2023-04-07T18:30:10Z,carmacleod,clarification|accessibility|a11y-tracker,2
 677391273,false,Consider allowing label elements to provide a label for landmark elements,https://github.com/whatwg/html/issues/5812,2020-08-12T05:17:05Z,2021-11-12T00:28:02Z,carmacleod,addition/proposal|accessibility|a11y-tracker,0
 677390392,true,Consider creating an HTML search element,https://github.com/whatwg/html/issues/5811,2020-08-12T05:15:08Z,2023-03-24T01:54:41Z,carmacleod,addition/proposal|accessibility|a11y-tracker,24
 676925106,true,"Possible loophole in COOP together with sandbox=""allow-popups""",https://github.com/whatwg/html/issues/5806,2020-08-11T14:28:47Z,2020-08-12T14:24:18Z,zcorpan,topic: sandbox,0
@@ -1920,7 +1921,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 670624449,false,Table grouping should clear row spans,https://github.com/whatwg/html/issues/5776,2020-08-01T07:39:57Z,2020-08-04T07:54:25Z,Manishearth,topic: table,0
 668491123,true,How should errors in cross-origin importScripts() sanitized when reported to WorkerGlobalScope error event?,https://github.com/whatwg/html/issues/5772,2020-07-30T08:31:52Z,2020-07-31T17:32:27Z,hiroshige-g,,0
 668316042,true,"""reset the rendering context to its default state"" should also clear the ""current default path""",https://github.com/whatwg/html/issues/5771,2020-07-30T02:45:19Z,2021-05-11T19:48:32Z,Kaiido,good first issue|compat|topic: canvas,0
-667632550,true,Changing the session history spec to converge on historical & modern browser behaviour,https://github.com/whatwg/html/issues/5767,2020-07-29T07:55:23Z,2024-08-31T17:47:15Z,jakearchibald,topic: history,0
+667632550,true,Changing the session history spec to converge on historical & modern browser behaviour,https://github.com/whatwg/html/issues/5767,2020-07-29T07:55:23Z,2024-09-01T14:08:14Z,jakearchibald,topic: history,0
 666772419,false,"Should ""message"" events be fired on closed MessagePorts?",https://github.com/whatwg/html/issues/5765,2020-07-28T05:07:28Z,2024-03-12T05:14:48Z,karlt,topic: serialize and transfer,0
 666548263,true,"""For example, an element that is both flow conte...""",https://github.com/whatwg/html/issues/5764,2020-07-27T19:59:53Z,2020-08-05T19:24:12Z,tabatkins,good first issue|document conformance,1
 666334122,false,"Proposal for fillAndStroke function ",https://github.com/whatwg/html/issues/5762,2020-07-27T14:21:28Z,2023-05-18T12:23:40Z,GMartigny,addition/proposal|needs implementer interest|topic: canvas,0
@@ -3092,7 +3093,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2024-09-01T03:09:06Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,81
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2024-09-01T03:09:06Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,82
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
