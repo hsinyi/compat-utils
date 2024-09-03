@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2501238997,false," Provide an API in dedicate worker for executing event loop",https://github.com/whatwg/html/issues/10596,2024-09-02T15:38:39Z,2024-09-02T15:38:39Z,burningtnt,addition/proposal|needs implementer interest,0
 2499736085,false,"The term ""literal"" is not defined, particularly as applied to a character",https://github.com/whatwg/html/issues/10595,2024-09-01T23:24:30Z,2024-09-02T08:26:27Z,dirkf,clarification,0
 2499123001,false,`<datalist>` displaying both label and values for `option` elements is a little confusing,https://github.com/whatwg/html/issues/10594,2024-09-01T00:57:02Z,2024-09-02T11:04:20Z,joshdales,topic: rendering|topic: forms,0
 2497494012,false,Support disabling CloseWatcher integration in `<dialog>`,https://github.com/whatwg/html/issues/10592,2024-08-30T15:11:55Z,2024-08-30T21:04:31Z,lucacasonato,addition/proposal|needs implementer interest|topic: dialog,2
@@ -39,7 +40,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2435979361,true,"[parsing] ""adoption agency algorithm"" ambiguity",https://github.com/whatwg/html/issues/10525,2024-07-29T17:36:32Z,2024-08-13T17:10:58Z,rshadr,topic: parser,0
 2432148321,true,"""On platforms where Esc is the close request, the user agent will first fire an appropriately-initialized keydown and keyup event sequence"" is confusing",https://github.com/whatwg/html/issues/10523,2024-07-26T12:35:10Z,2024-08-15T01:18:42Z,smaug----,topic: close watchers,1
 2430671307,false,[rendering] animation frame callback handling when iframes are involved,https://github.com/whatwg/html/issues/10521,2024-07-25T17:58:37Z,2024-08-15T17:38:49Z,emilio,topic: rendering,1
-2430667894,false,Timing of cloning for the `<selectedoption>` element,https://github.com/whatwg/html/issues/10520,2024-07-25T17:56:27Z,2024-08-29T10:39:51Z,josepharhar,,0
+2430667894,false,Timing of cloning for the `<selectedoption>` element,https://github.com/whatwg/html/issues/10520,2024-07-25T17:56:27Z,2024-09-02T16:05:20Z,josepharhar,,0
 2430315277,false,Proposal: Element 'sensitive' attribute,https://github.com/whatwg/html/issues/10519,2024-07-25T15:29:50Z,2024-08-29T18:01:18Z,vmpstr,addition/proposal|needs implementer interest,4
 2429939244,false,Discussing new ways of tackling User-Agent discrimination,https://github.com/whatwg/html/issues/10518,2024-07-25T13:15:13Z,2024-07-31T13:23:08Z,BenjaminAster,addition/proposal|needs implementer interest,10
 2429293395,false,Specify error event filename/lineno/colno,https://github.com/whatwg/html/issues/10517,2024-07-25T07:56:01Z,2024-07-25T08:07:44Z,domenic,interop|topic: error reporting,0
@@ -126,7 +127,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2327513339,false,[Proposal] capture screen,https://github.com/whatwg/html/issues/10382,2024-05-31T10:35:41Z,2024-05-31T10:43:43Z,hemanth,addition/proposal|needs implementer interest,2
 2326705799,true,Upcoming WHATNOT meeting on 6/6/2024,https://github.com/whatwg/html/issues/10381,2024-05-30T23:34:22Z,2024-06-06T17:00:23Z,past,agenda+,0
 2324176691,false,HTML Video and its Source Elements Should Support SRCSET and SIZES,https://github.com/whatwg/html/issues/10379,2024-05-29T20:16:56Z,2024-08-14T12:07:18Z,scottjehl,addition/proposal|needs implementer interest|topic: media,5
-2324127724,false,HTML Video: Allow a child Picture Element to Control the Video Poster Image,https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2024-05-30T14:47:25Z,scottjehl,,13
+2324127724,false,HTML Video: Allow a child Picture Element to Control the Video Poster Image,https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2024-05-30T14:47:25Z,scottjehl,,14
 2324097406,false,"Specify That Responsive Video Elements Re-Evaluate Sources on Media Change, Like Picture",https://github.com/whatwg/html/issues/10377,2024-05-29T19:33:05Z,2024-05-29T19:33:05Z,scottjehl,,3
 2324056660,false,Video loading=lazy attribute support,https://github.com/whatwg/html/issues/10376,2024-05-29T19:09:50Z,2024-06-21T23:56:12Z,scottjehl,addition/proposal|needs implementer interest,12
 2322953911,false,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-08-13T16:03:47Z,yoavweiss,addition/proposal|needs implementer interest,0
@@ -494,7 +495,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1870830199,true,404,https://github.com/whatwg/html/issues/9643,2023-08-29T03:49:27Z,2023-08-30T08:16:45Z,ToBeJazz,,0
 1868260579,true,Dialog initial focus when dialog contains a slot element,https://github.com/whatwg/html/issues/9640,2023-08-26T20:31:00Z,2023-08-30T07:33:58Z,josepharhar,topic: shadow|topic: focus,0
 1867981093,false,Define :user-invalid / :user-valid for form-associated custom elements,https://github.com/whatwg/html/issues/9639,2023-08-26T08:41:03Z,2024-02-20T14:54:48Z,nt1m,addition/proposal|needs implementer interest|topic: custom elements|topic: forms,0
-1867975363,false,Make cloneNode() copy files of <input type=file>,https://github.com/whatwg/html/issues/9638,2023-08-26T08:26:25Z,2023-12-24T02:20:08Z,annevk,topic: forms,0
+1867975363,false,Make cloneNode() copy files of <input type=file>,https://github.com/whatwg/html/issues/9638,2023-08-26T08:26:25Z,2024-09-02T13:27:11Z,annevk,compat|topic: forms,0
 1866648537,true,"""note about 103 and HTTP/2"" makes normative assertion",https://github.com/whatwg/html/issues/9637,2023-08-25T09:01:04Z,2023-09-04T08:30:18Z,annevk,,1
 1866045497,true,Treat .d/ as same-origin for file:// URLs,https://github.com/whatwg/html/issues/9635,2023-08-25T00:06:41Z,2023-08-25T10:32:24Z,SoniEx2,,0
 1865899743,true,Initialization of NavigateEvent info property,https://github.com/whatwg/html/issues/9634,2023-08-24T21:18:14Z,2023-08-24T21:44:23Z,ADKaster,topic: navigation,0
@@ -502,7 +503,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2024-03-14T17:43:28Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,5
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,true,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-09-07T21:38:07Z,past,agenda+,0
-1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-08-16T06:16:29Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,48
+1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-09-02T16:09:00Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,48
 1862349856,false,Add `allow-unique-origin` keyword in iframe/CSP sandbox,https://github.com/whatwg/html/issues/9623,2023-08-22T23:56:53Z,2023-10-01T15:12:22Z,shhnjk,,0
 1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-28T19:21:24Z,woody-li,,0
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
