@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2501238997,false," Provide an API in dedicate worker for executing event loop",https://github.com/whatwg/html/issues/10596,2024-09-02T15:38:39Z,2024-09-02T15:38:39Z,burningtnt,addition/proposal|needs implementer interest,0
+2501238997,false," Provide an API in dedicate worker for executing event loop",https://github.com/whatwg/html/issues/10596,2024-09-02T15:38:39Z,2024-09-03T12:00:48Z,burningtnt,addition/proposal|needs implementer interest|topic: workers,0
 2499736085,false,"The term ""literal"" is not defined, particularly as applied to a character",https://github.com/whatwg/html/issues/10595,2024-09-01T23:24:30Z,2024-09-02T08:26:27Z,dirkf,clarification,0
 2499123001,false,`<datalist>` displaying both label and values for `option` elements is a little confusing,https://github.com/whatwg/html/issues/10594,2024-09-01T00:57:02Z,2024-09-02T11:04:20Z,joshdales,topic: rendering|topic: forms,0
 2497494012,false,Support disabling CloseWatcher integration in `<dialog>`,https://github.com/whatwg/html/issues/10592,2024-08-30T15:11:55Z,2024-08-30T21:04:31Z,lucacasonato,addition/proposal|needs implementer interest|topic: dialog,2
@@ -503,7 +503,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1865552680,false,Allow additional elements to be considered labelable,https://github.com/whatwg/html/issues/9632,2023-08-24T16:58:56Z,2024-03-14T17:43:28Z,dmjohnsson23,addition/proposal|needs implementer interest|a11y-tracker,5
 1865087034,true,timer initialization steps has vague reference to WindowProxy,https://github.com/whatwg/html/issues/9631,2023-08-24T12:48:16Z,2023-08-24T16:29:11Z,Ms2ger,,0
 1864127558,true,Upcoming HTML standard issue triage meeting on 9/7/2023,https://github.com/whatwg/html/issues/9629,2023-08-23T23:03:34Z,2023-09-07T21:38:07Z,past,agenda+,0
-1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-09-02T16:09:00Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,48
+1862948474,false,[Proposal] Invoker Buttons - allowing popover/dialog and more to be invoked without JS,https://github.com/whatwg/html/issues/9625,2023-08-23T09:34:22Z,2024-09-03T07:36:52Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: events|topic: dialog|topic: popover,48
 1862349856,false,Add `allow-unique-origin` keyword in iframe/CSP sandbox,https://github.com/whatwg/html/issues/9623,2023-08-22T23:56:53Z,2023-10-01T15:12:22Z,shhnjk,,0
 1858440019,true,[Question] Should mouseover event propagates across shadowDom?,https://github.com/whatwg/html/issues/9619,2023-08-21T02:32:55Z,2023-08-28T19:21:24Z,woody-li,,0
 1857932079,true,"remove <input type=“password”> ",https://github.com/whatwg/html/issues/9617,2023-08-20T02:47:37Z,2023-08-20T03:59:47Z,MichaelMcGlothlin,,0
@@ -1351,7 +1351,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1048953178,true,Make `HTMLSlotElement.assign()` accept sequence,https://github.com/whatwg/html/issues/7321,2021-11-09T18:44:20Z,2021-11-16T12:10:52Z,orstavik,impacts documentation,0
 1046120003,true,Upcoming HTML standard issue triage meeting on 12/2/2021,https://github.com/whatwg/html/issues/7299,2021-11-05T18:21:22Z,2021-12-07T23:09:38Z,past,agenda+,0
 1045590723,true,"type mismatch in the ""document base URL"" definition",https://github.com/whatwg/html/issues/7297,2021-11-05T08:55:08Z,2022-02-17T16:00:35Z,rdeltour,,2
-1043854147,false,<input type=password> should provide UI to show/hide its value,https://github.com/whatwg/html/issues/7293,2021-11-03T17:05:06Z,2023-07-19T08:44:35Z,MatsPalmgren,topic: forms,23
+1043854147,false,<input type=password> should provide UI to show/hide its value,https://github.com/whatwg/html/issues/7293,2021-11-03T17:05:06Z,2023-07-19T08:44:35Z,MatsPalmgren,topic: forms,24
 1043387524,false,Form restoration interop,https://github.com/whatwg/html/issues/7292,2021-11-03T10:49:33Z,2022-07-19T17:29:23Z,annevk,topic: forms|topic: history|interop,7
 1040594692,true,Would it be possible for the tabIndex property to only return 0 if the element is actually sequentially focusable?,https://github.com/whatwg/html/issues/7277,2021-10-31T22:10:42Z,2021-11-01T14:11:42Z,simevidas,,0
 1040551731,true,Incorrectly closed tags in The section element example,https://github.com/whatwg/html/issues/7276,2021-10-31T18:39:46Z,2021-10-31T19:01:40Z,ghost,,0
@@ -1540,7 +1540,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 923084614,true,Extend `atob` and `btoa` to support non-ASCII strings,https://github.com/whatwg/html/issues/6779,2021-06-16T20:46:05Z,2021-07-22T22:15:36Z,ethanresnick,addition/proposal|needs implementer interest,1
 922214329,true,Setting document.domain should not work for any public suffix,https://github.com/whatwg/html/issues/6775,2021-06-16T07:36:40Z,2021-06-16T17:09:25Z,thorlacius,,0
 921850934,true,What should history.back() do when sync navigations are involved?,https://github.com/whatwg/html/issues/6773,2021-06-15T22:22:03Z,2022-10-31T05:07:06Z,domenic,topic: history|interop,0
-920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2024-07-15T14:29:23Z,sodatea,topic: script,40
+920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2024-07-15T14:29:23Z,haoqunjiang,topic: script,40
 918518896,true,Web compat: don't run async scripts between adjacent sync <script>s,https://github.com/whatwg/html/issues/6761,2021-06-11T09:48:42Z,2024-06-10T19:07:31Z,zcorpan,compat|topic: parser|topic: script,0
 917707970,false,How should timers account for system sleep/suspend?,https://github.com/whatwg/html/issues/6759,2021-06-10T18:46:38Z,2024-01-02T18:59:04Z,shaseley,,0
 917578796,false,Additional definitions exports for Pointer Events,https://github.com/whatwg/html/issues/6758,2021-06-10T17:04:44Z,2021-08-04T17:33:43Z,plehegar,anchor permanence|editorial,0
@@ -3147,7 +3147,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 299768627,true,:heading() CSS pseudo-class: Level ranges,https://github.com/whatwg/html/issues/3500,2018-02-23T16:25:26Z,2022-12-12T09:20:12Z,js-choi,addition/proposal|needs implementer interest|topic: selectors,9
 299443198,true,Editorial: make implicit autofocus algorithm flag explicit,https://github.com/whatwg/html/issues/3498,2018-02-22T17:35:34Z,2020-03-25T21:36:10Z,annevk,clarification|topic: forms,0
 299372660,true,Sync navigation to a fragment identifier is probably not compatible with out-of-process iframes,https://github.com/whatwg/html/issues/3497,2018-02-22T14:24:35Z,2022-10-31T05:06:58Z,bzbarsky,normative change|topic: navigation|interop|topic: agent,0
-299290625,false,Define <meta name=viewport>,https://github.com/whatwg/html/issues/3494,2018-02-22T10:05:31Z,2023-04-07T07:17:40Z,annevk,integration,2
+299290625,false,Define <meta name=viewport>,https://github.com/whatwg/html/issues/3494,2018-02-22T10:05:31Z,2024-09-03T09:21:10Z,annevk,integration,2
 299245028,true,Missing specification for application/x-www-form-urlencoded,https://github.com/whatwg/html/issues/3493,2018-02-22T07:16:23Z,2018-02-22T16:54:07Z,dannyniu,,0
 299233491,true,frame and iframe have different load-event-firing behaviors,https://github.com/whatwg/html/issues/3492,2018-02-22T06:10:31Z,2018-02-23T07:18:25Z,bzbarsky,,0
 299232815,true,"What task is the end of ""Navigating to a fragment"" talking about?",https://github.com/whatwg/html/issues/3491,2018-02-22T06:05:58Z,2021-06-16T17:44:02Z,bzbarsky,good first issue,0
