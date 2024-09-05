@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2504858172,false,"Remove ""classic"" from ""default classic script fetch options""",https://github.com/whatwg/html/pull/10598,2024-09-04T09:57:14Z,2024-09-04T13:18:00Z,nicolo-ribaudo,,0
+2504858172,true,"Remove ""classic"" from ""default classic script fetch options""",https://github.com/whatwg/html/pull/10598,2024-09-04T09:57:14Z,2024-09-05T06:23:32Z,nicolo-ribaudo,,0
 2497624383,false,Support opening dialog modals without automatic closing behaviour,https://github.com/whatwg/html/pull/10593,2024-08-30T15:56:44Z,2024-08-30T16:36:43Z,lucacasonato,topic: dialog,0
 2496330837,true,The p element's end tag may be omitted when followed by dialog,https://github.com/whatwg/html/pull/10591,2024-08-30T06:12:04Z,2024-09-04T10:51:10Z,annevk,,1
 2494796863,true,Editorial: fix a few more typos,https://github.com/whatwg/html/pull/10588,2024-08-29T15:12:11Z,2024-08-29T16:37:47Z,jmdyck,,0
@@ -16,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2468462371,true,Fix incorrect recursion for dir=auto special cases.,https://github.com/whatwg/html/pull/10561,2024-08-15T16:43:24Z,2024-08-22T16:01:40Z,dbaron,topic: shadow|i18n-tracker,0
 2467498874,false,"Add ""same origin with its ancestors""",https://github.com/whatwg/html/pull/10559,2024-08-15T06:30:36Z,2024-08-15T08:19:08Z,domenic,topic: origin|integration,0
 2464881277,true,"Fix ""can have its URL rewritten"" buggy fallthrough",https://github.com/whatwg/html/pull/10558,2024-08-14T04:35:32Z,2024-08-15T01:08:30Z,domenic,topic: navigation,1
-2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2024-09-04T20:34:57Z,josepharhar,normative change|topic: parser,1
+2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2024-09-05T09:48:31Z,josepharhar,normative change|topic: parser,1
 2458340131,true,Remove exception reporting from declarative shadow dom,https://github.com/whatwg/html/pull/10552,2024-08-09T17:13:23Z,2024-08-14T15:44:52Z,mfreed7,normative change|topic: shadow|topic: parser,0
 2450354011,true,Editorial: modernize promise rejection tracking,https://github.com/whatwg/html/pull/10550,2024-08-06T09:07:03Z,2024-08-07T01:10:54Z,domenic,topic: error reporting,0
 2448702538,false,Complete draft spec for customizable `<select>`,https://github.com/whatwg/html/pull/10548,2024-08-05T14:28:06Z,2024-08-31T22:50:06Z,josepharhar,,0
@@ -27,7 +27,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2443787607,true,Clarify how PLAINTEXT elements may contain child nodes.,https://github.com/whatwg/html/pull/10540,2024-08-02T01:31:30Z,2024-08-14T17:47:43Z,dmsnell,needs implementer interest|topic: parser,0
 2437596520,true,Fix Jake diagram conformance issues,https://github.com/whatwg/html/pull/10530,2024-07-30T11:24:16Z,2024-07-31T07:41:01Z,yoavweiss,,0
 2437215499,true,Editorial: fix cross-reference for exception reporting global,https://github.com/whatwg/html/pull/10529,2024-07-30T08:20:00Z,2024-08-02T05:20:57Z,Ms2ger,,0
-2437162429,false,Dynamic import maps,https://github.com/whatwg/html/pull/10528,2024-07-30T07:54:57Z,2024-09-03T15:33:33Z,yoavweiss,agenda+,2
+2437162429,false,Dynamic import maps,https://github.com/whatwg/html/pull/10528,2024-07-30T07:54:57Z,2024-09-05T06:21:42Z,yoavweiss,agenda+,2
 2434585445,true,Further fixes to keydown vs. keyup for close requests,https://github.com/whatwg/html/pull/10524,2024-07-29T06:42:25Z,2024-08-15T01:18:42Z,domenic,topic: close watchers,1
 2431085399,false,Add support for internationalized email addresses,https://github.com/whatwg/html/pull/10522,2024-07-25T22:42:22Z,2024-08-22T23:23:37Z,aphillips,i18n-tracker,0
 2424062926,true,Fix bug in timer initialisation steps involving reusing cleared IDs,https://github.com/whatwg/html/pull/10505,2024-07-23T01:41:24Z,2024-08-15T06:32:56Z,majaha,,0
@@ -68,7 +68,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2334993245,true,Don't set hashChange to true for classic history API navigate events,https://github.com/whatwg/html/pull/10393,2024-06-05T06:13:48Z,2024-06-20T07:04:40Z,domenic,,0
 2333893692,false,"Editorial: For `CONTRIBUTING.md`, add explicit references to patterns we've evolved over time",https://github.com/whatwg/html/pull/10392,2024-06-04T16:05:05Z,2024-08-29T01:52:24Z,domfarolino,,2
 2329069209,true,Match order of arguments when calling 'getting the descendant script fetch options',https://github.com/whatwg/html/pull/10385,2024-06-01T10:41:13Z,2024-06-03T04:44:32Z,jamierocks,topic: script,0
-2326224026,true,Latest WebAssembly ESM Integration rebase,https://github.com/whatwg/html/pull/10380,2024-05-30T17:37:52Z,2024-09-04T06:56:48Z,guybedford,addition/proposal|topic: script,0
+2326224026,true,Latest WebAssembly ESM Integration rebase,https://github.com/whatwg/html/pull/10380,2024-05-30T17:37:52Z,2024-09-05T03:53:40Z,guybedford,addition/proposal|topic: script,0
 2323722981,true,Navigation: Pass a global object to consume history-action activation AO,https://github.com/whatwg/html/pull/10375,2024-05-29T16:21:03Z,2024-05-30T02:10:19Z,ADKaster,topic: navigation,0
 2322971728,true,Add an `omit` value to Cross-Origin-Opener-Policy,https://github.com/whatwg/html/pull/10374,2024-05-29T10:32:55Z,2024-06-05T07:31:31Z,yoavweiss,,0
 2317911685,true,Editorial: fix more typos,https://github.com/whatwg/html/pull/10369,2024-05-26T20:01:59Z,2024-05-27T13:53:57Z,jmdyck,,0
