@@ -7042,6 +7042,7 @@ api/ServiceWorkerContainer/messageerror_event,,65,,80,,16.4,,false,true,false,ht
 api/ServiceWorkerContainer/ready,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#navigator-service-worker-ready,W3C
 api/ServiceWorkerContainer/register,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#navigator-service-worker-register,W3C
 api/ServiceWorkerContainer/startMessages,,64,,74,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#navigator-service-worker-startMessages,W3C
+api/ServiceWorkerContainer/worker_support,,133,,,,11.1,,false,true,false,,NONE
 api/ServiceWorkerGlobalScope,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#serviceworkerglobalscope-interface,W3C
 api/ServiceWorkerGlobalScope/abortpayment_event,,,,70,,,,true,false,false,,NONE
 api/ServiceWorkerGlobalScope/activate_event,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#service-worker-global-scope-activate-event,W3C
@@ -8659,9 +8660,9 @@ api/Window/originAgentCluster,,,,90,,,,true,true,false,https://html.spec.whatwg.
 api/Window/outerHeight,,1,,1,,3,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-window-outerheight,W3C
 api/Window/outerWidth,,1,,1,,3,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-window-outerwidth,W3C
 api/Window/pagehide_event,,6,,3,,5,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-pagehide,WHATWG
-api/Window/pagereveal_event,,,,123,,,,true,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-pagereveal,WHATWG
+api/Window/pagereveal_event,,,,123,,18.2,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-pagereveal,WHATWG
 api/Window/pageshow_event,,6,,3,,5,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-pageshow,WHATWG
-api/Window/pageswap_event,,,,124,,,,true,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-pageswap,WHATWG
+api/Window/pageswap_event,,,,124,,18.2,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-pageswap,WHATWG
 api/Window/parent,,1,,1,,1.3,,false,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-parent-dev,WHATWG
 api/Window/personalbar,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-window-personalbar-dev,WHATWG
 api/Window/popstate_event,,4,,5,,5,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-popstate,WHATWG
@@ -9378,7 +9379,7 @@ css/at-rules/media/update,,102,,113,,17,,false,true,false,https://drafts.csswg.o
 css/at-rules/media/video-dynamic-range,,100,,98,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,false,true,false,https://drafts.csswg.org/mediaqueries-5/#video-dynamic-range,W3C
 css/at-rules/media/width,,2,,1,,3,,false,true,false,https://drafts.csswg.org/mediaqueries/#width,W3C
 css/at-rules/namespace,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-namespaces/#declaration,W3C
-css/at-rules/page,,19,,2,,,,false,true,false,https://drafts.csswg.org/css-page/#at-page-rule,W3C
+css/at-rules/page,,19,,2,,18.2,,false,true,false,https://drafts.csswg.org/css-page/#at-page-rule,W3C
 css/at-rules/page/bottom-center,,,,131,,,,true,true,false,https://drafts.csswg.org/css-page-3/#at-ruledef-bottom-center,W3C
 css/at-rules/page/bottom-left,,,,131,,,,true,true,false,https://drafts.csswg.org/css-page-3/#at-ruledef-bottom-left,W3C
 css/at-rules/page/bottom-left-corner,,,,131,,,,true,true,false,https://drafts.csswg.org/css-page-3/#at-ruledef-bottom-left-corner,W3C
@@ -9391,7 +9392,7 @@ css/at-rules/page/page-orientation,,preview,,85,,,,false,true,false,https://draf
 css/at-rules/page/right-bottom,,,,131,,,,true,true,false,https://drafts.csswg.org/css-page-3/#at-ruledef-right-bottom,W3C
 css/at-rules/page/right-middle,,,,131,,,,true,true,false,https://drafts.csswg.org/css-page-3/#at-ruledef-right-middle,W3C
 css/at-rules/page/right-top,,,,131,,,,true,true,false,https://drafts.csswg.org/css-page-3/#at-ruledef-right-top,W3C
-css/at-rules/page/size,,95,,15,,,,false,true,false,https://drafts.csswg.org/css-page/#page-size-prop,W3C
+css/at-rules/page/size,,95,,15,,18.2,,false,true,false,https://drafts.csswg.org/css-page/#page-size-prop,W3C
 css/at-rules/page/size/jis-b4,,95,,83,,18.2,,false,true,false,https://drafts.csswg.org/css-page/#page-size-prop,W3C
 css/at-rules/page/size/jis-b5,,95,,83,,18.2,,false,true,false,https://drafts.csswg.org/css-page/#page-size-prop,W3C
 css/at-rules/page/top-center,,,,131,,,,true,true,false,https://drafts.csswg.org/css-page-3/#at-ruledef-top-center,W3C
@@ -11279,7 +11280,7 @@ css/properties/z-index,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css2/
 css/properties/z-index/auto,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css2/#valdef-z-index-auto,W3C
 css/properties/z-index/negative_values,,3,,1,,1,,false,true,false,,NONE
 css/properties/zoom,,126,,1,,3.1,,false,true,false,https://drafts.csswg.org/css-viewport/#zoom-property,W3C
-css/properties/zoom/reset,,,,1,,3.1,,false,true,false,,NONE
+css/properties/zoom/reset,,,,1,,3.1,,false,false,true,,NONE
 css/selectors/-moz-broken,,3,,,,,,false,false,true,,NONE
 css/selectors/-moz-color-swatch,,27,,,,,,false,false,false,,NONE
 css/selectors/-moz-first-node,,≤72,,,,,,true,false,false,,NONE
@@ -11333,13 +11334,11 @@ css/selectors/backdrop/inherit_from_originating_element,,120,,122,,17.4,,false,t
 css/selectors/backdrop/popover,,125,,114,,17,,false,true,false,,NONE
 css/selectors/before,,1.5,,1,,4,,false,true,false,https://drafts.csswg.org/css-pseudo/#generated-content,W3C
 css/selectors/before/animation_and_transition_support,,4,,26,,7,,false,true,false,,NONE
-css/selectors/blank,,,,,,,,true,true,false,https://drafts.csswg.org/selectors/#blank-pseudo,W3C
 css/selectors/buffering,,,,,,15.4,,false,true,false,https://drafts.csswg.org/selectors/#selectordef-buffering,W3C
 css/selectors/checked,,1,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-checked,WHATWG
 css/selectors/child,,1,,1,,1,,false,true,false,https://drafts.csswg.org/selectors/#child-combinators,W3C
 css/selectors/class,,1,,1,,1,,false,true,false,https://drafts.csswg.org/selectors/#class-html,W3C
 css/selectors/closed,,,,114,,,,true,true,false,https://drafts.csswg.org/selectors-4/#open-state,W3C
-css/selectors/column,,,,,,,,true,true,false,https://drafts.csswg.org/selectors/#the-column-combinator,W3C
 css/selectors/cue,,55,,26,,7,,false,true,false,https://w3c.github.io/webvtt/#the-cue-pseudo-element,W3C
 css/selectors/cue/selector_argument,,,,26,,7,,false,true,false,,NONE
 css/selectors/default,,4,,10,,5,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-default,WHATWG
@@ -11565,9 +11564,9 @@ css/types/counter,,1,,1,,3,,false,true,false,https://drafts.csswg.org/css-lists/
 css/types/counters,,1.5,,1,,3,,false,true,false,https://drafts.csswg.org/css-lists/#counter-functions,W3C
 css/types/dimension,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-values/#dimensions,W3C
 css/types/easing-function,,4,,4,,3.1,,false,true,false,https://drafts.csswg.org/css-easing/#easing-functions,W3C
-css/types/easing-function/cubic-bezier,,4,,16,,6,,false,true,false,,NONE
-css/types/easing-function/linear-function,,112,,113,,17.2,,false,true,false,,NONE
-css/types/easing-function/steps,,4,,8,,5.1,,false,true,false,,NONE
+css/types/easing-function/cubic-bezier,,4,,16,,6,,false,true,false,https://drafts.csswg.org/css-easing/#cubic-bezier-easing-functions,W3C
+css/types/easing-function/linear-function,,112,,113,,17.2,,false,true,false,https://drafts.csswg.org/css-easing/#the-linear-easing-function,W3C
+css/types/easing-function/steps,,4,,8,,5.1,,false,true,false,https://drafts.csswg.org/css-easing/#step-easing-functions,W3C
 css/types/easing-function/steps/jump,,65,,77,,14,,false,true,false,,NONE
 css/types/exp,,118,,120,,15.4,,false,true,false,https://drafts.csswg.org/css-values/#exponent-funcs,W3C
 css/types/filter-function,,35,,18,,6,,false,true,false,https://drafts.fxtf.org/filter-effects/#typedef-filter-function,W3C
@@ -11582,10 +11581,6 @@ css/types/filter-function/opacity,,35,,18,,6,,false,true,false,https://drafts.fx
 css/types/filter-function/saturate,,35,,18,,6,,false,true,false,https://drafts.fxtf.org/filter-effects/#funcdef-filter-saturate,W3C
 css/types/filter-function/sepia,,35,,18,,6,,false,true,false,https://drafts.fxtf.org/filter-effects/#funcdef-filter-sepia,W3C
 css/types/flex,,40,,29,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#fr-unit,W3C
-css/types/frequency,,,,,,,,false,true,false,https://drafts.csswg.org/css-values/#frequency,W3C
-css/types/frequency/hz,,,,,,,,false,true,false,,NONE
-css/types/frequency/khz,,,,,,,,false,true,false,,NONE
-css/types/frequency-percentage,,,,,,,,false,true,false,https://drafts.csswg.org/css-values/#mixed-percentages,W3C
 css/types/global_keywords,,1,,1,,1,,false,true,false,,NONE
 css/types/global_keywords/inherit,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-cascade/#inherit,W3C
 css/types/global_keywords/initial,,19,,1,,1.2,,false,true,false,https://drafts.csswg.org/css-cascade/#initial,W3C
@@ -12099,7 +12094,7 @@ html/elements/label/for,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.o
 html/elements/legend,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#the-legend-element,WHATWG
 html/elements/legend/align,,1,,1,,≤4,,false,true,true,,NONE
 html/elements/li,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element,WHATWG
-html/elements/li/type,,1,,1,,≤4,,false,false,true,,NONE
+html/elements/li/type,,1,,1,,≤4,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#attr-li-type,WHATWG
 html/elements/li/value,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/multipage/grouping-content.html#attr-li-value,WHATWG
 html/elements/link,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/multipage/semantics.html#the-link-element,WHATWG
 html/elements/link/as,,56,,50,,10,,false,true,false,https://html.spec.whatwg.org/multipage/semantics.html#attr-link-as,WHATWG
@@ -12123,7 +12118,7 @@ html/elements/link/rel/alternate_stylesheet,,3,,1,,,,false,true,false,https://ht
 html/elements/link/rel/dns-prefetch,,3,,46,,5,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#link-type-dns-prefetch,WHATWG
 html/elements/link/rel/expect,,,,124,,,,true,true,false,https://html.spec.whatwg.org/multipage/links.html#link-type-expect,WHATWG
 html/elements/link/rel/icon,,2,,4,,3.1,,false,true,false,,NONE
-html/elements/link/rel/manifest,,,,39,,,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#link-type-manifest,WHATWG
+html/elements/link/rel/manifest,,,,39,,17,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#link-type-manifest,WHATWG
 html/elements/link/rel/modulepreload,,115,,66,,17,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#link-type-modulepreload,WHATWG
 html/elements/link/rel/preconnect,,39,,46,,11.1,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#link-type-preconnect,WHATWG
 html/elements/link/rel/prefetch,,2,,8,,13.1,"[{""name"":""LinkPrefetch"",""type"":""preference""}]",false,true,false,https://html.spec.whatwg.org/multipage/links.html#link-type-prefetch,WHATWG
@@ -12458,6 +12453,10 @@ html/global_attributes/writingsuggestions,,,,124,,18,,false,true,false,https://h
 html/manifest/background_color,,,,46,,,,false,true,false,https://w3c.github.io/manifest/#background_color-member,W3C
 html/manifest/description,,,,88,,,,false,true,false,https://w3c.github.io/manifest-app-info/#description-member,W3C
 html/manifest/display,,,,39,,17,,false,true,false,https://w3c.github.io/manifest/#display-member,W3C
+html/manifest/display/browser,,,,39,,17,,false,true,false,https://w3c.github.io/manifest/#dfn-browser,W3C
+html/manifest/display/fullscreen,,,,39,,,,false,true,false,https://w3c.github.io/manifest/#dfn-fullscreen,W3C
+html/manifest/display/minimal-ui,,,,39,,,,false,true,false,https://w3c.github.io/manifest/#dfn-minimal-ui,W3C
+html/manifest/display/standalone,,,,39,,17,,false,true,false,https://w3c.github.io/manifest/#dfn-standalone,W3C
 html/manifest/display_override,,,,89,,,,true,true,false,https://wicg.github.io/manifest-incubations/#display_override-member,W3CCG
 html/manifest/display_override/tabbed,,,,126,,,,true,true,false,https://wicg.github.io/manifest-incubations/#dfn-tabbed,W3CCG
 html/manifest/display_override/window-controls-overlay,,,,105,,,,true,true,false,https://wicg.github.io/window-controls-overlay/#addition-of-new-window-controls-overlay-display-mode,W3CCG
@@ -12693,7 +12692,6 @@ http/headers/Sec-Browsing-Topics,,,,115,,,,true,false,false,,NONE
 http/headers/Sec-CH-Prefers-Color-Scheme,,,,93,,,,true,true,false,https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-color-scheme,W3CCG
 http/headers/Sec-CH-Prefers-Reduced-Motion,,,,108,,,,true,true,false,https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-reduced-motion,W3CCG
 http/headers/Sec-CH-Prefers-Reduced-Transparency,,,,119,,,,true,true,false,https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-reduced-transparency,W3CCG
-http/headers/Sec-CH-Save-Data,,,,102,,,,true,true,false,,NONE
 http/headers/Sec-CH-UA,,,,89,,,,true,true,false,https://wicg.github.io/ua-client-hints/#sec-ch-ua,W3CCG
 http/headers/Sec-CH-UA-Arch,,,,89,,,,true,true,false,https://wicg.github.io/ua-client-hints/#sec-ch-ua-arch,W3CCG
 http/headers/Sec-CH-UA-Bitness,,,,93,,,,true,true,false,https://wicg.github.io/ua-client-hints/#sec-ch-ua-bitness,W3CCG
