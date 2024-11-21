@@ -6,17 +6,17 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2532137134,false,[PointerEvent algorithms] Remove 1:1 correspondence between Mouse and Pointer boundary events,https://github.com/w3c/pointerevents/issues/520,2024-09-17T20:52:57Z,2024-10-09T15:54:25Z,mustaqahmed,future,0
 2532126757,false,[PointerEvent algorithms] Order of boundary events,https://github.com/w3c/pointerevents/issues/519,2024-09-17T20:47:25Z,2024-10-09T15:54:24Z,mustaqahmed,future,0
 2508452007,true,Ensure predicted events only use input from the current partition,https://github.com/w3c/pointerevents/issues/518,2024-09-05T18:21:46Z,2024-11-06T18:10:03Z,jyasskin,v3-blocking,0
-2508396972,false,Limit the precision of floating point event fields,https://github.com/w3c/pointerevents/issues/517,2024-09-05T17:49:51Z,2024-10-23T15:00:20Z,jyasskin,v3-blocking,0
+2508396972,false,Limit the precision of floating point event fields,https://github.com/w3c/pointerevents/issues/517,2024-09-05T17:49:51Z,2024-11-20T16:07:53Z,jyasskin,v3-blocking,0
 2505730737,false,[touch actions] handwriting manipulation type to distinguish panning,https://github.com/w3c/pointerevents/issues/516,2024-09-04T15:45:36Z,2024-10-15T00:55:51Z,adettenb,future,0
 2493000380,true,Coalesced and predicted event attributes within an untrusted event,https://github.com/w3c/pointerevents/issues/514,2024-08-28T21:13:29Z,2024-10-23T15:07:25Z,mustaqahmed,,0
 2469499822,false,Ambiguity of the value of the `button` property for the `click` event,https://github.com/w3c/pointerevents/issues/513,2024-08-16T05:21:42Z,2024-11-06T16:35:26Z,rr-codes,v3-blocking,0
 2465961016,false,Enable mouse click and drag to scroll and other pointer behavior customizations,https://github.com/w3c/pointerevents/issues/512,2024-08-14T14:07:07Z,2024-10-08T08:15:29Z,flackr,future,4
 2462353162,true,Shouldn't dispatch `gotpointercapture` and `lostpointercapture` events if `pointerrawupdate` event is fired without the following `pointermove`?,https://github.com/w3c/pointerevents/issues/511,2024-08-13T04:21:10Z,2024-11-07T03:14:56Z,masayuki-nakano,,0
 2462346050,true,Clarify whether `pointermove` will be dispatched if `pointerrawupdate` listener removes the document,https://github.com/w3c/pointerevents/issues/510,2024-08-13T04:12:44Z,2024-11-07T03:12:52Z,masayuki-nakano,,0
-2462341665,false,Clarify the event target of `pointermove` if an event listener of the preceding `pointerrawupdate` explicitly release pointer capture,https://github.com/w3c/pointerevents/issues/509,2024-08-13T04:07:35Z,2024-11-07T03:10:34Z,masayuki-nakano,,0
+2462341665,false,Clarify the event target of `pointermove` if an event listener of the preceding `pointerrawupdate` explicitly release pointer capture,https://github.com/w3c/pointerevents/issues/509,2024-08-13T04:07:35Z,2024-11-20T15:52:40Z,masayuki-nakano,v3|needs-wpt,0
 2358552555,true,Clarify what event is `userEvent` to consider `click`/`auxclick` event target after `touchend` (or `pointerup`),https://github.com/w3c/pointerevents/issues/508,2024-06-18T00:27:20Z,2024-08-23T04:31:46Z,masayuki-nakano,,0
 2358540457,false,Clarify (or override) `dblclick` event target,https://github.com/w3c/pointerevents/issues/507,2024-06-18T00:16:01Z,2024-11-06T09:46:09Z,masayuki-nakano,future,0
-2339510045,false,https://www.w3.org/TR/pointerevents/ redirects to old spec...,https://github.com/w3c/pointerevents/issues/506,2024-06-07T03:33:31Z,2024-11-19T18:42:29Z,marcoscaceres,admin|w3c,0
+2339510045,false,https://www.w3.org/TR/pointerevents/ redirects to old spec...,https://github.com/w3c/pointerevents/issues/506,2024-06-07T03:33:31Z,2024-11-20T13:57:03Z,marcoscaceres,admin|w3c,0
 2338709863,false,‘Logical’ values for the ‘touch-action’ property,https://github.com/w3c/pointerevents/issues/505,2024-06-06T16:39:24Z,2024-08-14T15:09:15Z,aphillips,i18n-needs-resolution|future,0
 2293272421,false,"Clarify what ""suppressing a pointer event stream"" really means",https://github.com/w3c/pointerevents/issues/504,2024-05-13T16:20:49Z,2024-11-11T15:08:37Z,mustaqahmed,v3-blocking,0
 2281550829,false,Event sequence when long tapping an image,https://github.com/w3c/pointerevents/issues/503,2024-05-06T19:07:28Z,2024-11-06T09:44:42Z,lpd-au,future,0
@@ -29,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1973432495,true,Clarify `mousedown` event target if the preceding `pointerdown` event listener removes the target,https://github.com/w3c/pointerevents/issues/492,2023-11-02T03:20:48Z,2024-01-31T17:57:20Z,masayuki-nakano,v3|v3-blocking,0
 1949960442,true,What happens when the pointer capture target is removed from DOM?,https://github.com/w3c/pointerevents/issues/487,2023-10-18T14:56:27Z,2023-11-08T15:48:18Z,mustaqahmed,v3|v3-blocking,0
 1938128000,true,Implicit release of pointer capture on DOM removal doesn't match touch-events,https://github.com/w3c/pointerevents/issues/486,2023-10-11T15:41:25Z,2023-12-06T16:36:52Z,flackr,v3|v3-blocking,0
-1896822640,false,Wide review for Pointer Events 3,https://github.com/w3c/pointerevents/issues/482,2023-09-14T15:29:16Z,2024-08-29T13:46:14Z,plehegar,v3|v3-blocking|w3c,0
+1896822640,false,Wide review for Pointer Events 3,https://github.com/w3c/pointerevents/issues/482,2023-09-14T15:29:16Z,2024-11-20T16:58:58Z,plehegar,v3|v3-blocking|w3c,0
 1875761694,true,"[chore] Failed job: Couldn’t find “non secure context“ ",https://github.com/w3c/pointerevents/issues/481,2023-08-31T15:26:24Z,2023-09-25T16:50:10Z,plehegar,admin,0
 1864950512,true,Add support for laptop touchpads responding to the `touch-action` prop,https://github.com/w3c/pointerevents/issues/478,2023-08-24T11:25:40Z,2023-10-24T22:01:28Z,NashJames,,0
 1814993315,true,Clarify `pointerleave` and `pointerout` events when first pointer move after removing an element under the pointer,https://github.com/w3c/pointerevents/issues/477,2023-07-21T00:42:54Z,2024-06-11T19:18:59Z,masayuki-nakano,v3|v3-blocking,0
