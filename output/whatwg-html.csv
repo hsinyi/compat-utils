@@ -1,14 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2680938378,false,Upcoming WHATNOT meeting on 2024-11-28,https://github.com/whatwg/html/issues/10789,2024-11-21T20:58:58Z,2024-11-21T20:58:59Z,past,agenda+,0
-2678791105,false,CSS selectors in `15.3.5 Bidirectional text` are not in alphabetical order,https://github.com/whatwg/html/issues/10788,2024-11-21T09:46:21Z,2024-11-21T09:46:21Z,Psychpsyo,,0
-2678213082,false,Multiple <link rel=preload>s with the same preload key appear to cause multiple requests,https://github.com/whatwg/html/issues/10786,2024-11-21T06:42:48Z,2024-11-21T08:18:44Z,domenic,topic: resource hints (inc. preload),0
+2678791105,false,CSS selectors in `15.3.5 Bidirectional text` are not in alphabetical order,https://github.com/whatwg/html/issues/10788,2024-11-21T09:46:21Z,2024-11-22T09:54:31Z,Psychpsyo,topic: rendering,0
+2678213082,true,Multiple <link rel=preload>s with the same preload key appear to cause multiple requests,https://github.com/whatwg/html/issues/10786,2024-11-21T06:42:48Z,2024-11-22T07:33:52Z,domenic,topic: resource hints (inc. preload),0
 2677196058,false,Severing a document's openee relationship regardless of origin,https://github.com/whatwg/html/issues/10785,2024-11-20T21:10:42Z,2024-11-21T08:51:53Z,weizman,addition/proposal|needs implementer interest|topic: cross-origin-opener-policy,0
 2677021826,false,Navigator#taintEnabled / Navigator#oscpu appear in extracted WebIDL,https://github.com/whatwg/html/issues/10784,2024-11-20T19:56:22Z,2024-11-21T09:06:41Z,gsnedders,,0
 2676811483,false,fieldset support for readonly property,https://github.com/whatwg/html/issues/10783,2024-11-20T18:45:43Z,2024-11-20T18:45:43Z,StfBauer,addition/proposal|needs implementer interest,0
 2676169562,true,Please add a preferred width property,https://github.com/whatwg/html/issues/10782,2024-11-20T14:59:54Z,2024-11-21T01:01:48Z,SoniEx2,addition/proposal|needs implementer interest,0
 2675931518,true,chrome-desktop-showpicker ignores step-attribute,https://github.com/whatwg/html/issues/10781,2024-11-20T13:45:26Z,2024-11-20T14:59:32Z,michael-bliem,invalid,0
 2670625642,false,Meeting 11 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10778,2024-11-19T03:36:32Z,2024-11-19T17:40:13Z,gregwhitworth,agenda+,0
-2668912538,false,"Does ""load an HTML document"" miss respecting the navigation param's response's body?",https://github.com/whatwg/html/issues/10776,2024-11-18T15:21:32Z,2024-11-21T08:15:28Z,mbrodesser-Igalia,topic: navigation|topic: javascript: URLs,0
+2668912538,true,"Does ""load an HTML document"" miss respecting the navigation param's response's body?",https://github.com/whatwg/html/issues/10776,2024-11-18T15:21:32Z,2024-11-22T05:20:38Z,mbrodesser-Igalia,topic: navigation|topic: javascript: URLs,0
 2665970074,false,Quadratic growth by duplicating attributes in formatting elements using <p>,https://github.com/whatwg/html/issues/10772,2024-11-17T14:41:30Z,2024-11-18T15:38:47Z,JorianWoltjer,topic: parser,0
 2665149687,false,Media element's controls can create observable orphan Promises,https://github.com/whatwg/html/issues/10771,2024-11-17T02:01:15Z,2024-11-18T08:51:29Z,Kaiido,topic: media|interop,0
 2663546421,false,Improving gender identity of the autocomplete attribute,https://github.com/whatwg/html/issues/10769,2024-11-16T00:25:44Z,2024-11-16T00:30:52Z,aloisdg,addition/proposal|needs implementer interest,0
@@ -47,7 +47,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2598514703,false,Declarative CSS Modules - <script> vs <style> for defining modules,https://github.com/whatwg/html/issues/10710,2024-10-18T22:50:49Z,2024-11-06T19:54:50Z,KurtCattiSchmidt,topic: script|topic: style,1
 2598264459,true,Upcoming WHATNOT meeting on 2024-10-24,https://github.com/whatwg/html/issues/10709,2024-10-18T19:41:38Z,2024-10-24T19:58:25Z,past,agenda+,0
 2594429472,false,Should Dialog `.show()` close all popovers?,https://github.com/whatwg/html/issues/10708,2024-10-17T11:25:48Z,2024-10-18T00:56:34Z,keithamus,needs implementer interest|needs tests|topic: dialog|topic: popover,0
-2592669740,false,Reference Target,https://github.com/whatwg/html/issues/10707,2024-10-16T18:09:02Z,2024-10-17T23:21:34Z,dandclark,addition/proposal|needs implementer interest|stage: 1,2
+2592669740,false,Reference Target,https://github.com/whatwg/html/issues/10707,2024-10-16T18:09:02Z,2024-10-17T23:21:34Z,dandclark,addition/proposal|needs implementer interest|stage: 1,3
 2591882990,false,Client Side Feature Flags,https://github.com/whatwg/html/issues/10706,2024-10-16T13:22:48Z,2024-10-16T15:19:04Z,keithamus,addition/proposal|needs implementer interest,8
 2587868961,true,"""Apply the history step"" uses undefined variable ""displayedEntry""",https://github.com/whatwg/html/issues/10703,2024-10-15T07:17:39Z,2024-10-17T01:21:29Z,shannonbooth,topic: navigation,0
 2603304449,true,Proposal: getImageData api for all element，not limited to canvas,https://github.com/whatwg/html/issues/10714,2024-10-15T02:26:04Z,2024-10-21T18:09:37Z,anuoua,addition/proposal|needs implementer interest,0
@@ -63,7 +63,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568834361,false,Word processor new HTML control proposal,https://github.com/whatwg/html/issues/10680,2024-10-06T19:01:55Z,2024-10-07T06:57:58Z,volkansari,addition/proposal|needs implementer interest|needs incubation,1
 2568484967,true,Issue: Need to add hyperlink to the contents page of WHATWG,https://github.com/whatwg/html/issues/10679,2024-10-06T06:10:29Z,2024-10-07T02:43:04Z,turtlespeedv,invalid,0
 2568335542,true,"In ""close a top-level traversable"", the `is closing` flag is always already set to true",https://github.com/whatwg/html/issues/10678,2024-10-05T21:41:05Z,2024-10-09T01:07:07Z,trflynn89,,0
-2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2024-11-21T20:57:15Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas,0
+2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2024-11-22T09:29:58Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,true,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-11-15T04:41:04Z,tabatkins,integration|topic: popover,0
 2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2024-11-21T21:29:19Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,2
