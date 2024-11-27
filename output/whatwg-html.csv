@@ -1,9 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2696216750,false,"Clarify using CDATA in HTML context ",https://github.com/whatwg/html/issues/10801,2024-11-26T21:52:37Z,2024-11-26T21:52:54Z,SetTrend,,0
-2695057016,false,https://html.spec.whatwg.org/#set-the-ongoing-navigation needs a null-check,https://github.com/whatwg/html/issues/10800,2024-11-26T15:20:25Z,2024-11-26T15:20:25Z,mbrodesser-Igalia,,0
+2698124613,false,"[Editorial] ""state"" keywords have inconsistent casing",https://github.com/whatwg/html/issues/10802,2024-11-27T10:55:35Z,2024-11-27T10:56:00Z,keithamus,editorial,0
+2696216750,false,"Clarify using CDATA in HTML context ",https://github.com/whatwg/html/issues/10801,2024-11-26T21:52:37Z,2024-11-27T12:10:34Z,SetTrend,clarification|document conformance,0
+2695057016,false,Some calls https://html.spec.whatwg.org/#set-the-ongoing-navigation could need some clarification,https://github.com/whatwg/html/issues/10800,2024-11-26T15:20:25Z,2024-11-27T10:34:49Z,mbrodesser-Igalia,topic: navigation,0
 2694794400,false,Allow `MutationObserver` to observe (certain) element property changes,https://github.com/whatwg/html/issues/10799,2024-11-26T14:04:30Z,2024-11-26T20:13:12Z,bramus,addition/proposal|needs implementer interest,0
 2694459992,true,Display gap between 00 and 01,https://github.com/whatwg/html/issues/10797,2024-11-26T12:12:57Z,2024-11-26T13:32:11Z,prashanthcoe19,invalid,0
-2693994996,false,"""create navigation params by fetching"" invokes ""should navigation request of type be blocked by Content Security Policy?"" without setting the policy container",https://github.com/whatwg/html/issues/10796,2024-11-26T09:59:22Z,2024-11-26T09:59:22Z,mbrodesser-Igalia,,0
+2693994996,false,"""create navigation params by fetching"" invokes ""should navigation request of type be blocked by Content Security Policy?"" without setting the policy container",https://github.com/whatwg/html/issues/10796,2024-11-26T09:59:22Z,2024-11-27T04:52:02Z,mbrodesser-Igalia,topic: navigation,0
 2691111873,false,"ul and menu elements should unambiguously describe that ""unordered"" refers only to author's meaning",https://github.com/whatwg/html/issues/10793,2024-11-25T15:15:36Z,2024-11-25T15:15:36Z,gh-andre,,0
 2680938378,false,Upcoming WHATNOT meeting on 2024-11-28,https://github.com/whatwg/html/issues/10789,2024-11-21T20:58:58Z,2024-11-21T20:58:59Z,past,agenda+,0
 2678791105,false,CSS selectors in `15.3.5 Bidirectional text` are not in alphabetical order,https://github.com/whatwg/html/issues/10788,2024-11-21T09:46:21Z,2024-11-22T19:19:08Z,Psychpsyo,topic: rendering,0
@@ -685,7 +686,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1767690214,true,auto-sizes concrete object size ignoring natural dimensions is not implementable,https://github.com/whatwg/html/issues/9448,2023-06-21T14:08:37Z,2023-11-30T12:59:38Z,zcorpan,topic: img,1
 1765973926,false,HTML Video Element: Proposal For Support for Srcset and Sizes attributes on source elements,https://github.com/whatwg/html/issues/9446,2023-06-20T18:52:24Z,2023-06-21T07:29:11Z,scottjehl,addition/proposal|topic: media,20
 1764161923,true,Spec clarification: Are values in fontVariant & fontKerning case sensitive?,https://github.com/whatwg/html/issues/9445,2023-06-19T20:09:46Z,2023-06-19T22:59:06Z,yiyix,,0
-1763904590,false,"Import with type text, bytes, and URL",https://github.com/whatwg/html/issues/9444,2023-06-19T17:07:43Z,2024-11-13T00:02:56Z,kriskowal,addition/proposal|needs implementer interest|topic: script,15
+1763904590,false,"Import with type text, bytes, and URL",https://github.com/whatwg/html/issues/9444,2023-06-19T17:07:43Z,2024-11-13T00:02:56Z,kriskowal,addition/proposal|needs implementer interest|topic: script,16
 1763586145,false,Why is checking document validity skipped sometimes?,https://github.com/whatwg/html/issues/9441,2023-06-19T13:47:43Z,2023-09-04T13:10:28Z,mbrodesser-Igalia,topic: popover,0
 1759295446,true,Upcoming HTML standard issue triage meeting on 6/29/2023,https://github.com/whatwg/html/issues/9432,2023-06-15T17:52:32Z,2023-06-29T14:43:18Z,past,agenda+,0
 1758822017,true,`nestedShow` is not initialized in https://html.spec.whatwg.org/#show-popover,https://github.com/whatwg/html/issues/9429,2023-06-15T13:17:53Z,2023-06-29T14:03:02Z,mbrodesser-Igalia,topic: popover,0
@@ -1131,7 +1132,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1342349342,true,"Link to js file location in the 404.html file ",https://github.com/whatwg/html/issues/8204,2022-08-17T22:27:26Z,2022-08-17T22:30:17Z,Naatikyere,,0
 1338355797,true,Difference between calling eval with and without promise.,https://github.com/whatwg/html/issues/8195,2022-08-14T21:39:32Z,2022-08-15T21:22:03Z,dSalieri,,0
 1337966518,true,Shadow DOM innerHTML,https://github.com/whatwg/html/issues/8192,2022-08-13T13:34:08Z,2023-11-10T19:47:23Z,GioValentin,addition/proposal|topic: shadow,0
-1336937994,false,Rendering <select> as a listbox is a one-line widget that opens a popup on iOS and Android,https://github.com/whatwg/html/issues/8189,2022-08-12T08:57:13Z,2024-11-26T19:27:34Z,zcorpan,topic: rendering|topic: forms,0
+1336937994,false,Rendering <select> as a listbox is a one-line widget that opens a popup on iOS and Android,https://github.com/whatwg/html/issues/8189,2022-08-12T08:57:13Z,2024-11-27T08:04:04Z,zcorpan,topic: rendering|topic: forms|topic: select,0
 1336733401,false,dropEffect in drop/dragend events not interoperable,https://github.com/whatwg/html/issues/8188,2022-08-12T04:22:46Z,2022-08-12T04:22:46Z,domenic,interop|topic: drag and drop,0
 1336100700,false,Consider adding auto-sizing for <select> as a listbox,https://github.com/whatwg/html/issues/8183,2022-08-11T15:07:22Z,2022-09-30T12:42:39Z,zcorpan,addition/proposal|topic: rendering|topic: forms,0
 1335409877,false,"HTMLSlotElement's assign method should ""assign slottables for a tree"" for slots in other shadow roots",https://github.com/whatwg/html/issues/8179,2022-08-11T02:58:29Z,2022-08-29T10:51:17Z,rniwa,topic: shadow,1
