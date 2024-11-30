@@ -440,6 +440,7 @@ api/BroadcastChannel/postMessage,,38,,54,,15.4,,false,true,false,https://html.sp
 api/BrowserCaptureMediaStreamTrack,,,,104,,,,true,true,false,https://w3c.github.io/mediacapture-region/#browser-capture-media-stream-track,W3C
 api/BrowserCaptureMediaStreamTrack/clone,,,,104,,,,true,true,false,https://w3c.github.io/mediacapture-region/#dom-browsercapturemediastreamtrack-clone,W3C
 api/BrowserCaptureMediaStreamTrack/cropTo,,,,104,,,,true,true,false,https://w3c.github.io/mediacapture-region/#dom-browsercapturemediastreamtrack-cropto,W3C
+api/BrowserCaptureMediaStreamTrack/restrictTo,,,,132,,,,true,true,false,https://screen-share.github.io/element-capture/#dom-browsercapturemediastreamtrack-restrictto,UNKNOWN
 api/BufferedChangeEvent,,,,,,17,,true,true,false,https://w3c.github.io/media-source/#dom-bufferedchangeevent,W3C
 api/BufferedChangeEvent/BufferedChangeEvent,,,,,,17,,true,true,false,https://w3c.github.io/media-source/#dom-bufferedchangeevent-constructor,W3C
 api/BufferedChangeEvent/addedRanges,,,,,,17,,true,true,false,https://w3c.github.io/media-source/#dom-bufferedchangeevent-addedranges,W3C
@@ -6309,6 +6310,8 @@ api/Response/statusText,,39,,40,,10.1,,false,true,false,https://fetch.spec.whatw
 api/Response/text,,39,,42,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-body-text①,WHATWG
 api/Response/type,,39,,40,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-response-type①,WHATWG
 api/Response/url,,39,,40,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-response-url①,WHATWG
+api/RestrictionTarget,,,,132,,,,true,true,false,https://screen-share.github.io/element-capture/#dom-restrictiontarget,UNKNOWN
+api/RestrictionTarget/fromElement_static,,,,132,,,,true,true,false,https://screen-share.github.io/element-capture/#dom-restrictiontarget-fromelement,UNKNOWN
 api/SVGAElement,,3,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/linking.html#InterfaceSVGAElement,W3C
 api/SVGAElement/download,,20,,,,,,false,true,false,https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__download,W3C
 api/SVGAElement/href,,4,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href,W3C
@@ -7053,13 +7056,18 @@ api/SensorErrorEvent/error,,,,67,,,,false,true,false,https://w3c.github.io/senso
 api/Serial,,,,89,,,,true,true,false,https://wicg.github.io/serial/#serial-interface,W3CCG
 api/Serial/getPorts,,,,89,,,,true,true,false,https://wicg.github.io/serial/#dom-serial-getports,W3CCG
 api/Serial/requestPort,,,,89,,,,true,true,false,https://wicg.github.io/serial/#dom-serial-requestport,W3CCG
+api/Serial/requestPort/allowedBluetoothServiceClassIds_option,,,,117,,,,true,true,false,https://wicg.github.io/serial/#dom-serialportrequestoptions-allowedbluetoothserviceclassids,W3CCG
+api/Serial/requestPort/filters_bluetoothServiceClassId,,,,117,,,,true,true,false,https://wicg.github.io/serial/#dom-serialportfilter-bluetoothserviceclassid,W3CCG
 api/SerialPort,,,,89,,,,true,true,false,https://wicg.github.io/serial/#dom-serialport,W3CCG
 api/SerialPort/close,,,,89,,,,true,true,false,https://wicg.github.io/serial/#dom-serialport-close,W3CCG
 api/SerialPort/connect_event,,,,89,,,,true,true,false,https://wicg.github.io/serial/#dfn-connect,W3CCG
+api/SerialPort/connect_event/bluetooth_rfcomm,,,,130,,,,true,true,false,,NONE
 api/SerialPort/connected,,,,130,,,,true,true,false,https://wicg.github.io/serial/#dom-serialport-connected,W3CCG
 api/SerialPort/disconnect_event,,,,89,,,,true,true,false,https://wicg.github.io/serial/#dfn-disconnect,W3CCG
+api/SerialPort/disconnect_event/bluetooth_rfcomm,,,,130,,,,true,true,false,,NONE
 api/SerialPort/forget,,,,103,,,,true,true,false,https://wicg.github.io/serial/#dom-serialport-forget,W3CCG
 api/SerialPort/getInfo,,,,89,,,,true,true,false,https://wicg.github.io/serial/#dom-serialport-getinfo,W3CCG
+api/SerialPort/getInfo/bluetoothServiceClassId,,,,117,,,,true,true,false,https://wicg.github.io/serial/#dom-serialportinfo-bluetoothserviceclassid,W3CCG
 api/SerialPort/getSignals,,,,89,,,,true,true,false,https://wicg.github.io/serial/#dom-serialport-getsignals,W3CCG
 api/SerialPort/open,,,,89,,,,true,true,false,https://wicg.github.io/serial/#dom-serialport-open,W3CCG
 api/SerialPort/readable,,,,89,,,,true,true,false,https://wicg.github.io/serial/#dom-serialport-readable,W3CCG
@@ -11502,6 +11510,7 @@ css/selectors/visited/privacy_measures,,4,,6,,5,,false,true,false,,NONE
 css/selectors/volume-locked,,,,,,15.4,,false,true,false,https://drafts.csswg.org/selectors/#selectordef-volume-locked,W3C
 css/selectors/where,,78,,88,,14,,false,true,false,https://drafts.csswg.org/selectors/#zero-matches,W3C
 css/selectors/where/forgiving_selector_list,,82,,88,,14,,false,true,false,,NONE
+css/selectors/xr-overlay,,,,83,,,,true,true,false,https://immersive-web.github.io/dom-overlays/#selectordef-xr-overlay,W3CCG
 css/types/-moz-image-rect,,4,,,,,,false,false,true,,NONE
 css/types/abs,,118,,,,15.4,,false,true,false,https://drafts.csswg.org/css-values/#sign-funcs,W3C
 css/types/acos,,108,,111,,15.4,,false,true,false,https://drafts.csswg.org/css-values/#trig-funcs,W3C
@@ -11734,6 +11743,7 @@ css/types/transform-function,,3.5,,1,,3.1,,false,true,false,https://drafts.csswg
 css/types/transform-function/matrix,,3.5,,1,,3.1,,false,true,false,https://drafts.csswg.org/css-transforms/#funcdef-transform-matrix,W3C
 css/types/transform-function/matrix3d,,10,,12,,4,,false,true,false,https://drafts.csswg.org/css-transforms-2/#funcdef-matrix3d,W3C
 css/types/transform-function/perspective,,10,,12,,4,,false,true,false,https://drafts.csswg.org/css-transforms-2/#funcdef-perspective,W3C
+css/types/transform-function/perspective/none,,93,,97,,15.4,,false,true,false,https://drafts.csswg.org/css-transforms-2/#funcdef-perspective,W3C
 css/types/transform-function/rotate,,3.5,,1,,3.1,,false,true,false,https://drafts.csswg.org/css-transforms/#funcdef-transform-rotate,W3C
 css/types/transform-function/rotate3d,,10,,12,,4,,false,true,false,https://drafts.csswg.org/css-transforms-2/#funcdef-rotate3d,W3C
 css/types/transform-function/rotateX,,10,,12,,4,,false,true,false,https://drafts.csswg.org/css-transforms-2/#funcdef-rotatex,W3C
@@ -14314,8 +14324,6 @@ svg/elements/feDropShadow/dy,,30,,13,,6,,false,true,false,,NONE
 svg/elements/feDropShadow/in,,30,,13,,6,,false,true,false,,NONE
 svg/elements/feDropShadow/stdDeviation,,30,,13,,6,,false,true,false,,NONE
 svg/elements/feFlood,,3,,5,,6,,false,true,false,https://drafts.fxtf.org/filter-effects/#feFloodElement,W3C
-svg/elements/feFlood/flood-color,,3,,5,,6,,false,true,false,,NONE
-svg/elements/feFlood/flood-opacity,,3,,5,,6,,false,true,false,,NONE
 svg/elements/feFuncA,,3,,5,,6,,false,true,false,https://drafts.fxtf.org/filter-effects/#feFuncAElement,W3C
 svg/elements/feFuncB,,3,,5,,6,,false,true,false,https://drafts.fxtf.org/filter-effects/#feFuncBElement,W3C
 svg/elements/feFuncG,,3,,5,,6,,false,true,false,https://drafts.fxtf.org/filter-effects/#feFuncGElement,W3C
