@@ -3785,7 +3785,7 @@ api/IDBFactory,,16,,24,,8,,false,true,false,https://w3c.github.io/IndexedDB/#fac
 api/IDBFactory/cmp,,10,,23,,8,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbfactory-cmp①,W3C
 api/IDBFactory/databases,,126,,72,,14,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbfactory-databases①,W3C
 api/IDBFactory/deleteDatabase,,10,,23,,8,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbfactory-deletedatabase①,W3C
-api/IDBFactory/open,,10,,23,,8,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbfactory-open②,W3C
+api/IDBFactory/open,,10,,23,,15,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbfactory-open②,W3C
 api/IDBFactory/worker_support,,37,,23,,10,,false,true,false,,NONE
 api/IDBIndex,,16,,24,,8,,false,true,false,https://w3c.github.io/IndexedDB/#index-interface,W3C
 api/IDBIndex/count,,10,,23,,8,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-count①,W3C
@@ -14203,7 +14203,7 @@ javascript/statements/try_catch/optional_catch_binding,,58,,66,,11.1,,false,true
 javascript/statements/var,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-variable-statement,TC39
 javascript/statements/while,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-while-statement,TC39
 javascript/statements/with,,1,,1,,1,,false,true,true,https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-with-statement,TC39
-svg/elements/a,,1.5,,1,,3.1,,false,true,false,https://svgwg.org/svg2-draft/linking.html#Links,W3C
+svg/elements/a,,1.5,,1,,3.1,,false,true,false,https://svgwg.org/svg2-draft/linking.html#AElement,W3C
 svg/elements/a/download,,20,,,,,,false,true,false,https://svgwg.org/svg2-draft/linking.html#AElementDownloadAttribute,W3C
 svg/elements/a/href,,51,,50,,12.1,,false,true,false,https://svgwg.org/svg2-draft/linking.html#AElementHrefAttribute,W3C
 svg/elements/a/hreflang,,61,,,,,,false,true,false,https://svgwg.org/svg2-draft/linking.html#AElementHreflangAttribute,W3C
@@ -14481,7 +14481,7 @@ svg/elements/line/x1,,1.5,,1,,3,,false,true,false,,NONE
 svg/elements/line/x2,,1.5,,1,,3,,false,true,false,,NONE
 svg/elements/line/y1,,1.5,,1,,3,,false,true,false,,NONE
 svg/elements/line/y2,,1.5,,1,,3,,false,true,false,,NONE
-svg/elements/linearGradient,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/pservers.html#LinearGradients,W3C
+svg/elements/linearGradient,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/pservers.html#LinearGradientElement,W3C
 svg/elements/linearGradient/gradientTransform,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementGradientTransformAttribute,W3C
 svg/elements/linearGradient/gradientUnits,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementGradientUnitsAttribute,W3C
 svg/elements/linearGradient/href,,51,,50,,12.1,,false,true,false,https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementHrefAttribute,W3C
@@ -14544,7 +14544,7 @@ svg/elements/polyline/fill,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-d
 svg/elements/polyline/fill/context-fill,,111,,124,,,,false,true,false,https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint,W3C
 svg/elements/polyline/points,,1.5,,1,,3,,false,true,false,,NONE
 svg/elements/polyline/systemLanguage,,12,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__systemLanguage,W3C
-svg/elements/radialGradient,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/pservers.html#RadialGradients,W3C
+svg/elements/radialGradient,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/pservers.html#RadialGradientElement,W3C
 svg/elements/radialGradient/cx,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementCXAttribute,W3C
 svg/elements/radialGradient/cy,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementCYAttribute,W3C
 svg/elements/radialGradient/fr,,55,,24,,7,,false,true,false,https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementFRAttribute,W3C
@@ -14653,8 +14653,8 @@ svg/elements/use/x,,1.5,,1,,3,,false,true,false,,NONE
 svg/elements/use/xlink_href,,1.5,,1,,3,,false,true,true,,NONE
 svg/elements/use/y,,1.5,,1,,3,,false,true,false,,NONE
 svg/elements/view,,15,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/linking.html#ViewElement,W3C
-svg/elements/view/preserveAspectRatio,,15,,1,,3,,false,true,false,,NONE
-svg/elements/view/viewBox,,15,,1,,3,,false,true,false,,NONE
+svg/elements/view/preserveAspectRatio,,15,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/coords.html#PreserveAspectRatioAttribute,W3C
+svg/elements/view/viewBox,,15,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/coords.html#ViewBoxAttribute,W3C
 svg/elements/view/zoomAndPan,,15,,1,,3,,false,false,true,,NONE
 svg/elements/vkern,,,,6,,3,,false,true,true,https://www.w3.org/TR/SVG11/fonts.html#VKernElement,W3C
 svg/elements/vkern/g1,,,,6,,3,,false,true,true,,NONE
