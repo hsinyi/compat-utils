@@ -1,12 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2730053673,false,Editorial: modernize how CustomElementRegistry is defined,https://github.com/whatwg/html/pull/10845,2024-12-10T12:56:49Z,2024-12-10T13:06:31Z,annevk,,0
-2728724351,false,delete obsolete tag `param`,https://github.com/whatwg/html/pull/10841,2024-12-10T01:44:53Z,2024-12-10T06:43:17Z,zhangenming,,0
+2731662991,false,"Fix null URL handling in ""get noopener for window open""",https://github.com/whatwg/html/pull/10847,2024-12-11T02:30:42Z,2024-12-11T08:02:24Z,domenic,,1
+2730053673,false,Editorial: modernize how CustomElementRegistry is defined,https://github.com/whatwg/html/pull/10845,2024-12-10T12:56:49Z,2024-12-11T08:24:06Z,annevk,,0
+2728724351,true,delete obsolete tag `param`,https://github.com/whatwg/html/pull/10841,2024-12-10T01:44:53Z,2024-12-11T02:36:27Z,zhangenming,,0
 2728499456,false,Use DOM's post-connection steps for `<iframe>` elements,https://github.com/whatwg/html/pull/10840,2024-12-09T23:17:28Z,2024-12-10T04:31:41Z,domfarolino,topic: browsing context,1
 2726023006,true,Fixups to Merge Existing and New Import Maps,https://github.com/whatwg/html/pull/10837,2024-12-09T05:22:24Z,2024-12-09T07:05:49Z,yoavweiss,,0
 2722497883,true,Meta: replace WAI-ARIA with ARIA in HTML in PR template,https://github.com/whatwg/html/pull/10830,2024-12-06T09:16:21Z,2024-12-06T09:27:54Z,annevk,,0
 2722303731,true,Meta: cover accessibility in the PR template,https://github.com/whatwg/html/pull/10829,2024-12-06T07:45:26Z,2024-12-06T08:15:42Z,annevk,,0
 2719503372,true,Meta: run images through ImageOptim,https://github.com/whatwg/html/pull/10823,2024-12-05T06:48:26Z,2024-12-06T07:09:16Z,annevk,,0
-2716492115,false,Make named window lookup more precise and correct BCG swap logic,https://github.com/whatwg/html/pull/10818,2024-12-04T03:49:38Z,2024-12-10T16:31:27Z,kjmcnee,,0
+2716492115,false,Make named window lookup more precise and correct BCG swap logic,https://github.com/whatwg/html/pull/10818,2024-12-04T03:49:38Z,2024-12-11T08:48:10Z,kjmcnee,interop|topic: browsing context,0
 2714782603,true,"Editorial: fix typo in ""adoption agency"" algorithm",https://github.com/whatwg/html/pull/10817,2024-12-03T11:41:28Z,2024-12-06T16:14:02Z,kspangsege,,0
 2714056110,true,Editorial: Move a note at the end of a spec step,https://github.com/whatwg/html/pull/10814,2024-12-03T05:43:50Z,2024-12-04T01:28:13Z,shannonbooth,,0
 2694584953,true,"Editorial: Add missing space in ""get noopener for window open""",https://github.com/whatwg/html/pull/10798,2024-11-26T13:01:31Z,2024-11-26T14:21:54Z,AtkinsSJ,,0
@@ -24,12 +25,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2642683502,false,Fix language stating when start tags must not be omitted,https://github.com/whatwg/html/pull/10752,2024-11-08T02:50:46Z,2024-11-09T02:55:49Z,sideshowbarker,document conformance,0
 2640133552,true,Editorial: acknowledge Alan Jeffrey,https://github.com/whatwg/html/pull/10747,2024-11-07T07:29:35Z,2024-11-13T04:50:31Z,annevk,,0
 2631440687,true,"[editorial] dfn worker's outside/inside port, and clarify event retargeting",https://github.com/whatwg/html/pull/10738,2024-11-03T20:01:43Z,2024-11-21T08:39:02Z,nicolo-ribaudo,clarification|topic: workers,0
-2627986111,false,Add dialog light dismiss behavior,https://github.com/whatwg/html/pull/10737,2024-10-31T23:17:09Z,2024-12-10T20:00:58Z,mfreed7,addition/proposal|needs implementer interest|needs tests|topic: dialog,0
+2627986111,false,Add dialog light dismiss behavior,https://github.com/whatwg/html/pull/10737,2024-10-31T23:17:09Z,2024-12-11T06:27:44Z,mfreed7,addition/proposal|needs implementer interest|needs tests|topic: dialog,0
 2626590050,true,Mudei o título ( apenas par teste aula),https://github.com/whatwg/html/pull/10733,2024-10-31T11:10:21Z,2024-11-01T00:20:29Z,LarissaSouzaNaScimento,invalid,0
 2626503054,true,Correct Trusted Type enforcement in Range.getContextualFragment.,https://github.com/whatwg/html/pull/10732,2024-10-31T10:26:08Z,2024-11-01T05:25:24Z,koto,,0
 2625312806,true,Enforce noopener on cross-top-level-site Blob URLs,https://github.com/whatwg/html/pull/10731,2024-10-30T20:50:16Z,2024-11-18T04:10:39Z,recvfrom,security/privacy,0
 2620223775,true,Fix final step of insertAdjacentHTML(),https://github.com/whatwg/html/pull/10729,2024-10-29T05:58:48Z,2024-10-29T14:24:56Z,domenic,topic: parser,0
-2619796054,true,"Add imperative access to popover invoker, and connect popover/invoker to implicit anchor element",https://github.com/whatwg/html/pull/10728,2024-10-28T23:46:29Z,2024-11-18T19:48:40Z,mfreed7,addition/proposal|topic: popover,0
+2619796054,true,"Add imperative access to popover invoker, and connect popover/invoker to implicit anchor element",https://github.com/whatwg/html/pull/10728,2024-10-28T23:46:29Z,2024-12-11T12:17:01Z,mfreed7,addition/proposal|topic: popover,0
 2617071284,true,Editorial: fix typo in <input> show the picker's note,https://github.com/whatwg/html/pull/10726,2024-10-28T01:49:03Z,2024-10-28T04:54:18Z,Kaiido,,0
 2606956172,false,Add expect-no-linked-resources Document-Policy to Speculative parsing,https://github.com/whatwg/html/pull/10718,2024-10-23T02:13:45Z,2024-11-21T20:57:00Z,alexnj,addition/proposal|needs implementer interest|topic: parser,1
 2606708166,true,Add a case variation in the Boolean attribute example,https://github.com/whatwg/html/pull/10717,2024-10-22T23:06:57Z,2024-10-23T06:02:51Z,xuhdev,,0
@@ -437,7 +438,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1818258169,true,Make the directionality account for missing parent element,https://github.com/whatwg/html/pull/9554,2023-07-24T11:49:33Z,2023-08-31T05:41:01Z,annevk,i18n-tracker,1
 1817297523,true,Tweak `thead` description to clarify it can contain non-header cells,https://github.com/whatwg/html/pull/9552,2023-07-23T21:11:39Z,2023-07-25T09:17:22Z,patrickhlauke,,0
 1815020757,true,selectmenu,https://github.com/whatwg/html/pull/9547,2023-07-21T01:27:53Z,2023-09-23T13:34:59Z,josepharhar,,1
-1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2024-03-12T14:15:22Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms,10
+1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2024-12-11T10:14:42Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms,12
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2024-10-08T14:04:19Z,cijian23,invalid,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,true,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-10-11T23:22:22Z,josepharhar,addition/proposal|topic: parser|impacts documentation,1
