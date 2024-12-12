@@ -1,13 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2731662991,false,"Fix null URL handling in ""get noopener for window open""",https://github.com/whatwg/html/pull/10847,2024-12-11T02:30:42Z,2024-12-11T08:02:24Z,domenic,,1
-2730053673,false,Editorial: modernize how CustomElementRegistry is defined,https://github.com/whatwg/html/pull/10845,2024-12-10T12:56:49Z,2024-12-11T08:24:06Z,annevk,,0
+2730053673,true,Editorial: modernize how CustomElementRegistry is defined,https://github.com/whatwg/html/pull/10845,2024-12-10T12:56:49Z,2024-12-11T14:44:46Z,annevk,,0
 2728724351,true,delete obsolete tag `param`,https://github.com/whatwg/html/pull/10841,2024-12-10T01:44:53Z,2024-12-11T02:36:27Z,zhangenming,,0
-2728499456,false,Use DOM's post-connection steps for `<iframe>` elements,https://github.com/whatwg/html/pull/10840,2024-12-09T23:17:28Z,2024-12-10T04:31:41Z,domfarolino,topic: browsing context,1
+2728499456,false,Use DOM's post-connection steps for `<iframe>` elements,https://github.com/whatwg/html/pull/10840,2024-12-09T23:17:28Z,2024-12-11T12:56:03Z,domfarolino,topic: frames/navigables/browsing contexts,1
 2726023006,true,Fixups to Merge Existing and New Import Maps,https://github.com/whatwg/html/pull/10837,2024-12-09T05:22:24Z,2024-12-09T07:05:49Z,yoavweiss,,0
 2722497883,true,Meta: replace WAI-ARIA with ARIA in HTML in PR template,https://github.com/whatwg/html/pull/10830,2024-12-06T09:16:21Z,2024-12-06T09:27:54Z,annevk,,0
 2722303731,true,Meta: cover accessibility in the PR template,https://github.com/whatwg/html/pull/10829,2024-12-06T07:45:26Z,2024-12-06T08:15:42Z,annevk,,0
 2719503372,true,Meta: run images through ImageOptim,https://github.com/whatwg/html/pull/10823,2024-12-05T06:48:26Z,2024-12-06T07:09:16Z,annevk,,0
-2716492115,false,Make named window lookup more precise and correct BCG swap logic,https://github.com/whatwg/html/pull/10818,2024-12-04T03:49:38Z,2024-12-11T08:48:10Z,kjmcnee,interop|topic: browsing context,0
+2716492115,false,Make named window lookup more precise and correct BCG swap logic,https://github.com/whatwg/html/pull/10818,2024-12-04T03:49:38Z,2024-12-11T08:48:10Z,kjmcnee,interop|topic: frames/navigables/browsing contexts,0
 2714782603,true,"Editorial: fix typo in ""adoption agency"" algorithm",https://github.com/whatwg/html/pull/10817,2024-12-03T11:41:28Z,2024-12-06T16:14:02Z,kspangsege,,0
 2714056110,true,Editorial: Move a note at the end of a spec step,https://github.com/whatwg/html/pull/10814,2024-12-03T05:43:50Z,2024-12-04T01:28:13Z,shannonbooth,,0
 2694584953,true,"Editorial: Add missing space in ""get noopener for window open""",https://github.com/whatwg/html/pull/10798,2024-11-26T13:01:31Z,2024-11-26T14:21:54Z,AtkinsSJ,,0
@@ -25,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2642683502,false,Fix language stating when start tags must not be omitted,https://github.com/whatwg/html/pull/10752,2024-11-08T02:50:46Z,2024-11-09T02:55:49Z,sideshowbarker,document conformance,0
 2640133552,true,Editorial: acknowledge Alan Jeffrey,https://github.com/whatwg/html/pull/10747,2024-11-07T07:29:35Z,2024-11-13T04:50:31Z,annevk,,0
 2631440687,true,"[editorial] dfn worker's outside/inside port, and clarify event retargeting",https://github.com/whatwg/html/pull/10738,2024-11-03T20:01:43Z,2024-11-21T08:39:02Z,nicolo-ribaudo,clarification|topic: workers,0
-2627986111,false,Add dialog light dismiss behavior,https://github.com/whatwg/html/pull/10737,2024-10-31T23:17:09Z,2024-12-11T06:27:44Z,mfreed7,addition/proposal|needs implementer interest|needs tests|topic: dialog,0
+2627986111,false,Add dialog light dismiss behavior,https://github.com/whatwg/html/pull/10737,2024-10-31T23:17:09Z,2024-12-11T23:29:40Z,mfreed7,addition/proposal|needs implementer interest|needs tests|topic: dialog,0
 2626590050,true,Mudei o título ( apenas par teste aula),https://github.com/whatwg/html/pull/10733,2024-10-31T11:10:21Z,2024-11-01T00:20:29Z,LarissaSouzaNaScimento,invalid,0
 2626503054,true,Correct Trusted Type enforcement in Range.getContextualFragment.,https://github.com/whatwg/html/pull/10732,2024-10-31T10:26:08Z,2024-11-01T05:25:24Z,koto,,0
 2625312806,true,Enforce noopener on cross-top-level-site Blob URLs,https://github.com/whatwg/html/pull/10731,2024-10-30T20:50:16Z,2024-11-18T04:10:39Z,recvfrom,security/privacy,0
@@ -59,7 +59,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2550311707,true,Editorial: use 'global' rather than 'this' in timer initialization steps,https://github.com/whatwg/html/pull/10647,2024-09-26T11:31:50Z,2024-09-26T13:34:01Z,Ms2ger,,0
 2548811700,true,MADE THE REQUIRED CHANGES. UPDATING THE CHANGES TO MAKE IT EASIER TO …,https://github.com/whatwg/html/pull/10645,2024-09-25T19:18:39Z,2024-09-25T20:21:39Z,PartishtaP,invalid,0
 2536908236,true,Editorial: replace uses of the Type macro with is-a tests,https://github.com/whatwg/html/pull/10635,2024-09-19T16:57:45Z,2024-10-28T20:37:39Z,michaelficarra,,0
-2534719588,false,Define the `<selectedcontent>` element,https://github.com/whatwg/html/pull/10633,2024-09-18T20:57:38Z,2024-12-09T23:46:02Z,josepharhar,addition/proposal|topic: forms|topic: select,0
+2534719588,false,Define the `<selectedcontent>` element,https://github.com/whatwg/html/pull/10633,2024-09-18T20:57:38Z,2024-12-11T18:03:24Z,josepharhar,addition/proposal|topic: forms|topic: select,0
 2533947494,true,Editorial: clean up small parts of sequential focus navigation,https://github.com/whatwg/html/pull/10632,2024-09-18T14:44:25Z,2024-10-02T03:03:19Z,domfarolino,clarification|topic: focus,0
 2533812083,true,Fix missed COOP renames,https://github.com/whatwg/html/pull/10631,2024-09-18T13:50:44Z,2024-09-18T14:39:24Z,AtkinsSJ,,0
 2530855117,false,Add `for` and `class` aliases for `htmlFor` and `className`,https://github.com/whatwg/html/pull/10630,2024-09-17T11:07:36Z,2024-09-17T17:55:18Z,Psychpsyo,,0
@@ -312,7 +312,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1977331415,true,Add invoke defaults for input and select,https://github.com/whatwg/html/pull/9912,2023-11-04T13:18:17Z,2024-04-11T19:52:39Z,lukewarlow,,0
 1974532027,true,HTMLAllCollection: add tags() method,https://github.com/whatwg/html/pull/9908,2023-11-02T15:42:16Z,2023-11-13T05:53:30Z,delan,,0
 1973785754,true,Overhaul document unloading/destruction/aborting,https://github.com/whatwg/html/pull/9907,2023-11-02T08:54:15Z,2024-01-11T05:34:16Z,domenic,topic: navigation,0
-1973639595,true,Modernize frame/iframe insertion and removal,https://github.com/whatwg/html/pull/9906,2023-11-02T07:07:51Z,2023-11-06T08:35:35Z,domenic,topic: shadow|topic: browsing context,0
+1973639595,true,Modernize frame/iframe insertion and removal,https://github.com/whatwg/html/pull/9906,2023-11-02T07:07:51Z,2023-11-06T08:35:35Z,domenic,topic: shadow|topic: frames/navigables/browsing contexts,0
 1973636114,true,"'li' tag missed 'p' tag, causing no line break.",https://github.com/whatwg/html/pull/9905,2023-11-02T07:05:02Z,2024-01-29T14:58:25Z,Raj-400BC,,0
 1973568045,true,Do not unload during same-document history step application,https://github.com/whatwg/html/pull/9904,2023-11-02T06:04:11Z,2023-11-15T00:41:37Z,domenic,topic: navigation,0
 1973377901,true,Rendering: field-sizing support for some elements,https://github.com/whatwg/html/pull/9903,2023-11-02T02:14:31Z,2024-02-06T05:36:30Z,tkent-google,addition/proposal|topic: rendering,0
@@ -438,12 +438,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1818258169,true,Make the directionality account for missing parent element,https://github.com/whatwg/html/pull/9554,2023-07-24T11:49:33Z,2023-08-31T05:41:01Z,annevk,i18n-tracker,1
 1817297523,true,Tweak `thead` description to clarify it can contain non-header cells,https://github.com/whatwg/html/pull/9552,2023-07-23T21:11:39Z,2023-07-25T09:17:22Z,patrickhlauke,,0
 1815020757,true,selectmenu,https://github.com/whatwg/html/pull/9547,2023-07-21T01:27:53Z,2023-09-23T13:34:59Z,josepharhar,,1
-1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2024-12-11T10:14:42Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms,12
+1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2024-12-11T12:51:26Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms,12
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2024-10-08T14:04:19Z,cijian23,invalid,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,true,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-10-11T23:22:22Z,josepharhar,addition/proposal|topic: parser|impacts documentation,1
 1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2024-12-09T17:04:54Z,graveljp,topic: canvas,1
-1810870126,true,Define srcdoc documents as matching about:srcdoc URL,https://github.com/whatwg/html/pull/9534,2023-07-18T23:37:14Z,2023-07-20T03:49:15Z,domfarolino,topic: browsing context|topic: document.open()|topic: javascript: URLs,0
+1810870126,true,Define srcdoc documents as matching about:srcdoc URL,https://github.com/whatwg/html/pull/9534,2023-07-18T23:37:14Z,2023-07-20T03:49:15Z,domfarolino,topic: frames/navigables/browsing contexts|topic: document.open()|topic: javascript: URLs,0
 1810164917,true,Fix non-fetch-scheme-params-initiator-origin assignment,https://github.com/whatwg/html/pull/9532,2023-07-18T15:25:02Z,2023-07-19T07:17:21Z,domfarolino,topic: navigation,0
 1809663999,true,Add types to parameters of script fetching algorithms,https://github.com/whatwg/html/pull/9530,2023-07-18T10:39:07Z,2023-07-20T06:18:13Z,nicolo-ribaudo,,0
 1809036701,true,Mention WorkletGlobalScope as a type of global object,https://github.com/whatwg/html/pull/9529,2023-07-18T04:00:31Z,2023-07-19T01:10:36Z,domenic,clarification,0
@@ -488,7 +488,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1745979749,true,Add name attribute for grouping details elements into an exclusive accordion,https://github.com/whatwg/html/pull/9400,2023-06-07T13:59:20Z,2023-12-21T21:40:39Z,dbaron,addition/proposal|needs implementer interest,1
 1745722348,true,Null checks for img pending request,https://github.com/whatwg/html/pull/9399,2023-06-07T11:52:31Z,2023-06-09T12:15:43Z,zcorpan,,0
 1745244513,true,"Add asserting element's popover invoker is null in the ""show popover"" algorithm",https://github.com/whatwg/html/pull/9397,2023-06-07T07:27:12Z,2023-06-07T20:19:27Z,mbrodesser-Igalia,topic: popover,0
-1745032688,true,"Guard ""close a top-level traversable""",https://github.com/whatwg/html/pull/9396,2023-06-07T04:55:44Z,2023-06-09T05:32:47Z,domenic,topic: browsing context,0
+1745032688,true,"Guard ""close a top-level traversable""",https://github.com/whatwg/html/pull/9396,2023-06-07T04:55:44Z,2023-06-09T05:32:47Z,domenic,topic: frames/navigables/browsing contexts,0
 1745024754,true,Define :modal pseudo-class and start using it,https://github.com/whatwg/html/pull/9395,2023-06-07T04:46:13Z,2023-06-09T11:20:48Z,nt1m,topic: dialog|topic: selectors,0
 1744750273,true,Make togglePopover return a boolean,https://github.com/whatwg/html/pull/9393,2023-06-06T23:08:50Z,2023-06-20T06:33:38Z,josepharhar,topic: popover,0
 1744629222,true,Fix modal check in dialog closing algorithm,https://github.com/whatwg/html/pull/9391,2023-06-06T21:19:10Z,2023-06-07T10:19:12Z,josepharhar,topic: dialog,0
@@ -559,7 +559,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2024-09-27T17:20:22Z,josepharhar,,4
 1660955905,true,Don't throw when popover/dialog is in requested state,https://github.com/whatwg/html/pull/9142,2023-04-10T15:32:00Z,2023-07-10T09:37:47Z,josepharhar,needs tests|topic: dialog|topic: popover,1
 1660921767,true,Remove anchor attribute reference in popover note,https://github.com/whatwg/html/pull/9141,2023-04-10T15:05:50Z,2023-04-24T14:03:23Z,josepharhar,topic: popover,0
-1660416855,true,"Fix ""active frame element"" definition",https://github.com/whatwg/html/pull/9139,2023-04-10T08:08:01Z,2023-04-28T07:31:26Z,domenic,topic: browsing context,0
+1660416855,true,"Fix ""active frame element"" definition",https://github.com/whatwg/html/pull/9139,2023-04-10T08:08:01Z,2023-04-28T07:31:26Z,domenic,topic: frames/navigables/browsing contexts,0
 1659698554,true,Mudei o titulo (apenas para um teste da aula do youtube),https://github.com/whatwg/html/pull/9137,2023-04-09T01:21:57Z,2024-10-08T14:04:15Z,CharlesRobertoAlegre,invalid,0
 1657789416,true,Fix a typo regarding formStateRestoreCallback,https://github.com/whatwg/html/pull/9130,2023-04-06T17:19:55Z,2023-05-17T23:45:43Z,xiaochengh,topic: custom elements,0
 1655536568,true,Allow <hr> to be used inside <select> as a separator,https://github.com/whatwg/html/pull/9124,2023-04-05T12:32:26Z,2023-10-27T13:44:02Z,annevk,addition/proposal|document conformance|topic: parser|topic: forms,3
@@ -623,7 +623,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1586949254,true,Use ToggleEvent for <details> element toggle event,https://github.com/whatwg/html/pull/8893,2023-02-16T03:38:18Z,2023-08-25T21:31:33Z,nt1m,addition/proposal|topic: events,0
 1586841521,true,Change exception thrown when popover attribute is not present,https://github.com/whatwg/html/pull/8891,2023-02-16T01:25:18Z,2023-02-27T14:25:24Z,josepharhar,topic: popover,0
 1585413980,true,Correct canceling popovers step,https://github.com/whatwg/html/pull/8889,2023-02-15T08:17:51Z,2023-02-16T08:28:27Z,annevk,topic: popover,0
-1585301417,true,"Fix ""document-tree child navigable target name property set""",https://github.com/whatwg/html/pull/8887,2023-02-15T06:33:21Z,2023-03-24T08:05:03Z,domenic,topic: browsing context,1
+1585301417,true,"Fix ""document-tree child navigable target name property set""",https://github.com/whatwg/html/pull/8887,2023-02-15T06:33:21Z,2023-03-24T08:05:03Z,domenic,topic: frames/navigables/browsing contexts,1
 1584839535,true,"Add ""hide all popovers"" algorithm",https://github.com/whatwg/html/pull/8886,2023-02-14T21:12:09Z,2023-02-23T08:38:46Z,josepharhar,topic: popover,0
 1584809177,true,Export some popover dfns,https://github.com/whatwg/html/pull/8885,2023-02-14T20:51:09Z,2023-02-17T17:28:42Z,josepharhar,meta|topic: popover,1
 1577842845,true,33,https://github.com/whatwg/html/pull/8871,2023-02-09T12:52:48Z,2024-10-08T14:05:30Z,TRCREO,invalid,0
@@ -666,7 +666,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1473435565,true,Provide data-dfn-type to CSS <source-size-*>,https://github.com/whatwg/html/pull/8579,2022-12-02T20:55:53Z,2023-02-28T06:35:59Z,cdoublev,,0
 1471124460,true,Use DOM definition of Attr/reflect,https://github.com/whatwg/html/pull/8575,2022-12-01T11:10:19Z,2023-02-24T08:33:34Z,dontcallmedom,,0
 1471102185,true,Remove duplicate definition of col attribute,https://github.com/whatwg/html/pull/8574,2022-12-01T10:57:35Z,2022-12-01T11:31:59Z,dontcallmedom,,0
-1471048051,true,Collapse disowned into opener browsing context,https://github.com/whatwg/html/pull/8573,2022-12-01T10:16:48Z,2023-02-15T07:35:18Z,annevk,clarification|topic: browsing context,0
+1471048051,true,Collapse disowned into opener browsing context,https://github.com/whatwg/html/pull/8573,2022-12-01T10:16:48Z,2023-02-15T07:35:18Z,annevk,clarification|topic: frames/navigables/browsing contexts,0
 1470894523,true,"Add <del> and <picture> to the ""palpable content"" category",https://github.com/whatwg/html/pull/8571,2022-12-01T08:31:41Z,2022-12-05T21:18:59Z,rdeltour,,0
 1470111685,true,Remove font tag text decoration quirk.,https://github.com/whatwg/html/pull/8568,2022-11-30T19:20:40Z,2022-12-03T04:10:55Z,bfgeek,normative change|topic: rendering,0
 1469920685,true,Update search.js,https://github.com/whatwg/html/pull/8567,2022-11-30T16:35:31Z,2024-10-08T14:05:29Z,sandeepvinnu,invalid,0
@@ -809,7 +809,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1291054654,true,Align interface for securitypolicyviolation with CSP spec,https://github.com/whatwg/html/pull/8062,2022-07-01T07:59:25Z,2022-07-03T02:14:21Z,dontcallmedom,,0
 1291039541,true,Align dfn-for with target interfaces for a couple of media events,https://github.com/whatwg/html/pull/8061,2022-07-01T07:43:08Z,2022-07-01T07:50:31Z,dontcallmedom,,0
 1290671470,true,Fix processing in 'updating the image data',https://github.com/whatwg/html/pull/8059,2022-06-30T21:46:35Z,2022-07-06T09:38:54Z,zcorpan,,0
-1289822912,true,Make about:srcdoc to inherit PolicyContainer from history.,https://github.com/whatwg/html/pull/8057,2022-06-30T09:01:56Z,2022-07-14T04:46:20Z,ArthurSonzogni,topic: history|topic: browsing context|topic: policy container,0
+1289822912,true,Make about:srcdoc to inherit PolicyContainer from history.,https://github.com/whatwg/html/pull/8057,2022-06-30T09:01:56Z,2022-07-14T04:46:20Z,ArthurSonzogni,topic: history|topic: frames/navigables/browsing contexts|topic: policy container,0
 1288288315,true,Update 404.html,https://github.com/whatwg/html/pull/8052,2022-06-29T07:27:17Z,2024-10-08T14:05:19Z,devanshucodes,invalid,0
 1288039507,true,chore: Set permissions for GitHub actions,https://github.com/whatwg/html/pull/8049,2022-06-29T00:37:12Z,2022-07-06T10:23:35Z,naveensrinivasan,,0
 1285261705,true,Fix HostPromiseRejectionHandler when running script is null,https://github.com/whatwg/html/pull/8043,2022-06-27T05:23:09Z,2022-12-05T09:59:23Z,domenic,topic: script,0
@@ -928,7 +928,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1149728829,true,Make radii argument optional for roundrect,https://github.com/whatwg/html/pull/7659,2022-02-24T20:43:17Z,2022-03-07T15:55:34Z,mysteryDate,topic: canvas,0
 1149587630,false,Import condition,https://github.com/whatwg/html/pull/7658,2022-02-24T18:04:10Z,2023-11-14T08:05:50Z,mirisuzanne,topic: link|topic: style,0
 1148394531,true,Specify range fetching for media,https://github.com/whatwg/html/pull/7655,2022-02-23T17:46:12Z,2022-04-04T12:47:30Z,noamr,topic: media,0
-1148132338,true,allow-top-navigation-to-custom-protocols,https://github.com/whatwg/html/pull/7654,2022-02-23T14:00:34Z,2022-03-07T15:50:03Z,ArthurSonzogni,addition/proposal|topic: navigation|topic: browsing context|impacts documentation|topic: sandbox,0
+1148132338,true,allow-top-navigation-to-custom-protocols,https://github.com/whatwg/html/pull/7654,2022-02-23T14:00:34Z,2022-03-07T15:50:03Z,ArthurSonzogni,addition/proposal|topic: navigation|topic: frames/navigables/browsing contexts|impacts documentation|topic: sandbox,0
 1147929414,true,Remove callerRealm from HostEnsureCanCompileStrings,https://github.com/whatwg/html/pull/7653,2022-02-23T10:44:47Z,2022-04-22T09:06:42Z,antosart,,0
 1143427869,false,Make media.currentTime more accurate during seeking,https://github.com/whatwg/html/pull/7638,2022-02-18T17:08:36Z,2023-11-14T08:05:49Z,domenic,normative change|topic: media,0
 1141970951,true,Fix broken links to Structured Fields,https://github.com/whatwg/html/pull/7633,2022-02-17T22:14:29Z,2022-02-21T23:44:41Z,domenic,,0
@@ -995,7 +995,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1079358216,true,Editorial: align with FETCH algo rename,https://github.com/whatwg/html/pull/7418,2021-12-14T06:19:18Z,2023-06-16T06:12:08Z,noamr,,0
 1078541218,true,"Remove ""WebSocket""",https://github.com/whatwg/html/pull/7414,2021-12-13T13:35:52Z,2022-02-18T17:10:58Z,yutakahirano,topic: websockets,0
 1074813643,false,Editorial: more natural wording for `form-associated custom element`,https://github.com/whatwg/html/pull/7400,2021-12-08T20:43:40Z,2023-11-14T08:05:50Z,Kaleidea,,0
-1074183724,true,Fix for subframes navigations ending up in an ASSERT.,https://github.com/whatwg/html/pull/7398,2021-12-08T09:19:00Z,2022-03-29T16:49:44Z,hemeryar,topic: navigation|topic: browsing context|topic: cross-origin-opener-policy,0
+1074183724,true,Fix for subframes navigations ending up in an ASSERT.,https://github.com/whatwg/html/pull/7398,2021-12-08T09:19:00Z,2022-03-29T16:49:44Z,hemeryar,topic: navigation|topic: frames/navigables/browsing contexts|topic: cross-origin-opener-policy,0
 1068946123,true,Search element specification with form functionality,https://github.com/whatwg/html/pull/7382,2021-12-01T22:50:32Z,2023-08-08T23:23:27Z,Kaleidea,,3
 1066513791,true,Update letterSpacing and wordSpacing to accept String,https://github.com/whatwg/html/pull/7378,2021-11-29T21:17:49Z,2023-01-04T16:32:49Z,yiyix,topic: canvas,0
 1066462865,true,Remove a `setTimeout`'s entry in the map of active timers after it runs,https://github.com/whatwg/html/pull/7377,2021-11-29T20:19:00Z,2021-12-02T18:23:53Z,andreubotella,,0
@@ -1139,7 +1139,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 977920210,true,updated 2nd time,https://github.com/whatwg/html/pull/6983,2021-08-24T09:54:43Z,2024-10-08T14:08:44Z,smlogsubramani,invalid,0
 977592053,true,Create Basic Concepts,https://github.com/whatwg/html/pull/6982,2021-08-24T00:40:57Z,2024-10-08T14:08:43Z,Swzyy,invalid,0
 976361271,true,Missing period in HTML tokenizer,https://github.com/whatwg/html/pull/6980,2021-08-22T12:10:26Z,2021-08-23T19:30:16Z,Patil2099,topic: parser,0
-975556997,true,"Editorial: ""`Location`-object navigate"" navigates the relevant global object's browsing context",https://github.com/whatwg/html/pull/6977,2021-08-20T12:16:25Z,2021-08-25T16:32:46Z,yvt,topic: navigation|topic: browsing context,0
+975556997,true,"Editorial: ""`Location`-object navigate"" navigates the relevant global object's browsing context",https://github.com/whatwg/html/pull/6977,2021-08-20T12:16:25Z,2021-08-25T16:32:46Z,yvt,topic: navigation|topic: frames/navigables/browsing contexts,0
 974253810,true,Add Contextlost events to event handler attributes,https://github.com/whatwg/html/pull/6970,2021-08-19T04:23:03Z,2023-01-04T16:32:51Z,yiyix,topic: canvas,0
 972963528,true,Editorial: use static class property syntax in examples,https://github.com/whatwg/html/pull/6966,2021-08-17T18:38:58Z,2021-08-31T10:41:24Z,domenic,topic: custom elements,0
 972139185,true,"Editorial: Changed ""Emit that DOCTYPE token"" to ""Emit the current DOCTYPE token""",https://github.com/whatwg/html/pull/6964,2021-08-16T22:13:30Z,2021-08-25T16:11:38Z,philipbrembeck,,0
@@ -1174,7 +1174,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 946957391,true,completed incomplete tag of paragraph of html and paragraph,https://github.com/whatwg/html/pull/6874,2021-07-18T05:42:00Z,2024-10-08T14:08:40Z,jatinkartik,invalid,0
 946697742,true,Fix typo in CanvasTextDrawingStyles interface,https://github.com/whatwg/html/pull/6872,2021-07-17T03:27:35Z,2021-08-08T03:57:24Z,Kaiido,topic: canvas,0
 946695354,true,Correct canvas roundRect's corner overlap,https://github.com/whatwg/html/pull/6871,2021-07-17T03:11:10Z,2021-08-08T03:56:46Z,Kaiido,topic: canvas,0
-946630091,true,Change initial about:blank navigation behavior for iframes and popups,https://github.com/whatwg/html/pull/6869,2021-07-16T22:23:23Z,2021-08-10T17:30:30Z,domenic,topic: events|interop|topic: browsing context,0
+946630091,true,Change initial about:blank navigation behavior for iframes and popups,https://github.com/whatwg/html/pull/6869,2021-07-16T22:23:23Z,2021-08-10T17:30:30Z,domenic,topic: events|interop|topic: frames/navigables/browsing contexts,0
 946578847,true,Editorial: Plugins are no longer an extensibility mechanism,https://github.com/whatwg/html/pull/6867,2021-07-16T20:30:42Z,2021-08-10T12:11:47Z,andreubotella,topic: embed and object,0
 946274194,true,Remove COOP same-origin-plus-coep,https://github.com/whatwg/html/pull/6866,2021-07-16T13:03:21Z,2021-07-22T12:14:44Z,antosart,,0
 943709059,true,"Rename ""Developers Edition"" to ""Edition for Web Developers""",https://github.com/whatwg/html/pull/6857,2021-07-13T18:18:46Z,2021-07-19T16:17:23Z,domenic,dev edition,0
@@ -1287,7 +1287,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 854842580,true,Define <meta media>. Fixes #6495.,https://github.com/whatwg/html/pull/6569,2021-04-09T20:44:37Z,2021-06-23T23:47:13Z,hober,normative change|addition/proposal|document conformance|topic: style,0
 852732086,true,Make document.open() remove initial about:blankness,https://github.com/whatwg/html/pull/6567,2021-04-07T19:18:22Z,2021-04-14T15:17:38Z,domenic,topic: document.open(),0
 852724560,true,Editorial: define initial about:blank Document,https://github.com/whatwg/html/pull/6566,2021-04-07T19:08:10Z,2021-04-14T15:11:58Z,domenic,clarification|topic: navigation|topic: history,0
-852713685,true,"Editorial: avoid action-at-a-distance for sandbox="""" parsing",https://github.com/whatwg/html/pull/6565,2021-04-07T18:54:27Z,2021-04-13T16:59:59Z,domenic,clarification|security/privacy|topic: browsing context,0
+852713685,true,"Editorial: avoid action-at-a-distance for sandbox="""" parsing",https://github.com/whatwg/html/pull/6565,2021-04-07T18:54:27Z,2021-04-13T16:59:59Z,domenic,clarification|security/privacy|topic: frames/navigables/browsing contexts,0
 851894006,true,"Add color space support for CanvasRenderingContext2D, ImageData, and ImageBitmap",https://github.com/whatwg/html/pull/6562,2021-04-07T00:07:44Z,2021-05-03T22:37:16Z,ccameron-chromium,addition/proposal|topic: canvas,0
 851882736,true,Add Imperative Slot API,https://github.com/whatwg/html/pull/6561,2021-04-06T23:36:16Z,2021-04-26T16:55:51Z,mfreed7,addition/proposal|topic: shadow,0
 851818650,true,Add more text modifier properties to canvas 2d api,https://github.com/whatwg/html/pull/6560,2021-04-06T21:19:33Z,2021-04-30T06:58:08Z,yiyix,addition/proposal|topic: canvas,0
@@ -1297,7 +1297,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 844662367,true,Adds definition for protocol-handler-registration,https://github.com/whatwg/html/pull/6543,2021-03-30T14:39:12Z,2021-04-05T16:27:18Z,diekus,topic: custom protocols,0
 842701907,true,Navigation Timing integration,https://github.com/whatwg/html/pull/6536,2021-03-28T09:46:39Z,2021-04-07T15:35:20Z,noamr,do not merge yet,0
 841246409,true,Move the focus to the previously focused element for dialog.close(),https://github.com/whatwg/html/pull/6531,2021-03-25T19:34:30Z,2021-04-27T06:39:53Z,sefeng211,topic: dialog,0
-841158681,true,"Standardize the condition for opening a popup by window.open, and BarProp values",https://github.com/whatwg/html/pull/6530,2021-03-25T17:35:46Z,2021-10-29T16:58:08Z,arai-a,normative change|topic: browsing context,0
+841158681,true,"Standardize the condition for opening a popup by window.open, and BarProp values",https://github.com/whatwg/html/pull/6530,2021-03-25T17:35:46Z,2021-10-29T16:58:08Z,arai-a,normative change|topic: frames/navigables/browsing contexts,0
 840837813,true,Support zero dimension values for aspect-ratio,https://github.com/whatwg/html/pull/6529,2021-03-25T11:33:17Z,2021-05-12T13:06:12Z,annevk,topic: canvas,0
 838833022,true,COEP reporting for workers: fix which variable to use for 'owner',https://github.com/whatwg/html/pull/6525,2021-03-23T15:13:59Z,2021-03-31T15:59:33Z,zcorpan,topic: workers|topic: cross-origin-embedder-policy,0
 838715636,true,Meta: update repository files,https://github.com/whatwg/html/pull/6524,2021-03-23T13:15:10Z,2021-03-23T13:31:43Z,annevk,,0
@@ -1311,7 +1311,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 833074785,true,Clarify premultiplication,https://github.com/whatwg/html/pull/6500,2021-03-16T18:13:17Z,2021-04-05T19:13:26Z,adroitwhiz,topic: canvas,0
 832239051,true,"Compute ""allowed to download"" synchronously in navigation",https://github.com/whatwg/html/pull/6497,2021-03-15T22:22:34Z,2021-03-16T16:52:10Z,domenic,topic: navigation,0
 832175057,true,Add hooks for other specifications to observe navigation,https://github.com/whatwg/html/pull/6496,2021-03-15T20:40:25Z,2021-07-13T20:16:22Z,jgraham,,0
-832084079,true,"Explain more of ""create and initialize a Document object""",https://github.com/whatwg/html/pull/6494,2021-03-15T18:33:20Z,2021-03-16T18:01:08Z,domenic,clarification|topic: navigation|topic: browsing context,0
+832084079,true,"Explain more of ""create and initialize a Document object""",https://github.com/whatwg/html/pull/6494,2021-03-15T18:33:20Z,2021-03-16T18:01:08Z,domenic,clarification|topic: navigation|topic: frames/navigables/browsing contexts,0
 830972053,true,"I made the change and written ""User Agent"" in place of ""UV"" in the source file.",https://github.com/whatwg/html/pull/6488,2021-03-13T19:22:37Z,2021-08-17T18:40:27Z,Atharva-17,,0
 829653241,true,Ignore title passed to pushState()/replaceState(),https://github.com/whatwg/html/pull/6482,2021-03-12T00:53:53Z,2023-06-15T18:14:00Z,domenic,removal/deprecation|topic: history|impacts documentation,0
 828815807,false,Restore the rb and rtc elements and update ruby content model accordingly,https://github.com/whatwg/html/pull/6478,2021-03-11T06:34:10Z,2023-11-14T08:05:50Z,frivoal,needs implementer interest|do not merge yet|topic: ruby,6
@@ -1371,7 +1371,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 793302268,false,Export terms referenced from w3c/ServiceWorker#1545,https://github.com/whatwg/html/pull/6325,2021-01-25T11:31:17Z,2023-11-14T08:05:50Z,yutakahirano,,0
 791994491,true,Editorial: anticlockwise → counterclockwise,https://github.com/whatwg/html/pull/6322,2021-01-22T13:12:36Z,2021-01-22T16:52:54Z,annevk,,0
 791364874,true,Add matrix to the safelisted schemes list,https://github.com/whatwg/html/pull/6320,2021-01-21T17:44:01Z,2021-04-19T14:37:01Z,MayeulC,,13
-790233208,true,Navigation and session history rewrite,https://github.com/whatwg/html/pull/6315,2021-01-20T18:56:59Z,2023-03-08T05:01:31Z,jakearchibald,topic: navigation|topic: history|topic: browsing context|topic: embed and object|topic: javascript: URLs|topic: document lifecycle|topic: sandbox|topic: policy container,0
+790233208,true,Navigation and session history rewrite,https://github.com/whatwg/html/pull/6315,2021-01-20T18:56:59Z,2023-03-08T05:01:31Z,jakearchibald,topic: navigation|topic: history|topic: frames/navigables/browsing contexts|topic: embed and object|topic: javascript: URLs|topic: document lifecycle|topic: sandbox|topic: policy container,0
 788899081,true,Meta: minor references cleanup,https://github.com/whatwg/html/pull/6311,2021-01-19T10:26:33Z,2021-01-20T07:10:39Z,annevk,,0
 788419068,true,Review Draft Publication: January 2021,https://github.com/whatwg/html/pull/6308,2021-01-18T16:54:25Z,2021-01-18T16:59:18Z,annevk,,0
 788157232,true,Meta: remove demos/offline/*,https://github.com/whatwg/html/pull/6307,2021-01-18T10:49:29Z,2021-01-19T20:58:34Z,annevk,,0
@@ -1414,7 +1414,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 748515841,true,Delete source,https://github.com/whatwg/html/pull/6173,2020-11-23T06:37:40Z,2024-10-08T14:08:15Z,techschneiderrr,invalid,0
 748142710,true,Have document.hasFocus() and blur/focus events reveal system-level focus,https://github.com/whatwg/html/pull/6172,2020-11-22T01:57:23Z,2020-12-12T01:25:49Z,jan-ivar,topic: focus,0
 747707381,true,Fix regression in focus chain computation,https://github.com/whatwg/html/pull/6170,2020-11-20T18:25:45Z,2020-12-01T16:45:32Z,domenic,topic: focus,0
-747637980,true,Fix regression in iframe/frame loading,https://github.com/whatwg/html/pull/6169,2020-11-20T16:50:18Z,2020-11-20T17:35:52Z,domenic,topic: browsing context,0
+747637980,true,Fix regression in iframe/frame loading,https://github.com/whatwg/html/pull/6169,2020-11-20T16:50:18Z,2020-11-20T17:35:52Z,domenic,topic: frames/navigables/browsing contexts,0
 747109906,true,Set up a window environment settings object should not return anything,https://github.com/whatwg/html/pull/6167,2020-11-20T03:31:15Z,2020-11-20T18:24:13Z,domfarolino,,0
 746275067,true,[Non-normative] Fix a href to .focus(),https://github.com/whatwg/html/pull/6166,2020-11-19T06:01:02Z,2020-11-19T11:23:23Z,muzimuzhi,,0
 745987403,true,resolve grammar issues in error 6155 and add name to ACKS,https://github.com/whatwg/html/pull/6164,2020-11-18T20:39:57Z,2020-11-19T09:26:06Z,f-shirley,,0
@@ -1556,7 +1556,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 689134055,true,"Allow autocomplete=""username"" with input[type=email]",https://github.com/whatwg/html/pull/5881,2020-08-31T11:30:03Z,2020-09-02T07:05:35Z,sideshowbarker,normative change|topic: forms,0
 688411576,false,"Override the ""mode"" of Service Worker requests",https://github.com/whatwg/html/pull/5875,2020-08-28T23:54:49Z,2023-11-14T08:05:50Z,jugglinmike,,0
 688271314,false,"Editorial: align with Encoding's changes to ""streams"" / ""I/O queues""",https://github.com/whatwg/html/pull/5874,2020-08-28T18:18:17Z,2023-11-14T08:05:50Z,andreubotella,,0
-688032356,true,Reset window.name also when opener is set to null,https://github.com/whatwg/html/pull/5871,2020-08-28T12:14:19Z,2021-01-08T16:47:52Z,annevk,topic: browsing context,0
+688032356,true,Reset window.name also when opener is set to null,https://github.com/whatwg/html/pull/5871,2020-08-28T12:14:19Z,2021-01-08T16:47:52Z,annevk,topic: frames/navigables/browsing contexts,0
 687148417,true,Remove quotes UA rendering section.,https://github.com/whatwg/html/pull/5868,2020-08-27T10:59:13Z,2021-01-29T10:05:50Z,lilles,i18n-tracker,0
 686581121,true,"Set ""destination"" of requests from link[rel=icon]",https://github.com/whatwg/html/pull/5866,2020-08-26T20:01:21Z,2020-08-28T08:13:47Z,jugglinmike,topic: link,0
 686082062,true,Clarify the link types process,https://github.com/whatwg/html/pull/5865,2020-08-26T07:28:31Z,2020-08-26T16:51:54Z,annevk,topic: link,0
@@ -1591,7 +1591,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 676889575,true,Allow mutating <input disabled type=checkbox/radio>,https://github.com/whatwg/html/pull/5805,2020-08-11T13:43:50Z,2020-11-04T20:49:59Z,saschanaz,topic: forms,0
 675521231,true,Fix 3 editorial typos,https://github.com/whatwg/html/pull/5800,2020-08-08T12:53:14Z,2020-08-11T18:26:20Z,carmacleod,clarification|topic: focus,0
 675267167,true,Fix #4562: add support for internationalized email addresses,https://github.com/whatwg/html/pull/5799,2020-08-07T20:44:11Z,2024-08-15T11:34:55Z,aphillips,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,0
-674532263,true,"Improve ""completely loaded"" specification",https://github.com/whatwg/html/pull/5797,2020-08-06T18:55:54Z,2020-08-18T15:49:28Z,domenic,clarification|topic: navigation|topic: events|topic: browsing context,0
+674532263,true,"Improve ""completely loaded"" specification",https://github.com/whatwg/html/pull/5797,2020-08-06T18:55:54Z,2020-08-18T15:49:28Z,domenic,clarification|topic: navigation|topic: events|topic: frames/navigables/browsing contexts,0
 674059796,true,registerProtocolHandler(): creating a navigable URL cannot fail,https://github.com/whatwg/html/pull/5795,2020-08-06T06:40:18Z,2023-03-04T14:53:55Z,annevk,,0
 674034628,true,registerProtocolHandler(): drop scheme from note,https://github.com/whatwg/html/pull/5794,2020-08-06T05:44:55Z,2020-08-06T13:52:34Z,annevk,topic: custom protocols,0
 673606393,true,registerProtocolHandler(): correct placement of note,https://github.com/whatwg/html/pull/5788,2020-08-05T14:58:13Z,2020-08-05T15:26:02Z,annevk,clarification|topic: custom protocols,0
@@ -1645,7 +1645,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 647210756,true,Editorial: more minor fallout from COOP,https://github.com/whatwg/html/pull/5692,2020-06-29T08:14:46Z,2020-06-30T05:10:12Z,annevk,topic: cross-origin-opener-policy,0
 646566098,true,Editorial: Normalize verb tense in algo reference,https://github.com/whatwg/html/pull/5689,2020-06-27T00:00:55Z,2020-06-29T07:07:24Z,jugglinmike,,0
 646558140,true,Editorial: Correct misspelled variable name,https://github.com/whatwg/html/pull/5688,2020-06-26T23:24:30Z,2020-06-29T18:53:42Z,jugglinmike,,0
-646416355,true,Correct management of sandboxing flag sets,https://github.com/whatwg/html/pull/5686,2020-06-26T17:43:46Z,2020-07-11T00:16:46Z,jugglinmike,topic: browsing context|topic: sandbox,0
+646416355,true,Correct management of sandboxing flag sets,https://github.com/whatwg/html/pull/5686,2020-06-26T17:43:46Z,2020-07-11T00:16:46Z,jugglinmike,topic: frames/navigables/browsing contexts|topic: sandbox,0
 645807118,true,Editorial: Correct variable reference,https://github.com/whatwg/html/pull/5681,2020-06-25T19:43:11Z,2020-06-25T20:32:52Z,jugglinmike,,0
 645518018,true,Editorial: make Form submission section unique,https://github.com/whatwg/html/pull/5675,2020-06-25T12:22:58Z,2020-06-25T14:56:00Z,annevk,,0
 645062921,true,Update links to execCommand,https://github.com/whatwg/html/pull/5671,2020-06-25T00:37:37Z,2020-06-25T09:17:43Z,marcoscaceres,,0
@@ -1657,7 +1657,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 641508364,true,Use dotted intrinsic form from ecma262,https://github.com/whatwg/html/pull/5655,2020-06-18T19:49:15Z,2020-06-18T22:36:17Z,ljharb,integration,0
 641476210,true,Rearrange Scripting subsections and introduce the environment settings object/environment concepts,https://github.com/whatwg/html/pull/5654,2020-06-18T18:53:01Z,2020-06-26T15:45:38Z,domenic,clarification|topic: multiple globals|topic: script,0
 641365916,true,"Editorial: Introduce and use ""queue a global task""",https://github.com/whatwg/html/pull/5653,2020-06-18T16:31:02Z,2020-06-25T15:12:44Z,domenic,clarification|topic: event loop,0
-641330294,true,"Editorial: introduce browsing context's ""active window""",https://github.com/whatwg/html/pull/5651,2020-06-18T15:52:12Z,2020-06-24T17:20:45Z,domenic,topic: browsing context,0
+641330294,true,"Editorial: introduce browsing context's ""active window""",https://github.com/whatwg/html/pull/5651,2020-06-18T15:52:12Z,2020-06-24T17:20:45Z,domenic,topic: frames/navigables/browsing contexts,0
 636873184,true,Meta: has diffing been fixed upstream?,https://github.com/whatwg/html/pull/5636,2020-06-11T09:40:24Z,2020-06-11T09:48:28Z,annevk,,0
 636174517,true,Meta: fix diffing,https://github.com/whatwg/html/pull/5629,2020-06-10T11:37:03Z,2020-06-11T09:48:58Z,annevk,do not merge yet,0
 635049666,true,export 'unordered set of unique space-separated tokens',https://github.com/whatwg/html/pull/5622,2020-06-09T01:59:30Z,2020-06-22T01:54:06Z,marcoscaceres,,0
@@ -1671,7 +1671,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 627927553,true,(fix) lexical change to modulepreload docs,https://github.com/whatwg/html/pull/5592,2020-05-31T09:35:59Z,2020-06-05T07:15:00Z,schalkneethling,clarification|topic: link,0
 627698735,true,Refactor designMode/innerText,https://github.com/whatwg/html/pull/5588,2020-05-30T10:25:28Z,2020-06-02T05:21:04Z,annevk,,0
 627170562,true,Add example for linking table rows,https://github.com/whatwg/html/pull/5587,2020-05-29T10:35:22Z,2020-05-29T14:12:02Z,annevk,,0
-626585449,true,Restructure create a new browsing context,https://github.com/whatwg/html/pull/5583,2020-05-28T15:03:31Z,2020-06-01T15:14:41Z,annevk,topic: browsing context,0
+626585449,true,Restructure create a new browsing context,https://github.com/whatwg/html/pull/5583,2020-05-28T15:03:31Z,2020-06-01T15:14:41Z,annevk,topic: frames/navigables/browsing contexts,0
 626187335,true,Adding link[rel=manifest],https://github.com/whatwg/html/pull/5581,2020-05-28T03:36:00Z,2020-07-14T23:02:58Z,aarongustafson,topic: link,0
 625266368,true,Lazyload iframes,https://github.com/whatwg/html/pull/5579,2020-05-26T23:36:31Z,2020-07-08T17:56:03Z,domfarolino,addition/proposal,3
 625016977,true,"Add lang=""en"" to all the demo pages",https://github.com/whatwg/html/pull/5578,2020-05-26T16:29:31Z,2020-07-11T09:55:37Z,domenic,i18n-tracker,0
@@ -1713,7 +1713,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 606445072,true,Add Imperative Slot API,https://github.com/whatwg/html/pull/5483,2020-04-24T16:42:10Z,2021-04-25T21:18:30Z,yuzhe-han,topic: shadow|agenda+,0
 606057404,false,Update safelisted decentralized schemes for registerProtocolHandler(),https://github.com/whatwg/html/pull/5482,2020-04-24T05:44:24Z,2023-11-14T08:05:50Z,fred-wang,topic: custom protocols,5
 605905844,true,Update the kitchen sink diagram,https://github.com/whatwg/html/pull/5481,2020-04-23T22:08:24Z,2020-04-28T17:09:49Z,domenic,,0
-605836334,true,"Fix call to ""create a new browsing context""",https://github.com/whatwg/html/pull/5480,2020-04-23T20:14:18Z,2020-04-27T17:56:16Z,domenic,topic: browsing context,0
+605836334,true,"Fix call to ""create a new browsing context""",https://github.com/whatwg/html/pull/5480,2020-04-23T20:14:18Z,2020-04-27T17:56:16Z,domenic,topic: frames/navigables/browsing contexts,0
 604420490,true,Editorial: fix some script document links,https://github.com/whatwg/html/pull/5478,2020-04-22T03:13:59Z,2020-04-22T05:20:54Z,domenic,topic: script,0
 603921924,false,Put data URL dedicated workers in their own agent cluster,https://github.com/whatwg/html/pull/5476,2020-04-21T11:26:01Z,2023-11-14T08:05:50Z,annevk,topic: workers,0
 603343831,true,Meta: use absolute paths for images,https://github.com/whatwg/html/pull/5473,2020-04-20T15:52:35Z,2020-04-20T16:35:16Z,domenic,dev edition,0
@@ -1730,7 +1730,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 596888060,true,Align with Web IDL extended attribute changes,https://github.com/whatwg/html/pull/5450,2020-04-08T21:56:20Z,2020-04-20T17:27:37Z,domenic,,0
 596733309,true,Add enforce ranges for get and putImagedata,https://github.com/whatwg/html/pull/5449,2020-04-08T17:15:39Z,2021-05-05T13:48:21Z,mysteryDate,topic: canvas,0
 596498249,true,Meta: export language as for=Node,https://github.com/whatwg/html/pull/5447,2020-04-08T11:12:37Z,2020-04-09T07:12:47Z,annevk,,0
-595456369,true,"Remove ""responsible browsing context"" concept",https://github.com/whatwg/html/pull/5441,2020-04-06T22:01:32Z,2020-04-07T17:45:19Z,domenic,clarification|topic: browsing context,0
+595456369,true,"Remove ""responsible browsing context"" concept",https://github.com/whatwg/html/pull/5441,2020-04-06T22:01:32Z,2020-04-07T17:45:19Z,domenic,clarification|topic: frames/navigables/browsing contexts,0
 595448490,true,"Change ""scripting is disabled"" to be per-global",https://github.com/whatwg/html/pull/5440,2020-04-06T21:44:53Z,2020-04-07T16:06:10Z,domenic,clarification|topic: img|topic: script,0
 593499960,true,Add `referrerpolicy` to the list of relevant mutations,https://github.com/whatwg/html/pull/5434,2020-04-03T16:28:36Z,2020-05-04T07:51:42Z,domfarolino,normative change|topic: img,0
 592932404,true,Cancel old invocations after lazy load resumption,https://github.com/whatwg/html/pull/5433,2020-04-02T21:37:24Z,2020-05-15T16:45:43Z,domfarolino,needs tests,0
@@ -1847,10 +1847,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 527233609,true,Clarify creator origin reuse,https://github.com/whatwg/html/pull/5108,2019-11-22T14:37:25Z,2019-11-26T17:30:35Z,annevk,clarification|topic: origin,0
 527204129,true,Use same origin-domain when initializing a document,https://github.com/whatwg/html/pull/5107,2019-11-22T13:46:19Z,2020-04-06T20:20:18Z,annevk,topic: navigation|topic: origin,0
 527136777,false,fix: Revert `HTMLDocument` removal,https://github.com/whatwg/html/pull/5104,2019-11-22T11:15:21Z,2023-11-14T08:05:50Z,ExE-Boss,,0
-524608935,true,Snapshot sandbox at start of navigation.,https://github.com/whatwg/html/pull/5098,2019-11-18T20:44:39Z,2019-12-02T15:25:07Z,clelland,topic: navigation|security/privacy|topic: browsing context,0
+524608935,true,Snapshot sandbox at start of navigation.,https://github.com/whatwg/html/pull/5098,2019-11-18T20:44:39Z,2019-12-02T15:25:07Z,clelland,topic: navigation|security/privacy|topic: frames/navigables/browsing contexts,0
 524472976,true,"Editorial: nested browsing context is a member, not a type",https://github.com/whatwg/html/pull/5095,2019-11-18T16:22:04Z,2019-11-26T17:46:08Z,annevk,,0
 524433591,true,Editorial: clarify which document of a top-level browsing context,https://github.com/whatwg/html/pull/5093,2019-11-18T15:18:02Z,2019-11-20T09:40:43Z,annevk,clarification|topic: focus,0
-523551354,true,Give browsing contexts an explicit container,https://github.com/whatwg/html/pull/5091,2019-11-15T15:57:55Z,2019-11-22T08:12:19Z,annevk,clarification|topic: shadow|topic: browsing context,0
+523551354,true,Give browsing contexts an explicit container,https://github.com/whatwg/html/pull/5091,2019-11-15T15:57:55Z,2019-11-22T08:12:19Z,annevk,clarification|topic: shadow|topic: frames/navigables/browsing contexts,0
 523503933,true,allow heading content within a legend element,https://github.com/whatwg/html/pull/5090,2019-11-15T14:34:00Z,2020-02-19T13:56:38Z,scottaohara,document conformance|accessibility|impacts documentation,14
 523500326,true,"Improve the list of the descendant browsing contexts ",https://github.com/whatwg/html/pull/5089,2019-11-15T14:27:38Z,2019-11-19T15:37:55Z,annevk,clarification|topic: shadow,0
 523182523,true,Replace 'FunctionCreate' with 'OrdinaryFunctionCreate',https://github.com/whatwg/html/pull/5086,2019-11-15T00:22:53Z,2019-12-19T19:25:24Z,jmdyck,integration,0
@@ -1949,7 +1949,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 467520684,true,Use the newly exposed methods to initialize feature policy.,https://github.com/whatwg/html/pull/4772,2019-07-12T17:24:02Z,2019-07-18T16:23:51Z,dtapuska,,0
 467324994,true,Editorial: restore sandboxOrigin ID,https://github.com/whatwg/html/pull/4769,2019-07-12T09:51:19Z,2019-07-12T15:16:56Z,annevk,,0
 467288081,true,"Define different types of ""focusable"" & remove ""tabindex focus flag""",https://github.com/whatwg/html/pull/4768,2019-07-12T08:30:00Z,2019-09-24T06:47:11Z,rakina,clarification|topic: focus,0
-466950313,true,Introduce 'initial opaque origin' concept,https://github.com/whatwg/html/pull/4766,2019-07-11T15:06:37Z,2022-03-04T23:06:38Z,clelland,do not merge yet|topic: browsing context,0
+466950313,true,Introduce 'initial opaque origin' concept,https://github.com/whatwg/html/pull/4766,2019-07-11T15:06:37Z,2022-03-04T23:06:38Z,clelland,do not merge yet|topic: frames/navigables/browsing contexts,0
 466671277,true,Update autofocus processing algorithm,https://github.com/whatwg/html/pull/4763,2019-07-11T05:32:10Z,2020-04-10T09:20:05Z,tkent-google,normative change|topic: focus,0
 466042027,true,export 'media element load algorithm',https://github.com/whatwg/html/pull/4760,2019-07-10T00:36:39Z,2019-07-16T09:05:07Z,marcoscaceres,,0
 465931476,true,Further tabIndex getter tweaks,https://github.com/whatwg/html/pull/4759,2019-07-09T18:47:09Z,2019-08-19T16:31:09Z,domenic,topic: focus,2
@@ -2056,45 +2056,45 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 418605567,true,'formdata' event should bubble.,https://github.com/whatwg/html/pull/4422,2019-03-08T02:38:13Z,2019-03-09T08:00:27Z,tkent-google,topic: forms,0
 418319215,true,Editorial: use Realm record's [[Intrinsics]],https://github.com/whatwg/html/pull/4416,2019-03-07T13:51:06Z,2019-03-07T16:12:54Z,annevk,,0
 418273274,true,Redefine 'relevant Realm' and related terms,https://github.com/whatwg/html/pull/4415,2019-03-07T11:58:57Z,2019-03-07T16:10:01Z,Ms2ger,clarification|topic: multiple globals,0
-416854147,true,Make window.window/frames/self deal with no browsing context,https://github.com/whatwg/html/pull/4410,2019-03-04T15:25:44Z,2019-10-16T07:36:56Z,annevk,topic: browsing context,0
+416854147,true,Make window.window/frames/self deal with no browsing context,https://github.com/whatwg/html/pull/4410,2019-03-04T15:25:44Z,2019-10-16T07:36:56Z,annevk,topic: frames/navigables/browsing contexts,0
 416415490,true,JSON module support,https://github.com/whatwg/html/pull/4407,2019-03-02T16:46:48Z,2019-11-12T08:22:29Z,littledan,,6
 416330768,true,rendering: Update the conditions where an image creates a replaced box.,https://github.com/whatwg/html/pull/4406,2019-03-02T00:28:19Z,2019-11-20T02:40:24Z,emilio,,0
 416179512,true,Use Window's associated Document to define Window's named getter,https://github.com/whatwg/html/pull/4404,2019-03-01T16:26:20Z,2019-03-13T08:03:07Z,annevk,,0
-416111699,true,Cleanup Window's close(d) members,https://github.com/whatwg/html/pull/4402,2019-03-01T13:51:32Z,2019-03-07T15:49:26Z,annevk,topic: browsing context,0
+416111699,true,Cleanup Window's close(d) members,https://github.com/whatwg/html/pull/4402,2019-03-01T13:51:32Z,2019-03-07T15:49:26Z,annevk,topic: frames/navigables/browsing contexts,0
 415286977,true,Remove table border-color special case (which doesn't match reality),https://github.com/whatwg/html/pull/4398,2019-02-27T19:24:29Z,2019-03-01T17:15:29Z,dholbert,,0
 414859928,true,Editorial: move navigation document initialization,https://github.com/whatwg/html/pull/4397,2019-02-26T22:53:42Z,2019-02-27T18:56:16Z,domenic,clarification|topic: navigation,0
 414835978,true,Editorial: factor out and clean up javascript: URL processing,https://github.com/whatwg/html/pull/4396,2019-02-26T21:49:18Z,2019-02-27T18:55:38Z,domenic,clarification|topic: navigation|topic: javascript: URLs,0
 414654898,true,Editorial: use responsible document a little less,https://github.com/whatwg/html/pull/4394,2019-02-26T14:59:00Z,2019-02-26T15:54:27Z,annevk,,0
-414646602,true,Editorial: clarify responsible browsing context,https://github.com/whatwg/html/pull/4393,2019-02-26T14:42:46Z,2019-02-26T15:29:58Z,annevk,clarification|topic: browsing context,0
+414646602,true,Editorial: clarify responsible browsing context,https://github.com/whatwg/html/pull/4393,2019-02-26T14:42:46Z,2019-02-26T15:29:58Z,annevk,clarification|topic: frames/navigables/browsing contexts,0
 413482195,true,Editorial: remove redundant strong reference talk,https://github.com/whatwg/html/pull/4389,2019-02-22T16:34:01Z,2019-02-23T07:21:42Z,annevk,,0
 413398435,true,Editorial: remove sandboxed storage area URLs flag,https://github.com/whatwg/html/pull/4388,2019-02-22T13:13:40Z,2019-02-22T16:53:43Z,annevk,,0
-413395265,true,Meta: export Window's browsing context properly,https://github.com/whatwg/html/pull/4387,2019-02-22T13:04:23Z,2019-02-22T14:05:59Z,annevk,spec tooling|topic: browsing context,0
+413395265,true,Meta: export Window's browsing context properly,https://github.com/whatwg/html/pull/4387,2019-02-22T13:04:23Z,2019-02-22T14:05:59Z,annevk,spec tooling|topic: frames/navigables/browsing contexts,0
 412980599,true,Remove XML loading's namespace-based dispatching,https://github.com/whatwg/html/pull/4384,2019-02-21T15:24:49Z,2019-02-26T21:54:37Z,annevk,removal/deprecation|topic: navigation,0
 412847167,true,Introduce form-associated custom element,https://github.com/whatwg/html/pull/4383,2019-02-21T10:16:20Z,2019-05-17T02:58:09Z,tkent-google,addition/proposal|topic: custom elements|topic: forms|impacts documentation,0
-411932190,true,Editorial: modernize Window's parent and frameElement,https://github.com/whatwg/html/pull/4380,2019-02-19T13:48:33Z,2019-02-22T10:46:12Z,annevk,clarification|topic: browsing context,0
-411922134,true,Define Window's opener when there's no browsing context,https://github.com/whatwg/html/pull/4379,2019-02-19T13:25:29Z,2019-03-04T13:49:01Z,annevk,topic: browsing context,0
-411912374,true,Editorial: shorten Window's top attribute's algorithm,https://github.com/whatwg/html/pull/4378,2019-02-19T13:01:18Z,2019-02-22T10:47:23Z,annevk,clarification|topic: browsing context,0
-411908447,true,Clarify Window's focus() and blur(),https://github.com/whatwg/html/pull/4377,2019-02-19T12:51:39Z,2019-02-22T16:14:12Z,annevk,clarification|topic: focus|topic: browsing context,0
-411901796,true,Editorial: minor cleanup around browsing contexts,https://github.com/whatwg/html/pull/4376,2019-02-19T12:34:00Z,2019-02-21T22:13:41Z,annevk,topic: browsing context,0
+411932190,true,Editorial: modernize Window's parent and frameElement,https://github.com/whatwg/html/pull/4380,2019-02-19T13:48:33Z,2019-02-22T10:46:12Z,annevk,clarification|topic: frames/navigables/browsing contexts,0
+411922134,true,Define Window's opener when there's no browsing context,https://github.com/whatwg/html/pull/4379,2019-02-19T13:25:29Z,2019-03-04T13:49:01Z,annevk,topic: frames/navigables/browsing contexts,0
+411912374,true,Editorial: shorten Window's top attribute's algorithm,https://github.com/whatwg/html/pull/4378,2019-02-19T13:01:18Z,2019-02-22T10:47:23Z,annevk,clarification|topic: frames/navigables/browsing contexts,0
+411908447,true,Clarify Window's focus() and blur(),https://github.com/whatwg/html/pull/4377,2019-02-19T12:51:39Z,2019-02-22T16:14:12Z,annevk,clarification|topic: focus|topic: frames/navigables/browsing contexts,0
+411901796,true,Editorial: minor cleanup around browsing contexts,https://github.com/whatwg/html/pull/4376,2019-02-19T12:34:00Z,2019-02-21T22:13:41Z,annevk,topic: frames/navigables/browsing contexts,0
 411775294,true,Make cancelAnimationFrame cancel pending callbacks,https://github.com/whatwg/html/pull/4375,2019-02-19T07:04:40Z,2019-02-19T22:23:07Z,birtles,,0
 411090834,true,[WIP] WebAssembly JavaScript Module integration,https://github.com/whatwg/html/pull/4372,2019-02-16T16:59:49Z,2024-07-12T09:06:49Z,littledan,addition/proposal|do not merge yet|topic: script,1
 410967044,true,Activation delegation through post messages,https://github.com/whatwg/html/pull/4369,2019-02-15T22:11:33Z,2021-04-21T21:10:37Z,mustaqahmed,,0
-410710792,true,Clarify Document and Window's browsing context slot,https://github.com/whatwg/html/pull/4368,2019-02-15T10:49:46Z,2019-02-19T10:40:08Z,annevk,clarification|topic: browsing context,0
-410369697,true,Ignore changes to name attributes,https://github.com/whatwg/html/pull/4367,2019-02-14T15:58:47Z,2019-02-15T08:26:31Z,annevk,normative change|interop|topic: browsing context,0
-410324906,true,Make window.name deal with lack of browsing context,https://github.com/whatwg/html/pull/4366,2019-02-14T14:26:08Z,2019-02-19T10:50:58Z,annevk,topic: browsing context,0
+410710792,true,Clarify Document and Window's browsing context slot,https://github.com/whatwg/html/pull/4368,2019-02-15T10:49:46Z,2019-02-19T10:40:08Z,annevk,clarification|topic: frames/navigables/browsing contexts,0
+410369697,true,Ignore changes to name attributes,https://github.com/whatwg/html/pull/4367,2019-02-14T15:58:47Z,2019-02-15T08:26:31Z,annevk,normative change|interop|topic: frames/navigables/browsing contexts,0
+410324906,true,Make window.name deal with lack of browsing context,https://github.com/whatwg/html/pull/4366,2019-02-14T14:26:08Z,2019-02-19T10:50:58Z,annevk,topic: frames/navigables/browsing contexts,0
 409479616,true,Add lowLatency flag to CanvasRenderingContext2DSettings,https://github.com/whatwg/html/pull/4360,2019-02-12T20:12:03Z,2019-03-25T22:52:22Z,yell0wd0g,addition/proposal|topic: canvas|impacts documentation,1
 408802898,true,Editorial: gsnedders's name changed,https://github.com/whatwg/html/pull/4355,2019-02-11T14:18:37Z,2019-02-11T15:39:37Z,annevk,,1
 408523384,true,Use the new definition of the insertion steps,https://github.com/whatwg/html/pull/4354,2019-02-10T10:57:17Z,2024-09-04T02:02:53Z,nox,compat,0
 408491204,true,Top-level await integration,https://github.com/whatwg/html/pull/4352,2019-02-10T01:52:14Z,2020-12-10T16:59:16Z,littledan,addition/proposal|integration,1
 408402886,true,Updated async short description,https://github.com/whatwg/html/pull/4351,2019-02-09T06:05:18Z,2019-02-11T08:37:03Z,theNaut1lus,,0
-408129599,true,Introduce browsing context groups,https://github.com/whatwg/html/pull/4350,2019-02-08T12:21:28Z,2019-02-22T16:17:59Z,annevk,topic: browsing context,0
+408129599,true,Introduce browsing context groups,https://github.com/whatwg/html/pull/4350,2019-02-08T12:21:28Z,2019-02-22T16:17:59Z,annevk,topic: frames/navigables/browsing contexts,0
 407905202,true,Remove a Document from its session history entry when it's discarded.,https://github.com/whatwg/html/pull/4346,2019-02-07T21:28:18Z,2019-02-08T21:13:17Z,jyasskin,topic: history,0
 407700428,true,Editorial: remove some sandbox attribute copypasta,https://github.com/whatwg/html/pull/4343,2019-02-07T13:29:35Z,2019-02-07T22:28:58Z,annevk,,0
 406659475,true,Introduce new concepts 'embedded-ltr' and 'embedded-rtl' for the directionality of an element,https://github.com/whatwg/html/pull/4338,2019-02-05T07:27:57Z,2019-03-06T18:54:23Z,Zhang-Junzhi,,0
 405761938,true,Support <form rel>,https://github.com/whatwg/html/pull/4332,2019-02-01T15:58:09Z,2019-02-14T13:25:27Z,annevk,topic: forms|impacts documentation,0
-405645869,true,"Support ""noreferrer"" for window.open()",https://github.com/whatwg/html/pull/4331,2019-02-01T10:41:45Z,2019-02-12T12:54:53Z,annevk,addition/proposal|topic: browsing context|impacts documentation,0
+405645869,true,"Support ""noreferrer"" for window.open()",https://github.com/whatwg/html/pull/4331,2019-02-01T10:41:45Z,2019-02-12T12:54:53Z,annevk,addition/proposal|topic: frames/navigables/browsing contexts|impacts documentation,0
 405302451,true,Make target=_blank imply noopener; support opener,https://github.com/whatwg/html/pull/4330,2019-01-31T15:35:26Z,2024-04-02T15:42:51Z,annevk,normative change|addition/proposal|topic: hyperlink|impacts documentation,4
-404343446,true,Editorial: centralize nested browsing context creation,https://github.com/whatwg/html/pull/4327,2019-01-29T15:23:41Z,2019-01-30T14:31:02Z,annevk,clarification|topic: browsing context,0
+404343446,true,Editorial: centralize nested browsing context creation,https://github.com/whatwg/html/pull/4327,2019-01-29T15:23:41Z,2019-01-30T14:31:02Z,annevk,clarification|topic: frames/navigables/browsing contexts,0
 403676707,true,Custom elements: Add element.attachInternals() and ElementInternals interface,https://github.com/whatwg/html/pull/4324,2019-01-28T07:09:43Z,2019-05-16T21:22:08Z,tkent-google,topic: shadow|topic: custom elements,2
 403169208,true,Define how some properties disable 'appearance' (superseded by #4857),https://github.com/whatwg/html/pull/4322,2019-01-25T14:01:52Z,2021-10-15T11:25:39Z,zcorpan,compat|topic: forms|needs tests|interop,0
 402452028,true,Fix description of u element in index,https://github.com/whatwg/html/pull/4319,2019-01-23T22:09:23Z,2019-01-24T18:54:27Z,drastus,,0
@@ -2105,7 +2105,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 401695332,true,"Fix ""one exceptions"" to read ""one exception""",https://github.com/whatwg/html/pull/4311,2019-01-22T10:25:50Z,2019-01-22T10:32:48Z,Zirro,,0
 401377868,true,Update partial interface (mixin) NavigatorID,https://github.com/whatwg/html/pull/4309,2019-01-21T14:28:42Z,2019-01-21T15:24:02Z,foolip,,0
 401348552,true,Meta: simplify Review Draft creation,https://github.com/whatwg/html/pull/4308,2019-01-21T13:15:16Z,2019-01-23T08:57:38Z,annevk,,0
-400666331,true,Fix delaying load events for nested browsing contexts,https://github.com/whatwg/html/pull/4305,2019-01-18T10:35:06Z,2019-01-22T17:28:17Z,annevk,clarification|topic: browsing context,0
+400666331,true,Fix delaying load events for nested browsing contexts,https://github.com/whatwg/html/pull/4305,2019-01-18T10:35:06Z,2019-01-22T17:28:17Z,annevk,clarification|topic: frames/navigables/browsing contexts,0
 400638535,true,Review Draft Publication: January 2019,https://github.com/whatwg/html/pull/4304,2019-01-18T09:22:54Z,2019-01-23T11:22:06Z,annevk,,0
 400424827,true,Always set [[ScriptOrModule]] to null for event handler functions,https://github.com/whatwg/html/pull/4302,2019-01-17T19:18:54Z,2019-02-08T21:48:28Z,domenic,normative change|topic: script,1
 399767746,true,Editorial: use relevant agent for agent cluster definitions,https://github.com/whatwg/html/pull/4298,2019-01-16T11:34:43Z,2019-01-16T13:39:25Z,annevk,,0
@@ -2190,7 +2190,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 369028386,true,Clone <iframe srcdoc>'s node document's CSP list,https://github.com/whatwg/html/pull/4083,2018-10-11T09:21:22Z,2018-10-12T07:32:42Z,annevk,,0
 368540575,true," test",https://github.com/whatwg/html/pull/4080,2018-10-10T08:05:20Z,2018-10-10T08:07:48Z,IamPeterPan,,0
 368481574,true,Specify parsing of 'noopener' feature in window.open,https://github.com/whatwg/html/pull/4079,2018-10-10T03:38:45Z,2018-10-11T12:44:10Z,cdumez,,0
-368246646,true,Make the Location object deal when it does not have a browsing context,https://github.com/whatwg/html/pull/4076,2018-10-09T14:42:27Z,2018-10-31T19:18:59Z,annevk,topic: browsing context,0
+368246646,true,Make the Location object deal when it does not have a browsing context,https://github.com/whatwg/html/pull/4076,2018-10-09T14:42:27Z,2018-10-31T19:18:59Z,annevk,topic: frames/navigables/browsing contexts,0
 367870850,true,Add Worklet to JavaScript agent clusters,https://github.com/whatwg/html/pull/4069,2018-10-08T16:43:30Z,2018-10-15T20:46:35Z,hoch,topic: multiple globals,0
 367869465,true,Fix contradictions in the srcset attribute guidelines for images,https://github.com/whatwg/html/pull/4068,2018-10-08T16:39:17Z,2018-10-09T08:24:49Z,Johanna-hub,,0
 367831105,true,Correct WindowProxy's [[Set]],https://github.com/whatwg/html/pull/4067,2018-10-08T14:59:56Z,2019-01-25T10:10:29Z,annevk,,0
@@ -2548,7 +2548,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 264761422,true,Fix import() inside setTimeout()/setInterval() strings,https://github.com/whatwg/html/pull/3117,2017-10-11T22:54:31Z,2017-12-18T06:08:35Z,domenic,topic: script,0
 264216699,true,Do not use percent decode on strings,https://github.com/whatwg/html/pull/3111,2017-10-10T12:54:38Z,2018-05-23T09:30:18Z,annevk,,0
 264196286,true,Editorial: fix typo in a canvas example,https://github.com/whatwg/html/pull/3110,2017-10-10T11:41:38Z,2017-10-10T13:12:39Z,annevk,topic: canvas,0
-263962916,true,Regression fix: tokenize features earlier in window.open(),https://github.com/whatwg/html/pull/3108,2017-10-09T16:59:34Z,2017-10-10T05:10:44Z,annevk,topic: browsing context,0
+263962916,true,Regression fix: tokenize features earlier in window.open(),https://github.com/whatwg/html/pull/3108,2017-10-09T16:59:34Z,2017-10-10T05:10:44Z,annevk,topic: frames/navigables/browsing contexts,0
 263604703,true,"Meta: export ""custom elements"" and window.open()",https://github.com/whatwg/html/pull/3104,2017-10-07T00:47:07Z,2017-10-11T03:30:33Z,domenic,spec tooling,0
 263471231,true,Add text-decoration-skip default value to UA stylesheet,https://github.com/whatwg/html/pull/3102,2017-10-06T14:46:02Z,2017-10-25T14:22:45Z,drott,topic: rendering,0
 263398706,true,Editorial: add missing <hr>,https://github.com/whatwg/html/pull/3100,2017-10-06T10:15:58Z,2017-10-06T17:25:31Z,annevk,,0
@@ -2667,7 +2667,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 242813564,true,Meta: export some event loop-related definitions,https://github.com/whatwg/html/pull/2836,2017-07-13T20:00:19Z,2017-08-11T20:56:41Z,domenic,,0
 242690990,true,Import DOM tree's styles from the spec,https://github.com/whatwg/html/pull/2835,2017-07-13T12:53:52Z,2017-07-13T15:51:27Z,momdo,dev edition,0
 242603206,true,Editorial: Add some quotation marks for clarity,https://github.com/whatwg/html/pull/2834,2017-07-13T06:56:47Z,2017-07-13T17:24:30Z,sideshowbarker,clarification,0
-242516009,true,Mention sessionStorage copying in logic for creating a new browsing context,https://github.com/whatwg/html/pull/2832,2017-07-12T21:08:04Z,2017-09-05T21:56:10Z,mystor,normative change|topic: navigation|topic: browsing context,0
+242516009,true,Mention sessionStorage copying in logic for creating a new browsing context,https://github.com/whatwg/html/pull/2832,2017-07-12T21:08:04Z,2017-09-05T21:56:10Z,mystor,normative change|topic: navigation|topic: frames/navigables/browsing contexts,0
 242455452,true,Clean up innerText recursion,https://github.com/whatwg/html/pull/2831,2017-07-12T17:23:18Z,2017-07-14T18:35:19Z,domfarolino,clarification,0
 242386522,true,corrected the markup a bit,https://github.com/whatwg/html/pull/2830,2017-07-12T13:48:35Z,2017-07-12T13:51:43Z,SandeepChatterjee66,,0
 242179476,true,Specify behavior when playbackRate is set to unsupported value.,https://github.com/whatwg/html/pull/2829,2017-07-11T20:50:56Z,2017-08-18T16:48:58Z,japacible,topic: media,0
