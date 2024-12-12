@@ -1,13 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2731662991,false,"Fix null URL handling in ""get noopener for window open""",https://github.com/whatwg/html/pull/10847,2024-12-11T02:30:42Z,2024-12-11T08:02:24Z,domenic,,1
-2730053673,true,Editorial: modernize how CustomElementRegistry is defined,https://github.com/whatwg/html/pull/10845,2024-12-10T12:56:49Z,2024-12-11T14:44:46Z,annevk,,0
+2735236716,false,Integrate with the move event for window defined by CSSOM-View,https://github.com/whatwg/html/pull/10853,2024-12-12T08:42:26Z,2024-12-12T08:44:27Z,frivoal,,0
+2731662991,true,"Fix null URL handling in ""get noopener for window open""",https://github.com/whatwg/html/pull/10847,2024-12-11T02:30:42Z,2024-12-12T03:40:58Z,domenic,,1
+2730053673,true,Editorial: modernize how CustomElementRegistry is defined,https://github.com/whatwg/html/pull/10845,2024-12-10T12:56:49Z,2024-12-12T03:40:15Z,annevk,,0
 2728724351,true,delete obsolete tag `param`,https://github.com/whatwg/html/pull/10841,2024-12-10T01:44:53Z,2024-12-11T02:36:27Z,zhangenming,,0
-2728499456,false,Use DOM's post-connection steps for `<iframe>` elements,https://github.com/whatwg/html/pull/10840,2024-12-09T23:17:28Z,2024-12-11T12:56:03Z,domfarolino,topic: frames/navigables/browsing contexts,1
+2728499456,true,Use DOM's post-connection steps for `<iframe>` elements,https://github.com/whatwg/html/pull/10840,2024-12-09T23:17:28Z,2024-12-12T03:38:49Z,domfarolino,topic: frames/navigables/browsing contexts,1
 2726023006,true,Fixups to Merge Existing and New Import Maps,https://github.com/whatwg/html/pull/10837,2024-12-09T05:22:24Z,2024-12-09T07:05:49Z,yoavweiss,,0
 2722497883,true,Meta: replace WAI-ARIA with ARIA in HTML in PR template,https://github.com/whatwg/html/pull/10830,2024-12-06T09:16:21Z,2024-12-06T09:27:54Z,annevk,,0
 2722303731,true,Meta: cover accessibility in the PR template,https://github.com/whatwg/html/pull/10829,2024-12-06T07:45:26Z,2024-12-06T08:15:42Z,annevk,,0
 2719503372,true,Meta: run images through ImageOptim,https://github.com/whatwg/html/pull/10823,2024-12-05T06:48:26Z,2024-12-06T07:09:16Z,annevk,,0
-2716492115,false,Make named window lookup more precise and correct BCG swap logic,https://github.com/whatwg/html/pull/10818,2024-12-04T03:49:38Z,2024-12-11T08:48:10Z,kjmcnee,interop|topic: frames/navigables/browsing contexts,0
+2716492115,true,Make named window lookup more precise and correct BCG swap logic,https://github.com/whatwg/html/pull/10818,2024-12-04T03:49:38Z,2024-12-12T08:03:57Z,kjmcnee,interop|topic: frames/navigables/browsing contexts,0
 2714782603,true,"Editorial: fix typo in ""adoption agency"" algorithm",https://github.com/whatwg/html/pull/10817,2024-12-03T11:41:28Z,2024-12-06T16:14:02Z,kspangsege,,0
 2714056110,true,Editorial: Move a note at the end of a spec step,https://github.com/whatwg/html/pull/10814,2024-12-03T05:43:50Z,2024-12-04T01:28:13Z,shannonbooth,,0
 2694584953,true,"Editorial: Add missing space in ""get noopener for window open""",https://github.com/whatwg/html/pull/10798,2024-11-26T13:01:31Z,2024-11-26T14:21:54Z,AtkinsSJ,,0
@@ -25,7 +26,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2642683502,false,Fix language stating when start tags must not be omitted,https://github.com/whatwg/html/pull/10752,2024-11-08T02:50:46Z,2024-11-09T02:55:49Z,sideshowbarker,document conformance,0
 2640133552,true,Editorial: acknowledge Alan Jeffrey,https://github.com/whatwg/html/pull/10747,2024-11-07T07:29:35Z,2024-11-13T04:50:31Z,annevk,,0
 2631440687,true,"[editorial] dfn worker's outside/inside port, and clarify event retargeting",https://github.com/whatwg/html/pull/10738,2024-11-03T20:01:43Z,2024-11-21T08:39:02Z,nicolo-ribaudo,clarification|topic: workers,0
-2627986111,false,Add dialog light dismiss behavior,https://github.com/whatwg/html/pull/10737,2024-10-31T23:17:09Z,2024-12-11T23:29:40Z,mfreed7,addition/proposal|needs implementer interest|needs tests|topic: dialog,0
+2627986111,false,Add dialog light dismiss behavior,https://github.com/whatwg/html/pull/10737,2024-10-31T23:17:09Z,2024-12-12T08:14:37Z,mfreed7,addition/proposal|needs implementer interest|needs tests|topic: dialog,0
 2626590050,true,Mudei o título ( apenas par teste aula),https://github.com/whatwg/html/pull/10733,2024-10-31T11:10:21Z,2024-11-01T00:20:29Z,LarissaSouzaNaScimento,invalid,0
 2626503054,true,Correct Trusted Type enforcement in Range.getContextualFragment.,https://github.com/whatwg/html/pull/10732,2024-10-31T10:26:08Z,2024-11-01T05:25:24Z,koto,,0
 2625312806,true,Enforce noopener on cross-top-level-site Blob URLs,https://github.com/whatwg/html/pull/10731,2024-10-30T20:50:16Z,2024-11-18T04:10:39Z,recvfrom,security/privacy,0

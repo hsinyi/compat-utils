@@ -4,7 +4,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2719222958,false,Reference Target: What about IDL attributes?,https://github.com/WICG/webcomponents/issues/1089,2024-12-05T03:29:46Z,2024-12-12T00:30:39Z,alice,,0
 2700497568,false,Reference Target naming,https://github.com/WICG/webcomponents/issues/1087,2024-11-28T02:33:47Z,2024-12-03T01:07:24Z,alice,,0
 2696558134,false,Reference Target Tracking Issue,https://github.com/WICG/webcomponents/issues/1086,2024-11-27T00:31:28Z,2024-12-09T01:05:22Z,dandclark,,0
-2679615548,false,2025 Q1 Face-to-face,https://github.com/WICG/webcomponents/issues/1083,2024-11-21T14:08:52Z,2024-11-21T14:14:12Z,Westbrook,,2
+2679615548,false,2025 Q1 Face-to-face,https://github.com/WICG/webcomponents/issues/1083,2024-11-21T14:08:52Z,2024-12-12T11:47:25Z,Westbrook,,3
 2646640317,true,"Clonning shadowroot , example : element.cloneNode({ deep: true, includeShadowDOM: true });",https://github.com/WICG/webcomponents/issues/1082,2024-11-09T23:12:47Z,2024-11-10T00:18:29Z,Switcherfaiz,,0
 2593096635,false,Preventing re-renders prior to first call to `connectedCallback()`,https://github.com/WICG/webcomponents/issues/1081,2024-10-16T21:29:40Z,2024-10-21T21:34:38Z,br3nt,,0
 2592519994,true,.,https://github.com/WICG/webcomponents/issues/1080,2024-10-16T17:07:19Z,2024-10-17T02:34:27Z,titoBouzout,,0
@@ -29,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2278120544,false,Use Cases: Iterating and Combining Custom Element Registries,https://github.com/WICG/webcomponents/issues/1057,2024-05-03T17:25:12Z,2024-12-11T15:53:53Z,EisenbergEffect,custom-elements,1
 2277892312,false,Allows slots to ignore surrounding whitespace,https://github.com/WICG/webcomponents/issues/1056,2024-05-03T15:12:30Z,2024-10-01T01:29:06Z,knowler,,1
 2261773966,false,Idea: A tree-aware task scheduler,https://github.com/WICG/webcomponents/issues/1055,2024-04-24T17:05:51Z,2024-05-04T00:41:52Z,justinfagnani,,6
-2201552548,false,Possibile way for cross shadowDom exclusive interactive elements,https://github.com/WICG/webcomponents/issues/1054,2024-03-22T02:30:49Z,2024-10-01T01:54:42Z,woody-li,question,0
+2201552548,false,Possibile way for cross shadowDom exclusive interactive elements,https://github.com/WICG/webcomponents/issues/1054,2024-03-22T02:30:49Z,2024-12-12T06:56:52Z,woody-li,question,0
 2195186170,false,Pushing Styles into Shadow DOM (`@shadow` rules),https://github.com/WICG/webcomponents/issues/1053,2024-03-19T14:49:37Z,2024-03-19T17:35:10Z,DarkWiiPlayer,,3
 2193434085,false,[open-stylable] Collection of user stories,https://github.com/WICG/webcomponents/issues/1052,2024-03-18T21:54:48Z,2024-09-04T22:39:37Z,michaelwarren1106,,0
 2176779790,false,"[exportparts] support exporting via wildcards `exportparts=""*, primary-*""`",https://github.com/WICG/webcomponents/issues/1051,2024-03-08T21:14:22Z,2024-10-02T23:49:50Z,sorvell,,7
@@ -166,7 +166,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 730866678,false,Template/part proposals - Naming for DOM Parts API,https://github.com/WICG/webcomponents/issues/902,2020-10-27T21:50:51Z,2023-04-21T10:05:37Z,yuzhe-han,templates,0
 730708491,false,Template/part proposals should explain how and why they improve performance,https://github.com/WICG/webcomponents/issues/901,2020-10-27T18:30:24Z,2023-04-21T10:05:22Z,smaug----,templates,0
 726028268,true,RfC: An alternative approach to accessibility across shadow boundaries,https://github.com/WICG/webcomponents/issues/898,2020-10-21T00:10:49Z,2024-10-01T01:43:03Z,rniwa,,0
-723054840,false,"The MountObserver api, an alternative lazy custom element definition proposal",https://github.com/WICG/webcomponents/issues/896,2020-10-16T09:20:48Z,2024-11-02T14:32:01Z,bahrus,,0
+723054840,false,"The MountObserver api, an alternative lazy custom element definition proposal",https://github.com/WICG/webcomponents/issues/896,2020-10-16T09:20:48Z,2024-12-12T01:29:46Z,bahrus,,0
 722601967,false,Scoped Custom Element Registry: Open Design Issues,https://github.com/WICG/webcomponents/issues/895,2020-10-15T19:20:13Z,2024-12-11T15:16:33Z,leobalter,scoped custom element registry,0
 700874118,false,Input element autofill strange behavior on Chrome when in shadow DOM,https://github.com/WICG/webcomponents/issues/894,2020-09-14T08:04:02Z,2020-09-14T08:27:30Z,ibinev,,0
 689479176,true,[idea] shadowattach event,https://github.com/WICG/webcomponents/issues/893,2020-08-31T20:19:05Z,2023-04-20T19:00:28Z,trusktr,shadow-dom|needs concrete proposal,0
@@ -316,7 +316,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 285086059,true,Interface/class-based selector,https://github.com/WICG/webcomponents/issues/719,2017-12-29T12:33:09Z,2018-03-05T05:39:47Z,jasmith79,custom-elements|needs implementer interest,0
 282958795,true,Bulk property updates,https://github.com/WICG/webcomponents/issues/718,2017-12-18T17:26:28Z,2020-12-21T20:34:32Z,JanMiksovsky,needs implementer interest,0
 282200986,true,"The way to access current script or current root, from Shadow DOM",https://github.com/WICG/webcomponents/issues/717,2017-12-14T18:45:27Z,2022-06-23T23:58:57Z,tomalec,shadow-dom|needs implementer interest,15
-280602178,false,Scoped Custom Element Registries,https://github.com/WICG/webcomponents/issues/716,2017-12-08T20:05:07Z,2024-12-11T15:20:26Z,justinfagnani,custom-elements|needs concrete proposal|scoped custom element registry,154
+280602178,false,Scoped Custom Element Registries,https://github.com/WICG/webcomponents/issues/716,2017-12-08T20:05:07Z,2024-12-12T09:24:37Z,justinfagnani,custom-elements|needs concrete proposal|scoped custom element registry,154
 279788891,true,Undefined specification for @keyframe scope on slotted content,https://github.com/WICG/webcomponents/issues/715,2017-12-06T15:13:41Z,2018-02-21T11:21:18Z,ruphin,v1|shadow-dom,0
 278678409,true,[Proposal] customElements#hasLocalName(Class),https://github.com/WICG/webcomponents/issues/714,2017-12-02T11:57:29Z,2017-12-03T20:03:40Z,thysultan,,0
 275960655,true,WebPlatform Web Components F2F 2018,https://github.com/WICG/webcomponents/issues/713,2017-11-22T06:45:10Z,2019-03-01T15:07:19Z,TakayoshiKochi,,15
