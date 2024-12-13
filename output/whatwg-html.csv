@@ -1,7 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2735477406,false,ImageData: Add Float16Array backing support,https://github.com/whatwg/html/issues/10856,2024-12-12T10:21:05Z,2024-12-12T10:42:46Z,ccameron-chromium,,0
-2735459574,false,CanvasRenderingContext2D: Add getImageDataAsync method,https://github.com/whatwg/html/issues/10855,2024-12-12T10:13:15Z,2024-12-12T10:19:08Z,ccameron-chromium,,0
-2735341285,false,Revamped Scoped Custom Element Registries,https://github.com/whatwg/html/issues/10854,2024-12-12T09:22:28Z,2024-12-12T09:55:26Z,annevk,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements|agenda+,1
+2737098848,false,Upcoming WHATNOT meeting on 2024-12-19,https://github.com/whatwg/html/issues/10861,2024-12-12T23:59:38Z,2024-12-12T23:59:38Z,past,agenda+,0
+2736746960,false,Add `window.customCommands`,https://github.com/whatwg/html/issues/10860,2024-12-12T19:46:28Z,2024-12-12T19:46:28Z,scola84,addition/proposal|needs implementer interest,0
+2735477406,false,ImageData: Add Float16Array backing support,https://github.com/whatwg/html/issues/10856,2024-12-12T10:21:05Z,2024-12-12T21:03:52Z,ccameron-chromium,addition/proposal|topic: canvas,1
+2735459574,false,CanvasRenderingContext2D: Add getImageDataAsync method,https://github.com/whatwg/html/issues/10855,2024-12-12T10:13:15Z,2024-12-12T20:51:06Z,ccameron-chromium,addition/proposal|topic: canvas,2
+2735341285,false,Revamped Scoped Custom Element Registries,https://github.com/whatwg/html/issues/10854,2024-12-12T09:22:28Z,2024-12-12T20:50:56Z,annevk,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements|agenda+,9
 2734230880,false,Allow form controls in a shadow root to participate in it's host form submission,https://github.com/whatwg/html/issues/10852,2024-12-11T23:23:36Z,2024-12-12T08:28:42Z,KonnorRogers,addition/proposal|needs implementer interest|topic: shadow,0
 2733274119,false,Make <dialog> usable without JS (for form confirmation),https://github.com/whatwg/html/issues/10851,2024-12-11T15:22:18Z,2024-12-12T00:22:31Z,tino,addition/proposal|needs implementer interest,0
 2731961170,false,Window name targeting: tie-breaking for same-named top-level traversables is not interoperable,https://github.com/whatwg/html/issues/10850,2024-12-11T06:38:16Z,2024-12-11T06:38:16Z,domenic,interop|topic: frames/navigables/browsing contexts,0
@@ -21,13 +23,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2722500950,false,Detect UA transitions on same-origin cross-document navigations,https://github.com/whatwg/html/issues/10831,2024-12-06T09:18:01Z,2024-12-06T20:31:56Z,bramus,addition/proposal|needs implementer interest,0
 2721993883,true,Iframe insertion steps violate rules for what insertion steps are allowed to do,https://github.com/whatwg/html/issues/10828,2024-12-06T03:59:51Z,2024-12-12T03:38:48Z,jdm,integration,0
 2721875733,false,Browsers are not interoperable on navigating to no-Content-Type blob: URLs,https://github.com/whatwg/html/issues/10827,2024-12-06T02:08:45Z,2024-12-07T07:15:03Z,domenic,topic: navigation|interop,0
-2721339741,false,Upcoming WHATNOT meeting on 2024-12-12,https://github.com/whatwg/html/issues/10825,2024-12-05T20:36:22Z,2024-12-05T20:36:22Z,past,agenda+,0
+2721339741,true,Upcoming WHATNOT meeting on 2024-12-12,https://github.com/whatwg/html/issues/10825,2024-12-05T20:36:22Z,2024-12-13T00:10:07Z,past,agenda+,0
 2720707717,false,"""timer initialization steps"" perform EnsureCSPDoesNotBlockStringCompilation with undefined timer value",https://github.com/whatwg/html/issues/10824,2024-12-05T15:24:04Z,2024-12-06T18:09:02Z,fred-wang,clarification,0
 2714679474,true,"Probable typo in ""adoption agency"" algorithm in HTML specification",https://github.com/whatwg/html/issues/10816,2024-12-03T10:57:18Z,2024-12-06T16:14:03Z,kspangsege,,0
 2714136372,false,"Should `input[type=""search""]` (and other types) allow `popovertarget` ?",https://github.com/whatwg/html/issues/10815,2024-12-03T06:40:53Z,2024-12-04T02:43:56Z,Techn1x,addition/proposal|needs implementer interest,0
 2713777949,true,Meeting 12 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10813,2024-12-03T01:50:42Z,2024-12-10T17:40:17Z,chrishtr,agenda+,0
 2713575336,false,Strengthen form control localization requirements,https://github.com/whatwg/html/issues/10812,2024-12-02T22:59:23Z,2024-12-03T08:11:19Z,aphillips,topic: forms|i18n-needs-resolution,0
-2713210794,false,Should non-modal top layer elements that come after modal dialogs also escape inertness?,https://github.com/whatwg/html/issues/10811,2024-12-02T19:58:08Z,2024-12-02T23:02:20Z,mfreed7,,0
+2713210794,false,Should non-modal top layer elements that come after modal dialogs also escape inertness?,https://github.com/whatwg/html/issues/10811,2024-12-02T19:58:08Z,2024-12-13T00:01:45Z,mfreed7,,0
 2709236831,true,HostLoadImportedModule missing empty check for requested modules,https://github.com/whatwg/html/issues/10810,2024-12-01T14:20:38Z,2024-12-02T03:42:58Z,shannonbooth,,0
 2707558086,false,ContextMenuCloseWatcher,https://github.com/whatwg/html/issues/10809,2024-11-30T15:46:13Z,2024-12-02T14:15:00Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
 2705285542,false,Update the image data of a partially-available image,https://github.com/whatwg/html/issues/10808,2024-11-29T14:37:26Z,2024-11-29T14:37:47Z,emilio,topic: img,0
@@ -61,7 +63,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2660408519,true,Upcoming WHATNOT meeting on 2024-11-21,https://github.com/whatwg/html/issues/10765,2024-11-15T00:17:07Z,2024-11-21T21:50:16Z,past,agenda+,0
 2658737848,true,Support `allow` attributes on `<script>`s,https://github.com/whatwg/html/issues/10764,2024-11-14T12:59:43Z,2024-11-18T09:35:14Z,MartijnCuppens,addition/proposal|needs implementer interest,0
 2658305908,true,Location redirect policy header,https://github.com/whatwg/html/issues/10763,2024-11-14T10:09:28Z,2024-11-14T10:18:25Z,MartijnCuppens,addition/proposal|needs implementer interest,0
-2657353924,false,How to spec user interaction for select,https://github.com/whatwg/html/issues/10762,2024-11-14T02:37:02Z,2024-12-10T18:54:05Z,josepharhar,agenda+|topic: select,0
+2657353924,false,How to spec user interaction for select,https://github.com/whatwg/html/issues/10762,2024-11-14T02:37:02Z,2024-12-12T23:24:38Z,josepharhar,agenda+|topic: select,0
 2656341784,false,Clarify/fix how to describe state comparison,https://github.com/whatwg/html/issues/10761,2024-11-13T18:00:31Z,2024-11-15T23:10:59Z,mfreed7,,0
 2649902167,true,Should document.fonts.add delay Window load events?,https://github.com/whatwg/html/issues/10758,2024-11-11T17:06:59Z,2024-11-13T05:48:12Z,Agog-io,topic: document lifecycle,0
 2647214530,false,Missing conversion step in **encoding-parsing a URL**,https://github.com/whatwg/html/issues/10757,2024-11-10T13:01:03Z,2024-11-10T13:01:03Z,yyny,,0
@@ -107,7 +109,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568834361,false,Word processor new HTML control proposal,https://github.com/whatwg/html/issues/10680,2024-10-06T19:01:55Z,2024-10-07T06:57:58Z,volkansari,addition/proposal|needs implementer interest|needs incubation,1
 2568484967,true,Issue: Need to add hyperlink to the contents page of WHATWG,https://github.com/whatwg/html/issues/10679,2024-10-06T06:10:29Z,2024-10-07T02:43:04Z,turtlespeedv,invalid,0
 2568335542,true,"In ""close a top-level traversable"", the `is closing` flag is always already set to true",https://github.com/whatwg/html/issues/10678,2024-10-05T21:41:05Z,2024-10-09T01:07:07Z,trflynn89,,0
-2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2024-12-12T08:20:47Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
+2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2024-12-12T16:51:05Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,true,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-11-15T04:41:04Z,tabatkins,integration|topic: popover,0
 2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2024-11-25T20:15:08Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,2
@@ -590,7 +592,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1918809473,false,Meta: Links that take you where you already are,https://github.com/whatwg/html/issues/9811,2023-09-29T08:17:19Z,2023-10-01T13:43:49Z,not-my-profile,,0
 1917630242,false,consider whether document-level language fallback rules make sense in all cases,https://github.com/whatwg/html/issues/9807,2023-09-28T14:06:24Z,2023-10-01T13:44:10Z,dbaron,i18n-tracker|needs tests,0
 1914439377,true,Navigables:  fireNavigateEventOnCommit is unused in apply the history step,https://github.com/whatwg/html/issues/9800,2023-09-26T23:34:38Z,2023-10-17T03:43:27Z,ADKaster,topic: navigation,0
-1914386972,false,Customizable `<select>` element,https://github.com/whatwg/html/issues/9799,2023-09-26T22:24:36Z,2024-12-10T20:10:43Z,josepharhar,addition/proposal|topic: parser|topic: forms|stage: 2|topic: select,87
+1914386972,false,Customizable `<select>` element,https://github.com/whatwg/html/issues/9799,2023-09-26T22:24:36Z,2024-12-12T23:45:15Z,josepharhar,addition/proposal|topic: parser|topic: forms|agenda+|stage: 2|topic: select,90
 1913709777,true,Should MathML references be to MathML-Core instead of full?,https://github.com/whatwg/html/issues/9795,2023-09-26T14:56:47Z,2024-01-23T14:44:38Z,bkardell,normative change,0
 1913666731,true,Should throw SecurityError when loading a worker with a cross-origin script,https://github.com/whatwg/html/issues/9794,2023-09-26T14:37:14Z,2023-10-24T08:09:33Z,edenchuang,topic: workers|agenda+,0
 1913245177,false,Add `autopause` attribute to media elements to allow automatic pausing of media,https://github.com/whatwg/html/issues/9793,2023-09-26T10:54:58Z,2023-10-12T14:21:04Z,keithamus,needs implementer interest|topic: media,10
@@ -1047,7 +1049,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1450949667,true,"""text/pdf"" is not a valid MIME media type for PDF",https://github.com/whatwg/html/issues/8516,2022-11-16T06:20:49Z,2022-11-16T06:28:52Z,petervwyatt,,0
 1450640430,true,One-time `await`able event listeners,https://github.com/whatwg/html/issues/8513,2022-11-16T01:12:56Z,2024-10-11T06:25:50Z,josephrocca,,0
 1450502378,true,"sandboxFlags is never defined in ""create navigation params by fetching""",https://github.com/whatwg/html/issues/8511,2022-11-15T23:01:07Z,2022-11-17T03:04:06Z,jeremyroman,,0
-1449682450,false,Open `<details>` and `<dialog>` if their content is targeted in the URL fragment,https://github.com/whatwg/html/issues/8509,2022-11-15T12:10:26Z,2023-05-04T20:52:36Z,Boldewyn,,9
+1449682450,false,Open `<details>` and `<dialog>` if their content is targeted in the URL fragment,https://github.com/whatwg/html/issues/8509,2022-11-15T12:10:26Z,2024-12-12T13:49:18Z,Boldewyn,,9
 1449329706,false,It's time to reinvent the table element,https://github.com/whatwg/html/issues/8507,2022-11-15T07:51:51Z,2022-12-23T16:23:51Z,NagayamaToshiaki,,0
 1449138951,true,Could we make consume user activation return a boolean?,https://github.com/whatwg/html/issues/8505,2022-11-15T04:16:12Z,2022-11-16T00:04:58Z,marcoscaceres,topic: user activation,0
 1447249807,true,"`<form method=""dialog"">` should probably not check for `noopener`",https://github.com/whatwg/html/issues/8499,2022-11-14T02:07:22Z,2023-03-06T02:56:46Z,nt1m,topic: forms|topic: dialog,0
