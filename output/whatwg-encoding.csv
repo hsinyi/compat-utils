@@ -8,7 +8,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1744759529,true,Reflect changes in GB 18030-2022,https://github.com/whatwg/encoding/issues/312,2023-06-06T23:22:01Z,2024-10-04T08:30:19Z,achristensen07,i18n-tracker|i18n-clreq,0
 1620549105,false,Preface punctuation,https://github.com/whatwg/encoding/issues/304,2023-03-12T23:19:09Z,2023-03-12T23:19:37Z,sayrer,,0
 1390821696,false,Consider adding windows-936-2000 as a label for GBK,https://github.com/whatwg/encoding/issues/295,2022-09-29T12:53:06Z,2022-09-29T15:27:39Z,annevk,normative|i18n-clreq|interop,0
-1345436694,false,Why Big5 index contains unmappable characters?,https://github.com/whatwg/encoding/issues/293,2022-08-21T09:36:37Z,2022-08-23T15:11:34Z,Mingun,,0
+1345436694,false,Why Big5 index contains unmappable characters?,https://github.com/whatwg/encoding/issues/293,2022-08-21T09:36:37Z,2024-12-16T09:09:44Z,Mingun,,0
 1345424557,false,Visualization tables has lack of descriptions,https://github.com/whatwg/encoding/issues/292,2022-08-21T08:39:31Z,2022-08-23T16:03:51Z,Mingun,,0
 1345247028,false,"The concept of ""output encoding"" is not described anywhere",https://github.com/whatwg/encoding/issues/291,2022-08-20T18:19:08Z,2022-08-24T07:46:46Z,Mingun,,0
 1264033180,true,7-bit ASCII encoding,https://github.com/whatwg/encoding/issues/287,2022-06-08T00:29:44Z,2022-06-26T20:05:09Z,janschejbal,addition/proposal,0
@@ -17,7 +17,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 963299760,true,Shift_JIS decoder,https://github.com/whatwg/encoding/issues/270,2021-08-07T20:34:36Z,2021-10-12T17:51:03Z,ldelabre,,0
 933051667,false,Add a static decode and encode method to `TextEncoder` and `TextDecoder`,https://github.com/whatwg/encoding/issues/267,2021-06-29T19:49:10Z,2022-05-23T11:49:21Z,lucacasonato,addition/proposal|needs implementer interest|topic: api,7
 911842539,true,Bug in TextDecoderStream around processing the end of stream.,https://github.com/whatwg/encoding/issues/263,2021-06-04T21:07:15Z,2021-06-24T17:40:00Z,andreubotella,topic: api,0
-907139578,false,aria-label usage in BMP coverage table,https://github.com/whatwg/encoding/issues/261,2021-05-31T06:53:00Z,2021-05-31T16:40:03Z,annevk,accessibility,0
+907139578,false,aria-label usage in BMP coverage table,https://github.com/whatwg/encoding/issues/261,2021-05-31T06:53:00Z,2024-12-16T12:08:36Z,annevk,accessibility,0
 874636828,false,gb18030 encoder using index gb18030 ranges pointer,https://github.com/whatwg/encoding/issues/258,2021-05-03T14:42:50Z,2022-10-03T23:27:09Z,chncc,clarification,0
 815698767,true,End-of-queue during decoding of GB18030 should not mask ASCII characters.,https://github.com/whatwg/encoding/issues/253,2021-02-24T17:36:45Z,2021-02-27T06:45:11Z,stevecheckoway,,0
 808804034,false,Corner cases arising from Big5 encoder not excluding HKSCS codes with lead bytes 0xFA–FE,https://github.com/whatwg/encoding/issues/252,2021-02-15T20:35:30Z,2021-02-16T10:40:52Z,harjitmoe,i18n-tracker|i18n-clreq,0
@@ -102,7 +102,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 161230785,true,EUC-jp encoding/decoding support,https://github.com/whatwg/encoding/issues/59,2016-06-20T15:58:15Z,2018-10-17T07:51:29Z,r12a,tests,0
 161227205,true,Big5 encoding/decoding support,https://github.com/whatwg/encoding/issues/58,2016-06-20T15:43:32Z,2018-10-17T07:50:46Z,r12a,tests,0
 161211577,true,gb18030 encoding/decoding support,https://github.com/whatwg/encoding/issues/57,2016-06-20T14:42:03Z,2024-09-18T13:20:27Z,r12a,tests,0
-161205053,false,GBK encoding/decoding support,https://github.com/whatwg/encoding/issues/56,2016-06-20T14:15:02Z,2020-11-02T12:45:32Z,r12a,tests,0
+161205053,true,GBK encoding/decoding support,https://github.com/whatwg/encoding/issues/56,2016-06-20T14:15:02Z,2024-12-16T09:01:35Z,r12a,tests,0
 157872131,true,Please double-check the end of the EUDC range,https://github.com/whatwg/encoding/issues/53,2016-06-01T10:19:49Z,2016-09-16T15:47:37Z,hsivonen,,0
 157867413,true,Editorial optimization: Move EUDC before index lookup,https://github.com/whatwg/encoding/issues/52,2016-06-01T09:56:19Z,2016-06-21T11:51:28Z,hsivonen,,0
 157861730,true,Editorial: Exclude index entries instead of just pointers,https://github.com/whatwg/encoding/issues/51,2016-06-01T09:28:14Z,2016-06-01T12:35:48Z,hsivonen,,0
