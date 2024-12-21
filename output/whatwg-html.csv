@@ -5,11 +5,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2750910456,false,"Selection in form control elements, user-select, and customizable select",https://github.com/whatwg/html/issues/10876,2024-12-19T16:46:00Z,2024-12-19T18:52:18Z,josepharhar,,0
 2750608063,false,Are all uses of the `title` attribute discouraged?,https://github.com/whatwg/html/issues/10875,2024-12-19T14:59:24Z,2024-12-20T08:57:55Z,ddbeck,,0
 2748029842,false,OffscreenCanvasRenderingContext2D does not have getContextAttributes,https://github.com/whatwg/html/issues/10872,2024-12-18T14:51:48Z,2024-12-18T16:42:55Z,ccameron-chromium,topic: canvas,1
-2747889237,false,"Undeprecate <plaintext>, it is needed for portable text files",https://github.com/whatwg/html/issues/10871,2024-12-18T13:56:06Z,2024-12-18T16:24:12Z,safinaskar,i18n-tracker,0
+2747889237,false,"Undeprecate <plaintext>, it is needed for portable text files",https://github.com/whatwg/html/issues/10871,2024-12-18T13:56:06Z,2024-12-20T16:34:10Z,safinaskar,i18n-tracker,0
 2747782501,false,Parser: Proposal to introduce invariant for order of active formatting elements that are also in stack of open elements,https://github.com/whatwg/html/issues/10870,2024-12-18T13:12:11Z,2024-12-18T15:48:24Z,kspangsege,topic: parser,0
 2743773640,false,Cookie partitioning on localhost is underspecified,https://github.com/whatwg/html/issues/10867,2024-12-17T02:17:17Z,2024-12-17T08:18:15Z,Sora2455,topic: cookie,0
 2742962512,false,Low Adoption of `<track>` Element,https://github.com/whatwg/html/issues/10866,2024-12-16T17:21:12Z,2024-12-16T17:47:25Z,yashrajbharti,,2
-2741669695,false,Ability to disable toggling/closing details,https://github.com/whatwg/html/issues/10864,2024-12-16T08:25:42Z,2024-12-16T08:28:29Z,jacobrask,addition/proposal|needs implementer interest,3
+2741669695,false,Ability to disable toggling/closing details,https://github.com/whatwg/html/issues/10864,2024-12-16T08:25:42Z,2024-12-20T14:25:50Z,jacobrask,addition/proposal|needs implementer interest,3
 2737245419,false,Add an optional lang argument to OffscreenCanvas constructor,https://github.com/whatwg/html/issues/10862,2024-12-13T02:34:00Z,2024-12-19T19:30:19Z,schenney-chromium,topic: canvas|i18n-tracker,0
 2737098848,true,Upcoming WHATNOT meeting on 2024-12-19,https://github.com/whatwg/html/issues/10861,2024-12-12T23:59:38Z,2024-12-19T20:30:30Z,past,agenda+,0
 2736746960,false,Add `window.customCommands`,https://github.com/whatwg/html/issues/10860,2024-12-12T19:46:28Z,2024-12-13T08:56:23Z,scola84,addition/proposal|needs implementer interest,0
@@ -415,7 +415,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2175120347,true,"Document ""rendering suppression for view transitions"" also suppresses ""perform pending transition operations""",https://github.com/whatwg/html/issues/10186,2024-03-08T01:40:36Z,2024-03-11T23:40:20Z,nt1m,topic: rendering,0
 2173990781,false,should search for draggable attribute follow dom tree or flattened tree?,https://github.com/whatwg/html/issues/10185,2024-03-07T14:26:12Z,2024-11-07T05:48:19Z,dbaron,,3
 2172574820,false,Is this bad to suggest that placeholder attributes can contain expected formats?,https://github.com/whatwg/html/issues/10183,2024-03-06T22:46:15Z,2024-03-06T22:49:08Z,anevins12,,0
-2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2024-03-18T21:00:51Z,andy-blum,addition/proposal|needs implementer interest|topic: img,8
+2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2024-03-18T21:00:51Z,andy-blum,addition/proposal|needs implementer interest|topic: img,9
 2171191672,true,Nits with link rel=expect,https://github.com/whatwg/html/issues/10180,2024-03-06T10:44:29Z,2024-03-11T06:42:48Z,jakearchibald,clarification|topic: rendering,0
 2161745995,false,Declaratively open popovers (and other elements?) on page load,https://github.com/whatwg/html/issues/10171,2024-02-29T17:19:04Z,2024-12-09T16:43:00Z,josepharhar,topic: dialog|topic: popover,0
 2160066080,false,Worklet termination,https://github.com/whatwg/html/issues/10169,2024-02-28T23:43:54Z,2024-03-04T08:12:24Z,daxpedda,addition/proposal|needs implementer interest|topic: worklets,0
@@ -1259,7 +1259,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1272422076,false,Prevent top navigations without user activation in some circumstances?,https://github.com/whatwg/html/issues/8013,2022-06-15T15:42:34Z,2022-06-15T15:42:34Z,domenic,normative change|topic: navigation,1
 1272108125,false,Intervention: Ignore clicks on iframes that have moved in the last 200 ms,https://github.com/whatwg/html/issues/8012,2022-06-15T11:41:35Z,2022-06-15T11:41:35Z,johannhof,,0
 1270571621,true,Surprising parsing behavior with active formatting elements nad PLAINTEXT,https://github.com/whatwg/html/issues/8009,2022-06-14T10:09:53Z,2024-08-14T12:05:36Z,securityMB,clarification|topic: parser,1
-1269909259,false,Add `<img loading=after-layout>` to support auto-`sizes`,https://github.com/whatwg/html/issues/8007,2022-06-13T20:19:22Z,2022-06-14T11:03:39Z,zcorpan,addition/proposal|needs implementer interest|topic: img,4
+1269909259,false,Add `<img loading=after-layout>` to support auto-`sizes`,https://github.com/whatwg/html/issues/8007,2022-06-13T20:19:22Z,2022-06-14T11:03:39Z,zcorpan,addition/proposal|needs implementer interest|topic: img,5
 1269817211,false,Should activation behavior of input elements check `disabled` instead of `mutable`?,https://github.com/whatwg/html/issues/8005,2022-06-13T18:45:23Z,2022-06-14T19:35:41Z,saschanaz,clarification|topic: forms,0
 1269261848,true,"interop: Trailing whitespace in h1/h2/.. is removed in chrome, but not firefox",https://github.com/whatwg/html/issues/8003,2022-06-13T10:55:31Z,2022-06-13T19:04:39Z,untitaker,,0
 1268976298,false,How to interpretate 5.1 step of the run steps after a timeout,https://github.com/whatwg/html/issues/8002,2022-06-13T06:39:27Z,2022-06-24T11:31:44Z,dSalieri,,0
@@ -3698,7 +3698,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 237921225,true,Add guidelines to CONTRIBUTING.md about the dev edition,https://github.com/whatwg/html/issues/2781,2017-06-22T17:41:37Z,2017-06-27T22:29:00Z,domenic,dev edition,0
 237921038,true,"Dev edition: add ""about this specification""",https://github.com/whatwg/html/issues/2780,2017-06-22T17:40:50Z,2017-07-14T18:32:29Z,domenic,dev edition,2
 237918674,true,Dev edition: add back jump-to search,https://github.com/whatwg/html/issues/2779,2017-06-22T17:31:15Z,2017-07-13T15:48:34Z,domenic,dev edition,1
-237793047,false,Allow `dialog.close` to support non-strings,https://github.com/whatwg/html/issues/2778,2017-06-22T09:59:39Z,2020-05-29T10:02:09Z,brettz9,addition/proposal|needs implementer interest|topic: dialog,3
+237793047,false,Allow `dialog.close` to support non-strings,https://github.com/whatwg/html/issues/2778,2017-06-22T09:59:39Z,2020-05-29T10:02:09Z,brettz9,addition/proposal|needs implementer interest|topic: dialog,4
 237489897,false,Definition of ambiguous ampersand for &ampa; in attribute value,https://github.com/whatwg/html/issues/2776,2017-06-21T10:37:27Z,2017-06-21T10:37:27Z,zcorpan,document conformance|topic: parser,0
 237405154,false,Expected behavior for <a download> error case,https://github.com/whatwg/html/issues/2775,2017-06-21T03:29:53Z,2017-06-22T08:12:13Z,jessi3py-zz,interop|topic: hyperlink,0
 237070773,true,Calling focus() on non-focusable HTMLElement should log a warning to the console,https://github.com/whatwg/html/issues/2772,2017-06-20T01:53:36Z,2017-06-28T01:54:20Z,TakayoshiKochi,,0
