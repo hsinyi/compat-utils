@@ -5,7 +5,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2750910456,false,"Selection in form control elements, user-select, and customizable select",https://github.com/whatwg/html/issues/10876,2024-12-19T16:46:00Z,2024-12-19T18:52:18Z,josepharhar,,0
 2750608063,false,Are all uses of the `title` attribute discouraged?,https://github.com/whatwg/html/issues/10875,2024-12-19T14:59:24Z,2024-12-20T08:57:55Z,ddbeck,,0
 2748029842,false,OffscreenCanvasRenderingContext2D does not have getContextAttributes,https://github.com/whatwg/html/issues/10872,2024-12-18T14:51:48Z,2024-12-18T16:42:55Z,ccameron-chromium,topic: canvas,1
-2747889237,false,"Undeprecate <plaintext>, it is needed for portable text files",https://github.com/whatwg/html/issues/10871,2024-12-18T13:56:06Z,2024-12-21T10:46:53Z,safinaskar,i18n-tracker,0
+2747889237,true,"Undeprecate <plaintext>, it is needed for portable text files",https://github.com/whatwg/html/issues/10871,2024-12-18T13:56:06Z,2024-12-21T13:37:17Z,safinaskar,i18n-tracker,0
 2747782501,false,Parser: Proposal to introduce invariant for order of active formatting elements that are also in stack of open elements,https://github.com/whatwg/html/issues/10870,2024-12-18T13:12:11Z,2024-12-18T15:48:24Z,kspangsege,topic: parser,0
 2743773640,false,Cookie partitioning on localhost is underspecified,https://github.com/whatwg/html/issues/10867,2024-12-17T02:17:17Z,2024-12-17T08:18:15Z,Sora2455,topic: cookie,0
 2742962512,false,Low Adoption of `<track>` Element,https://github.com/whatwg/html/issues/10866,2024-12-16T17:21:12Z,2024-12-16T17:47:25Z,yashrajbharti,,2
@@ -327,7 +327,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2278404156,false,"Let Form-Associated Custom Elements match :in-range, and :out-of-range pseudo-selectors",https://github.com/whatwg/html/issues/10321,2024-05-03T20:49:26Z,2024-06-03T14:21:28Z,NickGard,addition/proposal|topic: custom elements|topic: selectors,0
 2278393593,false,"Let Form-Associated Custom Elements match :required, :optional, and :autofill pseudo-selectors",https://github.com/whatwg/html/issues/10320,2024-05-03T20:40:06Z,2024-10-21T14:42:18Z,NickGard,addition/proposal|needs implementer interest|topic: custom elements|topic: selectors,0
 2276684787,true,Upcoming WHATNOT meeting on 5/9/2024,https://github.com/whatwg/html/issues/10318,2024-05-03T00:00:41Z,2024-05-10T01:52:32Z,past,agenda+,0
-2276352796,false,Content model and 'what' to render for stylable `<select>` elements,https://github.com/whatwg/html/issues/10317,2024-05-02T19:43:36Z,2024-12-21T04:59:05Z,scottaohara,accessibility|topic: forms|needs concrete proposal|topic: select,5
+2276352796,false,Content model and 'what' to render for stylable `<select>` elements,https://github.com/whatwg/html/issues/10317,2024-05-02T19:43:36Z,2024-12-21T15:59:52Z,scottaohara,accessibility|topic: forms|needs concrete proposal|topic: select,5
 2276074163,true,Meeting 1 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10316,2024-05-02T17:17:37Z,2024-05-18T18:05:26Z,past,agenda+,0
 2275757289,false,Using URL as map keys is problematic without defining equality,https://github.com/whatwg/html/issues/10315,2024-05-02T14:56:49Z,2024-05-09T19:58:19Z,annevk,,0
 2274006008,false,Prefixes and suffixes for textual `<input>`s,https://github.com/whatwg/html/issues/10314,2024-05-01T18:52:42Z,2024-05-09T19:59:03Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,24
@@ -1114,7 +1114,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1400727625,false,`formDisabledCallback` should always fire when governing fieldset's disabled state changes,https://github.com/whatwg/html/issues/8365,2022-10-07T07:16:02Z,2024-09-05T08:45:07Z,bennypowers,topic: custom elements,2
 1400697596,false,Editorial: align with JavaScript spec conventions on records,https://github.com/whatwg/html/issues/8364,2022-10-07T06:44:11Z,2024-10-07T10:26:04Z,domenic,good first issue|integration,0
 1400696912,false,Editorial: consider using Infra maps instead of JS-spec Records more often,https://github.com/whatwg/html/issues/8363,2022-10-07T06:43:25Z,2022-10-07T06:43:25Z,domenic,clarification|integration,0
-1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2024-07-01T14:51:47Z,ian97531,addition/proposal|needs implementer interest|topic: workers,13
+1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2024-07-01T14:51:47Z,ian97531,addition/proposal|needs implementer interest|topic: workers,14
 1399126032,false,How do shadow roots and slots interact with the content model?,https://github.com/whatwg/html/issues/8361,2022-10-06T08:47:59Z,2022-10-07T10:52:20Z,castholm,,0
 1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,92
 1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2022-10-06T15:43:39Z,annevk,addition/proposal|topic: script,2
