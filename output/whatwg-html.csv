@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2768021957,false,Default CORS mode based on `as` type for link preloads,https://github.com/whatwg/html/issues/10891,2025-01-03T18:50:19Z,2025-01-03T18:50:33Z,pmeenan,,0
-2767865283,false,`HTMLElement.togglePopover` can't close the popover when applied on `<td>`,https://github.com/whatwg/html/issues/10890,2025-01-03T16:39:16Z,2025-01-03T16:39:16Z,LcsGa,,0
+2767865283,false,`HTMLElement.togglePopover` can't close the popover when applied on `<td>`,https://github.com/whatwg/html/issues/10890,2025-01-03T16:39:16Z,2025-01-04T19:21:34Z,LcsGa,,0
 2765141727,false,Wrong link on `:target` css pseudo-class,https://github.com/whatwg/html/issues/10889,2025-01-01T16:00:37Z,2025-01-01T16:00:47Z,skyclouds2001,,0
 2762041321,false,ARIA and Accessibility API in HTML specification,https://github.com/whatwg/html/issues/10885,2024-12-28T23:45:58Z,2024-12-28T23:45:58Z,dSalieri,,0
 2760982461,false,Canvas text direction getter not interoperable,https://github.com/whatwg/html/issues/10884,2024-12-27T15:01:10Z,2024-12-28T08:23:54Z,schenney-chromium,topic: canvas,1
@@ -247,7 +247,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2400306155,true,"`insertAdjacentHTML` and related methods should rethrow error after invoking ""Get Trusted Type compliant string""",https://github.com/whatwg/html/issues/10466,2024-07-10T10:05:27Z,2024-07-10T11:30:17Z,mbrodesser-Igalia,,0
 2400039132,false,The order in which custom element callbacks are called does not match implementations,https://github.com/whatwg/html/issues/10465,2024-07-10T08:00:35Z,2024-07-13T10:03:48Z,dSalieri,topic: custom elements,0
 2392054951,true,Upcoming WHATNOT meeting on 2024-07-11,https://github.com/whatwg/html/issues/10463,2024-07-05T07:51:43Z,2024-07-11T09:35:52Z,annevk,agenda+,0
-2391185450,false,Investigate making the invalid state of `<button type>` _not_ submit,https://github.com/whatwg/html/issues/10462,2024-07-04T16:27:59Z,2024-07-12T15:32:12Z,keithamus,addition/proposal|needs implementer interest|topic: forms,5
+2391185450,false,Investigate making the invalid state of `<button type>` _not_ submit,https://github.com/whatwg/html/issues/10462,2024-07-04T16:27:59Z,2024-07-12T15:32:12Z,keithamus,addition/proposal|needs implementer interest|topic: forms,7
 2390995807,false,Permissions Policy should be moved into the Policy Container,https://github.com/whatwg/html/issues/10461,2024-07-04T14:25:11Z,2024-07-04T14:25:24Z,clelland,,1
 2390244386,false,Deprecate canPlayType for media elements in favor media capabilities,https://github.com/whatwg/html/issues/10460,2024-07-04T08:16:38Z,2024-07-04T08:24:51Z,marcoscaceres,removal/deprecation|topic: media,0
 2388964443,false,Issues with the intrinsic size of text-entry input elements,https://github.com/whatwg/html/issues/10458,2024-07-03T15:51:30Z,2024-07-11T12:55:07Z,jfkthame,topic: rendering|topic: forms,2
@@ -857,7 +857,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2024-06-27T22:47:54Z,jpzwarte,addition/proposal|topic: popover,0
 1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2024-06-18T05:09:42Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,2
 1651613244,false,`popovertarget` and shadow DOM,https://github.com/whatwg/html/issues/9109,2023-04-03T08:43:23Z,2024-05-11T12:07:04Z,jpzwarte,addition/proposal|topic: shadow|topic: popover,0
-1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2024-11-01T00:24:05Z,cubuspl42,addition/proposal|needs implementer interest,6
+1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2024-11-01T00:24:05Z,cubuspl42,addition/proposal|needs implementer interest,7
 1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2024-09-11T12:19:58Z,Gambloide,addition/proposal|needs implementer interest|topic: forms|needs compat analysis,9
 1648832613,true,PDF version does not link to web version,https://github.com/whatwg/html/issues/9097,2023-03-31T07:32:24Z,2023-04-03T07:25:38Z,NicoleSharp,spec tooling,0
 1648366000,false,"typo ""The autofill field listed above indicate that t...""",https://github.com/whatwg/html/issues/9094,2023-03-30T21:43:18Z,2023-03-30T21:43:18Z,timelsass,,0
@@ -4606,7 +4606,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 147086397,false,<li> inside <summary> inherits list-style-position: inside,https://github.com/whatwg/html/issues/1020,2016-04-09T04:04:56Z,2019-08-21T13:41:30Z,aethanyc,topic: rendering|needs tests|interop,0
 147002364,true,Element interfaces across browsers,https://github.com/whatwg/html/issues/1015,2016-04-08T18:26:50Z,2016-04-22T19:45:58Z,domenic,compat,0
 146973001,true,Allow start day of week to be specified for <input type=date />,https://github.com/whatwg/html/issues/1014,2016-04-08T16:17:57Z,2016-04-29T20:30:35Z,ghost,addition/proposal,0
-146815410,false,Introduce pointer to <script> element in module scripts,https://github.com/whatwg/html/issues/1013,2016-04-08T05:08:46Z,2024-11-09T20:12:40Z,annevk,addition/proposal|topic: script,13
+146815410,false,Introduce pointer to <script> element in module scripts,https://github.com/whatwg/html/issues/1013,2016-04-08T05:08:46Z,2025-01-05T00:18:15Z,annevk,addition/proposal|topic: script,13
 146576462,true,Editornal: missing closed parenthesis,https://github.com/whatwg/html/issues/1009,2016-04-07T10:37:46Z,2016-04-08T02:22:38Z,momdo,,0
 146343884,true,"Developers.whatwg requesting insecure Google fonts ",https://github.com/whatwg/html/issues/1007,2016-04-06T15:08:50Z,2016-04-12T19:08:57Z,pjconnors,,0
 146189083,true,Workers: Curtail the browser's license to kill,https://github.com/whatwg/html/issues/1004,2016-04-06T05:20:01Z,2017-04-19T07:37:31Z,lars-t-hansen,normative change|needs implementer interest|topic: workers,0
