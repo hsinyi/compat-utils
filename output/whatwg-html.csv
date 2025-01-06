@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2769452260,false,How should non-absolute <length> values be interpreted when used by CanvasTextDrawingStyles's letterSpacing / wordSpacing?,https://github.com/whatwg/html/issues/10893,2025-01-05T21:13:49Z,2025-01-05T21:13:58Z,weinig,,0
 2768021957,false,Default CORS mode based on `as` type for link preloads,https://github.com/whatwg/html/issues/10891,2025-01-03T18:50:19Z,2025-01-03T18:50:33Z,pmeenan,,0
 2767865283,false,`HTMLElement.togglePopover` can't close the popover when applied on `<td>`,https://github.com/whatwg/html/issues/10890,2025-01-03T16:39:16Z,2025-01-04T19:21:34Z,LcsGa,,0
 2765141727,false,Wrong link on `:target` css pseudo-class,https://github.com/whatwg/html/issues/10889,2025-01-01T16:00:37Z,2025-01-01T16:00:47Z,skyclouds2001,,0
@@ -257,7 +258,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2384908323,true,Should dialog removal steps unset is modal flag?,https://github.com/whatwg/html/issues/10452,2024-07-01T23:30:29Z,2024-07-08T02:36:48Z,lukewarlow,topic: dialog,0
 2384853014,true,Show popover 11.5 ignores throwExceptions,https://github.com/whatwg/html/issues/10451,2024-07-01T22:40:50Z,2024-07-12T02:51:53Z,lukewarlow,topic: popover,0
 2384430169,false,structuredClone should not throw for Arguments exotic objects,https://github.com/whatwg/html/issues/10449,2024-07-01T17:58:43Z,2024-07-01T19:41:26Z,michaelficarra,addition/proposal|needs implementer interest|topic: serialize and transfer,1
-2384330290,false,When should use of `currentcolor` inside a drop-shadow filter be resolved when used with canvas.,https://github.com/whatwg/html/issues/10448,2024-07-01T17:01:30Z,2024-07-02T01:35:42Z,weinig,topic: canvas,0
+2384330290,false,When should use of `currentcolor` inside a drop-shadow filter be resolved when used with canvas.,https://github.com/whatwg/html/issues/10448,2024-07-01T17:01:30Z,2025-01-05T21:43:09Z,weinig,topic: canvas,0
 2382256310,true,"offsetParent, offsetLeft & offsetTop should be on Element or Node instead of HTMLElement",https://github.com/whatwg/html/issues/10445,2024-06-30T13:30:35Z,2024-07-01T01:24:56Z,jogibear9988,,0
 2378870903,false,A way to declare ties in ordered lists,https://github.com/whatwg/html/issues/10443,2024-06-27T18:45:33Z,2024-06-27T18:46:03Z,simevidas,addition/proposal|needs implementer interest,5
 2378594970,true,Add an imperative way to set popover invoker relationships,https://github.com/whatwg/html/issues/10442,2024-06-27T16:22:41Z,2024-11-15T04:41:03Z,mfreed7,addition/proposal|topic: popover,0
@@ -854,7 +855,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1653022362,true,Should FACE formStateRestoreCallback be called with the new value or state?,https://github.com/whatwg/html/issues/9114,2023-04-04T01:38:09Z,2023-04-24T14:47:17Z,xiaochengh,clarification|topic: custom elements|topic: forms,1
 1652818143,false,"Consider CSP script-src none directive in the ""Enabled/disabled scripting"" definitions",https://github.com/whatwg/html/issues/9113,2023-04-03T21:46:19Z,2023-05-19T10:09:01Z,hackademix,addition/proposal|security/privacy|integration,1
 1652808622,false,Standardize rendering of PQ and HLG HDR image content,https://github.com/whatwg/html/issues/9112,2023-04-03T21:35:40Z,2023-10-20T19:44:29Z,ccameron-chromium,,0
-1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2024-06-27T22:47:54Z,jpzwarte,addition/proposal|topic: popover,0
+1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2024-06-27T22:47:54Z,jpzwarte,addition/proposal|topic: popover,1
 1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2024-06-18T05:09:42Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,2
 1651613244,false,`popovertarget` and shadow DOM,https://github.com/whatwg/html/issues/9109,2023-04-03T08:43:23Z,2024-05-11T12:07:04Z,jpzwarte,addition/proposal|topic: shadow|topic: popover,0
 1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2024-11-01T00:24:05Z,cubuspl42,addition/proposal|needs implementer interest,7
@@ -2103,7 +2104,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 663869445,true,How does a script added into a shadow DOM work with that shadow dom/the element that built it?,https://github.com/whatwg/html/issues/5754,2020-07-22T15:53:57Z,2020-08-17T09:40:03Z,Pomax,,2
 663532617,true,classic script's base URL should be sanitized when muted errors flag is set,https://github.com/whatwg/html/issues/5751,2020-07-22T07:13:35Z,2020-07-24T19:12:26Z,hiroshige-g,,0
 662723840,true,back-forward cache: specify interaction with unload & beforeunload,https://github.com/whatwg/html/issues/5748,2020-07-21T08:06:43Z,2020-10-12T16:11:17Z,rakina,topic: history,2
-661438283,false,Add an API to opt-out of back-forward cache?,https://github.com/whatwg/html/issues/5744,2020-07-20T06:33:22Z,2021-06-02T12:16:15Z,rakina,addition/proposal|topic: history,16
+661438283,false,Add an API to opt-out of back-forward cache?,https://github.com/whatwg/html/issues/5744,2020-07-20T06:33:22Z,2021-06-02T12:16:15Z,rakina,addition/proposal|topic: history,17
 661026877,true,"Typing into an input element moves the cursor position unexpectedly ",https://github.com/whatwg/html/issues/5743,2020-07-19T19:41:06Z,2020-07-20T23:24:38Z,juanca,,0
 660189408,false,Form input element should have an autocomplete attribute for numeric citizen/personal ID fields,https://github.com/whatwg/html/issues/5740,2020-07-18T14:44:36Z,2024-08-29T13:55:10Z,Avamander,addition/proposal|needs implementer interest|topic: forms,5
 654932334,true,Add some sort of navigation-params container to stop threading stuff through navigation-related algorithms,https://github.com/whatwg/html/issues/5727,2020-07-10T17:37:19Z,2020-07-17T17:19:38Z,domenic,clarification|topic: navigation,0
