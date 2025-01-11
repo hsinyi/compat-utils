@@ -9,7 +9,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2756321003,false,Remove new browsing context/Document referrer assignment,https://github.com/whatwg/html/pull/10883,2024-12-23T15:51:38Z,2024-12-23T16:25:03Z,domfarolino,do not merge yet|topic: frames/navigables/browsing contexts,0
 2753010492,false,Add missing character renders in Tokenization,https://github.com/whatwg/html/pull/10880,2024-12-20T15:56:58Z,2024-12-20T15:58:55Z,AMS21,,0
 2750350934,true,Editorial: improve fragment parsing,https://github.com/whatwg/html/pull/10874,2024-12-19T13:33:26Z,2025-01-06T15:18:32Z,annevk,,0
-2749014142,false,"Add a `lang` IDL Attribute to CanvasTextDrawingStyles, and clarify ""direction"" on same",https://github.com/whatwg/html/pull/10873,2024-12-19T00:45:36Z,2025-01-08T23:09:17Z,schenney-chromium,,0
+2749014142,false,"Add a `lang` IDL Attribute to CanvasTextDrawingStyles, and clarify ""direction"" on same",https://github.com/whatwg/html/pull/10873,2024-12-19T00:45:36Z,2025-01-10T20:07:42Z,schenney-chromium,,0
 2745581253,false,Add Scoped Custom Element Registries,https://github.com/whatwg/html/pull/10869,2024-12-17T17:33:19Z,2024-12-19T10:07:23Z,annevk,addition/proposal|topic: shadow|topic: custom elements,0
 2745477397,true,"Editorial: Finish renaming ""post-insert"" to ""post-connection""",https://github.com/whatwg/html/pull/10868,2024-12-17T16:51:45Z,2024-12-17T17:12:45Z,domfarolino,integration|editorial,0
 2742760704,true,Editorial: add a concept for Window's CustomElementRegistry,https://github.com/whatwg/html/pull/10865,2024-12-16T15:53:22Z,2024-12-17T07:23:44Z,annevk,,0
@@ -37,7 +37,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2663612178,true,Fix corner case invoker issue with popover nested inside invoker,https://github.com/whatwg/html/pull/10770,2024-11-16T01:54:47Z,2024-11-22T16:06:09Z,mfreed7,normative change|topic: popover,0
 2661558826,true,LICENSE - Reformatted,https://github.com/whatwg/html/pull/10767,2024-11-15T10:39:49Z,2024-11-17T09:47:15Z,KomatiBhavaniSankar,invalid,0
 2655518578,true,Main,https://github.com/whatwg/html/pull/10760,2024-11-13T13:24:50Z,2024-11-14T02:14:45Z,venelouis,invalid,0
-2652666474,false,Add initial scroll position hook to HTML spec,https://github.com/whatwg/html/pull/10759,2024-11-12T16:19:26Z,2024-12-10T02:22:45Z,DavMila,addition/proposal|topic: navigation|integration,0
+2652666474,false,Add initial scroll position hook to HTML spec,https://github.com/whatwg/html/pull/10759,2024-11-12T16:19:26Z,2025-01-10T20:14:12Z,DavMila,addition/proposal|topic: navigation|integration,0
 2645525301,false,Disambiguate attribute declarations from content attributes,https://github.com/whatwg/html/pull/10756,2024-11-09T02:52:46Z,2024-11-18T15:00:19Z,sideshowbarker,clarification,0
 2644117823,true,Correct <body> methods example - onload deleted,https://github.com/whatwg/html/pull/10754,2024-11-08T13:53:26Z,2024-11-08T14:48:06Z,sedlukha,,0
 2643944436,true,Correct <img>.decode()'s in parallel usage,https://github.com/whatwg/html/pull/10753,2024-11-08T12:43:38Z,2024-11-08T13:34:02Z,annevk,,0
@@ -71,7 +71,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2556691169,true,Formatting fixes,https://github.com/whatwg/html/pull/10661,2024-09-30T13:29:33Z,2024-10-01T01:03:54Z,yoavweiss,,0
 2555520171,true,Do not establish close watchers in non-fully active documents,https://github.com/whatwg/html/pull/10660,2024-09-30T04:40:57Z,2024-10-10T01:57:42Z,domenic,topic: dialog|topic: popover|topic: close watchers,1
 2555497598,true,Reorder promise resolutions for navigation API,https://github.com/whatwg/html/pull/10658,2024-09-30T04:21:08Z,2024-09-30T10:14:17Z,domenic,topic: navigation,0
-2555117364,false,State-preserving atomic move integration,https://github.com/whatwg/html/pull/10657,2024-09-29T19:28:45Z,2024-12-20T22:24:42Z,domfarolino,addition/proposal|impacts documentation,0
+2555117364,false,State-preserving atomic move integration,https://github.com/whatwg/html/pull/10657,2024-09-29T19:28:45Z,2025-01-10T17:05:11Z,domfarolino,addition/proposal|impacts documentation,0
 2554441378,true,"Editoral: fix typo in the ""default"" autocapitalization hint description",https://github.com/whatwg/html/pull/10655,2024-09-28T18:35:04Z,2024-10-01T02:28:55Z,kemzeb,,0
 2550584891,true,Editorial: fix variable name in HostLoadImportedModule,https://github.com/whatwg/html/pull/10649,2024-09-26T13:24:10Z,2024-09-26T13:32:46Z,Ms2ger,,0
 2550365541,true,Editorial: pass a settings object as needed when revealing a document,https://github.com/whatwg/html/pull/10648,2024-09-26T11:57:39Z,2024-09-26T13:23:09Z,Ms2ger,,0
@@ -400,7 +400,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1911295610,true,Editorial: clarify adoption agency step 13.3,https://github.com/whatwg/html/pull/9785,2023-09-25T11:40:32Z,2023-09-26T06:55:28Z,not-my-profile,,0
 1909692719,true,"Editorial: make note about ""in body"" insertion mode account for edge case",https://github.com/whatwg/html/pull/9780,2023-09-23T03:33:03Z,2023-09-26T11:05:32Z,not-my-profile,topic: parser,0
 1909681938,true,Meta: make Wattsi Syntax link more prominent in CONTRIBUTING.md,https://github.com/whatwg/html/pull/9779,2023-09-23T02:46:33Z,2023-09-25T07:35:18Z,not-my-profile,,0
-1909677474,false,Add popover=hint,https://github.com/whatwg/html/pull/9778,2023-09-23T02:27:22Z,2025-01-09T22:50:49Z,josepharhar,addition/proposal|topic: popover,4
+1909677474,true,Add popover=hint,https://github.com/whatwg/html/pull/9778,2023-09-23T02:27:22Z,2025-01-10T17:23:05Z,josepharhar,addition/proposal|topic: popover,4
 1909479750,false,Queue toggle events and dialog close with microtasks,https://github.com/whatwg/html/pull/9775,2023-09-22T20:24:57Z,2023-11-14T08:05:49Z,josepharhar,,0
 1908359160,true,Un-break build by making review-drafts/2023-07.wattsi use non-void <ref></ref>,https://github.com/whatwg/html/pull/9772,2023-09-22T07:38:51Z,2023-09-22T08:38:40Z,sideshowbarker,,0
 1907618502,false,Add TextTrackCue ctor & cue + cuebackground attributes,https://github.com/whatwg/html/pull/9771,2023-09-21T19:22:21Z,2023-11-19T23:57:57Z,marcoscaceres,addition/proposal|topic: media,1
@@ -1933,7 +1933,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 494647624,true,"Update all constructors, including [HTMLConstructor]",https://github.com/whatwg/html/pull/4915,2019-09-17T14:08:34Z,2019-09-24T05:39:39Z,domenic,topic: custom elements,0
 492714682,true,Ignore document.open/write after the active parser has been aborted,https://github.com/whatwg/html/pull/4907,2019-09-12T10:16:07Z,2019-10-16T22:40:08Z,foolip,normative change|topic: document.open(),0
 491936350,false,Prevent the creation of a Worker from a JSON module,https://github.com/whatwg/html/pull/4899,2019-09-10T22:56:23Z,2023-11-14T08:05:50Z,dandclark,do not merge yet,0
-491307902,true,Introduce CSS Module Script,https://github.com/whatwg/html/pull/4898,2019-09-09T20:25:05Z,2023-10-13T02:01:51Z,dandclark,,10
+491307902,true,Introduce CSS Module Script,https://github.com/whatwg/html/pull/4898,2019-09-09T20:25:05Z,2023-10-13T02:01:51Z,dandclark,,11
 491280239,true,Editorial: remove now-redundant removal of event loop task,https://github.com/whatwg/html/pull/4897,2019-09-09T19:24:20Z,2019-09-13T05:26:11Z,domenic,topic: event loop,0
 490789798,true,feat: Rename `HTMLOrSVGElement` to `HTMLOrForeignElement`,https://github.com/whatwg/html/pull/4893,2019-09-08T18:54:25Z,2020-02-19T09:29:17Z,ExE-Boss,do not merge yet,0
 490702905,true,Export dfns for Page Visibility spec,https://github.com/whatwg/html/pull/4892,2019-09-08T02:46:51Z,2019-09-18T07:47:48Z,marcoscaceres,,0
