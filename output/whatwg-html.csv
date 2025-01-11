@@ -1,8 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2780973923,false,Should `crossorigin=anonymous` be the default for preloading fonts?,https://github.com/whatwg/html/issues/10907,2025-01-10T19:38:01Z,2025-01-10T20:25:57Z,tunetheweb,,0
+2780973923,true,Should `crossorigin=anonymous` be the default for preloading fonts?,https://github.com/whatwg/html/issues/10907,2025-01-10T19:38:01Z,2025-01-11T04:54:08Z,tunetheweb,,0
 2778985243,false,Upcoming WHATNOT meeting on 2025-01-16,https://github.com/whatwg/html/issues/10906,2025-01-09T23:48:31Z,2025-01-09T23:48:31Z,past,agenda+,0
 2777627477,false,Popovers are broken when shown in a `contextmenu` event listener,https://github.com/whatwg/html/issues/10905,2025-01-09T11:59:31Z,2025-01-10T15:48:55Z,jpzwarte,,0
-2773648494,false,Display of an inline 3D model,https://github.com/whatwg/html/issues/10901,2025-01-07T20:09:18Z,2025-01-07T20:09:18Z,zachernuk,addition/proposal|needs implementer interest,1
+2773648494,false,Display of an inline 3D model,https://github.com/whatwg/html/issues/10901,2025-01-07T20:09:18Z,2025-01-07T20:09:18Z,zachernuk,addition/proposal|needs implementer interest,2
 2773169567,false,"Navigate a navigable should probably use ""matches about:srcdoc""",https://github.com/whatwg/html/issues/10900,2025-01-07T15:50:23Z,2025-01-07T15:50:23Z,AtkinsSJ,,0
 2772388413,false,Behavior of updating the checkedness state of the elements in the same radio button group is unclear,https://github.com/whatwg/html/issues/10897,2025-01-07T09:51:12Z,2025-01-07T13:04:15Z,EdgarChen,compat|topic: forms,0
 2772028164,false,Clarification on `unicode-bidi` for `input type text` and `ruby`,https://github.com/whatwg/html/issues/10896,2025-01-07T06:45:48Z,2025-01-07T06:45:48Z,Ahmad-S792,,0
@@ -1670,7 +1670,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 954330262,false,"window.stop() does not cancel traversal navigations, but the stop button does",https://github.com/whatwg/html/issues/6905,2021-07-27T23:08:08Z,2021-07-27T23:08:08Z,domenic,topic: navigation|topic: history,0
 954305737,false,Should definition of preload refer to potential destination rather than state?,https://github.com/whatwg/html/issues/6904,2021-07-27T22:14:20Z,2021-07-27T22:45:02Z,dbaron,clarification|topic: link,0
 954280417,false,"Clarification needed on ""check if COOP values require a browsing context group switch"" algorithm",https://github.com/whatwg/html/issues/6903,2021-07-27T21:28:32Z,2021-08-03T19:10:39Z,cdumez,topic: cross-origin-opener-policy,0
-951900002,false,Behavior of Location attribute after closing the window,https://github.com/whatwg/html/issues/6899,2021-07-23T21:13:08Z,2021-09-06T14:49:13Z,cdumez,interop|topic: location,0
+951900002,true,Behavior of Location attribute after closing the window,https://github.com/whatwg/html/issues/6899,2021-07-23T21:13:08Z,2025-01-11T09:54:10Z,cdumez,interop|topic: location,0
 951730085,true,"Cross-origin prompts still have significant use cases ",https://github.com/whatwg/html/issues/6897,2021-07-23T16:40:23Z,2021-08-05T10:54:08Z,sudofox,,6
 950571576,false,What should we do about location.replace?,https://github.com/whatwg/html/issues/6891,2021-07-22T11:44:28Z,2021-07-23T09:32:03Z,jakearchibald,topic: history,1
 950324581,false,"Drop export to ""role"" attribute",https://github.com/whatwg/html/issues/6890,2021-07-22T05:55:22Z,2024-03-11T17:12:37Z,marcoscaceres,accessibility|a11y-tracker,0
@@ -3036,7 +3036,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 356829495,true,Canvas's measureText shouldn't throw Security,https://github.com/whatwg/html/issues/3991,2018-09-04T14:13:27Z,2018-09-05T09:39:36Z,shhnjk,,0
 356643456,true,Fallback base URL computation for a document with about:srcdoc but not an iframe srcdoc document,https://github.com/whatwg/html/issues/3989,2018-09-04T03:48:41Z,2023-07-13T04:41:39Z,tkent-google,topic: document.open()|topic: javascript: URLs,0
 356601280,false,Ambiguity around synchronicity for media resource selection algorithm,https://github.com/whatwg/html/issues/3988,2018-09-03T21:24:41Z,2021-05-06T13:56:47Z,benwiley4000,topic: media|interop,0
-356045286,false,Async css,https://github.com/whatwg/html/issues/3983,2018-08-31T16:23:49Z,2025-01-10T22:53:18Z,andershol,addition/proposal|topic: link|topic: style,21
+356045286,false,Async css,https://github.com/whatwg/html/issues/3983,2018-08-31T16:23:49Z,2025-01-10T22:53:18Z,andershol,addition/proposal|topic: link|topic: style,23
 355764184,false,`sizes` attribute should directly set the intrinsic width of the image,https://github.com/whatwg/html/issues/3981,2018-08-30T21:39:12Z,2023-09-18T12:07:19Z,tabatkins,normative change|needs implementer interest|topic: img,1
 355757409,false,Allow type attribute on <ul>,https://github.com/whatwg/html/issues/3979,2018-08-30T21:16:06Z,2022-11-15T07:02:07Z,fantasai,addition/proposal|needs implementer interest|document conformance|topic: rendering|interop|impacts documentation,3
 355754004,false,Should we throw SecurityError when document.write() is used cross-origin?,https://github.com/whatwg/html/issues/3978,2018-08-30T21:05:34Z,2018-09-04T15:52:51Z,TimothyGu,topic: document.open(),1
@@ -3359,7 +3359,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 293941090,true,""" check the usability of the image argument""",https://github.com/whatwg/html/issues/3441,2018-02-02T16:14:51Z,2018-02-09T21:01:30Z,Ms2ger,clarification|good first issue|topic: canvas,0
 293908525,true,Restrict AppCache to secure contexts,https://github.com/whatwg/html/issues/3440,2018-02-02T14:37:37Z,2018-11-09T21:46:17Z,annevk,normative change|needs implementer interest|topic: appcache|impacts documentation,2
 293850152,true,Adding fields to records dynamically,https://github.com/whatwg/html/issues/3439,2018-02-02T10:59:05Z,2024-12-14T06:35:33Z,annevk,clarification|topic: serialize and transfer,0
-293329508,false,"""the iframe must delay the load event of its document""",https://github.com/whatwg/html/issues/3436,2018-01-31T22:07:42Z,2018-01-31T22:18:52Z,domenic,clarification,0
+293329508,true,"""the iframe must delay the load event of its document""",https://github.com/whatwg/html/issues/3436,2018-01-31T22:07:42Z,2025-01-11T09:50:02Z,domenic,clarification,0
 292769497,false,"""transferToImageBitmap()""",https://github.com/whatwg/html/issues/3433,2018-01-30T12:43:57Z,2018-01-30T13:39:33Z,Ms2ger,topic: canvas,0
 292769199,false,"""If image is not origin-clean, then set the Canv...""",https://github.com/whatwg/html/issues/3432,2018-01-30T12:42:49Z,2018-01-30T13:36:46Z,Ms2ger,topic: canvas,0
 292764304,true,"Replace ""solid black"" with ""opaque black""",https://github.com/whatwg/html/issues/3431,2018-01-30T12:26:07Z,2018-03-11T04:31:34Z,annevk,clarification|good first issue|topic: canvas,0
@@ -4207,7 +4207,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 180917864,true,Fetch steps for <link> don't specify destination or type,https://github.com/whatwg/html/issues/1856,2016-10-04T14:59:33Z,2017-09-04T11:15:03Z,jdm,topic: fetch|topic: link,0
 180785338,true,Non-normative note about disabled controls disallows selection,https://github.com/whatwg/html/issues/1852,2016-10-04T01:16:13Z,2016-10-12T17:22:52Z,domenic,clarification|topic: forms,2
 180739398,true,Return value of window.open when popup is blocked,https://github.com/whatwg/html/issues/1851,2016-10-03T20:32:42Z,2016-10-04T12:35:44Z,zcorpan,,0
-180614890,false,Meta: use tests and implementation bugs to shorten time to interoperability,https://github.com/whatwg/html/issues/1849,2016-10-03T11:09:35Z,2017-12-13T21:06:57Z,foolip,spec tooling,0
+180614890,true,Meta: use tests and implementation bugs to shorten time to interoperability,https://github.com/whatwg/html/issues/1849,2016-10-03T11:09:35Z,2025-01-11T09:47:40Z,foolip,spec tooling,0
 180349898,true,"window.open is specced to throw if a popup blocker blocks the open() call, which matches precisely 0 browsers",https://github.com/whatwg/html/issues/1845,2016-09-30T16:43:00Z,2016-10-03T13:04:12Z,bzbarsky,,0
 180313960,false,More infinite/NaN handling for <canvas> API members,https://github.com/whatwg/html/issues/1844,2016-09-30T14:12:23Z,2019-05-08T20:12:16Z,annevk,good first issue|topic: canvas|needs tests,0
 180300181,true,Introduce a concept named threads to better describe concurrency,https://github.com/whatwg/html/issues/1843,2016-09-30T13:10:48Z,2017-09-21T13:27:16Z,annevk,,1
