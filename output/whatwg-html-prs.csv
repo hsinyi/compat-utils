@@ -1,13 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2788915194,false,Fix url and src in NotRestoredReasons,https://github.com/whatwg/html/pull/10916,2025-01-15T06:02:54Z,2025-01-15T08:32:14Z,domenic,,0
 2787952111,false,Allowing SameSite=None Cookies in First-Party Sandboxed Contexts,https://github.com/whatwg/html/pull/10915,2025-01-14T18:04:19Z,2025-01-14T18:04:19Z,aamuley,,0
 2784347988,true,Fix Trusted Type sink names for WorkerGlobalScope methods,https://github.com/whatwg/html/pull/10913,2025-01-13T15:30:25Z,2025-01-14T07:44:19Z,lukewarlow,,0
 2784321232,true,Editorial: Fix some typos,https://github.com/whatwg/html/pull/10912,2025-01-13T15:22:33Z,2025-01-13T20:20:20Z,jmdyck,,0
-2783823554,false,"Notify WebDriver BiDi about ""committed"" navigations",https://github.com/whatwg/html/pull/10910,2025-01-13T12:26:41Z,2025-01-14T16:09:11Z,OrKoN,,0
-2783793235,false,Editorial: consistently use navigables for integration with WebDriver BiDi,https://github.com/whatwg/html/pull/10909,2025-01-13T12:12:32Z,2025-01-14T16:09:30Z,OrKoN,,0
+2783823554,false,"Notify WebDriver BiDi about ""committed"" navigations",https://github.com/whatwg/html/pull/10910,2025-01-13T12:26:41Z,2025-01-15T12:15:05Z,OrKoN,,0
+2783793235,true,Editorial: consistently use navigables for integration with WebDriver BiDi,https://github.com/whatwg/html/pull/10909,2025-01-13T12:12:32Z,2025-01-15T09:03:38Z,OrKoN,topic: navigation|integration,0
 2775316934,false,Fix accidental settings differences between CanvasRenderingContext2D and OffscreenCanvasRenderingContext2D,https://github.com/whatwg/html/pull/10904,2025-01-08T12:49:16Z,2025-01-14T09:44:53Z,ccameron-chromium,topic: canvas,0
 2775079455,false,Reserve/free quota for `fetchLater`,https://github.com/whatwg/html/pull/10903,2025-01-08T10:54:18Z,2025-01-08T10:56:18Z,noamr,,0
 2773050358,true,Editorial: Correct userNavigationInvolvement -> userInvolvement,https://github.com/whatwg/html/pull/10899,2025-01-07T14:58:09Z,2025-01-07T16:10:37Z,AtkinsSJ,,0
-2772403339,false,Add `NavigateEvent.sourceElement`,https://github.com/whatwg/html/pull/10898,2025-01-07T09:58:26Z,2025-01-13T14:52:26Z,noamr,,0
+2772403339,false,Add `NavigateEvent.sourceElement`,https://github.com/whatwg/html/pull/10898,2025-01-07T09:58:26Z,2025-01-15T11:03:23Z,noamr,addition/proposal|topic: navigation,0
 2770817333,true,Editorial: fix :target cross-reference,https://github.com/whatwg/html/pull/10894,2025-01-06T14:46:59Z,2025-01-06T16:24:06Z,annevk,,0
 2769331227,true,Editorial: Fix typo in textarea cloning steps,https://github.com/whatwg/html/pull/10892,2025-01-05T15:44:04Z,2025-01-06T09:05:25Z,AtkinsSJ,,0
 2764699313,true,Editorial: minor editorial fixes to storage broadcast and remove,https://github.com/whatwg/html/pull/10887,2024-12-31T22:11:22Z,2025-01-06T15:06:52Z,shannonbooth,,0
@@ -49,7 +50,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2642683502,false,Fix language stating when start tags must not be omitted,https://github.com/whatwg/html/pull/10752,2024-11-08T02:50:46Z,2024-11-09T02:55:49Z,sideshowbarker,document conformance,0
 2640133552,true,Editorial: acknowledge Alan Jeffrey,https://github.com/whatwg/html/pull/10747,2024-11-07T07:29:35Z,2024-11-13T04:50:31Z,annevk,,0
 2631440687,true,"[editorial] dfn worker's outside/inside port, and clarify event retargeting",https://github.com/whatwg/html/pull/10738,2024-11-03T20:01:43Z,2024-11-21T08:39:02Z,nicolo-ribaudo,clarification|topic: workers,0
-2627986111,false,Add dialog light dismiss behavior,https://github.com/whatwg/html/pull/10737,2024-10-31T23:17:09Z,2025-01-09T19:49:16Z,mfreed7,addition/proposal|needs implementer interest|needs tests|topic: dialog,0
+2627986111,true,Add dialog light dismiss behavior,https://github.com/whatwg/html/pull/10737,2024-10-31T23:17:09Z,2025-01-15T05:00:29Z,mfreed7,normative change|addition/proposal|topic: dialog|topic: close watchers,0
 2626590050,true,Mudei o título ( apenas par teste aula),https://github.com/whatwg/html/pull/10733,2024-10-31T11:10:21Z,2024-11-01T00:20:29Z,LarissaSouzaNaScimento,invalid,0
 2626503054,true,Correct Trusted Type enforcement in Range.getContextualFragment.,https://github.com/whatwg/html/pull/10732,2024-10-31T10:26:08Z,2024-11-01T05:25:24Z,koto,,0
 2625312806,true,Enforce noopener on cross-top-level-site Blob URLs,https://github.com/whatwg/html/pull/10731,2024-10-30T20:50:16Z,2024-11-18T04:10:39Z,recvfrom,security/privacy,0
