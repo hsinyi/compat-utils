@@ -1,13 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2786709164,false,Document does not have target element set before script can access it on load event,https://github.com/whatwg/html/issues/10914,2025-01-14T09:53:49Z,2025-01-15T07:46:10Z,shannonbooth,,0
 2784201532,false,Specify the ability to scroll to increase/decrease <input type=number>,https://github.com/whatwg/html/issues/10911,2025-01-13T14:48:18Z,2025-01-14T23:27:45Z,EdgarChen,topic: forms,0
-2783144222,false,Emoji favicons,https://github.com/whatwg/html/issues/10908,2025-01-13T06:39:06Z,2025-01-13T06:39:06Z,nt1m,addition/proposal|needs implementer interest,5
+2783144222,false,Emoji favicons,https://github.com/whatwg/html/issues/10908,2025-01-13T06:39:06Z,2025-01-15T16:37:17Z,nt1m,addition/proposal|needs implementer interest,6
 2780973923,true,Should `crossorigin=anonymous` be the default for preloading fonts?,https://github.com/whatwg/html/issues/10907,2025-01-10T19:38:01Z,2025-01-11T04:54:08Z,tunetheweb,,0
 2778985243,false,Upcoming WHATNOT meeting on 2025-01-16,https://github.com/whatwg/html/issues/10906,2025-01-09T23:48:31Z,2025-01-09T23:48:31Z,past,agenda+,0
 2777627477,false,Popovers are broken when shown in a `contextmenu` event listener,https://github.com/whatwg/html/issues/10905,2025-01-09T11:59:31Z,2025-01-10T15:48:55Z,jpzwarte,,0
 2773648494,false,Display of an inline 3D model,https://github.com/whatwg/html/issues/10901,2025-01-07T20:09:18Z,2025-01-07T20:09:18Z,zachernuk,addition/proposal|needs implementer interest,2
 2773169567,false,"Navigate a navigable should probably use ""matches about:srcdoc""",https://github.com/whatwg/html/issues/10900,2025-01-07T15:50:23Z,2025-01-15T08:20:53Z,AtkinsSJ,clarification|topic: navigation|topic: frames/navigables/browsing contexts,0
-2772388413,false,Behavior of updating the checkedness state of the elements in the same radio button group is unclear,https://github.com/whatwg/html/issues/10897,2025-01-07T09:51:12Z,2025-01-14T19:47:29Z,EdgarChen,compat|topic: forms,0
+2772388413,false,Behavior of updating the checkedness state of the elements in the same radio button group is unclear,https://github.com/whatwg/html/issues/10897,2025-01-07T09:51:12Z,2025-01-15T14:51:06Z,EdgarChen,compat|topic: forms,0
 2772028164,false,Clarification on `unicode-bidi` for `input type text` and `ruby`,https://github.com/whatwg/html/issues/10896,2025-01-07T06:45:48Z,2025-01-13T15:36:30Z,Ahmad-S792,,0
 2770935112,false,Wrong Web IDL type for URLs in HTML Standard,https://github.com/whatwg/html/issues/10895,2025-01-06T15:48:26Z,2025-01-15T05:39:34Z,dontcallmedom-bot,,0
 2769452260,false,How should non-absolute <length> values be interpreted when used by CanvasTextDrawingStyles's letterSpacing / wordSpacing?,https://github.com/whatwg/html/issues/10893,2025-01-05T21:13:49Z,2025-01-07T19:15:24Z,weinig,topic: canvas,0
@@ -50,7 +50,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2724547102,true,"Calling replaceState before pushState messes up with the state, so when I go back, it does go back, but it should not",https://github.com/whatwg/html/issues/10834,2024-12-07T11:24:48Z,2024-12-08T03:27:40Z,Nedimko123,,0
 2724509105,true,"Invalid reference to ""oldModuleMap"" and ""specifier"" in ""merge existing and new import maps""",https://github.com/whatwg/html/issues/10833,2024-12-07T09:40:47Z,2024-12-09T07:05:50Z,shannonbooth,topic: script,0
 2722602163,false,Lift restriction on buttons with implicit `type=submit` and `command`/`commandfor` being no-op,https://github.com/whatwg/html/issues/10832,2024-12-06T10:07:50Z,2024-12-06T10:08:25Z,keithamus,addition/proposal|needs implementer interest|topic: forms,0
-2722500950,false,Detect UA transitions on same-origin cross-document navigations,https://github.com/whatwg/html/issues/10831,2024-12-06T09:18:01Z,2024-12-06T20:31:56Z,bramus,addition/proposal|needs implementer interest,1
+2722500950,false,Detect UA transitions on same-origin cross-document navigations,https://github.com/whatwg/html/issues/10831,2024-12-06T09:18:01Z,2025-01-15T21:38:58Z,bramus,addition/proposal|needs implementer interest,2
 2721993883,true,Iframe insertion steps violate rules for what insertion steps are allowed to do,https://github.com/whatwg/html/issues/10828,2024-12-06T03:59:51Z,2024-12-12T03:38:48Z,jdm,integration,0
 2721875733,false,Browsers are not interoperable on navigating to no-Content-Type blob: URLs,https://github.com/whatwg/html/issues/10827,2024-12-06T02:08:45Z,2024-12-07T07:15:03Z,domenic,topic: navigation|interop,0
 2721339741,true,Upcoming WHATNOT meeting on 2024-12-12,https://github.com/whatwg/html/issues/10825,2024-12-05T20:36:22Z,2024-12-13T00:10:07Z,past,agenda+,0
@@ -92,7 +92,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2660408519,true,Upcoming WHATNOT meeting on 2024-11-21,https://github.com/whatwg/html/issues/10765,2024-11-15T00:17:07Z,2024-11-21T21:50:16Z,past,agenda+,0
 2658737848,true,Support `allow` attributes on `<script>`s,https://github.com/whatwg/html/issues/10764,2024-11-14T12:59:43Z,2024-11-18T09:35:14Z,MartijnCuppens,addition/proposal|needs implementer interest,0
 2658305908,true,Location redirect policy header,https://github.com/whatwg/html/issues/10763,2024-11-14T10:09:28Z,2024-11-14T10:18:25Z,MartijnCuppens,addition/proposal|needs implementer interest,0
-2657353924,false,How to spec user interaction for select,https://github.com/whatwg/html/issues/10762,2024-11-14T02:37:02Z,2025-01-09T23:09:47Z,josepharhar,topic: select,0
+2657353924,false,How to spec user interaction for select,https://github.com/whatwg/html/issues/10762,2024-11-14T02:37:02Z,2025-01-15T21:36:02Z,josepharhar,topic: select,0
 2656341784,false,Clarify/fix how to describe state comparison,https://github.com/whatwg/html/issues/10761,2024-11-13T18:00:31Z,2024-11-15T23:10:59Z,mfreed7,,0
 2649902167,true,Should document.fonts.add delay Window load events?,https://github.com/whatwg/html/issues/10758,2024-11-11T17:06:59Z,2024-11-13T05:48:12Z,Agog-io,topic: document lifecycle,0
 2647214530,false,Missing conversion step in **encoding-parsing a URL**,https://github.com/whatwg/html/issues/10757,2024-11-10T13:01:03Z,2024-11-10T13:01:03Z,yyny,,0
@@ -3039,7 +3039,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 356829495,true,Canvas's measureText shouldn't throw Security,https://github.com/whatwg/html/issues/3991,2018-09-04T14:13:27Z,2018-09-05T09:39:36Z,shhnjk,,0
 356643456,true,Fallback base URL computation for a document with about:srcdoc but not an iframe srcdoc document,https://github.com/whatwg/html/issues/3989,2018-09-04T03:48:41Z,2023-07-13T04:41:39Z,tkent-google,topic: document.open()|topic: javascript: URLs,0
 356601280,false,Ambiguity around synchronicity for media resource selection algorithm,https://github.com/whatwg/html/issues/3988,2018-09-03T21:24:41Z,2021-05-06T13:56:47Z,benwiley4000,topic: media|interop,0
-356045286,false,Async css,https://github.com/whatwg/html/issues/3983,2018-08-31T16:23:49Z,2025-01-14T15:26:06Z,andershol,addition/proposal|topic: link|topic: style,23
+356045286,false,Async css,https://github.com/whatwg/html/issues/3983,2018-08-31T16:23:49Z,2025-01-15T14:26:17Z,andershol,addition/proposal|topic: link|topic: style,23
 355764184,false,`sizes` attribute should directly set the intrinsic width of the image,https://github.com/whatwg/html/issues/3981,2018-08-30T21:39:12Z,2023-09-18T12:07:19Z,tabatkins,normative change|needs implementer interest|topic: img,1
 355757409,false,Allow type attribute on <ul>,https://github.com/whatwg/html/issues/3979,2018-08-30T21:16:06Z,2022-11-15T07:02:07Z,fantasai,addition/proposal|needs implementer interest|document conformance|topic: rendering|interop|impacts documentation,3
 355754004,false,Should we throw SecurityError when document.write() is used cross-origin?,https://github.com/whatwg/html/issues/3978,2018-08-30T21:05:34Z,2018-09-04T15:52:51Z,TimothyGu,topic: document.open(),1
