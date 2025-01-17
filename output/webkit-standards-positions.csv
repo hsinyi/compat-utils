@@ -1,9 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2794089542,false,Fire error event instead of throwing exception for CSP blocked worker constructor,https://github.com/WebKit/standards-positions/issues/451,2025-01-17T00:17:00Z,2025-01-17T00:17:00Z,LiangTheDev,,0
+2793426074,false,Allowing SameSite=None Cookies in First-Party Sandboxed Contexts,https://github.com/WebKit/standards-positions/issues/450,2025-01-16T18:08:21Z,2025-01-16T18:52:38Z,aamuley,,0
 2792359098,false,Navigation API: deferred commit,https://github.com/WebKit/standards-positions/issues/449,2025-01-16T10:43:40Z,2025-01-16T11:05:26Z,noamr,,0
 2788676052,false,Permissions Policy reports for iframes,https://github.com/WebKit/standards-positions/issues/448,2025-01-15T02:07:52Z,2025-01-15T02:07:52Z,shhnjk,,0
 2778219650,false,CSS Overflow Navigation Controls,https://github.com/WebKit/standards-positions/issues/447,2025-01-09T16:04:26Z,2025-01-09T16:04:26Z,flackr,,0
-2776158792,false,WebGPU Subgroups,https://github.com/WebKit/standards-positions/issues/446,2025-01-08T19:28:29Z,2025-01-08T19:28:29Z,alan-baker,,1
-2775287963,false,getContextAttributes for OffscreenCanvasRenderingContext2D,https://github.com/WebKit/standards-positions/issues/445,2025-01-08T12:34:38Z,2025-01-08T12:34:38Z,ccameron-chromium,,0
+2776158792,true,WebGPU Subgroups,https://github.com/WebKit/standards-positions/issues/446,2025-01-08T19:28:29Z,2025-01-16T17:42:07Z,alan-baker,position: support,2
+2775287963,false,getContextAttributes for OffscreenCanvasRenderingContext2D,https://github.com/WebKit/standards-positions/issues/445,2025-01-08T12:34:38Z,2025-01-16T16:36:53Z,ccameron-chromium,topic: graphics|venue: WHATWG HTML Workstream,0
 2773845527,false,CSS Gap Decorations,https://github.com/WebKit/standards-positions/issues/444,2025-01-07T22:10:51Z,2025-01-07T22:13:16Z,kbabbitt,,0
 2773667844,false,On-device Web Speech API,https://github.com/WebKit/standards-positions/issues/443,2025-01-07T20:22:28Z,2025-01-07T20:22:28Z,evanbliu,,0
 2772684869,false,Container Timing API,https://github.com/WebKit/standards-positions/issues/442,2025-01-07T12:07:57Z,2025-01-07T12:09:19Z,keithamus,,0
@@ -25,7 +27,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2651666358,false,Consolidate `paintTime` and `presentationTime` in performance APIs,https://github.com/WebKit/standards-positions/issues/426,2024-11-12T09:58:05Z,2024-11-12T17:20:44Z,noamr,,0
 2638150375,false,Nested pseudo elements styling (::before::marker or ::after::marker),https://github.com/WebKit/standards-positions/issues/425,2024-11-06T13:48:24Z,2024-11-06T13:49:57Z,danielsakhapov,topic: css|venue: W3C CSS WG,0
 2637670696,false,Add `finalResponseHeadersStart` to resource timing,https://github.com/WebKit/standards-positions/issues/424,2024-11-06T10:32:10Z,2024-11-06T21:32:11Z,noamr,topic: performance|topic: web apis|venue: W3C Web Performance WG|from: Google,0
-2635858981,false,scroll-start-target,https://github.com/WebKit/standards-positions/issues/423,2024-11-05T15:56:43Z,2024-12-11T22:03:51Z,DavMila,topic: css|venue: W3C CSS WG|from: Google|topic: scrolling,0
+2635858981,false,scroll-initial-target,https://github.com/WebKit/standards-positions/issues/423,2024-11-05T15:56:43Z,2025-01-16T15:22:06Z,DavMila,topic: css|venue: W3C CSS WG|from: Google|topic: scrolling,0
 2622427931,false,JavaScript Promise Integration (JSPI),https://github.com/WebKit/standards-positions/issues/422,2024-10-29T22:13:26Z,2024-12-18T00:30:28Z,fgmccabe,topic: javascript|topic: web assembly|venue: W3C Web Assembly WG,0
 2621707366,false," CSS highlight pseudo ::search-text",https://github.com/WebKit/standards-positions/issues/421,2024-10-29T16:01:14Z,2024-11-05T14:17:21Z,jihyerish,topic: css|venue: W3C CSS WG|from: Igalia,0
 2609866763,false,Event Timing,https://github.com/WebKit/standards-positions/issues/420,2024-10-23T21:16:54Z,2024-11-19T07:21:08Z,yoavweiss,topic: performance|concerns: duplication|concerns: interoperability|venue: W3C Web Performance WG|topic: events|from: Google,0
@@ -66,7 +68,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2468447197,false,Future browsing context group dependency hint,https://github.com/WebKit/standards-positions/issues/383,2024-08-15T16:34:37Z,2024-08-22T23:43:09Z,kjmcnee,concerns: interoperability|venue: none / personal repository|from: Google|concerns: dependencies,0
 2467681901,true,CSS query container flat tree lookup,https://github.com/WebKit/standards-positions/issues/382,2024-08-15T08:57:25Z,2024-08-21T23:13:15Z,lilles,position: support,0
 2457504446,true,Multiple Import Maps,https://github.com/WebKit/standards-positions/issues/381,2024-08-09T09:26:37Z,2024-11-12T10:58:55Z,yoavweiss,position: support|topic: html|topic: javascript|venue: WHATWG HTML Workstream|from: other,3
-2453983995,false,Call stacks in crash reports from unresponsive web pages,https://github.com/WebKit/standards-positions/issues/380,2024-08-07T17:29:41Z,2024-08-20T12:46:40Z,issackjohn,blocked|concerns: privacy|topic: meaningful user consent|from: Microsoft,0
+2453983995,false,Call stacks in crash reports from unresponsive web pages,https://github.com/WebKit/standards-positions/issues/380,2024-08-07T17:29:41Z,2025-01-16T22:07:06Z,issackjohn,blocked|concerns: privacy|topic: meaningful user consent|from: Microsoft,0
 2449745473,true,CSS background-clip: border-area,https://github.com/WebKit/standards-positions/issues/379,2024-08-06T01:28:19Z,2024-09-06T04:34:24Z,smfr,position: support|topic: css|venue: W3C CSS WG,1
 2440558658,false,CSS reading-flow,https://github.com/WebKit/standards-positions/issues/378,2024-07-31T17:36:44Z,2024-11-02T06:13:16Z,dizhang168,topic: css|venue: W3C CSS WG|from: Google,0
 2435963240,true,CSS Shape function,https://github.com/WebKit/standards-positions/issues/377,2024-07-29T17:29:12Z,2024-09-06T04:34:24Z,smfr,position: support|topic: css,0
