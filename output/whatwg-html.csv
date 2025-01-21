@@ -1,10 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2801230312,false,"Wording of X-Frame-Options as legacy and ""obseleted""",https://github.com/whatwg/html/issues/10936,2025-01-21T09:32:59Z,2025-01-21T11:09:06Z,tunetheweb,,0
+2800651532,false,Details toggle event does not report reason for toggle,https://github.com/whatwg/html/issues/10935,2025-01-21T04:07:37Z,2025-01-21T04:08:13Z,legowerewolf,,0
 2800430480,false,Declarative shadow root adoption,https://github.com/whatwg/html/issues/10933,2025-01-20T23:52:29Z,2025-01-20T23:53:59Z,dead-claudia,addition/proposal|needs implementer interest,0
 2797577015,true,Expand FontFace to expose glyph vector data and unicode shaping.,https://github.com/whatwg/html/issues/10930,2025-01-19T11:34:28Z,2025-01-20T08:27:41Z,CraigglesO,addition/proposal|needs implementer interest,0
 2797380844,false,Reset algorithm doesn't work in form-associated custom elements,https://github.com/whatwg/html/issues/10927,2025-01-19T03:05:16Z,2025-01-19T03:17:21Z,dSalieri,,0
 2793924035,false,Upcoming WHATNOT meeting on 2025-01-23,https://github.com/whatwg/html/issues/10923,2025-01-16T22:38:09Z,2025-01-16T22:38:09Z,past,agenda+,0
 2793508722,false,Clarify differing assertions between show and showModal,https://github.com/whatwg/html/issues/10921,2025-01-16T18:49:29Z,2025-01-17T01:11:37Z,lukewarlow,clarification|topic: dialog,0
-2792831614,false,CloseWatcher constructor is unclear on what `getEnabledState` should be set to.,https://github.com/whatwg/html/issues/10920,2025-01-16T13:47:27Z,2025-01-17T07:29:08Z,keithamus,clarification,1
+2792831614,true,CloseWatcher constructor is unclear on what `getEnabledState` should be set to.,https://github.com/whatwg/html/issues/10920,2025-01-16T13:47:27Z,2025-01-21T02:07:55Z,keithamus,clarification,1
 2792077904,false,Dialog light dismiss PR contains source comment that should have been removed,https://github.com/whatwg/html/issues/10918,2025-01-16T08:49:52Z,2025-01-16T08:49:52Z,annevk,clarification,0
 2786709164,false,Document does not have target element set before script can access it on load event,https://github.com/whatwg/html/issues/10914,2025-01-14T09:53:49Z,2025-01-17T08:21:46Z,shannonbooth,,0
 2784201532,false,Specify the ability to scroll to increase/decrease <input type=number>,https://github.com/whatwg/html/issues/10911,2025-01-13T14:48:18Z,2025-01-14T23:27:45Z,EdgarChen,topic: forms,0
@@ -16,7 +18,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2773169567,false,"Navigate a navigable should probably use ""matches about:srcdoc""",https://github.com/whatwg/html/issues/10900,2025-01-07T15:50:23Z,2025-01-15T08:20:53Z,AtkinsSJ,clarification|topic: navigation|topic: frames/navigables/browsing contexts,0
 2772388413,false,Behavior of updating the checkedness state of the elements in the same radio button group is unclear,https://github.com/whatwg/html/issues/10897,2025-01-07T09:51:12Z,2025-01-15T14:51:06Z,EdgarChen,compat|topic: forms,0
 2772028164,false,Clarification on `unicode-bidi` for `input type text` and `ruby`,https://github.com/whatwg/html/issues/10896,2025-01-07T06:45:48Z,2025-01-16T10:03:52Z,Ahmad-S792,topic: rendering|topic: forms|i18n-tracker,0
-2770935112,false,Wrong Web IDL type for URLs in HTML Standard,https://github.com/whatwg/html/issues/10895,2025-01-06T15:48:26Z,2025-01-15T05:39:34Z,dontcallmedom-bot,,0
+2770935112,true,Wrong Web IDL type for URLs in HTML Standard,https://github.com/whatwg/html/issues/10895,2025-01-06T15:48:26Z,2025-01-21T02:09:01Z,dontcallmedom-bot,,0
 2769452260,false,How should non-absolute <length> values be interpreted when used by CanvasTextDrawingStyles's letterSpacing / wordSpacing?,https://github.com/whatwg/html/issues/10893,2025-01-05T21:13:49Z,2025-01-07T19:15:24Z,weinig,topic: canvas,0
 2768021957,false,Default CORS mode based on `as` type for link preloads,https://github.com/whatwg/html/issues/10891,2025-01-03T18:50:19Z,2025-01-16T15:53:10Z,pmeenan,topic: fetch,2
 2767865283,false,`HTMLElement.togglePopover` can't close the popover when applied on `<td>`,https://github.com/whatwg/html/issues/10890,2025-01-03T16:39:16Z,2025-01-14T00:23:21Z,LcsGa,topic: popover,0
@@ -648,7 +650,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1903392884,false,Can showPicker() focus a control?,https://github.com/whatwg/html/issues/9757,2023-09-19T16:59:56Z,2024-07-31T07:33:32Z,annevk,topic: forms|topic: focus,2
 1899693712,true,Modification GIF Folder Preview Script,https://github.com/whatwg/html/issues/9749,2023-09-17T07:50:44Z,2023-09-17T08:10:35Z,deiraf,,0
 1899506717,true,"Missing links in ""Kinds of content"" list",https://github.com/whatwg/html/issues/9748,2023-09-16T17:14:26Z,2023-09-23T11:44:17Z,rshadr,editorial,0
-1898699206,false,`<details>` element does not fire a `beforetoggle` event.,https://github.com/whatwg/html/issues/9743,2023-09-15T15:53:21Z,2023-10-01T13:56:00Z,keithamus,addition/proposal|topic: events,2
+1898699206,false,`<details>` element does not fire a `beforetoggle` event.,https://github.com/whatwg/html/issues/9743,2023-09-15T15:53:21Z,2023-10-01T13:56:00Z,keithamus,addition/proposal|topic: events,4
 1898282732,false,Make the currentTime setter clamp to duration,https://github.com/whatwg/html/issues/9742,2023-09-15T12:01:03Z,2024-08-26T06:41:18Z,foolip,topic: media|interop,0
 1897463521,false,<link rel=preconnect> doesn't support the media attribute,https://github.com/whatwg/html/issues/9737,2023-09-14T23:06:06Z,2023-10-01T13:57:11Z,zcorpan,topic: link|topic: resource hints (inc. preload),0
 1896732258,false,Add mechanism for a button-like element to behave like an `<area>`,https://github.com/whatwg/html/issues/9736,2023-09-14T14:44:51Z,2023-10-01T13:58:14Z,lukewarlow,addition/proposal|needs implementer interest,1
@@ -1731,7 +1733,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 923084614,true,Extend `atob` and `btoa` to support non-ASCII strings,https://github.com/whatwg/html/issues/6779,2021-06-16T20:46:05Z,2021-07-22T22:15:36Z,ethanresnick,addition/proposal|needs implementer interest,1
 922214329,true,Setting document.domain should not work for any public suffix,https://github.com/whatwg/html/issues/6775,2021-06-16T07:36:40Z,2021-06-16T17:09:25Z,thorlacius,,0
 921850934,true,What should history.back() do when sync navigations are involved?,https://github.com/whatwg/html/issues/6773,2021-06-15T22:22:03Z,2022-10-31T05:07:06Z,domenic,topic: history|interop,0
-920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2025-01-17T01:31:37Z,haoqunjiang,topic: script,43
+920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2025-01-17T01:31:37Z,haoqunjiang,topic: script,44
 918518896,true,Web compat: don't run async scripts between adjacent sync <script>s,https://github.com/whatwg/html/issues/6761,2021-06-11T09:48:42Z,2024-06-10T19:07:31Z,zcorpan,compat|topic: parser|topic: script,0
 917707970,false,How should timers account for system sleep/suspend?,https://github.com/whatwg/html/issues/6759,2021-06-10T18:46:38Z,2024-01-02T18:59:04Z,shaseley,,0
 917578796,false,Additional definitions exports for Pointer Events,https://github.com/whatwg/html/issues/6758,2021-06-10T17:04:44Z,2021-08-04T17:33:43Z,plehegar,anchor permanence|editorial,0
@@ -2841,7 +2843,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 420085960,false,window.opener can be cleared,https://github.com/whatwg/html/issues/4429,2019-03-12T16:32:30Z,2019-03-28T21:08:56Z,annevk,topic: frames/navigables/browsing contexts|needs concrete proposal,0
 420082063,true,Need a concept for closed browsing contexts for bfcache,https://github.com/whatwg/html/issues/4428,2019-03-12T16:25:01Z,2022-10-31T05:07:00Z,annevk,topic: history|topic: frames/navigables/browsing contexts,0
 419901151,true,Inconsistently javascript: URL in href attribute of an a element,https://github.com/whatwg/html/issues/4427,2019-03-12T10:10:45Z,2019-03-20T17:48:50Z,johndai1984,interop|topic: javascript: URLs,0
-418544629,false,Responsive images causes performance issues on high-resolution devices,https://github.com/whatwg/html/issues/4421,2019-03-07T22:31:18Z,2024-10-02T10:06:53Z,mor10,topic: img,25
+418544629,false,Responsive images causes performance issues on high-resolution devices,https://github.com/whatwg/html/issues/4421,2019-03-07T22:31:18Z,2024-10-02T10:06:53Z,mor10,topic: img,26
 418484345,true,Extend WebSocket interface to access and use certificates,https://github.com/whatwg/html/issues/4420,2019-03-07T19:51:24Z,2021-07-22T10:44:14Z,d3x0r,,0
 418475982,true,Top-level await integration and multiple script graphs,https://github.com/whatwg/html/issues/4419,2019-03-07T19:30:30Z,2019-08-22T19:26:19Z,domenic,topic: script|integration,0
 418402748,true,"Incorrect use of ""platform object""",https://github.com/whatwg/html/issues/4418,2019-03-07T16:32:54Z,2023-02-24T15:24:42Z,annevk,,0
@@ -3334,7 +3336,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 300067355,true,"tabindex, bugs in description, REALITY of tabindex in ALL browsers",https://github.com/whatwg/html/issues/3505,2018-02-25T22:21:14Z,2018-02-26T08:03:57Z,Nadya678,topic: focus,0
 299953246,true,"grammar glitch in ""digital fingerprint"" paragraph",https://github.com/whatwg/html/issues/3503,2018-02-24T16:33:10Z,2018-02-26T01:24:27Z,ediosyncratic,clarification|good first issue,0
 299799761,false,Clarify that <img alt> is same as <img alt=''>,https://github.com/whatwg/html/issues/3502,2018-02-23T18:03:33Z,2018-03-06T08:57:43Z,js-choi,clarification,0
-299798242,true,:read-only and :read-write selectors: Consistency and cross-UA behavior,https://github.com/whatwg/html/issues/3501,2018-02-23T17:58:08Z,2021-06-03T16:50:44Z,js-choi,normative change|compat|topic: forms|interop,0
+299798242,true,:read-only and :read-write selectors: Consistency and cross-UA behavior,https://github.com/whatwg/html/issues/3501,2018-02-23T17:58:08Z,2021-06-03T16:50:44Z,js-choi,normative change|compat|topic: forms|interop,1
 299768627,true,:heading() CSS pseudo-class: Level ranges,https://github.com/whatwg/html/issues/3500,2018-02-23T16:25:26Z,2022-12-12T09:20:12Z,js-choi,addition/proposal|needs implementer interest|topic: selectors,9
 299443198,true,Editorial: make implicit autofocus algorithm flag explicit,https://github.com/whatwg/html/issues/3498,2018-02-22T17:35:34Z,2020-03-25T21:36:10Z,annevk,clarification|topic: forms,0
 299372660,true,Sync navigation to a fragment identifier is probably not compatible with out-of-process iframes,https://github.com/whatwg/html/issues/3497,2018-02-22T14:24:35Z,2022-10-31T05:06:58Z,bzbarsky,normative change|topic: navigation|interop|topic: agent,0
@@ -3791,7 +3793,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 227925394,true,[Parser] Make `/` in unquoted attribute value a parse error.,https://github.com/whatwg/html/issues/2665,2017-05-11T09:08:38Z,2017-06-11T19:57:45Z,inikulin,document conformance|topic: parser,3
 227820593,false,Add support for OffscreenCanvas to render into a WebGL texture,https://github.com/whatwg/html/issues/2663,2017-05-10T21:49:47Z,2018-09-18T20:41:56Z,fserb,normative change|topic: canvas,1
 227782730,true,Canvas origin-clean resetting information disagrees with browser behaviour,https://github.com/whatwg/html/issues/2660,2017-05-10T19:17:59Z,2017-10-03T09:23:28Z,jdm,topic: canvas|topic: origin,0
-227735926,false,Add a low latency mode for OffscreenCanvas,https://github.com/whatwg/html/issues/2659,2017-05-10T16:20:18Z,2025-01-20T18:58:40Z,junov,normative change|topic: canvas,9
+227735926,true,Add a low latency mode for OffscreenCanvas,https://github.com/whatwg/html/issues/2659,2017-05-10T16:20:18Z,2025-01-21T01:05:09Z,junov,normative change|topic: canvas,9
 227678562,true,WindowProxy updated at the wrong point in time,https://github.com/whatwg/html/issues/2657,2017-05-10T13:23:27Z,2017-05-18T04:20:39Z,annevk,topic: navigation,0
 227675956,true,Does any browser still implement namespace-based dispatching?,https://github.com/whatwg/html/issues/2656,2017-05-10T13:14:42Z,2019-02-26T21:54:35Z,annevk,topic: navigation,0
 227666019,false,Restrict `<base target>` from including newlines.,https://github.com/whatwg/html/issues/2655,2017-05-10T12:40:40Z,2022-03-04T22:44:19Z,mikewest,normative change|needs implementer interest|topic: navigation,0
