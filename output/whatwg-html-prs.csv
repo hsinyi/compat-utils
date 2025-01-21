@@ -11,7 +11,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2784321232,true,Editorial: Fix some typos,https://github.com/whatwg/html/pull/10912,2025-01-13T15:22:33Z,2025-01-13T20:20:20Z,jmdyck,,0
 2783823554,false,"Notify WebDriver BiDi about ""committed"" navigations",https://github.com/whatwg/html/pull/10910,2025-01-13T12:26:41Z,2025-01-16T10:24:31Z,OrKoN,,0
 2783793235,true,Editorial: consistently use navigables for integration with WebDriver BiDi,https://github.com/whatwg/html/pull/10909,2025-01-13T12:12:32Z,2025-01-15T09:03:38Z,OrKoN,topic: navigation|integration,0
-2775316934,false,Fix accidental settings differences between CanvasRenderingContext2D and OffscreenCanvasRenderingContext2D,https://github.com/whatwg/html/pull/10904,2025-01-08T12:49:16Z,2025-01-17T07:32:01Z,ccameron-chromium,topic: canvas,0
+2775316934,true,Fix accidental settings differences between CanvasRenderingContext2D and OffscreenCanvasRenderingContext2D,https://github.com/whatwg/html/pull/10904,2025-01-08T12:49:16Z,2025-01-20T15:09:20Z,ccameron-chromium,topic: canvas,0
 2775079455,false,Reserve/free quota for `fetchLater`,https://github.com/whatwg/html/pull/10903,2025-01-08T10:54:18Z,2025-01-08T10:56:18Z,noamr,,0
 2773050358,true,Editorial: Correct userNavigationInvolvement -> userInvolvement,https://github.com/whatwg/html/pull/10899,2025-01-07T14:58:09Z,2025-01-07T16:10:37Z,AtkinsSJ,,0
 2772403339,false,Add `NavigateEvent.sourceElement`,https://github.com/whatwg/html/pull/10898,2025-01-07T09:58:26Z,2025-01-15T11:03:23Z,noamr,addition/proposal|topic: navigation,0
@@ -49,7 +49,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2663612178,true,Fix corner case invoker issue with popover nested inside invoker,https://github.com/whatwg/html/pull/10770,2024-11-16T01:54:47Z,2024-11-22T16:06:09Z,mfreed7,normative change|topic: popover,0
 2661558826,true,LICENSE - Reformatted,https://github.com/whatwg/html/pull/10767,2024-11-15T10:39:49Z,2024-11-17T09:47:15Z,KomatiBhavaniSankar,invalid,0
 2655518578,true,Main,https://github.com/whatwg/html/pull/10760,2024-11-13T13:24:50Z,2024-11-14T02:14:45Z,venelouis,invalid,0
-2652666474,false,Add initial scroll position hook to HTML spec,https://github.com/whatwg/html/pull/10759,2024-11-12T16:19:26Z,2025-01-17T08:42:07Z,DavMila,addition/proposal|topic: navigation|integration,0
+2652666474,false,Add initial scroll position hook to HTML spec,https://github.com/whatwg/html/pull/10759,2024-11-12T16:19:26Z,2025-01-20T15:27:05Z,DavMila,addition/proposal|topic: navigation|integration,0
 2645525301,false,Disambiguate attribute declarations from content attributes,https://github.com/whatwg/html/pull/10756,2024-11-09T02:52:46Z,2024-11-18T15:00:19Z,sideshowbarker,clarification,0
 2644117823,true,Correct <body> methods example - onload deleted,https://github.com/whatwg/html/pull/10754,2024-11-08T13:53:26Z,2024-11-08T14:48:06Z,sedlukha,,0
 2643944436,true,Correct <img>.decode()'s in parallel usage,https://github.com/whatwg/html/pull/10753,2024-11-08T12:43:38Z,2024-11-08T13:34:02Z,annevk,,0
@@ -76,7 +76,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2569450262,true,Change URL parsing sequence for window open steps,https://github.com/whatwg/html/pull/10683,2024-10-07T06:26:30Z,2024-11-15T02:19:01Z,domenic,normative change|topic: navigation,0
 2569421897,true,Fix window.close() always doing nothing,https://github.com/whatwg/html/pull/10682,2024-10-07T06:09:25Z,2024-10-09T01:07:07Z,domenic,,2
 2565189586,true,Apply globalAlpha on the canvas filter source,https://github.com/whatwg/html/pull/10674,2024-10-04T00:17:59Z,2024-10-09T01:51:20Z,graveljp,topic: canvas,0
-2564594406,false,Feature Policy: `focus-without-user-activation`,https://github.com/whatwg/html/pull/10672,2024-10-03T17:26:31Z,2025-01-17T18:06:37Z,siliu1,addition/proposal|topic: focus,0
+2564594406,false,Feature Policy: `focus-without-user-activation`,https://github.com/whatwg/html/pull/10672,2024-10-03T17:26:31Z,2025-01-20T15:17:23Z,siliu1,addition/proposal|topic: focus,0
 2564470098,false,Add UA stylesheet for <select> base appearance,https://github.com/whatwg/html/pull/10670,2024-10-03T16:28:25Z,2025-01-16T17:55:59Z,josepharhar,addition/proposal|topic: rendering|topic: forms|topic: select,0
 2562022266,true,WIP: Add custom element reactions,https://github.com/whatwg/html/pull/10665,2024-10-02T15:33:31Z,2024-10-02T16:07:51Z,noamr,,0
 2557364079,true,Fix small CSS-related user interface issue on spec page (Issue #10618),https://github.com/whatwg/html/pull/10662,2024-09-30T18:22:11Z,2024-10-01T01:17:42Z,qu1chu5,,0

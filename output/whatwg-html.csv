@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2800430480,false,Declarative shadow root adoption,https://github.com/whatwg/html/issues/10933,2025-01-20T23:52:29Z,2025-01-20T23:53:59Z,dead-claudia,addition/proposal|needs implementer interest,0
 2797577015,true,Expand FontFace to expose glyph vector data and unicode shaping.,https://github.com/whatwg/html/issues/10930,2025-01-19T11:34:28Z,2025-01-20T08:27:41Z,CraigglesO,addition/proposal|needs implementer interest,0
 2797380844,false,Reset algorithm doesn't work in form-associated custom elements,https://github.com/whatwg/html/issues/10927,2025-01-19T03:05:16Z,2025-01-19T03:17:21Z,dSalieri,,0
 2793924035,false,Upcoming WHATNOT meeting on 2025-01-23,https://github.com/whatwg/html/issues/10923,2025-01-16T22:38:09Z,2025-01-16T22:38:09Z,past,agenda+,0
@@ -28,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2751142397,false,Meeting 14 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10877,2024-12-19T18:21:56Z,2025-01-09T16:42:00Z,josepharhar,agenda+,0
 2750910456,false,"Selection in form control elements, user-select, and customizable select",https://github.com/whatwg/html/issues/10876,2024-12-19T16:46:00Z,2025-01-16T15:17:02Z,josepharhar,topic: select,0
 2750608063,false,Are all uses of the `title` attribute discouraged?,https://github.com/whatwg/html/issues/10875,2024-12-19T14:59:24Z,2025-01-16T10:40:43Z,ddbeck,,0
-2748029842,false,OffscreenCanvasRenderingContext2D does not have getContextAttributes,https://github.com/whatwg/html/issues/10872,2024-12-18T14:51:48Z,2025-01-13T10:36:36Z,ccameron-chromium,topic: canvas,1
+2748029842,true,OffscreenCanvasRenderingContext2D does not have getContextAttributes,https://github.com/whatwg/html/issues/10872,2024-12-18T14:51:48Z,2025-01-20T18:57:25Z,ccameron-chromium,topic: canvas,1
 2747889237,true,"Undeprecate <plaintext>, it is needed for portable text files",https://github.com/whatwg/html/issues/10871,2024-12-18T13:56:06Z,2024-12-21T13:37:17Z,safinaskar,i18n-tracker,0
 2747782501,false,Parser: Proposal to introduce invariant for order of active formatting elements that are also in stack of open elements,https://github.com/whatwg/html/issues/10870,2024-12-18T13:12:11Z,2024-12-18T15:48:24Z,kspangsege,topic: parser,0
 2743773640,false,Cookie partitioning on localhost is underspecified,https://github.com/whatwg/html/issues/10867,2024-12-17T02:17:17Z,2024-12-17T08:18:15Z,Sora2455,topic: cookie,0
@@ -3293,7 +3294,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-06-14T18:51:29Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,29
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2024-07-18T12:14:24Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,187
+305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2024-07-18T12:14:24Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,188
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
@@ -3715,7 +3716,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 239026363,true,Output caniuse boxes in the dev edition as well,https://github.com/whatwg/html/issues/2794,2017-06-28T01:17:17Z,2017-08-19T13:19:50Z,domenic,dev edition,0
 239022536,false,Allow expanding to the full table of contents in the dev edition,https://github.com/whatwg/html/issues/2793,2017-06-28T00:47:56Z,2024-02-10T21:58:14Z,domenic,spec tooling|dev edition,0
 238786200,true,take port into account for same-origin domain check,https://github.com/whatwg/html/issues/2792,2017-06-27T09:15:55Z,2018-08-07T16:14:03Z,jeisinger,normative change|needs implementer interest|security/privacy|needs compat analysis|topic: origin,0
-238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2024-11-14T22:54:36Z,TakayoshiKochi,addition/proposal|needs implementer interest,141
+238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2025-01-21T00:15:05Z,TakayoshiKochi,addition/proposal|needs implementer interest,141
 238161134,true,typo?,https://github.com/whatwg/html/issues/2788,2017-06-23T14:35:44Z,2017-06-26T19:34:34Z,momdo,,0
 238026392,false,"""its associated CSS layout box""",https://github.com/whatwg/html/issues/2786,2017-06-23T02:47:39Z,2017-06-30T18:14:01Z,cvrebert,clarification,0
 237922790,false,Add inline annotations of the bibliography references,https://github.com/whatwg/html/issues/2782,2017-06-22T17:47:29Z,2024-02-10T21:58:35Z,domenic,spec tooling|dev edition,1
@@ -3790,7 +3791,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 227925394,true,[Parser] Make `/` in unquoted attribute value a parse error.,https://github.com/whatwg/html/issues/2665,2017-05-11T09:08:38Z,2017-06-11T19:57:45Z,inikulin,document conformance|topic: parser,3
 227820593,false,Add support for OffscreenCanvas to render into a WebGL texture,https://github.com/whatwg/html/issues/2663,2017-05-10T21:49:47Z,2018-09-18T20:41:56Z,fserb,normative change|topic: canvas,1
 227782730,true,Canvas origin-clean resetting information disagrees with browser behaviour,https://github.com/whatwg/html/issues/2660,2017-05-10T19:17:59Z,2017-10-03T09:23:28Z,jdm,topic: canvas|topic: origin,0
-227735926,false,Add a low latency mode for OffscreenCanvas,https://github.com/whatwg/html/issues/2659,2017-05-10T16:20:18Z,2018-08-06T02:45:02Z,junov,normative change|topic: canvas,9
+227735926,false,Add a low latency mode for OffscreenCanvas,https://github.com/whatwg/html/issues/2659,2017-05-10T16:20:18Z,2025-01-20T18:58:40Z,junov,normative change|topic: canvas,9
 227678562,true,WindowProxy updated at the wrong point in time,https://github.com/whatwg/html/issues/2657,2017-05-10T13:23:27Z,2017-05-18T04:20:39Z,annevk,topic: navigation,0
 227675956,true,Does any browser still implement namespace-based dispatching?,https://github.com/whatwg/html/issues/2656,2017-05-10T13:14:42Z,2019-02-26T21:54:35Z,annevk,topic: navigation,0
 227666019,false,Restrict `<base target>` from including newlines.,https://github.com/whatwg/html/issues/2655,2017-05-10T12:40:40Z,2022-03-04T22:44:19Z,mikewest,normative change|needs implementer interest|topic: navigation,0
