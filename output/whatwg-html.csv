@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2805379016,false,An event handler for <link rel=preload as=json>?,https://github.com/whatwg/html/issues/10940,2025-01-22T21:27:51Z,2025-01-22T22:07:33Z,allstarschh,,0
+2805379016,false,An event handler for <link rel=preload as=json>?,https://github.com/whatwg/html/issues/10940,2025-01-22T21:27:51Z,2025-01-23T08:08:41Z,allstarschh,topic: resource hints (inc. preload),0
 2802689110,true,"Add a new `<input type=""duration"" ... >`",https://github.com/whatwg/html/issues/10937,2025-01-21T19:55:29Z,2025-01-22T07:18:30Z,TheOneTheOnlyJJ,addition/proposal|needs implementer interest,0
 2801230312,false,"Wording of X-Frame-Options as legacy and ""obseleted""",https://github.com/whatwg/html/issues/10936,2025-01-21T09:32:59Z,2025-01-21T12:33:09Z,tunetheweb,clarification|document conformance,0
 2800651532,false,Details toggle event does not report reason for toggle,https://github.com/whatwg/html/issues/10935,2025-01-21T04:07:37Z,2025-01-21T04:08:13Z,legowerewolf,,0
@@ -324,7 +324,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2324176691,false,HTML Video and its Source Elements Should Support SRCSET and SIZES,https://github.com/whatwg/html/issues/10379,2024-05-29T20:16:56Z,2024-08-14T12:07:18Z,scottjehl,addition/proposal|needs implementer interest|topic: media,6
 2324127724,false,HTML Video: Allow a child Picture Element to Control the Video Poster Image,https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2024-05-30T14:47:25Z,scottjehl,,16
 2324097406,false,"Specify That Responsive Video Elements Re-Evaluate Sources on Media Change, Like Picture",https://github.com/whatwg/html/issues/10377,2024-05-29T19:33:05Z,2024-05-29T19:33:05Z,scottjehl,,3
-2324056660,false,Video loading=lazy attribute support,https://github.com/whatwg/html/issues/10376,2024-05-29T19:09:50Z,2025-01-22T19:30:07Z,scottjehl,addition/proposal|needs implementer interest,14
+2324056660,false,Video loading=lazy attribute support,https://github.com/whatwg/html/issues/10376,2024-05-29T19:09:50Z,2025-01-23T10:14:12Z,scottjehl,addition/proposal|needs implementer interest|topic: media,14
 2322953911,true,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-10-08T12:22:36Z,yoavweiss,addition/proposal|needs implementer interest|topic: cross-origin-opener-policy,0
 2322574083,true,a element defines content model as only Transparent,https://github.com/whatwg/html/issues/10372,2024-05-29T07:26:47Z,2024-05-29T09:29:39Z,andrewnicols,,0
 2320740955,false,Fetch priority hint for dynamic modules,https://github.com/whatwg/html/issues/10371,2024-05-28T10:48:17Z,2024-05-28T10:48:17Z,yoavweiss,addition/proposal|needs implementer interest,0
@@ -1028,7 +1028,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1524286757,false,There's no way to declare character set (not encoding),https://github.com/whatwg/html/issues/8696,2023-01-08T02:37:06Z,2023-01-08T02:37:06Z,keiyakins,,0
 1523666956,false,Proposal: Elements for a more semantic web,https://github.com/whatwg/html/issues/8693,2023-01-07T09:54:18Z,2023-10-03T09:21:59Z,skwee357,,2
 1521956909,false,12.2.1 The Storage interface says storage[key] returns null but actually returns undefined.,https://github.com/whatwg/html/issues/8684,2023-01-06T05:11:19Z,2023-01-07T00:18:48Z,babatakao,,0
-1521326222,false,Support for rel attribute on iframe,https://github.com/whatwg/html/issues/8682,2023-01-05T20:04:55Z,2023-02-03T10:21:17Z,0xdevwrite,,1
+1521326222,false,Support for rel attribute on iframe,https://github.com/whatwg/html/issues/8682,2023-01-05T20:04:55Z,2025-01-23T10:03:51Z,0xdevwrite,addition/proposal|needs implementer interest|topic: frames/navigables/browsing contexts,1
 1521187504,false,Should the `dialog` element be considered interactive content?,https://github.com/whatwg/html/issues/8680,2023-01-05T18:24:04Z,2023-01-05T20:10:25Z,gnpivo,,0
 1516842138,false,Support empty URL in registerProtocolHandler,https://github.com/whatwg/html/issues/8665,2023-01-03T01:36:44Z,2023-02-24T15:11:21Z,SoniEx2,addition/proposal|needs implementer interest|topic: custom protocols,0
 1516056670,false,"Proposal: a concise syntax offering a more general, less brittle alternative to Markdown and its variants",https://github.com/whatwg/html/issues/8663,2023-01-02T06:00:08Z,2023-01-02T08:43:40Z,bford,,1
@@ -1134,7 +1134,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1408292081,true,Upcoming HTML standard issue triage meeting on 10/27/2022,https://github.com/whatwg/html/issues/8385,2022-10-13T19:05:26Z,2022-10-27T16:57:55Z,past,agenda+,0
 1407210379,true,"Navigation requests destination always set to ""document""",https://github.com/whatwg/html/issues/8383,2022-10-13T06:16:54Z,2022-10-13T07:13:32Z,antosart,topic: navigation,0
 1403944971,true,User activation: what should happen if there is no browsing context?,https://github.com/whatwg/html/issues/8378,2022-10-11T03:26:37Z,2023-04-12T05:47:16Z,marcoscaceres,topic: user activation,0
-1403388271,false,request: need a way to prevent mobile browser scrolling when focusing an input,https://github.com/whatwg/html/issues/8375,2022-10-10T15:50:46Z,2022-10-11T02:23:54Z,liamdebeasi,addition/proposal|needs implementer interest,16
+1403388271,false,request: need a way to prevent mobile browser scrolling when focusing an input,https://github.com/whatwg/html/issues/8375,2022-10-10T15:50:46Z,2022-10-11T02:23:54Z,liamdebeasi,addition/proposal|needs implementer interest,17
 1403380623,true,"Possible error in the text about <input type=""range"">",https://github.com/whatwg/html/issues/8374,2022-10-10T15:45:07Z,2022-10-11T04:46:20Z,BlueInGreen68,,0
 1403050872,true,"rel values ""prev"" and ""next"" not allowed in body?",https://github.com/whatwg/html/issues/8372,2022-10-10T11:53:23Z,2022-10-10T13:06:37Z,brennanyoung,document conformance|topic: hyperlink,0
 1402147315,true,"<pre>: line number ",https://github.com/whatwg/html/issues/8369,2022-10-09T04:31:39Z,2023-09-15T06:46:27Z,esdnm,addition/proposal|needs implementer interest,1
@@ -1778,7 +1778,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 874600526,false,legend seems to be recognised/used even when not *first* child,https://github.com/whatwg/html/issues/6645,2021-05-03T13:59:41Z,2021-12-03T08:11:21Z,patrickhlauke,clarification,1
 874511738,true,`id` were mis-typed as `is`,https://github.com/whatwg/html/issues/6644,2021-05-03T12:03:10Z,2021-05-03T13:33:05Z,ianthedev,,0
 872435429,true,Cross-Origin-Embedder-Policy: credentialless,https://github.com/whatwg/html/issues/6637,2021-04-30T12:33:31Z,2021-11-02T12:55:38Z,ArthurSonzogni,topic: cross-origin-embedder-policy,0
-872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2024-05-29T19:10:59Z,asuh,addition/proposal|topic: media,17
+872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2025-01-23T11:15:15Z,asuh,addition/proposal|topic: media,17
 872059164,true,`:active` pseudo-class specification doesn't account for children/labels of disabled form elements,https://github.com/whatwg/html/issues/6635,2021-04-30T02:11:14Z,2022-02-10T19:06:49Z,alystair,topic: rendering|topic: forms,0
 870905892,false,Allow <source> to use <img>'s sizes data as a fallback,https://github.com/whatwg/html/issues/6633,2021-04-29T11:24:34Z,2022-02-04T15:46:29Z,jakearchibald,addition/proposal|topic: img,34
 870188337,true,import.meta.url always uses percent-encodings,https://github.com/whatwg/html/issues/6630,2021-04-28T17:34:16Z,2023-02-24T16:09:38Z,guybedford,,0
@@ -2799,7 +2799,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 427198546,false,"Treat preload=""none"" as preload=""metadata"" when load() is called",https://github.com/whatwg/html/issues/4492,2019-03-29T22:17:36Z,2019-03-29T22:17:36Z,domenic,compat|topic: media|needs tests|interop,0
 427196368,false,MSE integration and track removal,https://github.com/whatwg/html/issues/4491,2019-03-29T22:08:20Z,2019-03-29T22:08:20Z,domenic,topic: media,0
 427195396,true,drawImage() tainting may not be interoperable,https://github.com/whatwg/html/issues/4490,2019-03-29T22:04:39Z,2019-04-05T13:52:28Z,domenic,topic: canvas|security/privacy|topic: multiple globals|needs tests,0
-427194257,false,Unclear whether document unloading should abort fetches,https://github.com/whatwg/html/issues/4489,2019-03-29T22:00:32Z,2021-01-28T13:57:41Z,domenic,compat|topic: navigation|topic: fetch|interop|topic: document lifecycle,0
+427194257,false,Unclear whether document unloading should abort fetches,https://github.com/whatwg/html/issues/4489,2019-03-29T22:00:32Z,2025-01-23T07:12:01Z,domenic,compat|topic: navigation|topic: fetch|interop|topic: document lifecycle,0
 427192152,false,popstate transitioning between documents may not be interoperable,https://github.com/whatwg/html/issues/4488,2019-03-29T21:53:11Z,2019-04-05T12:09:12Z,domenic,topic: history|interop|topic: document lifecycle,0
 427188591,false," Definition of ""ended playback"" prevents looping when loop attribute is added after playback has ended",https://github.com/whatwg/html/issues/4487,2019-03-29T21:40:40Z,2024-07-04T15:00:35Z,domenic,topic: media,0
 427186856,false,"The ""rules for updating the text track rendering"" are not run when mode changes from hidden to showing",https://github.com/whatwg/html/issues/4486,2019-03-29T21:34:24Z,2019-04-26T00:28:52Z,domenic,good first issue|topic: media,0
@@ -3050,7 +3050,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 356829495,true,Canvas's measureText shouldn't throw Security,https://github.com/whatwg/html/issues/3991,2018-09-04T14:13:27Z,2018-09-05T09:39:36Z,shhnjk,,0
 356643456,true,Fallback base URL computation for a document with about:srcdoc but not an iframe srcdoc document,https://github.com/whatwg/html/issues/3989,2018-09-04T03:48:41Z,2023-07-13T04:41:39Z,tkent-google,topic: document.open()|topic: javascript: URLs,0
 356601280,false,Ambiguity around synchronicity for media resource selection algorithm,https://github.com/whatwg/html/issues/3988,2018-09-03T21:24:41Z,2021-05-06T13:56:47Z,benwiley4000,topic: media|interop,0
-356045286,false,Async css,https://github.com/whatwg/html/issues/3983,2018-08-31T16:23:49Z,2025-01-18T13:20:25Z,andershol,addition/proposal|topic: link|topic: style|agenda+,26
+356045286,false,Async css,https://github.com/whatwg/html/issues/3983,2018-08-31T16:23:49Z,2025-01-23T09:56:18Z,andershol,addition/proposal|topic: link|topic: style|agenda+|needs incubation,26
 355764184,false,`sizes` attribute should directly set the intrinsic width of the image,https://github.com/whatwg/html/issues/3981,2018-08-30T21:39:12Z,2023-09-18T12:07:19Z,tabatkins,normative change|needs implementer interest|topic: img,1
 355757409,false,Allow type attribute on <ul>,https://github.com/whatwg/html/issues/3979,2018-08-30T21:16:06Z,2022-11-15T07:02:07Z,fantasai,addition/proposal|needs implementer interest|document conformance|topic: rendering|interop|impacts documentation,3
 355754004,false,Should we throw SecurityError when document.write() is used cross-origin?,https://github.com/whatwg/html/issues/3978,2018-08-30T21:05:34Z,2018-09-04T15:52:51Z,TimothyGu,topic: document.open(),1
@@ -3480,7 +3480,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 275173257,false,Formalize content attribute reflection,https://github.com/whatwg/html/issues/3238,2017-11-19T16:49:01Z,2023-03-03T19:02:18Z,Zirro,clarification|topic: reflect,0
 274842593,true,Consider blocking downloads from a sandboxed `<iframe>`.,https://github.com/whatwg/html/issues/3236,2017-11-17T11:57:52Z,2020-05-28T15:18:13Z,mikewest,security/privacy|topic: user activation,7
 274699424,false,Table of contents issue. Orphaned elements.,https://github.com/whatwg/html/issues/3234,2017-11-16T23:23:14Z,2024-02-10T21:56:49Z,JohnLukeBentley,dev edition,0
-274547731,true,"Should <input type=date> have a ""input activation behavior"" defined? ",https://github.com/whatwg/html/issues/3232,2017-11-16T15:04:39Z,2021-12-08T17:04:52Z,stephenmcgruer,topic: forms,0
+274547731,true,"Should <input type=date> have a ""input activation behavior"" defined? ",https://github.com/whatwg/html/issues/3232,2017-11-16T15:04:39Z,2025-01-23T07:51:52Z,stephenmcgruer,topic: forms,0
 274201914,false,"Should ""script-src 'none'"" CSP in HTTP headers count as scripting being disabled?",https://github.com/whatwg/html/issues/3230,2017-11-15T15:41:20Z,2024-01-05T15:08:15Z,bzbarsky,topic: script,0
 273882856,false,text/plain form submission seems broken encoding-wise,https://github.com/whatwg/html/issues/3228,2017-11-14T17:45:39Z,2020-05-07T10:52:08Z,annevk,topic: forms,0
 273662558,false,Should we clear image data or not after the image is adopted into a data document.,https://github.com/whatwg/html/issues/3226,2017-11-14T04:16:29Z,2017-12-04T13:51:59Z,allstarschh,topic: img,0
