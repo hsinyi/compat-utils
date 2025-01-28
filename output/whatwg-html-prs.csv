@@ -1,6 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2812761134,false,"Add CanvasColorType, with unorm8 (the default) and float16 support",https://github.com/whatwg/html/pull/10951,2025-01-27T11:28:40Z,2025-01-27T11:41:02Z,ccameron-chromium,,0
-2812128271,false,Editorial: fix variable name typo in inner navigate event firing,https://github.com/whatwg/html/pull/10950,2025-01-27T05:41:27Z,2025-01-27T05:42:55Z,domenic,,0
+2813958440,false,Add attribute changed steps to dialog element,https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-01-27T20:31:01Z,lukewarlow,,0
+2812761134,false,"Add CanvasColorType, with unorm8 (the default) and float16 support",https://github.com/whatwg/html/pull/10951,2025-01-27T11:28:40Z,2025-01-27T13:14:33Z,ccameron-chromium,addition/proposal|topic: canvas,0
+2812128271,false,Editorial: fix variable name typo in inner navigate event firing,https://github.com/whatwg/html/pull/10950,2025-01-27T05:41:27Z,2025-01-27T12:59:22Z,domenic,,0
 2812054978,false,Fix CSP navigation request blocking,https://github.com/whatwg/html/pull/10949,2025-01-27T04:27:06Z,2025-01-27T08:58:09Z,domenic,topic: navigation,0
 2811245836,true,Update README.md,https://github.com/whatwg/html/pull/10947,2025-01-26T00:41:21Z,2025-01-26T04:56:39Z,sudipta-khanra,invalid,0
 2804475806,true,Add missing assertion to dialog.show(),https://github.com/whatwg/html/pull/10939,2025-01-22T14:01:01Z,2025-01-23T00:37:35Z,lukewarlow,,0
@@ -16,12 +17,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2787952111,false,Allowing SameSite=None Cookies in First-Party Sandboxed Contexts,https://github.com/whatwg/html/pull/10915,2025-01-14T18:04:19Z,2025-01-16T14:25:53Z,aamuley,topic: cookie,0
 2784347988,true,Fix Trusted Type sink names for WorkerGlobalScope methods,https://github.com/whatwg/html/pull/10913,2025-01-13T15:30:25Z,2025-01-14T07:44:19Z,lukewarlow,,0
 2784321232,true,Editorial: Fix some typos,https://github.com/whatwg/html/pull/10912,2025-01-13T15:22:33Z,2025-01-13T20:20:20Z,jmdyck,,0
-2783823554,false,"Notify WebDriver BiDi about ""committed"" navigations",https://github.com/whatwg/html/pull/10910,2025-01-13T12:26:41Z,2025-01-27T09:34:13Z,OrKoN,,0
+2783823554,false,"Notify WebDriver BiDi about ""committed"" navigations",https://github.com/whatwg/html/pull/10910,2025-01-13T12:26:41Z,2025-01-27T16:42:33Z,OrKoN,,0
 2783793235,true,Editorial: consistently use navigables for integration with WebDriver BiDi,https://github.com/whatwg/html/pull/10909,2025-01-13T12:12:32Z,2025-01-15T09:03:38Z,OrKoN,topic: navigation|integration,0
 2775316934,true,Fix accidental settings differences between CanvasRenderingContext2D and OffscreenCanvasRenderingContext2D,https://github.com/whatwg/html/pull/10904,2025-01-08T12:49:16Z,2025-01-20T15:09:20Z,ccameron-chromium,topic: canvas,0
 2775079455,false,Reserve/free quota for `fetchLater`,https://github.com/whatwg/html/pull/10903,2025-01-08T10:54:18Z,2025-01-08T10:56:18Z,noamr,,0
 2773050358,true,Editorial: Correct userNavigationInvolvement -> userInvolvement,https://github.com/whatwg/html/pull/10899,2025-01-07T14:58:09Z,2025-01-07T16:10:37Z,AtkinsSJ,,0
-2772403339,false,Add `NavigateEvent.sourceElement`,https://github.com/whatwg/html/pull/10898,2025-01-07T09:58:26Z,2025-01-15T11:03:23Z,noamr,addition/proposal|topic: navigation,0
+2772403339,false,Add `NavigateEvent.sourceElement`,https://github.com/whatwg/html/pull/10898,2025-01-07T09:58:26Z,2025-01-27T21:35:47Z,noamr,addition/proposal|topic: navigation,0
 2770817333,true,Editorial: fix :target cross-reference,https://github.com/whatwg/html/pull/10894,2025-01-06T14:46:59Z,2025-01-06T16:24:06Z,annevk,,0
 2769331227,true,Editorial: Fix typo in textarea cloning steps,https://github.com/whatwg/html/pull/10892,2025-01-05T15:44:04Z,2025-01-06T09:05:25Z,AtkinsSJ,,0
 2764699313,true,Editorial: minor editorial fixes to storage broadcast and remove,https://github.com/whatwg/html/pull/10887,2024-12-31T22:11:22Z,2025-01-06T15:06:52Z,shannonbooth,,0
@@ -125,7 +126,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2470070491,true,Editorial: consistently format the empty string keyword,https://github.com/whatwg/html/pull/10564,2024-08-16T11:21:38Z,2024-08-19T12:25:38Z,annevk,,0
 2469748999,true,small change 404.html,https://github.com/whatwg/html/pull/10563,2024-08-16T08:11:09Z,2024-08-16T11:09:47Z,Kabwemwaba,invalid,0
 2468462371,true,Fix incorrect recursion for dir=auto special cases.,https://github.com/whatwg/html/pull/10561,2024-08-15T16:43:24Z,2024-09-16T19:40:27Z,dbaron,topic: shadow|i18n-tracker,0
-2467498874,false,"Add ""same origin with its ancestors""",https://github.com/whatwg/html/pull/10559,2024-08-15T06:30:36Z,2025-01-26T20:41:28Z,domenic,topic: origin|integration,0
+2467498874,false,"Add ""same origin with its ancestors""",https://github.com/whatwg/html/pull/10559,2024-08-15T06:30:36Z,2025-01-27T18:37:03Z,domenic,topic: origin|integration,0
 2464881277,true,"Fix ""can have its URL rewritten"" buggy fallthrough",https://github.com/whatwg/html/pull/10558,2024-08-14T04:35:32Z,2024-08-15T01:08:30Z,domenic,topic: navigation,1
 2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2024-12-26T18:44:55Z,josepharhar,normative change|do not merge yet|topic: parser|topic: select,1
 2458340131,true,Remove exception reporting from declarative shadow dom,https://github.com/whatwg/html/pull/10552,2024-08-09T17:13:23Z,2024-08-14T15:44:52Z,mfreed7,normative change|topic: shadow|topic: parser,0
@@ -263,7 +264,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2126638785,true,Fix off-by-one error in navigation.canGoForward,https://github.com/whatwg/html/pull/10130,2024-02-09T07:51:29Z,2024-02-09T08:09:41Z,domenic,topic: navigation,0
 2124657255,true,Meta: Drop duplicate dfns of width and height IDL attr for HTMLImageElement,https://github.com/whatwg/html/pull/10127,2024-02-08T08:59:34Z,2024-02-08T09:10:28Z,dontcallmedom,,0
 2123981577,true,Add the :open pseudo-class,https://github.com/whatwg/html/pull/10126,2024-02-07T22:07:51Z,2024-12-10T02:31:19Z,josepharhar,addition/proposal|topic: forms|topic: style|topic: dialog|topic: select,0
-2119551527,false,Close dialog elements when the open attribute is removed,https://github.com/whatwg/html/pull/10124,2024-02-05T22:13:10Z,2024-12-30T18:14:56Z,josepharhar,normative change|topic: dialog,1
+2119551527,false,Close dialog elements when the open attribute is removed,https://github.com/whatwg/html/pull/10124,2024-02-05T22:13:10Z,2025-01-27T19:25:17Z,josepharhar,normative change|topic: dialog,1
 2116642999,true,Update build.yml,https://github.com/whatwg/html/pull/10121,2024-02-03T19:02:32Z,2024-10-08T14:04:25Z,JulianaticID,invalid,0
 2115694515,true,Update README.md to include about us description.,https://github.com/whatwg/html/pull/10120,2024-02-02T20:07:00Z,2024-10-08T14:04:25Z,edxlang,invalid,0
 2115382835,false,Fix #4532: language sensitivity of autocap,https://github.com/whatwg/html/pull/10119,2024-02-02T17:11:41Z,2024-02-09T12:05:58Z,aphillips,clarification,0
@@ -755,7 +756,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1423040520,true,add `scrollend` event details,https://github.com/whatwg/html/pull/8433,2022-10-25T20:32:52Z,2022-11-01T04:28:16Z,argyleink,addition/proposal|topic: events,1
 1422978785,true,Fix example in HTMLElement overridden constructor steps,https://github.com/whatwg/html/pull/8432,2022-10-25T19:42:59Z,2022-10-26T01:44:56Z,ThoseGrapefruits,topic: custom elements,0
 1422797957,true,Update index of global events,https://github.com/whatwg/html/pull/8431,2022-10-25T17:08:03Z,2022-10-26T11:14:34Z,NiedziolkaMichal,,0
-1422515390,false,Add lazy-loading for <video poster>,https://github.com/whatwg/html/pull/8428,2022-10-25T13:58:41Z,2023-11-14T08:05:49Z,zcorpan,addition/proposal|do not merge yet|topic: media|impacts documentation,0
+1422515390,true,Add lazy-loading for <video poster>,https://github.com/whatwg/html/pull/8428,2022-10-25T13:58:41Z,2025-01-27T15:49:31Z,zcorpan,addition/proposal|do not merge yet|topic: media|impacts documentation,0
 1419853681,true,feat: change type of window.opener to WindowProxy? in IDL,https://github.com/whatwg/html/pull/8424,2022-10-23T16:44:15Z,2022-10-23T17:51:56Z,mathe42,,0
 1419663940,true,Update 404.html,https://github.com/whatwg/html/pull/8423,2022-10-23T06:30:11Z,2024-10-08T14:05:28Z,preetchahal769,invalid,0
 1419121779,true,Fix HostResolveImportedModule's current realm handling,https://github.com/whatwg/html/pull/8417,2022-10-22T06:26:46Z,2022-10-24T07:42:13Z,domenic,topic: script,0
