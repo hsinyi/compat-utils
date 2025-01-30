@@ -1,11 +1,17 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2819575069,false,"Fix null URL blob handling in ""get an element's noopener""",https://github.com/whatwg/html/pull/10962,2025-01-29T23:44:22Z,2025-01-29T23:45:56Z,shannonbooth,,0
-2817717662,false,[Editorial] separate out showModal steps into own algorithm,https://github.com/whatwg/html/pull/10961,2025-01-29T09:51:49Z,2025-01-29T09:53:18Z,keithamus,,0
+2820362538,false,editorial: move dialog content attributes above properties,https://github.com/whatwg/html/pull/10969,2025-01-30T09:50:15Z,2025-01-30T09:51:47Z,keithamus,,0
+2820324564,false,editorial: re-order dialog properties to be above member variables,https://github.com/whatwg/html/pull/10968,2025-01-30T09:32:22Z,2025-01-30T09:33:54Z,keithamus,,0
+2820317490,false,editorial: group dialog member variables,https://github.com/whatwg/html/pull/10967,2025-01-30T09:28:59Z,2025-01-30T09:30:28Z,keithamus,,0
+2820305948,false,editorial: move dialog close/requestclose underneath show/showmodal,https://github.com/whatwg/html/pull/10966,2025-01-30T09:23:35Z,2025-01-30T09:25:07Z,keithamus,,0
+2820299509,false,Editorial move dialog domintro to preamble,https://github.com/whatwg/html/pull/10965,2025-01-30T09:20:31Z,2025-01-30T09:35:52Z,keithamus,,0
+2820284914,false,editorial: move dialog examples to preamble,https://github.com/whatwg/html/pull/10964,2025-01-30T09:13:25Z,2025-01-30T09:14:57Z,keithamus,,0
+2819575069,false,"Fix null URL blob handling in ""get an element's noopener""",https://github.com/whatwg/html/pull/10962,2025-01-29T23:44:22Z,2025-01-30T04:50:50Z,shannonbooth,,0
+2817717662,true,[Editorial] separate out showModal steps into own algorithm,https://github.com/whatwg/html/pull/10961,2025-01-29T09:51:49Z,2025-01-30T09:05:40Z,keithamus,editorial|topic: dialog,0
 2817697425,false,[Editorial] rework button states to allow for command/commandfor attributes,https://github.com/whatwg/html/pull/10960,2025-01-29T09:42:32Z,2025-01-29T11:09:41Z,keithamus,,0
 2816741425,false,Quirk: bare <li> have list-style-position: inside,https://github.com/whatwg/html/pull/10959,2025-01-28T21:22:42Z,2025-01-30T00:22:58Z,zcorpan,do not merge yet,0
-2816164539,false,Fire a load event for javascript: URL non-strings,https://github.com/whatwg/html/pull/10957,2025-01-28T16:24:36Z,2025-01-28T16:43:17Z,zcorpan,,0
-2814371404,false,Connect HTML spec up to new CSS `interactivity` property,https://github.com/whatwg/html/pull/10956,2025-01-28T00:50:42Z,2025-01-30T00:12:40Z,mfreed7,,0
-2813958440,false,Add attribute changed steps to dialog element,https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-01-28T06:46:49Z,lukewarlow,do not merge yet,0
+2816164539,false,Fire a load event for javascript: URL non-strings,https://github.com/whatwg/html/pull/10957,2025-01-28T16:24:36Z,2025-01-30T05:37:30Z,zcorpan,,0
+2814371404,false,Connect HTML spec up to new CSS `interactivity` property,https://github.com/whatwg/html/pull/10956,2025-01-28T00:50:42Z,2025-01-30T09:41:26Z,mfreed7,,0
+2813958440,false,Add attribute changed steps to dialog element,https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-01-30T04:58:27Z,lukewarlow,topic: dialog,0
 2812761134,false,"Add CanvasColorType, with unorm8 (the default) and float16 support",https://github.com/whatwg/html/pull/10951,2025-01-27T11:28:40Z,2025-01-27T13:14:33Z,ccameron-chromium,addition/proposal|topic: canvas,0
 2812128271,true,Editorial: fix variable name typo in inner navigate event firing,https://github.com/whatwg/html/pull/10950,2025-01-27T05:41:27Z,2025-01-28T01:15:03Z,domenic,,0
 2812054978,false,Fix CSP navigation request blocking,https://github.com/whatwg/html/pull/10949,2025-01-27T04:27:06Z,2025-01-29T02:03:18Z,domenic,topic: navigation,0
@@ -15,15 +21,15 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2800541766,true,Editorial: Fix more typos,https://github.com/whatwg/html/pull/10934,2025-01-21T02:11:18Z,2025-01-28T03:08:20Z,jmdyck,,0
 2798594924,true,Review Draft Publication: January 2025,https://github.com/whatwg/html/pull/10932,2025-01-20T08:44:37Z,2025-01-20T08:54:39Z,annevk,,0
 2794978313,true,define getEnabledState for closewatcher constructor,https://github.com/whatwg/html/pull/10926,2025-01-17T09:29:08Z,2025-01-21T08:27:17Z,keithamus,topic: close watchers,0
-2794798550,false,Editorial: change style of preload integrity metadata test,https://github.com/whatwg/html/pull/10924,2025-01-17T07:46:30Z,2025-01-29T10:22:40Z,domenic,,0
+2794798550,false,Editorial: change style of preload integrity metadata test,https://github.com/whatwg/html/pull/10924,2025-01-17T07:46:30Z,2025-01-30T06:28:53Z,domenic,,0
 2793824242,true,Editorial: fix grammar in note about error checking serialization,https://github.com/whatwg/html/pull/10922,2025-01-16T21:38:31Z,2025-01-17T01:18:35Z,shannonbooth,,0
 2792585961,false,Navigation API: deferred commit,https://github.com/whatwg/html/pull/10919,2025-01-16T12:21:41Z,2025-01-24T05:11:08Z,noamr,addition/proposal|topic: navigation,0
-2790720327,false,Add logic to update radio button group checkedness when an input radio becomes connected,https://github.com/whatwg/html/pull/10917,2025-01-15T19:56:00Z,2025-01-22T15:30:14Z,EdgarChen,,0
+2790720327,true,Add logic to update radio button group checkedness when an input radio becomes connected,https://github.com/whatwg/html/pull/10917,2025-01-15T19:56:00Z,2025-01-30T02:22:42Z,EdgarChen,,0
 2788915194,true,Fix url and src in NotRestoredReasons,https://github.com/whatwg/html/pull/10916,2025-01-15T06:02:54Z,2025-01-21T02:09:02Z,domenic,,0
 2787952111,false,Allowing SameSite=None Cookies in First-Party Sandboxed Contexts,https://github.com/whatwg/html/pull/10915,2025-01-14T18:04:19Z,2025-01-16T14:25:53Z,aamuley,topic: cookie,0
 2784347988,true,Fix Trusted Type sink names for WorkerGlobalScope methods,https://github.com/whatwg/html/pull/10913,2025-01-13T15:30:25Z,2025-01-14T07:44:19Z,lukewarlow,,0
 2784321232,true,Editorial: Fix some typos,https://github.com/whatwg/html/pull/10912,2025-01-13T15:22:33Z,2025-01-13T20:20:20Z,jmdyck,,0
-2783823554,false,"Notify WebDriver BiDi about ""committed"" navigations",https://github.com/whatwg/html/pull/10910,2025-01-13T12:26:41Z,2025-01-28T06:48:54Z,OrKoN,,0
+2783823554,false,"Notify WebDriver BiDi about ""committed"" navigations",https://github.com/whatwg/html/pull/10910,2025-01-13T12:26:41Z,2025-01-30T07:19:30Z,OrKoN,,0
 2783793235,true,Editorial: consistently use navigables for integration with WebDriver BiDi,https://github.com/whatwg/html/pull/10909,2025-01-13T12:12:32Z,2025-01-15T09:03:38Z,OrKoN,topic: navigation|integration,0
 2775316934,true,Fix accidental settings differences between CanvasRenderingContext2D and OffscreenCanvasRenderingContext2D,https://github.com/whatwg/html/pull/10904,2025-01-08T12:49:16Z,2025-01-20T15:09:20Z,ccameron-chromium,topic: canvas,0
 2775079455,false,Reserve/free quota for `fetchLater`,https://github.com/whatwg/html/pull/10903,2025-01-08T10:54:18Z,2025-01-08T10:56:18Z,noamr,,0
@@ -308,7 +314,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2062900017,false,"Add argument labels when invoking ""apply the history step""",https://github.com/whatwg/html/pull/10033,2024-01-02T20:19:58Z,2024-01-03T10:25:46Z,awesomekling,,0
 2058271204,true,[Editorial] Fix missing references to OffscreenCanvas as CanvasImageSource,https://github.com/whatwg/html/pull/10027,2023-12-28T10:32:20Z,2024-01-09T04:13:18Z,Kaiido,topic: canvas,0
 2057043906,true,Don't clip range/checkbox/radio overflow to border box.,https://github.com/whatwg/html/pull/10025,2023-12-27T07:58:17Z,2024-01-15T09:21:50Z,emilio,,0
-2056778136,false,Implement dangling markup injection mitigation,https://github.com/whatwg/html/pull/10022,2023-12-26T23:59:10Z,2024-05-30T12:04:12Z,shhnjk,security/privacy|integration|security-tracker,0
+2056778136,false,Implement dangling markup injection mitigation,https://github.com/whatwg/html/pull/10022,2023-12-26T23:59:10Z,2025-01-30T09:46:22Z,shhnjk,security/privacy|integration|security-tracker,0
 2054561873,true,Add a new attribute called `writingsuggestions` to control UA-provided writing assistance,https://github.com/whatwg/html/pull/10018,2023-12-22T22:53:35Z,2024-03-13T05:26:53Z,sanketj,addition/proposal,0
 2053092639,true,Darkmode,https://github.com/whatwg/html/pull/10017,2023-12-21T21:44:11Z,2024-01-10T03:34:58Z,tabatkins,,0
 2051411630,true,Hide all popovers when beforetoggle shows a popover,https://github.com/whatwg/html/pull/10015,2023-12-20T22:47:23Z,2024-02-07T19:40:15Z,josepharhar,topic: popover,0
