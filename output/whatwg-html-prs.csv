@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2820942885,false,Add `NavigateEventInit.sourceElement`,https://github.com/whatwg/html/pull/10971,2025-01-30T14:10:24Z,2025-01-30T14:12:00Z,AtkinsSJ,,0
 2820362538,false,editorial: move dialog content attributes above properties,https://github.com/whatwg/html/pull/10969,2025-01-30T09:50:15Z,2025-01-30T09:51:47Z,keithamus,,0
 2820324564,false,editorial: re-order dialog properties to be above member variables,https://github.com/whatwg/html/pull/10968,2025-01-30T09:32:22Z,2025-01-30T09:33:54Z,keithamus,,0
 2820317490,false,editorial: group dialog member variables,https://github.com/whatwg/html/pull/10967,2025-01-30T09:28:59Z,2025-01-30T09:30:28Z,keithamus,,0
@@ -11,7 +12,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2816741425,false,Quirk: bare <li> have list-style-position: inside,https://github.com/whatwg/html/pull/10959,2025-01-28T21:22:42Z,2025-01-30T00:22:58Z,zcorpan,do not merge yet,0
 2816164539,false,Fire a load event for javascript: URL non-strings,https://github.com/whatwg/html/pull/10957,2025-01-28T16:24:36Z,2025-01-30T05:37:30Z,zcorpan,,0
 2814371404,false,Connect HTML spec up to new CSS `interactivity` property,https://github.com/whatwg/html/pull/10956,2025-01-28T00:50:42Z,2025-01-30T09:41:26Z,mfreed7,,0
-2813958440,false,Add attribute changed steps to dialog element,https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-01-30T04:58:27Z,lukewarlow,topic: dialog,0
+2813958440,false,Add attribute changed steps to dialog element,https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-01-30T20:07:14Z,lukewarlow,topic: dialog,0
 2812761134,false,"Add CanvasColorType, with unorm8 (the default) and float16 support",https://github.com/whatwg/html/pull/10951,2025-01-27T11:28:40Z,2025-01-27T13:14:33Z,ccameron-chromium,addition/proposal|topic: canvas,0
 2812128271,true,Editorial: fix variable name typo in inner navigate event firing,https://github.com/whatwg/html/pull/10950,2025-01-27T05:41:27Z,2025-01-28T01:15:03Z,domenic,,0
 2812054978,false,Fix CSP navigation request blocking,https://github.com/whatwg/html/pull/10949,2025-01-27T04:27:06Z,2025-01-29T02:03:18Z,domenic,topic: navigation,0
@@ -41,7 +42,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2756321003,false,Remove new browsing context/Document referrer assignment,https://github.com/whatwg/html/pull/10883,2024-12-23T15:51:38Z,2025-01-20T03:00:28Z,domfarolino,do not merge yet|topic: frames/navigables/browsing contexts,0
 2753010492,true,Add missing character renders in Tokenization,https://github.com/whatwg/html/pull/10880,2024-12-20T15:56:58Z,2025-01-14T08:15:41Z,AMS21,,0
 2750350934,true,Editorial: improve fragment parsing,https://github.com/whatwg/html/pull/10874,2024-12-19T13:33:26Z,2025-01-06T15:18:32Z,annevk,,0
-2749014142,false,"Add a `lang` IDL Attribute to CanvasTextDrawingStyles, and clarify ""direction"" on same",https://github.com/whatwg/html/pull/10873,2024-12-19T00:45:36Z,2025-01-28T01:40:41Z,schenney-chromium,topic: canvas|agenda+,0
+2749014142,false,"Add a `lang` IDL Attribute to CanvasTextDrawingStyles, and clarify ""direction"" on same",https://github.com/whatwg/html/pull/10873,2024-12-19T00:45:36Z,2025-01-30T22:04:33Z,schenney-chromium,topic: canvas,0
 2745581253,false,Add Scoped Custom Element Registries,https://github.com/whatwg/html/pull/10869,2024-12-17T17:33:19Z,2024-12-19T10:07:23Z,annevk,addition/proposal|topic: shadow|topic: custom elements,0
 2745477397,true,"Editorial: Finish renaming ""post-insert"" to ""post-connection""",https://github.com/whatwg/html/pull/10868,2024-12-17T16:51:45Z,2024-12-17T17:12:45Z,domfarolino,integration|editorial,0
 2742760704,true,Editorial: add a concept for Window's CustomElementRegistry,https://github.com/whatwg/html/pull/10865,2024-12-16T15:53:22Z,2024-12-17T07:23:44Z,annevk,,0
@@ -521,7 +522,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1779529030,true,Snapshot fallback base URL for about:-schemed Documents,https://github.com/whatwg/html/pull/9464,2023-06-28T18:51:33Z,2023-07-13T20:55:06Z,domfarolino,normative change|topic: navigation,0
 1778497411,true,Synchronously populate non-initial about:blank documents,https://github.com/whatwg/html/pull/9463,2023-06-28T08:50:34Z,2023-07-11T09:13:17Z,domenic,topic: navigation|topic: parser,0
 1778332031,true,Add close requests and close watchers,https://github.com/whatwg/html/pull/9462,2023-06-28T06:57:55Z,2024-04-02T08:56:06Z,domenic,addition/proposal|topic: dialog|topic: popover|topic: close watchers,4
-1775374251,false,Ignore DOM state when hiding popovers if needed,https://github.com/whatwg/html/pull/9457,2023-06-26T18:45:19Z,2024-01-25T06:09:09Z,josepharhar,topic: popover,0
+1775374251,false,Ignore DOM state when hiding popovers if needed,https://github.com/whatwg/html/pull/9457,2023-06-26T18:45:19Z,2025-01-30T20:12:22Z,josepharhar,topic: popover,0
 1775234651,true,add dialogmodaltarget attribute,https://github.com/whatwg/html/pull/9456,2023-06-26T17:17:30Z,2023-09-21T10:30:44Z,keithamus,,2
 1768695537,true,"Editorial rework of directionality ",https://github.com/whatwg/html/pull/9452,2023-06-22T00:09:07Z,2023-08-29T08:32:48Z,bkardell,,0
 1768470617,true,Make togglePopover throw more exceptions,https://github.com/whatwg/html/pull/9451,2023-06-21T20:56:50Z,2023-06-28T14:34:58Z,josepharhar,topic: popover,0
