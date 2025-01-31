@@ -1,11 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2820942885,false,Add `NavigateEventInit.sourceElement`,https://github.com/whatwg/html/pull/10971,2025-01-30T14:10:24Z,2025-01-30T14:12:00Z,AtkinsSJ,,0
-2820362538,false,editorial: move dialog content attributes above properties,https://github.com/whatwg/html/pull/10969,2025-01-30T09:50:15Z,2025-01-30T09:51:47Z,keithamus,,0
-2820324564,false,editorial: re-order dialog properties to be above member variables,https://github.com/whatwg/html/pull/10968,2025-01-30T09:32:22Z,2025-01-30T09:33:54Z,keithamus,,0
-2820317490,false,editorial: group dialog member variables,https://github.com/whatwg/html/pull/10967,2025-01-30T09:28:59Z,2025-01-30T09:30:28Z,keithamus,,0
-2820305948,false,editorial: move dialog close/requestclose underneath show/showmodal,https://github.com/whatwg/html/pull/10966,2025-01-30T09:23:35Z,2025-01-30T09:25:07Z,keithamus,,0
-2820299509,false,Editorial move dialog domintro to preamble,https://github.com/whatwg/html/pull/10965,2025-01-30T09:20:31Z,2025-01-30T09:35:52Z,keithamus,,0
-2820284914,false,editorial: move dialog examples to preamble,https://github.com/whatwg/html/pull/10964,2025-01-30T09:13:25Z,2025-01-30T09:14:57Z,keithamus,,0
+2822374729,false,Loosen DOMString? getter to accommodate ARIA-style string reflection,https://github.com/whatwg/html/pull/10974,2025-01-31T03:47:11Z,2025-01-31T05:51:21Z,rahimabdi,,0
+2820942885,true,Add `NavigateEventInit.sourceElement`,https://github.com/whatwg/html/pull/10971,2025-01-30T14:10:24Z,2025-01-31T08:47:47Z,AtkinsSJ,topic: navigation,0
+2820362538,true,editorial: move dialog content attributes above properties,https://github.com/whatwg/html/pull/10969,2025-01-30T09:50:15Z,2025-01-31T09:33:39Z,keithamus,clarification|topic: dialog,0
+2820324564,true,editorial: re-order dialog properties to be above member variables,https://github.com/whatwg/html/pull/10968,2025-01-30T09:32:22Z,2025-01-31T08:06:52Z,keithamus,clarification|topic: dialog,0
+2820317490,true,editorial: group dialog member variables,https://github.com/whatwg/html/pull/10967,2025-01-30T09:28:59Z,2025-01-31T12:03:47Z,keithamus,clarification|topic: dialog,0
+2820305948,true,editorial: move dialog close/requestclose underneath show/showmodal,https://github.com/whatwg/html/pull/10966,2025-01-30T09:23:35Z,2025-01-31T08:07:05Z,keithamus,clarification|topic: dialog,0
+2820299509,true,Editorial section off content attributes with hrs,https://github.com/whatwg/html/pull/10965,2025-01-30T09:20:31Z,2025-01-31T12:03:37Z,keithamus,,0
+2820284914,true,editorial: move dialog examples to preamble,https://github.com/whatwg/html/pull/10964,2025-01-30T09:13:25Z,2025-01-31T08:06:38Z,keithamus,clarification|topic: dialog,0
 2819575069,false,"Fix null URL blob handling in ""get an element's noopener""",https://github.com/whatwg/html/pull/10962,2025-01-29T23:44:22Z,2025-01-30T04:50:50Z,shannonbooth,,0
 2817717662,true,[Editorial] separate out showModal steps into own algorithm,https://github.com/whatwg/html/pull/10961,2025-01-29T09:51:49Z,2025-01-30T09:05:40Z,keithamus,editorial|topic: dialog,0
 2817697425,false,[Editorial] rework button states to allow for command/commandfor attributes,https://github.com/whatwg/html/pull/10960,2025-01-29T09:42:32Z,2025-01-29T11:09:41Z,keithamus,,0
@@ -30,7 +31,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2787952111,false,Allowing SameSite=None Cookies in First-Party Sandboxed Contexts,https://github.com/whatwg/html/pull/10915,2025-01-14T18:04:19Z,2025-01-16T14:25:53Z,aamuley,topic: cookie,0
 2784347988,true,Fix Trusted Type sink names for WorkerGlobalScope methods,https://github.com/whatwg/html/pull/10913,2025-01-13T15:30:25Z,2025-01-14T07:44:19Z,lukewarlow,,0
 2784321232,true,Editorial: Fix some typos,https://github.com/whatwg/html/pull/10912,2025-01-13T15:22:33Z,2025-01-13T20:20:20Z,jmdyck,,0
-2783823554,false,"Notify WebDriver BiDi about ""committed"" navigations",https://github.com/whatwg/html/pull/10910,2025-01-13T12:26:41Z,2025-01-30T07:19:30Z,OrKoN,,0
+2783823554,true,"Notify WebDriver BiDi about ""committed"" navigations",https://github.com/whatwg/html/pull/10910,2025-01-13T12:26:41Z,2025-01-31T06:04:50Z,OrKoN,integration,0
 2783793235,true,Editorial: consistently use navigables for integration with WebDriver BiDi,https://github.com/whatwg/html/pull/10909,2025-01-13T12:12:32Z,2025-01-15T09:03:38Z,OrKoN,topic: navigation|integration,0
 2775316934,true,Fix accidental settings differences between CanvasRenderingContext2D and OffscreenCanvasRenderingContext2D,https://github.com/whatwg/html/pull/10904,2025-01-08T12:49:16Z,2025-01-20T15:09:20Z,ccameron-chromium,topic: canvas,0
 2775079455,false,Reserve/free quota for `fetchLater`,https://github.com/whatwg/html/pull/10903,2025-01-08T10:54:18Z,2025-01-08T10:56:18Z,noamr,,0
@@ -43,7 +44,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2753010492,true,Add missing character renders in Tokenization,https://github.com/whatwg/html/pull/10880,2024-12-20T15:56:58Z,2025-01-14T08:15:41Z,AMS21,,0
 2750350934,true,Editorial: improve fragment parsing,https://github.com/whatwg/html/pull/10874,2024-12-19T13:33:26Z,2025-01-06T15:18:32Z,annevk,,0
 2749014142,false,"Add a `lang` IDL Attribute to CanvasTextDrawingStyles, and clarify ""direction"" on same",https://github.com/whatwg/html/pull/10873,2024-12-19T00:45:36Z,2025-01-30T22:04:33Z,schenney-chromium,topic: canvas,0
-2745581253,false,Add Scoped Custom Element Registries,https://github.com/whatwg/html/pull/10869,2024-12-17T17:33:19Z,2024-12-19T10:07:23Z,annevk,addition/proposal|topic: shadow|topic: custom elements,0
+2745581253,false,Add Scoped Custom Element Registries,https://github.com/whatwg/html/pull/10869,2024-12-17T17:33:19Z,2025-01-31T07:30:42Z,annevk,addition/proposal|topic: shadow|topic: custom elements,0
 2745477397,true,"Editorial: Finish renaming ""post-insert"" to ""post-connection""",https://github.com/whatwg/html/pull/10868,2024-12-17T16:51:45Z,2024-12-17T17:12:45Z,domfarolino,integration|editorial,0
 2742760704,true,Editorial: add a concept for Window's CustomElementRegistry,https://github.com/whatwg/html/pull/10865,2024-12-16T15:53:22Z,2024-12-17T07:23:44Z,annevk,,0
 2740270982,true,Remove obsolete manifest attribute references,https://github.com/whatwg/html/pull/10863,2024-12-15T04:24:26Z,2024-12-17T12:05:54Z,wlib,,0
@@ -598,7 +599,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1675697862,true,Reset the popover invoker in show popover,https://github.com/whatwg/html/pull/9186,2023-04-19T21:54:28Z,2023-05-11T12:41:16Z,josepharhar,topic: popover,1
 1675384787,true,Editorial: Export the browsing context's top-level traversable.,https://github.com/whatwg/html/pull/9185,2023-04-19T18:11:57Z,2023-04-24T14:16:41Z,jyasskin,,0
 1673620734,true,Check the popover's document in showPopover,https://github.com/whatwg/html/pull/9182,2023-04-18T18:19:28Z,2023-05-05T09:13:46Z,josepharhar,topic: popover,0
-1671928914,true,Only restore dialog focus if focus is in the dialog,https://github.com/whatwg/html/pull/9178,2023-04-17T20:35:40Z,2025-01-29T01:46:25Z,josepharhar,topic: focus|topic: dialog,0
+1671928914,true,Only restore dialog focus if focus is in the dialog,https://github.com/whatwg/html/pull/9178,2023-04-17T20:35:40Z,2025-01-31T01:00:31Z,josepharhar,topic: focus|topic: dialog,0
 1669042716,true,Only use the used invoker to establish popover hierarchy,https://github.com/whatwg/html/pull/9171,2023-04-14T23:15:12Z,2023-05-08T16:13:13Z,josepharhar,topic: popover,0
 1668446599,true,Fix var/ref name mismatch with s/intendToStoreInBfcache/intendToKeepInBfcache/,https://github.com/whatwg/html/pull/9170,2023-04-14T15:13:52Z,2023-04-17T12:18:58Z,jan-ivar,topic: history,0
 1666970337,true,Update the :dir / directionality to include shadow dom,https://github.com/whatwg/html/pull/9166,2023-04-13T18:54:01Z,2023-09-26T17:27:58Z,bkardell,topic: shadow|topic: selectors,0

@@ -1,8 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2822743045,false,Locale setting is incomplete (international settings),https://github.com/whatwg/html/issues/10976,2025-01-31T08:14:03Z,2025-01-31T08:14:03Z,boudivv,addition/proposal|needs implementer interest,0
+2822724855,true,Locale setting is incomplete (international settings),https://github.com/whatwg/html/issues/10975,2025-01-31T08:02:44Z,2025-01-31T08:04:56Z,boudivv,,0
+2822344106,true,Rendering of multiple captions in an HTML table,https://github.com/whatwg/html/issues/10973,2025-01-31T03:13:25Z,2025-01-31T09:15:27Z,karlcow,topic: rendering|interop,0
 2821912972,false,Upcoming WHATNOT meeting on 2025-02-06,https://github.com/whatwg/html/issues/10972,2025-01-30T22:06:51Z,2025-01-30T22:06:51Z,past,agenda+,0
-2820933080,false,NavigateEventInit is missing a sourceElement field,https://github.com/whatwg/html/issues/10970,2025-01-30T14:06:20Z,2025-01-30T14:06:20Z,AtkinsSJ,,0
-2819914069,false,Dialog processing model has gotten disorganized,https://github.com/whatwg/html/issues/10963,2025-01-30T05:07:49Z,2025-01-30T05:07:49Z,domenic,clarification|good first issue|topic: dialog,0
-2816721305,false,"Specify the bare li element ""list-style-position:inside"" quirk",https://github.com/whatwg/html/issues/10958,2025-01-28T19:58:39Z,2025-01-30T18:51:06Z,dholbert,topic: rendering|interop,0
+2820933080,true,NavigateEventInit is missing a sourceElement field,https://github.com/whatwg/html/issues/10970,2025-01-30T14:06:20Z,2025-01-31T03:42:35Z,AtkinsSJ,,0
+2819914069,false,Dialog processing model has gotten disorganized,https://github.com/whatwg/html/issues/10963,2025-01-30T05:07:49Z,2025-01-31T03:37:05Z,domenic,clarification|good first issue|topic: dialog,0
+2816721305,false,"Specify the bare li element ""list-style-position:inside"" quirk",https://github.com/whatwg/html/issues/10958,2025-01-28T19:58:39Z,2025-01-31T10:10:26Z,dholbert,topic: rendering|interop,0
 2814208745,false,Rendering option with empty label attribute or whitespace,https://github.com/whatwg/html/issues/10955,2025-01-27T22:41:52Z,2025-01-30T08:27:50Z,josepharhar,interop|topic: select,0
 2813945718,false,Missing attribute changed steps for dialog can cause assertions to be hit,https://github.com/whatwg/html/issues/10953,2025-01-27T20:05:43Z,2025-01-30T10:25:24Z,lukewarlow,,0
 2811777789,false,Proposal: Introduce <field-array> and <field-object> for Native Array/Object Handling in HTML Forms.,https://github.com/whatwg/html/issues/10948,2025-01-26T20:42:07Z,2025-01-26T20:42:07Z,ShoaibShokat03,addition/proposal|needs implementer interest,1
@@ -57,7 +60,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2736746960,false,Add `window.customCommands`,https://github.com/whatwg/html/issues/10860,2024-12-12T19:46:28Z,2024-12-13T08:56:23Z,scola84,addition/proposal|needs implementer interest,0
 2735477406,false,ImageData: Add Float16Array backing support,https://github.com/whatwg/html/issues/10856,2024-12-12T10:21:05Z,2024-12-12T21:03:52Z,ccameron-chromium,addition/proposal|topic: canvas,1
 2735459574,false,CanvasRenderingContext2D: Add getImageDataAsync method,https://github.com/whatwg/html/issues/10855,2024-12-12T10:13:15Z,2024-12-20T06:38:34Z,ccameron-chromium,addition/proposal|topic: canvas,3
-2735341285,false,Revamped Scoped Custom Element Registries,https://github.com/whatwg/html/issues/10854,2024-12-12T09:22:28Z,2025-01-24T17:16:19Z,annevk,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements,13
+2735341285,false,Revamped Scoped Custom Element Registries,https://github.com/whatwg/html/issues/10854,2024-12-12T09:22:28Z,2025-01-31T10:55:08Z,annevk,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements,13
 2734230880,false,Allow form controls in a shadow root to participate in it's host form submission,https://github.com/whatwg/html/issues/10852,2024-12-11T23:23:36Z,2024-12-12T08:28:42Z,KonnorRogers,addition/proposal|needs implementer interest|topic: shadow,1
 2733274119,false,Make <dialog> usable without JS (for form confirmation),https://github.com/whatwg/html/issues/10851,2024-12-11T15:22:18Z,2024-12-16T15:43:02Z,tino,addition/proposal|needs implementer interest,0
 2731961170,false,Window name targeting: tie-breaking for same-named top-level traversables is not interoperable,https://github.com/whatwg/html/issues/10850,2024-12-11T06:38:16Z,2024-12-23T14:24:46Z,domenic,interop|topic: frames/navigables/browsing contexts,0
@@ -537,7 +540,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2075526270,true,Close watchers: history-action user activation is consumed even for the first close watcher,https://github.com/whatwg/html/issues/10046,2024-01-11T01:22:58Z,2024-04-02T08:54:10Z,domenic,normative change|topic: dialog|topic: close watchers,1
 2069375890,false,A way to disable animation of cancelled drag for editor apps like VS Code,https://github.com/whatwg/html/issues/10039,2024-01-08T00:28:08Z,2024-01-12T05:27:14Z,zcbenz,addition/proposal|needs implementer interest,2
 2069074912,true,Should past user activations be kept after refresh?,https://github.com/whatwg/html/issues/10038,2024-01-07T10:29:21Z,2024-01-07T11:44:31Z,CanadaHonk,,0
-2067099612,false,ARIA attribute reflection uses DOMString? but they are not enumerated attributes,https://github.com/whatwg/html/issues/10037,2024-01-05T10:28:24Z,2024-01-12T02:19:19Z,domenic,a11y-tracker|topic: reflect,0
+2067099612,false,ARIA attribute reflection uses DOMString? but they are not enumerated attributes,https://github.com/whatwg/html/issues/10037,2024-01-05T10:28:24Z,2025-01-31T06:22:36Z,domenic,a11y-tracker|topic: reflect,0
 2063647207,true,Render-blocking scripts should also work for inline scripts,https://github.com/whatwg/html/issues/10034,2024-01-03T09:52:42Z,2024-01-18T05:05:57Z,noamr,addition/proposal,0
 2062771189,false,Change when button has activation behavior,https://github.com/whatwg/html/issues/10032,2024-01-02T18:08:35Z,2024-03-05T14:38:06Z,vinhill,topic: forms|topic: events|topic: popover,0
 2061045240,false,[forms] <select> element clip is not specified and not interoperable,https://github.com/whatwg/html/issues/10031,2023-12-31T12:30:30Z,2024-01-09T10:40:18Z,emilio,topic: rendering|topic: forms,0
@@ -1008,7 +1011,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1558881148,true,Upcoming HTML standard issue triage meeting on 2/9/2023,https://github.com/whatwg/html/issues/8786,2023-01-26T22:33:48Z,2023-02-09T17:49:43Z,past,agenda+,0
 1558865836,true,"An un-activated Image Button submitter should add `(0, 0)` entries to the form data set",https://github.com/whatwg/html/issues/8785,2023-01-26T22:18:29Z,2023-01-28T15:38:26Z,jenseng,,0
 1558491226,false,Expose an API to get the top layer element,https://github.com/whatwg/html/issues/8783,2023-01-26T17:16:05Z,2023-01-26T17:17:03Z,straker,,4
-1558379555,true,Detect UA transitions on same-document navigations,https://github.com/whatwg/html/issues/8782,2023-01-26T16:01:43Z,2023-08-17T03:06:46Z,jakearchibald,,0
+1558379555,true,Detect UA transitions on same-document navigations,https://github.com/whatwg/html/issues/8782,2023-01-26T16:01:43Z,2023-08-17T03:06:46Z,jakearchibald,,1
 1557491233,false,"Img ""sizes"": is fallback value optional (per MDN) or required (per current spec)?",https://github.com/whatwg/html/issues/8778,2023-01-26T01:15:47Z,2023-01-26T01:15:47Z,tmb-github,,0
 1557373653,true,The `commit` method on various canvas contexts does not exist,https://github.com/whatwg/html/issues/8777,2023-01-25T22:48:52Z,2023-01-25T23:28:49Z,greggman,,0
 1557070169,false,<meta> http-equiv vs name: which one wins?,https://github.com/whatwg/html/issues/8776,2023-01-25T18:04:27Z,2023-01-26T09:45:04Z,annevk,clarification,0
@@ -1571,7 +1574,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1036665403,false,"""UA: reset the insertion mode appropriately"" algorithm clarification",https://github.com/whatwg/html/issues/7263,2021-10-26T19:33:10Z,2021-10-27T07:06:22Z,SoLaRGit,clarification|topic: parser,0
 1033927055,true,Form with target=_blank and opener relationship,https://github.com/whatwg/html/issues/7256,2021-10-22T20:29:58Z,2021-10-25T15:17:36Z,cdumez,topic: forms,0
 1033914516,false,Environment change causes all lazy `img` elements to load,https://github.com/whatwg/html/issues/7255,2021-10-22T20:12:22Z,2021-10-22T20:12:32Z,zcorpan,topic: img,0
-1031955624,false,How should BroadcastChannel and BFCache interact?,https://github.com/whatwg/html/issues/7253,2021-10-21T01:06:26Z,2023-04-20T07:56:33Z,fergald,topic: history|interop|topic: serialize and transfer,0
+1031955624,false,How should BroadcastChannel and BFCache interact?,https://github.com/whatwg/html/issues/7253,2021-10-21T01:06:26Z,2025-01-31T11:12:14Z,fergald,topic: history|interop|topic: serialize and transfer,0
 1031744384,true,Define serialization of a site,https://github.com/whatwg/html/issues/7250,2021-10-20T19:11:44Z,2021-10-21T15:30:02Z,apasel422,,0
 1031670880,true,shadowRoot attached on DIV Element does not reset styles with all:initial,https://github.com/whatwg/html/issues/7249,2021-10-20T17:45:43Z,2021-10-22T06:00:46Z,Danny-Engelman,,0
 1031422824,false,"""Paint the region of the image"" in what colorspace?",https://github.com/whatwg/html/issues/7245,2021-10-20T13:36:50Z,2021-10-20T14:15:43Z,svgeesus,topic: canvas,0
@@ -3778,7 +3781,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 232231572,true,Focus state is unspecified when user agent itself loses focus.,https://github.com/whatwg/html/issues/2716,2017-05-30T12:08:33Z,2020-12-11T22:35:19Z,tobie,topic: focus,2
 232185004,true,Does <hr> create a new block formatting context?,https://github.com/whatwg/html/issues/2715,2017-05-30T08:57:45Z,2017-06-02T07:18:11Z,zcorpan,compat|topic: rendering|interop,1
 231970358,true,Proposal: Add the option to define the scroll behavior of focus(),https://github.com/whatwg/html/issues/2712,2017-05-29T09:22:06Z,2017-05-30T22:07:26Z,jihyerish,,2
-231747000,false,"Need hook for when a browsing context gains or loses focus ",https://github.com/whatwg/html/issues/2711,2017-05-26T22:19:50Z,2025-01-30T05:50:12Z,tobie,topic: focus|integration,16
+231747000,false,"Need hook for when a browsing context gains or loses focus ",https://github.com/whatwg/html/issues/2711,2017-05-26T22:19:50Z,2025-01-31T03:21:34Z,tobie,topic: focus|integration,16
 231746300,true,Expose `history.index` in addition to `history.length`,https://github.com/whatwg/html/issues/2710,2017-05-26T22:15:11Z,2021-12-07T09:20:04Z,dvoytenko,addition/proposal|topic: history,0
 231212752,true,Form submission: Should check connected twice,https://github.com/whatwg/html/issues/2708,2017-05-25T01:06:01Z,2017-09-22T12:04:33Z,tkent-google,topic: navigation|topic: forms,0
 231138283,true,Incumbent algorithm gives inconsistent results for timer callbacks and event handlers; remove skip-when-determining-incumbent counter?,https://github.com/whatwg/html/issues/2706,2017-05-24T18:56:29Z,2017-06-28T22:55:17Z,dbates-wk,topic: multiple globals,0
