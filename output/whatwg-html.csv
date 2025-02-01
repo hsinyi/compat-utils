@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2823446989,false,Make HTML Standard's page titles more distinct,https://github.com/whatwg/html/issues/10978,2025-01-31T13:09:43Z,2025-01-31T13:48:04Z,AtkinsSJ,meta,3
+2823446989,false,Make HTML Standard's page titles more distinct,https://github.com/whatwg/html/issues/10978,2025-01-31T13:09:43Z,2025-02-01T08:27:53Z,AtkinsSJ,meta,3
 2822743045,false,Locale setting is incomplete (international settings),https://github.com/whatwg/html/issues/10976,2025-01-31T08:14:03Z,2025-01-31T08:14:03Z,boudivv,addition/proposal|needs implementer interest,0
 2822724855,true,Locale setting is incomplete (international settings),https://github.com/whatwg/html/issues/10975,2025-01-31T08:02:44Z,2025-01-31T08:04:56Z,boudivv,,0
 2822344106,true,Rendering of multiple captions in an HTML table,https://github.com/whatwg/html/issues/10973,2025-01-31T03:13:25Z,2025-01-31T09:15:27Z,karlcow,topic: rendering|interop,0
@@ -43,7 +43,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2767865283,false,`HTMLElement.togglePopover` can't close the popover when applied on `<td>`,https://github.com/whatwg/html/issues/10890,2025-01-03T16:39:16Z,2025-01-14T00:23:21Z,LcsGa,topic: popover,0
 2765141727,true,Wrong link on `:target` css pseudo-class,https://github.com/whatwg/html/issues/10889,2025-01-01T16:00:37Z,2025-01-06T16:24:06Z,skyclouds2001,,0
 2762041321,false,ARIA and Accessibility API in HTML specification,https://github.com/whatwg/html/issues/10885,2024-12-28T23:45:58Z,2024-12-28T23:45:58Z,dSalieri,,0
-2760982461,true,Canvas text direction getter not interoperable,https://github.com/whatwg/html/issues/10884,2024-12-27T15:01:10Z,2025-01-31T21:23:06Z,schenney-chromium,topic: canvas,1
+2760982461,false,Canvas text direction getter not interoperable,https://github.com/whatwg/html/issues/10884,2024-12-27T15:01:10Z,2025-02-01T06:18:55Z,schenney-chromium,topic: canvas,1
 2754605091,false,valueAsTemporal: date/time input integration with JavaScript Temporal API,https://github.com/whatwg/html/issues/10882,2024-12-22T11:10:04Z,2025-01-16T19:17:03Z,o-t-w,addition/proposal|needs implementer interest|topic: forms,9
 2752376493,false,Audit and fix innerHTML scripting disabled parsing behavior for template,https://github.com/whatwg/html/issues/10879,2024-12-20T09:59:00Z,2025-01-21T15:00:08Z,hsivonen,topic: parser|interop,0
 2751257695,true,Upcoming WHATNOT meeting on 2025-01-09,https://github.com/whatwg/html/issues/10878,2024-12-19T19:32:37Z,2025-01-09T23:50:17Z,past,agenda+,0
@@ -217,7 +217,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2497494012,true,Support disabling CloseWatcher integration in `<dialog>`,https://github.com/whatwg/html/issues/10592,2024-08-30T15:11:55Z,2025-01-15T04:59:50Z,lucacasonato,addition/proposal|needs implementer interest|topic: dialog,5
 2495901933,true,Spec is missing that </p> is optional before <dialog>,https://github.com/whatwg/html/issues/10590,2024-08-30T00:43:44Z,2024-09-04T10:51:09Z,laughinghan,,1
 2495218582,true,Upcoming WHATNOT meeting on 2024-09-05,https://github.com/whatwg/html/issues/10589,2024-08-29T18:06:58Z,2024-09-05T16:15:28Z,past,agenda+,0
-2492588952,false,Iframe `sandbox` compatibility with Service Workers,https://github.com/whatwg/html/issues/10585,2024-08-28T16:56:47Z,2024-08-28T16:56:47Z,BlobTheKat,addition/proposal|needs implementer interest,2
+2492588952,false,Iframe `sandbox` compatibility with Service Workers,https://github.com/whatwg/html/issues/10585,2024-08-28T16:56:47Z,2024-08-28T16:56:47Z,BlobTheKat,addition/proposal|needs implementer interest,3
 2492022165,false,A way to get mouse coordinates without mouse moving,https://github.com/whatwg/html/issues/10584,2024-08-28T13:03:38Z,2024-09-16T18:40:27Z,oleedd,addition/proposal|needs implementer interest,0
 2491641714,true,"Interactions between `inert` and `hidden=""until-found""` and `beforematch` events",https://github.com/whatwg/html/issues/10583,2024-08-28T10:04:54Z,2024-10-18T16:12:40Z,romainmenke,clarification|a11y-tracker,0
 2490185456,true,Meeting 7 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10582,2024-08-27T19:39:46Z,2024-10-15T22:37:26Z,josepharhar,agenda+,0
@@ -253,7 +253,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2432148321,true,"""On platforms where Esc is the close request, the user agent will first fire an appropriately-initialized keydown and keyup event sequence"" is confusing",https://github.com/whatwg/html/issues/10523,2024-07-26T12:35:10Z,2024-08-15T01:18:42Z,smaug----,topic: close watchers,1
 2430671307,false,[rendering] animation frame callback handling when iframes are involved,https://github.com/whatwg/html/issues/10521,2024-07-25T17:58:37Z,2024-08-15T17:38:49Z,emilio,topic: rendering,1
 2430667894,false,Timing of cloning for the `<selectedoption>` element,https://github.com/whatwg/html/issues/10520,2024-07-25T17:56:27Z,2024-11-08T12:57:44Z,josepharhar,topic: select,1
-2430315277,false,Proposal: Element 'sensitive' attribute,https://github.com/whatwg/html/issues/10519,2024-07-25T15:29:50Z,2025-01-31T20:17:39Z,vmpstr,addition/proposal|needs implementer interest,4
+2430315277,false,Proposal: Element 'sensitive' attribute,https://github.com/whatwg/html/issues/10519,2024-07-25T15:29:50Z,2025-02-01T06:47:35Z,vmpstr,addition/proposal|needs implementer interest,4
 2429939244,false,Discussing new ways of tackling User-Agent discrimination,https://github.com/whatwg/html/issues/10518,2024-07-25T13:15:13Z,2024-07-31T13:23:08Z,BenjaminAster,addition/proposal|needs implementer interest,10
 2429293395,false,Specify error event filename/lineno/colno,https://github.com/whatwg/html/issues/10517,2024-07-25T07:56:01Z,2024-07-25T08:07:44Z,domenic,interop|topic: error reporting,0
 2429263337,false,"Update all call sites of the old ""report the exception"" ",https://github.com/whatwg/html/issues/10516,2024-07-25T07:40:01Z,2024-07-25T07:40:01Z,domenic,integration|topic: error reporting,0
@@ -1328,7 +1328,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1246423393,true,Access to private class members in the windows object is not checked,https://github.com/whatwg/html/issues/7952,2022-05-24T11:48:17Z,2023-02-19T20:40:53Z,joyeecheung,topic: multiple globals,0
 1245490159,false,Consider being strict about range mismatch for media,https://github.com/whatwg/html/issues/7950,2022-05-23T17:27:12Z,2022-05-24T07:26:22Z,noamr,topic: media|interop,1
 1245461464,true,Typo in section 2.1.4 DOM trees,https://github.com/whatwg/html/issues/7949,2022-05-23T16:58:18Z,2022-05-26T15:27:55Z,AegisFair,good first issue,1
-1244030392,false,Add color-interpolation-method support for canvas gradients,https://github.com/whatwg/html/issues/7947,2022-05-21T16:39:32Z,2025-01-31T21:18:20Z,weinig,addition/proposal|topic: canvas,6
+1244030392,false,Add color-interpolation-method support for canvas gradients,https://github.com/whatwg/html/issues/7947,2022-05-21T16:39:32Z,2025-02-01T02:01:58Z,weinig,addition/proposal|topic: canvas,6
 1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2024-04-03T14:48:25Z,BenjaminAster,addition/proposal|needs implementer interest,58
 1242018223,false,(Background) Tab Suspending,https://github.com/whatwg/html/issues/7942,2022-05-19T16:18:36Z,2022-05-19T16:18:36Z,johannhof,,0
 1242006437,false,Throttling and clamping of setTimeout and setInterval,https://github.com/whatwg/html/issues/7941,2022-05-19T16:08:39Z,2022-05-20T08:26:05Z,johannhof,topic: event loop|topic: timing,0
