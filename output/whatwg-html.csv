@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2826073101,false,Initially open dialog with closedby can be broken,https://github.com/whatwg/html/issues/10982,2025-02-02T22:59:48Z,2025-02-02T23:03:26Z,lukewarlow,topic: dialog,0
 2823446989,false,Make HTML Standard's page titles more distinct,https://github.com/whatwg/html/issues/10978,2025-01-31T13:09:43Z,2025-02-01T08:27:53Z,AtkinsSJ,meta,3
 2822743045,false,Locale setting is incomplete (international settings),https://github.com/whatwg/html/issues/10976,2025-01-31T08:14:03Z,2025-01-31T08:14:03Z,boudivv,addition/proposal|needs implementer interest,0
 2822724855,true,Locale setting is incomplete (international settings),https://github.com/whatwg/html/issues/10975,2025-01-31T08:02:44Z,2025-01-31T08:04:56Z,boudivv,,0
@@ -8,7 +9,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2819914069,false,Dialog processing model has gotten disorganized,https://github.com/whatwg/html/issues/10963,2025-01-30T05:07:49Z,2025-01-31T03:37:05Z,domenic,clarification|good first issue|topic: dialog,0
 2816721305,false,"Specify the bare li element ""list-style-position:inside"" quirk",https://github.com/whatwg/html/issues/10958,2025-01-28T19:58:39Z,2025-01-31T16:25:42Z,dholbert,topic: rendering|interop,0
 2814208745,false,Rendering option with empty label attribute or whitespace,https://github.com/whatwg/html/issues/10955,2025-01-27T22:41:52Z,2025-01-30T08:27:50Z,josepharhar,interop|topic: select,0
-2813945718,false,Missing attribute changed steps for dialog can cause assertions to be hit,https://github.com/whatwg/html/issues/10953,2025-01-27T20:05:43Z,2025-01-30T10:25:24Z,lukewarlow,,0
+2813945718,false,Missing attribute changed steps for dialog can cause assertions to be hit,https://github.com/whatwg/html/issues/10953,2025-01-27T20:05:43Z,2025-02-02T22:36:15Z,lukewarlow,,0
 2811777789,false,Proposal: Introduce <field-array> and <field-object> for Native Array/Object Handling in HTML Forms.,https://github.com/whatwg/html/issues/10948,2025-01-26T20:42:07Z,2025-01-26T20:42:07Z,ShoaibShokat03,addition/proposal|needs implementer interest,1
 2810743572,true,An HTML Markup Extension for AI Agents,https://github.com/whatwg/html/issues/10946,2025-01-25T03:59:06Z,2025-01-26T04:50:44Z,k-kolomeitsev,addition/proposal|needs implementer interest,0
 2809482300,false,Clarify IDL reflection for `closedby` attribute,https://github.com/whatwg/html/issues/10945,2025-01-24T13:37:23Z,2025-01-29T23:59:46Z,keithamus,normative change|topic: dialog,0
@@ -20,7 +21,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2802689110,true,"Add a new `<input type=""duration"" ... >`",https://github.com/whatwg/html/issues/10937,2025-01-21T19:55:29Z,2025-01-22T07:18:30Z,TheOneTheOnlyJJ,addition/proposal|needs implementer interest,0
 2801230312,true,"Wording of X-Frame-Options as legacy and ""obseleted""",https://github.com/whatwg/html/issues/10936,2025-01-21T09:32:59Z,2025-01-23T16:16:19Z,tunetheweb,clarification|document conformance,0
 2800651532,false,Details toggle event does not report reason for toggle,https://github.com/whatwg/html/issues/10935,2025-01-21T04:07:37Z,2025-01-21T04:08:13Z,legowerewolf,,0
-2800430480,false,Declarative shadow root adoption,https://github.com/whatwg/html/issues/10933,2025-01-20T23:52:29Z,2025-01-31T20:30:54Z,dead-claudia,addition/proposal|needs implementer interest,0
+2800430480,false,Declarative shadow root adoption,https://github.com/whatwg/html/issues/10933,2025-01-20T23:52:29Z,2025-01-31T20:30:54Z,dead-claudia,addition/proposal|needs implementer interest,1
 2797577015,true,Expand FontFace to expose glyph vector data and unicode shaping.,https://github.com/whatwg/html/issues/10930,2025-01-19T11:34:28Z,2025-01-20T08:27:41Z,CraigglesO,addition/proposal|needs implementer interest,0
 2797380844,false,Reset algorithm doesn't work in form-associated custom elements,https://github.com/whatwg/html/issues/10927,2025-01-19T03:05:16Z,2025-01-28T09:24:11Z,dSalieri,topic: custom elements|topic: forms,0
 2793924035,true,Upcoming WHATNOT meeting on 2025-01-23,https://github.com/whatwg/html/issues/10923,2025-01-16T22:38:09Z,2025-01-23T13:01:12Z,past,agenda+,0
@@ -169,7 +170,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2024-12-18T17:21:38Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,true,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-11-15T04:41:04Z,tabatkins,integration|topic: popover,0
-2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-01-17T22:01:13Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,2
+2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-01-17T22:01:13Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,3
 2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2024-11-07T17:14:43Z,emilio,topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2563239304,true,HTML Standard should allow more than one title,https://github.com/whatwg/html/issues/10668,2024-10-03T06:35:46Z,2025-01-07T01:30:26Z,ChristopherDoe,addition/proposal|needs implementer interest,1
@@ -340,7 +341,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2326705799,true,Upcoming WHATNOT meeting on 6/6/2024,https://github.com/whatwg/html/issues/10381,2024-05-30T23:34:22Z,2024-06-06T17:00:23Z,past,agenda+,0
 2324176691,false,HTML Video and its Source Elements Should Support SRCSET and SIZES,https://github.com/whatwg/html/issues/10379,2024-05-29T20:16:56Z,2024-08-14T12:07:18Z,scottjehl,addition/proposal|needs implementer interest|topic: media,7
 2324127724,false,HTML Video: Allow a child Picture Element to Control the Video Poster Image,https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2024-05-30T14:47:25Z,scottjehl,,17
-2324097406,false,"Specify That Responsive Video Elements Re-Evaluate Sources on Media Change, Like Picture",https://github.com/whatwg/html/issues/10377,2024-05-29T19:33:05Z,2024-05-29T19:33:05Z,scottjehl,,4
+2324097406,false,"Specify That Responsive Video Elements Re-Evaluate Sources on Media Change, Like Picture",https://github.com/whatwg/html/issues/10377,2024-05-29T19:33:05Z,2024-05-29T19:33:05Z,scottjehl,,6
 2324056660,false,Video loading=lazy attribute support,https://github.com/whatwg/html/issues/10376,2024-05-29T19:09:50Z,2025-01-24T15:58:00Z,scottjehl,addition/proposal|needs implementer interest|topic: media,15
 2322953911,true,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-10-08T12:22:36Z,yoavweiss,addition/proposal|needs implementer interest|topic: cross-origin-opener-policy,0
 2322574083,true,a element defines content model as only Transparent,https://github.com/whatwg/html/issues/10372,2024-05-29T07:26:47Z,2024-05-29T09:29:39Z,andrewnicols,,0

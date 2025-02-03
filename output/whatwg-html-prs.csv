@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2825373792,false,"[Editorial] ""state"" keywords have inconsistent casing #10802",https://github.com/whatwg/html/pull/10981,2025-02-01T19:01:55Z,2025-02-01T19:03:48Z,rgking,,0
+2826088887,false,Fix dialog `requestClose()` to handle edge case,https://github.com/whatwg/html/pull/10983,2025-02-02T23:35:46Z,2025-02-02T23:57:56Z,lukewarlow,,0
+2825373792,false,"[Editorial] ""state"" keywords have inconsistent casing #10802",https://github.com/whatwg/html/pull/10981,2025-02-01T19:01:55Z,2025-02-02T12:52:30Z,rgking,clarification,0
 2825354431,false,"Editorial: Update W3C License, fix WICG/webcomponents",https://github.com/whatwg/html/pull/10980,2025-02-01T18:20:18Z,2025-02-02T01:34:11Z,tylerjmorg,,0
 2823622273,false,"editorial: Fix spelling of ""committed""",https://github.com/whatwg/html/pull/10979,2025-01-31T14:14:30Z,2025-01-31T14:16:10Z,AtkinsSJ,,0
 2823298425,false,Editorial: reorganise dialog algorithms to end of section,https://github.com/whatwg/html/pull/10977,2025-01-31T12:25:21Z,2025-02-02T12:03:40Z,keithamus,clarification|topic: dialog,0
@@ -17,7 +18,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2816741425,false,Quirk: bare <li> have list-style-position: inside,https://github.com/whatwg/html/pull/10959,2025-01-28T21:22:42Z,2025-01-30T00:22:58Z,zcorpan,do not merge yet,0
 2816164539,false,Fire a load event for javascript: URL non-strings,https://github.com/whatwg/html/pull/10957,2025-01-28T16:24:36Z,2025-01-30T05:37:30Z,zcorpan,,0
 2814371404,false,Connect HTML spec up to new CSS `interactivity` property,https://github.com/whatwg/html/pull/10956,2025-01-28T00:50:42Z,2025-01-30T09:41:26Z,mfreed7,,0
-2813958440,false,Add attribute changed steps to dialog element,https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-02-01T19:10:47Z,lukewarlow,topic: dialog,0
+2813958440,false,Add attribute changed steps to dialog element,https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-02-02T22:35:37Z,lukewarlow,topic: dialog,0
 2812761134,false,"Add CanvasColorType, with unorm8 (the default) and float16 support",https://github.com/whatwg/html/pull/10951,2025-01-27T11:28:40Z,2025-01-27T13:14:33Z,ccameron-chromium,addition/proposal|topic: canvas,0
 2812128271,true,Editorial: fix variable name typo in inner navigate event firing,https://github.com/whatwg/html/pull/10950,2025-01-27T05:41:27Z,2025-01-28T01:15:03Z,domenic,,0
 2812054978,false,Fix CSP navigation request blocking,https://github.com/whatwg/html/pull/10949,2025-01-27T04:27:06Z,2025-01-31T13:27:51Z,domenic,topic: navigation,0
@@ -404,7 +405,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
 1933058172,true,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2024-04-04T11:37:04Z,jrandolf-2,do not merge yet|integration,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
-1932098948,false,Add commandfor & command attributes to HTMLButtonElement,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2025-01-16T18:13:32Z,keithamus,addition/proposal|do not merge yet|needs tests,1
+1932098948,false,Add commandfor & command attributes to HTMLButtonElement,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2025-02-02T12:34:40Z,keithamus,addition/proposal|do not merge yet|needs tests,1
 1931367969,true,Editorial: remove some copypasta around CORS settings attribute,https://github.com/whatwg/html/pull/9840,2023-10-07T14:14:19Z,2023-10-08T14:25:55Z,annevk,,0
 1930976617,true,"Fix typo in ""History-action activation-consuming APIs""",https://github.com/whatwg/html/pull/9839,2023-10-06T21:55:17Z,2023-10-10T04:56:14Z,CanadaHonk,,0
 1930460108,true,Perform a microtask checkpoint only after a task,https://github.com/whatwg/html/pull/9838,2023-10-06T15:38:05Z,2023-10-10T05:26:36Z,annevk,topic: event loop,1
