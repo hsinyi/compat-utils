@@ -1,12 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2826073101,false,Initially open dialog with closedby can be broken,https://github.com/whatwg/html/issues/10982,2025-02-02T22:59:48Z,2025-02-02T23:03:26Z,lukewarlow,topic: dialog,0
+2826073101,false,Initially open dialog with closedby can be broken,https://github.com/whatwg/html/issues/10982,2025-02-02T22:59:48Z,2025-02-03T02:26:01Z,lukewarlow,topic: dialog,0
 2823446989,false,Make HTML Standard's page titles more distinct,https://github.com/whatwg/html/issues/10978,2025-01-31T13:09:43Z,2025-02-01T08:27:53Z,AtkinsSJ,meta,3
 2822743045,false,Locale setting is incomplete (international settings),https://github.com/whatwg/html/issues/10976,2025-01-31T08:14:03Z,2025-01-31T08:14:03Z,boudivv,addition/proposal|needs implementer interest,0
 2822724855,true,Locale setting is incomplete (international settings),https://github.com/whatwg/html/issues/10975,2025-01-31T08:02:44Z,2025-01-31T08:04:56Z,boudivv,,0
 2822344106,true,Rendering of multiple captions in an HTML table,https://github.com/whatwg/html/issues/10973,2025-01-31T03:13:25Z,2025-01-31T09:15:27Z,karlcow,topic: rendering|interop,0
 2821912972,false,Upcoming WHATNOT meeting on 2025-02-06,https://github.com/whatwg/html/issues/10972,2025-01-30T22:06:51Z,2025-01-30T22:06:51Z,past,agenda+,0
 2820933080,true,NavigateEventInit is missing a sourceElement field,https://github.com/whatwg/html/issues/10970,2025-01-30T14:06:20Z,2025-01-31T03:42:35Z,AtkinsSJ,,0
-2819914069,false,Dialog processing model has gotten disorganized,https://github.com/whatwg/html/issues/10963,2025-01-30T05:07:49Z,2025-01-31T03:37:05Z,domenic,clarification|good first issue|topic: dialog,0
+2819914069,true,Dialog processing model has gotten disorganized,https://github.com/whatwg/html/issues/10963,2025-01-30T05:07:49Z,2025-02-03T02:32:19Z,domenic,clarification|good first issue|topic: dialog,0
 2816721305,false,"Specify the bare li element ""list-style-position:inside"" quirk",https://github.com/whatwg/html/issues/10958,2025-01-28T19:58:39Z,2025-01-31T16:25:42Z,dholbert,topic: rendering|interop,0
 2814208745,false,Rendering option with empty label attribute or whitespace,https://github.com/whatwg/html/issues/10955,2025-01-27T22:41:52Z,2025-01-30T08:27:50Z,josepharhar,interop|topic: select,0
 2813945718,false,Missing attribute changed steps for dialog can cause assertions to be hit,https://github.com/whatwg/html/issues/10953,2025-01-27T20:05:43Z,2025-02-02T22:36:15Z,lukewarlow,,0
@@ -201,7 +201,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2521171236,true,Small CSS change to spec documentation for ease of use,https://github.com/whatwg/html/issues/10618,2024-09-11T18:11:57Z,2024-10-01T01:17:43Z,FredGandt,good first issue,0
 2518778352,false,Allowing to start cross-document transition immediately,https://github.com/whatwg/html/issues/10616,2024-09-11T07:17:10Z,2024-09-11T07:17:10Z,bakura10,,0
 2518316469,false,Provide an API for getting visible caret position in textarea/input element,https://github.com/whatwg/html/issues/10614,2024-09-11T02:30:18Z,2024-09-30T17:20:43Z,siliu1,,1
-2516526415,false,"Automated `window.exportPdf()`,  Leveraging Browser's Print Save As PDF functionality",https://github.com/whatwg/html/issues/10612,2024-09-10T13:43:56Z,2024-09-24T08:58:12Z,apurvaojas,addition/proposal|needs implementer interest,1
+2516526415,false,"Automated `window.exportPdf()`,  Leveraging Browser's Print Save As PDF functionality",https://github.com/whatwg/html/issues/10612,2024-09-10T13:43:56Z,2025-02-03T01:53:05Z,apurvaojas,addition/proposal|needs implementer interest,3
 2515236890,false,createImageBitmap's Promise resolving,https://github.com/whatwg/html/issues/10611,2024-09-10T01:59:12Z,2024-09-19T08:02:38Z,Kaiido,topic: canvas|interop,0
 2515213556,false,"HTML spec: section 4.11.1, for `<details>` (`HTMLDetailsElement`), should probably briefly but explicitly state that the element uses shadow DOM, and should probably link to section 15.5.5 to direct readers to further information",https://github.com/whatwg/html/issues/10610,2024-09-10T01:32:54Z,2024-09-19T12:26:56Z,DavidJCobb,clarification|topic: rendering,0
 2514878452,true,Meeting 8 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10609,2024-09-09T20:41:39Z,2024-10-15T22:37:51Z,josepharhar,agenda+,0
@@ -462,7 +462,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2175120347,true,"Document ""rendering suppression for view transitions"" also suppresses ""perform pending transition operations""",https://github.com/whatwg/html/issues/10186,2024-03-08T01:40:36Z,2024-03-11T23:40:20Z,nt1m,topic: rendering,0
 2173990781,false,should search for draggable attribute follow dom tree or flattened tree?,https://github.com/whatwg/html/issues/10185,2024-03-07T14:26:12Z,2024-11-07T05:48:19Z,dbaron,,3
 2172574820,false,Is this bad to suggest that placeholder attributes can contain expected formats?,https://github.com/whatwg/html/issues/10183,2024-03-06T22:46:15Z,2024-03-06T22:49:08Z,anevins12,,0
-2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2024-03-18T21:00:51Z,andy-blum,addition/proposal|needs implementer interest|topic: img,10
+2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2024-03-18T21:00:51Z,andy-blum,addition/proposal|needs implementer interest|topic: img,11
 2171191672,true,Nits with link rel=expect,https://github.com/whatwg/html/issues/10180,2024-03-06T10:44:29Z,2024-03-11T06:42:48Z,jakearchibald,clarification|topic: rendering,0
 2161745995,false,Declaratively open popovers (and other elements?) on page load,https://github.com/whatwg/html/issues/10171,2024-02-29T17:19:04Z,2024-12-09T16:43:00Z,josepharhar,topic: dialog|topic: popover,0
 2160066080,false,Worklet termination,https://github.com/whatwg/html/issues/10169,2024-02-28T23:43:54Z,2024-03-04T08:12:24Z,daxpedda,addition/proposal|needs implementer interest|topic: worklets,0
@@ -1576,7 +1576,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1036665403,false,"""UA: reset the insertion mode appropriately"" algorithm clarification",https://github.com/whatwg/html/issues/7263,2021-10-26T19:33:10Z,2021-10-27T07:06:22Z,SoLaRGit,clarification|topic: parser,0
 1033927055,true,Form with target=_blank and opener relationship,https://github.com/whatwg/html/issues/7256,2021-10-22T20:29:58Z,2021-10-25T15:17:36Z,cdumez,topic: forms,0
 1033914516,false,Environment change causes all lazy `img` elements to load,https://github.com/whatwg/html/issues/7255,2021-10-22T20:12:22Z,2021-10-22T20:12:32Z,zcorpan,topic: img,0
-1031955624,false,How should BroadcastChannel and BFCache interact?,https://github.com/whatwg/html/issues/7253,2021-10-21T01:06:26Z,2025-01-31T11:12:14Z,fergald,topic: history|interop|topic: serialize and transfer,0
+1031955624,false,How should BroadcastChannel and BFCache interact?,https://github.com/whatwg/html/issues/7253,2021-10-21T01:06:26Z,2025-02-03T10:39:43Z,fergald,topic: history|interop|topic: serialize and transfer,0
 1031744384,true,Define serialization of a site,https://github.com/whatwg/html/issues/7250,2021-10-20T19:11:44Z,2021-10-21T15:30:02Z,apasel422,,0
 1031670880,true,shadowRoot attached on DIV Element does not reset styles with all:initial,https://github.com/whatwg/html/issues/7249,2021-10-20T17:45:43Z,2021-10-22T06:00:46Z,Danny-Engelman,,0
 1031422824,false,"""Paint the region of the image"" in what colorspace?",https://github.com/whatwg/html/issues/7245,2021-10-20T13:36:50Z,2021-10-20T14:15:43Z,svgeesus,topic: canvas,0
@@ -2634,12 +2634,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 472928645,true,Plain Unicode string,https://github.com/whatwg/html/issues/4798,2019-07-25T15:22:42Z,2019-08-09T21:06:13Z,r12a,clarification|good first issue|i18n-needs-resolution,0
 472446365,false,"""The cookieEnabled attribute must return true if...""",https://github.com/whatwg/html/issues/4797,2019-07-24T18:53:44Z,2020-10-19T10:12:53Z,morlovich,topic: cookie,0
 472187343,false,"What should happen to hover, focus and active chains when the flat tree changes?",https://github.com/whatwg/html/issues/4795,2019-07-24T09:51:36Z,2022-10-16T13:05:40Z,emilio,topic: rendering|topic: focus,0
-471955987,false,Could input events be allowed while dragging?,https://github.com/whatwg/html/issues/4794,2019-07-23T21:19:14Z,2021-07-13T02:40:43Z,tontonsb,addition/proposal|needs implementer interest|topic: drag and drop,2
+471955987,false,Could input events be allowed while dragging?,https://github.com/whatwg/html/issues/4794,2019-07-23T21:19:14Z,2025-02-03T08:29:15Z,tontonsb,addition/proposal|needs implementer interest|topic: drag and drop,3
 471923702,true,Should images other than img use the list of available images?,https://github.com/whatwg/html/issues/4793,2019-07-23T20:27:59Z,2020-02-04T13:31:12Z,npm1,topic: img|topic: fetch,0
 471167003,false,"We should probably reinstate HTMLDocument, with a named getter, in the spec",https://github.com/whatwg/html/issues/4792,2019-07-22T16:05:41Z,2024-10-08T08:40:23Z,bzbarsky,needs tests|interop,1
 470122528,true,Autofocus element in a <dialog> tries to get focus twice,https://github.com/whatwg/html/issues/4788,2019-07-19T03:41:41Z,2019-11-07T18:58:14Z,tkent-google,topic: focus,0
 469784910,false,Declarative WebWorker?,https://github.com/whatwg/html/issues/4786,2019-07-18T13:56:24Z,2020-04-30T12:07:13Z,fserb,addition/proposal|needs implementer interest|topic: workers,0
-469474452,false,[Proposal] ImageBitmap.getImageData,https://github.com/whatwg/html/issues/4785,2019-07-17T22:19:01Z,2023-05-03T11:11:35Z,dsanders11,addition/proposal|needs implementer interest|topic: canvas,30
+469474452,false,[Proposal] ImageBitmap.getImageData,https://github.com/whatwg/html/issues/4785,2019-07-17T22:19:01Z,2023-05-03T11:11:35Z,dsanders11,addition/proposal|needs implementer interest|topic: canvas,31
 469436105,false,Implement proposed Focus Traversal API,https://github.com/whatwg/html/issues/4784,2019-07-17T20:44:51Z,2019-09-19T06:02:37Z,arei,addition/proposal|needs implementer interest|topic: focus,0
 469368865,false,Initializing Feature Policy is racy,https://github.com/whatwg/html/issues/4783,2019-07-17T18:10:30Z,2019-07-18T19:20:49Z,dtapuska,topic: navigation|topic: frames/navigables/browsing contexts|integration,0
 469173271,true,"User agents, session history, browsing contexts, and agent clusters",https://github.com/whatwg/html/issues/4782,2019-07-17T12:48:01Z,2022-10-31T05:07:01Z,annevk,topic: history|topic: frames/navigables/browsing contexts|topic: agent,0
