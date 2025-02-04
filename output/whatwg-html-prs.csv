@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2826088887,false,Fix dialog `requestClose()` to handle edge case,https://github.com/whatwg/html/pull/10983,2025-02-02T23:35:46Z,2025-02-03T12:05:51Z,lukewarlow,topic: dialog|topic: close watchers,0
+2827977225,false,CSS Color 4 color spaces for canvasGradient,https://github.com/whatwg/html/pull/10986,2025-02-03T16:24:43Z,2025-02-03T18:35:22Z,mysteryDate,,0
+2826088887,false,Fix dialog `requestClose()` to handle edge case,https://github.com/whatwg/html/pull/10983,2025-02-02T23:35:46Z,2025-02-03T12:22:18Z,lukewarlow,topic: dialog|topic: close watchers,0
 2825373792,false,"[Editorial] ""state"" keywords have inconsistent casing #10802",https://github.com/whatwg/html/pull/10981,2025-02-01T19:01:55Z,2025-02-02T12:52:30Z,rgking,clarification,0
 2825354431,false,"Editorial: Update W3C License, fix WICG/webcomponents",https://github.com/whatwg/html/pull/10980,2025-02-01T18:20:18Z,2025-02-02T01:34:11Z,tylerjmorg,,0
 2823622273,true,"editorial: Fix spelling of ""committed""",https://github.com/whatwg/html/pull/10979,2025-01-31T14:14:30Z,2025-02-03T11:16:24Z,AtkinsSJ,,0
@@ -15,10 +16,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2819575069,false,"Fix null URL blob handling in ""get an element's noopener""",https://github.com/whatwg/html/pull/10962,2025-01-29T23:44:22Z,2025-01-30T04:50:50Z,shannonbooth,,0
 2817717662,true,[Editorial] separate out showModal steps into own algorithm,https://github.com/whatwg/html/pull/10961,2025-01-29T09:51:49Z,2025-01-30T09:05:40Z,keithamus,editorial|topic: dialog,0
 2817697425,false,[Editorial] rework button states to allow for command/commandfor attributes,https://github.com/whatwg/html/pull/10960,2025-01-29T09:42:32Z,2025-02-02T12:04:05Z,keithamus,,0
-2816741425,false,Quirk: bare <li> have list-style-position: inside,https://github.com/whatwg/html/pull/10959,2025-01-28T21:22:42Z,2025-01-30T00:22:58Z,zcorpan,do not merge yet,0
+2816741425,false,Bare <li> should have list-style-position: inside,https://github.com/whatwg/html/pull/10959,2025-01-28T21:22:42Z,2025-02-03T22:58:21Z,zcorpan,,0
 2816164539,false,Fire a load event for javascript: URL non-strings,https://github.com/whatwg/html/pull/10957,2025-01-28T16:24:36Z,2025-01-30T05:37:30Z,zcorpan,,0
 2814371404,false,Connect HTML spec up to new CSS `interactivity` property,https://github.com/whatwg/html/pull/10956,2025-01-28T00:50:42Z,2025-01-30T09:41:26Z,mfreed7,,0
-2813958440,false,Add attribute changed steps to dialog element,https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-02-02T22:35:37Z,lukewarlow,topic: dialog,0
+2813958440,false,Add attribute changed steps to dialog element,https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-02-03T12:25:15Z,lukewarlow,topic: dialog,0
 2812761134,false,"Add CanvasColorType, with unorm8 (the default) and float16 support",https://github.com/whatwg/html/pull/10951,2025-01-27T11:28:40Z,2025-01-27T13:14:33Z,ccameron-chromium,addition/proposal|topic: canvas,0
 2812128271,true,Editorial: fix variable name typo in inner navigate event firing,https://github.com/whatwg/html/pull/10950,2025-01-27T05:41:27Z,2025-01-28T01:15:03Z,domenic,,0
 2812054978,false,Fix CSP navigation request blocking,https://github.com/whatwg/html/pull/10949,2025-01-27T04:27:06Z,2025-01-31T13:27:51Z,domenic,topic: navigation,0
@@ -30,7 +31,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2794978313,true,define getEnabledState for closewatcher constructor,https://github.com/whatwg/html/pull/10926,2025-01-17T09:29:08Z,2025-01-21T08:27:17Z,keithamus,topic: close watchers,0
 2794798550,false,Editorial: change style of preload integrity metadata test,https://github.com/whatwg/html/pull/10924,2025-01-17T07:46:30Z,2025-01-30T06:28:53Z,domenic,,0
 2793824242,true,Editorial: fix grammar in note about error checking serialization,https://github.com/whatwg/html/pull/10922,2025-01-16T21:38:31Z,2025-01-17T01:18:35Z,shannonbooth,,0
-2792585961,false,Navigation API: deferred commit,https://github.com/whatwg/html/pull/10919,2025-01-16T12:21:41Z,2025-01-24T05:11:08Z,noamr,addition/proposal|topic: navigation,0
+2792585961,false,Navigation API: deferred commit,https://github.com/whatwg/html/pull/10919,2025-01-16T12:21:41Z,2025-02-03T16:22:37Z,noamr,addition/proposal|topic: navigation,0
 2790720327,true,Add logic to update radio button group checkedness when an input radio becomes connected,https://github.com/whatwg/html/pull/10917,2025-01-15T19:56:00Z,2025-01-30T02:22:42Z,EdgarChen,,0
 2788915194,true,Fix url and src in NotRestoredReasons,https://github.com/whatwg/html/pull/10916,2025-01-15T06:02:54Z,2025-01-21T02:09:02Z,domenic,,0
 2787952111,false,Allowing SameSite=None Cookies in First-Party Sandboxed Contexts,https://github.com/whatwg/html/pull/10915,2025-01-14T18:04:19Z,2025-01-16T14:25:53Z,aamuley,topic: cookie,0
@@ -48,7 +49,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2756321003,false,Remove new browsing context/Document referrer assignment,https://github.com/whatwg/html/pull/10883,2024-12-23T15:51:38Z,2025-01-20T03:00:28Z,domfarolino,do not merge yet|topic: frames/navigables/browsing contexts,0
 2753010492,true,Add missing character renders in Tokenization,https://github.com/whatwg/html/pull/10880,2024-12-20T15:56:58Z,2025-01-14T08:15:41Z,AMS21,,0
 2750350934,true,Editorial: improve fragment parsing,https://github.com/whatwg/html/pull/10874,2024-12-19T13:33:26Z,2025-01-06T15:18:32Z,annevk,,0
-2749014142,false,"Add a `lang` IDL Attribute to CanvasTextDrawingStyles, and clarify ""direction"" on same",https://github.com/whatwg/html/pull/10873,2024-12-19T00:45:36Z,2025-02-01T14:46:20Z,schenney-chromium,topic: canvas,0
+2749014142,false,"Add a `lang` IDL Attribute to CanvasTextDrawingStyles, and clarify ""direction"" on same",https://github.com/whatwg/html/pull/10873,2024-12-19T00:45:36Z,2025-02-03T19:13:57Z,schenney-chromium,topic: canvas,0
 2745581253,false,Add Scoped Custom Element Registries,https://github.com/whatwg/html/pull/10869,2024-12-17T17:33:19Z,2025-01-31T07:30:42Z,annevk,addition/proposal|topic: shadow|topic: custom elements,0
 2745477397,true,"Editorial: Finish renaming ""post-insert"" to ""post-connection""",https://github.com/whatwg/html/pull/10868,2024-12-17T16:51:45Z,2024-12-17T17:12:45Z,domfarolino,integration|editorial,0
 2742760704,true,Editorial: add a concept for Window's CustomElementRegistry,https://github.com/whatwg/html/pull/10865,2024-12-16T15:53:22Z,2024-12-17T07:23:44Z,annevk,,0
@@ -500,7 +501,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2024-10-08T14:04:19Z,cijian23,invalid,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,true,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-10-11T23:22:22Z,josepharhar,addition/proposal|topic: parser|impacts documentation,1
-1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2024-12-09T17:04:54Z,graveljp,topic: canvas,1
+1812629719,false,Add a layer and filter interface in the 2D canvas,https://github.com/whatwg/html/pull/9537,2023-07-19T19:49:25Z,2025-02-03T14:46:26Z,graveljp,topic: canvas,1
 1810870126,true,Define srcdoc documents as matching about:srcdoc URL,https://github.com/whatwg/html/pull/9534,2023-07-18T23:37:14Z,2023-07-20T03:49:15Z,domfarolino,topic: frames/navigables/browsing contexts|topic: document.open()|topic: javascript: URLs,0
 1810164917,true,Fix non-fetch-scheme-params-initiator-origin assignment,https://github.com/whatwg/html/pull/9532,2023-07-18T15:25:02Z,2023-07-19T07:17:21Z,domfarolino,topic: navigation,0
 1809663999,true,Add types to parameters of script fetching algorithms,https://github.com/whatwg/html/pull/9530,2023-07-18T10:39:07Z,2023-07-20T06:18:13Z,nicolo-ribaudo,,0
