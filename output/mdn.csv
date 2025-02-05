@@ -33,9 +33,9 @@ api/Accelerometer/Accelerometer,,,,67,,,,true,true,false,https://w3c.github.io/a
 api/Accelerometer/x,,,,67,,,,true,true,false,https://w3c.github.io/accelerometer/#accelerometer-x,W3C
 api/Accelerometer/y,,,,67,,,,true,true,false,https://w3c.github.io/accelerometer/#accelerometer-y,W3C
 api/Accelerometer/z,,,,67,,,,true,true,false,https://w3c.github.io/accelerometer/#accelerometer-z,W3C
-api/AmbientLightSensor,,,,56,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,https://w3c.github.io/ambient-light/#ambient-light-sensor-interface,W3C
-api/AmbientLightSensor/AmbientLightSensor,,,,56,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,https://w3c.github.io/ambient-light/#dom-ambientlightsensor-ambientlightsensor,W3C
-api/AmbientLightSensor/illuminance,,,,56,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,https://w3c.github.io/ambient-light/#ambient-light-sensor-reading-attribute,W3C
+api/AmbientLightSensor,,,,67,"[{""name"":""#enable-generic-sensor-extra-classes"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,https://w3c.github.io/ambient-light/#ambient-light-sensor-interface,W3C
+api/AmbientLightSensor/AmbientLightSensor,,,,67,"[{""name"":""#enable-generic-sensor-extra-classes"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,https://w3c.github.io/ambient-light/#dom-ambientlightsensor-ambientlightsensor,W3C
+api/AmbientLightSensor/illuminance,,,,67,"[{""name"":""#enable-generic-sensor-extra-classes"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,https://w3c.github.io/ambient-light/#ambient-light-sensor-reading-attribute,W3C
 api/AnalyserNode,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#AnalyserNode,W3C
 api/AnalyserNode/AnalyserNode,,53,,55,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-analysernode-analysernode,W3C
 api/AnalyserNode/fftSize,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-analysernode-fftsize,W3C
@@ -11865,6 +11865,7 @@ html/elements/acronym,,1,,1,,1,,false,true,true,https://html.spec.whatwg.org/mul
 html/elements/address,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/sections.html#the-address-element,WHATWG
 html/elements/area,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/image-maps.html#the-area-element,WHATWG
 html/elements/area/alt,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/image-maps.html#attr-area-alt,WHATWG
+html/elements/area/attributionsrc,,,,125,,,,true,true,false,https://wicg.github.io/attribution-reporting-api/#element-attrdef-area-attributionsrc,W3CCG
 html/elements/area/coords,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/image-maps.html#attr-area-coords,WHATWG
 html/elements/area/download,,20,,54,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-download,WHATWG
 html/elements/area/href,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-href,WHATWG

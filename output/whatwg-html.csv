@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2831205178,true,younes,https://github.com/whatwg/html/issues/10992,2025-02-04T20:19:04Z,2025-02-04T22:16:23Z,younesbouzouiya,invalid,0
+2831961444,false,A new API for work during unload,https://github.com/whatwg/html/issues/10997,2025-02-05T05:42:14Z,2025-02-05T05:42:14Z,domenic,addition/proposal|needs implementer interest,0
+2831676809,false,"Assertion in ""hide all popovers until"" will fail when changing a showing ""hint"" popover to ""auto""",https://github.com/whatwg/html/issues/10996,2025-02-05T02:04:22Z,2025-02-05T02:04:22Z,Gingeh,,0
 2829155769,false,The topmost popover ancestor algorithm is used for manual popovers,https://github.com/whatwg/html/issues/10988,2025-02-04T05:12:29Z,2025-02-04T05:12:29Z,Gingeh,,0
 2826073101,false,Initially open dialog with closedby can be broken,https://github.com/whatwg/html/issues/10982,2025-02-02T22:59:48Z,2025-02-03T02:26:01Z,lukewarlow,topic: dialog,0
 2823446989,false,Make HTML Standard's page titles more distinct,https://github.com/whatwg/html/issues/10978,2025-01-31T13:09:43Z,2025-02-01T08:27:53Z,AtkinsSJ,meta,3
@@ -175,8 +176,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-01-17T22:01:13Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,3
 2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2024-11-07T17:14:43Z,emilio,topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
-2563239304,true,HTML Standard should allow more than one title,https://github.com/whatwg/html/issues/10668,2024-10-03T06:35:46Z,2025-01-07T01:30:26Z,ChristopherDoe,addition/proposal|needs implementer interest,1
-2562933170,true,HTML should allow more than one title,https://github.com/whatwg/html/issues/10667,2024-10-03T01:29:11Z,2024-10-03T02:14:38Z,ChristopherDoe,,1
 2562416768,true,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-12T00:18:10Z,past,agenda+,0
 2561061638,false,`alert()`/`confirm()`/`prompt()` focus behavior is not specified,https://github.com/whatwg/html/issues/10664,2024-10-02T09:23:46Z,2024-10-02T09:23:46Z,zcorpan,topic: focus,0
 2555508180,true,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-10-30T05:36:43Z,domenic,normative change|topic: dialog|topic: popover,1
@@ -256,7 +255,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2432148321,true,"""On platforms where Esc is the close request, the user agent will first fire an appropriately-initialized keydown and keyup event sequence"" is confusing",https://github.com/whatwg/html/issues/10523,2024-07-26T12:35:10Z,2024-08-15T01:18:42Z,smaug----,topic: close watchers,1
 2430671307,false,[rendering] animation frame callback handling when iframes are involved,https://github.com/whatwg/html/issues/10521,2024-07-25T17:58:37Z,2024-08-15T17:38:49Z,emilio,topic: rendering,1
 2430667894,false,Timing of cloning for the `<selectedoption>` element,https://github.com/whatwg/html/issues/10520,2024-07-25T17:56:27Z,2024-11-08T12:57:44Z,josepharhar,topic: select,1
-2430315277,false,Proposal: Element 'sensitive' attribute,https://github.com/whatwg/html/issues/10519,2024-07-25T15:29:50Z,2025-02-04T18:50:34Z,vmpstr,addition/proposal|needs implementer interest,4
+2430315277,false,Proposal: Element 'sensitive' attribute,https://github.com/whatwg/html/issues/10519,2024-07-25T15:29:50Z,2025-02-05T04:23:37Z,vmpstr,addition/proposal|needs implementer interest,4
 2429939244,false,Discussing new ways of tackling User-Agent discrimination,https://github.com/whatwg/html/issues/10518,2024-07-25T13:15:13Z,2024-07-31T13:23:08Z,BenjaminAster,addition/proposal|needs implementer interest,10
 2429293395,false,Specify error event filename/lineno/colno,https://github.com/whatwg/html/issues/10517,2024-07-25T07:56:01Z,2024-07-25T08:07:44Z,domenic,interop|topic: error reporting,0
 2429263337,false,"Update all call sites of the old ""report the exception"" ",https://github.com/whatwg/html/issues/10516,2024-07-25T07:40:01Z,2024-07-25T07:40:01Z,domenic,integration|topic: error reporting,0
@@ -595,7 +594,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1998116614,true,How to serialize new CSS color functions in canvas?,https://github.com/whatwg/html/issues/9939,2023-11-17T01:59:39Z,2023-11-17T02:42:23Z,Loirooriol,,0
 1998110326,true,Orphan nested dedicated worker closing seems buggy,https://github.com/whatwg/html/issues/9938,2023-11-17T01:55:30Z,2023-11-18T03:12:22Z,Kaiido,clarification|topic: workers,0
 1997946764,true,Upcoming WHATNOT meeting on 11/30/2023,https://github.com/whatwg/html/issues/9937,2023-11-16T23:11:47Z,2023-12-01T00:02:06Z,past,agenda+,0
-1997483561,false,A popover on top of a modal dialog should be interactable,https://github.com/whatwg/html/issues/9936,2023-11-16T18:24:20Z,2025-01-28T14:02:03Z,benfrain,topic: dialog|topic: popover,24
+1997483561,false,A popover on top of a modal dialog should be interactable,https://github.com/whatwg/html/issues/9936,2023-11-16T18:24:20Z,2025-02-05T10:54:37Z,benfrain,topic: dialog|topic: popover,25
 1996392285,false,Cookie API,https://github.com/whatwg/html/issues/9935,2023-11-16T09:05:17Z,2024-01-16T15:59:46Z,kettanaito,addition/proposal|needs implementer interest|topic: cookie,70
 1990956391,true,Enable lazy loading for URLs on use href,https://github.com/whatwg/html/issues/9929,2023-11-13T15:59:05Z,2023-11-14T03:49:00Z,lfre,addition/proposal|needs implementer interest,0
 1990529573,false,Switch back to official CSSWG specs,https://github.com/whatwg/html/issues/9928,2023-11-13T12:12:23Z,2023-11-13T12:14:28Z,Loirooriol,,0
@@ -1166,7 +1165,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2024-07-01T14:51:47Z,ian97531,addition/proposal|needs implementer interest|topic: workers,15
 1399126032,false,How do shadow roots and slots interact with the content model?,https://github.com/whatwg/html/issues/8361,2022-10-06T08:47:59Z,2022-10-07T10:52:20Z,castholm,,0
 1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,93
-1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2022-10-06T15:43:39Z,annevk,addition/proposal|topic: script,2
+1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2022-10-06T15:43:39Z,annevk,addition/proposal|topic: script,3
 1396727910,false,"Which type of replaced elements should a ""`<img>` with empty src or without src"" be treated",https://github.com/whatwg/html/issues/8354,2022-10-04T19:11:52Z,2022-10-14T18:58:36Z,cathiechen,topic: rendering|topic: img,0
 1396199556,true,Consistify spelling of realm,https://github.com/whatwg/html/issues/8353,2022-10-04T12:32:09Z,2022-10-06T07:14:58Z,annevk,clarification,0
 1393739571,true,"Typo in section ""4.8.13 The area element""",https://github.com/whatwg/html/issues/8346,2022-10-02T11:55:31Z,2022-10-06T07:32:09Z,chalkygames123,good first issue,0
@@ -2266,7 +2265,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 608634360,false,window.focus() vs system level focus of the window/tab,https://github.com/whatwg/html/issues/5493,2020-04-28T21:41:11Z,2020-08-12T00:18:35Z,mustaqahmed,interop|topic: focus,0
 608243971,false,marquee element and display,https://github.com/whatwg/html/issues/5492,2020-04-28T11:29:56Z,2020-04-28T11:29:56Z,annevk,topic: rendering,0
 607201372,false,Should draggable and <link href> elements be focusable?,https://github.com/whatwg/html/issues/5490,2020-04-27T03:22:04Z,2020-04-27T07:00:17Z,TimothyGu,topic: focus|topic: link,0
-607136818,false,"<input type=""time""> : Time vs. duration",https://github.com/whatwg/html/issues/5488,2020-04-26T23:06:14Z,2025-02-04T17:03:19Z,d-damien,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,2
+607136818,false,"<input type=""time""> : Time vs. duration",https://github.com/whatwg/html/issues/5488,2020-04-26T23:06:14Z,2025-02-04T17:03:19Z,d-damien,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,3
 607075310,true,contenteditable elements should be focusable areas,https://github.com/whatwg/html/issues/5487,2020-04-26T18:05:58Z,2020-04-28T14:02:21Z,TimothyGu,topic: editing,1
 607073471,true,execCommand.html dead link,https://github.com/whatwg/html/issues/5486,2020-04-26T17:59:13Z,2020-06-25T14:09:04Z,TimothyGu,topic: editing,0
 606781021,true,Clarify sync vs async nature of Worker::postMessage,https://github.com/whatwg/html/issues/5485,2020-04-25T14:28:53Z,2020-04-28T11:40:07Z,RReverser,topic: serialize and transfer,0
