@@ -1,8 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2839042841,false,"Popover, modal, and [inert] stylesheet contents should maybe have their own section",https://github.com/whatwg/html/issues/11011,2025-02-07T20:37:05Z,2025-02-07T20:37:05Z,mfreed7,,0
 2838837904,false,Upcoming WHATNOT meeting on 2025-02-13,https://github.com/whatwg/html/issues/11010,2025-02-07T18:41:13Z,2025-02-07T18:41:13Z,past,agenda+,0
-2837242514,false,"""topmost popover ancestor"" ignores ""hint"" popovers",https://github.com/whatwg/html/issues/11008,2025-02-07T05:01:29Z,2025-02-07T05:01:29Z,Gingeh,,0
-2836822957,false,"Should the popoverList in ""hide popover stack until"" and ""close entire popover list"" be dynamically updated?",https://github.com/whatwg/html/issues/11007,2025-02-06T23:16:31Z,2025-02-07T18:36:50Z,Gingeh,,0
+2837242514,false,"Hint popovers can't be the ""topmost open popover ancestor"" of dialog elements",https://github.com/whatwg/html/issues/11008,2025-02-07T05:01:29Z,2025-02-08T04:21:35Z,Gingeh,,0
+2836822957,false,"Should the popoverList in ""hide popover stack until"" and ""close entire popover list"" be dynamically updated?",https://github.com/whatwg/html/issues/11007,2025-02-06T23:16:31Z,2025-02-08T05:22:24Z,Gingeh,,0
 2834192046,false,ARIA notify iframe restrictions,https://github.com/whatwg/html/issues/11004,2025-02-05T23:50:07Z,2025-02-06T23:01:43Z,aluhrs13,addition/proposal|needs implementer interest,1
 2833494241,true,Web Workers importmap field,https://github.com/whatwg/html/issues/11002,2025-02-05T17:03:07Z,2025-02-06T06:21:49Z,WebReflection,,2
 2833216763,true,tuple in #concept-origin-tuple should link to https://infra.spec.whatwg.org/#tuple,https://github.com/whatwg/html/issues/10999,2025-02-05T15:08:43Z,2025-02-06T01:25:34Z,farre,,0
@@ -23,7 +23,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2813945718,false,Missing attribute changed steps for dialog can cause assertions to be hit,https://github.com/whatwg/html/issues/10953,2025-01-27T20:05:43Z,2025-02-07T21:01:50Z,lukewarlow,,0
 2811777789,false,Proposal: Introduce <field-array> and <field-object> for Native Array/Object Handling in HTML Forms.,https://github.com/whatwg/html/issues/10948,2025-01-26T20:42:07Z,2025-01-26T20:42:07Z,ShoaibShokat03,addition/proposal|needs implementer interest,1
 2810743572,true,An HTML Markup Extension for AI Agents,https://github.com/whatwg/html/issues/10946,2025-01-25T03:59:06Z,2025-01-26T04:50:44Z,k-kolomeitsev,addition/proposal|needs implementer interest,0
-2809482300,false,Clarify IDL reflection for `closedby` attribute,https://github.com/whatwg/html/issues/10945,2025-01-24T13:37:23Z,2025-02-07T22:31:10Z,keithamus,normative change|topic: dialog|agenda+,0
+2809482300,false,Clarify IDL reflection for `closedby` attribute,https://github.com/whatwg/html/issues/10945,2025-01-24T13:37:23Z,2025-02-08T06:06:55Z,keithamus,normative change|topic: dialog|agenda+,0
 2809064495,false,Replenishment of element queue or backup element queue can be performed for the same element,https://github.com/whatwg/html/issues/10944,2025-01-24T10:15:23Z,2025-01-27T03:40:10Z,dSalieri,topic: custom elements,0
 2808425148,false,Clarify behavior of element.focus( { focusVisible: false } ),https://github.com/whatwg/html/issues/10943,2025-01-24T03:42:45Z,2025-01-27T19:53:41Z,woody-li,,0
 2807754812,false,Meeting 15 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10942,2025-01-23T19:37:18Z,2025-02-06T16:01:27Z,chrishtr,,0
