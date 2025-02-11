@@ -1,13 +1,16 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2843211409,false,"Set `ImageDataSettings` to have `colorSpace` default to `""srgb""`",https://github.com/whatwg/html/issues/11016,2025-02-10T17:56:23Z,2025-02-10T17:59:06Z,ccameron-chromium,,0
+2842338250,false,Use color channels or color components consistently throughout,https://github.com/whatwg/html/issues/11014,2025-02-10T12:58:44Z,2025-02-10T23:25:14Z,annevk,clarification,0
+2842327178,false,WheelEvent (or MouseEvent) should specify a device type,https://github.com/whatwg/html/issues/11013,2025-02-10T12:54:15Z,2025-02-10T12:56:07Z,faceless2,addition/proposal|needs implementer interest,0
 2839042841,false,"Popover, modal, and [inert] stylesheet contents should maybe have their own section",https://github.com/whatwg/html/issues/11011,2025-02-07T20:37:05Z,2025-02-07T20:37:05Z,mfreed7,,0
 2838837904,false,Upcoming WHATNOT meeting on 2025-02-13,https://github.com/whatwg/html/issues/11010,2025-02-07T18:41:13Z,2025-02-07T18:41:13Z,past,agenda+,0
 2837242514,false,"Hint popovers can't be the ""topmost open popover ancestor"" of dialog elements",https://github.com/whatwg/html/issues/11008,2025-02-07T05:01:29Z,2025-02-08T04:21:35Z,Gingeh,,0
 2836822957,false,"Should the popoverList in ""hide popover stack until"" and ""close entire popover list"" be dynamically updated?",https://github.com/whatwg/html/issues/11007,2025-02-06T23:16:31Z,2025-02-09T09:43:20Z,Gingeh,,0
-2834192046,false,ARIA notify iframe restrictions,https://github.com/whatwg/html/issues/11004,2025-02-05T23:50:07Z,2025-02-06T23:01:43Z,aluhrs13,addition/proposal|needs implementer interest,1
+2834192046,false,ARIA notify iframe restrictions,https://github.com/whatwg/html/issues/11004,2025-02-05T23:50:07Z,2025-02-10T15:21:27Z,aluhrs13,addition/proposal|needs implementer interest,1
 2833494241,true,Web Workers importmap field,https://github.com/whatwg/html/issues/11002,2025-02-05T17:03:07Z,2025-02-06T06:21:49Z,WebReflection,,2
 2833216763,true,tuple in #concept-origin-tuple should link to https://infra.spec.whatwg.org/#tuple,https://github.com/whatwg/html/issues/10999,2025-02-05T15:08:43Z,2025-02-06T01:25:34Z,farre,,0
 2833183975,false,Clarification of #obtain-similar-origin-window-agent,https://github.com/whatwg/html/issues/10998,2025-02-05T14:56:03Z,2025-02-06T14:37:58Z,farre,topic: origin,0
-2831961444,false,A new API for work during unload,https://github.com/whatwg/html/issues/10997,2025-02-05T05:42:14Z,2025-02-10T05:27:52Z,domenic,addition/proposal|needs implementer interest,0
+2831961444,false,A new API for work during unload,https://github.com/whatwg/html/issues/10997,2025-02-05T05:42:14Z,2025-02-10T21:02:17Z,domenic,addition/proposal|needs implementer interest,0
 2831676809,false,"Assertion in ""hide all popovers until"" will fail when changing a showing ""hint"" popover to ""auto""",https://github.com/whatwg/html/issues/10996,2025-02-05T02:04:22Z,2025-02-07T21:02:45Z,Gingeh,,0
 2829155769,false,The topmost popover ancestor algorithm is used for manual popovers,https://github.com/whatwg/html/issues/10988,2025-02-04T05:12:29Z,2025-02-07T18:21:41Z,Gingeh,,0
 2826073101,false,Initially open dialog with closedby can be broken,https://github.com/whatwg/html/issues/10982,2025-02-02T22:59:48Z,2025-02-07T21:02:06Z,lukewarlow,topic: dialog,0
@@ -21,9 +24,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2816721305,false,"Specify the bare li element ""list-style-position:inside"" quirk",https://github.com/whatwg/html/issues/10958,2025-01-28T19:58:39Z,2025-02-04T11:08:32Z,dholbert,topic: rendering|interop,0
 2814208745,false,Rendering option with empty label attribute or whitespace,https://github.com/whatwg/html/issues/10955,2025-01-27T22:41:52Z,2025-01-30T08:27:50Z,josepharhar,interop|topic: select,0
 2813945718,false,Missing attribute changed steps for dialog can cause assertions to be hit,https://github.com/whatwg/html/issues/10953,2025-01-27T20:05:43Z,2025-02-07T21:01:50Z,lukewarlow,,0
-2811777789,false,Proposal: Introduce <field-array> and <field-object> for Native Array/Object Handling in HTML Forms.,https://github.com/whatwg/html/issues/10948,2025-01-26T20:42:07Z,2025-01-26T20:42:07Z,ShoaibShokat03,addition/proposal|needs implementer interest,1
+2811777789,false,Proposal: Introduce <field-array> and <field-object> for Native Array/Object Handling in HTML Forms.,https://github.com/whatwg/html/issues/10948,2025-01-26T20:42:07Z,2025-01-26T20:42:07Z,ShoaibShokat03,addition/proposal|needs implementer interest,2
 2810743572,true,An HTML Markup Extension for AI Agents,https://github.com/whatwg/html/issues/10946,2025-01-25T03:59:06Z,2025-01-26T04:50:44Z,k-kolomeitsev,addition/proposal|needs implementer interest,0
-2809482300,false,Clarify IDL reflection for `closedby` attribute,https://github.com/whatwg/html/issues/10945,2025-01-24T13:37:23Z,2025-02-10T11:10:52Z,keithamus,normative change|topic: dialog|agenda+,0
+2809482300,false,Clarify IDL reflection for `closedby` attribute,https://github.com/whatwg/html/issues/10945,2025-01-24T13:37:23Z,2025-02-10T17:13:48Z,keithamus,normative change|topic: dialog|agenda+,0
 2809064495,false,Replenishment of element queue or backup element queue can be performed for the same element,https://github.com/whatwg/html/issues/10944,2025-01-24T10:15:23Z,2025-01-27T03:40:10Z,dSalieri,topic: custom elements,0
 2808425148,false,Clarify behavior of element.focus( { focusVisible: false } ),https://github.com/whatwg/html/issues/10943,2025-01-24T03:42:45Z,2025-01-27T19:53:41Z,woody-li,,0
 2807754812,false,Meeting 15 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10942,2025-01-23T19:37:18Z,2025-02-06T16:01:27Z,chrishtr,,0
@@ -72,7 +75,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2737098848,true,Upcoming WHATNOT meeting on 2024-12-19,https://github.com/whatwg/html/issues/10861,2024-12-12T23:59:38Z,2024-12-19T20:30:30Z,past,agenda+,0
 2736746960,false,Add `window.customCommands`,https://github.com/whatwg/html/issues/10860,2024-12-12T19:46:28Z,2025-01-31T13:24:02Z,scola84,addition/proposal|needs implementer interest,0
 2735477406,false,ImageData: Add Float16Array backing support,https://github.com/whatwg/html/issues/10856,2024-12-12T10:21:05Z,2024-12-12T21:03:52Z,ccameron-chromium,addition/proposal|topic: canvas,1
-2735459574,false,CanvasRenderingContext2D: Add getImageDataAsync method,https://github.com/whatwg/html/issues/10855,2024-12-12T10:13:15Z,2025-02-10T11:28:47Z,ccameron-chromium,addition/proposal|topic: canvas,3
+2735459574,false,CanvasRenderingContext2D: Add getImageDataAsync method,https://github.com/whatwg/html/issues/10855,2024-12-12T10:13:15Z,2025-02-10T16:30:35Z,ccameron-chromium,addition/proposal|topic: canvas,3
 2735341285,false,Revamped Scoped Custom Element Registries,https://github.com/whatwg/html/issues/10854,2024-12-12T09:22:28Z,2025-01-31T10:55:08Z,annevk,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements,13
 2734230880,false,Allow form controls in a shadow root to participate in it's host form submission,https://github.com/whatwg/html/issues/10852,2024-12-11T23:23:36Z,2024-12-12T08:28:42Z,KonnorRogers,addition/proposal|needs implementer interest|topic: shadow,1
 2733274119,false,Make <dialog> usable without JS (for form confirmation),https://github.com/whatwg/html/issues/10851,2024-12-11T15:22:18Z,2024-12-16T15:43:02Z,tino,addition/proposal|needs implementer interest,0
