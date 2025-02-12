@@ -5447,7 +5447,7 @@ api/Permissions/permission_compute-pressure,,,,125,,,,true,true,false,https://w3
 api/Permissions/permission_geolocation,,46,,43,,16,,false,true,false,,NONE
 api/Permissions/permission_gyroscope,,,,51,,,,true,true,false,,NONE
 api/Permissions/permission_local-fonts,,,,103,,,,true,true,false,,NONE
-api/Permissions/permission_magnetometer,,,,62,,,,true,true,false,,NONE
+api/Permissions/permission_magnetometer,,,,62,"[{""name"":""#enable-generic-sensor-extra-classes"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,,NONE
 api/Permissions/permission_microphone,,132,,64,,16,,false,true,false,,NONE
 api/Permissions/permission_midi,,110,,43,,,,false,true,false,https://webaudio.github.io/web-midi-api/#permissions-integration,W3C
 api/Permissions/permission_notifications,,46,,43,,16.4,,false,true,false,,NONE
@@ -10457,11 +10457,11 @@ css/properties/inset-block,,63,,87,,14.1,,false,true,false,https://drafts.csswg.
 css/properties/inset-block/anchor,,,,125,,,,true,true,false,https://drafts.csswg.org/css-anchor-position-1/#anchor-pos,W3C
 css/properties/inset-block/anchor-size,,,,132,,,,true,true,false,https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn,W3C
 css/properties/inset-block/auto,,≤72,,87,,14.1,,false,true,false,https://drafts.csswg.org/css-position-3/#valdef-top-auto,W3C
-css/properties/inset-block-end,,63,,87,,14.1,,false,true,false,https://drafts.csswg.org/css-logical/#position-properties,W3C
+css/properties/inset-block-end,,63,,87,,14.1,,false,true,false,https://drafts.csswg.org/css-logical/#propdef-inset-block-end,W3C
 css/properties/inset-block-end/anchor,,,,125,,,,true,true,false,https://drafts.csswg.org/css-anchor-position-1/#anchor-pos,W3C
 css/properties/inset-block-end/anchor-size,,,,132,,,,true,true,false,https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn,W3C
 css/properties/inset-block-end/auto,,≤72,,87,,14.1,,false,true,false,https://drafts.csswg.org/css-position-3/#valdef-top-auto,W3C
-css/properties/inset-block-start,,63,,87,,14.1,,false,true,false,https://drafts.csswg.org/css-logical/#position-properties,W3C
+css/properties/inset-block-start,,63,,87,,14.1,,false,true,false,https://drafts.csswg.org/css-logical/#propdef-inset-block-start,W3C
 css/properties/inset-block-start/anchor,,,,125,,,,true,true,false,https://drafts.csswg.org/css-anchor-position-1/#anchor-pos,W3C
 css/properties/inset-block-start/anchor-size,,,,132,,,,true,true,false,https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn,W3C
 css/properties/inset-block-start/auto,,≤72,,87,,14.1,,false,true,false,https://drafts.csswg.org/css-position-3/#valdef-top-auto,W3C
@@ -10469,11 +10469,11 @@ css/properties/inset-inline,,63,,87,,14.1,,false,true,false,https://drafts.csswg
 css/properties/inset-inline/anchor,,,,125,,,,true,true,false,https://drafts.csswg.org/css-anchor-position-1/#anchor-pos,W3C
 css/properties/inset-inline/anchor-size,,,,132,,,,true,true,false,https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn,W3C
 css/properties/inset-inline/auto,,≤72,,87,,14.1,,false,true,false,https://drafts.csswg.org/css-position-3/#valdef-top-auto,W3C
-css/properties/inset-inline-end,,63,,87,,14.1,,false,true,false,https://drafts.csswg.org/css-logical/#position-properties,W3C
+css/properties/inset-inline-end,,63,,87,,14.1,,false,true,false,https://drafts.csswg.org/css-logical/#propdef-inset-inline-end,W3C
 css/properties/inset-inline-end/anchor,,,,125,,,,true,true,false,https://drafts.csswg.org/css-anchor-position-1/#anchor-pos,W3C
 css/properties/inset-inline-end/anchor-size,,,,132,,,,true,true,false,https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn,W3C
 css/properties/inset-inline-end/auto,,≤72,,87,,14.1,,false,true,false,https://drafts.csswg.org/css-position-3/#valdef-top-auto,W3C
-css/properties/inset-inline-start,,63,,87,,14.1,,false,true,false,https://drafts.csswg.org/css-logical/#position-properties,W3C
+css/properties/inset-inline-start,,63,,87,,14.1,,false,true,false,https://drafts.csswg.org/css-logical/#propdef-inset-inline-start,W3C
 css/properties/inset-inline-start/anchor,,,,125,,,,true,true,false,https://drafts.csswg.org/css-anchor-position-1/#anchor-pos,W3C
 css/properties/inset-inline-start/anchor-size,,,,132,,,,true,true,false,https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn,W3C
 css/properties/inset-inline-start/auto,,≤72,,87,,14.1,,false,true,false,https://drafts.csswg.org/css-position-3/#valdef-top-auto,W3C
@@ -12088,7 +12088,7 @@ html/elements/iframe/allow/hid,,,,89,,,,true,true,false,https://wicg.github.io/w
 html/elements/iframe/allow/identity-credentials-get,,,,110,,,,true,true,false,https://w3c-fedid.github.io/FedCM/#permissions-policy-integration,UNKNOWN
 html/elements/iframe/allow/idle-detection,,,,94,,,,true,true,false,https://wicg.github.io/idle-detection/#api-permissions-policy,W3CCG
 html/elements/iframe/allow/local-fonts,,,,103,,,,true,true,false,https://wicg.github.io/local-font-access/#permissions-policy,W3CCG
-html/elements/iframe/allow/magnetometer,,,,66,,,,true,true,false,https://w3c.github.io/sensors/#permissions-policy,W3C
+html/elements/iframe/allow/magnetometer,,,,66,"[{""name"":""#enable-generic-sensor-extra-classes"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,https://w3c.github.io/sensors/#permissions-policy,W3C
 html/elements/iframe/allow/microphone,,74,,64,,11.1,,false,true,false,https://w3c.github.io/mediacapture-main/#permissions-policy-integration,W3C
 html/elements/iframe/allow/midi,,74,,64,,,,false,true,false,https://webaudio.github.io/web-midi-api/#permissions-policy-integration,W3C
 html/elements/iframe/allow/otp-credentials,,,,93,,,,true,true,false,https://wicg.github.io/web-otp/#sctn-permissions-policy,W3CCG
@@ -12868,7 +12868,7 @@ http/headers/Service-Worker-Navigation-Preload,,preview,,59,,15.4,,false,true,fa
 http/headers/Set-Cookie,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc6265.html#sane-set-cookie,IETF
 http/headers/Set-Cookie/HttpOnly,,3,,1,,5,,false,true,false,,NONE
 http/headers/Set-Cookie/Max-Age,,1,,1,,1,,false,true,false,,NONE
-http/headers/Set-Cookie/Partitioned,,131,,114,,,,false,true,false,https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies#section-2.1,IETF
+http/headers/Set-Cookie/Partitioned,,,,114,,,,false,true,false,https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies#section-2.1,IETF
 http/headers/Set-Cookie/SameSite,,60,,51,,13,,false,true,false,https://httpwg.org/specs/rfc6265.html#sane-set-cookie,IETF
 http/headers/Set-Cookie/SameSite/Lax,,60,,51,,12,,false,true,false,,NONE
 http/headers/Set-Cookie/SameSite/Lax_default,,69,"[{""name"":""network.cookie.sameSite.laxByDefault"",""type"":""preference"",""value_to_set"":""true""}]",80,,,,false,true,false,,NONE
