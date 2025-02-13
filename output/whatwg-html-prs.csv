@@ -6,12 +6,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2834196191,true,Editorial: switch links back to official CSSWG drafts,https://github.com/whatwg/html/pull/11005,2025-02-05T23:54:24Z,2025-02-06T02:18:33Z,Loirooriol,,0
 2833243175,true,Editorial: fix link and wording for tuple origin,https://github.com/whatwg/html/pull/11001,2025-02-05T15:17:39Z,2025-02-06T01:25:39Z,zcorpan,clarification|topic: origin,0
 2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2025-02-12T20:31:07Z,AndresRPerez12,topic: canvas,0
-2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2025-02-06T00:46:35Z,dandclark,,0
+2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2025-02-13T01:01:09Z,dandclark,,0
 2831485110,false,Fix dialog focus restoring descendant check,https://github.com/whatwg/html/pull/10994,2025-02-04T23:17:23Z,2025-02-05T01:57:08Z,josepharhar,,0
 2831477610,false,Remove links to defunct Twitter account,https://github.com/whatwg/html/pull/10993,2025-02-04T23:11:22Z,2025-02-12T12:42:41Z,eeeps,meta,0
 2830828832,false,Pass a top-level navigation initiator origin to Fetch,https://github.com/whatwg/html/pull/10991,2025-02-04T17:06:01Z,2025-02-04T17:06:01Z,bvandersloot-mozilla,,0
 2830828723,false,"Add ""has storage access"" boolean to environment",https://github.com/whatwg/html/pull/10990,2025-02-04T17:05:57Z,2025-02-12T19:49:33Z,bvandersloot-mozilla,,0
-2830356239,false,Update the navigation API when a same-document reload occurs,https://github.com/whatwg/html/pull/10989,2025-02-04T13:59:20Z,2025-02-06T04:27:04Z,noamr,topic: navigation,0
+2830356239,false,Update the navigation API when a same-document reload occurs,https://github.com/whatwg/html/pull/10989,2025-02-04T13:59:20Z,2025-02-13T10:49:10Z,noamr,topic: navigation,0
 2829108530,true,Explore how to specify referenceTarget's effect on ID lookups,https://github.com/whatwg/html/pull/10987,2025-02-04T04:37:13Z,2025-02-04T04:38:45Z,alice,,0
 2827977225,false,CSS Color 4 color spaces for canvasGradient,https://github.com/whatwg/html/pull/10986,2025-02-03T16:24:43Z,2025-02-04T16:47:07Z,mysteryDate,,0
 2826088887,true,Fix dialog `requestClose()` to handle edge case,https://github.com/whatwg/html/pull/10983,2025-02-02T23:35:46Z,2025-02-10T22:25:31Z,lukewarlow,topic: dialog|topic: close watchers,0
@@ -20,7 +20,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2823622273,true,"editorial: Fix spelling of ""committed""",https://github.com/whatwg/html/pull/10979,2025-01-31T14:14:30Z,2025-02-03T11:16:24Z,AtkinsSJ,,0
 2823298425,true,Editorial: reorganise dialog algorithms to end of section,https://github.com/whatwg/html/pull/10977,2025-01-31T12:25:21Z,2025-02-03T09:26:37Z,keithamus,clarification|topic: dialog,0
 2822374729,false,Loosen DOMString? getter to accommodate ARIA-style string reflection,https://github.com/whatwg/html/pull/10974,2025-01-31T03:47:11Z,2025-01-31T05:51:21Z,rahimabdi,,0
-2820942885,true,Add `NavigateEventInit.sourceElement`,https://github.com/whatwg/html/pull/10971,2025-01-30T14:10:24Z,2025-01-31T08:47:47Z,AtkinsSJ,topic: navigation,0
+2820942885,true,Add `NavigateEventInit.sourceElement`,https://github.com/whatwg/html/pull/10971,2025-01-30T14:10:24Z,2025-02-13T10:45:30Z,AtkinsSJ,topic: navigation,0
 2820362538,true,editorial: move dialog content attributes above properties,https://github.com/whatwg/html/pull/10969,2025-01-30T09:50:15Z,2025-01-31T09:33:39Z,keithamus,clarification|topic: dialog,0
 2820324564,true,editorial: re-order dialog properties to be above member variables,https://github.com/whatwg/html/pull/10968,2025-01-30T09:32:22Z,2025-01-31T08:06:52Z,keithamus,clarification|topic: dialog,0
 2820317490,true,editorial: group dialog member variables,https://github.com/whatwg/html/pull/10967,2025-01-30T09:28:59Z,2025-01-31T12:03:47Z,keithamus,clarification|topic: dialog,0
@@ -1008,7 +1008,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1141420605,true,Define the translate attribute's state when there's no parent element,https://github.com/whatwg/html/pull/7629,2022-02-17T14:35:44Z,2022-02-17T23:24:01Z,zcorpan,,0
 1138870843,true,Process Preload link headers,https://github.com/whatwg/html/pull/7622,2022-02-15T15:48:13Z,2022-05-04T14:22:11Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1138768636,true,Add a single radius version of CanvasRenderingContext2D.roundRect,https://github.com/whatwg/html/pull/7621,2022-02-15T14:28:17Z,2022-02-18T15:01:39Z,mysteryDate,topic: canvas,0
-1137601390,false,Change Origin-Agent-Cluster HTTP header default,https://github.com/whatwg/html/pull/7617,2022-02-14T17:13:35Z,2025-02-12T17:30:23Z,otherdaniel,normative change|do not merge yet,0
+1137601390,false,Change Origin-Agent-Cluster HTTP header default,https://github.com/whatwg/html/pull/7617,2022-02-14T17:13:35Z,2025-02-13T05:25:10Z,otherdaniel,normative change|do not merge yet,0
 1135270137,true,Update README.md,https://github.com/whatwg/html/pull/7615,2022-02-13T05:53:32Z,2024-10-08T14:09:18Z,MasterofAstro,invalid,0
 1135268349,true,Update README.md,https://github.com/whatwg/html/pull/7614,2022-02-13T05:52:05Z,2024-10-08T14:09:18Z,MasterofAstro,invalid,0
 1135265225,true,Update README.md,https://github.com/whatwg/html/pull/7613,2022-02-13T05:49:32Z,2024-10-08T14:09:17Z,MasterofAstro,invalid,0
