@@ -21,6 +21,17 @@ export const REPOS = [
   "w3c/editcontext",
   "w3c/clipboard-apis",
   "whatwg/html",
+  "w3c/web-performance",
+  "w3c/hr-time/",
+  "w3c/performance-timeline/",
+  "w3c/resource-timing/",
+  "w3c/navigation-timing/",
+  "w3c/user-timing/",
+  "w3c/page-visibility/",
+  "w3c/requestidlecallback/",
+  "w3c/beacon/",
+  "w3c/server-timing/",
+  "w3c/longtasks",
 ];
 
 import { configSync } from "https://deno.land/std@0.137.0/dotenv/mod.ts";
