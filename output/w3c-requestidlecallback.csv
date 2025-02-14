@@ -1,0 +1,55 @@
+id,closed,title,url,created_at,updated_at,user,labels,reactions
+2746256418,false,Warn readers that IdleDeadline.timeRemaining() can adjust asynchronously,https://github.com/w3c/requestidlecallback/issues/104,2024-12-17T22:41:08Z,2024-12-17T22:41:08Z,jyasskin,,0
+1205628147,true,Setup auto publishing,https://github.com/w3c/requestidlecallback/issues/100,2022-04-15T14:37:31Z,2023-09-27T07:39:00Z,yoavweiss,,0
+1036490824,false,Suggestion: expose specific information instead of deadline,https://github.com/w3c/requestidlecallback/issues/97,2021-10-26T16:08:05Z,2022-05-02T20:04:09Z,noamr,enhancement,0
+1019650770,true,Relying on an event loop might restart an idle period for each task,https://github.com/w3c/requestidlecallback/issues/96,2021-10-07T06:05:42Z,2021-10-26T15:19:51Z,noamr,,0
+917316885,true,Can we rename this spec?,https://github.com/w3c/requestidlecallback/issues/91,2021-06-10T12:58:47Z,2022-04-13T13:30:20Z,marcoscaceres,,0
+517967075,true,"timeRemaining() step 4 should define what it means to have a ""time-critical task pending""",https://github.com/w3c/requestidlecallback/issues/87,2019-11-05T19:02:57Z,2022-01-17T09:31:07Z,rniwa,requires-discussion,1
+517966296,true,6.2. invoke idle callbacks algorithm step 1 should be defined in terms of task sources having tasks enqueued,https://github.com/w3c/requestidlecallback/issues/86,2019-11-05T19:01:17Z,2022-01-17T09:30:51Z,rniwa,requires-discussion,0
+505513675,true,The invoke idle callbacks algorithm should check if list of runnable idle callbacks is empty or not.,https://github.com/w3c/requestidlecallback/issues/83,2019-10-10T21:11:39Z,2019-10-29T15:45:39Z,rniwa,,0
+505071901,true,"The order of idle callbacks across windows is inconsistent between spec & UAs ",https://github.com/w3c/requestidlecallback/issues/82,2019-10-10T06:48:57Z,2022-01-17T09:31:52Z,rniwa,requires-discussion,1
+503860986,true,Starting of an idle period algorithm should take origin into account,https://github.com/w3c/requestidlecallback/issues/81,2019-10-08T06:47:35Z,2019-10-09T07:07:10Z,rniwa,bug,0
+405059459,true,The timeRemaining language is confusing,https://github.com/w3c/requestidlecallback/issues/77,2019-01-31T03:02:17Z,2019-08-01T15:58:02Z,szager-chromium,,0
+344589777,true,Should pending idle callbacks in the queue be run when the page is unloaded/backgrounded?,https://github.com/w3c/requestidlecallback/issues/73,2018-07-25T20:12:58Z,2018-10-17T21:32:42Z,philipwalton,,0
+277999934,true,Spec should allow setting timeRemaining to 0 early,https://github.com/w3c/requestidlecallback/issues/72,2017-11-30T05:06:29Z,2018-10-21T12:19:12Z,esprehn,triage,0
+272015178,true,"""deadline"" in the ""start an idle period algorithm"" should be defined in terms of event loop",https://github.com/w3c/requestidlecallback/issues/71,2017-11-07T22:57:17Z,2021-11-22T09:28:05Z,rniwa,,1
+270710992,true,"Missing definition for ""idle time""",https://github.com/w3c/requestidlecallback/issues/70,2017-11-02T16:04:44Z,2018-10-25T15:07:15Z,siusin,bug|enhancement,1
+266736823,false,Priority Queue Option,https://github.com/w3c/requestidlecallback/issues/68,2017-10-19T06:51:08Z,2022-06-22T22:22:02Z,sebmarkbage,enhancement,33
+264163169,true,(Editorial) Example 1 does not render properly,https://github.com/w3c/requestidlecallback/issues/67,2017-10-10T09:45:17Z,2017-10-30T10:02:17Z,iherman,,0
+258094259,true,Add [Exposed] to all interfaces,https://github.com/w3c/requestidlecallback/issues/64,2017-09-15T16:22:14Z,2017-09-25T07:20:34Z,annevk,,0
+248434246,true,Define IdleDeadline internal layout part 2,https://github.com/w3c/requestidlecallback/issues/61,2017-08-07T14:45:15Z,2017-08-10T23:48:34Z,annevk,,0
+222339574,true,Don't monkey patch the event loop algorithm,https://github.com/w3c/requestidlecallback/issues/57,2017-04-18T08:28:14Z,2017-08-07T14:42:50Z,annevk,,0
+222339275,true,Defined IdleDeadline internal layout,https://github.com/w3c/requestidlecallback/issues/56,2017-04-18T08:27:05Z,2017-07-27T14:58:42Z,annevk,bug,0
+222338763,true,"timeRemaining() is badly defined, deadline argument",https://github.com/w3c/requestidlecallback/issues/55,2017-04-18T08:24:57Z,2017-07-27T14:58:37Z,annevk,bug,0
+222338511,true,timeRemaining() is badly defined,https://github.com/w3c/requestidlecallback/issues/54,2017-04-18T08:23:52Z,2017-07-27T14:58:31Z,annevk,bug,0
+196846026,true,Images not found for w3.org,https://github.com/w3c/requestidlecallback/issues/51,2016-12-21T04:55:10Z,2016-12-21T08:10:52Z,Krinkle,,0
+183839628,false,Allow requesting a minimum time budget,https://github.com/w3c/requestidlecallback/issues/49,2016-10-19T00:52:27Z,2022-06-20T14:47:41Z,cramforce,enhancement,1
+182923817,true,Transition Level 1 to CR,https://github.com/w3c/requestidlecallback/issues/48,2016-10-13T22:51:31Z,2017-01-31T19:31:38Z,igrigorik,w3c,0
+170956015,true,It is unclear what IdleDeadline.timeRemaining()  should return if JS keeps the IdleDealing object alive even after the callback call.,https://github.com/w3c/requestidlecallback/issues/47,2016-08-12T20:46:44Z,2016-12-14T17:40:46Z,smaug----,,0
+161803208,true,"implementations should be allowed to consider work beyond ""other event loops""",https://github.com/w3c/requestidlecallback/issues/46,2016-06-22T22:40:37Z,2016-11-28T22:38:58Z,dbaron,,0
+156024218,true,Use push/pop or append/take-the-first,https://github.com/w3c/requestidlecallback/issues/45,2016-05-20T18:31:50Z,2016-12-14T17:40:46Z,jyasskin,,0
+155561356,true,diagram with frame commit and vsync is inaccurate for some browsers,https://github.com/w3c/requestidlecallback/issues/44,2016-05-18T17:44:31Z,2017-01-03T18:04:59Z,toddreifsteck,,0
+155560586,true,What should occur if requestIdleCallback backs up?,https://github.com/w3c/requestidlecallback/issues/43,2016-05-18T17:40:23Z,2016-12-14T18:10:37Z,toddreifsteck,,0
+155554115,true,When/how could 50 ms chunks of time occur vs. typical frame-based 16 ms?,https://github.com/w3c/requestidlecallback/issues/42,2016-05-18T17:05:38Z,2016-12-14T17:40:46Z,toddreifsteck,,1
+155552541,true,Improve the specification of how requestIdleCallback events are ordered,https://github.com/w3c/requestidlecallback/issues/41,2016-05-18T16:58:14Z,2016-12-14T17:40:46Z,toddreifsteck,,0
+140488951,true,"idle callbacks should not be scheduled, if layout is dirty",https://github.com/w3c/requestidlecallback/issues/37,2016-03-13T14:18:02Z,2016-04-14T10:25:04Z,aFarkas,,0
+138275527,true,Integration with IntersectionObserver,https://github.com/w3c/requestidlecallback/issues/36,2016-03-03T19:34:44Z,2016-12-21T16:27:42Z,igrigorik,,0
+115955082,true,Friendly callbacks,https://github.com/w3c/requestidlecallback/issues/34,2015-11-09T20:08:58Z,2015-11-12T20:45:37Z,Krinkle,,0
+114677211,true,"Clarify meaning of ""guarantee"" for timeout callback",https://github.com/w3c/requestidlecallback/issues/33,2015-11-02T20:27:22Z,2016-04-19T23:41:53Z,Krinkle,,0
+113033678,true,Review TAG feedback,https://github.com/w3c/requestidlecallback/issues/31,2015-10-23T14:42:25Z,2015-12-09T22:00:15Z,igrigorik,,0
+110708192,true,"It's odd to half-define inter-document callback ordering, but not fully define it",https://github.com/w3c/requestidlecallback/issues/29,2015-10-09T17:57:09Z,2016-04-28T17:03:45Z,bzbarsky,,0
+110707996,true,The restriction on when a new idle period can start is rather odd.,https://github.com/w3c/requestidlecallback/issues/28,2015-10-09T17:55:57Z,2016-05-03T19:46:51Z,bzbarsky,,0
+110707629,true,Why do we have two lists of callbacks?,https://github.com/w3c/requestidlecallback/issues/27,2015-10-09T17:53:52Z,2015-12-09T22:01:41Z,bzbarsky,,0
+110707566,true,Are we sure we want integer handles?,https://github.com/w3c/requestidlecallback/issues/26,2015-10-09T17:53:33Z,2015-11-24T18:51:29Z,bzbarsky,,0
+110707208,true,"""the Window object's active document"" makes no sense",https://github.com/w3c/requestidlecallback/issues/25,2015-10-09T17:51:27Z,2016-04-28T16:09:23Z,bzbarsky,,0
+108237871,true,Improve IDL markup,https://github.com/w3c/requestidlecallback/issues/24,2015-09-25T00:06:28Z,2015-11-24T18:52:01Z,igrigorik,,0
+107596315,true,Future-proof the rIC API and make it extensible,https://github.com/w3c/requestidlecallback/issues/21,2015-09-21T20:53:25Z,2015-09-25T00:03:17Z,igrigorik,,0
+106669718,true,Clamp requestIdleCallback deadline,https://github.com/w3c/requestidlecallback/issues/20,2015-09-15T23:41:22Z,2015-09-28T17:37:44Z,esprehn,,0
+104669124,true,should requestIdleCallback return unsigned long?,https://github.com/w3c/requestidlecallback/issues/17,2015-09-03T11:08:36Z,2015-09-09T16:34:35Z,tetsuharuohzeki,,0
+102428452,true,Do we need to clarify that microtasks will execute within this period?,https://github.com/w3c/requestidlecallback/issues/13,2015-08-21T17:36:46Z,2015-09-17T09:25:50Z,toddreifsteck,,0
+100606518,true,Collapse deadline and isExeeded into single function?,https://github.com/w3c/requestidlecallback/issues/11,2015-08-12T18:33:10Z,2015-08-20T16:03:46Z,igrigorik,,0
+98069914,true,Processing model will not make progress,https://github.com/w3c/requestidlecallback/issues/7,2015-07-30T02:11:45Z,2015-07-30T11:32:14Z,lawnsea,,0
+98068598,true,`isExceeded` specified backward?,https://github.com/w3c/requestidlecallback/issues/6,2015-07-30T01:59:05Z,2015-07-30T23:22:38Z,lawnsea,,0
+97989036,true,Add an optional parameter which guarantees callback is executed,https://github.com/w3c/requestidlecallback/issues/3,2015-07-29T17:37:00Z,2015-07-30T11:23:06Z,rmcilroy,enhancement,0
+96430425,true,Enable use of generator functions with yield in requestIdleCallback,https://github.com/w3c/requestidlecallback/issues/2,2015-07-21T22:23:54Z,2015-07-30T13:28:03Z,rmcilroy,enhancement,0
+95823968,true,Promise based: idle(),https://github.com/w3c/requestidlecallback/issues/1,2015-07-18T13:14:27Z,2015-08-11T21:15:34Z,plehegar,enhancement,0
