@@ -7,7 +7,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2835336619,false,Add the `interesttarget` attribute,https://github.com/whatwg/html/pull/11006,2025-02-06T12:01:00Z,2025-02-06T17:27:56Z,foolip,,0
 2834196191,true,Editorial: switch links back to official CSSWG drafts,https://github.com/whatwg/html/pull/11005,2025-02-05T23:54:24Z,2025-02-06T02:18:33Z,Loirooriol,,0
 2833243175,true,Editorial: fix link and wording for tuple origin,https://github.com/whatwg/html/pull/11001,2025-02-05T15:17:39Z,2025-02-06T01:25:39Z,zcorpan,clarification|topic: origin,0
-2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2025-02-12T20:31:07Z,AndresRPerez12,topic: canvas,0
+2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2025-02-14T23:39:19Z,AndresRPerez12,topic: canvas,0
 2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2025-02-13T01:01:09Z,dandclark,,0
 2831485110,false,Fix dialog focus restoring descendant check,https://github.com/whatwg/html/pull/10994,2025-02-04T23:17:23Z,2025-02-05T01:57:08Z,josepharhar,,0
 2831477610,false,Remove links to defunct Twitter account,https://github.com/whatwg/html/pull/10993,2025-02-04T23:11:22Z,2025-02-12T12:42:41Z,eeeps,meta,0
@@ -35,7 +35,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2816741425,false,Quirk: bare <li> have list-style-position: inside,https://github.com/whatwg/html/pull/10959,2025-01-28T21:22:42Z,2025-02-12T11:45:32Z,zcorpan,,0
 2816164539,false,Fire a load event for javascript: URL non-strings,https://github.com/whatwg/html/pull/10957,2025-01-28T16:24:36Z,2025-02-05T22:04:56Z,zcorpan,,0
 2814371404,false,Connect HTML spec up to new CSS `interactivity` property,https://github.com/whatwg/html/pull/10956,2025-01-28T00:50:42Z,2025-02-11T17:23:36Z,mfreed7,,0
-2813958440,false,Add attribute changed steps to dialog element,https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-02-13T17:02:29Z,lukewarlow,topic: dialog,0
+2813958440,false,Add attribute changed steps to dialog element,https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-02-14T20:07:53Z,lukewarlow,topic: dialog,0
 2812761134,true,"Add CanvasColorType, with unorm8 (the default) and float16 support",https://github.com/whatwg/html/pull/10951,2025-01-27T11:28:40Z,2025-02-10T15:18:50Z,ccameron-chromium,addition/proposal|topic: canvas,0
 2812128271,true,Editorial: fix variable name typo in inner navigate event firing,https://github.com/whatwg/html/pull/10950,2025-01-27T05:41:27Z,2025-01-28T01:15:03Z,domenic,,0
 2812054978,true,Fix CSP navigation request blocking,https://github.com/whatwg/html/pull/10949,2025-01-27T04:27:06Z,2025-02-06T01:22:43Z,domenic,topic: navigation,0
@@ -164,7 +164,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2468462371,true,Fix incorrect recursion for dir=auto special cases.,https://github.com/whatwg/html/pull/10561,2024-08-15T16:43:24Z,2024-09-16T19:40:27Z,dbaron,topic: shadow|i18n-tracker,0
 2467498874,true,"Add ""same origin with its ancestors""",https://github.com/whatwg/html/pull/10559,2024-08-15T06:30:36Z,2025-01-28T01:21:10Z,domenic,topic: origin|integration,0
 2464881277,true,"Fix ""can have its URL rewritten"" buggy fallthrough",https://github.com/whatwg/html/pull/10558,2024-08-14T04:35:32Z,2024-08-15T01:08:30Z,domenic,topic: navigation,1
-2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2025-02-13T20:48:35Z,josepharhar,normative change|do not merge yet|topic: parser|topic: select,1
+2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2025-02-14T20:14:54Z,josepharhar,normative change|do not merge yet|topic: parser|topic: select,1
 2458340131,true,Remove exception reporting from declarative shadow dom,https://github.com/whatwg/html/pull/10552,2024-08-09T17:13:23Z,2024-08-14T15:44:52Z,mfreed7,normative change|topic: shadow|topic: parser,0
 2450354011,true,Editorial: modernize promise rejection tracking,https://github.com/whatwg/html/pull/10550,2024-08-06T09:07:03Z,2024-08-07T01:10:54Z,domenic,topic: error reporting,0
 2448702538,true,Complete draft spec for customizable `<select>`,https://github.com/whatwg/html/pull/10548,2024-08-05T14:28:06Z,2024-10-30T00:04:59Z,josepharhar,,0
@@ -300,7 +300,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2126638785,true,Fix off-by-one error in navigation.canGoForward,https://github.com/whatwg/html/pull/10130,2024-02-09T07:51:29Z,2024-02-09T08:09:41Z,domenic,topic: navigation,0
 2124657255,true,Meta: Drop duplicate dfns of width and height IDL attr for HTMLImageElement,https://github.com/whatwg/html/pull/10127,2024-02-08T08:59:34Z,2024-02-08T09:10:28Z,dontcallmedom,,0
 2123981577,true,Add the :open pseudo-class,https://github.com/whatwg/html/pull/10126,2024-02-07T22:07:51Z,2024-12-10T02:31:19Z,josepharhar,addition/proposal|topic: forms|topic: style|topic: dialog|topic: select,0
-2119551527,false,Close dialog elements when the open attribute is removed,https://github.com/whatwg/html/pull/10124,2024-02-05T22:13:10Z,2025-02-12T22:29:07Z,josepharhar,normative change|topic: dialog,1
+2119551527,false,Close dialog elements when the open attribute is removed,https://github.com/whatwg/html/pull/10124,2024-02-05T22:13:10Z,2025-02-14T21:28:18Z,josepharhar,normative change|topic: dialog,1
 2116642999,true,Update build.yml,https://github.com/whatwg/html/pull/10121,2024-02-03T19:02:32Z,2024-10-08T14:04:25Z,JulianaticID,invalid,0
 2115694515,true,Update README.md to include about us description.,https://github.com/whatwg/html/pull/10120,2024-02-02T20:07:00Z,2024-10-08T14:04:25Z,edxlang,invalid,0
 2115382835,false,Fix #4532: language sensitivity of autocap,https://github.com/whatwg/html/pull/10119,2024-02-02T17:11:41Z,2024-02-09T12:05:58Z,aphillips,clarification,0
