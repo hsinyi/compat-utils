@@ -1,7 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2857640792,false,Update `putImageData` documentation to not indicate that it is doing a `memcpy`,https://github.com/whatwg/html/issues/11037,2025-02-17T11:58:15Z,2025-02-17T11:58:15Z,ccameron-chromium,,0
+2857528609,false,Possibly missing lowercasing step for `autocomplete` attribute,https://github.com/whatwg/html/issues/11036,2025-02-17T11:11:08Z,2025-02-17T11:11:08Z,devgianlu,,0
 2855295872,false,Reference-style hyperlinks,https://github.com/whatwg/html/issues/11032,2025-02-15T07:11:01Z,2025-02-16T13:43:10Z,knowler,addition/proposal|needs implementer interest,15
 2854858498,false,WebAssembly JS String Builtins & the ESM Integration,https://github.com/whatwg/html/issues/11031,2025-02-14T23:15:50Z,2025-02-15T01:35:03Z,guybedford,,0
-2853664242,false,clarify how the `ImageBitmap` was created,https://github.com/whatwg/html/issues/11029,2025-02-14T13:00:25Z,2025-02-14T13:02:08Z,Hajime-san,topic: canvas,0
+2853664242,false,clarify how the `ImageBitmap` was created,https://github.com/whatwg/html/issues/11029,2025-02-14T13:00:25Z,2025-02-17T10:57:01Z,Hajime-san,topic: canvas,0
 2853658770,false,window.open Promise(s),https://github.com/whatwg/html/issues/11028,2025-02-14T12:58:29Z,2025-02-15T11:00:00Z,arichiv,,0
 2852231986,false,Upcoming WHATNOT meeting on 2025-02-20,https://github.com/whatwg/html/issues/11026,2025-02-13T22:26:38Z,2025-02-13T22:26:38Z,past,agenda+,0
 2852166450,true,Wording in spec for Boolean Attributes is inconsistent with provided examples,https://github.com/whatwg/html/issues/11025,2025-02-13T21:42:36Z,2025-02-13T22:51:11Z,bkimmelSQSP,,0
@@ -10,10 +12,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2849558461,false,Add `sheet` attribute to the `<link>` tag's for CSS `@sheet` support,https://github.com/whatwg/html/issues/11022,2025-02-12T23:20:40Z,2025-02-12T23:36:07Z,KurtCattiSchmidt,agenda+,0
 2848664991,true,Add a deprecated meta tag option,https://github.com/whatwg/html/issues/11021,2025-02-12T15:52:31Z,2025-02-13T00:41:18Z,davidstraight,addition/proposal|needs implementer interest,1
 2846727802,false,SPA route alias caching,https://github.com/whatwg/html/issues/11020,2025-02-11T22:58:27Z,2025-02-11T22:58:27Z,dead-claudia,addition/proposal|needs implementer interest,0
-2846638990,false,Support fragment references in the `<link>` tag's `href` attribute,https://github.com/whatwg/html/issues/11019,2025-02-11T22:06:14Z,2025-02-15T18:36:19Z,KurtCattiSchmidt,topic: link|topic: style|stage: 1,2
+2846638990,false,Support fragment references in the `<link>` tag's `href` attribute,https://github.com/whatwg/html/issues/11019,2025-02-11T22:06:14Z,2025-02-17T07:26:19Z,KurtCattiSchmidt,topic: link|topic: style|stage: 1,2
 2845256157,false,innerText getter impact of customizable `select`,https://github.com/whatwg/html/issues/11017,2025-02-11T12:29:56Z,2025-02-12T07:15:48Z,zcorpan,topic: select,0
 2843211409,false,"Set `ImageDataSettings` to have `colorSpace` default to `""srgb""`",https://github.com/whatwg/html/issues/11016,2025-02-10T17:56:23Z,2025-02-11T11:42:36Z,ccameron-chromium,topic: canvas,0
-2842338250,false,Use color channels or color components consistently throughout,https://github.com/whatwg/html/issues/11014,2025-02-10T12:58:44Z,2025-02-15T16:48:30Z,annevk,clarification,0
+2842338250,false,Use color channels or color components consistently throughout,https://github.com/whatwg/html/issues/11014,2025-02-10T12:58:44Z,2025-02-17T08:23:37Z,annevk,clarification,0
 2842327178,false,WheelEvent (or MouseEvent) should specify a device type,https://github.com/whatwg/html/issues/11013,2025-02-10T12:54:15Z,2025-02-10T12:56:07Z,faceless2,addition/proposal|needs implementer interest,0
 2839042841,false,"Popover, modal, and [inert] stylesheet contents should maybe have their own section",https://github.com/whatwg/html/issues/11011,2025-02-07T20:37:05Z,2025-02-07T20:37:05Z,mfreed7,,0
 2838837904,true,Upcoming WHATNOT meeting on 2025-02-13,https://github.com/whatwg/html/issues/11010,2025-02-07T18:41:13Z,2025-02-13T22:30:15Z,past,agenda+,0
@@ -87,7 +89,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2737245419,false,Add an optional lang argument to OffscreenCanvas constructor,https://github.com/whatwg/html/issues/10862,2024-12-13T02:34:00Z,2024-12-19T19:30:19Z,schenney-chromium,topic: canvas|i18n-tracker,0
 2737098848,true,Upcoming WHATNOT meeting on 2024-12-19,https://github.com/whatwg/html/issues/10861,2024-12-12T23:59:38Z,2024-12-19T20:30:30Z,past,agenda+,0
 2736746960,false,Add `window.customCommands`,https://github.com/whatwg/html/issues/10860,2024-12-12T19:46:28Z,2025-01-31T13:24:02Z,scola84,addition/proposal|needs implementer interest,0
-2735477406,false,ImageData: Add Float16Array backing support,https://github.com/whatwg/html/issues/10856,2024-12-12T10:21:05Z,2025-02-14T11:34:19Z,ccameron-chromium,addition/proposal|topic: canvas,1
+2735477406,false,ImageData: Add Float16Array backing support,https://github.com/whatwg/html/issues/10856,2024-12-12T10:21:05Z,2025-02-17T12:14:36Z,ccameron-chromium,addition/proposal|topic: canvas,1
 2735459574,false,CanvasRenderingContext2D: Add getImageDataAsync method,https://github.com/whatwg/html/issues/10855,2024-12-12T10:13:15Z,2025-02-13T09:11:12Z,ccameron-chromium,addition/proposal|topic: canvas,3
 2735341285,false,Revamped Scoped Custom Element Registries,https://github.com/whatwg/html/issues/10854,2024-12-12T09:22:28Z,2025-02-15T17:45:17Z,annevk,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements,13
 2734230880,false,Allow form controls in a shadow root to participate in it's host form submission,https://github.com/whatwg/html/issues/10852,2024-12-11T23:23:36Z,2024-12-12T08:28:42Z,KonnorRogers,addition/proposal|needs implementer interest|topic: shadow,1
@@ -487,7 +489,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2175120347,true,"Document ""rendering suppression for view transitions"" also suppresses ""perform pending transition operations""",https://github.com/whatwg/html/issues/10186,2024-03-08T01:40:36Z,2024-03-11T23:40:20Z,nt1m,topic: rendering,0
 2173990781,false,should search for draggable attribute follow dom tree or flattened tree?,https://github.com/whatwg/html/issues/10185,2024-03-07T14:26:12Z,2024-11-07T05:48:19Z,dbaron,,3
 2172574820,false,Is this bad to suggest that placeholder attributes can contain expected formats?,https://github.com/whatwg/html/issues/10183,2024-03-06T22:46:15Z,2024-03-06T22:49:08Z,anevins12,,0
-2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2024-03-18T21:00:51Z,andy-blum,addition/proposal|needs implementer interest|topic: img,11
+2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2024-03-18T21:00:51Z,andy-blum,addition/proposal|needs implementer interest|topic: img,14
 2171191672,true,Nits with link rel=expect,https://github.com/whatwg/html/issues/10180,2024-03-06T10:44:29Z,2024-03-11T06:42:48Z,jakearchibald,clarification|topic: rendering,0
 2161745995,false,Declaratively open popovers (and other elements?) on page load,https://github.com/whatwg/html/issues/10171,2024-02-29T17:19:04Z,2024-12-09T16:43:00Z,josepharhar,topic: dialog|topic: popover,0
 2160066080,false,Worklet termination,https://github.com/whatwg/html/issues/10169,2024-02-28T23:43:54Z,2024-03-04T08:12:24Z,daxpedda,addition/proposal|needs implementer interest|topic: worklets,0
@@ -1535,7 +1537,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1088670414,true,OffscreenCanvas.getContext: definition missing about unsupported context,https://github.com/whatwg/html/issues/7445,2021-12-25T23:49:29Z,2021-12-26T00:27:58Z,rinsuki,,0
 1087720198,true,Should we remove window.blur?,https://github.com/whatwg/html/issues/7441,2021-12-23T13:31:05Z,2022-10-31T05:07:08Z,camillelamy,,0
 1085481721,false,meta tag with attribute http-equiv has a small arbitrary limit on the headers that can be specified,https://github.com/whatwg/html/issues/7435,2021-12-21T06:23:22Z,2021-12-28T19:56:51Z,jacobpersico,clarification,0
-1083879762,false,Allow objects to customize serialization / deserialization for structured clone,https://github.com/whatwg/html/issues/7428,2021-12-18T17:42:47Z,2025-01-23T18:12:38Z,jasnell,,6
+1083879762,false,Allow objects to customize serialization / deserialization for structured clone,https://github.com/whatwg/html/issues/7428,2021-12-18T17:42:47Z,2025-01-23T18:12:38Z,jasnell,,7
 1083874633,true,Need a caretmove event for monitoring caret changes on HTMLInputElement/HTMLTextAreaElement,https://github.com/whatwg/html/issues/7426,2021-12-18T17:14:18Z,2021-12-19T14:21:24Z,LeaVerou,,1
 1081754607,false,Anchor tag with download prop skips contents after # character,https://github.com/whatwg/html/issues/7422,2021-12-16T04:19:59Z,2021-12-27T00:03:37Z,rostamiani,needs tests,0
 1080376605,false,Export DND related definitions,https://github.com/whatwg/html/issues/7421,2021-12-14T22:59:23Z,2021-12-15T08:03:28Z,johanneswilm,meta,1
@@ -3341,7 +3343,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-06-14T18:51:29Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,29
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2024-07-18T12:14:24Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,189
+305140900,false,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2025-02-17T08:07:02Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,189
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
