@@ -1,6 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2857640792,false,Update `putImageData` documentation to not indicate that it is doing a `memcpy`,https://github.com/whatwg/html/issues/11037,2025-02-17T11:58:15Z,2025-02-17T11:58:15Z,ccameron-chromium,,0
-2857528609,false,Possibly missing lowercasing step for `autocomplete` attribute,https://github.com/whatwg/html/issues/11036,2025-02-17T11:11:08Z,2025-02-17T11:11:08Z,devgianlu,,0
+2858642826,false,💡 Allow window.focus() between same-origin tabs,https://github.com/whatwg/html/issues/11041,2025-02-17T19:25:30Z,2025-02-17T19:25:30Z,lucasefrens,addition/proposal|needs implementer interest,0
+2858132025,false,.elementInternals accessor property,https://github.com/whatwg/html/issues/11040,2025-02-17T15:13:42Z,2025-02-17T23:07:53Z,WilcoFiers,addition/proposal|needs implementer interest|accessibility|topic: custom elements,0
+2857640792,false,Update `putImageData` documentation to not indicate that it is doing a `memcpy`,https://github.com/whatwg/html/issues/11037,2025-02-17T11:58:15Z,2025-02-17T15:00:34Z,ccameron-chromium,topic: canvas,0
+2857528609,false,Possibly missing lowercasing step for `autocomplete` attribute,https://github.com/whatwg/html/issues/11036,2025-02-17T11:11:08Z,2025-02-17T12:44:33Z,devgianlu,topic: forms,0
 2855295872,false,Reference-style hyperlinks,https://github.com/whatwg/html/issues/11032,2025-02-15T07:11:01Z,2025-02-16T13:43:10Z,knowler,addition/proposal|needs implementer interest,15
 2854858498,false,WebAssembly JS String Builtins & the ESM Integration,https://github.com/whatwg/html/issues/11031,2025-02-14T23:15:50Z,2025-02-15T01:35:03Z,guybedford,,0
 2853664242,false,clarify how the `ImageBitmap` was created,https://github.com/whatwg/html/issues/11029,2025-02-14T13:00:25Z,2025-02-17T10:57:01Z,Hajime-san,topic: canvas,0
@@ -419,7 +421,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2264931031,true,Move GitHub Wiki content to README or spec/website page,https://github.com/whatwg/html/issues/10299,2024-04-26T04:20:21Z,2024-05-13T04:27:43Z,jcbhmr,,0
 2264087105,true,Upcoming WHATNOT meeting on 5/2/2024,https://github.com/whatwg/html/issues/10298,2024-04-25T17:05:55Z,2024-05-03T00:02:51Z,past,agenda+,0
 2263162193,false,Provide named character entities for invisible and ambiguous Unicode characters,https://github.com/whatwg/html/issues/10297,2024-04-25T09:50:32Z,2024-11-25T04:20:55Z,r12a,addition/proposal|needs implementer interest|i18n-needs-resolution,0
-2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2024-09-12T21:50:04Z,bfgeek,normative change|needs implementer interest|topic: rendering,1
+2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2024-09-12T21:50:04Z,bfgeek,normative change|needs implementer interest|topic: rendering,2
 2258787056,false,Sentence in 6.11.7 doesn't seem right,https://github.com/whatwg/html/issues/10295,2024-04-23T12:44:29Z,2024-04-23T12:44:29Z,Zhang-Junzhi,,0
 2258703067,true,SEO issue of <a> elements put dependently inside a context,https://github.com/whatwg/html/issues/10294,2024-04-23T12:03:03Z,2024-04-24T03:15:29Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
 2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2024-04-23T09:10:07Z,pfteter,addition/proposal|needs implementer interest|topic: forms,11
@@ -922,7 +924,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1653022362,true,Should FACE formStateRestoreCallback be called with the new value or state?,https://github.com/whatwg/html/issues/9114,2023-04-04T01:38:09Z,2023-04-24T14:47:17Z,xiaochengh,clarification|topic: custom elements|topic: forms,1
 1652818143,false,"Consider CSP script-src none directive in the ""Enabled/disabled scripting"" definitions",https://github.com/whatwg/html/issues/9113,2023-04-03T21:46:19Z,2023-05-19T10:09:01Z,hackademix,addition/proposal|security/privacy|integration,1
 1652808622,false,Standardize rendering of PQ and HLG HDR image content,https://github.com/whatwg/html/issues/9112,2023-04-03T21:35:40Z,2023-10-20T19:44:29Z,ccameron-chromium,,0
-1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2025-01-14T21:17:36Z,jpzwarte,addition/proposal|topic: popover,1
+1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2025-01-14T21:17:36Z,jpzwarte,addition/proposal|topic: popover,2
 1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2024-06-18T05:09:42Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,3
 1651613244,false,`popovertarget` and shadow DOM,https://github.com/whatwg/html/issues/9109,2023-04-03T08:43:23Z,2024-05-11T12:07:04Z,jpzwarte,addition/proposal|topic: shadow|topic: popover,0
 1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2024-11-01T00:24:05Z,cubuspl42,addition/proposal|needs implementer interest,7
@@ -935,7 +937,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1644550338,false,Accessibility Attribute Request,https://github.com/whatwg/html/issues/9084,2023-03-28T19:35:50Z,2023-09-27T23:36:48Z,JaninaSajka,addition/proposal|accessibility|a11y-tracker,2
 1644212949,true,Custom Elements are a means of Extensibility,https://github.com/whatwg/html/issues/9082,2023-03-28T15:36:16Z,2023-05-05T12:32:51Z,bkardell,clarification,2
 1644102877,false,Clarify the sequential focusing behaviour when the current focused element is not in the sequential navigation order,https://github.com/whatwg/html/issues/9081,2023-03-28T14:39:31Z,2023-07-19T20:25:14Z,sefeng211,topic: focus,0
-1642307080,false,"API to get top layer elements ",https://github.com/whatwg/html/issues/9075,2023-03-27T15:18:20Z,2025-02-04T19:48:10Z,sanajaved7,addition/proposal|needs implementer interest,2
+1642307080,false,"API to get top layer elements ",https://github.com/whatwg/html/issues/9075,2023-03-27T15:18:20Z,2025-02-17T16:07:13Z,sanajaved7,addition/proposal|needs implementer interest,2
 1639018892,false,attr-associated elements use inconsistent trees?,https://github.com/whatwg/html/issues/9071,2023-03-24T09:20:42Z,2023-03-24T09:31:50Z,emilio,clarification|topic: shadow|topic: reflect,0
 1638398517,true,Upcoming HTML standard issue triage meeting on 4/6/2023,https://github.com/whatwg/html/issues/9070,2023-03-23T21:59:20Z,2023-04-06T23:46:33Z,past,agenda+,0
 1637320041,true,Should the Window named properties object return supported named properties in [[OwnPropertyKeys]]?,https://github.com/whatwg/html/issues/9068,2023-03-23T11:14:44Z,2023-03-29T05:59:34Z,delan,clarification,0
