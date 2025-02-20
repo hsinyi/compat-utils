@@ -1,5 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2860036355,false,Editorial: putImageData: Clarify that the operation is not a memcpy,https://github.com/whatwg/html/pull/11042,2025-02-18T10:50:01Z,2025-02-19T11:51:35Z,ccameron-chromium,,0
+2864224336,false,Fix IDL for CommandEvent,https://github.com/whatwg/html/pull/11050,2025-02-19T19:30:30Z,2025-02-19T19:32:03Z,lukewarlow,,0
+2864163548,false,Add connected check to dialog invoker command steps for show-modal,https://github.com/whatwg/html/pull/11049,2025-02-19T18:58:06Z,2025-02-19T22:11:59Z,lukewarlow,,0
+2864134610,false,Correct button activation behavior to block auto state buttons from being command buttons,https://github.com/whatwg/html/pull/11048,2025-02-19T18:42:59Z,2025-02-19T18:45:14Z,lukewarlow,,0
+2864108747,false,Fix button type getter steps,https://github.com/whatwg/html/pull/11047,2025-02-19T18:29:27Z,2025-02-19T21:01:57Z,lukewarlow,,0
+2863858337,false,Add request-close command for dialogs,https://github.com/whatwg/html/pull/11045,2025-02-19T16:35:59Z,2025-02-19T16:43:23Z,lukewarlow,agenda+,0
+2860036355,false,Editorial: putImageData: Clarify that the operation is not a memcpy,https://github.com/whatwg/html/pull/11042,2025-02-18T10:50:01Z,2025-02-19T13:21:19Z,ccameron-chromium,,0
 2857117178,false,"Editorial: refer to color components, not channels",https://github.com/whatwg/html/pull/11035,2025-02-17T08:23:12Z,2025-02-19T03:08:37Z,annevk,,0
 2855665815,false,Add immutable array buffer awareness to structuredClone,https://github.com/whatwg/html/pull/11033,2025-02-15T19:10:43Z,2025-02-18T19:42:29Z,gibson042,,0
 2853979806,false,[WIP] Implement WebDriver BiDi interception in the show the picker algorithm,https://github.com/whatwg/html/pull/11030,2025-02-14T15:18:17Z,2025-02-17T13:54:51Z,sadym-chromium,,1
@@ -68,7 +73,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2756321003,false,Remove new browsing context/Document referrer assignment,https://github.com/whatwg/html/pull/10883,2024-12-23T15:51:38Z,2025-01-20T03:00:28Z,domfarolino,do not merge yet|topic: frames/navigables/browsing contexts,0
 2753010492,true,Add missing character renders in Tokenization,https://github.com/whatwg/html/pull/10880,2024-12-20T15:56:58Z,2025-01-14T08:15:41Z,AMS21,,0
 2750350934,true,Editorial: improve fragment parsing,https://github.com/whatwg/html/pull/10874,2024-12-19T13:33:26Z,2025-01-06T15:18:32Z,annevk,,0
-2749014142,false,"Add a `lang` IDL Attribute to CanvasTextDrawingStyles, and clarify ""direction"" on same",https://github.com/whatwg/html/pull/10873,2024-12-19T00:45:36Z,2025-02-18T20:10:52Z,schenney-chromium,topic: canvas,0
+2749014142,false,"Add a `lang` IDL Attribute to CanvasTextDrawingStyles, and clarify ""direction"" on same",https://github.com/whatwg/html/pull/10873,2024-12-19T00:45:36Z,2025-02-19T13:13:09Z,schenney-chromium,topic: canvas,0
 2745581253,false,Add Scoped Custom Element Registries,https://github.com/whatwg/html/pull/10869,2024-12-17T17:33:19Z,2025-01-31T07:30:42Z,annevk,addition/proposal|topic: shadow|topic: custom elements,0
 2745477397,true,"Editorial: Finish renaming ""post-insert"" to ""post-connection""",https://github.com/whatwg/html/pull/10868,2024-12-17T16:51:45Z,2024-12-17T17:12:45Z,domfarolino,integration|editorial,0
 2742760704,true,Editorial: add a concept for Window's CustomElementRegistry,https://github.com/whatwg/html/pull/10865,2024-12-16T15:53:22Z,2024-12-17T07:23:44Z,annevk,,0
@@ -167,7 +172,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2468462371,true,Fix incorrect recursion for dir=auto special cases.,https://github.com/whatwg/html/pull/10561,2024-08-15T16:43:24Z,2024-09-16T19:40:27Z,dbaron,topic: shadow|i18n-tracker,0
 2467498874,true,"Add ""same origin with its ancestors""",https://github.com/whatwg/html/pull/10559,2024-08-15T06:30:36Z,2025-01-28T01:21:10Z,domenic,topic: origin|integration,0
 2464881277,true,"Fix ""can have its URL rewritten"" buggy fallthrough",https://github.com/whatwg/html/pull/10558,2024-08-14T04:35:32Z,2024-08-15T01:08:30Z,domenic,topic: navigation,1
-2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2025-02-14T20:14:54Z,josepharhar,normative change|do not merge yet|topic: parser|topic: select,1
+2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2025-02-19T22:25:20Z,josepharhar,normative change|do not merge yet|topic: parser|topic: select,1
 2458340131,true,Remove exception reporting from declarative shadow dom,https://github.com/whatwg/html/pull/10552,2024-08-09T17:13:23Z,2024-08-14T15:44:52Z,mfreed7,normative change|topic: shadow|topic: parser,0
 2450354011,true,Editorial: modernize promise rejection tracking,https://github.com/whatwg/html/pull/10550,2024-08-06T09:07:03Z,2024-08-07T01:10:54Z,domenic,topic: error reporting,0
 2448702538,true,Complete draft spec for customizable `<select>`,https://github.com/whatwg/html/pull/10548,2024-08-05T14:28:06Z,2024-10-30T00:04:59Z,josepharhar,,0
@@ -182,7 +187,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2434585445,true,Further fixes to keydown vs. keyup for close requests,https://github.com/whatwg/html/pull/10524,2024-07-29T06:42:25Z,2024-08-15T01:18:42Z,domenic,topic: close watchers,1
 2431085399,false,Add support for internationalized email addresses,https://github.com/whatwg/html/pull/10522,2024-07-25T22:42:22Z,2024-09-17T06:54:40Z,aphillips,i18n-tracker,0
 2424062926,true,Fix bug in timer initialisation steps involving reusing cleared IDs,https://github.com/whatwg/html/pull/10505,2024-07-23T01:41:24Z,2024-08-15T06:32:56Z,majaha,,0
-2417501694,false,Upstream XMLSerializer from DOM Parsing and Serialization spec,https://github.com/whatwg/html/pull/10498,2024-07-18T22:12:06Z,2024-09-06T05:06:18Z,lukewarlow,,1
+2417501694,false,Upstream XMLSerializer from DOM Parsing and Serialization spec,https://github.com/whatwg/html/pull/10498,2024-07-18T22:12:06Z,2025-02-19T13:16:54Z,lukewarlow,,1
 2417453524,true,Update fragment serializing algorithm steps node argument to accept Documents,https://github.com/whatwg/html/pull/10497,2024-07-18T21:30:53Z,2024-07-19T06:42:54Z,lukewarlow,,0
 2414883032,true,Fix usages of 'map' that should be 'ordered map'.,https://github.com/whatwg/html/pull/10494,2024-07-18T00:11:57Z,2024-07-18T04:02:40Z,twifkak,,0
 2414346184,true,[Editorial] Update Jay's name.,https://github.com/whatwg/html/pull/10493,2024-07-17T19:00:20Z,2024-07-18T21:52:23Z,hober,,0
@@ -425,7 +430,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
 1933058172,true,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2024-04-04T11:37:04Z,jrandolf-2,do not merge yet|integration,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
-1932098948,false,Add commandfor & command attributes to HTMLButtonElement,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2025-02-19T11:36:42Z,keithamus,addition/proposal,1
+1932098948,true,Add commandfor & command attributes to HTMLButtonElement,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2025-02-19T14:55:24Z,keithamus,addition/proposal,3
 1931367969,true,Editorial: remove some copypasta around CORS settings attribute,https://github.com/whatwg/html/pull/9840,2023-10-07T14:14:19Z,2023-10-08T14:25:55Z,annevk,,0
 1930976617,true,"Fix typo in ""History-action activation-consuming APIs""",https://github.com/whatwg/html/pull/9839,2023-10-06T21:55:17Z,2023-10-10T04:56:14Z,CanadaHonk,,0
 1930460108,true,Perform a microtask checkpoint only after a task,https://github.com/whatwg/html/pull/9838,2023-10-06T15:38:05Z,2023-10-10T05:26:36Z,annevk,topic: event loop,1
