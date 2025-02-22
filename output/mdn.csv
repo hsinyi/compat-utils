@@ -1089,10 +1089,10 @@ api/CloseWatcher/close,,132,"[{""name"":""dom.closewatcher.enabled"",""type"":""
 api/CloseWatcher/close_event,,132,"[{""name"":""dom.closewatcher.enabled"",""type"":""preference"",""value_to_set"":""true""}]",126,,,,true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#handler-closewatcher-onclose,WHATWG
 api/CloseWatcher/destroy,,132,"[{""name"":""dom.closewatcher.enabled"",""type"":""preference"",""value_to_set"":""true""}]",126,,,,true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-closewatcher-destroy,WHATWG
 api/CloseWatcher/requestClose,,132,"[{""name"":""dom.closewatcher.enabled"",""type"":""preference"",""value_to_set"":""true""}]",126,,,,true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-closewatcher-requestclose,WHATWG
-api/CommandEvent,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
+api/CommandEvent,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#commandevent,WHATWG
 api/CommandEvent/CommandEvent,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
-api/CommandEvent/command,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
-api/CommandEvent/source,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
+api/CommandEvent/command,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-commandevent-command,WHATWG
+api/CommandEvent/source,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-commandevent-source,WHATWG
 api/Comment,,1,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#interface-comment,WHATWG
 api/Comment/Comment,,24,,29,,8,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-comment-comment①,WHATWG
 api/CompositionEvent,,9,,15,,5,,false,true,false,https://w3c.github.io/uievents/#interface-compositionevent,W3C
@@ -2333,10 +2333,10 @@ api/FileSystemHandle/name,,111,,86,,15.2,,false,true,false,https://fs.spec.whatw
 api/FileSystemHandle/queryPermission,,,,86,,,,true,true,false,https://wicg.github.io/file-system-access/#api-filesystemhandle-querypermission,W3CCG
 api/FileSystemHandle/remove,,,,110,,,,true,false,false,,NONE
 api/FileSystemHandle/requestPermission,,,,86,,,,true,true,false,https://wicg.github.io/file-system-access/#api-filesystemhandle-requestpermission,W3CCG
-api/FileSystemObserver,,,,133,,,,true,true,false,,NONE
-api/FileSystemObserver/FileSystemObserver,,,,133,,,,true,true,false,,NONE
-api/FileSystemObserver/disconnect,,,,133,,,,true,true,false,,NONE
-api/FileSystemObserver/observe,,,,133,,,,true,true,false,,NONE
+api/FileSystemObserver,,,,133,,,,true,false,false,,NONE
+api/FileSystemObserver/FileSystemObserver,,,,133,,,,true,false,false,,NONE
+api/FileSystemObserver/disconnect,,,,133,,,,true,false,false,,NONE
+api/FileSystemObserver/observe,,,,133,,,,true,false,false,,NONE
 api/FileSystemSync,,,,13,,6,,false,false,true,,NONE
 api/FileSystemSync/name,,,,13,,6,,false,false,true,,NONE
 api/FileSystemSync/root,,,,13,,6,,false,false,true,,NONE
@@ -2922,8 +2922,8 @@ api/HTMLBodyElement/text,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/
 api/HTMLBodyElement/vLink,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-body-vlink,WHATWG
 api/HTMLButtonElement,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#htmlbuttonelement,WHATWG
 api/HTMLButtonElement/checkValidity,,4,,4,,5,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-checkvalidity-dev,WHATWG
-api/HTMLButtonElement/command,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
-api/HTMLButtonElement/commandForElement,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
+api/HTMLButtonElement/command,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-command,WHATWG
+api/HTMLButtonElement/commandForElement,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-commandforelement,WHATWG
 api/HTMLButtonElement/disabled,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fe-disabled,WHATWG
 api/HTMLButtonElement/form,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fae-form-dev,WHATWG
 api/HTMLButtonElement/formAction,,4,,9,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fs-formaction,WHATWG
@@ -3002,7 +3002,7 @@ api/HTMLDialogElement/close,,98,,37,,15.4,,false,true,false,https://html.spec.wh
 api/HTMLDialogElement/close_event,,98,,37,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-close,WHATWG
 api/HTMLDialogElement/closedBy,,,,134,,,,true,true,false,https://html.spec.whatwg.org/multipage/interactive-elements.html#dom-dialog-closedby,WHATWG
 api/HTMLDialogElement/open,,98,,37,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/interactive-elements.html#dom-dialog-open,WHATWG
-api/HTMLDialogElement/requestClose,,,,134,,,,true,true,false,https://html.spec.whatwg.org/multipage/interactive-elements.html#dom-dialog-requestclose,WHATWG
+api/HTMLDialogElement/requestClose,,,,134,,preview,,true,true,false,https://html.spec.whatwg.org/multipage/interactive-elements.html#dom-dialog-requestclose,WHATWG
 api/HTMLDialogElement/returnValue,,98,,37,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/interactive-elements.html#dom-dialog-returnvalue-dev,WHATWG
 api/HTMLDialogElement/show,,98,,37,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/interactive-elements.html#dom-dialog-show-dev,WHATWG
 api/HTMLDialogElement/showModal,,98,,37,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/interactive-elements.html#dom-dialog-showmodal-dev,WHATWG
@@ -10411,7 +10411,7 @@ css/properties/height/min-content,,66,,46,,11,,false,true,false,https://drafts.c
 css/properties/height/stretch,,,,28,,9,,false,true,false,https://drafts.csswg.org/css-sizing-4/#valdef-width-stretch,W3C
 css/properties/hyphenate-character,,98,,106,,17,,false,true,false,https://drafts.csswg.org/css-text-4/#propdef-hyphenate-character,W3C
 css/properties/hyphenate-character/auto,,98,,6,,5.1,,false,true,false,https://drafts.csswg.org/css-text-4/#valdef-hyphenate-character-auto,W3C
-css/properties/hyphenate-limit-chars,,,,109,,,,false,true,false,https://drafts.csswg.org/css-text-4/#propdef-hyphenate-limit-chars,W3C
+css/properties/hyphenate-limit-chars,,preview,"[{""name"":""layout.css.hyphenate-limit-chars.enabled"",""type"":""preference"",""value_to_set"":""true""}]",109,,,,false,true,false,https://drafts.csswg.org/css-text-4/#propdef-hyphenate-limit-chars,W3C
 css/properties/hyphenate-limit-chars/auto,,,,109,,,,true,true,false,https://drafts.csswg.org/css-text-4/#valdef-hyphenate-limit-chars-auto,W3C
 css/properties/hyphens,,43,,55,,17,,false,true,false,https://drafts.csswg.org/css-text/#hyphens-property,W3C
 css/properties/hyphens/auto,,6,,88,,5.1,,false,true,false,,NONE
@@ -10756,7 +10756,7 @@ css/properties/max-block-size/fit-content,,94,,57,,12.1,,false,true,false,,NONE
 css/properties/max-block-size/fit-content_function,,91,"[{""name"":""layout.css.fit-content-function.enabled"",""type"":""preference""}]",,,,,true,true,false,,NONE
 css/properties/max-block-size/max-content,,66,,57,,12.1,,false,true,false,,NONE
 css/properties/max-block-size/min-content,,66,,57,,12.1,,false,true,false,,NONE
-css/properties/max-height,,1,,18,,1.3,,false,true,false,https://drafts.csswg.org/css-sizing-4/#width-height-keywords,W3C
+css/properties/max-height,,1,,1,,1.3,,false,true,false,https://drafts.csswg.org/css-sizing-4/#width-height-keywords,W3C
 css/properties/max-height/anchor-size,,,,125,,,,true,true,false,https://drafts.csswg.org/css-anchor-position-1/#anchor-size-fn,W3C
 css/properties/max-height/fit-content,,94,,46,,11,,false,true,false,https://drafts.csswg.org/css-sizing-4/#valdef-width-fit-content,W3C
 css/properties/max-height/fit-content_function,,91,"[{""name"":""layout.css.fit-content-function.enabled"",""type"":""preference""}]",,,,,true,true,false,https://drafts.csswg.org/css-sizing/#funcdef-width-fit-content,W3C
@@ -11988,8 +11988,8 @@ html/elements/body/vlink,,1,,1,,≤4,,false,true,true,,NONE
 html/elements/br,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-br-element,WHATWG
 html/elements/br/clear,,1,,1,,≤4,,false,true,true,,NONE
 html/elements/button,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element,WHATWG
-html/elements/button/command,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
-html/elements/button/commandfor,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
+html/elements/button/command,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command,WHATWG
+html/elements/button/commandfor,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-commandfor,WHATWG
 html/elements/button/disabled,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-disabled,WHATWG
 html/elements/button/form,,4,,9,,5.1,,false,true,false,,NONE
 html/elements/button/formaction,,4,,9,,5.1,,false,true,false,,NONE
@@ -14299,6 +14299,7 @@ javascript/statements/debugger,,1,,5,,5,,false,true,false,https://tc39.es/ecma26
 javascript/statements/do_while,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-do-while-statement,TC39
 javascript/statements/empty,,1,,3,,5,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-empty-statement,TC39
 javascript/statements/export,,60,,61,,10.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-exports,TC39
+javascript/statements/export/arbitrary_module_namespace_identifier_names,,87,,88,,14.1,,false,true,false,,NONE
 javascript/statements/export/default,,60,,61,,10.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-exports,TC39
 javascript/statements/export/namespace,,80,,72,,14.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-exports,TC39
 javascript/statements/for,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-for-statement,TC39
@@ -14315,6 +14316,7 @@ javascript/statements/generator_function/not_constructable_with_new,,43,,50,,10,
 javascript/statements/generator_function/trailing_comma_in_parameters,,52,,58,,10,,false,true,false,,NONE
 javascript/statements/if_else,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-if-statement,TC39
 javascript/statements/import,,60,,61,,10.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-imports,TC39
+javascript/statements/import/arbitrary_module_namespace_identifier_names,,87,,88,,14.1,,false,true,false,,NONE
 javascript/statements/import/import_assertions,,,,91,,,,false,false,true,,NONE
 javascript/statements/import/import_assertions/type_css,,,,93,,,,false,false,true,,NONE
 javascript/statements/import/import_assertions/type_json,,,,91,,,,false,false,true,,NONE
