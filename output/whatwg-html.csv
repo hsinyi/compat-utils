@@ -108,7 +108,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2736746960,true,Add `window.customCommands`,https://github.com/whatwg/html/issues/10860,2024-12-12T19:46:28Z,2025-02-20T15:18:23Z,scola84,addition/proposal|needs implementer interest,0
 2735477406,false,ImageData: Add Float16Array backing support,https://github.com/whatwg/html/issues/10856,2024-12-12T10:21:05Z,2025-02-17T12:14:36Z,ccameron-chromium,addition/proposal|topic: canvas,1
 2735459574,false,CanvasRenderingContext2D: Add getImageDataAsync method,https://github.com/whatwg/html/issues/10855,2024-12-12T10:13:15Z,2025-02-13T09:11:12Z,ccameron-chromium,addition/proposal|topic: canvas,3
-2735341285,false,Revamped Scoped Custom Element Registries,https://github.com/whatwg/html/issues/10854,2024-12-12T09:22:28Z,2025-02-22T07:28:14Z,annevk,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements,13
+2735341285,false,Revamped Scoped Custom Element Registries,https://github.com/whatwg/html/issues/10854,2024-12-12T09:22:28Z,2025-02-22T22:16:51Z,annevk,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements,13
 2734230880,false,Allow form controls in a shadow root to participate in it's host form submission,https://github.com/whatwg/html/issues/10852,2024-12-11T23:23:36Z,2024-12-12T08:28:42Z,KonnorRogers,addition/proposal|needs implementer interest|topic: shadow,1
 2733274119,false,Make <dialog> usable without JS (for form confirmation),https://github.com/whatwg/html/issues/10851,2024-12-11T15:22:18Z,2024-12-16T15:43:02Z,tino,addition/proposal|needs implementer interest,0
 2731961170,false,Window name targeting: tie-breaking for same-named top-level traversables is not interoperable,https://github.com/whatwg/html/issues/10850,2024-12-11T06:38:16Z,2024-12-23T14:24:46Z,domenic,interop|topic: frames/navigables/browsing contexts,0
@@ -1067,7 +1067,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552047625,true,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-06-11T06:26:34Z,noamr,,0
 1550462824,false,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2024-10-09T15:35:15Z,callumgare,topic: media,0
 1550768319,true,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2024-02-04T07:47:15Z,mfreed7,addition/proposal|topic: shadow,1
-1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2023-01-25T23:06:02Z,GermanJablo,,2
+1550024105,false,Native support for indents,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2025-02-22T15:18:42Z,GermanJablo,,3
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
 1537442281,false,Add support for rel=stylesheet in Link headers,https://github.com/whatwg/html/issues/8741,2023-01-18T05:55:47Z,2023-02-10T17:07:39Z,domenic,addition/proposal|needs implementer interest|topic: link|topic: style,0
@@ -1676,7 +1676,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1003850354,false,Exposing back/forward cache blocking reasons to sites,https://github.com/whatwg/html/issues/7094,2021-09-22T06:01:58Z,2023-04-07T02:41:32Z,rubberyuzu,addition/proposal|needs implementer interest|topic: history,0
 1003923758,false,Allow `detail` argument for HTMLElement.click(),https://github.com/whatwg/html/issues/7095,2021-09-21T19:11:31Z,2021-09-27T20:11:08Z,MichaelAllenWarner,addition/proposal|needs implementer interest|interop,0
 1000405876,true,Transferring objects in `BroadcastChannel.postMessage()`,https://github.com/whatwg/html/issues/7088,2021-09-19T20:04:09Z,2021-09-19T20:08:41Z,jespertheend,,0
-1000212229,false,[idea] <pre> tag dedentation,https://github.com/whatwg/html/issues/7087,2021-09-19T05:15:12Z,2021-09-19T20:11:30Z,Jamesernator,addition/proposal|needs implementer interest,1
+1000212229,false,[idea] <pre> tag dedentation,https://github.com/whatwg/html/issues/7087,2021-09-19T05:15:12Z,2021-09-19T20:11:30Z,Jamesernator,addition/proposal|needs implementer interest,2
 1000174481,true,Dissonant behaviour when exposing named elements to `window` when there are multiples elements with the same `id`,https://github.com/whatwg/html/issues/7086,2021-09-19T01:13:36Z,2021-09-19T20:11:01Z,macabeus,,1
 998534554,false,canvas.toDataUrl / toBlob should let you specify lossless compression for webp,https://github.com/whatwg/html/issues/7078,2021-09-16T19:02:04Z,2021-09-20T19:50:14Z,Fuzzyma,addition/proposal|needs implementer interest|topic: canvas,0
 996550113,false,"What are web developers supposed to do with COOP violations ""navigation-from-response"" and ""navigation-to-response""?",https://github.com/whatwg/html/issues/7072,2021-09-15T00:44:14Z,2021-09-20T13:05:51Z,Sora2455,clarification|topic: cross-origin-opener-policy,0
