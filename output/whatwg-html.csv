@@ -1,10 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2874407586,false,Add an API for `<input type=color alpha>` to return colors in HEX format.,https://github.com/whatwg/html/issues/11069,2025-02-24T09:57:26Z,2025-02-24T10:30:25Z,yisibl,addition/proposal|needs implementer interest|topic: forms,0
+2874407586,false,Add an API for `<input type=color alpha>` to return colors in HEX format.,https://github.com/whatwg/html/issues/11069,2025-02-24T09:57:26Z,2025-02-24T19:57:42Z,yisibl,addition/proposal|needs implementer interest|topic: forms,0
 2874388234,false,Exposing the DOMParser API in Worker Contexts,https://github.com/whatwg/html/issues/11068,2025-02-24T09:50:37Z,2025-02-24T09:50:37Z,sqwr,addition/proposal|needs implementer interest,0
 2873711326,true,Catalogur,https://github.com/whatwg/html/issues/11067,2025-02-24T02:34:46Z,2025-02-24T04:34:01Z,jessdomtimslave,invalid,0
 2869703835,false,navigation API: resolve the finished promise,https://github.com/whatwg/html/issues/11064,2025-02-21T18:10:39Z,2025-02-21T18:10:39Z,atscott,,0
-2869493100,false,:host-context(my-el) inside a <my-el> custom element matches even for a standalone <my-el>,https://github.com/whatwg/html/issues/11063,2025-02-21T16:29:23Z,2025-02-22T07:55:14Z,franktopel,,0
-2867510954,false,Proposal: Customized built-in elements via `elementInternals.type`,https://github.com/whatwg/html/issues/11061,2025-02-20T23:34:14Z,2025-02-23T06:54:19Z,sanketj,addition/proposal,6
+2869493100,true,:host-context(my-el) inside a <my-el> custom element matches even for a standalone <my-el>,https://github.com/whatwg/html/issues/11063,2025-02-21T16:29:23Z,2025-02-24T17:27:51Z,franktopel,,0
+2867510954,false,Proposal: Customized built-in elements via `elementInternals.type`,https://github.com/whatwg/html/issues/11061,2025-02-20T23:34:14Z,2025-02-24T19:20:11Z,sanketj,addition/proposal,6
 2867022774,false,"`responsePolicyContainer` in ""determine navigation params policy container"" should be cloned for consistency",https://github.com/whatwg/html/issues/11060,2025-02-20T18:58:05Z,2025-02-21T09:06:40Z,Lubrsi,topic: navigation|topic: policy container,0
 2866860480,false,Meeting 17 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11059,2025-02-20T17:41:25Z,2025-02-20T17:42:02Z,mfreed7,,0
 2866853950,false,Touchscreen behavior for the `interesttarget` attribute,https://github.com/whatwg/html/issues/11058,2025-02-20T17:38:14Z,2025-02-22T08:17:05Z,mfreed7,,0
@@ -28,7 +28,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2852231986,true,Upcoming WHATNOT meeting on 2025-02-20,https://github.com/whatwg/html/issues/11026,2025-02-13T22:26:38Z,2025-02-20T17:22:18Z,past,agenda+,0
 2852166450,true,Wording in spec for Boolean Attributes is inconsistent with provided examples,https://github.com/whatwg/html/issues/11025,2025-02-13T21:42:36Z,2025-02-13T22:51:11Z,bkimmelSQSP,,0
 2851574490,true,Are the BarProp objects obsolete/discouraged?,https://github.com/whatwg/html/issues/11024,2025-02-13T16:42:58Z,2025-02-19T05:11:18Z,foolip,,0
-2851240544,false,Elements created while parsed inside a fragment think they are connected,https://github.com/whatwg/html/issues/11023,2025-02-13T14:41:29Z,2025-02-21T15:20:46Z,AtkinsSJ,topic: forms,0
+2851240544,false,Elements created while parsed inside a fragment think they are connected,https://github.com/whatwg/html/issues/11023,2025-02-13T14:41:29Z,2025-02-24T16:59:20Z,AtkinsSJ,topic: forms,0
 2849558461,false,Add `sheet` attribute to the `<link>` tag's for CSS `@sheet` support,https://github.com/whatwg/html/issues/11022,2025-02-12T23:20:40Z,2025-02-20T21:56:37Z,KurtCattiSchmidt,,0
 2848664991,true,Add a deprecated meta tag option,https://github.com/whatwg/html/issues/11021,2025-02-12T15:52:31Z,2025-02-13T00:41:18Z,davidstraight,addition/proposal|needs implementer interest,1
 2846727802,false,SPA route alias caching,https://github.com/whatwg/html/issues/11020,2025-02-11T22:58:27Z,2025-02-11T22:58:27Z,dead-claudia,addition/proposal|needs implementer interest,0
@@ -439,7 +439,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2264931031,true,Move GitHub Wiki content to README or spec/website page,https://github.com/whatwg/html/issues/10299,2024-04-26T04:20:21Z,2024-05-13T04:27:43Z,jcbhmr,,0
 2264087105,true,Upcoming WHATNOT meeting on 5/2/2024,https://github.com/whatwg/html/issues/10298,2024-04-25T17:05:55Z,2024-05-03T00:02:51Z,past,agenda+,0
 2263162193,false,Provide named character entities for invisible and ambiguous Unicode characters,https://github.com/whatwg/html/issues/10297,2024-04-25T09:50:32Z,2024-11-25T04:20:55Z,r12a,addition/proposal|needs implementer interest|i18n-needs-resolution,0
-2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2025-02-22T11:34:21Z,bfgeek,normative change|needs implementer interest|topic: rendering|agenda+,2
+2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2025-02-25T00:13:55Z,bfgeek,normative change|needs implementer interest|topic: rendering|agenda+,2
 2258787056,false,Sentence in 6.11.7 doesn't seem right,https://github.com/whatwg/html/issues/10295,2024-04-23T12:44:29Z,2024-04-23T12:44:29Z,Zhang-Junzhi,,0
 2258703067,true,SEO issue of <a> elements put dependently inside a context,https://github.com/whatwg/html/issues/10294,2024-04-23T12:03:03Z,2024-04-24T03:15:29Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
 2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2024-04-23T09:10:07Z,pfteter,addition/proposal|needs implementer interest|topic: forms,11
@@ -1377,7 +1377,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1245490159,false,Consider being strict about range mismatch for media,https://github.com/whatwg/html/issues/7950,2022-05-23T17:27:12Z,2022-05-24T07:26:22Z,noamr,topic: media|interop,1
 1245461464,true,Typo in section 2.1.4 DOM trees,https://github.com/whatwg/html/issues/7949,2022-05-23T16:58:18Z,2022-05-26T15:27:55Z,AegisFair,good first issue,1
 1244030392,false,Add color-interpolation-method support for canvas gradients,https://github.com/whatwg/html/issues/7947,2022-05-21T16:39:32Z,2025-02-01T18:17:44Z,weinig,addition/proposal|topic: canvas,6
-1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2024-04-03T14:48:25Z,BenjaminAster,addition/proposal|needs implementer interest,58
+1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2024-04-03T14:48:25Z,BenjaminAster,addition/proposal|needs implementer interest,59
 1242018223,false,(Background) Tab Suspending,https://github.com/whatwg/html/issues/7942,2022-05-19T16:18:36Z,2022-05-19T16:18:36Z,johannhof,,0
 1242006437,false,Throttling and clamping of setTimeout and setInterval,https://github.com/whatwg/html/issues/7941,2022-05-19T16:08:39Z,2022-05-20T08:26:05Z,johannhof,topic: event loop|topic: timing,0
 1241898306,false,Make `<embed>` and `<object>` behave like `<iframe>` for image loading,https://github.com/whatwg/html/issues/7939,2022-05-19T14:43:19Z,2022-06-27T20:59:41Z,farre,normative change|topic: navigation|topic: embed and object,0
@@ -1679,7 +1679,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1003850354,false,Exposing back/forward cache blocking reasons to sites,https://github.com/whatwg/html/issues/7094,2021-09-22T06:01:58Z,2023-04-07T02:41:32Z,rubberyuzu,addition/proposal|needs implementer interest|topic: history,0
 1003923758,false,Allow `detail` argument for HTMLElement.click(),https://github.com/whatwg/html/issues/7095,2021-09-21T19:11:31Z,2021-09-27T20:11:08Z,MichaelAllenWarner,addition/proposal|needs implementer interest|interop,0
 1000405876,true,Transferring objects in `BroadcastChannel.postMessage()`,https://github.com/whatwg/html/issues/7088,2021-09-19T20:04:09Z,2021-09-19T20:08:41Z,jespertheend,,0
-1000212229,false,[idea] <pre> tag dedentation,https://github.com/whatwg/html/issues/7087,2021-09-19T05:15:12Z,2021-09-19T20:11:30Z,Jamesernator,addition/proposal|needs implementer interest,2
+1000212229,false,[idea] <pre> tag dedentation,https://github.com/whatwg/html/issues/7087,2021-09-19T05:15:12Z,2021-09-19T20:11:30Z,Jamesernator,addition/proposal|needs implementer interest,3
 1000174481,true,Dissonant behaviour when exposing named elements to `window` when there are multiples elements with the same `id`,https://github.com/whatwg/html/issues/7086,2021-09-19T01:13:36Z,2021-09-19T20:11:01Z,macabeus,,1
 998534554,false,canvas.toDataUrl / toBlob should let you specify lossless compression for webp,https://github.com/whatwg/html/issues/7078,2021-09-16T19:02:04Z,2021-09-20T19:50:14Z,Fuzzyma,addition/proposal|needs implementer interest|topic: canvas,0
 996550113,false,"What are web developers supposed to do with COOP violations ""navigation-from-response"" and ""navigation-to-response""?",https://github.com/whatwg/html/issues/7072,2021-09-15T00:44:14Z,2021-09-20T13:05:51Z,Sora2455,clarification|topic: cross-origin-opener-policy,0
@@ -1887,7 +1887,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 846831038,true,"Should ""fetch a single module script"" set mode to same-origin for serviceworker destination?",https://github.com/whatwg/html/issues/6544,2021-03-31T15:06:04Z,2021-04-12T15:12:02Z,wanderview,,0
 843461196,true,Create resource timing entries for HTML resources,https://github.com/whatwg/html/issues/6542,2021-03-29T15:01:55Z,2022-03-31T18:43:16Z,noamr,topic: fetch|integration,0
 843385207,true,Script tag extension for secure local computing,https://github.com/whatwg/html/issues/6541,2021-03-29T13:44:07Z,2021-04-06T15:19:02Z,ghost,addition/proposal|needs implementer interest,0
-843318881,false,Proposal: Button attribute to store text that can be copied to clipboard on trigger (click/enter key),https://github.com/whatwg/html/issues/6540,2021-03-29T12:25:43Z,2025-02-21T20:11:45Z,runofthemillgeek,addition/proposal|needs implementer interest,1
+843318881,false,Proposal: Button attribute to store text that can be copied to clipboard on trigger (click/enter key),https://github.com/whatwg/html/issues/6540,2021-03-29T12:25:43Z,2025-02-24T22:57:05Z,runofthemillgeek,addition/proposal|needs implementer interest,1
 843291188,true,When does the `otherwise` (inner `If there is a match`) occur?,https://github.com/whatwg/html/issues/6539,2021-03-29T11:48:15Z,2021-03-29T12:20:01Z,scw00,,0
 842978921,false,Apply text-align: match-parent to the option element in the UA stylesheet,https://github.com/whatwg/html/issues/6538,2021-03-29T05:21:47Z,2022-03-02T09:29:23Z,frivoal,topic: rendering|i18n-tracker|i18n-alreq|i18n-hlreq|i18n-afrlreq,0
 842156022,true,New feature proposal: Circular input range,https://github.com/whatwg/html/issues/6534,2021-03-26T17:11:58Z,2021-04-12T13:50:19Z,jimmywarting,,0
@@ -2190,7 +2190,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 665327723,true,Window opening steps return WindowProxy despite COOP,https://github.com/whatwg/html/issues/5759,2020-07-24T17:58:57Z,2020-08-10T18:12:18Z,jugglinmike,topic: cross-origin-opener-policy,0
 663869445,true,How does a script added into a shadow DOM work with that shadow dom/the element that built it?,https://github.com/whatwg/html/issues/5754,2020-07-22T15:53:57Z,2020-08-17T09:40:03Z,Pomax,,2
 663532617,true,classic script's base URL should be sanitized when muted errors flag is set,https://github.com/whatwg/html/issues/5751,2020-07-22T07:13:35Z,2020-07-24T19:12:26Z,hiroshige-g,,0
-662723840,true,back-forward cache: specify interaction with unload & beforeunload,https://github.com/whatwg/html/issues/5748,2020-07-21T08:06:43Z,2020-10-12T16:11:17Z,rakina,topic: history,2
+662723840,true,back-forward cache: specify interaction with unload & beforeunload,https://github.com/whatwg/html/issues/5748,2020-07-21T08:06:43Z,2020-10-12T16:11:17Z,rakina,topic: history,3
 661438283,false,Add an API to opt-out of back-forward cache?,https://github.com/whatwg/html/issues/5744,2020-07-20T06:33:22Z,2021-06-02T12:16:15Z,rakina,addition/proposal|topic: history,17
 661026877,true,"Typing into an input element moves the cursor position unexpectedly ",https://github.com/whatwg/html/issues/5743,2020-07-19T19:41:06Z,2020-07-20T23:24:38Z,juanca,,0
 660189408,false,Form input element should have an autocomplete attribute for numeric citizen/personal ID fields,https://github.com/whatwg/html/issues/5740,2020-07-18T14:44:36Z,2024-08-29T13:55:10Z,Avamander,addition/proposal|needs implementer interest|topic: forms,5
