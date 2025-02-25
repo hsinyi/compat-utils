@@ -1,11 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2874407586,false,Add an API for `<input type=color alpha>` to return colors in HEX format.,https://github.com/whatwg/html/issues/11069,2025-02-24T09:57:26Z,2025-02-24T19:57:42Z,yisibl,addition/proposal|needs implementer interest|topic: forms,0
-2874388234,false,Exposing the DOMParser API in Worker Contexts,https://github.com/whatwg/html/issues/11068,2025-02-24T09:50:37Z,2025-02-24T09:50:37Z,sqwr,addition/proposal|needs implementer interest,0
-2873711326,true,Catalogur,https://github.com/whatwg/html/issues/11067,2025-02-24T02:34:46Z,2025-02-24T04:34:01Z,jessdomtimslave,invalid,0
+2876741297,false,Add `full-framerate` render blocking attribute,https://github.com/whatwg/html/issues/11070,2025-02-25T03:01:39Z,2025-02-25T03:01:39Z,gjc13,addition/proposal|needs implementer interest,0
+2874407586,false,Add an API for `<input type=color alpha>` to return colors in HEX format.,https://github.com/whatwg/html/issues/11069,2025-02-24T09:57:26Z,2025-02-25T06:18:46Z,yisibl,addition/proposal|needs implementer interest|topic: forms,0
+2874388234,false,Exposing the DOMParser API in Worker Contexts,https://github.com/whatwg/html/issues/11068,2025-02-24T09:50:37Z,2025-02-25T04:43:48Z,sqwr,addition/proposal|needs implementer interest,0
 2869703835,false,navigation API: resolve the finished promise,https://github.com/whatwg/html/issues/11064,2025-02-21T18:10:39Z,2025-02-21T18:10:39Z,atscott,,0
 2869493100,true,:host-context(my-el) inside a <my-el> custom element matches even for a standalone <my-el>,https://github.com/whatwg/html/issues/11063,2025-02-21T16:29:23Z,2025-02-24T17:27:51Z,franktopel,,0
 2867510954,false,Proposal: Customized built-in elements via `elementInternals.type`,https://github.com/whatwg/html/issues/11061,2025-02-20T23:34:14Z,2025-02-24T19:20:11Z,sanketj,addition/proposal,6
-2867022774,false,"`responsePolicyContainer` in ""determine navigation params policy container"" should be cloned for consistency",https://github.com/whatwg/html/issues/11060,2025-02-20T18:58:05Z,2025-02-21T09:06:40Z,Lubrsi,topic: navigation|topic: policy container,0
+2867022774,false,"`responsePolicyContainer` in ""determine navigation params policy container"" should be cloned for consistency",https://github.com/whatwg/html/issues/11060,2025-02-20T18:58:05Z,2025-02-25T08:59:19Z,Lubrsi,topic: navigation|topic: policy container,0
 2866860480,false,Meeting 17 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11059,2025-02-20T17:41:25Z,2025-02-20T17:42:02Z,mfreed7,,0
 2866853950,false,Touchscreen behavior for the `interesttarget` attribute,https://github.com/whatwg/html/issues/11058,2025-02-20T17:38:14Z,2025-02-22T08:17:05Z,mfreed7,,0
 2866816648,false,Typo in 15.5.1 - Native appearance,https://github.com/whatwg/html/issues/11057,2025-02-20T17:20:57Z,2025-02-21T04:25:58Z,Psychpsyo,good first issue,0
@@ -23,13 +23,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2857528609,false,Possibly missing lowercasing step for `autocomplete` attribute,https://github.com/whatwg/html/issues/11036,2025-02-17T11:11:08Z,2025-02-17T12:44:33Z,devgianlu,topic: forms,0
 2855295872,false,Reference-style hyperlinks,https://github.com/whatwg/html/issues/11032,2025-02-15T07:11:01Z,2025-02-16T13:43:10Z,knowler,addition/proposal|needs implementer interest,15
 2854858498,false,WebAssembly JS String Builtins & the ESM Integration,https://github.com/whatwg/html/issues/11031,2025-02-14T23:15:50Z,2025-02-20T22:18:22Z,guybedford,agenda+,0
-2853664242,false,clarify how the `ImageBitmap` was created,https://github.com/whatwg/html/issues/11029,2025-02-14T13:00:25Z,2025-02-20T09:54:45Z,Hajime-san,topic: canvas,0
+2853664242,false,"`createImageBitmap` does not immediately convert color space, premultiply alpha, etc.",https://github.com/whatwg/html/issues/11029,2025-02-14T13:00:25Z,2025-02-25T08:10:11Z,Hajime-san,topic: canvas,0
 2853658770,false,window.open Promise(s),https://github.com/whatwg/html/issues/11028,2025-02-14T12:58:29Z,2025-02-15T11:00:00Z,arichiv,,0
 2852231986,true,Upcoming WHATNOT meeting on 2025-02-20,https://github.com/whatwg/html/issues/11026,2025-02-13T22:26:38Z,2025-02-20T17:22:18Z,past,agenda+,0
 2852166450,true,Wording in spec for Boolean Attributes is inconsistent with provided examples,https://github.com/whatwg/html/issues/11025,2025-02-13T21:42:36Z,2025-02-13T22:51:11Z,bkimmelSQSP,,0
 2851574490,true,Are the BarProp objects obsolete/discouraged?,https://github.com/whatwg/html/issues/11024,2025-02-13T16:42:58Z,2025-02-19T05:11:18Z,foolip,,0
 2851240544,false,Elements created while parsed inside a fragment think they are connected,https://github.com/whatwg/html/issues/11023,2025-02-13T14:41:29Z,2025-02-24T16:59:20Z,AtkinsSJ,topic: forms,0
-2849558461,false,Add `sheet` attribute to the `<link>` tag's for CSS `@sheet` support,https://github.com/whatwg/html/issues/11022,2025-02-12T23:20:40Z,2025-02-20T21:56:37Z,KurtCattiSchmidt,,0
+2849558461,false,Add `sheet` attribute to the `<link>` tag's for CSS `@sheet` support,https://github.com/whatwg/html/issues/11022,2025-02-12T23:20:40Z,2025-02-20T21:56:37Z,KurtCattiSchmidt,,1
 2848664991,true,Add a deprecated meta tag option,https://github.com/whatwg/html/issues/11021,2025-02-12T15:52:31Z,2025-02-13T00:41:18Z,davidstraight,addition/proposal|needs implementer interest,1
 2846727802,false,SPA route alias caching,https://github.com/whatwg/html/issues/11020,2025-02-11T22:58:27Z,2025-02-11T22:58:27Z,dead-claudia,addition/proposal|needs implementer interest,0
 2846638990,false,Support fragment references in the `<link>` tag's `href` attribute,https://github.com/whatwg/html/issues/11019,2025-02-11T22:06:14Z,2025-02-20T10:34:05Z,KurtCattiSchmidt,topic: link|topic: style|stage: 1,2
@@ -41,7 +41,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2838837904,true,Upcoming WHATNOT meeting on 2025-02-13,https://github.com/whatwg/html/issues/11010,2025-02-07T18:41:13Z,2025-02-13T22:30:15Z,past,agenda+,0
 2837242514,false,"Hint popovers can't be the ""topmost open popover ancestor"" of dialog elements",https://github.com/whatwg/html/issues/11008,2025-02-07T05:01:29Z,2025-02-08T04:21:35Z,Gingeh,,0
 2836822957,false,"Should the popoverList in ""hide popover stack until"" and ""close entire popover list"" be dynamically updated?",https://github.com/whatwg/html/issues/11007,2025-02-06T23:16:31Z,2025-02-21T15:31:18Z,Gingeh,topic: popover,0
-2834192046,false,ARIA notify iframe restrictions,https://github.com/whatwg/html/issues/11004,2025-02-05T23:50:07Z,2025-02-24T07:46:07Z,aluhrs13,addition/proposal|needs implementer interest,1
+2834192046,false,ARIA notify iframe restrictions,https://github.com/whatwg/html/issues/11004,2025-02-05T23:50:07Z,2025-02-25T09:45:51Z,aluhrs13,addition/proposal|needs implementer interest,1
 2833494241,true,Web Workers importmap field,https://github.com/whatwg/html/issues/11002,2025-02-05T17:03:07Z,2025-02-06T06:21:49Z,WebReflection,,2
 2833216763,true,tuple in #concept-origin-tuple should link to https://infra.spec.whatwg.org/#tuple,https://github.com/whatwg/html/issues/10999,2025-02-05T15:08:43Z,2025-02-06T01:25:34Z,farre,,0
 2833183975,false,Clarification of #obtain-similar-origin-window-agent,https://github.com/whatwg/html/issues/10998,2025-02-05T14:56:03Z,2025-02-21T05:56:37Z,farre,clarification|topic: origin,0
@@ -439,7 +439,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2264931031,true,Move GitHub Wiki content to README or spec/website page,https://github.com/whatwg/html/issues/10299,2024-04-26T04:20:21Z,2024-05-13T04:27:43Z,jcbhmr,,0
 2264087105,true,Upcoming WHATNOT meeting on 5/2/2024,https://github.com/whatwg/html/issues/10298,2024-04-25T17:05:55Z,2024-05-03T00:02:51Z,past,agenda+,0
 2263162193,false,Provide named character entities for invisible and ambiguous Unicode characters,https://github.com/whatwg/html/issues/10297,2024-04-25T09:50:32Z,2024-11-25T04:20:55Z,r12a,addition/proposal|needs implementer interest|i18n-needs-resolution,0
-2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2025-02-25T00:13:55Z,bfgeek,normative change|needs implementer interest|topic: rendering|agenda+,2
+2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2025-02-25T12:16:25Z,bfgeek,normative change|needs implementer interest|topic: rendering|agenda+,1
 2258787056,false,Sentence in 6.11.7 doesn't seem right,https://github.com/whatwg/html/issues/10295,2024-04-23T12:44:29Z,2024-04-23T12:44:29Z,Zhang-Junzhi,,0
 2258703067,true,SEO issue of <a> elements put dependently inside a context,https://github.com/whatwg/html/issues/10294,2024-04-23T12:03:03Z,2024-04-24T03:15:29Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
 2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2024-04-23T09:10:07Z,pfteter,addition/proposal|needs implementer interest|topic: forms,11
@@ -1887,7 +1887,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 846831038,true,"Should ""fetch a single module script"" set mode to same-origin for serviceworker destination?",https://github.com/whatwg/html/issues/6544,2021-03-31T15:06:04Z,2021-04-12T15:12:02Z,wanderview,,0
 843461196,true,Create resource timing entries for HTML resources,https://github.com/whatwg/html/issues/6542,2021-03-29T15:01:55Z,2022-03-31T18:43:16Z,noamr,topic: fetch|integration,0
 843385207,true,Script tag extension for secure local computing,https://github.com/whatwg/html/issues/6541,2021-03-29T13:44:07Z,2021-04-06T15:19:02Z,ghost,addition/proposal|needs implementer interest,0
-843318881,false,Proposal: Button attribute to store text that can be copied to clipboard on trigger (click/enter key),https://github.com/whatwg/html/issues/6540,2021-03-29T12:25:43Z,2025-02-24T22:57:05Z,runofthemillgeek,addition/proposal|needs implementer interest,1
+843318881,false,Proposal: Button attribute to store text that can be copied to clipboard on trigger (click/enter key),https://github.com/whatwg/html/issues/6540,2021-03-29T12:25:43Z,2025-02-25T05:11:46Z,runofthemillgeek,addition/proposal|needs implementer interest,1
 843291188,true,When does the `otherwise` (inner `If there is a match`) occur?,https://github.com/whatwg/html/issues/6539,2021-03-29T11:48:15Z,2021-03-29T12:20:01Z,scw00,,0
 842978921,false,Apply text-align: match-parent to the option element in the UA stylesheet,https://github.com/whatwg/html/issues/6538,2021-03-29T05:21:47Z,2022-03-02T09:29:23Z,frivoal,topic: rendering|i18n-tracker|i18n-alreq|i18n-hlreq|i18n-afrlreq,0
 842156022,true,New feature proposal: Circular input range,https://github.com/whatwg/html/issues/6534,2021-03-26T17:11:58Z,2021-04-12T13:50:19Z,jimmywarting,,0
@@ -3391,7 +3391,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 301777319,true,"quirk mode ",https://github.com/whatwg/html/issues/3521,2018-03-02T14:08:38Z,2018-03-02T14:09:54Z,ghost,,0
 301686491,false,<meter> interoperability issue with values on boundaries,https://github.com/whatwg/html/issues/3520,2018-03-02T08:19:32Z,2022-03-11T08:40:22Z,tkent-google,clarification|interop,0
 301660842,true,I need feedback to see if I am right?,https://github.com/whatwg/html/issues/3519,2018-03-02T05:50:39Z,2018-03-02T10:10:56Z,Thezone1975,,0
-301576285,false,Proposal: HTML passwordrules attribute,https://github.com/whatwg/html/issues/3518,2018-03-01T22:02:50Z,2024-04-27T23:38:58Z,dbates-wk,addition/proposal|needs implementer interest|document conformance|security/privacy|topic: forms,74
+301576285,false,Proposal: HTML passwordrules attribute,https://github.com/whatwg/html/issues/3518,2018-03-01T22:02:50Z,2025-02-25T11:44:55Z,dbates-wk,addition/proposal|needs implementer interest|document conformance|security/privacy|topic: forms,74
 301126578,false,API for structured serialized data,https://github.com/whatwg/html/issues/3517,2018-02-28T18:07:55Z,2024-07-15T07:43:12Z,devsnek,addition/proposal|needs implementer interest|topic: serialize and transfer,8
 300769187,true,Add element reflection counterparts to id-reference counterparts,https://github.com/whatwg/html/issues/3515,2018-02-27T19:51:04Z,2022-11-11T14:43:18Z,domenic,addition/proposal|topic: shadow|accessibility|impacts documentation,0
 300576902,false,Define all focus events,https://github.com/whatwg/html/issues/3514,2018-02-27T10:41:03Z,2024-03-29T19:01:00Z,annevk,interop|topic: focus|integration,3
