@@ -1,9 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2878740610,false,XML parser does not create custom elements,https://github.com/whatwg/html/issues/11071,2025-02-25T15:19:28Z,2025-02-25T15:19:45Z,annevk,compat|topic: custom elements,0
+2878740610,true,XML parser does not create custom elements,https://github.com/whatwg/html/issues/11071,2025-02-25T15:19:28Z,2025-02-26T07:41:09Z,annevk,compat|topic: custom elements,0
 2876741297,false,Add `full-framerate` render blocking attribute,https://github.com/whatwg/html/issues/11070,2025-02-25T03:01:39Z,2025-02-25T03:01:39Z,gjc13,addition/proposal|needs implementer interest,0
 2874407586,false,Add an API for `<input type=color alpha>` to return colors in HEX format.,https://github.com/whatwg/html/issues/11069,2025-02-24T09:57:26Z,2025-02-25T06:18:46Z,yisibl,addition/proposal|needs implementer interest|topic: forms,0
 2874388234,false,Exposing the DOMParser API in Worker Contexts,https://github.com/whatwg/html/issues/11068,2025-02-24T09:50:37Z,2025-02-25T04:43:48Z,sqwr,addition/proposal|needs implementer interest,0
-2869703835,false,navigation API: resolve the finished promise,https://github.com/whatwg/html/issues/11064,2025-02-21T18:10:39Z,2025-02-21T18:10:39Z,atscott,,0
+2869703835,true,navigation API: resolve the finished promise,https://github.com/whatwg/html/issues/11064,2025-02-21T18:10:39Z,2025-02-26T07:45:51Z,atscott,clarification|topic: navigation,0
 2869493100,true,:host-context(my-el) inside a <my-el> custom element matches even for a standalone <my-el>,https://github.com/whatwg/html/issues/11063,2025-02-21T16:29:23Z,2025-02-24T17:27:51Z,franktopel,,0
 2867510954,false,Proposal: Customized built-in elements via `elementInternals.type`,https://github.com/whatwg/html/issues/11061,2025-02-20T23:34:14Z,2025-02-24T19:20:11Z,sanketj,addition/proposal,7
 2867022774,false,"`responsePolicyContainer` in ""determine navigation params policy container"" should be cloned for consistency",https://github.com/whatwg/html/issues/11060,2025-02-20T18:58:05Z,2025-02-25T08:59:19Z,Lubrsi,topic: navigation|topic: policy container,0
@@ -40,12 +40,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2842327178,false,WheelEvent (or MouseEvent) should specify a device type,https://github.com/whatwg/html/issues/11013,2025-02-10T12:54:15Z,2025-02-10T12:56:07Z,faceless2,addition/proposal|needs implementer interest,0
 2839042841,false,"Popover, modal, and [inert] stylesheet contents should maybe have their own section",https://github.com/whatwg/html/issues/11011,2025-02-07T20:37:05Z,2025-02-25T13:17:31Z,mfreed7,topic: rendering|topic: popover,0
 2838837904,true,Upcoming WHATNOT meeting on 2025-02-13,https://github.com/whatwg/html/issues/11010,2025-02-07T18:41:13Z,2025-02-13T22:30:15Z,past,agenda+,0
-2837242514,false,"Hint popovers can't be the ""topmost open popover ancestor"" of dialog elements",https://github.com/whatwg/html/issues/11008,2025-02-07T05:01:29Z,2025-02-25T17:16:49Z,Gingeh,topic: dialog|topic: popover,0
+2837242514,false,"Hint popovers can't be the ""topmost open popover ancestor"" of dialog elements",https://github.com/whatwg/html/issues/11008,2025-02-07T05:01:29Z,2025-02-26T04:48:45Z,Gingeh,topic: dialog|topic: popover,0
 2836822957,false,"Should the popoverList in ""hide popover stack until"" and ""close entire popover list"" be dynamically updated?",https://github.com/whatwg/html/issues/11007,2025-02-06T23:16:31Z,2025-02-21T15:31:18Z,Gingeh,topic: popover,0
 2834192046,false,ARIA notify iframe restrictions,https://github.com/whatwg/html/issues/11004,2025-02-05T23:50:07Z,2025-02-25T09:45:51Z,aluhrs13,addition/proposal|needs implementer interest,1
 2833494241,true,Web Workers importmap field,https://github.com/whatwg/html/issues/11002,2025-02-05T17:03:07Z,2025-02-06T06:21:49Z,WebReflection,,2
 2833216763,true,tuple in #concept-origin-tuple should link to https://infra.spec.whatwg.org/#tuple,https://github.com/whatwg/html/issues/10999,2025-02-05T15:08:43Z,2025-02-06T01:25:34Z,farre,,0
-2833183975,false,Clarification of #obtain-similar-origin-window-agent,https://github.com/whatwg/html/issues/10998,2025-02-05T14:56:03Z,2025-02-21T05:56:37Z,farre,clarification|topic: origin,0
+2833183975,true,Clarification of #obtain-similar-origin-window-agent,https://github.com/whatwg/html/issues/10998,2025-02-05T14:56:03Z,2025-02-26T04:19:18Z,farre,clarification|topic: origin,0
 2831961444,false,A new API for work during unload,https://github.com/whatwg/html/issues/10997,2025-02-05T05:42:14Z,2025-02-12T04:33:38Z,domenic,addition/proposal|needs implementer interest,0
 2831676809,false,"Assertion in ""hide all popovers until"" will fail when changing a showing ""hint"" popover to ""auto""",https://github.com/whatwg/html/issues/10996,2025-02-05T02:04:22Z,2025-02-21T15:28:00Z,Gingeh,topic: popover,0
 2829155769,false,The topmost popover ancestor algorithm is used for manual popovers,https://github.com/whatwg/html/issues/10988,2025-02-04T05:12:29Z,2025-02-07T18:21:41Z,Gingeh,,0
@@ -128,7 +128,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2724585372,true,Add an `<h>` element to replace `<h1-n>`.,https://github.com/whatwg/html/issues/10835,2024-12-07T13:04:42Z,2025-02-20T13:02:05Z,RokeJulianLockhart,addition/proposal|needs implementer interest,1
 2724547102,true,"Calling replaceState before pushState messes up with the state, so when I go back, it does go back, but it should not",https://github.com/whatwg/html/issues/10834,2024-12-07T11:24:48Z,2024-12-08T03:27:40Z,Nedimko123,,0
 2724509105,true,"Invalid reference to ""oldModuleMap"" and ""specifier"" in ""merge existing and new import maps""",https://github.com/whatwg/html/issues/10833,2024-12-07T09:40:47Z,2024-12-09T07:05:50Z,shannonbooth,topic: script,0
-2722602163,false,Lift restriction on buttons with implicit `type=submit` and `command`/`commandfor` being no-op,https://github.com/whatwg/html/issues/10832,2024-12-06T10:07:50Z,2025-02-25T16:38:56Z,keithamus,addition/proposal|needs implementer interest|topic: forms,0
+2722602163,false,Lift restriction on buttons with implicit `type=submit` and `command`/`commandfor` being no-op,https://github.com/whatwg/html/issues/10832,2024-12-06T10:07:50Z,2025-02-26T08:12:13Z,keithamus,addition/proposal|needs implementer interest|topic: forms,0
 2722500950,false,Detect UA transitions on same-origin cross-document navigations,https://github.com/whatwg/html/issues/10831,2024-12-06T09:18:01Z,2025-01-28T15:30:25Z,bramus,addition/proposal|needs implementer interest,2
 2721993883,true,Iframe insertion steps violate rules for what insertion steps are allowed to do,https://github.com/whatwg/html/issues/10828,2024-12-06T03:59:51Z,2024-12-12T03:38:48Z,jdm,integration,0
 2721875733,false,Browsers are not interoperable on navigating to no-Content-Type blob: URLs,https://github.com/whatwg/html/issues/10827,2024-12-06T02:08:45Z,2024-12-07T07:15:03Z,domenic,topic: navigation|interop,0
@@ -440,7 +440,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2264931031,true,Move GitHub Wiki content to README or spec/website page,https://github.com/whatwg/html/issues/10299,2024-04-26T04:20:21Z,2024-05-13T04:27:43Z,jcbhmr,,0
 2264087105,true,Upcoming WHATNOT meeting on 5/2/2024,https://github.com/whatwg/html/issues/10298,2024-04-25T17:05:55Z,2024-05-03T00:02:51Z,past,agenda+,0
 2263162193,false,Provide named character entities for invisible and ambiguous Unicode characters,https://github.com/whatwg/html/issues/10297,2024-04-25T09:50:32Z,2024-11-25T04:20:55Z,r12a,addition/proposal|needs implementer interest|i18n-needs-resolution,0
-2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2025-02-25T21:46:42Z,bfgeek,normative change|needs implementer interest|topic: rendering|agenda+,1
+2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2025-02-26T09:43:22Z,bfgeek,normative change|needs implementer interest|topic: rendering|agenda+,1
 2258787056,false,Sentence in 6.11.7 doesn't seem right,https://github.com/whatwg/html/issues/10295,2024-04-23T12:44:29Z,2024-04-23T12:44:29Z,Zhang-Junzhi,,0
 2258703067,true,SEO issue of <a> elements put dependently inside a context,https://github.com/whatwg/html/issues/10294,2024-04-23T12:03:03Z,2024-04-24T03:15:29Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
 2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2024-04-23T09:10:07Z,pfteter,addition/proposal|needs implementer interest|topic: forms,11
