@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2885617001,false,Navigation API: Spec does not accurately describe firing popstate event is intercepted and source is a fragment navigation,https://github.com/whatwg/html/issues/11082,2025-02-27T21:11:53Z,2025-02-27T21:11:53Z,atscott,,0
+2886564942,false,HTMLInputElement type=url “absolute URL string” constraint-validation-API requirements don’t match actual Gecko/Blink/WebKit implementation behavior,https://github.com/whatwg/html/issues/11083,2025-02-28T08:48:01Z,2025-02-28T08:52:57Z,sideshowbarker,compat|topic: forms,0
+2885617001,false,Navigation API: Spec does not accurately describe firing popstate event is intercepted and source is a fragment navigation,https://github.com/whatwg/html/issues/11082,2025-02-27T21:11:53Z,2025-02-28T09:58:16Z,atscott,topic: navigation,0
 2885557148,false,Upcoming WHATNOT meeting on 2025-03-06,https://github.com/whatwg/html/issues/11081,2025-02-27T20:36:28Z,2025-02-27T20:36:28Z,past,agenda+,0
 2885502205,false,Alternative text for short-form video,https://github.com/whatwg/html/issues/11080,2025-02-27T20:05:27Z,2025-02-27T22:39:46Z,tylersticka,addition/proposal|needs implementer interest,0
 2884736071,false,Clarify why <input type=file> hides the real path,https://github.com/whatwg/html/issues/11079,2025-02-27T14:45:38Z,2025-02-27T15:20:04Z,JB-BISHELCO,clarification,1
@@ -136,7 +137,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2724547102,true,"Calling replaceState before pushState messes up with the state, so when I go back, it does go back, but it should not",https://github.com/whatwg/html/issues/10834,2024-12-07T11:24:48Z,2024-12-08T03:27:40Z,Nedimko123,,0
 2724509105,true,"Invalid reference to ""oldModuleMap"" and ""specifier"" in ""merge existing and new import maps""",https://github.com/whatwg/html/issues/10833,2024-12-07T09:40:47Z,2024-12-09T07:05:50Z,shannonbooth,topic: script,0
 2722602163,false,Lift restriction on buttons with implicit `type=submit` and `command`/`commandfor` being no-op,https://github.com/whatwg/html/issues/10832,2024-12-06T10:07:50Z,2025-02-26T08:12:13Z,keithamus,addition/proposal|needs implementer interest|topic: forms,0
-2722500950,false,Detect UA transitions on same-origin cross-document navigations,https://github.com/whatwg/html/issues/10831,2024-12-06T09:18:01Z,2025-01-28T15:30:25Z,bramus,addition/proposal|needs implementer interest,2
+2722500950,false,Detect UA transitions on same-origin cross-document navigations,https://github.com/whatwg/html/issues/10831,2024-12-06T09:18:01Z,2025-02-28T10:57:04Z,bramus,addition/proposal|needs implementer interest,2
 2721993883,true,Iframe insertion steps violate rules for what insertion steps are allowed to do,https://github.com/whatwg/html/issues/10828,2024-12-06T03:59:51Z,2024-12-12T03:38:48Z,jdm,integration,0
 2721875733,false,Browsers are not interoperable on navigating to no-Content-Type blob: URLs,https://github.com/whatwg/html/issues/10827,2024-12-06T02:08:45Z,2024-12-07T07:15:03Z,domenic,topic: navigation|interop,0
 2721339741,true,Upcoming WHATNOT meeting on 2024-12-12,https://github.com/whatwg/html/issues/10825,2024-12-05T20:36:22Z,2024-12-13T00:10:07Z,past,agenda+,0
@@ -3362,7 +3363,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2024-09-04T17:05:26Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,146
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2024-09-04T17:05:26Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,147
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
