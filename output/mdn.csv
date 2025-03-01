@@ -958,7 +958,7 @@ api/CanvasRenderingContext2D/fillRect,,1.5,,1,,2,,false,true,false,https://html.
 api/CanvasRenderingContext2D/fillStyle,,1.5,,1,,2,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fillstyle-dev,WHATWG
 api/CanvasRenderingContext2D/fillText,,3.5,,2,,4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-filltext-dev,WHATWG
 api/CanvasRenderingContext2D/filter,,49,,52,,,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-filter-dev,WHATWG
-api/CanvasRenderingContext2D/font,,3.5,,2,,4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-font-dev,WHATWG
+api/CanvasRenderingContext2D/font,,3.5,,2,,18.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-font-dev,WHATWG
 api/CanvasRenderingContext2D/fontKerning,,104,,99,,,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fontkerning,WHATWG
 api/CanvasRenderingContext2D/fontStretch,,117,,99,,,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fontstretch,WHATWG
 api/CanvasRenderingContext2D/fontVariantCaps,,117,,99,,,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fontvariantcaps,WHATWG
@@ -5068,7 +5068,7 @@ api/OffscreenCanvasRenderingContext2D/fillRect,,105,,69,,16.4,,false,true,false,
 api/OffscreenCanvasRenderingContext2D/fillStyle,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fillstyle-dev,WHATWG
 api/OffscreenCanvasRenderingContext2D/fillText,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-filltext-dev,WHATWG
 api/OffscreenCanvasRenderingContext2D/filter,,116,,69,,,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-filter-dev,WHATWG
-api/OffscreenCanvasRenderingContext2D/font,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-font-dev,WHATWG
+api/OffscreenCanvasRenderingContext2D/font,,105,,69,,18.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-font-dev,WHATWG
 api/OffscreenCanvasRenderingContext2D/fontKerning,,105,,99,,,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fontkerning,WHATWG
 api/OffscreenCanvasRenderingContext2D/fontStretch,,117,,99,,,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fontstretch,WHATWG
 api/OffscreenCanvasRenderingContext2D/fontVariantCaps,,117,,99,,,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fontvariantcaps,WHATWG
@@ -9434,7 +9434,7 @@ css/at-rules/font-face/descent-override,,89,,87,,,,false,true,false,https://draf
 css/at-rules/font-face/font-display,,58,,60,,11.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-display-desc,W3C
 css/at-rules/font-face/font-family,,3.5,,4,,3.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-family-desc,W3C
 css/at-rules/font-face/font-feature-settings,,34,,,,10,,false,true,false,https://drafts.csswg.org/css-fonts/#font-rend-desc,W3C
-css/at-rules/font-face/font-stretch,,62,,62,,10.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-prop-desc,W3C
+css/at-rules/font-face/font-stretch,,62,,62,,10.1,,false,true,true,https://drafts.csswg.org/css-fonts/#font-prop-desc,W3C
 css/at-rules/font-face/font-style,,3.5,,4,,3.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-prop-desc,W3C
 css/at-rules/font-face/font-variant,,3.5,,4,,3.1,,false,false,false,,NONE
 css/at-rules/font-face/font-variation-settings,,62,,,,,,false,true,false,https://drafts.csswg.org/css-fonts/#font-rend-desc,W3C
@@ -10213,7 +10213,7 @@ css/properties/flood-color,,3,,5,,6,,false,true,false,https://drafts.fxtf.org/fi
 css/properties/flood-opacity,,3,,5,,6,,false,true,false,https://drafts.fxtf.org/filter-effects/#FloodOpacityProperty,W3C
 css/properties/font,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-prop,W3C
 css/properties/font/caption,,1,,1,,1,,false,true,false,,NONE
-css/properties/font/font_stretch_support,,43,,60,,11,,false,true,false,,NONE
+css/properties/font/font-width_keyword_values,,43,,60,,11,,false,true,false,,NONE
 css/properties/font/icon,,1,,1,,1,,false,true,false,,NONE
 css/properties/font/menu,,1,,1,,1,,false,true,false,,NONE
 css/properties/font/message-box,,1,,1,,1,,false,true,false,,NONE
@@ -10248,8 +10248,8 @@ css/properties/font-size-adjust/from-font,,118,,127,,17,,false,true,false,https:
 css/properties/font-size-adjust/none,,3,,127,,16.4,,false,true,false,https://drafts.csswg.org/css-fonts-5/#valdef-font-size-adjust-none,W3C
 css/properties/font-size-adjust/two-values,,92,,127,,17,,false,true,false,,NONE
 css/properties/font-smooth,,25,,5,,4,,false,false,false,,NONE
-css/properties/font-stretch,,9,,60,,11,,false,true,false,https://drafts.csswg.org/css-fonts/#font-stretch-prop,W3C
-css/properties/font-stretch/percentage,,61,,62,,11.1,,false,true,false,,NONE
+css/properties/font-stretch,,9,,60,,11,,false,true,true,https://drafts.csswg.org/css-fonts/#font-stretch-prop,W3C
+css/properties/font-stretch/percentage,,61,,62,,11.1,,false,true,true,,NONE
 css/properties/font-style,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-style-prop,W3C
 css/properties/font-style/italic,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-style-italic,W3C
 css/properties/font-style/normal,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-fonts/#valdef-font-style-normal,W3C
@@ -13226,7 +13226,6 @@ javascript/builtins/Error/Error/lineNumber_parameter,,1,,,,,,false,false,false,,
 javascript/builtins/Error/Error/options_cause_parameter,,91,,93,,15,,false,true,false,https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-installerrorcause,TC39
 javascript/builtins/Error/captureStackTrace,,136,"[{""name"":""javascript.options.experimental.error_capture_stack_trace"",""type"":""preference"",""value_to_set"":""true""}]",3,,17.3,,false,false,false,,NONE
 javascript/builtins/Error/cause,,91,,93,,15,,false,true,false,https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-installerrorcause,TC39
-javascript/builtins/Error/cause/displayed_in_console,,91,,125,,,,false,false,false,,NONE
 javascript/builtins/Error/columnNumber,,1,,,,,,false,false,false,,NONE
 javascript/builtins/Error/fileName,,1,,,,,,false,false,false,,NONE
 javascript/builtins/Error/isError,,,,134,,18.4,,false,true,false,https://tc39.es/proposal-is-error/#sec-error.iserror,TC39
@@ -14839,7 +14838,7 @@ svg/global_attributes/flood-opacity,,3,,5,,6,,false,true,false,https://drafts.fx
 svg/global_attributes/font-family,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-fonts/#generic-font-families,W3C
 svg/global_attributes/font-size,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-size-prop,W3C
 svg/global_attributes/font-size-adjust,,3,,127,,16.4,,false,true,false,https://drafts.csswg.org/css-fonts/#font-size-adjust-prop,W3C
-svg/global_attributes/font-stretch,,9,,60,,11,,false,true,false,https://drafts.csswg.org/css-fonts/#font-stretch-prop,W3C
+svg/global_attributes/font-stretch,,9,,60,,11,,false,true,true,https://drafts.csswg.org/css-fonts/#font-stretch-prop,W3C
 svg/global_attributes/font-style,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-style-prop,W3C
 svg/global_attributes/font-variant,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-variant-prop,W3C
 svg/global_attributes/font-weight,,1,,2,,1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-weight-prop,W3C
