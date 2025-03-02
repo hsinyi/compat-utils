@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2889215195,false,Is `NavigateEvent` meant to be user constructable?,https://github.com/whatwg/html/issues/11090,2025-03-01T23:30:06Z,2025-03-01T23:30:06Z,rschristian,,0
+2889215195,true,Is `NavigateEvent` meant to be user constructable?,https://github.com/whatwg/html/issues/11090,2025-03-01T23:30:06Z,2025-03-02T11:40:25Z,rschristian,,0
 2889115579,false,Permanent anchor requests,https://github.com/whatwg/html/issues/11089,2025-03-01T19:46:21Z,2025-03-01T19:46:31Z,aaronpk,,0
 2888159487,false,Navigation API: Assertion in finish navigate event will fail if handlers reject,https://github.com/whatwg/html/issues/11087,2025-02-28T22:22:53Z,2025-02-28T22:28:52Z,atscott,,0
 2886564942,false,HTMLInputElement type=url “absolute URL string” constraint-validation-API requirements don’t match actual Gecko/Blink/WebKit implementation behavior,https://github.com/whatwg/html/issues/11083,2025-02-28T08:48:01Z,2025-03-01T07:47:51Z,sideshowbarker,compat|topic: forms,0
@@ -122,7 +122,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2737098848,true,Upcoming WHATNOT meeting on 2024-12-19,https://github.com/whatwg/html/issues/10861,2024-12-12T23:59:38Z,2024-12-19T20:30:30Z,past,agenda+,0
 2736746960,true,Add `window.customCommands`,https://github.com/whatwg/html/issues/10860,2024-12-12T19:46:28Z,2025-02-20T15:18:23Z,scola84,addition/proposal|needs implementer interest,0
 2735477406,false,ImageData: Add Float16Array backing support,https://github.com/whatwg/html/issues/10856,2024-12-12T10:21:05Z,2025-02-17T12:14:36Z,ccameron-chromium,addition/proposal|topic: canvas,1
-2735459574,false,CanvasRenderingContext2D: Add getImageDataAsync method,https://github.com/whatwg/html/issues/10855,2024-12-12T10:13:15Z,2025-03-01T08:02:37Z,ccameron-chromium,addition/proposal|topic: canvas|agenda+,3
+2735459574,false,CanvasRenderingContext2D: Add getImageDataAsync method,https://github.com/whatwg/html/issues/10855,2024-12-12T10:13:15Z,2025-03-02T10:29:40Z,ccameron-chromium,addition/proposal|topic: canvas|agenda+,3
 2735341285,false,Revamped Scoped Custom Element Registries,https://github.com/whatwg/html/issues/10854,2024-12-12T09:22:28Z,2025-03-01T07:57:45Z,annevk,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements,13
 2734230880,false,Allow form controls in a shadow root to participate in it's host form submission,https://github.com/whatwg/html/issues/10852,2024-12-11T23:23:36Z,2024-12-12T08:28:42Z,KonnorRogers,addition/proposal|needs implementer interest|topic: shadow,1
 2733274119,false,Make <dialog> usable without JS (for form confirmation),https://github.com/whatwg/html/issues/10851,2024-12-11T15:22:18Z,2024-12-16T15:43:02Z,tino,addition/proposal|needs implementer interest,0
@@ -3366,7 +3366,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2024-09-04T17:05:26Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,149
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2024-09-04T17:05:26Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,150
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
