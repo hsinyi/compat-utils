@@ -1,7 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2889718144,false,ECMAScript Cannot reliably test boolean values,https://github.com/whatwg/html/issues/11091,2025-03-02T18:43:40Z,2025-03-02T18:43:40Z,JB-BISHELCO,,3
 2889215195,true,Is `NavigateEvent` meant to be user constructable?,https://github.com/whatwg/html/issues/11090,2025-03-01T23:30:06Z,2025-03-02T11:40:25Z,rschristian,,0
-2889115579,false,Permanent anchor requests,https://github.com/whatwg/html/issues/11089,2025-03-01T19:46:21Z,2025-03-01T19:46:31Z,aaronpk,,0
+2889115579,false,Permanent anchor requests,https://github.com/whatwg/html/issues/11089,2025-03-01T19:46:21Z,2025-03-03T02:25:11Z,aaronpk,anchor permanence,0
 2888159487,false,Navigation API: Assertion in finish navigate event will fail if handlers reject,https://github.com/whatwg/html/issues/11087,2025-02-28T22:22:53Z,2025-02-28T22:28:52Z,atscott,,0
 2886564942,false,HTMLInputElement type=url “absolute URL string” constraint-validation-API requirements don’t match actual Gecko/Blink/WebKit implementation behavior,https://github.com/whatwg/html/issues/11083,2025-02-28T08:48:01Z,2025-03-01T07:47:51Z,sideshowbarker,compat|topic: forms,0
 2885617001,false,Navigation API: Spec does not accurately describe firing popstate event is intercepted and source is a fragment navigation,https://github.com/whatwg/html/issues/11082,2025-02-27T21:11:53Z,2025-02-28T09:58:16Z,atscott,topic: navigation,0
@@ -9,7 +8,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2885502205,false,Alternative text for short-form video,https://github.com/whatwg/html/issues/11080,2025-02-27T20:05:27Z,2025-02-27T22:39:46Z,tylersticka,addition/proposal|needs implementer interest,1
 2884736071,false,Clarify why <input type=file> hides the real path,https://github.com/whatwg/html/issues/11079,2025-02-27T14:45:38Z,2025-03-02T22:20:13Z,JB-BISHELCO,clarification,1
 2882914326,false,Additional usage guidance for IDL attribute types (such as DOMString?),https://github.com/whatwg/html/issues/11078,2025-02-26T22:02:24Z,2025-03-01T18:59:32Z,rahimabdi,,1
-2881602648,false,Web Compatibility of Scoped Custom Element Registries,https://github.com/whatwg/html/issues/11076,2025-02-26T13:26:42Z,2025-02-27T20:05:17Z,annevk,agenda+,0
+2881602648,false,Web Compatibility of Scoped Custom Element Registries,https://github.com/whatwg/html/issues/11076,2025-02-26T13:26:42Z,2025-03-03T09:55:10Z,annevk,,0
 2881587544,false,Looking up an element definition no longer depends on the element's node document,https://github.com/whatwg/html/issues/11075,2025-02-26T13:22:08Z,2025-02-26T13:22:47Z,annevk,needs tests,0
 2878740610,true,XML parser does not create custom elements,https://github.com/whatwg/html/issues/11071,2025-02-25T15:19:28Z,2025-02-26T07:41:09Z,annevk,compat|topic: custom elements,0
 2876741297,false,Add `full-framerate` render blocking attribute,https://github.com/whatwg/html/issues/11070,2025-02-25T03:01:39Z,2025-02-25T03:01:39Z,gjc13,addition/proposal|needs implementer interest,0
@@ -879,7 +878,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1728670275,false,<img>.complete should take <source> elements into account,https://github.com/whatwg/html/issues/9346,2023-05-27T11:43:15Z,2023-10-22T08:25:19Z,johannesodland,topic: img,0
 1728512290,true,"pushState/replaceState have special handling for the empty string, which is not in the spec",https://github.com/whatwg/html/issues/9343,2023-05-27T07:17:59Z,2023-06-02T03:06:20Z,domenic,topic: history|interop,0
 1727904410,true,Using <h4> in a <figure> to record title content within XHTML,https://github.com/whatwg/html/issues/9342,2023-05-26T16:18:41Z,2023-05-27T01:54:43Z,KD-3240,,0
-1727581751,false,Proposal: Improve support for multiple target origins for Window#postMessage,https://github.com/whatwg/html/issues/9340,2023-05-26T12:58:54Z,2023-06-11T13:22:49Z,eliasm307,addition/proposal|needs implementer interest|topic: serialize and transfer,1
+1727581751,false,Proposal: Improve support for multiple target origins for Window#postMessage,https://github.com/whatwg/html/issues/9340,2023-05-26T12:58:54Z,2023-06-11T13:22:49Z,eliasm307,addition/proposal|needs implementer interest|topic: serialize and transfer,2
 1726270402,true,"""check popover algorithm"" check for open dialogs is weak",https://github.com/whatwg/html/issues/9335,2023-05-25T18:10:32Z,2023-06-06T05:15:42Z,nt1m,topic: dialog|topic: popover,0
 1726046900,false,Proposal: Meta Tag for AI Consent Management,https://github.com/whatwg/html/issues/9334,2023-05-25T15:27:38Z,2023-08-15T22:34:35Z,brennancaldwell,addition/proposal|needs implementer interest,0
 1725842986,true,[View Transitions] Extend render-blocking to support Document,https://github.com/whatwg/html/issues/9332,2023-05-25T13:33:50Z,2024-02-27T08:19:36Z,khushalsagar,addition/proposal|topic: rendering,2
@@ -1473,7 +1472,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1176210826,true,Should a preload with SRI and a main request without SRI be matched?,https://github.com/whatwg/html/issues/7736,2022-03-22T03:17:51Z,2022-05-19T00:42:57Z,hiroshige-g,security/privacy|topic: fetch|topic: resource hints (inc. preload),0
 1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2025-01-03T11:58:52Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,80
 1175078464,false,"Modern browsers don't implement ""4.10.21.2 Implicit submission"" correctly",https://github.com/whatwg/html/issues/7730,2022-03-21T08:59:00Z,2022-03-21T12:40:28Z,IliasDewachter,topic: forms,0
-1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2022-03-23T21:36:38Z,domenic,topic: navigation|interop,1
+1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2025-03-03T09:50:56Z,domenic,topic: navigation|interop,1
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
 1172335029,true,Window's time origin is totally different across browsers. Consider simplifying,https://github.com/whatwg/html/issues/7716,2022-03-17T12:43:17Z,2022-05-03T18:28:36Z,noamr,topic: navigation,0
 1171182964,true,Allow Browsing Contexts to maintain opener member across Browsing Context Groups.,https://github.com/whatwg/html/issues/7713,2022-03-16T15:26:52Z,2022-05-04T09:25:49Z,hemeryar,addition/proposal|topic: frames/navigables/browsing contexts|topic: cross-origin-opener-policy,0
@@ -2564,7 +2563,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 512330703,false,Meta referrer being able to loosen Referrer-Policy header restrictions is a security vulnerability,https://github.com/whatwg/html/issues/5041,2019-10-25T06:34:26Z,2022-05-31T13:48:55Z,chris-morgan,,0
 512069720,false,HTML sandbox form restriction bypass when scripts allowed,https://github.com/whatwg/html/issues/5040,2019-10-24T17:05:19Z,2019-10-25T15:11:31Z,tsangtmc,clarification|security/privacy,0
 511584833,false,HTMLConstructor construction steps: inconsistent evaluation order/error cases in implementations,https://github.com/whatwg/html/issues/5037,2019-10-23T21:35:34Z,2019-10-24T08:54:23Z,bathos,topic: custom elements|interop,0
-510489260,false,Consider adding a headinglevelstart attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2025-02-28T21:01:04Z,annevk,addition/proposal|accessibility,28
+510489260,false,Consider adding a headinglevelstart attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2025-03-03T08:13:11Z,annevk,addition/proposal|accessibility,28
 509880741,true,---------,https://github.com/whatwg/html/issues/5029,2019-10-21T10:42:33Z,2019-10-22T04:41:25Z,dhilip89,,0
 509693572,true,delegatesFocus doesn't work well with autofocus,https://github.com/whatwg/html/issues/5027,2019-10-21T02:13:20Z,2019-11-11T16:44:20Z,tkent-google,topic: focus,0
 509685886,true,Code Regions,https://github.com/whatwg/html/issues/5026,2019-10-21T01:32:06Z,2019-10-21T16:16:12Z,AdamSobieski,,0
