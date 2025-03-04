@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2892614749,false,row-rule-* properties should inherit to an anonymous fieldset content box,https://github.com/whatwg/html/issues/11095,2025-03-04T00:24:54Z,2025-03-04T00:24:54Z,kbabbitt,,0
-2892514621,true,Gpl,https://github.com/whatwg/html/issues/11094,2025-03-03T23:03:39Z,2025-03-03T23:20:56Z,GPL128,invalid,0
+2893872897,false,The 2nd step of the “step base” algorithm for the “input” element seems to be wrong,https://github.com/whatwg/html/issues/11097,2025-03-04T11:10:51Z,2025-03-04T11:10:51Z,sideshowbarker,,0
+2892614749,false,row-rule-* properties should inherit to an anonymous fieldset content box,https://github.com/whatwg/html/issues/11095,2025-03-04T00:24:54Z,2025-03-04T07:54:15Z,kbabbitt,topic: rendering,0
 2891152057,false,Ambiguous wording in form submission leads to interop issue,https://github.com/whatwg/html/issues/11092,2025-03-03T12:43:17Z,2025-03-03T16:36:19Z,lukewarlow,topic: forms|interop|topic: dialog,0
 2889215195,true,Is `NavigateEvent` meant to be user constructable?,https://github.com/whatwg/html/issues/11090,2025-03-01T23:30:06Z,2025-03-02T11:40:25Z,rschristian,,0
 2889115579,false,Permanent anchor requests,https://github.com/whatwg/html/issues/11089,2025-03-01T19:46:21Z,2025-03-03T02:25:11Z,aaronpk,anchor permanence,0
@@ -9,7 +9,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2885617001,false,Navigation API: Spec does not accurately describe firing popstate event is intercepted and source is a fragment navigation,https://github.com/whatwg/html/issues/11082,2025-02-27T21:11:53Z,2025-02-28T09:58:16Z,atscott,topic: navigation,0
 2885557148,false,Upcoming WHATNOT meeting on 2025-03-06,https://github.com/whatwg/html/issues/11081,2025-02-27T20:36:28Z,2025-02-27T20:36:28Z,past,agenda+,0
 2885502205,false,Alternative text for short-form video,https://github.com/whatwg/html/issues/11080,2025-02-27T20:05:27Z,2025-02-27T22:39:46Z,tylersticka,addition/proposal|needs implementer interest,1
-2884736071,false,Clarify why <input type=file> hides the real path,https://github.com/whatwg/html/issues/11079,2025-02-27T14:45:38Z,2025-03-03T17:15:41Z,JB-BISHELCO,clarification,1
+2884736071,false,Clarify why <input type=file> hides the real path,https://github.com/whatwg/html/issues/11079,2025-02-27T14:45:38Z,2025-03-04T01:22:40Z,JB-BISHELCO,clarification,2
 2882914326,false,Additional usage guidance for IDL attribute types (such as DOMString?),https://github.com/whatwg/html/issues/11078,2025-02-26T22:02:24Z,2025-03-01T18:59:32Z,rahimabdi,,1
 2881602648,false,Web Compatibility of Scoped Custom Element Registries,https://github.com/whatwg/html/issues/11076,2025-02-26T13:26:42Z,2025-03-03T09:55:10Z,annevk,,0
 2881587544,false,Looking up an element definition no longer depends on the element's node document,https://github.com/whatwg/html/issues/11075,2025-02-26T13:22:08Z,2025-02-26T13:22:47Z,annevk,needs tests,0
@@ -22,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2867510954,false,Proposal: Customized built-in elements via `elementInternals.type`,https://github.com/whatwg/html/issues/11061,2025-02-20T23:34:14Z,2025-02-24T19:20:11Z,sanketj,addition/proposal,8
 2867022774,false,"`responsePolicyContainer` in ""determine navigation params policy container"" should be cloned for consistency",https://github.com/whatwg/html/issues/11060,2025-02-20T18:58:05Z,2025-02-25T08:59:19Z,Lubrsi,topic: navigation|topic: policy container,0
 2866860480,false,Meeting 17 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11059,2025-02-20T17:41:25Z,2025-02-27T17:13:16Z,mfreed7,,0
-2866853950,false,Touchscreen behavior for the `interesttarget` attribute,https://github.com/whatwg/html/issues/11058,2025-02-20T17:38:14Z,2025-03-03T22:07:27Z,mfreed7,,0
+2866853950,false,Touchscreen behavior for the `interesttarget` attribute,https://github.com/whatwg/html/issues/11058,2025-02-20T17:38:14Z,2025-03-04T07:09:58Z,mfreed7,,0
 2866816648,false,Typo in 15.5.1 - Native appearance,https://github.com/whatwg/html/issues/11057,2025-02-20T17:20:57Z,2025-02-21T04:25:58Z,Psychpsyo,good first issue,0
 2866798579,false,Keyboard behavior for the `interesttarget` attribute,https://github.com/whatwg/html/issues/11056,2025-02-20T17:13:10Z,2025-02-20T21:43:53Z,mfreed7,,0
 2866789257,true,Upcoming WHATNOT meeting on 2025-02-27,https://github.com/whatwg/html/issues/11055,2025-02-20T17:09:24Z,2025-02-27T20:53:11Z,past,agenda+,0
@@ -121,11 +121,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2743773640,false,Cookie partitioning on localhost is underspecified,https://github.com/whatwg/html/issues/10867,2024-12-17T02:17:17Z,2024-12-17T08:18:15Z,Sora2455,topic: cookie,0
 2742962512,false,Low Adoption of `<track>` Element,https://github.com/whatwg/html/issues/10866,2024-12-16T17:21:12Z,2025-01-09T18:18:43Z,yashrajbharti,,4
 2741669695,false,Ability to disable toggling/closing details,https://github.com/whatwg/html/issues/10864,2024-12-16T08:25:42Z,2024-12-20T14:25:50Z,jacobrask,addition/proposal|needs implementer interest,7
-2737245419,false,Add an optional lang argument to OffscreenCanvas constructor,https://github.com/whatwg/html/issues/10862,2024-12-13T02:34:00Z,2024-12-19T19:30:19Z,schenney-chromium,topic: canvas|i18n-tracker,0
+2737245419,true,Add an optional lang argument to OffscreenCanvas constructor,https://github.com/whatwg/html/issues/10862,2024-12-13T02:34:00Z,2025-03-04T08:07:53Z,schenney-chromium,topic: canvas|i18n-tracker,0
 2737098848,true,Upcoming WHATNOT meeting on 2024-12-19,https://github.com/whatwg/html/issues/10861,2024-12-12T23:59:38Z,2024-12-19T20:30:30Z,past,agenda+,0
 2736746960,true,Add `window.customCommands`,https://github.com/whatwg/html/issues/10860,2024-12-12T19:46:28Z,2025-02-20T15:18:23Z,scola84,addition/proposal|needs implementer interest,0
 2735477406,false,ImageData: Add Float16Array backing support,https://github.com/whatwg/html/issues/10856,2024-12-12T10:21:05Z,2025-02-17T12:14:36Z,ccameron-chromium,addition/proposal|topic: canvas,1
-2735459574,false,CanvasRenderingContext2D: Add getImageDataAsync method,https://github.com/whatwg/html/issues/10855,2024-12-12T10:13:15Z,2025-03-03T18:35:04Z,ccameron-chromium,addition/proposal|topic: canvas|agenda+,3
+2735459574,false,CanvasRenderingContext2D: Add getImageDataAsync method,https://github.com/whatwg/html/issues/10855,2024-12-12T10:13:15Z,2025-03-04T07:22:01Z,ccameron-chromium,addition/proposal|topic: canvas|agenda+,3
 2735341285,false,Revamped Scoped Custom Element Registries,https://github.com/whatwg/html/issues/10854,2024-12-12T09:22:28Z,2025-03-03T13:02:49Z,annevk,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements,13
 2734230880,false,Allow form controls in a shadow root to participate in it's host form submission,https://github.com/whatwg/html/issues/10852,2024-12-11T23:23:36Z,2024-12-12T08:28:42Z,KonnorRogers,addition/proposal|needs implementer interest|topic: shadow,1
 2733274119,false,Make <dialog> usable without JS (for form confirmation),https://github.com/whatwg/html/issues/10851,2024-12-11T15:22:18Z,2024-12-16T15:43:02Z,tino,addition/proposal|needs implementer interest,0
@@ -2566,7 +2566,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 512330703,false,Meta referrer being able to loosen Referrer-Policy header restrictions is a security vulnerability,https://github.com/whatwg/html/issues/5041,2019-10-25T06:34:26Z,2022-05-31T13:48:55Z,chris-morgan,,0
 512069720,false,HTML sandbox form restriction bypass when scripts allowed,https://github.com/whatwg/html/issues/5040,2019-10-24T17:05:19Z,2019-10-25T15:11:31Z,tsangtmc,clarification|security/privacy,0
 511584833,false,HTMLConstructor construction steps: inconsistent evaluation order/error cases in implementations,https://github.com/whatwg/html/issues/5037,2019-10-23T21:35:34Z,2019-10-24T08:54:23Z,bathos,topic: custom elements|interop,0
-510489260,false,Consider adding a headinglevelstart attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2025-03-04T00:22:34Z,annevk,addition/proposal|accessibility,29
+510489260,false,Consider adding a headinglevelstart attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2025-03-04T09:13:54Z,annevk,addition/proposal|accessibility,29
 509880741,true,---------,https://github.com/whatwg/html/issues/5029,2019-10-21T10:42:33Z,2019-10-22T04:41:25Z,dhilip89,,0
 509693572,true,delegatesFocus doesn't work well with autofocus,https://github.com/whatwg/html/issues/5027,2019-10-21T02:13:20Z,2019-11-11T16:44:20Z,tkent-google,topic: focus,0
 509685886,true,Code Regions,https://github.com/whatwg/html/issues/5026,2019-10-21T01:32:06Z,2019-10-21T16:16:12Z,AdamSobieski,,0
