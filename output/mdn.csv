@@ -202,8 +202,8 @@ api/AudioParam/automationRate,,,,68,,14,,false,true,false,https://webaudio.githu
 api/AudioParam/cancelAndHoldAtTime,,,,57,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-cancelandholdattime,W3C
 api/AudioParam/cancelScheduledValues,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-cancelscheduledvalues,W3C
 api/AudioParam/defaultValue,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-defaultvalue,W3C
-api/AudioParam/exponentialRampToValueAtTime,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-exponentialramptovalueattime,W3C
-api/AudioParam/linearRampToValueAtTime,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-linearramptovalueattime,W3C
+api/AudioParam/exponentialRampToValueAtTime,,134,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-exponentialramptovalueattime,W3C
+api/AudioParam/linearRampToValueAtTime,,134,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-linearramptovalueattime,W3C
 api/AudioParam/maxValue,,53,,52,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-maxvalue,W3C
 api/AudioParam/minValue,,53,,52,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-minvalue,W3C
 api/AudioParam/setTargetAtTime,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-settargetattime,W3C
@@ -975,6 +975,7 @@ api/CanvasRenderingContext2D/isPointInPath,,2,,1,,3.1,,false,true,false,https://
 api/CanvasRenderingContext2D/isPointInPath/path_parameter,,31,,36,,7,,false,true,false,,NONE
 api/CanvasRenderingContext2D/isPointInStroke,,19,,26,,7,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-ispointinstroke-dev,WHATWG
 api/CanvasRenderingContext2D/isPointInStroke/path_parameter,,31,,36,,7,,false,true,false,,NONE
+api/CanvasRenderingContext2D/lang,,,,135,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",,,true,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-lang,WHATWG
 api/CanvasRenderingContext2D/letterSpacing,,115,,99,,18.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-letterspacing,WHATWG
 api/CanvasRenderingContext2D/lineCap,,1.5,,1,,2,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-linecap-dev,WHATWG
 api/CanvasRenderingContext2D/lineDashOffset,,27,,23,,7,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-linedashoffset-dev,WHATWG
@@ -1089,10 +1090,10 @@ api/CloseWatcher/close,,132,"[{""name"":""dom.closewatcher.enabled"",""type"":""
 api/CloseWatcher/close_event,,132,"[{""name"":""dom.closewatcher.enabled"",""type"":""preference"",""value_to_set"":""true""}]",126,,,,true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#handler-closewatcher-onclose,WHATWG
 api/CloseWatcher/destroy,,132,"[{""name"":""dom.closewatcher.enabled"",""type"":""preference"",""value_to_set"":""true""}]",126,,,,true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-closewatcher-destroy,WHATWG
 api/CloseWatcher/requestClose,,132,"[{""name"":""dom.closewatcher.enabled"",""type"":""preference"",""value_to_set"":""true""}]",126,,,,true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-closewatcher-requestclose,WHATWG
-api/CommandEvent,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#commandevent,WHATWG
-api/CommandEvent/CommandEvent,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
-api/CommandEvent/command,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-commandevent-command,WHATWG
-api/CommandEvent/source,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-commandevent-source,WHATWG
+api/CommandEvent,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",135,,preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#commandevent,WHATWG
+api/CommandEvent/CommandEvent,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",135,,preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
+api/CommandEvent/command,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",135,,preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-commandevent-command,WHATWG
+api/CommandEvent/source,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",135,,preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-commandevent-source,WHATWG
 api/Comment,,1,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#interface-comment,WHATWG
 api/Comment/Comment,,24,,29,,8,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-comment-comment①,WHATWG
 api/CompositionEvent,,9,,15,,5,,false,true,false,https://w3c.github.io/uievents/#interface-compositionevent,W3C
@@ -1553,13 +1554,13 @@ api/Document/URL,,19,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#ref-fo
 api/Document/activeElement,,3,,2,,7,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-documentorshadowroot-activeelement-dev,WHATWG
 api/Document/adoptNode,,1,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-document-adoptnode①,WHATWG
 api/Document/adoptedStyleSheets,,101,,73,,16.4,,false,true,false,https://drafts.csswg.org/cssom/#dom-documentorshadowroot-adoptedstylesheets,W3C
-api/Document/afterscriptexecute_event,,9,,,,,,false,false,false,,NONE
+api/Document/afterscriptexecute_event,,9,,,,,,false,false,true,,NONE
 api/Document/alinkColor,,69,,64,,11,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-alinkcolor,WHATWG
 api/Document/all,,70,,64,,11,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-all,WHATWG
 api/Document/anchors,,61,,1,,4,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-anchors,WHATWG
 api/Document/append,,49,,54,,10,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-parentnode-append①,WHATWG
 api/Document/applets,,61,,1,,4,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-applets,WHATWG
-api/Document/beforescriptexecute_event,,9,,,,,,false,false,false,,NONE
+api/Document/beforescriptexecute_event,,9,,,,,,false,false,true,,NONE
 api/Document/bgColor,,69,,64,,11,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-bgcolor,WHATWG
 api/Document/body,,60,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-document-body-dev,WHATWG
 api/Document/browsingTopics,,,,115,,,,true,false,false,,NONE
@@ -1811,7 +1812,7 @@ api/Element/DOMActivate_event,,1,,1,,1,,false,true,true,https://w3c.github.io/ui
 api/Element/DOMMouseScroll_event,,1,,,,,,false,false,true,,NONE
 api/Element/MozMousePixelScroll_event,,6,,,,,,false,false,true,,NONE
 api/Element/after,,49,,54,,10,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-childnode-after①,WHATWG
-api/Element/afterscriptexecute_event,,2,,,,,,false,false,false,,NONE
+api/Element/afterscriptexecute_event,,2,,,,,,false,false,true,,NONE
 api/Element/animate,,48,,36,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animatable-animate,W3C
 api/Element/animate/implicit_tofrom,,75,,84,,13.1,,false,true,false,,NONE
 api/Element/animate/options_composite_parameter,,80,,84,,16,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-keyframeeffectoptions-composite,W3C
@@ -1888,7 +1889,7 @@ api/Element/auxclick_event/type_pointerevent,,,,92,,,,true,true,false,,NONE
 api/Element/before,,49,,54,,10,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-childnode-before①,WHATWG
 api/Element/beforeinput_event,,87,,60,,10.1,,false,true,false,https://w3c.github.io/uievents/#event-type-beforeinput,W3C
 api/Element/beforematch_event,,,,102,,,,true,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-beforematch,WHATWG
-api/Element/beforescriptexecute_event,,2,,,,,,false,false,false,,NONE
+api/Element/beforescriptexecute_event,,2,,,,,,false,false,true,,NONE
 api/Element/beforexrselect_event,,,,83,,,,true,true,false,https://immersive-web.github.io/dom-overlays/#onbeforexrselect,W3CCG
 api/Element/blur_event,,24,,1,,3.1,,false,true,false,https://w3c.github.io/uievents/#event-type-blur,W3C
 api/Element/checkVisibility,,106,,105,,17.4,,false,true,false,https://drafts.csswg.org/cssom-view-1/#dom-element-checkvisibility,W3C
@@ -2698,6 +2699,7 @@ api/GPUSupportedLimits/minUniformBufferOffsetAlignment,,,,113,,preview,,true,tru
 api/GPUTexture,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#texture-interface,UNKNOWN
 api/GPUTexture/createView,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gputexture-createview,UNKNOWN
 api/GPUTexture/createView/texture_rgb10a2uint,,,,119,,,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gputextureformat-rgb10a2uint,UNKNOWN
+api/GPUTexture/createView/usage,,,,132,,,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gputextureviewdescriptor-usage,UNKNOWN
 api/GPUTexture/depthOrArrayLayers,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gputexture-depthorarraylayers,UNKNOWN
 api/GPUTexture/destroy,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gputexture-destroy,UNKNOWN
 api/GPUTexture/dimension,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gputexture-dimension,UNKNOWN
@@ -2922,8 +2924,8 @@ api/HTMLBodyElement/text,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/
 api/HTMLBodyElement/vLink,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-body-vlink,WHATWG
 api/HTMLButtonElement,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#htmlbuttonelement,WHATWG
 api/HTMLButtonElement/checkValidity,,4,,4,,5,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-checkvalidity-dev,WHATWG
-api/HTMLButtonElement/command,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-command,WHATWG
-api/HTMLButtonElement/commandForElement,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-commandforelement,WHATWG
+api/HTMLButtonElement/command,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",135,,preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-command,WHATWG
+api/HTMLButtonElement/commandForElement,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",135,,preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-commandforelement,WHATWG
 api/HTMLButtonElement/disabled,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fe-disabled,WHATWG
 api/HTMLButtonElement/form,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fae-form-dev,WHATWG
 api/HTMLButtonElement/formAction,,4,,9,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fs-formaction,WHATWG
@@ -3026,7 +3028,7 @@ api/HTMLElement/beforetoggle_event/popover_elements,,125,,114,,17,,false,true,fa
 api/HTMLElement/blur,,1.5,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-blur-dev,WHATWG
 api/HTMLElement/change_event,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-change,WHATWG
 api/HTMLElement/click,,3,,9,,6,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-click-dev,WHATWG
-api/HTMLElement/command_event,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
+api/HTMLElement/command_event,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",135,,preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,,NONE
 api/HTMLElement/contentEditable,,3,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#contenteditable,WHATWG
 api/HTMLElement/contentEditable/plaintext-only,,136,,51,,5.1,,false,true,false,,NONE
 api/HTMLElement/dataset,,6,,7,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-dataset-dev,WHATWG
@@ -3065,7 +3067,7 @@ api/HTMLElement/outerText,,98,,1,,1.3,,false,true,false,https://html.spec.whatwg
 api/HTMLElement/popover,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#dom-popover,WHATWG
 api/HTMLElement/popover/hint,,,,133,,,,true,true,false,https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint,WHATWG
 api/HTMLElement/showPopover,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#dom-showpopover,WHATWG
-api/HTMLElement/showPopover/source,,,,133,,,,true,true,false,,NONE
+api/HTMLElement/showPopover/source,,,,133,,preview,,true,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-showpopoveroptions-source,WHATWG
 api/HTMLElement/showPopover/source/implicit_anchor_reference,,,,133,,,,true,true,false,https://html.spec.whatwg.org/multipage/popover.html#:~:text=Set%20element's%20implicit%20anchor%20element%20to%20invoker.,WHATWG
 api/HTMLElement/spellcheck,,2,,9,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-spellcheck-dev,WHATWG
 api/HTMLElement/style,,1,,1,,3,,false,true,false,https://drafts.csswg.org/cssom/#dom-elementcssinlinestyle-style,W3C
@@ -3073,7 +3075,7 @@ api/HTMLElement/tabIndex,,1,,1,,3.1,,false,true,false,https://html.spec.whatwg.o
 api/HTMLElement/title,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-title,WHATWG
 api/HTMLElement/togglePopover,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#dom-togglepopover,WHATWG
 api/HTMLElement/togglePopover/returns_boolean,,125,,116,,17,,false,true,false,,NONE
-api/HTMLElement/togglePopover/source,,,,133,,,,true,true,false,,NONE
+api/HTMLElement/togglePopover/source,,,,133,,preview,,true,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-showpopoveroptions-source,WHATWG
 api/HTMLElement/togglePopover/source/implicit_anchor_reference,,,,133,,,,true,true,false,https://html.spec.whatwg.org/multipage/popover.html#:~:text=Set%20element's%20implicit%20anchor%20element%20to%20invoker.,WHATWG
 api/HTMLElement/toggle_event,,49,,36,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-toggle,WHATWG
 api/HTMLElement/toggle_event/details_elements,,49,,36,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-toggle,WHATWG
@@ -3967,6 +3969,8 @@ api/ImageCapture/takePhoto,,35,"[{""name"":""dom.imagecapture.enabled"",""type""
 api/ImageCapture/track,,35,"[{""name"":""dom.imagecapture.enabled"",""type"":""preference"",""value_to_set"":""true""}]",59,,18.4,,false,true,false,https://w3c.github.io/mediacapture-image/#dom-imagecapture-track,W3C
 api/ImageData,,3.5,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#imagedata,WHATWG
 api/ImageData/ImageData,,29,,36,,8,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-imagedata-dev,WHATWG
+api/ImageData/ImageData/settings_parameter,,,,92,,15.2,,false,true,false,,NONE
+api/ImageData/ImageData/settings_parameter/colorSpace_option,,,,92,,15.2,,false,true,false,,NONE
 api/ImageData/colorSpace,,,,92,,15.2,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-imagedata-colorspace,WHATWG
 api/ImageData/data,,3.5,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-imagedata-data-dev,WHATWG
 api/ImageData/height,,3.5,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-imagedata-height-dev,WHATWG
@@ -5083,6 +5087,7 @@ api/OffscreenCanvasRenderingContext2D/imageSmoothingQuality,,,,69,,16.4,,false,t
 api/OffscreenCanvasRenderingContext2D/isContextLost,,125,,99,,,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-iscontextlost,WHATWG
 api/OffscreenCanvasRenderingContext2D/isPointInPath,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-ispointinpath-dev,WHATWG
 api/OffscreenCanvasRenderingContext2D/isPointInStroke,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-ispointinstroke-dev,WHATWG
+api/OffscreenCanvasRenderingContext2D/lang,,,,135,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",,,true,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-lang,WHATWG
 api/OffscreenCanvasRenderingContext2D/letterSpacing,,115,,99,,18.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-letterspacing,WHATWG
 api/OffscreenCanvasRenderingContext2D/lineCap,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-linecap-dev,WHATWG
 api/OffscreenCanvasRenderingContext2D/lineDashOffset,,105,,69,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-linedashoffset-dev,WHATWG
@@ -6483,7 +6488,7 @@ api/SVGComponentTransferFunctionElement/type,,3,,5,,6,,false,true,false,https://
 api/SVGCursorElement,,,,1,,3,,false,true,true,https://www.w3.org/TR/SVG11/interact.html#InterfaceSVGCursorElement,W3C
 api/SVGDefsElement,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/struct.html#InterfaceSVGDefsElement,W3C
 api/SVGDescElement,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/struct.html#InterfaceSVGDescElement,W3C
-api/SVGDiscardElement,,136,,34,,,,false,true,true,https://svgwg.org/specs/animations/#InterfaceSVGDiscardElement,W3C
+api/SVGDiscardElement,,137,,34,,,,true,true,false,https://svgwg.org/specs/animations/#InterfaceSVGDiscardElement,W3C
 api/SVGElement,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement,W3C
 api/SVGElement/attributeStyleMap,,,,66,,16.4,,false,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-elementcssinlinestyle-attributestylemap,W3C
 api/SVGElement/autofocus,,110,,79,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus,WHATWG
@@ -8808,6 +8813,7 @@ api/Window/parent,,1,,1,,1.3,,false,true,false,https://html.spec.whatwg.org/mult
 api/Window/personalbar,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-window-personalbar-dev,WHATWG
 api/Window/popstate_event,,4,,5,,5,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-popstate,WHATWG
 api/Window/postMessage,,3,,2,,4,,false,true,false,https://html.spec.whatwg.org/multipage/web-messaging.html#dom-window-postmessage-options-dev,WHATWG
+api/Window/postMessage/options_delegate_parameter,,,,100,,,,true,true,false,,NONE
 api/Window/postMessage/options_includeUserActivation_parameter,,,,72,,,,false,false,false,,NONE
 api/Window/postMessage/transfer_parameter,,20,,4,,5,,false,true,false,,NONE
 api/Window/print,,1,,1,,1.1,,false,true,false,https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#printing,WHATWG
@@ -11791,12 +11797,14 @@ css/types/gradient/conic-gradient,,83,,69,,12.1,,false,true,false,https://drafts
 css/types/gradient/conic-gradient/doubleposition,,83,,72,,12.1,,false,true,false,,NONE
 css/types/gradient/conic-gradient/hue_interpolation_method,,127,,111,,16.2,,false,true,false,,NONE
 css/types/gradient/conic-gradient/interpolation_color_space,,127,,111,,16.2,,false,true,false,,NONE
+css/types/gradient/conic-gradient/single_color_stop,,136,,preview,,preview,,false,true,false,https://drafts.csswg.org/css-images-4/#color-stop-syntax,W3C
 css/types/gradient/linear-gradient,,16,,26,,7,,false,true,false,https://drafts.csswg.org/css-images-4/#linear-gradients,W3C
 css/types/gradient/linear-gradient/doubleposition,,64,,71,,12.1,,false,true,false,,NONE
 css/types/gradient/linear-gradient/hue_interpolation_method,,127,,111,,16.2,,false,true,false,,NONE
 css/types/gradient/linear-gradient/interpolation_color_space,,127,,111,,16.2,,false,true,false,,NONE
 css/types/gradient/linear-gradient/interpolation_hints,,36,,40,,7,,false,true,false,,NONE
 css/types/gradient/linear-gradient/premultiplied_gradients,,36,,29,,15,,false,true,false,,NONE
+css/types/gradient/linear-gradient/single_color_stop,,136,,preview,,preview,,false,true,false,https://drafts.csswg.org/css-images-4/#color-stop-syntax,W3C
 css/types/gradient/linear-gradient/to,,10,,26,,7,,false,true,false,,NONE
 css/types/gradient/linear-gradient/unitless_0_angle,,55,,26,,7,,false,true,false,,NONE
 css/types/gradient/radial-gradient,,16,,26,,7,,false,true,false,https://drafts.csswg.org/css-images/#radial-gradients,W3C
@@ -11806,6 +11814,7 @@ css/types/gradient/radial-gradient/hue_interpolation_method,,127,,111,,16.2,,fal
 css/types/gradient/radial-gradient/interpolation_color_space,,127,,111,,16.2,,false,true,false,,NONE
 css/types/gradient/radial-gradient/interpolation_hints,,36,,40,,7,,false,true,false,,NONE
 css/types/gradient/radial-gradient/premultiplied_gradients,,36,,29,,15,,false,true,false,,NONE
+css/types/gradient/radial-gradient/single_color_stop,,136,,preview,,preview,,false,true,false,https://drafts.csswg.org/css-images-4/#color-stop-syntax,W3C
 css/types/gradient/repeating-conic-gradient,,83,,69,,12.1,,false,true,false,https://drafts.csswg.org/css-images-4/#repeating-gradients,W3C
 css/types/gradient/repeating-conic-gradient/hue_interpolation_method,,127,,111,,16.2,,false,true,false,,NONE
 css/types/gradient/repeating-conic-gradient/interpolation_color_space,,127,,111,,16.2,,false,true,false,,NONE
@@ -12005,8 +12014,8 @@ html/elements/body/vlink,,1,,1,,≤4,,false,true,true,,NONE
 html/elements/br,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-br-element,WHATWG
 html/elements/br/clear,,1,,1,,≤4,,false,true,true,,NONE
 html/elements/button,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element,WHATWG
-html/elements/button/command,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command,WHATWG
-html/elements/button/commandfor,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-commandfor,WHATWG
+html/elements/button/command,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",135,,preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command,WHATWG
+html/elements/button/commandfor,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",135,,preview,"[{""name"":""InvokerAttributesEnabled"",""type"":""preference"",""value_to_set"":""true""}]",true,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-commandfor,WHATWG
 html/elements/button/disabled,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-disabled,WHATWG
 html/elements/button/form,,4,,9,,5.1,,false,true,false,,NONE
 html/elements/button/formaction,,4,,9,,5.1,,false,true,false,,NONE
@@ -12645,6 +12654,7 @@ html/global_attributes/hidden,,4,,10,,5.1,,false,true,false,https://html.spec.wh
 html/global_attributes/hidden/until-found,,,,102,,,,true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute,WHATWG
 html/global_attributes/id,,32,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#global-attributes:the-id-attribute-2,WHATWG
 html/global_attributes/inert,,112,,102,,15.5,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute,WHATWG
+html/global_attributes/inert/ignores_find_in_page,,120,,124,,,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees,WHATWG
 html/global_attributes/inputmode,,95,,66,,12.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode,WHATWG
 html/global_attributes/is,,63,,67,,,,false,true,false,https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is,WHATWG
 html/global_attributes/lang,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#attr-lang,WHATWG
@@ -14417,7 +14427,7 @@ svg/elements/cursor/y,,,,1,,3,,false,true,true,,NONE
 svg/elements/defs,,1.5,,1,,3.1,,false,true,false,https://svgwg.org/svg2-draft/struct.html#Head,W3C
 svg/elements/defs/systemLanguage,,12,,1,,3.1,,false,true,false,https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__systemLanguage,W3C
 svg/elements/desc,,1.5,,1,,3.1,,false,true,false,https://svgwg.org/svg2-draft/struct.html#DescriptionAndTitleElements,W3C
-svg/elements/discard,,136,,34,,,,false,true,true,https://svgwg.org/specs/animations/#DiscardElement,W3C
+svg/elements/discard,,137,,34,,,,true,true,false,https://svgwg.org/specs/animations/#DiscardElement,W3C
 svg/elements/ellipse,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/shapes.html#EllipseElement,W3C
 svg/elements/ellipse/cx,,1.5,,1,,3,,false,true,false,,NONE
 svg/elements/ellipse/cy,,1.5,,1,,3,,false,true,false,,NONE
