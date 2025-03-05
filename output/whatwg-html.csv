@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2895131279,false,OffscreenCanvas convertToBlob(options) has copy paste errors,https://github.com/whatwg/html/issues/11101,2025-03-04T18:44:58Z,2025-03-04T18:45:58Z,Totto16,,0
+2895131279,false,OffscreenCanvas convertToBlob(options) has copy paste errors,https://github.com/whatwg/html/issues/11101,2025-03-04T18:44:58Z,2025-03-05T12:15:56Z,Totto16,topic: canvas,0
 2895110345,true,Meeting 16 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11100,2025-03-04T18:34:31Z,2025-03-04T19:34:21Z,past,agenda+,0
 2894236098,false,Rendering of `<iframe frameborder=none>`,https://github.com/whatwg/html/issues/11098,2025-03-04T13:16:48Z,2025-03-04T13:17:06Z,zcorpan,compat|topic: rendering,0
 2893872897,true,The 2nd step of the “step base” algorithm for the “input” element seems to be wrong,https://github.com/whatwg/html/issues/11097,2025-03-04T11:10:51Z,2025-03-04T18:36:59Z,sideshowbarker,,0
@@ -7,14 +7,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2891152057,false,Ambiguous wording in form submission leads to interop issue,https://github.com/whatwg/html/issues/11092,2025-03-03T12:43:17Z,2025-03-03T16:36:19Z,lukewarlow,topic: forms|interop|topic: dialog,0
 2889215195,true,Is `NavigateEvent` meant to be user constructable?,https://github.com/whatwg/html/issues/11090,2025-03-01T23:30:06Z,2025-03-02T11:40:25Z,rschristian,,0
 2889115579,false,Permanent anchor requests,https://github.com/whatwg/html/issues/11089,2025-03-01T19:46:21Z,2025-03-03T02:25:11Z,aaronpk,anchor permanence,0
-2888159487,false,Navigation API: Assertion in finish navigate event will fail if handlers reject,https://github.com/whatwg/html/issues/11087,2025-02-28T22:22:53Z,2025-02-28T22:28:52Z,atscott,,0
+2888159487,true,Navigation API: Assertion in finish navigate event will fail if handlers reject,https://github.com/whatwg/html/issues/11087,2025-02-28T22:22:53Z,2025-03-05T06:05:54Z,atscott,topic: navigation,0
 2886564942,false,HTMLInputElement type=url “absolute URL string” constraint-validation-API requirements don’t match actual Gecko/Blink/WebKit implementation behavior,https://github.com/whatwg/html/issues/11083,2025-02-28T08:48:01Z,2025-03-01T07:47:51Z,sideshowbarker,compat|topic: forms,0
 2885617001,false,Navigation API: Spec does not accurately describe firing popstate event is intercepted and source is a fragment navigation,https://github.com/whatwg/html/issues/11082,2025-02-27T21:11:53Z,2025-02-28T09:58:16Z,atscott,topic: navigation,0
 2885557148,false,Upcoming WHATNOT meeting on 2025-03-06,https://github.com/whatwg/html/issues/11081,2025-02-27T20:36:28Z,2025-02-27T20:36:28Z,past,agenda+,0
 2885502205,false,Alternative text for short-form video,https://github.com/whatwg/html/issues/11080,2025-02-27T20:05:27Z,2025-02-27T22:39:46Z,tylersticka,addition/proposal|needs implementer interest,1
 2884736071,false,Clarify why <input type=file> hides the real path,https://github.com/whatwg/html/issues/11079,2025-02-27T14:45:38Z,2025-03-04T01:22:40Z,JB-BISHELCO,clarification,2
 2882914326,false,Additional usage guidance for IDL attribute types (such as DOMString?),https://github.com/whatwg/html/issues/11078,2025-02-26T22:02:24Z,2025-03-01T18:59:32Z,rahimabdi,,1
-2881602648,false,Web Compatibility of Scoped Custom Element Registries,https://github.com/whatwg/html/issues/11076,2025-02-26T13:26:42Z,2025-03-04T22:36:23Z,annevk,,0
+2881602648,false,Web Compatibility of Scoped Custom Element Registries,https://github.com/whatwg/html/issues/11076,2025-02-26T13:26:42Z,2025-03-05T09:29:48Z,annevk,,0
 2881587544,false,Looking up an element definition no longer depends on the element's node document,https://github.com/whatwg/html/issues/11075,2025-02-26T13:22:08Z,2025-02-26T13:22:47Z,annevk,needs tests,0
 2878740610,true,XML parser does not create custom elements,https://github.com/whatwg/html/issues/11071,2025-02-25T15:19:28Z,2025-02-26T07:41:09Z,annevk,compat|topic: custom elements,0
 2876741297,false,Add `full-framerate` render blocking attribute,https://github.com/whatwg/html/issues/11070,2025-02-25T03:01:39Z,2025-02-25T03:01:39Z,gjc13,addition/proposal|needs implementer interest,0
@@ -24,7 +24,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2869493100,true,:host-context(my-el) inside a <my-el> custom element matches even for a standalone <my-el>,https://github.com/whatwg/html/issues/11063,2025-02-21T16:29:23Z,2025-02-24T17:27:51Z,franktopel,,0
 2867510954,false,Proposal: Customized built-in elements via `elementInternals.type`,https://github.com/whatwg/html/issues/11061,2025-02-20T23:34:14Z,2025-02-24T19:20:11Z,sanketj,addition/proposal,8
 2867022774,false,"`responsePolicyContainer` in ""determine navigation params policy container"" should be cloned for consistency",https://github.com/whatwg/html/issues/11060,2025-02-20T18:58:05Z,2025-02-25T08:59:19Z,Lubrsi,topic: navigation|topic: policy container,0
-2866860480,false,Meeting 17 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11059,2025-02-20T17:41:25Z,2025-03-04T19:30:33Z,mfreed7,agenda+,0
+2866860480,false,Meeting 17 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11059,2025-02-20T17:41:25Z,2025-03-05T08:57:18Z,mfreed7,agenda+,0
 2866853950,false,Touchscreen behavior for the `interesttarget` attribute,https://github.com/whatwg/html/issues/11058,2025-02-20T17:38:14Z,2025-03-05T00:31:06Z,mfreed7,,0
 2866816648,false,Typo in 15.5.1 - Native appearance,https://github.com/whatwg/html/issues/11057,2025-02-20T17:20:57Z,2025-02-21T04:25:58Z,Psychpsyo,good first issue,0
 2866798579,false,Keyboard behavior for the `interesttarget` attribute,https://github.com/whatwg/html/issues/11056,2025-02-20T17:13:10Z,2025-02-20T21:43:53Z,mfreed7,,0
@@ -283,7 +283,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2497494012,true,Support disabling CloseWatcher integration in `<dialog>`,https://github.com/whatwg/html/issues/10592,2024-08-30T15:11:55Z,2025-01-15T04:59:50Z,lucacasonato,addition/proposal|needs implementer interest|topic: dialog,5
 2495901933,true,Spec is missing that </p> is optional before <dialog>,https://github.com/whatwg/html/issues/10590,2024-08-30T00:43:44Z,2024-09-04T10:51:09Z,laughinghan,,1
 2495218582,true,Upcoming WHATNOT meeting on 2024-09-05,https://github.com/whatwg/html/issues/10589,2024-08-29T18:06:58Z,2024-09-05T16:15:28Z,past,agenda+,0
-2492588952,false,Iframe `sandbox` compatibility with Service Workers,https://github.com/whatwg/html/issues/10585,2024-08-28T16:56:47Z,2024-08-28T16:56:47Z,BlobTheKat,addition/proposal|needs implementer interest,3
+2492588952,false,Iframe `sandbox` compatibility with Service Workers,https://github.com/whatwg/html/issues/10585,2024-08-28T16:56:47Z,2024-08-28T16:56:47Z,BlobTheKat,addition/proposal|needs implementer interest,4
 2492022165,false,A way to get mouse coordinates without mouse moving,https://github.com/whatwg/html/issues/10584,2024-08-28T13:03:38Z,2024-09-16T18:40:27Z,oleedd,addition/proposal|needs implementer interest,0
 2491641714,true,"Interactions between `inert` and `hidden=""until-found""` and `beforematch` events",https://github.com/whatwg/html/issues/10583,2024-08-28T10:04:54Z,2024-10-18T16:12:40Z,romainmenke,clarification|a11y-tracker,0
 2490185456,true,Meeting 7 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10582,2024-08-27T19:39:46Z,2024-10-15T22:37:26Z,josepharhar,agenda+,0
@@ -802,7 +802,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1833113198,true,Add earlier snapshots than 2015 and add yearly snapshots,https://github.com/whatwg/html/issues/9577,2023-08-02T12:42:48Z,2023-08-02T13:12:58Z,Janghou,,0
 1833061471,true,Allow adding custom headers in WebSocket connection,https://github.com/whatwg/html/issues/9576,2023-08-02T12:10:41Z,2023-08-02T12:19:05Z,josephrocca,,0
 1831743537,true,event.source for message events from a BroadcastChannel,https://github.com/whatwg/html/issues/9574,2023-08-01T17:37:46Z,2023-08-02T02:26:46Z,vrugtehagel,,0
-1830647462,false,"Allow empty input[type=""color""] value",https://github.com/whatwg/html/issues/9572,2023-08-01T07:34:59Z,2025-01-17T08:22:22Z,ksa242,addition/proposal|needs implementer interest|topic: forms,4
+1830647462,false,"Allow empty input[type=""color""] value",https://github.com/whatwg/html/issues/9572,2023-08-01T07:34:59Z,2025-01-17T08:22:22Z,ksa242,addition/proposal|needs implementer interest|topic: forms,5
 1829921287,false,Use inside settings to fetch the descendants of module worker in the worker module script graph,https://github.com/whatwg/html/issues/9571,2023-07-31T19:56:40Z,2023-12-11T14:53:17Z,allstarschh,,1
 1827227550,true,Should trailing periods in the username portion of email addresses be valid?,https://github.com/whatwg/html/issues/9567,2023-07-29T00:05:18Z,2023-07-31T17:10:04Z,josepharhar,,0
 1826703340,true,Standardize UA styles / presentational hints for `embed hidden`,https://github.com/whatwg/html/issues/9564,2023-07-28T16:14:28Z,2023-09-04T19:24:44Z,nt1m,,0
@@ -1424,7 +1424,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1222247714,false,Suboptimal subheading workarounds,https://github.com/whatwg/html/issues/7879,2022-05-01T18:46:15Z,2022-05-15T18:39:52Z,jcwii,,0
 1220363886,false,"Early hints: media, imagesrcset, imagesizes",https://github.com/whatwg/html/issues/7873,2022-04-29T09:38:49Z,2022-05-02T09:25:51Z,noamr,,0
 1219347893,false,More semantic way to represent the computer language in `code` element,https://github.com/whatwg/html/issues/7869,2022-04-28T21:52:58Z,2024-08-28T05:22:14Z,IgorGilyazov,addition/proposal|needs implementer interest,6
-1218728578,false,Remove UA style for h1-h6 in section (et. al.) and hgroup,https://github.com/whatwg/html/issues/7867,2022-04-28T13:25:55Z,2025-03-04T22:05:41Z,zcorpan,topic: rendering,1
+1218728578,false,Remove UA style for h1-h6 in section (et. al.) and hgroup,https://github.com/whatwg/html/issues/7867,2022-04-28T13:25:55Z,2025-03-05T10:31:02Z,zcorpan,topic: rendering,1
 1217331961,true,Specify `contenteditable=plaintext-only`,https://github.com/whatwg/html/issues/7864,2022-04-27T13:05:15Z,2023-03-08T05:07:19Z,zcorpan,topic: editing,3
 1216156628,false,`input[maxlength]` breaks a grapheme cluster down into pieces,https://github.com/whatwg/html/issues/7861,2022-04-26T15:48:26Z,2022-04-27T15:18:25Z,saschanaz,needs implementer interest|topic: forms|i18n-tracker,0
 1215669922,true,Introduce <icon> element,https://github.com/whatwg/html/issues/7860,2022-04-26T09:29:08Z,2022-04-26T11:58:15Z,NagayamaToshiaki,,0
