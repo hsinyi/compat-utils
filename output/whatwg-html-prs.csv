@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2897016989,false,Rendering: improve compatibility for frameborder on iframe,https://github.com/whatwg/html/pull/11103,2025-03-05T11:10:14Z,2025-03-05T11:34:23Z,zcorpan,topic: rendering|interop|topic: frames/navigables/browsing contexts,0
-2896918377,false,"Remove UA styles for h1 in article, aside, nav, section",https://github.com/whatwg/html/pull/11102,2025-03-05T10:29:36Z,2025-03-05T11:04:03Z,zcorpan,needs tests|needs compat analysis,0
+2897016989,false,Rendering: improve compatibility for frameborder on iframe,https://github.com/whatwg/html/pull/11103,2025-03-05T11:10:14Z,2025-03-05T15:47:10Z,zcorpan,topic: rendering|interop|topic: frames/navigables/browsing contexts,0
+2896918377,false,"Remove UA styles for h1 in article, aside, nav, section",https://github.com/whatwg/html/pull/11102,2025-03-05T10:29:36Z,2025-03-05T11:04:03Z,zcorpan,needs tests|needs compat analysis,1
 2894851302,false,Editorial: make Document's 'page showing' flag a boolean,https://github.com/whatwg/html/pull/11099,2025-03-04T16:36:54Z,2025-03-04T16:38:29Z,domfarolino,,0
 2893270381,true,Create firk,https://github.com/whatwg/html/pull/11096,2025-03-04T07:40:39Z,2025-03-04T07:42:26Z,shifakhousain,invalid,0
 2891297197,true,Change references to an input being in a state,https://github.com/whatwg/html/pull/11093,2025-03-03T13:43:09Z,2025-03-03T14:48:34Z,lukewarlow,,0
@@ -24,7 +24,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2860036355,true,Editorial: putImageData: Clarify that the operation is not a memcpy,https://github.com/whatwg/html/pull/11042,2025-02-18T10:50:01Z,2025-02-21T07:29:51Z,ccameron-chromium,clarification|topic: canvas,0
 2857117178,true,"Editorial: refer to color components, not channels",https://github.com/whatwg/html/pull/11035,2025-02-17T08:23:12Z,2025-02-21T14:12:43Z,annevk,,0
 2855665815,false,Add immutable array buffer awareness to structuredClone,https://github.com/whatwg/html/pull/11033,2025-02-15T19:10:43Z,2025-02-26T04:24:35Z,gibson042,do not merge yet|topic: script|integration,0
-2853979806,false,[WIP] Implement WebDriver BiDi interception in the show picker algorithm,https://github.com/whatwg/html/pull/11030,2025-02-14T15:18:17Z,2025-03-04T13:34:30Z,sadym-chromium,,1
+2853979806,false,Implement WebDriver BiDi interception in the show file picker algorithm,https://github.com/whatwg/html/pull/11030,2025-02-14T15:18:17Z,2025-03-05T16:18:49Z,sadym-chromium,,1
 2853601072,false,style: use title case for attr-translate-yes-state and attr-translate…,https://github.com/whatwg/html/pull/11027,2025-02-14T12:38:39Z,2025-02-19T08:52:43Z,HarshitGourlariya,,0
 2846556240,true,Editorial: move definition of submit button,https://github.com/whatwg/html/pull/11018,2025-02-11T21:31:34Z,2025-02-11T22:07:06Z,keithamus,,0
 2842888093,true,redefine dialog closedby IDL to return computed value,https://github.com/whatwg/html/pull/11015,2025-02-10T16:00:22Z,2025-02-27T09:06:54Z,keithamus,topic: dialog|topic: close watchers,0
@@ -87,7 +87,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2770817333,true,Editorial: fix :target cross-reference,https://github.com/whatwg/html/pull/10894,2025-01-06T14:46:59Z,2025-01-06T16:24:06Z,annevk,,0
 2769331227,true,Editorial: Fix typo in textarea cloning steps,https://github.com/whatwg/html/pull/10892,2025-01-05T15:44:04Z,2025-01-06T09:05:25Z,AtkinsSJ,,0
 2764699313,true,Editorial: minor editorial fixes to storage broadcast and remove,https://github.com/whatwg/html/pull/10887,2024-12-31T22:11:22Z,2025-01-06T15:06:52Z,shannonbooth,,0
-2756321003,false,Remove new browsing context/Document referrer assignment,https://github.com/whatwg/html/pull/10883,2024-12-23T15:51:38Z,2025-01-20T03:00:28Z,domfarolino,do not merge yet|topic: frames/navigables/browsing contexts,0
+2756321003,true,Remove new browsing context/Document referrer assignment,https://github.com/whatwg/html/pull/10883,2024-12-23T15:51:38Z,2025-03-05T22:59:07Z,domfarolino,do not merge yet|topic: frames/navigables/browsing contexts,0
 2753010492,true,Add missing character renders in Tokenization,https://github.com/whatwg/html/pull/10880,2024-12-20T15:56:58Z,2025-01-14T08:15:41Z,AMS21,,0
 2750350934,true,Editorial: improve fragment parsing,https://github.com/whatwg/html/pull/10874,2024-12-19T13:33:26Z,2025-01-06T15:18:32Z,annevk,,0
 2749014142,true,"Add a `lang` IDL Attribute to CanvasTextDrawingStyles, and clarify ""direction"" on same",https://github.com/whatwg/html/pull/10873,2024-12-19T00:45:36Z,2025-03-04T08:08:54Z,schenney-chromium,topic: canvas,0
@@ -173,7 +173,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2512448800,true,modified,https://github.com/whatwg/html/pull/10606,2024-09-08T15:44:15Z,2024-09-08T20:36:09Z,Abhisek246,invalid,0
 2511901985,true,Update html-dfn.js,https://github.com/whatwg/html/pull/10605,2024-09-07T17:01:14Z,2024-09-07T23:55:46Z,JaydeepRokade,invalid,0
 2504858172,true,"Remove ""classic"" from ""default classic script fetch options""",https://github.com/whatwg/html/pull/10598,2024-09-04T09:57:14Z,2024-09-05T06:23:32Z,nicolo-ribaudo,,0
-2497624383,false,Support opening dialog modals without automatic closing behaviour,https://github.com/whatwg/html/pull/10593,2024-08-30T15:56:44Z,2024-08-30T16:36:43Z,lucacasonato,topic: dialog,0
+2497624383,true,Support opening dialog modals without automatic closing behaviour,https://github.com/whatwg/html/pull/10593,2024-08-30T15:56:44Z,2025-03-05T13:15:54Z,lucacasonato,topic: dialog,0
 2496330837,true,The p element's end tag may be omitted when followed by dialog,https://github.com/whatwg/html/pull/10591,2024-08-30T06:12:04Z,2024-09-04T10:51:10Z,annevk,,1
 2494796863,true,Editorial: fix a few more typos,https://github.com/whatwg/html/pull/10588,2024-08-29T15:12:11Z,2024-08-29T16:37:47Z,jmdyck,,0
 2493769848,true,Invoke WebDriver BiDi history updated,https://github.com/whatwg/html/pull/10587,2024-08-29T08:21:05Z,2024-10-23T05:08:41Z,OrKoN,topic: navigation|integration,0
