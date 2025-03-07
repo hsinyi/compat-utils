@@ -1,8 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2900138666,false,Fix OffscreenCanvas's convertToBlob()'s copypasta,https://github.com/whatwg/html/pull/11106,2025-03-06T11:27:11Z,2025-03-06T11:28:43Z,annevk,,0
-2897016989,false,Rendering: improve compatibility for frameborder on iframe,https://github.com/whatwg/html/pull/11103,2025-03-05T11:10:14Z,2025-03-05T15:47:10Z,zcorpan,topic: rendering|interop|topic: frames/navigables/browsing contexts,0
-2896918377,false,"Remove UA styles for h1 in article, aside, nav, section",https://github.com/whatwg/html/pull/11102,2025-03-05T10:29:36Z,2025-03-05T11:04:03Z,zcorpan,needs tests|needs compat analysis,1
-2894851302,false,Editorial: make Document's 'page showing' flag a boolean,https://github.com/whatwg/html/pull/11099,2025-03-04T16:36:54Z,2025-03-04T16:38:29Z,domfarolino,,0
+2902372055,true,Meta: move .yesno styling to shared style sheet,https://github.com/whatwg/html/pull/11111,2025-03-07T08:41:35Z,2025-03-07T10:23:54Z,annevk,,0
+2900138666,true,Fix OffscreenCanvas's convertToBlob()'s copypasta,https://github.com/whatwg/html/pull/11106,2025-03-06T11:27:11Z,2025-03-07T08:26:44Z,annevk,topic: canvas,2
+2897016989,true,Rendering: improve compatibility for frameborder on iframe,https://github.com/whatwg/html/pull/11103,2025-03-05T11:10:14Z,2025-03-07T09:30:49Z,zcorpan,topic: rendering|interop|topic: frames/navigables/browsing contexts,0
+2896918377,false,"Remove UA styles for h1 in article, aside, nav, section",https://github.com/whatwg/html/pull/11102,2025-03-05T10:29:36Z,2025-03-07T02:16:31Z,zcorpan,topic: rendering|needs tests|needs compat analysis,1
+2894851302,false,Editorial: make Document's 'page showing' flag a boolean,https://github.com/whatwg/html/pull/11099,2025-03-04T16:36:54Z,2025-03-07T09:28:36Z,domfarolino,,0
 2893270381,true,Create firk,https://github.com/whatwg/html/pull/11096,2025-03-04T07:40:39Z,2025-03-04T07:42:26Z,shifakhousain,invalid,0
 2891297197,true,Change references to an input being in a state,https://github.com/whatwg/html/pull/11093,2025-03-03T13:43:09Z,2025-03-03T14:48:34Z,lukewarlow,,0
 2888192997,false,Change focus delegate for dialog to use flat tree to find focusable descendant,https://github.com/whatwg/html/pull/11088,2025-02-28T22:50:43Z,2025-03-03T02:12:46Z,dizhang168,,0
@@ -33,12 +34,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2835336619,false,Add the `interesttarget` attribute,https://github.com/whatwg/html/pull/11006,2025-02-06T12:01:00Z,2025-02-06T17:27:56Z,foolip,,0
 2834196191,true,Editorial: switch links back to official CSSWG drafts,https://github.com/whatwg/html/pull/11005,2025-02-05T23:54:24Z,2025-02-06T02:18:33Z,Loirooriol,,0
 2833243175,true,Editorial: fix link and wording for tuple origin,https://github.com/whatwg/html/pull/11001,2025-02-05T15:17:39Z,2025-02-06T01:25:39Z,zcorpan,clarification|topic: origin,0
-2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2025-03-06T15:27:29Z,AndresRPerez12,topic: canvas,0
-2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2025-03-06T23:51:43Z,dandclark,,0
+2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2025-03-07T11:33:02Z,AndresRPerez12,topic: canvas,0
+2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2025-03-07T00:58:59Z,dandclark,,0
 2831485110,true,Fix dialog focus restoring descendant check,https://github.com/whatwg/html/pull/10994,2025-02-04T23:17:23Z,2025-02-17T02:49:55Z,josepharhar,topic: dialog,0
 2831477610,false,Remove links to defunct Twitter account,https://github.com/whatwg/html/pull/10993,2025-02-04T23:11:22Z,2025-02-12T12:42:41Z,eeeps,meta,0
-2830828832,false,Pass a top-level navigation initiator origin to Fetch,https://github.com/whatwg/html/pull/10991,2025-02-04T17:06:01Z,2025-03-04T20:41:38Z,bvandersloot-mozilla,,0
-2830828723,false,"Add ""has storage access"" boolean to environment",https://github.com/whatwg/html/pull/10990,2025-02-04T17:05:57Z,2025-02-12T19:49:33Z,bvandersloot-mozilla,,0
+2830828832,false,Pass a top-level navigation initiator origin to Fetch,https://github.com/whatwg/html/pull/10991,2025-02-04T17:06:01Z,2025-03-07T11:05:24Z,bvandersloot-mozilla,,0
+2830828723,false,"Add ""has storage access"" boolean to environment",https://github.com/whatwg/html/pull/10990,2025-02-04T17:05:57Z,2025-03-07T11:06:44Z,bvandersloot-mozilla,,0
 2830356239,true,Update the navigation API when a same-document reload occurs,https://github.com/whatwg/html/pull/10989,2025-02-04T13:59:20Z,2025-02-20T02:31:22Z,noamr,topic: navigation,0
 2829108530,true,Explore how to specify referenceTarget's effect on ID lookups,https://github.com/whatwg/html/pull/10987,2025-02-04T04:37:13Z,2025-02-04T04:38:45Z,alice,,0
 2827977225,false,CSS Color 4 color spaces for canvasGradient,https://github.com/whatwg/html/pull/10986,2025-02-03T16:24:43Z,2025-02-25T12:19:00Z,mysteryDate,topic: canvas,0
@@ -60,7 +61,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2817697425,true,[Editorial] rework button states to allow for command/commandfor attributes,https://github.com/whatwg/html/pull/10960,2025-01-29T09:42:32Z,2025-02-11T22:16:50Z,keithamus,,0
 2816741425,false,Quirk: bare <li> have list-style-position: inside,https://github.com/whatwg/html/pull/10959,2025-01-28T21:22:42Z,2025-02-12T11:45:32Z,zcorpan,,0
 2816164539,false,Fire a load event for javascript: URL non-strings,https://github.com/whatwg/html/pull/10957,2025-01-28T16:24:36Z,2025-02-21T15:15:33Z,zcorpan,topic: navigation|topic: frames/navigables/browsing contexts|topic: javascript: URLs,0
-2814371404,false,Connect HTML spec up to new CSS `interactivity` property,https://github.com/whatwg/html/pull/10956,2025-01-28T00:50:42Z,2025-03-06T17:41:39Z,mfreed7,topic: style|integration|topic: dialog,0
+2814371404,false,Connect HTML spec up to new CSS `interactivity` property,https://github.com/whatwg/html/pull/10956,2025-01-28T00:50:42Z,2025-03-07T10:12:39Z,mfreed7,do not merge yet|topic: style|integration|topic: dialog,0
 2813958440,false,Update dialog to minimally handle open attribute mutations,https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-02-26T16:21:50Z,lukewarlow,topic: dialog,0
 2812761134,true,"Add CanvasColorType, with unorm8 (the default) and float16 support",https://github.com/whatwg/html/pull/10951,2025-01-27T11:28:40Z,2025-02-10T15:18:50Z,ccameron-chromium,addition/proposal|topic: canvas,0
 2812128271,true,Editorial: fix variable name typo in inner navigate event firing,https://github.com/whatwg/html/pull/10950,2025-01-27T05:41:27Z,2025-01-28T01:15:03Z,domenic,,0
@@ -153,7 +154,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2556691169,true,Formatting fixes,https://github.com/whatwg/html/pull/10661,2024-09-30T13:29:33Z,2024-10-01T01:03:54Z,yoavweiss,,0
 2555520171,true,Do not establish close watchers in non-fully active documents,https://github.com/whatwg/html/pull/10660,2024-09-30T04:40:57Z,2024-10-10T01:57:42Z,domenic,topic: dialog|topic: popover|topic: close watchers,1
 2555497598,true,Reorder promise resolutions for navigation API,https://github.com/whatwg/html/pull/10658,2024-09-30T04:21:08Z,2024-09-30T10:14:17Z,domenic,topic: navigation,0
-2555117364,false,State-preserving atomic move integration,https://github.com/whatwg/html/pull/10657,2024-09-29T19:28:45Z,2025-03-06T16:55:47Z,domfarolino,addition/proposal|impacts documentation,0
+2555117364,false,State-preserving atomic move integration,https://github.com/whatwg/html/pull/10657,2024-09-29T19:28:45Z,2025-03-07T11:40:19Z,domfarolino,addition/proposal|impacts documentation,0
 2554441378,true,"Editoral: fix typo in the ""default"" autocapitalization hint description",https://github.com/whatwg/html/pull/10655,2024-09-28T18:35:04Z,2024-10-01T02:28:55Z,kemzeb,,0
 2550584891,true,Editorial: fix variable name in HostLoadImportedModule,https://github.com/whatwg/html/pull/10649,2024-09-26T13:24:10Z,2024-09-26T13:32:46Z,Ms2ger,,0
 2550365541,true,Editorial: pass a settings object as needed when revealing a document,https://github.com/whatwg/html/pull/10648,2024-09-26T11:57:39Z,2024-09-26T13:23:09Z,Ms2ger,,0
