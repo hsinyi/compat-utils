@@ -4,7 +4,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2900138666,true,Fix OffscreenCanvas's convertToBlob()'s copypasta,https://github.com/whatwg/html/pull/11106,2025-03-06T11:27:11Z,2025-03-07T08:26:44Z,annevk,topic: canvas,2
 2897016989,true,Rendering: improve compatibility for frameborder on iframe,https://github.com/whatwg/html/pull/11103,2025-03-05T11:10:14Z,2025-03-07T09:30:49Z,zcorpan,topic: rendering|interop|topic: frames/navigables/browsing contexts,0
 2896918377,false,"Remove UA styles for h1 in article, aside, nav, section",https://github.com/whatwg/html/pull/11102,2025-03-05T10:29:36Z,2025-03-07T02:16:31Z,zcorpan,topic: rendering|needs tests|needs compat analysis,1
-2894851302,false,Editorial: make Document's 'page showing' flag a boolean,https://github.com/whatwg/html/pull/11099,2025-03-04T16:36:54Z,2025-03-08T07:43:24Z,domfarolino,,0
+2894851302,true,Editorial: make Document's 'page showing' flag a boolean,https://github.com/whatwg/html/pull/11099,2025-03-04T16:36:54Z,2025-03-08T19:05:15Z,domfarolino,,0
 2893270381,true,Create firk,https://github.com/whatwg/html/pull/11096,2025-03-04T07:40:39Z,2025-03-04T07:42:26Z,shifakhousain,invalid,0
 2891297197,true,Change references to an input being in a state,https://github.com/whatwg/html/pull/11093,2025-03-03T13:43:09Z,2025-03-03T14:48:34Z,lukewarlow,,0
 2888192997,false,Change focus delegate for dialog to use flat tree to find focusable descendant,https://github.com/whatwg/html/pull/11088,2025-02-28T22:50:43Z,2025-03-03T02:12:46Z,dizhang168,,0
@@ -40,7 +40,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2831485110,true,Fix dialog focus restoring descendant check,https://github.com/whatwg/html/pull/10994,2025-02-04T23:17:23Z,2025-02-17T02:49:55Z,josepharhar,topic: dialog,0
 2831477610,false,Remove links to defunct Twitter account,https://github.com/whatwg/html/pull/10993,2025-02-04T23:11:22Z,2025-02-12T12:42:41Z,eeeps,meta,0
 2830828832,false,Pass a top-level navigation initiator origin to Fetch,https://github.com/whatwg/html/pull/10991,2025-02-04T17:06:01Z,2025-03-07T11:05:24Z,bvandersloot-mozilla,,0
-2830828723,false,"Add ""has storage access"" boolean to environment",https://github.com/whatwg/html/pull/10990,2025-02-04T17:05:57Z,2025-03-07T11:06:44Z,bvandersloot-mozilla,,0
+2830828723,false,"Add ""has storage access"" boolean to environment",https://github.com/whatwg/html/pull/10990,2025-02-04T17:05:57Z,2025-03-08T19:08:08Z,bvandersloot-mozilla,,0
 2830356239,true,Update the navigation API when a same-document reload occurs,https://github.com/whatwg/html/pull/10989,2025-02-04T13:59:20Z,2025-02-20T02:31:22Z,noamr,topic: navigation,0
 2829108530,true,Explore how to specify referenceTarget's effect on ID lookups,https://github.com/whatwg/html/pull/10987,2025-02-04T04:37:13Z,2025-02-04T04:38:45Z,alice,,0
 2827977225,false,CSS Color 4 color spaces for canvasGradient,https://github.com/whatwg/html/pull/10986,2025-02-03T16:24:43Z,2025-02-25T12:19:00Z,mysteryDate,topic: canvas,0
@@ -90,7 +90,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2770817333,true,Editorial: fix :target cross-reference,https://github.com/whatwg/html/pull/10894,2025-01-06T14:46:59Z,2025-01-06T16:24:06Z,annevk,,0
 2769331227,true,Editorial: Fix typo in textarea cloning steps,https://github.com/whatwg/html/pull/10892,2025-01-05T15:44:04Z,2025-01-06T09:05:25Z,AtkinsSJ,,0
 2764699313,true,Editorial: minor editorial fixes to storage broadcast and remove,https://github.com/whatwg/html/pull/10887,2024-12-31T22:11:22Z,2025-01-06T15:06:52Z,shannonbooth,,0
-2756321003,true,Remove new browsing context/Document referrer assignment,https://github.com/whatwg/html/pull/10883,2024-12-23T15:51:38Z,2025-03-05T22:59:07Z,domfarolino,do not merge yet|topic: frames/navigables/browsing contexts,0
+2756321003,true,Remove new browsing context/Document referrer assignment,https://github.com/whatwg/html/pull/10883,2024-12-23T15:51:38Z,2025-03-08T18:55:10Z,domfarolino,do not merge yet|topic: frames/navigables/browsing contexts,0
 2753010492,true,Add missing character renders in Tokenization,https://github.com/whatwg/html/pull/10880,2024-12-20T15:56:58Z,2025-01-14T08:15:41Z,AMS21,,0
 2750350934,true,Editorial: improve fragment parsing,https://github.com/whatwg/html/pull/10874,2024-12-19T13:33:26Z,2025-01-06T15:18:32Z,annevk,,0
 2749014142,true,"Add a `lang` IDL Attribute to CanvasTextDrawingStyles, and clarify ""direction"" on same",https://github.com/whatwg/html/pull/10873,2024-12-19T00:45:36Z,2025-03-04T08:08:54Z,schenney-chromium,topic: canvas,0
