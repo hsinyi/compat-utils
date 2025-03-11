@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2905733319,true,Editorial: Removing repeated phrase in Native Appearance section,https://github.com/whatwg/html/pull/11118,2025-03-09T22:59:22Z,2025-03-10T04:48:26Z,richardtorres314,,0
 2905237771,true,Create detail_materi.txt,https://github.com/whatwg/html/pull/11117,2025-03-09T06:37:21Z,2025-03-09T07:09:28Z,Tatus011,invalid,0
-2905181779,false,Editorial: Deal with 4 internal links to undefined ids,https://github.com/whatwg/html/pull/11116,2025-03-09T03:53:12Z,2025-03-10T04:50:45Z,jmdyck,,0
+2905181779,true,Editorial: Deal with 4 internal links to undefined ids,https://github.com/whatwg/html/pull/11116,2025-03-09T03:53:12Z,2025-03-10T20:16:49Z,jmdyck,,0
 2903520782,false,Add request close mention to note about dialog open attribute,https://github.com/whatwg/html/pull/11114,2025-03-07T17:08:39Z,2025-03-07T17:10:18Z,lukewarlow,,0
 2902372055,true,Meta: move .yesno styling to shared style sheet,https://github.com/whatwg/html/pull/11111,2025-03-07T08:41:35Z,2025-03-07T10:23:54Z,annevk,,0
 2900138666,true,Fix OffscreenCanvas's convertToBlob()'s copypasta,https://github.com/whatwg/html/pull/11106,2025-03-06T11:27:11Z,2025-03-07T08:26:44Z,annevk,topic: canvas,2
@@ -30,7 +30,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2860036355,true,Editorial: putImageData: Clarify that the operation is not a memcpy,https://github.com/whatwg/html/pull/11042,2025-02-18T10:50:01Z,2025-02-21T07:29:51Z,ccameron-chromium,clarification|topic: canvas,0
 2857117178,true,"Editorial: refer to color components, not channels",https://github.com/whatwg/html/pull/11035,2025-02-17T08:23:12Z,2025-02-21T14:12:43Z,annevk,,0
 2855665815,false,Add immutable array buffer awareness to structuredClone,https://github.com/whatwg/html/pull/11033,2025-02-15T19:10:43Z,2025-02-26T04:24:35Z,gibson042,do not merge yet|topic: script|integration,0
-2853979806,false,Implement WebDriver BiDi interception in the show file picker algorithm,https://github.com/whatwg/html/pull/11030,2025-02-14T15:18:17Z,2025-03-10T10:33:05Z,sadym-chromium,,1
+2853979806,false,Implement WebDriver BiDi interception in the show file picker algorithm,https://github.com/whatwg/html/pull/11030,2025-02-14T15:18:17Z,2025-03-11T00:40:00Z,sadym-chromium,,1
 2853601072,false,style: use title case for attr-translate-yes-state and attr-translate…,https://github.com/whatwg/html/pull/11027,2025-02-14T12:38:39Z,2025-02-19T08:52:43Z,HarshitGourlariya,,0
 2846556240,true,Editorial: move definition of submit button,https://github.com/whatwg/html/pull/11018,2025-02-11T21:31:34Z,2025-02-11T22:07:06Z,keithamus,,0
 2842888093,true,redefine dialog closedby IDL to return computed value,https://github.com/whatwg/html/pull/11015,2025-02-10T16:00:22Z,2025-02-27T09:06:54Z,keithamus,topic: dialog|topic: close watchers,0
@@ -42,8 +42,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2025-03-08T00:17:42Z,dandclark,,0
 2831485110,true,Fix dialog focus restoring descendant check,https://github.com/whatwg/html/pull/10994,2025-02-04T23:17:23Z,2025-02-17T02:49:55Z,josepharhar,topic: dialog,0
 2831477610,false,Remove links to defunct Twitter account,https://github.com/whatwg/html/pull/10993,2025-02-04T23:11:22Z,2025-02-12T12:42:41Z,eeeps,meta,0
-2830828832,false,Pass a top-level navigation initiator origin to Fetch,https://github.com/whatwg/html/pull/10991,2025-02-04T17:06:01Z,2025-03-07T11:05:24Z,bvandersloot-mozilla,,0
-2830828723,false,"Add ""has storage access"" boolean to environment",https://github.com/whatwg/html/pull/10990,2025-02-04T17:05:57Z,2025-03-10T04:59:27Z,bvandersloot-mozilla,,0
+2830828832,false,Pass a top-level navigation initiator origin to Fetch,https://github.com/whatwg/html/pull/10991,2025-02-04T17:06:01Z,2025-03-10T13:58:29Z,bvandersloot-mozilla,,0
+2830828723,false,"Add ""has storage access"" boolean to environment",https://github.com/whatwg/html/pull/10990,2025-02-04T17:05:57Z,2025-03-11T00:42:52Z,bvandersloot-mozilla,,0
 2830356239,true,Update the navigation API when a same-document reload occurs,https://github.com/whatwg/html/pull/10989,2025-02-04T13:59:20Z,2025-02-20T02:31:22Z,noamr,topic: navigation,0
 2829108530,true,Explore how to specify referenceTarget's effect on ID lookups,https://github.com/whatwg/html/pull/10987,2025-02-04T04:37:13Z,2025-02-04T04:38:45Z,alice,,0
 2827977225,false,CSS Color 4 color spaces for canvasGradient,https://github.com/whatwg/html/pull/10986,2025-02-03T16:24:43Z,2025-02-25T12:19:00Z,mysteryDate,topic: canvas,0
@@ -152,7 +152,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2569421897,true,Fix window.close() always doing nothing,https://github.com/whatwg/html/pull/10682,2024-10-07T06:09:25Z,2024-10-09T01:07:07Z,domenic,,2
 2565189586,true,Apply globalAlpha on the canvas filter source,https://github.com/whatwg/html/pull/10674,2024-10-04T00:17:59Z,2024-10-09T01:51:20Z,graveljp,topic: canvas,0
 2564594406,true,Feature Policy: `focus-without-user-activation`,https://github.com/whatwg/html/pull/10672,2024-10-03T17:26:31Z,2025-03-08T07:38:39Z,siliu1,addition/proposal|topic: focus,0
-2564470098,false,Add UA stylesheet for <select> base appearance,https://github.com/whatwg/html/pull/10670,2024-10-03T16:28:25Z,2025-03-09T19:47:34Z,josepharhar,addition/proposal|topic: rendering|topic: forms|topic: select,0
+2564470098,false,Add UA stylesheet for <select> base appearance,https://github.com/whatwg/html/pull/10670,2024-10-03T16:28:25Z,2025-03-10T13:03:49Z,josepharhar,addition/proposal|topic: rendering|topic: forms|topic: select,0
 2562022266,true,WIP: Add custom element reactions,https://github.com/whatwg/html/pull/10665,2024-10-02T15:33:31Z,2024-10-02T16:07:51Z,noamr,,0
 2557364079,true,Fix small CSS-related user interface issue on spec page (Issue #10618),https://github.com/whatwg/html/pull/10662,2024-09-30T18:22:11Z,2024-10-01T01:17:42Z,qu1chu5,,0
 2556691169,true,Formatting fixes,https://github.com/whatwg/html/pull/10661,2024-09-30T13:29:33Z,2024-10-01T01:03:54Z,yoavweiss,,0
@@ -169,7 +169,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2533947494,true,Editorial: clean up small parts of sequential focus navigation,https://github.com/whatwg/html/pull/10632,2024-09-18T14:44:25Z,2024-10-02T03:03:19Z,domfarolino,clarification|topic: focus,0
 2533812083,true,Fix missed COOP renames,https://github.com/whatwg/html/pull/10631,2024-09-18T13:50:44Z,2024-09-18T14:39:24Z,AtkinsSJ,,0
 2530855117,false,Add `for` and `class` aliases for `htmlFor` and `className`,https://github.com/whatwg/html/pull/10630,2024-09-17T11:07:36Z,2024-09-17T17:55:18Z,Psychpsyo,,0
-2529495378,false,Define base appearance for <select>,https://github.com/whatwg/html/pull/10629,2024-09-16T21:03:12Z,2025-03-09T17:26:24Z,josepharhar,topic: select,0
+2529495378,false,Define base appearance for <select>,https://github.com/whatwg/html/pull/10629,2024-09-16T21:03:12Z,2025-03-10T13:33:36Z,josepharhar,topic: select,0
 2529275800,true,Fixes #10618,https://github.com/whatwg/html/pull/10628,2024-09-16T19:17:06Z,2024-09-19T07:03:05Z,honeyisland00,,0
 2522565032,true,Editorial: fix typo in custom elements section,https://github.com/whatwg/html/pull/10620,2024-09-12T14:28:32Z,2024-09-16T08:18:20Z,domfarolino,,0
 2522472732,true,Update README.md,https://github.com/whatwg/html/pull/10619,2024-09-12T13:54:12Z,2024-09-17T04:18:33Z,HemgirishKC,invalid,0
