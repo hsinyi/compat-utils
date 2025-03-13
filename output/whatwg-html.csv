@@ -7,9 +7,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2902685931,true,"4.11.4 dialog - ""auto"" value for closedby?",https://github.com/whatwg/html/issues/11112,2025-03-07T10:56:55Z,2025-03-07T13:08:07Z,Rolf-B,topic: dialog,0
 2902330888,false,"Make it explicit that ""this"" is available in parallel",https://github.com/whatwg/html/issues/11110,2025-03-07T08:20:31Z,2025-03-12T01:14:43Z,annevk,,1
 2901145413,false,Meeting 18 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11109,2025-03-06T18:35:15Z,2025-03-07T01:51:11Z,mfreed7,agenda+,0
-2901062877,false,History API: PushState can silently fail in Chromium while Gecko/Webkit raises exception,https://github.com/whatwg/html/issues/11108,2025-03-06T17:51:57Z,2025-03-12T15:20:13Z,sefeng211,compat|topic: navigation|interop,0
+2901062877,false,History API: PushState can silently fail in Chromium while Gecko/Webkit raises exception,https://github.com/whatwg/html/issues/11108,2025-03-06T17:51:57Z,2025-03-13T08:15:32Z,sefeng211,compat|topic: navigation|interop,0
 2901004647,false,native/primitive appearance of Customizable <select>,https://github.com/whatwg/html/issues/11107,2025-03-06T17:23:57Z,2025-03-10T13:38:43Z,annevk,topic: rendering|agenda+|topic: select,1
-2898487706,false,closedby attribute doesn't work when dialog uses the popover API,https://github.com/whatwg/html/issues/11105,2025-03-05T20:59:50Z,2025-03-12T20:50:29Z,o-t-w,topic: dialog|topic: popover,2
+2898487706,false,closedby attribute doesn't work when dialog uses the popover API,https://github.com/whatwg/html/issues/11105,2025-03-05T20:59:50Z,2025-03-13T10:40:13Z,o-t-w,topic: dialog|topic: popover,2
 2897746897,false,Consider adding a :hover-drag pseudo selector,https://github.com/whatwg/html/issues/11104,2025-03-05T16:02:38Z,2025-03-07T11:40:51Z,Psychpsyo,addition/proposal|needs implementer interest|topic: selectors,1
 2895131279,true,OffscreenCanvas convertToBlob(options) has copy paste errors,https://github.com/whatwg/html/issues/11101,2025-03-04T18:44:58Z,2025-03-07T08:26:43Z,Totto16,topic: canvas,0
 2895110345,true,Meeting 16 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11100,2025-03-04T18:34:31Z,2025-03-04T19:34:21Z,past,agenda+,0
@@ -727,7 +727,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1918809473,false,Meta: Links that take you where you already are,https://github.com/whatwg/html/issues/9811,2023-09-29T08:17:19Z,2023-10-01T13:43:49Z,not-my-profile,,0
 1917630242,false,consider whether document-level language fallback rules make sense in all cases,https://github.com/whatwg/html/issues/9807,2023-09-28T14:06:24Z,2023-10-01T13:44:10Z,dbaron,i18n-tracker|needs tests,0
 1914439377,true,Navigables:  fireNavigateEventOnCommit is unused in apply the history step,https://github.com/whatwg/html/issues/9800,2023-09-26T23:34:38Z,2023-10-17T03:43:27Z,ADKaster,topic: navigation,0
-1914386972,false,Customizable `<select>` element,https://github.com/whatwg/html/issues/9799,2023-09-26T22:24:36Z,2025-02-13T22:14:13Z,josepharhar,addition/proposal|topic: parser|topic: forms|stage: 3|topic: select,118
+1914386972,false,Customizable `<select>` element,https://github.com/whatwg/html/issues/9799,2023-09-26T22:24:36Z,2025-02-13T22:14:13Z,josepharhar,addition/proposal|topic: parser|topic: forms|stage: 3|topic: select,119
 1913709777,true,Should MathML references be to MathML-Core instead of full?,https://github.com/whatwg/html/issues/9795,2023-09-26T14:56:47Z,2024-01-23T14:44:38Z,bkardell,normative change,0
 1913666731,true,Should throw SecurityError when loading a worker with a cross-origin script,https://github.com/whatwg/html/issues/9794,2023-09-26T14:37:14Z,2023-10-24T08:09:33Z,edenchuang,topic: workers|agenda+,0
 1913245177,false,Add `autopause` attribute to media elements to allow automatic pausing of media,https://github.com/whatwg/html/issues/9793,2023-09-26T10:54:58Z,2023-10-12T14:21:04Z,keithamus,needs implementer interest|topic: media,10
@@ -975,7 +975,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2025-01-14T21:17:36Z,jpzwarte,addition/proposal|topic: popover,2
 1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2024-06-18T05:09:42Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,3
 1651613244,false,`popovertarget` and shadow DOM,https://github.com/whatwg/html/issues/9109,2023-04-03T08:43:23Z,2024-05-11T12:07:04Z,jpzwarte,addition/proposal|topic: shadow|topic: popover,0
-1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2024-11-01T00:24:05Z,cubuspl42,addition/proposal|needs implementer interest,7
+1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2024-11-01T00:24:05Z,cubuspl42,addition/proposal|needs implementer interest,8
 1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2024-09-11T12:19:58Z,Gambloide,addition/proposal|needs implementer interest|topic: forms|needs compat analysis,10
 1648832613,true,PDF version does not link to web version,https://github.com/whatwg/html/issues/9097,2023-03-31T07:32:24Z,2023-04-03T07:25:38Z,NicoleSharp,spec tooling,0
 1648366000,false,"typo ""The autofill field listed above indicate that t...""",https://github.com/whatwg/html/issues/9094,2023-03-30T21:43:18Z,2023-03-30T21:43:18Z,timelsass,,0
