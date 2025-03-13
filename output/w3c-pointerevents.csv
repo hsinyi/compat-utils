@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2832334600,false,Clarify `pointermove` event (or following event of pointer boundary events) target if preceding pointer boundary event listener removes the `pointerover` target,https://github.com/w3c/pointerevents/issues/536,2025-02-05T09:05:44Z,2025-02-12T16:41:16Z,masayuki-nakano,future,0
 2769904047,false,Define `pointermove` and `pointerrawupdate` may have delta from previous corresponding pointer event as `movementX` and `movementY`,https://github.com/w3c/pointerevents/issues/535,2025-01-06T06:10:09Z,2025-02-13T00:08:04Z,masayuki-nakano,future,1
-2756754109,true,Implicit pointer capture state after a failed explicit capture call at `pointerdown`,https://github.com/w3c/pointerevents/issues/534,2024-12-23T21:46:11Z,2025-02-12T16:44:30Z,mustaqahmed,needs-wpt,0
+2756754109,true,Implicit pointer capture state after a failed explicit capture call at `pointerdown`,https://github.com/w3c/pointerevents/issues/534,2024-12-23T21:46:11Z,2025-03-12T15:16:34Z,mustaqahmed,v3|needs-wpt,0
 2703114460,false,Interop: major browsers fire click/auxclick events differently for chorded buttons,https://github.com/w3c/pointerevents/issues/530,2024-11-28T19:42:40Z,2024-12-12T16:56:30Z,mustaqahmed,future,0
 2692523774,true,Mouse and Pointer events from a stationary mouse,https://github.com/w3c/pointerevents/issues/529,2024-11-25T22:52:52Z,2025-01-30T17:08:39Z,mustaqahmed,future|needs-wpt,0
 2635690250,true,[DOM integration] No state is reset on node removal,https://github.com/w3c/pointerevents/issues/526,2024-11-05T14:53:12Z,2024-11-06T19:01:27Z,domfarolino,,0
@@ -14,7 +14,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2508396972,true,Limit the precision of floating point event fields,https://github.com/w3c/pointerevents/issues/517,2024-09-05T17:49:51Z,2024-12-18T21:46:40Z,jyasskin,v3-blocking,0
 2505730737,false,[touch actions] handwriting manipulation type to distinguish panning,https://github.com/w3c/pointerevents/issues/516,2024-09-04T15:45:36Z,2025-02-22T02:04:27Z,adettenb,future,0
 2493000380,true,Coalesced and predicted event attributes within an untrusted event,https://github.com/w3c/pointerevents/issues/514,2024-08-28T21:13:29Z,2024-10-23T15:07:25Z,mustaqahmed,,0
-2469499822,true,Ambiguity of the value of the `button` property for the `click` event,https://github.com/w3c/pointerevents/issues/513,2024-08-16T05:21:42Z,2025-02-26T09:46:55Z,rr-codes,v3-blocking|needs-wpt,0
+2469499822,true,Ambiguity of the value of the `button` property for the `click` event,https://github.com/w3c/pointerevents/issues/513,2024-08-16T05:21:42Z,2025-03-12T15:17:23Z,rr-codes,v3|needs-wpt,0
 2465961016,false,Enable mouse click and drag to scroll and other pointer behavior customizations,https://github.com/w3c/pointerevents/issues/512,2024-08-14T14:07:07Z,2024-10-08T08:15:29Z,flackr,future,9
 2462353162,true,Shouldn't dispatch `gotpointercapture` and `lostpointercapture` events if `pointerrawupdate` event is fired without the following `pointermove`?,https://github.com/w3c/pointerevents/issues/511,2024-08-13T04:21:10Z,2024-11-07T03:14:56Z,masayuki-nakano,,0
 2462346050,true,Clarify whether `pointermove` will be dispatched if `pointerrawupdate` listener removes the document,https://github.com/w3c/pointerevents/issues/510,2024-08-13T04:12:44Z,2024-11-07T03:12:52Z,masayuki-nakano,,0
@@ -23,7 +23,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2358540457,false,Clarify (or override) `dblclick` event target,https://github.com/w3c/pointerevents/issues/507,2024-06-18T00:16:01Z,2024-11-06T09:46:09Z,masayuki-nakano,future,0
 2339510045,true,https://www.w3.org/TR/pointerevents/ redirects to old spec...,https://github.com/w3c/pointerevents/issues/506,2024-06-07T03:33:31Z,2024-11-30T18:34:38Z,marcoscaceres,admin|w3c,0
 2338709863,false,‘Logical’ values for the ‘touch-action’ property,https://github.com/w3c/pointerevents/issues/505,2024-06-06T16:39:24Z,2024-08-14T15:09:15Z,aphillips,i18n-needs-resolution|future,0
-2293272421,false,"Clarify what ""suppressing a pointer event stream"" really means",https://github.com/w3c/pointerevents/issues/504,2024-05-13T16:20:49Z,2024-11-11T15:08:37Z,mustaqahmed,v3-blocking,0
+2293272421,true,"Clarify what ""suppressing a pointer event stream"" really means",https://github.com/w3c/pointerevents/issues/504,2024-05-13T16:20:49Z,2025-03-12T13:30:16Z,mustaqahmed,v3-blocking,0
 2281550829,false,Event sequence when long tapping an image,https://github.com/w3c/pointerevents/issues/503,2024-05-06T19:07:28Z,2024-11-06T09:44:42Z,lpd-au,future,0
 2197334268,true,Selection creation sometimes causes a `pointerleave` in Safari,https://github.com/w3c/pointerevents/issues/501,2024-03-20T11:46:58Z,2024-03-21T14:04:20Z,pygy,,0
 2183640822,true,Status out of date in the README,https://github.com/w3c/pointerevents/issues/500,2024-03-13T10:28:33Z,2024-03-13T14:14:09Z,pygy,,0
