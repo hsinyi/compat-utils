@@ -3,13 +3,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2924735098,false,Clarify correct behavior for requestAnimationFrame for hidden iframes (display: none),https://github.com/whatwg/html/issues/11138,2025-03-17T11:33:54Z,2025-03-18T03:13:31Z,whimboo,interop|agenda+,0
 2922824425,false,The order of execution of the formAssociatedCallback hook does not match the implementations,https://github.com/whatwg/html/issues/11136,2025-03-16T06:57:08Z,2025-03-16T07:20:43Z,dSalieri,,0
 2922710405,false,"Eliminate all uses of ""http:"" except where absolutely necessary to speak of unencrypted HTTP",https://github.com/whatwg/html/issues/11135,2025-03-16T02:20:42Z,2025-03-17T16:46:33Z,zackw,clarification,0
-2920149633,false,"Broken link, there is no ""Rendering section""",https://github.com/whatwg/html/issues/11132,2025-03-14T12:52:16Z,2025-03-17T07:26:47Z,1jj,topic: rendering|dev edition,0
+2920149633,true,"Broken link, there is no ""Rendering section""",https://github.com/whatwg/html/issues/11132,2025-03-14T12:52:16Z,2025-03-19T04:52:18Z,1jj,topic: rendering|dev edition,0
 2918507554,false,Upcoming WHATNOT meeting on 2025-03-20,https://github.com/whatwg/html/issues/11131,2025-03-13T22:26:47Z,2025-03-13T22:26:47Z,past,agenda+,0
-2915160901,false,File upload control rendering should specify the button element to use.,https://github.com/whatwg/html/issues/11130,2025-03-12T21:03:42Z,2025-03-18T22:05:18Z,lukewarlow,topic: rendering|topic: forms,0
+2915160901,false,File upload control rendering should specify the button element to use.,https://github.com/whatwg/html/issues/11130,2025-03-12T21:03:42Z,2025-03-19T02:10:46Z,lukewarlow,topic: rendering|topic: forms|interop,0
 2912760234,false,Upstreaming speculation rules and prefetch to HTML,https://github.com/whatwg/html/issues/11123,2025-03-12T05:48:01Z,2025-03-12T05:48:01Z,domenic,addition/proposal,4
 2907150130,true,The email regex accepts length-exceeded local-part in email addresses,https://github.com/whatwg/html/issues/11119,2025-03-10T12:42:22Z,2025-03-11T09:16:16Z,tats-u,,0
 2903614387,true,Upcoming WHATNOT meeting on 2025-03-13,https://github.com/whatwg/html/issues/11115,2025-03-07T17:59:39Z,2025-03-13T22:29:45Z,past,agenda+,0
-2903085568,false,source element move and removing steps are wrong,https://github.com/whatwg/html/issues/11113,2025-03-07T14:00:31Z,2025-03-11T08:44:56Z,annevk,topic: img,0
+2903085568,true,source element move and removing steps are wrong,https://github.com/whatwg/html/issues/11113,2025-03-07T14:00:31Z,2025-03-19T04:53:27Z,annevk,topic: img,0
 2902685931,true,"4.11.4 dialog - ""auto"" value for closedby?",https://github.com/whatwg/html/issues/11112,2025-03-07T10:56:55Z,2025-03-07T13:08:07Z,Rolf-B,topic: dialog,0
 2902330888,true,"Make it explicit that ""this"" is available in parallel",https://github.com/whatwg/html/issues/11110,2025-03-07T08:20:31Z,2025-03-14T01:06:03Z,annevk,,1
 2901145413,false,Meeting 18 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11109,2025-03-06T18:35:15Z,2025-03-07T01:51:11Z,mfreed7,agenda+,0
@@ -40,7 +40,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2874388234,false,Exposing the DOMParser API in Worker Contexts,https://github.com/whatwg/html/issues/11068,2025-02-24T09:50:37Z,2025-02-25T04:43:48Z,sqwr,addition/proposal|needs implementer interest,0
 2869703835,true,navigation API: resolve the finished promise,https://github.com/whatwg/html/issues/11064,2025-02-21T18:10:39Z,2025-02-26T07:45:51Z,atscott,clarification|topic: navigation,0
 2869493100,true,:host-context(my-el) inside a <my-el> custom element matches even for a standalone <my-el>,https://github.com/whatwg/html/issues/11063,2025-02-21T16:29:23Z,2025-02-24T17:27:51Z,franktopel,,0
-2867510954,false,Proposal: Customized built-in elements via `elementInternals.type`,https://github.com/whatwg/html/issues/11061,2025-02-20T23:34:14Z,2025-03-18T21:25:05Z,sanketj,addition/proposal,8
+2867510954,false,Proposal: Customized built-in elements via `elementInternals.type`,https://github.com/whatwg/html/issues/11061,2025-02-20T23:34:14Z,2025-03-19T02:51:14Z,sanketj,addition/proposal,9
 2867022774,false,"`responsePolicyContainer` in ""determine navigation params policy container"" should be cloned for consistency",https://github.com/whatwg/html/issues/11060,2025-02-20T18:58:05Z,2025-02-25T08:59:19Z,Lubrsi,topic: navigation|topic: policy container,0
 2866860480,true,Meeting 17 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11059,2025-02-20T17:41:25Z,2025-03-07T17:42:46Z,mfreed7,agenda+,0
 2866853950,false,Touchscreen behavior for the `interesttarget` attribute,https://github.com/whatwg/html/issues/11058,2025-02-20T17:38:14Z,2025-03-05T00:31:06Z,mfreed7,,0
@@ -828,7 +828,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1821261026,false,HTML Parser: confusion about  adoption agency algorithm,https://github.com/whatwg/html/issues/9559,2023-07-25T22:29:47Z,2023-10-01T15:37:56Z,stasoid,clarification|topic: parser,0
 1819321957,true,Evolving the HTML base tag further,https://github.com/whatwg/html/issues/9555,2023-07-25T00:13:44Z,2023-07-25T02:17:59Z,linuxguist,,0
 1817304169,true,"""This requirement is not a hard requirement, how...""",https://github.com/whatwg/html/issues/9553,2023-07-23T21:37:56Z,2023-07-25T18:23:27Z,Lanpun,,0
-1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2024-05-08T06:31:13Z,thany,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,25
+1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2024-05-08T06:31:13Z,thany,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,26
 1813664808,true,Considering event.waitUntil(promise) for async listeners,https://github.com/whatwg/html/issues/9540,2023-07-20T10:30:06Z,2024-06-12T17:00:22Z,WebReflection,,2
 1812387860,true,Consider making `=` in unquoted attribute values not a parse error,https://github.com/whatwg/html/issues/9536,2023-07-19T17:26:24Z,2023-08-18T08:47:13Z,tabatkins,document conformance,1
 1812006723,true,Environment settings objects used when fetching a module worker script graph are still wrong,https://github.com/whatwg/html/issues/9535,2023-07-19T13:53:30Z,2023-07-24T06:15:07Z,nicolo-ribaudo,topic: script,0
