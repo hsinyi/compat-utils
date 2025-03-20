@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2933515130,false,"API consistency: a new interfaces with a `.complete` property (the same as with `<img>.complete`), for all elements that load content.",https://github.com/whatwg/html/issues/11145,2025-03-20T00:14:15Z,2025-03-20T00:18:43Z,trusktr,addition/proposal|needs implementer interest,0
+2933515130,false,"API consistency: new interface with a `.complete` property (the same as with `<img>.complete`), for all elements that load content.",https://github.com/whatwg/html/issues/11145,2025-03-20T00:14:15Z,2025-03-20T00:56:43Z,trusktr,addition/proposal|needs implementer interest,0
 2932156264,false,Example using q element is inconsistent with spec,https://github.com/whatwg/html/issues/11144,2025-03-19T15:08:09Z,2025-03-19T15:08:09Z,dschuessler,,0
 2928969631,false,Potential additions to the proposed TextCluster API,https://github.com/whatwg/html/issues/11141,2025-03-18T15:41:49Z,2025-03-18T21:53:16Z,AndresRPerez12,,0
 2924735098,false,Clarify correct behavior for requestAnimationFrame for hidden iframes (display: none),https://github.com/whatwg/html/issues/11138,2025-03-17T11:33:54Z,2025-03-18T03:13:31Z,whimboo,interop|agenda+,0
@@ -179,7 +179,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2709236831,true,HostLoadImportedModule missing empty check for requested modules,https://github.com/whatwg/html/issues/10810,2024-12-01T14:20:38Z,2024-12-02T03:42:58Z,shannonbooth,,0
 2707558086,false,ContextMenuCloseWatcher,https://github.com/whatwg/html/issues/10809,2024-11-30T15:46:13Z,2024-12-02T14:15:00Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
 2705285542,false,Update the image data of a partially-available image,https://github.com/whatwg/html/issues/10808,2024-11-29T14:37:26Z,2024-11-29T14:37:47Z,emilio,topic: img,0
-2705174276,false,Content labeling for automatic filtering for suicide prevention or other sensitive issues,https://github.com/whatwg/html/issues/10807,2024-11-29T13:41:39Z,2024-11-29T13:41:39Z,mjoos-de,addition/proposal|needs implementer interest,0
+2705174276,false,Content labeling for automatic filtering for suicide prevention or other sensitive issues,https://github.com/whatwg/html/issues/10807,2024-11-29T13:41:39Z,2024-11-29T13:41:39Z,mjoos-de,addition/proposal|needs implementer interest,1
 2703887994,false,[Input] Dual Range slider and strict markers,https://github.com/whatwg/html/issues/10806,2024-11-29T04:47:47Z,2024-11-29T07:49:00Z,sakgoyal,addition/proposal|needs implementer interest|topic: forms,1
 2702311679,true,Upcoming WHATNOT meeting on 2024-12-05,https://github.com/whatwg/html/issues/10805,2024-11-28T14:21:35Z,2024-12-05T20:38:34Z,annevk,agenda+,0
 2702202488,false,"[Editorial] Use ""environment settings object"" instead of ""global object"" when appropriate",https://github.com/whatwg/html/issues/10804,2024-11-28T13:36:40Z,2024-11-28T14:11:50Z,noamr,topic: multiple globals,0
@@ -846,7 +846,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1793651320,true,Introduce scopes to openers,https://github.com/whatwg/html/issues/9500,2023-07-07T14:31:13Z,2023-07-07T17:25:24Z,SoniEx2,,0
 1793601014,true,fetch client settings object isn't used in `fetch the descendants of and link a module script`,https://github.com/whatwg/html/issues/9499,2023-07-07T13:58:54Z,2023-07-13T04:29:54Z,allstarschh,,0
 1792169588,false,Improve description of `readonly` attribute,https://github.com/whatwg/html/issues/9496,2023-07-06T20:13:27Z,2023-09-18T17:08:45Z,aaronadamsCA,clarification|topic: forms,0
-1791166125,true,Allow self-closing tags everywhere,https://github.com/whatwg/html/issues/9491,2023-07-06T09:26:20Z,2024-05-15T13:22:19Z,jakearchibald,addition/proposal|needs implementer interest|topic: parser|needs compat analysis,135
+1791166125,true,Allow self-closing tags everywhere,https://github.com/whatwg/html/issues/9491,2023-07-06T09:26:20Z,2024-05-15T13:22:19Z,jakearchibald,addition/proposal|needs implementer interest|topic: parser|needs compat analysis,137
 1788871531,false,Add VideoPlaybackQuality and HTMLVideoElement»getVideoPlaybackQuality(),https://github.com/whatwg/html/issues/9489,2023-07-05T06:36:23Z,2023-10-29T14:38:28Z,sideshowbarker,addition/proposal|topic: media,0
 1788359824,true,"Use ""matches about:blank"" and ""matches about:srcdoc"" in more places",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-28T00:45:03Z,domfarolino,topic: navigation,1
 1787902159,false,"Showing only a child popover causes ""beforetoggle"" and ""toggle"" events but popover is invisble",https://github.com/whatwg/html/issues/9487,2023-07-04T13:07:44Z,2023-07-12T23:31:37Z,mbrodesser-Igalia,topic: popover,0
@@ -2430,7 +2430,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 572368643,true,Question: site equality examples,https://github.com/whatwg/html/issues/5316,2020-02-27T21:24:30Z,2020-02-28T19:36:22Z,lazdmx,clarification,0
 570587270,true,Lazyload: N-fetches for each relevant mutation,https://github.com/whatwg/html/issues/5314,2020-02-25T13:53:54Z,2020-05-15T16:45:55Z,domfarolino,topic: img,1
 570474276,true,"""the document has finished loading""",https://github.com/whatwg/html/issues/5313,2020-02-25T10:39:45Z,2020-02-26T09:24:46Z,amn,,0
-570415383,false,"Form Submission: Fix the ""Double Submit problem"" at the spec level",https://github.com/whatwg/html/issues/5312,2020-02-25T09:07:07Z,2024-10-12T06:05:28Z,bramus,addition/proposal|needs implementer interest|topic: forms,178
+570415383,false,"Form Submission: Fix the ""Double Submit problem"" at the spec level",https://github.com/whatwg/html/issues/5312,2020-02-25T09:07:07Z,2024-10-12T06:05:28Z,bramus,addition/proposal|needs implementer interest|topic: forms,179
 570310032,false,Proposal: canvas to blob URL function,https://github.com/whatwg/html/issues/5311,2020-02-25T04:51:26Z,2020-02-25T22:21:22Z,rhendric,addition/proposal|needs implementer interest|topic: canvas|security/privacy,0
 569316279,true,"Event order of onKeyDown, onKeyPress, onKeyUp, and onPaste when using pasting (CMD + v) in Mac OS X",https://github.com/whatwg/html/issues/5310,2020-02-22T10:39:21Z,2020-02-22T10:46:10Z,aesyondu,,0
 569187828,true,"<img alt=""""> definition doesn't match reality.",https://github.com/whatwg/html/issues/5309,2020-02-21T21:15:09Z,2020-02-26T09:24:49Z,emilio,compat|topic: rendering|topic: img,5
@@ -3392,7 +3392,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2024-09-04T17:05:26Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,151
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2024-09-04T17:05:26Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,152
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
@@ -4858,7 +4858,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 135998052,true,Update request's destination field to match Fetch,https://github.com/whatwg/html/issues/731,2016-02-24T09:04:07Z,2016-07-06T13:43:48Z,annevk,clarification,0
 135983545,true,"event handler doesn't specify event listener's ""passive""",https://github.com/whatwg/html/issues/729,2016-02-24T07:36:08Z,2016-03-01T17:23:38Z,cvrebert,clarification|good first issue,0
 135326640,true,Need a way to styling the disclosure triangle of the <details> (or <summary>) element,https://github.com/whatwg/html/issues/722,2016-02-22T06:11:03Z,2017-03-16T14:30:31Z,aethanyc,,0
-135113216,true,HTML should support self-closing tags in general,https://github.com/whatwg/html/issues/721,2016-02-20T19:40:45Z,2020-04-28T16:48:58Z,nlwillia,addition/proposal|needs implementer interest,30
+135113216,true,HTML should support self-closing tags in general,https://github.com/whatwg/html/issues/721,2016-02-20T19:40:45Z,2020-04-28T16:48:58Z,nlwillia,addition/proposal|needs implementer interest,32
 134919889,true,Need to be clearer about how aborted/terminated script evaluations are handled,https://github.com/whatwg/html/issues/715,2016-02-19T17:13:27Z,2016-02-22T17:02:14Z,bzbarsky,clarification,0
 134896630,true,Deprecate AddSearchProvider?,https://github.com/whatwg/html/issues/713,2016-02-19T15:46:39Z,2016-04-26T11:20:37Z,RByers,removal/deprecation,0
 134763167,true,"Remove <link rel=""sidebar"">?",https://github.com/whatwg/html/issues/711,2016-02-19T03:43:15Z,2016-02-19T03:58:10Z,domenic,removal/deprecation,0
