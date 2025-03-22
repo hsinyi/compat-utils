@@ -915,11 +915,7 @@ api/CacheStorage/secure_context_required,,44,,65,,11.1,,false,true,false,,NONE
 api/CacheStorage/worker_support,,44,,43,,11.1,,false,true,false,,NONE
 api/CanMakePaymentEvent,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#the-canmakepaymentevent,W3C
 api/CanMakePaymentEvent/CanMakePaymentEvent,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-canmakepaymentevent-constructor,W3C
-api/CanMakePaymentEvent/methodData,,,,70,,,,false,false,true,,NONE
-api/CanMakePaymentEvent/modifiers,,,,70,,,,false,false,true,,NONE
-api/CanMakePaymentEvent/paymentRequestOrigin,,,,70,,,,false,false,true,,NONE
 api/CanMakePaymentEvent/respondWith,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-canmakepaymentevent-respondwith,W3C
-api/CanMakePaymentEvent/topOrigin,,,,70,,,,false,false,true,,NONE
 api/CanvasCaptureMediaStreamTrack,,,,51,,11,,false,true,false,https://w3c.github.io/mediacapture-fromelement/#the-canvascapturemediastreamtrack,W3C
 api/CanvasCaptureMediaStreamTrack/canvas,,,,51,,11,,false,true,false,https://w3c.github.io/mediacapture-fromelement/#dom-canvascapturemediastreamtrack-canvas,W3C
 api/CanvasCaptureMediaStreamTrack/requestFrame,,,,51,,11,,false,true,false,https://w3c.github.io/mediacapture-fromelement/#dom-canvascapturemediastreamtrack-requestframe,W3C
@@ -2418,6 +2414,7 @@ api/GPUAdapter/limits,,preview,,113,,preview,,true,true,false,https://gpuweb.git
 api/GPUAdapter/requestAdapterInfo,,preview,,113,,,,false,false,true,,NONE
 api/GPUAdapter/requestDevice,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpuadapter-requestdevice,UNKNOWN
 api/GPUAdapter/requestDevice/lost_device_on_duplicate,,,,116,,preview,,true,true,false,,NONE
+api/GPUAdapter/requestDevice/undefined_limits,,,,133,,,,true,true,false,,NONE
 api/GPUAdapterInfo,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#gpu-adapterinfo,UNKNOWN
 api/GPUAdapterInfo/architecture,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpuadapterinfo-architecture,UNKNOWN
 api/GPUAdapterInfo/description,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpuadapterinfo-description,UNKNOWN
@@ -5221,16 +5218,8 @@ api/PaymentAddress/recipient,,,,60,,11.1,,false,false,true,,NONE
 api/PaymentAddress/region,,,,60,,11.1,,false,false,true,,NONE
 api/PaymentAddress/sortingCode,,,,60,,11.1,,false,false,true,,NONE
 api/PaymentAddress/toJSON,,,,60,,11.1,,false,false,true,,NONE
-api/PaymentInstruments,,,,70,,,,false,false,true,,NONE
-api/PaymentInstruments/clear,,,,70,,,,false,false,true,,NONE
-api/PaymentInstruments/delete,,,,70,,,,false,false,true,,NONE
-api/PaymentInstruments/get,,,,70,,,,false,false,true,,NONE
-api/PaymentInstruments/has,,,,70,,,,false,false,true,,NONE
-api/PaymentInstruments/keys,,,,70,,,,false,false,true,,NONE
-api/PaymentInstruments/set,,,,70,,,,false,false,true,,NONE
 api/PaymentManager,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#paymentmanager-interface,W3C
 api/PaymentManager/enableDelegations,,,,80,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-paymentmanager-enabledelegations,W3C
-api/PaymentManager/instruments,,,,70,,,,false,false,true,,NONE
 api/PaymentManager/secure_context_required,,,,122,,,,true,true,false,,NONE
 api/PaymentManager/userHint,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-paymentmanager-userhint,W3C
 api/PaymentMethodChangeEvent,,55,"[{""name"":""dom.payments.request.enabled"",""type"":""preference"",""value_to_set"":""true""},{""name"":""dom.payments.request.supportedRegions"",""type"":""preference"",""value_to_set"":""A comma-delimited list of one or more 2-character ISO country codes indicating the countries in which to support payments (for example, <code>US,CA</code>).""}]",76,,12.1,,false,true,false,https://w3c.github.io/payment-request/#paymentmethodchangeevent-interface,W3C
@@ -5256,7 +5245,6 @@ api/PaymentRequestEvent/PaymentRequestEvent,,,,70,,,,true,true,false,https://w3c
 api/PaymentRequestEvent/changePaymentMethod,,,,76,,,,true,true,false,https://w3c.github.io/payment-handler/#changepaymentmethod-method,W3C
 api/PaymentRequestEvent/changeShippingAddress,,,,80,,,,true,true,false,https://w3c.github.io/payment-handler/#changeshippingaddress-method,W3C
 api/PaymentRequestEvent/changeShippingOption,,,,80,,,,true,true,false,https://w3c.github.io/payment-handler/#changeshippingoption-method,W3C
-api/PaymentRequestEvent/instrumentKey,,,,70,,,,false,false,true,,NONE
 api/PaymentRequestEvent/methodData,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-paymentrequestevent-methoddata,W3C
 api/PaymentRequestEvent/modifiers,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-paymentrequestevent-modifiers,W3C
 api/PaymentRequestEvent/openWindow,,,,70,,,,true,true,false,https://w3c.github.io/payment-handler/#dom-paymentrequestevent-openwindow,W3C
@@ -9690,7 +9678,7 @@ css/properties/animation-timing-function,,16,,43,,9,,false,true,false,https://dr
 css/properties/animation-timing-function/jump,,65,,77,,14,,false,true,false,,NONE
 css/properties/appearance,,80,,84,,15.4,,false,true,false,https://drafts.csswg.org/css-ui/#appearance-switching,W3C
 css/properties/appearance/auto,,80,,83,,15.4,,false,true,false,https://drafts.csswg.org/css-ui-4/#valdef-appearance-auto,W3C
-css/properties/appearance/base,,,,134,,,,true,true,false,https://drafts.csswg.org/css-ui-4/#valdef-appearance-base,W3C
+css/properties/appearance/base-select,,,,134,,,,true,false,false,,NONE
 css/properties/appearance/button,,1,,1,,3,,false,true,false,https://drafts.csswg.org/css-ui-4/#valdef-appearance-button,W3C
 css/properties/appearance/checkbox,,1,,1,,3,,false,true,false,https://drafts.csswg.org/css-ui-4/#valdef-appearance-checkbox,W3C
 css/properties/appearance/listbox,,1,,1,,3,,false,true,false,https://drafts.csswg.org/css-ui-4/#valdef-appearance-listbox,W3C
