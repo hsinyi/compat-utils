@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2920969793,false,MutationObserver attribute filter ignores attributes with a namespace,https://github.com/whatwg/dom/issues/1364,2025-03-14T18:14:18Z,2025-03-14T21:13:08Z,josepharhar,,0
-2904165745,false,Naming of Composed Range,https://github.com/whatwg/dom/issues/1363,2025-03-07T23:40:58Z,2025-03-13T17:24:17Z,dizhang168,topic: shadow|topic: ranges|agenda+,0
+2904165745,false,Naming of Composed Range,https://github.com/whatwg/dom/issues/1363,2025-03-07T23:40:58Z,2025-03-27T18:26:38Z,dizhang168,topic: shadow|topic: ranges,0
 2885688369,false,Should Live Range expose endpoints inside a shadow tree?,https://github.com/whatwg/dom/issues/1362,2025-02-27T21:55:11Z,2025-03-13T22:24:53Z,dizhang168,topic: shadow|topic: ranges,0
 2863197952,false,getElementById should not return the first but no element if id exists multiple times,https://github.com/whatwg/dom/issues/1361,2025-02-19T12:31:43Z,2025-02-19T14:53:55Z,kkmuffme,clarification|topic: nodes,0
 2845090139,true,setNamedItem doesn't adopt the attr node to the ownerDocument of the relevant element,https://github.com/whatwg/dom/issues/1359,2025-02-11T11:20:09Z,2025-02-21T07:31:07Z,smaug----,,0
@@ -60,7 +60,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2011221458,true,Element.attachShadow should set the declarative flag to false of an existing declarative shadow dom.,https://github.com/whatwg/dom/issues/1234,2023-11-26T21:53:19Z,2024-01-14T11:49:40Z,emilio,,0
 1984078258,false,Selecting Events with Style,https://github.com/whatwg/dom/issues/1233,2023-11-08T17:24:21Z,2024-11-22T10:47:08Z,AdamSobieski,needs implementer interest|addition/proposal,0
 1964786961,false,"Elements with Fallback, Proxy, Replacement, Substitute, or Surrogate Elements",https://github.com/whatwg/dom/issues/1232,2023-10-27T05:20:41Z,2023-12-07T10:52:39Z,AdamSobieski,needs implementer interest|addition/proposal,0
-2416841683,false,Provide an AbortSignal that aborts when Nodes become disconnected,https://github.com/whatwg/dom/issues/1296,2023-10-25T14:24:15Z,2024-07-18T18:07:02Z,keithamus,topic: custom elements|needs implementer interest|addition/proposal|topic: aborting|topic: nodes,8
+2416841683,false,Provide an AbortSignal that aborts when Nodes become disconnected,https://github.com/whatwg/dom/issues/1296,2023-10-25T14:24:15Z,2024-07-18T18:07:02Z,keithamus,topic: custom elements|needs implementer interest|addition/proposal|topic: aborting|topic: nodes,9
 1938773058,false,Add guidance about using DOMTokenList,https://github.com/whatwg/dom/issues/1231,2023-10-11T21:29:47Z,2023-10-11T21:29:47Z,josepharhar,,0
 1914830619,false,MutationOvserver and DOMNodeInsertedIntoDocument,https://github.com/whatwg/dom/issues/1227,2023-09-27T06:57:45Z,2023-09-27T09:07:47Z,kokins,,0
 1889196013,false,matchMedia-like API for element matches,https://github.com/whatwg/dom/issues/1225,2023-09-10T15:55:30Z,2024-06-09T20:43:48Z,matthewp,needs implementer interest|addition/proposal,16
@@ -287,7 +287,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 423017912,true,Wrong return type of Node::getRootNode(),https://github.com/whatwg/dom/issues/739,2019-03-20T00:53:42Z,2019-03-20T07:57:20Z,SetTrend,,1
 422508516,true,Reference to struct in inner invoke,https://github.com/whatwg/dom/issues/738,2019-03-19T01:57:21Z,2020-06-29T08:27:07Z,Zirro,,0
 418687232,false,isEqualNode and <template>,https://github.com/whatwg/dom/issues/737,2019-03-08T08:39:44Z,2019-04-05T12:53:37Z,jakearchibald,,1
-418208052,false,Proposal: a DocumentFragment whose nodes do not get removed once inserted,https://github.com/whatwg/dom/issues/736,2019-03-06T19:28:54Z,2025-03-27T11:30:25Z,WebReflection,needs implementer interest|addition/proposal,81
+418208052,false,Proposal: a DocumentFragment whose nodes do not get removed once inserted,https://github.com/whatwg/dom/issues/736,2019-03-06T19:28:54Z,2025-03-28T00:09:27Z,WebReflection,needs implementer interest|addition/proposal,81
 413102117,true,window.event and IFRAMEs,https://github.com/whatwg/dom/issues/735,2019-02-21T20:08:55Z,2020-12-08T19:09:14Z,cvazac,topic: events,0
 411169284,true,Dispatching slotchange within a compound microtask,https://github.com/whatwg/dom/issues/734,2019-02-17T09:52:36Z,2019-03-29T15:11:22Z,annevk,topic: shadow,0
 407741641,true,Should adopting change an element's prototype?,https://github.com/whatwg/dom/issues/731,2019-02-07T15:00:08Z,2019-02-07T15:25:33Z,jakearchibald,,0
