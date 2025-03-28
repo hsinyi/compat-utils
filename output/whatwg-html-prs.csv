@@ -1,8 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2953773490,false,Throw 'SecurityError' for abuse of pushState()/replaceState(),https://github.com/whatwg/html/pull/11169,2025-03-27T16:58:51Z,2025-03-27T23:33:16Z,zcorpan,,0
+2953773490,false,Throw 'SecurityError' for abuse of pushState()/replaceState(),https://github.com/whatwg/html/pull/11169,2025-03-27T16:58:51Z,2025-03-28T04:49:13Z,zcorpan,normative change|topic: navigation,0
 2950104912,true,Editorial: fix typo 'mistmatch',https://github.com/whatwg/html/pull/11164,2025-03-26T15:55:51Z,2025-03-27T01:31:50Z,Ms2ger,,0
 2949302500,true,Report unhandled exceptions to the developer console,https://github.com/whatwg/html/pull/11162,2025-03-26T11:49:30Z,2025-03-27T02:01:37Z,trflynn89,,0
-2947215455,true,Fix focus navigation scope owner for popovers,https://github.com/whatwg/html/pull/11160,2025-03-25T17:03:27Z,2025-03-27T01:32:42Z,josepharhar,topic: popover,0
+2947215455,true,Fix focus navigation scope owner for popovers,https://github.com/whatwg/html/pull/11160,2025-03-25T17:03:27Z,2025-03-28T06:08:06Z,josepharhar,topic: popover,0
 2941346444,true,"Editorial: Fix USVString link in ""Reflecting content attributes in IDL attributes"" section",https://github.com/whatwg/html/pull/11154,2025-03-23T17:24:30Z,2025-03-24T01:35:14Z,rahimabdi,,0
 2941015118,false,Add guidance on IDL attribute design,https://github.com/whatwg/html/pull/11153,2025-03-23T08:14:08Z,2025-03-26T13:42:07Z,rahimabdi,,0
 2939250650,false,"ESM Phase Imports: Module sources in import(), new Worker() and serialization",https://github.com/whatwg/html/pull/11152,2025-03-21T18:53:56Z,2025-03-25T22:26:35Z,guybedford,,1
@@ -11,7 +11,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2931663923,false,Add ImageData Float16Array support,https://github.com/whatwg/html/pull/11143,2025-03-19T12:44:54Z,2025-03-27T20:57:23Z,ccameron-chromium,,2
 2929304849,true,Update styles.css,https://github.com/whatwg/html/pull/11142,2025-03-18T17:31:17Z,2025-03-18T20:08:16Z,CyberGhost4150,invalid,0
 2925305838,false,Editorial: export Document's showing hint and auto popover lists,https://github.com/whatwg/html/pull/11140,2025-03-17T14:29:27Z,2025-03-26T03:16:27Z,lukewarlow,topic: popover,1
-2924809039,false,"Provide ""suggestedFilename"" in ""WebDriver BiDi download started"" hook",https://github.com/whatwg/html/pull/11139,2025-03-17T12:01:01Z,2025-03-27T09:36:32Z,sadym-chromium,,0
+2924809039,true,"Provide ""suggestedFilename"" in ""WebDriver BiDi download started"" hook",https://github.com/whatwg/html/pull/11139,2025-03-17T12:01:01Z,2025-03-28T05:53:33Z,sadym-chromium,,0
 2923214135,true,Fix source insertion/moving/removing steps,https://github.com/whatwg/html/pull/11137,2025-03-16T17:55:37Z,2025-03-19T04:53:28Z,domfarolino,topic: img,0
 2921547397,true,Remove references to UA stylesheet in developer edition,https://github.com/whatwg/html/pull/11134,2025-03-15T00:46:32Z,2025-03-19T04:52:17Z,josepharhar,topic: rendering|dev edition,0
 2920422539,false,Add cross-site ancestor flag to environment.,https://github.com/whatwg/html/pull/11133,2025-03-14T14:38:21Z,2025-03-27T12:44:28Z,bvandersloot-mozilla,,0
@@ -1513,7 +1513,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 786265314,true,"Editorial: Stop using ""the"" when referring to the link element element variable",https://github.com/whatwg/html/pull/6289,2021-01-14T19:42:11Z,2021-01-14T20:31:39Z,domfarolino,editorial,0
 785410324,true,Add a final newline normalization for form payloads,https://github.com/whatwg/html/pull/6287,2021-01-13T20:14:50Z,2021-05-20T12:17:38Z,andreubotella,,0
 785107778,true,Meta: default branch rename,https://github.com/whatwg/html/pull/6285,2021-01-13T13:32:36Z,2021-01-15T08:39:51Z,annevk,,0
-785081823,false,Temporal proposal HTML serialization support,https://github.com/whatwg/html/pull/6284,2021-01-13T12:56:15Z,2024-07-09T21:21:48Z,littledan,addition/proposal|topic: serialize and transfer,6
+785081823,false,Temporal proposal HTML serialization support,https://github.com/whatwg/html/pull/6284,2021-01-13T12:56:15Z,2024-07-09T21:21:48Z,littledan,addition/proposal|topic: serialize and transfer,7
 784125935,true,Obsolete <object usemap>,https://github.com/whatwg/html/pull/6283,2021-01-12T10:50:41Z,2021-03-03T15:55:25Z,annevk,removal/deprecation|topic: embed and object|impacts documentation,0
 784103377,true,Specify escaping in the multipart/form-data encoding algorithm,https://github.com/whatwg/html/pull/6282,2021-01-12T10:19:55Z,2024-05-27T04:57:17Z,andreubotella,topic: forms,0
 784068149,true,Remove the object element from submittable elements,https://github.com/whatwg/html/pull/6281,2021-01-12T09:33:13Z,2021-01-14T06:36:00Z,annevk,removal/deprecation|topic: forms|topic: embed and object|impacts documentation,0
