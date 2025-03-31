@@ -1,5 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2958782937,false,HTMLFormElement's named properties seem buggy in browsers,https://github.com/whatwg/html/issues/11174,2025-03-30T10:09:10Z,2025-03-30T16:27:40Z,domenic,,0
+2959483677,false,Popover and dialog elements with lots of content can be inaccessible,https://github.com/whatwg/html/issues/11176,2025-03-31T05:06:12Z,2025-03-31T11:37:20Z,teddybradford,topic: rendering|accessibility|a11y-tracker,1
+2959447918,false,"[Meta] Fast Transfers between Video/Canvas2D/WebGL/WebGPU [e.g. video streaming, compositing, etc]",https://github.com/whatwg/html/issues/11175,2025-03-31T04:35:47Z,2025-03-31T04:56:58Z,mdrejhon,addition/proposal|needs implementer interest,0
+2958782937,false,HTMLFormElement's named properties seem buggy in browsers,https://github.com/whatwg/html/issues/11174,2025-03-30T10:09:10Z,2025-03-31T10:00:45Z,domenic,needs tests,0
 2958712818,false,Undefined Behavior for Non-Text Node Deletion in contenteditable=plaintext-only,https://github.com/whatwg/html/issues/11173,2025-03-30T07:18:14Z,2025-03-30T07:18:14Z,Zhang-Junzhi,,0
 2956561986,true,Navigation API: scroll restoration behavior seems buggy,https://github.com/whatwg/html/issues/11172,2025-03-28T16:02:21Z,2025-03-28T16:02:57Z,atscott,,0
 2954592370,true,"I have created a page for the Chinese version of the page. If you think it's good, please add and modify the file related addresses in the directory",https://github.com/whatwg/html/issues/11171,2025-03-27T22:48:44Z,2025-03-28T05:03:12Z,hestiacn,addition/proposal|needs implementer interest,0
@@ -999,7 +1001,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1653022362,true,Should FACE formStateRestoreCallback be called with the new value or state?,https://github.com/whatwg/html/issues/9114,2023-04-04T01:38:09Z,2023-04-24T14:47:17Z,xiaochengh,clarification|topic: custom elements|topic: forms,1
 1652818143,false,"Consider CSP script-src none directive in the ""Enabled/disabled scripting"" definitions",https://github.com/whatwg/html/issues/9113,2023-04-03T21:46:19Z,2023-05-19T10:09:01Z,hackademix,addition/proposal|security/privacy|integration,1
 1652808622,false,Standardize rendering of PQ and HLG HDR image content,https://github.com/whatwg/html/issues/9112,2023-04-03T21:35:40Z,2023-10-20T19:44:29Z,ccameron-chromium,,0
-1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2025-01-14T21:17:36Z,jpzwarte,addition/proposal|topic: popover,2
+1651764018,false,Popover does not know what triggered it,https://github.com/whatwg/html/issues/9111,2023-04-03T10:11:47Z,2025-01-14T21:17:36Z,jpzwarte,addition/proposal|topic: popover,3
 1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2024-06-18T05:09:42Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,3
 1651613244,false,`popovertarget` and shadow DOM,https://github.com/whatwg/html/issues/9109,2023-04-03T08:43:23Z,2024-05-11T12:07:04Z,jpzwarte,addition/proposal|topic: shadow|topic: popover,0
 1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2024-11-01T00:24:05Z,cubuspl42,addition/proposal|needs implementer interest,8
@@ -3589,7 +3591,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 277413348,true,How do I get extendableEvent.waitUntil() to play nicely with async functions,https://github.com/whatwg/html/issues/3261,2017-11-28T14:53:45Z,2017-11-28T16:16:07Z,Zectbumo,,0
 277137656,false,Attribute Index should list default values,https://github.com/whatwg/html/issues/3259,2017-11-27T19:25:05Z,2018-03-30T03:54:54Z,fantasai,clarification,2
 276934417,false,"Consider recording the ""duplicate-attribute"" error state.",https://github.com/whatwg/html/issues/3257,2017-11-27T08:22:53Z,2024-01-26T14:54:01Z,mikewest,topic: parser|security/privacy,0
-276619973,false,Nosniffing for Worker Scripts,https://github.com/whatwg/html/issues/3255,2017-11-24T13:40:40Z,2022-05-16T14:50:55Z,otherdaniel,security/privacy|topic: script,0
+276619973,true,Nosniffing for Worker Scripts,https://github.com/whatwg/html/issues/3255,2017-11-24T13:40:40Z,2025-03-31T05:18:27Z,otherdaniel,security/privacy|topic: script,0
 276311439,true,Rewrite spec text for the Storage interface operations to use ordered maps,https://github.com/whatwg/html/issues/3252,2017-11-23T09:38:11Z,2020-07-08T14:15:49Z,sideshowbarker,clarification|topic: storage,0
 276270497,true,Touch Bar Web API: <menu type=touch-bar> and <menuitem>,https://github.com/whatwg/html/issues/3251,2017-11-23T05:40:11Z,2023-08-18T14:44:20Z,js-choi,addition/proposal|needs implementer interest,9
 276211659,true,Seemingly contradictions in the srcset attribute guidelines for Images,https://github.com/whatwg/html/issues/3250,2017-11-22T21:40:20Z,2018-10-09T08:24:56Z,treyeckels,good first issue|document conformance|topic: img,0
