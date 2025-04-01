@@ -8,13 +8,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2939250650,false,"ESM Phase Imports: Module sources in import(), new Worker() and serialization",https://github.com/whatwg/html/pull/11152,2025-03-21T18:53:56Z,2025-03-25T22:26:35Z,guybedford,,1
 2939209245,false,Clarify usage of beforematch event,https://github.com/whatwg/html/pull/11151,2025-03-21T18:35:19Z,2025-03-25T07:44:25Z,josepharhar,,0
 2937017197,true,Html,https://github.com/whatwg/html/pull/11149,2025-03-21T01:37:24Z,2025-03-21T04:06:02Z,Balaji1234551,invalid,0
-2931663923,false,Add ImageData Float16Array support,https://github.com/whatwg/html/pull/11143,2025-03-19T12:44:54Z,2025-03-31T06:28:21Z,ccameron-chromium,,2
+2931663923,false,Add ImageData Float16Array support,https://github.com/whatwg/html/pull/11143,2025-03-19T12:44:54Z,2025-03-31T14:27:43Z,ccameron-chromium,,2
 2929304849,true,Update styles.css,https://github.com/whatwg/html/pull/11142,2025-03-18T17:31:17Z,2025-03-18T20:08:16Z,CyberGhost4150,invalid,0
 2925305838,false,Editorial: export Document's showing hint and auto popover lists,https://github.com/whatwg/html/pull/11140,2025-03-17T14:29:27Z,2025-03-26T03:16:27Z,lukewarlow,topic: popover,1
 2924809039,true,"Provide ""suggestedFilename"" in ""WebDriver BiDi download started"" hook",https://github.com/whatwg/html/pull/11139,2025-03-17T12:01:01Z,2025-03-28T05:53:33Z,sadym-chromium,,0
 2923214135,true,Fix source insertion/moving/removing steps,https://github.com/whatwg/html/pull/11137,2025-03-16T17:55:37Z,2025-03-19T04:53:28Z,domfarolino,topic: img,0
 2921547397,true,Remove references to UA stylesheet in developer edition,https://github.com/whatwg/html/pull/11134,2025-03-15T00:46:32Z,2025-03-19T04:52:17Z,josepharhar,topic: rendering|dev edition,0
-2920422539,false,Add cross-site ancestor flag to environment.,https://github.com/whatwg/html/pull/11133,2025-03-14T14:38:21Z,2025-03-27T12:44:28Z,bvandersloot-mozilla,,0
+2920422539,false,Add cross-site ancestor flag to environment.,https://github.com/whatwg/html/pull/11133,2025-03-14T14:38:21Z,2025-03-31T18:14:48Z,bvandersloot-mozilla,,0
 2914362163,true,"Clarify that ""this"" is not available while in parallel",https://github.com/whatwg/html/pull/11129,2025-03-12T15:30:51Z,2025-03-14T01:06:04Z,domfarolino,clarification|topic: event loop,0
 2913631025,true,Editorial: use empty <span> for old ID,https://github.com/whatwg/html/pull/11128,2025-03-12T11:24:40Z,2025-03-12T15:54:52Z,foolip,,0
 2913576928,true,"Editorial: remove no-op data-x="""" attributes from <bdo> and <kbd>",https://github.com/whatwg/html/pull/11127,2025-03-12T11:06:43Z,2025-03-12T11:24:21Z,foolip,,0
@@ -30,7 +30,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2902372055,true,Meta: move .yesno styling to shared style sheet,https://github.com/whatwg/html/pull/11111,2025-03-07T08:41:35Z,2025-03-07T10:23:54Z,annevk,,0
 2900138666,true,Fix OffscreenCanvas's convertToBlob()'s copypasta,https://github.com/whatwg/html/pull/11106,2025-03-06T11:27:11Z,2025-03-07T08:26:44Z,annevk,topic: canvas,2
 2897016989,true,Rendering: improve compatibility for frameborder on iframe,https://github.com/whatwg/html/pull/11103,2025-03-05T11:10:14Z,2025-03-07T09:30:49Z,zcorpan,topic: rendering|interop|topic: frames/navigables/browsing contexts,0
-2896918377,false,"Remove UA styles for h1 in article, aside, nav, section",https://github.com/whatwg/html/pull/11102,2025-03-05T10:29:36Z,2025-03-27T21:44:13Z,zcorpan,topic: rendering|needs tests|needs compat analysis,1
+2896918377,false,"Remove UA styles for h1 in article, aside, nav, section",https://github.com/whatwg/html/pull/11102,2025-03-05T10:29:36Z,2025-03-31T21:52:38Z,zcorpan,topic: rendering|needs compat analysis,1
 2894851302,true,Editorial: make Document's 'page showing' flag a boolean,https://github.com/whatwg/html/pull/11099,2025-03-04T16:36:54Z,2025-03-08T19:05:15Z,domfarolino,,0
 2893270381,true,Create firk,https://github.com/whatwg/html/pull/11096,2025-03-04T07:40:39Z,2025-03-04T07:42:26Z,shifakhousain,invalid,0
 2891297197,true,Change references to an input being in a state,https://github.com/whatwg/html/pull/11093,2025-03-03T13:43:09Z,2025-03-03T14:48:34Z,lukewarlow,,0
@@ -219,7 +219,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2468462371,true,Fix incorrect recursion for dir=auto special cases.,https://github.com/whatwg/html/pull/10561,2024-08-15T16:43:24Z,2024-09-16T19:40:27Z,dbaron,topic: shadow|i18n-tracker,0
 2467498874,true,"Add ""same origin with its ancestors""",https://github.com/whatwg/html/pull/10559,2024-08-15T06:30:36Z,2025-01-28T01:21:10Z,domenic,topic: origin|integration,0
 2464881277,true,"Fix ""can have its URL rewritten"" buggy fallthrough",https://github.com/whatwg/html/pull/10558,2024-08-14T04:35:32Z,2024-08-15T01:08:30Z,domenic,topic: navigation,1
-2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2025-03-31T11:28:58Z,josepharhar,normative change|do not merge yet|topic: parser|topic: select,1
+2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2025-03-31T13:45:58Z,josepharhar,normative change|do not merge yet|topic: parser|topic: select,1
 2458340131,true,Remove exception reporting from declarative shadow dom,https://github.com/whatwg/html/pull/10552,2024-08-09T17:13:23Z,2024-08-14T15:44:52Z,mfreed7,normative change|topic: shadow|topic: parser,0
 2450354011,true,Editorial: modernize promise rejection tracking,https://github.com/whatwg/html/pull/10550,2024-08-06T09:07:03Z,2024-08-07T01:10:54Z,domenic,topic: error reporting,0
 2448702538,true,Complete draft spec for customizable `<select>`,https://github.com/whatwg/html/pull/10548,2024-08-05T14:28:06Z,2024-10-30T00:04:59Z,josepharhar,,0
@@ -686,7 +686,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1665882711,true,Fix form submission's replace-before-load logic,https://github.com/whatwg/html/pull/9156,2023-04-13T07:34:01Z,2023-05-10T07:05:24Z,domenic,topic: navigation|topic: forms|interop,0
 1665109294,false,Add payto as a safelisted scheme for registerProtocolHandler(),https://github.com/whatwg/html/pull/9155,2023-04-12T19:17:02Z,2023-11-14T08:05:49Z,rastislavcore,addition/proposal|needs implementer interest|topic: custom protocols,0
 1663489093,false,Move cross-origin opener policy into policy container,https://github.com/whatwg/html/pull/9149,2023-04-12T01:17:19Z,2023-11-14T08:05:50Z,domfarolino,topic: cross-origin-opener-policy|topic: policy container,0
-1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2025-01-04T13:10:50Z,josepharhar,,4
+1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2025-04-01T02:46:49Z,josepharhar,,4
 1660955905,true,Don't throw when popover/dialog is in requested state,https://github.com/whatwg/html/pull/9142,2023-04-10T15:32:00Z,2023-07-10T09:37:47Z,josepharhar,needs tests|topic: dialog|topic: popover,1
 1660921767,true,Remove anchor attribute reference in popover note,https://github.com/whatwg/html/pull/9141,2023-04-10T15:05:50Z,2023-04-24T14:03:23Z,josepharhar,topic: popover,0
 1660416855,true,"Fix ""active frame element"" definition",https://github.com/whatwg/html/pull/9139,2023-04-10T08:08:01Z,2023-04-28T07:31:26Z,domenic,topic: frames/navigables/browsing contexts,0
@@ -1065,7 +1065,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1141420605,true,Define the translate attribute's state when there's no parent element,https://github.com/whatwg/html/pull/7629,2022-02-17T14:35:44Z,2022-02-17T23:24:01Z,zcorpan,,0
 1138870843,true,Process Preload link headers,https://github.com/whatwg/html/pull/7622,2022-02-15T15:48:13Z,2022-05-04T14:22:11Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1138768636,true,Add a single radius version of CanvasRenderingContext2D.roundRect,https://github.com/whatwg/html/pull/7621,2022-02-15T14:28:17Z,2022-02-18T15:01:39Z,mysteryDate,topic: canvas,0
-1137601390,false,Change Origin-Agent-Cluster HTTP header default,https://github.com/whatwg/html/pull/7617,2022-02-14T17:13:35Z,2025-02-19T03:34:09Z,otherdaniel,normative change,0
+1137601390,false,Change Origin-Agent-Cluster HTTP header default,https://github.com/whatwg/html/pull/7617,2022-02-14T17:13:35Z,2025-04-01T02:36:00Z,otherdaniel,normative change,0
 1135270137,true,Update README.md,https://github.com/whatwg/html/pull/7615,2022-02-13T05:53:32Z,2024-10-08T14:09:18Z,MasterofAstro,invalid,0
 1135268349,true,Update README.md,https://github.com/whatwg/html/pull/7614,2022-02-13T05:52:05Z,2024-10-08T14:09:18Z,MasterofAstro,invalid,0
 1135265225,true,Update README.md,https://github.com/whatwg/html/pull/7613,2022-02-13T05:49:32Z,2024-10-08T14:09:17Z,MasterofAstro,invalid,0
