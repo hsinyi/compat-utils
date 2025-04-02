@@ -1,12 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2961096541,false,Webkit/Blink/Gecko don't seem to implement `locked for focus` correctly,https://github.com/whatwg/html/issues/11177,2025-03-31T17:21:33Z,2025-04-01T02:29:54Z,sefeng211,topic: focus,0
-2959483677,false,Popover and dialog elements with lots of content can be inaccessible,https://github.com/whatwg/html/issues/11176,2025-03-31T05:06:12Z,2025-03-31T20:51:38Z,teddybradford,topic: rendering|accessibility|a11y-tracker,1
+2961096541,false,Webkit/Blink/Gecko don't seem to implement `locked for focus` correctly,https://github.com/whatwg/html/issues/11177,2025-03-31T17:21:33Z,2025-04-01T15:56:54Z,sefeng211,removal/deprecation|needs tests|topic: focus,0
+2959483677,false,Popover and dialog elements with lots of content can be inaccessible,https://github.com/whatwg/html/issues/11176,2025-03-31T05:06:12Z,2025-04-01T22:28:17Z,teddybradford,topic: rendering|accessibility|a11y-tracker,1
 2959447918,false,"[Meta] Fast Transfers between Video/Canvas2D/WebGL/WebGPU [e.g. video streaming, compositing, etc]",https://github.com/whatwg/html/issues/11175,2025-03-31T04:35:47Z,2025-03-31T20:16:41Z,mdrejhon,addition/proposal|needs implementer interest,0
 2958782937,false,HTMLFormElement's named properties seem buggy in browsers,https://github.com/whatwg/html/issues/11174,2025-03-30T10:09:10Z,2025-03-31T10:00:45Z,domenic,needs tests,0
 2958712818,false,Undefined Behavior for Non-Text Node Deletion in contenteditable=plaintext-only,https://github.com/whatwg/html/issues/11173,2025-03-30T07:18:14Z,2025-03-30T07:18:14Z,Zhang-Junzhi,,0
 2956561986,true,Navigation API: scroll restoration behavior seems buggy,https://github.com/whatwg/html/issues/11172,2025-03-28T16:02:21Z,2025-03-28T16:02:57Z,atscott,,0
 2954592370,true,"I have created a page for the Chinese version of the page. If you think it's good, please add and modify the file related addresses in the directory",https://github.com/whatwg/html/issues/11171,2025-03-27T22:48:44Z,2025-03-28T05:03:12Z,hestiacn,addition/proposal|needs implementer interest,0
-2954069598,false,Upcoming WHATNOT meeting on 2025-04-03,https://github.com/whatwg/html/issues/11170,2025-03-27T18:28:33Z,2025-03-27T18:28:33Z,past,agenda+,0
+2954069598,false,Upcoming WHATNOT meeting on 2025-04-03,https://github.com/whatwg/html/issues/11170,2025-03-27T18:28:33Z,2025-04-01T16:39:34Z,past,agenda+,0
 2953698785,false,"Add ""dogecoin:"" to Chrome's list of safe protocols",https://github.com/whatwg/html/issues/11168,2025-03-27T16:40:18Z,2025-03-28T05:04:01Z,qlpqlp,addition/proposal|needs implementer interest,3
 2952415922,true,I need help in getting started.,https://github.com/whatwg/html/issues/11167,2025-03-27T10:32:58Z,2025-03-27T19:00:44Z,Animati0n,invalid,0
 2952376016,false,Style  update for easy navigation,https://github.com/whatwg/html/issues/11166,2025-03-27T10:19:16Z,2025-03-27T10:33:25Z,Animati0n,spec tooling,0
@@ -23,7 +23,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2936015871,true,Upcoming WHATNOT meeting on 2025-03-27,https://github.com/whatwg/html/issues/11146,2025-03-20T16:16:43Z,2025-03-27T18:31:54Z,past,agenda+,0
 2933515130,false,"API consistency: new interface with a `.complete` property (the same as with `<img>.complete`), for all elements that load content.",https://github.com/whatwg/html/issues/11145,2025-03-20T00:14:15Z,2025-03-20T00:56:43Z,trusktr,addition/proposal|needs implementer interest,2
 2932156264,false,Example using q element is inconsistent with spec,https://github.com/whatwg/html/issues/11144,2025-03-19T15:08:09Z,2025-03-23T13:54:38Z,dschuessler,clarification|document conformance,0
-2928969631,false,Potential additions to the proposed TextCluster API,https://github.com/whatwg/html/issues/11141,2025-03-18T15:41:49Z,2025-04-01T02:37:08Z,AndresRPerez12,,0
+2928969631,false,Potential additions to the proposed TextCluster API,https://github.com/whatwg/html/issues/11141,2025-03-18T15:41:49Z,2025-04-01T18:39:02Z,AndresRPerez12,,0
 2924735098,false,Clarify correct behavior for requestAnimationFrame for hidden iframes (display: none),https://github.com/whatwg/html/issues/11138,2025-03-17T11:33:54Z,2025-03-27T20:56:05Z,whimboo,interop,0
 2922824425,false,The order of execution of the formAssociatedCallback hook does not match the implementations,https://github.com/whatwg/html/issues/11136,2025-03-16T06:57:08Z,2025-03-16T07:20:43Z,dSalieri,,0
 2922710405,false,"Eliminate all uses of ""http:"" except where absolutely necessary to speak of unencrypted HTTP",https://github.com/whatwg/html/issues/11135,2025-03-16T02:20:42Z,2025-03-17T16:46:33Z,zackw,clarification,0
@@ -36,7 +36,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2903085568,true,source element move and removing steps are wrong,https://github.com/whatwg/html/issues/11113,2025-03-07T14:00:31Z,2025-03-19T04:53:27Z,annevk,topic: img,0
 2902685931,true,"4.11.4 dialog - ""auto"" value for closedby?",https://github.com/whatwg/html/issues/11112,2025-03-07T10:56:55Z,2025-03-07T13:08:07Z,Rolf-B,topic: dialog,0
 2902330888,true,"Make it explicit that ""this"" is available in parallel",https://github.com/whatwg/html/issues/11110,2025-03-07T08:20:31Z,2025-03-14T01:06:03Z,annevk,,1
-2901145413,false,Meeting 18 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11109,2025-03-06T18:35:15Z,2025-03-20T22:44:56Z,mfreed7,agenda+,0
+2901145413,true,Meeting 18 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11109,2025-03-06T18:35:15Z,2025-04-01T16:34:25Z,mfreed7,agenda+,0
 2901062877,true,History API: PushState can silently fail in Chromium while Gecko/Webkit raises exception,https://github.com/whatwg/html/issues/11108,2025-03-06T17:51:57Z,2025-03-28T14:37:27Z,sefeng211,compat|topic: navigation|interop,0
 2901004647,false,native/primitive appearance of Customizable <select>,https://github.com/whatwg/html/issues/11107,2025-03-06T17:23:57Z,2025-03-13T22:23:50Z,annevk,topic: rendering|topic: select,1
 2898487706,false,closedby attribute doesn't work when dialog uses the popover API,https://github.com/whatwg/html/issues/11105,2025-03-05T20:59:50Z,2025-03-18T16:26:50Z,o-t-w,topic: dialog|topic: popover,4
@@ -132,7 +132,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2800651532,false,Details toggle event does not report reason for toggle,https://github.com/whatwg/html/issues/10935,2025-01-21T04:07:37Z,2025-01-21T04:08:13Z,legowerewolf,,0
 2800430480,false,Declarative shadow root adoption,https://github.com/whatwg/html/issues/10933,2025-01-20T23:52:29Z,2025-01-31T20:30:54Z,dead-claudia,addition/proposal|needs implementer interest,1
 2797577015,true,Expand FontFace to expose glyph vector data and unicode shaping.,https://github.com/whatwg/html/issues/10930,2025-01-19T11:34:28Z,2025-01-20T08:27:41Z,CraigglesO,addition/proposal|needs implementer interest,0
-2797380844,false,Reset algorithm doesn't work in form-associated custom elements,https://github.com/whatwg/html/issues/10927,2025-01-19T03:05:16Z,2025-03-12T15:53:06Z,dSalieri,topic: custom elements|topic: forms,0
+2797380844,true,Reset algorithm doesn't work in form-associated custom elements,https://github.com/whatwg/html/issues/10927,2025-01-19T03:05:16Z,2025-04-01T14:12:51Z,dSalieri,topic: custom elements|topic: forms,0
 2793924035,true,Upcoming WHATNOT meeting on 2025-01-23,https://github.com/whatwg/html/issues/10923,2025-01-16T22:38:09Z,2025-01-23T13:01:12Z,past,agenda+,0
 2793508722,true,Clarify differing assertions between show and showModal,https://github.com/whatwg/html/issues/10921,2025-01-16T18:49:29Z,2025-01-23T23:29:47Z,lukewarlow,clarification|topic: dialog,0
 2792831614,true,CloseWatcher constructor is unclear on what `getEnabledState` should be set to.,https://github.com/whatwg/html/issues/10920,2025-01-16T13:47:27Z,2025-01-27T18:18:47Z,keithamus,clarification,1
@@ -142,7 +142,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2783144222,false,Emoji favicons,https://github.com/whatwg/html/issues/10908,2025-01-13T06:39:06Z,2025-01-16T06:54:34Z,nt1m,addition/proposal|needs implementer interest,8
 2780973923,true,Should `crossorigin=anonymous` be the default for preloading fonts?,https://github.com/whatwg/html/issues/10907,2025-01-10T19:38:01Z,2025-01-11T04:54:08Z,tunetheweb,,0
 2778985243,true,Upcoming WHATNOT meeting on 2025-01-16,https://github.com/whatwg/html/issues/10906,2025-01-09T23:48:31Z,2025-01-16T22:48:00Z,past,agenda+,0
-2777627477,false,Popovers are broken when shown in a `contextmenu` event listener,https://github.com/whatwg/html/issues/10905,2025-01-09T11:59:31Z,2025-03-15T09:21:01Z,jpzwarte,topic: popover,0
+2777627477,false,Popovers are broken when shown in a `contextmenu` event listener,https://github.com/whatwg/html/issues/10905,2025-01-09T11:59:31Z,2025-04-01T20:50:59Z,jpzwarte,topic: popover,0
 2773648494,false,Display of an inline 3D model,https://github.com/whatwg/html/issues/10901,2025-01-07T20:09:18Z,2025-01-30T22:05:34Z,zachernuk,addition/proposal|needs implementer interest,20
 2773169567,false,"Navigate a navigable should probably use ""matches about:srcdoc""",https://github.com/whatwg/html/issues/10900,2025-01-07T15:50:23Z,2025-01-15T08:20:53Z,AtkinsSJ,clarification|topic: navigation|topic: frames/navigables/browsing contexts,1
 2772388413,true,Behavior of updating the checkedness state of the elements in the same radio button group is unclear,https://github.com/whatwg/html/issues/10897,2025-01-07T09:51:12Z,2025-01-30T02:22:43Z,EdgarChen,compat|topic: forms,0
@@ -197,7 +197,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2714136372,false,"Should `input[type=""search""]` (and other types) allow `popovertarget` ?",https://github.com/whatwg/html/issues/10815,2024-12-03T06:40:53Z,2024-12-04T02:43:56Z,Techn1x,addition/proposal|needs implementer interest,0
 2713777949,true,Meeting 12 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10813,2024-12-03T01:50:42Z,2024-12-10T17:40:17Z,chrishtr,agenda+,0
 2713575336,false,Strengthen form control localization requirements,https://github.com/whatwg/html/issues/10812,2024-12-02T22:59:23Z,2024-12-03T08:11:19Z,aphillips,topic: forms|i18n-needs-resolution,0
-2713210794,false,Should non-modal top layer elements that come after modal dialogs also escape inertness?,https://github.com/whatwg/html/issues/10811,2024-12-02T19:58:08Z,2025-03-31T23:55:26Z,mfreed7,topic: dialog|topic: popover,0
+2713210794,false,Should non-modal top layer elements that come after modal dialogs also escape inertness?,https://github.com/whatwg/html/issues/10811,2024-12-02T19:58:08Z,2025-04-01T16:29:30Z,mfreed7,topic: dialog|topic: popover,0
 2709236831,true,HostLoadImportedModule missing empty check for requested modules,https://github.com/whatwg/html/issues/10810,2024-12-01T14:20:38Z,2024-12-02T03:42:58Z,shannonbooth,,0
 2707558086,false,ContextMenuCloseWatcher,https://github.com/whatwg/html/issues/10809,2024-11-30T15:46:13Z,2024-12-02T14:15:00Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
 2705285542,false,Update the image data of a partially-available image,https://github.com/whatwg/html/issues/10808,2024-11-29T14:37:26Z,2024-11-29T14:37:47Z,emilio,topic: img,0
