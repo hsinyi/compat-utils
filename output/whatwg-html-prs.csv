@@ -1,12 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2973354937,false,new `model` element for display of inline 3D models,https://github.com/whatwg/html/pull/11191,2025-04-04T20:56:37Z,2025-04-05T01:23:58Z,zachernuk,,0
-2973246569,false,Fix popover initial focus autofocus document targeting,https://github.com/whatwg/html/pull/11190,2025-04-04T19:57:09Z,2025-04-04T19:58:37Z,josepharhar,,0
+2973246569,false,Fix popover initial focus autofocus document targeting,https://github.com/whatwg/html/pull/11190,2025-04-04T19:57:09Z,2025-04-07T12:07:23Z,josepharhar,,0
 2972889882,true,Create fluffypuffers,https://github.com/whatwg/html/pull/11189,2025-04-04T16:34:59Z,2025-04-04T18:25:13Z,fluffypuffers,invalid,0
 2967738196,false,Add ToggleEvent.source,https://github.com/whatwg/html/pull/11186,2025-04-02T23:06:22Z,2025-04-04T06:17:49Z,josepharhar,needs implementer interest|needs tests,0
 2967276645,false,Don't run light dismiss on right click,https://github.com/whatwg/html/pull/11185,2025-04-02T18:56:42Z,2025-04-02T18:58:15Z,josepharhar,,0
-2965105159,false,"Editorial: modernize ""Focus management APIs""",https://github.com/whatwg/html/pull/11183,2025-04-02T03:52:36Z,2025-04-02T03:53:58Z,domenic,do not merge yet|topic: focus,0
+2965105159,false,"Editorial: modernize ""Focus management APIs""",https://github.com/whatwg/html/pull/11183,2025-04-02T03:52:36Z,2025-04-07T09:40:56Z,domenic,do not merge yet|topic: focus,0
 2965078672,false,"Remove ""locked for focus""",https://github.com/whatwg/html/pull/11182,2025-04-02T03:27:24Z,2025-04-04T03:27:54Z,domenic,removal/deprecation|topic: focus,0
-2963441311,false,editorial: use title case for state attributes,https://github.com/whatwg/html/pull/11179,2025-04-01T13:22:25Z,2025-04-03T10:21:58Z,choukikars16,,0
+2963441311,true,editorial: use title case for state attributes,https://github.com/whatwg/html/pull/11179,2025-04-01T13:22:25Z,2025-04-07T09:56:38Z,choukikars16,,0
 2953773490,true,Throw 'SecurityError' for abuse of pushState()/replaceState(),https://github.com/whatwg/html/pull/11169,2025-03-27T16:58:51Z,2025-03-28T14:37:28Z,zcorpan,normative change|topic: navigation,0
 2950104912,true,Editorial: fix typo 'mistmatch',https://github.com/whatwg/html/pull/11164,2025-03-26T15:55:51Z,2025-03-27T01:31:50Z,Ms2ger,,0
 2949302500,true,Report unhandled exceptions to the developer console,https://github.com/whatwg/html/pull/11162,2025-03-26T11:49:30Z,2025-03-27T02:01:37Z,trflynn89,,0
@@ -16,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2939250650,false,"ESM Phase Imports: Module sources in import(), new Worker() and serialization",https://github.com/whatwg/html/pull/11152,2025-03-21T18:53:56Z,2025-03-25T22:26:35Z,guybedford,,1
 2939209245,true,Clarify usage of beforematch event,https://github.com/whatwg/html/pull/11151,2025-03-21T18:35:19Z,2025-04-02T04:34:31Z,josepharhar,topic: events,0
 2937017197,true,Html,https://github.com/whatwg/html/pull/11149,2025-03-21T01:37:24Z,2025-03-21T04:06:02Z,Balaji1234551,invalid,0
-2931663923,false,Add ImageData Float16Array support,https://github.com/whatwg/html/pull/11143,2025-03-19T12:44:54Z,2025-04-04T16:27:08Z,ccameron-chromium,,2
+2931663923,false,Add ImageData Float16Array support,https://github.com/whatwg/html/pull/11143,2025-03-19T12:44:54Z,2025-04-07T12:18:28Z,ccameron-chromium,,2
 2929304849,true,Update styles.css,https://github.com/whatwg/html/pull/11142,2025-03-18T17:31:17Z,2025-03-18T20:08:16Z,CyberGhost4150,invalid,0
 2925305838,false,Editorial: export Document's showing hint and auto popover lists,https://github.com/whatwg/html/pull/11140,2025-03-17T14:29:27Z,2025-03-26T03:16:27Z,lukewarlow,topic: popover,1
 2924809039,true,"Provide ""suggestedFilename"" in ""WebDriver BiDi download started"" hook",https://github.com/whatwg/html/pull/11139,2025-03-17T12:01:01Z,2025-03-28T05:53:33Z,sadym-chromium,,0
@@ -694,7 +694,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1665882711,true,Fix form submission's replace-before-load logic,https://github.com/whatwg/html/pull/9156,2023-04-13T07:34:01Z,2023-05-10T07:05:24Z,domenic,topic: navigation|topic: forms|interop,0
 1665109294,false,Add payto as a safelisted scheme for registerProtocolHandler(),https://github.com/whatwg/html/pull/9155,2023-04-12T19:17:02Z,2023-11-14T08:05:49Z,rastislavcore,addition/proposal|needs implementer interest|topic: custom protocols,0
 1663489093,false,Move cross-origin opener policy into policy container,https://github.com/whatwg/html/pull/9149,2023-04-12T01:17:19Z,2023-11-14T08:05:50Z,domfarolino,topic: cross-origin-opener-policy|topic: policy container,0
-1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2025-04-01T02:46:49Z,josepharhar,,4
+1661201309,false,Add anchor attribute,https://github.com/whatwg/html/pull/9144,2023-04-10T18:57:34Z,2025-04-07T10:44:27Z,josepharhar,,4
 1660955905,true,Don't throw when popover/dialog is in requested state,https://github.com/whatwg/html/pull/9142,2023-04-10T15:32:00Z,2023-07-10T09:37:47Z,josepharhar,needs tests|topic: dialog|topic: popover,1
 1660921767,true,Remove anchor attribute reference in popover note,https://github.com/whatwg/html/pull/9141,2023-04-10T15:05:50Z,2023-04-24T14:03:23Z,josepharhar,topic: popover,0
 1660416855,true,"Fix ""active frame element"" definition",https://github.com/whatwg/html/pull/9139,2023-04-10T08:08:01Z,2023-04-28T07:31:26Z,domenic,topic: frames/navigables/browsing contexts,0
