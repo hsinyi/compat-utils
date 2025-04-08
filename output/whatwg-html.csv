@@ -1,5 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2976641426,false,Persistent element at the top of the top layer,https://github.com/whatwg/html/issues/11193,2025-04-07T12:05:47Z,2025-04-07T12:05:47Z,lucacasonato,,0
+2977338220,false,A modal dialog should not make inert top layer elements above itself,https://github.com/whatwg/html/issues/11195,2025-04-07T16:03:41Z,2025-04-07T18:02:31Z,lucacasonato,,0
+2977116813,false,Remove support of field-sizing from `<select>`,https://github.com/whatwg/html/issues/11194,2025-04-07T14:45:46Z,2025-04-08T00:07:53Z,sakupi01,topic: rendering|topic: select,0
+2976641426,false,Persistent element at the top of the top layer,https://github.com/whatwg/html/issues/11193,2025-04-07T12:05:47Z,2025-04-07T17:46:43Z,lucacasonato,topic: dialog|topic: popover,0
 2973507099,false,Upcoming WHATNOT meeting on 2025-04-17,https://github.com/whatwg/html/issues/11192,2025-04-04T22:46:19Z,2025-04-04T22:46:19Z,past,agenda+,0
 2972357952,false,Allow multiple anchor references via `showPopover`/`togglePopover`,https://github.com/whatwg/html/issues/11188,2025-04-04T13:16:08Z,2025-04-04T13:16:08Z,mozesstumpf,addition/proposal|needs implementer interest,0
 2970214663,false,popover focusing steps and dialog focusing steps are subtly different (probably unintentionally so),https://github.com/whatwg/html/issues/11187,2025-04-03T17:09:38Z,2025-04-04T19:57:33Z,beidson,topic: popover,0
@@ -8,7 +10,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2959483677,false,Popover and dialog elements with lots of content can be inaccessible,https://github.com/whatwg/html/issues/11176,2025-03-31T05:06:12Z,2025-04-01T22:28:17Z,teddybradford,topic: rendering|accessibility|a11y-tracker,1
 2959447918,false,"[Meta] Fast Transfers between Video/Canvas2D/WebGL/WebGPU [e.g. video streaming, compositing, etc]",https://github.com/whatwg/html/issues/11175,2025-03-31T04:35:47Z,2025-04-05T22:25:40Z,mdrejhon,addition/proposal|needs implementer interest,0
 2958782937,false,HTMLFormElement's named properties seem buggy in browsers,https://github.com/whatwg/html/issues/11174,2025-03-30T10:09:10Z,2025-03-31T10:00:45Z,domenic,needs tests,0
-2958712818,false,Undefined Behavior for Non-Text Node Deletion in contenteditable=plaintext-only,https://github.com/whatwg/html/issues/11173,2025-03-30T07:18:14Z,2025-04-07T11:37:41Z,Zhang-Junzhi,integration,0
+2958712818,false,Undefined Behavior for Non-Text Node Deletion in contenteditable=plaintext-only,https://github.com/whatwg/html/issues/11173,2025-03-30T07:18:14Z,2025-04-07T13:39:59Z,Zhang-Junzhi,integration,0
 2956561986,true,Navigation API: scroll restoration behavior seems buggy,https://github.com/whatwg/html/issues/11172,2025-03-28T16:02:21Z,2025-03-28T16:02:57Z,atscott,,0
 2954592370,true,"I have created a page for the Chinese version of the page. If you think it's good, please add and modify the file related addresses in the directory",https://github.com/whatwg/html/issues/11171,2025-03-27T22:48:44Z,2025-04-07T11:45:14Z,hestiacn,addition/proposal|needs implementer interest|invalid,0
 2954069598,true,Upcoming WHATNOT meeting on 2025-04-03,https://github.com/whatwg/html/issues/11170,2025-03-27T18:28:33Z,2025-04-03T18:24:44Z,past,agenda+,0
@@ -192,7 +194,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2724585372,true,Add an `<h>` element to replace `<h1-n>`.,https://github.com/whatwg/html/issues/10835,2024-12-07T13:04:42Z,2025-02-20T13:02:05Z,RokeJulianLockhart,addition/proposal|needs implementer interest,1
 2724547102,true,"Calling replaceState before pushState messes up with the state, so when I go back, it does go back, but it should not",https://github.com/whatwg/html/issues/10834,2024-12-07T11:24:48Z,2024-12-08T03:27:40Z,Nedimko123,,0
 2724509105,true,"Invalid reference to ""oldModuleMap"" and ""specifier"" in ""merge existing and new import maps""",https://github.com/whatwg/html/issues/10833,2024-12-07T09:40:47Z,2024-12-09T07:05:50Z,shannonbooth,topic: script,0
-2722602163,false,Lift restriction on buttons with implicit `type=submit` and `command`/`commandfor` being no-op,https://github.com/whatwg/html/issues/10832,2024-12-06T10:07:50Z,2025-04-07T10:57:27Z,keithamus,addition/proposal|needs implementer interest|topic: forms,0
+2722602163,false,Lift restriction on buttons with implicit `type=submit` and `command`/`commandfor` being no-op,https://github.com/whatwg/html/issues/10832,2024-12-06T10:07:50Z,2025-04-07T14:03:26Z,keithamus,addition/proposal|needs implementer interest|topic: forms,0
 2722500950,false,Detect UA transitions on same-origin cross-document navigations,https://github.com/whatwg/html/issues/10831,2024-12-06T09:18:01Z,2025-02-28T10:57:04Z,bramus,addition/proposal|needs implementer interest,2
 2721993883,true,Iframe insertion steps violate rules for what insertion steps are allowed to do,https://github.com/whatwg/html/issues/10828,2024-12-06T03:59:51Z,2024-12-12T03:38:48Z,jdm,integration,0
 2721875733,false,Browsers are not interoperable on navigating to no-Content-Type blob: URLs,https://github.com/whatwg/html/issues/10827,2024-12-06T02:08:45Z,2024-12-07T07:15:03Z,domenic,topic: navigation|interop,0
@@ -504,7 +506,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2264931031,true,Move GitHub Wiki content to README or spec/website page,https://github.com/whatwg/html/issues/10299,2024-04-26T04:20:21Z,2024-05-13T04:27:43Z,jcbhmr,,0
 2264087105,true,Upcoming WHATNOT meeting on 5/2/2024,https://github.com/whatwg/html/issues/10298,2024-04-25T17:05:55Z,2024-05-03T00:02:51Z,past,agenda+,0
 2263162193,false,Provide named character entities for invisible and ambiguous Unicode characters,https://github.com/whatwg/html/issues/10297,2024-04-25T09:50:32Z,2024-11-25T04:20:55Z,r12a,addition/proposal|needs implementer interest|i18n-needs-resolution,0
-2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2025-04-07T10:43:21Z,bfgeek,normative change|needs implementer interest|topic: rendering,4
+2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2025-04-07T17:38:01Z,bfgeek,normative change|needs implementer interest|topic: rendering,4
 2258787056,false,Sentence in 6.11.7 doesn't seem right,https://github.com/whatwg/html/issues/10295,2024-04-23T12:44:29Z,2024-04-23T12:44:29Z,Zhang-Junzhi,,0
 2258703067,true,SEO issue of <a> elements put dependently inside a context,https://github.com/whatwg/html/issues/10294,2024-04-23T12:03:03Z,2024-04-24T03:15:29Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
 2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2024-04-23T09:10:07Z,pfteter,addition/proposal|needs implementer interest|topic: forms,15
@@ -974,7 +976,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1678411261,true,Popover: there is a circle for show other auto popover while hiding,https://github.com/whatwg/html/issues/9196,2023-04-21T12:04:32Z,2023-06-08T11:51:44Z,cathiechen,topic: popover,0
 1677543108,true,Upcoming HTML standard issue triage meeting on 5/4/2023,https://github.com/whatwg/html/issues/9193,2023-04-20T23:18:15Z,2023-05-04T17:03:14Z,past,agenda+,0
 1676587334,false,Clarification on the DOM being a tree,https://github.com/whatwg/html/issues/9189,2023-04-20T12:03:44Z,2024-01-15T18:37:26Z,MrHBS,clarification,0
-1688386216,false,Clarification for <link> behavior in Declarative Shadow DOM,https://github.com/whatwg/html/issues/9232,2023-04-19T04:02:35Z,2025-03-29T00:27:37Z,bakura10,topic: shadow|topic: link,1
+1688386216,false,Clarification for <link> behavior in Declarative Shadow DOM,https://github.com/whatwg/html/issues/9232,2023-04-19T04:02:35Z,2025-04-07T14:48:07Z,bakura10,topic: shadow|topic: link,1
 1673113171,false,Make <img> src attribute optional if srcset is present,https://github.com/whatwg/html/issues/9181,2023-04-18T13:13:27Z,2024-06-19T10:04:50Z,foolip,document conformance|topic: img,1
 1671435300,true,The element could move to other document when showPopover,https://github.com/whatwg/html/issues/9177,2023-04-17T15:21:06Z,2023-05-05T09:13:47Z,cathiechen,topic: popover,0
 1669058371,true,Make number's and <input>'s get along better,https://github.com/whatwg/html/issues/9172,2023-04-14T23:52:47Z,2023-04-15T10:36:59Z,ghost,,0

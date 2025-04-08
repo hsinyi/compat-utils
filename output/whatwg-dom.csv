@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2977136876,false,"Cloning of a document does not copy ""allow declarative shadow roots""",https://github.com/whatwg/dom/issues/1366,2025-04-07T14:51:45Z,2025-04-07T15:44:30Z,annevk,topic: shadow|needs tests|topic: nodes,0
 2975108986,false,[ElementInternals] `ElementInternals.shadowRoot` is `null` but `this.shadowRoot` is not (its a `ShadowRoot`),https://github.com/whatwg/dom/issues/1365,2025-04-06T18:07:42Z,2025-04-07T05:14:11Z,trusktr,,0
 2920969793,false,MutationObserver attribute filter ignores attributes with a namespace,https://github.com/whatwg/dom/issues/1364,2025-03-14T18:14:18Z,2025-03-14T21:13:08Z,josepharhar,,0
 2904165745,false,Naming of Composed Range,https://github.com/whatwg/dom/issues/1363,2025-03-07T23:40:58Z,2025-04-07T11:36:16Z,dizhang168,topic: shadow|topic: ranges,0
@@ -206,7 +207,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 732407583,true,Support `AbortSignal`s in `addEventListener`s options to unsubscribe from events?,https://github.com/whatwg/dom/issues/911,2020-10-29T15:18:20Z,2021-04-29T19:50:51Z,benjamingr,needs implementer interest|topic: events|addition/proposal|impacts documentation|topic: aborting,42
 731703768,false,Should there be a declarative version of adoptedStyleSheets?,https://github.com/whatwg/dom/issues/910,2020-10-28T18:49:30Z,2024-10-09T20:43:10Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,8
 730252658,true,"Clarify null ""get-the-parent"" note",https://github.com/whatwg/dom/issues/908,2020-10-27T08:37:40Z,2020-12-08T18:53:47Z,benjamingr,topic: events|clarification,0
-729900008,false,NodeIterator's pre-removing steps does not match browsers,https://github.com/whatwg/dom/issues/907,2020-10-26T20:56:32Z,2025-03-19T11:32:15Z,TRowbotham,,2
+729900008,false,NodeIterator's pre-removing steps does not match browsers,https://github.com/whatwg/dom/issues/907,2020-10-26T20:56:32Z,2025-04-07T13:29:32Z,TRowbotham,compat|topic: nodes,2
 729831439,true,Missing comma in a sentence - makes it somewhat confusing to read,https://github.com/whatwg/dom/issues/906,2020-10-26T19:08:27Z,2020-10-27T13:09:26Z,JasonTheKitten,,0
 725915817,false,Proposal: add `childFilter` option to `MutationObserverInit`,https://github.com/whatwg/dom/issues/905,2020-10-20T20:21:56Z,2020-10-23T09:40:53Z,WebReflection,needs implementer interest|addition/proposal,2
 720132986,false,Proposal - Update XPath to (at least) v2.0,https://github.com/whatwg/dom/issues/903,2020-10-13T11:15:11Z,2024-10-06T14:10:45Z,WebReflection,needs implementer interest|addition/proposal,97
@@ -402,7 +403,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 275862932,true,Simply MutationObserver callback handling with optional reference property in MutationObserverInit object,https://github.com/whatwg/dom/issues/539,2017-11-21T21:18:34Z,2018-03-17T08:01:40Z,d2ydx2,,0
 274056398,true,No way to resolve a Promise with a cross domain WindowProxy,https://github.com/whatwg/dom/issues/536,2017-11-15T07:12:02Z,2018-02-07T19:39:52Z,esprehn,,0
 272064812,true,Touch/Trackpad finger position,https://github.com/whatwg/dom/issues/534,2017-11-08T03:40:03Z,2017-11-08T08:14:12Z,felipenmoura,,0
-271164894,false,Make it possible to observe connected-ness of a node,https://github.com/whatwg/dom/issues/533,2017-11-04T04:10:12Z,2025-02-22T15:19:40Z,rniwa,addition/proposal,46
+271164894,false,Make it possible to observe connected-ness of a node,https://github.com/whatwg/dom/issues/533,2017-11-04T04:10:12Z,2025-02-22T15:19:40Z,rniwa,addition/proposal,47
 271004744,true,Update WebIDL definition(s) to use new mixin syntax,https://github.com/whatwg/dom/issues/532,2017-11-03T14:51:11Z,2017-12-19T10:22:26Z,tobie,,0
 270832950,true,Composed shadow DOM,https://github.com/whatwg/dom/issues/531,2017-11-02T22:52:12Z,2018-03-13T10:34:59Z,treshugart,,3
 270778185,true,label-input association across Shadow DOM boundary,https://github.com/whatwg/dom/issues/530,2017-11-02T19:24:22Z,2017-11-09T22:33:21Z,tomalec,,0
