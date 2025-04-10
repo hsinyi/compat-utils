@@ -1,13 +1,17 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2985216225,false,"For #script-closable, clarify when a browsing context is created by script",https://github.com/whatwg/html/pull/11208,2025-04-10T10:31:17Z,2025-04-10T10:32:45Z,vinhill,,0
+2985067478,true,Editorial: Revert accidental deletion of defaultColorSpace usage,https://github.com/whatwg/html/pull/11207,2025-04-10T09:34:16Z,2025-04-10T09:41:58Z,ccameron-chromium,,0
+2984265978,true,Fix document access in shared history push/replace steps,https://github.com/whatwg/html/pull/11204,2025-04-10T02:10:12Z,2025-04-10T08:42:48Z,domenic,topic: history,0
+2984252206,true,"Fix ""fully active"" usage in inner navigate event firing",https://github.com/whatwg/html/pull/11203,2025-04-10T01:56:56Z,2025-04-10T08:42:59Z,domenic,topic: history,0
 2983193530,true,Added todo.txt with basic tasks,https://github.com/whatwg/html/pull/11201,2025-04-09T15:33:52Z,2025-04-09T15:38:39Z,Bikiran007,invalid,0
 2980648437,false,Fix assertion in hide all popovers until,https://github.com/whatwg/html/pull/11197,2025-04-08T18:32:57Z,2025-04-09T12:16:32Z,josepharhar,topic: popover,1
 2977580594,true,Editorial: Fix more typos,https://github.com/whatwg/html/pull/11196,2025-04-07T17:53:36Z,2025-04-09T03:32:01Z,jmdyck,,0
-2973354937,true,new `model` element for display of inline 3D models,https://github.com/whatwg/html/pull/11191,2025-04-04T20:56:37Z,2025-04-10T00:40:16Z,zachernuk,,0
+2973354937,true,new `model` element for display of inline 3D models,https://github.com/whatwg/html/pull/11191,2025-04-04T20:56:37Z,2025-04-10T08:02:02Z,zachernuk,,0
 2973246569,true,Fix popover initial focus autofocus document targeting,https://github.com/whatwg/html/pull/11190,2025-04-04T19:57:09Z,2025-04-08T04:45:39Z,josepharhar,topic: popover,0
 2967738196,false,Add ToggleEvent.source,https://github.com/whatwg/html/pull/11186,2025-04-02T23:06:22Z,2025-04-04T06:17:49Z,josepharhar,needs implementer interest|needs tests,0
 2967276645,false,Don't run light dismiss on right click,https://github.com/whatwg/html/pull/11185,2025-04-02T18:56:42Z,2025-04-09T03:32:35Z,josepharhar,normative change|topic: dialog|topic: popover,0
-2965105159,false,"Editorial: modernize ""Focus management APIs""",https://github.com/whatwg/html/pull/11183,2025-04-02T03:52:36Z,2025-04-07T09:40:56Z,domenic,do not merge yet|topic: focus,0
-2965078672,false,"Remove ""locked for focus""",https://github.com/whatwg/html/pull/11182,2025-04-02T03:27:24Z,2025-04-04T03:27:54Z,domenic,removal/deprecation|topic: focus,0
+2965105159,true,"Editorial: modernize ""Focus management APIs""",https://github.com/whatwg/html/pull/11183,2025-04-02T03:52:36Z,2025-04-10T02:22:46Z,domenic,topic: focus,0
+2965078672,true,"Remove ""locked for focus""",https://github.com/whatwg/html/pull/11182,2025-04-02T03:27:24Z,2025-04-10T02:19:50Z,domenic,removal/deprecation|topic: focus,0
 2963441311,true,editorial: use title case for state attributes,https://github.com/whatwg/html/pull/11179,2025-04-01T13:22:25Z,2025-04-07T09:56:38Z,choukikars16,,0
 2953773490,true,Throw 'SecurityError' for abuse of pushState()/replaceState(),https://github.com/whatwg/html/pull/11169,2025-03-27T16:58:51Z,2025-03-28T14:37:28Z,zcorpan,normative change|topic: navigation,0
 2950104912,true,Editorial: fix typo 'mistmatch',https://github.com/whatwg/html/pull/11164,2025-03-26T15:55:51Z,2025-03-27T01:31:50Z,Ms2ger,,0
@@ -18,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2939250650,false,"ESM Phase Imports: Module sources in import(), new Worker() and serialization",https://github.com/whatwg/html/pull/11152,2025-03-21T18:53:56Z,2025-03-25T22:26:35Z,guybedford,,1
 2939209245,true,Clarify usage of beforematch event,https://github.com/whatwg/html/pull/11151,2025-03-21T18:35:19Z,2025-04-02T04:34:31Z,josepharhar,topic: events,0
 2937017197,true,Html,https://github.com/whatwg/html/pull/11149,2025-03-21T01:37:24Z,2025-03-21T04:06:02Z,Balaji1234551,invalid,0
-2931663923,true,Add ImageData Float16Array support,https://github.com/whatwg/html/pull/11143,2025-03-19T12:44:54Z,2025-04-09T23:34:50Z,ccameron-chromium,,3
+2931663923,true,Add ImageData Float16Array support,https://github.com/whatwg/html/pull/11143,2025-03-19T12:44:54Z,2025-04-10T09:48:11Z,ccameron-chromium,,3
 2929304849,true,Update styles.css,https://github.com/whatwg/html/pull/11142,2025-03-18T17:31:17Z,2025-03-18T20:08:16Z,CyberGhost4150,invalid,0
 2925305838,false,Editorial: export Document's showing hint and auto popover lists,https://github.com/whatwg/html/pull/11140,2025-03-17T14:29:27Z,2025-03-26T03:16:27Z,lukewarlow,topic: popover,1
 2924809039,true,"Provide ""suggestedFilename"" in ""WebDriver BiDi download started"" hook",https://github.com/whatwg/html/pull/11139,2025-03-17T12:01:01Z,2025-03-28T05:53:33Z,sadym-chromium,,0
@@ -524,7 +528,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1909677474,true,Add popover=hint,https://github.com/whatwg/html/pull/9778,2023-09-23T02:27:22Z,2025-01-16T03:19:59Z,josepharhar,addition/proposal|topic: popover,5
 1909479750,false,Queue toggle events and dialog close with microtasks,https://github.com/whatwg/html/pull/9775,2023-09-22T20:24:57Z,2023-11-14T08:05:49Z,josepharhar,,0
 1908359160,true,Un-break build by making review-drafts/2023-07.wattsi use non-void <ref></ref>,https://github.com/whatwg/html/pull/9772,2023-09-22T07:38:51Z,2023-09-22T08:38:40Z,sideshowbarker,,0
-1907618502,false,Add TextTrackCue ctor & cue + cuebackground attributes,https://github.com/whatwg/html/pull/9771,2023-09-21T19:22:21Z,2023-11-19T23:57:57Z,marcoscaceres,addition/proposal|topic: media,1
+1907618502,false,Add TextTrackCue ctor & cue + cuebackground attributes,https://github.com/whatwg/html/pull/9771,2023-09-21T19:22:21Z,2023-11-19T23:57:57Z,marcoscaceres,addition/proposal|topic: media,2
 1904941276,false,Specify URL encoding for links (header+element),https://github.com/whatwg/html/pull/9764,2023-09-20T12:56:24Z,2023-11-14T08:05:50Z,noamr,needs tests|topic: link|topic: resource hints (inc. preload),0
 1902888166,true,Make navigate() use UTF-8 in the URL parser,https://github.com/whatwg/html/pull/9756,2023-09-19T12:36:19Z,2024-07-25T02:22:56Z,annevk,normative change|topic: navigation,0
 1902869687,true,Editorial: remove API URL character encoding,https://github.com/whatwg/html/pull/9755,2023-09-19T12:25:50Z,2023-09-19T15:11:58Z,annevk,,0
