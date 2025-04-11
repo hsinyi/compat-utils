@@ -1,12 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2984587079,true,createImageData() and getImageData() regressed,https://github.com/whatwg/html/issues/11206,2025-04-10T06:21:24Z,2025-04-10T09:44:25Z,annevk,topic: canvas,0
-2984421467,false,"Discuss out-of-memory etc. agent cluster killing, especially for shared workers?",https://github.com/whatwg/html/issues/11205,2025-04-10T04:33:30Z,2025-04-10T08:42:19Z,domenic,topic: workers|topic: agent,0
-2984245479,false,Allow importing and exporting from inline module scripts,https://github.com/whatwg/html/issues/11202,2025-04-10T01:50:17Z,2025-04-10T03:08:31Z,justinfagnani,addition/proposal|needs implementer interest,4
+2984421467,false,"Discuss out-of-memory etc. agent cluster killing, especially for shared workers?",https://github.com/whatwg/html/issues/11205,2025-04-10T04:33:30Z,2025-04-10T19:56:54Z,domenic,topic: workers|topic: agent,0
+2984245479,false,Allow importing and exporting from inline module scripts,https://github.com/whatwg/html/issues/11202,2025-04-10T01:50:17Z,2025-04-10T18:15:10Z,justinfagnani,addition/proposal|needs implementer interest,5
 2983067079,false,Some properties should probably inherit to the anonymous button content box (button layout),https://github.com/whatwg/html/issues/11200,2025-04-09T14:46:41Z,2025-04-09T14:46:41Z,zcorpan,topic: rendering,0
 2982879443,true,"Shared history push/replace state steps access ""associated Document"" of history",https://github.com/whatwg/html/issues/11199,2025-04-09T13:43:24Z,2025-04-10T08:42:46Z,zcorpan,topic: history,0
 2982818865,true,#inner-navigate-event-firing-algorithm uses #fully-active on #concept-relevant-global,https://github.com/whatwg/html/issues/11198,2025-04-09T13:22:43Z,2025-04-10T08:42:58Z,farre,topic: navigation,0
 2977338220,false,A modal dialog should not make inert top layer elements above itself,https://github.com/whatwg/html/issues/11195,2025-04-07T16:03:41Z,2025-04-07T18:02:31Z,lucacasonato,,0
-2977116813,false,Remove support of field-sizing from `<select>`,https://github.com/whatwg/html/issues/11194,2025-04-07T14:45:46Z,2025-04-08T00:07:53Z,sakupi01,topic: rendering|topic: select,0
+2977116813,false,Remove support of field-sizing from `<select>`,https://github.com/whatwg/html/issues/11194,2025-04-07T14:45:46Z,2025-04-10T18:36:32Z,sakupi01,topic: rendering|topic: select,0
 2976641426,false,Persistent element at the top of the top layer,https://github.com/whatwg/html/issues/11193,2025-04-07T12:05:47Z,2025-04-07T17:46:43Z,lucacasonato,topic: dialog|topic: popover,0
 2973507099,false,Upcoming WHATNOT meeting on 2025-04-17,https://github.com/whatwg/html/issues/11192,2025-04-04T22:46:19Z,2025-04-04T22:46:19Z,past,agenda+,0
 2972357952,false,Allow multiple anchor references via `showPopover`/`togglePopover`,https://github.com/whatwg/html/issues/11188,2025-04-04T13:16:08Z,2025-04-08T03:39:55Z,mozesstumpf,addition/proposal|needs implementer interest|topic: popover,0
@@ -114,7 +114,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2838837904,true,Upcoming WHATNOT meeting on 2025-02-13,https://github.com/whatwg/html/issues/11010,2025-02-07T18:41:13Z,2025-02-13T22:30:15Z,past,agenda+,0
 2837242514,false,"Hint popovers can't be the ""topmost open popover ancestor"" of dialog elements",https://github.com/whatwg/html/issues/11008,2025-02-07T05:01:29Z,2025-04-04T10:34:54Z,Gingeh,topic: dialog|topic: popover,2
 2836822957,false,"Should the popoverList in ""hide popover stack until"" and ""close entire popover list"" be dynamically updated?",https://github.com/whatwg/html/issues/11007,2025-02-06T23:16:31Z,2025-02-21T15:31:18Z,Gingeh,topic: popover,1
-2834192046,false,ARIA notify iframe restrictions,https://github.com/whatwg/html/issues/11004,2025-02-05T23:50:07Z,2025-04-10T07:31:08Z,aluhrs13,addition/proposal|needs implementer interest,1
+2834192046,false,ARIA notify iframe restrictions,https://github.com/whatwg/html/issues/11004,2025-02-05T23:50:07Z,2025-04-10T15:28:10Z,aluhrs13,addition/proposal|needs implementer interest,1
 2833494241,true,Web Workers importmap field,https://github.com/whatwg/html/issues/11002,2025-02-05T17:03:07Z,2025-02-06T06:21:49Z,WebReflection,,2
 2833216763,true,tuple in #concept-origin-tuple should link to https://infra.spec.whatwg.org/#tuple,https://github.com/whatwg/html/issues/10999,2025-02-05T15:08:43Z,2025-02-06T01:25:34Z,farre,,0
 2833183975,true,Clarification of #obtain-similar-origin-window-agent,https://github.com/whatwg/html/issues/10998,2025-02-05T14:56:03Z,2025-02-26T04:19:18Z,farre,clarification|topic: origin,0
@@ -210,7 +210,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2714136372,false,"Should `input[type=""search""]` (and other types) allow `popovertarget` ?",https://github.com/whatwg/html/issues/10815,2024-12-03T06:40:53Z,2024-12-04T02:43:56Z,Techn1x,addition/proposal|needs implementer interest,0
 2713777949,true,Meeting 12 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10813,2024-12-03T01:50:42Z,2024-12-10T17:40:17Z,chrishtr,agenda+,0
 2713575336,false,Strengthen form control localization requirements,https://github.com/whatwg/html/issues/10812,2024-12-02T22:59:23Z,2024-12-03T08:11:19Z,aphillips,topic: forms|i18n-needs-resolution,0
-2713210794,false,Should non-modal top layer elements that come after modal dialogs also escape inertness?,https://github.com/whatwg/html/issues/10811,2024-12-02T19:58:08Z,2025-04-01T16:29:30Z,mfreed7,topic: dialog|topic: popover,0
+2713210794,false,Should non-modal top layer elements that come after modal dialogs also escape inertness?,https://github.com/whatwg/html/issues/10811,2024-12-02T19:58:08Z,2025-04-11T00:33:43Z,mfreed7,topic: dialog|topic: popover,0
 2709236831,true,HostLoadImportedModule missing empty check for requested modules,https://github.com/whatwg/html/issues/10810,2024-12-01T14:20:38Z,2024-12-02T03:42:58Z,shannonbooth,,0
 2707558086,false,ContextMenuCloseWatcher,https://github.com/whatwg/html/issues/10809,2024-11-30T15:46:13Z,2024-12-02T14:15:00Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
 2705285542,false,Update the image data of a partially-available image,https://github.com/whatwg/html/issues/10808,2024-11-29T14:37:26Z,2024-11-29T14:37:47Z,emilio,topic: img,0
@@ -283,7 +283,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2579562484,true,Upcoming WHATNOT meeting on 2024-10-17,https://github.com/whatwg/html/issues/10692,2024-10-10T18:38:33Z,2024-10-18T19:43:58Z,past,agenda+,0
 2579347540,false,“a start tag must never be omitted if it has any attributes”,https://github.com/whatwg/html/issues/10691,2024-10-10T16:41:16Z,2024-12-07T13:40:20Z,j9t,document conformance,0
 2576610039,true,Add EPUB file type support to Web Share API aka navigator.share(),https://github.com/whatwg/html/issues/10690,2024-10-09T18:14:58Z,2024-10-10T01:17:11Z,evangow,,0
-2572934425,false,Prevent currentScript from being overridden on document via name='',https://github.com/whatwg/html/issues/10687,2024-10-08T11:35:22Z,2025-04-10T09:59:10Z,juj,normative change|needs implementer interest|security/privacy|topic: script|security-tracker,1
+2572934425,false,Prevent currentScript from being overridden on document via name='',https://github.com/whatwg/html/issues/10687,2024-10-08T11:35:22Z,2025-04-10T19:11:57Z,juj,normative change|needs implementer interest|security/privacy|topic: script|security-tracker,1
 2570872527,true,Ordered lists case-sensitivity,https://github.com/whatwg/html/issues/10684,2024-10-07T16:04:20Z,2024-10-07T16:35:19Z,courtu,,0
 2569021110,true,window.open() checks for invalid URL after creating a new traversable,https://github.com/whatwg/html/issues/10681,2024-10-07T00:30:16Z,2024-11-15T02:16:07Z,shannonbooth,topic: navigation,0
 2568834361,false,Word processor new HTML control proposal,https://github.com/whatwg/html/issues/10680,2024-10-06T19:01:55Z,2024-10-07T06:57:58Z,volkansari,addition/proposal|needs implementer interest|needs incubation,1
@@ -1007,7 +1007,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1658447667,false,Navigation sourceDocument for browser-initiated navigations,https://github.com/whatwg/html/issues/9133,2023-04-07T06:56:05Z,2024-10-23T12:47:50Z,domenic,topic: navigation,0
 1658170692,true,Upcoming HTML standard issue triage meeting on 4/20/2023,https://github.com/whatwg/html/issues/9132,2023-04-06T23:39:43Z,2023-04-20T23:23:15Z,past,agenda+,0
 1656257748,true,Setting input type=date value attribute doesn't pre-populate the input if there's a time,https://github.com/whatwg/html/issues/9128,2023-04-05T20:37:06Z,2023-05-05T08:24:53Z,jfbrennan,,0
-1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2024-09-21T10:37:02Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,26
+1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2024-09-21T10:37:02Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,27
 1655605700,true,"Popover: The ""map"" in the topmost popover ancestor algorithm does not mean the map element.",https://github.com/whatwg/html/issues/9125,2023-04-05T13:17:24Z,2023-04-24T14:44:55Z,cathiechen,clarification|topic: popover,0
 1654846210,false,anonymous fieldset content box's block-size:100% leads to unintuitive behavior,https://github.com/whatwg/html/issues/9123,2023-04-05T02:50:15Z,2023-05-19T12:25:27Z,davidsgrogan,topic: rendering|interop|topic: fieldset,0
 1654771406,false,"""Loading a document for inline content that doesn't have a DOM"" uses non-existing response",https://github.com/whatwg/html/issues/9122,2023-04-05T01:03:20Z,2023-04-28T08:01:57Z,kalenikaliaksandr,topic: navigation,1
@@ -1324,7 +1324,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1366997910,false,Ordering for Worker termination and Atomics.waitAsync promises,https://github.com/whatwg/html/issues/8276,2022-09-08T21:16:55Z,2022-09-10T22:08:33Z,syg,,0
 1366393164,false,"Why is rel=""canonical"" forbidden on a?",https://github.com/whatwg/html/issues/8274,2022-09-08T13:58:09Z,2022-09-08T13:59:41Z,brennanyoung,,1
 1366002306,false,Iframe session history for JS-created iframes,https://github.com/whatwg/html/issues/8273,2022-09-08T10:30:09Z,2022-09-10T01:47:12Z,jakearchibald,topic: navigation|topic: history,0
-1365958997,false,Broken references in HTML Standard,https://github.com/whatwg/html/issues/8272,2022-09-08T10:06:57Z,2022-09-08T10:06:57Z,dontcallmedom-bot,,0
+1365958997,false,Broken references in HTML Standard,https://github.com/whatwg/html/issues/8272,2022-09-08T10:06:57Z,2025-04-10T18:12:25Z,dontcallmedom-bot,,0
 1364807017,false,Default UA stylesheet for <select> as a listbox + optgroup + option,https://github.com/whatwg/html/issues/8270,2022-09-07T15:02:26Z,2023-07-27T13:30:00Z,zcorpan,topic: rendering|topic: forms,0
 1362261219,true,Correct the type of `opener` in Window object idl block description,https://github.com/whatwg/html/issues/8263,2022-09-05T16:28:25Z,2022-10-24T13:43:29Z,gihyeonsung,,0
 1361856367,true,Confusing xref for HostResolveImportedModule,https://github.com/whatwg/html/issues/8262,2022-09-05T12:19:48Z,2022-09-28T05:46:53Z,Ms2ger,good first issue|topic: script,1
@@ -1598,7 +1598,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1121252070,true,Remove concept of expressly inert?,https://github.com/whatwg/html/issues/7564,2022-02-01T22:10:09Z,2022-02-07T01:19:46Z,Loirooriol,topic: focus,0
 1120480673,false,Clarify the semantic scope of the menu element,https://github.com/whatwg/html/issues/7562,2022-02-01T10:23:18Z,2022-02-16T11:24:18Z,kantoche,accessibility,0
 1119962138,false,"Suggestion - Allow ""<slot>"" to provide options for select or datalist",https://github.com/whatwg/html/issues/7560,2022-01-31T21:40:11Z,2022-02-15T11:13:30Z,jogibear9988,addition/proposal|needs implementer interest|topic: shadow,0
-1116552451,false,Allow authors to apply new css features (like cascade layers) while linking stylesheets,https://github.com/whatwg/html/issues/7540,2022-01-27T17:28:58Z,2025-04-06T14:51:23Z,mirisuzanne,addition/proposal|needs implementer interest|topic: style,33
+1116552451,false,Allow authors to apply new css features (like cascade layers) while linking stylesheets,https://github.com/whatwg/html/issues/7540,2022-01-27T17:28:58Z,2025-04-10T19:05:08Z,mirisuzanne,addition/proposal|needs implementer interest|topic: style,33
 1115846973,false,Can I set image as image data instead of base64??,https://github.com/whatwg/html/issues/7538,2022-01-27T07:04:18Z,2022-02-10T08:19:30Z,slugger941,,0
 1114394627,false,Explicit display:none should prevent element from being used as relevant canvas fallback content,https://github.com/whatwg/html/issues/7534,2022-01-25T21:46:53Z,2022-02-16T14:20:15Z,Loirooriol,topic: canvas|accessibility|topic: focus|a11y-tracker,0
 1114233124,false,URL-bar triggered prerendering,https://github.com/whatwg/html/issues/7533,2022-01-25T18:35:01Z,2022-02-03T21:27:07Z,domenic,addition/proposal|topic: navigation|topic: frames/navigables/browsing contexts,2

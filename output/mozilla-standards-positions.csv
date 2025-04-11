@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 2955999520,true,[WebRTC] Align browsers on RTP stats lifetimes,https://github.com/mozilla/standards-positions/issues/1202,2025-03-28T12:19:26Z,2025-04-01T03:12:30Z,henbos,venue: W3C|position: positive|topic: API,0
 2946050462,false,Column wrapping (multicol),https://github.com/mozilla/standards-positions/issues/1201,2025-03-25T10:28:55Z,2025-03-25T12:24:07Z,mstensho,venue: W3C|topic: CSS,0
-2939332225,false,Strict Same-Origin Policy for Storage Access API,https://github.com/mozilla/standards-positions/issues/1200,2025-03-21T19:33:53Z,2025-03-25T12:25:52Z,cfredric,topic: API,0
+2939332225,true,Strict Same-Origin Policy for Storage Access API,https://github.com/mozilla/standards-positions/issues/1200,2025-03-21T19:33:53Z,2025-04-10T14:13:29Z,cfredric,topic: API,0
 2939246079,true,Remove auto-detection of ISO-2022-JP charset in HTML,https://github.com/mozilla/standards-positions/issues/1199,2025-03-21T18:52:15Z,2025-03-29T05:13:30Z,shhnjk,venue: WHATWG|position: positive,0
 2936400594,false,Generate CSS view-transition-name from element (CSS View Transitions 2),https://github.com/mozilla/standards-positions/issues/1198,2025-03-20T19:02:24Z,2025-03-31T19:05:50Z,vmpstr,venue: W3C|topic: CSS,0
 2935243724,false,CSS Shapes: vertex rounding for polygon(),https://github.com/mozilla/standards-positions/issues/1197,2025-03-20T12:06:39Z,2025-03-31T17:48:19Z,jsnkuhn,venue: W3C|topic: CSS,1
@@ -37,7 +37,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2775290348,false,getContextAttributes for OffscreenCanvasRenderingContext2D,https://github.com/mozilla/standards-positions/issues/1159,2025-01-08T12:35:52Z,2025-01-08T12:35:52Z,ccameron-chromium,,0
 2773845134,false,CSS Gap Decorations,https://github.com/mozilla/standards-positions/issues/1158,2025-01-07T22:10:31Z,2025-01-13T18:43:41Z,kbabbitt,venue: W3C|topic: CSS|team: Layout,5
 2773665829,true," On-device Web Speech API",https://github.com/mozilla/standards-positions/issues/1157,2025-01-07T20:21:08Z,2025-01-10T13:23:00Z,evanbliu,position: positive|topic: API,5
-2772676053,false,Container Timing API,https://github.com/mozilla/standards-positions/issues/1155,2025-01-07T12:03:31Z,2025-01-07T19:50:15Z,keithamus,,0
+2772676053,false,Container Timing API,https://github.com/mozilla/standards-positions/issues/1155,2025-01-07T12:03:31Z,2025-04-10T17:23:50Z,keithamus,team: Performance,0
 2771041887,true,Navigation API: `sourceElement`,https://github.com/mozilla/standards-positions/issues/1154,2025-01-06T16:47:18Z,2025-02-13T10:42:55Z,noamr,position: positive|topic: API,0
 2770979772,false,CSS `shape()` function,https://github.com/mozilla/standards-positions/issues/1153,2025-01-06T16:12:14Z,2025-01-06T16:12:18Z,noamr,,1
 2750974485,false,Enforcing no-opener for cross-top-level-site blob URL top-level navigations,https://github.com/mozilla/standards-positions/issues/1151,2024-12-19T17:10:07Z,2024-12-19T17:10:07Z,recvfrom,,0
@@ -163,7 +163,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2172411528,true,MediaRecorder: Support mp4 container with avc1 and mp4a.40.2 codecs for MediaRecorder,https://github.com/mozilla/standards-positions/issues/996,2024-03-06T20:56:16Z,2024-03-11T15:54:47Z,sunggook,position: positive,0
 2170237344,true,[css-color-adjust-1] Root non-overlay scrollbars used color scheme,https://github.com/mozilla/standards-positions/issues/995,2024-03-05T22:19:29Z,2024-03-12T12:21:09Z,yshalivskyy,position: positive,0
 2163018901,true,CSS margin-trim property,https://github.com/mozilla/standards-positions/issues/994,2024-03-01T09:49:37Z,2024-04-08T19:17:03Z,nileshprajapati,position: positive,2
-2154814024,true,CSS `text-wrap-style: pretty`,https://github.com/mozilla/standards-positions/issues/993,2024-02-26T18:16:54Z,2024-12-17T13:46:27Z,kojiishi,venue: W3C|position: positive|concerns: compatibility|concerns: complexity|topic: CSS,5
+2154814024,true,CSS `text-wrap-style: pretty`,https://github.com/mozilla/standards-positions/issues/993,2024-02-26T18:16:54Z,2024-12-17T13:46:27Z,kojiishi,venue: W3C|position: positive|concerns: compatibility|concerns: complexity|topic: CSS,6
 2154810442,true,Web Install API (Cross-Origin),https://github.com/mozilla/standards-positions/issues/992,2024-02-26T18:15:20Z,2025-02-17T11:06:32Z,diekus,,0
 2154781093,true,Web Install API (Same-origin),https://github.com/mozilla/standards-positions/issues/991,2024-02-26T17:58:33Z,2025-02-17T11:06:56Z,diekus,,1
 2153747569,false,[html] <input type=checkbox switch>,https://github.com/mozilla/standards-positions/issues/990,2024-02-26T10:00:30Z,2024-04-08T17:42:08Z,emilio,,4
@@ -268,7 +268,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1815667864,true,Web Environment Integrity API,https://github.com/mozilla/standards-positions/issues/852,2023-07-21T11:45:54Z,2024-10-18T12:53:11Z,gacelperfinian,position: negative,91
 1813637553,false,Media Queries Level 5: prefers-reduced-transparency,https://github.com/mozilla/standards-positions/issues/851,2023-07-20T10:13:31Z,2023-08-16T19:48:34Z,lukewarlow,,0
 1811570156,false,Captured Mouse Events,https://github.com/mozilla/standards-positions/issues/850,2023-07-19T09:37:35Z,2023-07-19T09:37:35Z,eladalon1983,,0
-1809167033,true,css-ui `field-sizing` property,https://github.com/mozilla/standards-positions/issues/849,2023-07-18T05:53:22Z,2024-09-09T19:25:50Z,tkent-google,position: positive,23
+1809167033,true,css-ui `field-sizing` property,https://github.com/mozilla/standards-positions/issues/849,2023-07-18T05:53:22Z,2024-09-09T19:25:50Z,tkent-google,position: positive,24
 1808337238,false,Clear Client Hints via Clear-Site-Data header,https://github.com/mozilla/standards-positions/issues/848,2023-07-17T18:23:52Z,2023-07-17T18:37:30Z,arichiv,,0
 1803472312,true,Web Serial with add-on gating,https://github.com/mozilla/standards-positions/issues/847,2023-07-13T17:30:54Z,2024-10-21T13:17:20Z,Merlin04,duplicate,0
 1799807367,true,"ManagedMediaSource API ",https://github.com/mozilla/standards-positions/issues/845,2023-07-11T21:52:27Z,2024-09-13T15:11:12Z,marcoscaceres,position: positive,0
