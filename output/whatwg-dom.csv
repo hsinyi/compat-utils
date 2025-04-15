@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+2994131924,false,Proposal: Bulk mutation methods for working with ranges of nodes,https://github.com/whatwg/dom/issues/1369,2025-04-14T20:27:15Z,2025-04-14T20:27:15Z,justinfagnani,needs implementer interest|addition/proposal,0
 2984071873,false,Proposal: Enable Custom Form Controls to (Optionally) Conceal Internal/Irrelevant Events,https://github.com/whatwg/dom/issues/1368,2025-04-09T23:03:38Z,2025-04-10T11:21:33Z,ITenthusiasm,topic: custom elements|needs implementer interest|topic: events|addition/proposal,0
 2979299316,false,Blame stopped working,https://github.com/whatwg/dom/issues/1367,2025-04-08T10:13:38Z,2025-04-08T10:13:46Z,annevk,meta,0
 2977136876,false,"Cloning of a document does not copy ""allow declarative shadow roots""",https://github.com/whatwg/dom/issues/1366,2025-04-07T14:51:45Z,2025-04-07T15:44:30Z,annevk,topic: shadow|needs tests|topic: nodes,0
@@ -15,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2764275795,false,[EventTarget] Abort controller from a past subscription can remove events from future subscriptions,https://github.com/whatwg/dom/issues/1346,2024-12-31T11:31:13Z,2025-01-06T13:03:28Z,rubennorte,needs tests|interop|topic: events,0
 2753701330,true,Event::dispatch uses possibly uninitialized `clearTargets`,https://github.com/whatwg/dom/issues/1344,2024-12-21T02:03:27Z,2025-01-15T08:48:34Z,simonwuelker,,0
 2753441117,true,Event::ComposedPath doesn't handle `this.currentTarget == null`,https://github.com/whatwg/dom/issues/1343,2024-12-20T20:27:05Z,2025-02-12T07:36:57Z,simonwuelker,topic: events,0
-2742316968,false,Revamped Scoped Custom Element Registries (DOM side),https://github.com/whatwg/dom/issues/1339,2024-12-16T12:52:54Z,2025-04-14T08:20:34Z,annevk,topic: shadow|topic: custom elements|needs implementer interest|addition/proposal|topic: nodes,0
+2742316968,true,Revamped Scoped Custom Element Registries (DOM side),https://github.com/whatwg/dom/issues/1339,2024-12-16T12:52:54Z,2025-04-14T15:51:00Z,annevk,topic: shadow|topic: custom elements|needs implementer interest|addition/proposal|topic: nodes,0
 2742257680,false,Clarify create an element assertion,https://github.com/whatwg/dom/issues/1338,2024-12-16T12:28:02Z,2024-12-19T04:06:22Z,annevk,clarification|topic: nodes,0
 2737782095,true,moveBefore() cosmetic concerns,https://github.com/whatwg/dom/issues/1335,2024-12-13T08:27:14Z,2025-03-07T14:20:55Z,annevk,topic: nodes,0
 2742770058,false,Allow `MutationObserver` to observe (certain) element property changes,https://github.com/whatwg/dom/issues/1340,2024-11-26T14:04:30Z,2024-12-16T15:58:31Z,bramus,needs implementer interest|addition/proposal,1
@@ -291,7 +292,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 423017912,true,Wrong return type of Node::getRootNode(),https://github.com/whatwg/dom/issues/739,2019-03-20T00:53:42Z,2019-03-20T07:57:20Z,SetTrend,,1
 422508516,true,Reference to struct in inner invoke,https://github.com/whatwg/dom/issues/738,2019-03-19T01:57:21Z,2020-06-29T08:27:07Z,Zirro,,0
 418687232,false,isEqualNode and <template>,https://github.com/whatwg/dom/issues/737,2019-03-08T08:39:44Z,2019-04-05T12:53:37Z,jakearchibald,,1
-418208052,false,Proposal: a DocumentFragment whose nodes do not get removed once inserted,https://github.com/whatwg/dom/issues/736,2019-03-06T19:28:54Z,2025-04-05T17:42:52Z,WebReflection,needs implementer interest|addition/proposal,83
+418208052,false,Proposal: a DocumentFragment whose nodes do not get removed once inserted,https://github.com/whatwg/dom/issues/736,2019-03-06T19:28:54Z,2025-04-14T20:32:25Z,WebReflection,needs implementer interest|addition/proposal,84
 413102117,true,window.event and IFRAMEs,https://github.com/whatwg/dom/issues/735,2019-02-21T20:08:55Z,2020-12-08T19:09:14Z,cvazac,topic: events,0
 411169284,true,Dispatching slotchange within a compound microtask,https://github.com/whatwg/dom/issues/734,2019-02-17T09:52:36Z,2019-03-29T15:11:22Z,annevk,topic: shadow,0
 407741641,true,Should adopting change an element's prototype?,https://github.com/whatwg/dom/issues/731,2019-02-07T15:00:08Z,2019-02-07T15:25:33Z,jakearchibald,,0
@@ -556,7 +557,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 163808031,true,Upstream retargeting algorithm,https://github.com/whatwg/dom/issues/276,2016-07-05T09:28:53Z,2016-07-22T07:39:19Z,annevk,topic: shadow,0
 161349408,true,Note that about:blank also results in quirks mode,https://github.com/whatwg/dom/issues/272,2016-06-21T04:55:48Z,2016-07-05T09:22:21Z,annevk,,0
 161216942,true,selectionchange possible improvements,https://github.com/whatwg/dom/issues/271,2016-06-20T15:02:20Z,2016-06-20T18:14:22Z,caub,,0
-161112784,false,Proposal: DOMChangeList,https://github.com/whatwg/dom/issues/270,2016-06-20T03:54:43Z,2025-02-03T13:04:58Z,wycats,,104
+161112784,false,Proposal: DOMChangeList,https://github.com/whatwg/dom/issues/270,2016-06-20T03:54:43Z,2025-02-03T13:04:58Z,wycats,,105
 159624707,true,Point out that initial about:blank also results in quirks mode,https://github.com/whatwg/dom/issues/268,2016-06-10T12:30:10Z,2016-07-05T09:22:49Z,annevk,good first issue,0
 158750924,true,What happens if a 'once' eventListener dispatches a similar event?,https://github.com/whatwg/dom/issues/265,2016-06-06T19:06:49Z,2016-06-07T16:51:53Z,cdumez,,0
 158732710,true,.createElement's namespace handling doesn't seem to match what UAs do,https://github.com/whatwg/dom/issues/264,2016-06-06T17:36:17Z,2016-06-08T13:21:50Z,smaug----,,0
