@@ -1,5 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2996858544,false,Window.customElements might be null,https://github.com/whatwg/html/issues/11220,2025-04-15T15:37:48Z,2025-04-15T20:58:15Z,AtkinsSJ,,0
+2999257797,false,"""look up a custom element registry"" can be called with a DocumentFragment node",https://github.com/whatwg/html/issues/11227,2025-04-16T10:51:01Z,2025-04-16T11:54:50Z,AtkinsSJ,topic: parser|topic: custom elements,0
+2998953581,false,"""Upgrade element"" step removes from wrong custom element constructor map",https://github.com/whatwg/html/issues/11223,2025-04-16T08:55:48Z,2025-04-16T09:20:59Z,AtkinsSJ,,0
+2998883620,false,"""upgrade particular elements within a document"" uses undefined ""definition""",https://github.com/whatwg/html/issues/11222,2025-04-16T08:29:06Z,2025-04-16T09:28:24Z,AtkinsSJ,,0
+2996858544,true,Window.customElements might be null,https://github.com/whatwg/html/issues/11220,2025-04-15T15:37:48Z,2025-04-16T09:10:46Z,AtkinsSJ,,0
 2996722554,false,"Undefined ""registry"" in parser ""handle in head"" state",https://github.com/whatwg/html/issues/11219,2025-04-15T14:50:59Z,2025-04-15T20:54:49Z,AtkinsSJ,topic: shadow|topic: parser|topic: custom elements,0
 2994821488,true,Circular definition in min-content size,https://github.com/whatwg/html/issues/11218,2025-04-15T02:25:47Z,2025-04-15T02:57:23Z,andrewbaxter,,0
 2994701264,true,Web IDL syntax error,https://github.com/whatwg/html/issues/11216,2025-04-15T01:17:09Z,2025-04-15T01:59:27Z,autokagami,,0
@@ -24,7 +27,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2959483677,false,Popover and dialog elements with lots of content can be inaccessible,https://github.com/whatwg/html/issues/11176,2025-03-31T05:06:12Z,2025-04-08T11:48:30Z,teddybradford,topic: rendering|accessibility|a11y-tracker,1
 2959447918,false,"[Meta] Fast Transfers between Video/Canvas2D/WebGL/WebGPU [e.g. video streaming, compositing, etc]",https://github.com/whatwg/html/issues/11175,2025-03-31T04:35:47Z,2025-04-05T22:25:40Z,mdrejhon,addition/proposal|needs implementer interest,0
 2958782937,false,HTMLFormElement's named properties seem buggy in browsers,https://github.com/whatwg/html/issues/11174,2025-03-30T10:09:10Z,2025-03-31T10:00:45Z,domenic,needs tests,0
-2958712818,false,Undefined Behavior for Non-Text Node Deletion in contenteditable=plaintext-only,https://github.com/whatwg/html/issues/11173,2025-03-30T07:18:14Z,2025-04-08T05:46:34Z,Zhang-Junzhi,integration,0
+2958712818,false,Undefined Behavior for Non-Text Node Deletion in contenteditable=plaintext-only,https://github.com/whatwg/html/issues/11173,2025-03-30T07:18:14Z,2025-04-16T12:07:55Z,Zhang-Junzhi,integration,0
 2956561986,true,Navigation API: scroll restoration behavior seems buggy,https://github.com/whatwg/html/issues/11172,2025-03-28T16:02:21Z,2025-03-28T16:02:57Z,atscott,,0
 2954592370,true,"I have created a page for the Chinese version of the page. If you think it's good, please add and modify the file related addresses in the directory",https://github.com/whatwg/html/issues/11171,2025-03-27T22:48:44Z,2025-04-07T11:45:14Z,hestiacn,addition/proposal|needs implementer interest|invalid,0
 2954069598,true,Upcoming WHATNOT meeting on 2025-04-03,https://github.com/whatwg/html/issues/11170,2025-03-27T18:28:33Z,2025-04-03T18:24:44Z,past,agenda+,0
@@ -1459,7 +1462,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1245490159,false,Consider being strict about range mismatch for media,https://github.com/whatwg/html/issues/7950,2022-05-23T17:27:12Z,2022-05-24T07:26:22Z,noamr,topic: media|interop,1
 1245461464,true,Typo in section 2.1.4 DOM trees,https://github.com/whatwg/html/issues/7949,2022-05-23T16:58:18Z,2022-05-26T15:27:55Z,AegisFair,good first issue,1
 1244030392,false,Add color-interpolation-method support for canvas gradients,https://github.com/whatwg/html/issues/7947,2022-05-21T16:39:32Z,2025-02-01T18:17:44Z,weinig,addition/proposal|topic: canvas,6
-1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2025-04-09T08:35:42Z,BenjaminAster,addition/proposal|needs implementer interest,59
+1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2025-04-09T08:35:42Z,BenjaminAster,addition/proposal|needs implementer interest,60
 1242018223,false,(Background) Tab Suspending,https://github.com/whatwg/html/issues/7942,2022-05-19T16:18:36Z,2022-05-19T16:18:36Z,johannhof,,0
 1242006437,false,Throttling and clamping of setTimeout and setInterval,https://github.com/whatwg/html/issues/7941,2022-05-19T16:08:39Z,2022-05-20T08:26:05Z,johannhof,topic: event loop|topic: timing,0
 1241898306,false,Make `<embed>` and `<object>` behave like `<iframe>` for image loading,https://github.com/whatwg/html/issues/7939,2022-05-19T14:43:19Z,2022-06-27T20:59:41Z,farre,normative change|topic: navigation|topic: embed and object,0
@@ -3768,7 +3771,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 253846328,true,Can we expose HTMLMediaElement or equivalent object in DedicatedWorkerGlobalScope and SharedWorkerGlobalScope ?,https://github.com/whatwg/html/issues/2979,2017-08-30T00:51:02Z,2017-08-30T13:59:17Z,guest271314,topic: media,0
 253763249,true,"Path2D interface has two'Exposed extended attributes, each with different values.",https://github.com/whatwg/html/issues/2978,2017-08-29T18:40:14Z,2017-08-30T12:19:17Z,samweinig,good first issue|topic: canvas,0
 253636240,true,Link to <flag-icon> is broken.,https://github.com/whatwg/html/issues/2977,2017-08-29T12:18:19Z,2017-08-30T04:57:20Z,a1626,good first issue|topic: custom elements,0
-253541995,false,Add height-based selection to srcset/sizes,https://github.com/whatwg/html/issues/2973,2017-08-29T06:28:09Z,2022-02-05T20:26:39Z,zcorpan,addition/proposal|needs implementer interest|topic: img,26
+253541995,false,Add height-based selection to srcset/sizes,https://github.com/whatwg/html/issues/2973,2017-08-29T06:28:09Z,2022-02-05T20:26:39Z,zcorpan,addition/proposal|needs implementer interest|topic: img,27
 253031635,true,Html5,https://github.com/whatwg/html/issues/2966,2017-08-25T22:22:58Z,2017-08-25T22:38:33Z,antonychrist,,0
 252764066,true,How to name videos in <source>? (missing spec),https://github.com/whatwg/html/issues/2964,2017-08-25T00:04:43Z,2017-08-25T00:11:02Z,binarykitchen,topic: media,0
 252164620,false,beforeunload for post-pushState/replaceState navigations,https://github.com/whatwg/html/issues/2961,2017-08-23T05:37:06Z,2021-02-02T20:25:03Z,phistuck,addition/proposal|needs implementer interest|topic: history,0
@@ -4361,7 +4364,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 181963941,true,Allow p elements to be present in a hgroup,https://github.com/whatwg/html/issues/1877,2016-10-10T08:51:25Z,2016-10-11T16:03:05Z,mildred,document conformance,1
 181715068,false,Chrome/Edge clears pending error event if img.src changed before it fired,https://github.com/whatwg/html/issues/1872,2016-10-07T16:37:33Z,2016-10-11T15:06:20Z,EdgarChen,topic: img,0
 181241244,false,Single source theme-color values,https://github.com/whatwg/html/issues/1868,2016-10-05T19:15:46Z,2016-10-06T10:22:00Z,kevinSuttle,addition/proposal,0
-181168654,false,"Does the ""script-closable"" definition match reality?",https://github.com/whatwg/html/issues/1866,2016-10-05T14:19:38Z,2025-04-09T09:12:45Z,bzbarsky,compat|topic: frames/navigables/browsing contexts,0
+181168654,false,"Does the ""script-closable"" definition match reality?",https://github.com/whatwg/html/issues/1866,2016-10-05T14:19:38Z,2025-04-16T10:03:34Z,bzbarsky,compat|topic: frames/navigables/browsing contexts,0
 181138484,true,Meta: commit snapshots server config,https://github.com/whatwg/html/issues/1865,2016-10-05T12:24:45Z,2016-10-06T08:15:28Z,annevk,,0
 181118560,true,Should Symbols be supported in StructuredClone?,https://github.com/whatwg/html/issues/1862,2016-10-05T10:35:13Z,2019-01-02T18:51:10Z,KiChjang,addition/proposal|topic: serialize and transfer,1
 181090554,false,Define order of the items in DataTranfer's types attribute,https://github.com/whatwg/html/issues/1861,2016-10-05T08:15:52Z,2018-01-22T12:32:28Z,zcorpan,topic: drag and drop,0
