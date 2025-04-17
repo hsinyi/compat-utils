@@ -1,13 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-2999457641,false,Look up a custom element registry can be given a DocumentFragment,https://github.com/whatwg/html/pull/11228,2025-04-16T12:13:57Z,2025-04-16T12:15:30Z,annevk,,0
-2999038171,false,Fix upgrade particular elements within a document,https://github.com/whatwg/html/pull/11226,2025-04-16T09:28:01Z,2025-04-16T09:29:32Z,annevk,,0
-2999018881,false,Correct upgrade an element after Scoped Custom Element Registries,https://github.com/whatwg/html/pull/11225,2025-04-16T09:20:42Z,2025-04-16T09:22:13Z,annevk,,0
-2998959054,false,Initialize registry correctly for declarative shadow roots,https://github.com/whatwg/html/pull/11224,2025-04-16T08:57:57Z,2025-04-16T08:59:30Z,annevk,,0
+2999457641,false,Look up a custom element registry can be given a DocumentFragment,https://github.com/whatwg/html/pull/11228,2025-04-16T12:13:57Z,2025-04-17T10:59:06Z,annevk,,0
+2999038171,true,Fix upgrade particular elements within a document,https://github.com/whatwg/html/pull/11226,2025-04-16T09:28:01Z,2025-04-17T07:24:52Z,annevk,topic: custom elements,0
+2999018881,true,Correct upgrade an element after Scoped Custom Element Registries,https://github.com/whatwg/html/pull/11225,2025-04-16T09:20:42Z,2025-04-17T07:24:20Z,annevk,topic: custom elements,0
+2998959054,false,Initialize registry correctly for declarative shadow roots,https://github.com/whatwg/html/pull/11224,2025-04-16T08:57:57Z,2025-04-17T00:55:34Z,annevk,topic: shadow|topic: parser|topic: custom elements,0
 2998776426,true,Clarify that window.customElements always returns an object,https://github.com/whatwg/html/pull/11221,2025-04-16T07:46:05Z,2025-04-16T09:10:47Z,annevk,clarification|topic: custom elements,0
 2994774914,true,fix webidl syntax error in CustomElementRegistry.initialize paramters,https://github.com/whatwg/html/pull/11217,2025-04-15T01:56:44Z,2025-04-15T01:59:26Z,nektro,,0
 2992040563,true,Fix wrong navigable reference in scrollRestoration getter/setter,https://github.com/whatwg/html/pull/11214,2025-04-14T06:37:15Z,2025-04-15T01:35:36Z,domenic,topic: history,0
 2989789715,false,Add Support for local <style> tag internal references for <link> tags,https://github.com/whatwg/html/pull/11212,2025-04-11T21:44:05Z,2025-04-11T21:45:43Z,KurtCattiSchmidt,,0
-2985216225,false,"For #script-closable, clarify when a browsing context is created by script",https://github.com/whatwg/html/pull/11208,2025-04-10T10:31:17Z,2025-04-16T14:23:47Z,vinhill,,0
+2985216225,false,"For #script-closable, clarify when a browsing context is created by script",https://github.com/whatwg/html/pull/11208,2025-04-10T10:31:17Z,2025-04-17T10:51:04Z,vinhill,,0
 2985067478,true,Editorial: Revert accidental deletion of defaultColorSpace usage,https://github.com/whatwg/html/pull/11207,2025-04-10T09:34:16Z,2025-04-10T09:41:58Z,ccameron-chromium,,0
 2984265978,true,Fix document access in shared history push/replace steps,https://github.com/whatwg/html/pull/11204,2025-04-10T02:10:12Z,2025-04-10T08:42:48Z,domenic,topic: history,0
 2984252206,true,"Fix ""fully active"" usage in inner navigate event firing",https://github.com/whatwg/html/pull/11203,2025-04-10T01:56:56Z,2025-04-10T08:42:59Z,domenic,topic: history,0
@@ -112,7 +112,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2816741425,true,Quirk: bare <li> have list-style-position: inside,https://github.com/whatwg/html/pull/10959,2025-01-28T21:22:42Z,2025-03-25T10:11:52Z,zcorpan,,0
 2816164539,false,Fire a load event for javascript: URL non-strings,https://github.com/whatwg/html/pull/10957,2025-01-28T16:24:36Z,2025-02-21T15:15:33Z,zcorpan,topic: navigation|topic: frames/navigables/browsing contexts|topic: javascript: URLs,0
 2814371404,false,Connect HTML spec up to new CSS `interactivity` property,https://github.com/whatwg/html/pull/10956,2025-01-28T00:50:42Z,2025-04-05T10:33:07Z,mfreed7,do not merge yet|topic: style|integration|topic: dialog,0
-2813958440,false,Update dialog to minimally handle open attribute mutations,https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-04-16T15:15:24Z,lukewarlow,topic: dialog,0
+2813958440,false,Fix dialog closedby and requestClose(),https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-04-17T10:54:36Z,lukewarlow,topic: dialog,0
 2812761134,true,"Add CanvasColorType, with unorm8 (the default) and float16 support",https://github.com/whatwg/html/pull/10951,2025-01-27T11:28:40Z,2025-02-10T15:18:50Z,ccameron-chromium,addition/proposal|topic: canvas,0
 2812128271,true,Editorial: fix variable name typo in inner navigate event firing,https://github.com/whatwg/html/pull/10950,2025-01-27T05:41:27Z,2025-01-28T01:15:03Z,domenic,,0
 2812054978,true,Fix CSP navigation request blocking,https://github.com/whatwg/html/pull/10949,2025-01-27T04:27:06Z,2025-02-06T01:22:43Z,domenic,topic: navigation,0
@@ -124,7 +124,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2794978313,true,define getEnabledState for closewatcher constructor,https://github.com/whatwg/html/pull/10926,2025-01-17T09:29:08Z,2025-01-21T08:27:17Z,keithamus,topic: close watchers,0
 2794798550,false,Editorial: change style of preload integrity metadata test,https://github.com/whatwg/html/pull/10924,2025-01-17T07:46:30Z,2025-01-30T06:28:53Z,domenic,,0
 2793824242,true,Editorial: fix grammar in note about error checking serialization,https://github.com/whatwg/html/pull/10922,2025-01-16T21:38:31Z,2025-01-17T01:18:35Z,shannonbooth,,0
-2792585961,false,Navigation API: deferred commit,https://github.com/whatwg/html/pull/10919,2025-01-16T12:21:41Z,2025-04-16T08:45:05Z,noamr,addition/proposal|topic: navigation,0
+2792585961,false,Navigation API: deferred commit,https://github.com/whatwg/html/pull/10919,2025-01-16T12:21:41Z,2025-04-17T08:00:52Z,noamr,addition/proposal|topic: navigation,0
 2790720327,true,Add logic to update radio button group checkedness when an input radio becomes connected,https://github.com/whatwg/html/pull/10917,2025-01-15T19:56:00Z,2025-01-30T02:22:42Z,EdgarChen,,0
 2788915194,true,Fix url and src in NotRestoredReasons,https://github.com/whatwg/html/pull/10916,2025-01-15T06:02:54Z,2025-01-21T02:09:02Z,domenic,,0
 2787952111,false,Allowing SameSite=None Cookies in First-Party Sandboxed Contexts,https://github.com/whatwg/html/pull/10915,2025-01-14T18:04:19Z,2025-02-11T14:54:49Z,aamuley,topic: cookie,0
