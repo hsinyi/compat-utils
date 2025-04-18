@@ -16,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2977580594,true,Editorial: Fix more typos,https://github.com/whatwg/html/pull/11196,2025-04-07T17:53:36Z,2025-04-09T03:32:01Z,jmdyck,,0
 2973354937,true,new `model` element for display of inline 3D models,https://github.com/whatwg/html/pull/11191,2025-04-04T20:56:37Z,2025-04-12T03:58:25Z,zachernuk,,0
 2973246569,true,Fix popover initial focus autofocus document targeting,https://github.com/whatwg/html/pull/11190,2025-04-04T19:57:09Z,2025-04-08T04:45:39Z,josepharhar,topic: popover,0
-2967738196,false,Add ToggleEvent.source,https://github.com/whatwg/html/pull/11186,2025-04-02T23:06:22Z,2025-04-04T06:17:49Z,josepharhar,needs implementer interest|needs tests,0
+2967738196,false,Add ToggleEvent.source,https://github.com/whatwg/html/pull/11186,2025-04-02T23:06:22Z,2025-04-17T17:33:27Z,josepharhar,needs implementer interest|needs tests,0
 2967276645,false,Don't run light dismiss on right click,https://github.com/whatwg/html/pull/11185,2025-04-02T18:56:42Z,2025-04-09T03:32:35Z,josepharhar,normative change|topic: dialog|topic: popover,0
 2965105159,true,"Editorial: modernize ""Focus management APIs""",https://github.com/whatwg/html/pull/11183,2025-04-02T03:52:36Z,2025-04-10T02:22:46Z,domenic,topic: focus,0
 2965078672,true,"Remove ""locked for focus""",https://github.com/whatwg/html/pull/11182,2025-04-02T03:27:24Z,2025-04-10T02:19:50Z,domenic,removal/deprecation|topic: focus,0
@@ -124,7 +124,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2794978313,true,define getEnabledState for closewatcher constructor,https://github.com/whatwg/html/pull/10926,2025-01-17T09:29:08Z,2025-01-21T08:27:17Z,keithamus,topic: close watchers,0
 2794798550,false,Editorial: change style of preload integrity metadata test,https://github.com/whatwg/html/pull/10924,2025-01-17T07:46:30Z,2025-01-30T06:28:53Z,domenic,,0
 2793824242,true,Editorial: fix grammar in note about error checking serialization,https://github.com/whatwg/html/pull/10922,2025-01-16T21:38:31Z,2025-01-17T01:18:35Z,shannonbooth,,0
-2792585961,false,Navigation API: deferred commit,https://github.com/whatwg/html/pull/10919,2025-01-16T12:21:41Z,2025-04-17T08:00:52Z,noamr,addition/proposal|topic: navigation,0
+2792585961,false,Navigation API: deferred commit,https://github.com/whatwg/html/pull/10919,2025-01-16T12:21:41Z,2025-04-17T22:59:37Z,noamr,addition/proposal|topic: navigation,0
 2790720327,true,Add logic to update radio button group checkedness when an input radio becomes connected,https://github.com/whatwg/html/pull/10917,2025-01-15T19:56:00Z,2025-01-30T02:22:42Z,EdgarChen,,0
 2788915194,true,Fix url and src in NotRestoredReasons,https://github.com/whatwg/html/pull/10916,2025-01-15T06:02:54Z,2025-01-21T02:09:02Z,domenic,,0
 2787952111,false,Allowing SameSite=None Cookies in First-Party Sandboxed Contexts,https://github.com/whatwg/html/pull/10915,2025-01-14T18:04:19Z,2025-02-11T14:54:49Z,aamuley,topic: cookie,0
@@ -211,7 +211,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2550311707,true,Editorial: use 'global' rather than 'this' in timer initialization steps,https://github.com/whatwg/html/pull/10647,2024-09-26T11:31:50Z,2024-09-26T13:34:01Z,Ms2ger,,0
 2548811700,true,MADE THE REQUIRED CHANGES. UPDATING THE CHANGES TO MAKE IT EASIER TO …,https://github.com/whatwg/html/pull/10645,2024-09-25T19:18:39Z,2024-09-25T20:21:39Z,PartishtaP,invalid,0
 2536908236,true,Editorial: replace uses of the Type macro with is-a tests,https://github.com/whatwg/html/pull/10635,2024-09-19T16:57:45Z,2024-10-28T20:37:39Z,michaelficarra,,0
-2534719588,false,Define the `<selectedcontent>` element,https://github.com/whatwg/html/pull/10633,2024-09-18T20:57:38Z,2025-04-16T23:15:33Z,josepharhar,addition/proposal|do not merge yet|topic: forms|topic: select,1
+2534719588,false,Define the `<selectedcontent>` element,https://github.com/whatwg/html/pull/10633,2024-09-18T20:57:38Z,2025-04-17T21:15:04Z,josepharhar,addition/proposal|do not merge yet|topic: forms|topic: select,1
 2533947494,true,Editorial: clean up small parts of sequential focus navigation,https://github.com/whatwg/html/pull/10632,2024-09-18T14:44:25Z,2024-10-02T03:03:19Z,domfarolino,clarification|topic: focus,0
 2533812083,true,Fix missed COOP renames,https://github.com/whatwg/html/pull/10631,2024-09-18T13:50:44Z,2024-09-18T14:39:24Z,AtkinsSJ,,0
 2530855117,false,Add `for` and `class` aliases for `htmlFor` and `className`,https://github.com/whatwg/html/pull/10630,2024-09-17T11:07:36Z,2024-09-17T17:55:18Z,Psychpsyo,,0
@@ -229,7 +229,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2496330837,true,The p element's end tag may be omitted when followed by dialog,https://github.com/whatwg/html/pull/10591,2024-08-30T06:12:04Z,2024-09-04T10:51:10Z,annevk,,1
 2494796863,true,Editorial: fix a few more typos,https://github.com/whatwg/html/pull/10588,2024-08-29T15:12:11Z,2024-08-29T16:37:47Z,jmdyck,,0
 2493769848,true,Invoke WebDriver BiDi history updated,https://github.com/whatwg/html/pull/10587,2024-08-29T08:21:05Z,2024-10-23T05:08:41Z,OrKoN,topic: navigation|integration,0
-2492871017,false,Update content model for customizable select,https://github.com/whatwg/html/pull/10586,2024-08-28T19:48:45Z,2025-04-16T13:57:52Z,josepharhar,topic: select,0
+2492871017,false,Update content model for customizable select,https://github.com/whatwg/html/pull/10586,2024-08-28T19:48:45Z,2025-04-17T21:44:33Z,josepharhar,topic: select,0
 2489194864,true,Rename cross-origin opener policy concepts,https://github.com/whatwg/html/pull/10579,2024-08-27T12:21:01Z,2024-09-12T17:11:57Z,yoavweiss,clarification|topic: cross-origin-opener-policy,0
 2482765519,true,[editorial] Add a missing to in parallel example,https://github.com/whatwg/html/pull/10575,2024-08-23T09:50:45Z,2024-08-23T15:33:31Z,dontcallmedom,,1
 2478406868,true,Remove mutation events from the spec,https://github.com/whatwg/html/pull/10573,2024-08-21T15:56:33Z,2024-08-26T03:00:23Z,mfreed7,,0
@@ -2996,7 +2996,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 209941739,true,Add note on Shadow DOM behavior about dialog focusing steps.,https://github.com/whatwg/html/pull/2394,2017-02-24T02:19:19Z,2018-06-25T09:55:31Z,TakayoshiKochi,,0
 209766317,true,Correct typo and link in select element,https://github.com/whatwg/html/pull/2389,2017-02-23T13:51:04Z,2017-02-23T16:42:58Z,dakshshah96,,0
 209731209,true,Editorial: fix comment in code example for input.labels,https://github.com/whatwg/html/pull/2387,2017-02-23T11:09:20Z,2017-02-23T11:32:43Z,zcorpan,,0
-209628744,true,Remove appcache from shared workers,https://github.com/whatwg/html/pull/2384,2017-02-23T00:47:41Z,2025-04-07T21:45:50Z,domenic,removal/deprecation|topic: appcache,4
+209628744,true,Remove appcache from shared workers,https://github.com/whatwg/html/pull/2384,2017-02-23T00:47:41Z,2025-04-17T16:36:09Z,domenic,removal/deprecation|topic: appcache,4
 209594447,true,"Add <link> rel=""modulepreload""",https://github.com/whatwg/html/pull/2383,2017-02-22T21:58:44Z,2021-06-15T15:59:56Z,domenic,addition/proposal|topic: script|topic: link,2
 209274274,true,Tweak [CEReactions] definition and usage,https://github.com/whatwg/html/pull/2378,2017-02-21T21:13:25Z,2017-02-22T22:59:55Z,domenic,topic: custom elements,0
 209191487,true,Regression: ASCII lower alpha -> ASCII upper alpha in the parser,https://github.com/whatwg/html/pull/2376,2017-02-21T16:07:23Z,2017-02-21T16:11:42Z,annevk,topic: parser,0
