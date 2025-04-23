@@ -1,11 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3012289585,false,Set invoker for popover command attributes,https://github.com/whatwg/html/pull/11248,2025-04-22T22:50:16Z,2025-04-22T22:51:47Z,josepharhar,,0
+3011040184,false,Provide a fallback for validation anchor,https://github.com/whatwg/html/pull/11247,2025-04-22T13:06:50Z,2025-04-22T13:13:23Z,annevk,,0
 3010027920,false,Treat null fragment the same as an empty string in location hash setter,https://github.com/whatwg/html/pull/11245,2025-04-22T06:35:51Z,2025-04-22T09:29:12Z,shannonbooth,topic: navigation|interop,0
 3008267583,false,Deal with content-visibility during the layout loop.,https://github.com/whatwg/html/pull/11241,2025-04-21T12:00:35Z,2025-04-21T12:04:04Z,emilio,,0
 3003804022,false,Clarify the createImageBitmap orientation metadata handling,https://github.com/whatwg/html/pull/11234,2025-04-18T02:37:47Z,2025-04-22T12:07:44Z,Hajime-san,,0
-2999457641,false,Look up a custom element registry can be given a DocumentFragment,https://github.com/whatwg/html/pull/11228,2025-04-16T12:13:57Z,2025-04-17T10:59:06Z,annevk,,0
+2999457641,true,Look up a custom element registry can be given a DocumentFragment,https://github.com/whatwg/html/pull/11228,2025-04-16T12:13:57Z,2025-04-22T14:00:24Z,annevk,,0
 2999038171,true,Fix upgrade particular elements within a document,https://github.com/whatwg/html/pull/11226,2025-04-16T09:28:01Z,2025-04-17T07:24:52Z,annevk,topic: custom elements,0
 2999018881,true,Correct upgrade an element after Scoped Custom Element Registries,https://github.com/whatwg/html/pull/11225,2025-04-16T09:20:42Z,2025-04-17T07:24:20Z,annevk,topic: custom elements,0
-2998959054,false,Initialize registry correctly for declarative shadow roots,https://github.com/whatwg/html/pull/11224,2025-04-16T08:57:57Z,2025-04-17T00:55:34Z,annevk,topic: shadow|topic: parser|topic: custom elements,0
+2998959054,true,Initialize registry correctly for declarative shadow roots,https://github.com/whatwg/html/pull/11224,2025-04-16T08:57:57Z,2025-04-22T14:00:32Z,annevk,topic: shadow|topic: parser|topic: custom elements,0
 2998776426,true,Clarify that window.customElements always returns an object,https://github.com/whatwg/html/pull/11221,2025-04-16T07:46:05Z,2025-04-16T09:10:47Z,annevk,clarification|topic: custom elements,0
 2994774914,true,fix webidl syntax error in CustomElementRegistry.initialize paramters,https://github.com/whatwg/html/pull/11217,2025-04-15T01:56:44Z,2025-04-15T01:59:26Z,nektro,,0
 2992040563,true,Fix wrong navigable reference in scrollRestoration getter/setter,https://github.com/whatwg/html/pull/11214,2025-04-14T06:37:15Z,2025-04-15T01:35:36Z,domenic,topic: history,0
@@ -15,12 +17,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2984265978,true,Fix document access in shared history push/replace steps,https://github.com/whatwg/html/pull/11204,2025-04-10T02:10:12Z,2025-04-10T08:42:48Z,domenic,topic: history,0
 2984252206,true,"Fix ""fully active"" usage in inner navigate event firing",https://github.com/whatwg/html/pull/11203,2025-04-10T01:56:56Z,2025-04-10T08:42:59Z,domenic,topic: history,0
 2983193530,true,Added todo.txt with basic tasks,https://github.com/whatwg/html/pull/11201,2025-04-09T15:33:52Z,2025-04-09T15:38:39Z,Bikiran007,invalid,0
-2980648437,false,Fix assertion in hide all popovers until,https://github.com/whatwg/html/pull/11197,2025-04-08T18:32:57Z,2025-04-09T12:16:32Z,josepharhar,topic: popover,1
+2980648437,false,Fix assertion in hide all popovers until,https://github.com/whatwg/html/pull/11197,2025-04-08T18:32:57Z,2025-04-22T21:46:10Z,josepharhar,topic: popover,1
 2977580594,true,Editorial: Fix more typos,https://github.com/whatwg/html/pull/11196,2025-04-07T17:53:36Z,2025-04-09T03:32:01Z,jmdyck,,0
 2973354937,true,new `model` element for display of inline 3D models,https://github.com/whatwg/html/pull/11191,2025-04-04T20:56:37Z,2025-04-12T03:58:25Z,zachernuk,,0
 2973246569,true,Fix popover initial focus autofocus document targeting,https://github.com/whatwg/html/pull/11190,2025-04-04T19:57:09Z,2025-04-08T04:45:39Z,josepharhar,topic: popover,0
-2967738196,false,Add ToggleEvent.source,https://github.com/whatwg/html/pull/11186,2025-04-02T23:06:22Z,2025-04-17T17:33:27Z,josepharhar,needs implementer interest|needs tests,0
-2967276645,false,Don't run light dismiss on right click,https://github.com/whatwg/html/pull/11185,2025-04-02T18:56:42Z,2025-04-09T03:32:35Z,josepharhar,normative change|topic: dialog|topic: popover,0
+2967738196,false,Add ToggleEvent.source,https://github.com/whatwg/html/pull/11186,2025-04-02T23:06:22Z,2025-04-22T23:01:17Z,josepharhar,needs implementer interest|needs tests,0
+2967276645,false,Don't run light dismiss on right click,https://github.com/whatwg/html/pull/11185,2025-04-02T18:56:42Z,2025-04-22T21:06:21Z,josepharhar,normative change|topic: dialog|topic: popover,0
 2965105159,true,"Editorial: modernize ""Focus management APIs""",https://github.com/whatwg/html/pull/11183,2025-04-02T03:52:36Z,2025-04-10T02:22:46Z,domenic,topic: focus,0
 2965078672,true,"Remove ""locked for focus""",https://github.com/whatwg/html/pull/11182,2025-04-02T03:27:24Z,2025-04-10T02:19:50Z,domenic,removal/deprecation|topic: focus,0
 2963441311,true,editorial: use title case for state attributes,https://github.com/whatwg/html/pull/11179,2025-04-01T13:22:25Z,2025-04-07T09:56:38Z,choukikars16,,0
