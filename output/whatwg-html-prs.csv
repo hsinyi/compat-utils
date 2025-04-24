@@ -1,11 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3013833588,false,Ensure modal dialogs can nest inside of hint popovers,https://github.com/whatwg/html/pull/11253,2025-04-23T12:26:28Z,2025-04-23T22:50:43Z,keithamus,,1
+3013833588,false,Ensure modal dialogs can nest inside of hint popovers,https://github.com/whatwg/html/pull/11253,2025-04-23T12:26:28Z,2025-04-24T11:56:57Z,keithamus,topic: popover,1
 3012812450,false,Specify browser UI-initiated navigations better,https://github.com/whatwg/html/pull/11250,2025-04-23T06:13:35Z,2025-04-23T08:13:49Z,domenic,topic: navigation,2
-3012289585,false,Set invoker for popover command attributes,https://github.com/whatwg/html/pull/11248,2025-04-22T22:50:16Z,2025-04-23T09:20:39Z,josepharhar,,1
+3012289585,false,Set invoker for popover command attributes,https://github.com/whatwg/html/pull/11248,2025-04-22T22:50:16Z,2025-04-24T12:11:40Z,josepharhar,,1
 3011040184,false,Provide a fallback for validation anchor,https://github.com/whatwg/html/pull/11247,2025-04-22T13:06:50Z,2025-04-22T13:13:23Z,annevk,,0
 3010027920,false,Treat null fragment the same as an empty string in location hash setter,https://github.com/whatwg/html/pull/11245,2025-04-22T06:35:51Z,2025-04-22T09:29:12Z,shannonbooth,topic: navigation|interop,0
 3008267583,false,Deal with content-visibility during the layout loop.,https://github.com/whatwg/html/pull/11241,2025-04-21T12:00:35Z,2025-04-21T12:04:04Z,emilio,,0
-3003804022,false,Clarify the createImageBitmap orientation metadata handling,https://github.com/whatwg/html/pull/11234,2025-04-18T02:37:47Z,2025-04-22T12:07:44Z,Hajime-san,,0
+3003804022,false,Clarify the createImageBitmap orientation metadata handling,https://github.com/whatwg/html/pull/11234,2025-04-18T02:37:47Z,2025-04-24T09:51:48Z,Hajime-san,,0
 2999457641,true,Look up a custom element registry can be given a DocumentFragment,https://github.com/whatwg/html/pull/11228,2025-04-16T12:13:57Z,2025-04-22T14:00:24Z,annevk,,0
 2999038171,true,Fix upgrade particular elements within a document,https://github.com/whatwg/html/pull/11226,2025-04-16T09:28:01Z,2025-04-17T07:24:52Z,annevk,topic: custom elements,0
 2999018881,true,Correct upgrade an element after Scoped Custom Element Registries,https://github.com/whatwg/html/pull/11225,2025-04-16T09:20:42Z,2025-04-17T07:24:20Z,annevk,topic: custom elements,0
@@ -155,7 +155,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2742760704,true,Editorial: add a concept for Window's CustomElementRegistry,https://github.com/whatwg/html/pull/10865,2024-12-16T15:53:22Z,2024-12-17T07:23:44Z,annevk,,0
 2740270982,true,Remove obsolete manifest attribute references,https://github.com/whatwg/html/pull/10863,2024-12-15T04:24:26Z,2024-12-17T12:05:54Z,wlib,,0
 2736512744,true,Improve integration with DOM's cloning steps,https://github.com/whatwg/html/pull/10859,2024-12-12T17:35:37Z,2024-12-17T07:47:39Z,annevk,,0
-2736284963,false,Support import maps in workers,https://github.com/whatwg/html/pull/10858,2024-12-12T15:52:38Z,2025-02-17T09:36:32Z,nicolo-ribaudo,,2
+2736284963,false,Support import maps in workers,https://github.com/whatwg/html/pull/10858,2024-12-12T15:52:38Z,2025-02-17T09:36:32Z,nicolo-ribaudo,,3
 2735846383,true,"Editorial: cleanup ""create an element""",https://github.com/whatwg/html/pull/10857,2024-12-12T13:04:51Z,2024-12-12T15:46:19Z,annevk,,0
 2735236716,false,Integrate with the move event for window defined by CSSOM-View,https://github.com/whatwg/html/pull/10853,2024-12-12T08:42:26Z,2024-12-12T08:44:27Z,frivoal,,0
 2731662991,true,"Fix null URL handling in ""get noopener for window open""",https://github.com/whatwg/html/pull/10847,2024-12-11T02:30:42Z,2024-12-12T03:40:58Z,domenic,,3
@@ -3003,7 +3003,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 209941739,true,Add note on Shadow DOM behavior about dialog focusing steps.,https://github.com/whatwg/html/pull/2394,2017-02-24T02:19:19Z,2018-06-25T09:55:31Z,TakayoshiKochi,,0
 209766317,true,Correct typo and link in select element,https://github.com/whatwg/html/pull/2389,2017-02-23T13:51:04Z,2017-02-23T16:42:58Z,dakshshah96,,0
 209731209,true,Editorial: fix comment in code example for input.labels,https://github.com/whatwg/html/pull/2387,2017-02-23T11:09:20Z,2017-02-23T11:32:43Z,zcorpan,,0
-209628744,true,Remove appcache from shared workers,https://github.com/whatwg/html/pull/2384,2017-02-23T00:47:41Z,2025-04-24T00:26:25Z,domenic,removal/deprecation|topic: appcache,4
+209628744,true,Remove appcache from shared workers,https://github.com/whatwg/html/pull/2384,2017-02-23T00:47:41Z,2025-04-24T06:41:11Z,domenic,removal/deprecation|topic: appcache,4
 209594447,true,"Add <link> rel=""modulepreload""",https://github.com/whatwg/html/pull/2383,2017-02-22T21:58:44Z,2021-06-15T15:59:56Z,domenic,addition/proposal|topic: script|topic: link,2
 209274274,true,Tweak [CEReactions] definition and usage,https://github.com/whatwg/html/pull/2378,2017-02-21T21:13:25Z,2017-02-22T22:59:55Z,domenic,topic: custom elements,0
 209191487,true,Regression: ASCII lower alpha -> ASCII upper alpha in the parser,https://github.com/whatwg/html/pull/2376,2017-02-21T16:07:23Z,2017-02-21T16:11:42Z,annevk,topic: parser,0

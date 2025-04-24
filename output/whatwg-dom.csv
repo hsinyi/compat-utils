@@ -186,7 +186,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 818280988,true,[idea] Node.empty(),https://github.com/whatwg/dom/issues/955,2021-02-28T19:00:05Z,2021-02-28T22:26:41Z,vrugtehagel,,0
 816299510,false,document.createEvent() should maybe not be conditional upon exposure,https://github.com/whatwg/dom/issues/952,2021-02-25T10:24:06Z,2022-08-08T12:52:09Z,annevk,interop,1
 815897814,true,Add AbortSignal.timeout(ms),https://github.com/whatwg/dom/issues/951,2021-02-24T22:27:13Z,2022-02-02T22:08:53Z,domenic,addition/proposal|topic: aborting,4
-806203904,false,Allow postMessage-ing AbortSignal,https://github.com/whatwg/dom/issues/948,2021-02-11T09:11:10Z,2023-07-19T01:41:12Z,Jamesernator,needs implementer interest|addition/proposal|topic: aborting,8
+806203904,false,Allow postMessage-ing AbortSignal,https://github.com/whatwg/dom/issues/948,2021-02-11T09:11:10Z,2023-07-19T01:41:12Z,Jamesernator,needs implementer interest|addition/proposal|topic: aborting,9
 806181567,true,Define criteria for StaticRange validation,https://github.com/whatwg/dom/issues/947,2021-02-11T08:34:14Z,2021-08-31T11:00:34Z,sanketj,needs implementer interest|addition/proposal|topic: ranges,0
 801337310,false,Expose an `aborted` promise on AbortSignal?,https://github.com/whatwg/dom/issues/946,2021-02-04T14:29:56Z,2021-05-24T17:44:42Z,benjamingr,needs implementer interest|topic: aborting,4
 783870164,true,Missing Documentation - WebGLContextAttributes,https://github.com/whatwg/dom/issues/942,2021-01-12T03:11:45Z,2021-01-12T10:07:35Z,mrchantey,,0
@@ -292,7 +292,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 423017912,true,Wrong return type of Node::getRootNode(),https://github.com/whatwg/dom/issues/739,2019-03-20T00:53:42Z,2019-03-20T07:57:20Z,SetTrend,,1
 422508516,true,Reference to struct in inner invoke,https://github.com/whatwg/dom/issues/738,2019-03-19T01:57:21Z,2020-06-29T08:27:07Z,Zirro,,0
 418687232,false,isEqualNode and <template>,https://github.com/whatwg/dom/issues/737,2019-03-08T08:39:44Z,2019-04-05T12:53:37Z,jakearchibald,,1
-418208052,false,Proposal: a DocumentFragment whose nodes do not get removed once inserted,https://github.com/whatwg/dom/issues/736,2019-03-06T19:28:54Z,2025-04-18T15:09:02Z,WebReflection,needs implementer interest|addition/proposal,88
+418208052,false,Proposal: a DocumentFragment whose nodes do not get removed once inserted,https://github.com/whatwg/dom/issues/736,2019-03-06T19:28:54Z,2025-04-24T12:18:17Z,WebReflection,needs implementer interest|addition/proposal,88
 413102117,true,window.event and IFRAMEs,https://github.com/whatwg/dom/issues/735,2019-02-21T20:08:55Z,2020-12-08T19:09:14Z,cvazac,topic: events,0
 411169284,true,Dispatching slotchange within a compound microtask,https://github.com/whatwg/dom/issues/734,2019-02-17T09:52:36Z,2019-03-29T15:11:22Z,annevk,topic: shadow,0
 407741641,true,Should adopting change an element's prototype?,https://github.com/whatwg/dom/issues/731,2019-02-07T15:00:08Z,2019-02-07T15:25:33Z,jakearchibald,,0
@@ -584,7 +584,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 148782149,true,"Add term ""shadow-including ancestor""?",https://github.com/whatwg/dom/issues/225,2016-04-15T22:16:33Z,2016-04-19T07:59:48Z,tabatkins,,0
 148734016,true,"""convert nodes into a node"" needs to specify which document is used as the owner document for the nodes it creates",https://github.com/whatwg/dom/issues/224,2016-04-15T18:31:56Z,2016-04-16T04:23:56Z,bzbarsky,,0
 148521434,true,Event.returnValue legacy property,https://github.com/whatwg/dom/issues/222,2016-04-15T00:37:23Z,2016-04-15T05:28:05Z,cvrebert,,0
-148382455,false,Un-merge Document and HTMLDocument,https://github.com/whatwg/dom/issues/221,2016-04-14T14:37:54Z,2025-04-23T18:51:31Z,ayg,,0
+148382455,false,Un-merge Document and HTMLDocument,https://github.com/whatwg/dom/issues/221,2016-04-14T14:37:54Z,2025-04-24T01:30:11Z,ayg,,0
 148138083,true,Consider making dispatchEvent() unset stop (immediate) propagation flags,https://github.com/whatwg/dom/issues/219,2016-04-13T18:06:01Z,2016-08-16T02:07:01Z,ayg,,0
 147985601,true,createDocument() should use namespace to set content type,https://github.com/whatwg/dom/issues/217,2016-04-13T08:33:27Z,2016-04-18T15:47:42Z,annevk,,0
 147502660,false,Event delegation via EventListenerOptions,https://github.com/whatwg/dom/issues/215,2016-04-11T17:48:30Z,2019-04-11T09:40:18Z,ghost,needs implementer interest|topic: events|addition/proposal,6
@@ -689,7 +689,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 98710934,true,More bikeshed problems,https://github.com/whatwg/dom/issues/62,2015-08-03T10:02:59Z,2016-01-04T12:52:40Z,annevk,,0
 98694541,false,Patch HTML's base URL stuff to be in terms of DOM,https://github.com/whatwg/dom/issues/61,2015-08-03T08:14:51Z,2022-12-01T09:08:24Z,annevk,,0
 96794284,true,Replacing a child in its parent doesn't correctly queue mutation records,https://github.com/whatwg/dom/issues/59,2015-07-23T11:44:44Z,2015-07-28T11:12:55Z,nox,,0
-96769578,true,Document.defaultCharset,https://github.com/whatwg/dom/issues/58,2015-07-23T09:21:59Z,2024-11-21T09:38:21Z,foolip,,0
+96769578,true,Document.defaultCharset,https://github.com/whatwg/dom/issues/58,2015-07-23T09:21:59Z,2025-04-24T01:28:19Z,foolip,,0
 96431537,false,DOM should add hooks for sync events that happen during insert/remove operations,https://github.com/whatwg/dom/issues/57,2015-07-21T22:29:26Z,2017-03-16T11:48:12Z,travisleithead,,0
 95520934,false,Use `commonAncestorContainer` in concept-range-clone,https://github.com/whatwg/dom/issues/56,2015-07-16T20:30:41Z,2018-08-24T07:20:14Z,Ms2ger,topic: ranges,1
 95276149,true,"Add ""inclusive siblings"" term",https://github.com/whatwg/dom/issues/55,2015-07-15T19:56:58Z,2015-07-16T05:57:55Z,tabatkins,,0
