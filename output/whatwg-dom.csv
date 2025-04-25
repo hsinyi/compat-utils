@@ -56,7 +56,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2186991156,false,Add extend and modify methods for the Range object,https://github.com/whatwg/dom/issues/1264,2024-03-14T18:20:58Z,2024-03-14T18:20:58Z,snnsnn,needs implementer interest|addition/proposal,0
 2165019807,false,Ability to reset an AbortSignal.timeout,https://github.com/whatwg/dom/issues/1263,2024-03-02T23:04:35Z,2024-03-03T07:40:48Z,jasnell,,0
 2156327954,true,"""connected"" should be defined for all kinds of nodes",https://github.com/whatwg/dom/issues/1259,2024-02-27T11:17:39Z,2024-02-28T08:11:30Z,zcorpan,,1
-2134995640,true,Atomic move operation for element reparenting & reordering,https://github.com/whatwg/dom/issues/1255,2024-02-14T19:00:33Z,2025-04-23T09:35:09Z,domfarolino,needs implementer interest|addition/proposal|a11y-tracker|stage: 3,210
+2134995640,true,Atomic move operation for element reparenting & reordering,https://github.com/whatwg/dom/issues/1255,2024-02-14T19:00:33Z,2025-04-25T05:56:15Z,domfarolino,needs implementer interest|addition/proposal|a11y-tracker|stage: 4,210
 2121320218,false,Make some ShadowRoot attributes mutable,https://github.com/whatwg/dom/issues/1252,2024-02-06T17:20:13Z,2024-02-06T18:47:14Z,mfreed7,topic: shadow|needs implementer interest|addition/proposal,0
 2116555216,true,Support for appending a cloned template adjacent to an existing element,https://github.com/whatwg/dom/issues/1250,2024-02-03T16:00:00Z,2024-02-04T07:46:29Z,bahrus,needs implementer interest|addition/proposal,0
 2106290867,true,How should `clonable` work in `cloneNode(false)`?,https://github.com/whatwg/dom/issues/1249,2024-01-29T19:48:11Z,2024-04-04T07:27:24Z,mfreed7,topic: shadow|topic: nodes,0
@@ -89,7 +89,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1683014161,true,Does the currentEvent variable make a sense in Inner Invoke?,https://github.com/whatwg/dom/issues/1191,2023-04-25T11:48:32Z,2023-04-27T18:54:56Z,dSalieri,,0
 1681197010,true,"Attribute change steps should run after setting the value, not before",https://github.com/whatwg/dom/issues/1190,2023-04-24T12:46:49Z,2023-06-14T09:50:30Z,emilio,,0
 1679569076,false,Should TreeWalker be expanded to support shadow roots in support of the selection API?,https://github.com/whatwg/dom/issues/1189,2023-04-22T14:38:32Z,2023-06-19T18:12:55Z,keithamus,topic: shadow|needs implementer interest|needs concrete proposal|topic: nodes,0
-1675921985,true,Clarification on document tree and DOM tree,https://github.com/whatwg/dom/issues/1188,2023-04-20T03:07:19Z,2023-04-20T12:04:26Z,acqina,,0
+1675921985,true,Clarification on document tree and DOM tree,https://github.com/whatwg/dom/issues/1188,2023-04-20T03:07:19Z,2023-04-20T12:04:26Z,sircumferencee,,0
 1669308509,true,Second chance to find respectively type of event handler,https://github.com/whatwg/dom/issues/1184,2023-04-15T10:54:31Z,2023-04-28T11:28:51Z,dSalieri,,0
 1651925058,false,Proposal: Allow WebIDL binding to expose parameters' types and enums' values,https://github.com/whatwg/dom/issues/1183,2023-04-03T11:59:34Z,2023-05-29T14:16:23Z,eladalon1983,,0
 1651923006,true,Proposal: Allow WebIDL bindings to expose method parameters' types,https://github.com/whatwg/dom/issues/1182,2023-04-03T11:58:36Z,2023-04-03T12:00:47Z,eladalon1983,,0
@@ -584,7 +584,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 148782149,true,"Add term ""shadow-including ancestor""?",https://github.com/whatwg/dom/issues/225,2016-04-15T22:16:33Z,2016-04-19T07:59:48Z,tabatkins,,0
 148734016,true,"""convert nodes into a node"" needs to specify which document is used as the owner document for the nodes it creates",https://github.com/whatwg/dom/issues/224,2016-04-15T18:31:56Z,2016-04-16T04:23:56Z,bzbarsky,,0
 148521434,true,Event.returnValue legacy property,https://github.com/whatwg/dom/issues/222,2016-04-15T00:37:23Z,2016-04-15T05:28:05Z,cvrebert,,0
-148382455,false,Un-merge Document and HTMLDocument,https://github.com/whatwg/dom/issues/221,2016-04-14T14:37:54Z,2025-04-24T01:30:11Z,ayg,,0
+148382455,false,Un-merge Document and HTMLDocument,https://github.com/whatwg/dom/issues/221,2016-04-14T14:37:54Z,2025-04-25T07:54:57Z,ayg,,0
 148138083,true,Consider making dispatchEvent() unset stop (immediate) propagation flags,https://github.com/whatwg/dom/issues/219,2016-04-13T18:06:01Z,2016-08-16T02:07:01Z,ayg,,0
 147985601,true,createDocument() should use namespace to set content type,https://github.com/whatwg/dom/issues/217,2016-04-13T08:33:27Z,2016-04-18T15:47:42Z,annevk,,0
 147502660,false,Event delegation via EventListenerOptions,https://github.com/whatwg/dom/issues/215,2016-04-11T17:48:30Z,2019-04-11T09:40:18Z,ghost,needs implementer interest|topic: events|addition/proposal,6
