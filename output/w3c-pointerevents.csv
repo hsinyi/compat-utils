@@ -4,7 +4,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2997081867,false,Add context for popover light dismiss to click event,https://github.com/w3c/pointerevents/issues/542,2025-04-15T17:07:24Z,2025-04-17T21:26:29Z,josepharhar,,0
 2832334600,false,Clarify `pointermove` event (or following event of pointer boundary events) target if preceding pointer boundary event listener removes the `pointerover` target,https://github.com/w3c/pointerevents/issues/536,2025-02-05T09:05:44Z,2025-02-12T16:41:16Z,masayuki-nakano,future,0
 2769904047,false,Define `pointermove` and `pointerrawupdate` may have delta from previous corresponding pointer event as `movementX` and `movementY`,https://github.com/w3c/pointerevents/issues/535,2025-01-06T06:10:09Z,2025-02-13T00:08:04Z,masayuki-nakano,future,1
-2756754109,true,Implicit pointer capture state after a failed explicit capture call at `pointerdown`,https://github.com/w3c/pointerevents/issues/534,2024-12-23T21:46:11Z,2025-03-12T15:16:34Z,mustaqahmed,v3|needs-wpt,0
+2756754109,true,Implicit pointer capture state after a failed explicit capture call at `pointerdown`,https://github.com/w3c/pointerevents/issues/534,2024-12-23T21:46:11Z,2025-05-07T15:30:38Z,mustaqahmed,v3|needs-wpt,0
 2703114460,false,Interop: major browsers fire click/auxclick events differently for chorded buttons,https://github.com/w3c/pointerevents/issues/530,2024-11-28T19:42:40Z,2024-12-12T16:56:30Z,mustaqahmed,future,0
 2692523774,true,Mouse and Pointer events from a stationary mouse,https://github.com/w3c/pointerevents/issues/529,2024-11-25T22:52:52Z,2025-04-29T14:15:52Z,mustaqahmed,future,0
 2635690250,true,[DOM integration] No state is reset on node removal,https://github.com/w3c/pointerevents/issues/526,2024-11-05T14:53:12Z,2024-11-06T19:01:27Z,domfarolino,,0
@@ -17,7 +17,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2508396972,true,Limit the precision of floating point event fields,https://github.com/w3c/pointerevents/issues/517,2024-09-05T17:49:51Z,2025-04-18T17:56:56Z,jyasskin,v3|v3-blocking,0
 2505730737,false,[touch actions] handwriting manipulation type to distinguish panning,https://github.com/w3c/pointerevents/issues/516,2024-09-04T15:45:36Z,2025-02-22T02:04:27Z,adettenb,future,0
 2493000380,true,Coalesced and predicted event attributes within an untrusted event,https://github.com/w3c/pointerevents/issues/514,2024-08-28T21:13:29Z,2024-10-23T15:07:25Z,mustaqahmed,,0
-2469499822,true,Ambiguity of the value of the `button` property for the `click` event,https://github.com/w3c/pointerevents/issues/513,2024-08-16T05:21:42Z,2025-04-08T00:35:57Z,rr-codes,v3|needs-wpt,0
+2469499822,true,Ambiguity of the value of the `button` property for the `click` event,https://github.com/w3c/pointerevents/issues/513,2024-08-16T05:21:42Z,2025-05-07T15:29:01Z,rr-codes,v3,0
 2465961016,false,Enable mouse click and drag to scroll and other pointer behavior customizations,https://github.com/w3c/pointerevents/issues/512,2024-08-14T14:07:07Z,2024-10-08T08:15:29Z,flackr,future,9
 2462353162,true,Shouldn't dispatch `gotpointercapture` and `lostpointercapture` events if `pointerrawupdate` event is fired without the following `pointermove`?,https://github.com/w3c/pointerevents/issues/511,2024-08-13T04:21:10Z,2024-11-07T03:14:56Z,masayuki-nakano,,0
 2462346050,true,Clarify whether `pointermove` will be dispatched if `pointerrawupdate` listener removes the document,https://github.com/w3c/pointerevents/issues/510,2024-08-13T04:12:44Z,2024-11-07T03:12:52Z,masayuki-nakano,,0
@@ -43,7 +43,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1814993315,true,Clarify `pointerleave` and `pointerout` events when first pointer move after removing an element under the pointer,https://github.com/w3c/pointerevents/issues/477,2023-07-21T00:42:54Z,2025-04-18T17:56:55Z,masayuki-nakano,v3|v3-blocking,0
 1770553325,true,Title hover before/after show event,https://github.com/w3c/pointerevents/issues/475,2023-06-23T00:14:12Z,2023-06-23T00:18:08Z,madprops,,0
 1726410559,true,consider to change the behavior of getCoalescedEvents on non-SecureContext,https://github.com/w3c/pointerevents/issues/472,2023-05-25T19:57:40Z,2023-08-30T17:32:58Z,smaug----,v3,0
-1724291480,false,Making PointerEvents a living standard after v3?,https://github.com/w3c/pointerevents/issues/471,2023-05-24T15:44:40Z,2025-05-02T13:40:22Z,mustaqahmed,future|w3c,0
+1724291480,true,Making PointerEvents a living standard after v3?,https://github.com/w3c/pointerevents/issues/471,2023-05-24T15:44:40Z,2025-05-07T16:05:52Z,mustaqahmed,future|w3c,0
 1663584710,false,"Support for pens that report ""hover distance""",https://github.com/w3c/pointerevents/issues/469,2023-04-12T02:34:25Z,2025-05-03T20:29:26Z,vinhowe,future,0
 1606591399,true,Investigate if `tangentialPressure` is correctly implemented/working in browsers/documented appropriately in spec,https://github.com/w3c/pointerevents/issues/467,2023-03-02T11:04:02Z,2023-03-31T21:43:27Z,patrickhlauke,v3,0
 1487135626,true,Coordinates of a `pointercancel` event,https://github.com/w3c/pointerevents/issues/463,2022-12-09T17:30:09Z,2023-07-04T15:42:58Z,mustaqahmed,v3,0
@@ -52,7 +52,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1296139350,true,Order of pointerover/enter/move and corresponding mouse events is different on browsers,https://github.com/w3c/pointerevents/issues/454,2022-07-06T17:06:55Z,2022-10-31T11:38:18Z,saschanaz,v3,0
 1294145057,true,"pointerrawupdate missing in ""Attributes and default actions""",https://github.com/w3c/pointerevents/issues/451,2022-07-05T11:03:59Z,2025-04-18T17:56:55Z,dontcallmedom,v3|v3-blocking,0
 1275037950,true,Should we add `ongotpointercapture` and `onlostpointercapture` to the mixin extension,https://github.com/w3c/pointerevents/issues/448,2022-06-17T13:32:58Z,2025-04-18T17:56:54Z,patrickhlauke,v3|v3-blocking,0
-1265931335,false,Meta-issue: update WPT to cover Pointer Events Level 3,https://github.com/w3c/pointerevents/issues/445,2022-06-09T10:34:37Z,2025-05-02T13:38:35Z,patrickhlauke,v3|v3-blocking|wpt,0
+1265931335,false,Meta-issue: update WPT to cover Pointer Events Level 3,https://github.com/w3c/pointerevents/issues/445,2022-06-09T10:34:37Z,2025-05-07T15:39:26Z,patrickhlauke,v3|v3-blocking|wpt,0
 1183409285,true,Moving an element to a different place in the DOM tree loses pointer lock and pointer capture,https://github.com/w3c/pointerevents/issues/439,2022-03-28T13:03:26Z,2022-03-28T15:17:38Z,guillaumebrunerie,,0
 1170053142,true,"Defining event orders through a ""state of the input device""",https://github.com/w3c/pointerevents/issues/438,2022-03-15T18:46:36Z,2022-05-25T15:22:09Z,mustaqahmed,v3,0
 1157432338,true,Clean up ReSpec errors,https://github.com/w3c/pointerevents/issues/435,2022-03-02T16:38:47Z,2022-06-01T16:07:03Z,patrickhlauke,editorial|v3,0
