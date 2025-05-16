@@ -1,7 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3066023416,false,Add a resource fetch algorithm return value,https://github.com/whatwg/html/issues/11308,2025-05-15T12:07:44Z,2025-05-15T12:07:44Z,chrisn,,0
+3067632295,false,SharedWorker constructor presumes sync access to several global objects while in parallel,https://github.com/whatwg/html/issues/11314,2025-05-16T00:16:51Z,2025-05-16T00:18:04Z,ADKaster,,0
+3067235470,false,Make <img> src and srcset attributes optional if the source set can be generated from previous sibling <source> elements,https://github.com/whatwg/html/issues/11313,2025-05-15T19:47:54Z,2025-05-15T19:47:54Z,johannesodland,,0
+3066996028,false,Naming of the `interesttarget` attribute,https://github.com/whatwg/html/issues/11312,2025-05-15T17:48:38Z,2025-05-15T17:48:38Z,mfreed7,,0
+3066813596,false,Meeting 21 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11311,2025-05-15T16:31:18Z,2025-05-15T16:33:40Z,mfreed7,,0
+3066122491,false,Remove UI requirement for `<a ping>`,https://github.com/whatwg/html/issues/11309,2025-05-15T12:43:12Z,2025-05-15T22:09:22Z,zcorpan,,0
+3066023416,false,Add a resource fetch algorithm return value,https://github.com/whatwg/html/issues/11308,2025-05-15T12:07:44Z,2025-05-15T12:26:42Z,chrisn,topic: media|integration,0
 3065467092,false,Upcoming WHATNOT meeting on 2025-05-22,https://github.com/whatwg/html/issues/11307,2025-05-15T08:48:56Z,2025-05-15T08:49:56Z,annevk,agenda+,0
-3064856851,false,Navigation fetch always uses document destination,https://github.com/whatwg/html/issues/11306,2025-05-15T04:32:36Z,2025-05-15T07:28:33Z,jdm,,0
+3064856851,true,Navigation fetch always uses document destination,https://github.com/whatwg/html/issues/11306,2025-05-15T04:32:36Z,2025-05-15T20:16:45Z,jdm,,0
 3058583719,false,"Add <dfn> for ""indeterminate"" boolean concept",https://github.com/whatwg/html/issues/11301,2025-05-13T02:23:27Z,2025-05-13T02:23:31Z,rahimabdi,,2
 3056237033,true,popover attribute does not define canonical keyword for auto state,https://github.com/whatwg/html/issues/11298,2025-05-12T09:07:27Z,2025-05-14T13:54:51Z,annevk,topic: popover,0
 3056225719,true,preload attribute does not define canonical keyword for Automatic state,https://github.com/whatwg/html/issues/11297,2025-05-12T09:04:20Z,2025-05-14T13:54:52Z,annevk,topic: media,0
@@ -9,7 +14,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3053380943,true,Can we include what header(s) get sent with link type prefetch?,https://github.com/whatwg/html/issues/11294,2025-05-09T23:25:16Z,2025-05-12T20:01:21Z,srwei,,0
 3050537262,true,"""rules for choosing a navigable"" allows named targeting with noopener",https://github.com/whatwg/html/issues/11291,2025-05-09T02:14:24Z,2025-05-09T13:55:33Z,domenic,topic: frames/navigables/browsing contexts,0
 3049580456,true,Upcoming WHATNOT meeting on 2025-05-15,https://github.com/whatwg/html/issues/11290,2025-05-08T16:53:08Z,2025-05-15T08:49:29Z,past,agenda+,0
-3043719418,false,Filterable `<select>` via `<input>` (native combobox & more),https://github.com/whatwg/html/issues/11288,2025-05-06T18:51:04Z,2025-05-13T16:12:56Z,brandonmcconnell,addition/proposal|needs implementer interest,0
+3043719418,false,Filterable `<select>` via `<input>` (native combobox & more),https://github.com/whatwg/html/issues/11288,2025-05-06T18:51:04Z,2025-05-13T16:12:56Z,brandonmcconnell,addition/proposal|needs implementer interest,1
 3043680396,false,"Spec text for naturalWidth and naturalHeight behavior isn't web-compatible, for cases where attributes are missing",https://github.com/whatwg/html/issues/11287,2025-05-06T18:33:58Z,2025-05-08T22:12:55Z,dholbert,topic: img|interop,1
 3043061501,false,Expanding the concept of internal resource links,https://github.com/whatwg/html/issues/11286,2025-05-06T14:34:00Z,2025-05-13T02:13:37Z,noamr,topic: link,1
 3040860886,true,"In `blob/88c7d93d0f87e19beadead68f8d2eb28c503a8a8/source#L56`, `<h1 class=""allcaps"">HTML</h1>` should be `<h1 class=""allcaps""><abbr>HTML</abbr></h1>`.",https://github.com/whatwg/html/issues/11285,2025-05-05T21:21:46Z,2025-05-07T11:41:40Z,RokeJulianLockhart,,0
@@ -31,10 +36,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3013827820,true,[Navigation API] Inconsistency between spec and tests for navigating methods and detached iframes,https://github.com/whatwg/html/issues/11252,2025-04-23T12:24:23Z,2025-04-25T02:02:08Z,jnjaeschke,topic: frames/navigables/browsing contexts,0
 3013818303,true,Add captureStream() or Streaming Pipeline to OffscreenCanvas.,https://github.com/whatwg/html/issues/11251,2025-04-23T12:20:28Z,2025-04-23T23:56:39Z,aticzz,,0
 3012628972,false,Help developers understand focusable areas and links,https://github.com/whatwg/html/issues/11249,2025-04-23T04:07:37Z,2025-04-23T08:26:12Z,anevins12,addition/proposal|needs implementer interest,0
-3010247388,false,Make popover implicit anchor and invoker match,https://github.com/whatwg/html/issues/11246,2025-04-22T07:51:01Z,2025-05-15T05:20:33Z,nt1m,topic: popover,2
+3010247388,false,Make popover implicit anchor and invoker match,https://github.com/whatwg/html/issues/11246,2025-04-22T07:51:01Z,2025-05-15T21:42:05Z,nt1m,topic: popover,2
 3009724928,true,location hash setter behavior for empty string,https://github.com/whatwg/html/issues/11243,2025-04-22T03:02:42Z,2025-04-25T07:12:36Z,shannonbooth,topic: navigation|interop,0
 3009941819,true,"cloneNode with nodes with resources such as <link rel=""stylesheet"">",https://github.com/whatwg/html/issues/11244,2025-04-22T00:19:45Z,2025-05-03T11:58:40Z,KurtCattiSchmidt,interop|topic: link|topic: style,0
-3009031023,false,Meeting 20 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11242,2025-04-21T18:30:06Z,2025-05-14T18:53:16Z,mfreed7,agenda+,1
+3009031023,true,Meeting 20 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11242,2025-04-21T18:30:06Z,2025-05-15T16:31:32Z,mfreed7,agenda+,1
 3008027768,false,"Proposal: Shorthand syntax for external stylesheets (<style src=""..."">)",https://github.com/whatwg/html/issues/11240,2025-04-21T09:42:30Z,2025-05-10T00:31:35Z,bburns,addition/proposal|needs implementer interest,3
 3006995739,true,Define initial focus in case of multiple displayed autofocus elements with different nearest ancestor autofocus scoping root element,https://github.com/whatwg/html/issues/11239,2025-04-20T12:30:50Z,2025-04-21T03:10:59Z,Zhang-Junzhi,,0
 3006463209,false,"""Firing a synthetic pointer event named e"" should set pointerId to -1",https://github.com/whatwg/html/issues/11236,2025-04-19T14:28:29Z,2025-04-19T14:28:29Z,domenic,topic: events,0
@@ -161,7 +166,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2849558461,false,Add `sheet` attribute to the `<link>` tag's for CSS `@sheet` support,https://github.com/whatwg/html/issues/11022,2025-02-12T23:20:40Z,2025-02-20T21:56:37Z,KurtCattiSchmidt,,2
 2848664991,true,Add a deprecated meta tag option,https://github.com/whatwg/html/issues/11021,2025-02-12T15:52:31Z,2025-02-13T00:41:18Z,davidstraight,addition/proposal|needs implementer interest,1
 2846727802,false,SPA route alias caching,https://github.com/whatwg/html/issues/11020,2025-02-11T22:58:27Z,2025-02-11T22:58:27Z,dead-claudia,addition/proposal|needs implementer interest,0
-2846638990,false,Support fragment references in the `<link>` tag's `href` attribute,https://github.com/whatwg/html/issues/11019,2025-02-11T22:06:14Z,2025-05-06T18:40:08Z,KurtCattiSchmidt,topic: link|topic: style|stage: 1|needs incubation,3
+2846638990,false,Support fragment references in the `<link>` tag's `href` attribute,https://github.com/whatwg/html/issues/11019,2025-02-11T22:06:14Z,2025-05-15T18:54:53Z,KurtCattiSchmidt,topic: link|topic: style|stage: 1|needs incubation,3
 2845256157,false,innerText getter impact of customizable `select`,https://github.com/whatwg/html/issues/11017,2025-02-11T12:29:56Z,2025-02-12T07:15:48Z,zcorpan,topic: select,0
 2843211409,false,"Set `ImageDataSettings` to have `colorSpace` default to `""srgb""`",https://github.com/whatwg/html/issues/11016,2025-02-10T17:56:23Z,2025-02-11T11:42:36Z,ccameron-chromium,topic: canvas,0
 2842338250,true,Use color channels or color components consistently throughout,https://github.com/whatwg/html/issues/11014,2025-02-10T12:58:44Z,2025-02-21T14:12:41Z,annevk,clarification,0
@@ -275,7 +280,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2702311679,true,Upcoming WHATNOT meeting on 2024-12-05,https://github.com/whatwg/html/issues/10805,2024-11-28T14:21:35Z,2024-12-05T20:38:34Z,annevk,agenda+,0
 2702202488,false,"[Editorial] Use ""environment settings object"" instead of ""global object"" when appropriate",https://github.com/whatwg/html/issues/10804,2024-11-28T13:36:40Z,2024-11-28T14:11:50Z,noamr,topic: multiple globals,0
 2699416638,false,Add mechanism to control enablement of handwriting,https://github.com/whatwg/html/issues/10803,2024-11-27T18:17:41Z,2024-11-27T18:25:52Z,gastonrod,,0
-2698124613,false,"[Editorial] ""state"" keywords have inconsistent casing",https://github.com/whatwg/html/issues/10802,2024-11-27T10:55:35Z,2025-04-22T12:30:12Z,keithamus,good first issue|editorial,0
+2698124613,true,"[Editorial] ""state"" keywords have inconsistent casing",https://github.com/whatwg/html/issues/10802,2024-11-27T10:55:35Z,2025-05-15T14:58:18Z,keithamus,good first issue|editorial,0
 2696216750,false,"Clarify using CDATA in HTML context ",https://github.com/whatwg/html/issues/10801,2024-11-26T21:52:37Z,2024-11-27T16:13:43Z,SetTrend,clarification|document conformance,0
 2695057016,false,Some calls https://html.spec.whatwg.org/#set-the-ongoing-navigation could need some clarification,https://github.com/whatwg/html/issues/10800,2024-11-26T15:20:25Z,2024-11-28T02:24:06Z,mbrodesser-Igalia,clarification|topic: navigation,0
 2694459992,true,Display gap between 00 and 01,https://github.com/whatwg/html/issues/10797,2024-11-26T12:12:57Z,2024-11-26T13:32:11Z,prashanthcoe19,invalid,0
@@ -1406,7 +1411,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1342349342,true,"Link to js file location in the 404.html file ",https://github.com/whatwg/html/issues/8204,2022-08-17T22:27:26Z,2022-08-17T22:30:17Z,Naatikyere,,0
 1338355797,true,Difference between calling eval with and without promise.,https://github.com/whatwg/html/issues/8195,2022-08-14T21:39:32Z,2022-08-15T21:22:03Z,dSalieri,,0
 1337966518,true,Shadow DOM innerHTML,https://github.com/whatwg/html/issues/8192,2022-08-13T13:34:08Z,2023-11-10T19:47:23Z,GioValentin,addition/proposal|topic: shadow,0
-1336937994,false,Rendering <select> as a listbox is a one-line widget that opens a popup on iOS and Android,https://github.com/whatwg/html/issues/8189,2022-08-12T08:57:13Z,2025-05-14T13:06:39Z,zcorpan,topic: rendering|topic: forms|topic: select,0
+1336937994,false,Rendering <select> as a listbox is a one-line widget that opens a popup on iOS and Android,https://github.com/whatwg/html/issues/8189,2022-08-12T08:57:13Z,2025-05-15T15:49:44Z,zcorpan,topic: rendering|topic: forms|topic: select,0
 1336733401,false,dropEffect in drop/dragend events not interoperable,https://github.com/whatwg/html/issues/8188,2022-08-12T04:22:46Z,2022-08-12T04:22:46Z,domenic,interop|topic: drag and drop,0
 1336100700,false,Consider adding auto-sizing for <select> as a listbox,https://github.com/whatwg/html/issues/8183,2022-08-11T15:07:22Z,2022-09-30T12:42:39Z,zcorpan,addition/proposal|topic: rendering|topic: forms,0
 1335409877,false,"HTMLSlotElement's assign method should ""assign slottables for a tree"" for slots in other shadow roots",https://github.com/whatwg/html/issues/8179,2022-08-11T02:58:29Z,2022-08-29T10:51:17Z,rniwa,topic: shadow,1
