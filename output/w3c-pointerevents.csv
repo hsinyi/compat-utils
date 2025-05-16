@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3064574250,false,Clarify `pointercancel` event target for drag start if the hit-testing result is different document from `dragstart` target,https://github.com/w3c/pointerevents/issues/552,2025-05-15T00:51:35Z,2025-05-15T15:31:00Z,masayuki-nakano,,0
+3064574250,false,Clarify `pointercancel` event target for drag start if the hit-testing result is different document from `dragstart` target,https://github.com/w3c/pointerevents/issues/552,2025-05-15T00:51:35Z,2025-05-16T00:54:07Z,masayuki-nakano,,0
 3050925516,false,Clarify how to handle removed pointer capture element,https://github.com/w3c/pointerevents/issues/551,2025-05-09T05:35:01Z,2025-05-10T12:11:09Z,masayuki-nakano,,0
 3050890738,false,Clarify what happens if capturing element is changed in a `lostpointercapture` listener,https://github.com/w3c/pointerevents/issues/550,2025-05-09T05:22:43Z,2025-05-10T07:06:38Z,masayuki-nakano,,0
 3036048666,false,Retire Pointer Events 2,https://github.com/w3c/pointerevents/issues/548,2025-05-02T13:34:55Z,2025-05-02T13:37:55Z,plehegar,v3|w3c,0
@@ -25,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2462353162,true,Shouldn't dispatch `gotpointercapture` and `lostpointercapture` events if `pointerrawupdate` event is fired without the following `pointermove`?,https://github.com/w3c/pointerevents/issues/511,2024-08-13T04:21:10Z,2024-11-07T03:14:56Z,masayuki-nakano,,0
 2462346050,true,Clarify whether `pointermove` will be dispatched if `pointerrawupdate` listener removes the document,https://github.com/w3c/pointerevents/issues/510,2024-08-13T04:12:44Z,2024-11-07T03:12:52Z,masayuki-nakano,,0
 2462341665,true,Clarify the event target of `pointermove` if an event listener of the preceding `pointerrawupdate` explicitly release pointer capture,https://github.com/w3c/pointerevents/issues/509,2024-08-13T04:07:35Z,2025-02-12T00:42:51Z,masayuki-nakano,v3|needs-wpt,0
-2358552555,true,Clarify what event is `userEvent` to consider `click`/`auxclick` event target after `touchend` (or `pointerup`),https://github.com/w3c/pointerevents/issues/508,2024-06-18T00:27:20Z,2024-08-23T04:31:46Z,masayuki-nakano,,0
+2358552555,true,Clarify what event is `userEvent` to consider `click`/`auxclick` event target after `touchend` (or `pointerup`),https://github.com/w3c/pointerevents/issues/508,2024-06-18T00:27:20Z,2025-05-16T04:36:34Z,masayuki-nakano,,0
 2358540457,false,Clarify (or override) `dblclick` event target,https://github.com/w3c/pointerevents/issues/507,2024-06-18T00:16:01Z,2024-11-06T09:46:09Z,masayuki-nakano,future,0
 2339510045,true,https://www.w3.org/TR/pointerevents/ redirects to old spec...,https://github.com/w3c/pointerevents/issues/506,2024-06-07T03:33:31Z,2024-11-30T18:34:38Z,marcoscaceres,admin|w3c,0
 2338709863,false,‘Logical’ values for the ‘touch-action’ property,https://github.com/w3c/pointerevents/issues/505,2024-06-06T16:39:24Z,2025-05-02T13:43:13Z,aphillips,i18n-needs-resolution|future,0

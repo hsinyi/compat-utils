@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3067632295,false,SharedWorker constructor presumes sync access to several global objects while in parallel,https://github.com/whatwg/html/issues/11314,2025-05-16T00:16:51Z,2025-05-16T00:18:04Z,ADKaster,,0
-3067235470,false,Make <img> src and srcset attributes optional if the source set can be generated from previous sibling <source> elements,https://github.com/whatwg/html/issues/11313,2025-05-15T19:47:54Z,2025-05-15T19:47:54Z,johannesodland,,0
+3067632295,false,SharedWorker constructor presumes sync access to several global objects while in parallel,https://github.com/whatwg/html/issues/11314,2025-05-16T00:16:51Z,2025-05-16T10:17:38Z,ADKaster,clarification|topic: workers,0
+3067235470,false,Make <img> src and srcset attributes optional if the source set can be generated from previous sibling <source> elements,https://github.com/whatwg/html/issues/11313,2025-05-15T19:47:54Z,2025-05-16T07:38:23Z,johannesodland,document conformance|topic: img,1
 3066996028,false,Naming of the `interesttarget` attribute,https://github.com/whatwg/html/issues/11312,2025-05-15T17:48:38Z,2025-05-15T17:48:38Z,mfreed7,,0
 3066813596,false,Meeting 21 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11311,2025-05-15T16:31:18Z,2025-05-15T16:33:40Z,mfreed7,,0
 3066122491,false,Remove UI requirement for `<a ping>`,https://github.com/whatwg/html/issues/11309,2025-05-15T12:43:12Z,2025-05-15T22:09:22Z,zcorpan,,0
@@ -831,7 +831,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1918809473,false,Meta: Links that take you where you already are,https://github.com/whatwg/html/issues/9811,2023-09-29T08:17:19Z,2023-10-01T13:43:49Z,not-my-profile,,0
 1917630242,false,consider whether document-level language fallback rules make sense in all cases,https://github.com/whatwg/html/issues/9807,2023-09-28T14:06:24Z,2023-10-01T13:44:10Z,dbaron,i18n-tracker|needs tests,0
 1914439377,true,Navigables:  fireNavigateEventOnCommit is unused in apply the history step,https://github.com/whatwg/html/issues/9800,2023-09-26T23:34:38Z,2023-10-17T03:43:27Z,ADKaster,topic: navigation,0
-1914386972,false,Customizable `<select>` element,https://github.com/whatwg/html/issues/9799,2023-09-26T22:24:36Z,2025-04-25T20:41:11Z,josepharhar,addition/proposal|topic: parser|topic: forms|stage: 3|topic: select,130
+1914386972,false,Customizable `<select>` element,https://github.com/whatwg/html/issues/9799,2023-09-26T22:24:36Z,2025-04-25T20:41:11Z,josepharhar,addition/proposal|topic: parser|topic: forms|stage: 3|topic: select,131
 1913709777,true,Should MathML references be to MathML-Core instead of full?,https://github.com/whatwg/html/issues/9795,2023-09-26T14:56:47Z,2024-01-23T14:44:38Z,bkardell,normative change,0
 1913666731,true,Should throw SecurityError when loading a worker with a cross-origin script,https://github.com/whatwg/html/issues/9794,2023-09-26T14:37:14Z,2023-10-24T08:09:33Z,edenchuang,topic: workers|agenda+,0
 1913245177,false,Add `autopause` attribute to media elements to allow automatic pausing of media,https://github.com/whatwg/html/issues/9793,2023-09-26T10:54:58Z,2023-10-12T14:21:04Z,keithamus,needs implementer interest|topic: media,10
@@ -1068,7 +1068,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1658447667,false,Navigation sourceDocument for browser-initiated navigations,https://github.com/whatwg/html/issues/9133,2023-04-07T06:56:05Z,2024-10-23T12:47:50Z,domenic,topic: navigation,0
 1658170692,true,Upcoming HTML standard issue triage meeting on 4/20/2023,https://github.com/whatwg/html/issues/9132,2023-04-06T23:39:43Z,2023-04-20T23:23:15Z,past,agenda+,0
 1656257748,true,Setting input type=date value attribute doesn't pre-populate the input if there's a time,https://github.com/whatwg/html/issues/9128,2023-04-05T20:37:06Z,2023-05-05T08:24:53Z,jfbrennan,,0
-1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2025-05-12T12:13:39Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,33
+1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2025-05-12T12:13:39Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,34
 1655605700,true,"Popover: The ""map"" in the topmost popover ancestor algorithm does not mean the map element.",https://github.com/whatwg/html/issues/9125,2023-04-05T13:17:24Z,2023-04-24T14:44:55Z,cathiechen,clarification|topic: popover,0
 1654846210,false,anonymous fieldset content box's block-size:100% leads to unintuitive behavior,https://github.com/whatwg/html/issues/9123,2023-04-05T02:50:15Z,2023-05-19T12:25:27Z,davidsgrogan,topic: rendering|interop|topic: fieldset,0
 1654771406,false,"""Loading a document for inline content that doesn't have a DOM"" uses non-existing response",https://github.com/whatwg/html/issues/9122,2023-04-05T01:03:20Z,2023-04-28T08:01:57Z,kalenikaliaksandr,topic: navigation,1
