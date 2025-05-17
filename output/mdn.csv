@@ -2376,7 +2376,7 @@ api/FontFace/unicodeRange,,41,,35,,10,,false,true,false,https://drafts.csswg.org
 api/FontFace/variant,,41,,35,,10,,false,false,false,,NONE
 api/FontFace/variationSettings,,62,,,,,,true,true,false,https://drafts.csswg.org/css-font-loading/#dom-fontfacedescriptors-variationsettings,W3C
 api/FontFace/weight,,41,,35,,10,,false,true,false,https://drafts.csswg.org/css-font-loading/#dom-fontface-weight,W3C
-api/FontFace/worker_support,,105,,69,,,,false,true,false,,NONE
+api/FontFace/worker_support,,105,,69,,15,,false,true,false,,NONE
 api/FontFaceSet,,41,,35,,10,,false,true,false,https://drafts.csswg.org/css-font-loading/#FontFaceSet-interface,W3C
 api/FontFaceSet/@@iterator,,41,,48,,10,,false,true,false,https://drafts.csswg.org/css-font-loading/#fontfaceset,W3C
 api/FontFaceSet/FontFaceSet,,,,,,10,,false,false,true,,NONE
@@ -2396,7 +2396,7 @@ api/FontFaceSet/ready,,41,,35,,10,,false,true,false,https://drafts.csswg.org/css
 api/FontFaceSet/size,,41,,35,,10,,false,true,false,,NONE
 api/FontFaceSet/status,,41,,35,,10,,false,true,false,https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-status,W3C
 api/FontFaceSet/values,,41,,48,,10,,false,true,false,,NONE
-api/FontFaceSet/worker_support,,105,,69,,,,false,true,false,,NONE
+api/FontFaceSet/worker_support,,105,,69,,15,,false,true,false,,NONE
 api/FontFaceSetLoadEvent,,41,,35,,,,false,true,false,https://drafts.csswg.org/css-font-loading/#fontfacesetloadevent,W3C
 api/FontFaceSetLoadEvent/FontFaceSetLoadEvent,,41,,57,,,,false,true,false,https://drafts.csswg.org/css-font-loading/#dom-fontfacesetloadevent-fontfacesetloadevent,W3C
 api/FontFaceSetLoadEvent/fontfaces,,41,,35,,,,false,true,false,https://drafts.csswg.org/css-font-loading/#dom-fontfacesetloadevent-fontfaces,W3C
@@ -12660,7 +12660,6 @@ html/elements/textarea/placeholder/line_breaks,,59,,36,,16,,false,true,false,,NO
 html/elements/textarea/readonly,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-readonly,WHATWG
 html/elements/textarea/required,,4,,4,,5,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-required,WHATWG
 html/elements/textarea/rows,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-rows,WHATWG
-html/elements/textarea/spellcheck,,2,,9,,5.1,,false,true,false,,NONE
 html/elements/textarea/wrap,,4,,16,,6,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-wrap,WHATWG
 html/elements/textarea/wrap/hard,,,,16,,,,false,true,false,,NONE
 html/elements/tfoot,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/tables.html#the-tfoot-element,WHATWG
@@ -13440,6 +13439,7 @@ javascript/builtins/Intl/Locale/getNumberingSystems,,,,130,,17,,false,true,false
 javascript/builtins/Intl/Locale/getTextInfo,,,,130,,17,,false,true,false,https://tc39.es/proposal-intl-locale-info/#sec-Intl.Locale.prototype.getTextInfo,TC39
 javascript/builtins/Intl/Locale/getTimeZones,,,,130,,17,,false,true,false,https://tc39.es/proposal-intl-locale-info/#sec-Intl.Locale.prototype.getTimeZones,TC39
 javascript/builtins/Intl/Locale/getWeekInfo,,,,130,,17,,false,true,false,https://tc39.es/proposal-intl-locale-info/#sec-Intl.Locale.prototype.getWeekInfo,TC39
+javascript/builtins/Intl/Locale/getWeekInfo/returns_minimalDays_property,,,,99,,15.4,,false,true,true,,NONE
 javascript/builtins/Intl/Locale/hourCycle,,75,,74,,14,,false,true,false,https://tc39.es/ecma402/#sec-Intl.Locale.prototype.hourCycle,TC39
 javascript/builtins/Intl/Locale/language,,75,,74,,14,,false,true,false,https://tc39.es/ecma402/#sec-Intl.Locale.prototype.language,TC39
 javascript/builtins/Intl/Locale/maximize,,75,,74,,14,,false,true,false,https://tc39.es/ecma402/#sec-Intl.Locale.prototype.maximize,TC39
@@ -14274,7 +14274,7 @@ javascript/grammar/string_literals,,1,,1,,1,,false,true,false,https://tc39.es/ec
 javascript/grammar/template_literals,,34,,41,,9,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-template-literals,TC39
 javascript/grammar/template_literals/template_literal_revision,,53,,62,,11,,false,true,false,,NONE
 javascript/grammar/trailing_commas,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-Elision,TC39
-javascript/grammar/trailing_commas/trailing_commas_in_dynamic_import,,,,91,,15,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-call-runtime-semantics-evaluation,TC39
+javascript/grammar/trailing_commas/trailing_commas_in_dynamic_import,,138,,91,,15,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-call-runtime-semantics-evaluation,TC39
 javascript/grammar/trailing_commas/trailing_commas_in_functions,,52,,58,,10,,false,true,false,,NONE
 javascript/grammar/trailing_commas/trailing_commas_in_object_literals,,1,,1,,3,,false,true,false,,NONE
 javascript/grammar/unicode_escape_sequences,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-unicodeescape,TC39
@@ -14315,7 +14315,7 @@ javascript/operators/greater_than,,1,,1,,1,,false,true,false,https://tc39.es/ecm
 javascript/operators/greater_than_or_equal,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-relational-operators,TC39
 javascript/operators/grouping,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-grouping-operator,TC39
 javascript/operators/import,,67,,63,,11.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls,TC39
-javascript/operators/import/options_parameter,,,,91,,15,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls,TC39
+javascript/operators/import/options_parameter,,138,,91,,15,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls,TC39
 javascript/operators/import/worker_support,,114,,80,,15,,false,true,false,,NONE
 javascript/operators/import_meta,,62,,64,,11.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta,TC39
 javascript/operators/import_meta/resolve,,106,,105,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/webappapis.html#import-meta-resolve,WHATWG
