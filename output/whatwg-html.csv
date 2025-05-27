@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 3089620301,false,Need for programmatic detection of flashing content in <video> elements (accessibility safety concern),https://github.com/whatwg/html/issues/11333,2025-05-25T22:34:53Z,2025-05-25T22:34:53Z,yashrajbharti,addition/proposal|needs implementer interest,0
 3086868160,false,closedby=closerequest should be closedby=close-request,https://github.com/whatwg/html/issues/11331,2025-05-23T16:11:10Z,2025-05-24T01:33:25Z,keithamus,topic: dialog,0
-3084575899,false,Transient activation and focus,https://github.com/whatwg/html/issues/11330,2025-05-22T21:20:51Z,2025-05-26T09:25:39Z,eladalon1983,integration|topic: user activation,0
+3084575899,false,Transient activation and focus,https://github.com/whatwg/html/issues/11330,2025-05-22T21:20:51Z,2025-05-26T21:17:23Z,eladalon1983,integration|topic: user activation,0
 3082849652,false,Upcoming WHATNOT meeting on 2025-05-29,https://github.com/whatwg/html/issues/11328,2025-05-22T10:15:21Z,2025-05-23T14:35:35Z,annevk,agenda+,0
 3078443899,false,Canvas fontStretch should be renamed to fontWidth for CSS parity,https://github.com/whatwg/html/issues/11324,2025-05-20T23:23:55Z,2025-05-21T13:25:59Z,KurtCattiSchmidt,topic: canvas,0
 3078323041,false,"""Single Tab Page"" meta tag",https://github.com/whatwg/html/issues/11322,2025-05-20T21:58:09Z,2025-05-21T19:04:45Z,yuval-a,addition/proposal|needs implementer interest,2
@@ -827,7 +827,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1926931991,false,The spec language for `enumerated attributes` is not consistent,https://github.com/whatwg/html/issues/9832,2023-10-04T20:29:09Z,2025-03-17T08:03:47Z,mfreed7,editorial,2
 1925910247,true,User Activation: siblings are not processed,https://github.com/whatwg/html/issues/9831,2023-10-04T10:37:18Z,2025-04-25T04:21:13Z,CanadaHonk,interop|topic: user activation,0
 1924272839,true,Don't force <details> to be a block.,https://github.com/whatwg/html/issues/9830,2023-10-03T14:27:09Z,2024-06-26T00:57:11Z,emilio,topic: rendering,7
-1923913566,false,Proposed Element : Transcript,https://github.com/whatwg/html/issues/9829,2023-10-03T11:25:04Z,2024-01-08T17:13:23Z,brennanyoung,addition/proposal|needs implementer interest|topic: media|accessibility,3
+1923913566,false,Proposed Element : Transcript,https://github.com/whatwg/html/issues/9829,2023-10-03T11:25:04Z,2024-01-08T17:13:23Z,brennanyoung,addition/proposal|needs implementer interest|topic: media|accessibility,4
 1922743343,true,Navigation: navigate to a fragment updates the navigation api for same-document navigation twice.,https://github.com/whatwg/html/issues/9826,2023-10-02T21:23:00Z,2024-01-09T04:09:00Z,ADKaster,topic: navigation,0
 1921479717,false,Event loop: update the rendering step mismatches implementations in subtle ways,https://github.com/whatwg/html/issues/9824,2023-10-02T08:34:58Z,2023-12-19T20:30:36Z,noamr,topic: event loop,1
 1920922082,true,document's url never gets updated on a fragment navigation,https://github.com/whatwg/html/issues/9820,2023-10-01T19:08:23Z,2023-10-04T03:52:44Z,kalenikaliaksandr,topic: navigation,0
@@ -840,7 +840,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1918809473,false,Meta: Links that take you where you already are,https://github.com/whatwg/html/issues/9811,2023-09-29T08:17:19Z,2023-10-01T13:43:49Z,not-my-profile,,0
 1917630242,false,consider whether document-level language fallback rules make sense in all cases,https://github.com/whatwg/html/issues/9807,2023-09-28T14:06:24Z,2023-10-01T13:44:10Z,dbaron,i18n-tracker|needs tests,0
 1914439377,true,Navigables:  fireNavigateEventOnCommit is unused in apply the history step,https://github.com/whatwg/html/issues/9800,2023-09-26T23:34:38Z,2023-10-17T03:43:27Z,ADKaster,topic: navigation,0
-1914386972,false,Customizable `<select>` element,https://github.com/whatwg/html/issues/9799,2023-09-26T22:24:36Z,2025-04-25T20:41:11Z,josepharhar,addition/proposal|topic: parser|topic: forms|stage: 3|topic: select,132
+1914386972,false,Customizable `<select>` element,https://github.com/whatwg/html/issues/9799,2023-09-26T22:24:36Z,2025-05-26T19:58:44Z,josepharhar,addition/proposal|topic: parser|topic: forms|stage: 3|topic: select,132
 1913709777,true,Should MathML references be to MathML-Core instead of full?,https://github.com/whatwg/html/issues/9795,2023-09-26T14:56:47Z,2024-01-23T14:44:38Z,bkardell,normative change,0
 1913666731,true,Should throw SecurityError when loading a worker with a cross-origin script,https://github.com/whatwg/html/issues/9794,2023-09-26T14:37:14Z,2023-10-24T08:09:33Z,edenchuang,topic: workers|agenda+,0
 1913245177,false,Add `autopause` attribute to media elements to allow automatic pausing of media,https://github.com/whatwg/html/issues/9793,2023-09-26T10:54:58Z,2023-10-12T14:21:04Z,keithamus,needs implementer interest|topic: media,10
@@ -1434,7 +1434,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1325877836,true,Contradiction in CanvasRenderingContext2D.createPattern for images with bad useability,https://github.com/whatwg/html/issues/8149,2022-08-02T13:41:14Z,2022-08-03T15:27:59Z,mysteryDate,,0
 1323964858,false,support title element containing partially translatable text,https://github.com/whatwg/html/issues/8147,2022-08-01T07:33:35Z,2022-08-01T10:52:21Z,Zhang-Junzhi,i18n-tracker,0
 1323769314,false,Clarify the fill algorithm,https://github.com/whatwg/html/issues/8145,2022-08-01T03:51:58Z,2022-08-01T03:52:09Z,Kaiido,topic: canvas,0
-1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2025-05-20T13:38:34Z,noamr,security/privacy|topic: fetch,1
+1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2025-05-26T17:17:22Z,noamr,security/privacy|topic: fetch,1
 1322915430,true,New html element: preview,https://github.com/whatwg/html/issues/8140,2022-07-30T06:29:07Z,2022-07-31T23:22:49Z,ghost,,0
 1321568538,false,Clarify what happens when setting rel content attribute on link element,https://github.com/whatwg/html/issues/8138,2022-07-28T22:45:38Z,2022-09-08T06:59:25Z,rniwa,topic: link,0
 1318917068,false,Which input types should readonly affect constraint validation for?,https://github.com/whatwg/html/issues/8133,2022-07-27T01:40:41Z,2022-08-11T16:30:58Z,nt1m,clarification|topic: forms,0
@@ -2910,7 +2910,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 445055689,false,Top layer research,https://github.com/whatwg/html/issues/4633,2019-05-16T16:41:22Z,2024-09-05T23:31:12Z,domenic,addition/proposal|topic: rendering|topic: popover,19
 444811229,true,"""flow content"" not exported as definition?",https://github.com/whatwg/html/issues/4632,2019-05-16T08:05:25Z,2019-09-19T06:04:19Z,marcoscaceres,,0
 444666582,false,`TimeMarchesOn` won't be ran until media element starts playing or calls seek,https://github.com/whatwg/html/issues/4631,2019-05-15T22:06:45Z,2019-06-03T14:42:02Z,alastor0325,topic: media,0
-444641423,false,Port the ECMAScript Intl API as declarative elements,https://github.com/whatwg/html/issues/4630,2019-05-15T20:56:28Z,2025-05-26T07:04:27Z,phistuck,addition/proposal|needs implementer interest|topic: forms,0
+444641423,false,Port the ECMAScript Intl API as declarative elements,https://github.com/whatwg/html/issues/4630,2019-05-15T20:56:28Z,2025-05-26T19:29:26Z,phistuck,addition/proposal|needs implementer interest|topic: forms,0
 444538360,false,"Use idiomatic terminology for button/legend ""shrink-wrap""",https://github.com/whatwg/html/issues/4628,2019-05-15T16:40:15Z,2019-05-15T16:46:43Z,zcorpan,clarification|topic: rendering,0
 444402556,true,Dispatching invalid at <form>,https://github.com/whatwg/html/issues/4626,2019-05-15T12:10:22Z,2020-05-04T14:19:23Z,annevk,removal/deprecation|good first issue|topic: forms,0
 443998383,false,Something like the hidden attribute but still mapped to the accessibility API,https://github.com/whatwg/html/issues/4623,2019-05-14T15:59:48Z,2020-03-06T17:05:47Z,jonathantneal,addition/proposal|needs implementer interest|accessibility,16
