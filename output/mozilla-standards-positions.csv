@@ -5,7 +5,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3068335144,false,audioLevel for RTCEncodedAudioFrameMetadata,https://github.com/mozilla/standards-positions/issues/1232,2025-05-16T08:33:10Z,2025-05-16T08:33:10Z,guidou,,0
 3060398599,false,Cache sharing for extremely-pervasive scripts,https://github.com/mozilla/standards-positions/issues/1231,2025-05-13T15:05:56Z,2025-05-14T12:43:19Z,jesup,,0
 3057791669,true,"`colorspace` and `alpha` attributes on `<input type=""color"">`",https://github.com/mozilla/standards-positions/issues/1230,2025-05-12T18:28:00Z,2025-05-27T11:49:29Z,zcorpan,position: positive|topic: HTML,2
-3053487040,false,env(preferred-text-scale),https://github.com/mozilla/standards-positions/issues/1229,2025-05-10T01:12:22Z,2025-05-26T05:14:58Z,davidsgrogan,,0
+3053487040,false,env(preferred-text-scale),https://github.com/mozilla/standards-positions/issues/1229,2025-05-10T01:12:22Z,2025-05-30T08:50:04Z,davidsgrogan,,0
 3053388695,true,Send Sec-Purpose header for link type prefetch (rel=prefetch),https://github.com/mozilla/standards-positions/issues/1228,2025-05-09T23:30:36Z,2025-05-12T18:30:11Z,srwei,position: positive,0
 3051249029,false,Extended lifetime shared workers,https://github.com/mozilla/standards-positions/issues/1227,2025-05-09T07:21:33Z,2025-05-09T07:25:24Z,domenic,,0
 3049058142,false,Renaming Storage Access Handle methods for non-cookie Storage Access API,https://github.com/mozilla/standards-positions/issues/1226,2025-05-08T13:45:22Z,2025-05-08T14:43:17Z,aamuley,,0
@@ -56,7 +56,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2821764650,false,safe-area-max-inset-* variables,https://github.com/mozilla/standards-positions/issues/1171,2025-01-30T20:34:59Z,2025-02-11T14:48:21Z,vmpstr,topic: CSS,0
 2815859115,false,Navigation API: deferred commit,https://github.com/mozilla/standards-positions/issues/1169,2025-01-28T14:34:39Z,2025-03-31T17:56:28Z,noamr,venue: W3C CG|venue: WHATWG|topic: API,0
 2815108245,false,CSSOM Lift Restriction on CSS constructed flag for adoptedStylesheets,https://github.com/mozilla/standards-positions/issues/1168,2025-01-28T09:40:16Z,2025-01-28T09:40:16Z,keithamus,,0
-2811265814,false,CSS if() function,https://github.com/mozilla/standards-positions/issues/1167,2025-01-26T01:45:22Z,2025-02-27T20:06:38Z,tursunova,venue: W3C|topic: CSS|team: Layout,6
+2811265814,false,CSS if() function,https://github.com/mozilla/standards-positions/issues/1167,2025-01-26T01:45:22Z,2025-02-27T20:06:38Z,tursunova,venue: W3C|topic: CSS|team: Layout,7
 2795379022,true,Build and Deploy workflow sometimes fails,https://github.com/mozilla/standards-positions/issues/1166,2025-01-17T12:33:57Z,2025-02-27T12:04:53Z,zcorpan,tooling,0
 2793437638,false,Allowing SameSite=None Cookies in First-Party Sandboxed Contexts,https://github.com/mozilla/standards-positions/issues/1165,2025-01-16T18:14:40Z,2025-01-29T20:50:35Z,aamuley,,0
 2788674035,false,Permissions Policy reports for iframes,https://github.com/mozilla/standards-positions/issues/1164,2025-01-15T02:05:51Z,2025-01-15T02:08:12Z,shhnjk,,0
@@ -132,7 +132,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2523514242,true,WebXR Hand Input Module - Level 1,https://github.com/mozilla/standards-positions/issues/1070,2024-09-12T23:16:42Z,2025-04-14T17:43:19Z,alcooper91,position: defer,0
 2520718224,true,PerformanceEventTiming.interactionId,https://github.com/mozilla/standards-positions/issues/1069,2024-09-11T20:37:36Z,2024-11-15T12:11:50Z,sefeng211,position: positive|topic: API|team: Performance,0
 2518120276,true,highlightsFromPoint API,https://github.com/mozilla/standards-positions/issues/1068,2024-09-10T22:56:58Z,2025-04-24T10:43:44Z,stephanieyzhang,position: positive|topic: API|team: DOM,1
-2515549104,true,Writing Assistance APIs,https://github.com/mozilla/standards-positions/issues/1067,2024-09-10T06:44:04Z,2025-05-29T18:57:05Z,domenic,venue: W3C CG|position: negative|topic: API|team: DOM,2
+2515549104,true,Writing Assistance APIs,https://github.com/mozilla/standards-positions/issues/1067,2024-09-10T06:44:04Z,2025-05-30T05:14:50Z,domenic,venue: W3C CG|position: negative|topic: API|team: DOM,2
 2513891984,true,FYI Private State Token API Permissions Policy Default Allowlist Wildcard,https://github.com/mozilla/standards-positions/issues/1066,2024-09-09T12:54:10Z,2024-10-11T18:26:36Z,arichiv,venue: W3C CG|position: negative|concerns: venue|concerns: privacy|concerns: use cases|team: Security,0
 2510793257,true,FedCM as a trust signal for the Storage Access API,https://github.com/mozilla/standards-positions/issues/1065,2024-09-06T16:23:54Z,2024-10-02T00:48:06Z,cfredric,venue: W3C CG|position: positive|topic: API|team: Security,0
 2491538587,false,Realms Initialization Control,https://github.com/mozilla/standards-positions/issues/1062,2024-08-28T09:18:47Z,2024-10-14T23:38:03Z,weizman,venue: W3C CG|team: DOM|team: Security,0
@@ -331,7 +331,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1739178052,false,CSS Values 4: mix(),https://github.com/mozilla/standards-positions/issues/810,2023-06-03T05:22:11Z,2024-05-14T22:06:21Z,CanadaHonk,,0
 1739177281,true,CSS Values 5: random(),https://github.com/mozilla/standards-positions/issues/809,2023-06-03T05:21:03Z,2024-10-14T17:30:19Z,CanadaHonk,position: positive|topic: CSS|team: Layout,0
 1730986492,false,Expectations for standards-positions with only an explainer (pre-spec),https://github.com/mozilla/standards-positions/issues/808,2023-05-29T16:02:56Z,2023-05-31T08:30:23Z,zcorpan,tooling,0
-1726583473,true,Deprecation / Removal of Mutation Events,https://github.com/mozilla/standards-positions/issues/807,2023-05-25T22:54:07Z,2023-09-01T16:02:44Z,mfreed7,position: positive,0
+1726583473,true,Deprecation / Removal of Mutation Events,https://github.com/mozilla/standards-positions/issues/807,2023-05-25T22:54:07Z,2023-09-01T16:02:44Z,mfreed7,position: positive,1
 1724159823,false,Standardizing Security Semantics for Cross-Site Cookies,https://github.com/mozilla/standards-positions/issues/806,2023-05-24T14:39:40Z,2023-05-31T07:48:03Z,DCtheTall,,0
 1717827255,false,Private Aggregation API,https://github.com/mozilla/standards-positions/issues/805,2023-05-19T21:02:26Z,2024-07-30T18:49:30Z,alexmturner,,0
 1716308389,true,Ignore target names which contain both `\n` and `<` characters,https://github.com/mozilla/standards-positions/issues/804,2023-05-18T21:45:55Z,2023-05-24T19:57:08Z,shhnjk,position: positive,0
@@ -630,7 +630,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 674526358,false,Scoped Custom Elements Registries,https://github.com/mozilla/standards-positions/issues/424,2020-08-06T18:45:37Z,2024-01-12T14:31:40Z,leobalter,venue: Proposal,4
 673236693,true,CSS Overflow 3: overflow:clip,https://github.com/mozilla/standards-positions/issues/418,2020-08-05T04:06:10Z,2024-09-13T15:59:21Z,tantek,venue: W3C|position: positive,0
 673229386,false,CSS Images 4: cross-fade(),https://github.com/mozilla/standards-positions/issues/417,2020-08-05T03:42:40Z,2024-12-17T13:47:19Z,tantek,venue: W3C|topic: CSS,0
-668744929,false,Constant bitrate audio encoding with MediaRecorder,https://github.com/mozilla/standards-positions/issues/414,2020-07-30T13:47:07Z,2020-08-04T14:27:19Z,sizeak,venue: W3C,0
+668744929,false,Constant bitrate audio encoding with MediaRecorder,https://github.com/mozilla/standards-positions/issues/414,2020-07-30T13:47:07Z,2025-05-30T07:35:23Z,sizeak,venue: W3C,0
 668134113,false,Make system color keywords compute to themselves,https://github.com/mozilla/standards-positions/issues/413,2020-07-29T20:37:21Z,2020-10-05T21:02:30Z,kbabbitt,venue: W3C,0
 667970382,true,WebXR Layers API,https://github.com/mozilla/standards-positions/issues/412,2020-07-29T16:19:51Z,2025-04-14T17:44:05Z,MortimerGoro,venue: W3C|position: defer,0
 667251335,false,"Pointer Events, azimuthAngle and altitudeAngle",https://github.com/mozilla/standards-positions/issues/411,2020-07-28T17:38:45Z,2020-08-05T08:29:44Z,liviutinta,venue: W3C,0
