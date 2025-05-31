@@ -29,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3050537262,true,"""rules for choosing a navigable"" allows named targeting with noopener",https://github.com/whatwg/html/issues/11291,2025-05-09T02:14:24Z,2025-05-09T13:55:33Z,domenic,topic: frames/navigables/browsing contexts,0
 3049580456,true,Upcoming WHATNOT meeting on 2025-05-15,https://github.com/whatwg/html/issues/11290,2025-05-08T16:53:08Z,2025-05-15T08:49:29Z,past,agenda+,0
 3043719418,false,Filterable `<select>` via `<input>` (native combobox & more),https://github.com/whatwg/html/issues/11288,2025-05-06T18:51:04Z,2025-05-13T16:12:56Z,brandonmcconnell,addition/proposal|needs implementer interest,3
-3043680396,false,"Spec text for naturalWidth and naturalHeight behavior isn't web-compatible, for cases where attributes are missing",https://github.com/whatwg/html/issues/11287,2025-05-06T18:33:58Z,2025-05-08T22:12:55Z,dholbert,topic: img|interop,1
+3043680396,false,"Spec text for naturalWidth and naturalHeight behavior isn't web-compatible, for cases where attributes are missing",https://github.com/whatwg/html/issues/11287,2025-05-06T18:33:58Z,2025-05-30T21:01:01Z,dholbert,topic: img|interop,1
 3043061501,false,Expanding the concept of internal resource links,https://github.com/whatwg/html/issues/11286,2025-05-06T14:34:00Z,2025-05-29T22:28:15Z,noamr,topic: link,1
 3040860886,true,"In `blob/88c7d93d0f87e19beadead68f8d2eb28c503a8a8/source#L56`, `<h1 class=""allcaps"">HTML</h1>` should be `<h1 class=""allcaps""><abbr>HTML</abbr></h1>`.",https://github.com/whatwg/html/issues/11285,2025-05-05T21:21:46Z,2025-05-07T11:41:40Z,RokeJulianLockhart,,0
 3037387887,true,Rules for choosing a navigable use a non-existent `targetNavigable` variable,https://github.com/whatwg/html/issues/11282,2025-05-03T12:40:56Z,2025-05-06T14:00:12Z,AtkinsSJ,,0
@@ -1439,7 +1439,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1325877836,true,Contradiction in CanvasRenderingContext2D.createPattern for images with bad useability,https://github.com/whatwg/html/issues/8149,2022-08-02T13:41:14Z,2022-08-03T15:27:59Z,mysteryDate,,0
 1323964858,false,support title element containing partially translatable text,https://github.com/whatwg/html/issues/8147,2022-08-01T07:33:35Z,2022-08-01T10:52:21Z,Zhang-Junzhi,i18n-tracker,0
 1323769314,false,Clarify the fill algorithm,https://github.com/whatwg/html/issues/8145,2022-08-01T03:51:58Z,2022-08-01T03:52:09Z,Kaiido,topic: canvas,0
-1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2025-05-29T23:42:16Z,noamr,security/privacy|topic: fetch|agenda+,1
+1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2025-05-30T16:47:46Z,noamr,security/privacy|topic: fetch|agenda+,1
 1322915430,true,New html element: preview,https://github.com/whatwg/html/issues/8140,2022-07-30T06:29:07Z,2022-07-31T23:22:49Z,ghost,,0
 1321568538,false,Clarify what happens when setting rel content attribute on link element,https://github.com/whatwg/html/issues/8138,2022-07-28T22:45:38Z,2022-09-08T06:59:25Z,rniwa,topic: link,0
 1318917068,false,Which input types should readonly affect constraint validation for?,https://github.com/whatwg/html/issues/8133,2022-07-27T01:40:41Z,2022-08-11T16:30:58Z,nt1m,clarification|topic: forms,0
@@ -1991,7 +1991,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 874600526,false,legend seems to be recognised/used even when not *first* child,https://github.com/whatwg/html/issues/6645,2021-05-03T13:59:41Z,2021-12-03T08:11:21Z,patrickhlauke,clarification,1
 874511738,true,`id` were mis-typed as `is`,https://github.com/whatwg/html/issues/6644,2021-05-03T12:03:10Z,2021-05-03T13:33:05Z,ianthedev,,0
 872435429,true,Cross-Origin-Embedder-Policy: credentialless,https://github.com/whatwg/html/issues/6637,2021-04-30T12:33:31Z,2021-11-02T12:55:38Z,ArthurSonzogni,topic: cross-origin-embedder-policy,0
-872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2025-01-27T15:21:16Z,asuh,addition/proposal|topic: media,19
+872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2025-05-30T21:30:06Z,asuh,addition/proposal|topic: media,19
 872059164,true,`:active` pseudo-class specification doesn't account for children/labels of disabled form elements,https://github.com/whatwg/html/issues/6635,2021-04-30T02:11:14Z,2022-02-10T19:06:49Z,alystair,topic: rendering|topic: forms,0
 870905892,false,Allow <source> to use <img>'s sizes data as a fallback,https://github.com/whatwg/html/issues/6633,2021-04-29T11:24:34Z,2022-02-04T15:46:29Z,jakearchibald,addition/proposal|topic: img,34
 870188337,true,import.meta.url always uses percent-encodings,https://github.com/whatwg/html/issues/6630,2021-04-28T17:34:16Z,2023-02-24T16:09:38Z,guybedford,,0
@@ -2158,7 +2158,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 773549775,true,What exactly is a Document's origin?,https://github.com/whatwg/html/issues/6244,2020-12-23T07:24:48Z,2020-12-24T22:28:19Z,domfarolino,,0
 773336296,true,Session History: Step 5 of #initialise-the-document-object seems odd,https://github.com/whatwg/html/issues/6243,2020-12-23T00:37:51Z,2020-12-23T03:44:53Z,domfarolino,,0
 771370239,false,A way to load different resources depending on the browser's support for various HTTP versions,https://github.com/whatwg/html/issues/6240,2020-12-19T12:15:11Z,2020-12-26T22:30:12Z,Atulin,,0
-770186836,true,"Escape ""<"" and "">"" in attributes when serializing HTML",https://github.com/whatwg/html/issues/6235,2020-12-17T16:23:48Z,2025-05-20T09:11:03Z,securityMB,normative change|topic: parser|security/privacy|security-tracker,13
+770186836,true,"Escape ""<"" and "">"" in attributes when serializing HTML",https://github.com/whatwg/html/issues/6235,2020-12-17T16:23:48Z,2025-05-30T16:35:33Z,securityMB,normative change|topic: parser|security/privacy|security-tracker,13
 769579263,true,"Update ""intrinsic dimensions"" terminology",https://github.com/whatwg/html/issues/6233,2020-12-17T06:25:35Z,2023-05-26T09:36:22Z,fantasai,topic: rendering|topic: img|integration,0
 769344237,false,Allow form validation on <output> element,https://github.com/whatwg/html/issues/6232,2020-12-16T23:25:31Z,2023-07-21T12:52:03Z,btrem,addition/proposal|needs implementer interest|topic: forms,2
 769198241,false,"Custom Elements definition/styling challenges/use cases ",https://github.com/whatwg/html/issues/6231,2020-12-16T19:08:08Z,2023-04-20T17:29:17Z,bkardell,,0
@@ -3185,7 +3185,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 375895637,false,WebDriver extension for sequential focus navigation,https://github.com/whatwg/html/issues/4151,2018-10-31T10:32:01Z,2019-08-02T13:23:11Z,foolip,topic: focus,0
 375858348,false,Download API,https://github.com/whatwg/html/issues/4148,2018-10-31T08:56:39Z,2023-02-01T23:36:37Z,annevk,addition/proposal|needs implementer interest|topic: navigation,7
 375798306,false,Expose rendered legends to CSS selectors,https://github.com/whatwg/html/issues/4147,2018-10-31T04:53:57Z,2022-10-28T15:45:36Z,gibson042,topic: selectors,0
-375084398,false,Editorial: cleanup postMessage() invocation for dedicated workers,https://github.com/whatwg/html/issues/4140,2018-10-29T15:49:33Z,2025-04-21T23:10:35Z,annevk,good first issue,0
+375084398,false,Editorial: cleanup postMessage() invocation for dedicated workers,https://github.com/whatwg/html/issues/4140,2018-10-29T15:49:33Z,2025-05-30T17:13:50Z,annevk,good first issue,0
 374914986,true,""" void postMessage(any message, optional sequenc...""",https://github.com/whatwg/html/issues/4137,2018-10-29T08:59:12Z,2018-11-02T14:02:58Z,bakulf,,0
 374880129,true,"Comments ",https://github.com/whatwg/html/issues/4136,2018-10-29T06:51:02Z,2018-10-29T08:07:32Z,ghost,,0
 374532082,true,Consider relaxing same-origin requirements on Worker src,https://github.com/whatwg/html/issues/4131,2018-10-26T20:14:40Z,2021-07-29T14:10:00Z,esprehn,topic: workers,0
@@ -3502,7 +3502,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-28T12:48:50Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,161
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,163
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
