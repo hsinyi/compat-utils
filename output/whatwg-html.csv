@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3107546646,false,Add form persistence,https://github.com/whatwg/html/issues/11348,2025-06-01T12:47:13Z,2025-06-01T17:03:31Z,FrameMuse,addition/proposal|needs implementer interest,0
 3102487068,false,What is the relevant global object for the newly created document,https://github.com/whatwg/html/issues/11346,2025-05-30T08:32:40Z,2025-05-30T08:32:40Z,dSalieri,,0
 3097372286,true,Interactive elements allowed inside details?,https://github.com/whatwg/html/issues/11342,2025-05-28T13:20:13Z,2025-05-29T00:41:57Z,Ryuno-Ki,,0
 3095748703,false,WorkerGlobal scope's URL accessed for fetch blob partitioning before being set,https://github.com/whatwg/html/issues/11340,2025-05-28T02:07:54Z,2025-05-30T04:46:14Z,shannonbooth,topic: workers,0
@@ -11,7 +12,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3078443899,false,Canvas fontStretch should be renamed to fontWidth for CSS parity,https://github.com/whatwg/html/issues/11324,2025-05-20T23:23:55Z,2025-05-21T13:25:59Z,KurtCattiSchmidt,topic: canvas,0
 3078323041,false,"""Single Tab Page"" meta tag",https://github.com/whatwg/html/issues/11322,2025-05-20T21:58:09Z,2025-05-21T19:04:45Z,yuval-a,addition/proposal|needs implementer interest,2
 3076085973,false,Error cause underspecified in Structured Clone algorithm,https://github.com/whatwg/html/issues/11321,2025-05-20T08:05:54Z,2025-05-20T09:52:34Z,WebReflection,topic: serialize and transfer,0
-3070972453,false,Native playlist support in HTML for `<audio>` and `<video>`,https://github.com/whatwg/html/issues/11317,2025-05-17T18:07:49Z,2025-05-21T01:43:41Z,jimmywarting,addition/proposal|needs implementer interest,0
+3070972453,false,Native playlist support in HTML for `<audio>` and `<video>`,https://github.com/whatwg/html/issues/11317,2025-05-17T18:07:49Z,2025-05-21T01:43:41Z,jimmywarting,addition/proposal|needs implementer interest,1
 3069423614,false,WorkerGlobalScope policies not fully converted to policy containers,https://github.com/whatwg/html/issues/11316,2025-05-16T16:23:19Z,2025-05-19T05:07:49Z,ADKaster,topic: policy container,0
 3067632295,false,SharedWorker constructor presumes sync access to several global objects while in parallel,https://github.com/whatwg/html/issues/11314,2025-05-16T00:16:51Z,2025-05-16T10:17:38Z,ADKaster,clarification|topic: workers,0
 3067235470,false,Make <img> src and srcset attributes optional if the source set can be generated from previous sibling <source> elements,https://github.com/whatwg/html/issues/11313,2025-05-15T19:47:54Z,2025-05-28T19:36:17Z,johannesodland,document conformance|topic: img,1
@@ -193,7 +194,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2833494241,true,Web Workers importmap field,https://github.com/whatwg/html/issues/11002,2025-02-05T17:03:07Z,2025-02-06T06:21:49Z,WebReflection,,3
 2833216763,true,tuple in #concept-origin-tuple should link to https://infra.spec.whatwg.org/#tuple,https://github.com/whatwg/html/issues/10999,2025-02-05T15:08:43Z,2025-02-06T01:25:34Z,farre,,0
 2833183975,true,Clarification of #obtain-similar-origin-window-agent,https://github.com/whatwg/html/issues/10998,2025-02-05T14:56:03Z,2025-02-26T04:19:18Z,farre,clarification|topic: origin,0
-2831961444,false,A new API for work during unload,https://github.com/whatwg/html/issues/10997,2025-02-05T05:42:14Z,2025-05-21T14:40:53Z,domenic,addition/proposal|needs implementer interest,0
+2831961444,false,A new API for work during unload,https://github.com/whatwg/html/issues/10997,2025-02-05T05:42:14Z,2025-06-01T20:29:51Z,domenic,addition/proposal|needs implementer interest,0
 2831676809,true,"Assertion in ""hide all popovers until"" will fail when changing a showing ""hint"" popover to ""auto""",https://github.com/whatwg/html/issues/10996,2025-02-05T02:04:22Z,2025-04-23T01:18:30Z,Gingeh,topic: popover,1
 2829155769,false,The topmost popover ancestor algorithm is used for manual popovers,https://github.com/whatwg/html/issues/10988,2025-02-04T05:12:29Z,2025-02-07T18:21:41Z,Gingeh,,1
 2826073101,false,Initially open dialog with closedby can be broken,https://github.com/whatwg/html/issues/10982,2025-02-02T22:59:48Z,2025-02-07T21:02:06Z,lukewarlow,topic: dialog,0
@@ -3502,7 +3503,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,166
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,167
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
