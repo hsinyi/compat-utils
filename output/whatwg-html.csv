@@ -6,7 +6,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3095303838,false,Image Elements Should Expose an HTML Attribute or JS Field on Load Fail/Success,https://github.com/whatwg/html/issues/11339,2025-05-27T21:38:45Z,2025-05-27T21:44:08Z,Thoughtscript,addition/proposal|needs implementer interest,0
 3094553650,false,fetch the descendants of and link a module script only handles [[ParseError]] case,https://github.com/whatwg/html/issues/11338,2025-05-27T16:43:45Z,2025-05-29T11:00:59Z,allstarschh,topic: script,0
 3089620301,false,Need for programmatic detection of flashing content in <video> elements (accessibility safety concern),https://github.com/whatwg/html/issues/11333,2025-05-25T22:34:53Z,2025-05-29T12:12:13Z,yashrajbharti,addition/proposal|needs implementer interest,0
-3086868160,false,closedby=closerequest should be closedby=close-request,https://github.com/whatwg/html/issues/11331,2025-05-23T16:11:10Z,2025-05-24T01:33:25Z,keithamus,topic: dialog,0
+3086868160,false,closedby=closerequest should be closedby=close-request,https://github.com/whatwg/html/issues/11331,2025-05-23T16:11:10Z,2025-06-02T19:55:19Z,keithamus,topic: dialog,0
 3084575899,false,Transient activation and focus,https://github.com/whatwg/html/issues/11330,2025-05-22T21:20:51Z,2025-05-27T09:25:35Z,eladalon1983,integration|topic: user activation,0
 3082849652,false,Upcoming WHATNOT meeting on 2025-05-29,https://github.com/whatwg/html/issues/11328,2025-05-22T10:15:21Z,2025-05-29T21:53:24Z,annevk,agenda+,0
 3078443899,false,Canvas fontStretch should be renamed to fontWidth for CSS parity,https://github.com/whatwg/html/issues/11324,2025-05-20T23:23:55Z,2025-05-21T13:25:59Z,KurtCattiSchmidt,topic: canvas,0
@@ -194,7 +194,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2833494241,true,Web Workers importmap field,https://github.com/whatwg/html/issues/11002,2025-02-05T17:03:07Z,2025-02-06T06:21:49Z,WebReflection,,3
 2833216763,true,tuple in #concept-origin-tuple should link to https://infra.spec.whatwg.org/#tuple,https://github.com/whatwg/html/issues/10999,2025-02-05T15:08:43Z,2025-02-06T01:25:34Z,farre,,0
 2833183975,true,Clarification of #obtain-similar-origin-window-agent,https://github.com/whatwg/html/issues/10998,2025-02-05T14:56:03Z,2025-02-26T04:19:18Z,farre,clarification|topic: origin,0
-2831961444,false,A new API for work during unload,https://github.com/whatwg/html/issues/10997,2025-02-05T05:42:14Z,2025-06-02T07:15:44Z,domenic,addition/proposal|needs implementer interest,0
+2831961444,false,A new API for work during unload,https://github.com/whatwg/html/issues/10997,2025-02-05T05:42:14Z,2025-06-03T00:24:25Z,domenic,addition/proposal|needs implementer interest,1
 2831676809,true,"Assertion in ""hide all popovers until"" will fail when changing a showing ""hint"" popover to ""auto""",https://github.com/whatwg/html/issues/10996,2025-02-05T02:04:22Z,2025-04-23T01:18:30Z,Gingeh,topic: popover,1
 2829155769,false,The topmost popover ancestor algorithm is used for manual popovers,https://github.com/whatwg/html/issues/10988,2025-02-04T05:12:29Z,2025-02-07T18:21:41Z,Gingeh,,1
 2826073101,false,Initially open dialog with closedby can be broken,https://github.com/whatwg/html/issues/10982,2025-02-02T22:59:48Z,2025-02-07T21:02:06Z,lukewarlow,topic: dialog,0
@@ -1655,7 +1655,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1128211306,true,Formal complaint: search element standardization,https://github.com/whatwg/html/issues/7594,2022-02-09T08:34:31Z,2022-02-10T10:29:31Z,Kaleidea,,0
 1127384263,true,Add a single radius version of CanvasRenderingContext2D.roundRect,https://github.com/whatwg/html/issues/7592,2022-02-08T15:10:56Z,2022-02-17T21:44:59Z,mysteryDate,addition/proposal|needs implementer interest|topic: canvas,1
 1127115952,false,Consider not exposing ErrorEvent/PromiseRejectionEvent in ShadowRealms,https://github.com/whatwg/html/issues/7591,2022-02-08T11:14:29Z,2024-07-25T08:01:54Z,smaug----,topic: multiple globals|integration,0
-1126672278,false,Deprecate <rp> element,https://github.com/whatwg/html/issues/7590,2022-02-08T01:04:58Z,2023-10-26T11:37:35Z,NagayamaToshiaki,removal/deprecation|document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,4
+1126672278,false,Deprecate <rp> element,https://github.com/whatwg/html/issues/7590,2022-02-08T01:04:58Z,2023-10-26T11:37:35Z,NagayamaToshiaki,removal/deprecation|document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,5
 1126330353,true,"""prepare a script"" could be more precise about documents",https://github.com/whatwg/html/issues/7589,2022-02-07T18:11:42Z,2022-05-18T23:42:17Z,domenic,clarification|topic: script,1
 1125672254,true,Reconsider the `<rb>` element,https://github.com/whatwg/html/issues/7587,2022-02-07T08:36:17Z,2024-03-28T02:24:31Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,1
 1125254296,true,"""Focusing steps"" doesn't initially indicate that ""new focus target"" can be null",https://github.com/whatwg/html/issues/7585,2022-02-06T16:50:25Z,2022-02-07T00:33:18Z,awesomekling,,0
@@ -1992,7 +1992,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 874600526,false,legend seems to be recognised/used even when not *first* child,https://github.com/whatwg/html/issues/6645,2021-05-03T13:59:41Z,2021-12-03T08:11:21Z,patrickhlauke,clarification,1
 874511738,true,`id` were mis-typed as `is`,https://github.com/whatwg/html/issues/6644,2021-05-03T12:03:10Z,2021-05-03T13:33:05Z,ianthedev,,0
 872435429,true,Cross-Origin-Embedder-Policy: credentialless,https://github.com/whatwg/html/issues/6637,2021-04-30T12:33:31Z,2021-11-02T12:55:38Z,ArthurSonzogni,topic: cross-origin-embedder-policy,0
-872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2025-05-30T21:30:06Z,asuh,addition/proposal|topic: media,19
+872131730,false,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2025-06-02T12:48:50Z,asuh,addition/proposal|topic: media,19
 872059164,true,`:active` pseudo-class specification doesn't account for children/labels of disabled form elements,https://github.com/whatwg/html/issues/6635,2021-04-30T02:11:14Z,2022-02-10T19:06:49Z,alystair,topic: rendering|topic: forms,0
 870905892,false,Allow <source> to use <img>'s sizes data as a fallback,https://github.com/whatwg/html/issues/6633,2021-04-29T11:24:34Z,2022-02-04T15:46:29Z,jakearchibald,addition/proposal|topic: img,34
 870188337,true,import.meta.url always uses percent-encodings,https://github.com/whatwg/html/issues/6630,2021-04-28T17:34:16Z,2023-02-24T16:09:38Z,guybedford,,0
