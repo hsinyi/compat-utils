@@ -2478,6 +2478,7 @@ api/GPUCommandEncoder/beginRenderPass/separate_depth_stencil_read-only,,,,123,,,
 api/GPUCommandEncoder/beginRenderPass/timestampWrites,,,,121,,,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpurenderpassdescriptor-timestampwrites,UNKNOWN
 api/GPUCommandEncoder/clearBuffer,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpucommandencoder-clearbuffer,UNKNOWN
 api/GPUCommandEncoder/copyBufferToBuffer,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpucommandencoder-copybuffertobuffer,UNKNOWN
+api/GPUCommandEncoder/copyBufferToBuffer/offset_and_size_parameter_optional,,,,137,,,,true,true,false,,NONE
 api/GPUCommandEncoder/copyBufferToTexture,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpucommandencoder-copybuffertotexture,UNKNOWN
 api/GPUCommandEncoder/copyTextureToBuffer,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpucommandencoder-copytexturetobuffer,UNKNOWN
 api/GPUCommandEncoder/copyTextureToTexture,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpucommandencoder-copytexturetotexture,UNKNOWN
@@ -2515,6 +2516,7 @@ api/GPUComputePipeline/label,,preview,,113,,preview,,true,true,false,https://gpu
 api/GPUDevice,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#gpudevice,UNKNOWN
 api/GPUDevice/adapterInfo,,,,132,,,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpudevice-adapterinfo,UNKNOWN
 api/GPUDevice/createBindGroup,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpudevice-createbindgroup,UNKNOWN
+api/GPUDevice/createBindGroup/descriptor_entries_option_accepts_GPUTextureView_resource,,,,137,,,,true,true,false,,NONE
 api/GPUDevice/createBindGroupLayout,,preview,,113,,preview,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpudevice-createbindgrouplayout,UNKNOWN
 api/GPUDevice/createBindGroupLayout/storageTexture_access_read-write_read-only,,,,124,,,,true,true,false,https://gpuweb.github.io/gpuweb/wgsl/#memory-access-mode,UNKNOWN
 api/GPUDevice/createBindGroupLayout/texture_rgb10a2uint,,,,119,,,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gputextureformat-rgb10a2uint,UNKNOWN
@@ -5645,6 +5647,7 @@ api/Profiler/stop,,,,94,,,,true,true,false,https://wicg.github.io/js-self-profil
 api/Profiler/stopped,,,,94,,,,true,true,false,https://wicg.github.io/js-self-profiling/#dom-profiler-stopped,W3CCG
 api/ProgressEvent,,3.5,,1,,3.1,,false,true,false,https://xhr.spec.whatwg.org/#interface-progressevent,WHATWG
 api/ProgressEvent/ProgressEvent,,18,,16,,6,,false,true,false,https://xhr.spec.whatwg.org/#dom-progressevent-progressevent,WHATWG
+api/ProgressEvent/ProgressEvent/loaded_total_options_accept_double,,138,,136,,preview,,false,true,false,https://xhr.spec.whatwg.org/#dom-progressevent-ProgressEvent,WHATWG
 api/ProgressEvent/lengthComputable,,3.5,,1,,3.1,,false,true,false,https://xhr.spec.whatwg.org/#dom-progressevent-lengthcomputable,WHATWG
 api/ProgressEvent/loaded,,3.5,,1,,3.1,,false,true,false,https://xhr.spec.whatwg.org/#dom-progressevent-loaded,WHATWG
 api/ProgressEvent/total,,3.5,,1,,3.1,,false,true,false,https://xhr.spec.whatwg.org/#dom-progressevent-total,WHATWG
@@ -6517,7 +6520,7 @@ api/SVGComponentTransferFunctionElement/tableValues,,3,,5,,6,,false,true,false,h
 api/SVGComponentTransferFunctionElement/type,,3,,5,,6,,false,true,false,https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-type,W3C
 api/SVGDefsElement,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/struct.html#InterfaceSVGDefsElement,W3C
 api/SVGDescElement,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/struct.html#InterfaceSVGDescElement,W3C
-api/SVGDiscardElement,,136,,34,,,,true,true,false,https://svgwg.org/specs/animations/#InterfaceSVGDiscardElement,W3C
+api/SVGDiscardElement,,136,,34,,,,false,true,true,https://svgwg.org/specs/animations/#InterfaceSVGDiscardElement,W3C
 api/SVGElement,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement,W3C
 api/SVGElement/attributeStyleMap,,,,66,,16.4,,false,true,false,https://drafts.css-houdini.org/css-typed-om/#dom-elementcssinlinestyle-attributestylemap,W3C
 api/SVGElement/autofocus,,110,,79,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus,WHATWG
@@ -11510,6 +11513,7 @@ css/properties/view-timeline-name,,111,"[{""name"":""layout.css.scroll-driven-an
 css/properties/view-transition-class,,preview,,125,,18.2,,false,true,false,https://drafts.csswg.org/css-view-transitions-2/#view-transition-class-prop,W3C
 css/properties/view-transition-class/none,,preview,,125,,18.2,,false,true,false,https://drafts.csswg.org/css-view-transitions-2/#valdef-view-transition-class-none,W3C
 css/properties/view-transition-name,,preview,,111,,18,,false,true,false,https://drafts.csswg.org/css-view-transitions/#view-transition-name-prop,W3C
+css/properties/view-transition-name/match-element,,,,137,,,,true,true,false,https://drafts.csswg.org/css-view-transitions-2/#auto-vt-name,W3C
 css/properties/view-transition-name/none,,preview,,111,,18,,false,true,false,https://drafts.csswg.org/css-view-transitions/#valdef-view-transition-name-none,W3C
 css/properties/visibility,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-display/#visibility,W3C
 css/properties/visibility/collapse,,1,,1,,1.3,,false,true,false,https://drafts.csswg.org/css-display/#valdef-visibility-collapse,W3C
@@ -14531,7 +14535,6 @@ svg/elements/clipPath/systemLanguage,,12,,1,,3,,false,true,false,https://svgwg.o
 svg/elements/defs,,1.5,,1,,3.1,,false,true,false,https://svgwg.org/svg2-draft/struct.html#Head,W3C
 svg/elements/defs/systemLanguage,,12,,1,,3.1,,false,true,false,https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__systemLanguage,W3C
 svg/elements/desc,,1.5,,1,,3.1,,false,true,false,https://svgwg.org/svg2-draft/struct.html#DescriptionAndTitleElements,W3C
-svg/elements/discard,,136,"[{""name"":""svg.discard.enabled"",""type"":""preference"",""value_to_set"":""true""}]",34,,,,true,true,false,https://svgwg.org/specs/animations/#DiscardElement,W3C
 svg/elements/ellipse,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/shapes.html#EllipseElement,W3C
 svg/elements/ellipse/cx,,1.5,,1,,3,,false,true,false,,NONE
 svg/elements/ellipse/cy,,1.5,,1,,3,,false,true,false,,NONE
