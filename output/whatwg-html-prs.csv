@@ -1,9 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3125270898,false,Make ToggleEvent.source nullable,https://github.com/whatwg/html/pull/11362,2025-06-06T16:33:14Z,2025-06-06T23:48:44Z,josepharhar,,0
 3123431513,false,Fix return value checking for unload cancelation,https://github.com/whatwg/html/pull/11359,2025-06-06T02:29:45Z,2025-06-06T09:29:25Z,domenic,topic: navigation,0
 3121032722,true,"[Editorial] Early hints: there is no ""pending"" document, only null.",https://github.com/whatwg/html/pull/11355,2025-06-05T12:28:44Z,2025-06-05T13:48:08Z,noamr,,0
 3113398673,false,Add UA style for contenteditable=plaintext-only,https://github.com/whatwg/html/pull/11351,2025-06-03T10:31:38Z,2025-06-03T11:09:30Z,zcorpan,,0
 3113286788,false,[DRAFT] Add the concept of an event source.,https://github.com/whatwg/html/pull/11349,2025-06-03T10:00:27Z,2025-06-05T11:36:57Z,alice,,0
-3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-05-31T09:00:51Z,alexpetros,,47
+3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-05-31T09:00:51Z,alexpetros,,48
 3101529448,false,Improve CommandEvent and ToggleEvent source retargeting,https://github.com/whatwg/html/pull/11345,2025-05-29T21:27:44Z,2025-06-04T16:03:20Z,josepharhar,,0
 3095959996,true,Revamp script element introduction and conformance,https://github.com/whatwg/html/pull/11341,2025-05-28T04:26:27Z,2025-05-29T05:07:03Z,domenic,clarification|document conformance|topic: script,0
 3094310657,true,Add jump functionality to Blue Robot canvas demo,https://github.com/whatwg/html/pull/11337,2025-05-27T15:14:55Z,2025-05-28T00:58:11Z,Ronitsabhaya75,invalid,0
@@ -11,9 +12,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3092094220,true,Fix missing closing tags in 404.html,https://github.com/whatwg/html/pull/11335,2025-05-26T21:37:59Z,2025-05-26T21:58:08Z,Ronitsabhaya75,invalid,0
 3091074361,true,Integrity-Policy integration,https://github.com/whatwg/html/pull/11334,2025-05-26T12:38:03Z,2025-06-05T03:50:24Z,yoavweiss,integration,0
 3087412386,true,"Added <html>, <head>, <body> tags",https://github.com/whatwg/html/pull/11332,2025-05-23T20:00:21Z,2025-05-24T01:27:10Z,mtanyaa,invalid,1
-3083690821,false,Make it optional to show UI for <a ping>,https://github.com/whatwg/html/pull/11329,2025-05-22T15:02:12Z,2025-06-05T23:29:04Z,zcorpan,security/privacy|topic: hyperlink,1
+3083690821,false,Make it optional to show UI for <a ping>,https://github.com/whatwg/html/pull/11329,2025-05-22T15:02:12Z,2025-06-06T12:53:23Z,zcorpan,security/privacy|topic: hyperlink,2
 3081905911,true,Queue a task to resolve createImageBitmap,https://github.com/whatwg/html/pull/11327,2025-05-22T03:13:44Z,2025-05-26T05:48:50Z,Kaiido,topic: canvas,0
-3079671684,false,Fix dialog closedby and requestClose() (take 2),https://github.com/whatwg/html/pull/11326,2025-05-21T10:03:30Z,2025-05-23T16:41:45Z,keithamus,topic: dialog|topic: close watchers,0
+3079671684,false,Fix dialog closedby and requestClose() (take 2),https://github.com/whatwg/html/pull/11326,2025-05-21T10:03:30Z,2025-06-06T22:02:25Z,keithamus,topic: dialog|topic: close watchers,0
 3079308401,true,"Editorial: add hyphen to ""commandfor-associated""",https://github.com/whatwg/html/pull/11325,2025-05-21T07:59:41Z,2025-05-21T08:17:46Z,foolip,,0
 3071829526,true,"Editorial: add note about updating destination",https://github.com/whatwg/html/pull/11318,2025-05-18T14:29:40Z,2025-05-22T08:51:40Z,TimvdLippe,,0
 3068844533,true,Editorial: Move ImageData next to ImageBitmap,https://github.com/whatwg/html/pull/11315,2025-05-16T12:15:28Z,2025-05-19T07:34:02Z,ccameron-chromium,,0
@@ -158,7 +159,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2816741425,true,Quirk: bare <li> have list-style-position: inside,https://github.com/whatwg/html/pull/10959,2025-01-28T21:22:42Z,2025-03-25T10:11:52Z,zcorpan,,0
 2816164539,true,Fire a load event for javascript: URL non-strings,https://github.com/whatwg/html/pull/10957,2025-01-28T16:24:36Z,2025-05-12T19:47:16Z,zcorpan,topic: navigation|topic: frames/navigables/browsing contexts|topic: javascript: URLs,0
 2814371404,false,Connect HTML spec up to new CSS `interactivity` property,https://github.com/whatwg/html/pull/10956,2025-01-28T00:50:42Z,2025-05-19T19:06:15Z,mfreed7,do not merge yet|topic: style|integration|a11y-tracker|topic: dialog,0
-2813958440,false,Fix dialog closedby and requestClose(),https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-04-25T11:53:21Z,lukewarlow,topic: dialog,0
+2813958440,true,Fix dialog closedby and requestClose(),https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-06-06T21:58:58Z,lukewarlow,topic: dialog,0
 2812761134,true,"Add CanvasColorType, with unorm8 (the default) and float16 support",https://github.com/whatwg/html/pull/10951,2025-01-27T11:28:40Z,2025-02-10T15:18:50Z,ccameron-chromium,addition/proposal|topic: canvas,0
 2812128271,true,Editorial: fix variable name typo in inner navigate event firing,https://github.com/whatwg/html/pull/10950,2025-01-27T05:41:27Z,2025-01-28T01:15:03Z,domenic,,0
 2812054978,true,Fix CSP navigation request blocking,https://github.com/whatwg/html/pull/10949,2025-01-27T04:27:06Z,2025-02-06T01:22:43Z,domenic,topic: navigation,0

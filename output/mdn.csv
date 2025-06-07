@@ -5925,7 +5925,7 @@ api/RTCRtpReceiver/rtcpTransport,,,,59,,,,false,true,true,,NONE
 api/RTCRtpReceiver/track,,34,,59,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtpreceiver-track,W3C
 api/RTCRtpReceiver/transform,,117,,,,15.4,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcrtpsender-transform,W3C
 api/RTCRtpReceiver/transport,,82,,59,,15.4,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpreceiver-transport,W3C
-api/RTCRtpScriptTransform,,117,,,,15.4,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#rtcrtpscripttransform,W3C
+api/RTCRtpScriptTransform,,117,,129,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",15.4,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#rtcrtpscripttransform,W3C
 api/RTCRtpScriptTransform/RTCRtpScriptTransform,,117,,,,15.4,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcrtpscripttransform-rtcrtpscripttransform,W3C
 api/RTCRtpScriptTransformer,,117,,,,15.4,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#rtcrtpscripttransformer,W3C
 api/RTCRtpScriptTransformer/generateKeyFrame,,117,,,,15.4,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcrtpscripttransformer-generatekeyframe,W3C
@@ -10049,7 +10049,7 @@ css/properties/clip-path,,3.5,,55,,9.1,,false,true,false,https://drafts.fxtf.org
 css/properties/clip-path/basic_shape,,54,,23,,7,,false,true,false,https://drafts.csswg.org/css-shapes/#typedef-basic-shape,W3C
 css/properties/clip-path/fill-box,,51,,119,,13.1,,false,true,false,https://drafts.fxtf.org/css-masking/#valdef-clip-path-fill-box,W3C
 css/properties/clip-path/html_elements,,3.5,,23,,7,,false,true,false,,NONE
-css/properties/clip-path/is_animatable,,49,,55,,,,false,true,false,,NONE
+css/properties/clip-path/is_animatable,,49,,55,,12.1,,false,true,false,,NONE
 css/properties/clip-path/path,,71,,88,,13.1,,false,true,false,,NONE
 css/properties/clip-path/stroke-box,,51,,119,,13.1,,false,true,false,https://drafts.fxtf.org/css-masking/#valdef-clip-path-stroke-box,W3C
 css/properties/clip-path/svg_elements,,52,,23,,7,,false,true,false,,NONE
@@ -11177,8 +11177,8 @@ css/properties/ruby-position/alternate,,88,,,,,,true,true,false,,NONE
 css/properties/ruby-position/inter-character,,,,84,,18.2,,false,true,false,,NONE
 css/properties/ruby-position/over,,38,,84,,18.2,,false,true,false,,NONE
 css/properties/ruby-position/under,,38,,84,,18.2,,false,true,false,,NONE
-css/properties/rx,,69,,43,,,,false,true,false,https://svgwg.org/svg2-draft/geometry.html#RX,W3C
-css/properties/ry,,69,,43,,,,false,true,false,https://svgwg.org/svg2-draft/geometry.html#RY,W3C
+css/properties/rx,,69,,43,,17.4,,false,true,false,https://svgwg.org/svg2-draft/geometry.html#RX,W3C
+css/properties/ry,,69,,43,,17.4,,false,true,false,https://svgwg.org/svg2-draft/geometry.html#RY,W3C
 css/properties/scale,,72,,104,,14.1,,false,true,false,https://drafts.csswg.org/css-transforms-2/#individual-transforms,W3C
 css/properties/scale/none,,72,,104,,14.1,,false,true,false,https://drafts.csswg.org/css-transforms-2/#valdef-translate-none,W3C
 css/properties/scroll-behavior,,36,,61,,15.4,,false,true,false,https://drafts.csswg.org/css-overflow/#smooth-scrolling,W3C
@@ -11700,7 +11700,7 @@ css/selectors/link,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multi
 css/selectors/link/not_match_link,,87,,1,,15,,false,true,false,,NONE
 css/selectors/list,,1,,1,,1,,false,true,false,https://drafts.csswg.org/selectors/#grouping,W3C
 css/selectors/marker,,68,,86,,11.1,,false,true,false,https://drafts.csswg.org/css-pseudo/#marker-pseudo,W3C
-css/selectors/marker/animation_and_transition_support,,80,,86,,,,false,true,false,,NONE
+css/selectors/marker/animation_and_transition_support,,80,,86,,14.1,,false,true,false,,NONE
 css/selectors/modal,,103,,105,,15.6,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-modal,WHATWG
 css/selectors/muted,,,,,,15.4,,false,true,false,https://drafts.csswg.org/selectors/#selectordef-muted,W3C
 css/selectors/namespace,,1,,1,,3,,false,true,false,https://drafts.csswg.org/css-namespaces/#declaration,W3C
@@ -12859,7 +12859,7 @@ http/headers/Authorization/authorization_removed_cross_origin,,111,,,,16.1,,fals
 http/headers/Available-Dictionary,,,,130,,,,true,true,false,https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-compression-dictionary#name-available-dictionary,IETF
 http/headers/Cache-Control,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9111.html#field.cache-control,IETF
 http/headers/Cache-Control/immutable,,49,,,,11,,false,true,false,,NONE
-http/headers/Cache-Control/stale-while-revalidate,,68,,75,,14,,false,false,false,,NONE
+http/headers/Cache-Control/stale-while-revalidate,,68,,75,,14,,false,true,false,https://httpwg.org/specs/rfc5861.html#n-the-stale-while-revalidate-cache-control-extension,IETF
 http/headers/Clear-Site-Data,,63,,61,,17,,false,true,false,https://w3c.github.io/webappsec-clear-site-data/#header,W3C
 http/headers/Clear-Site-Data/cache,,138,,65,,17,,false,true,false,https://w3c.github.io/webappsec-clear-site-data/#grammardef-cache,W3C
 http/headers/Clear-Site-Data/clientHints,,,,117,,,,true,true,false,https://w3c.github.io/webappsec-clear-site-data/#grammardef-clienthints,W3C
@@ -13639,7 +13639,7 @@ javascript/builtins/Math/sign,,25,,38,,9,,false,true,false,https://tc39.es/ecma2
 javascript/builtins/Math/sin,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sin,TC39
 javascript/builtins/Math/sinh,,25,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sinh,TC39
 javascript/builtins/Math/sqrt,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sqrt,TC39
-javascript/builtins/Math/sumPrecise,,137,,,,preview,,true,true,false,https://tc39.es/proposal-math-sum/#sec-math.sumprecise,TC39
+javascript/builtins/Math/sumPrecise,,137,,,,18.4,,false,true,false,https://tc39.es/proposal-math-sum/#sec-math.sumprecise,TC39
 javascript/builtins/Math/tan,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.tan,TC39
 javascript/builtins/Math/tanh,,25,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.tanh,TC39
 javascript/builtins/Math/trunc,,25,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.trunc,TC39
@@ -14819,10 +14819,10 @@ svg/elements/tspan/dx,,1.5,,1,,3,,false,true,false,,NONE
 svg/elements/tspan/dy,,1.5,,1,,3,,false,true,false,,NONE
 svg/elements/tspan/fill,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/painting.html#SpecifyingFillPaint,W3C
 svg/elements/tspan/fill/context-fill,,111,,124,,,,false,true,false,https://svgwg.org/svg2-draft/painting.html#SpecifyingPaint,W3C
-svg/elements/tspan/lengthAdjust,,1.5,,1,,3,,false,true,false,,NONE
+svg/elements/tspan/lengthAdjust,,,,1,,3,,false,true,false,,NONE
 svg/elements/tspan/rotate,,1.5,,1,,3,,false,true,false,,NONE
 svg/elements/tspan/systemLanguage,,12,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__systemLanguage,W3C
-svg/elements/tspan/textLength,,1.5,,1,,3,,false,true,false,,NONE
+svg/elements/tspan/textLength,,,,1,,3,,false,true,false,,NONE
 svg/elements/tspan/x,,1.5,,1,,3,,false,true,false,,NONE
 svg/elements/tspan/y,,1.5,,1,,3,,false,true,false,,NONE
 svg/elements/use,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/struct.html#UseElement,W3C
