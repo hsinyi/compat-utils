@@ -1,13 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3147776791,false,Add new strings for notRestoredReason,https://github.com/whatwg/html/pull/11381,2025-06-15T16:30:17Z,2025-06-15T16:38:55Z,lozy219,,0
-3146312180,false,Editorial prep for wrapping algorithms in <div>,https://github.com/whatwg/html/pull/11379,2025-06-14T15:35:34Z,2025-06-14T17:33:49Z,jmdyck,,0
+3147776791,false,Add new strings for notRestoredReason,https://github.com/whatwg/html/pull/11381,2025-06-15T16:30:17Z,2025-06-16T09:55:07Z,lozy219,,0
+3146312180,false,Editorial prep for wrapping algorithms in <div>,https://github.com/whatwg/html/pull/11379,2025-06-14T15:35:34Z,2025-06-16T04:44:45Z,jmdyck,,0
 3131884611,false,COEP/COOP report-to takes endpoint name not URL (typo),https://github.com/whatwg/html/pull/11366,2025-06-10T01:33:49Z,2025-06-10T01:33:49Z,hamishwillee,,0
 3125270898,true,Make ToggleEvent.source nullable,https://github.com/whatwg/html/pull/11362,2025-06-06T16:33:14Z,2025-06-07T01:42:11Z,josepharhar,,0
 3123431513,true,Fix return value checking for unload cancelation,https://github.com/whatwg/html/pull/11359,2025-06-06T02:29:45Z,2025-06-09T04:48:57Z,domenic,topic: navigation,0
 3121032722,true,"[Editorial] Early hints: there is no ""pending"" document, only null.",https://github.com/whatwg/html/pull/11355,2025-06-05T12:28:44Z,2025-06-05T13:48:08Z,noamr,,0
 3113398673,false,Add UA style for contenteditable=plaintext-only,https://github.com/whatwg/html/pull/11351,2025-06-03T10:31:38Z,2025-06-03T11:09:30Z,zcorpan,,0
 3113286788,false,[DRAFT] Add the concept of an event source.,https://github.com/whatwg/html/pull/11349,2025-06-03T10:00:27Z,2025-06-05T11:36:57Z,alice,,0
-3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-06-10T14:37:51Z,alexpetros,addition/proposal|topic: forms,49
+3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-06-10T14:37:51Z,alexpetros,addition/proposal|topic: forms,51
 3101529448,false,Improve CommandEvent and ToggleEvent source retargeting,https://github.com/whatwg/html/pull/11345,2025-05-29T21:27:44Z,2025-06-11T22:10:39Z,josepharhar,,0
 3095959996,true,Revamp script element introduction and conformance,https://github.com/whatwg/html/pull/11341,2025-05-28T04:26:27Z,2025-05-29T05:07:03Z,domenic,clarification|document conformance|topic: script,0
 3094310657,true,Add jump functionality to Blue Robot canvas demo,https://github.com/whatwg/html/pull/11337,2025-05-27T15:14:55Z,2025-05-28T00:58:11Z,Ronitsabhaya75,invalid,0
@@ -31,7 +31,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3050943887,true,Do not allow named window targeting with noopener,https://github.com/whatwg/html/pull/11292,2025-05-09T05:42:03Z,2025-05-09T13:55:34Z,domenic,topic: frames/navigables/browsing contexts,0
 3046378638,false,[DRAFT][WebDriver BiDi] report download complete / canceled,https://github.com/whatwg/html/pull/11289,2025-05-07T15:28:14Z,2025-05-19T12:08:58Z,sadym-chromium,,0
 3039268114,true,Fix variable name in #the-rules-for-choosing-a-navigable,https://github.com/whatwg/html/pull/11284,2025-05-05T10:39:35Z,2025-05-09T15:16:25Z,vinhill,,0
-3038391214,false,Editorial: proper step references in 2.1.1 example,https://github.com/whatwg/html/pull/11283,2025-05-05T01:22:34Z,2025-06-13T19:53:10Z,cnrad,,0
+3038391214,true,Editorial: proper step references in 2.1.1 example,https://github.com/whatwg/html/pull/11283,2025-05-05T01:22:34Z,2025-06-16T03:57:24Z,cnrad,,0
 3033670498,true,Define an optional value and use it for setting dialog returnValue,https://github.com/whatwg/html/pull/11280,2025-05-01T11:29:22Z,2025-05-22T13:57:30Z,lukewarlow,,0
 3032250177,true,[autofocus] Remove cross-origin check step for autofocus candidates,https://github.com/whatwg/html/pull/11277,2025-04-30T19:19:36Z,2025-05-05T17:26:05Z,ffiori,topic: focus,0
 3030344488,true,Editorial: remove some copypasta,https://github.com/whatwg/html/pull/11274,2025-04-30T07:05:11Z,2025-04-30T07:26:02Z,annevk,,0
@@ -1086,7 +1086,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1208607592,true,Create 2023SECURITY.md,https://github.com/whatwg/html/pull/7836,2022-04-19T16:42:20Z,2024-10-08T14:09:21Z,suneel0607,invalid,0
 1208565432,true,Support preconnect in link headers & early hints,https://github.com/whatwg/html/pull/7835,2022-04-19T16:03:38Z,2022-05-04T14:22:14Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1208116307,true,Fix some minor wording issues for media events,https://github.com/whatwg/html/pull/7834,2022-04-19T10:02:59Z,2022-04-19T16:34:56Z,chrisn,,0
-1206367534,true,replace current outline algorithm with one based on heading levels,https://github.com/whatwg/html/pull/7829,2022-04-17T12:53:42Z,2022-08-29T16:18:18Z,stevefaulkner,normative change|document conformance|impacts documentation,70
+1206367534,true,replace current outline algorithm with one based on heading levels,https://github.com/whatwg/html/pull/7829,2022-04-17T12:53:42Z,2025-06-16T12:14:30Z,stevefaulkner,normative change|document conformance|impacts documentation,70
 1206218912,true,Fix superseded Schema,https://github.com/whatwg/html/pull/7826,2022-04-16T21:21:39Z,2022-04-18T15:19:47Z,edent,,0
 1202431693,true,Add a note about why dialog uses show/close,https://github.com/whatwg/html/pull/7817,2022-04-12T21:51:37Z,2022-04-21T16:58:11Z,domenic,clarification|topic: dialog,2
 1202365778,true,Obsolete the <param> element,https://github.com/whatwg/html/pull/7816,2022-04-12T20:40:18Z,2022-06-15T15:34:42Z,domenic,removal/deprecation|document conformance|topic: embed and object|impacts documentation,0
