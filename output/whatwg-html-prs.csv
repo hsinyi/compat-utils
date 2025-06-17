@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3153280203,false,Discourage `document.writeln()` like `document.write()`,https://github.com/whatwg/html/pull/11384,2025-06-17T12:13:20Z,2025-06-17T12:14:50Z,caugner,,0
+3152891981,false,"Reword popover ""invoker"" terminology to ""control"" or ""source"" where appropriate.",https://github.com/whatwg/html/pull/11383,2025-06-17T10:03:49Z,2025-06-17T10:13:51Z,keithamus,editorial,0
 3147776791,false,Add new strings for notRestoredReason,https://github.com/whatwg/html/pull/11381,2025-06-15T16:30:17Z,2025-06-16T16:37:51Z,lozy219,,0
 3146312180,false,Editorial prep for wrapping algorithms in <div>,https://github.com/whatwg/html/pull/11379,2025-06-14T15:35:34Z,2025-06-16T04:44:45Z,jmdyck,,0
 3131884611,false,COEP/COOP report-to takes endpoint name not URL (typo),https://github.com/whatwg/html/pull/11366,2025-06-10T01:33:49Z,2025-06-10T01:33:49Z,hamishwillee,,0
@@ -17,7 +19,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3087412386,true,"Added <html>, <head>, <body> tags",https://github.com/whatwg/html/pull/11332,2025-05-23T20:00:21Z,2025-05-24T01:27:10Z,mtanyaa,invalid,1
 3083690821,false,Make it optional to show UI for <a ping>,https://github.com/whatwg/html/pull/11329,2025-05-22T15:02:12Z,2025-06-11T14:41:45Z,zcorpan,security/privacy|topic: hyperlink,2
 3081905911,true,Queue a task to resolve createImageBitmap,https://github.com/whatwg/html/pull/11327,2025-05-22T03:13:44Z,2025-05-26T05:48:50Z,Kaiido,topic: canvas,0
-3079671684,false,Fix dialog closedby and requestClose() (take 2),https://github.com/whatwg/html/pull/11326,2025-05-21T10:03:30Z,2025-06-06T22:02:25Z,keithamus,topic: dialog|topic: close watchers,0
+3079671684,false,Fix dialog closedby and requestClose() (take 2),https://github.com/whatwg/html/pull/11326,2025-05-21T10:03:30Z,2025-06-17T10:43:21Z,keithamus,topic: dialog|topic: close watchers,0
 3079308401,true,"Editorial: add hyphen to ""commandfor-associated""",https://github.com/whatwg/html/pull/11325,2025-05-21T07:59:41Z,2025-05-21T08:17:46Z,foolip,,0
 3071829526,true,"Editorial: add note about updating destination",https://github.com/whatwg/html/pull/11318,2025-05-18T14:29:40Z,2025-05-22T08:51:40Z,TimvdLippe,,0
 3068844533,true,Editorial: Move ImageData next to ImageBitmap,https://github.com/whatwg/html/pull/11315,2025-05-16T12:15:28Z,2025-05-19T07:34:02Z,ccameron-chromium,,0
@@ -42,7 +44,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3020117673,true,Fix upgrade particular elements within a document again,https://github.com/whatwg/html/pull/11261,2025-04-25T13:45:21Z,2025-04-28T11:44:14Z,annevk,topic: custom elements,1
 3017937529,true,Update file upload control rendering to require a real button element,https://github.com/whatwg/html/pull/11257,2025-04-24T17:15:57Z,2025-05-29T15:53:58Z,lukewarlow,normative change|topic: rendering|topic: forms,0
 3017774725,false,Make command events not composed,https://github.com/whatwg/html/pull/11255,2025-04-24T16:12:03Z,2025-05-29T21:29:59Z,josepharhar,do not merge yet,0
-3013833588,false,Ensure modal dialogs can nest inside of hint popovers,https://github.com/whatwg/html/pull/11253,2025-04-23T12:26:28Z,2025-04-29T08:43:01Z,keithamus,topic: popover,1
+3013833588,false,Ensure modal dialogs can nest inside of hint popovers,https://github.com/whatwg/html/pull/11253,2025-04-23T12:26:28Z,2025-06-17T10:28:40Z,keithamus,topic: popover,1
 3012812450,true,Specify browser UI-initiated navigations better,https://github.com/whatwg/html/pull/11250,2025-04-23T06:13:35Z,2025-05-19T05:02:56Z,domenic,topic: navigation,2
 3012289585,true,Set invoker for popover command attributes,https://github.com/whatwg/html/pull/11248,2025-04-22T22:50:16Z,2025-05-12T08:01:20Z,josepharhar,,1
 3011040184,false,Provide a fallback for validation anchor,https://github.com/whatwg/html/pull/11247,2025-04-22T13:06:50Z,2025-04-22T13:13:23Z,annevk,,0
@@ -261,7 +263,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2550311707,true,Editorial: use 'global' rather than 'this' in timer initialization steps,https://github.com/whatwg/html/pull/10647,2024-09-26T11:31:50Z,2024-09-26T13:34:01Z,Ms2ger,,0
 2548811700,true,MADE THE REQUIRED CHANGES. UPDATING THE CHANGES TO MAKE IT EASIER TO …,https://github.com/whatwg/html/pull/10645,2024-09-25T19:18:39Z,2024-09-25T20:21:39Z,PartishtaP,invalid,0
 2536908236,true,Editorial: replace uses of the Type macro with is-a tests,https://github.com/whatwg/html/pull/10635,2024-09-19T16:57:45Z,2024-10-28T20:37:39Z,michaelficarra,,0
-2534719588,false,Define the `<selectedcontent>` element,https://github.com/whatwg/html/pull/10633,2024-09-18T20:57:38Z,2025-06-11T15:13:21Z,josepharhar,addition/proposal|do not merge yet|topic: forms|topic: select,1
+2534719588,false,Define the `<selectedcontent>` element,https://github.com/whatwg/html/pull/10633,2024-09-18T20:57:38Z,2025-06-17T09:40:09Z,josepharhar,addition/proposal|do not merge yet|topic: forms|topic: select,1
 2533947494,true,Editorial: clean up small parts of sequential focus navigation,https://github.com/whatwg/html/pull/10632,2024-09-18T14:44:25Z,2024-10-02T03:03:19Z,domfarolino,clarification|topic: focus,0
 2533812083,true,Fix missed COOP renames,https://github.com/whatwg/html/pull/10631,2024-09-18T13:50:44Z,2024-09-18T14:39:24Z,AtkinsSJ,,0
 2530855117,false,Add `for` and `class` aliases for `htmlFor` and `className`,https://github.com/whatwg/html/pull/10630,2024-09-17T11:07:36Z,2024-09-17T17:55:18Z,Psychpsyo,,0
@@ -1086,7 +1088,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1208607592,true,Create 2023SECURITY.md,https://github.com/whatwg/html/pull/7836,2022-04-19T16:42:20Z,2024-10-08T14:09:21Z,suneel0607,invalid,0
 1208565432,true,Support preconnect in link headers & early hints,https://github.com/whatwg/html/pull/7835,2022-04-19T16:03:38Z,2022-05-04T14:22:14Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1208116307,true,Fix some minor wording issues for media events,https://github.com/whatwg/html/pull/7834,2022-04-19T10:02:59Z,2022-04-19T16:34:56Z,chrisn,,0
-1206367534,true,replace current outline algorithm with one based on heading levels,https://github.com/whatwg/html/pull/7829,2022-04-17T12:53:42Z,2025-06-16T12:14:30Z,stevefaulkner,normative change|document conformance|impacts documentation,70
+1206367534,true,replace current outline algorithm with one based on heading levels,https://github.com/whatwg/html/pull/7829,2022-04-17T12:53:42Z,2025-06-17T01:05:56Z,stevefaulkner,normative change|document conformance|impacts documentation,70
 1206218912,true,Fix superseded Schema,https://github.com/whatwg/html/pull/7826,2022-04-16T21:21:39Z,2022-04-18T15:19:47Z,edent,,0
 1202431693,true,Add a note about why dialog uses show/close,https://github.com/whatwg/html/pull/7817,2022-04-12T21:51:37Z,2022-04-21T16:58:11Z,domenic,clarification|topic: dialog,2
 1202365778,true,Obsolete the <param> element,https://github.com/whatwg/html/pull/7816,2022-04-12T20:40:18Z,2022-06-15T15:34:42Z,domenic,removal/deprecation|document conformance|topic: embed and object|impacts documentation,0
