@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3153330521,false,Allow 'name' attribute on 'data' element.,https://github.com/whatwg/html/issues/11385,2025-06-17T12:30:27Z,2025-06-17T12:30:27Z,luciandavidescu,addition/proposal|needs implementer interest,0
+3153330521,true,Allow 'name' attribute on 'data' element.,https://github.com/whatwg/html/issues/11385,2025-06-17T12:30:27Z,2025-06-18T09:10:00Z,luciandavidescu,addition/proposal|needs implementer interest,0
 3150166566,false,Behavior of `innerHTML` on element with scoped custom element registry,https://github.com/whatwg/html/issues/11382,2025-06-16T14:07:12Z,2025-06-16T17:50:06Z,sorvell,topic: custom elements,0
 3145079698,false,Upcoming WHATNOT meeting on 2025-06-19,https://github.com/whatwg/html/issues/11378,2025-06-13T23:43:07Z,2025-06-17T18:45:47Z,cwilso,agenda+,0
 3144427080,false,Feature Request: Built-In Web Libraries (BWL) via browser-lib attribute,https://github.com/whatwg/html/issues/11376,2025-06-13T18:35:35Z,2025-06-17T22:54:55Z,TTMTT,addition/proposal|needs implementer interest,0
@@ -21,7 +21,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3115553235,true,Upcoming WHATNOT meeting on 2025-06-05,https://github.com/whatwg/html/issues/11353,2025-06-03T22:01:28Z,2025-06-05T19:30:26Z,cwilso,,0
 3114009575,false,Drop usage of invoker term from spec,https://github.com/whatwg/html/issues/11352,2025-06-03T13:34:51Z,2025-06-03T13:34:51Z,lukewarlow,editorial,4
 3113367137,false,`contenteditable=plaintext-only` should be `white-space: pre-wrap` by default,https://github.com/whatwg/html/issues/11350,2025-06-03T10:23:16Z,2025-06-03T10:23:47Z,zcorpan,topic: rendering|topic: editing,0
-3107546646,false,Add form persistence,https://github.com/whatwg/html/issues/11348,2025-06-01T12:47:13Z,2025-06-17T12:16:36Z,FrameMuse,addition/proposal|needs implementer interest|topic: forms,0
+3107546646,false,Add form persistence,https://github.com/whatwg/html/issues/11348,2025-06-01T12:47:13Z,2025-06-18T11:17:06Z,FrameMuse,addition/proposal|needs implementer interest|topic: forms,0
 3102487068,false,What is the relevant global object for the newly created document,https://github.com/whatwg/html/issues/11346,2025-05-30T08:32:40Z,2025-06-09T23:31:37Z,dSalieri,topic: multiple globals,0
 3097372286,true,Interactive elements allowed inside details?,https://github.com/whatwg/html/issues/11342,2025-05-28T13:20:13Z,2025-05-29T00:41:57Z,Ryuno-Ki,,0
 3095748703,false,WorkerGlobal scope's URL accessed for fetch blob partitioning before being set,https://github.com/whatwg/html/issues/11340,2025-05-28T02:07:54Z,2025-05-30T04:46:14Z,shannonbooth,topic: workers,0
@@ -210,7 +210,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2842327178,false,WheelEvent (or MouseEvent) should specify a device type,https://github.com/whatwg/html/issues/11013,2025-02-10T12:54:15Z,2025-02-10T12:56:07Z,faceless2,addition/proposal|needs implementer interest,0
 2839042841,false,"Popover, modal, and [inert] stylesheet contents should maybe have their own section",https://github.com/whatwg/html/issues/11011,2025-02-07T20:37:05Z,2025-04-20T09:07:45Z,mfreed7,topic: rendering|topic: popover,0
 2838837904,true,Upcoming WHATNOT meeting on 2025-02-13,https://github.com/whatwg/html/issues/11010,2025-02-07T18:41:13Z,2025-02-13T22:30:15Z,past,agenda+,0
-2837242514,false,"Hint popovers can't be the ""topmost open popover ancestor"" of dialog elements",https://github.com/whatwg/html/issues/11008,2025-02-07T05:01:29Z,2025-04-23T12:27:09Z,Gingeh,topic: dialog|topic: popover,2
+2837242514,true,"Hint popovers can't be the ""topmost open popover ancestor"" of dialog elements",https://github.com/whatwg/html/issues/11008,2025-02-07T05:01:29Z,2025-06-18T01:06:30Z,Gingeh,topic: dialog|topic: popover,2
 2836822957,false,"Should the popoverList in ""hide popover stack until"" and ""close entire popover list"" be dynamically updated?",https://github.com/whatwg/html/issues/11007,2025-02-06T23:16:31Z,2025-02-21T15:31:18Z,Gingeh,topic: popover,1
 2834192046,false,ARIA notify iframe restrictions,https://github.com/whatwg/html/issues/11004,2025-02-05T23:50:07Z,2025-04-15T18:34:12Z,aluhrs13,addition/proposal|needs implementer interest,1
 2833494241,true,Web Workers importmap field,https://github.com/whatwg/html/issues/11002,2025-02-05T17:03:07Z,2025-02-06T06:21:49Z,WebReflection,,3
@@ -418,7 +418,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2520517665,false,HTML Integration with ESM Source Phase,https://github.com/whatwg/html/issues/10617,2024-09-11T18:56:32Z,2025-03-21T19:02:05Z,guybedford,,0
 2521171236,true,Small CSS change to spec documentation for ease of use,https://github.com/whatwg/html/issues/10618,2024-09-11T18:11:57Z,2024-10-01T01:17:43Z,FredGandt,good first issue,0
 2518778352,false,Allowing to start cross-document transition immediately,https://github.com/whatwg/html/issues/10616,2024-09-11T07:17:10Z,2024-09-11T07:17:10Z,bakura10,,0
-2518316469,false,Provide an API for getting visible caret position in textarea/input element,https://github.com/whatwg/html/issues/10614,2024-09-11T02:30:18Z,2024-09-30T17:20:43Z,siliu1,,1
+2518316469,false,Provide an API for getting visible caret position in textarea/input element,https://github.com/whatwg/html/issues/10614,2024-09-11T02:30:18Z,2025-06-18T12:09:02Z,siliu1,,1
 2516526415,false,"Automated `window.exportPdf()`,  Leveraging Browser's Print Save As PDF functionality",https://github.com/whatwg/html/issues/10612,2024-09-10T13:43:56Z,2025-02-03T01:53:05Z,apurvaojas,addition/proposal|needs implementer interest,5
 2515236890,true,createImageBitmap's Promise resolving,https://github.com/whatwg/html/issues/10611,2024-09-10T01:59:12Z,2025-05-26T05:48:35Z,Kaiido,topic: canvas|interop,0
 2515213556,false,"HTML spec: section 4.11.1, for `<details>` (`HTMLDetailsElement`), should probably briefly but explicitly state that the element uses shadow DOM, and should probably link to section 15.5.5 to direct readers to further information",https://github.com/whatwg/html/issues/10610,2024-09-10T01:32:54Z,2024-09-19T12:26:56Z,DavidJCobb,clarification|topic: rendering,0
@@ -1599,7 +1599,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1206023411,true,Should Element.id spec reflect what browser actually implement,https://github.com/whatwg/html/issues/7824,2022-04-16T05:48:42Z,2022-04-24T15:41:38Z,greggman,document conformance,5
 1204707421,false,Early hints followup issues,https://github.com/whatwg/html/issues/7823,2022-04-14T15:51:56Z,2022-06-02T12:14:16Z,domenic,,1
 1204498851,false,Add referrerpolicy to media elements (<audio> and <video>),https://github.com/whatwg/html/issues/7822,2022-04-14T12:59:02Z,2022-04-21T17:55:49Z,SegaraRai,addition/proposal|needs implementer interest|topic: media|topic: fetch,2
-1200400029,false,Add support to the window.open function for the Accept header.,https://github.com/whatwg/html/issues/7810,2022-04-11T18:54:19Z,2023-03-17T07:49:04Z,reallybaldrick,addition/proposal|needs implementer interest|topic: navigation,18
+1200400029,false,Add support to the window.open function for the Accept header.,https://github.com/whatwg/html/issues/7810,2022-04-11T18:54:19Z,2023-03-17T07:49:04Z,reallybaldrick,addition/proposal|needs implementer interest|topic: navigation,19
 1200302682,true,Should adding inert attribute force a blur?,https://github.com/whatwg/html/issues/7809,2022-04-11T17:32:47Z,2022-04-11T17:48:14Z,emilio,,0
 1200291987,true,inert on an ancestor of modal dialog,https://github.com/whatwg/html/issues/7808,2022-04-11T17:25:44Z,2024-03-15T18:14:50Z,emilio,topic: dialog,0
 1198621719,false,"""Fetch a classic worker-imported script"" uses fetch's synchronous flag, which is no longer defined",https://github.com/whatwg/html/issues/7804,2022-04-09T14:03:10Z,2022-04-25T13:20:59Z,Lubrsi,topic: workers|topic: fetch|integration,0
