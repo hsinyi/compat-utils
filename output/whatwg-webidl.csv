@@ -8,7 +8,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2976709707,false,Add package-lock.json or explicitly prevent it,https://github.com/whatwg/webidl/issues/1482,2025-04-07T12:31:24Z,2025-04-08T04:05:10Z,saschanaz,,0
 2853007897,true,Consider renaming ByteString to IsomorphicString,https://github.com/whatwg/webidl/issues/1471,2025-02-14T08:33:41Z,2025-04-10T09:40:44Z,annevk,,0
 2847572477,false,Variable in step 9.2 of #wait-for-all should be renamed `fulfillmentHandlerSteps`,https://github.com/whatwg/webidl/issues/1470,2025-02-12T08:53:16Z,2025-02-12T08:56:48Z,farre,,0
-2808387140,false,Bikeshedding help needed for generic over-limit error,https://github.com/whatwg/webidl/issues/1463,2025-01-24T03:05:16Z,2025-01-27T07:49:20Z,domenic,,1
+2808387140,false,Bikeshedding help needed for generic over-limit error,https://github.com/whatwg/webidl/issues/1463,2025-01-24T03:05:16Z,2025-01-27T07:49:20Z,domenic,,0
 2770817201,false,Accept `iterable` and `async iterable` in functions?,https://github.com/whatwg/webidl/issues/1461,2025-01-06T14:46:55Z,2025-01-07T09:00:26Z,twiss,addition/proposal|needs implementer interest,0
 2769131671,false,Legacy platform objects' [[DefineOwnProperty]] refers to possibly nonexistent Desc.[[Value]],https://github.com/whatwg/webidl/issues/1460,2025-01-05T06:05:19Z,2025-01-05T06:05:19Z,0f-0b,,0
 2754898880,false,Add a `disposer` keyword for disposal methods,https://github.com/whatwg/webidl/issues/1459,2024-12-22T23:35:07Z,2025-05-19T21:30:24Z,dead-claudia,addition/proposal|needs implementer interest,1
@@ -36,7 +36,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1996304818,false,Offer [[ArrayBufferDetachKey]] abstraction?,https://github.com/whatwg/webidl/issues/1375,2023-11-16T08:12:00Z,2023-11-16T08:12:00Z,annevk,,0
 1983248471,false,Allowing throwing an exception with a specific message,https://github.com/whatwg/webidl/issues/1374,2023-11-08T10:16:03Z,2024-04-03T21:28:40Z,annevk,addition/proposal|needs implementer interest,0
 1938774243,false,Add `toggle()` and `replace()` methods to `setlike`,https://github.com/whatwg/webidl/issues/1370,2023-10-11T21:30:46Z,2023-10-11T22:56:01Z,josepharhar,,0
-1903913251,true,Named properties object [[GetOwnProperty]] conflicts with class string,https://github.com/whatwg/webidl/issues/1365,2023-09-20T01:01:04Z,2023-09-20T01:06:13Z,ADKaster,,2
+1903913251,true,Named properties object [[GetOwnProperty]] conflicts with class string,https://github.com/whatwg/webidl/issues/1365,2023-09-20T01:01:04Z,2023-09-20T01:06:13Z,ADKaster,,0
 1808255690,false,Definition of {} is slightly ambiguous,https://github.com/whatwg/webidl/issues/1344,2023-07-17T17:38:15Z,2023-10-01T13:14:19Z,jyasskin,,1
 1805634320,false,"Make ObservableArray ""subclassable""",https://github.com/whatwg/webidl/issues/1342,2023-07-14T21:56:57Z,2023-10-01T13:14:51Z,tabatkins,,0
 1785538096,false,Nullable ObservableArray attributes are not supported,https://github.com/whatwg/webidl/issues/1337,2023-07-03T07:40:25Z,2023-10-01T13:15:24Z,domenic,,1
@@ -310,7 +310,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 398627025,true,Intent to use Constants,https://github.com/whatwg/webidl/issues/608,2019-01-13T07:20:11Z,2019-01-29T17:42:26Z,shadulsikder90,,0
 398310324,false,Named properties object / named property visibility algorithm with property on Window.prototype,https://github.com/whatwg/webidl/issues/607,2019-01-11T14:26:09Z,2024-08-25T06:48:26Z,Ms2ger,,0
 392959359,false,Annotations for what may throw,https://github.com/whatwg/webidl/issues/603,2018-12-20T09:31:32Z,2023-03-14T22:30:11Z,littledan,,0
-392208355,true,Consider requiring optional dictionary defaulting explicitly,https://github.com/whatwg/webidl/issues/602,2018-12-18T15:29:49Z,2019-09-29T05:48:13Z,annevk,,3
+392208355,true,Consider requiring optional dictionary defaulting explicitly,https://github.com/whatwg/webidl/issues/602,2018-12-18T15:29:49Z,2019-09-29T05:48:13Z,annevk,,2
 391330808,true,Is step 4 of the effective overload set construction unnecessary?,https://github.com/whatwg/webidl/issues/600,2018-12-15T01:37:36Z,2018-12-17T22:35:25Z,BoCupp-Microsoft,,0
 387174077,false,Declaring modules in WebIDL,https://github.com/whatwg/webidl/issues/592,2018-12-04T08:38:09Z,2019-03-05T18:58:30Z,littledan,jsidl,0
 387128028,true,Check Grammar bison format?,https://github.com/whatwg/webidl/issues/591,2018-12-04T05:36:56Z,2019-08-22T15:51:04Z,AlexMouton,,0
@@ -406,7 +406,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 256500990,false,Informative document cited as normative reference,https://github.com/whatwg/webidl/issues/438,2017-09-10T10:48:36Z,2017-09-11T07:20:51Z,TimothyGu,,0
 256499012,false,Typography: IDL true and false,https://github.com/whatwg/webidl/issues/437,2017-09-10T10:08:35Z,2017-09-10T10:12:08Z,TimothyGu,,0
 255246710,true,Track PR #412,https://github.com/whatwg/webidl/issues/434,2017-09-05T11:33:47Z,2017-09-08T23:52:11Z,tobie,downstream-tracking,0
-254597766,false,Enumeration order of interface members,https://github.com/whatwg/webidl/issues/432,2017-09-01T10:15:50Z,2024-11-21T18:19:50Z,tobie,,4
+254597766,false,Enumeration order of interface members,https://github.com/whatwg/webidl/issues/432,2017-09-01T10:15:50Z,2024-11-21T18:19:50Z,tobie,,2
 254565015,false,No mixin [NoInterfaceObject] usage,https://github.com/whatwg/webidl/issues/430,2017-09-01T08:00:16Z,2021-10-05T09:38:25Z,annevk,,0
 254059112,true,Track PR #425,https://github.com/whatwg/webidl/issues/429,2017-08-30T16:23:11Z,2019-08-22T15:41:00Z,tobie,downstream-tracking,0
 252805372,true,"A ""duplicate Id"" DOM Exception? ",https://github.com/whatwg/webidl/issues/428,2017-08-25T05:56:57Z,2017-08-26T04:50:59Z,marcoscaceres,,0
@@ -550,7 +550,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 175840950,true,"""descriptor"" CSS class collides with CSS styling",https://github.com/whatwg/webidl/issues/168,2016-09-08T19:24:28Z,2017-01-20T11:33:01Z,domenic,⌛ duration:short|good first issue,0
 175833267,true,The spec's wording for where to place operations is broken and confusing,https://github.com/whatwg/webidl/issues/164,2016-09-08T18:51:53Z,2017-10-11T21:14:06Z,domenic,,0
 175645332,true,Typo in converting sequence,https://github.com/whatwg/webidl/issues/161,2016-09-08T01:37:52Z,2016-09-08T08:16:16Z,bashi,,0
-175237127,false,Add a contributing guide,https://github.com/whatwg/webidl/issues/159,2016-09-06T12:42:23Z,2021-04-21T05:43:02Z,tobie,⌛⌛ duration:medium|good first issue,3
+175237127,false,Add a contributing guide,https://github.com/whatwg/webidl/issues/159,2016-09-06T12:42:23Z,2021-04-21T05:43:02Z,tobie,⌛⌛ duration:medium|good first issue,2
 173788971,true,Remove final TYPEDARRAYS reference,https://github.com/whatwg/webidl/issues/157,2016-08-29T14:34:01Z,2016-09-07T21:35:01Z,annevk,⌛ duration:short|good first issue,0
 173279582,true,[Exposed] doesn't seem to work well with partial interfaces,https://github.com/whatwg/webidl/issues/154,2016-08-25T18:43:59Z,2019-01-28T21:17:50Z,domenic,⌛⌛ duration:medium|☕☕ difficulty:medium,0
 173278834,true,[SecureContext] restrictions on interface vs. interface member are confusing,https://github.com/whatwg/webidl/issues/153,2016-08-25T18:40:36Z,2019-08-22T09:57:02Z,domenic,⌛⌛ duration:medium|☕☕ difficulty:medium,0

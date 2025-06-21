@@ -1736,9 +1736,9 @@ api/Document/visibilitychange_event,,56,,62,,14.1,,false,true,false,https://html
 api/Document/vlinkColor,,69,,64,,11,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-vlinkcolor,WHATWG
 api/Document/wasDiscarded,,,,68,,,,true,true,false,https://wicg.github.io/page-lifecycle/#dom-document-wasdiscarded,W3CCG
 api/Document/write,,69,,45,,11,,false,true,true,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-document-write-dev,WHATWG
-api/Document/write/accepts_TrustedHTML,,133,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",86,,preview,,false,true,true,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#document-write-steps,WHATWG
+api/Document/write/accepts_TrustedHTML,,133,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",86,,26,,false,true,true,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#document-write-steps,WHATWG
 api/Document/writeln,,69,,45,,11,,false,true,true,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-document-writeln-dev,WHATWG
-api/Document/writeln/accepts_TrustedHTML,,133,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",86,,preview,,false,true,true,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-document-writeln,WHATWG
+api/Document/writeln/accepts_TrustedHTML,,133,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",86,,26,,false,true,true,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-document-writeln,WHATWG
 api/Document/xmlEncoding,,1,,1,,3,,false,true,true,https://dom.spec.whatwg.org/#dom-document-xmlencoding,WHATWG
 api/Document/xmlStandalone,,1,,1,,3,,false,true,true,https://dom.spec.whatwg.org/#dom-document-xmlstandalone,WHATWG
 api/Document/xmlVersion,,1,,1,,3,,false,true,true,https://dom.spec.whatwg.org/#dom-document-xmlversion,WHATWG
@@ -1972,7 +1972,7 @@ api/Element/hasAttributes,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org
 api/Element/hasPointerCapture,,59,,55,,13,,false,true,false,https://w3c.github.io/pointerevents/#dom-element-haspointercapture,W3C
 api/Element/id,,1,,23,,1,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-element-id①,WHATWG
 api/Element/innerHTML,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-element-innerhtml,WHATWG
-api/Element/innerHTML/accepts_TrustedHTML,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,preview,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-xss-injection-sinks,W3C
+api/Element/innerHTML/accepts_TrustedHTML,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,26,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-xss-injection-sinks,W3C
 api/Element/innerHTML/escapes_lt_gt_in_attributes,,140,,114,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,,true,false,false,,NONE
 api/Element/input_event,,6,,1,,3.1,,false,true,false,https://w3c.github.io/uievents/#event-type-input,W3C
 api/Element/insertAdjacentElement,,48,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#dom-element-insertadjacentelement,WHATWG
@@ -2598,8 +2598,8 @@ api/GPUExternalTexture,,,,113,,26,,false,true,false,https://gpuweb.github.io/gpu
 api/GPUExternalTexture/label,,,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#dom-gpuobjectbase-label,UNKNOWN
 api/GPUInternalError,,,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#gpuinternalerror,UNKNOWN
 api/GPUInternalError/GPUInternalError,,,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#dom-gpuinternalerror-gpuinternalerror,UNKNOWN
-api/GPUOutOfMemoryError,,preview,,113,,18.5,,false,true,false,https://gpuweb.github.io/gpuweb/#gpuoutofmemoryerror,UNKNOWN
-api/GPUOutOfMemoryError/GPUOutOfMemoryError,,preview,,113,,18.5,,false,true,false,https://gpuweb.github.io/gpuweb/#dom-gpuoutofmemoryerror-gpuoutofmemoryerror,UNKNOWN
+api/GPUOutOfMemoryError,,preview,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#gpuoutofmemoryerror,UNKNOWN
+api/GPUOutOfMemoryError/GPUOutOfMemoryError,,preview,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#dom-gpuoutofmemoryerror-gpuoutofmemoryerror,UNKNOWN
 api/GPUPipelineError,,,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#gpupipelineerror,UNKNOWN
 api/GPUPipelineError/GPUPipelineError,,,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#dom-gpupipelineerror-constructor,UNKNOWN
 api/GPUPipelineError/GPUPipelineError/message_optional,,,,113,,26,,false,true,false,,NONE
@@ -2957,7 +2957,7 @@ api/HTMLBodyElement/vLink,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org
 api/HTMLButtonElement,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#htmlbuttonelement,WHATWG
 api/HTMLButtonElement/checkValidity,,4,,4,,5,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-checkvalidity-dev,WHATWG
 api/HTMLButtonElement/command,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",135,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-command,WHATWG
-api/HTMLButtonElement/command/request-close,,,,preview,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",,,true,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-request-close,WHATWG
+api/HTMLButtonElement/command/request-close,,,,139,,preview,,true,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-request-close,WHATWG
 api/HTMLButtonElement/commandForElement,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",135,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-commandforelement,WHATWG
 api/HTMLButtonElement/disabled,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fe-disabled,WHATWG
 api/HTMLButtonElement/form,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fae-form-dev,WHATWG
@@ -3086,7 +3086,7 @@ api/HTMLElement/hidePopover,,125,,114,,17,,false,true,false,https://html.spec.wh
 api/HTMLElement/inert,,112,,102,,15.5,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-inert,WHATWG
 api/HTMLElement/inert/ignores_find_in_page,,120,,124,,,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-inert,WHATWG
 api/HTMLElement/innerText,,45,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#the-innertext-idl-attribute,WHATWG
-api/HTMLElement/innerText/scripts_accept_TrustedScript,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,preview,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-htmlscriptelement-innertext,W3C
+api/HTMLElement/innerText/scripts_accept_TrustedScript,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,26,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-htmlscriptelement-innertext,W3C
 api/HTMLElement/inputMode,,95,,66,,12.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-inputmode,WHATWG
 api/HTMLElement/isContentEditable,,4,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-iscontenteditable-dev,WHATWG
 api/HTMLElement/lang,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-lang,WHATWG
@@ -3590,10 +3590,10 @@ api/HTMLScriptElement/referrerPolicy/no-referrer-when-downgrade,,65,,70,,14,,fal
 api/HTMLScriptElement/referrerPolicy/origin-when-cross-origin,,65,,70,,14,,false,true,false,,NONE
 api/HTMLScriptElement/referrerPolicy/unsafe-url,,65,,70,,14,,false,true,false,,NONE
 api/HTMLScriptElement/src,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/scripting.html#dom-script-src,WHATWG
-api/HTMLScriptElement/src/accepts_TrustedScriptURL,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,preview,,true,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-htmlscriptelement-src,W3C
+api/HTMLScriptElement/src/accepts_TrustedScriptURL,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,26,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-htmlscriptelement-src,W3C
 api/HTMLScriptElement/supports_static,,94,,96,,16,,false,true,false,https://html.spec.whatwg.org/multipage/scripting.html#dom-script-supports-dev,WHATWG
 api/HTMLScriptElement/text,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/scripting.html#dom-script-text-dev,WHATWG
-api/HTMLScriptElement/text/accepts_TrustedScript,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,preview,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-htmlscriptelement-text,W3C
+api/HTMLScriptElement/text/accepts_TrustedScript,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,26,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-htmlscriptelement-text,W3C
 api/HTMLScriptElement/type,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/scripting.html#dom-script-type,WHATWG
 api/HTMLSelectElement,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#htmlselectelement,WHATWG
 api/HTMLSelectElement/add,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-select-add-dev,WHATWG
@@ -4983,7 +4983,7 @@ api/Node/removeChild,,1,,1,,1.1,,false,true,false,https://dom.spec.whatwg.org/#d
 api/Node/replaceChild,,1,,1,,1.1,,false,true,false,https://dom.spec.whatwg.org/#dom-node-replacechild,WHATWG
 api/Node/selectstart_event,,52,,1,,1.3,,false,true,false,https://w3c.github.io/selection-api/#selectstart-event,W3C
 api/Node/textContent,,1,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#dom-node-textcontent,WHATWG
-api/Node/textContent/scripts_accept_TrustedScript,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,preview,,true,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-htmlscriptelement-textcontent,W3C
+api/Node/textContent/scripts_accept_TrustedScript,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,26,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-htmlscriptelement-textcontent,W3C
 api/NodeIterator,,3.5,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#interface-nodeiterator,WHATWG
 api/NodeIterator/detach,,3.5,,1,,3,,false,true,true,https://dom.spec.whatwg.org/#dom-nodeiterator-detach,WHATWG
 api/NodeIterator/filter,,3.5,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#dom-nodeiterator-filter,WHATWG
@@ -7305,7 +7305,7 @@ api/ShadowRoot/getHTML/escapes_lt_gt_in_attributes,,140,,,,preview,,true,false,f
 api/ShadowRoot/getSelection,,,,53,,,,false,false,false,,NONE
 api/ShadowRoot/host,,63,,53,,10,,false,true,false,https://dom.spec.whatwg.org/#dom-shadowroot-host,WHATWG
 api/ShadowRoot/innerHTML,,63,,53,,10,,false,true,false,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-shadowroot-innerhtml,WHATWG
-api/ShadowRoot/innerHTML/accepts_TrustedHTML,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,preview,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-xss-injection-sinks,W3C
+api/ShadowRoot/innerHTML/accepts_TrustedHTML,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,26,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-xss-injection-sinks,W3C
 api/ShadowRoot/innerHTML/escapes_lt_gt_in_attributes,,140,,114,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",preview,,true,false,false,,NONE
 api/ShadowRoot/mode,,63,,53,,10.1,,false,true,false,https://dom.spec.whatwg.org/#dom-shadowroot-mode,WHATWG
 api/ShadowRoot/pictureInPictureElement,,,,69,,13.1,,false,true,false,https://w3c.github.io/picture-in-picture/#ref-for-dom-documentorshadowroot-pictureinpictureelement①⑤,W3C
@@ -9146,9 +9146,9 @@ api/XMLHttpRequestUpload/loadend_event,,5,,18,,4,,false,true,false,https://xhr.s
 api/XMLHttpRequestUpload/loadstart_event,,3.5,,2,,4,,false,true,false,https://xhr.spec.whatwg.org/#event-xhr-loadstart,WHATWG
 api/XMLHttpRequestUpload/progress_event,,3.5,,2,,4,,false,true,false,https://xhr.spec.whatwg.org/#event-xhr-progress,WHATWG
 api/XMLHttpRequestUpload/timeout_event,,12,,29,,7,,false,true,false,https://xhr.spec.whatwg.org/#event-xhr-timeout,WHATWG
-api/XMLSerializer,,1,,1,,3,,false,true,false,https://w3c.github.io/DOM-Parsing/#the-xmlserializer-interface,W3C
-api/XMLSerializer/XMLSerializer,,1,,1,,3,,false,true,false,https://w3c.github.io/DOM-Parsing/#dom-xmlserializer-constructor,W3C
-api/XMLSerializer/serializeToString,,1,,1,,3,,false,true,false,https://w3c.github.io/DOM-Parsing/#dom-xmlserializer-serializetostring,W3C
+api/XMLSerializer,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#xmlserializer,WHATWG
+api/XMLSerializer/XMLSerializer,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-xmlserializer-constructor,WHATWG
+api/XMLSerializer/serializeToString,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-xmlserializer-serializetostring,WHATWG
 api/XPathEvaluator,,1,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#interface-xpathevaluator,WHATWG
 api/XPathEvaluator/XPathEvaluator,,1,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#dom-xpathevaluator-xpathevaluator,WHATWG
 api/XPathEvaluator/createExpression,,1,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#dom-xpathevaluatorbase-createexpression,WHATWG
@@ -9500,11 +9500,11 @@ api/queueMicrotask,,69,,71,,12.1,,false,true,false,https://html.spec.whatwg.org/
 api/reportError,,93,,95,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/webappapis.html#runtime-script-errors,WHATWG
 api/scheduler,,preview,,94,,,,false,true,false,https://wicg.github.io/scheduling-apis/#dom-windoworworkerglobalscope-scheduler,W3CCG
 api/setInterval,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#dom-setinterval-dev,WHATWG
-api/setInterval/code_param_accepts_trustedScript,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,preview,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-xss-injection-sinks,W3C
+api/setInterval/code_param_accepts_trustedScript,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,26,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-xss-injection-sinks,W3C
 api/setInterval/supports_parameters_for_callback,,1,,1,,1.2,,false,true,false,,NONE
 api/setInterval/worker_support,,3.5,,3,,4,,false,true,false,,NONE
 api/setTimeout,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#dom-settimeout-dev,WHATWG
-api/setTimeout/code_param_accepts_trustedScript,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,preview,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-xss-injection-sinks,W3C
+api/setTimeout/code_param_accepts_trustedScript,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,26,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-xss-injection-sinks,W3C
 api/setTimeout/supports_parameters_for_callback,,1,,1,,1.2,,false,true,false,,NONE
 api/setTimeout/worker_support,,3.5,,3,,4,,false,true,false,,NONE
 api/structuredClone,,94,,98,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/structured-data.html#dom-structuredclone,WHATWG
@@ -12957,6 +12957,7 @@ http/headers/Content-Security-Policy/sandbox,,50,,25,,7,,false,true,false,https:
 http/headers/Content-Security-Policy/script-src,,23,,25,,7,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-script-src,W3C
 http/headers/Content-Security-Policy/script-src/external_scripts,,116,,59,,15.6,,false,true,false,https://w3c.github.io/webappsec-csp/#external-hash,W3C
 http/headers/Content-Security-Policy/script-src/inline-speculation-rules,,,,110,,,,true,true,false,https://wicg.github.io/nav-speculation/speculation-rules.html#content-security-policy,W3CCG
+http/headers/Content-Security-Policy/script-src/trusted-types-eval,,,,,,26,,true,true,false,https://w3c.github.io/webappsec-csp/#grammardef-trusted-types-eval,W3C
 http/headers/Content-Security-Policy/script-src/wasm-unsafe-eval,,102,,97,,16,,false,true,false,,NONE
 http/headers/Content-Security-Policy/script-src-attr,,108,,75,,15.4,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-script-src-attr,W3C
 http/headers/Content-Security-Policy/script-src-elem,,108,,75,,15.4,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-script-src-elem,W3C
@@ -13727,7 +13728,7 @@ javascript/builtins/Math/sign,,25,,38,,9,,false,true,false,https://tc39.es/ecma2
 javascript/builtins/Math/sin,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sin,TC39
 javascript/builtins/Math/sinh,,25,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sinh,TC39
 javascript/builtins/Math/sqrt,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sqrt,TC39
-javascript/builtins/Math/sumPrecise,,137,,,,18.4,,false,true,false,https://tc39.es/proposal-math-sum/#sec-math.sumprecise,TC39
+javascript/builtins/Math/sumPrecise,,137,,,,,,false,true,false,https://tc39.es/proposal-math-sum/#sec-math.sumprecise,TC39
 javascript/builtins/Math/tan,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.tan,TC39
 javascript/builtins/Math/tanh,,25,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.tanh,TC39
 javascript/builtins/Math/trunc,,25,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.trunc,TC39
@@ -14364,8 +14365,8 @@ javascript/classes/private_class_fields_in,,90,,91,,15,,false,true,false,https:/
 javascript/classes/private_class_methods,,90,,84,,15,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-lexical-grammar.html#prod-PrivateIdentifier,TC39
 javascript/classes/public_class_fields,,69,,72,,16,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FieldDefinition,TC39
 javascript/classes/static,,45,,49,,9,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions,TC39
-javascript/classes/static_class_fields,,75,,72,,14.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FieldDefinition,TC39
-javascript/classes/static_initialization_blocks,,93,,94,,16.4,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-ClassStaticBlock,TC39
+javascript/classes/static/class_fields,,75,,72,,14.1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-FieldDefinition,TC39
+javascript/classes/static/initialization_blocks,,93,,94,,16.4,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#prod-ClassStaticBlock,TC39
 javascript/functions,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-function-definitions,TC39
 javascript/functions/arguments,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-arguments-exotic-objects,TC39
 javascript/functions/arguments/@@iterator,,46,,52,,9,,false,true,false,https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-createunmappedargumentsobject,TC39
@@ -14691,6 +14692,7 @@ svg/elements/feGaussianBlur/in,,3,,5,,6,,false,true,false,,NONE
 svg/elements/feGaussianBlur/stdDeviation,,3,,5,,6,,false,true,false,https://drafts.fxtf.org/filter-effects/#element-attrdef-fegaussianblur-stddeviation,W3C
 svg/elements/feImage,,3,,5,,6,,false,true,false,https://drafts.fxtf.org/filter-effects/#feImageElement,W3C
 svg/elements/feImage/crossorigin,,114,,,,,,false,true,false,https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height,W3C
+svg/elements/feImage/fetchpriority,,140,,,,,,true,false,false,,NONE
 svg/elements/feImage/href,,3,,5,,6,,false,true,false,https://drafts.fxtf.org/filter-effects/#element-attrdef-feimage-href,W3C
 svg/elements/feImage/preserveAspectRatio,,22,,5,,6,,false,true,false,,NONE
 svg/elements/feImage/xlink_href,,4,,5,,6,,false,true,true,,NONE
@@ -14751,6 +14753,7 @@ svg/elements/g/systemLanguage,,12,,1,,3.1,,false,true,false,https://svgwg.org/sv
 svg/elements/image,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/embedded.html#ImageElement,W3C
 svg/elements/image/crossorigin,,114,,118,,17.2,,false,true,false,https://svgwg.org/svg2-draft/embedded.html#ImageElementCrossoriginAttribute,W3C
 svg/elements/image/decoding,,63,,65,,,,false,true,false,https://html.spec.whatwg.org/multipage/embedded-content.html#dom-img-decoding,WHATWG
+svg/elements/image/fetchpriority,,140,,,,,,true,false,false,,NONE
 svg/elements/image/height,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/geometry.html#Sizing,W3C
 svg/elements/image/href,,51,,50,,12.1,,false,true,false,https://svgwg.org/svg2-draft/embedded.html#ImageElementHrefAttribute,W3C
 svg/elements/image/preserveAspectRatio,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/coords.html#PreserveAspectRatioAttribute,W3C
@@ -14847,6 +14850,7 @@ svg/elements/rect/y,,1.5,,1,,3.1,,false,true,false,,NONE
 svg/elements/script,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/interact.html#ScriptElement,W3C
 svg/elements/script/async,,117,,,,,,true,true,false,,NONE
 svg/elements/script/defer,,117,,,,,,true,true,false,,NONE
+svg/elements/script/fetchpriority,,140,,,,,,true,false,false,,NONE
 svg/elements/script/href,,51,,50,,12.1,,false,true,false,https://svgwg.org/svg2-draft/interact.html#ScriptElementHrefAttribute,W3C
 svg/elements/script/type,,1.5,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/interact.html#ScriptElementTypeAttribute,W3C
 svg/elements/script/type/module,,117,,,,,,true,true,false,,NONE
