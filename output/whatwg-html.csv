@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 3164537289,true,Script Execution Order and `body.className,https://github.com/whatwg/html/issues/11391,2025-06-20T23:26:26Z,2025-06-21T04:55:13Z,Imran-imtiaz48,,0
 3164190894,false,Use a static property instead of ElementInternals.type for declaring native behaviors,https://github.com/whatwg/html/issues/11390,2025-06-20T19:20:25Z,2025-06-22T13:56:06Z,alexkeng,,0
-3163349892,false,Content-Security-Policy pragma directive on meta element does not set self origin on the new policy,https://github.com/whatwg/html/issues/11389,2025-06-20T13:26:11Z,2025-06-22T12:23:18Z,Lubrsi,,0
+3163349892,false,Content-Security-Policy pragma directive on meta element does not set self origin on the new policy,https://github.com/whatwg/html/issues/11389,2025-06-20T13:26:11Z,2025-06-23T10:24:13Z,Lubrsi,security/privacy|topic: script|integration,0
 3158322365,false,Upcoming WHATNOT meeting on 2025-06-26,https://github.com/whatwg/html/issues/11386,2025-06-18T22:20:08Z,2025-06-18T22:20:08Z,cwilso,agenda+,0
 3153330521,true,Allow 'name' attribute on 'data' element.,https://github.com/whatwg/html/issues/11385,2025-06-17T12:30:27Z,2025-06-18T09:10:00Z,luciandavidescu,addition/proposal|needs implementer interest,0
 3150166566,false,Behavior of `innerHTML` on element with scoped custom element registry,https://github.com/whatwg/html/issues/11382,2025-06-16T14:07:12Z,2025-06-16T17:50:06Z,sorvell,topic: custom elements,0
@@ -30,7 +30,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3097372286,true,Interactive elements allowed inside details?,https://github.com/whatwg/html/issues/11342,2025-05-28T13:20:13Z,2025-05-29T00:41:57Z,Ryuno-Ki,,0
 3095748703,false,WorkerGlobal scope's URL accessed for fetch blob partitioning before being set,https://github.com/whatwg/html/issues/11340,2025-05-28T02:07:54Z,2025-05-30T04:46:14Z,shannonbooth,topic: workers,0
 3095303838,false,Image Elements Should Expose an HTML Attribute or JS Field on Load Fail/Success,https://github.com/whatwg/html/issues/11339,2025-05-27T21:38:45Z,2025-06-05T14:00:25Z,Thoughtscript,addition/proposal|needs implementer interest|topic: img,0
-3094553650,false,fetch the descendants of and link a module script only handles [[ParseError]] case,https://github.com/whatwg/html/issues/11338,2025-05-27T16:43:45Z,2025-05-29T11:00:59Z,allstarschh,topic: script,0
+3094553650,false,fetch the descendants of and link a module script only handles [[ParseError]] case,https://github.com/whatwg/html/issues/11338,2025-05-27T16:43:45Z,2025-06-23T09:54:19Z,allstarschh,topic: script,0
 3089620301,false,Need for programmatic detection of flashing content in <video> elements (accessibility safety concern),https://github.com/whatwg/html/issues/11333,2025-05-25T22:34:53Z,2025-06-19T02:45:48Z,yashrajbharti,addition/proposal|needs implementer interest,0
 3086868160,false,closedby=closerequest should be closedby=close-request,https://github.com/whatwg/html/issues/11331,2025-05-23T16:11:10Z,2025-06-02T19:55:19Z,keithamus,topic: dialog,0
 3084575899,false,Transient activation and focus,https://github.com/whatwg/html/issues/11330,2025-05-22T21:20:51Z,2025-06-16T20:13:11Z,eladalon1983,integration|topic: user activation,0
@@ -697,7 +697,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2152371567,false,Clarify context of §4.12.2 the `<noscript>` element,https://github.com/whatwg/html/issues/10159,2024-02-24T15:49:18Z,2024-02-25T23:12:35Z,doriantaylor,,0
 2151600541,false,Add a way to automatically get script license and unminified code (if available),https://github.com/whatwg/html/issues/10158,2024-02-23T18:33:44Z,2024-02-23T18:33:44Z,Orisphera,addition/proposal|needs implementer interest,1
 2149864472,true,Upcoming WHATNOT meeting on 3/7/2024,https://github.com/whatwg/html/issues/10156,2024-02-22T20:14:39Z,2024-03-15T19:00:37Z,past,agenda+,0
-2148780029,false,It's not clear how constraint validation works for FACE if the 'validation anchor' is null,https://github.com/whatwg/html/issues/10155,2024-02-22T10:52:33Z,2025-06-18T14:59:13Z,EdgarChen,topic: custom elements|topic: forms,2
+2148780029,false,It's not clear how constraint validation works for FACE if the 'validation anchor' is null,https://github.com/whatwg/html/issues/10155,2024-02-22T10:52:33Z,2025-06-23T10:10:10Z,EdgarChen,topic: custom elements|topic: forms,2
 2148084073,true,"Allow comment tags (`<!`, `--`, and `>`) to be nested.",https://github.com/whatwg/html/issues/10153,2024-02-22T02:59:53Z,2025-02-13T15:30:53Z,RokeJulianLockhart,addition/proposal|needs implementer interest,4
 2146266830,true,"Different parsing behavior for ""</script>"" and ""</div>"" strings",https://github.com/whatwg/html/issues/10151,2024-02-21T09:39:53Z,2024-02-21T10:14:20Z,ghost,,0
 2144701703,true,Clarification on Element reflected IDL attribute steps,https://github.com/whatwg/html/issues/10150,2024-02-20T15:54:32Z,2024-02-21T17:05:33Z,josepharhar,topic: reflect,0
@@ -1525,7 +1525,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1274264048,true,Clarify how exceptions propagate from the StructuredDeserializeWithTransfer,https://github.com/whatwg/html/issues/8018,2022-06-17T00:12:58Z,2024-12-14T06:30:58Z,junov,normative change|clarification|topic: serialize and transfer,0
 1273821020,false,Add IntersectionObserver target requirement to Event Loops Processing Model,https://github.com/whatwg/html/issues/8015,2022-06-16T16:38:22Z,2022-06-16T16:42:03Z,nathaneliason,integration,0
 1272436173,false,"""top-level origin"" on environments seems incorrect; consider ""top-level site""",https://github.com/whatwg/html/issues/8014,2022-06-15T15:54:00Z,2022-06-15T19:04:34Z,domenic,,0
-1272422076,false,Prevent top navigations without user activation in some circumstances?,https://github.com/whatwg/html/issues/8013,2022-06-15T15:42:34Z,2025-06-18T13:24:06Z,domenic,normative change|topic: navigation|needs tests|needs concrete proposal,1
+1272422076,false,Prevent top navigations without user activation in some circumstances?,https://github.com/whatwg/html/issues/8013,2022-06-15T15:42:34Z,2025-06-23T10:55:57Z,domenic,normative change|topic: navigation|needs tests|needs concrete proposal,1
 1272108125,false,Intervention: Ignore clicks on iframes that have moved in the last 200 ms,https://github.com/whatwg/html/issues/8012,2022-06-15T11:41:35Z,2022-06-15T11:41:35Z,johannhof,,0
 1270571621,true,Surprising parsing behavior with active formatting elements nad PLAINTEXT,https://github.com/whatwg/html/issues/8009,2022-06-14T10:09:53Z,2024-08-14T12:05:36Z,securityMB,clarification|topic: parser,1
 1269909259,false,Add `<img loading=after-layout>` to support auto-`sizes`,https://github.com/whatwg/html/issues/8007,2022-06-13T20:19:22Z,2022-06-14T11:03:39Z,zcorpan,addition/proposal|needs implementer interest|topic: img,5
@@ -2185,7 +2185,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 773549775,true,What exactly is a Document's origin?,https://github.com/whatwg/html/issues/6244,2020-12-23T07:24:48Z,2020-12-24T22:28:19Z,domfarolino,,0
 773336296,true,Session History: Step 5 of #initialise-the-document-object seems odd,https://github.com/whatwg/html/issues/6243,2020-12-23T00:37:51Z,2020-12-23T03:44:53Z,domfarolino,,0
 771370239,false,A way to load different resources depending on the browser's support for various HTTP versions,https://github.com/whatwg/html/issues/6240,2020-12-19T12:15:11Z,2020-12-26T22:30:12Z,Atulin,,0
-770186836,true,"Escape ""<"" and "">"" in attributes when serializing HTML",https://github.com/whatwg/html/issues/6235,2020-12-17T16:23:48Z,2025-06-13T18:51:05Z,securityMB,normative change|topic: parser|security/privacy|security-tracker,15
+770186836,true,"Escape ""<"" and "">"" in attributes when serializing HTML",https://github.com/whatwg/html/issues/6235,2020-12-17T16:23:48Z,2025-06-23T09:30:46Z,securityMB,normative change|topic: parser|security/privacy|security-tracker,15
 769579263,true,"Update ""intrinsic dimensions"" terminology",https://github.com/whatwg/html/issues/6233,2020-12-17T06:25:35Z,2023-05-26T09:36:22Z,fantasai,topic: rendering|topic: img|integration,0
 769344237,false,Allow form validation on <output> element,https://github.com/whatwg/html/issues/6232,2020-12-16T23:25:31Z,2023-07-21T12:52:03Z,btrem,addition/proposal|needs implementer interest|topic: forms,2
 769198241,false,"Custom Elements definition/styling challenges/use cases ",https://github.com/whatwg/html/issues/6231,2020-12-16T19:08:08Z,2023-04-20T17:29:17Z,bkardell,,0
@@ -2777,7 +2777,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 497040604,false,Define a policy container,https://github.com/whatwg/html/issues/4926,2019-09-23T11:28:43Z,2024-12-19T22:28:20Z,annevk,clarification|needs tests|interop|integration|topic: policy container,6
 496594293,true,Design questions about IDREF/Element attribute reflection,https://github.com/whatwg/html/issues/4925,2019-09-21T00:49:20Z,2022-06-30T08:19:53Z,alice,accessibility,0
 496188244,true,COEP mismatches in dedicated workers should block.,https://github.com/whatwg/html/issues/4924,2019-09-20T07:14:14Z,2020-04-20T09:12:18Z,mikewest,topic: cross-origin-embedder-policy,0
-495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2025-05-01T09:22:50Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,232
+495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2025-05-01T09:22:50Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,233
 495810632,false,Allow an extra dimension to the size array for 3D favicon,https://github.com/whatwg/html/issues/4922,2019-09-19T13:46:29Z,2021-01-28T22:05:11Z,rcabanier,addition/proposal|needs implementer interest|topic: link,0
 495595729,true,Decide how to treat CSP sandbox in COOP,https://github.com/whatwg/html/issues/4921,2019-09-19T06:18:06Z,2020-06-24T17:33:26Z,shhnjk,security/privacy|topic: cross-origin-opener-policy,0
 495587240,true,Consider restricting SharedArrayBuffer to same-origin usage,https://github.com/whatwg/html/issues/4920,2019-09-19T05:50:59Z,2019-12-05T15:38:02Z,annevk,addition/proposal|topic: serialize and transfer,0
