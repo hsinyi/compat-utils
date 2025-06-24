@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3169300806,false,should the script end tag steps abort earlier if the microtask checkpoint aborts the parser?,https://github.com/whatwg/html/issues/11393,2025-06-23T19:57:28Z,2025-06-23T19:57:28Z,dbaron,,0
 3164537289,true,Script Execution Order and `body.className,https://github.com/whatwg/html/issues/11391,2025-06-20T23:26:26Z,2025-06-21T04:55:13Z,Imran-imtiaz48,,0
 3164190894,false,Use a static property instead of ElementInternals.type for declaring native behaviors,https://github.com/whatwg/html/issues/11390,2025-06-20T19:20:25Z,2025-06-22T13:56:06Z,alexkeng,,0
 3163349892,false,Content-Security-Policy pragma directive on meta element does not set self origin on the new policy,https://github.com/whatwg/html/issues/11389,2025-06-20T13:26:11Z,2025-06-23T10:24:13Z,Lubrsi,security/privacy|topic: script|integration,0
@@ -1525,7 +1526,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1274264048,true,Clarify how exceptions propagate from the StructuredDeserializeWithTransfer,https://github.com/whatwg/html/issues/8018,2022-06-17T00:12:58Z,2024-12-14T06:30:58Z,junov,normative change|clarification|topic: serialize and transfer,0
 1273821020,false,Add IntersectionObserver target requirement to Event Loops Processing Model,https://github.com/whatwg/html/issues/8015,2022-06-16T16:38:22Z,2022-06-16T16:42:03Z,nathaneliason,integration,0
 1272436173,false,"""top-level origin"" on environments seems incorrect; consider ""top-level site""",https://github.com/whatwg/html/issues/8014,2022-06-15T15:54:00Z,2022-06-15T19:04:34Z,domenic,,0
-1272422076,false,Prevent top navigations without user activation in some circumstances?,https://github.com/whatwg/html/issues/8013,2022-06-15T15:42:34Z,2025-06-23T10:55:57Z,domenic,normative change|topic: navigation|needs tests|needs concrete proposal,1
+1272422076,false,Prevent top navigations without user activation in some circumstances?,https://github.com/whatwg/html/issues/8013,2022-06-15T15:42:34Z,2025-06-23T12:43:32Z,domenic,normative change|topic: navigation|needs tests|needs concrete proposal,1
 1272108125,false,Intervention: Ignore clicks on iframes that have moved in the last 200 ms,https://github.com/whatwg/html/issues/8012,2022-06-15T11:41:35Z,2022-06-15T11:41:35Z,johannhof,,0
 1270571621,true,Surprising parsing behavior with active formatting elements nad PLAINTEXT,https://github.com/whatwg/html/issues/8009,2022-06-14T10:09:53Z,2024-08-14T12:05:36Z,securityMB,clarification|topic: parser,1
 1269909259,false,Add `<img loading=after-layout>` to support auto-`sizes`,https://github.com/whatwg/html/issues/8007,2022-06-13T20:19:22Z,2022-06-14T11:03:39Z,zcorpan,addition/proposal|needs implementer interest|topic: img,5
@@ -1828,7 +1829,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1019093334,true,Revisit markup for “this”?,https://github.com/whatwg/html/issues/7172,2021-10-06T19:51:07Z,2021-10-07T06:04:41Z,j9t,,0
 1019075059,true,Suggestion: rephrase or quote “perform the fetch” hook,https://github.com/whatwg/html/issues/7171,2021-10-06T19:41:22Z,2023-02-24T16:05:55Z,j9t,,0
 1019033398,true,Clarify or remove note on units of related browsing contexts and units of related similar-origin browsing contexts,https://github.com/whatwg/html/issues/7169,2021-10-06T19:19:32Z,2024-01-28T09:10:33Z,j9t,,0
-1018329555,false,Behavior of disabled with input type=radio and option is unclear,https://github.com/whatwg/html/issues/7168,2021-10-06T13:29:24Z,2024-04-24T09:59:58Z,JAWS-test,,1
+1018329555,false,Behavior of disabled with input type=radio and option is unclear,https://github.com/whatwg/html/issues/7168,2021-10-06T13:29:24Z,2025-06-23T23:40:22Z,JAWS-test,,1
 1017377535,true,The safearea HTML tag and attribute,https://github.com/whatwg/html/issues/7164,2021-10-06T03:51:20Z,2021-10-07T01:46:46Z,doctoresam1,,1
 1016826042,true,Generalizations in “States of the `type` attribute”,https://github.com/whatwg/html/issues/7162,2021-10-05T20:50:40Z,2021-10-07T06:08:56Z,j9t,,0
 1016815287,true,Is “event handler event type” a necessary distinction from “event type”?,https://github.com/whatwg/html/issues/7161,2021-10-05T20:43:53Z,2021-10-07T06:37:32Z,j9t,,0
@@ -2185,7 +2186,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 773549775,true,What exactly is a Document's origin?,https://github.com/whatwg/html/issues/6244,2020-12-23T07:24:48Z,2020-12-24T22:28:19Z,domfarolino,,0
 773336296,true,Session History: Step 5 of #initialise-the-document-object seems odd,https://github.com/whatwg/html/issues/6243,2020-12-23T00:37:51Z,2020-12-23T03:44:53Z,domfarolino,,0
 771370239,false,A way to load different resources depending on the browser's support for various HTTP versions,https://github.com/whatwg/html/issues/6240,2020-12-19T12:15:11Z,2020-12-26T22:30:12Z,Atulin,,0
-770186836,true,"Escape ""<"" and "">"" in attributes when serializing HTML",https://github.com/whatwg/html/issues/6235,2020-12-17T16:23:48Z,2025-06-23T09:30:46Z,securityMB,normative change|topic: parser|security/privacy|security-tracker,15
+770186836,true,"Escape ""<"" and "">"" in attributes when serializing HTML",https://github.com/whatwg/html/issues/6235,2020-12-17T16:23:48Z,2025-06-23T15:22:28Z,securityMB,normative change|topic: parser|security/privacy|security-tracker,15
 769579263,true,"Update ""intrinsic dimensions"" terminology",https://github.com/whatwg/html/issues/6233,2020-12-17T06:25:35Z,2023-05-26T09:36:22Z,fantasai,topic: rendering|topic: img|integration,0
 769344237,false,Allow form validation on <output> element,https://github.com/whatwg/html/issues/6232,2020-12-16T23:25:31Z,2023-07-21T12:52:03Z,btrem,addition/proposal|needs implementer interest|topic: forms,2
 769198241,false,"Custom Elements definition/styling challenges/use cases ",https://github.com/whatwg/html/issues/6231,2020-12-16T19:08:08Z,2023-04-20T17:29:17Z,bkardell,,0
@@ -3529,7 +3530,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,172
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,174
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
