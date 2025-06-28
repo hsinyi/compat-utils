@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3184492238,false,should canvas `.toBlob()`/`.convertToBlob()` work without a rendering context?,https://github.com/whatwg/html/issues/11417,2025-06-28T03:09:04Z,2025-06-28T11:17:29Z,zamfofex,needs tests,0
 3182864489,false,Add showValidationMessage() method for validation without focus management,https://github.com/whatwg/html/issues/11416,2025-06-27T13:34:05Z,2025-06-27T13:34:05Z,Hideki-Kobayashi,addition/proposal|needs implementer interest,0
 3182780284,true,"The spec inconsistently uses ""0"" or ""zero"".",https://github.com/whatwg/html/issues/11414,2025-06-27T13:07:14Z,2025-06-27T18:07:06Z,keithamus,clarification,0
 3182194053,false,Specify :heading and :heading() selectors,https://github.com/whatwg/html/issues/11412,2025-06-27T09:56:02Z,2025-06-27T09:59:51Z,zcorpan,addition/proposal|topic: selectors,1
@@ -961,7 +962,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1856567331,false,<teleport> element,https://github.com/whatwg/html/issues/9614,2023-08-18T11:32:18Z,2024-08-23T10:21:28Z,CyberAP,addition/proposal|needs concrete proposal,1
 1853590814,false,Meta: Get info on authors sentiment and awareness on various HTML features,https://github.com/whatwg/html/issues/9611,2023-08-16T16:47:09Z,2023-10-01T15:29:12Z,LeaVerou,meta,0
 1852163330,true,Introduce allow-cache for iframe sandbox attribute,https://github.com/whatwg/html/issues/9610,2023-08-15T21:37:45Z,2023-08-24T15:33:08Z,antja0,addition/proposal,0
-1851137986,true,Allow creating Custom Elements exclusively via HTML,https://github.com/whatwg/html/issues/9608,2023-08-15T09:18:29Z,2023-08-18T14:45:27Z,aartaka,,0
+1851137986,true,Allow creating Custom Elements exclusively via HTML,https://github.com/whatwg/html/issues/9608,2023-08-15T09:18:29Z,2023-08-18T14:45:27Z,aartaka,,1
 1848694977,false,Titling levels for site vs. page titles in the post-outline-algorithm world,https://github.com/whatwg/html/issues/9604,2023-08-13T18:35:39Z,2023-10-01T15:29:44Z,dpk,clarification|document conformance,0
 1847227178,true,"Incorrect fieldname meaning for ""sex""",https://github.com/whatwg/html/issues/9600,2023-08-11T18:05:52Z,2023-08-18T08:37:17Z,pavankjadda,,2
 1846016949,true,Upcoming HTML standard issue triage meeting on 8/24/2023,https://github.com/whatwg/html/issues/9598,2023-08-10T23:31:30Z,2023-08-23T23:01:44Z,past,agenda+,0
@@ -1766,7 +1767,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1073943544,false,Focus restoration for same-document/fragment back-forward navigation,https://github.com/whatwg/html/issues/7397,2021-12-08T02:30:02Z,2022-08-08T07:17:42Z,WestonThayer,addition/proposal|topic: history|interop|topic: focus,2
 1072970331,false,"Meta: specs using ""page visibility change steps""",https://github.com/whatwg/html/issues/7396,2021-12-07T06:32:05Z,2021-12-07T06:33:00Z,marcoscaceres,,0
 1072436933,false,<select> dynamic <option> insertion doesn't match browser reality,https://github.com/whatwg/html/issues/7395,2021-12-06T17:56:35Z,2021-12-13T20:18:49Z,dandclark,topic: forms,0
-1071265898,false,"Element request: `<h>` to reconcile heading levels, outlines, and components",https://github.com/whatwg/html/issues/7390,2021-12-04T18:17:36Z,2025-05-06T11:37:37Z,kellytk,addition/proposal|needs implementer interest,22
+1071265898,false,"Element request: `<h>` to reconcile heading levels, outlines, and components",https://github.com/whatwg/html/issues/7390,2021-12-04T18:17:36Z,2025-06-28T08:50:43Z,kellytk,addition/proposal|needs implementer interest,22
 1071222545,false,Support link modulepreload for import assertions,https://github.com/whatwg/html/issues/7388,2021-12-04T14:41:49Z,2021-12-21T21:04:51Z,uasan,addition/proposal|needs implementer interest|topic: link,1
 1071104407,true,"js drawImage ",https://github.com/whatwg/html/issues/7387,2021-12-04T03:00:23Z,2021-12-04T11:57:32Z,Ali-Hassan-Ali,,0
 1071062389,true,What should happen when setting `location.hash = location.hash`?,https://github.com/whatwg/html/issues/7386,2021-12-04T00:07:21Z,2022-01-12T17:14:26Z,cpeterso,topic: navigation|interop,0
@@ -2611,7 +2612,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 563250043,false,First-party-origin History isolation,https://github.com/whatwg/html/issues/5272,2020-02-11T14:37:15Z,2020-02-11T15:34:17Z,annevk,topic: history,0
 562874426,true,Describe the algorithm used to parse the type attribute for link elements,https://github.com/whatwg/html/issues/5270,2020-02-10T22:45:48Z,2020-02-11T10:40:15Z,ehsan,,0
 562867622,true,Two fields with the same name “type” for SharedWorkerGlobalScope,https://github.com/whatwg/html/issues/5269,2020-02-10T22:29:08Z,2020-02-12T10:04:47Z,triple-underscore,topic: workers,2
-562732364,false,"""determine the value of a named property"" should not imply a new object each time",https://github.com/whatwg/html/issues/5266,2020-02-10T18:05:04Z,2025-01-06T12:10:24Z,bzbarsky,good first issue|topic: forms|needs tests,0
+562732364,false,"""determine the value of a named property"" should not imply a new object each time",https://github.com/whatwg/html/issues/5266,2020-02-10T18:05:04Z,2025-06-28T12:15:49Z,bzbarsky,good first issue|topic: forms|needs tests,0
 562079088,true,Is the initial submission value of a form-associated custom element really supposed to be null?,https://github.com/whatwg/html/issues/5263,2020-02-08T21:14:52Z,2020-02-14T01:32:20Z,pshaughn,compat|topic: forms,0
 561832471,true,examples of focusable area should include tabindex=-1 (not just tabindex >= 0),https://github.com/whatwg/html/issues/5262,2020-02-07T19:40:20Z,2020-02-10T19:38:28Z,carmacleod,topic: focus,0
 561143504,true,Proposal: Reporting API for Cross-Origin-Opener-Policy,https://github.com/whatwg/html/issues/5260,2020-02-06T16:57:24Z,2020-11-19T21:36:12Z,camillelamy,addition/proposal|topic: cross-origin-opener-policy,1
