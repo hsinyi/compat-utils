@@ -58,7 +58,7 @@ api/Animation/finish,,48,,75,,13.1,,false,true,false,https://drafts.csswg.org/we
 api/Animation/finish_event,,48,,75,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-onfinish,W3C
 api/Animation/finished,,63,,84,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-finished,W3C
 api/Animation/id,,48,,75,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-id,W3C
-api/Animation/overallProgress,,,,133,,,,true,true,false,https://drafts.csswg.org/web-animations-2/#dom-animation-overallprogress,W3C
+api/Animation/overallProgress,,preview,,133,,,,false,true,false,https://drafts.csswg.org/web-animations-2/#dom-animation-overallprogress,W3C
 api/Animation/pause,,48,,75,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-pause,W3C
 api/Animation/pending,,59,,76,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-pending,W3C
 api/Animation/persist,,75,,84,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-persist,W3C
@@ -1221,6 +1221,7 @@ api/CredentialsContainer/create/publicKey_option/extensions/largeBlob,,139,,113,
 api/CredentialsContainer/create/publicKey_option/extensions/minPinLength,,120,,98,,,,false,true,false,,NONE
 api/CredentialsContainer/create/publicKey_option/extensions/payment,,,,95,,,,false,true,false,https://w3c.github.io/secure-payment-confirmation/#sctn-payment-extension-registration,W3C
 api/CredentialsContainer/create/publicKey_option/extensions/prf,,139,,116,,,,false,true,false,https://w3c.github.io/webauthn/#prf-extension,W3C
+api/CredentialsContainer/create/publicKey_option/hints,,,,128,,,,true,true,false,https://w3c.github.io/webauthn/#enum-hints,W3C
 api/CredentialsContainer/create/publicKey_option/requireResidentKey,,,,89,,,,true,true,false,https://w3c.github.io/webauthn/#dom-authenticatorselectioncriteria-requireresidentkey,W3C
 api/CredentialsContainer/create/publicKey_option/residentKey,,114,,89,,,,false,true,false,https://w3c.github.io/webauthn/#dom-authenticatorselectioncriteria-residentkey,W3C
 api/CredentialsContainer/get,,60,,51,,13,,false,true,false,https://w3c.github.io/webappsec-credential-management/#dom-credentialscontainer-get,W3C
@@ -1234,6 +1235,7 @@ api/CredentialsContainer/get/publicKey_option/extensions,,60,,67,,13,,false,true
 api/CredentialsContainer/get/publicKey_option/extensions/appid,,60,,67,,13,,false,true,false,https://w3c.github.io/webauthn/#sctn-appid-extension,W3C
 api/CredentialsContainer/get/publicKey_option/extensions/largeBlob,,139,,113,,,,false,true,false,https://w3c.github.io/webauthn/#sctn-large-blob-extension,W3C
 api/CredentialsContainer/get/publicKey_option/extensions/prf,,139,,116,,,,false,true,false,https://w3c.github.io/webauthn/#prf-extension,W3C
+api/CredentialsContainer/get/publicKey_option/hints,,,,128,,,,true,true,false,https://w3c.github.io/webauthn/#enum-hints,W3C
 api/CredentialsContainer/preventSilentAccess,,60,,60,,17,,false,true,false,https://w3c.github.io/webappsec-credential-management/#dom-credentialscontainer-preventsilentaccess,W3C
 api/CredentialsContainer/store,,60,,51,,13,,false,true,false,https://w3c.github.io/webappsec-credential-management/#dom-credentialscontainer-store,W3C
 api/CropTarget,,,,104,,,,true,true,false,https://w3c.github.io/mediacapture-region/#crop-target,W3C
@@ -10684,7 +10686,7 @@ css/properties/line-break/auto,,69,,25,,7,,false,true,false,https://drafts.csswg
 css/properties/line-break/loose,,69,,25,,8,,false,true,false,https://drafts.csswg.org/css-text/#valdef-line-break-loose,W3C
 css/properties/line-break/normal,,69,,1,,2,,false,true,false,https://drafts.csswg.org/css-text/#valdef-line-break-normal,W3C
 css/properties/line-break/strict,,69,,25,,8,,false,true,false,https://drafts.csswg.org/css-text/#valdef-line-break-strict,W3C
-css/properties/line-clamp,,68,,6,,18.2,,false,true,false,https://drafts.csswg.org/css-overflow-4/#propdef-line-clamp,W3C
+css/properties/line-clamp,,68,,6,,5,,false,true,false,https://drafts.csswg.org/css-overflow-4/#propdef-line-clamp,W3C
 css/properties/line-clamp/none,,68,,,,18.2,,false,true,false,,NONE
 css/properties/line-height,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-inline/#line-height-property,W3C
 css/properties/line-height/normal,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-inline/#valdef-line-height-normal,W3C
@@ -12055,6 +12057,7 @@ css/types/position,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-value
 css/types/position/four_value_syntax,,13,,25,,7,,false,true,false,,NONE
 css/types/position/keyword_value_syntax,,1,,1,,1,,false,true,false,,NONE
 css/types/pow,,118,,120,,15.4,,false,true,false,https://drafts.csswg.org/css-values/#exponent-funcs,W3C
+css/types/progress,,,,138,,,,true,true,false,https://drafts.csswg.org/css-values-5/#progress,W3C
 css/types/ratio,,3.5,,3,,5,,false,true,false,https://drafts.csswg.org/mediaqueries/#values,W3C
 css/types/ratio/number_value,,78,,,,,,true,true,false,,NONE
 css/types/ray,,122,,116,,16,,false,true,false,https://drafts.fxtf.org/motion/#ray-function,W3C
@@ -13041,7 +13044,7 @@ http/headers/Integrity-Policy-Report-Only,,,,138,,,,false,true,false,https://w3c
 http/headers/Keep-Alive,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9112.html#compatibility.with.http.1.0.persistent.connections,IETF
 http/headers/Last-Modified,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.last-modified,IETF
 http/headers/Link,,120,,103,,17,,false,true,false,https://httpwg.org/specs/rfc8288.html#header,IETF
-http/headers/Link/blocking,,,,105,,,,true,true,false,https://html.spec.whatwg.org/multipage/semantics.html#attr-link-blocking,WHATWG
+http/headers/Link/blocking,,,,103,,,,true,true,false,https://html.spec.whatwg.org/multipage/semantics.html#attr-link-blocking,WHATWG
 http/headers/Link/fetchpriority,,132,,103,,17.2,,false,true,false,https://html.spec.whatwg.org/multipage/semantics.html#attr-link-fetchpriority,WHATWG
 http/headers/Location,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.location,IETF
 http/headers/NEL,,,,71,,,,true,true,false,https://w3c.github.io/network-error-logging/#nel-response-header,W3C
