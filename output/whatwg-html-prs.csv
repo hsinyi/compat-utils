@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 3187948628,true,Make sure HTML element constructors set a registry,https://github.com/whatwg/html/pull/11422,2025-06-30T10:21:56Z,2025-07-01T05:19:54Z,annevk,topic: custom elements,0
-3185784635,false,Fix description of missing-semicolon-after-character-reference error,https://github.com/whatwg/html/pull/11419,2025-06-29T05:42:47Z,2025-07-01T02:30:45Z,squeek502,topic: parser,0
+3185784635,true,Fix description of missing-semicolon-after-character-reference error,https://github.com/whatwg/html/pull/11419,2025-06-29T05:42:47Z,2025-07-02T01:51:29Z,squeek502,topic: parser,0
 3184916936,true,"Refactor dfn.js: modern JS, keyboard accessibility, and multipage support",https://github.com/whatwg/html/pull/11418,2025-06-28T12:36:17Z,2025-06-29T03:11:34Z,AbdelatefElshafei,invalid,0
 3182862667,true,"Editorial: change instances of ""zero"" to 0",https://github.com/whatwg/html/pull/11415,2025-06-27T13:33:22Z,2025-06-27T20:31:08Z,keithamus,,0
 3182418157,false,Add :heading and :heading() pseudo-classes,https://github.com/whatwg/html/pull/11413,2025-06-27T11:09:41Z,2025-06-27T20:29:29Z,zcorpan,addition/proposal|topic: selectors,0
@@ -234,10 +234,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2661558826,true,LICENSE - Reformatted,https://github.com/whatwg/html/pull/10767,2024-11-15T10:39:49Z,2024-11-17T09:47:15Z,KomatiBhavaniSankar,invalid,0
 2655518578,true,Main,https://github.com/whatwg/html/pull/10760,2024-11-13T13:24:50Z,2024-11-14T02:14:45Z,venelouis,invalid,0
 2652666474,false,Add initial scroll position hook to HTML spec,https://github.com/whatwg/html/pull/10759,2024-11-12T16:19:26Z,2025-02-25T21:25:20Z,DavMila,addition/proposal|topic: navigation|integration,0
-2645525301,false,Disambiguate attribute declarations from content attributes,https://github.com/whatwg/html/pull/10756,2024-11-09T02:52:46Z,2024-11-18T15:00:19Z,sideshowbarker,clarification,0
+2645525301,true,Disambiguate attribute declarations from content attributes,https://github.com/whatwg/html/pull/10756,2024-11-09T02:52:46Z,2025-07-02T00:55:35Z,sideshowbarker,clarification,0
 2644117823,true,Correct <body> methods example - onload deleted,https://github.com/whatwg/html/pull/10754,2024-11-08T13:53:26Z,2024-11-08T14:48:06Z,sedlukha,,0
 2643944436,true,Correct <img>.decode()'s in parallel usage,https://github.com/whatwg/html/pull/10753,2024-11-08T12:43:38Z,2024-11-08T13:34:02Z,annevk,,0
-2642683502,false,Fix language stating when start tags must not be omitted,https://github.com/whatwg/html/pull/10752,2024-11-08T02:50:46Z,2024-11-09T02:55:49Z,sideshowbarker,document conformance,0
+2642683502,true,Fix language stating when start tags must not be omitted,https://github.com/whatwg/html/pull/10752,2024-11-08T02:50:46Z,2025-07-02T00:55:55Z,sideshowbarker,document conformance,0
 2640133552,true,Editorial: acknowledge Alan Jeffrey,https://github.com/whatwg/html/pull/10747,2024-11-07T07:29:35Z,2024-11-13T04:50:31Z,annevk,,0
 2631440687,true,"[editorial] dfn worker's outside/inside port, and clarify event retargeting",https://github.com/whatwg/html/pull/10738,2024-11-03T20:01:43Z,2024-11-21T08:39:02Z,nicolo-ribaudo,clarification|topic: workers,0
 2627986111,true,Add dialog light dismiss behavior,https://github.com/whatwg/html/pull/10737,2024-10-31T23:17:09Z,2025-01-15T16:45:20Z,mfreed7,normative change|addition/proposal|topic: dialog|topic: close watchers,2
@@ -548,7 +548,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1956248354,true,ruby: Remove the segmentation algorithm,https://github.com/whatwg/html/pull/9876,2023-10-23T02:44:59Z,2023-10-27T06:17:56Z,tkent-google,removal/deprecation|document conformance|topic: ruby,0
 1956084796,true,Add invoke popover defaults,https://github.com/whatwg/html/pull/9875,2023-10-22T22:44:20Z,2024-02-13T17:56:08Z,keithamus,,0
 1954210461,true,Editorial: clarify spec around scripts,https://github.com/whatwg/html/pull/9872,2023-10-20T12:41:11Z,2023-10-30T14:54:54Z,Ms2ger,editorial,0
-1953548150,false,Specify what happens when “disabled” is added to a link@rel=stylesheet,https://github.com/whatwg/html/pull/9870,2023-10-20T05:17:46Z,2024-03-19T10:35:56Z,sideshowbarker,,0
+1953548150,true,Specify what happens when “disabled” is added to a link@rel=stylesheet,https://github.com/whatwg/html/pull/9870,2023-10-20T05:17:46Z,2025-07-02T00:56:51Z,sideshowbarker,,0
 1952215790,true,Fix errors related to <slot> elements in auto directionality traversal.,https://github.com/whatwg/html/pull/9868,2023-10-19T13:05:50Z,2024-01-23T22:11:10Z,dbaron,,0
 1950199580,true,Fix dir=auto handling of descendant <slot> elements.,https://github.com/whatwg/html/pull/9863,2023-10-18T16:40:39Z,2023-10-19T13:06:46Z,dbaron,,0
 1947037733,true,Define the `privacy-policy` link type.,https://github.com/whatwg/html/pull/9860,2023-10-17T10:01:32Z,2023-11-06T08:36:47Z,mikewest,addition/proposal|security/privacy|privacy-tracker,1
