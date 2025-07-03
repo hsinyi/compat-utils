@@ -6,7 +6,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3182780284,true,"The spec inconsistently uses ""0"" or ""zero"".",https://github.com/whatwg/html/issues/11414,2025-06-27T13:07:14Z,2025-06-27T18:07:06Z,keithamus,clarification,0
 3182194053,false,Specify :heading and :heading() selectors,https://github.com/whatwg/html/issues/11412,2025-06-27T09:56:02Z,2025-06-27T09:59:51Z,zcorpan,addition/proposal|topic: selectors,2
 3181719726,false,Repeated navigations with location.hash etc should throw,https://github.com/whatwg/html/issues/11410,2025-06-27T07:33:25Z,2025-06-29T03:14:30Z,zcorpan,topic: navigation|interop,0
-3180574705,false,Upcoming WHATNOT meeting on 2025-07-03,https://github.com/whatwg/html/issues/11408,2025-06-26T22:01:25Z,2025-06-26T22:01:25Z,cwilso,agenda+,0
+3180574705,false,Upcoming WHATNOT meeting on 2025-07-03,https://github.com/whatwg/html/issues/11408,2025-06-26T22:01:25Z,2025-07-02T21:44:01Z,cwilso,agenda+,0
 3179488883,true,"Gecko accepts non-conforming full-width digits in <input type=""number"">",https://github.com/whatwg/html/issues/11405,2025-06-26T15:20:45Z,2025-06-30T18:18:04Z,kyouhei-horizumi,,0
 3178939610,false,"Verify handling of the throw completion returned by ""run a classic script""",https://github.com/whatwg/html/issues/11404,2025-06-26T12:19:12Z,2025-06-27T09:57:18Z,nicolo-ribaudo,clarification|integration,0
 3178205985,true,parser rules clarification,https://github.com/whatwg/html/issues/11402,2025-06-26T07:58:36Z,2025-06-26T08:40:51Z,marsp0,,0
@@ -304,7 +304,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2736746960,true,Add `window.customCommands`,https://github.com/whatwg/html/issues/10860,2024-12-12T19:46:28Z,2025-02-20T15:18:23Z,scola84,addition/proposal|needs implementer interest,0
 2735477406,true,ImageData: Add Float16Array backing support,https://github.com/whatwg/html/issues/10856,2024-12-12T10:21:05Z,2025-04-08T14:40:14Z,ccameron-chromium,addition/proposal|topic: canvas,1
 2735459574,false,CanvasRenderingContext2D: Add getImageDataAsync method,https://github.com/whatwg/html/issues/10855,2024-12-12T10:13:15Z,2025-03-13T12:56:17Z,ccameron-chromium,addition/proposal|topic: canvas,4
-2735341285,true,Revamped Scoped Custom Element Registries,https://github.com/whatwg/html/issues/10854,2024-12-12T09:22:28Z,2025-06-12T06:42:53Z,annevk,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements,15
+2735341285,true,Revamped Scoped Custom Element Registries,https://github.com/whatwg/html/issues/10854,2024-12-12T09:22:28Z,2025-06-12T06:42:53Z,annevk,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements,16
 2734230880,false,Allow form controls in a shadow root to participate in it's host form submission,https://github.com/whatwg/html/issues/10852,2024-12-11T23:23:36Z,2024-12-12T08:28:42Z,KonnorRogers,addition/proposal|needs implementer interest|topic: shadow,1
 2733274119,false,Make <dialog> usable without JS (for form confirmation),https://github.com/whatwg/html/issues/10851,2024-12-11T15:22:18Z,2024-12-16T15:43:02Z,tino,addition/proposal|needs implementer interest,0
 2731961170,false,Window name targeting: tie-breaking for same-named top-level traversables is not interoperable,https://github.com/whatwg/html/issues/10850,2024-12-11T06:38:16Z,2024-12-23T14:24:46Z,domenic,interop|topic: frames/navigables/browsing contexts,0
@@ -1403,7 +1403,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1400696912,false,Editorial: consider using Infra maps instead of JS-spec Records more often,https://github.com/whatwg/html/issues/8363,2022-10-07T06:43:25Z,2022-10-07T06:43:25Z,domenic,clarification|integration,0
 1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2025-02-06T10:51:12Z,ian97531,addition/proposal|needs implementer interest|topic: workers,16
 1399126032,false,How do shadow roots and slots interact with the content model?,https://github.com/whatwg/html/issues/8361,2022-10-06T08:47:59Z,2022-10-07T10:52:20Z,castholm,,0
-1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,99
+1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,101
 1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2022-10-06T15:43:39Z,annevk,addition/proposal|topic: script,3
 1396727910,false,"Which type of replaced elements should a ""`<img>` with empty src or without src"" be treated",https://github.com/whatwg/html/issues/8354,2022-10-04T19:11:52Z,2022-10-14T18:58:36Z,cathiechen,topic: rendering|topic: img,0
 1396199556,true,Consistify spelling of realm,https://github.com/whatwg/html/issues/8353,2022-10-04T12:32:09Z,2022-10-06T07:14:58Z,annevk,clarification,0
