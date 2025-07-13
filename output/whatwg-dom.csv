@@ -527,7 +527,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 181870300,true,"""The wholeText attribute, when invoked, must return""",https://github.com/whatwg/dom/issues/339,2016-10-09T06:55:02Z,2016-10-10T09:31:42Z,cvrebert,,0
 181126288,true,Sort out isTrusted,https://github.com/whatwg/dom/issues/338,2016-10-05T11:17:49Z,2016-11-22T12:54:25Z,annevk,web reality,0
 180805460,true,Do not dispatch an UA event when target and relatedTarget are identical.,https://github.com/whatwg/dom/issues/337,2016-10-04T04:45:26Z,2018-01-17T02:27:41Z,hayatoito,,0
-180432593,true,Improvements for adjacent text nodes manipulation,https://github.com/whatwg/dom/issues/335,2016-10-01T02:13:35Z,2017-07-05T15:02:21Z,Wes0617,,0
+180432593,true,Improvements for adjacent text nodes manipulation,https://github.com/whatwg/dom/issues/335,2016-10-01T02:13:35Z,2017-07-05T15:02:21Z,Wes1262,,0
 179494457,true,"Standardize srcElement, returnValue, and window.event",https://github.com/whatwg/dom/issues/334,2016-09-27T13:34:13Z,2018-06-07T23:12:03Z,annevk,topic: shadow|web reality|topic: events,3
 179033427,true,Consider adding Promise-based API for listerning event,https://github.com/whatwg/dom/issues/333,2016-09-24T14:44:05Z,2017-03-16T13:51:23Z,upsuper,,1
 178690609,true,Why is the second parameter to MutationObserver.observe() optional?,https://github.com/whatwg/dom/issues/332,2016-09-22T18:49:37Z,2016-09-23T06:52:08Z,cdumez,,0
@@ -550,7 +550,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 171819803,true,"Editorial: make text around ""locate a namespace"" more similar",https://github.com/whatwg/dom/issues/304,2016-08-18T05:20:15Z,2016-08-19T12:59:50Z,annevk,,0
 171742644,true,Callback functions/interfaces need to be invoked with WebIDL concepts,https://github.com/whatwg/dom/issues/303,2016-08-17T19:41:02Z,2016-08-29T06:51:39Z,foolip,,0
 171575646,true,CDATASection misses,https://github.com/whatwg/dom/issues/300,2016-08-17T05:12:47Z,2016-09-01T10:27:58Z,foolip,,0
-171422470,true,get rid of NonElementParentNode?,https://github.com/whatwg/dom/issues/298,2016-08-16T14:13:53Z,2016-08-17T04:27:16Z,Wes0617,,1
+171422470,true,get rid of NonElementParentNode?,https://github.com/whatwg/dom/issues/298,2016-08-16T14:13:53Z,2016-08-17T04:27:16Z,Wes1262,,1
 171411874,true,Stop defining nodeName in terms of tagName,https://github.com/whatwg/dom/issues/297,2016-08-16T13:37:16Z,2018-03-13T08:35:00Z,annevk,,0
 171354966,true,[CEReactions] for insertAdjacentText,https://github.com/whatwg/dom/issues/294,2016-08-16T08:42:50Z,2016-08-17T09:53:58Z,zcorpan,,0
 171123848,true,The adopted callback should be passed the old and new document,https://github.com/whatwg/dom/issues/292,2016-08-15T07:50:15Z,2016-08-19T16:33:04Z,dominiccooney,topic: custom elements,0
@@ -638,15 +638,15 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 126202122,true,"Drop ""keyevents"" as an alias of ""keyboardevent"" for createEvent",https://github.com/whatwg/dom/issues/148,2016-01-12T15:19:42Z,2016-04-13T00:31:09Z,foolip,,0
 126143079,false,Consider support for ES2015 iterator protocol for NodeIterator,https://github.com/whatwg/dom/issues/147,2016-01-12T10:12:25Z,2024-08-21T17:31:15Z,Ginden,needs implementer interest|addition/proposal,12
 126121898,true,"Only run ""adopting steps"" if oldDocument !== document",https://github.com/whatwg/dom/issues/146,2016-01-12T08:05:15Z,2016-01-22T18:09:53Z,zcorpan,,0
-125340468,true,Consider adding more utils to Elements,https://github.com/whatwg/dom/issues/145,2016-01-07T07:25:14Z,2018-03-13T08:08:57Z,Wes0617,needs implementer interest,0
+125340468,true,Consider adding more utils to Elements,https://github.com/whatwg/dom/issues/145,2016-01-07T07:25:14Z,2018-03-13T08:08:57Z,Wes1262,needs implementer interest,0
 124998142,true,"Having getElementsByTagName match on localName is not ""web""-compatible for IE and Firefox",https://github.com/whatwg/dom/issues/143,2016-01-05T16:16:26Z,2016-09-08T18:24:35Z,bzbarsky,,0
 124956263,true,Why remove CDataSection?,https://github.com/whatwg/dom/issues/142,2016-01-05T12:14:55Z,2016-03-14T13:06:17Z,Harbs,,0
 124705965,true,Supported property names for NamedNodeMap,https://github.com/whatwg/dom/issues/141,2016-01-04T06:46:29Z,2016-01-14T02:18:33Z,ArkadiuszMichalski,,0
 124569171,true,Allow usage of IDL attributes for Element::setAttribute?,https://github.com/whatwg/dom/issues/140,2016-01-02T01:00:46Z,2016-01-02T01:46:21Z,frewsxcv,,0
-124041793,true,Clarify what Document constructor does?,https://github.com/whatwg/dom/issues/137,2015-12-28T09:35:18Z,2016-01-01T15:16:06Z,Wes0617,,0
-123288964,true,"consider renaming ""namespace"" params into ""namespaceURI""",https://github.com/whatwg/dom/issues/136,2015-12-21T14:29:40Z,2015-12-30T08:50:50Z,Wes0617,,0
-123166498,true,rename before() and after() of ChildNode,https://github.com/whatwg/dom/issues/134,2015-12-20T15:16:56Z,2016-01-01T11:05:19Z,Wes0617,,0
-123163805,true,"""Element? closest(DOMString selectors);""",https://github.com/whatwg/dom/issues/133,2015-12-20T14:32:51Z,2015-12-20T15:40:31Z,Wes0617,,1
+124041793,true,Clarify what Document constructor does?,https://github.com/whatwg/dom/issues/137,2015-12-28T09:35:18Z,2016-01-01T15:16:06Z,Wes1262,,0
+123288964,true,"consider renaming ""namespace"" params into ""namespaceURI""",https://github.com/whatwg/dom/issues/136,2015-12-21T14:29:40Z,2015-12-30T08:50:50Z,Wes1262,,0
+123166498,true,rename before() and after() of ChildNode,https://github.com/whatwg/dom/issues/134,2015-12-20T15:16:56Z,2016-01-01T11:05:19Z,Wes1262,,0
+123163805,true,"""Element? closest(DOMString selectors);""",https://github.com/whatwg/dom/issues/133,2015-12-20T14:32:51Z,2015-12-20T15:40:31Z,Wes1262,,1
 123097219,true,Small correct for Mutation observers,https://github.com/whatwg/dom/issues/132,2015-12-19T16:53:33Z,2018-03-29T11:12:35Z,ArkadiuszMichalski,good first issue,0
 122942551,true,Node#baseURI need not be nullable,https://github.com/whatwg/dom/issues/131,2015-12-18T12:43:39Z,2016-01-01T15:17:54Z,foolip,,0
 122520253,true,Some fix for replace algo and question,https://github.com/whatwg/dom/issues/129,2015-12-16T14:50:09Z,2015-12-17T16:33:27Z,ArkadiuszMichalski,,0
