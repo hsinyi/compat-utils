@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3229075487,false,Ability to wait for async abort algorithms?,https://github.com/whatwg/dom/issues/1389,2025-07-14T15:00:20Z,2025-07-14T15:00:20Z,saschanaz,,0
 3195220677,true,"Misalignment between spec and WPT for ""validate and extract""",https://github.com/whatwg/dom/issues/1387,2025-07-02T09:21:54Z,2025-07-09T07:32:49Z,shannonbooth,,0
 3168806018,true,[moveBefore] Consider making this a feature of Node not ParentNode,https://github.com/whatwg/dom/issues/1385,2025-06-23T16:42:10Z,2025-06-24T05:04:04Z,sorvell,,0
 3165076976,true,Proposal: matchContainer API,https://github.com/whatwg/dom/issues/1383,2025-06-21T13:05:18Z,2025-06-23T08:54:11Z,ddamato,needs implementer interest|addition/proposal,0
@@ -8,7 +9,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3104879204,false,Make it possible to wrap [parts of] the contents of a <textarea> or <input> in a Range,https://github.com/whatwg/dom/issues/1375,2025-05-31T04:50:28Z,2025-05-31T04:50:28Z,DavidJCobb,needs implementer interest|addition/proposal,3
 3072911029,true,Consider more name validation loosening,https://github.com/whatwg/dom/issues/1373,2025-05-19T08:00:08Z,2025-06-09T04:47:36Z,domenic,topic: nodes,0
 3058605827,true,"What ""DOM"" stands for, ""Document Object Model"", was never explicitly mentioned",https://github.com/whatwg/dom/issues/1371,2025-05-13T02:40:43Z,2025-05-13T06:12:00Z,ThomasETN,,0
-2994131924,false,Proposal: Bulk mutation methods for working with ranges of nodes,https://github.com/whatwg/dom/issues/1369,2025-04-14T20:27:15Z,2025-04-16T00:33:38Z,justinfagnani,needs implementer interest|addition/proposal|topic: nodes,0
+2994131924,false,Proposal: Bulk mutation methods for working with ranges of nodes,https://github.com/whatwg/dom/issues/1369,2025-04-14T20:27:15Z,2025-07-14T22:56:40Z,justinfagnani,needs implementer interest|addition/proposal|topic: nodes,0
 2984071873,false,Proposal: Enable Custom Form Controls to (Optionally) Conceal Internal/Irrelevant Events,https://github.com/whatwg/dom/issues/1368,2025-04-09T23:03:38Z,2025-04-23T21:31:12Z,ITenthusiasm,topic: custom elements|needs implementer interest|topic: events|addition/proposal,0
 2979299316,false,Blame stopped working,https://github.com/whatwg/dom/issues/1367,2025-04-08T10:13:38Z,2025-04-08T10:13:46Z,annevk,meta,0
 2977136876,true,"Cloning of a document does not copy ""allow declarative shadow roots""",https://github.com/whatwg/dom/issues/1366,2025-04-07T14:51:45Z,2025-06-27T05:06:06Z,annevk,topic: shadow|needs tests|topic: nodes,0
@@ -22,7 +23,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2808889379,false,Define maximum length and handling of CharacterData nodes,https://github.com/whatwg/dom/issues/1351,2025-01-24T08:51:23Z,2025-04-11T10:31:21Z,annevk,topic: nodes,0
 2797740507,true,Redundant step in `find slottables`,https://github.com/whatwg/dom/issues/1349,2025-01-19T17:31:33Z,2025-01-20T09:36:32Z,simonwuelker,editorial,0
 2797162354,true,Shadow DOM style ordering and cascade penetration,https://github.com/whatwg/dom/issues/1348,2025-01-18T20:13:08Z,2025-01-20T23:31:16Z,dead-claudia,needs implementer interest|addition/proposal,0
-2764275795,false,[EventTarget] Abort controller from a past subscription can remove events from future subscriptions,https://github.com/whatwg/dom/issues/1346,2024-12-31T11:31:13Z,2025-01-06T13:03:28Z,rubennorte,needs tests|interop|topic: events,0
+2764275795,false,[EventTarget] Abort controller from a past subscription can remove events from future subscriptions,https://github.com/whatwg/dom/issues/1346,2024-12-31T11:31:13Z,2025-01-06T13:03:28Z,rubennorte,needs tests|interop|topic: events,1
 2753701330,true,Event::dispatch uses possibly uninitialized `clearTargets`,https://github.com/whatwg/dom/issues/1344,2024-12-21T02:03:27Z,2025-01-15T08:48:34Z,simonwuelker,,0
 2753441117,true,Event::ComposedPath doesn't handle `this.currentTarget == null`,https://github.com/whatwg/dom/issues/1343,2024-12-20T20:27:05Z,2025-02-12T07:36:57Z,simonwuelker,topic: events,0
 2742316968,true,Revamped Scoped Custom Element Registries (DOM side),https://github.com/whatwg/dom/issues/1339,2024-12-16T12:52:54Z,2025-04-14T15:51:00Z,annevk,topic: shadow|topic: custom elements|needs implementer interest|addition/proposal|topic: nodes,0
