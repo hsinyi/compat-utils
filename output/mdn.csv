@@ -334,6 +334,7 @@ api/BaseAudioContext/destination,,25,,14,,6,,false,true,false,https://webaudio.g
 api/BaseAudioContext/listener,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-listener,W3C
 api/BaseAudioContext/sampleRate,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-samplerate,W3C
 api/BaseAudioContext/state,,40,,41,,9,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-state,W3C
+api/BaseAudioContext/state/interrupted,,,,136,,,,true,true,false,https://webaudio.github.io/web-audio-api/#dom-audiocontextstate-interrupted,W3C
 api/BaseAudioContext/statechange_event,,40,,41,,9,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-onstatechange,W3C
 api/BatteryManager,,43,,38,,,,false,true,false,https://w3c.github.io/battery/#the-batterymanager-interface,W3C
 api/BatteryManager/charging,,43,,38,,,,false,true,false,https://w3c.github.io/battery/#dom-batterymanager-charging,W3C
@@ -6429,6 +6430,7 @@ api/Request/clone,,39,,40,,10.1,,false,true,false,https://fetch.spec.whatwg.org/
 api/Request/credentials,,39,,40,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-request-credentials②,WHATWG
 api/Request/credentials/default_same-origin,,61,,72,,12.1,,false,true,false,,NONE
 api/Request/destination,,61,,65,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-request-destination①,WHATWG
+api/Request/destination/speculationrules,,,,121,,,,true,true,false,https://wicg.github.io/nav-speculation/speculation-rules.html#fetch,W3CCG
 api/Request/duplex,,,,131,,,,true,true,false,https://fetch.spec.whatwg.org/#dom-request-duplex,WHATWG
 api/Request/formData,,39,,60,,14.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-body-formdata①,WHATWG
 api/Request/headers,,39,,40,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-request-headers②,WHATWG
@@ -13209,7 +13211,7 @@ http/headers/Service-Worker-Navigation-Preload,,preview,,59,,15.4,,false,true,fa
 http/headers/Set-Cookie,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc6265.html#sane-set-cookie,IETF
 http/headers/Set-Cookie/HttpOnly,,3,,1,,5,,false,true,false,,NONE
 http/headers/Set-Cookie/Max-Age,,1,,1,,1,,false,true,false,,NONE
-http/headers/Set-Cookie/Partitioned,,,,114,,18.4,,false,true,false,https://www.ietf.org/archive/id/draft-cutler-httpbis-partitioned-cookies-01.html#section-2.1,IETF
+http/headers/Set-Cookie/Partitioned,,141,,114,,18.4,,false,true,false,https://www.ietf.org/archive/id/draft-cutler-httpbis-partitioned-cookies-01.html#section-2.1,IETF
 http/headers/Set-Cookie/SameSite,,60,,51,,13,,false,true,false,https://httpwg.org/specs/rfc6265.html#sane-set-cookie,IETF
 http/headers/Set-Cookie/SameSite/Lax,,60,,51,,12,,false,true,false,,NONE
 http/headers/Set-Cookie/SameSite/Lax_default,,69,"[{""name"":""network.cookie.sameSite.laxByDefault"",""type"":""preference"",""value_to_set"":""true""}]",80,,,,false,true,false,,NONE
