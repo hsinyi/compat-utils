@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3242529143,false,Upcoming WHATNOT meeting on 2025-07-24,https://github.com/whatwg/html/issues/11464,2025-07-18T09:14:56Z,2025-07-18T09:15:02Z,annevk,agenda+,0
 3240918378,false,Generalizing/fixing `<selectedcontent>` (`<use>` for HTML?),https://github.com/whatwg/html/issues/11463,2025-07-17T21:07:47Z,2025-07-17T21:28:12Z,LeaVerou,addition/proposal|topic: select,0
 3238950352,true,Custom Elements should have a way to declare focusability without sprouting an attribute or elements,https://github.com/whatwg/html/issues/11462,2025-07-17T10:03:13Z,2025-07-17T15:24:20Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: custom elements|topic: focus,0
 3232414481,false,Escape special characters when serializing comments,https://github.com/whatwg/html/issues/11456,2025-07-15T14:04:28Z,2025-07-15T14:04:28Z,evilpie,normative change|topic: parser|security/privacy|security-tracker,0
@@ -15,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3209527176,false,Meeting 24 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11435,2025-07-07T15:56:22Z,2025-07-07T17:31:00Z,mfreed7,,0
 3203772187,false,Origin not set for documents created with DOMParser,https://github.com/whatwg/html/issues/11429,2025-07-04T22:05:14Z,2025-07-14T14:28:07Z,tcl3,,0
 3202027393,false,Responsive images with `srcset` unexpectedly upscale when using `object-fit: none` or `scale-down`,https://github.com/whatwg/html/issues/11428,2025-07-04T09:47:33Z,2025-07-07T10:27:49Z,zipper,,4
-3199612715,false,Upcoming WHATNOT meeting on 2025-07-17,https://github.com/whatwg/html/issues/11427,2025-07-03T14:32:35Z,2025-07-17T16:55:25Z,cwilso,agenda+,0
+3199612715,true,Upcoming WHATNOT meeting on 2025-07-17,https://github.com/whatwg/html/issues/11427,2025-07-03T14:32:35Z,2025-07-18T09:15:22Z,cwilso,agenda+,0
 3192305368,false,Add tone mapping parameters to CanvasRenderingContext2DSettings,https://github.com/whatwg/html/issues/11424,2025-07-01T12:31:55Z,2025-07-02T07:46:37Z,ccameron-chromium,addition/proposal|topic: canvas,0
 3189947347,true,Spec issue: `form` property of input controls in Shadow DOM is inconsistent across browsers,https://github.com/whatwg/html/issues/11423,2025-06-30T21:45:26Z,2025-07-02T10:51:38Z,mozesstumpf,topic: shadow|topic: forms|interop,0
 3184492238,false,should canvas `.toBlob()`/`.convertToBlob()` work without a rendering context?,https://github.com/whatwg/html/issues/11417,2025-06-28T03:09:04Z,2025-06-29T01:20:48Z,zamfofex,needs tests,0
@@ -81,7 +82,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3066813596,true,Meeting 21 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11311,2025-05-15T16:31:18Z,2025-06-10T18:41:58Z,mfreed7,agenda+,0
 3066122491,true,Remove UI requirement for `<a ping>`,https://github.com/whatwg/html/issues/11309,2025-05-15T12:43:12Z,2025-06-26T12:29:51Z,zcorpan,topic: hyperlink|privacy-tracker,0
 3066023416,false,Add a resource fetch algorithm return value,https://github.com/whatwg/html/issues/11308,2025-05-15T12:07:44Z,2025-05-16T16:39:55Z,chrisn,topic: media|integration,0
-3065467092,true,Upcoming WHATNOT meeting on 2025-05-22,https://github.com/whatwg/html/issues/11307,2025-05-15T08:48:56Z,2025-05-22T10:16:06Z,annevk,agenda+,0
+3065467092,true,Upcoming WHATNOT meeting on 2025-05-22,https://github.com/whatwg/html/issues/11307,2025-05-15T08:48:56Z,2025-07-18T09:13:30Z,annevk,agenda+,0
 3064856851,true,Navigation fetch always uses document destination,https://github.com/whatwg/html/issues/11306,2025-05-15T04:32:36Z,2025-05-22T08:02:26Z,jdm,clarification,0
 3058583719,false,"Add <dfn> for ""indeterminate"" boolean concept",https://github.com/whatwg/html/issues/11301,2025-05-13T02:23:27Z,2025-05-13T02:23:31Z,rahimabdi,,2
 3056237033,true,popover attribute does not define canonical keyword for auto state,https://github.com/whatwg/html/issues/11298,2025-05-12T09:07:27Z,2025-05-14T13:54:51Z,annevk,topic: popover,0
@@ -652,7 +653,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2025-04-07T17:38:01Z,bfgeek,normative change|needs implementer interest|topic: rendering,4
 2258787056,false,Sentence in 6.11.7 doesn't seem right,https://github.com/whatwg/html/issues/10295,2024-04-23T12:44:29Z,2024-04-23T12:44:29Z,Zhang-Junzhi,,0
 2258703067,true,SEO issue of <a> elements put dependently inside a context,https://github.com/whatwg/html/issues/10294,2024-04-23T12:03:03Z,2024-04-24T03:15:29Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
-2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2025-06-25T19:06:51Z,pfteter,addition/proposal|needs implementer interest|topic: forms,22
+2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2025-06-25T19:06:51Z,pfteter,addition/proposal|needs implementer interest|topic: forms,23
 2256664178,false,"Allow data:image in srcset. And the U+002C COMMA character (,) issue",https://github.com/whatwg/html/issues/10292,2024-04-22T14:17:45Z,2024-04-22T20:25:51Z,janmazanek,,0
 2254541416,true,Should light DOM form controls in a form-associated custom element be ignored during form reset?,https://github.com/whatwg/html/issues/10290,2024-04-20T12:59:06Z,2024-04-22T13:44:58Z,kleinfreund,topic: custom elements,0
 2254517789,false,"Allow SVGSVGElement as image parameter in CanvasRenderingContext2D.drawImage() ",https://github.com/whatwg/html/issues/10289,2024-04-20T10:32:52Z,2024-07-15T16:05:08Z,hfmanson,addition/proposal|needs implementer interest|topic: canvas,0

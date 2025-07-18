@@ -5,7 +5,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3231668942,false,Introduce enumerated attribute reflection extended attributes,https://github.com/whatwg/html/pull/11455,2025-07-15T10:09:54Z,2025-07-16T18:31:05Z,lukewarlow,,0
 3230789302,false,Carry over sticky activation for same-origin navs and traversals,https://github.com/whatwg/html/pull/11454,2025-07-15T05:07:58Z,2025-07-15T05:09:29Z,domenic,addition/proposal|topic: user activation|agenda+,0
 3230719017,true,Remove more XML-derived attribute name validation,https://github.com/whatwg/html/pull/11453,2025-07-15T04:28:48Z,2025-07-16T01:01:00Z,domenic,,1
-3229465049,false,Introduce attribute reflection extended attributes,https://github.com/whatwg/html/pull/11450,2025-07-14T17:19:54Z,2025-07-17T18:37:48Z,lukewarlow,,0
+3229465049,false,Introduce attribute reflection extended attributes,https://github.com/whatwg/html/pull/11450,2025-07-14T17:19:54Z,2025-07-18T01:42:31Z,lukewarlow,,0
 3222567446,true,Editorial: add popover=hint in attribute summary table,https://github.com/whatwg/html/pull/11446,2025-07-11T11:29:54Z,2025-07-12T06:39:19Z,foolip,,0
 3214658625,false,Revamp base URL change processing,https://github.com/whatwg/html/pull/11442,2025-07-09T06:21:00Z,2025-07-09T06:22:38Z,domenic,,0
 3211267153,false,"[DRAFT][WebDriver BiDi] add a way to force run script when ""scripting is disabled""",https://github.com/whatwg/html/pull/11441,2025-07-08T06:49:51Z,2025-07-08T10:57:14Z,sadym-chromium,,0
@@ -14,7 +14,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3204875494,true,Editorial: make references to No Popover state consistent,https://github.com/whatwg/html/pull/11433,2025-07-05T12:23:23Z,2025-07-07T01:55:38Z,foolip,,0
 3204871499,true,Editorial: simplify removing and moving steps of form-associated elements,https://github.com/whatwg/html/pull/11432,2025-07-05T12:19:15Z,2025-07-10T02:26:49Z,foolip,,0
 3204863329,true,Editorial: add missing oldValue argument to attribute change steps,https://github.com/whatwg/html/pull/11431,2025-07-05T12:12:43Z,2025-07-07T01:54:34Z,foolip,topic: link,0
-3198273611,false,Add speculation rules prefetch,https://github.com/whatwg/html/pull/11426,2025-07-03T06:58:50Z,2025-07-11T04:22:43Z,domenic,addition/proposal|do not merge yet|topic: navigation,1
+3198273611,false,Add speculation rules prefetch,https://github.com/whatwg/html/pull/11426,2025-07-03T06:58:50Z,2025-07-18T04:13:05Z,domenic,addition/proposal|do not merge yet|topic: navigation,1
 3196218749,false,Make SuppressedError and AggregateError serializable,https://github.com/whatwg/html/pull/11425,2025-07-02T14:57:19Z,2025-07-14T14:02:08Z,anonrig,,0
 3187948628,true,Make sure HTML element constructors set a registry,https://github.com/whatwg/html/pull/11422,2025-06-30T10:21:56Z,2025-07-01T05:19:54Z,annevk,topic: custom elements,0
 3185784635,true,Fix description of missing-semicolon-after-character-reference error,https://github.com/whatwg/html/pull/11419,2025-06-29T05:42:47Z,2025-07-02T01:51:29Z,squeek502,topic: parser,0
@@ -29,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3158527853,true,"Editorial: Fix whitespace, punctuation, wording, markup",https://github.com/whatwg/html/pull/11387,2025-06-19T00:36:40Z,2025-06-24T10:14:17Z,jmdyck,,0
 3153280203,true,Discourage `document.writeln()` like `document.write()`,https://github.com/whatwg/html/pull/11384,2025-06-17T12:13:20Z,2025-06-22T17:31:26Z,caugner,,1
 3152891981,false,"Reword popover ""invoker"" terminology to ""control"" or ""source"" where appropriate.",https://github.com/whatwg/html/pull/11383,2025-06-17T10:03:49Z,2025-06-18T09:07:05Z,keithamus,editorial,0
-3147776791,false,Add new strings for notRestoredReason,https://github.com/whatwg/html/pull/11381,2025-06-15T16:30:17Z,2025-07-14T08:03:50Z,lozy219,,0
+3147776791,false,Add new strings for notRestoredReason,https://github.com/whatwg/html/pull/11381,2025-06-15T16:30:17Z,2025-07-18T06:52:23Z,lozy219,agenda+,0
 3146312180,true,Editorial prep for wrapping algorithms in <div>,https://github.com/whatwg/html/pull/11379,2025-06-14T15:35:34Z,2025-06-18T13:10:19Z,jmdyck,,0
 3131884611,false,COEP/COOP report-to takes endpoint name not URL (typo),https://github.com/whatwg/html/pull/11366,2025-06-10T01:33:49Z,2025-06-10T01:33:49Z,hamishwillee,,0
 3125270898,true,Make ToggleEvent.source nullable,https://github.com/whatwg/html/pull/11362,2025-06-06T16:33:14Z,2025-06-07T01:42:11Z,josepharhar,,0
@@ -324,7 +324,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2464370307,false,Relax `<select>` parser,https://github.com/whatwg/html/pull/10557,2024-08-13T22:37:01Z,2025-06-11T15:13:09Z,josepharhar,normative change|do not merge yet|topic: parser|topic: select,1
 2458340131,true,Remove exception reporting from declarative shadow dom,https://github.com/whatwg/html/pull/10552,2024-08-09T17:13:23Z,2024-08-14T15:44:52Z,mfreed7,normative change|topic: shadow|topic: parser,0
 2450354011,true,Editorial: modernize promise rejection tracking,https://github.com/whatwg/html/pull/10550,2024-08-06T09:07:03Z,2024-08-07T01:10:54Z,domenic,topic: error reporting,0
-2448702538,false,Define customizable `<select>`,https://github.com/whatwg/html/pull/10548,2024-08-05T14:28:06Z,2025-07-15T18:35:15Z,josepharhar,addition/proposal|topic: forms|agenda+|topic: select,0
+2448702538,false,Define customizable `<select>`,https://github.com/whatwg/html/pull/10548,2024-08-05T14:28:06Z,2025-07-18T04:10:41Z,josepharhar,addition/proposal|topic: forms|agenda+|topic: select,0
 2448336571,true,Consume user activation when creating a new top-level traversable,https://github.com/whatwg/html/pull/10547,2024-08-05T11:39:11Z,2024-11-20T09:17:02Z,CanadaHonk,,0
 2446405917,true,Update 404.html,https://github.com/whatwg/html/pull/10544,2024-08-03T15:21:29Z,2024-08-03T21:50:23Z,PrantikLamichhane,invalid,0
 2445484125,true,"Editorial: Update uses of WebIDL ""invoke a callback function""",https://github.com/whatwg/html/pull/10543,2024-08-02T17:48:42Z,2024-08-07T00:59:53Z,jeremyroman,integration,0
