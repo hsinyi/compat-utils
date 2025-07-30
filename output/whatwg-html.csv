@@ -1,8 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3273217528,false,New maxlength attribute for form inputs,https://github.com/whatwg/html/issues/11502,2025-07-29T11:15:06Z,2025-07-29T11:15:06Z,darvi-sh,addition/proposal|needs implementer interest,1
-3272359781,false,Don't allow the javascript: protocol in navigation.navigate(),https://github.com/whatwg/html/issues/11500,2025-07-29T06:51:40Z,2025-07-29T10:57:41Z,evilpie,topic: navigation|security/privacy,3
-3272293640,false,unexpected-solidus-in-tag incorrect for unquoted attribute values,https://github.com/whatwg/html/issues/11499,2025-07-29T06:29:13Z,2025-07-29T06:29:13Z,SArpnt,,0
-3271239383,true,Move `window` property of `Window` out of interface and expose it on its own.,https://github.com/whatwg/html/issues/11498,2025-07-28T20:25:52Z,2025-07-29T10:39:56Z,ben221199,,0
+3273217528,false,New maxlength attribute for form inputs,https://github.com/whatwg/html/issues/11502,2025-07-29T11:15:06Z,2025-07-29T14:33:46Z,darvi-sh,addition/proposal|needs implementer interest|topic: forms,1
+3272359781,false,Don't allow the javascript: protocol in navigation.navigate(),https://github.com/whatwg/html/issues/11500,2025-07-29T06:51:40Z,2025-07-29T13:01:56Z,evilpie,topic: navigation|security/privacy,6
+3272293640,false,unexpected-solidus-in-tag incorrect for unquoted attribute values,https://github.com/whatwg/html/issues/11499,2025-07-29T06:29:13Z,2025-07-29T14:36:13Z,SArpnt,document conformance|topic: parser,0
+3271239383,true,Move `window` property of `Window` out of interface and expose it on its own.,https://github.com/whatwg/html/issues/11498,2025-07-28T20:25:52Z,2025-07-29T14:25:51Z,ben221199,,0
 3265482594,true,What is the correct way of identifying the lede in a correctly formatted semantic HTML document?,https://github.com/whatwg/html/issues/11493,2025-07-26T11:48:14Z,2025-07-28T02:02:32Z,minfrin,addition/proposal|needs implementer interest,0
 3263774506,false,"""Serialize a color well control color"" should not round-up the numbers",https://github.com/whatwg/html/issues/11491,2025-07-25T16:32:30Z,2025-07-29T07:32:26Z,saschanaz,topic: forms,0
 3263180359,true,"Should ""update a color well control color"" call the CSS parse function with the element or not?",https://github.com/whatwg/html/issues/11488,2025-07-25T13:07:35Z,2025-07-26T21:50:18Z,saschanaz,topic: forms,0
@@ -160,7 +160,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2982818865,true,#inner-navigate-event-firing-algorithm uses #fully-active on #concept-relevant-global,https://github.com/whatwg/html/issues/11198,2025-04-09T13:22:43Z,2025-04-10T08:42:58Z,farre,topic: navigation,0
 2977338220,false,A modal dialog should not make inert top layer elements above itself,https://github.com/whatwg/html/issues/11195,2025-04-07T16:03:41Z,2025-04-07T18:02:31Z,lucacasonato,,0
 2977116813,false,Remove support of field-sizing from `<select>`,https://github.com/whatwg/html/issues/11194,2025-04-07T14:45:46Z,2025-04-10T18:36:32Z,sakupi01,topic: rendering|topic: select,0
-2976641426,false,Persistent element at the top of the top layer,https://github.com/whatwg/html/issues/11193,2025-04-07T12:05:47Z,2025-04-12T05:46:34Z,lucacasonato,topic: dialog|topic: popover,1
+2976641426,false,Persistent element at the top of the top layer,https://github.com/whatwg/html/issues/11193,2025-04-07T12:05:47Z,2025-07-29T15:40:49Z,lucacasonato,topic: dialog|topic: popover,1
 2973507099,true,Upcoming WHATNOT meeting on 2025-04-17,https://github.com/whatwg/html/issues/11192,2025-04-04T22:46:19Z,2025-04-17T16:56:07Z,past,agenda+,0
 2972357952,true,Allow multiple anchor references via `showPopover`/`togglePopover`,https://github.com/whatwg/html/issues/11188,2025-04-04T13:16:08Z,2025-04-14T14:33:09Z,mozesstumpf,addition/proposal|needs implementer interest|topic: popover,0
 2970214663,true,popover focusing steps and dialog focusing steps are subtly different (probably unintentionally so),https://github.com/whatwg/html/issues/11187,2025-04-03T17:09:38Z,2025-04-08T04:45:40Z,beidson,topic: popover,0
@@ -735,7 +735,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2175120347,true,"Document ""rendering suppression for view transitions"" also suppresses ""perform pending transition operations""",https://github.com/whatwg/html/issues/10186,2024-03-08T01:40:36Z,2024-03-11T23:40:20Z,nt1m,topic: rendering,0
 2173990781,false,should search for draggable attribute follow dom tree or flattened tree?,https://github.com/whatwg/html/issues/10185,2024-03-07T14:26:12Z,2024-11-07T05:48:19Z,dbaron,,3
 2172574820,false,Is this bad to suggest that placeholder attributes can contain expected formats?,https://github.com/whatwg/html/issues/10183,2024-03-06T22:46:15Z,2024-03-06T22:49:08Z,anevins12,,0
-2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2025-02-18T17:42:47Z,andy-blum,addition/proposal|needs implementer interest|topic: img,18
+2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2025-02-18T17:42:47Z,andy-blum,addition/proposal|needs implementer interest|topic: img,19
 2171191672,true,Nits with link rel=expect,https://github.com/whatwg/html/issues/10180,2024-03-06T10:44:29Z,2024-03-11T06:42:48Z,jakearchibald,clarification|topic: rendering,0
 2161745995,false,Declaratively open popovers (and other elements?) on page load,https://github.com/whatwg/html/issues/10171,2024-02-29T17:19:04Z,2024-12-09T16:43:00Z,josepharhar,topic: dialog|topic: popover,0
 2160066080,false,Worklet termination,https://github.com/whatwg/html/issues/10169,2024-02-28T23:43:54Z,2024-03-04T08:12:24Z,daxpedda,addition/proposal|needs implementer interest|topic: worklets,0
@@ -756,7 +756,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2144668268,false,"align=""justify"" should align to start, not to left",https://github.com/whatwg/html/issues/10148,2024-02-20T15:38:05Z,2024-02-21T18:03:20Z,Loirooriol,topic: rendering|needs tests,0
 2143265229,false,UI Element Attribute,https://github.com/whatwg/html/issues/10146,2024-02-19T23:05:03Z,2024-04-17T11:33:27Z,MrMatthewLayton,addition/proposal|needs implementer interest,2
 2142919582,false,"Render-blocking: the definition of ""created by its node document's parser"" is a little bit vague",https://github.com/whatwg/html/issues/10145,2024-02-19T18:08:51Z,2024-03-14T22:55:05Z,cathiechen,topic: parser,0
-2141312881,false,Improve DX of element reference attributes by allowing relative references instead of only ids,https://github.com/whatwg/html/issues/10143,2024-02-19T01:30:10Z,2025-07-26T14:44:24Z,LeaVerou,addition/proposal|needs implementer interest,25
+2141312881,false,Improve DX of element reference attributes by allowing relative references instead of only ids,https://github.com/whatwg/html/issues/10143,2024-02-19T01:30:10Z,2025-07-29T20:25:31Z,LeaVerou,addition/proposal|needs implementer interest|agenda+,25
 2141042150,false,"ImageBitmapRenderingContext: clarify behaviour with `premultiplyAlpha: ""none""` createImageBitmap option and canvas",https://github.com/whatwg/html/issues/10142,2024-02-18T15:27:58Z,2024-04-08T22:18:01Z,hybridherbst,topic: canvas,0
 2140571376,true,"Dark mode styling for ""yes"" table attributes is not ledgible",https://github.com/whatwg/html/issues/10141,2024-02-17T20:28:28Z,2024-03-05T02:47:14Z,ADKaster,spec tooling,0
 2137613348,true,Using multiple h1 tag in a page,https://github.com/whatwg/html/issues/10138,2024-02-15T23:28:03Z,2024-02-16T03:27:59Z,bhojpress,,0
@@ -889,7 +889,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1965994661,true,Back To Top Button,https://github.com/whatwg/html/issues/9886,2023-10-27T18:20:26Z,2023-10-30T13:48:29Z,VaibhavSharma24,spec tooling|editorial|meta,0
 1963468594,false,autocomplete tokens for EID and IMEI,https://github.com/whatwg/html/issues/9884,2023-10-26T12:35:32Z,2024-04-30T14:39:24Z,annevk,addition/proposal|needs implementer interest|topic: forms,0
 1960081159,false,Third-party cookie blocking and rendering media URLs with Content-Security-Policy,https://github.com/whatwg/html/issues/9879,2023-10-24T21:10:35Z,2023-11-14T13:20:59Z,DCtheTall,,0
-1959607137,false,Missing `reportValidity()` hook,https://github.com/whatwg/html/issues/9878,2023-10-24T16:10:13Z,2024-02-13T13:16:16Z,jpzwarte,addition/proposal|needs implementer interest|topic: custom elements|topic: forms|needs concrete proposal,2
+1959607137,false,Missing `reportValidity()` hook,https://github.com/whatwg/html/issues/9878,2023-10-24T16:10:13Z,2025-07-29T12:55:38Z,jpzwarte,addition/proposal|needs implementer interest|topic: custom elements|topic: forms|needs concrete proposal,3
 1954805614,true,Upcoming HTML standard issue triage meeting on 11/2/2023,https://github.com/whatwg/html/issues/9874,2023-10-20T18:11:00Z,2023-11-02T23:41:44Z,past,agenda+,0
 1953949668,true,Web Socket Link is Gone,https://github.com/whatwg/html/issues/9871,2023-10-20T10:02:18Z,2023-12-20T10:47:05Z,FenrirSoftworks,,0
 1952847100,false,Navigables reloading does not work,https://github.com/whatwg/html/issues/9869,2023-10-19T18:36:45Z,2025-05-19T05:08:19Z,kalenikaliaksandr,topic: navigation,1
