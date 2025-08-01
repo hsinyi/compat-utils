@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3280455453,false,Support ElementInternals via IDL extended attribute reflection,https://github.com/whatwg/html/issues/11516,2025-07-31T13:20:11Z,2025-07-31T16:05:40Z,lukewarlow,topic: custom elements|topic: reflect,0
 3279050822,true,The <ol> type attribute doesn't clearly explain invalid/missing value defaults,https://github.com/whatwg/html/issues/11513,2025-07-31T04:01:28Z,2025-07-31T05:20:13Z,rahimabdi,,0
 3278131431,false,"Reword definition of [CEReactions] to not use ""we introduce""",https://github.com/whatwg/html/issues/11511,2025-07-30T18:51:03Z,2025-07-30T18:53:29Z,lukewarlow,editorial,1
 3278049049,false,Browsers disagree on whether CSS `:active` selector works on <area> elements.,https://github.com/whatwg/html/issues/11509,2025-07-30T18:16:38Z,2025-07-30T18:16:38Z,Psychpsyo,,0
@@ -25,7 +26,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3238950352,true,Custom Elements should have a way to declare focusability without sprouting an attribute or elements,https://github.com/whatwg/html/issues/11462,2025-07-17T10:03:13Z,2025-07-17T15:24:20Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: custom elements|topic: focus,0
 3232414481,false,Escape special characters when serializing comments,https://github.com/whatwg/html/issues/11456,2025-07-15T14:04:28Z,2025-07-15T14:04:28Z,evilpie,normative change|topic: parser|security/privacy|security-tracker,0
 3230399023,false,`<select>` attribute to switch between dropdown and listbox (`type`?),https://github.com/whatwg/html/issues/11452,2025-07-15T00:43:46Z,2025-07-23T15:03:24Z,LeaVerou,addition/proposal|needs implementer interest|topic: select,0
-3230073174,false,Formalise the empty value state for enumerated attributes,https://github.com/whatwg/html/issues/11451,2025-07-14T21:21:11Z,2025-07-16T15:15:16Z,lukewarlow,,0
+3230073174,false,Formalise the empty value state for enumerated attributes,https://github.com/whatwg/html/issues/11451,2025-07-14T21:21:11Z,2025-07-31T14:15:31Z,lukewarlow,,0
 3229169765,false,Writing Mode for Canvas text,https://github.com/whatwg/html/issues/11449,2025-07-14T15:31:48Z,2025-07-16T00:06:00Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas,1
 3226469115,false,Proposal: New attribute alt-origin to indicate provenance of alt text (machine vs. human authored),https://github.com/whatwg/html/issues/11448,2025-07-13T12:30:36Z,2025-07-30T11:13:57Z,Johnr24,addition/proposal|needs implementer interest|accessibility|a11y-tracker,9
 3222794879,true,HTMLLinkElement href doesn't indicate it's a URL,https://github.com/whatwg/html/issues/11447,2025-07-11T12:44:05Z,2025-07-11T12:50:58Z,lukewarlow,,0
@@ -159,7 +160,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2989208120,false,CSS content-visibility content relevancy section should be in the HTML spec.,https://github.com/whatwg/html/issues/11210,2025-04-11T16:54:56Z,2025-05-08T17:30:14Z,emilio,,0
 2989087091,true,History's `scrollRestoration` steps refer to undefined node navigable,https://github.com/whatwg/html/issues/11209,2025-04-11T16:04:51Z,2025-04-15T01:15:37Z,AtkinsSJ,topic: history,0
 2984587079,true,createImageData() and getImageData() regressed,https://github.com/whatwg/html/issues/11206,2025-04-10T06:21:24Z,2025-04-10T09:44:25Z,annevk,topic: canvas,0
-2984421467,false,"Discuss out-of-memory etc. agent cluster killing, especially for shared workers?",https://github.com/whatwg/html/issues/11205,2025-04-10T04:33:30Z,2025-07-04T14:58:43Z,domenic,topic: workers|topic: agent,0
+2984421467,false,"Discuss out-of-memory etc. agent cluster killing, especially for shared workers?",https://github.com/whatwg/html/issues/11205,2025-04-10T04:33:30Z,2025-07-31T18:05:45Z,domenic,topic: workers|topic: agent,0
 2984245479,false,Allow importing and exporting from inline module scripts,https://github.com/whatwg/html/issues/11202,2025-04-10T01:50:17Z,2025-05-01T22:16:44Z,justinfagnani,addition/proposal|needs implementer interest,11
 2983067079,false,Some properties should probably inherit to the anonymous button content box (button layout),https://github.com/whatwg/html/issues/11200,2025-04-09T14:46:41Z,2025-04-09T14:46:41Z,zcorpan,topic: rendering,0
 2982879443,true,"Shared history push/replace state steps access ""associated Document"" of history",https://github.com/whatwg/html/issues/11199,2025-04-09T13:43:24Z,2025-04-10T08:42:46Z,zcorpan,topic: history,0
@@ -542,7 +543,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2428415711,false,Consider adding `view-transition` as a token for `blocking`,https://github.com/whatwg/html/issues/10513,2024-07-24T20:27:55Z,2024-08-28T22:47:59Z,noamr,addition/proposal|needs implementer interest,3
 2427187420,true,Navigation API: a way to share custom info across a cross-document navigation,https://github.com/whatwg/html/issues/10509,2024-07-24T10:25:59Z,2024-07-25T01:04:32Z,noamr,addition/proposal|needs implementer interest,0
 2427016162,false,Definition of all event handler attributes,https://github.com/whatwg/html/issues/10508,2024-07-24T09:13:40Z,2024-07-27T07:01:01Z,lukewarlow,,0
-2425263484,false,Pseudo elements for <video> content and controls,https://github.com/whatwg/html/issues/10507,2024-07-23T13:44:51Z,2024-08-12T06:24:14Z,jakearchibald,addition/proposal|needs implementer interest|topic: media,16
+2425263484,false,Pseudo elements for <video> content and controls,https://github.com/whatwg/html/issues/10507,2024-07-23T13:44:51Z,2024-08-12T06:24:14Z,jakearchibald,addition/proposal|needs implementer interest|topic: media,17
 2424258842,true,[Clipboard] [Editing] Copying selected html does not contain the latest value for input/textarea?,https://github.com/whatwg/html/issues/10506,2024-07-23T04:58:44Z,2024-07-24T04:45:55Z,roraja,,0
 2422751311,false,How to convert negative number to a time string in stepDown?,https://github.com/whatwg/html/issues/10503,2024-07-22T12:27:14Z,2024-08-14T15:17:09Z,vinhill,topic: forms,0
 2421629576,true,Reduce network traffic by specifying a checksum attribute,https://github.com/whatwg/html/issues/10502,2024-07-21T22:38:04Z,2024-07-22T03:32:29Z,graph,addition/proposal|needs implementer interest,0
@@ -620,7 +621,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2326705799,true,Upcoming WHATNOT meeting on 6/6/2024,https://github.com/whatwg/html/issues/10381,2024-05-30T23:34:22Z,2024-06-06T17:00:23Z,past,agenda+,0
 2324176691,false,HTML Video and its Source Elements Should Support SRCSET and SIZES,https://github.com/whatwg/html/issues/10379,2024-05-29T20:16:56Z,2024-08-14T12:07:18Z,scottjehl,addition/proposal|needs implementer interest|topic: media,13
 2324127724,false,HTML Video: Allow a child Picture Element to Control the Video Poster Image,https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2024-05-30T14:47:25Z,scottjehl,,19
-2324097406,false,"Specify That Responsive Video Elements Re-Evaluate Sources on Media Change, Like Picture",https://github.com/whatwg/html/issues/10377,2024-05-29T19:33:05Z,2024-05-29T19:33:05Z,scottjehl,,7
+2324097406,false,"Specify That Responsive Video Elements Re-Evaluate Sources on Media Change, Like Picture",https://github.com/whatwg/html/issues/10377,2024-05-29T19:33:05Z,2024-05-29T19:33:05Z,scottjehl,,8
 2324056660,false,Video loading=lazy attribute support,https://github.com/whatwg/html/issues/10376,2024-05-29T19:09:50Z,2025-01-24T15:58:00Z,scottjehl,addition/proposal|needs implementer interest|topic: media,17
 2322953911,true,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-10-08T12:22:36Z,yoavweiss,addition/proposal|needs implementer interest|topic: cross-origin-opener-policy,0
 2322574083,true,a element defines content model as only Transparent,https://github.com/whatwg/html/issues/10372,2024-05-29T07:26:47Z,2024-05-29T09:29:39Z,andrewnicols,,0
@@ -762,7 +763,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2144668268,false,"align=""justify"" should align to start, not to left",https://github.com/whatwg/html/issues/10148,2024-02-20T15:38:05Z,2024-02-21T18:03:20Z,Loirooriol,topic: rendering|needs tests,0
 2143265229,false,UI Element Attribute,https://github.com/whatwg/html/issues/10146,2024-02-19T23:05:03Z,2024-04-17T11:33:27Z,MrMatthewLayton,addition/proposal|needs implementer interest,2
 2142919582,false,"Render-blocking: the definition of ""created by its node document's parser"" is a little bit vague",https://github.com/whatwg/html/issues/10145,2024-02-19T18:08:51Z,2024-03-14T22:55:05Z,cathiechen,topic: parser,0
-2141312881,false,Improve DX of element reference attributes by allowing relative references instead of only ids,https://github.com/whatwg/html/issues/10143,2024-02-19T01:30:10Z,2025-07-30T17:01:01Z,LeaVerou,addition/proposal|needs implementer interest|agenda+,26
+2141312881,false,Improve DX of element reference attributes by allowing relative references instead of only ids,https://github.com/whatwg/html/issues/10143,2024-02-19T01:30:10Z,2025-07-31T21:14:45Z,LeaVerou,addition/proposal|needs implementer interest|agenda+,26
 2141042150,false,"ImageBitmapRenderingContext: clarify behaviour with `premultiplyAlpha: ""none""` createImageBitmap option and canvas",https://github.com/whatwg/html/issues/10142,2024-02-18T15:27:58Z,2024-04-08T22:18:01Z,hybridherbst,topic: canvas,0
 2140571376,true,"Dark mode styling for ""yes"" table attributes is not ledgible",https://github.com/whatwg/html/issues/10141,2024-02-17T20:28:28Z,2024-03-05T02:47:14Z,ADKaster,spec tooling,0
 2137613348,true,Using multiple h1 tag in a page,https://github.com/whatwg/html/issues/10138,2024-02-15T23:28:03Z,2024-02-16T03:27:59Z,bhojpress,,0
@@ -1045,7 +1046,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1788359824,true,"Use ""matches about:blank"" and ""matches about:srcdoc"" in more places",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-28T00:45:03Z,domfarolino,topic: navigation,1
 1787902159,false,"Showing only a child popover causes ""beforetoggle"" and ""toggle"" events but popover is invisble",https://github.com/whatwg/html/issues/9487,2023-07-04T13:07:44Z,2023-07-12T23:31:37Z,ghost,topic: popover,0
 1785504701,true,Input.valueAsNumber can not be manually set to NaN despite it being a valid value for it,https://github.com/whatwg/html/issues/9480,2023-07-03T07:19:15Z,2023-07-03T22:11:25Z,alexandertrefz,,0
-1784674592,false,Proposal: Meta Tag for AI Generated Content,https://github.com/whatwg/html/issues/9479,2023-07-02T14:49:11Z,2025-07-30T08:51:28Z,evayde,addition/proposal|needs implementer interest,26
+1784674592,false,Proposal: Meta Tag for AI Generated Content,https://github.com/whatwg/html/issues/9479,2023-07-02T14:49:11Z,2025-07-30T08:51:28Z,evayde,addition/proposal|needs implementer interest,28
 1782549061,true,Upcoming HTML standard issue triage meeting on 7/13/2023,https://github.com/whatwg/html/issues/9474,2023-06-30T13:38:01Z,2023-07-13T19:37:28Z,past,agenda+,1
 1782419433,false,Define `X-DNS-Prefetch-Control`,https://github.com/whatwg/html/issues/9473,2023-06-30T12:08:13Z,2023-06-30T12:18:22Z,yoavweiss,removal/deprecation|topic: resource hints (inc. preload),0
 1781091258,false,Specify a maximal depth of backtracking for the pattern attribute on input elements,https://github.com/whatwg/html/issues/9469,2023-06-29T15:38:55Z,2023-09-06T06:47:23Z,vinhill,topic: forms|integration,0
@@ -1409,7 +1410,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1427257160,false,Executing finalizers on unload/exit,https://github.com/whatwg/html/issues/8450,2022-10-28T13:21:28Z,2022-10-28T13:21:28Z,jimmywarting,,0
 1426748599,true,"Export ""create a new top-level browsing context""?",https://github.com/whatwg/html/issues/8449,2022-10-28T06:22:32Z,2022-10-31T05:07:08Z,alancutter,topic: frames/navigables/browsing contexts,0
 1425951187,true,Upcoming HTML standard issue triage meeting on 11/10/2022,https://github.com/whatwg/html/issues/8446,2022-10-27T16:49:14Z,2022-11-11T23:54:13Z,past,agenda+,0
-1425750695,false,No load or error event for <video poster>,https://github.com/whatwg/html/issues/8445,2022-10-27T14:38:57Z,2025-04-19T19:23:54Z,zcorpan,addition/proposal|needs implementer interest|topic: media,0
+1425750695,false,No load or error event for <video poster>,https://github.com/whatwg/html/issues/8445,2022-10-27T14:38:57Z,2025-07-31T19:54:56Z,zcorpan,addition/proposal|needs implementer interest|topic: media,0
 1425480606,false,Proposal: add `print` attribute to `<a>` tag,https://github.com/whatwg/html/issues/8444,2022-10-27T11:28:31Z,2023-09-14T08:09:12Z,muaddeepcode,addition/proposal|needs implementer interest,0
 1425413365,false,Task queuing for document creation is sketchy,https://github.com/whatwg/html/issues/8443,2022-10-27T10:34:40Z,2022-10-27T10:35:15Z,domenic,topic: navigation|topic: event loop|topic: agent,0
 1425268051,true,ElementInternals's ARIAMixin,https://github.com/whatwg/html/issues/8442,2022-10-27T08:51:11Z,2023-02-22T10:39:41Z,annevk,accessibility|topic: custom elements|a11y-tracker,0
@@ -3774,7 +3775,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 275429346,false,On the select placeholder (label option),https://github.com/whatwg/html/issues/3244,2017-11-20T17:04:31Z,2018-09-01T10:19:42Z,oh-ren,clarification|document conformance,1
 275192198,true,Activation behavior events should not be cancelable,https://github.com/whatwg/html/issues/3240,2017-11-19T21:02:02Z,2017-11-20T15:05:52Z,domenic,,0
 275192049,true,Radio button activation behavior is not quite right,https://github.com/whatwg/html/issues/3239,2017-11-19T21:00:08Z,2021-02-28T21:18:53Z,domenic,topic: forms,0
-275173257,false,Formalize content attribute reflection,https://github.com/whatwg/html/issues/3238,2017-11-19T16:49:01Z,2025-07-30T12:40:11Z,Zirro,clarification|topic: reflect,1
+275173257,false,Formalize content attribute reflection,https://github.com/whatwg/html/issues/3238,2017-11-19T16:49:01Z,2025-07-31T14:16:05Z,Zirro,clarification|topic: reflect,1
 274842593,true,Consider blocking downloads from a sandboxed `<iframe>`.,https://github.com/whatwg/html/issues/3236,2017-11-17T11:57:52Z,2020-05-28T15:18:13Z,mikewest,security/privacy|topic: user activation,8
 274699424,false,Table of contents issue. Orphaned elements.,https://github.com/whatwg/html/issues/3234,2017-11-16T23:23:14Z,2024-02-10T21:56:49Z,JohnLukeBentley,dev edition,0
 274547731,true,"Should <input type=date> have a ""input activation behavior"" defined? ",https://github.com/whatwg/html/issues/3232,2017-11-16T15:04:39Z,2025-01-23T07:51:52Z,stephenmcgruer,topic: forms,0

@@ -1,9 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3279388233,false,Editorial: clarify worker lifetime definitions,https://github.com/whatwg/html/pull/11515,2025-07-31T07:15:41Z,2025-07-31T07:27:27Z,domenic,clarification|topic: workers,0
+3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-08-01T00:08:36Z,ffiori,,0
+3280953563,false,Imply [Reflect] when [ReflectRange] or [ReflectDefault] are used.,https://github.com/whatwg/html/pull/11518,2025-07-31T15:49:27Z,2025-07-31T16:04:06Z,lukewarlow,,0
+3280885144,false,Remove support ElementInternals reflection flag,https://github.com/whatwg/html/pull/11517,2025-07-31T15:27:38Z,2025-07-31T16:47:24Z,lukewarlow,do not merge yet,0
+3279388233,false,Editorial: clarify worker lifetime definitions,https://github.com/whatwg/html/pull/11515,2025-07-31T07:15:41Z,2025-07-31T15:19:55Z,domenic,clarification|topic: workers,0
 3279246543,true,Clean up Worker and SharedWorker definitions,https://github.com/whatwg/html/pull/11514,2025-07-31T06:13:04Z,2025-07-31T07:46:14Z,domenic,clarification|topic: workers,0
 3279031953,false,Navigation API: fix an ordering issue,https://github.com/whatwg/html/pull/11512,2025-07-31T03:50:41Z,2025-07-31T07:41:25Z,domenic,topic: navigation,0
-3278127313,false,Introduce an explicit empty value default state,https://github.com/whatwg/html/pull/11510,2025-07-30T18:49:11Z,2025-07-30T18:49:41Z,lukewarlow,,0
-3277963701,false,"[Editorial] Export concept ""Early hints""",https://github.com/whatwg/html/pull/11508,2025-07-30T17:45:10Z,2025-07-31T02:09:23Z,guohuideng2024,,0
+3278127313,false,Introduce an explicit empty value default state,https://github.com/whatwg/html/pull/11510,2025-07-30T18:49:11Z,2025-07-31T14:53:41Z,lukewarlow,,0
+3277963701,false,"[Editorial] Export concept ""Early hints""",https://github.com/whatwg/html/pull/11508,2025-07-30T17:45:10Z,2025-07-31T16:14:03Z,guohuideng2024,,0
 3275803101,true,Editorial: correct placement of either,https://github.com/whatwg/html/pull/11504,2025-07-30T06:16:29Z,2025-07-30T06:37:25Z,annevk,,0
 3275484999,true,"Editorial: Fix whitespace, punctuation, spelling, wording, markup",https://github.com/whatwg/html/pull/11503,2025-07-30T02:34:22Z,2025-07-30T06:42:25Z,jmdyck,,0
 3272617801,false,Update Twitter links to point to `x.com` to avoid redirect,https://github.com/whatwg/html/pull/11501,2025-07-29T08:16:01Z,2025-07-30T22:43:04Z,MrStarfleetCommand,,0
@@ -21,8 +24,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3244187479,true,Add examples for customizable select,https://github.com/whatwg/html/pull/11465,2025-07-18T19:31:11Z,2025-07-24T02:00:49Z,josepharhar,topic: select,0
 3237039065,false,Change definition of select element list box and drop-down box rendering,https://github.com/whatwg/html/pull/11460,2025-07-16T19:03:00Z,2025-07-23T15:36:01Z,josepharhar,,1
 3235057490,true,ahmedmeshref021@gmail.com,https://github.com/whatwg/html/pull/11458,2025-07-16T08:49:57Z,2025-07-16T08:58:15Z,Ahmedmeshref280,invalid,0
-3233410374,false,Prevent infinite loop in revealing algorithms,https://github.com/whatwg/html/pull/11457,2025-07-15T19:08:36Z,2025-07-30T12:46:10Z,josepharhar,,0
-3231668942,false,Introduce enumerated attribute reflection extended attributes,https://github.com/whatwg/html/pull/11455,2025-07-15T10:09:54Z,2025-07-30T18:13:26Z,lukewarlow,,0
+3233410374,false,Prevent infinite loop in revealing algorithms,https://github.com/whatwg/html/pull/11457,2025-07-15T19:08:36Z,2025-07-31T21:33:42Z,josepharhar,,0
+3231668942,false,Introduce enumerated attribute reflection extended attributes,https://github.com/whatwg/html/pull/11455,2025-07-15T10:09:54Z,2025-07-31T15:58:23Z,lukewarlow,,0
 3230789302,false,Carry over sticky activation for same-origin navs and traversals,https://github.com/whatwg/html/pull/11454,2025-07-15T05:07:58Z,2025-07-15T05:09:29Z,domenic,addition/proposal|topic: user activation|agenda+,0
 3230719017,true,Remove more XML-derived attribute name validation,https://github.com/whatwg/html/pull/11453,2025-07-15T04:28:48Z,2025-07-16T01:01:00Z,domenic,,1
 3229465049,true,Introduce attribute reflection extended attributes,https://github.com/whatwg/html/pull/11450,2025-07-14T17:19:54Z,2025-07-30T12:35:57Z,lukewarlow,,0
@@ -181,11 +184,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2846556240,true,Editorial: move definition of submit button,https://github.com/whatwg/html/pull/11018,2025-02-11T21:31:34Z,2025-02-11T22:07:06Z,keithamus,,0
 2842888093,true,redefine dialog closedby IDL to return computed value,https://github.com/whatwg/html/pull/11015,2025-02-10T16:00:22Z,2025-02-27T09:06:54Z,keithamus,topic: dialog|topic: close watchers,0
 2838206082,true,"Editorial: remove extra ""value"" in ""nonzero"" definition",https://github.com/whatwg/html/pull/11009,2025-02-07T13:47:22Z,2025-02-07T15:06:30Z,foolip,,0
-2835336619,false,Add the `interestfor` attribute,https://github.com/whatwg/html/pull/11006,2025-02-06T12:01:00Z,2025-07-25T08:39:19Z,foolip,,0
+2835336619,false,Add the `interestfor` attribute,https://github.com/whatwg/html/pull/11006,2025-02-06T12:01:00Z,2025-07-31T14:02:00Z,foolip,,0
 2834196191,true,Editorial: switch links back to official CSSWG drafts,https://github.com/whatwg/html/pull/11005,2025-02-05T23:54:24Z,2025-02-06T02:18:33Z,Loirooriol,,0
 2833243175,true,Editorial: fix link and wording for tuple origin,https://github.com/whatwg/html/pull/11001,2025-02-05T15:17:39Z,2025-02-06T01:25:39Z,zcorpan,clarification|topic: origin,0
 2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2025-04-16T13:40:27Z,AndresRPerez12,do not merge yet|topic: canvas,0
-2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2025-03-27T00:49:44Z,dandclark,,0
+2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2025-07-31T14:09:16Z,dandclark,,0
 2831485110,true,Fix dialog focus restoring descendant check,https://github.com/whatwg/html/pull/10994,2025-02-04T23:17:23Z,2025-02-17T02:49:55Z,josepharhar,topic: dialog,0
 2831477610,false,Remove links to defunct Twitter account,https://github.com/whatwg/html/pull/10993,2025-02-04T23:11:22Z,2025-02-12T12:42:41Z,eeeps,meta,0
 2830828832,true,Pass a top-level navigation initiator origin to Fetch,https://github.com/whatwg/html/pull/10991,2025-02-04T17:06:01Z,2025-07-25T09:20:12Z,bvandersloot-mozilla,,0
@@ -690,7 +693,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1818258169,true,Make the directionality account for missing parent element,https://github.com/whatwg/html/pull/9554,2023-07-24T11:49:33Z,2023-08-31T05:41:01Z,annevk,i18n-tracker,1
 1817297523,true,Tweak `thead` description to clarify it can contain non-header cells,https://github.com/whatwg/html/pull/9552,2023-07-23T21:11:39Z,2023-07-25T09:17:22Z,patrickhlauke,,0
 1815020757,true,selectmenu,https://github.com/whatwg/html/pull/9547,2023-07-21T01:27:53Z,2023-09-23T13:34:59Z,josepharhar,,1
-1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2024-12-15T11:38:19Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms,20
+1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2025-07-31T14:04:25Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms,22
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2024-10-08T14:04:19Z,cijian23,invalid,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,true,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-10-11T23:22:22Z,josepharhar,addition/proposal|topic: parser|impacts documentation,1
