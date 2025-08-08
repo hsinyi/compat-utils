@@ -396,7 +396,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "cookiestore"
+      ]
+    }
   },
   {
     "url": "https://datatracker.ietf.org/doc/html/draft-cutler-httpbis-partitioned-cookies",
@@ -6283,6 +6289,10 @@
       {
         "name": "Accessible Rich Internet Applications Working Group",
         "url": "https://www.w3.org/WAI/about/groups/ariawg/"
+      },
+      {
+        "name": "SVG Accessibility Task Force",
+        "url": "https://www.w3.org/WAI/PF/svg-a11y-tf/"
       }
     ],
     "nightly": {
@@ -21601,7 +21611,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/IFT/",
-      "status": "Working Draft",
+      "status": "Candidate Recommendation Snapshot",
       "filename": "Overview.html"
     },
     "nightly": {
