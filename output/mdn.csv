@@ -2059,6 +2059,7 @@ api/Element/scrollBy/options_left_parameter,,36,,61,,10.1,,false,true,false,,NON
 api/Element/scrollBy/options_top_parameter,,36,,61,,10.1,,false,true,false,,NONE
 api/Element/scrollHeight,,21,,1,,1,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-element-scrollheight,W3C
 api/Element/scrollIntoView,,1,,1,,3,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-element-scrollintoview,W3C
+api/Element/scrollIntoView/options_container_parameter,,,,140,,,,false,true,false,,NONE
 api/Element/scrollIntoView/options_parameter,,36,,61,,14,,false,true,false,,NONE
 api/Element/scrollIntoViewIfNeeded,,,,1,,3,,false,false,false,,NONE
 api/Element/scrollLeft,,1,,86,,1,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-element-scrollleft,W3C
@@ -11834,6 +11835,8 @@ css/selectors/future,,,,23,,7,,false,true,false,https://drafts.csswg.org/selecto
 css/selectors/grammar-error,,,,121,,17.4,,false,true,false,https://drafts.csswg.org/css-pseudo/#selectordef-grammar-error,W3C
 css/selectors/has,,121,,105,,15.4,,false,true,false,https://drafts.csswg.org/selectors/#relational,W3C
 css/selectors/has-slotted,,136,,134,,,,false,true,false,https://drafts.csswg.org/css-scoping/#the-has-slotted-pseudo,W3C
+css/selectors/heading,,preview,"[{""name"":""layout.css.heading-selector.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://drafts.csswg.org/selectors-5/#headings,W3C
+css/selectors/headingfunction,,preview,"[{""name"":""layout.css.heading-selector.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://drafts.csswg.org/selectors-5/#headings,W3C
 css/selectors/highlight,,140,,105,,17.2,,false,true,false,https://drafts.csswg.org/css-highlight-api/#custom-highlight-pseudo,W3C
 css/selectors/host,,63,,54,,10,,false,true,false,https://drafts.csswg.org/css-scoping/#host-selector,W3C
 css/selectors/host-context,,,,54,,,,false,true,false,https://drafts.csswg.org/css-scoping/#host-selector,W3C
@@ -12044,6 +12047,14 @@ css/types/color/system-color,,1,,1,,1,,false,true,false,https://drafts.csswg.org
 css/types/color/system-color/accentcolor_accentcolortext,,103,,115,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""true""}]",16.5,,false,true,false,https://drafts.csswg.org/css-color/#valdef-color-accentcolor,W3C
 css/types/color/system-color/mark_marktext_buttonborder,,109,,,,,,true,true,false,https://drafts.csswg.org/css-color/#valdef-color-mark,W3C
 css/types/color/transparent,,1,,1,,1,,false,true,false,,NONE
+css/types/corner-shape-value,,,,139,,,,true,true,false,https://drafts.csswg.org/css-borders-4/#typedef-corner-shape-value,W3C
+css/types/corner-shape-value/bevel,,,,139,,,,true,true,false,https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-value-bevel,W3C
+css/types/corner-shape-value/notch,,,,139,,,,true,true,false,https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-value-notch,W3C
+css/types/corner-shape-value/round,,,,139,,,,true,true,false,https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-value-round,W3C
+css/types/corner-shape-value/scoop,,,,139,,,,true,true,false,https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-value-scoop,W3C
+css/types/corner-shape-value/square,,,,139,,,,true,true,false,https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-value-square,W3C
+css/types/corner-shape-value/squircle,,,,139,,,,true,true,false,https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-value-squircle,W3C
+css/types/corner-shape-value/superellipse,,,,139,,,,true,true,false,https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-value-superellipse-k,W3C
 css/types/cos,,108,,111,,15.4,,false,true,false,https://drafts.csswg.org/css-values/#trig-funcs,W3C
 css/types/counter,,1,,1,,3,,false,true,false,https://drafts.csswg.org/css-lists/#counter-functions,W3C
 css/types/counters,,1.5,,1,,3,,false,true,false,https://drafts.csswg.org/css-lists/#counter-functions,W3C
@@ -12200,6 +12211,7 @@ css/types/sin,,108,,111,,15.4,,false,true,false,https://drafts.csswg.org/css-val
 css/types/sqrt,,118,,120,,15.4,,false,true,false,https://drafts.csswg.org/css-values/#exponent-funcs,W3C
 css/types/string,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-values/#strings,W3C
 css/types/string/unicode_escaped_characters,,1,,1,,1,,false,true,false,,NONE
+css/types/superellipse,,,,139,,,,true,true,false,https://drafts.csswg.org/css-borders-4/#funcdef-superellipse,W3C
 css/types/tan,,108,,111,,15.4,,false,true,false,https://drafts.csswg.org/css-values/#trig-funcs,W3C
 css/types/text-edge,,,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#typedef-text-edge,W3C
 css/types/text-edge/alphabetic,,,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-alphabetic,W3C
@@ -12958,7 +12970,7 @@ html/global_attributes/draggable,,2,,4,,5,,false,true,false,https://html.spec.wh
 html/global_attributes/enterkeyhint,,94,,77,,13.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint,WHATWG
 html/global_attributes/exportparts,,72,,73,,13.1,,false,true,false,https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts,W3C
 html/global_attributes/hidden,,4,,10,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute,WHATWG
-html/global_attributes/hidden/until-found,,139,,102,,,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute,WHATWG
+html/global_attributes/hidden/until-found,,139,,102,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute,WHATWG
 html/global_attributes/id,,32,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute,WHATWG
 html/global_attributes/inert,,112,,102,,15.5,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute,WHATWG
 html/global_attributes/inert/ignores_find_in_page,,120,,124,,,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees,WHATWG
@@ -13162,8 +13174,8 @@ http/headers/If-Modified-Since,,1,,1,,1,,false,true,false,https://httpwg.org/spe
 http/headers/If-None-Match,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.if-none-match,IETF
 http/headers/If-Range,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.if-range,IETF
 http/headers/If-Unmodified-Since,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.if-unmodified-since,IETF
-http/headers/Integrity-Policy,,,,138,,,,false,true,false,https://w3c.github.io/webappsec-subresource-integrity/#integrity-policy-section,W3C
-http/headers/Integrity-Policy-Report-Only,,,,138,,,,false,true,false,https://w3c.github.io/webappsec-subresource-integrity/#integrity-policy-section,W3C
+http/headers/Integrity-Policy,,preview,,138,,,,false,true,false,https://w3c.github.io/webappsec-subresource-integrity/#integrity-policy-section,W3C
+http/headers/Integrity-Policy-Report-Only,,preview,,138,,,,false,true,false,https://w3c.github.io/webappsec-subresource-integrity/#integrity-policy-section,W3C
 http/headers/Keep-Alive,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9112.html#compatibility.with.http.1.0.persistent.connections,IETF
 http/headers/Last-Modified,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.last-modified,IETF
 http/headers/Link,,120,,103,,17,,false,true,false,https://httpwg.org/specs/rfc8288.html#header,IETF
