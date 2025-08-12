@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 3300979591,false,Remove connectedness check in script post-connection steps,https://github.com/whatwg/html/pull/11543,2025-08-07T15:31:03Z,2025-08-07T15:32:33Z,domfarolino,topic: script,0
-3297579358,false,"Move `has cross-site ancestor` to the environment, from the ESO",https://github.com/whatwg/html/pull/11540,2025-08-06T18:03:22Z,2025-08-09T02:00:24Z,bvandersloot-mozilla,,0
+3297579358,false,"Move `has cross-site ancestor` to the environment, from the ESO",https://github.com/whatwg/html/pull/11540,2025-08-06T18:03:22Z,2025-08-11T13:14:01Z,bvandersloot-mozilla,,0
 3294412090,false,Change light dismiss to use click events,https://github.com/whatwg/html/pull/11536,2025-08-05T20:54:41Z,2025-08-05T20:56:07Z,josepharhar,,0
 3292278858,false,Don't allow the javascript: protocol in navigation.navigate(),https://github.com/whatwg/html/pull/11533,2025-08-05T09:16:45Z,2025-08-06T07:52:18Z,evilpie,normative change|topic: navigation,0
 3291533405,false,Canvas2D: Add rec2100-linear to PredefinedColorSpace enum,https://github.com/whatwg/html/pull/11529,2025-08-05T04:38:31Z,2025-08-05T04:40:01Z,ccameron-chromium,,0
@@ -31,7 +31,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3244187479,true,Add examples for customizable select,https://github.com/whatwg/html/pull/11465,2025-07-18T19:31:11Z,2025-07-24T02:00:49Z,josepharhar,topic: select,0
 3237039065,false,Change definition of select element list box and drop-down box rendering,https://github.com/whatwg/html/pull/11460,2025-07-16T19:03:00Z,2025-07-23T15:36:01Z,josepharhar,,1
 3235057490,true,ahmedmeshref021@gmail.com,https://github.com/whatwg/html/pull/11458,2025-07-16T08:49:57Z,2025-07-16T08:58:15Z,Ahmedmeshref280,invalid,0
-3233410374,true,Prevent infinite loop in revealing algorithms,https://github.com/whatwg/html/pull/11457,2025-07-15T19:08:36Z,2025-08-02T04:43:27Z,josepharhar,,0
+3233410374,true,Prevent infinite loop in revealing algorithms,https://github.com/whatwg/html/pull/11457,2025-07-15T19:08:36Z,2025-08-11T19:24:57Z,josepharhar,,0
 3231668942,false,Introduce enumerated attribute reflection extended attributes,https://github.com/whatwg/html/pull/11455,2025-07-15T10:09:54Z,2025-07-31T15:58:23Z,lukewarlow,,0
 3230789302,false,Carry over sticky activation for same-origin navs and traversals,https://github.com/whatwg/html/pull/11454,2025-07-15T05:07:58Z,2025-07-15T05:09:29Z,domenic,addition/proposal|topic: user activation|agenda+,0
 3230719017,true,Remove more XML-derived attribute name validation,https://github.com/whatwg/html/pull/11453,2025-07-15T04:28:48Z,2025-07-16T01:01:00Z,domenic,,1
@@ -50,7 +50,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3185784635,true,Fix description of missing-semicolon-after-character-reference error,https://github.com/whatwg/html/pull/11419,2025-06-29T05:42:47Z,2025-07-02T01:51:29Z,squeek502,topic: parser,0
 3184916936,true,"Refactor dfn.js: modern JS, keyboard accessibility, and multipage support",https://github.com/whatwg/html/pull/11418,2025-06-28T12:36:17Z,2025-06-29T03:11:34Z,AbdelatefElshafei,invalid,0
 3182862667,true,"Editorial: change instances of ""zero"" to 0",https://github.com/whatwg/html/pull/11415,2025-06-27T13:33:22Z,2025-06-27T20:31:08Z,keithamus,,0
-3182418157,false,Add :heading and :heading() pseudo-classes,https://github.com/whatwg/html/pull/11413,2025-06-27T11:09:41Z,2025-08-07T09:37:45Z,zcorpan,addition/proposal|topic: selectors,0
+3182418157,true,Add :heading and :heading() pseudo-classes,https://github.com/whatwg/html/pull/11413,2025-06-27T11:09:41Z,2025-08-11T23:30:13Z,zcorpan,addition/proposal|topic: selectors,0
 3181341774,true,Abort ongoing navigations when firing certain navigate events,https://github.com/whatwg/html/pull/11409,2025-06-27T04:48:53Z,2025-06-27T07:46:20Z,domenic,topic: navigation,0
 3178652783,true,Editorial: use ThrowCompletion AO to create throw completions,https://github.com/whatwg/html/pull/11403,2025-06-26T10:34:27Z,2025-06-27T01:12:19Z,nicolo-ribaudo,,0
 3177669506,true,Clarify that disabled does not prevent all modifications,https://github.com/whatwg/html/pull/11401,2025-06-26T04:16:29Z,2025-06-29T03:15:30Z,domenic,clarification|topic: forms,0
@@ -191,7 +191,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2846556240,true,Editorial: move definition of submit button,https://github.com/whatwg/html/pull/11018,2025-02-11T21:31:34Z,2025-02-11T22:07:06Z,keithamus,,0
 2842888093,true,redefine dialog closedby IDL to return computed value,https://github.com/whatwg/html/pull/11015,2025-02-10T16:00:22Z,2025-02-27T09:06:54Z,keithamus,topic: dialog|topic: close watchers,0
 2838206082,true,"Editorial: remove extra ""value"" in ""nonzero"" definition",https://github.com/whatwg/html/pull/11009,2025-02-07T13:47:22Z,2025-02-07T15:06:30Z,foolip,,0
-2835336619,false,Add the `interestfor` attribute,https://github.com/whatwg/html/pull/11006,2025-02-06T12:01:00Z,2025-08-11T11:35:15Z,foolip,,1
+2835336619,false,Add the `interestfor` attribute,https://github.com/whatwg/html/pull/11006,2025-02-06T12:01:00Z,2025-08-11T14:37:43Z,foolip,,1
 2834196191,true,Editorial: switch links back to official CSSWG drafts,https://github.com/whatwg/html/pull/11005,2025-02-05T23:54:24Z,2025-02-06T02:18:33Z,Loirooriol,,0
 2833243175,true,Editorial: fix link and wording for tuple origin,https://github.com/whatwg/html/pull/11001,2025-02-05T15:17:39Z,2025-02-06T01:25:39Z,zcorpan,clarification|topic: origin,0
 2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2025-04-16T13:40:27Z,AndresRPerez12,do not merge yet|topic: canvas,0
