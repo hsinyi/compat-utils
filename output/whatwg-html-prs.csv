@@ -7,7 +7,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3291533405,false,Canvas2D: Add rec2100-linear to PredefinedColorSpace enum,https://github.com/whatwg/html/pull/11529,2025-08-05T04:38:31Z,2025-08-05T04:40:01Z,ccameron-chromium,,0
 3290898664,true,Editorial: fix ending li tag,https://github.com/whatwg/html/pull/11528,2025-08-04T21:58:37Z,2025-08-05T06:20:42Z,josepharhar,,0
 3285874404,true,Add paragraph to hgroup children in indices table,https://github.com/whatwg/html/pull/11524,2025-08-02T12:03:48Z,2025-08-04T11:52:25Z,TrySound,,0
-3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-08-05T20:33:46Z,ffiori,,0
+3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-08-13T20:53:25Z,ffiori,,0
 3280953563,false,Imply [Reflect] when [ReflectRange] or [ReflectDefault] are used.,https://github.com/whatwg/html/pull/11518,2025-07-31T15:49:27Z,2025-08-01T06:55:21Z,lukewarlow,,0
 3280885144,false,Remove support ElementInternals reflection flag,https://github.com/whatwg/html/pull/11517,2025-07-31T15:27:38Z,2025-07-31T16:47:24Z,lukewarlow,do not merge yet,0
 3279388233,false,Editorial: clarify worker lifetime definitions,https://github.com/whatwg/html/pull/11515,2025-07-31T07:15:41Z,2025-07-31T15:19:55Z,domenic,clarification|topic: workers,0
@@ -39,7 +39,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3229465049,true,Introduce attribute reflection extended attributes,https://github.com/whatwg/html/pull/11450,2025-07-14T17:19:54Z,2025-07-30T12:35:57Z,lukewarlow,,0
 3222567446,true,Editorial: add popover=hint in attribute summary table,https://github.com/whatwg/html/pull/11446,2025-07-11T11:29:54Z,2025-07-12T06:39:19Z,foolip,,0
 3214658625,true,Revamp base URL change processing,https://github.com/whatwg/html/pull/11442,2025-07-09T06:21:00Z,2025-07-23T02:09:39Z,domenic,,0
-3211267153,false,[WebDriver BiDi] enable and disable scripting via BiDi,https://github.com/whatwg/html/pull/11441,2025-07-08T06:49:51Z,2025-07-23T08:58:38Z,sadym-chromium,,0
+3211267153,false,[WebDriver BiDi] enable and disable scripting via BiDi,https://github.com/whatwg/html/pull/11441,2025-07-08T06:49:51Z,2025-08-13T14:16:25Z,sadym-chromium,,0
 3210964890,false,Update QuotaExceededError usage,https://github.com/whatwg/html/pull/11440,2025-07-08T04:21:36Z,2025-07-08T04:23:13Z,domenic,,0
 3206351338,true,Meta: add for attribute in element-attr dfns,https://github.com/whatwg/html/pull/11434,2025-07-06T09:56:38Z,2025-07-08T18:40:17Z,arHSM,,0
 3204875494,true,Editorial: make references to No Popover state consistent,https://github.com/whatwg/html/pull/11433,2025-07-05T12:23:23Z,2025-07-07T01:55:38Z,foolip,,0
@@ -168,7 +168,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2893270381,true,Create firk,https://github.com/whatwg/html/pull/11096,2025-03-04T07:40:39Z,2025-03-04T07:42:26Z,shifakhousain,invalid,0
 2891297197,true,Change references to an input being in a state,https://github.com/whatwg/html/pull/11093,2025-03-03T13:43:09Z,2025-03-03T14:48:34Z,lukewarlow,,0
 2888192997,false,Change focus delegate for dialog to use flat tree to find focusable descendant,https://github.com/whatwg/html/pull/11088,2025-02-28T22:50:43Z,2025-03-03T02:12:46Z,dizhang168,,0
-2887880948,false,implement headingoffset & headingreset attributes,https://github.com/whatwg/html/pull/11086,2025-02-28T19:05:47Z,2025-06-27T15:00:43Z,keithamus,,0
+2887880948,false,implement headingoffset & headingreset attributes,https://github.com/whatwg/html/pull/11086,2025-02-28T19:05:47Z,2025-08-13T17:29:24Z,keithamus,,0
 2886874574,true,Editorial: Remove %JSON.parse% intrinsic reference,https://github.com/whatwg/html/pull/11085,2025-02-28T11:11:52Z,2025-02-28T11:20:20Z,nicolo-ribaudo,,0
 2886863904,true,Editorial: Replace remaining link to import attributes proposal,https://github.com/whatwg/html/pull/11084,2025-02-28T11:06:43Z,2025-02-28T11:12:18Z,nicolo-ribaudo,,0
 2882602969,true,Upstream XMLSerializer from DOM Parsing spec,https://github.com/whatwg/html/pull/11077,2025-02-26T19:27:40Z,2025-02-28T06:23:02Z,lukewarlow,,2
@@ -701,7 +701,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1818258169,true,Make the directionality account for missing parent element,https://github.com/whatwg/html/pull/9554,2023-07-24T11:49:33Z,2023-08-31T05:41:01Z,annevk,i18n-tracker,1
 1817297523,true,Tweak `thead` description to clarify it can contain non-header cells,https://github.com/whatwg/html/pull/9552,2023-07-23T21:11:39Z,2023-07-25T09:17:22Z,patrickhlauke,,0
 1815020757,true,selectmenu,https://github.com/whatwg/html/pull/9547,2023-07-21T01:27:53Z,2023-09-23T13:34:59Z,josepharhar,,1
-1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2025-07-31T14:04:25Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms,22
+1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2025-07-31T14:04:25Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms,23
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2024-10-08T14:04:19Z,cijian23,invalid,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,true,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-10-11T23:22:22Z,josepharhar,addition/proposal|topic: parser|impacts documentation,1
@@ -1497,7 +1497,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 897489317,true,Meta: do not export incumbent settings object,https://github.com/whatwg/html/pull/6702,2021-05-20T21:45:28Z,2021-05-21T05:26:50Z,domenic,,0
 895720668,true,Change the textarea wrapping algorithm to normalize to LF.,https://github.com/whatwg/html/pull/6697,2021-05-19T17:50:00Z,2021-05-20T12:15:54Z,andreubotella,,0
 895442285,true,"Add notes for focus & non-""fully active"" documents",https://github.com/whatwg/html/pull/6696,2021-05-19T13:23:51Z,2021-10-14T16:01:38Z,rakina,topic: focus,0
-895441195,false,Take sizes from <img> if a <source> doesn't have a sizes attribute,https://github.com/whatwg/html/pull/6695,2021-05-19T13:22:48Z,2023-11-14T08:05:50Z,jakearchibald,,2
+895441195,false,Take sizes from <img> if a <source> doesn't have a sizes attribute,https://github.com/whatwg/html/pull/6695,2021-05-19T13:22:48Z,2023-11-14T08:05:50Z,jakearchibald,,3
 892519142,true,Contributionw,https://github.com/whatwg/html/pull/6690,2021-05-15T19:19:05Z,2024-10-08T14:08:39Z,jayeshgpr2856,invalid,0
 892454169,true,"Meta: export ""system focus""",https://github.com/whatwg/html/pull/6689,2021-05-15T14:18:32Z,2021-05-18T18:12:37Z,mfalken,meta,0
 891122673,true,4x4 transforms for CanvasRenderingContext2D,https://github.com/whatwg/html/pull/6683,2021-05-13T15:07:07Z,2023-08-29T18:45:37Z,mysteryDate,addition/proposal|topic: canvas,0
