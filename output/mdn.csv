@@ -1230,7 +1230,7 @@ api/CredentialsContainer/create/publicKey_option/extensions/credProtect,,139,,76
 api/CredentialsContainer/create/publicKey_option/extensions/largeBlob,,139,,113,,17,,false,true,false,https://w3c.github.io/webauthn/#sctn-large-blob-extension,W3C
 api/CredentialsContainer/create/publicKey_option/extensions/minPinLength,,120,,98,,,,false,true,false,,NONE
 api/CredentialsContainer/create/publicKey_option/extensions/payment,,,,95,,,,false,true,false,https://w3c.github.io/secure-payment-confirmation/#sctn-payment-extension-registration,W3C
-api/CredentialsContainer/create/publicKey_option/extensions/prf,,139,,116,,,,false,true,false,https://w3c.github.io/webauthn/#prf-extension,W3C
+api/CredentialsContainer/create/publicKey_option/extensions/prf,,139,,116,,18,,false,true,false,https://w3c.github.io/webauthn/#prf-extension,W3C
 api/CredentialsContainer/create/publicKey_option/hints,,,,128,,,,true,true,false,https://w3c.github.io/webauthn/#enum-hints,W3C
 api/CredentialsContainer/create/publicKey_option/requireResidentKey,,,,89,,,,true,true,false,https://w3c.github.io/webauthn/#dom-authenticatorselectioncriteria-requireresidentkey,W3C
 api/CredentialsContainer/create/publicKey_option/residentKey,,114,,89,,,,false,true,false,https://w3c.github.io/webauthn/#dom-authenticatorselectioncriteria-residentkey,W3C
@@ -1571,6 +1571,8 @@ api/DevicePosture/type,,,,132,,,,true,true,false,https://w3c.github.io/device-po
 api/DigitalCredential,,,,,,26,,true,true,false,https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredential,UNKNOWN
 api/DigitalCredential/data,,,,,,26,,true,true,false,https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredential-data,UNKNOWN
 api/DigitalCredential/protocol,,,,,,26,,true,true,false,https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredential-protocol,UNKNOWN
+api/DigitalCredential/toJSON,,,,,,26,,true,true,false,https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredential,UNKNOWN
+api/DigitalCredential/userAgentAllowsProtocol_static,,,,,,26,,true,true,false,https://w3c-fedid.github.io/digital-credentials/#dom-digitalcredential-useragentallowsprotocol,UNKNOWN
 api/Directory,,30,,,,,,true,false,false,,NONE
 api/Directory/getFiles,,48,,,,,,true,false,false,,NONE
 api/Directory/getFilesAndDirectories,,42,,,,,,true,false,false,,NONE
@@ -4068,7 +4070,7 @@ api/Ink/requestPresenter,,,,94,,,,true,true,false,https://wicg.github.io/ink-enh
 api/InputDeviceCapabilities,,,,47,,,,true,true,false,https://wicg.github.io/input-device-capabilities/#dom-inputdevicecapabilities,W3CCG
 api/InputDeviceCapabilities/InputDeviceCapabilities,,,,47,,,,true,true,false,https://wicg.github.io/input-device-capabilities/#dom-inputdevicecapabilities-constructor,W3CCG
 api/InputDeviceCapabilities/firesTouchEvents,,,,47,,,,true,true,false,https://wicg.github.io/input-device-capabilities/#dom-inputdevicecapabilities-firestouchevents,W3CCG
-api/InputDeviceInfo,,39,,47,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-inputdeviceinfo,W3C
+api/InputDeviceInfo,,,,47,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-inputdeviceinfo,W3C
 api/InputDeviceInfo/getCapabilities,,,,67,,17,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-inputdeviceinfo-getcapabilities,W3C
 api/InputEvent,,31,,60,,10.1,,false,true,false,https://w3c.github.io/input-events/#interface-InputEvent,W3C
 api/InputEvent/InputEvent,,31,,60,,10.1,,false,true,false,https://w3c.github.io/uievents/#dom-inputevent-inputevent,W3C
@@ -9630,6 +9632,8 @@ css/at-rules/font-palette-values,,107,,101,,15.4,,false,true,false,https://draft
 css/at-rules/font-palette-values/base-palette,,107,,101,,15.4,,false,true,false,https://drafts.csswg.org/css-fonts/#base-palette-desc,W3C
 css/at-rules/font-palette-values/font-family,,107,,101,,15.4,,false,true,false,https://drafts.csswg.org/css-fonts/#font-family-2-desc,W3C
 css/at-rules/font-palette-values/override-colors,,107,,101,,15.4,,false,true,false,https://drafts.csswg.org/css-fonts/#override-color,W3C
+css/at-rules/function,,,,139,,,,true,true,false,https://drafts.csswg.org/css-mixins-1/#function-rule,W3C
+css/at-rules/function/result,,,,139,,,,true,true,false,https://drafts.csswg.org/css-mixins-1/#the-result-descriptor,W3C
 css/at-rules/import,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-cascade-5/#at-import,W3C
 css/at-rules/import/layer,,97,,99,,15.4,,false,true,false,https://drafts.csswg.org/css-cascade-5/#ref-for-typedef-layer-name,W3C
 css/at-rules/import/supports,,115,,122,,17.5,,false,true,false,https://drafts.csswg.org/css-cascade-5/#typedef-import-conditions,W3C
@@ -11687,7 +11691,7 @@ css/properties/view-transition-group/contain,,,,140,,,,true,true,false,,NONE
 css/properties/view-transition-group/nearest,,,,140,,,,true,true,false,,NONE
 css/properties/view-transition-group/normal,,,,140,,,,true,true,false,,NONE
 css/properties/view-transition-name,,preview,,111,,18,,false,true,false,https://drafts.csswg.org/css-view-transitions/#view-transition-name-prop,W3C
-css/properties/view-transition-name/match-element,,,,137,,,,true,true,false,https://drafts.csswg.org/css-view-transitions-2/#auto-vt-name,W3C
+css/properties/view-transition-name/match-element,,preview,,137,,,,true,true,false,https://drafts.csswg.org/css-view-transitions-2/#auto-vt-name,W3C
 css/properties/view-transition-name/none,,preview,,111,,18,,false,true,false,https://drafts.csswg.org/css-view-transitions/#valdef-view-transition-name-none,W3C
 css/properties/visibility,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-display/#visibility,W3C
 css/properties/visibility/collapse,,1,,1,,1.3,,false,true,false,https://drafts.csswg.org/css-display/#valdef-visibility-collapse,W3C
@@ -11784,8 +11788,8 @@ css/selectors/-webkit-scrollbar-track,,,,2,,4,,false,false,false,,NONE
 css/selectors/-webkit-scrollbar-track-piece,,,,2,,4,,false,false,false,,NONE
 css/selectors/-webkit-search-cancel-button,,,,1,,3,,false,false,false,,NONE
 css/selectors/-webkit-search-results-button,,,,1,,3,,false,false,false,,NONE
-css/selectors/-webkit-slider-runnable-track,,,,≤83,,18,,false,false,false,,NONE
-css/selectors/-webkit-slider-thumb,,,,≤83,,18,,false,false,false,,NONE
+css/selectors/-webkit-slider-runnable-track,,,,26,,18,,false,false,false,,NONE
+css/selectors/-webkit-slider-thumb,,,,32,,18,,false,false,false,,NONE
 css/selectors/active,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-active,WHATWG
 css/selectors/active/non_a_elements,,1,,1,,1,,false,true,false,,NONE
 css/selectors/active-view-transition,,preview,,125,,18,,false,true,false,https://drafts.csswg.org/css-view-transitions-2/#the-active-view-transition-pseudo,W3C
@@ -12068,6 +12072,7 @@ css/types/corner-shape-value/superellipse,,,,139,,,,true,true,false,https://draf
 css/types/cos,,108,,111,,15.4,,false,true,false,https://drafts.csswg.org/css-values/#trig-funcs,W3C
 css/types/counter,,1,,1,,3,,false,true,false,https://drafts.csswg.org/css-lists/#counter-functions,W3C
 css/types/counters,,1.5,,1,,3,,false,true,false,https://drafts.csswg.org/css-lists/#counter-functions,W3C
+css/types/dashed-function,,,,139,,,,true,true,false,https://drafts.csswg.org/css-mixins-1/#using-custom-functions,W3C
 css/types/dimension,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-values/#dimensions,W3C
 css/types/easing-function,,4,,4,,3.1,,false,true,false,https://drafts.csswg.org/css-easing/#easing-functions,W3C
 css/types/easing-function/cubic-bezier,,4,,16,,6,,false,true,false,https://drafts.csswg.org/css-easing/#cubic-bezier-easing-functions,W3C
@@ -12252,6 +12257,7 @@ css/types/transform-function/translate3d,,10,,12,,4,,false,true,false,https://dr
 css/types/transform-function/translateX,,3.5,,1,,3.1,,false,true,false,https://drafts.csswg.org/css-transforms/#funcdef-transform-translatex,W3C
 css/types/transform-function/translateY,,3.5,,1,,3.1,,false,true,false,https://drafts.csswg.org/css-transforms/#funcdef-transform-translatey,W3C
 css/types/transform-function/translateZ,,10,,12,,4,,false,true,false,https://drafts.csswg.org/css-transforms-2/#funcdef-translatez,W3C
+css/types/type,,,,139,,,,true,true,false,https://drafts.csswg.org/css-mixins-1/#funcdef-function-type,W3C
 css/types/url,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-values/#urls,W3C
 css/types/var,,31,,49,,9.1,,false,true,false,https://drafts.csswg.org/css-variables/#using-variables,W3C
 html/elements/a,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element,WHATWG
@@ -13184,8 +13190,12 @@ http/headers/If-Modified-Since,,1,,1,,1,,false,true,false,https://httpwg.org/spe
 http/headers/If-None-Match,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.if-none-match,IETF
 http/headers/If-Range,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.if-range,IETF
 http/headers/If-Unmodified-Since,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.if-unmodified-since,IETF
-http/headers/Integrity-Policy,,preview,,138,,,,false,true,false,https://w3c.github.io/webappsec-subresource-integrity/#integrity-policy-section,W3C
-http/headers/Integrity-Policy-Report-Only,,preview,,138,,,,false,true,false,https://w3c.github.io/webappsec-subresource-integrity/#integrity-policy-section,W3C
+http/headers/Integrity-Policy,,preview,,138,,,,true,true,false,https://w3c.github.io/webappsec-subresource-integrity/#integrity-policy-section,W3C
+http/headers/Integrity-Policy/blocked-destinations_script,,preview,,138,,,,true,true,false,https://w3c.github.io/webappsec-subresource-integrity/#blocked-destinations,W3C
+http/headers/Integrity-Policy/blocked-destinations_style,,142,"[{""name"":""security.integrity_policy.stylesheet.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://w3c.github.io/webappsec-subresource-integrity/#blocked-destinations,W3C
+http/headers/Integrity-Policy-Report-Only,,preview,,138,,,,true,true,false,https://w3c.github.io/webappsec-subresource-integrity/#integrity-policy-section,W3C
+http/headers/Integrity-Policy-Report-Only/blocked-destinations_script,,preview,,138,,,,true,true,false,https://w3c.github.io/webappsec-subresource-integrity/#blocked-destinations,W3C
+http/headers/Integrity-Policy-Report-Only/blocked-destinations_style,,142,"[{""name"":""security.integrity_policy.stylesheet.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://w3c.github.io/webappsec-subresource-integrity/#blocked-destinations,W3C
 http/headers/Keep-Alive,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9112.html#compatibility.with.http.1.0.persistent.connections,IETF
 http/headers/Last-Modified,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.last-modified,IETF
 http/headers/Link,,120,,103,,17,,false,true,false,https://httpwg.org/specs/rfc8288.html#header,IETF
