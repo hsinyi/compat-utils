@@ -5771,6 +5771,10 @@ api/PushSubscriptionChangeEvent/oldSubscription,,137,,138,,16,,false,true,false,
 api/PushSubscriptionOptions,,44,,54,,16,,false,true,false,https://w3c.github.io/push-api/#dom-pushsubscriptionoptions,W3C
 api/PushSubscriptionOptions/applicationServerKey,,44,,54,,16,,false,true,false,https://w3c.github.io/push-api/#dom-pushsubscriptionoptions-applicationserverkey,W3C
 api/PushSubscriptionOptions/userVisibleOnly,,,,54,,16,,false,true,false,https://w3c.github.io/push-api/#dom-pushsubscriptionoptions-uservisibleonly,W3C
+api/QuotaExceededError,,,,138,,,,true,true,false,https://webidl.spec.whatwg.org/#quotaexceedederror,WHATWG
+api/QuotaExceededError/QuotaExceededError,,,,138,,,,true,true,false,https://webidl.spec.whatwg.org/#dom-quotaexceedederror-quotaexceedederror,WHATWG
+api/QuotaExceededError/quota,,,,138,,,,true,true,false,https://webidl.spec.whatwg.org/#dom-quotaexceedederror-quota,WHATWG
+api/QuotaExceededError/requested,,,,138,,,,true,true,false,https://webidl.spec.whatwg.org/#dom-quotaexceedederror-requested,WHATWG
 api/RGBColor,,20,,1,,3,,false,false,true,,NONE
 api/RGBColor/blue,,20,,1,,3,,false,false,true,,NONE
 api/RGBColor/green,,20,,1,,3,,false,false,true,,NONE
@@ -11824,7 +11828,7 @@ css/selectors/cue/selector_argument,,,,26,,7,,false,true,false,,NONE
 css/selectors/default,,4,,10,,5,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-default,WHATWG
 css/selectors/defined,,63,,54,,10,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-defined,WHATWG
 css/selectors/descendant,,1,,1,,1,,false,true,false,https://drafts.csswg.org/selectors/#descendant-combinators,W3C
-css/selectors/details-content,,138,"[{""name"":""layout.css.details-content.enabled"",""type"":""preference"",""value_to_set"":""true""}]",131,,18.4,,false,true,false,https://drafts.csswg.org/css-pseudo-4/#details-content-pseudo,W3C
+css/selectors/details-content,,143,,131,,18.4,,false,true,false,https://drafts.csswg.org/css-pseudo-4/#details-content-pseudo,W3C
 css/selectors/dir,,49,,120,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-ltr,WHATWG
 css/selectors/disabled,,1,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-disabled,WHATWG
 css/selectors/empty,,1,,1,,3.1,,false,true,false,https://drafts.csswg.org/selectors/#the-empty-pseudo,W3C
@@ -12613,6 +12617,7 @@ html/elements/input/type_checkbox,,1,,1,,1,,false,true,false,https://html.spec.w
 html/elements/input/type_color,,29,,20,,12.1,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#color-state-(type=color),WHATWG
 html/elements/input/type_color/accepts_css_colors,,,,,,18.4,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#color-state-(type=color),WHATWG
 html/elements/input/type_date,,57,,20,,14.1,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#date-state-(type=date),WHATWG
+html/elements/input/type_date/disables_invalid_values_in_picker_ui,,57,,20,,14.1,,false,false,false,,NONE
 html/elements/input/type_datetime-local,,93,,20,,14.1,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#local-date-and-time-state-(type=datetime-local),WHATWG
 html/elements/input/type_email,,1,,5,,5,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#email-state-(type=email),WHATWG
 html/elements/input/type_file,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#file-upload-state-(type=file),WHATWG
