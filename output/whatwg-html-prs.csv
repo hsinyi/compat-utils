@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 3337110965,true,[meta] Add dfn type and scope for HTMLMediaElement.src,https://github.com/whatwg/html/pull/11581,2025-08-20T08:32:57Z,2025-08-21T00:28:09Z,dontcallmedom,,1
-3336967031,false,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-20T07:50:17Z,noamr,,0
+3336967031,true,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation,0
 3333877613,false,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-08-19T11:59:40Z,sadym-chromium,,0
 3331131522,false,[WebDriver BiDi] emulate network offline,https://github.com/whatwg/html/pull/11575,2025-08-18T15:16:42Z,2025-08-19T12:00:11Z,sadym-chromium,,0
 3327499382,true,mudei cord,https://github.com/whatwg/html/pull/11568,2025-08-16T18:00:25Z,2025-08-16T19:55:40Z,NicolasGimenezAlcalde,invalid,0
@@ -8,9 +8,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3321823554,false,"Redact ancestorOrigins using ""the document's referrer""",https://github.com/whatwg/html/pull/11560,2025-08-14T11:10:20Z,2025-08-14T17:07:02Z,zcorpan,,0
 3314237971,true,Remove rowspan=0 quirk,https://github.com/whatwg/html/pull/11551,2025-08-12T13:20:05Z,2025-08-14T07:16:55Z,zcorpan,,0
 3300979591,false,Remove connectedness check in script post-connection steps,https://github.com/whatwg/html/pull/11543,2025-08-07T15:31:03Z,2025-08-19T13:44:16Z,domfarolino,topic: script,0
-3297579358,false,"Move `has cross-site ancestor` to the environment, from the ESO",https://github.com/whatwg/html/pull/11540,2025-08-06T18:03:22Z,2025-08-11T13:14:01Z,bvandersloot-mozilla,,0
-3294412090,false,Change light dismiss to use click events,https://github.com/whatwg/html/pull/11536,2025-08-05T20:54:41Z,2025-08-05T20:56:07Z,josepharhar,,0
-3292278858,false,Don't allow the javascript: protocol in navigation.navigate(),https://github.com/whatwg/html/pull/11533,2025-08-05T09:16:45Z,2025-08-21T00:30:31Z,evilpie,normative change|topic: navigation,0
+3297579358,false,"Move `has cross-site ancestor` to the environment, from the ESO",https://github.com/whatwg/html/pull/11540,2025-08-06T18:03:22Z,2025-08-21T06:06:36Z,bvandersloot-mozilla,,0
+3294412090,false,Change light dismiss to use click events,https://github.com/whatwg/html/pull/11536,2025-08-05T20:54:41Z,2025-08-21T11:55:23Z,josepharhar,,0
+3292278858,true,Don't allow the javascript: protocol in navigation.navigate(),https://github.com/whatwg/html/pull/11533,2025-08-05T09:16:45Z,2025-08-21T07:39:32Z,evilpie,normative change|topic: navigation,0
 3291533405,false,Canvas2D: Add rec2100-linear to PredefinedColorSpace enum,https://github.com/whatwg/html/pull/11529,2025-08-05T04:38:31Z,2025-08-19T06:16:35Z,ccameron-chromium,addition/proposal|topic: canvas,0
 3290898664,true,Editorial: fix ending li tag,https://github.com/whatwg/html/pull/11528,2025-08-04T21:58:37Z,2025-08-05T06:20:42Z,josepharhar,,0
 3285874404,true,Add paragraph to hgroup children in indices table,https://github.com/whatwg/html/pull/11524,2025-08-02T12:03:48Z,2025-08-19T06:13:06Z,TrySound,document conformance,0
@@ -46,7 +46,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3229465049,true,Introduce attribute reflection extended attributes,https://github.com/whatwg/html/pull/11450,2025-07-14T17:19:54Z,2025-07-30T12:35:57Z,lukewarlow,,0
 3222567446,true,Editorial: add popover=hint in attribute summary table,https://github.com/whatwg/html/pull/11446,2025-07-11T11:29:54Z,2025-07-12T06:39:19Z,foolip,,0
 3214658625,true,Revamp base URL change processing,https://github.com/whatwg/html/pull/11442,2025-07-09T06:21:00Z,2025-07-23T02:09:39Z,domenic,,0
-3211267153,false,[WebDriver BiDi] enable and disable scripting via BiDi,https://github.com/whatwg/html/pull/11441,2025-07-08T06:49:51Z,2025-08-13T14:16:25Z,sadym-chromium,,0
+3211267153,false,[WebDriver BiDi] enable and disable scripting via BiDi,https://github.com/whatwg/html/pull/11441,2025-07-08T06:49:51Z,2025-08-21T07:59:47Z,sadym-chromium,topic: script|integration,0
 3210964890,false,Update QuotaExceededError usage,https://github.com/whatwg/html/pull/11440,2025-07-08T04:21:36Z,2025-07-08T04:23:13Z,domenic,,0
 3206351338,true,Meta: add for attribute in element-attr dfns,https://github.com/whatwg/html/pull/11434,2025-07-06T09:56:38Z,2025-07-08T18:40:17Z,arHSM,,0
 3204875494,true,Editorial: make references to No Popover state consistent,https://github.com/whatwg/html/pull/11433,2025-07-05T12:23:23Z,2025-07-07T01:55:38Z,foolip,,0
@@ -199,7 +199,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2846556240,true,Editorial: move definition of submit button,https://github.com/whatwg/html/pull/11018,2025-02-11T21:31:34Z,2025-02-11T22:07:06Z,keithamus,,0
 2842888093,true,redefine dialog closedby IDL to return computed value,https://github.com/whatwg/html/pull/11015,2025-02-10T16:00:22Z,2025-02-27T09:06:54Z,keithamus,topic: dialog|topic: close watchers,0
 2838206082,true,"Editorial: remove extra ""value"" in ""nonzero"" definition",https://github.com/whatwg/html/pull/11009,2025-02-07T13:47:22Z,2025-02-07T15:06:30Z,foolip,,0
-2835336619,false,Add the `interestfor` attribute,https://github.com/whatwg/html/pull/11006,2025-02-06T12:01:00Z,2025-08-15T11:58:36Z,foolip,,2
+2835336619,false,Add the `interestfor` attribute,https://github.com/whatwg/html/pull/11006,2025-02-06T12:01:00Z,2025-08-21T11:46:29Z,foolip,,2
 2834196191,true,Editorial: switch links back to official CSSWG drafts,https://github.com/whatwg/html/pull/11005,2025-02-05T23:54:24Z,2025-02-06T02:18:33Z,Loirooriol,,0
 2833243175,true,Editorial: fix link and wording for tuple origin,https://github.com/whatwg/html/pull/11001,2025-02-05T15:17:39Z,2025-02-06T01:25:39Z,zcorpan,clarification|topic: origin,0
 2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2025-04-16T13:40:27Z,AndresRPerez12,do not merge yet|topic: canvas,0
@@ -242,7 +242,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2794978313,true,define getEnabledState for closewatcher constructor,https://github.com/whatwg/html/pull/10926,2025-01-17T09:29:08Z,2025-01-21T08:27:17Z,keithamus,topic: close watchers,0
 2794798550,false,Editorial: change style of preload integrity metadata test,https://github.com/whatwg/html/pull/10924,2025-01-17T07:46:30Z,2025-01-30T06:28:53Z,domenic,,0
 2793824242,true,Editorial: fix grammar in note about error checking serialization,https://github.com/whatwg/html/pull/10922,2025-01-16T21:38:31Z,2025-01-17T01:18:35Z,shannonbooth,,0
-2792585961,false,Navigation API: deferred commit,https://github.com/whatwg/html/pull/10919,2025-01-16T12:21:41Z,2025-08-20T07:48:03Z,noamr,addition/proposal|topic: navigation|agenda+,0
+2792585961,true,Navigation API: deferred commit,https://github.com/whatwg/html/pull/10919,2025-01-16T12:21:41Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation|agenda+,0
 2790720327,true,Add logic to update radio button group checkedness when an input radio becomes connected,https://github.com/whatwg/html/pull/10917,2025-01-15T19:56:00Z,2025-01-30T02:22:42Z,EdgarChen,,0
 2788915194,true,Fix url and src in NotRestoredReasons,https://github.com/whatwg/html/pull/10916,2025-01-15T06:02:54Z,2025-01-21T02:09:02Z,domenic,,0
 2787952111,false,Allowing SameSite=None Cookies in First-Party Sandboxed Contexts,https://github.com/whatwg/html/pull/10915,2025-01-14T18:04:19Z,2025-02-11T14:54:49Z,aamuley,topic: cookie,0
@@ -1504,7 +1504,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 897489317,true,Meta: do not export incumbent settings object,https://github.com/whatwg/html/pull/6702,2021-05-20T21:45:28Z,2021-05-21T05:26:50Z,domenic,,0
 895720668,true,Change the textarea wrapping algorithm to normalize to LF.,https://github.com/whatwg/html/pull/6697,2021-05-19T17:50:00Z,2021-05-20T12:15:54Z,andreubotella,,0
 895442285,true,"Add notes for focus & non-""fully active"" documents",https://github.com/whatwg/html/pull/6696,2021-05-19T13:23:51Z,2021-10-14T16:01:38Z,rakina,topic: focus,0
-895441195,false,Take sizes from <img> if a <source> doesn't have a sizes attribute,https://github.com/whatwg/html/pull/6695,2021-05-19T13:22:48Z,2025-08-19T07:11:29Z,jakearchibald,,4
+895441195,false,Take sizes from <img> if a <source> doesn't have a sizes attribute,https://github.com/whatwg/html/pull/6695,2021-05-19T13:22:48Z,2025-08-21T06:53:40Z,jakearchibald,,4
 892519142,true,Contributionw,https://github.com/whatwg/html/pull/6690,2021-05-15T19:19:05Z,2024-10-08T14:08:39Z,jayeshgpr2856,invalid,0
 892454169,true,"Meta: export ""system focus""",https://github.com/whatwg/html/pull/6689,2021-05-15T14:18:32Z,2021-05-18T18:12:37Z,mfalken,meta,0
 891122673,true,4x4 transforms for CanvasRenderingContext2D,https://github.com/whatwg/html/pull/6683,2021-05-13T15:07:07Z,2023-08-29T18:45:37Z,mysteryDate,addition/proposal|topic: canvas,0
