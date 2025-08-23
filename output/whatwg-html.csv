@@ -1,11 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3342439619,false,An urgent concern and petition for XSLT,https://github.com/whatwg/html/issues/11590,2025-08-21T16:35:42Z,2025-08-22T10:05:34Z,sjehuda,,11
-3338775631,false,Support for managing id's declaratively,https://github.com/whatwg/html/issues/11585,2025-08-20T16:30:01Z,2025-08-22T10:57:25Z,bahrus,addition/proposal|needs implementer interest,1
+3342439619,true,An urgent concern and petition for XSLT,https://github.com/whatwg/html/issues/11590,2025-08-21T16:35:42Z,2025-08-22T21:21:23Z,sjehuda,,12
+3338775631,false,Support for managing id's declaratively,https://github.com/whatwg/html/issues/11585,2025-08-20T16:30:01Z,2025-08-22T12:36:09Z,bahrus,addition/proposal|needs implementer interest,1
 3338663410,false,Allow custom-elements to be a labelable element without being form-associated.,https://github.com/whatwg/html/issues/11584,2025-08-20T15:54:56Z,2025-08-21T12:24:55Z,lukewarlow,addition/proposal|needs implementer interest|topic: custom elements|topic: forms,1
 3338121627,false,Proposal: localized command references without IDs,https://github.com/whatwg/html/issues/11583,2025-08-20T13:19:45Z,2025-08-20T15:34:05Z,noamr,addition/proposal|needs implementer interest,2
-3337792182,false,XSLT removal will break multiple government and regulatory sites across the world,https://github.com/whatwg/html/issues/11582,2025-08-20T11:42:09Z,2025-08-21T16:40:13Z,dmitriid,,12
+3337792182,true,XSLT removal will break multiple government and regulatory sites across the world,https://github.com/whatwg/html/issues/11582,2025-08-20T11:42:09Z,2025-08-23T00:35:55Z,dmitriid,,91
 3336746820,false,Navigation API: consolidate aborting code paths,https://github.com/whatwg/html/issues/11579,2025-08-20T06:32:06Z,2025-08-20T14:39:13Z,domenic,clarification|topic: navigation,1
-3334629769,false,Should the web platform adopt XSLT 3.0?,https://github.com/whatwg/html/issues/11578,2025-08-19T14:33:45Z,2025-08-22T08:34:00Z,tony-sull,addition/proposal|needs implementer interest,31
+3334629769,false,Should the web platform adopt XSLT 3.0?,https://github.com/whatwg/html/issues/11578,2025-08-19T14:33:45Z,2025-08-23T00:07:40Z,tony-sull,addition/proposal|needs implementer interest,78
 3334246333,false,Proposal to add missing IDREF reflection IDL attributes,https://github.com/whatwg/html/issues/11577,2025-08-19T12:44:55Z,2025-08-20T23:29:25Z,lukewarlow,addition/proposal|needs implementer interest,4
 3323703355,false,Meeting 27 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11566,2025-08-14T21:58:26Z,2025-08-14T21:58:26Z,mfreed7,,0
 3323353832,false,toggle and beforetoggle events for the select element,https://github.com/whatwg/html/issues/11564,2025-08-14T19:28:16Z,2025-08-14T19:28:24Z,josepharhar,addition/proposal|needs implementer interest|topic: select,2
@@ -14,7 +14,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3320994515,false,Clarify blending isolation in 2D canvas,https://github.com/whatwg/html/issues/11559,2025-08-14T06:45:20Z,2025-08-20T06:46:04Z,sagudev,topic: canvas,0
 3320269233,true,"Are `navigator.platform`, `navigator.vendor`, or any other attributes of the `NavigatorID` mixin deprecated?",https://github.com/whatwg/html/issues/11558,2025-08-14T00:23:44Z,2025-08-19T08:57:06Z,SyntaxColoring,,3
 3318943549,false,Proposal: Support image formats in `<video>`,https://github.com/whatwg/html/issues/11554,2025-08-13T15:39:54Z,2025-08-20T16:25:35Z,LeaVerou,addition/proposal|needs implementer interest|topic: media|agenda+,4
-3317223628,false,Add openid4vp: as a safelisted scheme for protocol registration handling,https://github.com/whatwg/html/issues/11552,2025-08-13T07:23:52Z,2025-08-22T08:35:26Z,nvoutsin,addition/proposal|needs implementer interest|topic: custom protocols,0
+3317223628,false,Add openid4vp: as a safelisted scheme for protocol registration handling,https://github.com/whatwg/html/issues/11552,2025-08-13T07:23:52Z,2025-08-22T16:20:33Z,nvoutsin,addition/proposal|needs implementer interest|topic: custom protocols,0
 3309950964,true,LLMs Meta Tags Standard,https://github.com/whatwg/html/issues/11548,2025-08-11T13:02:49Z,2025-08-11T16:30:30Z,rafaelp,addition/proposal|needs implementer interest,0
 3308378580,false,`PromiseRejectionError` constructor behavior differs by implementation,https://github.com/whatwg/html/issues/11547,2025-08-11T04:06:26Z,2025-08-11T09:12:06Z,petamoriken,needs tests,0
 3308003149,false,Allow `fieldset` to be a CSS subgrid,https://github.com/whatwg/html/issues/11546,2025-08-10T21:46:40Z,2025-08-11T23:42:34Z,kirk-loretz-fsn,addition/proposal|needs implementer interest|topic: fieldset,0
@@ -23,7 +23,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3297402544,false,"""rules for parsing a list of dimensions"" should clarify behavior for large numeric values",https://github.com/whatwg/html/issues/11539,2025-08-06T16:58:06Z,2025-08-15T11:54:18Z,weinig,,0
 3296458731,false,"Proposal: New HTML attributes mustcontain, requiredchars, and preset for simplified form validation",https://github.com/whatwg/html/issues/11538,2025-08-06T12:11:02Z,2025-08-13T14:30:30Z,sanketbhuite,addition/proposal|needs implementer interest,0
 3296328661,false,Corner case invoker issue with popover nested inside invoker doesn't account for ShadowDOM,https://github.com/whatwg/html/issues/11537,2025-08-06T11:29:37Z,2025-08-19T06:31:21Z,keithamus,topic: shadow|topic: popover,0
-3293476106,false,The select element doesn't support slotted option elements,https://github.com/whatwg/html/issues/11535,2025-08-05T15:07:17Z,2025-08-05T16:07:56Z,josepharhar,topic: select,5
+3293476106,false,The select element doesn't support slotted option elements,https://github.com/whatwg/html/issues/11535,2025-08-05T15:07:17Z,2025-08-05T16:07:56Z,josepharhar,topic: select,6
 3292654726,false,Proposal for an `Origin` object.,https://github.com/whatwg/html/issues/11534,2025-08-05T11:06:52Z,2025-08-05T11:06:52Z,mikewest,addition/proposal|needs implementer interest|topic: origin,2
 3290055614,true,Upcoming WHATNOT meeting on 2025-08-07,https://github.com/whatwg/html/issues/11527,2025-08-04T16:19:12Z,2025-08-07T09:12:44Z,annevk,agenda+,0
 3288060443,false,Add rec2100-linear to PredefinedColorSpace,https://github.com/whatwg/html/issues/11526,2025-08-04T05:26:53Z,2025-08-20T12:53:10Z,ccameron-chromium,addition/proposal|needs implementer interest|topic: canvas,1
@@ -511,7 +511,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2520517665,false,HTML Integration with ESM Source Phase,https://github.com/whatwg/html/issues/10617,2024-09-11T18:56:32Z,2025-03-21T19:02:05Z,guybedford,,0
 2521171236,true,Small CSS change to spec documentation for ease of use,https://github.com/whatwg/html/issues/10618,2024-09-11T18:11:57Z,2024-10-01T01:17:43Z,FredGandt,good first issue,0
 2518778352,false,Allowing to start cross-document transition immediately,https://github.com/whatwg/html/issues/10616,2024-09-11T07:17:10Z,2024-09-11T07:17:10Z,bakura10,,0
-2518316469,false,Provide an API for getting visible caret position in textarea/input element,https://github.com/whatwg/html/issues/10614,2024-09-11T02:30:18Z,2025-07-21T23:39:35Z,siliu1,,1
+2518316469,true,Provide an API for getting visible caret position in textarea/input element,https://github.com/whatwg/html/issues/10614,2024-09-11T02:30:18Z,2025-08-22T17:41:32Z,siliu1,,1
 2516526415,false,"Automated `window.exportPdf()`,  Leveraging Browser's Print Save As PDF functionality",https://github.com/whatwg/html/issues/10612,2024-09-10T13:43:56Z,2025-02-03T01:53:05Z,apurvaojas,addition/proposal|needs implementer interest,5
 2515236890,true,createImageBitmap's Promise resolving,https://github.com/whatwg/html/issues/10611,2024-09-10T01:59:12Z,2025-05-26T05:48:35Z,Kaiido,topic: canvas|interop,0
 2515213556,false,"HTML spec: section 4.11.1, for `<details>` (`HTMLDetailsElement`), should probably briefly but explicitly state that the element uses shadow DOM, and should probably link to section 15.5.5 to direct readers to further information",https://github.com/whatwg/html/issues/10610,2024-09-10T01:32:54Z,2024-09-19T12:26:56Z,DavidJCobb,clarification|topic: rendering,0
@@ -2006,7 +2006,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 958428700,true,"[COOP] Undefined activeDocumentCOOP in ""enforce a response's cross-origin opener policy"" section",https://github.com/whatwg/html/issues/6926,2021-08-02T19:07:28Z,2021-08-03T19:08:38Z,cdumez,topic: cross-origin-opener-policy,0
 958420412,true,"[COOP] Wrong type in ""queue a violation report for browsing context group switch when navigating away from a COOP response""",https://github.com/whatwg/html/issues/6925,2021-08-02T18:57:06Z,2021-08-03T19:08:38Z,cdumez,topic: cross-origin-opener-policy,0
 955141045,false,COOP: Navigations to non-initial about:blank,https://github.com/whatwg/html/issues/6913,2021-07-28T18:46:22Z,2021-08-03T08:41:30Z,cdumez,topic: cross-origin-opener-policy,0
-955051236,false,Proposal: blank worker,https://github.com/whatwg/html/issues/6911,2021-07-28T16:52:49Z,2024-01-19T14:46:55Z,wanderview,addition/proposal|needs implementer interest|topic: workers,8
+955051236,false,Proposal: blank worker,https://github.com/whatwg/html/issues/6911,2021-07-28T16:52:49Z,2024-01-19T14:46:55Z,wanderview,addition/proposal|needs implementer interest|topic: workers,9
 954670682,true,Proposal: Add a way to open programmatically a date picker,https://github.com/whatwg/html/issues/6909,2021-07-28T09:41:23Z,2022-03-24T17:08:22Z,beaufortfrancois,addition/proposal|needs implementer interest|topic: forms,38
 954564369,false,Add ime-mode to html input,https://github.com/whatwg/html/issues/6908,2021-07-28T07:30:15Z,2021-08-10T08:59:33Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq,1
 954543780,true,Html element's start tag must not be omitted or add new ways to specify lang attribute of the html file,https://github.com/whatwg/html/issues/6907,2021-07-28T07:02:12Z,2023-10-01T22:38:32Z,NagayamaToshiaki,i18n-tracker,0
@@ -2609,7 +2609,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 590600379,true,"Export global attributes such as hidden=""""",https://github.com/whatwg/html/issues/5417,2020-03-30T21:14:03Z,2020-09-23T16:24:52Z,hober,meta,0
 589655438,false,Additional no-op cases for <label>'s activation behavior,https://github.com/whatwg/html/issues/5415,2020-03-28T20:39:05Z,2020-03-30T16:24:32Z,TimothyGu,topic: forms,4
 589649381,true,tabindex and interactive content,https://github.com/whatwg/html/issues/5414,2020-03-28T20:05:17Z,2020-04-27T17:03:50Z,TimothyGu,document conformance|topic: focus,0
-589196194,true,"When is a lazy-loaded image ""about to intersect the viewport""",https://github.com/whatwg/html/issues/5408,2020-03-27T15:03:07Z,2020-10-29T20:37:21Z,zcorpan,topic: img,5
+589196194,true,"When is a lazy-loaded image ""about to intersect the viewport""",https://github.com/whatwg/html/issues/5408,2020-03-27T15:03:07Z,2025-08-22T17:19:38Z,zcorpan,topic: img,5
 588756705,true,"Proposal: Disallow cross-origin iframes usage of window.{alert, confirm, prompt}",https://github.com/whatwg/html/issues/5407,2020-03-26T22:03:22Z,2021-08-05T19:16:46Z,carlosjoan91,removal/deprecation,0
 588590213,true,"Shouldn't those with a content model of ""Nothing"" not render their children unless stated otherwise?",https://github.com/whatwg/html/issues/5405,2020-03-26T17:21:20Z,2020-03-26T18:09:55Z,dead-claudia,,0
 588405122,true,COOP and COEP for local scheme URLs,https://github.com/whatwg/html/issues/5403,2020-03-26T13:03:25Z,2020-04-02T07:45:52Z,yutakahirano,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
@@ -2815,7 +2815,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 512330703,false,Meta referrer being able to loosen Referrer-Policy header restrictions is a security vulnerability,https://github.com/whatwg/html/issues/5041,2019-10-25T06:34:26Z,2022-05-31T13:48:55Z,chris-morgan,,0
 512069720,false,HTML sandbox form restriction bypass when scripts allowed,https://github.com/whatwg/html/issues/5040,2019-10-24T17:05:19Z,2019-10-25T15:11:31Z,tsangtmc,clarification|security/privacy,0
 511584833,false,HTMLConstructor construction steps: inconsistent evaluation order/error cases in implementations,https://github.com/whatwg/html/issues/5037,2019-10-23T21:35:34Z,2019-10-24T08:54:23Z,bathos,topic: custom elements|interop,0
-510489260,false,Consider adding a headingoffset attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2025-06-27T08:28:50Z,annevk,addition/proposal|accessibility,31
+510489260,false,Consider adding a headingoffset attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2025-08-22T17:35:20Z,annevk,addition/proposal|accessibility,31
 509880741,true,---------,https://github.com/whatwg/html/issues/5029,2019-10-21T10:42:33Z,2019-10-22T04:41:25Z,dhilip89,,0
 509693572,true,delegatesFocus doesn't work well with autofocus,https://github.com/whatwg/html/issues/5027,2019-10-21T02:13:20Z,2019-11-11T16:44:20Z,tkent-google,topic: focus,0
 509685886,true,Code Regions,https://github.com/whatwg/html/issues/5026,2019-10-21T01:32:06Z,2019-10-21T16:16:12Z,AdamSobieski,,0
