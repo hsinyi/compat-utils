@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 3327413721,true,Need clarification with `MouseEvent::mouseleave`,https://github.com/whatwg/dom/issues/1399,2025-08-16T16:14:22Z,2025-08-18T07:54:14Z,yezhizhen,,0
 3278552112,true,Proposal: addWeakEventListener,https://github.com/whatwg/dom/issues/1396,2025-07-30T22:05:18Z,2025-08-05T21:37:02Z,bahrus,needs implementer interest|topic: events|addition/proposal|needs concrete proposal,0
-3267911601,false,Proposal: new API to get text content across shadowRoot,https://github.com/whatwg/dom/issues/1395,2025-07-28T03:24:08Z,2025-07-29T09:20:37Z,woody-li,topic: shadow|needs implementer interest|addition/proposal|topic: nodes,0
+3267911601,false,Proposal: new API to get text content across shadowRoot,https://github.com/whatwg/dom/issues/1395,2025-07-28T03:24:08Z,2025-08-25T13:48:35Z,woody-li,topic: shadow|needs implementer interest|addition/proposal|topic: nodes,0
 3235801655,true,CustomElementRegistry and adoption,https://github.com/whatwg/dom/issues/1390,2025-07-16T12:40:19Z,2025-07-23T06:31:10Z,annevk,,0
 3229075487,false,Ability to wait for async abort algorithms?,https://github.com/whatwg/dom/issues/1389,2025-07-14T15:00:20Z,2025-07-15T10:24:04Z,saschanaz,addition/proposal|topic: aborting,0
 3195220677,true,"Misalignment between spec and WPT for ""validate and extract""",https://github.com/whatwg/dom/issues/1387,2025-07-02T09:21:54Z,2025-07-09T07:32:49Z,shannonbooth,,0
@@ -13,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3104879204,false,Make it possible to wrap [parts of] the contents of a <textarea> or <input> in a Range,https://github.com/whatwg/dom/issues/1375,2025-05-31T04:50:28Z,2025-05-31T04:50:28Z,DavidJCobb,needs implementer interest|addition/proposal,3
 3072911029,true,Consider more name validation loosening,https://github.com/whatwg/dom/issues/1373,2025-05-19T08:00:08Z,2025-06-09T04:47:36Z,domenic,topic: nodes,0
 3058605827,true,"What ""DOM"" stands for, ""Document Object Model"", was never explicitly mentioned",https://github.com/whatwg/dom/issues/1371,2025-05-13T02:40:43Z,2025-05-13T06:12:00Z,ThomasETN,,0
-2994131924,false,Proposal: Bulk mutation methods for working with ranges of nodes,https://github.com/whatwg/dom/issues/1369,2025-04-14T20:27:15Z,2025-07-14T22:56:40Z,justinfagnani,needs implementer interest|addition/proposal|topic: nodes,0
+2994131924,false,Proposal: Bulk mutation methods for working with ranges of nodes,https://github.com/whatwg/dom/issues/1369,2025-04-14T20:27:15Z,2025-08-25T15:12:21Z,justinfagnani,needs implementer interest|addition/proposal|topic: nodes,0
 2984071873,false,Proposal: Enable Custom Form Controls to (Optionally) Conceal Internal/Irrelevant Events,https://github.com/whatwg/dom/issues/1368,2025-04-09T23:03:38Z,2025-04-23T21:31:12Z,ITenthusiasm,topic: custom elements|needs implementer interest|topic: events|addition/proposal,0
 2979299316,false,Blame stopped working,https://github.com/whatwg/dom/issues/1367,2025-04-08T10:13:38Z,2025-04-08T10:13:46Z,annevk,meta,0
 2977136876,true,"Cloning of a document does not copy ""allow declarative shadow roots""",https://github.com/whatwg/dom/issues/1366,2025-04-07T14:51:45Z,2025-06-27T05:06:06Z,annevk,topic: shadow|needs tests|topic: nodes,0
@@ -306,7 +306,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 423017912,true,Wrong return type of Node::getRootNode(),https://github.com/whatwg/dom/issues/739,2019-03-20T00:53:42Z,2019-03-20T07:57:20Z,SetTrend,,1
 422508516,true,Reference to struct in inner invoke,https://github.com/whatwg/dom/issues/738,2019-03-19T01:57:21Z,2020-06-29T08:27:07Z,Zirro,,0
 418687232,false,isEqualNode and <template>,https://github.com/whatwg/dom/issues/737,2019-03-08T08:39:44Z,2019-04-05T12:53:37Z,jakearchibald,,1
-418208052,false,Proposal: a DocumentFragment whose nodes do not get removed once inserted,https://github.com/whatwg/dom/issues/736,2019-03-06T19:28:54Z,2025-08-04T20:50:03Z,WebReflection,needs implementer interest|addition/proposal,91
+418208052,false,Proposal: a DocumentFragment whose nodes do not get removed once inserted,https://github.com/whatwg/dom/issues/736,2019-03-06T19:28:54Z,2025-08-04T20:50:03Z,WebReflection,needs implementer interest|addition/proposal,92
 413102117,true,window.event and IFRAMEs,https://github.com/whatwg/dom/issues/735,2019-02-21T20:08:55Z,2020-12-08T19:09:14Z,cvazac,topic: events,0
 411169284,true,Dispatching slotchange within a compound microtask,https://github.com/whatwg/dom/issues/734,2019-02-17T09:52:36Z,2019-03-29T15:11:22Z,annevk,topic: shadow,0
 407741641,true,Should adopting change an element's prototype?,https://github.com/whatwg/dom/issues/731,2019-02-07T15:00:08Z,2019-02-07T15:25:33Z,jakearchibald,,0
