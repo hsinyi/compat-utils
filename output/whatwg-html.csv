@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3355949488,false,Intrinsic size specification is not clear with rounding rules,https://github.com/whatwg/html/issues/11596,2025-08-26T14:41:45Z,2025-08-26T14:46:04Z,hybridherbst,,0
 3351546236,true,Introduce `<partial>` for Native HTML Fragment Inclusion,https://github.com/whatwg/html/issues/11595,2025-08-25T11:53:58Z,2025-08-25T12:18:06Z,aralroca,addition/proposal|needs implementer interest,2
 3349651354,false,range attribute in video tag,https://github.com/whatwg/html/issues/11594,2025-08-24T15:52:07Z,2025-08-24T15:52:07Z,tiuvi,addition/proposal|needs implementer interest,1
 3348324478,false,Clarify whether the introduction is normative,https://github.com/whatwg/html/issues/11593,2025-08-23T14:40:50Z,2025-08-25T02:11:00Z,BrianJDrake,clarification,1
@@ -9,7 +10,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3338121627,false,Proposal: localized command references without IDs,https://github.com/whatwg/html/issues/11583,2025-08-20T13:19:45Z,2025-08-20T15:34:05Z,noamr,addition/proposal|needs implementer interest,2
 3337792182,true,XSLT removal will break multiple government and regulatory sites across the world,https://github.com/whatwg/html/issues/11582,2025-08-20T11:42:09Z,2025-08-23T03:39:49Z,dmitriid,,97
 3336746820,false,Navigation API: consolidate aborting code paths,https://github.com/whatwg/html/issues/11579,2025-08-20T06:32:06Z,2025-08-20T14:39:13Z,domenic,clarification|topic: navigation,1
-3334629769,false,Should the web platform adopt XSLT 3.0?,https://github.com/whatwg/html/issues/11578,2025-08-19T14:33:45Z,2025-08-25T16:51:24Z,tony-sull,addition/proposal|needs implementer interest,199
+3334629769,false,Should the web platform adopt XSLT 3.0?,https://github.com/whatwg/html/issues/11578,2025-08-19T14:33:45Z,2025-08-26T18:45:30Z,tony-sull,addition/proposal|needs implementer interest,200
 3334246333,false,Proposal to add missing IDREF reflection IDL attributes,https://github.com/whatwg/html/issues/11577,2025-08-19T12:44:55Z,2025-08-20T23:29:25Z,lukewarlow,addition/proposal|needs implementer interest,4
 3323703355,false,Meeting 27 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11566,2025-08-14T21:58:26Z,2025-08-14T21:58:26Z,mfreed7,,0
 3323353832,false,toggle and beforetoggle events for the select element,https://github.com/whatwg/html/issues/11564,2025-08-14T19:28:16Z,2025-08-14T19:28:24Z,josepharhar,addition/proposal|needs implementer interest|topic: select,2
@@ -272,7 +273,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2874388234,false,Exposing the DOMParser API in Worker Contexts,https://github.com/whatwg/html/issues/11068,2025-02-24T09:50:37Z,2025-02-25T04:43:48Z,sqwr,addition/proposal|needs implementer interest,0
 2869703835,true,navigation API: resolve the finished promise,https://github.com/whatwg/html/issues/11064,2025-02-21T18:10:39Z,2025-02-26T07:45:51Z,atscott,clarification|topic: navigation,0
 2869493100,true,:host-context(my-el) inside a <my-el> custom element matches even for a standalone <my-el>,https://github.com/whatwg/html/issues/11063,2025-02-21T16:29:23Z,2025-02-24T17:27:51Z,franktopel,,0
-2867510954,false,Proposal: Customized built-in elements via `elementInternals.type`,https://github.com/whatwg/html/issues/11061,2025-02-20T23:34:14Z,2025-08-22T08:25:34Z,sanketj,addition/proposal|agenda+,15
+2867510954,false,Proposal: Customized built-in elements via `elementInternals.type`,https://github.com/whatwg/html/issues/11061,2025-02-20T23:34:14Z,2025-08-26T23:21:35Z,sanketj,addition/proposal,15
 2867022774,false,"`responsePolicyContainer` in ""determine navigation params policy container"" should be cloned for consistency",https://github.com/whatwg/html/issues/11060,2025-02-20T18:58:05Z,2025-02-25T08:59:19Z,Lubrsi,topic: navigation|topic: policy container,0
 2866860480,true,Meeting 17 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11059,2025-02-20T17:41:25Z,2025-03-07T17:42:46Z,mfreed7,agenda+,0
 2866853950,false,Touchscreen behavior for the `interesttarget` attribute,https://github.com/whatwg/html/issues/11058,2025-02-20T17:38:14Z,2025-05-14T01:59:13Z,mfreed7,,0
@@ -487,7 +488,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2025-06-12T00:09:23Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,true,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-11-15T04:41:04Z,tabatkins,integration|topic: popover,0
-2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-08-26T02:37:00Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,2
+2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-08-26T21:18:41Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,2
 2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2024-11-07T17:14:43Z,emilio,topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2562416768,true,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-12T00:18:10Z,past,agenda+,0
@@ -798,7 +799,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2144668268,false,"align=""justify"" should align to start, not to left",https://github.com/whatwg/html/issues/10148,2024-02-20T15:38:05Z,2024-02-21T18:03:20Z,Loirooriol,topic: rendering|needs tests,0
 2143265229,false,UI Element Attribute,https://github.com/whatwg/html/issues/10146,2024-02-19T23:05:03Z,2024-04-17T11:33:27Z,MrMatthewLayton,addition/proposal|needs implementer interest,2
 2142919582,false,"Render-blocking: the definition of ""created by its node document's parser"" is a little bit vague",https://github.com/whatwg/html/issues/10145,2024-02-19T18:08:51Z,2024-03-14T22:55:05Z,cathiechen,topic: parser,0
-2141312881,false,Improve DX of element reference attributes by allowing relative references instead of only ids,https://github.com/whatwg/html/issues/10143,2024-02-19T01:30:10Z,2025-08-26T09:43:30Z,LeaVerou,addition/proposal|needs implementer interest,27
+2141312881,false,Improve DX of element reference attributes by allowing relative references instead of only ids,https://github.com/whatwg/html/issues/10143,2024-02-19T01:30:10Z,2025-08-26T19:23:02Z,LeaVerou,addition/proposal|needs implementer interest,27
 2141042150,false,"ImageBitmapRenderingContext: clarify behaviour with `premultiplyAlpha: ""none""` createImageBitmap option and canvas",https://github.com/whatwg/html/issues/10142,2024-02-18T15:27:58Z,2024-04-08T22:18:01Z,hybridherbst,topic: canvas,1
 2140571376,true,"Dark mode styling for ""yes"" table attributes is not ledgible",https://github.com/whatwg/html/issues/10141,2024-02-17T20:28:28Z,2024-03-05T02:47:14Z,ADKaster,spec tooling,0
 2137613348,true,Using multiple h1 tag in a page,https://github.com/whatwg/html/issues/10138,2024-02-15T23:28:03Z,2024-02-16T03:27:59Z,bhojpress,,0
@@ -3622,7 +3623,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,197
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,198
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0

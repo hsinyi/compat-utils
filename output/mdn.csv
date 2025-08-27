@@ -1587,6 +1587,7 @@ api/Document/URL,,19,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#ref-fo
 api/Document/activeElement,,3,,2,,7,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-documentorshadowroot-activeelement-dev,WHATWG
 api/Document/adoptNode,,1,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-document-adoptnode①,WHATWG
 api/Document/adoptedStyleSheets,,101,,73,,16.4,,false,true,false,https://drafts.csswg.org/cssom/#dom-documentorshadowroot-adoptedstylesheets,W3C
+api/Document/adoptedStyleSheets/mutable,,101,,99,,16.4,,false,true,false,https://drafts.csswg.org/cssom/#dom-documentorshadowroot-adoptedstylesheets,W3C
 api/Document/afterscriptexecute_event,,9,,,,,,false,false,true,,NONE
 api/Document/alinkColor,,69,,64,,11,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-alinkcolor,WHATWG
 api/Document/all,,70,,64,,11,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-all,WHATWG
@@ -2702,6 +2703,7 @@ api/GPUSupportedFeatures/@@iterator,,141,,113,,26,,false,true,false,https://gpuw
 api/GPUSupportedFeatures/entries,,141,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#gpusupportedfeatures,UNKNOWN
 api/GPUSupportedFeatures/feature_bgra8unorm-storage,,,,113,,,,true,true,false,https://gpuweb.github.io/gpuweb/#bgra8unorm-storage,UNKNOWN
 api/GPUSupportedFeatures/feature_clip-distances,,,,131,,,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-clip-distances,UNKNOWN
+api/GPUSupportedFeatures/feature_core-features-and-limits,,141,,139,,,,false,true,false,https://gpuweb.github.io/gpuweb/#core-features-and-limits,UNKNOWN
 api/GPUSupportedFeatures/feature_depth-clip-control,,,,113,,,,true,true,false,https://gpuweb.github.io/gpuweb/#depth-clip-control,UNKNOWN
 api/GPUSupportedFeatures/feature_depth32float-stencil8,,,,113,,,,true,true,false,https://gpuweb.github.io/gpuweb/#depth32float-stencil8,UNKNOWN
 api/GPUSupportedFeatures/feature_dual-source-blending,,,,130,,,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-dual-source-blending,UNKNOWN
@@ -4039,6 +4041,7 @@ api/ImageData,,3.5,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multip
 api/ImageData/ImageData,,29,,36,,8,,false,true,false,https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#dom-imagedata,WHATWG
 api/ImageData/ImageData/settings_parameter,,,,92,,15.2,,false,true,false,,NONE
 api/ImageData/ImageData/settings_parameter/colorSpace_option,,,,92,,15.2,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-predefinedcolorspace-srgb,WHATWG
+api/ImageData/ImageData/settings_parameter/pixelFormat_option,,,,137,,,,true,true,false,https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#dom-imagedatasettings-pixelformat,WHATWG
 api/ImageData/colorSpace,,,,92,,15.2,,false,true,false,https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#dom-imagedata-colorspace,WHATWG
 api/ImageData/data,,3.5,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#dom-imagedata-data,WHATWG
 api/ImageData/height,,3.5,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#dom-imagedata-height,WHATWG
@@ -4147,7 +4150,7 @@ api/KeyboardEvent/keyCode,,1.5,,1,,1.2,,false,true,true,https://w3c.github.io/ui
 api/KeyboardEvent/keyIdentifier,,,,26,,1.2,,false,false,true,,NONE
 api/KeyboardEvent/location,,15,,30,,8,,false,true,false,https://w3c.github.io/uievents/#dom-keyboardevent-location,W3C
 api/KeyboardEvent/metaKey,,1.5,,1,,1.2,,false,true,false,https://w3c.github.io/uievents/#dom-keyboardevent-metakey,W3C
-api/KeyboardEvent/repeat,,28,,32,,10.1,,false,true,false,https://w3c.github.io/uievents/#dom-keyboardevent-repeat,W3C
+api/KeyboardEvent/repeat,,28,,137,,10.1,,false,true,false,https://w3c.github.io/uievents/#dom-keyboardevent-repeat,W3C
 api/KeyboardEvent/shiftKey,,1.5,,1,,1.2,,false,true,false,https://w3c.github.io/uievents/#dom-keyboardevent-shiftkey,W3C
 api/KeyboardLayoutMap,,,,69,,,,true,true,false,https://wicg.github.io/keyboard-map/#keyboardlayoutmap-interface,W3CCG
 api/KeyboardLayoutMap/@@iterator,,,,69,,,,true,true,false,,NONE
@@ -5829,6 +5832,7 @@ api/RTCEncodedAudioFrame,,117,,86,,15.4,,false,true,false,https://w3c.github.io/
 api/RTCEncodedAudioFrame/RTCEncodedAudioFrame,,,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframe-constructor,W3C
 api/RTCEncodedAudioFrame/data,,117,,86,,15.4,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframe-data,W3C
 api/RTCEncodedAudioFrame/getMetadata,,117,,86,,15.4,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframe-getmetadata,W3C
+api/RTCEncodedAudioFrame/getMetadata/return_object_property_audioLevel,,,,139,,,,true,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-audiolevel,W3C
 api/RTCEncodedAudioFrame/timestamp,,117,,86,,15.4,,false,false,true,,NONE
 api/RTCEncodedVideoFrame,,117,,86,,15.4,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#rtcencodedvideoframe,W3C
 api/RTCEncodedVideoFrame/RTCEncodedVideoFrame,,,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-constructor,W3C
@@ -11820,7 +11824,7 @@ css/selectors/checked,,1,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/
 css/selectors/checkmark,,,,135,,,,true,true,false,https://drafts.csswg.org/css-forms-1/#checkmark,W3C
 css/selectors/child,,1,,1,,1,,false,true,false,https://drafts.csswg.org/selectors/#child-combinators,W3C
 css/selectors/class,,1,,1,,1,,false,true,false,https://drafts.csswg.org/selectors/#class-html,W3C
-css/selectors/closed,,,,114,,,,true,true,false,https://drafts.csswg.org/selectors-4/#open-state,W3C
+css/selectors/closed,,,,114,,,,false,false,true,,NONE
 css/selectors/column,,,,135,,,,true,true,false,https://drafts.csswg.org/css-multicol-2/#column-pseudo,W3C
 css/selectors/column/nested_scroll-marker,,,,135,,,,true,true,false,,NONE
 css/selectors/cue,,55,,26,,7,,false,true,false,https://w3c.github.io/webvtt/#the-cue-pseudo-element,W3C
@@ -12350,6 +12354,7 @@ html/elements/br,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipa
 html/elements/br/clear,,1,,1,,≤4,,false,true,true,,NONE
 html/elements/button,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element,WHATWG
 html/elements/button/command,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",135,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command,WHATWG
+html/elements/button/command/request-close,,preview,"[{""name"":""dom.element.commandfor.enabled"",""type"":""preference"",""value_to_set"":""true""}]",139,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-request-close,WHATWG
 html/elements/button/commandfor,,preview,"[{""name"":""dom.element.invokers.enabled"",""type"":""preference"",""value_to_set"":""true""}]",135,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-commandfor,WHATWG
 html/elements/button/disabled,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-disabled,WHATWG
 html/elements/button/form,,4,,9,,5.1,,false,true,false,,NONE
