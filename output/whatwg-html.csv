@@ -10,7 +10,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3338121627,false,Proposal: localized command references without IDs,https://github.com/whatwg/html/issues/11583,2025-08-20T13:19:45Z,2025-08-20T15:34:05Z,noamr,addition/proposal|needs implementer interest,2
 3337792182,true,XSLT removal will break multiple government and regulatory sites across the world,https://github.com/whatwg/html/issues/11582,2025-08-20T11:42:09Z,2025-08-23T03:39:49Z,dmitriid,,97
 3336746820,false,Navigation API: consolidate aborting code paths,https://github.com/whatwg/html/issues/11579,2025-08-20T06:32:06Z,2025-08-20T14:39:13Z,domenic,clarification|topic: navigation,1
-3334629769,false,Should the web platform adopt XSLT 3.0?,https://github.com/whatwg/html/issues/11578,2025-08-19T14:33:45Z,2025-08-26T18:45:30Z,tony-sull,addition/proposal|needs implementer interest,200
+3334629769,false,Should the web platform adopt XSLT 3.0?,https://github.com/whatwg/html/issues/11578,2025-08-19T14:33:45Z,2025-08-26T18:45:30Z,tony-sull,addition/proposal|needs implementer interest,203
 3334246333,false,Proposal to add missing IDREF reflection IDL attributes,https://github.com/whatwg/html/issues/11577,2025-08-19T12:44:55Z,2025-08-20T23:29:25Z,lukewarlow,addition/proposal|needs implementer interest,4
 3323703355,false,Meeting 27 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11566,2025-08-14T21:58:26Z,2025-08-14T21:58:26Z,mfreed7,,0
 3323353832,false,toggle and beforetoggle events for the select element,https://github.com/whatwg/html/issues/11564,2025-08-14T19:28:16Z,2025-08-14T19:28:24Z,josepharhar,addition/proposal|needs implementer interest|topic: select,2
@@ -327,7 +327,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2819914069,true,Dialog processing model has gotten disorganized,https://github.com/whatwg/html/issues/10963,2025-01-30T05:07:49Z,2025-02-03T02:32:19Z,domenic,clarification|good first issue|topic: dialog,0
 2816721305,true,"Specify the bare li element ""list-style-position:inside"" quirk",https://github.com/whatwg/html/issues/10958,2025-01-28T19:58:39Z,2025-03-25T10:11:51Z,dholbert,topic: rendering|interop,0
 2814208745,false,Rendering option with empty label attribute or whitespace,https://github.com/whatwg/html/issues/10955,2025-01-27T22:41:52Z,2025-03-13T22:01:59Z,josepharhar,interop|topic: select,0
-2813945718,false,Missing attribute changed steps for dialog can cause assertions to be hit,https://github.com/whatwg/html/issues/10953,2025-01-27T20:05:43Z,2025-02-12T22:14:52Z,lukewarlow,,0
+2813945718,true,Missing attribute changed steps for dialog can cause assertions to be hit,https://github.com/whatwg/html/issues/10953,2025-01-27T20:05:43Z,2025-08-27T12:24:50Z,lukewarlow,,0
 2811777789,false,Proposal: Introduce <field-array> and <field-object> for Native Array/Object Handling in HTML Forms.,https://github.com/whatwg/html/issues/10948,2025-01-26T20:42:07Z,2025-01-26T20:42:07Z,ShoaibShokat03,addition/proposal|needs implementer interest,4
 2810743572,true,An HTML Markup Extension for AI Agents,https://github.com/whatwg/html/issues/10946,2025-01-25T03:59:06Z,2025-01-26T04:50:44Z,k-kolomeitsev,addition/proposal|needs implementer interest,0
 2809482300,true,Clarify IDL reflection for `closedby` attribute,https://github.com/whatwg/html/issues/10945,2025-01-24T13:37:23Z,2025-02-27T08:30:31Z,keithamus,normative change|topic: dialog,0
@@ -488,7 +488,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2025-06-12T00:09:23Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,true,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-11-15T04:41:04Z,tabatkins,integration|topic: popover,0
-2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-08-26T21:18:41Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,2
+2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-08-28T00:16:23Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,2
 2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2024-11-07T17:14:43Z,emilio,topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2562416768,true,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-12T00:18:10Z,past,agenda+,0
@@ -517,7 +517,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2521171236,true,Small CSS change to spec documentation for ease of use,https://github.com/whatwg/html/issues/10618,2024-09-11T18:11:57Z,2024-10-01T01:17:43Z,FredGandt,good first issue,0
 2518778352,false,Allowing to start cross-document transition immediately,https://github.com/whatwg/html/issues/10616,2024-09-11T07:17:10Z,2024-09-11T07:17:10Z,bakura10,,0
 2518316469,true,Provide an API for getting visible caret position in textarea/input element,https://github.com/whatwg/html/issues/10614,2024-09-11T02:30:18Z,2025-08-22T17:41:32Z,siliu1,,1
-2516526415,false,"Automated `window.exportPdf()`,  Leveraging Browser's Print Save As PDF functionality",https://github.com/whatwg/html/issues/10612,2024-09-10T13:43:56Z,2025-02-03T01:53:05Z,apurvaojas,addition/proposal|needs implementer interest,5
+2516526415,true,"Automated `window.exportPdf()`,  Leveraging Browser's Print Save As PDF functionality",https://github.com/whatwg/html/issues/10612,2024-09-10T13:43:56Z,2025-08-28T00:44:37Z,apurvaojas,addition/proposal|needs implementer interest,6
 2515236890,true,createImageBitmap's Promise resolving,https://github.com/whatwg/html/issues/10611,2024-09-10T01:59:12Z,2025-05-26T05:48:35Z,Kaiido,topic: canvas|interop,0
 2515213556,false,"HTML spec: section 4.11.1, for `<details>` (`HTMLDetailsElement`), should probably briefly but explicitly state that the element uses shadow DOM, and should probably link to section 15.5.5 to direct readers to further information",https://github.com/whatwg/html/issues/10610,2024-09-10T01:32:54Z,2024-09-19T12:26:56Z,DavidJCobb,clarification|topic: rendering,0
 2514878452,true,Meeting 8 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10609,2024-09-09T20:41:39Z,2024-10-15T22:37:51Z,josepharhar,agenda+,0
@@ -1646,7 +1646,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1245490159,false,Consider being strict about range mismatch for media,https://github.com/whatwg/html/issues/7950,2022-05-23T17:27:12Z,2022-05-24T07:26:22Z,noamr,topic: media|interop,1
 1245461464,true,Typo in section 2.1.4 DOM trees,https://github.com/whatwg/html/issues/7949,2022-05-23T16:58:18Z,2022-05-26T15:27:55Z,AegisFair,good first issue,1
 1244030392,false,Add color-interpolation-method support for canvas gradients,https://github.com/whatwg/html/issues/7947,2022-05-21T16:39:32Z,2025-02-01T18:17:44Z,weinig,addition/proposal|topic: canvas,7
-1243990383,false,"Proposal: Allow authors to enforce ""save as PDF"" when printing a document",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2025-04-09T08:35:42Z,BenjaminAster,addition/proposal|needs implementer interest,65
+1243990383,false,"Proposal: Allow authors to programmatically ""save as PDF""",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2025-08-28T00:44:53Z,BenjaminAster,addition/proposal|needs implementer interest,66
 1242018223,false,(Background) Tab Suspending,https://github.com/whatwg/html/issues/7942,2022-05-19T16:18:36Z,2022-05-19T16:18:36Z,johannhof,,0
 1242006437,false,Throttling and clamping of setTimeout and setInterval,https://github.com/whatwg/html/issues/7941,2022-05-19T16:08:39Z,2022-05-20T08:26:05Z,johannhof,topic: event loop|topic: timing,0
 1241898306,false,Make `<embed>` and `<object>` behave like `<iframe>` for image loading,https://github.com/whatwg/html/issues/7939,2022-05-19T14:43:19Z,2022-06-27T20:59:41Z,farre,normative change|topic: navigation|topic: embed and object,0
@@ -3566,7 +3566,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 323221913,false,"Rewording ""implicit submission"" describtion",https://github.com/whatwg/html/issues/3690,2018-05-15T13:38:15Z,2018-05-15T16:58:33Z,harttle,clarification|topic: forms,0
 322906700,true,"Clarify ""canonical case""",https://github.com/whatwg/html/issues/3685,2018-05-14T17:17:59Z,2020-03-20T18:08:57Z,Zirro,clarification,0
 322852835,true,Serialise with implicit transfer (for Streams),https://github.com/whatwg/html/issues/3684,2018-05-14T14:54:14Z,2020-10-26T08:18:41Z,ricea,topic: serialize and transfer,0
-322807577,false,Escaped characters in source,https://github.com/whatwg/html/issues/3683,2018-05-14T13:04:10Z,2025-08-27T09:14:46Z,edent,good first issue,0
+322807577,false,Escaped characters in source,https://github.com/whatwg/html/issues/3683,2018-05-14T13:04:10Z,2025-08-28T00:15:05Z,edent,good first issue,0
 322703485,false,Form disabled attribute to disable the form submission,https://github.com/whatwg/html/issues/3682,2018-05-14T07:37:35Z,2021-11-23T02:02:14Z,caub,addition/proposal|topic: forms,5
 322561192,true,Element for transclusion of HTML fragments from separate files,https://github.com/whatwg/html/issues/3681,2018-05-13T03:40:53Z,2018-05-13T14:53:28Z,LeaVerou,,0
 322175740,true,"Update SVG dependencies text ",https://github.com/whatwg/html/issues/3679,2018-05-11T05:52:05Z,2018-05-18T06:05:36Z,dstorey,clarification|integration,0
@@ -4362,7 +4362,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 199619250,true,Make underscore-prefixed attributes formally valid (works AS IS in all existing browsers),https://github.com/whatwg/html/issues/2250,2017-01-09T17:58:59Z,2017-01-19T11:57:08Z,Marat-Tanalin,addition/proposal|document conformance,8
 199542888,true,Restrict `<base>` to ~sane schemes.,https://github.com/whatwg/html/issues/2249,2017-01-09T12:39:43Z,2023-08-31T14:28:04Z,mikewest,topic: hyperlink,0
 199520829,true,Create an IDL callback function before calling it in the event handler processing algorithm,https://github.com/whatwg/html/issues/2248,2017-01-09T10:37:32Z,2017-02-24T22:27:12Z,Ms2ger,topic: events,0
-198933994,true,summary element definition does not reflect implementations,https://github.com/whatwg/html/issues/2246,2017-01-05T11:26:11Z,2017-01-19T22:19:03Z,stevefaulkner,normative change,2
+198933994,true,summary element definition does not reflect implementations,https://github.com/whatwg/html/issues/2246,2017-01-05T11:26:11Z,2017-01-19T22:19:03Z,stevefaulkner,normative change,3
 198849208,true,Consider changing strictly splitting algorithm,https://github.com/whatwg/html/issues/2242,2017-01-05T00:49:52Z,2017-02-01T19:24:56Z,shekyan,,0
 198829640,true,"""/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9]...""",https://github.com/whatwg/html/issues/2241,2017-01-04T22:40:34Z,2017-01-04T22:44:22Z,cdumez,,0
 198812992,true,HTMLHyperlinkElementUtils' password getter steps are out of sync with the URL spec,https://github.com/whatwg/html/issues/2240,2017-01-04T21:16:51Z,2017-01-05T14:20:13Z,TRowbotham,,0
