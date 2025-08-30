@@ -1,5 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3366570679,false,A way to make autoplay respect prefers-reduced-motion,https://github.com/whatwg/html/issues/11605,2025-08-29T11:42:13Z,2025-08-29T12:02:23Z,jakearchibald,addition/proposal|needs implementer interest|topic: media,1
+3367187820,false,Popover light dismiss algorithm doesn't account for commandfor,https://github.com/whatwg/html/issues/11607,2025-08-29T15:01:59Z,2025-08-29T15:01:59Z,lukewarlow,topic: popover,0
+3366993870,true,HTML,https://github.com/whatwg/html/issues/11606,2025-08-29T14:05:50Z,2025-08-29T18:57:35Z,ananya2008-byte,invalid,0
+3366570679,false,A way to make autoplay respect prefers-reduced-motion,https://github.com/whatwg/html/issues/11605,2025-08-29T11:42:13Z,2025-08-29T20:51:22Z,jakearchibald,addition/proposal|needs implementer interest|topic: media,4
 3366119920,true,Proposal: Native `<tabs>` Element,https://github.com/whatwg/html/issues/11604,2025-08-29T09:11:58Z,2025-08-29T10:02:46Z,ibrsiaika,addition/proposal|needs implementer interest,1
 3364237494,false,Proposal: Opt-In Case-Sensitive Parsing for Custom HTML Elements,https://github.com/whatwg/html/issues/11602,2025-08-28T18:10:21Z,2025-08-28T18:10:21Z,Thaoky,addition/proposal|needs implementer interest,1
 3355949488,false,Intrinsic size specification is not clear with rounding rules,https://github.com/whatwg/html/issues/11596,2025-08-26T14:41:45Z,2025-08-27T07:33:49Z,hybridherbst,,0
@@ -18,7 +20,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3323703355,false,Meeting 27 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11566,2025-08-14T21:58:26Z,2025-08-14T21:58:26Z,mfreed7,,0
 3323353832,false,toggle and beforetoggle events for the select element,https://github.com/whatwg/html/issues/11564,2025-08-14T19:28:16Z,2025-08-14T19:28:24Z,josepharhar,addition/proposal|needs implementer interest|topic: select,2
 3322974867,false,nav-stop does not seem to cancel planned form navigation,https://github.com/whatwg/html/issues/11562,2025-08-14T17:15:15Z,2025-08-25T09:47:29Z,gterzian,compat|topic: navigation,0
-3321861958,false,Listed elements change event for form elements,https://github.com/whatwg/html/issues/11561,2025-08-14T11:23:24Z,2025-08-14T11:23:34Z,annevk,addition/proposal|needs implementer interest|topic: forms|topic: events,0
+3321861958,false,Listed elements change event for form elements,https://github.com/whatwg/html/issues/11561,2025-08-14T11:23:24Z,2025-08-29T18:42:51Z,annevk,addition/proposal|needs implementer interest|topic: forms|topic: events,0
 3320994515,false,Clarify blending isolation in 2D canvas,https://github.com/whatwg/html/issues/11559,2025-08-14T06:45:20Z,2025-08-20T06:46:04Z,sagudev,topic: canvas,0
 3320269233,true,"Are `navigator.platform`, `navigator.vendor`, or any other attributes of the `NavigatorID` mixin deprecated?",https://github.com/whatwg/html/issues/11558,2025-08-14T00:23:44Z,2025-08-19T08:57:06Z,SyntaxColoring,,3
 3318943549,false,Proposal: Support image formats in `<video>`,https://github.com/whatwg/html/issues/11554,2025-08-13T15:39:54Z,2025-08-29T07:56:38Z,LeaVerou,addition/proposal|needs implementer interest|topic: media|agenda+,5
@@ -35,7 +37,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3292654726,false,Proposal for an `Origin` object.,https://github.com/whatwg/html/issues/11534,2025-08-05T11:06:52Z,2025-08-05T11:06:52Z,mikewest,addition/proposal|needs implementer interest|topic: origin,2
 3290055614,true,Upcoming WHATNOT meeting on 2025-08-07,https://github.com/whatwg/html/issues/11527,2025-08-04T16:19:12Z,2025-08-07T09:12:44Z,annevk,agenda+,0
 3288060443,false,Add rec2100-linear to PredefinedColorSpace,https://github.com/whatwg/html/issues/11526,2025-08-04T05:26:53Z,2025-08-20T12:53:10Z,ccameron-chromium,addition/proposal|needs implementer interest|topic: canvas,1
-3285251497,false,Should we remove XSLT from the web platform?,https://github.com/whatwg/html/issues/11523,2025-08-01T22:13:29Z,2025-08-28T14:10:53Z,mfreed7,removal/deprecation|needs tests|stage: 1,145
+3285251497,false,Should we remove XSLT from the web platform?,https://github.com/whatwg/html/issues/11523,2025-08-01T22:13:29Z,2025-08-29T19:40:36Z,mfreed7,removal/deprecation|needs tests|stage: 1,145
 3282807746,false,What should be the interaction between SharedWorkers and inactive documents,https://github.com/whatwg/html/issues/11520,2025-08-01T06:55:32Z,2025-08-20T07:22:11Z,fergald,clarification|topic: workers,0
 3280455453,true,Support ElementInternals via IDL extended attribute reflection,https://github.com/whatwg/html/issues/11516,2025-07-31T13:20:11Z,2025-08-22T00:41:20Z,lukewarlow,topic: custom elements|topic: reflect,0
 3279050822,true,The <ol> type attribute doesn't clearly explain invalid/missing value defaults,https://github.com/whatwg/html/issues/11513,2025-07-31T04:01:28Z,2025-07-31T05:20:13Z,rahimabdi,,0
@@ -925,7 +927,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1977139228,true,Supporting gradient interpolation for non-RGB based colour spaces in Canvas 2d,https://github.com/whatwg/html/issues/9911,2023-11-04T03:09:07Z,2023-11-04T15:48:28Z,ElizabethHudnott,addition/proposal|needs implementer interest,0
 1975384473,true,"Some autofill tokens incorrectly/inaptly named, while others are inadequate",https://github.com/whatwg/html/issues/9910,2023-11-03T03:01:53Z,2023-11-03T04:12:05Z,getsnoopy,,0
 1975205140,true,Upcoming HTML standard issue triage meeting on 11/16/2023,https://github.com/whatwg/html/issues/9909,2023-11-02T23:38:58Z,2023-11-16T23:27:17Z,past,agenda+,0
-1971645198,false,Consider accounting for reduced motion preferences when determining if HTMLVideoElements are eligible for autoplay,https://github.com/whatwg/html/issues/9900,2023-11-01T03:48:11Z,2025-08-29T12:11:44Z,sivakusayan,addition/proposal|needs implementer interest|topic: media,2
+1971645198,false,Consider accounting for reduced motion preferences when determining if HTMLVideoElements are eligible for autoplay,https://github.com/whatwg/html/issues/9900,2023-11-01T03:48:11Z,2025-08-29T17:49:43Z,sivakusayan,addition/proposal|needs implementer interest|topic: media,3
 1970431934,true,Clarify details documentation for a11y and usage,https://github.com/whatwg/html/issues/9899,2023-10-31T13:04:45Z,2024-01-10T01:46:00Z,scottaohara,accessibility|a11y-tracker,1
 1969082185,false,"""textarea wrapping transformation"" should reflect implementations",https://github.com/whatwg/html/issues/9896,2023-10-30T19:37:03Z,2023-11-06T16:07:03Z,bfgeek,topic: forms,0
 1968503134,false,"Add ""callto"" to the safelisted schemes",https://github.com/whatwg/html/issues/9894,2023-10-30T14:25:57Z,2023-10-30T15:34:17Z,Draginfable,topic: custom protocols,0
@@ -4398,7 +4400,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195734740,true,Wring,https://github.com/whatwg/html/issues/2181,2016-12-15T07:24:47Z,2016-12-15T07:25:56Z,cheoklune,,0
 195651796,true,Making Location.ancestorOrigins a FrozenArray is not Web-Compatible,https://github.com/whatwg/html/issues/2179,2016-12-14T21:33:44Z,2017-01-13T00:55:08Z,cdumez,,0
 195558416,true,"""when a select element does not have a sizes attribute""",https://github.com/whatwg/html/issues/2178,2016-12-14T15:18:37Z,2017-02-23T16:42:03Z,deltab,good first issue,0
-195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2025-08-04T09:41:48Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,172
+195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2025-08-04T09:41:48Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,174
 195497838,true,selectionStart/End/Direction on input and textarea should not be nullable,https://github.com/whatwg/html/issues/2175,2016-12-14T10:46:42Z,2017-01-18T09:22:04Z,foolip,,0
 195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,3
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
@@ -4674,7 +4676,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 168432198,true,Email validation regex not handling new TLDs like .rocks,https://github.com/whatwg/html/issues/1611,2016-07-29T23:16:55Z,2016-07-30T15:36:00Z,brianhogg,,0
 168154455,true,"""treat as absent"" has unclear meaning",https://github.com/whatwg/html/issues/1608,2016-07-28T17:42:17Z,2016-08-04T09:55:36Z,KiChjang,,0
 168127623,false,Spec for worker error reporting is broken,https://github.com/whatwg/html/issues/1607,2016-07-28T15:38:37Z,2024-07-25T08:02:48Z,bzbarsky,topic: workers|topic: multiple globals|interop|topic: error reporting,0
-168085082,true,style tag should be allowed in body,https://github.com/whatwg/html/issues/1605,2016-07-28T12:37:12Z,2025-05-04T02:38:10Z,workguy66,normative change|document conformance,33
+168085082,true,style tag should be allowed in body,https://github.com/whatwg/html/issues/1605,2016-07-28T12:37:12Z,2025-05-04T02:38:10Z,workguy66,normative change|document conformance,34
 168012882,true,"Confusing note about parser pause flag, document.write, and custom elements",https://github.com/whatwg/html/issues/1603,2016-07-28T04:44:01Z,2016-08-15T08:33:52Z,dominiccooney,clarification|topic: parser|topic: custom elements,0
 167946850,true,"BroadcastChannel (and MessagePort) implicitly call for dispatched events to not be trusted, but browsers mark them as trusted and they should be trusted",https://github.com/whatwg/html/issues/1602,2016-07-27T20:19:51Z,2016-10-25T17:33:24Z,asutherland,topic: events,0
 167766271,true,Custom elements created with 'new' should have a definition associated with them,https://github.com/whatwg/html/issues/1597,2016-07-27T04:10:16Z,2016-07-28T07:21:56Z,dominiccooney,topic: custom elements,0
