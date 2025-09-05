@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3386446873,false,Media documents should not set CSP,https://github.com/whatwg/html/issues/11626,2025-09-05T06:37:17Z,2025-09-05T06:53:38Z,TimvdLippe,,0
 3384392755,false,Meeting 28 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11625,2025-09-04T15:58:18Z,2025-09-04T15:58:18Z,mfreed7,,0
 3383072851,false,interslavic,https://github.com/whatwg/html/issues/11623,2025-09-04T10:20:39Z,2025-09-04T21:19:40Z,izkustvoinauka-boop,addition/proposal|needs implementer interest,0
 3382739158,true,WHATNOT meeting on 2025-09-04,https://github.com/whatwg/html/issues/11622,2025-09-04T08:44:48Z,2025-09-04T08:51:42Z,foolip,,1
@@ -211,7 +212,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2989087091,true,History's `scrollRestoration` steps refer to undefined node navigable,https://github.com/whatwg/html/issues/11209,2025-04-11T16:04:51Z,2025-04-15T01:15:37Z,AtkinsSJ,topic: history,0
 2984587079,true,createImageData() and getImageData() regressed,https://github.com/whatwg/html/issues/11206,2025-04-10T06:21:24Z,2025-04-10T09:44:25Z,annevk,topic: canvas,0
 2984421467,false,"Discuss out-of-memory etc. agent cluster killing, especially for shared workers?",https://github.com/whatwg/html/issues/11205,2025-04-10T04:33:30Z,2025-08-01T05:42:55Z,domenic,topic: workers|topic: agent,0
-2984245479,false,Allow importing and exporting from inline module scripts,https://github.com/whatwg/html/issues/11202,2025-04-10T01:50:17Z,2025-05-01T22:16:44Z,justinfagnani,addition/proposal|needs implementer interest,12
+2984245479,false,Allow importing and exporting from inline module scripts,https://github.com/whatwg/html/issues/11202,2025-04-10T01:50:17Z,2025-05-01T22:16:44Z,justinfagnani,addition/proposal|needs implementer interest,13
 2983067079,false,Some properties should probably inherit to the anonymous button content box (button layout),https://github.com/whatwg/html/issues/11200,2025-04-09T14:46:41Z,2025-04-09T14:46:41Z,zcorpan,topic: rendering,0
 2982879443,true,"Shared history push/replace state steps access ""associated Document"" of history",https://github.com/whatwg/html/issues/11199,2025-04-09T13:43:24Z,2025-04-10T08:42:46Z,zcorpan,topic: history,0
 2982818865,true,#inner-navigate-event-firing-algorithm uses #fully-active on #concept-relevant-global,https://github.com/whatwg/html/issues/11198,2025-04-09T13:22:43Z,2025-04-10T08:42:58Z,farre,topic: navigation,0
@@ -411,7 +412,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2724547102,true,"Calling replaceState before pushState messes up with the state, so when I go back, it does go back, but it should not",https://github.com/whatwg/html/issues/10834,2024-12-07T11:24:48Z,2024-12-08T03:27:40Z,Nedimko123,,0
 2724509105,true,"Invalid reference to ""oldModuleMap"" and ""specifier"" in ""merge existing and new import maps""",https://github.com/whatwg/html/issues/10833,2024-12-07T09:40:47Z,2024-12-09T07:05:50Z,shannonbooth,topic: script,0
 2722602163,false,Lift restriction on buttons with implicit `type=submit` and `command`/`commandfor` being no-op,https://github.com/whatwg/html/issues/10832,2024-12-06T10:07:50Z,2025-04-07T14:03:26Z,keithamus,addition/proposal|needs implementer interest|topic: forms,0
-2722500950,false,Detect UA transitions on same-origin cross-document navigations,https://github.com/whatwg/html/issues/10831,2024-12-06T09:18:01Z,2025-02-28T10:57:04Z,bramus,addition/proposal|needs implementer interest,3
+2722500950,false,Detect UA transitions on same-origin cross-document navigations,https://github.com/whatwg/html/issues/10831,2024-12-06T09:18:01Z,2025-09-05T11:05:51Z,bramus,addition/proposal|needs implementer interest,3
 2721993883,true,Iframe insertion steps violate rules for what insertion steps are allowed to do,https://github.com/whatwg/html/issues/10828,2024-12-06T03:59:51Z,2024-12-12T03:38:48Z,jdm,integration,0
 2721875733,false,Browsers are not interoperable on navigating to no-Content-Type blob: URLs,https://github.com/whatwg/html/issues/10827,2024-12-06T02:08:45Z,2024-12-07T07:15:03Z,domenic,topic: navigation|interop,0
 2721339741,true,Upcoming WHATNOT meeting on 2024-12-12,https://github.com/whatwg/html/issues/10825,2024-12-05T20:36:22Z,2024-12-13T00:10:07Z,past,agenda+,0
@@ -502,7 +503,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2025-06-12T00:09:23Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,true,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-11-15T04:41:04Z,tabatkins,integration|topic: popover,0
-2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-09-04T16:52:59Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,2
+2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-09-05T08:05:50Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,2
 2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2024-11-07T17:14:43Z,emilio,topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2562416768,true,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-12T00:18:10Z,past,agenda+,0
@@ -1798,7 +1799,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1123661843,true,Upcoming HTML standard issue triage meeting on 3/3/2022,https://github.com/whatwg/html/issues/7581,2022-02-03T23:36:55Z,2022-03-04T07:57:20Z,past,agenda+,0
 1123661332,true,[Clarification] `px` in `sizes` in relation to pixel density,https://github.com/whatwg/html/issues/7580,2022-02-03T23:35:53Z,2022-03-08T03:52:44Z,strarsis,topic: img,0
 1123649711,false,[meta] Add var-coloring code from Bikeshed?,https://github.com/whatwg/html/issues/7579,2022-02-03T23:15:57Z,2022-02-03T23:30:28Z,tabatkins,spec tooling,0
-1123546788,false,:active and activating via the keyboard,https://github.com/whatwg/html/issues/7578,2022-02-03T20:58:41Z,2025-09-02T17:55:35Z,domenic,interop|topic: style,2
+1123546788,false,:active and activating via the keyboard,https://github.com/whatwg/html/issues/7578,2022-02-03T20:58:41Z,2025-09-05T12:16:03Z,domenic,interop|topic: style,2
 1123237456,false,Escaping multipart/form-data,https://github.com/whatwg/html/issues/7575,2022-02-03T15:38:57Z,2022-04-08T18:06:58Z,michaelweiser,topic: forms,1
 1123054970,false,Server-Sent Events (SSE) - add Keep-Alive Messages definition,https://github.com/whatwg/html/issues/7571,2022-02-03T12:57:07Z,2024-06-28T04:20:39Z,liran2000,addition/proposal|needs implementer interest|topic: eventsource,0
 1122834062,false,"Tweak the default alignment of `input[type=""range""]`",https://github.com/whatwg/html/issues/7570,2022-02-03T09:17:12Z,2022-02-18T23:12:56Z,tomayac,needs implementer interest|topic: rendering|topic: forms,1
@@ -2051,7 +2052,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 941515242,true," No documentation for web developers #6842 ",https://github.com/whatwg/html/issues/6852,2021-07-11T19:08:48Z,2021-07-11T20:08:51Z,ghost,,1
 941513377,true,Stop calling ECMAScript 'JavaScript' #6848,https://github.com/whatwg/html/issues/6851,2021-07-11T18:56:57Z,2021-07-11T20:03:34Z,ghost,,0
 941445002,true,Stop calling ECMAScript 'JavaScript',https://github.com/whatwg/html/issues/6848,2021-07-11T12:42:38Z,2021-07-11T13:02:35Z,ghost,,0
-941436735,false,"HTML Standard, Developer's Edition subsections are not number",https://github.com/whatwg/html/issues/6847,2021-07-11T11:57:23Z,2025-07-14T18:58:54Z,ghost,dev edition,0
+941436735,false,"HTML Standard, Developer's Edition subsections are not number",https://github.com/whatwg/html/issues/6847,2021-07-11T11:57:23Z,2025-09-05T03:55:40Z,ghost,dev edition,0
 941430662,true,"HTML Standard, Developer's Edition references a draft ECMAScript specification for ECMAScript",https://github.com/whatwg/html/issues/6846,2021-07-11T11:23:44Z,2021-07-11T12:36:41Z,ghost,,0
 941334559,false,Consider clarifying the foreign elements use in XML syntax,https://github.com/whatwg/html/issues/6845,2021-07-10T22:36:25Z,2021-07-16T21:46:35Z,oliviercailloux,,0
 941275378,true,"Let's rename HTML Standard, Developer's Edition",https://github.com/whatwg/html/issues/6844,2021-07-10T15:47:37Z,2021-07-19T19:38:01Z,ghost,dev edition,0
@@ -3637,7 +3638,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,198
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,199
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
@@ -5229,7 +5230,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 125410345,true,Handling of url parsing errors in a.ping is undefined,https://github.com/whatwg/html/issues/477,2016-01-07T15:02:55Z,2016-02-02T15:47:59Z,Ms2ger,good first issue,0
 125375099,true,""" If there are no selected files, then append an...""",https://github.com/whatwg/html/issues/476,2016-01-07T11:20:52Z,2021-02-27T06:23:50Z,bakulf,compat|topic: forms,0
 125350559,true,"""Rewrite script execution on top of ES"" fallout",https://github.com/whatwg/html/issues/473,2016-01-07T08:44:54Z,2016-06-15T19:46:10Z,annevk,topic: multiple globals,0
-125328300,true,""" that that""",https://github.com/whatwg/html/issues/472,2016-01-07T05:52:43Z,2016-01-08T15:23:14Z,xheme2,,0
+125328300,true,""" that that""",https://github.com/whatwg/html/issues/472,2016-01-07T05:52:43Z,2016-01-08T15:23:14Z,xth2b,,0
 125278649,true,"Split step 5.3 of ""Update the image data"" into multiple steps",https://github.com/whatwg/html/issues/471,2016-01-06T22:33:34Z,2016-01-12T14:23:57Z,jdm,clarification|good first issue,0
 125025920,false,Rendering spec for text inputs should specify whitespace behaviour,https://github.com/whatwg/html/issues/470,2016-01-05T18:43:15Z,2020-01-23T21:11:22Z,jdm,topic: rendering|topic: forms,0
 124768373,true,Incorporate innerText,https://github.com/whatwg/html/issues/465,2016-01-04T14:28:23Z,2016-08-17T21:04:21Z,Ms2ger,addition/proposal|compat,0
