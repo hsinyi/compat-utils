@@ -1,14 +1,17 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3392497021,false,Editorial: make serialize/parse roundtrip examples linkable,https://github.com/whatwg/html/pull/11635,2025-09-08T04:02:30Z,2025-09-08T11:23:52Z,domenic,topic: parser,0
+3395519394,false,Source reformatting: switch to no line-breaking,https://github.com/whatwg/html/pull/11640,2025-09-08T20:01:36Z,2025-09-08T20:04:47Z,zcorpan,spec tooling,0
+3394917792,true,Remove improper dialog assert,https://github.com/whatwg/html/pull/11638,2025-09-08T16:40:21Z,2025-09-08T17:22:47Z,keithamus,,0
+3394359716,true,Create likhitha-contribution.txt,https://github.com/whatwg/html/pull/11636,2025-09-08T13:59:47Z,2025-09-08T14:08:05Z,likhy1922-likhitha,invalid,0
+3392497021,true,Editorial: make serialize/parse roundtrip examples linkable,https://github.com/whatwg/html/pull/11635,2025-09-08T04:02:30Z,2025-09-08T13:45:49Z,domenic,topic: parser,0
 3391512744,false,"Editorial: Remove the ""</sarcasm>"" joke",https://github.com/whatwg/html/pull/11634,2025-09-07T11:10:58Z,2025-09-08T06:12:17Z,BrianJDrake,,0
 3389766548,true,"Editorial: remove duplicate salveagable state change",https://github.com/whatwg/html/pull/11633,2025-09-06T09:31:59Z,2025-09-06T13:45:54Z,TimvdLippe,,0
-3388210153,false,Fix typo in assert,https://github.com/whatwg/html/pull/11632,2025-09-05T16:55:17Z,2025-09-05T16:57:39Z,keithamus,,0
+3388210153,true,Fix incorrect dialog assert,https://github.com/whatwg/html/pull/11632,2025-09-05T16:55:17Z,2025-09-08T17:22:59Z,keithamus,,0
 3388006842,false,Add patchUnsafe() methods,https://github.com/whatwg/html/pull/11631,2025-09-05T15:46:01Z,2025-09-05T15:46:01Z,foolip,,0
 3387513853,true,"Clone integrity policy as part of ""clone a policy container""",https://github.com/whatwg/html/pull/11628,2025-09-05T13:10:46Z,2025-09-08T09:26:22Z,yoavweiss,topic: policy container,0
 3383145665,true,"Editorial: correctly mark up JS code with class=""js""",https://github.com/whatwg/html/pull/11624,2025-09-04T10:40:34Z,2025-09-06T13:33:13Z,foolip,,0
 3380980195,false,Added support for link rel=compression-dictionary,https://github.com/whatwg/html/pull/11620,2025-09-03T19:14:59Z,2025-09-08T07:10:54Z,pmeenan,,0
 3377123672,false,Define normalization of full-width numeric characters in <input type=number> user input,https://github.com/whatwg/html/pull/11616,2025-09-02T18:42:30Z,2025-09-02T18:42:30Z,kyouhei-horizumi,,0
-3375698830,false,Run snapshot post-layout state steps in resizeObserver loop,https://github.com/whatwg/html/pull/11613,2025-09-02T11:54:25Z,2025-09-08T09:33:04Z,lilles,topic: rendering,0
+3375698830,false,Run snapshot post-layout state steps in resizeObserver loop,https://github.com/whatwg/html/pull/11613,2025-09-02T11:54:25Z,2025-09-08T14:17:46Z,lilles,topic: rendering,0
 3372661973,true,Editorial: Fix punctuation + markup,https://github.com/whatwg/html/pull/11612,2025-09-01T13:15:14Z,2025-09-02T13:47:04Z,jmdyck,,0
 3366034851,true,Navigation API: pass precommitController to handler,https://github.com/whatwg/html/pull/11603,2025-08-29T08:47:59Z,2025-08-29T17:07:27Z,noamr,,0
 3362988058,false,Editorial: Clean up color conversion presentation in HTML canvas,https://github.com/whatwg/html/pull/11601,2025-08-28T11:38:23Z,2025-09-03T02:52:21Z,ccameron-chromium,clarification|topic: canvas,0
@@ -34,7 +37,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3291533405,false,Canvas2D: Add rec2100-linear to PredefinedColorSpace enum,https://github.com/whatwg/html/pull/11529,2025-08-05T04:38:31Z,2025-08-19T06:16:35Z,ccameron-chromium,addition/proposal|topic: canvas,0
 3290898664,true,Editorial: fix ending li tag,https://github.com/whatwg/html/pull/11528,2025-08-04T21:58:37Z,2025-08-05T06:20:42Z,josepharhar,,0
 3285874404,true,Add paragraph to hgroup children in indices table,https://github.com/whatwg/html/pull/11524,2025-08-02T12:03:48Z,2025-08-19T06:13:06Z,TrySound,document conformance,0
-3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-09-04T21:28:15Z,ffiori,agenda+,0
+3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-09-08T21:26:32Z,ffiori,agenda+,0
 3280953563,false,Imply [Reflect] when [ReflectRange] or [ReflectDefault] are used.,https://github.com/whatwg/html/pull/11518,2025-07-31T15:49:27Z,2025-08-26T15:59:08Z,lukewarlow,,0
 3280885144,true,Remove support ElementInternals reflection flag,https://github.com/whatwg/html/pull/11517,2025-07-31T15:27:38Z,2025-08-22T00:41:19Z,lukewarlow,,0
 3279388233,true,Editorial: clarify worker lifetime definitions,https://github.com/whatwg/html/pull/11515,2025-07-31T07:15:41Z,2025-08-19T05:43:54Z,domenic,clarification|topic: workers,0
@@ -223,7 +226,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2834196191,true,Editorial: switch links back to official CSSWG drafts,https://github.com/whatwg/html/pull/11005,2025-02-05T23:54:24Z,2025-02-06T02:18:33Z,Loirooriol,,0
 2833243175,true,Editorial: fix link and wording for tuple origin,https://github.com/whatwg/html/pull/11001,2025-02-05T15:17:39Z,2025-02-06T01:25:39Z,zcorpan,clarification|topic: origin,0
 2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2025-04-16T13:40:27Z,AndresRPerez12,do not merge yet|topic: canvas,0
-2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2025-09-01T18:34:04Z,dandclark,,0
+2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2025-09-08T14:55:04Z,dandclark,,0
 2831485110,true,Fix dialog focus restoring descendant check,https://github.com/whatwg/html/pull/10994,2025-02-04T23:17:23Z,2025-02-17T02:49:55Z,josepharhar,topic: dialog,0
 2831477610,false,Remove links to defunct Twitter account,https://github.com/whatwg/html/pull/10993,2025-02-04T23:11:22Z,2025-02-12T12:42:41Z,eeeps,meta,0
 2830828832,true,Pass a top-level navigation initiator origin to Fetch,https://github.com/whatwg/html/pull/10991,2025-02-04T17:06:01Z,2025-07-25T09:20:12Z,bvandersloot-mozilla,,0
