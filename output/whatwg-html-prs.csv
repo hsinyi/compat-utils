@@ -1,13 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3397194555,false,Account for User-Agent not starting with Mozilla/ in appVersion getter,https://github.com/whatwg/html/pull/11642,2025-09-09T08:12:47Z,2025-09-09T09:10:12Z,annevk,,0
-3395519394,false,Source reformatting: switch to no line-breaking,https://github.com/whatwg/html/pull/11640,2025-09-08T20:01:36Z,2025-09-09T06:44:23Z,zcorpan,spec tooling,0
+3397194555,false,Account for User-Agent not starting with Mozilla/ in appVersion getter,https://github.com/whatwg/html/pull/11642,2025-09-09T08:12:47Z,2025-09-09T16:37:40Z,annevk,,0
+3395519394,false,Source reformatting: switch to no line-breaking,https://github.com/whatwg/html/pull/11640,2025-09-08T20:01:36Z,2025-09-09T16:01:52Z,zcorpan,spec tooling,0
 3394917792,true,Remove improper dialog assert,https://github.com/whatwg/html/pull/11638,2025-09-08T16:40:21Z,2025-09-09T02:14:11Z,keithamus,topic: dialog|topic: close watchers,0
 3394359716,true,Create likhitha-contribution.txt,https://github.com/whatwg/html/pull/11636,2025-09-08T13:59:47Z,2025-09-08T14:08:05Z,likhy1922-likhitha,invalid,0
 3392497021,true,Editorial: make serialize/parse roundtrip examples linkable,https://github.com/whatwg/html/pull/11635,2025-09-08T04:02:30Z,2025-09-08T13:45:49Z,domenic,topic: parser,0
 3391512744,false,"Editorial: Remove the ""</sarcasm>"" joke",https://github.com/whatwg/html/pull/11634,2025-09-07T11:10:58Z,2025-09-08T06:12:17Z,BrianJDrake,,0
 3389766548,true,"Editorial: remove duplicate salveagable state change",https://github.com/whatwg/html/pull/11633,2025-09-06T09:31:59Z,2025-09-06T13:45:54Z,TimvdLippe,,0
 3388210153,true,Fix incorrect dialog assert,https://github.com/whatwg/html/pull/11632,2025-09-05T16:55:17Z,2025-09-09T02:13:47Z,keithamus,topic: dialog|topic: close watchers,0
-3388006842,false,Add patchUnsafe() methods,https://github.com/whatwg/html/pull/11631,2025-09-05T15:46:01Z,2025-09-05T15:46:01Z,foolip,,0
+3388006842,false,Add patchUnsafe() methods,https://github.com/whatwg/html/pull/11631,2025-09-05T15:46:01Z,2025-09-09T19:09:22Z,foolip,,0
 3387513853,true,"Clone integrity policy as part of ""clone a policy container""",https://github.com/whatwg/html/pull/11628,2025-09-05T13:10:46Z,2025-09-08T09:26:22Z,yoavweiss,topic: policy container,0
 3383145665,true,"Editorial: correctly mark up JS code with class=""js""",https://github.com/whatwg/html/pull/11624,2025-09-04T10:40:34Z,2025-09-06T13:33:13Z,foolip,,0
 3380980195,false,Added support for link rel=compression-dictionary,https://github.com/whatwg/html/pull/11620,2025-09-03T19:14:59Z,2025-09-08T07:10:54Z,pmeenan,,0
@@ -87,7 +87,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3178652783,true,Editorial: use ThrowCompletion AO to create throw completions,https://github.com/whatwg/html/pull/11403,2025-06-26T10:34:27Z,2025-06-27T01:12:19Z,nicolo-ribaudo,,0
 3177669506,true,Clarify that disabled does not prevent all modifications,https://github.com/whatwg/html/pull/11401,2025-06-26T04:16:29Z,2025-06-29T03:15:30Z,domenic,clarification|topic: forms,0
 3176117994,true,Fix: Always set [[ErrorToRethrow]] for import validation errors,https://github.com/whatwg/html/pull/11398,2025-06-25T15:40:40Z,2025-06-26T07:31:57Z,nicolo-ribaudo,,0
-3164725213,false,Markup: Wrap algorithms in <div> tags,https://github.com/whatwg/html/pull/11392,2025-06-21T03:52:24Z,2025-08-31T02:51:42Z,jmdyck,,0
+3164725213,false,Markup: Wrap algorithms in <div> tags,https://github.com/whatwg/html/pull/11392,2025-06-21T03:52:24Z,2025-09-10T00:04:03Z,jmdyck,,0
 3158527853,true,"Editorial: Fix whitespace, punctuation, wording, markup",https://github.com/whatwg/html/pull/11387,2025-06-19T00:36:40Z,2025-06-24T10:14:17Z,jmdyck,,0
 3153280203,true,Discourage `document.writeln()` like `document.write()`,https://github.com/whatwg/html/pull/11384,2025-06-17T12:13:20Z,2025-06-22T17:31:26Z,caugner,,1
 3152891981,true,"Reword popover ""invoker"" terminology to ""control"" or ""source"" where appropriate.",https://github.com/whatwg/html/pull/11383,2025-06-17T10:03:49Z,2025-08-15T11:25:58Z,keithamus,editorial,0
@@ -1149,7 +1149,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1235895636,true,Remove a confusing comment on `<link>.as`,https://github.com/whatwg/html/pull/7926,2022-05-14T06:56:12Z,2022-05-16T23:36:03Z,JohnTitor,,0
 1233548660,true,docs: add missing words,https://github.com/whatwg/html/pull/7921,2022-05-12T07:14:02Z,2022-05-19T08:32:27Z,j9t,,1
 1232758585,true,updation,https://github.com/whatwg/html/pull/7916,2022-05-11T14:37:27Z,2024-10-08T14:09:22Z,jasleenkaur0609,invalid,0
-1232354134,false,add unload permissions-policy feature,https://github.com/whatwg/html/pull/7915,2022-05-11T09:56:36Z,2025-08-20T02:57:35Z,fergald,,0
+1232354134,false,add unload permissions-policy feature,https://github.com/whatwg/html/pull/7915,2022-05-11T09:56:36Z,2025-09-09T21:51:42Z,fergald,,0
 1230897276,false,Add IPFS and IPNS as safelisted schemes for registerProtocolHandler(),https://github.com/whatwg/html/pull/7911,2022-05-10T09:46:44Z,2023-11-14T08:05:49Z,javifernandez,,6
 1229967385,true,Match upstream ECMA-262 change,https://github.com/whatwg/html/pull/7909,2022-05-09T16:25:55Z,2022-05-10T00:37:25Z,mathiasbynens,topic: forms,0
 1229938684,true,Use `v` flag instead of `u` for `pattern` RegExps,https://github.com/whatwg/html/pull/7908,2022-05-09T16:01:15Z,2023-06-24T14:39:53Z,mathiasbynens,addition/proposal|topic: forms|needs compat analysis,1
