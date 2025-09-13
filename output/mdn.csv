@@ -1593,6 +1593,7 @@ api/Document/all,,70,,64,,11,,false,true,true,https://html.spec.whatwg.org/multi
 api/Document/anchors,,61,,1,,4,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-anchors,WHATWG
 api/Document/append,,49,,54,,10,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-parentnode-append①,WHATWG
 api/Document/applets,,61,,1,,4,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-applets,WHATWG
+api/Document/ariaNotify,,,,141,,,,true,false,false,,NONE
 api/Document/beforescriptexecute_event,,9,,,,,,false,false,true,,NONE
 api/Document/bgColor,,69,,64,,11,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-bgcolor,WHATWG
 api/Document/body,,60,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-document-body-dev,WHATWG
@@ -1897,6 +1898,7 @@ api/Element/ariaLive,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria
 api/Element/ariaModal,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariamodal,W3C
 api/Element/ariaMultiLine,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariamultiline,W3C
 api/Element/ariaMultiSelectable,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariamultiselectable,W3C
+api/Element/ariaNotify,,,,141,,,,true,false,false,,NONE
 api/Element/ariaOrientation,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariaorientation,W3C
 api/Element/ariaOwnsElements,,136,,,,16.4,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariaownselements,W3C
 api/Element/ariaPlaceholder,,119,,81,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-ariaplaceholder,W3C
@@ -12630,7 +12632,7 @@ html/elements/input/step,,16,,5,,5,,false,true,false,https://html.spec.whatwg.or
 html/elements/input/type_button,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#button-state-(type=button),WHATWG
 html/elements/input/type_checkbox,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#checkbox-state-(type=checkbox),WHATWG
 html/elements/input/type_color,,29,,20,,12.1,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#color-state-(type=color),WHATWG
-html/elements/input/type_color/accepts_css_colors,,,,,,18.4,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#color-state-(type=color),WHATWG
+html/elements/input/type_color/accepts_css_colors,,143,,,,18.4,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#color-state-(type=color),WHATWG
 html/elements/input/type_date,,57,,20,,14.1,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#date-state-(type=date),WHATWG
 html/elements/input/type_date/disables_invalid_values_in_picker_ui,,57,,20,,14.1,,false,false,false,,NONE
 html/elements/input/type_datetime-local,,93,,20,,14.1,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#local-date-and-time-state-(type=datetime-local),WHATWG
@@ -13342,7 +13344,7 @@ http/headers/Speculation-Rules,,,,121,,,,true,false,false,,NONE
 http/headers/Strict-Transport-Security,,4,,4,,7,,false,true,false,https://www.rfc-editor.org/rfc/rfc6797#section-6.1,UNKNOWN
 http/headers/Supports-Loading-Mode,,,,109,,,,true,false,false,,NONE
 http/headers/Supports-Loading-Mode/credentialed-prerender,,,,109,,,,true,false,false,,NONE
-http/headers/Supports-Loading-Mode/fenced-frames,,,,117,,,,true,false,false,,NONE
+http/headers/Supports-Loading-Mode/fenced-frame,,,,117,,,,true,false,false,,NONE
 http/headers/TE,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.te,IETF
 http/headers/Timing-Allow-Origin,,45,,54,,11,,false,true,false,https://w3c.github.io/resource-timing/#sec-timing-allow-origin,W3C
 http/headers/Trailer,,71,,,,,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.trailer,IETF
@@ -14746,7 +14748,7 @@ javascript/statements/import/import_assertions,,,,91,,,,false,false,true,,NONE
 javascript/statements/import/import_assertions/type_css,,,,93,,,,false,false,true,,NONE
 javascript/statements/import/import_assertions/type_json,,,,91,,,,false,false,true,,NONE
 javascript/statements/import/import_attributes,,138,,123,,17.2,,false,true,false,https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#prod-WithClause,TC39
-javascript/statements/import/import_attributes/type_css,,,,123,,,,true,true,false,,NONE
+javascript/statements/import/import_attributes/type_css,,,,123,,,,false,true,false,,NONE
 javascript/statements/import/import_attributes/type_json,,138,,123,,17.2,,false,true,false,,NONE
 javascript/statements/import/service_worker_support,,,,91,,15,,false,true,false,,NONE
 javascript/statements/import/worker_support,,114,,80,,15,,false,true,false,,NONE
