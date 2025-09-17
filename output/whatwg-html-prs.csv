@@ -1,10 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3422595862,false,feat: add note to suggest use CookieStore instead of document.cookie,https://github.com/whatwg/html/pull/11668,2025-09-16T14:42:06Z,2025-09-16T22:26:23Z,Chanran,,0
-3421907529,false,Editorial: extract NavigateEvent commit/cancel steps to standalone algorithms,https://github.com/whatwg/html/pull/11666,2025-09-16T11:43:18Z,2025-09-16T12:26:49Z,noamr,,0
+3422595862,false,feat: add note to suggest use CookieStore instead of document.cookie,https://github.com/whatwg/html/pull/11668,2025-09-16T14:42:06Z,2025-09-17T10:56:44Z,Chanran,,0
+3421907529,false,Editorial: extract NavigateEvent commit/cancel steps to standalone algorithms,https://github.com/whatwg/html/pull/11666,2025-09-16T11:43:18Z,2025-09-17T08:48:13Z,noamr,topic: navigation,0
 3418839498,true,remove synchronous document.cookie api to avoid jank; use cookieStore…,https://github.com/whatwg/html/pull/11662,2025-09-15T17:21:33Z,2025-09-16T04:02:15Z,Chanran,,0
 3418551159,true,Editorial: clarify the xmlns notes by merging them,https://github.com/whatwg/html/pull/11660,2025-09-15T15:52:40Z,2025-09-16T05:21:26Z,annevk,,0
 3416642173,true,Editorial: correct spelling of style sheet,https://github.com/whatwg/html/pull/11659,2025-09-15T07:18:46Z,2025-09-15T11:22:22Z,annevk,,0
-3416025068,false,add import bytes,https://github.com/whatwg/html/pull/11657,2025-09-15T02:23:05Z,2025-09-17T00:36:12Z,styfle,,0
+3416025068,false,add import bytes,https://github.com/whatwg/html/pull/11657,2025-09-15T02:23:05Z,2025-09-17T06:43:04Z,styfle,,0
 3412022714,false,Switch dialog/popover to using place-self:dialog,https://github.com/whatwg/html/pull/11656,2025-09-12T21:47:20Z,2025-09-15T20:44:27Z,tabatkins,needs tests,1
 3407835189,true,Capitalize autocomplete and autocapitalize attribute states,https://github.com/whatwg/html/pull/11654,2025-09-11T19:43:51Z,2025-09-15T04:47:33Z,lukewarlow,,0
 3403940616,false,Add lightning to the safelisted schemes list,https://github.com/whatwg/html/pull/11649,2025-09-10T21:05:12Z,2025-09-11T02:31:27Z,asoltys,addition/proposal|needs implementer interest|topic: custom protocols,0
@@ -21,7 +21,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3387513853,true,"Clone integrity policy as part of ""clone a policy container""",https://github.com/whatwg/html/pull/11628,2025-09-05T13:10:46Z,2025-09-08T09:26:22Z,yoavweiss,topic: policy container,0
 3383145665,true,"Editorial: correctly mark up JS code with class=""js""",https://github.com/whatwg/html/pull/11624,2025-09-04T10:40:34Z,2025-09-06T13:33:13Z,foolip,,0
 3380980195,false,Added support for link rel=compression-dictionary,https://github.com/whatwg/html/pull/11620,2025-09-03T19:14:59Z,2025-09-08T07:10:54Z,pmeenan,,0
-3377123672,false,Define normalization of full-width numeric characters in <input type=number> user input,https://github.com/whatwg/html/pull/11616,2025-09-02T18:42:30Z,2025-09-15T15:58:56Z,kyouhei-horizumi,normative change|topic: forms|i18n-tracker|i18n-jlreq,0
+3377123672,false,Define normalization of full-width numeric characters in <input type=number> user input,https://github.com/whatwg/html/pull/11616,2025-09-02T18:42:30Z,2025-09-17T02:53:03Z,kyouhei-horizumi,normative change|topic: forms|i18n-tracker|i18n-jlreq|i18n-clreq,0
 3375698830,false,Run snapshot post-layout state steps in resizeObserver loop,https://github.com/whatwg/html/pull/11613,2025-09-02T11:54:25Z,2025-09-08T14:17:46Z,lilles,topic: rendering,0
 3372661973,true,Editorial: Fix punctuation + markup,https://github.com/whatwg/html/pull/11612,2025-09-01T13:15:14Z,2025-09-02T13:47:04Z,jmdyck,,0
 3366034851,true,Navigation API: pass precommitController to handler,https://github.com/whatwg/html/pull/11603,2025-08-29T08:47:59Z,2025-08-29T17:07:27Z,noamr,,0
@@ -35,7 +35,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3341635110,false,Stub out canvas.drawElementImage(),https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2025-09-16T15:23:06Z,foolip,,0
 3337110965,true,[meta] Add dfn type and scope for HTMLMediaElement.src,https://github.com/whatwg/html/pull/11581,2025-08-20T08:32:57Z,2025-08-21T00:28:09Z,dontcallmedom,,1
 3336967031,true,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation,0
-3333877613,false,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-16T14:33:48Z,sadym-chromium,,0
+3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
 3331131522,false,[WebDriver BiDi] emulate network offline,https://github.com/whatwg/html/pull/11575,2025-08-18T15:16:42Z,2025-08-19T12:00:11Z,sadym-chromium,,0
 3327499382,true,mudei cord,https://github.com/whatwg/html/pull/11568,2025-08-16T18:00:25Z,2025-08-16T19:55:40Z,NicolasGimenezAlcalde,invalid,0
 3323021317,false,Remove mentions of XSLT from the html spec,https://github.com/whatwg/html/pull/11563,2025-08-14T17:27:01Z,2025-09-03T02:52:50Z,mfreed7,removal/deprecation,78
@@ -65,17 +65,17 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3263247523,true,My first edit after forking,https://github.com/whatwg/html/pull/11490,2025-07-25T13:30:50Z,2025-07-26T05:19:36Z,jagadishkasarla,invalid,0
 3263229031,true,My first edit after forking,https://github.com/whatwg/html/pull/11489,2025-07-25T13:24:03Z,2025-07-26T05:19:25Z,jagadishkasarla,invalid,0
 3261575294,false,Update link to ARIA accessible name definition,https://github.com/whatwg/html/pull/11486,2025-07-25T00:19:06Z,2025-08-03T11:47:25Z,513ry,,0
-3248625737,false,[WebDriver BiDi] download process automation,https://github.com/whatwg/html/pull/11474,2025-07-21T13:14:36Z,2025-09-16T11:26:27Z,sadym-chromium,,0
+3248625737,false,[WebDriver BiDi] download process automation,https://github.com/whatwg/html/pull/11474,2025-07-21T13:14:36Z,2025-09-17T10:47:09Z,sadym-chromium,,0
 3248494242,true,Add an introduction for scoped custom element registries,https://github.com/whatwg/html/pull/11473,2025-07-21T12:36:04Z,2025-09-04T10:41:59Z,annevk,topic: custom elements,0
 3248442519,true,Scope non-scoped (global) registries to a single document,https://github.com/whatwg/html/pull/11472,2025-07-21T12:22:08Z,2025-07-23T20:46:21Z,annevk,normative change|topic: custom elements,0
 3247661850,true,Review Draft Publication: July 2025,https://github.com/whatwg/html/pull/11471,2025-07-21T08:15:31Z,2025-07-21T09:10:32Z,annevk,,0
 3246282630,true,Updated 404.html,https://github.com/whatwg/html/pull/11469,2025-07-20T11:29:58Z,2025-07-21T06:13:06Z,sakshimuttha578,invalid,0
 3244187479,true,Add examples for customizable select,https://github.com/whatwg/html/pull/11465,2025-07-18T19:31:11Z,2025-07-24T02:00:49Z,josepharhar,topic: select,0
-3237039065,false,Change definition of select element list box and drop-down box rendering,https://github.com/whatwg/html/pull/11460,2025-07-16T19:03:00Z,2025-09-16T23:16:36Z,josepharhar,topic: select,1
+3237039065,false,Change definition of select element list box and drop-down box rendering,https://github.com/whatwg/html/pull/11460,2025-07-16T19:03:00Z,2025-09-17T09:18:30Z,josepharhar,topic: select,1
 3235057490,true,ahmedmeshref021@gmail.com,https://github.com/whatwg/html/pull/11458,2025-07-16T08:49:57Z,2025-07-16T08:58:15Z,Ahmedmeshref280,invalid,0
 3233410374,true,Prevent infinite loop in revealing algorithms,https://github.com/whatwg/html/pull/11457,2025-07-15T19:08:36Z,2025-08-11T19:24:57Z,josepharhar,,0
 3231668942,false,Introduce enumerated attribute reflection extended attributes,https://github.com/whatwg/html/pull/11455,2025-07-15T10:09:54Z,2025-07-31T15:58:23Z,lukewarlow,,0
-3230789302,false,Carry over sticky activation for same-origin navs and traversals,https://github.com/whatwg/html/pull/11454,2025-07-15T05:07:58Z,2025-08-28T03:29:34Z,domenic,addition/proposal|topic: user activation,0
+3230789302,false,Carry over sticky activation for same-origin navs and traversals,https://github.com/whatwg/html/pull/11454,2025-07-15T05:07:58Z,2025-09-17T07:41:09Z,domenic,addition/proposal|topic: user activation,0
 3230719017,true,Remove more XML-derived attribute name validation,https://github.com/whatwg/html/pull/11453,2025-07-15T04:28:48Z,2025-07-16T01:01:00Z,domenic,,1
 3229465049,true,Introduce attribute reflection extended attributes,https://github.com/whatwg/html/pull/11450,2025-07-14T17:19:54Z,2025-07-30T12:35:57Z,lukewarlow,,0
 3222567446,true,Editorial: add popover=hint in attribute summary table,https://github.com/whatwg/html/pull/11446,2025-07-11T11:29:54Z,2025-07-12T06:39:19Z,foolip,,0
