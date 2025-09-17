@@ -1,10 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3421532251,false,"Allow out-of-band text tracks to source kind, label, language from the text track format",https://github.com/whatwg/html/issues/11665,2025-09-16T10:17:26Z,2025-09-16T10:17:55Z,zcorpan,addition/proposal|topic: media,0
+3422355636,true,html-css flex issu,https://github.com/whatwg/html/issues/11667,2025-09-16T13:39:03Z,2025-09-16T13:47:28Z,Kuldip4053,invalid,0
+3421532251,false,"Allow out-of-band text tracks to source kind, label, language from the text track format",https://github.com/whatwg/html/issues/11665,2025-09-16T10:17:26Z,2025-09-16T10:17:55Z,zcorpan,addition/proposal|topic: media,2
 3419489827,false,Upcoming WHATNOT meeting on 2025-09-18,https://github.com/whatwg/html/issues/11664,2025-09-15T20:56:20Z,2025-09-15T20:56:20Z,cwilso,agenda+,0
 3419256239,true,Closing Tag Option,https://github.com/whatwg/html/issues/11663,2025-09-15T19:39:38Z,2025-09-16T06:05:14Z,iwelch,addition/proposal|needs implementer interest,0
 3416036844,false,Should the document.cookie API now be marked as deprecated to encourage all users to switch to CookieStore,https://github.com/whatwg/html/issues/11658,2025-09-15T02:29:56Z,2025-09-16T07:45:51Z,Chanran,removal/deprecation|topic: cookie,0
 3408045764,false,"""headingoffset"" attribute & ""headingoffset"" attribute in h1-h6 element",https://github.com/whatwg/html/issues/11655,2025-09-11T21:10:49Z,2025-09-12T10:11:30Z,mtrootyy,clarification,0
-3407545253,false,Popping node vs. end tag behavior in <option> and <selectedcontent>,https://github.com/whatwg/html/issues/11653,2025-09-11T17:53:49Z,2025-09-12T15:50:05Z,dmsnell,topic: parser|topic: select,0
+3407545253,false,Popping node vs. end tag behavior in <option> and <selectedcontent>,https://github.com/whatwg/html/issues/11653,2025-09-11T17:53:49Z,2025-09-16T14:40:36Z,dmsnell,topic: parser|topic: select,0
 3407152717,false,Could `<big>` be redefined as a semantic element?,https://github.com/whatwg/html/issues/11652,2025-09-11T15:52:00Z,2025-09-15T18:01:15Z,LeaVerou,normative change|document conformance,0
 3405532503,true,WHATNOT meeting minutes 2025-08-22 & 2025-08-28,https://github.com/whatwg/html/issues/11651,2025-09-11T08:57:07Z,2025-09-11T10:01:48Z,noamr,,0
 3405269122,true,When is <image> not an <img>?,https://github.com/whatwg/html/issues/11650,2025-09-11T07:47:50Z,2025-09-15T14:51:13Z,meiqinyan,,0
@@ -12,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3400048571,false,Permanent anchor request: #dom-document-cookie,https://github.com/whatwg/html/issues/11646,2025-09-09T21:36:52Z,2025-09-10T01:51:41Z,sbingler,anchor permanence,1
 3399270456,false,Question: non-obvious steps in document loading algorithms,https://github.com/whatwg/html/issues/11645,2025-09-09T17:11:18Z,2025-09-16T06:40:17Z,TimvdLippe,clarification|topic: navigation|topic: document lifecycle,0
 3397913640,false,Rendering of print media: Clarify specification’s scope,https://github.com/whatwg/html/issues/11644,2025-09-09T11:03:43Z,2025-09-15T14:56:38Z,BrianJDrake,,0
-3395552388,false,Focusgroup: Declarative keyboard focus navigation for a scoped set of composite widgets,https://github.com/whatwg/html/issues/11641,2025-09-08T20:10:20Z,2025-09-09T04:56:11Z,janewman,addition/proposal|needs implementer interest,0
+3395552388,false,Focusgroup: Declarative keyboard focus navigation for a scoped set of composite widgets,https://github.com/whatwg/html/issues/11641,2025-09-08T20:10:20Z,2025-09-16T22:06:03Z,janewman,addition/proposal|needs implementer interest|agenda+,0
 3395173912,true,How to set the fill- and/or stroke-color without large overhead? (Canvas API -- 2D Rendering Context),https://github.com/whatwg/html/issues/11639,2025-09-08T18:14:03Z,2025-09-12T10:21:59Z,0scarB,,0
 3394777681,false,Proposal: Add `preparePrint()` to land all the resources needed by print,https://github.com/whatwg/html/issues/11637,2025-09-08T15:54:18Z,2025-09-10T17:25:07Z,cathiechen,addition/proposal|needs implementer interest,0
 3387646682,true,The appVersion getter steps assume too much about default User-Agent values.,https://github.com/whatwg/html/issues/11630,2025-09-05T13:53:44Z,2025-09-10T05:17:38Z,Psychpsyo,,0
@@ -431,7 +432,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2724547102,true,"Calling replaceState before pushState messes up with the state, so when I go back, it does go back, but it should not",https://github.com/whatwg/html/issues/10834,2024-12-07T11:24:48Z,2024-12-08T03:27:40Z,Nedimko123,,0
 2724509105,true,"Invalid reference to ""oldModuleMap"" and ""specifier"" in ""merge existing and new import maps""",https://github.com/whatwg/html/issues/10833,2024-12-07T09:40:47Z,2024-12-09T07:05:50Z,shannonbooth,topic: script,0
 2722602163,false,Lift restriction on buttons with implicit `type=submit` and `command`/`commandfor` being no-op,https://github.com/whatwg/html/issues/10832,2024-12-06T10:07:50Z,2025-04-07T14:03:26Z,keithamus,addition/proposal|needs implementer interest|topic: forms,0
-2722500950,false,Detect UA transitions on same-origin cross-document navigations,https://github.com/whatwg/html/issues/10831,2024-12-06T09:18:01Z,2025-09-16T11:53:22Z,bramus,addition/proposal|needs implementer interest,3
+2722500950,false,Detect UA transitions on same-origin cross-document navigations,https://github.com/whatwg/html/issues/10831,2024-12-06T09:18:01Z,2025-09-16T13:11:06Z,bramus,addition/proposal|needs implementer interest,3
 2721993883,true,Iframe insertion steps violate rules for what insertion steps are allowed to do,https://github.com/whatwg/html/issues/10828,2024-12-06T03:59:51Z,2024-12-12T03:38:48Z,jdm,integration,0
 2721875733,false,Browsers are not interoperable on navigating to no-Content-Type blob: URLs,https://github.com/whatwg/html/issues/10827,2024-12-06T02:08:45Z,2024-12-07T07:15:03Z,domenic,topic: navigation|interop,0
 2721339741,true,Upcoming WHATNOT meeting on 2024-12-12,https://github.com/whatwg/html/issues/10825,2024-12-05T20:36:22Z,2024-12-13T00:10:07Z,past,agenda+,0
@@ -522,7 +523,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2025-06-12T00:09:23Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,true,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-11-15T04:41:04Z,tabatkins,integration|topic: popover,0
-2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-09-05T08:05:50Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,2
+2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-09-16T17:37:47Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|agenda+|stage: 1,2
 2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2024-11-07T17:14:43Z,emilio,topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2562416768,true,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-12T00:18:10Z,past,agenda+,0
@@ -920,7 +921,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2041234260,false,"colspan=""0"": Formalize a way to get a cell to span all/remaining columns",https://github.com/whatwg/html/issues/9992,2023-12-14T08:53:57Z,2024-01-08T16:57:21Z,andrerom,addition/proposal|needs implementer interest|topic: table,1
 2040145190,false,select.showPicker() in content-visibility: hidden subtree,https://github.com/whatwg/html/issues/9991,2023-12-13T17:10:42Z,2023-12-19T20:46:09Z,lukewarlow,,0
 2036911436,true,Editorial: link the Promise<T> type throughout,https://github.com/whatwg/html/issues/9987,2023-12-12T03:38:59Z,2024-03-15T08:02:25Z,domenic,good first issue|editorial,0
-2033957372,false,<datalist> behavior(s) are inconsistent and unhelpful when options are prefiltered,https://github.com/whatwg/html/issues/9986,2023-12-09T17:36:53Z,2024-08-13T17:23:55Z,broofa,addition/proposal|needs implementer interest|topic: forms,4
+2033957372,false,<datalist> behavior(s) are inconsistent and unhelpful when options are prefiltered,https://github.com/whatwg/html/issues/9986,2023-12-09T17:36:53Z,2024-08-13T17:23:55Z,broofa,addition/proposal|needs implementer interest|topic: forms,5
 2028951452,false,"ShadowRoot with true delegatesFocus, predict the target",https://github.com/whatwg/html/issues/9982,2023-12-06T16:32:41Z,2023-12-06T16:33:36Z,flavi1,addition/proposal|needs implementer interest,0
 2028286303,false,Normative references to discontinued specs in HTML Standard,https://github.com/whatwg/html/issues/9981,2023-12-06T11:00:58Z,2023-12-07T06:39:38Z,dontcallmedom-bot,clarification,0
 2024998082,true,Event handler attributes missing from element content attribute definitions,https://github.com/whatwg/html/issues/9978,2023-12-04T23:40:38Z,2023-12-04T23:44:50Z,isAdrisal,,0
@@ -1683,7 +1684,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1243990383,false,"Proposal: Allow authors to programmatically ""save as PDF""",https://github.com/whatwg/html/issues/7946,2022-05-21T14:28:52Z,2025-09-03T09:58:55Z,BenjaminAster,addition/proposal|needs implementer interest,68
 1242018223,false,(Background) Tab Suspending,https://github.com/whatwg/html/issues/7942,2022-05-19T16:18:36Z,2022-05-19T16:18:36Z,johannhof,,0
 1242006437,false,Throttling and clamping of setTimeout and setInterval,https://github.com/whatwg/html/issues/7941,2022-05-19T16:08:39Z,2022-05-20T08:26:05Z,johannhof,topic: event loop|topic: timing,0
-1241898306,false,Make `<embed>` and `<object>` behave like `<iframe>` for image loading,https://github.com/whatwg/html/issues/7939,2022-05-19T14:43:19Z,2025-09-10T18:24:00Z,farre,normative change|topic: navigation|topic: embed and object|agenda+,0
+1241898306,false,Make `<embed>` and `<object>` behave like `<iframe>` for image loading,https://github.com/whatwg/html/issues/7939,2022-05-19T14:43:19Z,2025-09-16T21:37:20Z,farre,normative change|topic: navigation|topic: embed and object,0
 1236085972,true,rAF Timestamp Relativeness Mismatch,https://github.com/whatwg/html/issues/7931,2022-05-14T17:54:19Z,2023-10-04T14:05:55Z,Fayti1703,topic: timing,0
 1236085687,false,Event Loop Processing Signature Mismatches,https://github.com/whatwg/html/issues/7930,2022-05-14T17:52:51Z,2022-05-30T16:11:37Z,Fayti1703,topic: event loop,0
 1235363695,false,Api to get prev/next focusable element,https://github.com/whatwg/html/issues/7924,2022-05-13T15:06:41Z,2022-05-19T21:19:01Z,jimmywarting,addition/proposal|needs implementer interest|topic: focus,11
@@ -2854,7 +2855,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 512330703,false,Meta referrer being able to loosen Referrer-Policy header restrictions is a security vulnerability,https://github.com/whatwg/html/issues/5041,2019-10-25T06:34:26Z,2022-05-31T13:48:55Z,chris-morgan,,0
 512069720,false,HTML sandbox form restriction bypass when scripts allowed,https://github.com/whatwg/html/issues/5040,2019-10-24T17:05:19Z,2019-10-25T15:11:31Z,tsangtmc,clarification|security/privacy,0
 511584833,false,HTMLConstructor construction steps: inconsistent evaluation order/error cases in implementations,https://github.com/whatwg/html/issues/5037,2019-10-23T21:35:34Z,2019-10-24T08:54:23Z,bathos,topic: custom elements|interop,0
-510489260,true,Consider adding a headingoffset attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2025-09-11T09:44:23Z,annevk,addition/proposal|accessibility,33
+510489260,true,Consider adding a headingoffset attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2025-09-11T09:44:23Z,annevk,addition/proposal|accessibility,34
 509880741,true,---------,https://github.com/whatwg/html/issues/5029,2019-10-21T10:42:33Z,2019-10-22T04:41:25Z,dhilip89,,0
 509693572,true,delegatesFocus doesn't work well with autofocus,https://github.com/whatwg/html/issues/5027,2019-10-21T02:13:20Z,2019-11-11T16:44:20Z,tkent-google,topic: focus,0
 509685886,true,Code Regions,https://github.com/whatwg/html/issues/5026,2019-10-21T01:32:06Z,2019-10-21T16:16:12Z,AdamSobieski,,0
