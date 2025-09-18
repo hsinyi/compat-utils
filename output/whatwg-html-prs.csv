@@ -1,10 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3422595862,false,feat: add note to suggest use CookieStore instead of document.cookie,https://github.com/whatwg/html/pull/11668,2025-09-16T14:42:06Z,2025-09-17T10:56:44Z,Chanran,,0
+3422595862,false,feat: add note to suggest use CookieStore instead of document.cookie,https://github.com/whatwg/html/pull/11668,2025-09-16T14:42:06Z,2025-09-17T13:33:30Z,Chanran,,0
 3421907529,false,Editorial: extract NavigateEvent commit/cancel steps to standalone algorithms,https://github.com/whatwg/html/pull/11666,2025-09-16T11:43:18Z,2025-09-17T08:48:13Z,noamr,topic: navigation,0
 3418839498,true,remove synchronous document.cookie api to avoid jank; use cookieStore…,https://github.com/whatwg/html/pull/11662,2025-09-15T17:21:33Z,2025-09-16T04:02:15Z,Chanran,,0
 3418551159,true,Editorial: clarify the xmlns notes by merging them,https://github.com/whatwg/html/pull/11660,2025-09-15T15:52:40Z,2025-09-16T05:21:26Z,annevk,,0
 3416642173,true,Editorial: correct spelling of style sheet,https://github.com/whatwg/html/pull/11659,2025-09-15T07:18:46Z,2025-09-15T11:22:22Z,annevk,,0
-3416025068,false,add import bytes,https://github.com/whatwg/html/pull/11657,2025-09-15T02:23:05Z,2025-09-17T06:43:04Z,styfle,,0
+3416025068,false,add import bytes,https://github.com/whatwg/html/pull/11657,2025-09-15T02:23:05Z,2025-09-17T16:20:37Z,styfle,,0
 3412022714,false,Switch dialog/popover to using place-self:dialog,https://github.com/whatwg/html/pull/11656,2025-09-12T21:47:20Z,2025-09-15T20:44:27Z,tabatkins,needs tests,1
 3407835189,true,Capitalize autocomplete and autocapitalize attribute states,https://github.com/whatwg/html/pull/11654,2025-09-11T19:43:51Z,2025-09-15T04:47:33Z,lukewarlow,,0
 3403940616,false,Add lightning to the safelisted schemes list,https://github.com/whatwg/html/pull/11649,2025-09-10T21:05:12Z,2025-09-11T02:31:27Z,asoltys,addition/proposal|needs implementer interest|topic: custom protocols,0
@@ -32,7 +32,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3356225711,false,"[FYI, not ready for review] Add globalHDRHeadroom to CanvasCompositing interface",https://github.com/whatwg/html/pull/11597,2025-08-26T15:51:38Z,2025-08-28T11:21:07Z,ccameron-chromium,,0
 3344286687,true,chore(css): normalize prefers-color-scheme spacing in styles.css,https://github.com/whatwg/html/pull/11591,2025-08-22T06:18:20Z,2025-08-22T06:32:55Z,ArjunSaluja,invalid,0
 3342044580,true,use integer over anb syntax for heading,https://github.com/whatwg/html/pull/11589,2025-08-21T14:47:23Z,2025-08-27T12:55:08Z,keithamus,,0
-3341635110,false,Stub out canvas.drawElementImage(),https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2025-09-16T15:23:06Z,foolip,,0
+3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2025-09-17T16:22:29Z,foolip,,0
 3337110965,true,[meta] Add dfn type and scope for HTMLMediaElement.src,https://github.com/whatwg/html/pull/11581,2025-08-20T08:32:57Z,2025-08-21T00:28:09Z,dontcallmedom,,1
 3336967031,true,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation,0
 3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
@@ -71,7 +71,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3247661850,true,Review Draft Publication: July 2025,https://github.com/whatwg/html/pull/11471,2025-07-21T08:15:31Z,2025-07-21T09:10:32Z,annevk,,0
 3246282630,true,Updated 404.html,https://github.com/whatwg/html/pull/11469,2025-07-20T11:29:58Z,2025-07-21T06:13:06Z,sakshimuttha578,invalid,0
 3244187479,true,Add examples for customizable select,https://github.com/whatwg/html/pull/11465,2025-07-18T19:31:11Z,2025-07-24T02:00:49Z,josepharhar,topic: select,0
-3237039065,false,Change definition of select element list box and drop-down box rendering,https://github.com/whatwg/html/pull/11460,2025-07-16T19:03:00Z,2025-09-17T09:18:30Z,josepharhar,topic: select,1
+3237039065,false,Change definition of select element list box and drop-down box rendering,https://github.com/whatwg/html/pull/11460,2025-07-16T19:03:00Z,2025-09-17T15:13:07Z,josepharhar,topic: select,1
 3235057490,true,ahmedmeshref021@gmail.com,https://github.com/whatwg/html/pull/11458,2025-07-16T08:49:57Z,2025-07-16T08:58:15Z,Ahmedmeshref280,invalid,0
 3233410374,true,Prevent infinite loop in revealing algorithms,https://github.com/whatwg/html/pull/11457,2025-07-15T19:08:36Z,2025-08-11T19:24:57Z,josepharhar,,0
 3231668942,false,Introduce enumerated attribute reflection extended attributes,https://github.com/whatwg/html/pull/11455,2025-07-15T10:09:54Z,2025-07-31T15:58:23Z,lukewarlow,,0
@@ -263,7 +263,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2817697425,true,[Editorial] rework button states to allow for command/commandfor attributes,https://github.com/whatwg/html/pull/10960,2025-01-29T09:42:32Z,2025-02-11T22:16:50Z,keithamus,,0
 2816741425,true,Quirk: bare <li> have list-style-position: inside,https://github.com/whatwg/html/pull/10959,2025-01-28T21:22:42Z,2025-03-25T10:11:52Z,zcorpan,,0
 2816164539,true,Fire a load event for javascript: URL non-strings,https://github.com/whatwg/html/pull/10957,2025-01-28T16:24:36Z,2025-05-12T19:47:16Z,zcorpan,topic: navigation|topic: frames/navigables/browsing contexts|topic: javascript: URLs,0
-2814371404,false,Connect HTML spec up to new CSS `interactivity` property,https://github.com/whatwg/html/pull/10956,2025-01-28T00:50:42Z,2025-05-19T19:06:15Z,mfreed7,do not merge yet|topic: style|integration|a11y-tracker|topic: dialog,0
+2814371404,false,Connect HTML spec up to new CSS `interactivity` property,https://github.com/whatwg/html/pull/10956,2025-01-28T00:50:42Z,2025-09-17T23:00:13Z,mfreed7,do not merge yet|topic: style|integration|a11y-tracker|topic: dialog,0
 2813958440,true,Fix dialog closedby and requestClose(),https://github.com/whatwg/html/pull/10954,2025-01-27T20:12:53Z,2025-06-06T21:58:58Z,lukewarlow,topic: dialog,0
 2812761134,true,"Add CanvasColorType, with unorm8 (the default) and float16 support",https://github.com/whatwg/html/pull/10951,2025-01-27T11:28:40Z,2025-02-10T15:18:50Z,ccameron-chromium,addition/proposal|topic: canvas,0
 2812128271,true,Editorial: fix variable name typo in inner navigate event firing,https://github.com/whatwg/html/pull/10950,2025-01-27T05:41:27Z,2025-01-28T01:15:03Z,domenic,,0
