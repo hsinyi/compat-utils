@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 3422595862,false,feat: add note to suggest use CookieStore instead of document.cookie,https://github.com/whatwg/html/pull/11668,2025-09-16T14:42:06Z,2025-09-17T13:33:30Z,Chanran,,0
-3421907529,false,Editorial: extract NavigateEvent commit/cancel steps to standalone algorithms,https://github.com/whatwg/html/pull/11666,2025-09-16T11:43:18Z,2025-09-17T08:48:13Z,noamr,topic: navigation,0
+3421907529,false,Editorial: extract NavigateEvent commit/cancel steps to standalone algorithms,https://github.com/whatwg/html/pull/11666,2025-09-16T11:43:18Z,2025-09-18T08:44:51Z,noamr,clarification|topic: navigation,0
 3418839498,true,remove synchronous document.cookie api to avoid jank; use cookieStore…,https://github.com/whatwg/html/pull/11662,2025-09-15T17:21:33Z,2025-09-16T04:02:15Z,Chanran,,0
 3418551159,true,Editorial: clarify the xmlns notes by merging them,https://github.com/whatwg/html/pull/11660,2025-09-15T15:52:40Z,2025-09-16T05:21:26Z,annevk,,0
 3416642173,true,Editorial: correct spelling of style sheet,https://github.com/whatwg/html/pull/11659,2025-09-15T07:18:46Z,2025-09-15T11:22:22Z,annevk,,0
@@ -8,7 +8,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3412022714,false,Switch dialog/popover to using place-self:dialog,https://github.com/whatwg/html/pull/11656,2025-09-12T21:47:20Z,2025-09-15T20:44:27Z,tabatkins,needs tests,1
 3407835189,true,Capitalize autocomplete and autocapitalize attribute states,https://github.com/whatwg/html/pull/11654,2025-09-11T19:43:51Z,2025-09-15T04:47:33Z,lukewarlow,,0
 3403940616,false,Add lightning to the safelisted schemes list,https://github.com/whatwg/html/pull/11649,2025-09-10T21:05:12Z,2025-09-11T02:31:27Z,asoltys,addition/proposal|needs implementer interest|topic: custom protocols,0
-3400996058,false,Meta: note requested permanent anchors in the source,https://github.com/whatwg/html/pull/11647,2025-09-10T05:37:45Z,2025-09-11T00:54:23Z,domenic,,0
+3400996058,true,Meta: note requested permanent anchors in the source,https://github.com/whatwg/html/pull/11647,2025-09-10T05:37:45Z,2025-09-18T08:25:21Z,domenic,,0
 3397194555,true,Account for User-Agent not starting with Mozilla/ in appVersion getter,https://github.com/whatwg/html/pull/11642,2025-09-09T08:12:47Z,2025-09-10T05:17:39Z,annevk,,0
 3395519394,false,Source reformatting: switch to no line-breaking,https://github.com/whatwg/html/pull/11640,2025-09-08T20:01:36Z,2025-09-11T01:50:11Z,zcorpan,spec tooling,0
 3394917792,true,Remove improper dialog assert,https://github.com/whatwg/html/pull/11638,2025-09-08T16:40:21Z,2025-09-09T02:14:11Z,keithamus,topic: dialog|topic: close watchers,0
@@ -26,7 +26,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3372661973,true,Editorial: Fix punctuation + markup,https://github.com/whatwg/html/pull/11612,2025-09-01T13:15:14Z,2025-09-02T13:47:04Z,jmdyck,,0
 3366034851,true,Navigation API: pass precommitController to handler,https://github.com/whatwg/html/pull/11603,2025-08-29T08:47:59Z,2025-08-29T17:07:27Z,noamr,,0
 3362988058,true,Editorial: Clean up color conversion presentation in HTML canvas,https://github.com/whatwg/html/pull/11601,2025-08-28T11:38:23Z,2025-09-15T11:30:45Z,ccameron-chromium,clarification|topic: canvas,0
-3358169931,false,Add extended lifetime shared workers,https://github.com/whatwg/html/pull/11600,2025-08-27T06:29:57Z,2025-09-01T17:10:55Z,domenic,addition/proposal|do not merge yet|topic: workers,0
+3358169931,false,Add extended lifetime shared workers,https://github.com/whatwg/html/pull/11600,2025-08-27T06:29:57Z,2025-09-18T07:48:53Z,domenic,addition/proposal|do not merge yet|topic: workers,0
 3357835900,false,Further clarify worker lifetime relationships,https://github.com/whatwg/html/pull/11599,2025-08-27T03:00:54Z,2025-09-03T02:36:06Z,domenic,clarification|topic: workers,0
 3357822727,true,"Editorial: collapse ""actively needed"" and ""protected"" for workers",https://github.com/whatwg/html/pull/11598,2025-08-27T02:52:13Z,2025-08-27T02:54:13Z,domenic,clarification|topic: workers,0
 3356225711,false,"[FYI, not ready for review] Add globalHDRHeadroom to CanvasCompositing interface",https://github.com/whatwg/html/pull/11597,2025-08-26T15:51:38Z,2025-08-28T11:21:07Z,ccameron-chromium,,0
@@ -75,7 +75,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3235057490,true,ahmedmeshref021@gmail.com,https://github.com/whatwg/html/pull/11458,2025-07-16T08:49:57Z,2025-07-16T08:58:15Z,Ahmedmeshref280,invalid,0
 3233410374,true,Prevent infinite loop in revealing algorithms,https://github.com/whatwg/html/pull/11457,2025-07-15T19:08:36Z,2025-08-11T19:24:57Z,josepharhar,,0
 3231668942,false,Introduce enumerated attribute reflection extended attributes,https://github.com/whatwg/html/pull/11455,2025-07-15T10:09:54Z,2025-07-31T15:58:23Z,lukewarlow,,0
-3230789302,false,Carry over sticky activation for same-origin navs and traversals,https://github.com/whatwg/html/pull/11454,2025-07-15T05:07:58Z,2025-09-17T07:41:09Z,domenic,addition/proposal|topic: user activation,0
+3230789302,false,Carry over sticky activation for same-origin navs and traversals,https://github.com/whatwg/html/pull/11454,2025-07-15T05:07:58Z,2025-09-18T08:24:53Z,domenic,addition/proposal|topic: user activation,0
 3230719017,true,Remove more XML-derived attribute name validation,https://github.com/whatwg/html/pull/11453,2025-07-15T04:28:48Z,2025-07-16T01:01:00Z,domenic,,1
 3229465049,true,Introduce attribute reflection extended attributes,https://github.com/whatwg/html/pull/11450,2025-07-14T17:19:54Z,2025-07-30T12:35:57Z,lukewarlow,,0
 3222567446,true,Editorial: add popover=hint in attribute summary table,https://github.com/whatwg/html/pull/11446,2025-07-11T11:29:54Z,2025-07-12T06:39:19Z,foolip,,0
