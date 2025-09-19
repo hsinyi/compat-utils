@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3422595862,false,feat: add note to suggest use CookieStore instead of document.cookie,https://github.com/whatwg/html/pull/11668,2025-09-16T14:42:06Z,2025-09-17T13:33:30Z,Chanran,,0
+3422595862,false,feat: add note to suggest use CookieStore instead of document.cookie,https://github.com/whatwg/html/pull/11668,2025-09-16T14:42:06Z,2025-09-18T14:59:01Z,Chanran,,0
 3421907529,false,Editorial: extract NavigateEvent commit/cancel steps to standalone algorithms,https://github.com/whatwg/html/pull/11666,2025-09-16T11:43:18Z,2025-09-18T08:44:51Z,noamr,clarification|topic: navigation,0
 3418839498,true,remove synchronous document.cookie api to avoid jank; use cookieStore…,https://github.com/whatwg/html/pull/11662,2025-09-15T17:21:33Z,2025-09-16T04:02:15Z,Chanran,,0
 3418551159,true,Editorial: clarify the xmlns notes by merging them,https://github.com/whatwg/html/pull/11660,2025-09-15T15:52:40Z,2025-09-16T05:21:26Z,annevk,,0
@@ -48,7 +48,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3291533405,false,Canvas2D: Add rec2100-linear to PredefinedColorSpace enum,https://github.com/whatwg/html/pull/11529,2025-08-05T04:38:31Z,2025-08-19T06:16:35Z,ccameron-chromium,addition/proposal|topic: canvas,0
 3290898664,true,Editorial: fix ending li tag,https://github.com/whatwg/html/pull/11528,2025-08-04T21:58:37Z,2025-08-05T06:20:42Z,josepharhar,,0
 3285874404,true,Add paragraph to hgroup children in indices table,https://github.com/whatwg/html/pull/11524,2025-08-02T12:03:48Z,2025-08-19T06:13:06Z,TrySound,document conformance,0
-3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-09-08T21:26:32Z,ffiori,agenda+,0
+3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-09-18T23:17:53Z,ffiori,,0
 3280953563,false,Imply [Reflect] when [ReflectRange] or [ReflectDefault] are used.,https://github.com/whatwg/html/pull/11518,2025-07-31T15:49:27Z,2025-08-26T15:59:08Z,lukewarlow,,0
 3280885144,true,Remove support ElementInternals reflection flag,https://github.com/whatwg/html/pull/11517,2025-07-31T15:27:38Z,2025-08-22T00:41:19Z,lukewarlow,,0
 3279388233,true,Editorial: clarify worker lifetime definitions,https://github.com/whatwg/html/pull/11515,2025-07-31T07:15:41Z,2025-08-19T05:43:54Z,domenic,clarification|topic: workers,0
@@ -71,7 +71,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3247661850,true,Review Draft Publication: July 2025,https://github.com/whatwg/html/pull/11471,2025-07-21T08:15:31Z,2025-07-21T09:10:32Z,annevk,,0
 3246282630,true,Updated 404.html,https://github.com/whatwg/html/pull/11469,2025-07-20T11:29:58Z,2025-07-21T06:13:06Z,sakshimuttha578,invalid,0
 3244187479,true,Add examples for customizable select,https://github.com/whatwg/html/pull/11465,2025-07-18T19:31:11Z,2025-07-24T02:00:49Z,josepharhar,topic: select,0
-3237039065,false,Change definition of select element list box and drop-down box rendering,https://github.com/whatwg/html/pull/11460,2025-07-16T19:03:00Z,2025-09-17T15:13:07Z,josepharhar,topic: select,1
+3237039065,false,Change definition of select element list box and drop-down box rendering,https://github.com/whatwg/html/pull/11460,2025-07-16T19:03:00Z,2025-09-18T17:30:07Z,josepharhar,topic: select,1
 3235057490,true,ahmedmeshref021@gmail.com,https://github.com/whatwg/html/pull/11458,2025-07-16T08:49:57Z,2025-07-16T08:58:15Z,Ahmedmeshref280,invalid,0
 3233410374,true,Prevent infinite loop in revealing algorithms,https://github.com/whatwg/html/pull/11457,2025-07-15T19:08:36Z,2025-08-11T19:24:57Z,josepharhar,,0
 3231668942,false,Introduce enumerated attribute reflection extended attributes,https://github.com/whatwg/html/pull/11455,2025-07-15T10:09:54Z,2025-07-31T15:58:23Z,lukewarlow,,0
@@ -109,7 +109,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3121032722,true,"[Editorial] Early hints: there is no ""pending"" document, only null.",https://github.com/whatwg/html/pull/11355,2025-06-05T12:28:44Z,2025-06-05T13:48:08Z,noamr,,0
 3113398673,false,Add UA style for contenteditable=plaintext-only,https://github.com/whatwg/html/pull/11351,2025-06-03T10:31:38Z,2025-06-03T11:09:30Z,zcorpan,,0
 3113286788,false,[DRAFT] Add the concept of an event source.,https://github.com/whatwg/html/pull/11349,2025-06-03T10:00:27Z,2025-06-05T11:36:57Z,alice,,0
-3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-08-03T20:52:27Z,alexpetros,addition/proposal|topic: forms,75
+3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-08-03T20:52:27Z,alexpetros,addition/proposal|topic: forms,78
 3101529448,false,Improve CommandEvent and ToggleEvent source retargeting,https://github.com/whatwg/html/pull/11345,2025-05-29T21:27:44Z,2025-08-28T03:29:27Z,josepharhar,,0
 3095959996,true,Revamp script element introduction and conformance,https://github.com/whatwg/html/pull/11341,2025-05-28T04:26:27Z,2025-05-29T05:07:03Z,domenic,clarification|document conformance|topic: script,0
 3094310657,true,Add jump functionality to Blue Robot canvas demo,https://github.com/whatwg/html/pull/11337,2025-05-27T15:14:55Z,2025-05-28T00:58:11Z,Ronitsabhaya75,invalid,0
@@ -1127,7 +1127,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1274141161,true,Export 'the body element' for other specifications to use,https://github.com/whatwg/html/pull/8017,2022-06-16T22:23:05Z,2022-06-16T22:53:22Z,zcorpan,,0
 1273830563,false,Add IntersectionObserver target requirement to Event Loops Processing Model,https://github.com/whatwg/html/pull/8016,2022-06-16T16:45:47Z,2023-11-14T08:05:50Z,nathaneliason,,0
 1270712984,true,Integrate with WebDriver-BiDi user prompt handling.,https://github.com/whatwg/html/pull/8010,2022-06-14T12:14:42Z,2022-06-17T18:46:26Z,jgraham,,0
-1270116125,true,Add sizes=auto to lazy-loaded <img>,https://github.com/whatwg/html/pull/8008,2022-06-14T00:47:59Z,2023-06-02T14:24:03Z,zcorpan,,52
+1270116125,true,Add sizes=auto to lazy-loaded <img>,https://github.com/whatwg/html/pull/8008,2022-06-14T00:47:59Z,2023-06-02T14:24:03Z,zcorpan,,56
 1269893795,true,"Add ""webauthn"" autocomplete token",https://github.com/whatwg/html/pull/8006,2022-06-13T20:03:26Z,2022-06-16T18:49:14Z,nsatragno,,0
 1267714744,true,Export `HTMLTemplateElement`'s `content`.,https://github.com/whatwg/html/pull/7998,2022-06-10T15:39:14Z,2022-06-13T08:51:58Z,mozfreddyb,,0
 1265300355,true,Compare against storage key when creating a SharedWorker. (#7913),https://github.com/whatwg/html/pull/7995,2022-06-08T20:56:35Z,2022-06-15T17:09:57Z,wanderview,topic: workers,0
