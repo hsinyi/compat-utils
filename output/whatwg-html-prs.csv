@@ -1,6 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3422595862,false,feat: add note to suggest use CookieStore instead of document.cookie,https://github.com/whatwg/html/pull/11668,2025-09-16T14:42:06Z,2025-09-18T14:59:01Z,Chanran,,0
-3421907529,false,Editorial: extract NavigateEvent commit/cancel steps to standalone algorithms,https://github.com/whatwg/html/pull/11666,2025-09-16T11:43:18Z,2025-09-18T08:44:51Z,noamr,clarification|topic: navigation,0
+3432312203,true,Fix bad variable references in speculation rules,https://github.com/whatwg/html/pull/11671,2025-09-19T00:56:59Z,2025-09-19T07:58:27Z,domenic,,0
+3422595862,true,feat: add note to suggest use CookieStore instead of document.cookie,https://github.com/whatwg/html/pull/11668,2025-09-16T14:42:06Z,2025-09-19T11:15:52Z,Chanran,,0
+3421907529,false,Editorial: extract NavigateEvent commit/cancel steps to standalone algorithms,https://github.com/whatwg/html/pull/11666,2025-09-16T11:43:18Z,2025-09-19T08:16:52Z,noamr,clarification|topic: navigation,0
 3418839498,true,remove synchronous document.cookie api to avoid jank; use cookieStore…,https://github.com/whatwg/html/pull/11662,2025-09-15T17:21:33Z,2025-09-16T04:02:15Z,Chanran,,0
 3418551159,true,Editorial: clarify the xmlns notes by merging them,https://github.com/whatwg/html/pull/11660,2025-09-15T15:52:40Z,2025-09-16T05:21:26Z,annevk,,0
 3416642173,true,Editorial: correct spelling of style sheet,https://github.com/whatwg/html/pull/11659,2025-09-15T07:18:46Z,2025-09-15T11:22:22Z,annevk,,0
@@ -71,11 +72,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3247661850,true,Review Draft Publication: July 2025,https://github.com/whatwg/html/pull/11471,2025-07-21T08:15:31Z,2025-07-21T09:10:32Z,annevk,,0
 3246282630,true,Updated 404.html,https://github.com/whatwg/html/pull/11469,2025-07-20T11:29:58Z,2025-07-21T06:13:06Z,sakshimuttha578,invalid,0
 3244187479,true,Add examples for customizable select,https://github.com/whatwg/html/pull/11465,2025-07-18T19:31:11Z,2025-07-24T02:00:49Z,josepharhar,topic: select,0
-3237039065,false,Change definition of select element list box and drop-down box rendering,https://github.com/whatwg/html/pull/11460,2025-07-16T19:03:00Z,2025-09-18T17:30:07Z,josepharhar,topic: select,1
+3237039065,false,Change definition of select element list box and drop-down box rendering,https://github.com/whatwg/html/pull/11460,2025-07-16T19:03:00Z,2025-09-19T07:50:38Z,josepharhar,topic: select,1
 3235057490,true,ahmedmeshref021@gmail.com,https://github.com/whatwg/html/pull/11458,2025-07-16T08:49:57Z,2025-07-16T08:58:15Z,Ahmedmeshref280,invalid,0
 3233410374,true,Prevent infinite loop in revealing algorithms,https://github.com/whatwg/html/pull/11457,2025-07-15T19:08:36Z,2025-08-11T19:24:57Z,josepharhar,,0
 3231668942,false,Introduce enumerated attribute reflection extended attributes,https://github.com/whatwg/html/pull/11455,2025-07-15T10:09:54Z,2025-07-31T15:58:23Z,lukewarlow,,0
-3230789302,false,Carry over sticky activation for same-origin navs and traversals,https://github.com/whatwg/html/pull/11454,2025-07-15T05:07:58Z,2025-09-18T08:24:53Z,domenic,addition/proposal|topic: user activation,0
+3230789302,false,Carry over sticky activation for same-origin navs and traversals,https://github.com/whatwg/html/pull/11454,2025-07-15T05:07:58Z,2025-09-19T10:29:09Z,domenic,addition/proposal|topic: user activation,0
 3230719017,true,Remove more XML-derived attribute name validation,https://github.com/whatwg/html/pull/11453,2025-07-15T04:28:48Z,2025-07-16T01:01:00Z,domenic,,1
 3229465049,true,Introduce attribute reflection extended attributes,https://github.com/whatwg/html/pull/11450,2025-07-14T17:19:54Z,2025-07-30T12:35:57Z,lukewarlow,,0
 3222567446,true,Editorial: add popover=hint in attribute summary table,https://github.com/whatwg/html/pull/11446,2025-07-11T11:29:54Z,2025-07-12T06:39:19Z,foolip,,0
@@ -233,7 +234,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2846556240,true,Editorial: move definition of submit button,https://github.com/whatwg/html/pull/11018,2025-02-11T21:31:34Z,2025-02-11T22:07:06Z,keithamus,,0
 2842888093,true,redefine dialog closedby IDL to return computed value,https://github.com/whatwg/html/pull/11015,2025-02-10T16:00:22Z,2025-02-27T09:06:54Z,keithamus,topic: dialog|topic: close watchers,0
 2838206082,true,"Editorial: remove extra ""value"" in ""nonzero"" definition",https://github.com/whatwg/html/pull/11009,2025-02-07T13:47:22Z,2025-02-07T15:06:30Z,foolip,,0
-2835336619,false,Add the `interestfor` attribute,https://github.com/whatwg/html/pull/11006,2025-02-06T12:01:00Z,2025-09-04T09:06:52Z,foolip,,2
+2835336619,false,Add the `interestfor` attribute,https://github.com/whatwg/html/pull/11006,2025-02-06T12:01:00Z,2025-09-19T07:00:00Z,foolip,,2
 2834196191,true,Editorial: switch links back to official CSSWG drafts,https://github.com/whatwg/html/pull/11005,2025-02-05T23:54:24Z,2025-02-06T02:18:33Z,Loirooriol,,0
 2833243175,true,Editorial: fix link and wording for tuple origin,https://github.com/whatwg/html/pull/11001,2025-02-05T15:17:39Z,2025-02-06T01:25:39Z,zcorpan,clarification|topic: origin,0
 2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2025-04-16T13:40:27Z,AndresRPerez12,do not merge yet|topic: canvas,0
