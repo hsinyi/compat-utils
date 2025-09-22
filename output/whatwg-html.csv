@@ -126,7 +126,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3177218684,true,Meeting 23 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11399,2025-06-25T23:19:59Z,2025-07-07T15:56:30Z,mfreed7,,0
 3175144621,false,"[mXSS] Consider making HTML parsing of `style`, `script`, `xmp` etc consistent between SVG, MathML, HTML",https://github.com/whatwg/html/issues/11397,2025-06-25T10:39:24Z,2025-06-26T01:56:34Z,zcorpan,topic: parser|needs compat analysis|security-tracker,0
 3175066946,true,"Warn against placing block-level elements like <div> inside <a> tag"" — What does it mean?",https://github.com/whatwg/html/issues/11396,2025-06-25T10:13:05Z,2025-06-25T11:27:54Z,mtechamit,,0
-3172995712,false,"Define optional normalization of full-width characters in <input type=""number"">",https://github.com/whatwg/html/issues/11395,2025-06-24T19:03:19Z,2025-09-19T16:43:06Z,kyouhei-horizumi,topic: forms|i18n-tracker|needs tests|i18n-jlreq|i18n-clreq,3
+3172995712,false,"Define optional normalization of full-width characters in <input type=""number"">",https://github.com/whatwg/html/issues/11395,2025-06-24T19:03:19Z,2025-09-19T16:43:06Z,kyouhei-horizumi,topic: forms|i18n-tracker|needs tests|i18n-jlreq|i18n-clreq,5
 3170966348,true,Avoid Using <div> Inside <a> – Violates HTML5 Semantics,https://github.com/whatwg/html/issues/11394,2025-06-24T08:34:14Z,2025-06-25T11:27:14Z,mtechamit,addition/proposal|needs implementer interest,0
 3169300806,false,should the script end tag steps abort earlier if the microtask checkpoint aborts the parser?,https://github.com/whatwg/html/issues/11393,2025-06-23T19:57:28Z,2025-06-24T15:30:10Z,dbaron,topic: parser,0
 3164537289,true,Script Execution Order and `body.className,https://github.com/whatwg/html/issues/11391,2025-06-20T23:26:26Z,2025-06-21T04:55:13Z,Imran-imtiaz48,,0
@@ -1252,7 +1252,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1651686034,false,"Support `popovertarget` on custom elements with `role=""button""` ",https://github.com/whatwg/html/issues/9110,2023-04-03T09:26:25Z,2024-06-18T05:09:42Z,jpzwarte,addition/proposal|topic: custom elements|topic: popover,3
 1651613244,false,`popovertarget` and shadow DOM,https://github.com/whatwg/html/issues/9109,2023-04-03T08:43:23Z,2024-05-11T12:07:04Z,jpzwarte,addition/proposal|topic: shadow|topic: popover,0
 1650378616,false,Add BoundingClientRectObserver,https://github.com/whatwg/html/issues/9104,2023-04-01T09:09:22Z,2025-05-30T11:35:17Z,cubuspl42,addition/proposal|needs implementer interest,9
-1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2025-05-14T18:43:37Z,Gambloide,addition/proposal|needs implementer interest|topic: forms|needs compat analysis,13
+1650150293,false,<textarea> should support the [pattern] attribute like the <input> element,https://github.com/whatwg/html/issues/9102,2023-03-31T23:02:41Z,2025-09-21T12:28:22Z,Gambloide,addition/proposal|needs implementer interest|topic: forms|needs compat analysis,13
 1648832613,true,PDF version does not link to web version,https://github.com/whatwg/html/issues/9097,2023-03-31T07:32:24Z,2023-04-03T07:25:38Z,NicoleSharp,spec tooling,0
 1648366000,false,"typo ""The autofill field listed above indicate that t...""",https://github.com/whatwg/html/issues/9094,2023-03-30T21:43:18Z,2023-03-30T21:43:18Z,timelsass,,0
 1646524684,false,Early termination of navigation loading spinner on cross-document navigation,https://github.com/whatwg/html/issues/9090,2023-03-29T21:01:44Z,2023-05-11T00:25:52Z,tbondwilkinson,addition/proposal|topic: navigation,0
@@ -3660,7 +3660,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,198
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,199
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
@@ -4449,7 +4449,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 194134171,true,imageSmoothingQuality attribute description should mention valid values,https://github.com/whatwg/html/issues/2147,2016-12-07T18:48:52Z,2016-12-12T20:26:27Z,salty-horse,clarification|good first issue|topic: canvas,0
 194130836,true,Extra space in imageSmoothingQuality description,https://github.com/whatwg/html/issues/2146,2016-12-07T18:35:55Z,2016-12-08T09:11:52Z,salty-horse,good first issue,0
 194056774,false,"""allowed to use"" active document, browsing context container...",https://github.com/whatwg/html/issues/2143,2016-12-07T14:00:59Z,2020-11-19T15:44:17Z,zcorpan,topic: shadow|needs tests,0
-194033095,false,A way to stream content into an element,https://github.com/whatwg/html/issues/2142,2016-12-07T12:09:02Z,2025-08-07T15:33:14Z,jakearchibald,addition/proposal,34
+194033095,false,A way to stream content into an element,https://github.com/whatwg/html/issues/2142,2016-12-07T12:09:02Z,2025-08-07T15:33:14Z,jakearchibald,addition/proposal,35
 193989605,false,Blocked popup should not throw an exception,https://github.com/whatwg/html/issues/2141,2016-12-07T08:46:06Z,2018-09-01T11:17:30Z,zcorpan,normative change|needs tests,0
 193868767,false,Add a new version of requestAnimationFrame for use with OffscreenCanvas,https://github.com/whatwg/html/issues/2139,2016-12-06T19:55:21Z,2021-06-08T11:27:33Z,junov,topic: canvas,0
 193858040,true,"Editorial: ""that whose"" is not English",https://github.com/whatwg/html/issues/2138,2016-12-06T19:09:57Z,2016-12-28T20:13:33Z,bzbarsky,good first issue,0
