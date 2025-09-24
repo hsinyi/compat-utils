@@ -1,11 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3447004466,false,Declarative CSS Modules,https://github.com/whatwg/html/pull/11687,2025-09-24T00:00:42Z,2025-09-24T00:02:45Z,KurtCattiSchmidt,,0
+3449178913,false,"Add `NavigationTransition.to`, exposing the current navigate event's destination",https://github.com/whatwg/html/pull/11692,2025-09-24T12:14:44Z,2025-09-24T12:19:18Z,noamr,,0
+3448693145,false,Editorial: Cross-reference 'expected' in Rendering,https://github.com/whatwg/html/pull/11691,2025-09-24T10:09:23Z,2025-09-24T10:11:24Z,zcorpan,,0
+3447004466,false,Declarative CSS Modules,https://github.com/whatwg/html/pull/11687,2025-09-24T00:00:42Z,2025-09-24T02:20:52Z,KurtCattiSchmidt,,0
 3440906111,false,Add source to ToggleEventInit,https://github.com/whatwg/html/pull/11679,2025-09-22T13:06:20Z,2025-09-22T14:47:51Z,keithamus,topic: dialog|topic: popover,0
 3437289427,true,"Editorial: Fix markup, spelling, punctuation",https://github.com/whatwg/html/pull/11673,2025-09-20T16:27:02Z,2025-09-22T17:50:33Z,jmdyck,,0
 3437080571,true,Replace numeric character references with Unicode characters(fixes #3683),https://github.com/whatwg/html/pull/11672,2025-09-20T12:04:57Z,2025-09-20T13:01:37Z,sujay-for-tech-01,invalid,0
 3432312203,true,Fix bad variable references in speculation rules,https://github.com/whatwg/html/pull/11671,2025-09-19T00:56:59Z,2025-09-19T07:58:27Z,domenic,,0
 3422595862,true,feat: add note to suggest use CookieStore instead of document.cookie,https://github.com/whatwg/html/pull/11668,2025-09-16T14:42:06Z,2025-09-19T14:01:37Z,Chanran,,0
-3421907529,false,Editorial: extract NavigateEvent commit/cancel steps to standalone algorithms,https://github.com/whatwg/html/pull/11666,2025-09-16T11:43:18Z,2025-09-23T12:44:53Z,noamr,clarification|topic: navigation,0
+3421907529,true,Editorial: extract NavigateEvent commit/cancel steps to standalone algorithms,https://github.com/whatwg/html/pull/11666,2025-09-16T11:43:18Z,2025-09-24T07:04:05Z,noamr,clarification|topic: navigation,0
 3418839498,true,remove synchronous document.cookie api to avoid jank; use cookieStore…,https://github.com/whatwg/html/pull/11662,2025-09-15T17:21:33Z,2025-09-16T04:02:15Z,Chanran,,0
 3418551159,true,Editorial: clarify the xmlns notes by merging them,https://github.com/whatwg/html/pull/11660,2025-09-15T15:52:40Z,2025-09-16T05:21:26Z,annevk,,0
 3416642173,true,Editorial: correct spelling of style sheet,https://github.com/whatwg/html/pull/11659,2025-09-15T07:18:46Z,2025-09-15T11:22:22Z,annevk,,0
@@ -31,13 +33,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3372661973,true,Editorial: Fix punctuation + markup,https://github.com/whatwg/html/pull/11612,2025-09-01T13:15:14Z,2025-09-02T13:47:04Z,jmdyck,,0
 3366034851,true,Navigation API: pass precommitController to handler,https://github.com/whatwg/html/pull/11603,2025-08-29T08:47:59Z,2025-08-29T17:07:27Z,noamr,,0
 3362988058,true,Editorial: Clean up color conversion presentation in HTML canvas,https://github.com/whatwg/html/pull/11601,2025-08-28T11:38:23Z,2025-09-15T11:30:45Z,ccameron-chromium,clarification|topic: canvas,0
-3358169931,false,Add extended lifetime shared workers,https://github.com/whatwg/html/pull/11600,2025-08-27T06:29:57Z,2025-09-18T07:48:53Z,domenic,addition/proposal|do not merge yet|topic: workers,0
+3358169931,false,Add extended lifetime shared workers,https://github.com/whatwg/html/pull/11600,2025-08-27T06:29:57Z,2025-09-24T03:52:11Z,domenic,addition/proposal|do not merge yet|topic: workers,0
 3357835900,false,Further clarify worker lifetime relationships,https://github.com/whatwg/html/pull/11599,2025-08-27T03:00:54Z,2025-09-03T02:36:06Z,domenic,clarification|topic: workers,0
 3357822727,true,"Editorial: collapse ""actively needed"" and ""protected"" for workers",https://github.com/whatwg/html/pull/11598,2025-08-27T02:52:13Z,2025-08-27T02:54:13Z,domenic,clarification|topic: workers,0
 3356225711,false,"[FYI, not ready for review] Add globalHDRHeadroom to CanvasCompositing interface",https://github.com/whatwg/html/pull/11597,2025-08-26T15:51:38Z,2025-08-28T11:21:07Z,ccameron-chromium,,0
 3344286687,true,chore(css): normalize prefers-color-scheme spacing in styles.css,https://github.com/whatwg/html/pull/11591,2025-08-22T06:18:20Z,2025-08-22T06:32:55Z,ArjunSaluja,invalid,0
 3342044580,true,use integer over anb syntax for heading,https://github.com/whatwg/html/pull/11589,2025-08-21T14:47:23Z,2025-08-27T12:55:08Z,keithamus,,0
-3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2025-09-23T03:45:13Z,foolip,,0
+3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2025-09-23T03:45:13Z,foolip,,1
 3337110965,true,[meta] Add dfn type and scope for HTMLMediaElement.src,https://github.com/whatwg/html/pull/11581,2025-08-20T08:32:57Z,2025-08-21T00:28:09Z,dontcallmedom,,1
 3336967031,true,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation,0
 3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
@@ -80,7 +82,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3235057490,true,ahmedmeshref021@gmail.com,https://github.com/whatwg/html/pull/11458,2025-07-16T08:49:57Z,2025-07-16T08:58:15Z,Ahmedmeshref280,invalid,0
 3233410374,true,Prevent infinite loop in revealing algorithms,https://github.com/whatwg/html/pull/11457,2025-07-15T19:08:36Z,2025-08-11T19:24:57Z,josepharhar,,0
 3231668942,false,Introduce enumerated attribute reflection extended attributes,https://github.com/whatwg/html/pull/11455,2025-07-15T10:09:54Z,2025-07-31T15:58:23Z,lukewarlow,,0
-3230789302,false,Carry over sticky activation for same-origin navs and traversals,https://github.com/whatwg/html/pull/11454,2025-07-15T05:07:58Z,2025-09-22T10:20:19Z,domenic,addition/proposal|topic: user activation,0
+3230789302,false,Carry over sticky activation for same-origin navs and traversals,https://github.com/whatwg/html/pull/11454,2025-07-15T05:07:58Z,2025-09-24T06:57:35Z,domenic,addition/proposal|topic: user activation,0
 3230719017,true,Remove more XML-derived attribute name validation,https://github.com/whatwg/html/pull/11453,2025-07-15T04:28:48Z,2025-07-16T01:01:00Z,domenic,,1
 3229465049,true,Introduce attribute reflection extended attributes,https://github.com/whatwg/html/pull/11450,2025-07-14T17:19:54Z,2025-07-30T12:35:57Z,lukewarlow,,0
 3222567446,true,Editorial: add popover=hint in attribute summary table,https://github.com/whatwg/html/pull/11446,2025-07-11T11:29:54Z,2025-07-12T06:39:19Z,foolip,,0
@@ -102,7 +104,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3178652783,true,Editorial: use ThrowCompletion AO to create throw completions,https://github.com/whatwg/html/pull/11403,2025-06-26T10:34:27Z,2025-06-27T01:12:19Z,nicolo-ribaudo,,0
 3177669506,true,Clarify that disabled does not prevent all modifications,https://github.com/whatwg/html/pull/11401,2025-06-26T04:16:29Z,2025-06-29T03:15:30Z,domenic,clarification|topic: forms,0
 3176117994,true,Fix: Always set [[ErrorToRethrow]] for import validation errors,https://github.com/whatwg/html/pull/11398,2025-06-25T15:40:40Z,2025-06-26T07:31:57Z,nicolo-ribaudo,,0
-3164725213,false,Markup: Wrap algorithms in <div> tags,https://github.com/whatwg/html/pull/11392,2025-06-21T03:52:24Z,2025-09-23T21:17:38Z,jmdyck,,0
+3164725213,false,Markup: Wrap algorithms in <div> tags,https://github.com/whatwg/html/pull/11392,2025-06-21T03:52:24Z,2025-09-24T03:10:48Z,jmdyck,,0
 3158527853,true,"Editorial: Fix whitespace, punctuation, wording, markup",https://github.com/whatwg/html/pull/11387,2025-06-19T00:36:40Z,2025-06-24T10:14:17Z,jmdyck,,0
 3153280203,true,Discourage `document.writeln()` like `document.write()`,https://github.com/whatwg/html/pull/11384,2025-06-17T12:13:20Z,2025-06-22T17:31:26Z,caugner,,1
 3152891981,true,"Reword popover ""invoker"" terminology to ""control"" or ""source"" where appropriate.",https://github.com/whatwg/html/pull/11383,2025-06-17T10:03:49Z,2025-08-15T11:25:58Z,keithamus,editorial,0
@@ -114,7 +116,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3121032722,true,"[Editorial] Early hints: there is no ""pending"" document, only null.",https://github.com/whatwg/html/pull/11355,2025-06-05T12:28:44Z,2025-06-05T13:48:08Z,noamr,,0
 3113398673,false,Add UA style for contenteditable=plaintext-only,https://github.com/whatwg/html/pull/11351,2025-06-03T10:31:38Z,2025-06-03T11:09:30Z,zcorpan,,0
 3113286788,false,[DRAFT] Add the concept of an event source.,https://github.com/whatwg/html/pull/11349,2025-06-03T10:00:27Z,2025-06-05T11:36:57Z,alice,,0
-3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-08-03T20:52:27Z,alexpetros,addition/proposal|topic: forms,79
+3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-08-03T20:52:27Z,alexpetros,addition/proposal|topic: forms,80
 3101529448,false,Improve CommandEvent and ToggleEvent source retargeting,https://github.com/whatwg/html/pull/11345,2025-05-29T21:27:44Z,2025-08-28T03:29:27Z,josepharhar,,0
 3095959996,true,Revamp script element introduction and conformance,https://github.com/whatwg/html/pull/11341,2025-05-28T04:26:27Z,2025-05-29T05:07:03Z,domenic,clarification|document conformance|topic: script,0
 3094310657,true,Add jump functionality to Blue Robot canvas demo,https://github.com/whatwg/html/pull/11337,2025-05-27T15:14:55Z,2025-05-28T00:58:11Z,Ronitsabhaya75,invalid,0
