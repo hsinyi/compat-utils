@@ -1,6 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3445916090,false,Browsers don't agree with the incumbent settings handling for Promise reactions,https://github.com/whatwg/html/issues/11686,2025-09-23T16:17:54Z,2025-09-23T16:17:54Z,arai-a,,0
 3431044728,false,Meeting 29 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11670,2025-09-18T16:07:45Z,2025-09-18T16:07:45Z,mfreed7,,0
-3426719783,false,Coherent story for HTML-setting methods,https://github.com/whatwg/html/issues/11669,2025-09-17T15:08:01Z,2025-09-23T11:14:42Z,noamr,topic: parser,0
+3426719783,false,Coherent story for HTML-setting methods,https://github.com/whatwg/html/issues/11669,2025-09-17T15:08:01Z,2025-09-23T22:31:17Z,noamr,topic: parser,0
 3421532251,false,"Allow out-of-band text tracks to source kind, label, language from the text track format",https://github.com/whatwg/html/issues/11665,2025-09-16T10:17:26Z,2025-09-16T10:17:55Z,zcorpan,addition/proposal|topic: media,2
 3419489827,false,Upcoming WHATNOT meeting on 2025-09-18,https://github.com/whatwg/html/issues/11664,2025-09-15T20:56:20Z,2025-09-18T22:09:58Z,cwilso,agenda+,0
 3419256239,true,Closing Tag Option,https://github.com/whatwg/html/issues/11663,2025-09-15T19:39:38Z,2025-09-16T06:05:14Z,iwelch,addition/proposal|needs implementer interest,0
@@ -125,7 +126,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3177218684,true,Meeting 23 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11399,2025-06-25T23:19:59Z,2025-07-07T15:56:30Z,mfreed7,,0
 3175144621,false,"[mXSS] Consider making HTML parsing of `style`, `script`, `xmp` etc consistent between SVG, MathML, HTML",https://github.com/whatwg/html/issues/11397,2025-06-25T10:39:24Z,2025-06-26T01:56:34Z,zcorpan,topic: parser|needs compat analysis|security-tracker,0
 3175066946,true,"Warn against placing block-level elements like <div> inside <a> tag"" — What does it mean?",https://github.com/whatwg/html/issues/11396,2025-06-25T10:13:05Z,2025-06-25T11:27:54Z,mtechamit,,0
-3172995712,false,"Define optional normalization of full-width characters in <input type=""number"">",https://github.com/whatwg/html/issues/11395,2025-06-24T19:03:19Z,2025-09-19T16:43:06Z,kyouhei-horizumi,topic: forms|i18n-tracker|needs tests|i18n-jlreq|i18n-clreq,8
+3172995712,false,"Define optional normalization of full-width characters in <input type=""number"">",https://github.com/whatwg/html/issues/11395,2025-06-24T19:03:19Z,2025-09-23T16:03:53Z,kyouhei-horizumi,topic: forms|i18n-tracker|needs tests|i18n-jlreq|i18n-clreq,8
 3170966348,true,Avoid Using <div> Inside <a> – Violates HTML5 Semantics,https://github.com/whatwg/html/issues/11394,2025-06-24T08:34:14Z,2025-06-25T11:27:14Z,mtechamit,addition/proposal|needs implementer interest,0
 3169300806,false,should the script end tag steps abort earlier if the microtask checkpoint aborts the parser?,https://github.com/whatwg/html/issues/11393,2025-06-23T19:57:28Z,2025-06-24T15:30:10Z,dbaron,topic: parser,0
 3164537289,true,Script Execution Order and `body.className,https://github.com/whatwg/html/issues/11391,2025-06-20T23:26:26Z,2025-06-21T04:55:13Z,Imran-imtiaz48,,0
@@ -532,7 +533,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2555508180,true,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-10-30T05:36:43Z,domenic,normative change|topic: dialog|topic: popover,1
 2551969947,true,Upcoming WHATNOT meeting on 2024-10-03,https://github.com/whatwg/html/issues/10652,2024-09-27T04:30:41Z,2024-10-02T15:00:07Z,past,agenda+,0
 2551884785,false,Nested `contenteditable=true` and `contenteditable=plaintext-only` should win only the ourtermost one,https://github.com/whatwg/html/issues/10651,2024-09-27T02:53:27Z,2024-09-30T21:55:52Z,masayuki-nakano,needs tests|needs concrete proposal|topic: editing,0
-2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2025-09-18T15:52:12Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|stage: 1,0
+2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2025-09-23T13:53:57Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|stage: 1,1
 2549044519,true,Resolving  of transition and finished promises is mismatched between spec and tests,https://github.com/whatwg/html/issues/10646,2024-09-25T21:39:11Z,2024-09-30T10:14:17Z,rwlbuis,topic: navigation,0
 2544017899,true,"'reading-flow' and ""display: contents""",https://github.com/whatwg/html/issues/10643,2024-09-24T00:42:59Z,2024-09-24T16:09:09Z,tabatkins,topic: focus,0
 2543972242,false,tabindex vs reading-flow property,https://github.com/whatwg/html/issues/10642,2024-09-24T00:01:25Z,2025-03-12T17:10:41Z,tabatkins,topic: focus,3
@@ -3659,7 +3660,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,199
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,200
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
