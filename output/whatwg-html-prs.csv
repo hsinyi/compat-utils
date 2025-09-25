@@ -1,12 +1,16 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3451393569,false,"Editorial: relocate ""stopped parsing"" step for non-DOM documents",https://github.com/whatwg/html/pull/11698,2025-09-25T00:37:17Z,2025-09-25T00:37:17Z,domenic,clarification|topic: navigation|topic: frames/navigables/browsing contexts,0
+3453033895,false,use script's baseurl for cssstylesheets,https://github.com/whatwg/html/pull/11706,2025-09-25T10:37:56Z,2025-09-25T10:54:41Z,keithamus,,0
+3452676553,true,Fix var highlighting on multipage,https://github.com/whatwg/html/pull/11705,2025-09-25T09:00:41Z,2025-09-25T10:00:17Z,lukewarlow,,1
+3452356791,true,Meta: mark up a couple more algorithms,https://github.com/whatwg/html/pull/11704,2025-09-25T07:43:10Z,2025-09-25T11:21:16Z,domenic,,0
+3451958776,false,Refresh to a javascript: URL should not work,https://github.com/whatwg/html/pull/11700,2025-09-25T05:28:52Z,2025-09-25T12:05:05Z,annevk,,0
+3451393569,true,"Editorial: relocate ""stopped parsing"" step for non-DOM documents",https://github.com/whatwg/html/pull/11698,2025-09-25T00:37:17Z,2025-09-25T07:37:29Z,domenic,clarification|topic: navigation|topic: frames/navigables/browsing contexts,0
 3451051426,false,Add external <script type=speculationrules>,https://github.com/whatwg/html/pull/11697,2025-09-24T21:26:17Z,2025-09-24T21:35:39Z,vickiez,,0
 3449906788,false,use the afterRemoval steps to clean up implicit anchors,https://github.com/whatwg/html/pull/11695,2025-09-24T15:22:53Z,2025-09-24T16:04:00Z,keithamus,,0
-3449447529,false,reorder dialog attr changed steps so that cleanup steps always occur,https://github.com/whatwg/html/pull/11693,2025-09-24T13:26:59Z,2025-09-24T13:41:24Z,keithamus,,0
-3449178913,false,"Add `NavigationTransition.to`, exposing the current navigate event's destination",https://github.com/whatwg/html/pull/11692,2025-09-24T12:14:44Z,2025-09-25T00:16:34Z,noamr,,0
+3449447529,false,reorder dialog attr changed steps so that cleanup steps always occur,https://github.com/whatwg/html/pull/11693,2025-09-24T13:26:59Z,2025-09-25T10:02:03Z,keithamus,,0
+3449178913,false,"Add `NavigationTransition.to`, exposing the current navigate event's destination",https://github.com/whatwg/html/pull/11692,2025-09-24T12:14:44Z,2025-09-25T08:29:41Z,noamr,,0
 3448693145,false,Editorial: Cross-reference 'expected' in Rendering,https://github.com/whatwg/html/pull/11691,2025-09-24T10:09:23Z,2025-09-25T00:08:37Z,zcorpan,,0
 3447004466,false,Declarative CSS Modules,https://github.com/whatwg/html/pull/11687,2025-09-24T00:00:42Z,2025-09-24T22:08:29Z,KurtCattiSchmidt,,0
-3440906111,false,Add source to ToggleEventInit,https://github.com/whatwg/html/pull/11679,2025-09-22T13:06:20Z,2025-09-22T14:47:51Z,keithamus,topic: dialog|topic: popover,0
+3440906111,false,Add source to ToggleEventInit,https://github.com/whatwg/html/pull/11679,2025-09-22T13:06:20Z,2025-09-25T10:03:33Z,keithamus,topic: dialog|topic: popover,1
 3437289427,true,"Editorial: Fix markup, spelling, punctuation",https://github.com/whatwg/html/pull/11673,2025-09-20T16:27:02Z,2025-09-22T17:50:33Z,jmdyck,,0
 3437080571,true,Replace numeric character references with Unicode characters(fixes #3683),https://github.com/whatwg/html/pull/11672,2025-09-20T12:04:57Z,2025-09-20T13:01:37Z,sujay-for-tech-01,invalid,0
 3432312203,true,Fix bad variable references in speculation rules,https://github.com/whatwg/html/pull/11671,2025-09-19T00:56:59Z,2025-09-19T07:58:27Z,domenic,,0
@@ -82,7 +86,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3247661850,true,Review Draft Publication: July 2025,https://github.com/whatwg/html/pull/11471,2025-07-21T08:15:31Z,2025-07-21T09:10:32Z,annevk,,0
 3246282630,true,Updated 404.html,https://github.com/whatwg/html/pull/11469,2025-07-20T11:29:58Z,2025-07-21T06:13:06Z,sakshimuttha578,invalid,0
 3244187479,true,Add examples for customizable select,https://github.com/whatwg/html/pull/11465,2025-07-18T19:31:11Z,2025-07-24T02:00:49Z,josepharhar,topic: select,0
-3237039065,false,Change definition of select element list box and drop-down box rendering,https://github.com/whatwg/html/pull/11460,2025-07-16T19:03:00Z,2025-09-22T18:36:00Z,josepharhar,topic: select,1
+3237039065,false,Change definition of select element list box and drop-down box rendering,https://github.com/whatwg/html/pull/11460,2025-07-16T19:03:00Z,2025-09-25T11:07:10Z,josepharhar,topic: select,1
 3235057490,true,ahmedmeshref021@gmail.com,https://github.com/whatwg/html/pull/11458,2025-07-16T08:49:57Z,2025-07-16T08:58:15Z,Ahmedmeshref280,invalid,0
 3233410374,true,Prevent infinite loop in revealing algorithms,https://github.com/whatwg/html/pull/11457,2025-07-15T19:08:36Z,2025-08-11T19:24:57Z,josepharhar,,0
 3231668942,false,Introduce enumerated attribute reflection extended attributes,https://github.com/whatwg/html/pull/11455,2025-07-15T10:09:54Z,2025-07-31T15:58:23Z,lukewarlow,,0
@@ -108,7 +112,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3178652783,true,Editorial: use ThrowCompletion AO to create throw completions,https://github.com/whatwg/html/pull/11403,2025-06-26T10:34:27Z,2025-06-27T01:12:19Z,nicolo-ribaudo,,0
 3177669506,true,Clarify that disabled does not prevent all modifications,https://github.com/whatwg/html/pull/11401,2025-06-26T04:16:29Z,2025-06-29T03:15:30Z,domenic,clarification|topic: forms,0
 3176117994,true,Fix: Always set [[ErrorToRethrow]] for import validation errors,https://github.com/whatwg/html/pull/11398,2025-06-25T15:40:40Z,2025-06-26T07:31:57Z,nicolo-ribaudo,,0
-3164725213,false,Markup: Wrap algorithms in <div> tags,https://github.com/whatwg/html/pull/11392,2025-06-21T03:52:24Z,2025-09-25T00:41:57Z,jmdyck,,0
+3164725213,true,Markup: Wrap algorithms in <div> tags,https://github.com/whatwg/html/pull/11392,2025-06-21T03:52:24Z,2025-09-25T07:33:02Z,jmdyck,,0
 3158527853,true,"Editorial: Fix whitespace, punctuation, wording, markup",https://github.com/whatwg/html/pull/11387,2025-06-19T00:36:40Z,2025-06-24T10:14:17Z,jmdyck,,0
 3153280203,true,Discourage `document.writeln()` like `document.write()`,https://github.com/whatwg/html/pull/11384,2025-06-17T12:13:20Z,2025-06-22T17:31:26Z,caugner,,1
 3152891981,true,"Reword popover ""invoker"" terminology to ""control"" or ""source"" where appropriate.",https://github.com/whatwg/html/pull/11383,2025-06-17T10:03:49Z,2025-08-15T11:25:58Z,keithamus,editorial,0
