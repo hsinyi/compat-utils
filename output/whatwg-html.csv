@@ -1,11 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3458986524,false,Upcoming WHATNOT meeting on 2025-10-02,https://github.com/whatwg/html/issues/11717,2025-09-26T20:13:51Z,2025-09-26T20:13:51Z,cwilso,agenda+,0
+3458474902,false,Navigation API: deferring scroll until intercept promise settles,https://github.com/whatwg/html/issues/11716,2025-09-26T17:24:21Z,2025-09-26T17:24:21Z,keithamus,,0
+3457906418,false,`error` parameter of #abort-the-ongoing-navigation is not passed to #abort-a-navigateevent,https://github.com/whatwg/html/issues/11715,2025-09-26T14:28:11Z,2025-09-26T14:30:18Z,avandolder,topic: navigation,0
 3457203008,false,"#reload synchronously fires a navigate event, triggering asserts",https://github.com/whatwg/html/issues/11714,2025-09-26T11:41:55Z,2025-09-26T12:00:25Z,farre,topic: navigation,0
 3454212770,false,WHATUP at TPAC 2025: agenda suggestions,https://github.com/whatwg/html/issues/11711,2025-09-25T15:49:53Z,2025-09-25T15:49:53Z,cwilso,agenda+,0
 3453902217,true,targetNavigable is not defined in #navigate,https://github.com/whatwg/html/issues/11709,2025-09-25T14:28:27Z,2025-09-25T15:04:53Z,farre,topic: navigation,0
 3453294237,false,option element form IDL attribute works incorrectly,https://github.com/whatwg/html/issues/11708,2025-09-25T11:58:18Z,2025-09-25T11:58:18Z,annevk,topic: select,0
 3453290739,false,option element disabledness works incorrectly,https://github.com/whatwg/html/issues/11707,2025-09-25T11:57:06Z,2025-09-25T12:03:59Z,annevk,needs tests|topic: select,0
 3451734772,false,Browsers do not allow meta refresh to javascript: URLs,https://github.com/whatwg/html/issues/11699,2025-09-25T03:34:44Z,2025-09-25T11:47:20Z,domenic,topic: javascript: URLs,1
-3450628485,false,Upcoming WHATNOT meeting on 2025-09-25,https://github.com/whatwg/html/issues/11696,2025-09-24T19:19:01Z,2025-09-24T22:34:27Z,cwilso,agenda+,0
+3450628485,true,Upcoming WHATNOT meeting on 2025-09-25,https://github.com/whatwg/html/issues/11696,2025-09-24T19:19:01Z,2025-09-26T20:14:31Z,cwilso,,0
 3449544959,false,Popover: Implicit anchor element removed too early,https://github.com/whatwg/html/issues/11694,2025-09-24T13:50:57Z,2025-09-24T17:36:01Z,jakearchibald,topic: popover,0
 3448340951,false,Add `to` or `destination` to `NavigationTransition`,https://github.com/whatwg/html/issues/11690,2025-09-24T08:32:25Z,2025-09-24T11:40:39Z,noamr,addition/proposal|needs implementer interest|topic: navigation,0
 3448317187,true,"""expected native appearance"" is confusing given the definition of ""expected""",https://github.com/whatwg/html/issues/11689,2025-09-24T08:26:26Z,2025-09-25T14:23:03Z,zcorpan,clarification|topic: rendering,0
@@ -58,7 +61,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3337792182,true,XSLT removal will break multiple government and regulatory sites across the world,https://github.com/whatwg/html/issues/11582,2025-08-20T11:42:09Z,2025-08-23T03:39:49Z,dmitriid,,97
 3336746820,false,Navigation API: consolidate aborting code paths,https://github.com/whatwg/html/issues/11579,2025-08-20T06:32:06Z,2025-09-26T12:01:37Z,domenic,clarification|topic: navigation,1
 3334629769,false,Should the web platform adopt XSLT 3.0?,https://github.com/whatwg/html/issues/11578,2025-08-19T14:33:45Z,2025-08-26T18:45:30Z,tony-sull,addition/proposal|needs implementer interest,221
-3334246333,false,Proposal to add missing IDREF reflection IDL attributes,https://github.com/whatwg/html/issues/11577,2025-08-19T12:44:55Z,2025-09-15T18:57:58Z,lukewarlow,addition/proposal|needs implementer interest|agenda+,7
+3334246333,false,Proposal to add missing IDREF reflection IDL attributes,https://github.com/whatwg/html/issues/11577,2025-08-19T12:44:55Z,2025-09-26T20:06:16Z,lukewarlow,addition/proposal|needs implementer interest,7
 3323703355,true,Meeting 27 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11566,2025-08-14T21:58:26Z,2025-09-04T15:58:28Z,mfreed7,,1
 3323353832,false,toggle and beforetoggle events for the select element,https://github.com/whatwg/html/issues/11564,2025-08-14T19:28:16Z,2025-08-14T19:28:24Z,josepharhar,addition/proposal|needs implementer interest|topic: select,3
 3322974867,false,nav-stop does not seem to cancel planned form navigation,https://github.com/whatwg/html/issues/11562,2025-08-14T17:15:15Z,2025-08-25T09:47:29Z,gterzian,compat|topic: navigation,0
@@ -535,7 +538,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2025-06-12T00:09:23Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,true,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-11-15T04:41:04Z,tabatkins,integration|topic: popover,0
-2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-09-24T22:33:08Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|agenda+|stage: 1,1
+2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-09-26T20:06:49Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,1
 2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2024-11-07T17:14:43Z,emilio,topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2562416768,true,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-12T00:18:10Z,past,agenda+,0
@@ -2129,7 +2132,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 910338827,false,Support `<optgroup>` in `<datalist>`,https://github.com/whatwg/html/issues/6733,2021-06-03T10:10:20Z,2021-06-03T10:46:27Z,cawa-93,addition/proposal|needs implementer interest|topic: forms,25
 909451964,true,[SUGGESTION] Disabling developer tools,https://github.com/whatwg/html/issues/6732,2021-06-02T12:33:19Z,2021-06-02T19:53:26Z,drodil,,3
 909339015,false,Canvas textBaseline needs better tests,https://github.com/whatwg/html/issues/6731,2021-06-02T10:15:21Z,2024-12-05T06:36:54Z,AshleyScirra,topic: canvas|needs tests|interop,7
-909192951,true,[Suggestion] dialog element,https://github.com/whatwg/html/issues/6730,2021-06-02T07:11:15Z,2023-01-26T14:34:09Z,OmidHekayati,topic: dialog,6
+909192951,true,[Suggestion] dialog element,https://github.com/whatwg/html/issues/6730,2021-06-02T07:11:15Z,2023-01-26T14:34:09Z,OmidHekayati,topic: dialog,7
 908578515,true,When must the focusing steps be run?,https://github.com/whatwg/html/issues/6729,2021-06-01T18:34:20Z,2023-01-27T01:18:41Z,lpd-au,topic: focus,0
 904118620,true,Prefetching Documents,https://github.com/whatwg/html/issues/6723,2021-05-27T19:39:31Z,2025-03-12T11:07:06Z,jeffkaufman,topic: fetch|topic: resource hints (inc. preload),7
 901101841,true,It is fine to use `hidden` to hide tabpanels. The spec needs a correction.,https://github.com/whatwg/html/issues/6719,2021-05-25T17:06:05Z,2021-05-25T17:30:52Z,ianthedev,,0
