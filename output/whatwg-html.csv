@@ -1,13 +1,15 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3460652946,false,Collapsible `table` contents/rows  via `details`/`summary`,https://github.com/whatwg/html/issues/11718,2025-09-27T19:44:40Z,2025-09-29T09:40:26Z,brandonmcconnell,addition/proposal|needs implementer interest,0
+3466671369,false,"A way to remove EXIF data on `<input type=""file"">` before sending to server",https://github.com/whatwg/html/issues/11724,2025-09-29T21:25:06Z,2025-09-29T21:25:28Z,KonnorRogers,addition/proposal|needs implementer interest,2
+3465829063,false,"Add support for <meta name=""rating"" ...>",https://github.com/whatwg/html/issues/11722,2025-09-29T16:55:14Z,2025-09-29T21:44:30Z,bvandersloot-mozilla,addition/proposal|needs implementer interest|privacy-tracker,0
+3460652946,false,Collapsible `table` contents/rows  via `details`/`summary`,https://github.com/whatwg/html/issues/11718,2025-09-27T19:44:40Z,2025-09-29T13:27:02Z,brandonmcconnell,addition/proposal|needs implementer interest,0
 3458986524,false,Upcoming WHATNOT meeting on 2025-10-02,https://github.com/whatwg/html/issues/11717,2025-09-26T20:13:51Z,2025-09-26T20:13:51Z,cwilso,agenda+,0
 3458474902,false,Navigation API: deferring scroll until intercept promise settles,https://github.com/whatwg/html/issues/11716,2025-09-26T17:24:21Z,2025-09-29T12:04:19Z,keithamus,,0
 3457906418,false,`error` parameter of #abort-the-ongoing-navigation is not passed to #abort-a-navigateevent,https://github.com/whatwg/html/issues/11715,2025-09-26T14:28:11Z,2025-09-29T10:30:43Z,avandolder,topic: navigation,0
 3457203008,false,"#reload synchronously fires a navigate event, triggering asserts",https://github.com/whatwg/html/issues/11714,2025-09-26T11:41:55Z,2025-09-26T12:00:25Z,farre,topic: navigation,0
 3454212770,false,WHATUP at TPAC 2025: agenda suggestions,https://github.com/whatwg/html/issues/11711,2025-09-25T15:49:53Z,2025-09-25T15:49:53Z,cwilso,agenda+,0
 3453902217,true,targetNavigable is not defined in #navigate,https://github.com/whatwg/html/issues/11709,2025-09-25T14:28:27Z,2025-09-25T15:04:53Z,farre,topic: navigation,0
-3453294237,false,option element form IDL attribute works incorrectly,https://github.com/whatwg/html/issues/11708,2025-09-25T11:58:18Z,2025-09-25T11:58:18Z,annevk,topic: select,0
-3453290739,false,option element disabledness works incorrectly,https://github.com/whatwg/html/issues/11707,2025-09-25T11:57:06Z,2025-09-25T12:03:59Z,annevk,needs tests|topic: select,0
+3453294237,false,option element form IDL attribute works incorrectly,https://github.com/whatwg/html/issues/11708,2025-09-25T11:58:18Z,2025-09-29T15:18:56Z,annevk,topic: select,0
+3453290739,false,option element disabledness works incorrectly,https://github.com/whatwg/html/issues/11707,2025-09-25T11:57:06Z,2025-09-29T15:45:59Z,annevk,needs tests|topic: select,0
 3451734772,false,Browsers do not allow meta refresh to javascript: URLs,https://github.com/whatwg/html/issues/11699,2025-09-25T03:34:44Z,2025-09-25T11:47:20Z,domenic,topic: javascript: URLs,1
 3450628485,true,Upcoming WHATNOT meeting on 2025-09-25,https://github.com/whatwg/html/issues/11696,2025-09-24T19:19:01Z,2025-09-26T20:14:31Z,cwilso,,0
 3449544959,false,Popover: Implicit anchor element removed too early,https://github.com/whatwg/html/issues/11694,2025-09-24T13:50:57Z,2025-09-24T17:36:01Z,jakearchibald,topic: popover,0
@@ -140,7 +142,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3177218684,true,Meeting 23 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11399,2025-06-25T23:19:59Z,2025-07-07T15:56:30Z,mfreed7,,0
 3175144621,false,"[mXSS] Consider making HTML parsing of `style`, `script`, `xmp` etc consistent between SVG, MathML, HTML",https://github.com/whatwg/html/issues/11397,2025-06-25T10:39:24Z,2025-06-26T01:56:34Z,zcorpan,topic: parser|needs compat analysis|security-tracker,0
 3175066946,true,"Warn against placing block-level elements like <div> inside <a> tag"" — What does it mean?",https://github.com/whatwg/html/issues/11396,2025-06-25T10:13:05Z,2025-06-25T11:27:54Z,mtechamit,,0
-3172995712,false,"Define optional normalization of full-width characters in <input type=""number"">",https://github.com/whatwg/html/issues/11395,2025-06-24T19:03:19Z,2025-09-23T16:03:53Z,kyouhei-horizumi,topic: forms|i18n-tracker|needs tests|i18n-jlreq|i18n-clreq,9
+3172995712,false,"Define optional normalization of full-width characters in <input type=""number"">",https://github.com/whatwg/html/issues/11395,2025-06-24T19:03:19Z,2025-09-23T16:03:53Z,kyouhei-horizumi,topic: forms|i18n-tracker|needs tests|i18n-jlreq|i18n-clreq,10
 3170966348,true,Avoid Using <div> Inside <a> – Violates HTML5 Semantics,https://github.com/whatwg/html/issues/11394,2025-06-24T08:34:14Z,2025-06-25T11:27:14Z,mtechamit,addition/proposal|needs implementer interest,0
 3169300806,false,should the script end tag steps abort earlier if the microtask checkpoint aborts the parser?,https://github.com/whatwg/html/issues/11393,2025-06-23T19:57:28Z,2025-09-25T11:42:06Z,dbaron,topic: parser,0
 3164537289,true,Script Execution Order and `body.className,https://github.com/whatwg/html/issues/11391,2025-06-20T23:26:26Z,2025-06-21T04:55:13Z,Imran-imtiaz48,,0
@@ -806,7 +808,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2209037814,true,"""create navigation params by fetching"" endless loop",https://github.com/whatwg/html/issues/10227,2024-03-26T18:40:29Z,2024-03-27T19:58:10Z,kalenikaliaksandr,topic: navigation,0
 2205752247,true,"Popover (popovertargetaction=""hide"") not work if I add attributes for SVG",https://github.com/whatwg/html/issues/10223,2024-03-25T13:19:49Z,2024-03-25T16:38:24Z,promocot,topic: popover,0
 2203081444,true,Should the UA stylesheet render li elements with markers if the li is not within a list?,https://github.com/whatwg/html/issues/10222,2024-03-22T18:32:45Z,2024-03-27T11:09:45Z,scottaohara,topic: rendering,0
-2202549680,false,Allow a custom element to act as a form,https://github.com/whatwg/html/issues/10220,2024-03-22T13:52:14Z,2025-02-12T11:28:04Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements|topic: forms,10
+2202549680,false,Allow a custom element to act as a form,https://github.com/whatwg/html/issues/10220,2024-03-22T13:52:14Z,2025-02-12T11:28:04Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements|topic: forms,11
 2202124851,false,Reflected IDL attributes of type FrozenArray<T>? don't create a FrozenArray,https://github.com/whatwg/html/issues/10219,2024-03-22T09:57:41Z,2025-04-14T10:31:29Z,petervanderbeken,integration|topic: reflect,0
 2200902686,false,Form not submitted warning message before unload,https://github.com/whatwg/html/issues/10218,2024-03-21T18:39:07Z,2024-04-29T12:22:27Z,keithamus,addition/proposal|needs implementer interest,0
 2198694825,false,Recommend against using the <q> element (or fix its behavior),https://github.com/whatwg/html/issues/10216,2024-03-20T22:28:50Z,2025-09-11T10:25:32Z,jyasskin,removal/deprecation|addition/proposal|needs implementer interest|document conformance,3
