@@ -1,10 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3471213469,false,Menu elements proposal,https://github.com/whatwg/html/issues/11729,2025-09-30T22:10:24Z,2025-09-30T22:21:37Z,domfarolino,addition/proposal|needs implementer interest|agenda+|stage: 0,0
+3470648855,false,`closedby` defaults refer to unspecified “Auto” state,https://github.com/whatwg/html/issues/11728,2025-09-30T18:43:55Z,2025-09-30T18:43:55Z,j9t,,0
 3468199894,false,"`rel=""icon""` requests do not fire since it doesn't translate to a valid preload destination",https://github.com/whatwg/html/issues/11726,2025-09-30T08:36:46Z,2025-09-30T08:59:43Z,TimvdLippe,,0
-3466671369,false,"A way to remove EXIF data on `<input type=""file"">` before sending to server",https://github.com/whatwg/html/issues/11724,2025-09-29T21:25:06Z,2025-09-30T09:44:03Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms,6
-3465829063,false,"Add support for <meta name=""rating"" ...>",https://github.com/whatwg/html/issues/11722,2025-09-29T16:55:14Z,2025-09-30T09:43:20Z,bvandersloot-mozilla,addition/proposal|needs implementer interest|privacy-tracker,0
+3466671369,false,"A way to remove EXIF data on `<input type=""file"">` before sending to server",https://github.com/whatwg/html/issues/11724,2025-09-29T21:25:06Z,2025-09-30T15:31:12Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms,8
+3465829063,false,"Add support for <meta name=""rating"" ...>",https://github.com/whatwg/html/issues/11722,2025-09-29T16:55:14Z,2025-09-30T14:16:03Z,bvandersloot-mozilla,addition/proposal|needs implementer interest|privacy-tracker,0
 3460652946,false,Collapsible `table` contents/rows  via `details`/`summary`,https://github.com/whatwg/html/issues/11718,2025-09-27T19:44:40Z,2025-09-30T09:35:06Z,brandonmcconnell,addition/proposal|needs implementer interest,0
 3458986524,false,Upcoming WHATNOT meeting on 2025-10-02,https://github.com/whatwg/html/issues/11717,2025-09-26T20:13:51Z,2025-09-26T20:13:51Z,cwilso,agenda+,0
-3458474902,false,Navigation API: deferring scroll until intercept promise settles,https://github.com/whatwg/html/issues/11716,2025-09-26T17:24:21Z,2025-09-29T12:04:19Z,keithamus,,0
+3458474902,false,Navigation API: deferring scroll until intercept promise settles,https://github.com/whatwg/html/issues/11716,2025-09-26T17:24:21Z,2025-09-30T13:27:46Z,keithamus,,0
 3457906418,false,`error` parameter of #abort-the-ongoing-navigation is not passed to #abort-a-navigateevent,https://github.com/whatwg/html/issues/11715,2025-09-26T14:28:11Z,2025-09-29T10:30:43Z,avandolder,topic: navigation,0
 3457203008,false,"#reload synchronously fires a navigate event, triggering asserts",https://github.com/whatwg/html/issues/11714,2025-09-26T11:41:55Z,2025-09-26T12:00:25Z,farre,topic: navigation,0
 3454212770,false,WHATUP at TPAC 2025: agenda suggestions,https://github.com/whatwg/html/issues/11711,2025-09-25T15:49:53Z,2025-09-25T15:49:53Z,cwilso,agenda+,0
@@ -17,7 +19,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3448340951,false,Add `to` or `destination` to `NavigationTransition`,https://github.com/whatwg/html/issues/11690,2025-09-24T08:32:25Z,2025-09-24T11:40:39Z,noamr,addition/proposal|needs implementer interest|topic: navigation,0
 3448317187,true,"""expected native appearance"" is confusing given the definition of ""expected""",https://github.com/whatwg/html/issues/11689,2025-09-24T08:26:26Z,2025-09-25T14:23:03Z,zcorpan,clarification|topic: rendering,0
 3445916090,false,Browsers don't agree with the incumbent settings handling for Promise reactions,https://github.com/whatwg/html/issues/11686,2025-09-23T16:17:54Z,2025-09-24T04:07:24Z,arai-a,normative change|topic: multiple globals,0
-3431044728,false,Meeting 29 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11670,2025-09-18T16:07:45Z,2025-09-18T16:07:45Z,mfreed7,,0
+3431044728,false,Meeting 29 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11670,2025-09-18T16:07:45Z,2025-09-30T21:55:46Z,mfreed7,,0
 3426719783,false,Coherent story for HTML-setting methods,https://github.com/whatwg/html/issues/11669,2025-09-17T15:08:01Z,2025-09-30T08:15:16Z,noamr,topic: parser|agenda+,0
 3421532251,false,"Allow out-of-band text tracks to source kind, label, language from the text track format",https://github.com/whatwg/html/issues/11665,2025-09-16T10:17:26Z,2025-09-16T10:17:55Z,zcorpan,addition/proposal|topic: media,2
 3419489827,true,Upcoming WHATNOT meeting on 2025-09-18,https://github.com/whatwg/html/issues/11664,2025-09-15T20:56:20Z,2025-09-24T20:04:09Z,cwilso,,0
@@ -77,7 +79,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3309950964,true,LLMs Meta Tags Standard,https://github.com/whatwg/html/issues/11548,2025-08-11T13:02:49Z,2025-08-11T16:30:30Z,rafaelp,addition/proposal|needs implementer interest,0
 3308378580,false,`PromiseRejectionError` constructor behavior differs by implementation,https://github.com/whatwg/html/issues/11547,2025-08-11T04:06:26Z,2025-08-11T09:12:06Z,petamoriken,needs tests,0
 3308003149,false,Allow `fieldset` to be a CSS subgrid,https://github.com/whatwg/html/issues/11546,2025-08-10T21:46:40Z,2025-08-11T23:42:34Z,kirk-loretz-fsn,addition/proposal|needs implementer interest|topic: fieldset,0
-3299845424,false,"Out of order HTML streaming (""patching"")",https://github.com/whatwg/html/issues/11542,2025-08-07T10:03:34Z,2025-09-30T10:18:45Z,noamr,addition/proposal|topic: parser|agenda+|stage: 1,1
+3299845424,false,"Out of order HTML streaming (""patching"")",https://github.com/whatwg/html/issues/11542,2025-08-07T10:03:34Z,2025-09-30T14:48:41Z,noamr,addition/proposal|topic: parser|agenda+|stage: 1,1
 3299685743,true,Upcoming WHATNOT meeting on 2025-08-14,https://github.com/whatwg/html/issues/11541,2025-08-07T09:12:30Z,2025-09-11T10:01:57Z,annevk,,0
 3297402544,false,"""rules for parsing a list of dimensions"" should clarify behavior for large numeric values",https://github.com/whatwg/html/issues/11539,2025-08-06T16:58:06Z,2025-08-15T11:54:18Z,weinig,,0
 3296458731,false,"Proposal: New HTML attributes mustcontain, requiredchars, and preset for simplified form validation",https://github.com/whatwg/html/issues/11538,2025-08-06T12:11:02Z,2025-08-13T14:30:30Z,sanketbhuite,addition/proposal|needs implementer interest,1
@@ -542,7 +544,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2025-06-12T00:09:23Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,true,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-11-15T04:41:04Z,tabatkins,integration|topic: popover,0
-2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-09-26T20:06:49Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,1
+2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-09-30T16:51:13Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,1
 2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2024-11-07T17:14:43Z,emilio,topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2562416768,true,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-12T00:18:10Z,past,agenda+,0
