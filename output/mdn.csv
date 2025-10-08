@@ -2990,7 +2990,7 @@ api/HTMLBodyElement/vLink,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org
 api/HTMLButtonElement,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#htmlbuttonelement,WHATWG
 api/HTMLButtonElement/checkValidity,,4,,4,,5,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-checkvalidity-dev,WHATWG
 api/HTMLButtonElement/command,,144,,135,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-command,WHATWG
-api/HTMLButtonElement/command/request-close,,preview,"[{""name"":""dom.element.commandfor.enabled"",""type"":""preference"",""value_to_set"":""true""}]",139,,preview,,true,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-request-close,WHATWG
+api/HTMLButtonElement/command/request-close,,144,,139,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-request-close,WHATWG
 api/HTMLButtonElement/commandForElement,,144,,135,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-commandforelement,WHATWG
 api/HTMLButtonElement/disabled,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fe-disabled,WHATWG
 api/HTMLButtonElement/form,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fae-form-dev,WHATWG
@@ -3134,7 +3134,7 @@ api/HTMLElement/outerText,,98,,1,,1.3,,false,true,false,https://html.spec.whatwg
 api/HTMLElement/popover,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#dom-popover,WHATWG
 api/HTMLElement/popover/hint,,,,133,,,,true,true,false,https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint,WHATWG
 api/HTMLElement/showPopover,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#dom-showpopover,WHATWG
-api/HTMLElement/showPopover/options_source_parameter,,141,,133,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-showpopoveroptions-source,WHATWG
+api/HTMLElement/showPopover/options_source_parameter,,144,,137,,26,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-showpopoveroptions-source,WHATWG
 api/HTMLElement/showPopover/options_source_parameter/implicit_anchor_reference,,141,,133,,,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#:~:text=Set%20element's%20implicit%20anchor%20element%20to%20invoker.,WHATWG
 api/HTMLElement/spellcheck,,2,,9,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-spellcheck-dev,WHATWG
 api/HTMLElement/style,,1,,1,,3,,false,true,false,https://drafts.csswg.org/cssom/#dom-elementcssinlinestyle-style,W3C
@@ -3144,8 +3144,8 @@ api/HTMLElement/title,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/mu
 api/HTMLElement/togglePopover,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#dom-togglepopover,WHATWG
 api/HTMLElement/togglePopover/force_parameter,,141,,116,,17,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-togglepopoveroptions-force,WHATWG
 api/HTMLElement/togglePopover/options_force_parameter,,141,,130,,18.4,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-togglepopoveroptions-force,WHATWG
-api/HTMLElement/togglePopover/options_source_parameter,,141,,133,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-showpopoveroptions-source,WHATWG
-api/HTMLElement/togglePopover/options_source_parameter/implicit_anchor_reference,,141,,133,,,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#:~:text=Set%20element's%20implicit%20anchor%20element%20to%20invoker.,WHATWG
+api/HTMLElement/togglePopover/options_source_parameter,,144,,137,,26,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-showpopoveroptions-source,WHATWG
+api/HTMLElement/togglePopover/options_source_parameter/implicit_anchor_reference,,,,133,,26,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#:~:text=Set%20element's%20implicit%20anchor%20element%20to%20invoker.,WHATWG
 api/HTMLElement/togglePopover/returns_boolean,,125,,116,,17,,false,true,false,,NONE
 api/HTMLElement/toggle_event,,49,,36,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-toggle,WHATWG
 api/HTMLElement/toggle_event/details_elements,,49,,36,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-toggle,WHATWG
@@ -3929,7 +3929,11 @@ api/IDBIndex,,16,,24,,8,,false,true,false,https://w3c.github.io/IndexedDB/#index
 api/IDBIndex/count,,10,,23,,8,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-count①,W3C
 api/IDBIndex/get,,10,,23,,8,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-get①,W3C
 api/IDBIndex/getAll,,44,,48,,10.1,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-getall①,W3C
+api/IDBIndex/getAll/object_parameter,,,,141,,,,true,true,false,https://w3c.github.io/IndexedDB/#dictdef-idbgetalloptions,W3C
+api/IDBIndex/getAll/object_parameter/direction,,,,141,,,,true,true,false,https://w3c.github.io/IndexedDB/#dom-idbgetalloptions-direction,W3C
 api/IDBIndex/getAllKeys,,44,,48,,10.1,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-getallkeys①,W3C
+api/IDBIndex/getAllKeys/object_parameter,,,,141,,,,true,true,false,https://w3c.github.io/IndexedDB/#dictdef-idbgetalloptions,W3C
+api/IDBIndex/getAllKeys/object_parameter/direction,,,,141,,,,true,true,false,https://w3c.github.io/IndexedDB/#dom-idbgetalloptions-direction,W3C
 api/IDBIndex/getAllRecords,,,,141,,,,true,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-getallrecords①,W3C
 api/IDBIndex/getKey,,10,,23,,8,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-getkey①,W3C
 api/IDBIndex/isAutoLocale,,43,"[{""name"":""dom.indexedDB.experimental"",""type"":""preference"",""value_to_set"":""true""}]",,,,,false,false,true,,NONE
@@ -3965,7 +3969,11 @@ api/IDBObjectStore/delete,,10,,23,,8,,false,true,false,https://w3c.github.io/Ind
 api/IDBObjectStore/deleteIndex,,10,,23,,8,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-deleteindex①,W3C
 api/IDBObjectStore/get,,10,,23,,8,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-get①,W3C
 api/IDBObjectStore/getAll,,44,,48,,10.1,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-getall①,W3C
+api/IDBObjectStore/getAll/object_parameter,,,,141,,,,true,true,false,https://w3c.github.io/IndexedDB/#dictdef-idbgetalloptions,W3C
+api/IDBObjectStore/getAll/object_parameter/direction,,,,141,,,,true,true,false,https://w3c.github.io/IndexedDB/#dom-idbgetalloptions-direction,W3C
 api/IDBObjectStore/getAllKeys,,44,,48,,10.1,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-getallkeys①,W3C
+api/IDBObjectStore/getAllKeys/object_parameter,,,,141,,,,true,true,false,https://w3c.github.io/IndexedDB/#dictdef-idbgetalloptions,W3C
+api/IDBObjectStore/getAllKeys/object_parameter/direction,,,,141,,,,true,true,false,https://w3c.github.io/IndexedDB/#dom-idbgetalloptions-direction,W3C
 api/IDBObjectStore/getAllRecords,,,,141,,,,true,true,false,https://w3c.github.io/IndexedDB/#dom-idbobjectstore-getallrecords,W3C
 api/IDBObjectStore/getKey,,51,,48,,10.1,,false,true,false,https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-getkey①,W3C
 api/IDBObjectStore/index,,10,,23,,8,,false,true,false,https://w3c.github.io/IndexedDB/#dom-idbobjectstore-index,W3C
@@ -5767,6 +5775,7 @@ api/PublicKeyCredential/toJSON,,119,,129,,18.4,,false,true,false,https://w3c.git
 api/PushEvent,,44,,42,,16,,false,true,false,https://w3c.github.io/push-api/#pushevent-interface,W3C
 api/PushEvent/PushEvent,,44,,42,,16,,false,true,false,https://w3c.github.io/push-api/#dom-pushevent-constructor,W3C
 api/PushEvent/data,,44,,50,,16,,false,true,false,https://w3c.github.io/push-api/#dom-pushevent-data,W3C
+api/PushEvent/notification,,,,,,18.4,,true,true,false,https://w3c.github.io/push-api/#dom-pushevent-notification,W3C
 api/PushManager,,44,,42,,16,,false,true,false,https://w3c.github.io/push-api/#pushmanager-interface,W3C
 api/PushManager/getSubscription,,44,,42,,16,,false,true,false,https://w3c.github.io/push-api/#dom-pushmanager-getsubscription,W3C
 api/PushManager/hasPermission,,44,,42,,,,false,false,true,,NONE
@@ -9017,6 +9026,7 @@ api/Window/postMessage/options_includeUserActivation_parameter,,,,72,,,,false,fa
 api/Window/postMessage/transfer_parameter,,20,,4,,5,,false,true,false,,NONE
 api/Window/print,,1,,1,,1.1,,false,true,false,https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#printing,WHATWG
 api/Window/prompt,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#dom-prompt-dev,WHATWG
+api/Window/pushManager,,,,,,18.4,,true,true,false,https://w3c.github.io/push-api/#dom-pushmanagerattribute-pushmanager,W3C
 api/Window/queryLocalFonts,,,,103,,,,true,true,false,https://wicg.github.io/local-font-access/#dom-window-querylocalfonts,W3CCG
 api/Window/rejectionhandled_event,,69,,49,,11,,false,true,false,https://html.spec.whatwg.org/multipage/webappapis.html#unhandled-promise-rejections,WHATWG
 api/Window/releaseEvents,,1,,1,,1,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-window-releaseevents,WHATWG
@@ -9558,13 +9568,13 @@ api/console/groupEnd_static,,9,,2,,4,,false,true,false,https://console.spec.what
 api/console/group_static,,9,,2,,4,,false,true,false,https://console.spec.whatwg.org/#group,WHATWG
 api/console/info_static,,4,,1,,3,,false,true,false,https://console.spec.whatwg.org/#info,WHATWG
 api/console/log_static,,4,,1,,3,,false,true,false,https://console.spec.whatwg.org/#log,WHATWG
-api/console/profileEnd_static,,16,,5,,4,,false,false,false,,NONE
-api/console/profile_static,,16,,5,,4,,false,false,false,,NONE
+api/console/profileEnd_static,,98,,5,,4,,false,false,false,,NONE
+api/console/profile_static,,98,,5,,4,,false,false,false,,NONE
 api/console/substitution_strings,,9,,1,,3,,false,true,false,,NONE
 api/console/table_static,,34,,27,,7,,false,true,false,https://console.spec.whatwg.org/#table,WHATWG
 api/console/timeEnd_static,,10,,2,,4,,false,true,false,https://console.spec.whatwg.org/#timeend,WHATWG
 api/console/timeLog_static,,62,,71,,13,,false,true,false,https://console.spec.whatwg.org/#timelog,WHATWG
-api/console/timeStamp_static,,39,,15,,6,,false,false,false,,NONE
+api/console/timeStamp_static,,98,,15,,6,,false,false,false,,NONE
 api/console/time_static,,10,,2,,4,,false,true,false,https://console.spec.whatwg.org/#time,WHATWG
 api/console/trace_static,,6,,2,,4,,false,true,false,https://console.spec.whatwg.org/#trace,WHATWG
 api/console/warn_static,,4,,1,,3,,false,true,false,https://console.spec.whatwg.org/#warn,WHATWG
@@ -10416,6 +10426,7 @@ css/properties/dominant-baseline/mathematical,,1,,1,,4,,false,true,false,https:/
 css/properties/dominant-baseline/middle,,1,,1,,4,,false,true,false,https://drafts.csswg.org/css-inline/#valdef-dominant-baseline-middle,W3C
 css/properties/dynamic-range-limit,,,,136,,26,,false,true,false,https://drafts.csswg.org/css-color-hdr/#the-dynamic-range-limit-property,W3C
 css/properties/dynamic-range-limit/constrained,,,,136,,,,true,true,false,https://drafts.csswg.org/css-color-hdr/#valdef-dynamic-range-limit-constrained,W3C
+css/properties/dynamic-range-limit/dynamic-range-limit-mix_values,,,,136,,,,true,true,false,https://drafts.csswg.org/css-color-hdr/#funcdef-dynamic-range-limit-mix,W3C
 css/properties/dynamic-range-limit/no-limit,,,,136,,26,,false,true,false,https://drafts.csswg.org/css-color-hdr/#valdef-dynamic-range-limit-no-limit,W3C
 css/properties/dynamic-range-limit/standard,,,,136,,26,,false,true,false,https://drafts.csswg.org/css-color-hdr/#valdef-dynamic-range-limit-standard,W3C
 css/properties/empty-cells,,1,,1,,1.2,,false,true,false,https://drafts.csswg.org/css2/#empty-cells,W3C
@@ -12081,6 +12092,7 @@ css/types/calc/color_component,,128,,119,,16.4,,false,true,false,,NONE
 css/types/calc/gradient_color_stops,,19,,19,,6,,false,true,false,,NONE
 css/types/calc/nested,,48,,51,,11,,false,true,false,,NONE
 css/types/calc/number_values,,48,,31,,6,,false,true,false,,NONE
+css/types/calc/typed_division_produces_unitless_number,,,,140,,26,,false,true,false,https://www.w3.org/TR/css-values-4/#calc-type-checking,W3C
 css/types/calc-keyword,,108,,99,,15.4,,false,true,false,https://drafts.csswg.org/css-values/#typedef-calc-keyword,W3C
 css/types/calc-keyword/NaN,,114,,99,,16,,false,true,false,,NONE
 css/types/calc-keyword/e,,108,,110,,15.4,,false,true,false,,NONE
@@ -12144,6 +12156,7 @@ css/types/counter,,1,,1,,3,,false,true,false,https://drafts.csswg.org/css-lists/
 css/types/counters,,1.5,,1,,3,,false,true,false,https://drafts.csswg.org/css-lists/#counter-functions,W3C
 css/types/dashed-function,,,,139,,,,true,true,false,https://drafts.csswg.org/css-mixins-1/#using-custom-functions,W3C
 css/types/dimension,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-values/#dimensions,W3C
+css/types/dynamic-range-limit-mix,,,,136,,,,true,true,false,https://drafts.csswg.org/css-color-hdr/#funcdef-dynamic-range-limit-mix,W3C
 css/types/easing-function,,4,,4,,3.1,,false,true,false,https://drafts.csswg.org/css-easing/#easing-functions,W3C
 css/types/easing-function/cubic-bezier,,4,,16,,6,,false,true,false,https://drafts.csswg.org/css-easing/#cubic-bezier-easing-functions,W3C
 css/types/easing-function/linear-function,,112,,113,,17.2,,false,true,false,https://drafts.csswg.org/css-easing/#the-linear-easing-function,W3C
@@ -12295,6 +12308,7 @@ css/types/shape/rect,,1,,1,,1.3,,false,true,true,,NONE
 css/types/sibling-count,,,,138,,,,true,true,false,https://drafts.csswg.org/css-values-5/#funcdef-sibling-count,W3C
 css/types/sibling-index,,,,138,,,,true,true,false,https://drafts.csswg.org/css-values-5/#funcdef-sibling-index,W3C
 css/types/sign,,118,,138,,15.4,,false,true,false,https://drafts.csswg.org/css-values/#sign-funcs,W3C
+css/types/sign/typed_division_produces_unitless_number,,,,140,,26,,false,true,false,https://www.w3.org/TR/css-values-4/#calc-type-checking,W3C
 css/types/sin,,108,,111,,15.4,,false,true,false,https://drafts.csswg.org/css-values/#trig-funcs,W3C
 css/types/sqrt,,118,,120,,15.4,,false,true,false,https://drafts.csswg.org/css-values/#exponent-funcs,W3C
 css/types/string,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-values/#strings,W3C
@@ -13183,12 +13197,12 @@ http/headers/Content-Security-Policy/prefetch-src,,,,,,16.3,,false,false,true,,N
 http/headers/Content-Security-Policy/report-sample,,63,,59,,15.4,,false,true,false,,NONE
 http/headers/Content-Security-Policy/report-to,,130,"[{""name"":""dom.reporting.enabled"",""type"":""preference"",""value_to_set"":""true""}]",70,,16.4,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-report-to,W3C
 http/headers/Content-Security-Policy/report-uri,,23,,25,,7,,false,true,true,https://w3c.github.io/webappsec-csp/#directive-report-uri,W3C
-http/headers/Content-Security-Policy/require-trusted-types-for,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,preview,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#require-trusted-types-for-csp-directive,W3C
+http/headers/Content-Security-Policy/require-trusted-types-for,,135,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,26,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#require-trusted-types-for-csp-directive,W3C
 http/headers/Content-Security-Policy/sandbox,,50,,25,,7,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-sandbox,W3C
 http/headers/Content-Security-Policy/script-src,,23,,25,,7,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-script-src,W3C
 http/headers/Content-Security-Policy/script-src/external_scripts,,116,,59,,15.6,,false,true,false,https://w3c.github.io/webappsec-csp/#external-hash,W3C
 http/headers/Content-Security-Policy/script-src/inline-speculation-rules,,,,110,,,,true,true,false,,NONE
-http/headers/Content-Security-Policy/script-src/trusted-types-eval,,,,,,26,,true,true,false,https://w3c.github.io/webappsec-csp/#grammardef-trusted-types-eval,W3C
+http/headers/Content-Security-Policy/script-src/trusted-types-eval,,144,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,26,,true,true,false,https://w3c.github.io/webappsec-csp/#grammardef-trusted-types-eval,W3C
 http/headers/Content-Security-Policy/script-src/wasm-unsafe-eval,,102,,97,,16,,false,true,false,,NONE
 http/headers/Content-Security-Policy/script-src-attr,,108,,75,,15.4,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-script-src-attr,W3C
 http/headers/Content-Security-Policy/script-src-elem,,108,,75,,15.4,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-script-src-elem,W3C
@@ -13196,7 +13210,7 @@ http/headers/Content-Security-Policy/strict-dynamic,,52,,52,,15.4,,false,true,fa
 http/headers/Content-Security-Policy/style-src,,23,,25,,7,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-style-src,W3C
 http/headers/Content-Security-Policy/style-src-attr,,108,,75,,15.4,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-style-src-attr,W3C
 http/headers/Content-Security-Policy/style-src-elem,,108,,75,,15.4,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-style-src-elem,W3C
-http/headers/Content-Security-Policy/trusted-types,,138,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,preview,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#trusted-types-csp-directive,W3C
+http/headers/Content-Security-Policy/trusted-types,,138,"[{""name"":""dom.security.trusted_types.enabled"",""type"":""preference"",""value_to_set"":""true""}]",83,,26,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#trusted-types-csp-directive,W3C
 http/headers/Content-Security-Policy/unsafe-hashes,,109,,69,,15.4,,false,true,false,,NONE
 http/headers/Content-Security-Policy/upgrade-insecure-requests,,42,,43,,10.1,,false,true,false,https://w3c.github.io/webappsec-upgrade-insecure-requests/#delivery,W3C
 http/headers/Content-Security-Policy/worker-src,,58,,59,,15.5,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-worker-src,W3C
