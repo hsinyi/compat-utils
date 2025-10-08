@@ -1,7 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3493093695,false,Improve behavior for parsing option end tags,https://github.com/whatwg/html/pull/11764,2025-10-07T21:25:50Z,2025-10-07T21:27:29Z,josepharhar,,0
-3492979858,false,Editorial: split multi-<code> <pre>s into individual <pre><code>,https://github.com/whatwg/html/pull/11763,2025-10-07T20:46:12Z,2025-10-07T20:47:43Z,foolip,,0
-3492316993,false,Navigation API: retain upcoming method tracker as temporary variable,https://github.com/whatwg/html/pull/11762,2025-10-07T17:12:31Z,2025-10-07T17:14:05Z,noamr,,0
+3494102804,false,Navigation: Add optimization to ignore duplicate navigations,https://github.com/whatwg/html/pull/11765,2025-10-08T06:48:17Z,2025-10-08T06:56:49Z,llannasatoll,,0
+3493093695,false,Improve behavior for parsing option end tags,https://github.com/whatwg/html/pull/11764,2025-10-07T21:25:50Z,2025-10-07T21:27:29Z,josepharhar,,1
+3492979858,true,Editorial: split multi-<code> <pre>s into individual <pre><code>,https://github.com/whatwg/html/pull/11763,2025-10-07T20:46:12Z,2025-10-08T07:31:49Z,foolip,,0
+3492316993,false,Navigation API: retain upcoming method tracker as temporary variable,https://github.com/whatwg/html/pull/11762,2025-10-07T17:12:31Z,2025-10-08T09:23:40Z,noamr,,0
 3489512245,false,Define base appearance for list box select elements,https://github.com/whatwg/html/pull/11758,2025-10-07T00:07:43Z,2025-10-07T20:31:30Z,josepharhar,,0
 3488477586,false,"Remove incorrect usages of link options destination",https://github.com/whatwg/html/pull/11757,2025-10-06T18:13:13Z,2025-10-06T18:45:33Z,TimvdLippe,,0
 3484788647,false,Add id attribute to DOM clobbering note,https://github.com/whatwg/html/pull/11754,2025-10-05T13:03:10Z,2025-10-05T13:04:41Z,adi-ray,,0
@@ -12,8 +13,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3473184206,false,[Not for review yet] Add CanvasToneMapping to CanvasSettings,https://github.com/whatwg/html/pull/11734,2025-10-01T11:35:30Z,2025-10-01T11:37:04Z,ccameron-chromium,,0
 3468542329,true,"Clarify preload ""as"" processing",https://github.com/whatwg/html/pull/11727,2025-09-30T09:52:38Z,2025-10-06T06:38:02Z,noamr,,0
 3468172849,false,Consolidate navigation API abort paths,https://github.com/whatwg/html/pull/11725,2025-09-30T08:30:11Z,2025-10-06T15:48:56Z,noamr,,0
-3466650602,false,"[focusgroup] Early Draft to add the focusgroup attribute ",https://github.com/whatwg/html/pull/11723,2025-09-29T21:16:04Z,2025-10-07T23:27:35Z,janewman,,0
-3465600964,false,Make option disabledness look for ancestor optgroups,https://github.com/whatwg/html/pull/11721,2025-09-29T15:45:49Z,2025-10-07T20:33:46Z,josepharhar,,0
+3466650602,false,"[focusgroup] Early Draft to add the focusgroup attribute ",https://github.com/whatwg/html/pull/11723,2025-09-29T21:16:04Z,2025-10-08T04:02:28Z,janewman,,0
+3465600964,true,Make option disabledness look for ancestor optgroups,https://github.com/whatwg/html/pull/11721,2025-09-29T15:45:49Z,2025-10-08T08:10:50Z,josepharhar,,0
 3465492267,true,Make option.form use nearest ancestor select,https://github.com/whatwg/html/pull/11720,2025-09-29T15:18:42Z,2025-10-07T12:59:59Z,josepharhar,topic: select,0
 3464943763,false,Navigation API: Pass abort error as reason,https://github.com/whatwg/html/pull/11719,2025-09-29T13:05:43Z,2025-10-07T16:58:18Z,noamr,topic: navigation,0
 3454004838,true,Editorial: fix typo targetNavigable,https://github.com/whatwg/html/pull/11710,2025-09-25T14:51:32Z,2025-09-25T15:04:54Z,zcorpan,,0
@@ -27,7 +28,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3449447529,true,reorder dialog attr changed steps so that cleanup steps always occur,https://github.com/whatwg/html/pull/11693,2025-09-24T13:26:59Z,2025-10-01T08:46:58Z,keithamus,,0
 3449178913,false,"Add `NavigationTransition.to`, exposing the current navigate event's destination",https://github.com/whatwg/html/pull/11692,2025-09-24T12:14:44Z,2025-10-06T14:11:12Z,noamr,,0
 3448693145,true,Editorial: Cross-reference 'expected' in Rendering,https://github.com/whatwg/html/pull/11691,2025-09-24T10:09:23Z,2025-09-25T14:23:04Z,zcorpan,,0
-3447004466,false,Declarative CSS Modules,https://github.com/whatwg/html/pull/11687,2025-09-24T00:00:42Z,2025-10-08T00:06:20Z,KurtCattiSchmidt,,0
+3447004466,false,Declarative CSS Modules,https://github.com/whatwg/html/pull/11687,2025-09-24T00:00:42Z,2025-10-08T01:01:35Z,KurtCattiSchmidt,,0
 3440906111,true,Add source to ToggleEventInit,https://github.com/whatwg/html/pull/11679,2025-09-22T13:06:20Z,2025-09-30T09:12:09Z,keithamus,topic: dialog|topic: popover,1
 3437289427,true,"Editorial: Fix markup, spelling, punctuation",https://github.com/whatwg/html/pull/11673,2025-09-20T16:27:02Z,2025-09-22T17:50:33Z,jmdyck,,0
 3437080571,true,Replace numeric character references with Unicode characters(fixes #3683),https://github.com/whatwg/html/pull/11672,2025-09-20T12:04:57Z,2025-09-20T13:01:37Z,sujay-for-tech-01,invalid,0
@@ -43,7 +44,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3403940616,false,Add lightning to the safelisted schemes list,https://github.com/whatwg/html/pull/11649,2025-09-10T21:05:12Z,2025-09-11T02:31:27Z,asoltys,addition/proposal|needs implementer interest|topic: custom protocols,0
 3400996058,true,Meta: note requested permanent anchors in the source,https://github.com/whatwg/html/pull/11647,2025-09-10T05:37:45Z,2025-09-18T08:25:21Z,domenic,,0
 3397194555,true,Account for User-Agent not starting with Mozilla/ in appVersion getter,https://github.com/whatwg/html/pull/11642,2025-09-09T08:12:47Z,2025-09-10T05:17:39Z,annevk,,0
-3395519394,false,Source reformatting: switch to no line-breaking,https://github.com/whatwg/html/pull/11640,2025-09-08T20:01:36Z,2025-10-07T11:27:30Z,zcorpan,spec tooling,0
+3395519394,false,Source reformatting: switch to no line-breaking,https://github.com/whatwg/html/pull/11640,2025-09-08T20:01:36Z,2025-10-08T08:37:57Z,zcorpan,spec tooling,0
 3394917792,true,Remove improper dialog assert,https://github.com/whatwg/html/pull/11638,2025-09-08T16:40:21Z,2025-09-09T02:14:11Z,keithamus,topic: dialog|topic: close watchers,0
 3394359716,true,Create likhitha-contribution.txt,https://github.com/whatwg/html/pull/11636,2025-09-08T13:59:47Z,2025-09-08T14:08:05Z,likhy1922-likhitha,invalid,0
 3392497021,true,Editorial: make serialize/parse roundtrip examples linkable,https://github.com/whatwg/html/pull/11635,2025-09-08T04:02:30Z,2025-09-08T13:45:49Z,domenic,topic: parser,0
@@ -69,7 +70,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3337110965,true,[meta] Add dfn type and scope for HTMLMediaElement.src,https://github.com/whatwg/html/pull/11581,2025-08-20T08:32:57Z,2025-08-21T00:28:09Z,dontcallmedom,,1
 3336967031,true,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation,0
 3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
-3331131522,false,[WebDriver BiDi] emulate network offline,https://github.com/whatwg/html/pull/11575,2025-08-18T15:16:42Z,2025-08-19T12:00:11Z,sadym-chromium,,0
+3331131522,false,[WebDriver BiDi] emulate network offline,https://github.com/whatwg/html/pull/11575,2025-08-18T15:16:42Z,2025-10-08T12:20:37Z,sadym-chromium,,0
 3327499382,true,mudei cord,https://github.com/whatwg/html/pull/11568,2025-08-16T18:00:25Z,2025-08-16T19:55:40Z,NicolasGimenezAlcalde,invalid,0
 3323021317,false,Remove mentions of XSLT from the html spec,https://github.com/whatwg/html/pull/11563,2025-08-14T17:27:01Z,2025-09-03T02:52:50Z,mfreed7,removal/deprecation,78
 3321823554,false,Redact ancestorOrigins using referrer policy,https://github.com/whatwg/html/pull/11560,2025-08-14T11:10:20Z,2025-10-02T08:26:10Z,zcorpan,agenda+,0
@@ -81,7 +82,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3291533405,false,Canvas2D: Add rec2100-linear to PredefinedColorSpace enum,https://github.com/whatwg/html/pull/11529,2025-08-05T04:38:31Z,2025-10-07T13:33:44Z,ccameron-chromium,addition/proposal|topic: canvas,0
 3290898664,true,Editorial: fix ending li tag,https://github.com/whatwg/html/pull/11528,2025-08-04T21:58:37Z,2025-08-05T06:20:42Z,josepharhar,,0
 3285874404,true,Add paragraph to hgroup children in indices table,https://github.com/whatwg/html/pull/11524,2025-08-02T12:03:48Z,2025-08-19T06:13:06Z,TrySound,document conformance,0
-3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-10-07T23:35:27Z,ffiori,agenda+,0
+3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-10-08T07:59:55Z,ffiori,agenda+,0
 3280953563,false,Imply [Reflect] when [ReflectRange] or [ReflectDefault] are used.,https://github.com/whatwg/html/pull/11518,2025-07-31T15:49:27Z,2025-08-26T15:59:08Z,lukewarlow,,0
 3280885144,true,Remove support ElementInternals reflection flag,https://github.com/whatwg/html/pull/11517,2025-07-31T15:27:38Z,2025-08-22T00:41:19Z,lukewarlow,,0
 3279388233,true,Editorial: clarify worker lifetime definitions,https://github.com/whatwg/html/pull/11515,2025-07-31T07:15:41Z,2025-08-19T05:43:54Z,domenic,clarification|topic: workers,0
