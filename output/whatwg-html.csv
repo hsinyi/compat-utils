@@ -110,10 +110,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3280455453,true,Support ElementInternals via IDL extended attribute reflection,https://github.com/whatwg/html/issues/11516,2025-07-31T13:20:11Z,2025-08-22T00:41:20Z,lukewarlow,topic: custom elements|topic: reflect,0
 3279050822,true,The <ol> type attribute doesn't clearly explain invalid/missing value defaults,https://github.com/whatwg/html/issues/11513,2025-07-31T04:01:28Z,2025-07-31T05:20:13Z,rahimabdi,,0
 3278131431,false,"Reword definition of [CEReactions] to not use ""we introduce""",https://github.com/whatwg/html/issues/11511,2025-07-30T18:51:03Z,2025-07-30T18:53:29Z,lukewarlow,editorial,1
-3278049049,false,Browsers disagree on whether/how CSS `:active` selector works on <area> elements.,https://github.com/whatwg/html/issues/11509,2025-07-30T18:16:38Z,2025-09-02T17:38:04Z,Psychpsyo,,0
+3278049049,false,Browsers disagree on whether/how CSS `:active` selector works on <area> elements.,https://github.com/whatwg/html/issues/11509,2025-07-30T18:16:38Z,2025-10-09T11:06:03Z,Psychpsyo,interop|topic: selectors,0
 3276560620,false,<area> element should responsively scale with its image(s),https://github.com/whatwg/html/issues/11507,2025-07-30T10:50:42Z,2025-07-30T13:04:22Z,Psychpsyo,needs implementer interest,0
 3276371329,true,Upcoming WHATNOT meeting on 2025-07-31,https://github.com/whatwg/html/issues/11506,2025-07-30T09:44:34Z,2025-08-04T16:19:39Z,cwilso,agenda+,0
-3276361965,false,Focusing of dead <area>s is wonky and non-compliant in browsers.,https://github.com/whatwg/html/issues/11505,2025-07-30T09:41:17Z,2025-07-30T09:42:07Z,Psychpsyo,,0
+3276361965,false,Focusing of dead <area>s is wonky and non-compliant in browsers.,https://github.com/whatwg/html/issues/11505,2025-07-30T09:41:17Z,2025-10-09T11:37:07Z,Psychpsyo,needs tests|topic: focus,0
 3273217528,false,New maxlength attribute for form inputs,https://github.com/whatwg/html/issues/11502,2025-07-29T11:15:06Z,2025-07-30T03:34:52Z,darvi-sh,addition/proposal|needs implementer interest|topic: forms,3
 3272359781,true,Don't allow the javascript: protocol in navigation.navigate(),https://github.com/whatwg/html/issues/11500,2025-07-29T06:51:40Z,2025-08-21T07:39:33Z,evilpie,topic: navigation|security/privacy,8
 3272293640,false,unexpected-solidus-in-tag incorrect for unquoted attribute values,https://github.com/whatwg/html/issues/11499,2025-07-29T06:29:13Z,2025-07-29T14:36:13Z,SArpnt,document conformance|topic: parser,0
@@ -127,8 +127,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3250174379,false,FormControlRange Interface,https://github.com/whatwg/html/issues/11478,2025-07-21T22:11:15Z,2025-10-06T20:36:36Z,t-andresre,addition/proposal|needs implementer interest|agenda+|stage: 1,0
 3249337860,false,Base appearance for list box select elements,https://github.com/whatwg/html/issues/11477,2025-07-21T16:42:21Z,2025-07-21T19:40:19Z,josepharhar,topic: select,0
 3249191419,true,Meeting 25 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11476,2025-07-21T15:55:43Z,2025-07-24T16:01:53Z,mfreed7,,0
-3245553588,false,`Link` header parsing too lenient according to RFC 8288,https://github.com/whatwg/html/issues/11468,2025-07-19T18:48:32Z,2025-07-21T06:26:26Z,TimvdLippe,,0
-3244234594,false,`Element.prototype.states` to expand `:state()` to all elements?,https://github.com/whatwg/html/issues/11466,2025-07-18T19:52:18Z,2025-07-22T00:58:38Z,LeaVerou,,4
+3245553588,false,`Link` header parsing too lenient according to RFC 8288,https://github.com/whatwg/html/issues/11468,2025-07-19T18:48:32Z,2025-10-09T11:41:40Z,TimvdLippe,integration,0
+3244234594,false,`Element.prototype.states` to expand `:state()` to all elements?,https://github.com/whatwg/html/issues/11466,2025-07-18T19:52:18Z,2025-10-09T11:45:28Z,LeaVerou,addition/proposal|needs implementer interest|topic: selectors,4
 3242529143,true,Upcoming WHATNOT meeting on 2025-07-24,https://github.com/whatwg/html/issues/11464,2025-07-18T09:14:56Z,2025-07-30T09:45:04Z,annevk,agenda+,0
 3240918378,false,Generalizing/fixing `<selectedcontent>` (`<use>` for HTML?),https://github.com/whatwg/html/issues/11463,2025-07-17T21:07:47Z,2025-07-21T16:08:41Z,LeaVerou,addition/proposal|topic: select,3
 3238950352,true,Custom Elements should have a way to declare focusability without sprouting an attribute or elements,https://github.com/whatwg/html/issues/11462,2025-07-17T10:03:13Z,2025-07-17T15:24:20Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: custom elements|topic: focus,0
@@ -375,7 +375,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2848664991,true,Add a deprecated meta tag option,https://github.com/whatwg/html/issues/11021,2025-02-12T15:52:31Z,2025-02-13T00:41:18Z,davidstraight,addition/proposal|needs implementer interest,1
 2846727802,false,SPA route alias caching,https://github.com/whatwg/html/issues/11020,2025-02-11T22:58:27Z,2025-02-11T22:58:27Z,dead-claudia,addition/proposal|needs implementer interest,0
 2846638990,false,Support fragment references in the `<link>` tag's `href` attribute,https://github.com/whatwg/html/issues/11019,2025-02-11T22:06:14Z,2025-07-15T22:40:25Z,KurtCattiSchmidt,topic: link|topic: style|stage: 1|needs incubation,3
-2845256157,false,innerText getter impact of customizable `select`,https://github.com/whatwg/html/issues/11017,2025-02-11T12:29:56Z,2025-02-12T07:15:48Z,zcorpan,topic: select,0
+2845256157,false,innerText getter impact of customizable `select`,https://github.com/whatwg/html/issues/11017,2025-02-11T12:29:56Z,2025-10-09T07:25:57Z,zcorpan,topic: select,0
 2843211409,false,"Set `ImageDataSettings` to have `colorSpace` default to `""srgb""`",https://github.com/whatwg/html/issues/11016,2025-02-10T17:56:23Z,2025-02-11T11:42:36Z,ccameron-chromium,topic: canvas,0
 2842338250,true,Use color channels or color components consistently throughout,https://github.com/whatwg/html/issues/11014,2025-02-10T12:58:44Z,2025-02-21T14:12:41Z,annevk,clarification,0
 2842327178,false,WheelEvent (or MouseEvent) should specify a device type,https://github.com/whatwg/html/issues/11013,2025-02-10T12:54:15Z,2025-02-10T12:56:07Z,faceless2,addition/proposal|needs implementer interest,0
@@ -1599,7 +1599,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1359478091,true,WebDriver extension for Custom Handlers,https://github.com/whatwg/html/issues/8251,2022-09-01T22:29:00Z,2023-01-11T03:06:08Z,javifernandez,addition/proposal|needs implementer interest|topic: custom protocols,0
 1359477025,true,Upcoming HTML standard issue triage meeting on 9/29/2022,https://github.com/whatwg/html/issues/8250,2022-09-01T22:27:30Z,2022-09-30T18:43:07Z,past,agenda+,0
 1358997781,true,Small nitpick bug: Missing closing tag in source,https://github.com/whatwg/html/issues/8249,2022-09-01T15:04:48Z,2022-09-05T02:51:13Z,amno1,,0
-1358356896,false,<option> element: why is its content restricted to Text?,https://github.com/whatwg/html/issues/8247,2022-09-01T07:04:57Z,2025-03-12T20:12:44Z,verdy-p,topic: forms|i18n-tracker|topic: select,0
+1358356896,true,<option> element: why is its content restricted to Text?,https://github.com/whatwg/html/issues/8247,2022-09-01T07:04:57Z,2025-10-09T07:21:51Z,verdy-p,topic: forms|i18n-tracker|topic: select,0
 1357135460,false,Clarification for two relevant-mutations.html subtests,https://github.com/whatwg/html/issues/8242,2022-08-31T10:29:49Z,2022-09-02T13:10:47Z,rwlbuis,clarification|topic: img,0
 1356854809,false,"Introducing ""container-query"" support on HTML level",https://github.com/whatwg/html/issues/8240,2022-08-31T06:29:01Z,2022-08-31T06:29:01Z,MajPay,,0
 1354884358,true,"`autocomplete` parsing steps have bugs if the field has ""webauthn""",https://github.com/whatwg/html/issues/8231,2022-08-29T21:19:22Z,2022-09-07T04:01:32Z,nsatragno,,0
@@ -2857,7 +2857,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 526936004,false,"Does the `meta http-equiv=""Content-Security-Policy""` tag allow lists of policies?",https://github.com/whatwg/html/issues/5102,2019-11-22T01:37:34Z,2020-03-23T15:10:10Z,bakkot,security/privacy|needs tests|interop|impacts documentation,0
 525147143,true,COEP and report-only mode,https://github.com/whatwg/html/issues/5100,2019-11-19T17:13:23Z,2020-03-18T05:18:17Z,yutakahirano,topic: cross-origin-embedder-policy,0
 524668024,false,Specify how scrolling works for form controls / widgets,https://github.com/whatwg/html/issues/5099,2019-11-18T22:54:15Z,2019-11-18T22:54:15Z,zcorpan,topic: forms|interop|integration,0
-524476023,false,Investigation requested for beforeprint/afterprint,https://github.com/whatwg/html/issues/5096,2019-11-18T16:27:09Z,2024-03-13T09:27:34Z,annevk,clarification|good first issue|needs tests,0
+524476023,false,Investigation requested for beforeprint/afterprint,https://github.com/whatwg/html/issues/5096,2019-11-18T16:27:09Z,2025-10-09T07:00:39Z,annevk,clarification|good first issue|needs tests,0
 524458731,true,getSVGDocument() and content document use slightly different security checks,https://github.com/whatwg/html/issues/5094,2019-11-18T15:58:38Z,2019-12-13T09:20:56Z,annevk,security/privacy,0
 523406009,true,For accessibility legend element should allow for headings h1-h6 in addition to phrasing content,https://github.com/whatwg/html/issues/5088,2019-11-15T11:04:51Z,2019-11-15T12:46:41Z,DavidMacDonald,document conformance|accessibility|impacts documentation,0
 523188827,true,Focusability of <video> and <audio> and possible spec gap,https://github.com/whatwg/html/issues/5087,2019-11-15T00:44:07Z,2020-05-11T18:33:05Z,matatk,clarification|topic: media|accessibility|topic: focus,0
