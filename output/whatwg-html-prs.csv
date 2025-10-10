@@ -5,7 +5,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3492979858,true,Editorial: split multi-<code> <pre>s into individual <pre><code>,https://github.com/whatwg/html/pull/11763,2025-10-07T20:46:12Z,2025-10-08T07:31:49Z,foolip,,0
 3492316993,false,Navigation API: retain upcoming method tracker as temporary variable,https://github.com/whatwg/html/pull/11762,2025-10-07T17:12:31Z,2025-10-08T12:55:35Z,noamr,,0
 3489512245,false,Define base appearance for list box select elements,https://github.com/whatwg/html/pull/11758,2025-10-07T00:07:43Z,2025-10-07T20:31:30Z,josepharhar,,0
-3488477586,false,"Remove incorrect usages of link options destination",https://github.com/whatwg/html/pull/11757,2025-10-06T18:13:13Z,2025-10-09T15:21:03Z,TimvdLippe,,0
+3488477586,true,"Remove incorrect usages of link options destination",https://github.com/whatwg/html/pull/11757,2025-10-06T18:13:13Z,2025-10-10T08:55:03Z,TimvdLippe,,0
 3484788647,false,Add id attribute to DOM clobbering note,https://github.com/whatwg/html/pull/11754,2025-10-05T13:03:10Z,2025-10-05T13:04:41Z,adi-ray,,0
 3482998078,true,Editorial: fix typo “nulll” should be “null”,https://github.com/whatwg/html/pull/11748,2025-10-04T00:54:17Z,2025-10-04T09:59:53Z,JinDX,,0
 3478824122,false,Integrate FormControlRange hooks into text controls (input/textarea),https://github.com/whatwg/html/pull/11741,2025-10-02T20:26:35Z,2025-10-09T15:28:02Z,stephanieyzhang,,0
@@ -45,7 +45,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3403940616,false,Add lightning to the safelisted schemes list,https://github.com/whatwg/html/pull/11649,2025-09-10T21:05:12Z,2025-09-11T02:31:27Z,asoltys,addition/proposal|needs implementer interest|topic: custom protocols,0
 3400996058,true,Meta: note requested permanent anchors in the source,https://github.com/whatwg/html/pull/11647,2025-09-10T05:37:45Z,2025-09-18T08:25:21Z,domenic,,0
 3397194555,true,Account for User-Agent not starting with Mozilla/ in appVersion getter,https://github.com/whatwg/html/pull/11642,2025-09-09T08:12:47Z,2025-09-10T05:17:39Z,annevk,,0
-3395519394,false,Source reformatting: switch to no line-breaking,https://github.com/whatwg/html/pull/11640,2025-09-08T20:01:36Z,2025-10-08T08:37:57Z,zcorpan,spec tooling,0
+3395519394,false,Source reformatting: switch to no line-breaking,https://github.com/whatwg/html/pull/11640,2025-09-08T20:01:36Z,2025-10-10T03:31:10Z,zcorpan,spec tooling,0
 3394917792,true,Remove improper dialog assert,https://github.com/whatwg/html/pull/11638,2025-09-08T16:40:21Z,2025-09-09T02:14:11Z,keithamus,topic: dialog|topic: close watchers,0
 3394359716,true,Create likhitha-contribution.txt,https://github.com/whatwg/html/pull/11636,2025-09-08T13:59:47Z,2025-09-08T14:08:05Z,likhy1922-likhitha,invalid,0
 3392497021,true,Editorial: make serialize/parse roundtrip examples linkable,https://github.com/whatwg/html/pull/11635,2025-09-08T04:02:30Z,2025-09-08T13:45:49Z,domenic,topic: parser,0
@@ -56,7 +56,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3387513853,true,"Clone integrity policy as part of ""clone a policy container""",https://github.com/whatwg/html/pull/11628,2025-09-05T13:10:46Z,2025-09-08T09:26:22Z,yoavweiss,topic: policy container,0
 3383145665,true,"Editorial: correctly mark up JS code with class=""js""",https://github.com/whatwg/html/pull/11624,2025-09-04T10:40:34Z,2025-09-06T13:33:13Z,foolip,,0
 3380980195,false,Added support for link rel=compression-dictionary,https://github.com/whatwg/html/pull/11620,2025-09-03T19:14:59Z,2025-09-08T07:10:54Z,pmeenan,,0
-3377123672,false,Define normalization of full-width numeric characters in <input type=number> user input,https://github.com/whatwg/html/pull/11616,2025-09-02T18:42:30Z,2025-10-06T16:09:20Z,kyouhei-horizumi,normative change|topic: forms|i18n-tracker|i18n-jlreq|i18n-clreq,1
+3377123672,false,Define normalization of full-width numeric characters in <input type=number> user input,https://github.com/whatwg/html/pull/11616,2025-09-02T18:42:30Z,2025-10-10T10:57:33Z,kyouhei-horizumi,normative change|topic: forms|i18n-tracker|i18n-jlreq|i18n-clreq,1
 3375698830,false,Run snapshot post-layout state steps in resizeObserver loop,https://github.com/whatwg/html/pull/11613,2025-09-02T11:54:25Z,2025-09-22T11:48:24Z,lilles,topic: rendering,0
 3372661973,true,Editorial: Fix punctuation + markup,https://github.com/whatwg/html/pull/11612,2025-09-01T13:15:14Z,2025-09-02T13:47:04Z,jmdyck,,0
 3366034851,true,Navigation API: pass precommitController to handler,https://github.com/whatwg/html/pull/11603,2025-08-29T08:47:59Z,2025-08-29T17:07:27Z,noamr,,0
@@ -71,9 +71,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3337110965,true,[meta] Add dfn type and scope for HTMLMediaElement.src,https://github.com/whatwg/html/pull/11581,2025-08-20T08:32:57Z,2025-08-21T00:28:09Z,dontcallmedom,,1
 3336967031,true,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation,0
 3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
-3331131522,false,[WebDriver BiDi] emulate network offline,https://github.com/whatwg/html/pull/11575,2025-08-18T15:16:42Z,2025-10-09T16:44:37Z,sadym-chromium,,0
+3331131522,false,[WebDriver BiDi] emulate network offline,https://github.com/whatwg/html/pull/11575,2025-08-18T15:16:42Z,2025-10-10T10:53:48Z,sadym-chromium,,0
 3327499382,true,mudei cord,https://github.com/whatwg/html/pull/11568,2025-08-16T18:00:25Z,2025-08-16T19:55:40Z,NicolasGimenezAlcalde,invalid,0
-3323021317,false,Remove mentions of XSLT from the html spec,https://github.com/whatwg/html/pull/11563,2025-08-14T17:27:01Z,2025-10-09T16:44:28Z,mfreed7,removal/deprecation,78
+3323021317,false,Remove mentions of XSLT from the html spec,https://github.com/whatwg/html/pull/11563,2025-08-14T17:27:01Z,2025-10-10T08:11:20Z,mfreed7,removal/deprecation,78
 3321823554,false,Redact ancestorOrigins using referrer policy,https://github.com/whatwg/html/pull/11560,2025-08-14T11:10:20Z,2025-10-08T13:40:06Z,zcorpan,agenda+,0
 3314237971,true,Remove rowspan=0 quirk,https://github.com/whatwg/html/pull/11551,2025-08-12T13:20:05Z,2025-08-14T07:16:55Z,zcorpan,,0
 3300979591,true,Remove connectedness check in script post-connection steps,https://github.com/whatwg/html/pull/11543,2025-08-07T15:31:03Z,2025-09-12T01:53:30Z,domfarolino,topic: script,0
