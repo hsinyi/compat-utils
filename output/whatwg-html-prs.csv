@@ -1,11 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3509799761,false,Calrify that image presentation is updated even when EXIF is invalid,https://github.com/whatwg/html/pull/11779,2025-10-13T12:06:57Z,2025-10-13T12:19:59Z,noamr,,0
+3509799761,true,Calrify that image presentation is updated even when EXIF is invalid,https://github.com/whatwg/html/pull/11779,2025-10-13T12:06:57Z,2025-10-13T17:13:14Z,noamr,,0
 3503172358,true,Fix variable name in option disabled algorithm,https://github.com/whatwg/html/pull/11772,2025-10-10T14:23:55Z,2025-10-10T15:11:03Z,josepharhar,,0
 3497617752,true,Update 404.html,https://github.com/whatwg/html/pull/11768,2025-10-09T04:43:22Z,2025-10-09T05:23:13Z,Stutiporwal1,invalid,0
 3494102804,false,Navigation: Add optimization to ignore duplicate navigations,https://github.com/whatwg/html/pull/11765,2025-10-08T06:48:17Z,2025-10-08T06:56:49Z,llannasatoll,,0
-3493093695,false,Improve behavior for parsing option end tags,https://github.com/whatwg/html/pull/11764,2025-10-07T21:25:50Z,2025-10-13T08:18:07Z,josepharhar,,1
+3493093695,true,Improve behavior for parsing option end tags,https://github.com/whatwg/html/pull/11764,2025-10-07T21:25:50Z,2025-10-13T17:15:39Z,josepharhar,,1
 3492979858,true,Editorial: split multi-<code> <pre>s into individual <pre><code>,https://github.com/whatwg/html/pull/11763,2025-10-07T20:46:12Z,2025-10-08T07:31:49Z,foolip,,0
-3492316993,false,Navigation API: retain upcoming method tracker as temporary variable,https://github.com/whatwg/html/pull/11762,2025-10-07T17:12:31Z,2025-10-13T12:10:07Z,noamr,,0
+3492316993,false,"Navigation API: pass argument instead of a global ""upcoming method tracker""",https://github.com/whatwg/html/pull/11762,2025-10-07T17:12:31Z,2025-10-13T19:21:51Z,noamr,,0
 3489512245,false,Define base appearance for list box select elements,https://github.com/whatwg/html/pull/11758,2025-10-07T00:07:43Z,2025-10-07T20:31:30Z,josepharhar,,0
 3488477586,true,"Remove incorrect usages of link options destination",https://github.com/whatwg/html/pull/11757,2025-10-06T18:13:13Z,2025-10-10T08:55:03Z,TimvdLippe,,0
 3484788647,false,Add id attribute to DOM clobbering note,https://github.com/whatwg/html/pull/11754,2025-10-05T13:03:10Z,2025-10-05T13:04:41Z,adi-ray,,0
@@ -75,11 +75,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
 3331131522,true,[WebDriver BiDi] emulate network offline,https://github.com/whatwg/html/pull/11575,2025-08-18T15:16:42Z,2025-10-10T16:20:36Z,sadym-chromium,,0
 3327499382,true,mudei cord,https://github.com/whatwg/html/pull/11568,2025-08-16T18:00:25Z,2025-08-16T19:55:40Z,NicolasGimenezAlcalde,invalid,0
-3323021317,false,Remove mentions of XSLT from the html spec,https://github.com/whatwg/html/pull/11563,2025-08-14T17:27:01Z,2025-10-13T11:17:16Z,mfreed7,removal/deprecation,78
-3321823554,false,Redact ancestorOrigins using referrer policy,https://github.com/whatwg/html/pull/11560,2025-08-14T11:10:20Z,2025-10-08T13:40:06Z,zcorpan,agenda+,0
+3323021317,false,Remove mentions of XSLT from the html spec,https://github.com/whatwg/html/pull/11563,2025-08-14T17:27:01Z,2025-10-13T16:10:10Z,mfreed7,removal/deprecation,78
+3321823554,false,Redact ancestorOrigins using referrer policy,https://github.com/whatwg/html/pull/11560,2025-08-14T11:10:20Z,2025-10-13T15:35:00Z,zcorpan,agenda+,0
 3314237971,true,Remove rowspan=0 quirk,https://github.com/whatwg/html/pull/11551,2025-08-12T13:20:05Z,2025-08-14T07:16:55Z,zcorpan,,0
 3300979591,true,Remove connectedness check in script post-connection steps,https://github.com/whatwg/html/pull/11543,2025-08-07T15:31:03Z,2025-09-12T01:53:30Z,domfarolino,topic: script,0
-3297579358,false,"Move `has cross-site ancestor` to the environment, from the ESO",https://github.com/whatwg/html/pull/11540,2025-08-06T18:03:22Z,2025-09-25T16:44:12Z,bvandersloot-mozilla,,0
+3297579358,false,"Move `has cross-site ancestor` to the environment, from the ESO",https://github.com/whatwg/html/pull/11540,2025-08-06T18:03:22Z,2025-10-13T14:20:35Z,bvandersloot-mozilla,,0
 3294412090,false,Change light dismiss to use click events,https://github.com/whatwg/html/pull/11536,2025-08-05T20:54:41Z,2025-09-03T20:32:56Z,josepharhar,,0
 3292278858,true,Don't allow the javascript: protocol in navigation.navigate(),https://github.com/whatwg/html/pull/11533,2025-08-05T09:16:45Z,2025-08-27T13:01:34Z,evilpie,normative change|topic: navigation,0
 3291533405,false,Canvas2D: Add rec2100-linear to PredefinedColorSpace enum,https://github.com/whatwg/html/pull/11529,2025-08-05T04:38:31Z,2025-10-07T13:33:44Z,ccameron-chromium,addition/proposal|topic: canvas,0
@@ -146,7 +146,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3121032722,true,"[Editorial] Early hints: there is no ""pending"" document, only null.",https://github.com/whatwg/html/pull/11355,2025-06-05T12:28:44Z,2025-06-05T13:48:08Z,noamr,,0
 3113398673,false,Add UA style for contenteditable=plaintext-only,https://github.com/whatwg/html/pull/11351,2025-06-03T10:31:38Z,2025-06-03T11:09:30Z,zcorpan,,0
 3113286788,false,[DRAFT] Add the concept of an event source.,https://github.com/whatwg/html/pull/11349,2025-06-03T10:00:27Z,2025-06-05T11:36:57Z,alice,,0
-3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-08-03T20:52:27Z,alexpetros,addition/proposal|topic: forms,80
+3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-08-03T20:52:27Z,alexpetros,addition/proposal|topic: forms,81
 3101529448,false,Improve CommandEvent and ToggleEvent source retargeting,https://github.com/whatwg/html/pull/11345,2025-05-29T21:27:44Z,2025-08-28T03:29:27Z,josepharhar,,0
 3095959996,true,Revamp script element introduction and conformance,https://github.com/whatwg/html/pull/11341,2025-05-28T04:26:27Z,2025-05-29T05:07:03Z,domenic,clarification|document conformance|topic: script,0
 3094310657,true,Add jump functionality to Blue Robot canvas demo,https://github.com/whatwg/html/pull/11337,2025-05-27T15:14:55Z,2025-05-28T00:58:11Z,Ronitsabhaya75,invalid,0
