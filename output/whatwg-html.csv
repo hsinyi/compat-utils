@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3518550064,false,Clarification on scope of event listener on element after adoption into different document,https://github.com/whatwg/html/issues/11795,2025-10-15T15:27:27Z,2025-10-15T15:27:27Z,TimvdLippe,,0
+3518528564,false,compare selector with tag name about case-sensitivity,https://github.com/whatwg/html/issues/11794,2025-10-15T15:21:41Z,2025-10-15T15:22:11Z,UnVuTWFu,,0
 3514885141,false,"""option element nearest ancestor select"" is wrong",https://github.com/whatwg/html/issues/11788,2025-10-14T17:35:40Z,2025-10-14T21:25:48Z,annevk,topic: select,0
 3514813265,false,make datalist an early return for the option insertion/removing steps,https://github.com/whatwg/html/issues/11787,2025-10-14T17:11:39Z,2025-10-14T21:27:49Z,annevk,normative change|topic: select,0
 3513130306,true,Define maximum dom tree depth behavior,https://github.com/whatwg/html/issues/11784,2025-10-14T09:33:02Z,2025-10-14T09:35:10Z,nicolo-ribaudo,,0
@@ -8,9 +10,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3509996026,false,Focus order of image map shapes (area) doesn't match implementations,https://github.com/whatwg/html/issues/11780,2025-10-13T13:03:19Z,2025-10-13T13:03:19Z,zcorpan,interop|topic: focus,0
 3509594080,false,`Document.parseHTMLUnsafe()` steps involved using `this` for the `TrustedTypes` integration but the method is static in the IDL,https://github.com/whatwg/html/issues/11778,2025-10-13T11:09:07Z,2025-10-14T16:42:33Z,tete17,,0
 3509589229,true,Prepare an image for presentation step 16 should always run,https://github.com/whatwg/html/issues/11777,2025-10-13T11:07:58Z,2025-10-13T17:13:15Z,zcorpan,clarification|topic: img,0
-3503937445,false,Media element is not considered to have ended playback if loop is enabled after reaching the end,https://github.com/whatwg/html/issues/11775,2025-10-10T17:52:03Z,2025-10-10T17:52:03Z,Zaggy1024,,0
-3503902111,false,Media elements can loop if they reach the end of media playback while paused,https://github.com/whatwg/html/issues/11774,2025-10-10T17:43:40Z,2025-10-10T17:43:40Z,Zaggy1024,,0
-3503867217,false,Media elements' seek steps do not set the official playback position before parallel steps begin,https://github.com/whatwg/html/issues/11773,2025-10-10T17:32:13Z,2025-10-14T23:18:10Z,Zaggy1024,,0
+3503937445,false,Media element is not considered to have ended playback if loop is enabled after reaching the end,https://github.com/whatwg/html/issues/11775,2025-10-10T17:52:03Z,2025-10-15T12:49:14Z,Zaggy1024,topic: media,0
+3503902111,false,Media elements can loop if they reach the end of media playback while paused,https://github.com/whatwg/html/issues/11774,2025-10-10T17:43:40Z,2025-10-15T18:31:23Z,Zaggy1024,topic: media,0
+3503867217,false,Media elements' seek steps do not set the official playback position before parallel steps begin,https://github.com/whatwg/html/issues/11773,2025-10-10T17:32:13Z,2025-10-15T18:25:55Z,Zaggy1024,topic: media,0
 3500855093,true,Clarify drag and drop pointer events,https://github.com/whatwg/html/issues/11771,2025-10-09T23:01:28Z,2025-10-10T11:12:18Z,sb3nder,topic: drag and drop,0
 3499677685,false,`:` character in custom element name,https://github.com/whatwg/html/issues/11770,2025-10-09T15:41:51Z,2025-10-10T11:06:01Z,iccir,topic: custom elements,0
 3499424598,false,"Image decode() algorithm without ""src"" and ""srcset"" attributes",https://github.com/whatwg/html/issues/11769,2025-10-09T14:26:42Z,2025-10-10T09:41:09Z,tharkum,topic: img,0
@@ -177,7 +179,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3177218684,true,Meeting 23 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11399,2025-06-25T23:19:59Z,2025-07-07T15:56:30Z,mfreed7,,0
 3175144621,false,"[mXSS] Consider making HTML parsing of `style`, `script`, `xmp` etc consistent between SVG, MathML, HTML",https://github.com/whatwg/html/issues/11397,2025-06-25T10:39:24Z,2025-06-26T01:56:34Z,zcorpan,topic: parser|needs compat analysis|security-tracker,0
 3175066946,true,"Warn against placing block-level elements like <div> inside <a> tag"" — What does it mean?",https://github.com/whatwg/html/issues/11396,2025-06-25T10:13:05Z,2025-06-25T11:27:54Z,mtechamit,,0
-3172995712,false,"Define optional normalization of full-width characters in <input type=""number"">",https://github.com/whatwg/html/issues/11395,2025-06-24T19:03:19Z,2025-10-14T01:02:26Z,kyouhei-horizumi,topic: forms|i18n-tracker|needs tests|i18n-jlreq|i18n-clreq,15
+3172995712,false,"Define optional normalization of full-width characters in <input type=""number"">",https://github.com/whatwg/html/issues/11395,2025-06-24T19:03:19Z,2025-10-16T00:19:05Z,kyouhei-horizumi,topic: forms|i18n-tracker|needs tests|i18n-jlreq|i18n-clreq,15
 3170966348,true,Avoid Using <div> Inside <a> – Violates HTML5 Semantics,https://github.com/whatwg/html/issues/11394,2025-06-24T08:34:14Z,2025-06-25T11:27:14Z,mtechamit,addition/proposal|needs implementer interest,0
 3169300806,false,should the script end tag steps abort earlier if the microtask checkpoint aborts the parser?,https://github.com/whatwg/html/issues/11393,2025-06-23T19:57:28Z,2025-09-25T11:42:06Z,dbaron,topic: parser,0
 3164537289,true,Script Execution Order and `body.className,https://github.com/whatwg/html/issues/11391,2025-06-20T23:26:26Z,2025-06-21T04:55:13Z,Imran-imtiaz48,,0
@@ -361,7 +363,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2874388234,false,Exposing the DOMParser API in Worker Contexts,https://github.com/whatwg/html/issues/11068,2025-02-24T09:50:37Z,2025-02-25T04:43:48Z,sqwr,addition/proposal|needs implementer interest,0
 2869703835,true,navigation API: resolve the finished promise,https://github.com/whatwg/html/issues/11064,2025-02-21T18:10:39Z,2025-02-26T07:45:51Z,atscott,clarification|topic: navigation,0
 2869493100,true,:host-context(my-el) inside a <my-el> custom element matches even for a standalone <my-el>,https://github.com/whatwg/html/issues/11063,2025-02-21T16:29:23Z,2025-02-24T17:27:51Z,franktopel,,0
-2867510954,false,Proposal: Customized built-in elements via `elementInternals.type`,https://github.com/whatwg/html/issues/11061,2025-02-20T23:34:14Z,2025-10-14T22:48:46Z,sanketj,addition/proposal|agenda+|stage: 1,16
+2867510954,false,Proposal: Customized built-in elements via `elementInternals.type`,https://github.com/whatwg/html/issues/11061,2025-02-20T23:34:14Z,2025-10-15T13:01:20Z,sanketj,addition/proposal|agenda+|stage: 1,16
 2867022774,false,"`responsePolicyContainer` in ""determine navigation params policy container"" should be cloned for consistency",https://github.com/whatwg/html/issues/11060,2025-02-20T18:58:05Z,2025-02-25T08:59:19Z,Lubrsi,topic: navigation|topic: policy container,0
 2866860480,true,Meeting 17 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11059,2025-02-20T17:41:25Z,2025-03-07T17:42:46Z,mfreed7,agenda+,0
 2866853950,false,Touchscreen behavior for the `interesttarget` attribute,https://github.com/whatwg/html/issues/11058,2025-02-20T17:38:14Z,2025-05-14T01:59:13Z,mfreed7,,0
@@ -576,7 +578,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2025-06-12T00:09:23Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,true,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-11-15T04:41:04Z,tabatkins,integration|topic: popover,0
-2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-10-15T07:45:32Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|agenda+|stage: 1,1
+2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2025-10-15T18:09:27Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|agenda+|stage: 1,1
 2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2024-11-07T17:14:43Z,emilio,topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2562416768,true,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-12T00:18:10Z,past,agenda+,0
@@ -887,7 +889,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2144668268,false,"align=""justify"" should align to start, not to left",https://github.com/whatwg/html/issues/10148,2024-02-20T15:38:05Z,2024-02-21T18:03:20Z,Loirooriol,topic: rendering|needs tests,0
 2143265229,false,UI Element Attribute,https://github.com/whatwg/html/issues/10146,2024-02-19T23:05:03Z,2024-04-17T11:33:27Z,MrMatthewLayton,addition/proposal|needs implementer interest,2
 2142919582,false,"Render-blocking: the definition of ""created by its node document's parser"" is a little bit vague",https://github.com/whatwg/html/issues/10145,2024-02-19T18:08:51Z,2024-03-14T22:55:05Z,cathiechen,topic: parser,0
-2141312881,false,Improve DX of element reference attributes by allowing relative references instead of only ids,https://github.com/whatwg/html/issues/10143,2024-02-19T01:30:10Z,2025-09-12T17:25:25Z,LeaVerou,addition/proposal|needs implementer interest|a11y-tracker,27
+2141312881,false,Improve DX of element reference attributes by allowing relative references instead of only ids,https://github.com/whatwg/html/issues/10143,2024-02-19T01:30:10Z,2025-09-12T17:25:25Z,LeaVerou,addition/proposal|needs implementer interest|a11y-tracker,28
 2141042150,false,"ImageBitmapRenderingContext: clarify behaviour with `premultiplyAlpha: ""none""` createImageBitmap option and canvas",https://github.com/whatwg/html/issues/10142,2024-02-18T15:27:58Z,2024-04-08T22:18:01Z,hybridherbst,topic: canvas,1
 2140571376,true,"Dark mode styling for ""yes"" table attributes is not ledgible",https://github.com/whatwg/html/issues/10141,2024-02-17T20:28:28Z,2024-03-05T02:47:14Z,ADKaster,spec tooling,0
 2137613348,true,Using multiple h1 tag in a page,https://github.com/whatwg/html/issues/10138,2024-02-15T23:28:03Z,2024-02-16T03:27:59Z,bhojpress,,0
@@ -1149,7 +1151,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1821261026,false,HTML Parser: confusion about  adoption agency algorithm,https://github.com/whatwg/html/issues/9559,2023-07-25T22:29:47Z,2023-10-01T15:37:56Z,stasoid,clarification|topic: parser,0
 1819321957,true,Evolving the HTML base tag further,https://github.com/whatwg/html/issues/9555,2023-07-25T00:13:44Z,2023-07-25T02:17:59Z,linuxguist,,0
 1817304169,true,"""This requirement is not a hard requirement, how...""",https://github.com/whatwg/html/issues/9553,2023-07-23T21:37:56Z,2023-07-25T18:23:27Z,Lanpun,,0
-1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2025-07-20T05:44:05Z,thany,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,30
+1813687586,false,Disabled dates for input type=date,https://github.com/whatwg/html/issues/9542,2023-07-20T10:42:52Z,2025-07-20T05:44:05Z,thany,addition/proposal|needs implementer interest|topic: forms|i18n-tracker,31
 1813664808,true,Considering event.waitUntil(promise) for async listeners,https://github.com/whatwg/html/issues/9540,2023-07-20T10:30:06Z,2024-06-12T17:00:22Z,WebReflection,,2
 1812387860,true,Consider making `=` in unquoted attribute values not a parse error,https://github.com/whatwg/html/issues/9536,2023-07-19T17:26:24Z,2023-08-18T08:47:13Z,tabatkins,document conformance,1
 1812006723,true,Environment settings objects used when fetching a module worker script graph are still wrong,https://github.com/whatwg/html/issues/9535,2023-07-19T13:53:30Z,2023-07-24T06:15:07Z,nicolo-ribaudo,topic: script,0
