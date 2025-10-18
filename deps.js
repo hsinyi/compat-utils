@@ -13,7 +13,6 @@ export const REPOS = [
   "whatwg/webidl",
   "whatwg/encoding",
   "w3c/editing",
-  "whatwg/notifications",
   "whatwg/fullscreen",
   "WICG/webcomponents",
   "w3c/pointerevents",
@@ -32,6 +31,16 @@ export const REPOS = [
   "w3c/beacon",
   "w3c/server-timing",
   "w3c/longtasks",
+  "whatwg/fs",
+  "w3c/IndexedDB",
+  "whatwg/notifications",
+  "w3c/geolocation",
+  "w3c/push-api",
+  "w3c/ServiceWorker",
+  "whatwg/streams",
+  "whatwg/storage",
+  "w3c/payment-request",
+  "w3c/FileAPI",
 ];
 
 import { configSync } from "https://deno.land/std@0.137.0/dotenv/mod.ts";
