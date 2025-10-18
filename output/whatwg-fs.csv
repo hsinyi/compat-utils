@@ -1,0 +1,97 @@
+id,closed,title,url,created_at,updated_at,user,labels,reactions
+3322683968,false,`FileSystemObserver` should support `Symbol.dispose`,https://github.com/whatwg/fs/issues/178,2025-08-14T15:42:48Z,2025-08-14T15:45:15Z,mitranim,addition/proposal|needs implementer interest,0
+3272219510,false,"Support ""write""  access mode",https://github.com/whatwg/fs/issues/175,2025-07-29T05:59:46Z,2025-09-30T12:39:33Z,mingyc,addition/proposal|needs implementer interest,0
+3253755967,true,Web IDL syntax error,https://github.com/whatwg/fs/issues/174,2025-07-22T18:59:20Z,2025-07-23T21:19:44Z,autokagami,,0
+3242153921,false,FileSystemWritableFileStream/write domintro contains the contain copypasta from FileSystemWritableFileStream/truncate,https://github.com/whatwg/fs/issues/173,2025-07-18T06:59:50Z,2025-07-18T06:59:50Z,annevk,,0
+2959966734,false,`FileSystemObserverObserveOptions` should have an option like `initialUpdate`,https://github.com/whatwg/fs/issues/170,2025-03-31T09:32:32Z,2025-03-31T09:32:32Z,htho,,0
+2959924919,false,`FileSystemChangeRecord`: Ambigous `disappeared` entry when there is a file and a directory with the same name.,https://github.com/whatwg/fs/issues/169,2025-03-31T09:16:35Z,2025-03-31T09:16:35Z,htho,,0
+2833609997,false,WPT FileSystemWritableFileStream-write.https.any.html expects SyntaxError for missing parameter to FileSystemWritableFileStream.write,https://github.com/whatwg/fs/issues/168,2025-02-05T17:59:32Z,2025-02-10T13:42:38Z,youennf,,0
+2749671268,false,"FileSystemWritableFileStream write, seek and truncate description methods are not calling out the case of writable being locked",https://github.com/whatwg/fs/issues/167,2024-12-19T09:01:39Z,2024-12-19T09:11:32Z,youennf,,0
+2198194831,true,POSIX style path access for OPFS,https://github.com/whatwg/fs/issues/161,2024-03-20T17:55:11Z,2024-03-21T23:46:05Z,msqr1,addition/proposal|needs implementer interest,1
+2149382366,true,Hyuuhhh,https://github.com/whatwg/fs/issues/160,2024-02-22T15:53:03Z,2024-02-22T15:57:38Z,KhalidKF88,invalid,0
+2125426044,false,Add a FileSystemFileHandle copy method,https://github.com/whatwg/fs/issues/159,2024-02-08T15:17:43Z,2024-02-08T15:18:32Z,johot,addition/proposal|needs implementer interest,5
+2095537646,false,getFile() shouldn't require a copy of the underlying data,https://github.com/whatwg/fs/issues/157,2024-01-23T08:36:25Z,2024-08-13T05:00:23Z,annevk,,0
+2089009832,false,Using F_FULLFSYNC for flush() causing slow performance on Mac,https://github.com/whatwg/fs/issues/156,2024-01-18T20:34:43Z,2024-01-22T08:00:47Z,dslee414,,0
+2088640659,true,Origin Private File System – identification of buckets (similarly to FAS API showSaveFilePicker),https://github.com/whatwg/fs/issues/155,2024-01-18T16:25:16Z,2024-01-18T19:35:05Z,projektorius96,,0
+2029160733,false,No explicit file lock release when `write()` throws an exception,https://github.com/whatwg/fs/issues/153,2023-12-06T18:35:35Z,2023-12-06T20:50:20Z,saschanaz,,0
+1905180534,false,New Modes of Creating a FileSystemWritableFileStream,https://github.com/whatwg/fs/issues/148,2023-09-20T14:56:30Z,2023-09-20T15:15:12Z,a-sully,addition/proposal,0
+1899260463,true,Temporary directories/files,https://github.com/whatwg/fs/issues/145,2023-09-16T02:21:58Z,2023-09-16T10:15:56Z,Jamesernator,,0
+1894445716,true,"FYI: TPAC 2023 WICG breakout session ",https://github.com/whatwg/fs/issues/143,2023-09-13T12:41:28Z,2023-09-16T10:37:50Z,a-sully,,0
+1768704691,false,Require taking a lock to remove an entry,https://github.com/whatwg/fs/issues/138,2023-06-22T00:22:09Z,2023-06-22T01:34:42Z,a-sully,,0
+1768635088,false,Support locking of directory entries,https://github.com/whatwg/fs/issues/137,2023-06-21T22:58:09Z,2023-06-21T22:58:09Z,a-sully,,0
+1758238820,true,Editorial: string formatting,https://github.com/whatwg/fs/issues/133,2023-06-15T07:45:40Z,2023-06-21T06:32:50Z,annevk,,0
+1758236726,false,Why is WirteParams's data both optional and nullable?,https://github.com/whatwg/fs/issues/132,2023-06-15T07:44:14Z,2023-06-15T07:44:14Z,annevk,,0
+1757820695,false,Define the Bucket File System in terms of the Storage spec,https://github.com/whatwg/fs/issues/130,2023-06-15T00:00:29Z,2023-06-15T00:00:29Z,a-sully,,0
+1756443557,false,Define File's type better (getFile()),https://github.com/whatwg/fs/issues/127,2023-06-14T09:20:36Z,2023-06-16T16:46:52Z,annevk,,0
+1744751387,false,Add a `FileSystemHandle.create()` method to create self,https://github.com/whatwg/fs/issues/126,2023-06-06T23:10:30Z,2023-06-06T23:12:44Z,a-sully,addition/proposal|needs concrete proposal,0
+1744732032,false,Clarify behavior of `createWritable()` when the corresponding file does not exist,https://github.com/whatwg/fs/issues/125,2023-06-06T22:52:35Z,2023-06-07T11:22:39Z,a-sully,clarification|needs tests,0
+1721566318,false,File and Directory Watch Functionality for the FileSystem API,https://github.com/whatwg/fs/issues/123,2023-05-23T08:57:08Z,2023-06-06T19:27:32Z,WEBPerformace,addition/proposal|needs implementer interest,13
+1708509201,true,proposals/MultipleReadersWriters.md,https://github.com/whatwg/fs/issues/120,2023-05-13T08:00:10Z,2023-06-06T21:49:01Z,claamg9909,,0
+1704091968,false,Allow transferring FileSystemWritableFileStream?,https://github.com/whatwg/fs/issues/119,2023-05-10T14:39:52Z,2023-05-10T14:42:48Z,saschanaz,,1
+1694423146,true,Sandboxed application file system,https://github.com/whatwg/fs/issues/115,2023-05-03T16:37:17Z,2023-05-03T22:05:43Z,hydroper,,0
+1677004864,false,Use case for `move()` from OPFS ↔ user-visible file system,https://github.com/whatwg/fs/issues/114,2023-04-20T15:58:08Z,2023-07-09T08:41:25Z,tomayac,,0
+1676996998,true,"Use case for `move()` from OPFS <==> ",https://github.com/whatwg/fs/issues/113,2023-04-20T15:53:07Z,2023-04-20T15:53:33Z,tomayac,,0
+1659043865,false,Support getDirectory() for non-default bucket,https://github.com/whatwg/fs/issues/112,2023-04-07T17:51:56Z,2023-04-07T20:43:15Z,a-sully,,0
+1657826638,true,Incorporate the Storage Buckets API once it becomes standardized,https://github.com/whatwg/fs/issues/109,2023-04-06T17:51:22Z,2023-04-07T00:49:30Z,a-sully,,0
+1626215219,true,"Consider specifying ""origin private file system""-ness on each ""file system locator""",https://github.com/whatwg/fs/issues/103,2023-03-15T20:10:08Z,2023-06-14T23:23:36Z,a-sully,,0
+1626199077,true,Use <code> where appropriate,https://github.com/whatwg/fs/issues/102,2023-03-15T19:59:29Z,2023-03-16T09:03:32Z,a-sully,,0
+1626088059,false,Make access check algorithms no longer associated with an entry,https://github.com/whatwg/fs/issues/101,2023-03-15T18:59:50Z,2023-03-16T09:17:08Z,a-sully,,0
+1615932575,true,Possibility of sync version of `createSyncAccessHandle()`,https://github.com/whatwg/fs/issues/100,2023-03-08T21:02:03Z,2024-02-16T16:48:34Z,tomayac,addition/proposal|needs implementer interest,0
+1607298369,false,API Ergonomics: Pointer to associated `FileSystemFileHandle` from `FileSystemSyncAccessHandle`?,https://github.com/whatwg/fs/issues/99,2023-03-02T18:33:40Z,2023-03-02T18:51:16Z,tomayac,addition/proposal|needs implementer interest,0
+1533205201,false,"Platform-agnostic ""valid file name""?",https://github.com/whatwg/fs/issues/93,2023-01-14T10:14:46Z,2023-01-25T10:14:22Z,annevk,,0
+1533031756,true,"Consider renaming "" the Origin Private File System"" in anticipation of Storage Buckets",https://github.com/whatwg/fs/issues/92,2023-01-13T23:29:39Z,2023-06-19T16:12:02Z,a-sully,impacts documentation,0
+1530267947,true,"Editorial: xref ""throw"" everywhere",https://github.com/whatwg/fs/issues/89,2023-01-12T07:59:48Z,2023-01-13T07:43:17Z,annevk,,0
+1524919755,false,Add a autoClose flag to FileSystemCreateWritableOptions,https://github.com/whatwg/fs/issues/86,2023-01-09T04:34:15Z,2023-01-09T15:03:27Z,a-sully,addition/proposal,0
+1522209155,true,Make FileSystemSyncAccessHandle.close algorithm more descriptive,https://github.com/whatwg/fs/issues/83,2023-01-06T08:53:50Z,2023-01-24T15:34:38Z,youennf,,0
+1518559943,true,Prose for dealing with dictionary members is wrong,https://github.com/whatwg/fs/issues/81,2023-01-04T08:42:40Z,2023-01-06T09:26:47Z,annevk,,0
+1506191609,false,Request to check if FileHandle/DirectoryHandle exists before executing read/write operations,https://github.com/whatwg/fs/issues/80,2022-12-21T12:01:10Z,2023-06-06T23:30:06Z,poirierlouis,,0
+1471784885,false,FileSystemWritableFileStream should have normative text for the cursor,https://github.com/whatwg/fs/issues/77,2022-12-01T18:54:01Z,2022-12-01T18:54:01Z,jesup,,0
+1445902310,true,Consider specifying a parallel queue for operations which acquire locks,https://github.com/whatwg/fs/issues/74,2022-11-11T19:13:24Z,2023-06-13T16:49:27Z,a-sully,,0
+1430172969,true,Describe how flush() should interact with the underlying OS,https://github.com/whatwg/fs/issues/71,2022-10-31T16:58:40Z,2023-01-11T08:40:13Z,a-sully,clarification,0
+1425484085,true,//TODO(fivedots) and variants,https://github.com/whatwg/fs/issues/66,2022-10-27T11:31:20Z,2022-11-09T17:17:44Z,annevk,,0
+1424180084,true,Modernize method and getter/setter definitions,https://github.com/whatwg/fs/issues/64,2022-10-26T14:46:52Z,2022-10-30T08:34:58Z,annevk,,0
+1424167253,true,Be more precise about exceptions,https://github.com/whatwg/fs/issues/63,2022-10-26T14:40:59Z,2022-11-08T08:07:09Z,annevk,,0
+1403738954,true,What is a FileSystemHandle?,https://github.com/whatwg/fs/issues/59,2022-10-10T21:40:04Z,2023-03-22T17:57:43Z,a-sully,clarification,1
+1395377387,false,Specify error mappings,https://github.com/whatwg/fs/issues/57,2022-10-03T21:48:56Z,2025-02-12T21:41:12Z,a-sully,,1
+1391710605,true,Web IDL syntax error,https://github.com/whatwg/fs/issues/56,2022-09-30T02:02:51Z,2022-10-11T07:01:31Z,autokagami,,0
+1388030049,false,Symbolic link support,https://github.com/whatwg/fs/issues/54,2022-09-27T16:20:24Z,2022-10-10T15:04:46Z,rektide,addition/proposal|needs implementer interest,0
+1375338993,true,Errors when multiple async operations are pending on WritableFileStream,https://github.com/whatwg/fs/issues/51,2022-09-16T03:08:05Z,2022-10-13T03:58:57Z,jesup,,0
+1375327921,true,truncate() definition doesn't match the non-normative text,https://github.com/whatwg/fs/issues/50,2022-09-16T02:52:49Z,2023-01-08T19:55:56Z,jesup,,0
+1375314741,true,"SyncAccessHandle read() & write() and the use of ""at:""",https://github.com/whatwg/fs/issues/49,2022-09-16T02:36:21Z,2022-12-03T07:52:00Z,jesup,,0
+1359921317,true,Should converting chunk to a FileSystemWriteChunkType refer to IDL type conversion instead?,https://github.com/whatwg/fs/issues/48,2022-09-02T09:11:59Z,2022-10-05T16:32:34Z,EdgarChen,,0
+1342524430,false,`O_DIRECT` and other performance considerations,https://github.com/whatwg/fs/issues/47,2022-08-18T03:44:19Z,2022-08-20T03:34:28Z,DemiMarie,,0
+1332526736,true,TPAC 2022 breakout session agenda,https://github.com/whatwg/fs/issues/45,2022-08-08T23:47:48Z,2022-09-26T19:29:20Z,a-sully,,3
+1332361399,true,close() method missing?,https://github.com/whatwg/fs/issues/44,2022-08-08T20:27:16Z,2022-08-08T22:40:54Z,ronburk,,0
+1329102260,true,resolve() needs real definition in the spec,https://github.com/whatwg/fs/issues/43,2022-08-04T19:42:19Z,2023-01-06T23:23:50Z,jesup,,0
+1326278959,true,queryPermission being used in WPT tests,https://github.com/whatwg/fs/issues/42,2022-08-02T19:02:44Z,2022-10-04T01:01:27Z,jesup,needs tests,1
+1322939104,false,Request for async FileSystemAsyncAccessHandles,https://github.com/whatwg/fs/issues/41,2022-07-30T08:45:04Z,2023-01-19T22:16:35Z,rektide,,0
+1321558501,true,Exposing 'locked',https://github.com/whatwg/fs/issues/40,2022-07-28T22:28:33Z,2022-08-02T04:01:00Z,jesup,,0
+1317408172,true,Operations on deleted FileHandles/DirectoryHandles,https://github.com/whatwg/fs/issues/39,2022-07-25T21:41:18Z,2023-06-06T23:12:09Z,jesup,,0
+1309458585,false,Accessing the parent of FileSystemFileHandle,https://github.com/whatwg/fs/issues/38,2022-07-19T12:36:36Z,2023-03-15T14:55:34Z,orlovushek,,0
+1299089836,true,"When running steps in parallel, a task should be queued",https://github.com/whatwg/fs/issues/36,2022-07-08T14:22:40Z,2022-11-11T19:34:49Z,fivedots,clarification,1
+1297437372,false,How should Access Handle read() deal with file modifications?,https://github.com/whatwg/fs/issues/35,2022-07-07T13:24:10Z,2022-07-07T13:44:58Z,fivedots,clarification,0
+1279224322,false,Request for multiple readers via access handles,https://github.com/whatwg/fs/issues/34,2022-06-21T23:18:00Z,2024-01-31T22:57:40Z,alshamma,,0
+1261021603,false,working together with async clipboard api,https://github.com/whatwg/fs/issues/33,2022-06-05T11:04:56Z,2022-06-28T20:23:49Z,jimmywarting,,0
+1258408183,false,AccessHandles need a better name,https://github.com/whatwg/fs/issues/32,2022-06-02T16:13:25Z,2022-10-21T20:39:19Z,tomayac,,0
+1250280834,true,Seek target range,https://github.com/whatwg/fs/issues/31,2022-05-27T02:58:24Z,2023-01-11T21:50:11Z,jesup,,0
+1245341760,true,Multiple asynchronous operations,https://github.com/whatwg/fs/issues/28,2022-05-23T15:23:09Z,2022-11-12T02:56:45Z,jesup,,0
+1245331790,true,read() and write() should have [Throws],https://github.com/whatwg/fs/issues/27,2022-05-23T15:16:36Z,2022-05-23T15:19:12Z,jesup,,0
+1244472163,false,"web-platform tests don't match the spec (errors, '.', '..')",https://github.com/whatwg/fs/issues/26,2022-05-23T02:01:34Z,2023-01-13T20:09:38Z,jesup,,1
+1243843590,true,query access for filehandles,https://github.com/whatwg/fs/issues/25,2022-05-21T02:37:44Z,2023-01-06T22:41:56Z,jesup,,0
+1242127248,true,Minutes 2022-05-19 meeting,https://github.com/whatwg/fs/issues/24,2022-05-19T18:01:41Z,2023-01-10T01:49:10Z,annevk,,0
+1222222766,true,Consolidating the Streams API with FileSystemWritableFileStream,https://github.com/whatwg/fs/issues/23,2022-05-01T17:13:24Z,2022-05-01T18:00:21Z,absurdprofit,,0
+1218432190,true,showOpenFilePicker used in an example,https://github.com/whatwg/fs/issues/22,2022-04-28T09:09:49Z,2022-05-24T07:19:05Z,smaug----,,1
+1164284604,true,Possible options in FileSystemFileHandleCreateAccessHandleOptions,https://github.com/whatwg/fs/issues/19,2022-03-09T18:18:50Z,2023-01-06T22:30:01Z,a-sully,,0
+1164280510,true,Explicitly define locking mechanisms,https://github.com/whatwg/fs/issues/18,2022-03-09T18:14:49Z,2023-01-06T22:30:28Z,a-sully,,0
+1164275030,false,Interactions with the BFCache,https://github.com/whatwg/fs/issues/17,2022-03-09T18:09:02Z,2023-03-28T10:33:52Z,a-sully,,0
+1163309101,true,perhaps maybe to restrictive?,https://github.com/whatwg/fs/issues/16,2022-03-08T23:31:47Z,2022-03-09T14:06:20Z,jimmywarting,,0
+1163068204,false,Convenience method for recursive directory iteration,https://github.com/whatwg/fs/issues/15,2022-03-08T20:06:35Z,2023-01-11T22:10:36Z,a-sully,addition/proposal|needs implementer interest,0
+1163064379,false,"Expand on ""File object will likely be no longer readable""",https://github.com/whatwg/fs/issues/14,2022-03-08T20:02:21Z,2022-08-02T23:04:02Z,a-sully,,0
+1162044916,false,Create file/directory with error if it already exists,https://github.com/whatwg/fs/issues/13,2022-03-07T23:29:40Z,2022-03-07T23:29:40Z,a-sully,,0
+1162040700,false,Support reading file metadata,https://github.com/whatwg/fs/issues/12,2022-03-07T23:23:45Z,2022-11-22T07:46:44Z,a-sully,,3
+1162029461,false,Better specify promise rejection behavior,https://github.com/whatwg/fs/issues/11,2022-03-07T23:09:35Z,2022-03-07T23:09:35Z,a-sully,,0
+1112761019,true,FileSystemSyncAccessHandle contains async methods,https://github.com/whatwg/fs/issues/7,2022-01-24T15:02:12Z,2022-11-11T19:20:18Z,janvarga,,6
+1109627774,true,Remove w3c.json,https://github.com/whatwg/fs/issues/5,2022-01-20T18:22:19Z,2022-02-07T12:21:18Z,plehegar,meta,0
+1109177383,false,"FileSystemDirectoryHandle.resolve is a very vague method name, consider renaming it",https://github.com/whatwg/fs/issues/4,2022-01-20T11:20:33Z,2022-12-14T17:12:35Z,smaug----,,1
+1070369311,true,Queue tasks,https://github.com/whatwg/fs/issues/3,2021-12-03T09:06:13Z,2023-06-22T00:41:56Z,annevk,clarification,0
+1070367078,true,Migration of File System Access issues applicable to File System,https://github.com/whatwg/fs/issues/2,2021-12-03T09:03:28Z,2022-03-10T07:55:31Z,annevk,,0

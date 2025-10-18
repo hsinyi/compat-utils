@@ -1,0 +1,624 @@
+id,closed,title,url,created_at,updated_at,user,labels,reactions
+3491025453,false,Allow error to be provided to reader.releaseLock(),https://github.com/whatwg/streams/issues/1358,2025-10-07T11:05:51Z,2025-10-07T11:06:51Z,jakearchibald,addition/proposal|needs implementer interest,0
+3455108361,true,Inconsistent DecompressionStream behaviour with arbitrary-padded data,https://github.com/whatwg/streams/issues/1357,2025-09-25T21:16:29Z,2025-09-25T21:31:55Z,spalt08,,0
+3348257230,true,Pure Pull doesn't seem to work through TransformStream?,https://github.com/whatwg/streams/issues/1354,2025-08-23T13:32:19Z,2025-08-26T09:29:06Z,MeirionHughes,,0
+3302594354,false,TransformStreams have an unforuntate design,https://github.com/whatwg/streams/issues/1351,2025-08-08T04:37:52Z,2025-08-08T06:33:21Z,BlackAsLight,,0
+3302535649,false,The Internal Queue of streams should be exposed upon stream cancellation for proper clean up of pending chunks.,https://github.com/whatwg/streams/issues/1350,2025-08-08T04:00:38Z,2025-08-08T06:27:02Z,BlackAsLight,addition/proposal|needs implementer interest,0
+3265375861,false,"Why does the `read` method of `ReadableStreamBYOBReader` class, need to _transfer_ the buffer it is provided?",https://github.com/whatwg/streams/issues/1348,2025-07-26T09:18:15Z,2025-08-18T19:23:16Z,amn,,0
+3253756132,true,Web IDL syntax error,https://github.com/whatwg/streams/issues/1347,2025-07-22T18:59:25Z,2025-07-23T21:19:47Z,autokagami,,0
+3218526979,false,`async iterable` is now `async_iterable`,https://github.com/whatwg/streams/issues/1345,2025-07-10T09:10:44Z,2025-07-10T12:17:08Z,AtkinsSJ,,1
+3023966521,false,Clarify that `ReadableStream`'s `cancel` may be invoked before `start` is complete,https://github.com/whatwg/streams/issues/1344,2025-04-28T07:22:15Z,2025-04-28T07:22:15Z,ardislu,,0
+3002108444,false,Clarify expected behaviour when breaking async iteration of teed ReadableStream,https://github.com/whatwg/streams/issues/1343,2025-04-17T10:38:21Z,2025-04-17T10:55:51Z,lukasIO,,1
+2889726074,true,strategySizeAlgorithm validation in WritableStreamDefaultControllerGetChunkSize,https://github.com/whatwg/streams/issues/1341,2025-03-02T18:59:55Z,2025-04-03T07:12:25Z,daeyeon,writable streams,0
+2680796146,false,Shouldn't WritableStreamDefaultWriter.write() reject if underlyingSink.write calls controller.error()?,https://github.com/whatwg/streams/issues/1332,2024-11-21T20:26:07Z,2024-11-22T21:54:29Z,jedwards1211,,0
+2645936161,true,Abort followed by write on WritableStream may invoke a null strategy algorithm,https://github.com/whatwg/streams/issues/1331,2024-11-09T11:10:44Z,2024-11-27T04:29:18Z,shannonbooth,,0
+2618805059,false,Unified way to clean up after ReadableStream finished/errored/was canceled,https://github.com/whatwg/streams/issues/1329,2024-10-28T15:44:09Z,2024-10-31T11:07:19Z,jedwards1211,,0
+2523742335,true,Misuse of `Assert` in spec,https://github.com/whatwg/streams/issues/1327,2024-09-13T02:24:11Z,2024-09-13T18:42:00Z,rotu,,0
+2472725980,true,Handeling backpressure on the Readable side of a transform stream,https://github.com/whatwg/streams/issues/1323,2024-08-19T08:06:55Z,2025-03-14T01:39:18Z,vstefanovic97,,0
+2454045586,false,Stream read hangs when stream is closed during a BYOB read,https://github.com/whatwg/streams/issues/1321,2024-08-07T18:07:53Z,2024-10-12T07:43:49Z,bschick,,0
+2391532524,true,WebRTC endpoint pair example is out of date,https://github.com/whatwg/streams/issues/1317,2024-07-04T22:54:24Z,2024-07-12T02:57:32Z,jan-ivar,,0
+2306550303,false,read all bytes usage/signature may be hard to understand,https://github.com/whatwg/streams/issues/1315,2024-05-20T18:39:09Z,2024-11-27T04:34:19Z,morlovich,clarification,1
+2294964613,true,Symbol.clone to ease-out structuredClone implicit conversion,https://github.com/whatwg/streams/issues/1314,2024-05-14T09:44:24Z,2024-05-15T04:47:49Z,WebReflection,addition/proposal|needs implementer interest,0
+2234364264,true,"""read all bytes"" algorithm support for stringifiers",https://github.com/whatwg/streams/issues/1312,2024-04-09T21:55:55Z,2024-04-10T13:45:54Z,jasnell,addition/proposal|needs implementer interest,1
+2204046758,true,Proposal: writev equivalent `WritableStreamDefaultWriter`,https://github.com/whatwg/streams/issues/1309,2024-03-23T21:03:04Z,2024-03-23T22:48:14Z,jasnell,addition/proposal|needs implementer interest,0
+2204043981,true,Proposal: BodyReader for ReadableStream,https://github.com/whatwg/streams/issues/1308,2024-03-23T20:54:25Z,2024-03-23T22:49:06Z,jasnell,addition/proposal|needs implementer interest,0
+2155516150,true,Discussion: How should streams handle Explicit Resource Management,https://github.com/whatwg/streams/issues/1307,2024-02-27T02:23:05Z,2025-02-21T05:58:58Z,jasnell,,0
+1992492539,false,read all bytes: Why only Uint8Array instead of general BufferSource?,https://github.com/whatwg/streams/issues/1299,2023-11-14T10:50:32Z,2023-11-14T10:55:18Z,saschanaz,,1
+1950516677,false,Timing differences on start promise on WritableStream,https://github.com/whatwg/streams/issues/1298,2023-10-18T19:39:47Z,2023-10-24T08:02:56Z,saschanaz,,0
+1943590907,false,Test or specification problem with TransformStream readable.cancel and calling controller.error,https://github.com/whatwg/streams/issues/1296,2023-10-14T22:48:41Z,2023-10-26T06:06:06Z,evilpie,,0
+1901606571,true,Should `ReadableStreamClose(stream)` also close pending read requests in case of ReadableStreamBYOBReader,https://github.com/whatwg/streams/issues/1294,2023-09-18T19:29:11Z,2023-09-19T08:26:53Z,debadree25,,0
+1804015186,false,"Consider making writer.abort() automatically generate an ""AbortError"" DOMException?",https://github.com/whatwg/streams/issues/1290,2023-07-14T01:54:46Z,2023-09-06T15:35:47Z,domenic,,2
+1794362862,false,"reader.cancel([ reason ]) ""behaves the same as stream.cancel(reason)"" is confusing",https://github.com/whatwg/streams/issues/1287,2023-07-07T21:13:28Z,2024-11-27T04:34:35Z,jedwards1211,clarification,1
+1752579181,false,Reuse HTML structuredClone for owning streams,https://github.com/whatwg/streams/issues/1285,2023-06-12T11:52:30Z,2023-06-12T12:57:19Z,youennf,,0
+1751593531,true,`.throw()`ing an async iterator,https://github.com/whatwg/streams/issues/1284,2023-06-11T20:32:31Z,2024-11-27T04:35:37Z,ghost,,0
+1726121467,false,Recoverable error from failed parameter validation?,https://github.com/whatwg/streams/issues/1280,2023-05-25T16:15:26Z,2023-05-26T14:53:50Z,saschanaz,,0
+1677815899,false,Synchronous WritableStream Writer to avoid heap allocations from Promises returned by WritableStreamDefaultWriter's write,https://github.com/whatwg/streams/issues/1276,2023-04-21T05:06:23Z,2023-04-23T18:20:35Z,btakita,,0
+1674116640,true,cancelAlgorithmWrapper does not handle cancellation argument,https://github.com/whatwg/streams/issues/1273,2023-04-19T03:34:53Z,2024-01-10T02:02:06Z,mattco98,,0
+1658804125,false,Latency-bounded reads,https://github.com/whatwg/streams/issues/1270,2023-04-07T13:25:20Z,2023-07-03T10:16:47Z,nidhijaju,,2
+1654955289,false,async iteration over a ReadableStream containing a rejected Promise will not clean up,https://github.com/whatwg/streams/issues/1266,2023-04-05T05:19:59Z,2023-04-05T15:57:43Z,bakkot,,0
+1654750390,false,Efficient mapping to Unix-style APIs with pollable readers and writers,https://github.com/whatwg/streams/issues/1265,2023-04-05T00:29:10Z,2023-04-14T22:52:11Z,reillyeon,,0
+1637606644,false,"""If flushPromise was rejected with reason r, the...""",https://github.com/whatwg/streams/issues/1262,2023-03-23T14:01:21Z,2023-03-24T03:43:33Z,ricea,,0
+1599162568,false,Why resolve backpressurePromise by an error message in SetUpCrossRealmTransformWritable?,https://github.com/whatwg/streams/issues/1260,2023-02-24T19:14:34Z,2023-02-24T19:14:55Z,saschanaz,,0
+1599125916,false,Should cancelation error from UnderlyingSource be transferred too?,https://github.com/whatwg/streams/issues/1259,2023-02-24T18:41:39Z,2023-02-27T12:35:18Z,saschanaz,,0
+1589568724,false,Should terminating a worker close/error streams?,https://github.com/whatwg/streams/issues/1256,2023-02-17T15:53:17Z,2023-02-21T04:50:12Z,saschanaz,,0
+1575068638,false,Cancelling and exception handling async iteration of ReadableStreams,https://github.com/whatwg/streams/issues/1255,2023-02-07T21:47:36Z,2024-10-29T16:16:47Z,hamishwillee,,2
+1562412454,false,"Should the ""set up"" algorithm for IDL-created WritableStreams wrap the write algorithm?",https://github.com/whatwg/streams/issues/1253,2023-01-30T13:05:03Z,2023-02-01T02:31:09Z,saschanaz,,0
+1551788565,false,Should the underlying source be pinged for cancel when a close request exists?,https://github.com/whatwg/streams/issues/1252,2023-01-21T12:33:29Z,2023-01-24T07:31:14Z,saschanaz,,0
+1473823758,true,gRPC support,https://github.com/whatwg/streams/issues/1249,2022-12-03T07:27:30Z,2022-12-13T08:16:36Z,0xAlcibiades,,0
+1457735156,false,Examine interaction of resizable array buffers with Streams,https://github.com/whatwg/streams/issues/1248,2022-11-21T10:58:26Z,2022-12-03T07:01:53Z,ricea,,0
+1413642558,true,"[[stream]] can not be undefined in ""get the next iteration result""",https://github.com/whatwg/streams/issues/1246,2022-10-18T18:09:14Z,2022-10-19T01:36:09Z,evilpie,,0
+1410383193,true,When should closed promise be resolved?,https://github.com/whatwg/streams/issues/1244,2022-10-16T05:52:00Z,2022-10-16T10:33:54Z,davedoesdev,,0
+1409087032,false,Can pipeTo() be synchronous?,https://github.com/whatwg/streams/issues/1243,2022-10-14T09:54:27Z,2023-04-03T12:04:02Z,ricea,,0
+1369043316,true,Add support for asynchronous TransformStreams,https://github.com/whatwg/streams/issues/1242,2022-09-11T19:37:18Z,2022-09-11T22:45:32Z,minfrin,,0
+1339986162,true,cancelAlgorithmWrapper in ReadableStream set up does not pass along the reason,https://github.com/whatwg/streams/issues/1241,2022-08-16T08:19:02Z,2024-01-10T02:02:05Z,ricea,good first issue,2
+1294529420,true,Proposal: ReadableStreamBodyReader,https://github.com/whatwg/streams/issues/1238,2022-07-05T16:42:21Z,2024-03-25T17:15:48Z,jasnell,,0
+1293633981,true,Request review MDN readable byte streams docs,https://github.com/whatwg/streams/issues/1237,2022-07-04T23:30:43Z,2022-12-13T08:16:52Z,hamishwillee,,1
+1270116048,false,Performance optimization: `ReadableStreamDefaultReader.prototype.readMany`,https://github.com/whatwg/streams/issues/1236,2022-06-14T00:47:53Z,2022-10-11T07:10:05Z,Jarred-Sumner,,0
+1269544607,false,Proposal: ReadableStream tee() backpressure,https://github.com/whatwg/streams/issues/1235,2022-06-13T14:37:52Z,2023-05-26T09:56:10Z,jasnell,,6
+1216455142,false,Do the abort steps of ReadableStreamPipeTo really guarantee the abort callback to be called before cancel?,https://github.com/whatwg/streams/issues/1229,2022-04-26T20:40:50Z,2022-04-26T22:14:39Z,saschanaz,,0
+1215353210,false,explain better what the pull method should do in the underlying source API,https://github.com/whatwg/streams/issues/1228,2022-04-26T03:56:38Z,2023-08-03T23:05:01Z,skybrian,,0
+1186905020,true,Why is `size` just a function?,https://github.com/whatwg/streams/issues/1226,2022-03-30T19:39:45Z,2022-03-30T19:44:41Z,j-f1,,0
+1157883735,false,"Editorial: update use of, or stop using, completion values?",https://github.com/whatwg/streams/issues/1224,2022-03-03T02:04:16Z,2022-04-01T08:09:32Z,domenic,editorial,0
+1156168194,false,Link to ECMA262 sec-returnifabrupt-shorthands?,https://github.com/whatwg/streams/issues/1223,2022-03-02T01:51:12Z,2022-03-03T03:50:12Z,saschanaz,,1
+1148796741,false,How to create a transformed WritableStream that waits for close?,https://github.com/whatwg/streams/issues/1222,2022-02-24T02:46:18Z,2022-02-24T02:46:18Z,yume-chan,,0
+1139270345,false,WritableStreamDefaultController [[strategySizeAlgorithm]] called after being set to undefined,https://github.com/whatwg/streams/issues/1218,2022-02-15T22:16:32Z,2022-02-15T22:25:25Z,ricea,,0
+1129252205,false,Returning buffers to the underlying source,https://github.com/whatwg/streams/issues/1217,2022-02-10T00:29:03Z,2022-06-13T15:08:57Z,reillyeon,,0
+1112973430,false,Specify realm for object creation,https://github.com/whatwg/streams/issues/1213,2022-01-24T18:05:34Z,2023-04-04T07:17:19Z,domenic,,0
+1112780318,true,Handling stream errors in a TransformStream transformer,https://github.com/whatwg/streams/issues/1212,2022-01-24T15:16:39Z,2025-07-29T21:06:41Z,h4l,,0
+1104783107,false,pipeTo: Read fulfilled after shutdown started,https://github.com/whatwg/streams/issues/1207,2022-01-15T16:57:05Z,2022-01-20T21:34:52Z,evilpie,,0
+1095057132,false,Should the abort result reflect the close result?,https://github.com/whatwg/streams/issues/1203,2022-01-06T07:49:42Z,2022-03-29T14:10:03Z,yutakahirano,,0
+1088753134,true,`SetUpTransformStreamDefaultControllerFromTransformer` doesn't ensure that `transformAlgorithm` and `flushAlgorithm` return `Promise`,https://github.com/whatwg/streams/issues/1201,2021-12-26T11:36:46Z,2021-12-26T12:18:15Z,tschneidereit,,0
+1083186053,true,WritableStreamDefaultController uses AbortSignal on Worklet where it isn't exposed,https://github.com/whatwg/streams/issues/1199,2021-12-17T11:54:40Z,2022-12-15T08:03:25Z,evilpie,,0
+1058062952,true,cocurrent steam,https://github.com/whatwg/streams/issues/1188,2021-11-19T02:33:09Z,2021-11-19T06:10:45Z,yisar,,0
+1054941656,false,Should there be dedicated VideoFrame ReadableStream/WritableStream constructs,https://github.com/whatwg/streams/issues/1187,2021-11-16T14:24:14Z,2022-12-05T07:16:11Z,youennf,,0
+1054938798,false,Add a realtime mode to ReadableStream.tee,https://github.com/whatwg/streams/issues/1186,2021-11-16T14:21:43Z,2021-11-22T23:32:07Z,youennf,,0
+1054930466,false,Life-time management of VideoFrame when used with streams,https://github.com/whatwg/streams/issues/1185,2021-11-16T14:14:17Z,2023-04-10T07:22:11Z,youennf,,0
+1049016570,true,ReadableStream.prototype.pipeline(...),https://github.com/whatwg/streams/issues/1184,2021-11-09T19:34:09Z,2022-02-08T17:04:13Z,jasnell,,0
+1031099425,false,Resolving promises with byte sequences results in UB,https://github.com/whatwg/streams/issues/1178,2021-10-20T08:01:43Z,2022-12-22T14:16:15Z,annevk,,0
+1025661806,true,"BYOB with ""fill at least"" semantics",https://github.com/whatwg/streams/issues/1175,2021-10-13T20:21:04Z,2023-11-13T11:13:43Z,jasnell,,0
+1015375198,true,Possible spec bug with concurrent byob reads,https://github.com/whatwg/streams/issues/1170,2021-10-04T16:17:29Z,2021-10-19T21:30:36Z,jasnell,,0
+1006413725,false,Make the internal queue observable,https://github.com/whatwg/streams/issues/1167,2021-09-24T12:28:24Z,2021-11-16T14:16:15Z,amn,,0
+996515173,true,WritableStreamDefaultController.abortReason,https://github.com/whatwg/streams/issues/1165,2021-09-14T23:21:32Z,2022-02-18T16:51:16Z,plinss,,0
+974784994,true,Handling Abrupt Completions in ReadableStreamDefaultControllerCallPullIfNeeded?,https://github.com/whatwg/streams/issues/1161,2021-08-19T15:23:19Z,2021-08-19T16:31:22Z,mgaudet,,0
+974437235,true,srcObject,https://github.com/whatwg/streams/issues/1160,2021-08-19T09:01:51Z,2022-12-13T08:17:09Z,o-t-w,,0
+963078664,false,Piping to writable streams with HWM 0?,https://github.com/whatwg/streams/issues/1158,2021-08-06T22:19:14Z,2021-11-16T11:45:31Z,MattiasBuelens,,1
+961343238,false,Allow web devs to synchronize branches with tee()?,https://github.com/whatwg/streams/issues/1157,2021-08-05T02:07:46Z,2021-11-16T21:36:59Z,jan-ivar,,1
+960103363,false,Allow web authors to tee() with cloned chunks,https://github.com/whatwg/streams/issues/1156,2021-08-04T09:01:29Z,2021-08-04T09:01:29Z,MattiasBuelens,,2
+959097389,true,Is when pull() is called on an underlying source deterministic?,https://github.com/whatwg/streams/issues/1155,2021-08-03T13:05:54Z,2021-08-06T23:55:24Z,jan-ivar,,0
+956972195,true,When to use streams?,https://github.com/whatwg/streams/issues/1153,2021-07-30T18:24:57Z,2021-08-02T20:22:43Z,jan-ivar,,0
+954107485,true,"SetUpReadableStreamDefaultControllerFromUnderlyingSource algorithm takes an extra argument controller that isn't provided at callsite. ",https://github.com/whatwg/streams/issues/1151,2021-07-27T17:29:54Z,2021-07-30T22:23:00Z,mgaudet,good first issue,0
+946933171,true,Allow stream reader cancel() method to return bytes from queue instead of discarding them.,https://github.com/whatwg/streams/issues/1147,2021-07-18T01:52:46Z,2021-07-22T15:13:02Z,DarDoro,,0
+942494580,true,ReadableStreamBYOBReader.prototype.readFully(view),https://github.com/whatwg/streams/issues/1143,2021-07-12T22:15:32Z,2023-11-13T11:14:58Z,MattiasBuelens,,0
+934109558,true,Meta: file bugs for non-browser implementations?,https://github.com/whatwg/streams/issues/1141,2021-06-30T20:40:17Z,2022-01-24T22:46:12Z,MattiasBuelens,,0
+930925399,true,Internal promises need to be handled before they reject,https://github.com/whatwg/streams/issues/1139,2021-06-27T13:00:20Z,2021-06-27T22:57:49Z,jespertheend,,0
+912327194,true,Close should be idempotent,https://github.com/whatwg/streams/issues/1136,2021-06-05T16:06:54Z,2021-06-08T05:31:32Z,mitranim,,0
+911509037,false,Consider using AggregateError for tee() cancelation reasons,https://github.com/whatwg/streams/issues/1134,2021-06-04T13:37:48Z,2021-06-04T15:27:30Z,domenic,,3
+902737950,false,Adding generic seek or read/write-at-offset abilities to readable/writable streams,https://github.com/whatwg/streams/issues/1128,2021-05-26T17:43:59Z,2022-03-18T18:48:01Z,domenic,addition/proposal,0
+887714624,true,Stream Reader: event to detect first byte of each chunk added to internal buffer,https://github.com/whatwg/streams/issues/1126,2021-05-11T15:55:40Z,2021-05-17T01:54:28Z,mlasak,,0
+872055054,false,Permitting transferable stream optimisation,https://github.com/whatwg/streams/issues/1124,2021-04-30T05:59:22Z,2021-10-31T20:47:27Z,ricea,,2
+855874028,true,"Test: ""default ReadableStream getReader() should only accept mode:undefined""",https://github.com/whatwg/streams/issues/1122,2021-04-12T11:26:31Z,2021-04-12T14:00:37Z,evilpie,,0
+851779152,true,Allow other specifications to create readable byte streams,https://github.com/whatwg/streams/issues/1121,2021-04-06T20:18:02Z,2021-07-15T18:51:52Z,domenic,byte streams|other spec interface,0
+840075045,true,`ReadableStreamDefaultReader.read()` return values,https://github.com/whatwg/streams/issues/1117,2021-03-24T19:12:51Z,2021-05-26T17:37:48Z,sbooeshaghi,,0
+836156432,true,Teeing a readable byte stream,https://github.com/whatwg/streams/issues/1111,2021-03-19T16:06:38Z,2021-07-08T20:48:03Z,MattiasBuelens,,0
+824892566,true,"Should I expect this to support ""zero-copy"" data loading in some way?",https://github.com/whatwg/streams/issues/1109,2021-03-08T19:48:09Z,2021-03-08T22:35:35Z,amn,,0
+800454508,true,Does `ReadableStream.values()` need a proper definition?,https://github.com/whatwg/streams/issues/1107,2021-02-03T15:47:27Z,2021-02-03T16:02:14Z,tomayac,,0
+799487048,true,Cannot set Realm for ReadableStream,https://github.com/whatwg/streams/issues/1106,2021-02-02T17:15:15Z,2021-05-26T17:38:15Z,annevk,other spec interface,0
+797445408,false,Introspection: disturbed or locked,https://github.com/whatwg/streams/issues/1105,2021-01-30T15:25:51Z,2021-06-29T18:05:21Z,annevk,other spec interface,0
+793670219,true,Make read requests abortable,https://github.com/whatwg/streams/issues/1103,2021-01-25T19:38:59Z,2022-01-14T07:30:33Z,domenic,,2
+784631928,true,ReadableStreamClose with async iterator and pending read requests errors,https://github.com/whatwg/streams/issues/1100,2021-01-12T22:12:49Z,2021-02-08T22:59:45Z,kitsonk,,0
+770463574,false,Utility buffer class for stream transformers,https://github.com/whatwg/streams/issues/1097,2020-12-18T00:03:56Z,2020-12-20T02:21:52Z,morganbarrett,,0
+756046514,true,Add reader-type asserts to ReadableStream abstract operations,https://github.com/whatwg/streams/issues/1094,2020-12-03T10:00:09Z,2020-12-04T18:24:25Z,ricea,,1
+754123197,true,Returning after performing error steps in ReadableStreamBYOBReaderRead,https://github.com/whatwg/streams/issues/1091,2020-12-01T07:35:07Z,2020-12-02T17:14:44Z,nidhijaju,,0
+753316707,true,Is autoAllocateChunkSize permitted to be zero?,https://github.com/whatwg/streams/issues/1089,2020-11-30T09:37:19Z,2020-12-01T10:16:40Z,ricea,,0
+744159626,false,Using streams from other specs: explain some best practices for byte streams,https://github.com/whatwg/streams/issues/1086,2020-11-16T20:28:25Z,2021-03-10T20:27:17Z,domenic,other spec interface,1
+744158356,false,Using streams from other specs: define a byte-counting strategy,https://github.com/whatwg/streams/issues/1085,2020-11-16T20:26:45Z,2021-03-10T20:27:17Z,domenic,other spec interface,0
+742791303,true,"Using streams from other specs: you can't really use ""create""",https://github.com/whatwg/streams/issues/1084,2020-11-13T21:10:48Z,2021-03-30T18:48:35Z,domenic,other spec interface,0
+695527660,true,Introduce ReadableStream<T> generics typing.,https://github.com/whatwg/streams/issues/1075,2020-09-08T04:02:36Z,2020-09-08T17:44:40Z,yoichio,,0
+686623060,false,GenericTransformStream mixin vs. subclassing,https://github.com/whatwg/streams/issues/1074,2020-08-26T21:17:20Z,2021-03-10T20:50:40Z,domenic,other spec interface,0
+686605938,false,Should we add writableStream.write()? readableStream.read()?,https://github.com/whatwg/streams/issues/1072,2020-08-26T20:47:18Z,2025-01-23T23:26:50Z,domenic,,0
+684519898,true,TPAC 2020: Streams Standard meeting interest,https://github.com/whatwg/streams/issues/1071,2020-08-24T09:34:57Z,2021-01-30T15:27:06Z,annevk,meta,0
+680212585,true,"Remove https://streams.spec.whatwg.org/#ts-constructor step 12 ",https://github.com/whatwg/streams/issues/1065,2020-08-17T12:52:55Z,2020-08-18T16:48:24Z,youennf,,0
+678856082,false,Transferable streams: the double transfer problem,https://github.com/whatwg/streams/issues/1063,2020-08-14T02:43:53Z,2021-11-16T14:37:10Z,ricea,important unsolved question,2
+662867103,true,Garbage-free streaming fetch into a WebAssembly (Shared)ArrayBuffer?,https://github.com/whatwg/streams/issues/1057,2020-07-21T10:42:24Z,2020-07-28T11:02:08Z,juj,,1
+658391867,true,Possible to undo .pipeTo()?,https://github.com/whatwg/streams/issues/1055,2020-07-16T17:15:04Z,2020-07-27T17:12:50Z,chrstphrchvz,,0
+645296579,false,Editorial: move from internal slots to associated concepts?,https://github.com/whatwg/streams/issues/1048,2020-06-25T08:03:09Z,2020-06-25T18:30:30Z,MattiasBuelens,,0
+642651542,true,Enable WebIDL harness tests for reference implementation,https://github.com/whatwg/streams/issues/1044,2020-06-21T22:20:12Z,2020-06-23T21:56:35Z,MattiasBuelens,reference implementation,0
+640191915,true,Removing non-existent constructors from MDN and BCD,https://github.com/whatwg/streams/issues/1043,2020-06-17T06:59:19Z,2020-06-19T02:13:33Z,sideshowbarker,,0
+634998029,true,Cancelling one branch of a tee'd stream never finishes if other branch reads all chunks,https://github.com/whatwg/streams/issues/1038,2020-06-08T23:25:26Z,2020-08-05T22:32:52Z,MattiasBuelens,,1
+622003004,true,Pause stream and continue stops readable-stream from reading source.,https://github.com/whatwg/streams/issues/1037,2020-05-20T18:39:57Z,2020-05-22T07:42:41Z,Akayeshmantha,,0
+621284298,true,"Editorial: use dictionaries for { value, done } and eliminate ""forAuthorCode""?",https://github.com/whatwg/streams/issues/1036,2020-05-19T21:05:05Z,2020-07-06T15:46:08Z,domenic,,0
+584087075,true,The difference between ReadableStream.cancel() and ReadableStreamDefaultReader.cancel()?,https://github.com/whatwg/streams/issues/1033,2020-03-19T00:45:18Z,2023-06-02T20:11:42Z,determin1st,,0
+583305708,false,A guide for a bidirectional transport?,https://github.com/whatwg/streams/issues/1032,2020-03-17T21:19:48Z,2020-11-11T16:16:51Z,lgrahl,,0
+583283882,false,WebSocket example bug & questions,https://github.com/whatwg/streams/issues/1031,2020-03-17T20:37:54Z,2020-03-17T21:01:50Z,lgrahl,,0
+577527238,false,'Splitter' stream?,https://github.com/whatwg/streams/issues/1030,2020-03-08T16:30:02Z,2022-02-17T02:27:19Z,kcoop,,0
+557244093,false,Reset for TransformStream (and WritableStream?),https://github.com/whatwg/streams/issues/1026,2020-01-30T03:24:44Z,2020-02-06T23:22:40Z,ricea,addition/proposal,0
+538015039,true,Add a flag to determine wether a ReadableStream is disturbed or cancelled,https://github.com/whatwg/streams/issues/1025,2019-12-15T07:30:51Z,2021-10-18T18:46:39Z,rumkin,,1
+511481665,true,"Links to ""a new promise"", ""a promise resolved with"", etc. are broken",https://github.com/whatwg/streams/issues/1020,2019-10-23T17:55:34Z,2019-11-03T21:47:22Z,jswalden,,1
+507013401,false,ReadableStream.prototype.arrayBuffer(),https://github.com/whatwg/streams/issues/1019,2019-10-15T05:26:17Z,2025-06-28T12:32:06Z,ricea,,17
+507012330,true,ReadableStream.from(X),https://github.com/whatwg/streams/issues/1018,2019-10-15T05:22:33Z,2023-06-08T02:44:20Z,ricea,,10
+497569629,true,Tracking issue for Web IDL async iterator support,https://github.com/whatwg/streams/issues/1017,2019-09-24T09:30:00Z,2020-09-22T09:12:03Z,domenic,,1
+493183235,false,Provide a way to communicate the current optimal write size,https://github.com/whatwg/streams/issues/1016,2019-09-13T07:46:33Z,2019-09-13T07:46:55Z,ricea,important unsolved question,2
+493177373,true,Make underlying sink writes abortable,https://github.com/whatwg/streams/issues/1015,2019-09-13T07:30:28Z,2021-06-24T18:01:28Z,ricea,,4
+493174406,true,Clarify that a pull source doesn't need to wait in pull(),https://github.com/whatwg/streams/issues/1014,2019-09-13T07:21:58Z,2021-05-27T21:10:39Z,ricea,,0
+486800325,true,"Stop using ""transforming""",https://github.com/whatwg/streams/issues/1013,2019-08-29T07:58:44Z,2020-04-13T21:48:26Z,annevk,,1
+485774646,true,"[Question] how do you ""unpipe""?",https://github.com/whatwg/streams/issues/1012,2019-08-27T12:18:44Z,2019-08-27T14:56:31Z,jimmywarting,,0
+478686974,true,"What would happen if the data stream ""pauses"" then continues (see mode detail below)",https://github.com/whatwg/streams/issues/1008,2019-08-08T21:05:01Z,2019-08-27T12:01:54Z,SaoYan,,0
+475889184,true,Should there be a WritableStream.close() method?,https://github.com/whatwg/streams/issues/1007,2019-08-01T21:05:58Z,2019-10-18T03:13:44Z,mkruisselbrink,,0
+465560132,true,Specifying QueuingStrategies in WebIDL,https://github.com/whatwg/streams/issues/1005,2019-07-09T04:16:41Z,2020-06-11T15:42:25Z,ricea,,0
+463877211,true,Reconnecting a Stream after creating it - possible?,https://github.com/whatwg/streams/issues/1004,2019-07-03T17:42:12Z,2020-06-26T16:18:18Z,alvestrand,,0
+462219760,false,Add support for bulk read operation,https://github.com/whatwg/streams/issues/1003,2019-06-28T21:51:23Z,2019-07-11T05:07:28Z,vasilvv,,0
+442727117,false,DetachArrayBuffer can throw,https://github.com/whatwg/streams/issues/1001,2019-05-10T13:44:09Z,2019-05-10T13:44:22Z,domenic,byte streams,0
+440141219,true,ReadableStream: releaseLock cannot be called if read() resolves,https://github.com/whatwg/streams/issues/1000,2019-05-03T17:18:00Z,2019-05-04T19:38:26Z,Borewit,,0
+413107323,true,ReadableStreamTee pulls too many chunks,https://github.com/whatwg/streams/issues/996,2019-02-21T20:22:22Z,2019-04-02T05:37:22Z,MattiasBuelens,,0
+411891070,true,Semantics of |closedOrErrored| variable in ReadableStreamTee are odd,https://github.com/whatwg/streams/issues/991,2019-02-19T12:05:59Z,2019-02-21T23:01:28Z,ricea,,0
+410777069,true,better-assert is broken,https://github.com/whatwg/streams/issues/985,2019-02-15T13:47:34Z,2019-02-25T16:55:25Z,ricea,reference implementation,0
+407671544,false,Possible feature discussion: opaque streams,https://github.com/whatwg/streams/issues/983,2019-02-07T12:16:24Z,2019-02-14T14:21:01Z,ricea,,0
+406389780,false,"""Let returnValue be the result of performing con...""",https://github.com/whatwg/streams/issues/982,2019-02-04T15:44:52Z,2019-02-05T04:52:44Z,ricea,clarification,0
+405258963,false,"""npm run coverage"" is no longer working",https://github.com/whatwg/streams/issues/981,2019-01-31T14:00:42Z,2019-02-04T10:03:32Z,ricea,reference implementation,0
+398079007,true,Teeing dynamically,https://github.com/whatwg/streams/issues/979,2019-01-11T00:36:20Z,2019-01-16T00:47:33Z,mpolichette,,0
+395348339,true,Cloning errors for transferable streams,https://github.com/whatwg/streams/issues/978,2019-01-02T19:11:39Z,2020-06-23T12:44:49Z,domenic,,1
+390554481,false,The cloned writable problem,https://github.com/whatwg/streams/issues/976,2018-12-13T07:41:41Z,2018-12-13T08:05:14Z,ricea,writable streams|piping,2
+390458622,true,SetUpReadableByteStreamController initializes [[pendingPullIntos]] twice,https://github.com/whatwg/streams/issues/975,2018-12-12T23:50:54Z,2019-02-20T06:17:06Z,jorendorff,,0
+382691024,true,Constructor specification is unclear,https://github.com/whatwg/streams/issues/965,2018-11-20T14:34:23Z,2020-06-11T15:42:26Z,jorendorff,,0
+381310312,true,forAuthorCode can be a bit per reader,https://github.com/whatwg/streams/issues/964,2018-11-15T19:40:30Z,2019-02-18T13:20:27Z,jorendorff,,1
+378490771,true,Switching to Web IDL,https://github.com/whatwg/streams/issues/963,2018-11-07T22:10:18Z,2020-06-11T15:42:24Z,domenic,impacts documentation,17
+378191622,true,Missing test coverage for destructuring arguments and GetV.,https://github.com/whatwg/streams/issues/962,2018-11-07T08:44:59Z,2020-06-26T16:16:37Z,ricea,tests,0
+378135284,true,Make pipeThough() non-generic?,https://github.com/whatwg/streams/issues/961,2018-11-07T04:08:08Z,2018-11-27T14:27:18Z,ricea,,0
+377989395,false,Idiomatic Way to Explicitly Tell an Underlying Transform Stream to Flush to the Sink,https://github.com/whatwg/streams/issues/960,2018-11-06T19:01:52Z,2021-11-18T00:30:00Z,sebmarkbage,acknowledged missing feature,6
+370048910,true,Demos need updating to use TextDecoderStream,https://github.com/whatwg/streams/issues/959,2018-10-15T08:19:12Z,2018-12-06T08:54:39Z,ricea,editorial,0
+369972203,true,Using fetch streams API without recursion,https://github.com/whatwg/streams/issues/958,2018-10-15T02:07:11Z,2018-12-10T11:17:45Z,qacollective,,0
+363446089,true,WHATWG icon is broken in Chrome in combination with ServiceWorker,https://github.com/whatwg/streams/issues/955,2018-09-25T07:32:30Z,2018-10-18T12:41:39Z,ricea,,0
+797393260,true,The link text for creating a new readable stream is awkward.,https://github.com/whatwg/streams/issues/1104,2018-09-07T15:43:00Z,2021-02-01T16:58:49Z,jakearchibald,,0
+355879728,true,Question: Should Streams have the prototype for `Symbol.toStringTag` and `toString` declared?,https://github.com/whatwg/streams/issues/952,2018-08-31T08:03:32Z,2020-06-11T15:42:25Z,ThisIsMissEm,,1
+345769560,true,Behaviour of returning a rejection from transformAlgorithm is surprising,https://github.com/whatwg/streams/issues/946,2018-07-30T13:57:36Z,2018-08-02T09:45:03Z,ricea,,0
+344009990,false,Does pipeTo() wait for writes to complete even when there are no writes?,https://github.com/whatwg/streams/issues/945,2018-07-24T12:12:32Z,2018-08-09T22:39:10Z,ricea,piping|clarification,0
+340907313,false,Participation agreement requirement non-obvious,https://github.com/whatwg/streams/issues/942,2018-07-13T07:12:25Z,2018-07-13T07:12:25Z,ricea,,0
+339866085,true,WritableStreamDefaultWriterGetDesiredSize(writer) cannot in general be used to determine size of chunks read by pipeTo,https://github.com/whatwg/streams/issues/938,2018-07-10T14:23:38Z,2019-02-21T22:55:43Z,ricea,queuing strategies|byte streams|piping,0
+336650333,true,"In pipeTo spec, the order of checking for shuttingDown disagrees with ref. impl.",https://github.com/whatwg/streams/issues/934,2018-06-28T14:39:19Z,2018-07-11T18:38:10Z,zenmumbler,editorial|piping,0
+335307657,true,Setting Object.prototype.then permits interfering with pipeTo() internals,https://github.com/whatwg/streams/issues/933,2018-06-25T08:29:40Z,2018-07-12T04:29:35Z,ricea,piping,0
+333145131,true,Permit freeing underlying source / sink / transformer after close,https://github.com/whatwg/streams/issues/932,2018-06-18T06:18:42Z,2018-07-31T13:32:05Z,ricea,,0
+327364047,true,A couple Bikeshed warnings,https://github.com/whatwg/streams/issues/929,2018-05-29T15:08:23Z,2018-10-05T21:09:46Z,domenic,editorial,0
+313579333,true,Numeric conversion is not done on autoAllocateChunkSize,https://github.com/whatwg/streams/issues/921,2018-04-12T05:12:00Z,2018-05-14T15:05:37Z,ricea,byte streams,0
+311126409,true,What are the preconditions for ReadableStreamDefaultControllerError?,https://github.com/whatwg/streams/issues/920,2018-04-04T08:09:21Z,2018-05-14T15:16:24Z,ricea,editorial,0
+310761194,true,Assert that desiredSize is non-null in ReadableStreamDefaultControllerShouldCallPull,https://github.com/whatwg/streams/issues/919,2018-04-03T09:32:36Z,2018-05-23T07:08:06Z,ricea,,0
+310089438,true,ReadableStream constructor: standard text and reference implementation doesn't match,https://github.com/whatwg/streams/issues/917,2018-03-30T15:07:50Z,2018-05-01T13:01:12Z,ricea,reference implementation|tests,0
+309801057,true,"""reasonString""",https://github.com/whatwg/streams/issues/915,2018-03-29T15:29:50Z,2018-12-10T05:34:49Z,domenic,good first issue,0
+309357165,true,Note for ReadableStreamDefaultReader.close is confusing,https://github.com/whatwg/streams/issues/912,2018-03-28T13:02:01Z,2018-03-29T10:36:27Z,surma,,0
+303807433,true,Consider better styling for API intro notes,https://github.com/whatwg/streams/issues/907,2018-03-09T11:15:46Z,2020-06-11T15:42:25Z,domenic,editorial,0
+303704986,false,"pipeTo says ""in parallel"", but that isn't really right",https://github.com/whatwg/streams/issues/905,2018-03-09T02:45:23Z,2018-03-09T02:46:10Z,domenic,piping,0
+303361700,true,Should writableStream.abort() reject on already-errored streams?,https://github.com/whatwg/streams/issues/900,2018-03-08T05:31:17Z,2018-03-08T15:25:32Z,domenic,writable streams,0
+303024729,true,Propagate errors from writableStream.abort(reason),https://github.com/whatwg/streams/issues/896,2018-03-07T09:33:15Z,2018-03-09T07:57:53Z,domenic,transform streams|writable streams,0
+299163271,true,Interface for push based ReadableStream?,https://github.com/whatwg/streams/issues/889,2018-02-21T23:06:41Z,2018-02-22T01:40:03Z,mrkurt,,0
+297901524,true,"Use sentence case, not title case, for headings",https://github.com/whatwg/streams/issues/886,2018-02-16T19:54:13Z,2018-03-06T11:54:38Z,domenic,editorial|good first issue,0
+297900769,true,Make the table of contents more useful/less dense,https://github.com/whatwg/streams/issues/885,2018-02-16T19:51:37Z,2020-06-11T15:42:25Z,domenic,editorial|good first issue,1
+297274918,true,Pipe completes before all writes are finished with preventClose = true,https://github.com/whatwg/streams/issues/882,2018-02-14T22:54:53Z,2018-02-27T14:34:43Z,MattiasBuelens,,0
+295903825,true,Write tests for the fixes in #870,https://github.com/whatwg/streams/issues/879,2018-02-09T15:15:26Z,2018-02-19T14:52:05Z,ricea,tests,0
+294952341,true,Readable byte stream must call pull after receiving new chunk,https://github.com/whatwg/streams/issues/877,2018-02-06T23:35:19Z,2018-03-22T11:26:28Z,MattiasBuelens,byte streams,0
+293328983,false,Provide a way for the underlying sink to signal write progress?,https://github.com/whatwg/streams/issues/876,2018-01-31T22:06:03Z,2018-03-22T17:07:27Z,domenic,missing feature?|writable streams,0
+293212204,true,"""await writer.write(bytes);"" in example seems wrong",https://github.com/whatwg/streams/issues/874,2018-01-31T15:59:01Z,2018-02-22T21:31:03Z,domenic,,0
+292409472,true,"Add ""was ever locked"" flag for Encoding standard?",https://github.com/whatwg/streams/issues/873,2018-01-29T13:38:03Z,2018-03-27T04:07:53Z,ricea,missing feature?,0
+288326361,true,Bikeshed warnings,https://github.com/whatwg/streams/issues/869,2018-01-13T12:44:34Z,2018-02-20T20:20:13Z,annevk,,1
+284594007,true,rethrowAssertionErrorRejection is broken,https://github.com/whatwg/streams/issues/865,2017-12-26T18:34:47Z,2018-03-08T04:50:12Z,MattiasBuelens,reference implementation,1
+278334140,true,Export interface definitions,https://github.com/whatwg/streams/issues/861,2017-12-01T02:05:52Z,2017-12-03T04:51:12Z,TimothyGu,,0
+274780437,true,Branch snapshot missing for algorithm-slots branch,https://github.com/whatwg/streams/issues/858,2017-11-17T07:53:46Z,2017-12-04T13:46:12Z,ricea,,0
+273635199,true,[Question] questions about streaming-element-backpressure.js,https://github.com/whatwg/streams/issues/855,2017-11-14T01:18:46Z,2018-03-07T09:18:09Z,abdulhannanali,,0
+270512103,true,Move transform stream tests to web platform tests,https://github.com/whatwg/streams/issues/851,2017-11-02T02:25:58Z,2017-11-13T03:10:59Z,domenic,transform streams,2
+270234226,true,Constructing ReadableStream and WritableStream in TransformStream constructor,https://github.com/whatwg/streams/issues/850,2017-11-01T08:36:53Z,2017-12-04T08:03:36Z,ricea,transform streams,0
+269337747,true,[Question] I created a project that explains the spec,https://github.com/whatwg/streams/issues/848,2017-10-28T18:09:15Z,2017-11-17T01:05:34Z,TejasQ,,0
+266972838,true,Need to define the current Realm for pipeTo operations,https://github.com/whatwg/streams/issues/845,2017-10-19T20:10:49Z,2018-03-09T10:38:25Z,bzbarsky,piping,2
+264459675,true,[META] Integrate with pr-preview,https://github.com/whatwg/streams/issues/836,2017-10-11T05:14:23Z,2017-10-16T11:12:09Z,ricea,editorial,0
+262731021,false,Use [[UpperCamelCase]] in internal slots,https://github.com/whatwg/streams/issues/825,2017-10-04T10:01:26Z,2018-01-12T20:41:46Z,anssiko,editorial,2
+262722619,true,Note on ReadableStreamDefaultControllerEnqueue is inaccurate,https://github.com/whatwg/streams/issues/824,2017-10-04T09:32:22Z,2017-10-11T20:52:35Z,ricea,,0
+262422442,true,Stop controller.error() and controller.terminate() throwing in unexpected states,https://github.com/whatwg/streams/issues/822,2017-10-03T13:14:10Z,2017-10-06T18:41:19Z,ricea,transform streams,0
+262196312,true,Is it bad that readableController.error() throws but writableController.error() no-ops in non-readable/writable states?,https://github.com/whatwg/streams/issues/821,2017-10-02T19:20:28Z,2018-03-08T06:25:33Z,domenic,writable streams,0
+261393791,true,"Make it easy to create streams with no underlying source/sink/transformer objects, from specs",https://github.com/whatwg/streams/issues/813,2017-09-28T17:08:58Z,2017-11-29T23:56:14Z,domenic,editorial,1
+259848857,true,Some assert()s have no description,https://github.com/whatwg/streams/issues/807,2017-09-22T15:17:25Z,2017-10-10T08:29:14Z,ricea,reference implementation,0
+259780911,true,TransformStream: use throw instead of Promise.reject() in promise handlers,https://github.com/whatwg/streams/issues/804,2017-09-22T11:07:55Z,2017-10-03T13:21:52Z,ricea,transform streams,0
+257757909,true,TransformStream: remove [[errored]] and [[storedError]] slots,https://github.com/whatwg/streams/issues/796,2017-09-14T15:18:07Z,2017-09-22T11:36:27Z,ricea,transform streams,1
+256221308,false,reader.read() inside strategy.size() doesn't work,https://github.com/whatwg/streams/issues/794,2017-09-08T11:13:43Z,2018-05-18T12:29:51Z,ricea,,0
+253665844,true,Headers have become typographically ugly,https://github.com/whatwg/streams/issues/781,2017-08-29T13:43:47Z,2017-09-08T01:46:49Z,domenic,editorial,0
+253351559,true,"""Set this.[[associatedReadableByteStreamControll...""",https://github.com/whatwg/streams/issues/780,2017-08-28T14:43:23Z,2017-09-06T07:26:41Z,ricea,byte streams,0
+253021770,true,ReadableStream should be an async iterable,https://github.com/whatwg/streams/issues/778,2017-08-25T21:24:55Z,2024-04-24T08:48:09Z,mariusGundersen,acknowledged missing feature,20
+252871315,true,Change default readableStrategy HWM to 0?,https://github.com/whatwg/streams/issues/777,2017-08-25T11:20:35Z,2017-09-26T18:32:14Z,ricea,transform streams,0
+252601459,true,Reorganise TransformStream slots and abstract operations,https://github.com/whatwg/streams/issues/776,2017-08-24T13:27:54Z,2017-09-28T17:29:55Z,ricea,transform streams,0
+252183685,true,Normative requirements for constructor names?,https://github.com/whatwg/streams/issues/775,2017-08-23T07:17:30Z,2017-09-14T05:14:00Z,ricea,,0
+251992211,true,What should the behaviour of controller.close() be?,https://github.com/whatwg/streams/issues/774,2017-08-22T15:13:20Z,2017-10-03T13:20:33Z,ricea,transform streams,0
+251851458,true,Add explicit tests of the strategy arguments to TransformStream,https://github.com/whatwg/streams/issues/770,2017-08-22T06:31:59Z,2017-09-08T06:25:50Z,ricea,transform streams,0
+251716357,true,Make the abstract shorter,https://github.com/whatwg/streams/issues/769,2017-08-21T16:53:12Z,2017-08-29T13:45:49Z,domenic,documentation,1
+251689995,true,TransformStream does not propagate the argument passed to cancel,https://github.com/whatwg/streams/issues/768,2017-08-21T15:15:47Z,2017-08-25T21:30:06Z,ricea,transform streams,0
+251437665,true,What is the expected behaviour of .pipeThrough()?,https://github.com/whatwg/streams/issues/765,2017-08-19T17:08:50Z,2017-09-08T01:35:43Z,guest271314,,0
+247175403,true,Reading last chunk from StreamReader,https://github.com/whatwg/streams/issues/760,2017-08-01T19:27:25Z,2017-08-01T19:31:00Z,DanielBaulig,,0
+245409458,true,Link [[CancelSteps]] and [[PullSteps]],https://github.com/whatwg/streams/issues/758,2017-07-25T13:54:51Z,2017-09-08T05:15:25Z,annevk,editorial,0
+245216762,false,Could a byte stream read directly into and out of a SAB (w/o transfer)?,https://github.com/whatwg/streams/issues/757,2017-07-24T21:37:53Z,2025-08-15T01:15:02Z,lukewagner,byte streams,3
+245096240,true,pipeThrough(): complain about undefined args?,https://github.com/whatwg/streams/issues/756,2017-07-24T14:20:48Z,2017-08-19T17:18:32Z,ricea,piping,0
+244899044,true,WritableStream feedback ?,https://github.com/whatwg/streams/issues/755,2017-07-23T09:22:42Z,2017-09-08T02:20:31Z,lifaon74,writable streams,0
+244822133,true,Why does call to pipeThrough throw Uncaught TypeError: Cannot convert undefined or null to object?,https://github.com/whatwg/streams/issues/754,2017-07-22T04:02:28Z,2017-08-19T16:15:49Z,guest271314,piping,0
+244663798,true,ReadableByteStreamControllerPullInto should always transfer the given buffer,https://github.com/whatwg/streams/issues/752,2017-07-21T13:08:50Z,2017-09-22T11:59:49Z,tschneidereit,byte streams,0
+244342297,true,Callsites of TransferArrayBuffer don't all ensure the buffer isn't detached,https://github.com/whatwg/streams/issues/751,2017-07-20T12:22:24Z,2017-09-22T11:59:49Z,tschneidereit,byte streams,0
+232699413,true,RFC: Review pipes.js (a Highland.js inspired utility library for web streams),https://github.com/whatwg/streams/issues/748,2017-05-31T21:18:43Z,2018-03-07T09:24:16Z,creatorrr,,0
+230468392,true,Reference to CopyDataBlockBytes,https://github.com/whatwg/streams/issues/746,2017-05-22T17:40:24Z,2017-05-24T07:55:24Z,rombel,,0
+229386384,true,Define generic operation for GetDesiredSize?,https://github.com/whatwg/streams/issues/745,2017-05-17T15:09:28Z,2023-12-13T07:28:08Z,rombel,potential simplification|editorial,0
+227547292,true,ReadableStreamDefaultController seems redundant,https://github.com/whatwg/streams/issues/743,2017-05-10T02:03:05Z,2018-03-07T09:23:58Z,kentonv,,0
+225048675,false,Make sure ReadableByteStream's respond() works for all with/without (BYOB)Reader,https://github.com/whatwg/streams/issues/742,2017-04-28T11:02:20Z,2017-08-17T05:46:15Z,tyoshino,byte streams,0
+224991207,true,"""At this point in time the division of work betw...""",https://github.com/whatwg/streams/issues/741,2017-04-28T06:28:47Z,2017-09-15T10:36:37Z,ricea,editorial|writable streams,0
+224990814,true,"""2.4. Pipe Chains and Backpressure""",https://github.com/whatwg/streams/issues/740,2017-04-28T06:25:55Z,2017-09-15T11:01:31Z,ricea,editorial,0
+224979710,true,do chunk boundaries have to be preserved through to underlying sink?,https://github.com/whatwg/streams/issues/739,2017-04-28T04:55:32Z,2017-09-22T11:06:32Z,dbaron,writable streams,0
+223399327,true,pipeTo() text appears to say all queued writable chunks must be written on readable error,https://github.com/whatwg/streams/issues/738,2017-04-21T14:24:49Z,2018-02-27T14:34:43Z,ricea,piping,0
+221761419,false,Calling sink.abort() after a sink method rejection could lead to double cleanup,https://github.com/whatwg/streams/issues/735,2017-04-14T07:51:27Z,2017-04-18T09:54:11Z,ricea,writable streams,0
+221534786,true,"""stream.[[writeRequest]]""",https://github.com/whatwg/streams/issues/734,2017-04-13T11:27:44Z,2017-04-14T14:05:41Z,ricea,writable streams,0
+221534414,true,"""WritableStreamStartErroring(stream).""",https://github.com/whatwg/streams/issues/733,2017-04-13T11:25:54Z,2017-04-14T14:05:39Z,ricea,writable streams,0
+221115267,true,Exact normative requirements for interface definitions are unclear,https://github.com/whatwg/streams/issues/732,2017-04-12T00:09:06Z,2018-11-07T22:11:22Z,othermaciej,editorial,0
+220644546,true,Performance problem when transferring an ArrayBuffer,https://github.com/whatwg/streams/issues/731,2017-04-10T13:28:55Z,2017-04-11T02:57:08Z,neovov,,0
+219918805,true,"new ReadableStream({type: 'bytes'}, new CountQueuingStrategy({highWaterMark: 5})) is weird",https://github.com/whatwg/streams/issues/729,2017-04-06T14:32:07Z,2017-11-17T04:19:19Z,ricea,byte streams,2
+219879659,false,Piping should not try to write if there is an error queued,https://github.com/whatwg/streams/issues/728,2017-04-06T12:17:17Z,2017-04-06T12:24:17Z,domenic,writable streams|piping,0
+219871993,true,Reference implementation pipeTo() calls WritableStreamAbort() asynchronously when ReadableStream is already errored,https://github.com/whatwg/streams/issues/727,2017-04-06T11:45:38Z,2017-04-06T13:29:31Z,ricea,reference implementation|piping,0
+219517713,true,Editorial: make close() return this.[[closedPromise]],https://github.com/whatwg/streams/issues/724,2017-04-05T09:14:45Z,2017-04-06T05:51:02Z,domenic,editorial|writable streams,0
+217194934,true,"writer.desiredSize ""will be null if the stream is errored""",https://github.com/whatwg/streams/issues/708,2017-03-27T10:01:17Z,2017-03-28T07:19:36Z,ricea,editorial|writable streams,1
+215557566,true,Update for HTML structured clone changes,https://github.com/whatwg/streams/issues/701,2017-03-20T21:15:23Z,2017-04-05T05:55:44Z,domenic,,0
+215129756,true,Should writer.write() reject with the stored error when the writable stream is errored?,https://github.com/whatwg/streams/issues/700,2017-03-17T21:43:41Z,2017-03-28T10:51:46Z,domenic,writable streams,0
+213371154,true,Merge WritableStream tests from close-then-abort branch,https://github.com/whatwg/streams/issues/694,2017-03-10T15:30:00Z,2017-03-28T11:34:58Z,tyoshino,reference implementation|writable streams,0
+212959654,true,"Inconsistency between abort() then error() and error() then abort(), with ongoing close()/write()",https://github.com/whatwg/streams/issues/693,2017-03-09T07:48:30Z,2017-03-31T12:18:48Z,tyoshino,writable streams,0
+212958355,true,Decide whether or not to merge inFlightCloseRequest and closeRequest,https://github.com/whatwg/streams/issues/692,2017-03-09T07:40:38Z,2017-03-23T08:41:49Z,tyoshino,editorial|writable streams,0
+212933025,true,How much latitude should implementations have in looking up transformer.transform()?,https://github.com/whatwg/streams/issues/691,2017-03-09T04:33:32Z,2017-12-06T09:53:22Z,ricea,transform streams,0
+211577685,true,Add identifier highlighting similar to the ES spec,https://github.com/whatwg/streams/issues/687,2017-03-03T02:24:55Z,2020-06-11T15:42:26Z,domenic,editorial,1
+209843422,true,Access to reader.readIntoRequests without checking reader type,https://github.com/whatwg/streams/issues/686,2017-02-23T18:23:15Z,2017-04-21T21:13:07Z,rombel,,0
+207743557,true,Are abstract operations supposed to be in alphabetical order?,https://github.com/whatwg/streams/issues/684,2017-02-15T09:01:31Z,2020-06-11T15:42:26Z,ricea,editorial,0
+207716147,true,sink.abort() can be called during sink.start(),https://github.com/whatwg/streams/issues/683,2017-02-15T06:05:28Z,2017-03-17T21:16:01Z,ricea,in progress|writable streams,0
+207491078,true,"""If returnValue is an abrupt completion, return ...""",https://github.com/whatwg/streams/issues/682,2017-02-14T11:35:11Z,2017-02-15T19:22:15Z,ricea,editorial,0
+205488762,true,"Export the ""error the stream"" concept?",https://github.com/whatwg/streams/issues/679,2017-02-06T05:02:03Z,2023-12-13T07:26:49Z,ricea,editorial,0
+205487407,true,WebIDL syntax for parameterized streams?,https://github.com/whatwg/streams/issues/678,2017-02-06T04:46:17Z,2017-12-04T14:02:38Z,ricea,,0
+203168555,true,strategy.size() can reenter WritableStream logic before its caller finishes all the work,https://github.com/whatwg/streams/issues/675,2017-01-25T17:25:18Z,2017-02-17T10:45:52Z,tyoshino,writable streams,0
+203136893,true,"Set ""Inline Github Issues bikeshed"" option to appropriate value",https://github.com/whatwg/streams/issues/674,2017-01-25T15:38:24Z,2017-01-25T16:11:18Z,tyoshino,,0
+203136136,true,Update worker excluding code in run-web-platform-tests.js,https://github.com/whatwg/streams/issues/673,2017-01-25T15:35:47Z,2017-01-25T16:11:30Z,tyoshino,reference implementation,0
+202757702,true,Assign names to the Records used in the standard,https://github.com/whatwg/streams/issues/670,2017-01-24T08:50:46Z,2020-06-25T16:53:31Z,ricea,editorial,1
+202752712,true,"Don't touch controller directly in WritableStreamDefaultWriterRelease() ",https://github.com/whatwg/streams/issues/669,2017-01-24T08:25:11Z,2017-03-10T15:58:30Z,tyoshino,writable streams,0
+202530594,true,"Remove ""Wait until any ongoing write finishes (i.e. the corresponding promises settle)."" from pipeTo standard text",https://github.com/whatwg/streams/issues/668,2017-01-23T13:15:01Z,2017-04-06T09:19:59Z,ricea,editorial|piping,1
+202525456,true,`read()` doesn't reject if queue is non-empty and pull() throws,https://github.com/whatwg/streams/issues/667,2017-01-23T12:50:01Z,2017-01-24T18:49:15Z,ricea,,2
+201527987,true,write.https.html test is slow with full memory checking,https://github.com/whatwg/streams/issues/660,2017-01-18T10:05:08Z,2017-01-20T20:00:22Z,ricea,,0
+201501200,false,Tests for optimised implementations of piping,https://github.com/whatwg/streams/issues/659,2017-01-18T07:47:36Z,2017-01-18T07:47:36Z,ricea,piping,0
+201210303,true,Is there an abstract operation for pipeTo?,https://github.com/whatwg/streams/issues/658,2017-01-17T08:57:57Z,2017-01-25T17:15:10Z,yutakahirano,piping,0
+200971657,true,WritableStream: .closed not rejected/resolved after pending close completion if aborted,https://github.com/whatwg/streams/issues/656,2017-01-16T09:45:00Z,2017-01-25T07:28:53Z,tyoshino,writable streams,0
+200934974,true,Meta: Need an awesome favicon,https://github.com/whatwg/streams/issues/654,2017-01-16T05:37:38Z,2017-01-19T12:12:10Z,ricea,editorial,0
+200933044,true,pipeTo(): the stream queues should be used,https://github.com/whatwg/streams/issues/653,2017-01-16T05:15:34Z,2017-03-31T06:52:21Z,ricea,piping,0
+200929884,true,Should pipeThrough() mark the promise from pipeTo() as handled?,https://github.com/whatwg/streams/issues/652,2017-01-16T04:38:28Z,2017-01-20T19:58:42Z,ricea,piping,0
+200242330,true,Constructing a readable byte stream can reach code that assumes a default reader,https://github.com/whatwg/streams/issues/646,2017-01-11T23:55:54Z,2017-01-18T09:52:11Z,domenic,,0
+200005171,true,pipeTo() algorithm shuts down too early on readable close()?,https://github.com/whatwg/streams/issues/644,2017-01-11T05:12:44Z,2017-04-06T13:29:30Z,ricea,piping,0
+199121912,true,"Redundant step: ""Assert: stream.[[state]] is ""closing"" or ""error...""",https://github.com/whatwg/streams/issues/639,2017-01-06T04:26:43Z,2017-01-25T07:26:54Z,tyoshino,,0
+197041948,false,"define semantics of {source,sink}.finally()",https://github.com/whatwg/streams/issues/636,2016-12-21T21:53:51Z,2024-11-08T14:15:59Z,isonmad,missing feature?,1
+196174610,true,"Consolidate ""closing"" state and [[pendingClosePromise]]?",https://github.com/whatwg/streams/issues/633,2016-12-16T23:12:23Z,2017-03-10T15:48:04Z,domenic,writable streams,0
+196174486,true,Do not allow abort() to interrupt a closing writable stream?,https://github.com/whatwg/streams/issues/632,2016-12-16T23:11:21Z,2017-03-10T15:54:32Z,domenic,writable streams,0
+195464572,true,Start work on a polyfill?,https://github.com/whatwg/streams/issues/630,2016-12-14T08:02:47Z,2016-12-19T14:38:44Z,creatorrr,,3
+195146729,false,alert underlyingSink when [[strategySize]]() fails,https://github.com/whatwg/streams/issues/628,2016-12-13T02:59:39Z,2017-03-28T08:15:20Z,isonmad,writable streams,0
+193070111,true,"Reference defining ""transforming [promise] by a fulfillment handler"" ?",https://github.com/whatwg/streams/issues/622,2016-12-02T09:26:52Z,2017-01-23T09:19:57Z,ricea,editorial,0
+191630735,false,us.abort() is not called if us.write() fails,https://github.com/whatwg/streams/issues/620,2016-11-25T06:05:14Z,2017-03-28T08:15:19Z,ricea,writable streams,0
+190693681,false,"""Wait until any ongoing write finishes (i.e. the...""",https://github.com/whatwg/streams/issues/618,2016-11-21T11:46:34Z,2016-11-29T06:00:49Z,ricea,piping,0
+190679090,true,Note about underlyingSink close() method is misleading,https://github.com/whatwg/streams/issues/617,2016-11-21T10:42:40Z,2017-01-06T20:20:07Z,ricea,writable streams,0
+190622969,false,TransformStream byte streams,https://github.com/whatwg/streams/issues/616,2016-11-21T05:31:45Z,2025-08-19T06:41:30Z,ricea,important unsolved question|transform streams,0
+189677930,true,Change directory listing order,https://github.com/whatwg/streams/issues/614,2016-11-16T11:39:30Z,2016-11-16T23:38:31Z,annevk,documentation,0
+189257120,true,Aborting a writable stream should not abort writes in progress,https://github.com/whatwg/streams/issues/611,2016-11-14T23:33:28Z,2017-01-06T20:19:53Z,domenic,writable streams,0
+188223761,true,Closing the controller with a pipe,https://github.com/whatwg/streams/issues/606,2016-11-09T11:22:56Z,2016-11-09T21:55:46Z,neovov,,0
+187444506,false,"Cloning (not teeing) a readable stream, via controller tricks",https://github.com/whatwg/streams/issues/599,2016-11-04T21:41:27Z,2016-11-24T08:03:52Z,domenic,important unsolved question,2
+186923934,true,Why are [[writeRequests]] and [[queue]] separate?,https://github.com/whatwg/streams/issues/589,2016-11-02T21:23:05Z,2016-12-03T01:13:38Z,isonmad,editorial|writable streams,0
+186768119,true,"Editorial: ""return undefined."" vs. ""return""",https://github.com/whatwg/streams/issues/587,2016-11-02T10:50:29Z,2016-11-15T04:34:07Z,ricea,editorial,0
+186766990,true,Should ReadableStreamDefaultReader be exposed?,https://github.com/whatwg/streams/issues/586,2016-11-02T10:44:57Z,2020-06-11T15:42:25Z,jakearchibald,,0
+186758939,true,"""non-negative"" or ""nonnegative"" ?",https://github.com/whatwg/streams/issues/585,2016-11-02T10:07:45Z,2016-11-14T23:55:03Z,ricea,editorial,0
+186263257,true,"""Set totalSize to totalSize + pair.[[size]].""",https://github.com/whatwg/streams/issues/582,2016-10-31T11:39:41Z,2017-02-14T22:30:27Z,ricea,,0
+185916148,true,Cancelling a pipe,https://github.com/whatwg/streams/issues/576,2016-10-28T12:54:21Z,2016-11-29T06:03:24Z,neovov,piping,0
+185750145,false,batched TransformStream transform()?,https://github.com/whatwg/streams/issues/574,2016-10-27T18:49:12Z,2016-11-02T20:27:25Z,isonmad,transform streams,0
+185578013,true,TransformStream backpressure test,https://github.com/whatwg/streams/issues/569,2016-10-27T05:41:22Z,2017-09-28T13:26:52Z,ricea,transform streams,0
+185323496,true,"""it can return a promise"" -> actually a thenable",https://github.com/whatwg/streams/issues/566,2016-10-26T08:05:56Z,2016-10-28T21:44:37Z,ricea,editorial,0
+185288732,true,Default transform() method should be the identity transform,https://github.com/whatwg/streams/issues/565,2016-10-26T03:29:47Z,2017-08-23T05:45:38Z,ricea,transform streams,0
+185097348,true,"Link ""is a valid property key"" to JS spec",https://github.com/whatwg/streams/issues/560,2016-10-25T12:05:38Z,2016-10-26T01:29:48Z,ricea,,0
+185079989,true,"""PromiseInvokeOrNoop"" should be defined in terms of InvokeOrNoop",https://github.com/whatwg/streams/issues/559,2016-10-25T10:39:06Z,2016-10-26T01:29:48Z,ricea,,0
+185043689,true,pipeTo(): Rationale for propagating an error happened during error propagation to pipePromise,https://github.com/whatwg/streams/issues/558,2016-10-25T07:54:30Z,2016-11-29T06:03:52Z,tyoshino,piping,0
+185032896,true,pipeTo(): Rationale for not making shutdown() no-op when shuttingDown is set,https://github.com/whatwg/streams/issues/557,2016-10-25T06:51:40Z,2016-11-29T06:03:52Z,tyoshino,piping,0
+184476095,true,"""Let controller be this.""",https://github.com/whatwg/streams/issues/552,2016-10-21T12:42:27Z,2016-10-24T06:54:17Z,ricea,,0
+184468749,false,lowWaterMark or fixed-size chunks for TransformStream?,https://github.com/whatwg/streams/issues/551,2016-10-21T11:59:53Z,2017-02-17T10:09:02Z,neovov,transform streams,0
+184151129,false,Tests contain non-zero timers,https://github.com/whatwg/streams/issues/548,2016-10-20T07:08:29Z,2017-11-10T08:15:31Z,ricea,,1
+184002133,true,Marking promise rejections as handled,https://github.com/whatwg/streams/issues/547,2016-10-19T15:52:24Z,2016-11-15T03:57:27Z,domenic,,1
+183981945,true,"""Set chunkSize to Call(stream.[[strategySize]], ...""",https://github.com/whatwg/streams/issues/546,2016-10-19T14:42:39Z,2016-10-19T15:53:15Z,fd,,0
+183640262,true,"""If stream.[[readableStreamController]] is not u...""",https://github.com/whatwg/streams/issues/543,2016-10-18T09:54:33Z,2016-10-19T20:15:16Z,ricea,,0
+183241092,true,Make properties non-configurable,https://github.com/whatwg/streams/issues/541,2016-10-16T00:24:17Z,2016-10-16T01:43:31Z,isonmad,,0
+182439036,true,Link promise-manipulating phrases to the promises guide,https://github.com/whatwg/streams/issues/532,2016-10-12T05:32:30Z,2016-10-25T18:56:18Z,ricea,editorial,0
+178056650,true,create a document from a stream,https://github.com/whatwg/streams/issues/520,2016-09-20T13:16:51Z,2017-08-20T18:40:10Z,Mouvedia,,0
+177344446,true,Pass controller to transformer methods in TransformStream,https://github.com/whatwg/streams/issues/518,2016-09-16T04:47:08Z,2016-10-12T05:19:41Z,ricea,,0
+175513793,true,getReader behaviour with empty mode,https://github.com/whatwg/streams/issues/517,2016-09-07T14:15:11Z,2016-09-09T19:13:26Z,rombel,,0
+175219429,true,Document difference of lock between writable and readable,https://github.com/whatwg/streams/issues/516,2016-09-06T11:03:11Z,2016-11-04T07:36:20Z,tyoshino,documentation|writable streams,0
+174818935,true,Question: what is the difference of pipeThrough and pipeTo?,https://github.com/whatwg/streams/issues/515,2016-09-02T18:18:01Z,2016-11-29T06:03:52Z,jimmywarting,documentation|piping,0
+173294214,true,piping issue,https://github.com/whatwg/streams/issues/509,2016-08-25T19:54:45Z,2016-10-28T21:47:05Z,jimmywarting,reference implementation,0
+171844902,true,Backpressure from tee-ing and slow/pending consumer,https://github.com/whatwg/streams/issues/506,2016-08-18T08:26:49Z,2016-10-18T19:13:58Z,bitinn,,0
+169315061,true,Make writer.desiredSize return 0 for closed writable streams,https://github.com/whatwg/streams/issues/501,2016-08-04T08:06:04Z,2016-08-05T05:32:10Z,domenic,writable streams,0
+169300214,true,Use some logging framework,https://github.com/whatwg/streams/issues/499,2016-08-04T06:26:30Z,2017-10-10T16:47:46Z,tyoshino,reference implementation,1
+169299451,true,Argument order of transform() function (or attempt to remove done),https://github.com/whatwg/streams/issues/498,2016-08-04T06:19:41Z,2016-10-12T05:28:47Z,tyoshino,transform streams,0
+169297653,false,Brainstorming a buffer-reusing version of writable streams,https://github.com/whatwg/streams/issues/495,2016-08-04T06:02:20Z,2025-02-17T08:26:07Z,domenic,byte streams|writable streams,1
+169296644,true,"Add lint for coding style, etc.",https://github.com/whatwg/streams/issues/494,2016-08-04T05:52:28Z,2016-08-04T08:01:37Z,tyoshino,reference implementation,0
+169293481,false,Do we want to add writer.waitForDesiredSize() in addition to writer.ready?,https://github.com/whatwg/streams/issues/493,2016-08-04T05:23:13Z,2017-03-28T08:15:19Z,domenic,writable streams,1
+169292875,true,Convert writable stream tests to web platform tests format,https://github.com/whatwg/streams/issues/492,2016-08-04T05:16:32Z,2016-11-29T06:00:38Z,domenic,reference implementation|writable streams,0
+168572045,true,Fix makeReadableBackpressureByteSocketStream() to drain all the available data,https://github.com/whatwg/streams/issues/489,2016-08-01T05:54:04Z,2016-08-22T16:45:06Z,tyoshino,documentation,0
+168379635,true,Repo/package confusion,https://github.com/whatwg/streams/issues/487,2016-07-29T17:58:22Z,2016-08-01T07:46:47Z,ariutta,,0
+168060656,true,"""Web sockets do not provide any way to tell when...""",https://github.com/whatwg/streams/issues/485,2016-07-28T10:14:20Z,2016-08-04T08:06:24Z,ricea,documentation,0
+168053602,true,"""if (controller.byobRequest)""",https://github.com/whatwg/streams/issues/484,2016-07-28T09:38:34Z,2016-07-28T11:38:59Z,ricea,,0
+168052990,true,"""socket.setTCPWindowSize""",https://github.com/whatwg/streams/issues/483,2016-07-28T09:35:27Z,2016-08-01T06:03:25Z,ricea,,0
+168049049,true,"""ws.onend""",https://github.com/whatwg/streams/issues/482,2016-07-28T09:15:52Z,2016-08-01T07:44:11Z,ricea,editorial,0
+166186712,true,Broadcast ReadableStream,https://github.com/whatwg/streams/issues/481,2016-07-18T20:33:27Z,2016-07-18T20:37:03Z,amatiasq,,0
+165990743,false,Add URL.createObjectURL(stream) support,https://github.com/whatwg/streams/issues/480,2016-07-17T19:08:44Z,2025-06-17T12:25:13Z,alippai,,11
+165517726,true,Use e => t.error(e) than t.error for catching exceptions in a then-callback,https://github.com/whatwg/streams/issues/479,2016-07-14T09:29:21Z,2016-07-15T12:08:23Z,tyoshino,reference implementation,0
+165500646,true,Stack details are omitted in output of tap-spec,https://github.com/whatwg/streams/issues/478,2016-07-14T08:01:36Z,2017-12-04T14:04:17Z,tyoshino,reference implementation,0
+164075000,true,Should write() always error the stream when it rejects the promise it returned?,https://github.com/whatwg/streams/issues/476,2016-07-06T13:26:34Z,2017-02-17T22:36:44Z,tyoshino,byte streams|writable streams,0
+163925553,true,IsFiniteNonNegativeNumber() could be used in more places,https://github.com/whatwg/streams/issues/475,2016-07-05T19:20:02Z,2016-07-07T20:23:18Z,wanderview,,0
+163829914,true,[WritableStream] Locking semantics,https://github.com/whatwg/streams/issues/474,2016-07-05T11:33:03Z,2016-08-01T06:22:57Z,tyoshino,writable streams,0
+162541312,true,ReadableByteStreamControllerClose accesses first element of pendingPullIntos without checking array length,https://github.com/whatwg/streams/issues/470,2016-06-27T20:30:18Z,2016-06-28T17:38:55Z,wanderview,,0
+161754619,true,Should ReadableStreams with pull sources call pull until full?,https://github.com/whatwg/streams/issues/469,2016-06-22T18:34:38Z,2016-06-23T21:40:49Z,jplaisted,,0
+161506568,true,Internal promises that can be rejected need to be handled,https://github.com/whatwg/streams/issues/468,2016-06-21T18:23:51Z,2016-06-21T20:45:34Z,jplaisted,,0
+159514721,true,3.11.4.3. respondWithNewView(view) references `chunk`,https://github.com/whatwg/streams/issues/467,2016-06-09T21:40:17Z,2016-06-10T07:56:35Z,wanderview,,0
+157971308,true,tighten ReadableStreamReaderGenericRelease assertion,https://github.com/whatwg/streams/issues/466,2016-06-01T18:08:18Z,2016-06-28T17:40:07Z,wanderview,,0
+157837423,true,Synchronous queue draining for WritableStream,https://github.com/whatwg/streams/issues/465,2016-06-01T07:04:40Z,2016-08-04T05:46:42Z,tyoshino,writable streams,0
+157622250,true,[WritableStream] Shouldn't the state after writer.abort() be closed?,https://github.com/whatwg/streams/issues/464,2016-05-31T09:00:20Z,2016-08-04T05:34:20Z,tyoshino,writable streams,0
+157620460,true,Synchronous (or asynchronous) state probing on WritableStream,https://github.com/whatwg/streams/issues/463,2016-05-31T08:50:23Z,2016-10-24T14:45:44Z,tyoshino,writable streams,0
+157582609,true,light weight transformations,https://github.com/whatwg/streams/issues/461,2016-05-31T03:22:21Z,2018-03-07T09:28:20Z,dominictarr,transform streams,4
+156851262,true,should ReadableStreamClose() resolve BYOB reader readIntoRequests?,https://github.com/whatwg/streams/issues/455,2016-05-25T21:10:42Z,2016-11-02T20:30:20Z,wanderview,byte streams,0
+156848690,true,ReadableStreamAddReadRequest() should assert state is readable,https://github.com/whatwg/streams/issues/454,2016-05-25T20:57:41Z,2016-05-27T17:27:33Z,wanderview,,0
+156846250,true,Consider adding type assertions for all abstract operations,https://github.com/whatwg/streams/issues/453,2016-05-25T20:45:35Z,2016-08-04T05:29:42Z,wanderview,,0
+156843045,true,ReadableStreamCancel() should assert IsReadableStream(stream),https://github.com/whatwg/streams/issues/452,2016-05-25T20:29:26Z,2016-05-27T17:32:59Z,wanderview,,0
+156838718,true,PromiseInvokeOrNoop is not linked,https://github.com/whatwg/streams/issues/451,2016-05-25T20:07:27Z,2016-05-25T20:09:18Z,wanderview,,0
+156838654,true,PromiseInvokeOrNoop is not autolinking,https://github.com/whatwg/streams/issues/450,2016-05-25T20:07:06Z,2016-05-27T17:23:13Z,domenic,,0
+156341279,true,ReadableStreamTee returns undefined `branch1` and `branch2`,https://github.com/whatwg/streams/issues/449,2016-05-23T18:54:29Z,2016-05-24T08:24:39Z,wanderview,,0
+154869305,true,Should consumers of readers/streams be notified why a stream was canceled?,https://github.com/whatwg/streams/issues/448,2016-05-14T18:43:49Z,2016-06-04T20:03:27Z,jplaisted,,0
+154801865,true,new ReadableStream() header specifies default highWaterMark=1,https://github.com/whatwg/streams/issues/447,2016-05-13T21:15:52Z,2016-05-13T21:16:44Z,wanderview,,0
+153655301,true,pipeTo should return a cancelable promise,https://github.com/whatwg/streams/issues/446,2016-05-08T13:13:34Z,2018-11-07T22:14:48Z,jakearchibald,acknowledged missing feature|piping,0
+151444982,true,Update reference implementation for Node v6,https://github.com/whatwg/streams/issues/445,2016-04-27T17:34:43Z,2016-05-09T17:05:36Z,domenic,reference implementation,0
+151363074,true,Convert internal slot accesses in the reference implementation to use symbols,https://github.com/whatwg/streams/issues/443,2016-04-27T11:30:23Z,2016-06-13T18:10:31Z,tyoshino,reference implementation,0
+149763387,true,Relationship between streams tests in whatwg/streams repo and W3C/web-platform-tests repo,https://github.com/whatwg/streams/issues/440,2016-04-20T13:10:36Z,2016-04-26T18:23:59Z,youennf,,0
+148976000,true,Allow to set mime-type when calling blob() on a stream,https://github.com/whatwg/streams/issues/438,2016-04-17T17:49:08Z,2016-04-17T18:32:48Z,frequent,,0
+148268000,true,[Guideline] Where to factor out logic,https://github.com/whatwg/streams/issues/437,2016-04-14T06:53:11Z,2016-04-21T15:45:58Z,tyoshino,reference implementation|editorial,0
+145746486,true,node streams coordination,https://github.com/whatwg/streams/issues/435,2016-04-04T17:12:38Z,2016-04-26T19:30:30Z,calvinmetcalf,,1
+145688249,true,Mention code of conduct in README,https://github.com/whatwg/streams/issues/434,2016-04-04T13:46:25Z,2016-04-08T20:43:04Z,annevk,,0
+144907379,true,Review request on the ReadableStream API,https://github.com/whatwg/streams/issues/433,2016-03-31T13:48:12Z,2017-12-04T14:10:19Z,tyoshino,,0
+131557500,true,"In the output, sometimes we end up with <b> when we should use <emu-val>",https://github.com/whatwg/streams/issues/428,2016-02-05T05:15:50Z,2016-03-31T23:15:18Z,domenic,editorial,0
+130436139,false,Define valid queuing strategy,https://github.com/whatwg/streams/issues/427,2016-02-01T18:04:02Z,2017-08-31T08:21:11Z,domenic,documentation|queuing strategies,0
+126884311,true,"Description of ""pull"" is misleading",https://github.com/whatwg/streams/issues/425,2016-01-15T14:36:08Z,2016-01-18T10:04:19Z,jakearchibald,,0
+126881221,true,Revisiting what's reasonable return value for each method of the controller,https://github.com/whatwg/streams/issues/424,2016-01-15T14:18:52Z,2016-01-20T12:55:51Z,tyoshino,,0
+126851186,true,Finalize pull/pullInto behavior,https://github.com/whatwg/streams/issues/423,2016-01-15T10:57:47Z,2016-02-05T13:58:13Z,tyoshino,byte streams,0
+124889594,true,[Guideline] Style,https://github.com/whatwg/streams/issues/421,2016-01-05T03:44:44Z,2016-04-21T15:45:58Z,tyoshino,editorial,0
+122237886,true,.ready still active after drain?,https://github.com/whatwg/streams/issues/415,2015-12-15T10:14:30Z,2015-12-15T15:32:29Z,bmeck,,0
+121549939,true,cancel.js test can be flaky,https://github.com/whatwg/streams/issues/413,2015-12-10T18:35:49Z,2015-12-17T21:33:22Z,calvaris,,0
+120150177,true,"Target for web-platform-tests streams API tests ",https://github.com/whatwg/streams/issues/411,2015-12-03T11:29:32Z,2016-04-26T18:23:59Z,youennf,,0
+119965394,true,"type of Chunk.value ",https://github.com/whatwg/streams/issues/410,2015-12-02T15:25:06Z,2015-12-02T18:27:41Z,bblfish,,0
+119926006,true,type of Chunk.value?,https://github.com/whatwg/streams/issues/409,2015-12-02T11:54:33Z,2015-12-02T14:59:15Z,bblfish,,0
+118640177,true,How generic is pipeTo?,https://github.com/whatwg/streams/issues/407,2015-11-24T15:57:43Z,2015-11-26T16:23:01Z,youennf,,0
+118403299,true,Is the reference implementation usable yet ?,https://github.com/whatwg/streams/issues/406,2015-11-23T15:20:45Z,2015-11-23T16:55:59Z,rom1504,,0
+117555893,true,Rename ReadableByteStream,https://github.com/whatwg/streams/issues/405,2015-11-18T10:17:25Z,2016-03-28T12:55:55Z,annevk,implementer concern|byte streams,0
+113285932,false,Custom tee function,https://github.com/whatwg/streams/issues/401,2015-10-26T05:05:52Z,2015-11-02T11:05:35Z,martinthomson,,0
+104583614,true,Add an example of piping to a writable stream for consuming a readable stream,https://github.com/whatwg/streams/issues/393,2015-09-02T22:20:11Z,2016-11-29T06:04:33Z,domenic,piping,0
+100129424,true,Some tests behaving differently,https://github.com/whatwg/streams/issues/390,2015-08-10T17:54:09Z,2015-08-11T15:44:20Z,calvaris,,0
+99420267,true,Size of NaN is either throwing a RangeError or a TypeError,https://github.com/whatwg/streams/issues/389,2015-08-06T11:58:53Z,2015-08-06T12:02:39Z,youennf,,0
+99208677,true,Consistency of return value of ReadableStreamController method call on closed/errored streams,https://github.com/whatwg/streams/issues/388,2015-08-05T13:49:56Z,2016-03-28T12:59:36Z,tyoshino,,0
+99054444,true,Typo in ErrorReadableStream algorithm,https://github.com/whatwg/streams/issues/387,2015-08-04T20:25:25Z,2015-08-06T04:34:03Z,youennf,,0
+98252642,false,TransformStream should allow transform algorithm to function as pull source,https://github.com/whatwg/streams/issues/384,2015-07-30T20:07:39Z,2016-10-26T02:45:04Z,wanderview,transform streams,0
+98087343,false,Real time source and skipping,https://github.com/whatwg/streams/issues/383,2015-07-30T05:19:16Z,2018-05-28T16:53:46Z,mhofman,,0
+96955546,true,Stylesheet got borked; code examples no longer have nice gray background,https://github.com/whatwg/streams/issues/382,2015-07-24T03:36:00Z,2015-07-24T20:45:47Z,domenic,editorial,0
+96955465,true,Use of Get abstract op should usually be GetV,https://github.com/whatwg/streams/issues/381,2015-07-24T03:35:04Z,2015-07-24T12:49:46Z,domenic,,0
+96670022,true,Investigate merging RS and RBS,https://github.com/whatwg/streams/issues/379,2015-07-22T21:30:05Z,2016-03-28T13:06:17Z,domenic,byte streams,0
+96658145,true,Add IsDisturbed predicate,https://github.com/whatwg/streams/issues/378,2015-07-22T20:37:10Z,2015-08-27T19:56:00Z,domenic,,0
+93206663,true,Move high water mark to readers?,https://github.com/whatwg/streams/issues/375,2015-07-06T07:05:46Z,2015-10-15T22:20:40Z,domenic,,0
+93199229,true,.closed should be fulfilled/rejected after fulfillment/rejection of read()?,https://github.com/whatwg/streams/issues/374,2015-07-06T06:13:40Z,2015-07-07T06:45:40Z,tyoshino,,0
+92561552,true,Separate out exported abstract ops from internal ones,https://github.com/whatwg/streams/issues/372,2015-07-02T06:42:05Z,2020-09-14T23:37:48Z,domenic,editorial,0
+92560476,true,Notate abstract ops that can throw,https://github.com/whatwg/streams/issues/371,2015-07-02T06:33:38Z,2015-08-05T20:57:26Z,domenic,editorial,0
+91639042,true,compile into a single es5 file for polyfilling a browser and add bower.json,https://github.com/whatwg/streams/issues/369,2015-06-28T20:55:19Z,2015-06-28T23:28:10Z,jakutis,,0
+90958920,true,Should negative chunk size be allowed?,https://github.com/whatwg/streams/issues/368,2015-06-25T13:06:57Z,2015-06-29T06:31:52Z,youennf,,0
+89202781,true,Add .bytesRead to ReadableByteStream.*Reader,https://github.com/whatwg/streams/issues/367,2015-06-18T05:23:30Z,2015-08-03T17:42:26Z,tyoshino,byte streams,0
+88837051,true,Consider moving stuff into ReadableStreamController,https://github.com/whatwg/streams/issues/364,2015-06-16T20:49:25Z,2016-01-15T13:23:22Z,domenic,,0
+88617420,true,ReadableByteStream: pull + pullInto or just pullInto,https://github.com/whatwg/streams/issues/363,2015-06-16T04:54:06Z,2016-01-15T09:50:53Z,tyoshino,documentation|byte streams,0
+88407889,true,Add ReadableByteStream observing API,https://github.com/whatwg/streams/issues/362,2015-06-15T12:19:21Z,2015-06-18T05:33:30Z,tyoshino,byte streams,0
+85568733,true,"Add ""when are streams appropriate""",https://github.com/whatwg/streams/issues/360,2015-06-05T16:10:27Z,2015-06-19T20:30:44Z,domenic,documentation,0
+82400179,false,"More concrete examples of ""optimization"" of pipeTo",https://github.com/whatwg/streams/issues/359,2015-05-29T12:04:11Z,2017-03-30T07:21:17Z,tyoshino,piping,0
+81926512,true,Never-released lock / getReader({unreleasable: true}),https://github.com/whatwg/streams/issues/358,2015-05-28T13:31:02Z,2015-06-18T01:34:16Z,yutakahirano,,0
+72848970,true,ReadableByteStream needs reference implementation/tests,https://github.com/whatwg/streams/issues/355,2015-05-03T19:00:40Z,2016-01-15T13:26:35Z,domenic,reference implementation|byte streams,0
+72848892,true,ReadableByteStream underlying source/controller design: return a promise vs. c.something,https://github.com/whatwg/streams/issues/354,2015-05-03T18:59:58Z,2015-06-11T20:07:27Z,domenic,byte streams,0
+72848108,true,ReadableByteStream: should support an internal queue,https://github.com/whatwg/streams/issues/353,2015-05-03T18:53:37Z,2016-01-15T09:55:14Z,domenic,byte streams,0
+72186667,true,Non-normative descriptions are missing for ReadableStreamController,https://github.com/whatwg/streams/issues/350,2015-04-30T14:57:06Z,2015-05-03T19:25:29Z,domenic,editorial,0
+72093544,true,Add SNAPSHOT-LINK argument to the bikeshed command line in README.md,https://github.com/whatwg/streams/issues/348,2015-04-30T08:02:57Z,2015-05-01T17:07:30Z,tyoshino,editorial,0
+70812190,true,Canceling tee'ed streams does not cancel original stream,https://github.com/whatwg/streams/issues/347,2015-04-24T22:39:42Z,2015-04-24T23:12:04Z,edhager,,0
+70519809,true,WritableStream constructor: strategy should be set before sync with queue,https://github.com/whatwg/streams/issues/346,2015-04-23T21:35:44Z,2015-05-03T19:42:59Z,msssk,,0
+70191248,true,"Difference in the specification between notes, pseudocode and example code",https://github.com/whatwg/streams/issues/344,2015-04-22T17:44:41Z,2015-04-22T20:01:14Z,edhager,,0
+70144442,true,Make sure promise returning methods don't throw,https://github.com/whatwg/streams/issues/342,2015-04-22T14:33:42Z,2015-06-18T21:19:05Z,tyoshino,editorial,0
+70144315,true,listen(),https://github.com/whatwg/streams/issues/341,2015-04-22T14:33:20Z,2015-04-22T15:37:14Z,millermedeiros,,0
+69617354,true,Browser test builds are failing,https://github.com/whatwg/streams/issues/339,2015-04-20T15:47:13Z,2015-04-27T15:10:19Z,domenic,reference implementation,0
+69613031,true,Separate strategy and underlying source/sink in constructor signatures,https://github.com/whatwg/streams/issues/338,2015-04-20T15:27:20Z,2015-04-23T16:39:26Z,domenic,queuing strategies,0
+68862499,true,"""binary stream might contain chunks consisting o...""",https://github.com/whatwg/streams/issues/336,2015-04-16T07:21:43Z,2015-04-16T17:06:12Z,annevk,editorial,0
+68861936,true,Copypasta in Class ReadableStreamController,https://github.com/whatwg/streams/issues/335,2015-04-16T07:17:53Z,2015-04-16T17:06:12Z,annevk,editorial,0
+68858389,true,Use HTTPS for people.mozilla.org link,https://github.com/whatwg/streams/issues/334,2015-04-16T06:50:17Z,2015-04-19T23:28:17Z,annevk,editorial|blocked,0
+68858318,true,Normative HTML reference is wrong,https://github.com/whatwg/streams/issues/333,2015-04-16T06:49:41Z,2015-04-19T23:26:27Z,annevk,editorial|blocked,0
+68584138,true,TransformStream: There's no means available to fail transform() asynchronously,https://github.com/whatwg/streams/issues/331,2015-04-15T05:54:31Z,2016-10-12T05:28:55Z,tyoshino,transform streams,0
+68583150,true,TransformStream: transform() is never invoked via pull(),https://github.com/whatwg/streams/issues/330,2015-04-15T05:48:31Z,2016-10-27T05:39:21Z,tyoshino,transform streams,0
+68488106,false,Transform streams and acknowledgement of writes,https://github.com/whatwg/streams/issues/329,2015-04-14T20:25:12Z,2015-06-17T09:14:24Z,domenic,important unsolved question|transform streams,0
+68045284,true,"readBatch(), readAllAvailable() or getSyncReader()",https://github.com/whatwg/streams/issues/327,2015-04-13T08:54:15Z,2015-06-17T17:03:15Z,tyoshino,,0
+67288145,false,pipe redirection,https://github.com/whatwg/streams/issues/325,2015-04-09T06:02:08Z,2017-03-30T07:21:17Z,tyoshino,transform streams|piping,0
+67229678,false,Readable stream with ack,https://github.com/whatwg/streams/issues/324,2015-04-08T22:02:03Z,2018-05-28T16:53:46Z,domenic,missing feature?,0
+67139993,true,Identity transform performance and ArrayBufferView ownership,https://github.com/whatwg/streams/issues/323,2015-04-08T14:14:45Z,2015-06-17T06:41:44Z,tyoshino,byte streams,0
+67109712,true,Should ReadableStreamController be visible?,https://github.com/whatwg/streams/issues/322,2015-04-08T11:37:52Z,2015-04-10T16:36:10Z,youennf,,0
+67019502,true,explicity operate on underlying source and sink instead of public methods,https://github.com/whatwg/streams/issues/321,2015-04-08T00:24:20Z,2016-11-02T20:37:05Z,wanderview,,0
+67010382,true,"rsReader.readBatch(numberOfChunks)? rbsReader.read(view, { waitUntilDone: true })?",https://github.com/whatwg/streams/issues/320,2015-04-07T23:13:48Z,2015-05-18T21:09:07Z,domenic,byte streams,0
+67002523,true,Port locking infrastructure to writable streams,https://github.com/whatwg/streams/issues/319,2015-04-07T22:17:16Z,2016-08-04T05:25:43Z,domenic,writable streams,0
+67001555,true,Port precise flow control to writable streams,https://github.com/whatwg/streams/issues/318,2015-04-07T22:10:30Z,2016-08-04T05:27:01Z,domenic,writable streams,0
+67000405,true,Do writable streams need separate signals for write-success vs. write-accepted?,https://github.com/whatwg/streams/issues/316,2015-04-07T22:02:31Z,2015-08-20T17:29:56Z,domenic,writable streams,0
+66683165,true,pipeTo with preventClose: true returns a promise that is probably fulfilled too early,https://github.com/whatwg/streams/issues/314,2015-04-06T19:17:56Z,2015-04-20T15:25:14Z,domenic,,0
+65631203,true,Extract the minimal algorithm from which we can easily infer the public behavior of the interfaces,https://github.com/whatwg/streams/issues/312,2015-04-01T08:24:02Z,2016-03-28T13:20:45Z,tyoshino,,0
+65310280,true,"Making the ""queue manipulator"" its own class",https://github.com/whatwg/streams/issues/309,2015-03-30T21:53:14Z,2015-04-01T05:03:42Z,domenic,queuing strategies,0
+65215447,true,ReadableStream.getReader name is a bit misleading,https://github.com/whatwg/streams/issues/308,2015-03-30T13:44:19Z,2015-04-03T19:56:43Z,youennf,,0
+64638708,false,consider allowing a stream to be removed from a pipeline,https://github.com/whatwg/streams/issues/307,2015-03-26T21:30:14Z,2018-05-28T16:53:46Z,wanderview,piping,0
+63771245,false,Implementation of net.Socket,https://github.com/whatwg/streams/issues/305,2015-03-23T16:44:41Z,2016-11-02T20:36:41Z,trevnorris,reference implementation,0
+63288427,false,Performance Check vs. Node Streams,https://github.com/whatwg/streams/issues/304,2015-03-20T19:31:39Z,2015-03-21T21:42:04Z,bmeck,,0
+62594727,true,Generalized and precise flow/buffer control,https://github.com/whatwg/streams/issues/301,2015-03-18T05:34:50Z,2015-04-20T15:25:14Z,tyoshino,queuing strategies,0
+62397761,false,Byte streams tracking bug,https://github.com/whatwg/streams/issues/300,2015-03-17T13:31:24Z,2016-04-14T04:57:32Z,tyoshino,queuing strategies|byte streams,0
+62082296,true,Warning misbehaving underlying sources,https://github.com/whatwg/streams/issues/298,2015-03-16T13:30:42Z,2015-03-20T06:23:15Z,tyoshino,,0
+61010291,true,"Getting errored/closed reader, Auto-releasing reader, Forcible cancel() on a stream",https://github.com/whatwg/streams/issues/297,2015-03-13T08:14:02Z,2015-03-16T09:52:47Z,yutakahirano,,0
+60681378,true,What types does ReadableByteStream's reader's read(x) accept and return?,https://github.com/whatwg/streams/issues/295,2015-03-11T15:58:51Z,2015-06-18T22:45:50Z,domenic,byte streams,0
+60679506,true,What should we call ReadableByteStream.prototype.getBYOBReader()?,https://github.com/whatwg/streams/issues/294,2015-03-11T15:47:27Z,2016-04-08T20:38:08Z,domenic,byte streams,0
+60665646,true,Why is the reference implementation calling promise callbacks synchronously?,https://github.com/whatwg/streams/issues/293,2015-03-11T14:22:27Z,2015-03-11T22:41:34Z,youennf,,0
+60664395,true,Do we need to pass enqueue and close as parameters to UnderlyingSource.pull?,https://github.com/whatwg/streams/issues/292,2015-03-11T14:14:17Z,2015-03-12T16:57:55Z,youennf,,0
+60395206,true,Test ReadableStream does not call pull multiple times after previous pull finishes is incorrectly specified.,https://github.com/whatwg/streams/issues/291,2015-03-09T19:19:10Z,2015-03-13T21:10:16Z,calvaris,,0
+59312560,true,Maybe giving async readInto (and read?) another shot,https://github.com/whatwg/streams/issues/290,2015-02-28T00:04:04Z,2015-03-11T16:15:11Z,domenic,,0
+59133635,true,New proposal for byte stream uses cases,https://github.com/whatwg/streams/issues/289,2015-02-26T19:58:35Z,2015-03-11T16:14:08Z,domenic,byte streams,0
+58065915,true,"readable-stream-cancel.js ""ReadableStream canceling an infinite stream"" is flaky",https://github.com/whatwg/streams/issues/286,2015-02-18T13:13:51Z,2015-02-20T19:48:14Z,calvaris,,0
+57989846,true,"Uses of ""upon fulfillment/rejection"" contain unused returns and throws",https://github.com/whatwg/streams/issues/284,2015-02-17T22:06:10Z,2015-02-17T23:07:07Z,jyasskin,,0
+56896785,true,I can not find the copyright of the reference implementation.,https://github.com/whatwg/streams/issues/278,2015-02-07T04:19:08Z,2015-02-09T20:43:50Z,h13i32maru,,0
+56478873,true,can streams be transferred via postMessage()?,https://github.com/whatwg/streams/issues/276,2015-02-04T04:29:36Z,2020-08-14T02:44:39Z,wanderview,acknowledged missing feature,4
+55558879,true,"Define ""tee""ing a stream",https://github.com/whatwg/streams/issues/271,2015-01-27T00:31:49Z,2015-04-06T21:06:48Z,domenic,acknowledged missing feature|implementer concern,0
+55052562,true,Should readable streams start right away?,https://github.com/whatwg/streams/issues/269,2015-01-21T17:48:28Z,2015-03-12T09:20:53Z,domenic,implementer concern,0
+54762279,true,Requirement on promises equality,https://github.com/whatwg/streams/issues/266,2015-01-19T13:16:57Z,2015-03-17T09:19:32Z,tyoshino,implementer concern,0
+54618439,true,Factor out portions of a test suite that can be run against already-constructed streams,https://github.com/whatwg/streams/issues/264,2015-01-16T20:02:11Z,2015-03-17T07:15:01Z,domenic,reference implementation,0
+54500264,true,"ready fulfilling when state ends up being ""waiting"" due to reading in the same turn",https://github.com/whatwg/streams/issues/263,2015-01-15T20:32:26Z,2015-01-20T21:03:54Z,domenic,,0
+54380597,true,Spec brand checks,https://github.com/whatwg/streams/issues/261,2015-01-14T21:40:06Z,2015-01-23T21:01:23Z,domenic,editorial,0
+53813225,true,Make stream readers look closed when released,https://github.com/whatwg/streams/issues/260,2015-01-08T23:04:49Z,2015-01-23T21:13:42Z,domenic,locking,0
+53810836,true,Add IsReadableStreamLocked abstract operation,https://github.com/whatwg/streams/issues/259,2015-01-08T22:40:33Z,2015-02-09T20:30:14Z,domenic,editorial|locking,0
+53481013,true,[Reader] Should resolve readyPromise on getReader() call?,https://github.com/whatwg/streams/issues/258,2015-01-06T04:54:17Z,2015-01-23T21:13:42Z,tyoshino,locking,0
+52521462,true,Allow object with methods to be passed as (writeable) sink,https://github.com/whatwg/streams/issues/256,2014-12-19T19:49:48Z,2015-01-23T21:13:42Z,jkrems,,0
+51761854,true,Reorganize examples,https://github.com/whatwg/streams/issues/255,2014-12-12T01:50:14Z,2015-01-23T21:13:42Z,domenic,editorial,0
+51748320,true,Document globals created by this spec,https://github.com/whatwg/streams/issues/254,2014-12-11T22:41:14Z,2015-01-27T03:14:28Z,domenic,editorial,0
+51620411,true,Support reading bytes into buffers allocated by user code on platforms where only async read is available,https://github.com/whatwg/streams/issues/253,2014-12-10T22:32:46Z,2015-05-07T13:58:24Z,domenic,byte streams,0
+51616340,true,Garbage collection,https://github.com/whatwg/streams/issues/252,2014-12-10T21:55:19Z,2015-01-12T19:25:37Z,josh,,0
+51019831,true,"Clarify how/whether Stream/TransformStream may read/write ""messages""",https://github.com/whatwg/streams/issues/249,2014-12-04T19:48:17Z,2015-01-06T23:33:43Z,wenbozhu,,0
+49954182,true,Make .ready fulfill-only?,https://github.com/whatwg/streams/issues/245,2014-11-24T22:56:44Z,2014-12-02T16:33:48Z,domenic,,0
+47799790,false,Communication between workers/windows via Streams API,https://github.com/whatwg/streams/issues/244,2014-11-05T04:57:31Z,2020-07-24T16:28:34Z,tyoshino,,0
+47739310,true,Move from .wait() to .ready,https://github.com/whatwg/streams/issues/243,2014-11-04T17:17:30Z,2014-11-24T22:43:06Z,domenic,,0
+47241048,true,Initial state of WritableStream,https://github.com/whatwg/streams/issues/242,2014-10-30T07:38:25Z,2014-11-25T22:52:47Z,tyoshino,,0
+47092591,true,"Should we ""lock"" readable streams while piping?",https://github.com/whatwg/streams/issues/241,2014-10-28T23:01:28Z,2016-11-29T06:04:33Z,domenic,missing feature?|piping,0
+46517525,true,Readable stream state machine is missing a transition,https://github.com/whatwg/streams/issues/237,2014-10-22T14:41:45Z,2014-10-28T21:26:13Z,domenic,editorial,0
+46428456,true,Should pipeTo return a promise for when the piping completes?,https://github.com/whatwg/streams/issues/236,2014-10-21T18:37:40Z,2016-11-29T06:04:32Z,domenic,missing feature?|piping,0
+45929571,true,Make reference implementation stop using underscore-prefixed methods,https://github.com/whatwg/streams/issues/230,2014-10-15T22:50:49Z,2014-10-20T19:02:01Z,domenic,reference implementation,0
+45929453,true,s/t.strictEqual/t.equal throughout test suite,https://github.com/whatwg/streams/issues/229,2014-10-15T22:49:09Z,2014-10-16T15:52:56Z,domenic,reference implementation,0
+45929408,true,Things to move into/add to the spec text,https://github.com/whatwg/streams/issues/228,2014-10-15T22:48:31Z,2017-12-04T14:17:25Z,domenic,editorial,0
+44934267,true,Add way to get URL of current spec commit snapshot,https://github.com/whatwg/streams/issues/223,2014-10-06T00:17:43Z,2015-01-27T22:21:11Z,domenic,editorial,0
+44749992,true,Allow filing an issue from the spec directly,https://github.com/whatwg/streams/issues/222,2014-10-02T23:09:25Z,2014-11-26T00:08:13Z,domenic,editorial,0
+44749284,true,Add popover on branch and commit snapshots,https://github.com/whatwg/streams/issues/221,2014-10-02T22:58:46Z,2014-12-30T23:46:12Z,domenic,editorial,0
+42648341,false,Run ReadableStream tests against ReadableByteStream,https://github.com/whatwg/streams/issues/217,2014-09-12T16:49:36Z,2018-05-01T13:38:14Z,domenic,reference implementation|byte streams|tests,0
+42648308,true,Put test results in margins of the spec,https://github.com/whatwg/streams/issues/216,2014-09-12T16:49:17Z,2023-12-13T07:27:21Z,domenic,editorial,0
+42274487,true,shell?,https://github.com/whatwg/streams/issues/212,2014-09-09T06:20:27Z,2014-09-12T16:46:58Z,L2L2L,,0
+42184448,true,Move official spec to streams.spec.whatwg.org,https://github.com/whatwg/streams/issues/211,2014-09-08T10:55:40Z,2014-10-06T19:18:21Z,domenic,editorial,0
+42183646,true,Fix reference implementation stack traces in the tests,https://github.com/whatwg/streams/issues/209,2014-09-08T10:44:31Z,2014-10-20T20:18:56Z,domenic,reference implementation,0
+42183567,true,Add code coverage to reference implementation,https://github.com/whatwg/streams/issues/208,2014-09-08T10:43:21Z,2016-11-03T15:23:50Z,domenic,reference implementation,0
+42077155,true,Customizing pipeTo,https://github.com/whatwg/streams/issues/201,2014-09-05T18:45:57Z,2014-10-15T22:16:06Z,domenic,,0
+42036395,true,Promises returned by WritableStream.abort() may be resolved with non-undefined value,https://github.com/whatwg/streams/issues/195,2014-09-05T11:08:12Z,2014-09-05T18:11:57Z,tyoshino,,0
+41519522,true,TransformStream probably doesn't need two strategies,https://github.com/whatwg/streams/issues/190,2014-08-29T16:51:48Z,2017-08-22T06:28:42Z,domenic,transform streams,0
+41514206,true,Fix default queuing strategy and pull() behavior,https://github.com/whatwg/streams/issues/189,2014-08-29T15:51:35Z,2014-11-06T10:53:47Z,domenic,queuing strategies,0
+41367679,true,Valid value for strategy.size(),https://github.com/whatwg/streams/issues/187,2014-08-28T08:48:18Z,2014-08-29T16:55:24Z,tyoshino,queuing strategies,0
+41354436,true,Promises based transform(),https://github.com/whatwg/streams/issues/185,2014-08-28T04:26:25Z,2016-10-12T05:29:03Z,tyoshino,transform streams,0
+41300250,true,pipeTo has a redundant line,https://github.com/whatwg/streams/issues/184,2014-08-27T16:01:55Z,2014-08-29T16:01:15Z,domenic,,0
+41254167,true,Hide impl of the abstract operations in readable-byte-stream.js,https://github.com/whatwg/streams/issues/181,2014-08-27T06:59:56Z,2014-10-06T19:46:11Z,tyoshino,byte streams,0
+41116590,true,Readable stream HWMs still don't feel right,https://github.com/whatwg/streams/issues/179,2014-08-25T22:35:10Z,2014-10-15T22:21:14Z,domenic,queuing strategies,0
+40953520,true,Notation for internal slots and this usage,https://github.com/whatwg/streams/issues/178,2014-08-22T21:48:42Z,2014-10-06T19:34:30Z,domenic,editorial,0
+40937988,true,Byte streams: write up design rationales and vision for how they are used/what they enable,https://github.com/whatwg/streams/issues/177,2014-08-22T18:43:32Z,2016-08-04T08:57:22Z,domenic,documentation|byte streams,0
+40937702,true,ReadableByteStreams: missing APIs,https://github.com/whatwg/streams/issues/176,2014-08-22T18:40:20Z,2015-03-18T07:16:48Z,domenic,byte streams,0
+40767836,true,"Need new names for { input, output }",https://github.com/whatwg/streams/issues/174,2014-08-21T02:46:13Z,2014-08-30T02:54:45Z,domenic,,0
+40578787,false,Do we need error-after-drain functionality?,https://github.com/whatwg/streams/issues/172,2014-08-19T10:49:35Z,2015-03-17T13:25:33Z,tyoshino,missing feature?,0
+40553583,false,Chunking with Streams,https://github.com/whatwg/streams/issues/171,2014-08-19T02:51:01Z,2017-03-31T05:46:06Z,willchan,byte streams|writable streams,0
+39494811,true,Shoudn't enqueue be ignored when draining?,https://github.com/whatwg/streams/issues/166,2014-08-05T08:08:12Z,2014-08-07T15:07:01Z,yutakahirano,,0
+39253887,true,wait method,https://github.com/whatwg/streams/issues/164,2014-08-01T01:10:42Z,2014-08-29T22:01:11Z,calvinmetcalf,,0
+39175128,true,Broken link?,https://github.com/whatwg/streams/issues/163,2014-07-31T08:51:58Z,2014-08-02T02:57:57Z,hemanth,,0
+38650915,true,Use abstract operations instead of internal methods,https://github.com/whatwg/streams/issues/161,2014-07-24T16:45:20Z,2014-10-06T19:45:52Z,domenic,editorial,0
+38639287,true,duck typing vs subclassing vs instances,https://github.com/whatwg/streams/issues/160,2014-07-24T14:53:35Z,2014-10-06T21:09:31Z,calvinmetcalf,,0
+38396836,true,pipeTo() pulls the source even when the dest is not yet writable,https://github.com/whatwg/streams/issues/153,2014-07-22T12:54:57Z,2014-11-07T07:58:37Z,tyoshino,,0
+38114187,false,"pipeFrom to allow writable streams to ""pull"" at their own pace",https://github.com/whatwg/streams/issues/146,2014-07-17T19:02:56Z,2017-03-30T07:21:17Z,domenic,missing feature?|implementer concern|piping,0
+38111593,true,Potentially simplify callOrScheduleAdvanceQueue,https://github.com/whatwg/streams/issues/145,2014-07-17T18:32:48Z,2015-06-18T21:22:10Z,domenic,potential simplification|writable streams,0
+38009523,true,WritableStream: start() should delay [[advanceQueue]] calls,https://github.com/whatwg/streams/issues/141,2014-07-16T18:16:57Z,2014-07-17T18:36:03Z,domenic,,0
+37993024,true,wait() returns incorrect promise for WritableStreams in writable state,https://github.com/whatwg/streams/issues/140,2014-07-16T15:18:11Z,2014-07-21T17:59:42Z,domenic,,0
+37959127,true,WritableStream: Pass [[error]] to the sink on start() call,https://github.com/whatwg/streams/issues/139,2014-07-16T08:18:25Z,2014-07-24T16:28:16Z,tyoshino,,0
+37810329,true,pipeTo: Seeking for simplified algorithm,https://github.com/whatwg/streams/issues/137,2014-07-14T17:59:33Z,2014-07-17T18:36:22Z,tyoshino,,0
+37545400,true,Recursive call of [[advanceQueue]] may overflow stack,https://github.com/whatwg/streams/issues/135,2014-07-10T09:23:48Z,2014-08-28T22:21:52Z,tyoshino,,0
+37015357,true,Add list of simple use cases,https://github.com/whatwg/streams/issues/133,2014-07-02T19:23:31Z,2014-10-09T20:55:58Z,marcoscaceres,documentation,0
+36659558,true,Should delegate functions of underlying sink/source return promises or call given functions,https://github.com/whatwg/streams/issues/130,2014-06-27T12:33:30Z,2015-01-22T20:58:28Z,tyoshino,,0
+36551975,true,pipeTo: various cases can ignore errors; they should be passed as cancel/abort reasons instead,https://github.com/whatwg/streams/issues/129,2014-06-26T07:25:20Z,2014-09-05T10:40:24Z,tyoshino,,0
+36551044,true,Ensure that exceptions in internal algorithms are handled,https://github.com/whatwg/streams/issues/128,2014-06-26T07:06:48Z,2014-10-15T21:25:06Z,tyoshino,,0
+36428279,true,FAQs that need answers,https://github.com/whatwg/streams/issues/126,2014-06-24T21:31:35Z,2015-06-19T20:44:40Z,domenic,documentation,0
+36093799,true,Why [[waitPromise]] is set to a newly created resolved promise in read() and cancel()?,https://github.com/whatwg/streams/issues/123,2014-06-19T16:19:04Z,2014-06-20T20:34:37Z,tyoshino,,0
+35940464,true,Queueing strategy methods should not be extracted,https://github.com/whatwg/streams/issues/122,2014-06-17T23:03:04Z,2014-06-20T20:15:51Z,domenic,,0
+35908023,true,Fix queueing strategies to restart flow after dipping below high water marks,https://github.com/whatwg/streams/issues/121,2014-06-17T16:36:54Z,2014-06-20T00:16:12Z,domenic,,0
+35907859,true,Create configurable stress-test performance suite,https://github.com/whatwg/streams/issues/120,2014-06-17T16:35:09Z,2014-08-18T20:57:48Z,domenic,reference implementation,0
+35906191,false,Validate queueing strategies are sufficiently powerful,https://github.com/whatwg/streams/issues/119,2014-06-17T16:18:33Z,2014-07-23T09:37:32Z,domenic,important unsolved question|queuing strategies,0
+35667159,true,support filter rules for server side connection,https://github.com/whatwg/streams/issues/116,2014-06-13T12:25:12Z,2014-06-16T17:00:56Z,ytrezq,,0
+35666782,true,Support for some low-lvel control,https://github.com/whatwg/streams/issues/115,2014-06-13T12:18:43Z,2014-06-16T17:00:55Z,ytrezq,,0
+35534515,true,Reify the queues somehow,https://github.com/whatwg/streams/issues/114,2014-06-11T22:33:55Z,2014-06-16T18:35:14Z,domenic,queuing strategies,0
+35354306,false,Document more useful model terms,https://github.com/whatwg/streams/issues/113,2014-06-10T06:27:52Z,2014-06-17T06:08:15Z,domenic,documentation,0
+33849935,true,"Document the term ""chunk""",https://github.com/whatwg/streams/issues/112,2014-05-20T00:42:36Z,2014-06-16T19:15:25Z,domenic,documentation,0
+33849766,true,Reading binary into an existing buffer,https://github.com/whatwg/streams/issues/111,2014-05-20T00:37:46Z,2014-10-06T19:39:15Z,domenic,implementer concern|byte streams,0
+31586832,true,WritableStream write returning a completion Promise,https://github.com/whatwg/streams/issues/109,2014-04-15T20:14:17Z,2014-04-15T20:21:35Z,josh,,0
+31578668,true,Wrapping unbuffered readable streams,https://github.com/whatwg/streams/issues/108,2014-04-15T18:33:55Z,2014-04-25T05:34:57Z,josh,documentation,0
+31517143,true,Sync / Async API,https://github.com/whatwg/streams/issues/107,2014-04-15T00:33:55Z,2014-04-24T18:34:33Z,Gozala,,0
+31361620,true,LengthBufferingStrategy should be ByteLengthBufferingStrategy,https://github.com/whatwg/streams/issues/105,2014-04-11T20:55:51Z,2014-06-11T16:52:16Z,domenic,queuing strategies,0
+30908134,true,"simpler, less stateful basic streams?",https://github.com/whatwg/streams/issues/104,2014-04-05T03:57:37Z,2015-03-17T07:28:12Z,othiym23,,0
+30905914,true,"A ""wrapper stream"" is too complicated right now.",https://github.com/whatwg/streams/issues/103,2014-04-05T01:23:24Z,2014-04-21T16:21:46Z,domenic,,0
+30886531,true,"Can we not have ""four interfaces""",https://github.com/whatwg/streams/issues/102,2014-04-04T19:11:50Z,2016-08-04T08:59:15Z,domenic,,0
+30281527,true,Meaning of a promise returned by BRS.cancel(),https://github.com/whatwg/streams/issues/98,2014-03-27T08:33:12Z,2014-04-14T05:41:37Z,tyoshino,,0
+29210694,true,Ensure the JS thread doesn't have to get hit when piping two streams to each other,https://github.com/whatwg/streams/issues/97,2014-03-11T19:46:41Z,2016-10-28T21:52:54Z,domenic,implementer concern,0
+29202835,true,"Rename ""buffer"" to ""queue""??",https://github.com/whatwg/streams/issues/96,2014-03-11T18:10:46Z,2014-06-11T16:24:17Z,domenic,,0
+28602584,true,"Shouldn't we enter ""errored"" on cancel() call?",https://github.com/whatwg/streams/issues/90,2014-03-03T07:06:59Z,2014-06-27T02:04:56Z,tyoshino,,0
+28422749,true,Investigate (F)RP literature,https://github.com/whatwg/streams/issues/88,2014-02-27T14:30:58Z,2015-03-17T07:32:06Z,steveklabnik,,0
+27589562,true,"Investigate large stream graphs, especially glitches",https://github.com/whatwg/streams/issues/86,2014-02-14T11:33:38Z,2014-03-19T16:32:31Z,domenic,,0
+27420315,true,Factoring out [[buffer]] processing code in BWS,https://github.com/whatwg/streams/issues/84,2014-02-12T09:34:41Z,2014-02-23T04:12:06Z,tyoshino,,0
+27245299,true,Do we need the base classes?,https://github.com/whatwg/streams/issues/81,2014-02-10T07:06:15Z,2014-06-11T22:33:55Z,domenic,queuing strategies,0
+27245165,true,Document semantics of BaseReadableStream.wait(),https://github.com/whatwg/streams/issues/80,2014-02-10T07:02:22Z,2014-03-31T08:19:53Z,tyoshino,,0
+27244595,true,"Define how to handle the result of calling start, pull or abort",https://github.com/whatwg/streams/issues/78,2014-02-10T06:43:00Z,2014-09-05T10:40:24Z,tyoshino,,0
+27242916,true,Define when we consider a data is consumed by the reader,https://github.com/whatwg/streams/issues/76,2014-02-10T05:43:16Z,2014-06-17T16:29:27Z,tyoshino,documentation|queuing strategies,0
+27242190,true,Inconsistency between [[push]]'s return value and [[onPull]] invocation in ReadableStream,https://github.com/whatwg/streams/issues/75,2014-02-10T05:10:33Z,2014-03-19T16:31:00Z,tyoshino,documentation,0
+27206602,true,Pull based streams: ability to read $num items,https://github.com/whatwg/streams/issues/74,2014-02-08T19:13:57Z,2016-03-28T13:15:59Z,bmeck,missing feature?,0
+26609293,true,Error messages and types,https://github.com/whatwg/streams/issues/70,2014-01-30T16:09:57Z,2014-02-20T08:38:27Z,domenic,important unsolved question,0
+26608633,true,No need to differentiate write-in-closing and write-in-closed,https://github.com/whatwg/streams/issues/69,2014-01-30T16:02:17Z,2014-02-12T05:47:20Z,tyoshino,,0
+26225209,true,RandomPushStream -> RandomPushSource,https://github.com/whatwg/streams/issues/68,2014-01-24T08:11:43Z,2014-02-22T18:29:14Z,othiym23,reference implementation,0
+26221399,true,Separating readable vs. writable abort,https://github.com/whatwg/streams/issues/67,2014-01-24T06:05:57Z,2014-03-03T07:59:14Z,domenic,,0
+26220067,true,Handle constructor parameters being non-callable,https://github.com/whatwg/streams/issues/65,2014-01-24T05:12:26Z,2014-02-03T05:13:22Z,domenic,,0
+26183814,true,Rewriting W3C SysApps Raw Socket API to be based on Streams,https://github.com/whatwg/streams/issues/64,2014-01-23T17:37:17Z,2014-06-17T16:47:45Z,ClaesNilsson,,0
+26147134,true,"Rename { in, out } to { input, output } since 'in' is a reserved word?",https://github.com/whatwg/streams/issues/63,2014-01-23T06:23:47Z,2014-02-03T05:37:38Z,othiym23,,0
+26146045,true,"Make it more like a spec, less like a GitHub README",https://github.com/whatwg/streams/issues/62,2014-01-23T05:45:54Z,2014-10-06T19:33:41Z,domenic,documentation,0
+26145483,true,BRS.abort & BWS.abort have different return signatures,https://github.com/whatwg/streams/issues/61,2014-01-23T05:24:17Z,2014-01-24T07:56:00Z,othiym23,,0
+26145147,true,BaseReadableStream: [[started]] seems unnecessary,https://github.com/whatwg/streams/issues/60,2014-01-23T05:11:41Z,2014-02-22T19:11:34Z,othiym23,reference implementation,0
+26144745,true,BaseReadableStream.abort should trap errors like BaseWritableStream.abort,https://github.com/whatwg/streams/issues/59,2014-01-23T04:55:38Z,2014-02-23T00:59:03Z,othiym23,,0
+26144409,true,BaseReadableStream.pipeThrough spec appears to be incomplete,https://github.com/whatwg/streams/issues/58,2014-01-23T04:44:00Z,2014-01-23T05:25:42Z,othiym23,,0
+26071876,true,BaseWritableStream: missing resolution of the promise in the final (type: 'close') buffer entry,https://github.com/whatwg/streams/issues/56,2014-01-22T07:43:12Z,2014-01-25T23:41:44Z,othiym23,,0
+25902787,true,"Examples rely on return value of [[push]], which is undefined in the spec.",https://github.com/whatwg/streams/issues/54,2014-01-20T07:32:17Z,2014-01-22T02:57:48Z,othiym23,,0
+25688078,true,Needs a logo ;),https://github.com/whatwg/streams/issues/53,2014-01-15T22:36:07Z,2014-03-02T23:23:15Z,domenic,,0
+25630738,true,strawman implementation for node,https://github.com/whatwg/streams/issues/52,2014-01-15T07:36:38Z,2014-03-04T06:49:31Z,othiym23,,0
+25483544,true,Writable streams should call dispose hook if writing fails,https://github.com/whatwg/streams/issues/51,2014-01-13T08:47:14Z,2014-01-19T06:48:18Z,domenic,,0
+24221018,true,"Make it clear that subclasses can override wait(), read(), etc. to provide implementation-dependent buffers",https://github.com/whatwg/streams/issues/50,2013-12-13T01:07:31Z,2014-01-20T00:25:38Z,domenic,,0
+24048170,true,"Make it clear that the API is not blocking, even though it's sync",https://github.com/whatwg/streams/issues/49,2013-12-10T16:47:34Z,2014-01-13T05:15:50Z,domenic,documentation,0
+23479572,true,Add WritableStream examples,https://github.com/whatwg/streams/issues/48,2013-11-29T08:17:56Z,2014-01-19T23:42:26Z,domenic,documentation,0
+23479476,true,Bikeshedding time: readable vs. writable symmetry in properties and methods.,https://github.com/whatwg/streams/issues/47,2013-11-29T08:14:31Z,2014-01-19T05:54:33Z,domenic,,0
+22660437,true,It's a little confusing that the return type of ReadableStream.pipe() is WritableStream in the IDL,https://github.com/whatwg/streams/issues/46,2013-11-14T12:46:52Z,2013-11-16T05:25:26Z,tyoshino,,0
+22459666,true,JSIDL vs WebIDL,https://github.com/whatwg/streams/issues/45,2013-11-11T16:36:52Z,2018-11-07T22:11:11Z,marcoscaceres,editorial,0
+22424065,true,"Duplex streams: { in, out } vs. single object?",https://github.com/whatwg/streams/issues/44,2013-11-11T02:01:57Z,2014-07-23T14:46:23Z,domenic,important unsolved question,0
+22401611,true,explicit JS API method names in requirements?,https://github.com/whatwg/streams/issues/42,2013-11-10T08:50:38Z,2013-11-18T04:20:22Z,marcoscaceres,,0
+22401538,true,`writev` requirement seems overly prescriptive,https://github.com/whatwg/streams/issues/41,2013-11-10T08:42:54Z,2013-11-18T05:04:26Z,marcoscaceres,documentation,0
+22401496,true,"Backpressure - ""adapting"" is unclear. ",https://github.com/whatwg/streams/issues/40,2013-11-10T08:38:36Z,2013-11-16T05:10:40Z,marcoscaceres,,0
+22401483,true,Backpressure - be more explicit about actors.,https://github.com/whatwg/streams/issues/39,2013-11-10T08:36:55Z,2013-11-16T05:09:37Z,marcoscaceres,,0
+22401430,true,"Backpressure - ""proactive"" could be clarified.",https://github.com/whatwg/streams/issues/38,2013-11-10T08:31:24Z,2013-11-16T05:09:37Z,marcoscaceres,,0
+22401386,true,Document could be more consistent with terminology,https://github.com/whatwg/streams/issues/37,2013-11-10T08:28:16Z,2013-11-11T17:49:14Z,marcoscaceres,,0
+22344927,true,createStream method,https://github.com/whatwg/streams/issues/36,2013-11-08T15:53:02Z,2013-11-18T03:47:32Z,Ayms,,0
+22318360,true,(nitpicking) state in example codes should be readableState/writableState respectively?,https://github.com/whatwg/streams/issues/34,2013-11-08T05:58:53Z,2013-11-09T01:32:12Z,tyoshino,,0
+22256216,true,stop/resume,https://github.com/whatwg/streams/issues/33,2013-11-07T10:33:39Z,2013-11-21T09:13:25Z,Ayms,,0
+22230901,true,"Should writable streams have an optional ""close value""?",https://github.com/whatwg/streams/issues/32,2013-11-06T22:37:12Z,2014-01-19T23:57:24Z,domenic,important unsolved question,0
+22096789,true,Visualize the internal state machines,https://github.com/whatwg/streams/issues/29,2013-11-05T02:55:49Z,2016-03-31T23:15:18Z,domenic,documentation,0
+22096591,true,What happens when `[[push]]` gets called sychronously in the `[[pull]]` function,https://github.com/whatwg/streams/issues/28,2013-11-05T02:49:11Z,2013-11-09T02:24:14Z,Raynos,,0
+22096490,false,Idea for solving the writev problem,https://github.com/whatwg/streams/issues/27,2013-11-05T02:44:58Z,2017-03-28T08:15:19Z,domenic,acknowledged missing feature|writable streams,0
+22096055,true,Can we add buffering strategies via a transform stream?,https://github.com/whatwg/streams/issues/24,2013-11-05T02:29:17Z,2014-06-17T16:20:13Z,domenic,queuing strategies,0
+22095903,true,Handle the close mechanism of push sources better,https://github.com/whatwg/streams/issues/23,2013-11-05T02:23:51Z,2013-11-29T06:59:34Z,domenic,acknowledged missing feature,0
+22035534,true,two types of duplex stream: Meat Grinder vs. Telephone,https://github.com/whatwg/streams/issues/21,2013-11-04T05:36:46Z,2013-12-10T03:14:43Z,dominictarr,,0
+22034803,true,Transform stream base class (or other helper) in toolbox,https://github.com/whatwg/streams/issues/20,2013-11-04T04:48:51Z,2021-05-25T16:21:53Z,domenic,acknowledged missing feature|transform streams,0
+21978508,true,Long IRC log with relevant conversations,https://github.com/whatwg/streams/issues/19,2013-11-01T19:37:45Z,2013-11-04T08:26:50Z,domenic,,0
+21879788,true,Consider linked lists as streams,https://github.com/whatwg/streams/issues/18,2013-10-31T06:54:37Z,2013-11-18T04:31:47Z,jkroso,,0
+21849151,true,Error handling,https://github.com/whatwg/streams/issues/17,2013-10-30T18:45:51Z,2014-02-23T01:05:19Z,annevk,implementer concern,0
+21844744,true,Alternative to Writable Stream,https://github.com/whatwg/streams/issues/16,2013-10-30T17:52:51Z,2013-11-29T07:55:49Z,Raynos,,0
+21843902,true,concurrent reads,https://github.com/whatwg/streams/issues/15,2013-10-30T17:40:19Z,2013-11-04T08:21:34Z,Raynos,,0
+21843613,true,delayed errors,https://github.com/whatwg/streams/issues/14,2013-10-30T17:36:15Z,2014-01-20T00:36:34Z,Raynos,,0
+21837062,true,Drop highWaterMark entirely??,https://github.com/whatwg/streams/issues/13,2013-10-30T16:16:21Z,2014-06-17T16:38:02Z,domenic,queuing strategies,0
+21808186,true,"Define how ""push"" interacts with highWaterMark on readable side (suspending of push)",https://github.com/whatwg/streams/issues/12,2013-10-30T06:54:45Z,2013-11-18T04:20:39Z,lightsofapollo,,0
+21807923,true,read() vs. poll(fn) + state + readCurrentBufferSync(),https://github.com/whatwg/streams/issues/11,2013-10-30T06:45:28Z,2013-11-04T08:20:38Z,domenic,,0
+21807301,true,Expose stream state as properties?,https://github.com/whatwg/streams/issues/10,2013-10-30T06:20:34Z,2013-11-04T08:16:18Z,domenic,,0
+21807062,true,Be sure to create mixin versions of the streams,https://github.com/whatwg/streams/issues/9,2013-10-30T06:11:06Z,2014-01-19T23:46:06Z,domenic,missing feature?,0
+21806898,true,Generic high/low water marks,https://github.com/whatwg/streams/issues/8,2013-10-30T06:02:58Z,2013-11-04T08:15:08Z,domenic,,0
+21806864,true,How generic can these be?,https://github.com/whatwg/streams/issues/7,2013-10-30T06:01:35Z,2013-11-04T08:14:26Z,domenic,,0
+21806776,true,Are mutable array buffers a problem for multiple consumers?,https://github.com/whatwg/streams/issues/6,2013-10-30T05:58:19Z,2013-11-18T04:35:15Z,domenic,,0
+21806723,true,Outline exactly how read() interacts with pushed and buffered data,https://github.com/whatwg/streams/issues/5,2013-10-30T05:55:41Z,2013-11-04T08:19:22Z,domenic,,0
+21806429,true,Should buffers be concatenated?,https://github.com/whatwg/streams/issues/4,2013-10-30T05:44:27Z,2014-04-21T03:18:05Z,domenic,,0
+21806272,true,"Is Node's ""unshift"" necessary?",https://github.com/whatwg/streams/issues/3,2013-10-30T05:37:08Z,2015-03-12T09:27:45Z,domenic,important unsolved question|missing feature?|implementer concern,0
+21806253,true,ReadableStream constructor signature,https://github.com/whatwg/streams/issues/2,2013-10-30T05:36:08Z,2014-04-21T03:18:05Z,domenic,,0
+21806152,true,Loss of interest/abort functionality?,https://github.com/whatwg/streams/issues/1,2013-10-30T05:32:12Z,2013-11-04T08:26:32Z,domenic,,0

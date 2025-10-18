@@ -1,0 +1,134 @@
+id,closed,title,url,created_at,updated_at,user,labels,reactions
+3315101352,false,TPAC 2025 status report,https://github.com/w3c/FileAPI/issues/211,2025-08-12T16:57:30Z,2025-08-12T16:57:30Z,siusin,,0
+3168882283,false,Top-level navigations to blob URLs with media mime types result in resource load subject to partitioning,https://github.com/w3c/FileAPI/issues/210,2025-06-23T17:14:27Z,2025-06-24T17:19:44Z,recvfrom,,0
+3073725897,false,Proposal: `Blob.from()` for creating virtual Blobs with custom backing storage,https://github.com/w3c/FileAPI/issues/209,2025-05-19T12:46:46Z,2025-07-04T04:18:59Z,jimmywarting,,0
+2919692473,false,Refactor read operation algorithm,https://github.com/w3c/FileAPI/issues/208,2025-03-14T09:22:29Z,2025-03-14T11:20:43Z,gterzian,,1
+2797507124,false,"revokeObjectURL does not error check URL parsing and passes string to ""remove an entry""",https://github.com/w3c/FileAPI/issues/207,2025-01-19T08:47:34Z,2025-01-19T08:47:34Z,shannonbooth,,1
+2725931970,false,Missing close call on blob-get-stream causes the stream to never finish reading,https://github.com/w3c/FileAPI/issues/206,2024-12-09T04:09:45Z,2024-12-10T21:50:27Z,shannonbooth,,2
+2628066333,false,"Allow `createObjectURL` to retain filename from `File` (and similar) objects ",https://github.com/w3c/FileAPI/issues/203,2024-11-01T00:35:29Z,2025-07-29T03:59:30Z,jsoref,,3
+2623146202,true,google chrome can’t be installed on iPhone,https://github.com/w3c/FileAPI/issues/202,2024-10-30T07:28:47Z,2024-10-30T07:30:37Z,Kerryhopkins,invalid,0
+2543212927,false,Meta - make reading algorithms more explicit,https://github.com/w3c/FileAPI/issues/199,2024-09-23T17:12:03Z,2024-09-23T17:13:13Z,mkruisselbrink,TPAC2024,1
+1725765999,false,Specify actual byte reading algorithm for Blob.stream(),https://github.com/w3c/FileAPI/issues/194,2023-05-25T12:51:49Z,2023-05-25T12:51:49Z,saschanaz,,0
+1580148570,true,Proposal: Add a capability to create a Blob URL with a unique (non-opaque) origin,https://github.com/w3c/FileAPI/issues/192,2023-02-10T18:35:48Z,2023-08-23T00:00:54Z,shhnjk,,3
+1569570859,true,"Don't export ""resolve""",https://github.com/w3c/FileAPI/issues/190,2023-02-03T09:57:50Z,2023-02-06T12:28:44Z,johannhof,,0
+1548476130,true,createObjectURL with ReadableStream,https://github.com/w3c/FileAPI/issues/189,2023-01-19T03:58:36Z,2023-01-19T09:39:11Z,Zipdox2,,0
+1495952885,false,Function signature change: reading all bytes from a stream,https://github.com/w3c/FileAPI/issues/187,2022-12-14T07:38:33Z,2022-12-14T07:38:33Z,noamr,,0
+1495598540,true,Byte stream support for `stream()`?,https://github.com/w3c/FileAPI/issues/186,2022-12-14T03:50:04Z,2023-02-17T14:48:27Z,saschanaz,,1
+1481294604,false,Broken references in File API,https://github.com/w3c/FileAPI/issues/185,2022-12-07T08:11:57Z,2022-12-07T08:11:57Z,dontcallmedom-bot,,0
+1329712683,false,"Consider adding `blob.dataUrl()` method, or some other analogue to `readAsDataURL`",https://github.com/w3c/FileAPI/issues/179,2022-08-05T09:50:37Z,2024-09-27T21:37:03Z,josephrocca,feature request|TPAC2024,1
+1316338130,false,TPAC 2022 status report,https://github.com/w3c/FileAPI/issues/178,2022-07-25T06:30:52Z,2022-09-12T15:50:01Z,LJWatson,,0
+1285794832,true,blob: slice() without valid content type yields unexpected results,https://github.com/w3c/FileAPI/issues/177,2022-06-27T13:16:45Z,2022-06-27T19:34:47Z,dlrobertson,,0
+968563788,true,"Disparity in `loadend` event dispatch between spec, implementation & tests",https://github.com/w3c/FileAPI/issues/175,2021-08-12T10:44:47Z,2021-08-13T13:56:41Z,lucacasonato,,0
+936116335,false,Consider allowing re-reads after snapshot state change for applications loaded from file: URIs,https://github.com/w3c/FileAPI/issues/174,2021-07-02T23:28:28Z,2021-07-02T23:28:28Z,rdegraaf,,0
+867786859,false,Issues with MIME types,https://github.com/w3c/FileAPI/issues/170,2021-04-26T14:47:08Z,2021-05-11T12:08:19Z,andreubotella,,0
+861015492,true,Align with ReadableStream changes,https://github.com/w3c/FileAPI/issues/165,2021-04-19T07:51:51Z,2021-04-20T22:22:59Z,annevk,,0
+860969877,false,Clarify UUID version,https://github.com/w3c/FileAPI/issues/163,2021-04-19T06:57:42Z,2021-04-19T17:41:51Z,annevk,,0
+855220836,true,features request:add SynFileReader for Avoid Callback Hell Programming from FileReader,https://github.com/w3c/FileAPI/issues/162,2021-04-11T05:12:56Z,2021-04-12T07:41:11Z,annopnod,,0
+822428291,false,Specify how filenames from the OS map to File's `name` property,https://github.com/w3c/FileAPI/issues/161,2021-03-04T19:23:18Z,2021-03-05T14:58:14Z,andreubotella,,0
+747578972,false,Support using AbortController with FileAPI,https://github.com/w3c/FileAPI/issues/159,2020-11-20T15:28:49Z,2025-05-19T12:08:55Z,benjamingr,,0
+665976691,true,Async factory methods for Blob and File,https://github.com/w3c/FileAPI/issues/157,2020-07-27T05:03:20Z,2024-09-28T00:19:14Z,pwnall,TPAC2024,0
+641747278,true,TPAC planning and specification status report,https://github.com/w3c/FileAPI/issues/156,2020-06-19T06:48:11Z,2021-02-24T08:47:58Z,LJWatson,,0
+612478985,true,Blob URL store partitioning,https://github.com/w3c/FileAPI/issues/153,2020-05-05T09:54:13Z,2025-01-09T17:57:39Z,annevk,normative change|privacy-tracker|security-tracker|TPAC2024,0
+597156369,false,Add accessibility section,https://github.com/w3c/FileAPI/issues/152,2020-04-09T09:41:05Z,2020-04-09T09:41:05Z,LJWatson,,0
+594598560,false,Consider substituting optional BlobPart or sequence<BlobPart> for optional sequence<BlobPart> blobParts at constructor,https://github.com/w3c/FileAPI/issues/150,2020-04-05T19:05:19Z,2020-05-14T05:07:50Z,guest271314,,0
+592468967,false,Blob URL store entries are not removed,https://github.com/w3c/FileAPI/issues/149,2020-04-02T08:58:22Z,2020-04-02T16:41:38Z,annevk,,0
+585777010,true,Why are Blob() and File() constructors at Chromium 81 throwing RangeError?,https://github.com/w3c/FileAPI/issues/147,2020-03-22T18:04:06Z,2020-04-05T18:51:26Z,guest271314,,0
+576735168,false,Add Internationalization Considerations section,https://github.com/w3c/FileAPI/issues/146,2020-03-06T06:54:25Z,2020-03-06T06:54:25Z,marcoscaceres,,0
+547525034,true,Navigation to blob URLs,https://github.com/w3c/FileAPI/issues/145,2020-01-09T14:49:14Z,2020-01-09T15:17:08Z,annevk,,0
+544822152,false,Define chunk size for `ReadableStream` created by `blob::stream()`,https://github.com/w3c/FileAPI/issues/144,2020-01-03T02:02:37Z,2023-11-09T07:57:10Z,kevin-matthew,,1
+533770947,true,Reslove Blob to an existing ArrayBuffer,https://github.com/w3c/FileAPI/issues/143,2019-12-06T06:24:00Z,2022-05-21T05:22:26Z,Zhang-Junzhi,,0
+497029824,false,Put policies in the blob URL store,https://github.com/w3c/FileAPI/issues/142,2019-09-23T11:02:37Z,2024-09-23T17:15:19Z,annevk,TPAC2024,0
+487592870,false,Consider Blob.fromStream (returns a Promise<Blob>),https://github.com/w3c/FileAPI/issues/140,2019-08-30T17:26:22Z,2024-09-27T22:09:38Z,domenic,feature request|TPAC2024,0
+486821960,true,Update to constructor operations,https://github.com/w3c/FileAPI/issues/139,2019-08-29T08:45:25Z,2019-09-11T01:53:50Z,Ms2ger,,0
+483306111,true,Specification status report for TPAC 2019,https://github.com/w3c/FileAPI/issues/138,2019-08-21T09:29:34Z,2019-10-17T16:36:40Z,LJWatson,,0
+482418968,true,"[FileAPI] WebAppsWG TPAC F2F agenda (Fukuoka, Sep 19-20 2019)",https://github.com/w3c/FileAPI/issues/137,2019-08-19T16:50:36Z,2020-01-09T14:14:02Z,dmurph,,0
+475167562,true,add dataURL method,https://github.com/w3c/FileAPI/issues/136,2019-07-31T14:08:37Z,2020-01-09T15:20:44Z,petele,,1
+468187905,false,Sort out when blob: URLs can be fetched / navigated,https://github.com/w3c/FileAPI/issues/135,2019-07-15T15:19:10Z,2024-09-23T17:11:44Z,annevk,TPAC2024,2
+453393706,false,Refactor text() et al to share more infrastructure with Fetch,https://github.com/w3c/FileAPI/issues/133,2019-06-07T08:20:18Z,2019-06-07T08:20:18Z,annevk,,0
+446897091,true,"""Code point"" should point to infra",https://github.com/w3c/FileAPI/issues/130,2019-05-22T01:57:08Z,2019-05-22T16:33:31Z,marcoscaceres,non-normative/editorial change,0
+430412832,true,Readonly attributes without setters?,https://github.com/w3c/FileAPI/issues/126,2019-04-08T12:06:05Z,2019-04-09T00:16:53Z,andrew-aladev,,0
+429802492,false,"""package data"" reuses type variable",https://github.com/w3c/FileAPI/issues/124,2019-04-05T15:05:53Z,2019-04-05T15:05:53Z,annevk,,0
+427222424,true,"Consider reserializing type attributes, not just parsing them.",https://github.com/w3c/FileAPI/issues/123,2019-03-30T00:36:14Z,2020-01-09T15:21:50Z,wisniewskit,,0
+427222163,true,Consider dropping lowercasing requirement for the type attribute,https://github.com/w3c/FileAPI/issues/122,2019-03-30T00:34:14Z,2020-01-09T15:22:15Z,wisniewskit,,0
+421790295,false,Use [NewObject] for Blob's slice() and FileReaderSync,https://github.com/w3c/FileAPI/issues/121,2019-03-16T09:51:37Z,2019-03-16T09:51:37Z,annevk,,0
+421235156,false,"Event handler content attributes are for HTML elements, not JS APIs",https://github.com/w3c/FileAPI/issues/120,2019-03-14T20:43:05Z,2019-03-14T20:43:05Z,domenic,,0
+421230746,false,"Consider dispatching loadstart ""synchronously"" (similar to XMLHttpRequest)",https://github.com/w3c/FileAPI/issues/119,2019-03-14T20:32:25Z,2025-01-07T22:38:24Z,annevk,,0
+369407155,true,Implementer interest in this spec,https://github.com/w3c/FileAPI/issues/111,2018-10-12T05:43:40Z,2019-05-21T20:04:07Z,marcoscaceres,,0
+355010443,true,add srcObject or some such to <img>,https://github.com/w3c/FileAPI/issues/108,2018-08-29T06:06:57Z,2018-08-29T06:07:20Z,Zhang-Junzhi,,0
+354202576,true,URL.createObjectURL should also accept ImageBitmap,https://github.com/w3c/FileAPI/issues/107,2018-08-27T06:58:58Z,2018-08-29T05:53:32Z,Zhang-Junzhi,,1
+343318326,true,Restore name of second argument to FileReader.readAsText,https://github.com/w3c/FileAPI/issues/105,2018-07-21T10:57:16Z,2018-08-03T22:11:28Z,blixt,,1
+334263278,false,readAsDataURL should be more precise about the data URL contents,https://github.com/w3c/FileAPI/issues/104,2018-06-20T21:52:55Z,2018-06-21T17:25:38Z,domenic,,2
+332851637,true,Add option to Blob constructor to skip UTF-8 encoding,https://github.com/w3c/FileAPI/issues/102,2018-06-15T17:08:48Z,2018-06-15T19:02:40Z,zbjornson,,0
+331058304,true,Include MediaSource overload for createObjectURL,https://github.com/w3c/FileAPI/issues/100,2018-06-11T06:19:59Z,2019-02-01T09:57:48Z,saschanaz,,0
+324640659,false,Does the specification define input[type=file] .files expected behaviour to relevant to reflecting real-time changes to user selected file?,https://github.com/w3c/FileAPI/issues/99,2018-05-19T16:10:59Z,2020-07-25T19:22:44Z,guest271314,,0
+315150045,false,Refine StructuredSerializeForStorage behavior,https://github.com/w3c/FileAPI/issues/98,2018-04-17T17:02:47Z,2022-05-24T16:32:42Z,inexorabletash,,0
+296412448,true,Support `Response` in `URL.createObjectURL`,https://github.com/w3c/FileAPI/issues/97,2018-02-12T15:21:04Z,2019-01-07T16:18:06Z,bmeck,,0
+292597151,true,readyState checks for FileReaderSync methods don't make sense,https://github.com/w3c/FileAPI/issues/96,2018-01-29T23:19:50Z,2018-01-30T00:04:01Z,jdm,,0
+290622846,false,Consider adding the hashed filesystem path,https://github.com/w3c/FileAPI/issues/95,2018-01-22T21:33:23Z,2020-01-09T15:30:57Z,faquino,feature request,0
+280167246,true,Make the FileList interface iterable,https://github.com/w3c/FileAPI/issues/94,2017-12-07T15:17:45Z,2021-06-14T06:28:30Z,DavidBruant,,1
+279315805,false,Consider centrally defining all users of the blob URL store,https://github.com/w3c/FileAPI/issues/93,2017-12-05T10:07:50Z,2020-01-09T14:17:42Z,annevk,,0
+278527584,true,Rename EndingTypes to EndingType or EndingsType,https://github.com/w3c/FileAPI/issues/91,2017-12-01T16:49:07Z,2017-12-04T09:08:17Z,inexorabletash,,0
+272375110,true,Clarify Lifetime of BlobStore,https://github.com/w3c/FileAPI/issues/89,2017-11-08T22:36:35Z,2018-01-09T19:11:44Z,bmeck,,0
+267690068,true,Update the WD,https://github.com/w3c/FileAPI/issues/86,2017-10-23T14:28:50Z,2017-10-26T11:57:35Z,LJWatson,,0
+265870446,true,Async createObjectURL,https://github.com/w3c/FileAPI/issues/84,2017-10-16T18:33:42Z,2018-02-12T15:21:23Z,bmeck,,0
+237017796,true,Add method to read file into user given Uint8Array,https://github.com/w3c/FileAPI/issues/83,2017-06-19T20:41:50Z,2023-05-14T08:33:17Z,petkaantonov,feature request,3
+233254594,true,What should happen when you load a blob URL in an iframe?,https://github.com/w3c/FileAPI/issues/82,2017-06-02T17:52:16Z,2017-06-02T21:34:50Z,dbates-wk,,0
+226281159,true,"Don't update FileReader's result until ""LOAD""",https://github.com/w3c/FileAPI/issues/79,2017-05-04T13:30:41Z,2019-03-15T21:07:32Z,annevk,,0
+225280037,true,Mention of StructuredClone,https://github.com/w3c/FileAPI/issues/78,2017-04-29T19:36:44Z,2017-09-25T13:03:03Z,TimothyGu,,0
+216058367,false,Disallow mutating state of Blob/File objects,https://github.com/w3c/FileAPI/issues/75,2017-03-22T13:18:03Z,2019-04-08T19:51:17Z,annevk,,1
+214611804,true,"""Null""ing out the Origin of a BLOB",https://github.com/w3c/FileAPI/issues/74,2017-03-16T06:40:32Z,2024-03-09T14:17:53Z,hfhchan,,0
+211761763,true,Add readAsSharedArrayBuffer to FileReader,https://github.com/w3c/FileAPI/issues/73,2017-03-03T18:10:44Z,2020-01-09T14:46:32Z,topicus,,0
+209397424,false,Describe internal slots of Blob and File objects better,https://github.com/w3c/FileAPI/issues/71,2017-02-22T09:30:54Z,2017-02-22T09:30:54Z,annevk,,0
+208375990,true,"where is this document for ""utils.regexp.isChinese""?",https://github.com/w3c/FileAPI/issues/70,2017-02-17T08:55:18Z,2017-02-28T09:27:31Z,anlexN,,0
+205744180,false,Set FileReader.error to an AbortError when abort() is called.,https://github.com/w3c/FileAPI/issues/66,2017-02-06T23:56:19Z,2017-02-16T09:14:25Z,mkruisselbrink,feature request,0
+205739979,true,Rename Blob URL to Object URL,https://github.com/w3c/FileAPI/issues/65,2017-02-06T23:31:36Z,2017-02-08T13:14:10Z,ghost,,0
+205399872,true,Please set the repository's URL to https://w3c.github.io/FileAPI/,https://github.com/w3c/FileAPI/issues/64,2017-02-05T04:28:08Z,2017-02-05T23:03:03Z,pwnall,,0
+205301509,true,"""origin of a blob URL"" is redundant/confusing",https://github.com/w3c/FileAPI/issues/63,2017-02-03T23:53:26Z,2019-01-14T14:24:02Z,domenic,,0
+203971064,true,"Stop using the ""incumbent settings object""",https://github.com/w3c/FileAPI/issues/60,2017-01-30T10:20:21Z,2017-02-09T19:41:15Z,Ms2ger,,0
+203970582,true,"""Unicode Serialization of a Blob URL"" algorithm makes no sense",https://github.com/w3c/FileAPI/issues/59,2017-01-30T10:17:54Z,2017-02-03T22:19:06Z,Ms2ger,,0
+203970279,true,"Use HTML's definition of ""Unicode serialization of an origin""",https://github.com/w3c/FileAPI/issues/58,2017-01-30T10:16:30Z,2017-02-03T22:19:06Z,Ms2ger,,0
+200784100,true,Remove createFor(),https://github.com/w3c/FileAPI/issues/57,2017-01-14T06:01:54Z,2017-02-01T15:44:54Z,annevk,,0
+199484683,true,file selection dialog callable by file api,https://github.com/w3c/FileAPI/issues/56,2017-01-09T06:24:15Z,2020-01-09T14:45:13Z,RenRoe,feature request,0
+191440414,false,What does it mean to invoke the Blob constructor with zero parameters?,https://github.com/w3c/FileAPI/issues/54,2016-11-24T06:09:32Z,2016-11-24T09:21:31Z,bzbarsky,,0
+184005407,false,Standardize extension to content type mapping?,https://github.com/w3c/FileAPI/issues/51,2016-10-19T16:04:14Z,2017-09-14T08:43:22Z,inexorabletash,,0
+173660975,true,Update editors info,https://github.com/w3c/FileAPI/issues/50,2016-08-28T18:45:31Z,2016-11-22T09:04:14Z,LJWatson,non-normative/editorial change,0
+173660879,false,Update feedback info,https://github.com/w3c/FileAPI/issues/49,2016-08-28T18:43:49Z,2017-02-16T19:17:32Z,LJWatson,non-normative/editorial change,0
+172680187,true,Race condition in Introduction example,https://github.com/w3c/FileAPI/issues/48,2016-08-23T11:55:50Z,2016-08-24T16:18:31Z,Qowyn,,0
+171151691,false,Define WebKit's underlying file changes behavior,https://github.com/w3c/FileAPI/issues/47,2016-08-15T11:14:26Z,2022-05-20T18:08:24Z,annevk,normative change,0
+168987347,true,"Document BlobPropertyBag ""endings"", or keep pushing to remove?",https://github.com/w3c/FileAPI/issues/46,2016-08-02T21:00:00Z,2017-11-30T11:28:13Z,inexorabletash,,0
+166924429,false,Re-word the way the various read operations are defined,https://github.com/w3c/FileAPI/issues/45,2016-07-21T21:40:06Z,2016-07-21T21:40:06Z,mkruisselbrink,non-normative/editorial change,0
+165301496,false,Implementations allow all values in type getter,https://github.com/w3c/FileAPI/issues/43,2016-07-13T11:47:27Z,2023-09-24T14:42:02Z,Manishearth,normative change,0
+160747826,true,Remove the / -> : replacement from the File constructor,https://github.com/w3c/FileAPI/issues/41,2016-06-16T20:00:55Z,2021-04-27T18:40:20Z,Ms2ger,normative change,0
+159798777,true,"Streams are hot, FileReader.readAs____ is not",https://github.com/w3c/FileAPI/issues/40,2016-06-11T23:29:57Z,2021-07-01T01:20:15Z,jimmywarting,feature request,7
+150179394,true,Re-add FileReader.readAsBinaryString() ?,https://github.com/w3c/FileAPI/issues/39,2016-04-21T20:12:54Z,2016-07-21T21:49:04Z,inexorabletash,normative change|question,1
+149618164,true,Use BufferSource instead of ArrayBuffer or ArrayBufferView,https://github.com/w3c/FileAPI/issues/38,2016-04-20T00:15:55Z,2016-07-21T22:26:53Z,inexorabletash,non-normative/editorial change,0
+149572410,true,"Use Encoding's ""UTF-8 encode"" hook",https://github.com/w3c/FileAPI/issues/37,2016-04-19T20:19:40Z,2017-02-04T00:06:08Z,annevk,non-normative/editorial change,0
+145674387,true,Store HTTPS state on Blob objects,https://github.com/w3c/FileAPI/issues/35,2016-04-04T12:45:47Z,2020-08-05T15:27:50Z,annevk,normative change,0
+137857032,true,Use `optional` for the Blob constructor,https://github.com/w3c/FileAPI/issues/33,2016-03-02T12:07:42Z,2016-04-19T20:12:29Z,Ms2ger,non-normative/editorial change,0
+136394759,true,Define cloning of Blob and FileList objects inline,https://github.com/w3c/FileAPI/issues/32,2016-02-25T14:00:52Z,2017-09-25T22:22:11Z,annevk,non-normative/editorial change,0
+130626789,true,Consider using USVString for the Blob constructor,https://github.com/w3c/FileAPI/issues/30,2016-02-02T09:33:48Z,2016-04-19T20:12:29Z,Ms2ger,non-normative/editorial change,0
+115253954,true,Persistent blob urls,https://github.com/w3c/FileAPI/issues/27,2015-11-05T10:27:43Z,2016-03-09T20:02:56Z,petkaantonov,,1
+114935546,true,Include file creation time and last access time.,https://github.com/w3c/FileAPI/issues/26,2015-11-03T23:35:36Z,2022-02-03T18:56:47Z,mintern,feature request,1
+112626331,true,Add a FileList.drop(index) method,https://github.com/w3c/FileAPI/issues/25,2015-10-21T16:16:44Z,2020-01-09T14:32:24Z,dmoagx,feature request,0
+112625726,false,Add FileList constructor,https://github.com/w3c/FileAPI/issues/24,2015-10-21T16:13:36Z,2024-09-27T21:44:57Z,dmoagx,feature request|TPAC2024,1
+112184520,true,Allow Blob constructor to take ownership of ArrayBuffer(View) / invoke DetachArrayBuffer,https://github.com/w3c/FileAPI/issues/23,2015-10-19T16:37:15Z,2023-10-24T10:06:13Z,arunranga,feature request,0
+112183405,true,FilePropertyBag should inherit from BlobPropertyBag,https://github.com/w3c/FileAPI/issues/22,2015-10-19T16:31:57Z,2016-04-19T20:12:29Z,arunranga,non-normative/editorial change,0
+112181758,true,"Clean up use of WebIDL for Exposed=(Window, Worker)",https://github.com/w3c/FileAPI/issues/21,2015-10-19T16:25:42Z,2016-04-19T20:12:30Z,arunranga,non-normative/editorial change,0
+112180166,true,Fix Blob Origin,https://github.com/w3c/FileAPI/issues/20,2015-10-19T16:19:22Z,2019-01-14T14:24:02Z,arunranga,normative change,0
+112173114,true,Remove FileList (Migrate to | typedef FileList FrozenArray<File>; |,https://github.com/w3c/FileAPI/issues/19,2015-10-19T15:46:32Z,2019-04-20T14:22:09Z,arunranga,normative change,0
+105579695,true,"Cloning a Blob and then close the original one, does it change the state of the cloned one?",https://github.com/w3c/FileAPI/issues/18,2015-09-09T11:40:23Z,2017-02-10T18:25:02Z,bakulf,,0
+105578666,true,Constructing a new blob from a closed blob,https://github.com/w3c/FileAPI/issues/17,2015-09-09T11:33:23Z,2017-02-10T18:25:02Z,bakulf,normative change,0
+103456320,true,Not expose FileReaderSync to service worker,https://github.com/w3c/FileAPI/issues/16,2015-08-27T08:34:39Z,2017-02-03T23:37:29Z,jungkees,normative change,0
+99275713,true,.msg MimeType Not Recognized,https://github.com/w3c/FileAPI/issues/15,2015-08-05T19:06:56Z,2016-03-09T20:09:14Z,jensenma,,0
+96104791,false,What should the ProgressEvent attributes be in the case of an error/abort?,https://github.com/w3c/FileAPI/issues/14,2015-07-20T16:37:23Z,2017-02-07T20:03:45Z,jdm,normative change,0
+95550041,true,Remove parsable mime type requirement?,https://github.com/w3c/FileAPI/issues/13,2015-07-16T23:10:23Z,2020-01-09T14:35:13Z,inexorabletash,non-normative/editorial change,0
+94695059,false,IANA Considerations,https://github.com/w3c/FileAPI/issues/12,2015-07-13T11:00:18Z,2016-03-09T20:14:03Z,cvrebert,non-normative/editorial change,0
+89511691,true,Stop using DOMError,https://github.com/w3c/FileAPI/issues/11,2015-06-19T09:04:01Z,2017-01-30T23:05:27Z,foolip,normative change,0
+86911155,true,Blob.close() has several problems,https://github.com/w3c/FileAPI/issues/10,2015-06-10T10:00:13Z,2017-02-10T18:25:02Z,annevk,normative change,0
+85300566,true,Don't use [EnsureUTF16] (gone from Web IDL),https://github.com/w3c/FileAPI/issues/9,2015-06-04T22:09:05Z,2017-02-03T22:26:02Z,foolip,normative change,1
+81751837,true,Controlling Blob URL's,https://github.com/w3c/FileAPI/issues/8,2015-05-28T04:25:40Z,2016-03-09T20:19:05Z,joeedh,,0
+73678896,true,Use ASCII origin in blob URLs,https://github.com/w3c/FileAPI/issues/7,2015-05-06T17:04:08Z,2017-02-03T22:19:06Z,annevk,normative change,0
+69970341,false,Relation to File URI scheme,https://github.com/w3c/FileAPI/issues/6,2015-04-21T22:41:47Z,2016-03-09T20:10:15Z,dret,non-normative/editorial change,0
+69184945,true,Bikeshedding the spec,https://github.com/w3c/FileAPI/issues/5,2015-04-17T17:47:11Z,2016-03-25T23:18:58Z,tabatkins,non-normative/editorial change,0
+68874419,true,Update the link of RFC2119,https://github.com/w3c/FileAPI/issues/2,2015-04-16T08:40:10Z,2015-04-16T09:36:43Z,siusin,,0
+68785506,true,"Use ""index.html"" as the filename of the spec.",https://github.com/w3c/FileAPI/issues/1,2015-04-15T20:57:57Z,2015-05-06T17:35:25Z,AFBarstow,,0
