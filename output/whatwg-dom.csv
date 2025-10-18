@@ -345,16 +345,16 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 357496329,true,Capturing event listeners are called during bubbling phase for shadow hosts,https://github.com/whatwg/dom/issues/685,2018-09-06T04:57:03Z,2019-03-01T20:51:54Z,rniwa,topic: shadow|topic: events,2
 354626009,true,composedPath() is wrong,https://github.com/whatwg/dom/issues/684,2018-08-28T08:33:46Z,2018-11-27T10:38:59Z,annevk,topic: shadow|topic: events,1
 354187241,false,"New ""event constructing steps"" could use an example",https://github.com/whatwg/dom/issues/683,2018-08-27T05:47:04Z,2020-05-12T10:57:30Z,marcoscaceres,topic: events|clarification,0
-353649948,false,"Traversing algorithm for collecting ""nodes to remove"" in Range.deleteContents()",https://github.com/whatwg/dom/issues/682,2018-08-24T05:33:08Z,2018-08-24T07:19:38Z,Codifier,topic: ranges,0
-352525546,false,"""To validate and extract a namespace and qualifiedName"" could use clarification about case-insensitivity",https://github.com/whatwg/dom/issues/680,2018-08-21T12:54:55Z,2018-08-21T12:54:55Z,Codifier,,0
+353649948,false,"Traversing algorithm for collecting ""nodes to remove"" in Range.deleteContents()",https://github.com/whatwg/dom/issues/682,2018-08-24T05:33:08Z,2018-08-24T07:19:38Z,ghost,topic: ranges,0
+352525546,false,"""To validate and extract a namespace and qualifiedName"" could use clarification about case-insensitivity",https://github.com/whatwg/dom/issues/680,2018-08-21T12:54:55Z,2018-08-21T12:54:55Z,ghost,,0
 351132820,true,window.event and shadow trees,https://github.com/whatwg/dom/issues/679,2018-08-16T09:48:33Z,2018-10-25T11:10:06Z,annevk,topic: shadow|topic: events,0
 349968440,true,"Should the submit event be ""magic"" too?",https://github.com/whatwg/dom/issues/678,2018-08-13T10:14:41Z,2018-08-13T16:15:06Z,annevk,needs tests|topic: events|compat,0
 349023680,true,Allow <slot> to find slottables by slottables's IDs as well,https://github.com/whatwg/dom/issues/677,2018-08-09T08:15:42Z,2018-10-25T10:59:11Z,Zhang-Junzhi,topic: shadow|needs implementer interest|addition/proposal,0
 349008234,false,"Allow <menu>, <ul>, <ol>, <li> to attach shadow",https://github.com/whatwg/dom/issues/676,2018-08-09T07:24:53Z,2019-11-20T08:54:49Z,Zhang-Junzhi,topic: shadow|needs implementer interest|addition/proposal,0
 347456315,true,Location,https://github.com/whatwg/dom/issues/674,2018-08-03T16:14:01Z,2018-08-06T17:34:29Z,an234747,,0
 346279915,true,TreeWalker::nextNode()'s implementation spec is incomplete,https://github.com/whatwg/dom/issues/672,2018-07-31T17:12:59Z,2019-11-08T13:32:30Z,johan,,0
-345283311,true,createElementNS() QName/Name confusion,https://github.com/whatwg/dom/issues/671,2018-07-27T16:07:50Z,2021-01-27T17:21:45Z,cscott,clarification,1
-344264573,true,Move insertBefore() and [append|replace|remove]Child() from Node to ParentNode,https://github.com/whatwg/dom/issues/669,2018-07-25T02:04:13Z,2018-07-31T10:15:35Z,Codifier,,0
+345283311,true,createElementNS() QName/Name confusion,https://github.com/whatwg/dom/issues/671,2018-07-27T16:07:50Z,2021-01-27T17:21:45Z,cscott,clarification,0
+344264573,true,Move insertBefore() and [append|replace|remove]Child() from Node to ParentNode,https://github.com/whatwg/dom/issues/669,2018-07-25T02:04:13Z,2018-07-31T10:15:35Z,ghost,,0
 343063976,true,Could toggleAttribute set the attribute name?,https://github.com/whatwg/dom/issues/668,2018-07-20T10:55:56Z,2018-07-20T17:11:30Z,jonathanKingston,,0
 341700328,true,TreeWalker's nextNode() method can result in an infinite loop because the value of node never changes if it doesn't have a child,https://github.com/whatwg/dom/issues/667,2018-07-16T22:26:52Z,2019-11-08T14:14:54Z,TRowbotham,,0
 341378157,true,"""When a DOMTokenList object is created, then: ...""",https://github.com/whatwg/dom/issues/666,2018-07-16T03:02:19Z,2018-08-08T15:26:23Z,TRowbotham,good first issue,0
@@ -713,7 +713,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 96794284,true,Replacing a child in its parent doesn't correctly queue mutation records,https://github.com/whatwg/dom/issues/59,2015-07-23T11:44:44Z,2015-07-28T11:12:55Z,nox,,0
 96769578,true,Document.defaultCharset,https://github.com/whatwg/dom/issues/58,2015-07-23T09:21:59Z,2025-04-24T01:28:19Z,foolip,,1
 96431537,false,DOM should add hooks for sync events that happen during insert/remove operations,https://github.com/whatwg/dom/issues/57,2015-07-21T22:29:26Z,2017-03-16T11:48:12Z,travisleithead,,0
-95520934,false,Use `commonAncestorContainer` in concept-range-clone,https://github.com/whatwg/dom/issues/56,2015-07-16T20:30:41Z,2018-08-24T07:20:14Z,Ms2ger,topic: ranges,1
+95520934,false,Use `commonAncestorContainer` in concept-range-clone,https://github.com/whatwg/dom/issues/56,2015-07-16T20:30:41Z,2018-08-24T07:20:14Z,Ms2ger,topic: ranges,0
 95276149,true,"Add ""inclusive siblings"" term",https://github.com/whatwg/dom/issues/55,2015-07-15T19:56:58Z,2015-07-16T05:57:55Z,tabatkins,,0
 95047884,true,Upgrade addedNodes and removedNodes to FrozenArray?,https://github.com/whatwg/dom/issues/54,2015-07-14T21:37:49Z,2015-08-04T11:23:26Z,domenic,,0
 93845847,true,Rename Elements to ElementList,https://github.com/whatwg/dom/issues/50,2015-07-08T17:26:33Z,2015-07-15T06:49:41Z,esprehn,,0

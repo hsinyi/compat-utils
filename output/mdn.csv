@@ -2255,12 +2255,12 @@ api/EventTarget/removeEventListener,,1,,1,,1,,false,true,false,https://dom.spec.
 api/EventTarget/removeEventListener/options_parameter,,49,,49,,10,,false,true,false,,NONE
 api/EventTarget/removeEventListener/useCapture_parameter_optional,,6,,1,,1,,false,true,false,,NONE
 api/EventTarget/when,,,,135,,,,true,true,false,https://wicg.github.io/observable/#dom-eventtarget-when,W3CCG
-api/ExtendableCookieChangeEvent,,140,,87,,18.4,,false,true,false,https://cookiestore.spec.whatwg.org/#ExtendableCookieChangeEvent,WHATWG
-api/ExtendableCookieChangeEvent/ExtendableCookieChangeEvent,,140,,87,,18.4,,false,true,false,https://cookiestore.spec.whatwg.org/#dom-extendablecookiechangeevent-extendablecookiechangeevent,WHATWG
-api/ExtendableCookieChangeEvent/changed,,140,,87,,18.4,,false,true,false,https://cookiestore.spec.whatwg.org/#dom-extendablecookiechangeevent-changed,WHATWG
-api/ExtendableCookieChangeEvent/changed/partitioned_property,,,,114,,18.4,,false,true,false,https://cookiestore.spec.whatwg.org/#dom-cookielistitem-partitioned,WHATWG
-api/ExtendableCookieChangeEvent/deleted,,140,,87,,18.4,,false,true,false,https://cookiestore.spec.whatwg.org/#dom-extendablecookiechangeevent-deleted,WHATWG
-api/ExtendableCookieChangeEvent/deleted/partitioned_property,,,,114,,18.4,,false,true,false,https://cookiestore.spec.whatwg.org/#dom-cookielistitem-partitioned,WHATWG
+api/ExtendableCookieChangeEvent,,140,,87,,18.4,"[{""name"":""Cookie Store API CookieStoreManager"",""type"":""preference"",""value_to_set"":""Enabled""}]",false,true,false,https://cookiestore.spec.whatwg.org/#ExtendableCookieChangeEvent,WHATWG
+api/ExtendableCookieChangeEvent/ExtendableCookieChangeEvent,,140,,87,,18.4,"[{""name"":""Cookie Store API CookieStoreManager"",""type"":""preference"",""value_to_set"":""Enabled""}]",false,true,false,https://cookiestore.spec.whatwg.org/#dom-extendablecookiechangeevent-extendablecookiechangeevent,WHATWG
+api/ExtendableCookieChangeEvent/changed,,140,,87,,18.4,"[{""name"":""Cookie Store API CookieStoreManager"",""type"":""preference"",""value_to_set"":""Enabled""}]",false,true,false,https://cookiestore.spec.whatwg.org/#dom-extendablecookiechangeevent-changed,WHATWG
+api/ExtendableCookieChangeEvent/changed/partitioned_property,,,,114,,18.4,"[{""name"":""Cookie Store API CookieStoreManager"",""type"":""preference"",""value_to_set"":""Enabled""}]",false,true,false,https://cookiestore.spec.whatwg.org/#dom-cookielistitem-partitioned,WHATWG
+api/ExtendableCookieChangeEvent/deleted,,140,,87,,18.4,"[{""name"":""Cookie Store API CookieStoreManager"",""type"":""preference"",""value_to_set"":""Enabled""}]",false,true,false,https://cookiestore.spec.whatwg.org/#dom-extendablecookiechangeevent-deleted,WHATWG
+api/ExtendableCookieChangeEvent/deleted/partitioned_property,,,,114,,18.4,"[{""name"":""Cookie Store API CookieStoreManager"",""type"":""preference"",""value_to_set"":""Enabled""}]",false,true,false,https://cookiestore.spec.whatwg.org/#dom-cookielistitem-partitioned,WHATWG
 api/ExtendableEvent,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#extendableevent-interface,W3C
 api/ExtendableEvent/ExtendableEvent,,44,,41,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#dom-extendableevent-extendableevent,W3C
 api/ExtendableEvent/waitUntil,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#dom-extendableevent-waituntil,W3C
@@ -2586,6 +2586,7 @@ api/GPUDevice/createComputePipeline/optional_entryPoint,,,,121,,,,true,true,fals
 api/GPUDevice/createComputePipelineAsync,,141,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#dom-gpudevice-createcomputepipelineasync,UNKNOWN
 api/GPUDevice/createComputePipelineAsync/optional_entryPoint,,,,121,,,,true,true,false,,NONE
 api/GPUDevice/createPipelineLayout,,141,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#dom-gpudevice-createpipelinelayout,UNKNOWN
+api/GPUDevice/createPipelineLayout/descriptor_bindGroupLayouts_parameter_accepts_null_values,,,,135,,,,true,true,false,,NONE
 api/GPUDevice/createQuerySet,,141,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#dom-gpudevice-createqueryset,UNKNOWN
 api/GPUDevice/createQuerySet/timestamp,,,,121,,,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpuquerytype-timestamp,UNKNOWN
 api/GPUDevice/createRenderBundleEncoder,,141,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#dom-gpudevice-createrenderbundleencoder,UNKNOWN
@@ -2714,6 +2715,7 @@ api/GPUSupportedFeatures/feature_dual-source-blending,,,,130,,,,true,true,false,
 api/GPUSupportedFeatures/feature_float32-blendable,,,,132,,,,true,true,false,https://gpuweb.github.io/gpuweb/#float32-blendable,UNKNOWN
 api/GPUSupportedFeatures/feature_float32-filterable,,,,119,,,,true,true,false,https://gpuweb.github.io/gpuweb/#float32-filterable,UNKNOWN
 api/GPUSupportedFeatures/feature_indirect-first-instance,,,,113,,,,true,true,false,https://gpuweb.github.io/gpuweb/#indirect-first-instance,UNKNOWN
+api/GPUSupportedFeatures/feature_primitive-index,,,,142,,,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-primitive-index,UNKNOWN
 api/GPUSupportedFeatures/feature_rg11b10ufloat-renderable,,,,113,,,,true,true,false,https://gpuweb.github.io/gpuweb/#rg11b10ufloat-renderable,UNKNOWN
 api/GPUSupportedFeatures/feature_shader-f16,,,,120,,,,true,true,false,https://gpuweb.github.io/gpuweb/#shader-f16,UNKNOWN
 api/GPUSupportedFeatures/feature_subgroups,,,,134,,,,true,true,false,https://gpuweb.github.io/gpuweb/#subgroups,UNKNOWN
@@ -2722,6 +2724,8 @@ api/GPUSupportedFeatures/feature_texture-compression-astc-sliced-3d,,141,,139,,2
 api/GPUSupportedFeatures/feature_texture-compression-bc,,,,113,,,,true,true,false,https://gpuweb.github.io/gpuweb/#texture-compression-bc,UNKNOWN
 api/GPUSupportedFeatures/feature_texture-compression-bc-sliced-3d,,141,,139,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#texture-compression-bc-sliced-3d,UNKNOWN
 api/GPUSupportedFeatures/feature_texture-compression-etc2,,,,113,,,,true,true,false,https://gpuweb.github.io/gpuweb/#texture-compression-etc2,UNKNOWN
+api/GPUSupportedFeatures/feature_texture-formats-tier1,,,,142,,,,true,true,false,https://www.w3.org/TR/webgpu/#texture-formats-tier1,W3C
+api/GPUSupportedFeatures/feature_texture-formats-tier2,,,,142,,,,true,true,false,https://www.w3.org/TR/webgpu/#texture-formats-tier2,W3C
 api/GPUSupportedFeatures/feature_timestamp-query,,,,121,,,,true,true,false,https://gpuweb.github.io/gpuweb/#timestamp-query,UNKNOWN
 api/GPUSupportedFeatures/forEach,,141,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#gpusupportedfeatures,UNKNOWN
 api/GPUSupportedFeatures/has,,141,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#gpusupportedfeatures,UNKNOWN
@@ -4481,6 +4485,7 @@ api/MediaDevices/getDisplayMedia/preferCurrentTab_option,,,,94,,,,true,false,fal
 api/MediaDevices/getDisplayMedia/selfBrowserSurface_option,,,,112,,,,true,true,false,https://w3c.github.io/mediacapture-screen-share/#dom-displaymediastreamoptions-selfbrowsersurface,W3C
 api/MediaDevices/getDisplayMedia/surfaceSwitching_option,,,,107,,,,true,true,false,https://w3c.github.io/mediacapture-screen-share/#dom-displaymediastreamoptions-surfaceswitching,W3C
 api/MediaDevices/getDisplayMedia/systemAudio_option,,,,105,,,,true,true,false,https://w3c.github.io/mediacapture-screen-share/#dom-displaymediastreamoptions-systemaudio,W3C
+api/MediaDevices/getDisplayMedia/windowAudio_option,,,,141,,,,true,true,false,https://w3c.github.io/mediacapture-screen-share/#dom-displaymediastreamoptions-windowaudio,W3C
 api/MediaDevices/getSupportedConstraints,,44,,53,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediadevices-getsupportedconstraints,W3C
 api/MediaDevices/getSupportedConstraints/return_object_property_aspectRatio,,,,53,,≤12.1,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-aspectratio,W3C
 api/MediaDevices/getSupportedConstraints/return_object_property_autoGainControl,,55,,67,,,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-autogaincontrol,W3C
@@ -4667,6 +4672,8 @@ api/MediaStreamTrack/applyConstraints/channelCount_constraint,,,,59,,,,false,tru
 api/MediaStreamTrack/applyConstraints/deviceId_constraint,,43,,59,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-deviceid,W3C
 api/MediaStreamTrack/applyConstraints/displaySurface_constraint,,,,107,,11.1,,false,true,false,https://w3c.github.io/mediacapture-screen-share/#dom-mediatrackconstraintset-displaysurface,W3C
 api/MediaStreamTrack/applyConstraints/echoCancellation_constraint,,50,,59,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-echocancellation,W3C
+api/MediaStreamTrack/applyConstraints/echoCancellation_constraint/all,,,,141,,,,true,true,false,https://w3c.github.io/mediacapture-main/#dom-echocancellationmodeenum-all,W3C
+api/MediaStreamTrack/applyConstraints/echoCancellation_constraint/remote-only,,,,141,,,,true,true,false,https://w3c.github.io/mediacapture-main/#dom-echocancellationmodeenum-remote-only,W3C
 api/MediaStreamTrack/applyConstraints/facingMode_constraint,,50,,59,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-facingmode,W3C
 api/MediaStreamTrack/applyConstraints/frameRate_constraint,,50,,59,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-framerate,W3C
 api/MediaStreamTrack/applyConstraints/groupId_constraint,,70,,59,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-groupid,W3C
@@ -4675,6 +4682,7 @@ api/MediaStreamTrack/applyConstraints/latency_constraint,,50,,59,,,,false,true,f
 api/MediaStreamTrack/applyConstraints/logicalSurface_constraint,,,,,,11.1,,false,true,false,https://w3c.github.io/mediacapture-screen-share/#dom-mediatrackconstraintset-logicalsurface,W3C
 api/MediaStreamTrack/applyConstraints/noiseSuppression_constraint,,55,,67,,,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-noisesuppression,W3C
 api/MediaStreamTrack/applyConstraints/resizeMode_constraint,,,,72,,,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-resizemode,W3C
+api/MediaStreamTrack/applyConstraints/restrictOwnAudio_constraint,,,,141,,,,true,true,false,https://w3c.github.io/mediacapture-screen-share/#dom-mediatrackconstraintset-restrictownaudio,W3C
 api/MediaStreamTrack/applyConstraints/sampleRate_constraint,,,,59,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-samplerate,W3C
 api/MediaStreamTrack/applyConstraints/sampleSize_constraint,,,,59,,11,,false,true,false,https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-samplesize,W3C
 api/MediaStreamTrack/applyConstraints/suppressLocalAudioPlayback_constraint,,,,109,,,,true,true,false,https://w3c.github.io/mediacapture-screen-share/#dom-mediatrackconstraintset-suppresslocalaudioplayback,W3C
@@ -4843,6 +4851,7 @@ api/NavigateEvent/hasUAVisualTransition,,,,118,,,,true,true,false,https://html.s
 api/NavigateEvent/hashChange,,,,102,,,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-hashchange-dev,WHATWG
 api/NavigateEvent/info,,,,102,,,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-info-dev,WHATWG
 api/NavigateEvent/intercept,,,,105,,,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-intercept-dev,WHATWG
+api/NavigateEvent/intercept/precommitHandler_option,,,,141,,,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigationinterceptoptions-precommithandler,WHATWG
 api/NavigateEvent/navigationType,,,,102,,,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-navigationtype-dev,WHATWG
 api/NavigateEvent/scroll,,,,105,,,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-scroll-dev,WHATWG
 api/NavigateEvent/signal,,,,102,,,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-signal-dev,WHATWG
@@ -5018,7 +5027,7 @@ api/Navigator/serviceWorker,,44,,40,,11.1,,false,true,false,https://w3c.github.i
 api/Navigator/setAppBadge,,,,81,,17,,false,true,false,https://w3c.github.io/badging/#setappbadge-method,W3C
 api/Navigator/share,,71,"[{""name"":""dom.webshare.enabled"",""type"":""preference"",""value_to_set"":""true""}]",128,,12.1,,false,true,false,https://w3c.github.io/web-share/#share-method,W3C
 api/Navigator/share/data_files_parameter,,,,89,,14,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-files,W3C
-api/Navigator/share/data_text_parameter,,71,,89,,14,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-text,W3C
+api/Navigator/share/data_text_parameter,,71,"[{""name"":""dom.webshare.enabled"",""type"":""preference"",""value_to_set"":""true""}]",89,,14,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-text,W3C
 api/Navigator/storage,,57,,55,,15.2,,false,true,false,https://storage.spec.whatwg.org/#dom-navigatorstorage-storage,WHATWG
 api/Navigator/storageBuckets,,,,122,,,,true,true,false,https://wicg.github.io/storage-buckets/#dom-navigatorstoragebuckets-storagebuckets,W3CCG
 api/Navigator/taintEnabled,,1,,,,,,false,true,false,https://html.spec.whatwg.org/multipage/system-state.html#dom-navigator-taintenabled,WHATWG
@@ -5899,13 +5908,13 @@ api/RTCDtlsTransport/iceTransport,,125,,72,,15.4,,false,true,false,https://w3c.g
 api/RTCDtlsTransport/state,,82,,72,,15.4,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcdtlstransport-state,W3C
 api/RTCDtlsTransport/statechange_event,,82,,72,,15.4,,false,true,false,,NONE
 api/RTCEncodedAudioFrame,,117,,86,,15.4,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#rtcencodedaudioframe,W3C
-api/RTCEncodedAudioFrame/RTCEncodedAudioFrame,,,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframe-constructor,W3C
+api/RTCEncodedAudioFrame/RTCEncodedAudioFrame,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframe-constructor,W3C
 api/RTCEncodedAudioFrame/data,,117,,86,,15.4,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframe-data,W3C
 api/RTCEncodedAudioFrame/getMetadata,,117,,86,,15.4,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframe-getmetadata,W3C
 api/RTCEncodedAudioFrame/getMetadata/return_object_property_audioLevel,,,,139,,,,true,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-audiolevel,W3C
 api/RTCEncodedAudioFrame/timestamp,,117,,86,,15.4,,false,false,true,,NONE
 api/RTCEncodedVideoFrame,,117,,86,,15.4,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#rtcencodedvideoframe,W3C
-api/RTCEncodedVideoFrame/RTCEncodedVideoFrame,,,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-constructor,W3C
+api/RTCEncodedVideoFrame/RTCEncodedVideoFrame,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-constructor,W3C
 api/RTCEncodedVideoFrame/data,,117,,86,,15.4,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-data,W3C
 api/RTCEncodedVideoFrame/getMetadata,,117,,86,,15.4,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-getmetadata,W3C
 api/RTCEncodedVideoFrame/timestamp,,117,,86,,15.4,,false,false,true,,NONE
@@ -7548,18 +7557,18 @@ api/SpeechRecognition/SpeechRecognition,,142,"[{""name"":""media.webspeech.recog
 api/SpeechRecognition/abort,,143,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",33,,14.1,,false,true,false,https://webaudio.github.io/web-speech-api/#dom-speechrecognition-abort,W3C
 api/SpeechRecognition/audioend_event,,143,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",33,,14.1,,false,true,false,https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-audioend,W3C
 api/SpeechRecognition/audiostart_event,,143,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",33,,14.1,,false,true,false,https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-audiostart,W3C
-api/SpeechRecognition/available_static,,,,142,,,,true,true,false,https://webaudio.github.io/web-speech-api/#dom-speechrecognition-available,W3C
+api/SpeechRecognition/available_static,,,,139,,,,true,true,false,https://webaudio.github.io/web-speech-api/#dom-speechrecognition-available,W3C
 api/SpeechRecognition/continuous,,143,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",33,,14.1,,false,true,false,https://webaudio.github.io/web-speech-api/#dom-speechrecognition-continuous,W3C
 api/SpeechRecognition/end_event,,143,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",33,,14.1,,false,true,false,https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-end,W3C
 api/SpeechRecognition/error_event,,143,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",33,,14.1,,false,true,false,https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-error,W3C
 api/SpeechRecognition/grammars,,143,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",33,,,,false,true,false,https://webaudio.github.io/web-speech-api/#dom-speechrecognition-grammars,W3C
-api/SpeechRecognition/install_static,,,,142,,,,true,true,false,https://webaudio.github.io/web-speech-api/#dom-speechrecognition-install,W3C
+api/SpeechRecognition/install_static,,,,139,,,,true,true,false,https://webaudio.github.io/web-speech-api/#dom-speechrecognition-install,W3C
 api/SpeechRecognition/interimResults,,143,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",33,,14.1,,false,true,false,https://webaudio.github.io/web-speech-api/#dom-speechrecognition-interimresults,W3C
 api/SpeechRecognition/lang,,143,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",33,,14.1,,false,true,false,https://webaudio.github.io/web-speech-api/#dom-speechrecognition-lang,W3C
 api/SpeechRecognition/maxAlternatives,,143,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",33,,14.1,,false,true,false,https://webaudio.github.io/web-speech-api/#dom-speechrecognition-maxalternatives,W3C
 api/SpeechRecognition/nomatch_event,,143,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",33,,14.1,,false,true,false,https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-nomatch,W3C
 api/SpeechRecognition/phrases,,,,142,,,,true,true,false,https://webaudio.github.io/web-speech-api/#dom-speechrecognition-phrases,W3C
-api/SpeechRecognition/processLocally,,,,142,,,,true,true,false,https://webaudio.github.io/web-speech-api/#dom-speechrecognition-processlocally,W3C
+api/SpeechRecognition/processLocally,,,,139,,,,true,true,false,https://webaudio.github.io/web-speech-api/#dom-speechrecognition-processlocally,W3C
 api/SpeechRecognition/result_event,,143,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",33,,14.1,,false,true,false,https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-result,W3C
 api/SpeechRecognition/soundend_event,,143,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",33,,14.1,,false,true,false,https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-soundend,W3C
 api/SpeechRecognition/soundstart_event,,143,"[{""name"":""media.webspeech.recognition.enable"",""type"":""preference"",""value_to_set"":""true""}]",33,,14.1,,false,true,false,https://webaudio.github.io/web-speech-api/#eventdef-speechrecognition-soundstart,W3C
@@ -7902,7 +7911,7 @@ api/ToggleEvent,,120,,114,,17,,false,true,false,https://html.spec.whatwg.org/mul
 api/ToggleEvent/ToggleEvent,,120,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#toggleevent,WHATWG
 api/ToggleEvent/newState,,120,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-toggleevent-newstate,WHATWG
 api/ToggleEvent/oldState,,120,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-toggleevent-oldstate,WHATWG
-api/ToggleEvent/source,,,,140,,,,true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-toggleevent-source,WHATWG
+api/ToggleEvent/source,,145,,140,,,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-toggleevent-source,WHATWG
 api/Touch,,52,,22,,,,false,true,false,https://w3c.github.io/touch-events/#touch-interface,W3C
 api/Touch/Touch,,52,,48,,,,false,true,false,https://w3c.github.io/touch-events/#dom-touch-constructor,W3C
 api/Touch/altitudeAngle,,,,,,,,false,true,false,https://w3c.github.io/touch-events/#dom-touch-altitudeangle,W3C
@@ -11806,7 +11815,7 @@ css/properties/view-transition-group/contain,,,,140,,,,true,true,false,,NONE
 css/properties/view-transition-group/nearest,,,,140,,,,true,true,false,,NONE
 css/properties/view-transition-group/normal,,,,140,,,,true,true,false,,NONE
 css/properties/view-transition-name,,144,,111,,18,,false,true,false,https://drafts.csswg.org/css-view-transitions/#view-transition-name-prop,W3C
-css/properties/view-transition-name/match-element,,144,,137,,,,false,true,false,https://drafts.csswg.org/css-view-transitions-2/#auto-vt-name,W3C
+css/properties/view-transition-name/match-element,,144,,137,,18.4,,false,true,false,https://drafts.csswg.org/css-view-transitions-2/#auto-vt-name,W3C
 css/properties/view-transition-name/none,,144,,111,,18,,false,true,false,https://drafts.csswg.org/css-view-transitions/#valdef-view-transition-name-none,W3C
 css/properties/visibility,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-display/#visibility,W3C
 css/properties/visibility/collapse,,1,,1,,1.3,,false,true,false,https://drafts.csswg.org/css-display/#valdef-visibility-collapse,W3C
@@ -13602,7 +13611,7 @@ javascript/builtins/Atomics/pause,,137,,133,,18.4,,false,true,false,https://tc39
 javascript/builtins/Atomics/store,,78,,68,,15.2,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.store,TC39
 javascript/builtins/Atomics/sub,,78,,68,,15.2,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.sub,TC39
 javascript/builtins/Atomics/wait,,78,,68,,15.2,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.wait,TC39
-javascript/builtins/Atomics/waitAsync,,140,"[{""name"":""javascript.options.atomics_wait_async"",""type"":""preference"",""value_to_set"":""true""}]",87,,16.4,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.waitasync,TC39
+javascript/builtins/Atomics/waitAsync,,145,,87,,16.4,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.waitasync,TC39
 javascript/builtins/Atomics/xor,,78,,68,,15.2,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.xor,TC39
 javascript/builtins/BigInt,,68,,67,,14,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-bigint-objects,TC39
 javascript/builtins/BigInt/BigInt,,68,,67,,14,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-bigint-constructor,TC39
