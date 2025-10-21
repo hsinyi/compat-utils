@@ -14,7 +14,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3494102804,false,Navigation: Add optimization to ignore duplicate navigations,https://github.com/whatwg/html/pull/11765,2025-10-08T06:48:17Z,2025-10-17T04:32:58Z,llannasatoll,,0
 3493093695,true,Improve behavior for parsing option end tags,https://github.com/whatwg/html/pull/11764,2025-10-07T21:25:50Z,2025-10-13T17:15:39Z,josepharhar,,1
 3492979858,true,Editorial: split multi-<code> <pre>s into individual <pre><code>,https://github.com/whatwg/html/pull/11763,2025-10-07T20:46:12Z,2025-10-08T07:31:49Z,foolip,,0
-3492316993,false,"Navigation API: pass argument instead of a global ""upcoming method tracker""",https://github.com/whatwg/html/pull/11762,2025-10-07T17:12:31Z,2025-10-16T09:22:09Z,noamr,,0
+3492316993,true,"Navigation API: pass argument instead of a global ""upcoming method tracker""",https://github.com/whatwg/html/pull/11762,2025-10-07T17:12:31Z,2025-10-20T13:20:58Z,noamr,,0
 3489512245,false,Define base appearance for list box select elements,https://github.com/whatwg/html/pull/11758,2025-10-07T00:07:43Z,2025-10-17T15:28:48Z,josepharhar,,0
 3488477586,true,"Remove incorrect usages of link options destination",https://github.com/whatwg/html/pull/11757,2025-10-06T18:13:13Z,2025-10-10T08:55:03Z,TimvdLippe,,0
 3484788647,false,Add id attribute to DOM clobbering note,https://github.com/whatwg/html/pull/11754,2025-10-05T13:03:10Z,2025-10-05T13:04:41Z,adi-ray,,0
@@ -40,7 +40,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3449447529,true,reorder dialog attr changed steps so that cleanup steps always occur,https://github.com/whatwg/html/pull/11693,2025-09-24T13:26:59Z,2025-10-01T08:46:58Z,keithamus,,0
 3449178913,false,"Add `NavigationTransition.to`, exposing the current navigate event's destination",https://github.com/whatwg/html/pull/11692,2025-09-24T12:14:44Z,2025-10-14T08:01:52Z,noamr,,0
 3448693145,true,Editorial: Cross-reference 'expected' in Rendering,https://github.com/whatwg/html/pull/11691,2025-09-24T10:09:23Z,2025-09-25T14:23:04Z,zcorpan,,0
-3447004466,false,Declarative CSS Modules,https://github.com/whatwg/html/pull/11687,2025-09-24T00:00:42Z,2025-10-13T05:19:28Z,KurtCattiSchmidt,,0
+3447004466,false,Declarative CSS Modules,https://github.com/whatwg/html/pull/11687,2025-09-24T00:00:42Z,2025-10-20T16:49:34Z,KurtCattiSchmidt,,0
 3440906111,true,Add source to ToggleEventInit,https://github.com/whatwg/html/pull/11679,2025-09-22T13:06:20Z,2025-09-30T09:12:09Z,keithamus,topic: dialog|topic: popover,1
 3437289427,true,"Editorial: Fix markup, spelling, punctuation",https://github.com/whatwg/html/pull/11673,2025-09-20T16:27:02Z,2025-09-22T17:50:33Z,jmdyck,,0
 3437080571,true,Replace numeric character references with Unicode characters(fixes #3683),https://github.com/whatwg/html/pull/11672,2025-09-20T12:04:57Z,2025-09-20T13:01:37Z,sujay-for-tech-01,invalid,0
@@ -346,7 +346,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2742760704,true,Editorial: add a concept for Window's CustomElementRegistry,https://github.com/whatwg/html/pull/10865,2024-12-16T15:53:22Z,2024-12-17T07:23:44Z,annevk,,0
 2740270982,true,Remove obsolete manifest attribute references,https://github.com/whatwg/html/pull/10863,2024-12-15T04:24:26Z,2024-12-17T12:05:54Z,wlib,,0
 2736512744,true,Improve integration with DOM's cloning steps,https://github.com/whatwg/html/pull/10859,2024-12-12T17:35:37Z,2024-12-17T07:47:39Z,annevk,,0
-2736284963,false,Support import maps in workers,https://github.com/whatwg/html/pull/10858,2024-12-12T15:52:38Z,2025-08-16T07:11:34Z,nicolo-ribaudo,addition/proposal|topic: workers|topic: script,10
+2736284963,false,Support import maps in workers,https://github.com/whatwg/html/pull/10858,2024-12-12T15:52:38Z,2025-08-16T07:11:34Z,nicolo-ribaudo,addition/proposal|topic: workers|topic: script,11
 2735846383,true,"Editorial: cleanup ""create an element""",https://github.com/whatwg/html/pull/10857,2024-12-12T13:04:51Z,2024-12-12T15:46:19Z,annevk,,0
 2735236716,true,Integrate with the move event for window defined by CSSOM-View,https://github.com/whatwg/html/pull/10853,2024-12-12T08:42:26Z,2025-04-30T16:39:28Z,frivoal,,0
 2731662991,true,"Fix null URL handling in ""get noopener for window open""",https://github.com/whatwg/html/pull/10847,2024-12-11T02:30:42Z,2024-12-12T03:40:58Z,domenic,,3
@@ -1103,7 +1103,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1383571255,true,Editorial: target realm for deserialization steps,https://github.com/whatwg/html/pull/8315,2022-09-23T10:02:44Z,2022-09-27T10:16:05Z,Ms2ger,topic: serialize and transfer,0
 1382803099,true,"Editorial: restore ""with"" (see previous commit)",https://github.com/whatwg/html/pull/8311,2022-09-22T17:43:26Z,2022-09-27T10:43:43Z,annevk,,1
 1382612185,true,Make location.search use UTF-8 unconditionally,https://github.com/whatwg/html/pull/8309,2022-09-22T15:09:13Z,2022-09-22T15:28:59Z,annevk,normative change,0
-1379986329,false,Add integration points for WebDriver BiDi load scripts,https://github.com/whatwg/html/pull/8300,2022-09-20T20:57:08Z,2023-11-14T08:05:49Z,jgraham,,0
+1379986329,false,Add integration points for WebDriver BiDi load scripts,https://github.com/whatwg/html/pull/8300,2022-09-20T20:57:08Z,2025-10-20T14:12:06Z,jgraham,,0
 1370447219,true,Reflect changed AO name from ecma262,https://github.com/whatwg/html/pull/8283,2022-09-12T19:58:37Z,2022-09-12T20:53:23Z,bakkot,,0
 1366892345,true,Define contenteditable `plaintext-only` state,https://github.com/whatwg/html/pull/8275,2022-09-08T19:32:18Z,2023-03-08T14:59:35Z,howard-e,,1
 1365802704,true,Remove parse error for <template><tr></tr> </template>,https://github.com/whatwg/html/pull/8271,2022-09-08T08:39:12Z,2022-09-15T19:10:57Z,zcorpan,topic: parser,0
