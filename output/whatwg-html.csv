@@ -1,7 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3534307429,false,"""update the image data"" queues a microtask from ""in parallel""",https://github.com/whatwg/html/issues/11812,2025-10-20T23:39:55Z,2025-10-20T23:39:55Z,jyasskin,,0
+3536147571,false,No implementation calls #resume-applying-the-traverse-history-step entirely async,https://github.com/whatwg/html/issues/11814,2025-10-21T11:38:26Z,2025-10-21T11:42:52Z,farre,compat|topic: navigation,0
+3534577511,false,Stylesheet link response processing rules for content-type contradict rules for processing the type attribute,https://github.com/whatwg/html/issues/11813,2025-10-21T02:19:59Z,2025-10-21T02:27:53Z,jdm,,0
+3534307429,false,"""update the image data"" queues a microtask from ""in parallel""",https://github.com/whatwg/html/issues/11812,2025-10-20T23:39:55Z,2025-10-21T10:26:33Z,jyasskin,topic: img,0
 3533166863,false,A navigation's current entry index can be −1 even when it does not have entries and events disabled,https://github.com/whatwg/html/issues/11811,2025-10-20T16:47:36Z,2025-10-20T16:56:36Z,avandolder,topic: navigation,0
-3532979842,false,maybe add 2 additional WAPFORUM public IDs to list used for XHTML entities,https://github.com/whatwg/html/issues/11810,2025-10-20T15:51:53Z,2025-10-20T15:51:53Z,dbaron,,0
+3532979842,false,maybe add 2 additional WAPFORUM public IDs to list used for XHTML entities,https://github.com/whatwg/html/issues/11810,2025-10-20T15:51:53Z,2025-10-21T09:40:38Z,dbaron,interop,0
 3528888843,false,<datalist> element usability and implementation gaps,https://github.com/whatwg/html/issues/11809,2025-10-18T14:46:12Z,2025-10-18T14:46:12Z,sai-30624,addition/proposal|needs implementer interest,0
 3528886275,false,Relaxing content model for <button> to allow more than phrasing content,https://github.com/whatwg/html/issues/11808,2025-10-18T14:43:37Z,2025-10-18T14:43:37Z,sai-30624,addition/proposal|needs implementer interest,0
 3528262733,false,Add native validation attribute for declarative input validation,https://github.com/whatwg/html/issues/11807,2025-10-18T07:48:27Z,2025-10-20T17:15:41Z,mtechamit,addition/proposal|needs implementer interest,0
@@ -40,7 +42,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3482893798,true,Upcoming WHATNOT meeting on 2025-10-09,https://github.com/whatwg/html/issues/11747,2025-10-03T23:49:21Z,2025-10-16T15:08:07Z,cwilso,,0
 3481524725,false,Expose `navigation.transition` for same-origin cross-document navigation,https://github.com/whatwg/html/issues/11745,2025-10-03T15:21:09Z,2025-10-16T13:38:34Z,noamr,addition/proposal|needs implementer interest|topic: navigation,0
 3480086621,false,Forgetting source argument to showPopover() is too easy,https://github.com/whatwg/html/issues/11744,2025-10-03T07:22:01Z,2025-10-08T16:42:04Z,fantasai,topic: popover,0
-3479821271,false,"Proposal: Add optimization to ignore ""duplicate"" navigations",https://github.com/whatwg/html/issues/11743,2025-10-03T05:14:35Z,2025-10-17T14:13:03Z,rakina,addition/proposal|needs implementer interest|topic: navigation,3
+3479821271,false,"Proposal: Add optimization to ignore ""duplicate"" navigations",https://github.com/whatwg/html/issues/11743,2025-10-03T05:14:35Z,2025-10-21T07:34:43Z,rakina,addition/proposal|needs implementer interest|topic: navigation,3
 3478171210,false,Meeting 30 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11740,2025-10-02T16:38:24Z,2025-10-14T21:22:05Z,mfreed7,,0
 3474315969,true,Navigation API: upcoming API method tracker is not null if `navigate` is called from `onnavigateerror`,https://github.com/whatwg/html/issues/11735,2025-10-01T16:40:38Z,2025-10-20T13:20:58Z,jnjaeschke,topic: navigation,0
 3472725307,false,"Navigation API: ""has been scrolled by user"" is ambiguous",https://github.com/whatwg/html/issues/11732,2025-10-01T09:17:01Z,2025-10-08T19:19:12Z,keithamus,clarification|topic: navigation,1
@@ -55,7 +57,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3458474902,false,Navigation API: deferring scroll until intercept promise settles,https://github.com/whatwg/html/issues/11716,2025-09-26T17:24:21Z,2025-10-08T20:28:11Z,keithamus,topic: navigation,0
 3457906418,false,`error` parameter of #abort-the-ongoing-navigation is not passed to #abort-a-navigateevent,https://github.com/whatwg/html/issues/11715,2025-09-26T14:28:11Z,2025-09-29T10:30:43Z,avandolder,topic: navigation,0
 3457203008,true,"#reload synchronously fires a navigate event, triggering asserts",https://github.com/whatwg/html/issues/11714,2025-09-26T11:41:55Z,2025-10-20T13:23:40Z,farre,topic: navigation,0
-3454212770,false,WHATUP at TPAC 2025: agenda suggestions,https://github.com/whatwg/html/issues/11711,2025-09-25T15:49:53Z,2025-10-17T13:40:25Z,cwilso,agenda+,0
+3454212770,false,WHATUP at TPAC 2025: agenda suggestions,https://github.com/whatwg/html/issues/11711,2025-09-25T15:49:53Z,2025-10-21T10:33:22Z,cwilso,agenda+,0
 3453902217,true,targetNavigable is not defined in #navigate,https://github.com/whatwg/html/issues/11709,2025-09-25T14:28:27Z,2025-09-25T15:04:53Z,farre,topic: navigation,0
 3453294237,true,option element form IDL attribute works incorrectly,https://github.com/whatwg/html/issues/11708,2025-09-25T11:58:18Z,2025-10-07T12:59:58Z,annevk,topic: select,0
 3453290739,true,option element disabledness works incorrectly,https://github.com/whatwg/html/issues/11707,2025-09-25T11:57:06Z,2025-10-08T08:10:51Z,annevk,needs tests|topic: select,0
@@ -1462,7 +1464,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1524706667,true,"""The XML syntax for HTML was formerly referred t...""",https://github.com/whatwg/html/issues/8700,2023-01-08T22:23:56Z,2023-01-12T01:51:14Z,PuppyPi,,0
 1524326598,false,"Don't mangle """"""username"""""" and """"""password"""""" in ""web+"" protocol handlers",https://github.com/whatwg/html/issues/8697,2023-01-08T04:56:24Z,2023-02-24T15:26:29Z,SoniEx2,security/privacy|topic: custom protocols,0
 1524286757,false,There's no way to declare character set (not encoding),https://github.com/whatwg/html/issues/8696,2023-01-08T02:37:06Z,2023-01-08T02:37:06Z,keiyakins,,0
-1523666956,false,Proposal: Elements for a more semantic web,https://github.com/whatwg/html/issues/8693,2023-01-07T09:54:18Z,2025-10-20T18:59:39Z,skwee357,,2
+1523666956,false,Proposal: Elements for a more semantic web,https://github.com/whatwg/html/issues/8693,2023-01-07T09:54:18Z,2025-10-20T18:59:39Z,skwee357,,3
 1521956909,false,12.2.1 The Storage interface says storage[key] returns null but actually returns undefined.,https://github.com/whatwg/html/issues/8684,2023-01-06T05:11:19Z,2023-01-07T00:18:48Z,babatakao,,0
 1521326222,false,Support for rel attribute on iframe,https://github.com/whatwg/html/issues/8682,2023-01-05T20:04:55Z,2025-01-23T10:03:51Z,0xdevwrite,addition/proposal|needs implementer interest|topic: frames/navigables/browsing contexts,1
 1521187504,false,Should the `dialog` element be considered interactive content?,https://github.com/whatwg/html/issues/8680,2023-01-05T18:24:04Z,2023-01-05T20:10:25Z,gnpivo,,0
@@ -2922,11 +2924,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 512330703,false,Meta referrer being able to loosen Referrer-Policy header restrictions is a security vulnerability,https://github.com/whatwg/html/issues/5041,2019-10-25T06:34:26Z,2022-05-31T13:48:55Z,chris-morgan,,0
 512069720,false,HTML sandbox form restriction bypass when scripts allowed,https://github.com/whatwg/html/issues/5040,2019-10-24T17:05:19Z,2019-10-25T15:11:31Z,tsangtmc,clarification|security/privacy,0
 511584833,false,HTMLConstructor construction steps: inconsistent evaluation order/error cases in implementations,https://github.com/whatwg/html/issues/5037,2019-10-23T21:35:34Z,2019-10-24T08:54:23Z,bathos,topic: custom elements|interop,0
-510489260,true,Consider adding a headingoffset attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2025-09-11T09:44:23Z,annevk,addition/proposal|accessibility,34
+510489260,true,Consider adding a headingoffset attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2025-10-21T09:38:09Z,annevk,addition/proposal|accessibility,34
 509880741,true,---------,https://github.com/whatwg/html/issues/5029,2019-10-21T10:42:33Z,2019-10-22T04:41:25Z,dhilip89,,0
 509693572,true,delegatesFocus doesn't work well with autofocus,https://github.com/whatwg/html/issues/5027,2019-10-21T02:13:20Z,2019-11-11T16:44:20Z,tkent-google,topic: focus,0
 509685886,true,Code Regions,https://github.com/whatwg/html/issues/5026,2019-10-21T01:32:06Z,2019-10-21T16:16:12Z,AdamSobieski,,0
-509602016,false,Allow animations to be given a target framerate,https://github.com/whatwg/html/issues/5025,2019-10-20T14:25:44Z,2025-10-20T22:43:29Z,jakearchibald,addition/proposal|needs implementer interest|topic: event loop,27
+509602016,false,Allow animations to be given a target framerate,https://github.com/whatwg/html/issues/5025,2019-10-20T14:25:44Z,2025-10-21T07:38:30Z,jakearchibald,addition/proposal|needs implementer interest|topic: event loop,27
 509100548,false,Browsing context hierarchy needs to go through the embedding document,https://github.com/whatwg/html/issues/5020,2019-10-18T14:01:04Z,2022-03-03T16:32:59Z,annevk,topic: history|topic: frames/navigables/browsing contexts,0
 508932938,true,Reconsider making <style> in body valid,https://github.com/whatwg/html/issues/5019,2019-10-18T08:30:23Z,2019-10-18T16:02:27Z,prlbr,document conformance|topic: style,0
 508302220,false,Form-associated custom elements missing features,https://github.com/whatwg/html/issues/5016,2019-10-17T07:57:12Z,2022-09-10T00:20:08Z,annevk,addition/proposal|accessibility|topic: custom elements|topic: forms,4
@@ -4447,7 +4449,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 202076709,true,"""A 002E FULL STOP character (.)""",https://github.com/whatwg/html/issues/2274,2017-01-20T08:01:35Z,2017-01-21T00:14:48Z,cvrebert,good first issue,0
 201967740,true,Cross-origin getters seem to ask impossible things,https://github.com/whatwg/html/issues/2273,2017-01-19T20:32:34Z,2017-05-16T15:56:02Z,domenic,topic: multiple globals,0
 201825957,false,Disallow interactive content in <summary>,https://github.com/whatwg/html/issues/2272,2017-01-19T10:54:39Z,2025-09-12T15:11:08Z,zcorpan,document conformance|accessibility|a11y-tracker,0
-201312087,false,Make custom attribute rules consistent with custom element name rules,https://github.com/whatwg/html/issues/2271,2017-01-17T15:04:58Z,2025-10-02T06:51:25Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,104
+201312087,false,Make custom attribute rules consistent with custom element name rules,https://github.com/whatwg/html/issues/2271,2017-01-17T15:04:58Z,2025-10-02T06:51:25Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,105
 201247626,true,"Definition of ""User Agent (UA)""",https://github.com/whatwg/html/issues/2270,2017-01-17T11:11:25Z,2017-01-17T16:39:32Z,vkatsikaros,,0
 200765661,true,The pending dialog stack and the stack of top layer,https://github.com/whatwg/html/issues/2268,2017-01-14T00:39:30Z,2017-09-05T09:48:25Z,upsuper,,0
 200730663,false,Clarify DnD behavior when dragging file from file browser over document,https://github.com/whatwg/html/issues/2267,2017-01-13T21:06:03Z,2017-05-09T04:38:13Z,mystor,topic: drag and drop,0
