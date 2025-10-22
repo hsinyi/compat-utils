@@ -502,7 +502,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2724547102,true,"Calling replaceState before pushState messes up with the state, so when I go back, it does go back, but it should not",https://github.com/whatwg/html/issues/10834,2024-12-07T11:24:48Z,2024-12-08T03:27:40Z,Nedimko123,,0
 2724509105,true,"Invalid reference to ""oldModuleMap"" and ""specifier"" in ""merge existing and new import maps""",https://github.com/whatwg/html/issues/10833,2024-12-07T09:40:47Z,2024-12-09T07:05:50Z,shannonbooth,topic: script,0
 2722602163,false,Lift restriction on buttons with implicit `type=submit` and `command`/`commandfor` being no-op,https://github.com/whatwg/html/issues/10832,2024-12-06T10:07:50Z,2025-04-07T14:03:26Z,keithamus,addition/proposal|needs implementer interest|topic: forms,0
-2722500950,false,Detect UA transitions on same-origin cross-document navigations,https://github.com/whatwg/html/issues/10831,2024-12-06T09:18:01Z,2025-10-21T20:40:46Z,bramus,addition/proposal|needs implementer interest,3
+2722500950,false,Detect UA transitions on same-origin cross-document navigations,https://github.com/whatwg/html/issues/10831,2024-12-06T09:18:01Z,2025-10-22T08:57:07Z,bramus,addition/proposal|needs implementer interest,3
 2721993883,true,Iframe insertion steps violate rules for what insertion steps are allowed to do,https://github.com/whatwg/html/issues/10828,2024-12-06T03:59:51Z,2024-12-12T03:38:48Z,jdm,integration,0
 2721875733,false,Browsers are not interoperable on navigating to no-Content-Type blob: URLs,https://github.com/whatwg/html/issues/10827,2024-12-06T02:08:45Z,2024-12-07T07:15:03Z,domenic,topic: navigation|interop,0
 2721339741,true,Upcoming WHATNOT meeting on 2024-12-12,https://github.com/whatwg/html/issues/10825,2024-12-05T20:36:22Z,2024-12-13T00:10:07Z,past,agenda+,0
@@ -2134,7 +2134,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 947056780,true,"HTML  syntax not correct ",https://github.com/whatwg/html/issues/6875,2021-07-18T15:14:36Z,2024-10-08T14:08:41Z,harshit-dugar,invalid,0
 946697785,true,"Missing parameter in the steps of ""7.10.5.8 [[Set]] ( P, V, Receiver )"" ",https://github.com/whatwg/html/issues/6873,2021-07-17T03:27:53Z,2021-07-23T10:30:54Z,yvt,good first issue,0
 946636592,false,setCustomValidity() seems pointless on <fieldset>,https://github.com/whatwg/html/issues/6870,2021-07-16T22:42:56Z,2025-04-13T19:32:26Z,domenic,addition/proposal|needs implementer interest|topic: forms,11
-946624070,false,Add required-attribute support for fieldsets,https://github.com/whatwg/html/issues/6868,2021-07-16T22:08:49Z,2023-02-13T13:51:43Z,fstrr,addition/proposal|topic: forms,23
+946624070,false,Add required-attribute support for fieldsets,https://github.com/whatwg/html/issues/6868,2021-07-16T22:08:49Z,2023-02-13T13:51:43Z,fstrr,addition/proposal|topic: forms,24
 946138075,true,How does authors specify CSS module scripts on script element?,https://github.com/whatwg/html/issues/6864,2021-07-16T10:03:55Z,2021-07-16T15:12:20Z,mtrootyy,,0
 945561794,true,Proposal: stop triggering navigations to about:blank on iframe insertion,https://github.com/whatwg/html/issues/6863,2021-07-15T16:28:37Z,2021-08-10T17:20:50Z,rakina,,2
 944085079,false,specifying BFCache interactions with window.open and browsing context groups,https://github.com/whatwg/html/issues/6858,2021-07-14T06:19:10Z,2022-04-19T21:25:19Z,fergald,topic: navigation|topic: history,0
@@ -3737,7 +3737,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-06-14T18:51:29Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,32
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,true,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2025-10-20T17:06:06Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,196
+305140900,true,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2025-10-20T17:06:06Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,197
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
@@ -4159,7 +4159,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 239026363,true,Output caniuse boxes in the dev edition as well,https://github.com/whatwg/html/issues/2794,2017-06-28T01:17:17Z,2017-08-19T13:19:50Z,domenic,dev edition,0
 239022536,false,Allow expanding to the full table of contents in the dev edition,https://github.com/whatwg/html/issues/2793,2017-06-28T00:47:56Z,2024-02-10T21:58:14Z,domenic,spec tooling|dev edition,0
 238786200,true,take port into account for same-origin domain check,https://github.com/whatwg/html/issues/2792,2017-06-27T09:15:55Z,2018-08-07T16:14:03Z,jeisinger,normative change|needs implementer interest|security/privacy|needs compat analysis|topic: origin,0
-238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2025-06-25T19:58:00Z,TakayoshiKochi,addition/proposal|needs implementer interest,202
+238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2025-10-22T03:20:41Z,TakayoshiKochi,addition/proposal|needs implementer interest,202
 238161134,true,typo?,https://github.com/whatwg/html/issues/2788,2017-06-23T14:35:44Z,2017-06-26T19:34:34Z,momdo,,0
 238026392,false,"""its associated CSS layout box""",https://github.com/whatwg/html/issues/2786,2017-06-23T02:47:39Z,2017-06-30T18:14:01Z,cvrebert,clarification,0
 237922790,false,Add inline annotations of the bibliography references,https://github.com/whatwg/html/issues/2782,2017-06-22T17:47:29Z,2024-02-10T21:58:35Z,domenic,spec tooling|dev edition,0
