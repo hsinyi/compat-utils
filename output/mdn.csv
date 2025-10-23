@@ -2575,7 +2575,8 @@ api/GPUComputePipeline/label,,141,,113,,26,,false,true,false,https://gpuweb.gith
 api/GPUDevice,,141,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#gpudevice,UNKNOWN
 api/GPUDevice/adapterInfo,,141,,132,,,,false,true,false,https://gpuweb.github.io/gpuweb/#dom-gpudevice-adapterinfo,UNKNOWN
 api/GPUDevice/createBindGroup,,141,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#dom-gpudevice-createbindgroup,UNKNOWN
-api/GPUDevice/createBindGroup/descriptor_entries_option_accepts_GPUTextureView_resource,,,,137,,,,true,true,false,,NONE
+api/GPUDevice/createBindGroup/descriptor_entries_resource_parameter_accepts_GPUBuffer,,,,138,,,,true,true,false,,NONE
+api/GPUDevice/createBindGroup/descriptor_entries_resource_parameter_accepts_GPUTextureView,,,,137,,,,true,true,false,,NONE
 api/GPUDevice/createBindGroupLayout,,141,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#dom-gpudevice-createbindgrouplayout,UNKNOWN
 api/GPUDevice/createBindGroupLayout/storageTexture_access_read-write_read-only,,,,124,,,,true,true,false,https://gpuweb.github.io/gpuweb/wgsl/#memory-access-mode,UNKNOWN
 api/GPUDevice/createBindGroupLayout/texture_rgb10a2uint,,,,119,,,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gputextureformat-rgb10a2uint,UNKNOWN
@@ -13327,11 +13328,11 @@ http/headers/If-Modified-Since,,1,,1,,1,,false,true,false,https://httpwg.org/spe
 http/headers/If-None-Match,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.if-none-match,IETF
 http/headers/If-Range,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.if-range,IETF
 http/headers/If-Unmodified-Since,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.if-unmodified-since,IETF
-http/headers/Integrity-Policy,,preview,,138,,,,true,true,false,https://w3c.github.io/webappsec-subresource-integrity/#integrity-policy-section,W3C
-http/headers/Integrity-Policy/blocked-destinations_script,,preview,,138,,,,true,true,false,https://w3c.github.io/webappsec-subresource-integrity/#blocked-destinations,W3C
+http/headers/Integrity-Policy,,145,,138,,,,false,true,false,https://w3c.github.io/webappsec-subresource-integrity/#integrity-policy-section,W3C
+http/headers/Integrity-Policy/blocked-destinations_script,,145,,138,,,,false,true,false,https://w3c.github.io/webappsec-subresource-integrity/#blocked-destinations,W3C
 http/headers/Integrity-Policy/blocked-destinations_style,,142,"[{""name"":""security.integrity_policy.stylesheet.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://w3c.github.io/webappsec-subresource-integrity/#blocked-destinations,W3C
-http/headers/Integrity-Policy-Report-Only,,preview,,138,,,,true,true,false,https://w3c.github.io/webappsec-subresource-integrity/#integrity-policy-section,W3C
-http/headers/Integrity-Policy-Report-Only/blocked-destinations_script,,preview,,138,,,,true,true,false,https://w3c.github.io/webappsec-subresource-integrity/#blocked-destinations,W3C
+http/headers/Integrity-Policy-Report-Only,,145,,138,,,,false,true,false,https://w3c.github.io/webappsec-subresource-integrity/#integrity-policy-section,W3C
+http/headers/Integrity-Policy-Report-Only/blocked-destinations_script,,145,,138,,,,false,true,false,https://w3c.github.io/webappsec-subresource-integrity/#blocked-destinations,W3C
 http/headers/Integrity-Policy-Report-Only/blocked-destinations_style,,142,"[{""name"":""security.integrity_policy.stylesheet.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://w3c.github.io/webappsec-subresource-integrity/#blocked-destinations,W3C
 http/headers/Keep-Alive,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9112.html#compatibility.with.http.1.0.persistent.connections,IETF
 http/headers/Last-Modified,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.last-modified,IETF
