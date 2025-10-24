@@ -1,12 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3544339019,false,Add two doctype public IDs that enable XHTML entities,https://github.com/whatwg/html/pull/11823,2025-10-23T11:46:49Z,2025-10-23T12:04:53Z,zcorpan,topic: parser,0
-3541261538,false,Add <template contentmethod> for declarative out-of-order streaming,https://github.com/whatwg/html/pull/11818,2025-10-22T15:04:53Z,2025-10-22T16:17:56Z,foolip,,0
+3544339019,true,Add two doctype public IDs that enable XHTML entities,https://github.com/whatwg/html/pull/11823,2025-10-23T11:46:49Z,2025-10-23T16:02:01Z,zcorpan,topic: parser,0
+3541261538,false,Add <template contentmethod> for declarative out-of-order streaming,https://github.com/whatwg/html/pull/11818,2025-10-22T15:04:53Z,2025-10-23T17:02:03Z,foolip,,0
 3537803331,true,Bring back promoting ongoing API method tracker,https://github.com/whatwg/html/pull/11817,2025-10-21T18:58:06Z,2025-10-22T12:22:52Z,noamr,,0
 3536313338,false,Don't queue a microtask from parallel in update the image data,https://github.com/whatwg/html/pull/11815,2025-10-21T12:25:08Z,2025-10-22T12:45:10Z,zcorpan,,0
 3526583838,false,Fix base appearance select styles,https://github.com/whatwg/html/pull/11805,2025-10-17T15:27:43Z,2025-10-21T19:09:52Z,josepharhar,,0
 3521695829,false,Use current global object in static method.,https://github.com/whatwg/html/pull/11799,2025-10-16T12:31:08Z,2025-10-16T12:32:55Z,otherdaniel,,0
 3521613537,false,Check if there's a browsing context in window.open() steps,https://github.com/whatwg/html/pull/11798,2025-10-16T12:10:27Z,2025-10-16T12:31:34Z,zcorpan,,0
-3517217657,false,Add support for WebDriver BiDi language emulation,https://github.com/whatwg/html/pull/11793,2025-10-15T09:41:30Z,2025-10-21T14:40:52Z,lutien,,0
+3517217657,false,Add support for WebDriver BiDi language emulation,https://github.com/whatwg/html/pull/11793,2025-10-15T09:41:30Z,2025-10-23T16:41:14Z,lutien,,0
 3515987113,false,Fix a few inconsistencies between the media element spec and implementations,https://github.com/whatwg/html/pull/11792,2025-10-15T01:04:00Z,2025-10-15T18:44:12Z,Zaggy1024,,0
 3515567232,true,Improve option insertion and removal algorithms,https://github.com/whatwg/html/pull/11790,2025-10-14T21:27:38Z,2025-10-16T15:32:27Z,josepharhar,,0
 3515561765,true,Improve option element nearest ancestor select algorithm,https://github.com/whatwg/html/pull/11789,2025-10-14T21:25:31Z,2025-10-18T13:23:58Z,josepharhar,,0
@@ -23,7 +23,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3488477586,true,"Remove incorrect usages of link options destination",https://github.com/whatwg/html/pull/11757,2025-10-06T18:13:13Z,2025-10-10T08:55:03Z,TimvdLippe,,0
 3484788647,false,Add id attribute to DOM clobbering note,https://github.com/whatwg/html/pull/11754,2025-10-05T13:03:10Z,2025-10-05T13:04:41Z,adi-ray,,0
 3482998078,true,Editorial: fix typo “nulll” should be “null”,https://github.com/whatwg/html/pull/11748,2025-10-04T00:54:17Z,2025-10-04T09:59:53Z,JinDX,,0
-3478824122,false,Integrate FormControlRange hooks into text controls (input/textarea),https://github.com/whatwg/html/pull/11741,2025-10-02T20:26:35Z,2025-10-16T23:08:41Z,stephanieyzhang,,0
+3478824122,false,Integrate FormControlRange hooks into text controls (input/textarea),https://github.com/whatwg/html/pull/11741,2025-10-02T20:26:35Z,2025-10-23T15:38:45Z,stephanieyzhang,,0
 3475400447,true,Improve optgroup's list of option elements,https://github.com/whatwg/html/pull/11738,2025-10-01T22:44:46Z,2025-10-17T05:18:57Z,josepharhar,,0
 3475240578,true,Remove optgroup element removal and moving steps,https://github.com/whatwg/html/pull/11737,2025-10-01T21:44:43Z,2025-10-07T12:56:02Z,josepharhar,,0
 3473184206,false,[Not for review yet] Add CanvasToneMapping to CanvasSettings,https://github.com/whatwg/html/pull/11734,2025-10-01T11:35:30Z,2025-10-01T11:37:04Z,ccameron-chromium,,0
@@ -88,8 +88,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
 3331131522,true,[WebDriver BiDi] emulate network offline,https://github.com/whatwg/html/pull/11575,2025-08-18T15:16:42Z,2025-10-10T16:20:36Z,sadym-chromium,,0
 3327499382,true,mudei cord,https://github.com/whatwg/html/pull/11568,2025-08-16T18:00:25Z,2025-08-16T19:55:40Z,NicolasGimenezAlcalde,invalid,0
-3323021317,false,Remove mentions of XSLT from the html spec,https://github.com/whatwg/html/pull/11563,2025-08-14T17:27:01Z,2025-10-15T15:58:22Z,mfreed7,removal/deprecation,78
-3321823554,false,Redact ancestorOrigins using referrer policy,https://github.com/whatwg/html/pull/11560,2025-08-14T11:10:20Z,2025-10-13T15:35:00Z,zcorpan,agenda+,0
+3323021317,false,Remove mentions of XSLT from the HTML spec,https://github.com/whatwg/html/pull/11563,2025-08-14T17:27:01Z,2025-10-23T15:20:35Z,mfreed7,removal/deprecation,78
+3321823554,false,Redact ancestorOrigins using referrer policy,https://github.com/whatwg/html/pull/11560,2025-08-14T11:10:20Z,2025-10-23T17:05:17Z,zcorpan,,0
 3314237971,true,Remove rowspan=0 quirk,https://github.com/whatwg/html/pull/11551,2025-08-12T13:20:05Z,2025-08-14T07:16:55Z,zcorpan,,0
 3300979591,true,Remove connectedness check in script post-connection steps,https://github.com/whatwg/html/pull/11543,2025-08-07T15:31:03Z,2025-09-12T01:53:30Z,domfarolino,topic: script,0
 3297579358,false,"Move `has cross-site ancestor` to the environment, from the ESO",https://github.com/whatwg/html/pull/11540,2025-08-06T18:03:22Z,2025-10-15T16:05:54Z,bvandersloot-mozilla,,0
@@ -98,7 +98,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3291533405,false,Canvas2D: Add srgb-linear and display-p3-linear to PredefinedColorSpace enum,https://github.com/whatwg/html/pull/11529,2025-08-05T04:38:31Z,2025-10-22T11:12:54Z,ccameron-chromium,addition/proposal|topic: canvas,0
 3290898664,true,Editorial: fix ending li tag,https://github.com/whatwg/html/pull/11528,2025-08-04T21:58:37Z,2025-08-05T06:20:42Z,josepharhar,,0
 3285874404,true,Add paragraph to hgroup children in indices table,https://github.com/whatwg/html/pull/11524,2025-08-02T12:03:48Z,2025-08-19T06:13:06Z,TrySound,document conformance,0
-3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-10-08T17:48:54Z,ffiori,agenda+,0
+3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-10-23T18:14:18Z,ffiori,agenda+,0
 3280953563,false,Imply [Reflect] when [ReflectRange] or [ReflectDefault] are used.,https://github.com/whatwg/html/pull/11518,2025-07-31T15:49:27Z,2025-08-26T15:59:08Z,lukewarlow,,0
 3280885144,true,Remove support ElementInternals reflection flag,https://github.com/whatwg/html/pull/11517,2025-07-31T15:27:38Z,2025-08-22T00:41:19Z,lukewarlow,,0
 3279388233,true,Editorial: clarify worker lifetime definitions,https://github.com/whatwg/html/pull/11515,2025-07-31T07:15:41Z,2025-08-19T05:43:54Z,domenic,clarification|topic: workers,0
@@ -1107,7 +1107,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1383571255,true,Editorial: target realm for deserialization steps,https://github.com/whatwg/html/pull/8315,2022-09-23T10:02:44Z,2022-09-27T10:16:05Z,Ms2ger,topic: serialize and transfer,0
 1382803099,true,"Editorial: restore ""with"" (see previous commit)",https://github.com/whatwg/html/pull/8311,2022-09-22T17:43:26Z,2022-09-27T10:43:43Z,annevk,,1
 1382612185,true,Make location.search use UTF-8 unconditionally,https://github.com/whatwg/html/pull/8309,2022-09-22T15:09:13Z,2022-09-22T15:28:59Z,annevk,normative change,0
-1379986329,false,Add integration points for WebDriver BiDi load scripts,https://github.com/whatwg/html/pull/8300,2022-09-20T20:57:08Z,2025-10-20T14:12:06Z,jgraham,,0
+1379986329,false,Add integration points for WebDriver BiDi load scripts,https://github.com/whatwg/html/pull/8300,2022-09-20T20:57:08Z,2025-10-23T14:26:13Z,jgraham,,0
 1370447219,true,Reflect changed AO name from ecma262,https://github.com/whatwg/html/pull/8283,2022-09-12T19:58:37Z,2022-09-12T20:53:23Z,bakkot,,0
 1366892345,true,Define contenteditable `plaintext-only` state,https://github.com/whatwg/html/pull/8275,2022-09-08T19:32:18Z,2023-03-08T14:59:35Z,howard-e,,1
 1365802704,true,Remove parse error for <template><tr></tr> </template>,https://github.com/whatwg/html/pull/8271,2022-09-08T08:39:12Z,2022-09-15T19:10:57Z,zcorpan,topic: parser,0
