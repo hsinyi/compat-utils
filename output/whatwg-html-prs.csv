@@ -1,7 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3557048968,false,Editorial: Fix markup + wording,https://github.com/whatwg/html/pull/11837,2025-10-27T14:23:27Z,2025-10-27T14:25:20Z,jmdyck,,0
+3556983944,false,"Navigation ""commit"": only set interception state if it was not ""none""",https://github.com/whatwg/html/pull/11836,2025-10-27T14:09:07Z,2025-10-27T14:10:51Z,noamr,,0
 3555120979,true,Update README.md,https://github.com/whatwg/html/pull/11834,2025-10-27T05:30:29Z,2025-10-27T07:29:14Z,JANHAVI0831,invalid,0
 3544339019,true,Add two doctype public IDs that enable XHTML entities,https://github.com/whatwg/html/pull/11823,2025-10-23T11:46:49Z,2025-10-23T16:02:01Z,zcorpan,topic: parser,0
-3541261538,false,Add <template contentmethod> for declarative out-of-order streaming,https://github.com/whatwg/html/pull/11818,2025-10-22T15:04:53Z,2025-10-27T11:15:01Z,foolip,,0
+3541261538,false,Add <template contentmethod> for declarative out-of-order streaming,https://github.com/whatwg/html/pull/11818,2025-10-22T15:04:53Z,2025-10-27T15:14:01Z,foolip,,0
 3537803331,true,Bring back promoting ongoing API method tracker,https://github.com/whatwg/html/pull/11817,2025-10-21T18:58:06Z,2025-10-22T12:22:52Z,noamr,,0
 3536313338,false,Don't queue a microtask from parallel in update the image data,https://github.com/whatwg/html/pull/11815,2025-10-21T12:25:08Z,2025-10-22T12:45:10Z,zcorpan,,0
 3526583838,false,Fix base appearance select styles,https://github.com/whatwg/html/pull/11805,2025-10-17T15:27:43Z,2025-10-21T19:09:52Z,josepharhar,,0
@@ -55,7 +57,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3418839498,true,remove synchronous document.cookie api to avoid jank; use cookieStore…,https://github.com/whatwg/html/pull/11662,2025-09-15T17:21:33Z,2025-09-16T04:02:15Z,Chanran,,0
 3418551159,true,Editorial: clarify the xmlns notes by merging them,https://github.com/whatwg/html/pull/11660,2025-09-15T15:52:40Z,2025-09-16T05:21:26Z,annevk,,0
 3416642173,true,Editorial: correct spelling of style sheet,https://github.com/whatwg/html/pull/11659,2025-09-15T07:18:46Z,2025-09-15T11:22:22Z,annevk,,0
-3416025068,false,add import bytes,https://github.com/whatwg/html/pull/11657,2025-09-15T02:23:05Z,2025-09-21T02:37:33Z,styfle,,1
+3416025068,false,add import bytes,https://github.com/whatwg/html/pull/11657,2025-09-15T02:23:05Z,2025-09-21T02:37:33Z,styfle,,2
 3412022714,true,Switch dialog/popover to using place-self:dialog,https://github.com/whatwg/html/pull/11656,2025-09-12T21:47:20Z,2025-09-29T07:36:44Z,tabatkins,,2
 3407835189,true,Capitalize autocomplete and autocapitalize attribute states,https://github.com/whatwg/html/pull/11654,2025-09-11T19:43:51Z,2025-09-15T04:47:33Z,lukewarlow,,0
 3403940616,false,Add lightning to the safelisted schemes list,https://github.com/whatwg/html/pull/11649,2025-09-10T21:05:12Z,2025-09-11T02:31:27Z,asoltys,addition/proposal|needs implementer interest|topic: custom protocols,0
@@ -72,7 +74,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3387513853,true,"Clone integrity policy as part of ""clone a policy container""",https://github.com/whatwg/html/pull/11628,2025-09-05T13:10:46Z,2025-09-08T09:26:22Z,yoavweiss,topic: policy container,0
 3383145665,true,"Editorial: correctly mark up JS code with class=""js""",https://github.com/whatwg/html/pull/11624,2025-09-04T10:40:34Z,2025-09-06T13:33:13Z,foolip,,0
 3380980195,false,Added support for link rel=compression-dictionary,https://github.com/whatwg/html/pull/11620,2025-09-03T19:14:59Z,2025-09-08T07:10:54Z,pmeenan,,0
-3377123672,false,Define normalization of full-width numeric characters in <input type=number> user input,https://github.com/whatwg/html/pull/11616,2025-09-02T18:42:30Z,2025-10-12T17:52:22Z,kyouhei-horizumi,normative change|topic: forms|i18n-tracker|i18n-jlreq|i18n-clreq,2
+3377123672,false,Define normalization of full-width numeric characters in <input type=number> user input,https://github.com/whatwg/html/pull/11616,2025-09-02T18:42:30Z,2025-10-27T17:52:16Z,kyouhei-horizumi,normative change|topic: forms|i18n-tracker|i18n-jlreq|i18n-clreq,2
 3375698830,false,Run snapshot post-layout state steps in resizeObserver loop,https://github.com/whatwg/html/pull/11613,2025-09-02T11:54:25Z,2025-10-15T14:33:32Z,lilles,topic: rendering,0
 3372661973,true,Editorial: Fix punctuation + markup,https://github.com/whatwg/html/pull/11612,2025-09-01T13:15:14Z,2025-09-02T13:47:04Z,jmdyck,,0
 3366034851,true,Navigation API: pass precommitController to handler,https://github.com/whatwg/html/pull/11603,2025-08-29T08:47:59Z,2025-08-29T17:07:27Z,noamr,,0
@@ -90,7 +92,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3331131522,true,[WebDriver BiDi] emulate network offline,https://github.com/whatwg/html/pull/11575,2025-08-18T15:16:42Z,2025-10-10T16:20:36Z,sadym-chromium,,0
 3327499382,true,mudei cord,https://github.com/whatwg/html/pull/11568,2025-08-16T18:00:25Z,2025-08-16T19:55:40Z,NicolasGimenezAlcalde,invalid,0
 3323021317,false,Remove mentions of XSLT from the HTML spec,https://github.com/whatwg/html/pull/11563,2025-08-14T17:27:01Z,2025-10-23T15:20:35Z,mfreed7,removal/deprecation,78
-3321823554,false,Redact ancestorOrigins using referrer policy,https://github.com/whatwg/html/pull/11560,2025-08-14T11:10:20Z,2025-10-23T17:05:17Z,zcorpan,,0
+3321823554,false,Redact ancestorOrigins using referrer policy,https://github.com/whatwg/html/pull/11560,2025-08-14T11:10:20Z,2025-10-27T23:05:11Z,zcorpan,,0
 3314237971,true,Remove rowspan=0 quirk,https://github.com/whatwg/html/pull/11551,2025-08-12T13:20:05Z,2025-08-14T07:16:55Z,zcorpan,,0
 3300979591,true,Remove connectedness check in script post-connection steps,https://github.com/whatwg/html/pull/11543,2025-08-07T15:31:03Z,2025-09-12T01:53:30Z,domfarolino,topic: script,0
 3297579358,false,"Move `has cross-site ancestor` to the environment, from the ESO",https://github.com/whatwg/html/pull/11540,2025-08-06T18:03:22Z,2025-10-15T16:05:54Z,bvandersloot-mozilla,,0
@@ -99,7 +101,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3291533405,false,Canvas2D: Add srgb-linear and display-p3-linear to PredefinedColorSpace enum,https://github.com/whatwg/html/pull/11529,2025-08-05T04:38:31Z,2025-10-24T09:49:01Z,ccameron-chromium,addition/proposal|topic: canvas,0
 3290898664,true,Editorial: fix ending li tag,https://github.com/whatwg/html/pull/11528,2025-08-04T21:58:37Z,2025-08-05T06:20:42Z,josepharhar,,0
 3285874404,true,Add paragraph to hgroup children in indices table,https://github.com/whatwg/html/pull/11524,2025-08-02T12:03:48Z,2025-08-19T06:13:06Z,TrySound,document conformance,0
-3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-10-23T18:14:18Z,ffiori,agenda+,0
+3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-10-27T20:56:53Z,ffiori,agenda+,0
 3280953563,false,Imply [Reflect] when [ReflectRange] or [ReflectDefault] are used.,https://github.com/whatwg/html/pull/11518,2025-07-31T15:49:27Z,2025-08-26T15:59:08Z,lukewarlow,,0
 3280885144,true,Remove support ElementInternals reflection flag,https://github.com/whatwg/html/pull/11517,2025-07-31T15:27:38Z,2025-08-22T00:41:19Z,lukewarlow,,0
 3279388233,true,Editorial: clarify worker lifetime definitions,https://github.com/whatwg/html/pull/11515,2025-07-31T07:15:41Z,2025-08-19T05:43:54Z,domenic,clarification|topic: workers,0
