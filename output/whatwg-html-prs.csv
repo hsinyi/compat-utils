@@ -1,16 +1,17 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3557048968,false,Editorial: Fix markup + wording,https://github.com/whatwg/html/pull/11837,2025-10-27T14:23:27Z,2025-10-27T14:25:20Z,jmdyck,,0
-3556983944,false,"Navigation ""commit"": only set interception state if it was not ""none""",https://github.com/whatwg/html/pull/11836,2025-10-27T14:09:07Z,2025-10-27T14:10:51Z,noamr,,0
+3562694410,true,Resolve `navigation.transition.committed` after `navigate().committed`,https://github.com/whatwg/html/pull/11843,2025-10-28T17:46:46Z,2025-10-28T21:08:46Z,noamr,,0
+3557048968,true,Editorial: Fix markup + wording,https://github.com/whatwg/html/pull/11837,2025-10-27T14:23:27Z,2025-10-28T21:16:28Z,jmdyck,editorial,0
+3556983944,false,"Navigation ""commit"": only set interception state if it was not ""none""",https://github.com/whatwg/html/pull/11836,2025-10-27T14:09:07Z,2025-10-28T21:42:12Z,noamr,,0
 3555120979,true,Update README.md,https://github.com/whatwg/html/pull/11834,2025-10-27T05:30:29Z,2025-10-27T07:29:14Z,JANHAVI0831,invalid,0
 3544339019,true,Add two doctype public IDs that enable XHTML entities,https://github.com/whatwg/html/pull/11823,2025-10-23T11:46:49Z,2025-10-23T16:02:01Z,zcorpan,topic: parser,0
-3541261538,false,Add <template contentmethod> for declarative out-of-order streaming,https://github.com/whatwg/html/pull/11818,2025-10-22T15:04:53Z,2025-10-27T15:14:01Z,foolip,,0
+3541261538,false,Add <template contentmethod> for declarative out-of-order streaming,https://github.com/whatwg/html/pull/11818,2025-10-22T15:04:53Z,2025-10-28T21:26:05Z,foolip,topic: parser,0
 3537803331,true,Bring back promoting ongoing API method tracker,https://github.com/whatwg/html/pull/11817,2025-10-21T18:58:06Z,2025-10-22T12:22:52Z,noamr,,0
 3536313338,false,Don't queue a microtask from parallel in update the image data,https://github.com/whatwg/html/pull/11815,2025-10-21T12:25:08Z,2025-10-22T12:45:10Z,zcorpan,,0
-3526583838,false,Fix base appearance select styles,https://github.com/whatwg/html/pull/11805,2025-10-17T15:27:43Z,2025-10-21T19:09:52Z,josepharhar,,0
-3521695829,false,Use current global object in static method.,https://github.com/whatwg/html/pull/11799,2025-10-16T12:31:08Z,2025-10-16T12:32:55Z,otherdaniel,,0
-3521613537,false,Check if there's a browsing context in window.open() steps,https://github.com/whatwg/html/pull/11798,2025-10-16T12:10:27Z,2025-10-16T12:31:34Z,zcorpan,,0
-3517217657,false,Add support for WebDriver BiDi language emulation,https://github.com/whatwg/html/pull/11793,2025-10-15T09:41:30Z,2025-10-23T16:41:14Z,lutien,,0
-3515987113,false,Fix a few inconsistencies between the media element spec and implementations,https://github.com/whatwg/html/pull/11792,2025-10-15T01:04:00Z,2025-10-15T18:44:12Z,Zaggy1024,,0
+3526583838,false,Fix base appearance select styles,https://github.com/whatwg/html/pull/11805,2025-10-17T15:27:43Z,2025-10-28T23:26:19Z,josepharhar,,0
+3521695829,false,Use current global object in static method.,https://github.com/whatwg/html/pull/11799,2025-10-16T12:31:08Z,2025-10-28T21:36:04Z,otherdaniel,,1
+3521613537,false,Check if there's a browsing context in window.open() steps,https://github.com/whatwg/html/pull/11798,2025-10-16T12:10:27Z,2025-10-28T17:12:04Z,zcorpan,needs tests,0
+3517217657,false,Add support for WebDriver BiDi language emulation,https://github.com/whatwg/html/pull/11793,2025-10-15T09:41:30Z,2025-10-28T21:43:47Z,lutien,,0
+3515987113,false,Fix a few inconsistencies between the media element spec and implementations,https://github.com/whatwg/html/pull/11792,2025-10-15T01:04:00Z,2025-10-28T22:03:09Z,Zaggy1024,topic: media,0
 3515567232,true,Improve option insertion and removal algorithms,https://github.com/whatwg/html/pull/11790,2025-10-14T21:27:38Z,2025-10-16T15:32:27Z,josepharhar,,0
 3515561765,true,Improve option element nearest ancestor select algorithm,https://github.com/whatwg/html/pull/11789,2025-10-14T21:25:31Z,2025-10-18T13:23:58Z,josepharhar,,0
 3514202918,true,window.navigation needs to be [Replaceable],https://github.com/whatwg/html/pull/11786,2025-10-14T14:28:15Z,2025-10-16T20:43:57Z,annevk,compat|topic: navigation,0
@@ -58,7 +59,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3418551159,true,Editorial: clarify the xmlns notes by merging them,https://github.com/whatwg/html/pull/11660,2025-09-15T15:52:40Z,2025-09-16T05:21:26Z,annevk,,0
 3416642173,true,Editorial: correct spelling of style sheet,https://github.com/whatwg/html/pull/11659,2025-09-15T07:18:46Z,2025-09-15T11:22:22Z,annevk,,0
 3416025068,false,add import bytes,https://github.com/whatwg/html/pull/11657,2025-09-15T02:23:05Z,2025-09-21T02:37:33Z,styfle,,2
-3412022714,true,Switch dialog/popover to using place-self:dialog,https://github.com/whatwg/html/pull/11656,2025-09-12T21:47:20Z,2025-10-28T07:09:07Z,tabatkins,,2
+3412022714,true,Switch dialog/popover to using place-self:dialog,https://github.com/whatwg/html/pull/11656,2025-09-12T21:47:20Z,2025-10-28T16:54:28Z,tabatkins,,2
 3407835189,true,Capitalize autocomplete and autocapitalize attribute states,https://github.com/whatwg/html/pull/11654,2025-09-11T19:43:51Z,2025-09-15T04:47:33Z,lukewarlow,,0
 3403940616,false,Add lightning to the safelisted schemes list,https://github.com/whatwg/html/pull/11649,2025-09-10T21:05:12Z,2025-09-11T02:31:27Z,asoltys,addition/proposal|needs implementer interest|topic: custom protocols,0
 3400996058,true,Meta: note requested permanent anchors in the source,https://github.com/whatwg/html/pull/11647,2025-09-10T05:37:45Z,2025-09-18T08:25:21Z,domenic,,0
@@ -92,7 +93,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3331131522,true,[WebDriver BiDi] emulate network offline,https://github.com/whatwg/html/pull/11575,2025-08-18T15:16:42Z,2025-10-10T16:20:36Z,sadym-chromium,,0
 3327499382,true,mudei cord,https://github.com/whatwg/html/pull/11568,2025-08-16T18:00:25Z,2025-08-16T19:55:40Z,NicolasGimenezAlcalde,invalid,0
 3323021317,false,Remove mentions of XSLT from the HTML spec,https://github.com/whatwg/html/pull/11563,2025-08-14T17:27:01Z,2025-10-23T15:20:35Z,mfreed7,removal/deprecation,78
-3321823554,false,Redact ancestorOrigins using referrer policy,https://github.com/whatwg/html/pull/11560,2025-08-14T11:10:20Z,2025-10-27T23:05:11Z,zcorpan,,0
+3321823554,false,Redact ancestorOrigins using referrer policy,https://github.com/whatwg/html/pull/11560,2025-08-14T11:10:20Z,2025-10-28T17:14:55Z,zcorpan,,0
 3314237971,true,Remove rowspan=0 quirk,https://github.com/whatwg/html/pull/11551,2025-08-12T13:20:05Z,2025-08-14T07:16:55Z,zcorpan,,0
 3300979591,true,Remove connectedness check in script post-connection steps,https://github.com/whatwg/html/pull/11543,2025-08-07T15:31:03Z,2025-09-12T01:53:30Z,domfarolino,topic: script,0
 3297579358,false,"Move `has cross-site ancestor` to the environment, from the ESO",https://github.com/whatwg/html/pull/11540,2025-08-06T18:03:22Z,2025-10-15T16:05:54Z,bvandersloot-mozilla,,0
