@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3569237792,false,treat writes to the DB that have no success handler as having called commit,https://github.com/w3c/IndexedDB/issues/482,2025-10-30T07:19:38Z,2025-10-30T07:19:38Z,fergald,,1
 3560638847,false,`retrieve multiple items from an index` index out of bounds error,https://github.com/w3c/IndexedDB/issues/480,2025-10-28T09:40:16Z,2025-10-28T10:13:37Z,stelar7,,0
 3510877149,false,"In ""object store storage operation"", be more explicit about how to handle ConstraintError from an index",https://github.com/w3c/IndexedDB/issues/477,2025-10-13T17:25:27Z,2025-10-13T17:25:27Z,dumbmatter,,0
 3507801358,false,Transactions should be marked as inactive during key serialization,https://github.com/w3c/IndexedDB/issues/476,2025-10-12T20:00:26Z,2025-10-21T22:16:17Z,nolanlawson,,0
@@ -57,18 +58,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1253921736,true,Support Storage Partitioning,https://github.com/w3c/IndexedDB/issues/382,2022-05-31T14:05:05Z,2022-06-08T18:00:42Z,arichiv,needs-tests|storage buckets,0
 1238765077,false,How should IDB connections and outstanding IDB transactions behave when a page enters back/forward cache?,https://github.com/w3c/IndexedDB/issues/381,2022-05-17T14:51:44Z,2024-09-09T20:05:32Z,rubberyuzu,needs-pr|needs-tests|interop|TPAC2024,0
 1142268061,false,Batch get/getAll,https://github.com/w3c/IndexedDB/issues/376,2022-02-18T03:17:36Z,2025-10-17T20:33:03Z,cyanfish,feature request|queries|TPAC2024|TPAC2025,0
-1114453817,false,Clarify the handling of +0 and -0 in keys,https://github.com/w3c/IndexedDB/issues/375,2022-01-25T23:11:43Z,2024-07-11T20:30:54Z,abacabadabacaba,has-pr|has-tests|interop|TPAC2024,0
-1109606998,true,Need to specify what happens if you call `continuePrimaryKey()` on a cursor where the source is an object store. Throw?,https://github.com/w3c/IndexedDB/issues/374,2022-01-20T17:59:49Z,2022-01-20T19:03:57Z,Mguiteria,,0
-1109592322,true,Thanks for explaining! I missed that first part.,https://github.com/w3c/IndexedDB/issues/373,2022-01-20T17:45:42Z,2022-01-20T19:03:59Z,Mguiteria,,0
-1109591625,true,"In the `openCursor()` case, is the lower-bound of the key range implicitly the index key if primaryKey is specified (and thus it's an error if a open lower bound is specified), or should the range and starting position be decoupled and require both the key and primaryKey to be explicit specified e.g. `openCursor(null, null, {key: x, primaryKey: y})` ?",https://github.com/w3c/IndexedDB/issues/372,2022-01-20T17:44:55Z,2022-01-20T19:04:02Z,Mguiteria,,0
-1109590890,true,"In the `openCursor()` case, is the lower-bound of the key range implicitly the index key if primaryKey is specified (and thus it's an error if a open lower bound is specified), or should the range and starting position be decoupled and require both the key and primaryKey to be explicit specified e.g. `openCursor(null, null, {key: x, primaryKey: y})` ?",https://github.com/w3c/IndexedDB/issues/371,2022-01-20T17:44:06Z,2022-01-20T19:04:04Z,Mguiteria,,0
-1109583180,true,"Sites i been to ",https://github.com/w3c/IndexedDB/issues/370,2022-01-20T17:35:59Z,2022-01-24T10:13:56Z,Mguiteria,,0
-1084044264,true,Why is IndexedDB this bad?,https://github.com/w3c/IndexedDB/issues/369,2021-12-19T08:39:21Z,2021-12-21T00:45:05Z,ghost,,0
-1063869641,false,Range bytes counts and keys count,https://github.com/w3c/IndexedDB/issues/368,2021-11-25T19:07:19Z,2022-06-10T22:27:17Z,amirouche,feature request,1
-1026545714,true,IDL interface for the intersection of IDBObjectStore and IDBIndex?,https://github.com/w3c/IndexedDB/issues/367,2021-10-14T15:35:54Z,2023-12-19T00:37:45Z,stefanhaustein,,1
-1026535106,true,Projection Support,https://github.com/w3c/IndexedDB/issues/366,2021-10-14T15:25:36Z,2024-10-01T21:22:07Z,stefanhaustein,feature request|TPAC2024,0
 1023339569,true,EricaGwin@louisiana.edu,https://github.com/w3c/IndexedDB/issues/365,2021-10-12T04:10:59Z,2021-10-12T06:14:46Z,ghost,,0
-978834265,true,Status report and planning for TPAC 2021,https://github.com/w3c/IndexedDB/issues/364,2021-08-25T07:52:34Z,2022-12-07T22:04:26Z,LJWatson,,0
 939311419,true,506 buil,https://github.com/w3c/IndexedDB/issues/362,2021-07-07T22:30:27Z,2021-07-07T22:48:44Z,axpakcs8,,0
 913969340,false,"Rename ""array key"" to ""composite key""",https://github.com/w3c/IndexedDB/issues/360,2021-06-07T21:29:29Z,2024-07-11T20:32:26Z,inexorabletash,feedback wanted|easy|has-pr|TPAC2024,0
 910298964,true,Calling tx.objectStore after db.createObjectStore,https://github.com/w3c/IndexedDB/issues/356,2021-06-03T09:23:01Z,2021-06-03T16:09:28Z,jakearchibald,,0
@@ -90,7 +80,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 597149606,true,Add accessibility section,https://github.com/w3c/IndexedDB/issues/327,2020-04-09T09:29:20Z,2020-06-30T18:11:19Z,LJWatson,has-pr|a11y-tracker,1
 583045448,true,Add type databases(name: string): IDBDatabase[] to IDBFactory,https://github.com/w3c/IndexedDB/issues/322,2020-03-17T14:16:25Z,2020-03-17T16:07:06Z,fritzschoff,,0
 555049332,true,Missing durability attribute in the IDBTransaction interface,https://github.com/w3c/IndexedDB/issues/316,2020-01-25T06:19:28Z,2020-01-28T18:07:18Z,triple-underscore,,0
-539577146,true,"Add a new event `onbeforecommit` on the interface IDBTransaction ",https://github.com/w3c/IndexedDB/issues/314,2019-12-18T10:02:00Z,2024-10-01T20:31:21Z,Jack-Works,feature request|TPAC2024,0
 537071479,true,IDBTransaction's error attribute can return null but isn't nullable,https://github.com/w3c/IndexedDB/issues/312,2019-12-12T16:07:24Z,2019-12-12T23:17:08Z,jdm,needs-pr,0
 526220265,true,Array proxies as keys?,https://github.com/w3c/IndexedDB/issues/309,2019-11-20T21:16:32Z,2019-11-22T20:27:56Z,inexorabletash,needs-tests,0
 524208591,false,Issues with key and keyPath usage,https://github.com/w3c/IndexedDB/issues/308,2019-11-18T08:24:48Z,2023-12-19T00:44:08Z,annevk,needs-pr,0
