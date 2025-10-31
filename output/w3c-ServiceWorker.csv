@@ -1,6 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3572200742,true,E,https://github.com/w3c/ServiceWorker/issues/1800,2025-10-30T19:29:21Z,2025-10-30T23:26:31Z,Relaxx422,invalid,0
 3537550495,true,Requests from <object> elements are not intercepted,https://github.com/w3c/ServiceWorker/issues/1799,2025-10-21T17:40:29Z,2025-10-22T07:15:17Z,d3lm,,0
-3534878377,false,Support No-Vary-Search header in Cache API,https://github.com/w3c/ServiceWorker/issues/1798,2025-10-21T05:00:00Z,2025-10-29T17:05:19Z,yoshisatoyanagisawa,,0
+3534878377,false,Support No-Vary-Search header in Cache API,https://github.com/w3c/ServiceWorker/issues/1798,2025-10-21T05:00:00Z,2025-10-30T14:03:43Z,yoshisatoyanagisawa,,0
 3534778748,false,Support CacheStorage.match() options in SW Static Routing API cache source,https://github.com/w3c/ServiceWorker/issues/1797,2025-10-21T04:01:35Z,2025-10-22T02:05:05Z,yoshisatoyanagisawa,,0
 3520397308,false,Synthetic Response via Static Routing API,https://github.com/w3c/ServiceWorker/issues/1796,2025-10-16T05:42:57Z,2025-10-16T06:17:45Z,sisidovski,TPAC2025,0
 3472413201,false,Need for a mechanism to detect supported conditions and sources in the SW Static Routing API,https://github.com/w3c/ServiceWorker/issues/1793,2025-10-01T07:33:48Z,2025-10-09T23:39:51Z,yoshisatoyanagisawa,TPAC2025,0
@@ -426,31 +427,31 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 242566219,true,Proposal: FetchEvent.navigationLoadType,https://github.com/w3c/ServiceWorker/issues/1167,2017-07-13T02:13:54Z,2018-10-26T13:16:40Z,mfalken,,0
 239807944,false,Allow `None` as value for `Service-Worker-Allowed`.,https://github.com/w3c/ServiceWorker/issues/1165,2017-06-30T15:09:17Z,2017-11-03T12:20:19Z,surma,,4
 237738214,true,"Range header is not send ",https://github.com/w3c/ServiceWorker/issues/1164,2017-06-22T05:49:01Z,2021-09-10T03:48:50Z,vardius,,0
-237337889,false,should an window.open() about:blank document be controlled by opener's controller?,https://github.com/w3c/ServiceWorker/issues/1163,2017-06-20T20:37:59Z,2017-06-22T11:26:45Z,wanderview,,0
+237337889,false,should an window.open() about:blank document be controlled by opener's controller?,https://github.com/w3c/ServiceWorker/issues/1163,2017-06-20T20:37:59Z,2025-10-31T00:29:36Z,wanderview,,0
 235594989,false,"reflect internal ""parsed"" state in ServiceWorkerState enum",https://github.com/w3c/ServiceWorker/issues/1162,2017-06-13T15:29:13Z,2017-11-03T14:36:04Z,wanderview,,1
 235083385,true,Route showNotification() URLs through a fetch event?,https://github.com/w3c/ServiceWorker/issues/1161,2017-06-11T18:36:43Z,2017-06-11T18:52:15Z,alastaircoote,,0
 234525216,true,Service Worker registration failed:  DOMException: Failed to register a ServiceWorker: An SSL certificate error occurred when fetching the script.,https://github.com/w3c/ServiceWorker/issues/1159,2017-06-08T13:21:08Z,2020-05-13T11:12:19Z,GandhasiriSandeep,,0
 234382800,true,"<link rel=""serviceworker""> ignores nonce/integrity/referrerpolicy attributes",https://github.com/w3c/ServiceWorker/issues/1158,2017-06-08T00:56:41Z,2021-05-20T15:28:44Z,domenic,,0
 232727715,true,Proposal: pass custom params in ServiceWorkerRegistration for future use,https://github.com/w3c/ServiceWorker/issues/1157,2017-05-31T23:41:16Z,2020-06-13T14:48:02Z,laukstein,,6
-232335526,false,Dynamic Event Handler Registration,https://github.com/w3c/ServiceWorker/issues/1156,2017-05-30T18:07:58Z,2017-05-31T06:15:19Z,jugglinmike,,0
+232335526,true,Dynamic Event Handler Registration,https://github.com/w3c/ServiceWorker/issues/1156,2017-05-30T18:07:58Z,2025-10-31T00:24:42Z,jugglinmike,,0
 231984398,true,Should update() called on an installing worker reject (as currently does?),https://github.com/w3c/ServiceWorker/issues/1155,2017-05-29T10:23:48Z,2019-06-10T01:57:49Z,jungkees,,0
 231947786,true,update() method algorithm needs correction,https://github.com/w3c/ServiceWorker/issues/1153,2017-05-29T07:35:12Z,2017-05-31T06:25:55Z,jungkees,,0
 230181119,true,event.waitUntil vs return promise,https://github.com/w3c/ServiceWorker/issues/1148,2017-05-20T21:49:27Z,2017-12-07T22:00:59Z,pemrouz,,0
 229775860,true,"""Unregister"" operation may be interrupted by `ServiceWorker#postMessage`",https://github.com/w3c/ServiceWorker/issues/1146,2017-05-18T19:13:29Z,2019-06-10T04:48:04Z,jugglinmike,,0
 229291288,true,Use ASCII serialization for origins,https://github.com/w3c/ServiceWorker/issues/1142,2017-05-17T09:30:59Z,2019-06-13T18:09:33Z,annevk,,0
 228898653,false,Service Worker makes AJAX Progress Listener not Working,https://github.com/w3c/ServiceWorker/issues/1141,2017-05-16T02:34:42Z,2019-08-02T18:05:41Z,albertsylvester,,6
-228839586,false,Make object equality of service workers clearer,https://github.com/w3c/ServiceWorker/issues/1140,2017-05-15T20:43:50Z,2017-05-15T20:43:50Z,jakearchibald,,0
+228839586,true,Make object equality of service workers clearer,https://github.com/w3c/ServiceWorker/issues/1140,2017-05-15T20:43:50Z,2025-10-31T00:12:47Z,jakearchibald,,0
 228443423,true,navigator.serviceWorker.ready remain resolved after unregister,https://github.com/w3c/ServiceWorker/issues/1139,2017-05-13T02:34:29Z,2017-05-15T15:30:13Z,toxic-johann,,0
 227697921,true,Priority of requests (feature request),https://github.com/w3c/ServiceWorker/issues/1137,2017-05-10T14:24:16Z,2017-11-03T13:11:13Z,jmuransky,,0
-225245100,false,Register HTTP header fields with IANA,https://github.com/w3c/ServiceWorker/issues/1134,2017-04-29T09:17:19Z,2017-05-29T09:20:32Z,dret,,0
+225245100,false,Register HTTP header fields with IANA,https://github.com/w3c/ServiceWorker/issues/1134,2017-04-29T09:17:19Z,2025-10-31T00:15:29Z,dret,,0
 224008812,true,clients.get() should resolve with null instead of undefined,https://github.com/w3c/ServiceWorker/issues/1133,2017-04-25T03:17:19Z,2017-11-03T13:13:42Z,esprehn,,0
 222676793,false,Reduce GC exposure,https://github.com/w3c/ServiceWorker/issues/1127,2017-04-19T09:32:42Z,2017-11-03T14:44:02Z,annevk,bug,0
 222654002,true,ServiceWorker.postMessage() references the not-yet-created worker global,https://github.com/w3c/ServiceWorker/issues/1126,2017-04-19T08:08:21Z,2017-04-21T01:46:01Z,jungkees,,0
 222622665,true,Secure context language is redundant/contradicts secure context spec,https://github.com/w3c/ServiceWorker/issues/1125,2017-04-19T05:24:40Z,2017-05-04T08:23:34Z,mfalken,,0
 222299362,true,WindowClient.navigate() behavior for reserved clients and in-flight navigations,https://github.com/w3c/ServiceWorker/issues/1123,2017-04-18T04:37:10Z,2017-11-23T15:05:27Z,aliams,,0
-222269878,false,"Service worker MessageEvents set the ""origin"" property, but Worker MessageEvents do not.",https://github.com/w3c/ServiceWorker/issues/1122,2017-04-18T00:44:15Z,2017-05-15T07:49:35Z,domenic,,0
+222269878,true,"Service worker MessageEvents set the ""origin"" property, but Worker MessageEvents do not.",https://github.com/w3c/ServiceWorker/issues/1122,2017-04-18T00:44:15Z,2025-10-31T00:09:50Z,domenic,,0
 222228246,true,Adding a developer-provided name,https://github.com/w3c/ServiceWorker/issues/1121,2017-04-17T20:51:32Z,2017-05-15T06:01:50Z,domenic,,0
-221747590,false,Lifetime of service workers in relation to dedicated and shared workers,https://github.com/w3c/ServiceWorker/issues/1119,2017-04-14T05:57:04Z,2017-04-14T05:57:04Z,annevk,,0
+221747590,false,Lifetime of service workers in relation to dedicated and shared workers,https://github.com/w3c/ServiceWorker/issues/1119,2017-04-14T05:57:04Z,2025-10-30T23:48:15Z,annevk,,0
 221716047,true,Match Service Worker Registration should assert same-origin?,https://github.com/w3c/ServiceWorker/issues/1118,2017-04-14T00:37:20Z,2017-05-12T12:49:17Z,estark37,bug,0
 221646243,false,Should a service worker be allowed to register new service workers?,https://github.com/w3c/ServiceWorker/issues/1117,2017-04-13T18:33:31Z,2018-11-26T19:43:03Z,mkruisselbrink,,1
 221537979,true,Remove StructuredCloneWithTransfer and add a messageerror event,https://github.com/w3c/ServiceWorker/issues/1116,2017-04-13T11:42:15Z,2017-04-29T06:03:18Z,annevk,needs spec,0
@@ -458,9 +459,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 220962393,true,FetchEventInit.preloadResponse should not be a required member,https://github.com/w3c/ServiceWorker/issues/1114,2017-04-11T14:02:30Z,2018-06-21T13:01:36Z,mfalken,,0
 220869095,true,"If activeWorker’s list of foreign fetch origins is empty, should set originMatches to false",https://github.com/w3c/ServiceWorker/issues/1112,2017-04-11T07:59:32Z,2017-04-11T17:07:36Z,leonhsl,,0
 220441913,true,"Confusing ""Updating a service worker"" section in explainer",https://github.com/w3c/ServiceWorker/issues/1111,2017-04-09T02:22:13Z,2017-11-03T13:59:46Z,kownacki,,0
-220332786,false,"What does it mean to wait ""for a task to be executed (including its asynchronous steps)""?",https://github.com/w3c/ServiceWorker/issues/1109,2017-04-07T21:25:39Z,2017-04-11T19:43:37Z,bzbarsky,,0
+220332786,true,"What does it mean to wait ""for a task to be executed (including its asynchronous steps)""?",https://github.com/w3c/ServiceWorker/issues/1109,2017-04-07T21:25:39Z,2025-10-30T23:40:46Z,bzbarsky,,0
 220332136,false,"Touching documents in an ""in parallel"" section makes no sense",https://github.com/w3c/ServiceWorker/issues/1108,2017-04-07T21:22:36Z,2017-11-03T14:11:30Z,bzbarsky,,0
-219475083,false,Write tests for MIX behaviour,https://github.com/w3c/ServiceWorker/issues/1105,2017-04-05T05:46:06Z,2017-04-05T05:46:06Z,jakearchibald,needs tests,1
+219475083,false,Write tests for MIX behaviour,https://github.com/w3c/ServiceWorker/issues/1105,2017-04-05T05:46:06Z,2025-10-30T23:36:36Z,jakearchibald,needs tests,1
 219166186,true,Switch useCache to an enum,https://github.com/w3c/ServiceWorker/issues/1104,2017-04-04T07:45:35Z,2017-08-03T08:45:02Z,jakearchibald,,0
 219155605,false,Change the spec so that when a new SW is being registered it's set to not use cache the first time,https://github.com/w3c/ServiceWorker/issues/1103,2017-04-04T06:50:24Z,2017-11-03T14:13:49Z,n8schloss,,0
 219148833,true,API to tell developers why the SW was killed,https://github.com/w3c/ServiceWorker/issues/1101,2017-04-04T06:05:40Z,2025-10-10T17:45:20Z,jakearchibald,,0
@@ -469,7 +470,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 218278586,true,HTMLLinkElement extension is redundant,https://github.com/w3c/ServiceWorker/issues/1098,2017-03-30T17:58:17Z,2017-03-31T22:40:45Z,saschanaz,,0
 217752644,true,how does service worker interact with html imports?,https://github.com/w3c/ServiceWorker/issues/1095,2017-03-29T03:12:09Z,2017-11-03T14:18:38Z,wanderview,,0
 217139215,true,"How to test ""no-referrer-when-downgrade"" in a web platform test",https://github.com/w3c/ServiceWorker/issues/1094,2017-03-27T05:19:54Z,2017-04-05T06:33:10Z,mfalken,apr-2017-f2f-v1,0
-217017253,false,consider how clients.claim() should work with srcdoc iframes,https://github.com/w3c/ServiceWorker/issues/1093,2017-03-26T00:56:08Z,2017-04-16T01:34:40Z,wanderview,apr-2017-f2f-v1,0
+217017253,false,consider how clients.claim() should work with srcdoc iframes,https://github.com/w3c/ServiceWorker/issues/1093,2017-03-26T00:56:08Z,2025-10-30T23:51:41Z,wanderview,apr-2017-f2f-v1,0
 216954818,true,Is there any way for a web page to see if their requests will be intercepted by a foreign fetch handler?,https://github.com/w3c/ServiceWorker/issues/1092,2017-03-25T06:45:40Z,2017-11-03T14:31:18Z,delapuente,foreign fetch,0
 216268158,true,consider Client behavior for windows where initial about:blank is replaced with a loaded document,https://github.com/w3c/ServiceWorker/issues/1091,2017-03-23T02:18:51Z,2017-12-11T06:43:07Z,wanderview,apr-2017-f2f-v1,0
 215846537,true,should clients.claim() control reserved Clients?,https://github.com/w3c/ServiceWorker/issues/1090,2017-03-21T19:05:50Z,2017-12-11T06:37:54Z,wanderview,apr-2017-f2f-v1,0
@@ -498,7 +499,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 202046102,true,Navigation preload shouldn't occur when there is no fetch event handler,https://github.com/w3c/ServiceWorker/issues/1058,2017-01-20T04:15:50Z,2017-01-26T00:36:01Z,mfalken,,1
 201973667,true,Cache and URL Rewriting,https://github.com/w3c/ServiceWorker/issues/1057,2017-01-19T20:58:56Z,2017-01-20T11:35:21Z,GuillaumeUnice,,0
 201006300,true,mime type text/jscript for service worker generates a Security Error,https://github.com/w3c/ServiceWorker/issues/1056,2017-01-16T12:25:16Z,2017-01-16T12:54:30Z,mziyabo,,0
-200909187,false,respondWith uses the wrong targetRealm,https://github.com/w3c/ServiceWorker/issues/1055,2017-01-16T00:29:26Z,2017-04-24T22:50:40Z,isonmad,apr-2017-f2f-v1,0
+200909187,false,respondWith uses the wrong targetRealm,https://github.com/w3c/ServiceWorker/issues/1055,2017-01-16T00:29:26Z,2025-10-30T23:58:12Z,isonmad,apr-2017-f2f-v1,0
 199856688,true,Create F2F agenda - 3-4 April 2017,https://github.com/w3c/ServiceWorker/issues/1053,2017-01-10T15:48:05Z,2017-07-21T14:41:39Z,jakearchibald,,3
 199768649,true,"""ancestor origins array"" is going away",https://github.com/w3c/ServiceWorker/issues/1051,2017-01-10T09:17:14Z,2017-02-16T11:01:10Z,annevk,,0
 199547291,true,Should 'Extend Service Worker Lifetime' be called after dispatching 'message',https://github.com/w3c/ServiceWorker/issues/1050,2017-01-09T13:03:15Z,2017-01-11T12:41:58Z,smaug----,,0
@@ -666,7 +667,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 142431272,true,Update step 4 fails to fulfill job promise,https://github.com/w3c/ServiceWorker/issues/852,2016-03-21T18:23:54Z,2016-03-22T01:02:46Z,wanderview,,0
 141981811,true,Install algorithm step 14 should clear waiting worker before updating state to redundant,https://github.com/w3c/ServiceWorker/issues/851,2016-03-18T21:27:36Z,2016-05-27T06:43:55Z,wanderview,decided,0
 141131044,true,FetchEvent.respondWith does something weird with the body of a response,https://github.com/w3c/ServiceWorker/issues/850,2016-03-15T23:55:51Z,2016-08-03T06:58:28Z,mkruisselbrink,decided,0
-141111757,false,Spec uses incorrect settings object when fetching a module worker,https://github.com/w3c/ServiceWorker/issues/849,2016-03-15T21:59:49Z,2017-03-31T01:53:24Z,mkruisselbrink,apr-2017-f2f,0
+141111757,false,Spec uses incorrect settings object when fetching a module worker,https://github.com/w3c/ServiceWorker/issues/849,2016-03-15T21:59:49Z,2025-10-30T23:35:49Z,mkruisselbrink,apr-2017-f2f,0
 141097548,true,"""Wait for all the tasks queued by Update State"" language is problematic",https://github.com/w3c/ServiceWorker/issues/848,2016-03-15T21:04:55Z,2016-04-21T06:17:20Z,wanderview,decided,0
 141090882,true,"What is the ""Doom Installing Worker"" algorithm supposed to be doing?",https://github.com/w3c/ServiceWorker/issues/847,2016-03-15T20:36:03Z,2016-03-17T06:00:27Z,wanderview,decided,0
 141082449,true,DOMParser within ServiceWorkers,https://github.com/w3c/ServiceWorker/issues/846,2016-03-15T19:57:30Z,2023-08-01T05:11:47Z,markuskobler,,22
