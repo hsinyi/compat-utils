@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3578053845,false,Navigation API: Spec misses to make order of reacting to committed promise and firing onsuccess explicit,https://github.com/whatwg/html/issues/11864,2025-11-01T14:15:05Z,2025-11-01T14:15:44Z,farre,topic: navigation,0
 3575300039,true,Lazy-loading for `<video>`s and `<audio>`s,https://github.com/whatwg/html/issues/11861,2025-10-31T14:59:26Z,2025-10-31T16:14:04Z,iamakulov,addition/proposal|needs implementer interest,0
 3575273488,false,Navigation API: Dangling ongoing navigate event causes inconsistent behavior in tests,https://github.com/whatwg/html/issues/11860,2025-10-31T14:52:51Z,2025-10-31T15:25:51Z,jnjaeschke,topic: navigation,0
 3575143698,true,Should the HTMLSelectedContentElement interface exist?,https://github.com/whatwg/html/issues/11859,2025-10-31T14:15:25Z,2025-10-31T16:56:12Z,annevk,topic: select,0
@@ -10,7 +11,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3566911930,false,Inconsistent Autofill Events and Missing Autofill Functionality,https://github.com/whatwg/html/issues/11850,2025-10-29T16:35:12Z,2025-10-29T16:35:12Z,dujavi,addition/proposal|needs implementer interest,0
 3565577058,false,Support MediaElement.volume values greater than 1,https://github.com/whatwg/html/issues/11848,2025-10-29T11:41:58Z,2025-10-29T11:41:58Z,Jamie0,addition/proposal|needs implementer interest,0
 3565536709,false,Add declarative scroll commands to HTMLButtonElement,https://github.com/whatwg/html/issues/11847,2025-10-29T11:31:35Z,2025-10-31T09:04:03Z,danielsakhapov,addition/proposal|needs implementer interest|topic: button,0
-3565044693,false,Navigation API: Inconsistency between spec and tests about WaitForAll,https://github.com/whatwg/html/issues/11845,2025-10-29T09:18:43Z,2025-10-31T21:05:22Z,jnjaeschke,topic: navigation,0
+3565044693,false,Navigation API: Inconsistency between spec and tests about WaitForAll,https://github.com/whatwg/html/issues/11845,2025-10-29T09:18:43Z,2025-11-01T14:08:41Z,jnjaeschke,topic: navigation,0
 3563363702,false,Specify a suggested limit for repeated `replaceState()` calls,https://github.com/whatwg/html/issues/11844,2025-10-28T21:04:54Z,2025-10-29T07:43:34Z,zcorpan,needs implementer interest|topic: navigation,0
 3562427369,true,Navigation API: Order of promises in spec not consistent with tests,https://github.com/whatwg/html/issues/11842,2025-10-28T16:38:04Z,2025-10-28T21:08:47Z,jnjaeschke,topic: navigation,0
 3561311123,false,Constraint validation for readonly doesn't correspond implementations,https://github.com/whatwg/html/issues/11841,2025-10-28T12:16:56Z,2025-10-28T13:54:19Z,dSalieri,topic: forms|needs tests,0
@@ -845,7 +846,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2262286535,false,Slowly removing/reducing the margin collapsing quirk.,https://github.com/whatwg/html/issues/10296,2024-04-24T22:26:56Z,2025-04-07T17:38:01Z,bfgeek,normative change|needs implementer interest|topic: rendering,4
 2258787056,false,Sentence in 6.11.7 doesn't seem right,https://github.com/whatwg/html/issues/10295,2024-04-23T12:44:29Z,2024-04-23T12:44:29Z,Zhang-Junzhi,,0
 2258703067,true,SEO issue of <a> elements put dependently inside a context,https://github.com/whatwg/html/issues/10294,2024-04-23T12:03:03Z,2024-04-24T03:15:29Z,Zhang-Junzhi,addition/proposal|needs implementer interest,0
-2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2025-06-25T19:06:51Z,pfteter,addition/proposal|needs implementer interest|topic: forms,23
+2258314436,false,Fieldset should support readonly attribute,https://github.com/whatwg/html/issues/10293,2024-04-23T08:51:32Z,2025-11-01T16:41:42Z,pfteter,addition/proposal|needs implementer interest|topic: forms,24
 2256664178,false,"Allow data:image in srcset. And the U+002C COMMA character (,) issue",https://github.com/whatwg/html/issues/10292,2024-04-22T14:17:45Z,2024-04-22T20:25:51Z,janmazanek,,0
 2254541416,true,Should light DOM form controls in a form-associated custom element be ignored during form reset?,https://github.com/whatwg/html/issues/10290,2024-04-20T12:59:06Z,2024-04-22T13:44:58Z,kleinfreund,topic: custom elements,0
 2254517789,false,"Allow SVGSVGElement as image parameter in CanvasRenderingContext2D.drawImage() ",https://github.com/whatwg/html/issues/10289,2024-04-20T10:32:52Z,2024-07-15T16:05:08Z,hfmanson,addition/proposal|needs implementer interest|topic: canvas,0
@@ -1336,7 +1337,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1658447667,true,Navigation sourceDocument for browser-initiated navigations,https://github.com/whatwg/html/issues/9133,2023-04-07T06:56:05Z,2025-05-19T05:02:56Z,domenic,topic: navigation,0
 1658170692,true,Upcoming HTML standard issue triage meeting on 4/20/2023,https://github.com/whatwg/html/issues/9132,2023-04-06T23:39:43Z,2023-04-20T23:23:15Z,past,agenda+,0
 1656257748,true,Setting input type=date value attribute doesn't pre-populate the input if there's a time,https://github.com/whatwg/html/issues/9128,2023-04-05T20:37:06Z,2023-05-05T08:24:53Z,jfbrennan,,0
-1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2025-05-12T12:13:39Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,36
+1655838735,false,"Consider allowing <hr> within list elements (ol, ul, menu)",https://github.com/whatwg/html/issues/9126,2023-04-05T15:25:32Z,2025-05-12T12:13:39Z,scottaohara,addition/proposal|document conformance|accessibility|a11y-tracker,37
 1655605700,true,"Popover: The ""map"" in the topmost popover ancestor algorithm does not mean the map element.",https://github.com/whatwg/html/issues/9125,2023-04-05T13:17:24Z,2023-04-24T14:44:55Z,cathiechen,clarification|topic: popover,0
 1654846210,false,anonymous fieldset content box's block-size:100% leads to unintuitive behavior,https://github.com/whatwg/html/issues/9123,2023-04-05T02:50:15Z,2023-05-19T12:25:27Z,davidsgrogan,topic: rendering|interop|topic: fieldset,0
 1654771406,false,"""Loading a document for inline content that doesn't have a DOM"" uses non-existing response",https://github.com/whatwg/html/issues/9122,2023-04-05T01:03:20Z,2023-04-28T08:01:57Z,kalenikaliaksandr,topic: navigation,1
@@ -1644,7 +1645,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1374926923,true,`lang` value of document of undetermined language,https://github.com/whatwg/html/issues/8288,2022-09-15T18:33:48Z,2022-09-15T20:02:53Z,myfonj,,0
 1374407488,true,[portal tag] proposal to enable portal of element / text,https://github.com/whatwg/html/issues/8287,2022-09-15T11:53:13Z,2022-10-06T23:33:02Z,yinonov,,0
 1370472787,false,Support scoping `autocomplete` suggestions to the sites domain,https://github.com/whatwg/html/issues/8284,2022-09-12T20:23:20Z,2022-09-12T20:24:54Z,MadLittleMods,,0
-1369863683,false,Incorporate scroll-to-text into HTML,https://github.com/whatwg/html/issues/8282,2022-09-12T12:55:42Z,2025-10-29T22:34:34Z,bokand,addition/proposal|topic: navigation,2
+1369863683,false,Incorporate scroll-to-text into HTML,https://github.com/whatwg/html/issues/8282,2022-09-12T12:55:42Z,2025-11-01T12:54:46Z,bokand,addition/proposal|topic: navigation,2
 1369321140,true,HTML table from CSV,https://github.com/whatwg/html/issues/8281,2022-09-12T05:55:00Z,2023-04-07T07:01:25Z,esdnm,addition/proposal|needs implementer interest|topic: table,0
 1369257900,false,"For attributes which can contain a mix of languages, provide markup for language of parts",https://github.com/whatwg/html/issues/8280,2022-09-12T04:22:54Z,2022-09-21T15:20:31Z,ChasBelov,i18n-tracker,0
 1369238834,false,Support language of parts for portions of the title tag contents,https://github.com/whatwg/html/issues/8279,2022-09-12T03:56:34Z,2022-09-21T15:32:13Z,ChasBelov,,0
@@ -1955,7 +1956,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1096359171,true,Behavior of cyclical dynamic import() is unclear,https://github.com/whatwg/html/issues/7472,2022-01-07T14:20:37Z,2023-02-21T15:46:06Z,yoshi-pi,topic: script,0
 1095667242,true,Bug with script-blocking <style> elements,https://github.com/whatwg/html/issues/7469,2022-01-06T20:25:30Z,2022-01-12T16:57:35Z,xiaochengh,topic: style,0
 1095332963,true,allow-custom-protocol-navigation,https://github.com/whatwg/html/issues/7468,2022-01-06T13:42:35Z,2022-03-07T15:50:07Z,ArthurSonzogni,addition/proposal|topic: sandbox,0
-1090922833,false,"Support lazy-loading CSS background-images ",https://github.com/whatwg/html/issues/7457,2021-12-30T07:20:47Z,2023-08-17T14:07:56Z,addyosmani,,10
+1090922833,false,"Support lazy-loading CSS background-images ",https://github.com/whatwg/html/issues/7457,2021-12-30T07:20:47Z,2023-08-17T14:07:56Z,addyosmani,,11
 1090820833,true,Error in the code of the example for TextTrack,https://github.com/whatwg/html/issues/7456,2021-12-30T01:15:47Z,2022-01-11T18:11:07Z,jackdeguest,good first issue,0
 1088670414,true,OffscreenCanvas.getContext: definition missing about unsupported context,https://github.com/whatwg/html/issues/7445,2021-12-25T23:49:29Z,2021-12-26T00:27:58Z,rinsuki,,0
 1087720198,true,Should we remove window.blur?,https://github.com/whatwg/html/issues/7441,2021-12-23T13:31:05Z,2022-10-31T05:07:08Z,camillelamy,,0
@@ -3766,7 +3767,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2023-06-14T18:51:29Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,32
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,true,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2025-10-20T17:06:06Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,197
+305140900,true,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2025-10-20T17:06:06Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,198
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
