@@ -7,7 +7,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3433232295,false,Should IDBDatabase::close() be in parallel?,https://github.com/w3c/IndexedDB/issues/474,2025-09-19T07:31:16Z,2025-09-22T22:03:22Z,stelar7,,0
 3324839229,false,Exceptions during database upgrade no longer closes the connection,https://github.com/w3c/IndexedDB/issues/473,2025-08-15T09:35:47Z,2025-08-18T20:41:04Z,stelar7,,0
 3316954317,true,Update editors?,https://github.com/w3c/IndexedDB/issues/470,2025-08-13T05:25:48Z,2025-08-15T07:10:08Z,marcoscaceres,,0
-3315116386,false,TPAC 2025 status report,https://github.com/w3c/IndexedDB/issues/469,2025-08-12T17:03:13Z,2025-11-04T19:30:06Z,siusin,,1
+3315116386,false,TPAC 2025 status report,https://github.com/w3c/IndexedDB/issues/469,2025-08-12T17:03:13Z,2025-11-05T21:23:29Z,siusin,,1
 3302154070,true,Spec contradicts WPT tests for detached `ArrayBuffer` passed to `getAllKeys()`,https://github.com/w3c/IndexedDB/issues/465,2025-08-07T23:31:24Z,2025-08-09T15:23:29Z,nolanlawson,,0
 3234901961,true,Maxi,https://github.com/w3c/IndexedDB/issues/464,2025-07-16T07:56:39Z,2025-07-21T17:14:54Z,maxi952,,0
 3036576009,false,Spec mostly doesn't mention blob expectations,https://github.com/w3c/IndexedDB/issues/454,2025-05-02T18:15:47Z,2025-05-05T23:14:52Z,evanstade,,1
@@ -26,7 +26,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2711000388,false,Spec clarification regarding implied steps,https://github.com/w3c/IndexedDB/issues/433,2024-12-02T08:27:16Z,2024-12-14T00:22:29Z,stelar7,needs-pr,0
 2642144073,false,Return explicit failure from object store retrieval operations,https://github.com/w3c/IndexedDB/issues/432,2024-11-07T20:36:20Z,2024-11-08T18:16:50Z,inexorabletash,needs-pr,1
 2588856164,false,Delete entire site data on data corruption/loss?,https://github.com/w3c/IndexedDB/issues/431,2024-10-15T13:52:07Z,2025-10-17T20:30:20Z,abhishek-shanthkumar,TPAC2025,0
-2560311905,false,Support Temporal as key/value,https://github.com/w3c/IndexedDB/issues/429,2024-10-01T22:18:12Z,2024-10-01T22:20:42Z,SteveBeckerMSFT,external dependency|TPAC2024,2
+2560311905,false,Support Temporal as key/value,https://github.com/w3c/IndexedDB/issues/429,2024-10-01T22:18:12Z,2025-11-05T21:22:08Z,SteveBeckerMSFT,external dependency|TPAC2024|TPAC2025,2
 2559936186,false,Configurable task priority for IDBRequest and IDBTransaction?,https://github.com/w3c/IndexedDB/issues/428,2024-10-01T18:36:25Z,2025-10-17T20:30:46Z,SteveBeckerMSFT,TPAC2024|TPAC2025,0
 2559875643,true,Add direction option to getAll() and getAllKeys(),https://github.com/w3c/IndexedDB/issues/427,2024-10-01T18:04:21Z,2024-10-14T18:36:34Z,SteveBeckerMSFT,TPAC2024,0
 2557576529,false,IDBIndex::getAllIndexKeys(),https://github.com/w3c/IndexedDB/issues/426,2024-09-30T20:27:16Z,2024-09-30T20:27:16Z,SteveBeckerMSFT,TPAC2024,3
@@ -228,7 +228,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 162224225,true,Specify IDBOpenDBRequest processing as a queue?,https://github.com/w3c/IndexedDB/issues/79,2016-06-24T20:24:38Z,2016-07-15T21:25:04Z,inexorabletash,needs-pr,0
 161796202,true,"deleteDatabase's ""versionchange"" should be deferred if upgrade is running",https://github.com/w3c/IndexedDB/issues/78,2016-06-22T21:56:06Z,2016-07-15T20:41:57Z,inexorabletash,needs-pr,0
 156627697,true,Enforce transaction commit ordering more strictly,https://github.com/w3c/IndexedDB/issues/77,2016-05-24T22:54:21Z,2016-06-09T18:02:58Z,inexorabletash,needs-pr|needs-tests,0
-152464332,false,boolean should be a valid key,https://github.com/w3c/IndexedDB/issues/76,2016-05-02T00:13:27Z,2024-10-01T22:19:06Z,yathit,feature request|queries|TPAC2024,17
+152464332,false,boolean should be a valid key,https://github.com/w3c/IndexedDB/issues/76,2016-05-02T00:13:27Z,2025-11-05T21:25:56Z,yathit,feature request|queries|TPAC2024|TPAC2025,17
 149883247,true,Shared databases and stores (and more robust schemas),https://github.com/w3c/IndexedDB/issues/75,2016-04-20T20:52:03Z,2016-04-21T00:17:59Z,brettz9,,0
 149286377,true,deleteDatabase error case should never happen,https://github.com/w3c/IndexedDB/issues/74,2016-04-18T22:15:42Z,2016-10-12T19:33:13Z,inexorabletash,needs-pr,0
 142663465,true,Ways to detect database manual deletions,https://github.com/w3c/IndexedDB/issues/73,2016-03-22T14:16:22Z,2016-03-22T16:21:19Z,falsandtru,,0

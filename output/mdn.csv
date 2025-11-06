@@ -6568,6 +6568,7 @@ api/Request/Request/init_browsingTopics_parameter,,,,126,,,,true,false,false,,NO
 api/Request/Request/init_duplex_parameter,,,,105,,,,true,true,false,https://fetch.spec.whatwg.org/#dom-requestinit-duplex,WHATWG
 api/Request/Request/init_keepalive_parameter,,133,,66,,13,,false,true,false,https://fetch.spec.whatwg.org/#dom-requestinit-keepalive,WHATWG
 api/Request/Request/init_priority_parameter,,132,,101,,17.2,,false,true,false,https://fetch.spec.whatwg.org/#dom-requestinit-priority,WHATWG
+api/Request/Request/init_privateToken_parameter,,,,117,,,,true,true,false,https://wicg.github.io/trust-token-api/#dom-requestinit-privatetoken,W3CCG
 api/Request/Request/init_referrer_parameter,,47,,47,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#dom-requestinit-referrer,WHATWG
 api/Request/Request/request_body_readablestream,,,,105,,,,true,true,false,,NONE
 api/Request/Request/response_body_readablestream,,65,,43,,,,false,true,false,,NONE
@@ -9183,7 +9184,7 @@ api/Window/styleMedia,,,,6,,5,,false,false,true,,NONE
 api/Window/toolbar,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-window-toolbar-dev,WHATWG
 api/Window/top,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-top-dev,WHATWG
 api/Window/unhandledrejection_event,,69,,49,,11,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-unhandledrejection,WHATWG
-api/Window/unload_event,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/indices.html#event-unload,WHATWG
+api/Window/unload_event,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-unload,WHATWG
 api/Window/updateCommands,,1,,,,,,false,false,false,,NONE
 api/Window/viewport,,,,138,,,,true,true,false,https://drafts.csswg.org/css-viewport/#dom-window-viewport,W3C
 api/Window/visualViewport,,91,,61,,13,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-window-visualviewport,W3C
@@ -9697,6 +9698,7 @@ api/fetch/init_browsingTopics_parameter,,,,126,,,,true,false,false,,NONE
 api/fetch/init_duplex_parameter,,,,105,,,,true,true,false,https://fetch.spec.whatwg.org/#dom-requestinit-duplex,WHATWG
 api/fetch/init_keepalive_parameter,,133,,66,,13,,false,true,false,,NONE
 api/fetch/init_priority_parameter,,132,,101,,17.2,,false,true,false,,NONE
+api/fetch/init_privateToken_parameter,,,,117,,,,true,true,false,https://wicg.github.io/trust-token-api/#dom-requestinit-privatetoken,W3CCG
 api/fetch/init_referrerPolicy_parameter,,52,,52,,11.1,,false,true,false,,NONE
 api/fetch/init_signal_parameter,,57,,66,,11.1,,false,true,false,,NONE
 api/indexedDB,,16,,24,,8,,false,true,false,https://w3c.github.io/IndexedDB/#dom-windoworworkerglobalscope-indexeddb,W3C
@@ -12909,7 +12911,7 @@ css/selectors/before/animation_and_transition_support,,4,,26,,7,,false,true,fals
 css/selectors/before/nested_marker,,143,,135,,,,false,true,false,https://drafts.csswg.org/css-pseudo-4/#:~:text=The%20::before::marker%20or%20::after::marker%20selectors,W3C
 css/selectors/buffering,,,,,,15.4,,false,true,false,https://drafts.csswg.org/selectors/#selectordef-buffering,W3C
 css/selectors/checked,,1,,1,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-checked,WHATWG
-css/selectors/checkmark,,,,135,,,,true,true,false,https://drafts.csswg.org/css-forms-1/#checkmark,W3C
+css/selectors/checkmark,,,,133,,,,true,true,false,https://drafts.csswg.org/css-forms-1/#checkmark,W3C
 css/selectors/child,,1,,1,,1,,false,true,false,https://drafts.csswg.org/selectors/#child-combinators,W3C
 css/selectors/class,,1,,1,,1,,false,true,false,https://drafts.csswg.org/selectors/#class-html,W3C
 css/selectors/closed,,,,114,,,,false,false,true,,NONE
@@ -13004,7 +13006,7 @@ css/selectors/part,,72,,73,,13.1,,false,true,false,https://drafts.csswg.org/css-
 css/selectors/past,,,,23,,7,,false,true,false,https://drafts.csswg.org/selectors/#the-past-pseudo,W3C
 css/selectors/paused,,,,,,15.4,,false,true,false,https://drafts.csswg.org/selectors/#selectordef-paused,W3C
 css/selectors/picker,,,,135,,,,true,true,false,https://drafts.csswg.org/css-forms-1/#picker-pseudo,W3C
-css/selectors/picker-icon,,,,135,,,,true,true,false,https://drafts.csswg.org/css-forms-1/#picker-icon,W3C
+css/selectors/picker-icon,,,,133,,,,true,true,false,https://drafts.csswg.org/css-forms-1/#picker-icon,W3C
 css/selectors/picture-in-picture,,,,110,,13.1,,false,true,false,https://drafts.csswg.org/selectors/#pip-state,W3C
 css/selectors/placeholder,,51,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-pseudo/#placeholder-pseudo,W3C
 css/selectors/placeholder-shown,,51,,47,,9,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-placeholder-shown,WHATWG
@@ -13637,6 +13639,7 @@ html/elements/iframe/longdesc,,1,,1,,3,,false,true,true,https://html.spec.whatwg
 html/elements/iframe/marginheight,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#attr-iframe-marginheight,WHATWG
 html/elements/iframe/marginwidth,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#attr-iframe-marginwidth,WHATWG
 html/elements/iframe/name,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-name,WHATWG
+html/elements/iframe/privateToken,,,,117,,,,true,true,false,https://wicg.github.io/trust-token-api/#iframe-private-token,W3CCG
 html/elements/iframe/referrerpolicy,,50,,51,,14,,false,true,false,https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-referrerpolicy,WHATWG
 html/elements/iframe/referrerpolicy/no-referrer-when-downgrade,,50,,51,,,,false,true,false,,NONE
 html/elements/iframe/referrerpolicy/origin-when-cross-origin,,50,,51,,,,false,true,false,,NONE
@@ -14354,6 +14357,8 @@ http/headers/Permissions-Policy/on-device-speech-recognition,,,,142,,,,true,true
 http/headers/Permissions-Policy/otp-credentials,,,,93,,,,true,true,false,https://wicg.github.io/web-otp/#sctn-permissions-policy,W3CCG
 http/headers/Permissions-Policy/payment,,,,88,,,,true,true,false,https://w3c.github.io/payment-request/#permissions-policy,W3C
 http/headers/Permissions-Policy/picture-in-picture,,,,88,,,,true,true,false,https://w3c.github.io/picture-in-picture/#permissions-policy,W3C
+http/headers/Permissions-Policy/private-state-token-issuance,,,,117,,,,true,true,false,https://wicg.github.io/trust-token-api/#policy-controlled-feature-private-state-token-issuance,W3CCG
+http/headers/Permissions-Policy/private-state-token-redemption,,,,117,,,,true,true,false,https://wicg.github.io/trust-token-api/#policy-controlled-feature-private-state-token-redemption,W3CCG
 http/headers/Permissions-Policy/publickey-credentials-create,,,,88,,,,true,true,false,https://w3c.github.io/webauthn/#sctn-permissions-policy,W3C
 http/headers/Permissions-Policy/publickey-credentials-get,,,,88,,,,true,true,false,https://w3c.github.io/webauthn/#sctn-permissions-policy,W3C
 http/headers/Permissions-Policy/screen-wake-lock,,,,88,,,,true,true,false,https://w3c.github.io/screen-wake-lock/#policy-control,W3C
@@ -14408,9 +14413,13 @@ http/headers/Sec-Fetch-Site,,90,,76,,16.4,,false,true,false,https://w3c.github.i
 http/headers/Sec-Fetch-Storage-Access,,preview,,133,,,,true,true,false,https://privacycg.github.io/storage-access-headers/#sec-fetch-storage-access-header,W3CCG
 http/headers/Sec-Fetch-User,,90,,76,,,,false,true,false,https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-user-header,W3C
 http/headers/Sec-GPC,,120,,,,,,true,true,false,https://w3c.github.io/gpc/#the-sec-gpc-header-field-for-http-requests,W3C
+http/headers/Sec-Private-State-Token,,,,117,,,,true,true,false,https://wicg.github.io/trust-token-api/#sec-private-state-token,W3CCG
+http/headers/Sec-Private-State-Token-Crypto-Version,,,,117,,,,true,true,false,https://wicg.github.io/trust-token-api/#sec-private-state-token-crypto-version,W3CCG
+http/headers/Sec-Private-State-Token-Lifetime,,,,117,,,,true,true,false,https://wicg.github.io/trust-token-api/#sec-private-state-token-lifetime,W3CCG
 http/headers/Sec-Purpose,,115,,110,,,,false,true,false,https://fetch.spec.whatwg.org/#sec-purpose-header,WHATWG
 http/headers/Sec-Purpose/prefetch,,115,,,,,,false,true,false,,NONE
 http/headers/Sec-Purpose/speculationrules,,,,110,,,,true,true,false,,NONE
+http/headers/Sec-Redemption-Record,,,,117,,,,true,true,false,https://wicg.github.io/trust-token-api/#sec-redemption-record,W3CCG
 http/headers/Sec-Speculation-Tags,,,,136,,,,true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#the-sec-speculation-tags-header,WHATWG
 http/headers/Sec-WebSocket-Accept,,11,,16,,6,,false,true,false,https://www.rfc-editor.org/rfc/rfc6455#section-11.3.3,UNKNOWN
 http/headers/Sec-WebSocket-Extensions,,11,,16,,6,,false,true,false,https://www.rfc-editor.org/rfc/rfc6455#section-11.3.2,UNKNOWN
