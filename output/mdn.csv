@@ -1653,6 +1653,8 @@ api/Document/execCommand/copy,,41,,42,,10,,false,false,true,,NONE
 api/Document/execCommand/cut,,41,,42,,10,,false,false,true,,NONE
 api/Document/execCommand/defaultParagraphSeparator,,55,,,,,,false,false,true,,NONE
 api/Document/execCommand/insertBrOnReturn,,1.5,,,,,,false,false,true,,NONE
+api/Document/execCommand/insertHTML,,1,,1,,1.3,,false,true,true,,NONE
+api/Document/execCommand/insertHTML/enforces_trusted_types,,preview,,96,,26,,false,true,true,,NONE
 api/Document/exitFullscreen,,64,,71,,16.4,,false,true,false,https://fullscreen.spec.whatwg.org/#ref-for-dom-document-exitfullscreen①,WHATWG
 api/Document/exitFullscreen/returns_promise,,64,,69,,16.4,,false,true,false,,NONE
 api/Document/exitPictureInPicture,,,,69,,13.1,,false,true,false,https://w3c.github.io/picture-in-picture/#dom-document-exitpictureinpicture,W3C
@@ -2087,7 +2089,9 @@ api/Element/scrollsnapchange_event,,,,129,,,,true,true,false,https://drafts.cssw
 api/Element/scrollsnapchanging_event,,,,129,,,,true,true,false,https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchanging,W3C
 api/Element/securitypolicyviolation_event,,63,,41,,10,,false,true,false,https://w3c.github.io/webappsec-csp/#eventdef-globaleventhandlers-securitypolicyviolation,W3C
 api/Element/setAttribute,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-element-setattribute①,WHATWG
+api/Element/setAttribute/enforces_trusted_types,,preview,,83,,26,,false,true,false,,NONE
 api/Element/setAttributeNS,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-element-setattributens①,WHATWG
+api/Element/setAttributeNS/enforces_trusted_types,,preview,,83,,26,,false,true,false,,NONE
 api/Element/setAttributeNode,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#dom-element-setattributenode,WHATWG
 api/Element/setAttributeNodeNS,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#dom-element-setattributenodens,WHATWG
 api/Element/setCapture,,4,,,,,,false,false,true,,NONE
@@ -2498,7 +2502,7 @@ api/GPUAdapter/isFallbackAdapter,,141,,113,,26,,false,false,true,,NONE
 api/GPUAdapter/limits,,141,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#dom-gpuadapter-limits,UNKNOWN
 api/GPUAdapter/requestAdapterInfo,,141,,113,,,,false,false,true,,NONE
 api/GPUAdapter/requestDevice,,141,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#dom-gpuadapter-requestdevice,UNKNOWN
-api/GPUAdapter/requestDevice/lost_device_on_duplicate,,,,116,,26,,false,true,false,,NONE
+api/GPUAdapter/requestDevice/handles_duplicate_calls,,,,116,,26,,false,true,false,,NONE
 api/GPUAdapter/requestDevice/undefined_limits,,,,133,,,,true,true,false,,NONE
 api/GPUAdapterInfo,,141,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#gpuadapterinfo,UNKNOWN
 api/GPUAdapterInfo/architecture,,141,,113,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#dom-gpuadapterinfo-architecture,UNKNOWN
@@ -5493,9 +5497,11 @@ api/Performance/getEntriesByName,,35,,28,,11,,false,true,false,https://w3c.githu
 api/Performance/getEntriesByType,,35,,28,,11,,false,true,false,https://w3c.github.io/performance-timeline/#dom-performance-getentriesbytype,W3C
 api/Performance/interactionCount,,144,,,,,,true,true,false,https://w3c.github.io/event-timing/#dom-performance-interactioncount,W3C
 api/Performance/mark,,38,,28,,11,,false,true,false,https://w3c.github.io/user-timing/#dom-performance-mark,W3C
+api/Performance/mark/markOptions_detail_devtools_parameter,,,,128,,,,true,false,false,,NONE
 api/Performance/mark/markOptions_parameter,,101,,78,,14.1,,false,true,false,,NONE
 api/Performance/mark/returns_performancemark,,101,,78,,14.1,,false,true,false,,NONE
 api/Performance/measure,,38,,28,,11,,false,true,false,https://w3c.github.io/user-timing/#dom-performance-measure,W3C
+api/Performance/measure/measureOptions_detail_devtools_parameter,,,,128,,,,true,false,false,,NONE
 api/Performance/measure/measureOptions_parameter,,103,,77,,14.1,,false,true,false,,NONE
 api/Performance/measure/returns_performancemeasure,,103,,78,,14.1,,false,true,false,,NONE
 api/Performance/measureUserAgentSpecificMemory,,,,89,,,,true,true,false,https://wicg.github.io/performance-measure-memory/#ref-for-dom-performance-measureuseragentspecificmemory⑤,W3CCG
@@ -7531,6 +7537,7 @@ api/SharedStorageWorkletGlobalScope/sharedStorage,,,,126,,,,true,true,false,http
 api/SharedWorker,,29,,5,,16,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#shared-workers-and-the-sharedworker-interface,WHATWG
 api/SharedWorker/SharedWorker,,29,,5,,16,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#dom-sharedworker-dev,WHATWG
 api/SharedWorker/SharedWorker/ecmascript_modules,,114,,80,,15,,false,true,false,,NONE
+api/SharedWorker/SharedWorker/enforces_trusted_types,,preview,,97,,26,,false,true,false,,NONE
 api/SharedWorker/SharedWorker/mime_checks,,81,,,,16,,false,true,false,,NONE
 api/SharedWorker/SharedWorker/options_name_parameter,,55,,70,,,,false,true,false,,NONE
 api/SharedWorker/SharedWorker/options_sameSiteCookies_parameter,,,,125,,,,false,true,false,https://privacycg.github.io/saa-non-cookie-storage/#dom-sharedworkeroptions-samesitecookies,W3CCG
@@ -9213,6 +9220,7 @@ api/WindowControlsOverlayGeometryChangeEvent/visible,,,,105,,,,true,true,false,h
 api/Worker,,3.5,,2,,4,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#dedicated-workers-and-the-worker-interface,WHATWG
 api/Worker/Worker,,3.5,,4,,4,,false,true,false,https://html.spec.whatwg.org/multipage/workers.html#dom-worker-dev,WHATWG
 api/Worker/Worker/ecmascript_modules,,114,,80,,15,,false,true,false,,NONE
+api/Worker/Worker/enforces_trusted_types,,preview,,97,,26,,false,true,false,,NONE
 api/Worker/Worker/mime_checks,,81,,,,16,,false,true,false,,NONE
 api/Worker/Worker/options_name_parameter,,55,,70,,12.1,,false,true,false,,NONE
 api/Worker/Worker/options_type_parameter,,114,,80,,15,,false,true,false,,NONE
@@ -9672,6 +9680,13 @@ api/console/table_static,,34,,27,,7,,false,true,false,https://console.spec.whatw
 api/console/timeEnd_static,,10,,2,,4,,false,true,false,https://console.spec.whatwg.org/#timeend,WHATWG
 api/console/timeLog_static,,62,,71,,13,,false,true,false,https://console.spec.whatwg.org/#timelog,WHATWG
 api/console/timeStamp_static,,98,,15,,6,,false,false,false,,NONE
+api/console/timeStamp_static/color_parameter,,,,134,,,,true,false,false,,NONE
+api/console/timeStamp_static/data_parameter,,,,141,,,,true,false,false,,NONE
+api/console/timeStamp_static/end_parameter,,,,134,,,,true,false,false,,NONE
+api/console/timeStamp_static/label_parameter,,,,15,,6,,false,false,false,,NONE
+api/console/timeStamp_static/start_parameter,,,,134,,,,true,false,false,,NONE
+api/console/timeStamp_static/trackGroup_parameter,,,,134,,,,true,false,false,,NONE
+api/console/timeStamp_static/trackName_parameter,,,,134,,,,true,false,false,,NONE
 api/console/time_static,,10,,2,,4,,false,true,false,https://console.spec.whatwg.org/#time,WHATWG
 api/console/trace_static,,6,,2,,4,,false,true,false,https://console.spec.whatwg.org/#trace,WHATWG
 api/console/warn_static,,4,,1,,3,,false,true,false,https://console.spec.whatwg.org/#warn,WHATWG
@@ -9868,7 +9883,7 @@ css/at-rules/property,,128,,85,,16.4,,false,true,false,https://drafts.css-houdin
 css/at-rules/property/inherits,,128,,85,,16.4,,false,true,false,https://drafts.css-houdini.org/css-properties-values-api/#inherits-descriptor,W3C
 css/at-rules/property/initial-value,,128,,85,,16.4,,false,true,false,https://drafts.css-houdini.org/css-properties-values-api/#initial-value-descriptor,W3C
 css/at-rules/property/syntax,,128,,85,,16.4,,false,true,false,https://drafts.css-houdini.org/css-properties-values-api/#the-syntax-descriptor,W3C
-css/at-rules/scope,,128,"[{""name"":""layout.css.at-scope.enabled"",""type"":""preference"",""value_to_set"":""true""}]",118,,17.4,,false,true,false,https://drafts.csswg.org/css-cascade-6/#scoped-styles,W3C
+css/at-rules/scope,,146,,118,,17.4,,false,true,false,https://drafts.csswg.org/css-cascade-6/#scoped-styles,W3C
 css/at-rules/starting-style,,129,,117,,17.5,,false,true,false,https://drafts.csswg.org/css-transitions-2/#defining-before-change-style,W3C
 css/at-rules/supports,,22,,28,,9,,false,true,false,https://drafts.csswg.org/css-conditional-5/#at-supports-ext,W3C
 css/at-rules/supports/font-format,,106,,108,,17,,false,true,false,,NONE
@@ -11530,6 +11545,7 @@ css/properties/justify-content/normal,,20,,21,,7,,false,true,false,,NONE
 css/properties/justify-content/right,,20,,21,,7,,false,true,false,,NONE
 css/properties/justify-items,,20,,52,,9,,false,true,false,https://drafts.csswg.org/css-align/#justify-items-property,W3C
 css/properties/justify-items/anchor-center,,,,125,,26,,false,true,false,https://drafts.csswg.org/css-anchor-position-1/#anchor-center,W3C
+css/properties/justify-items/block_context,,,,130,,,,true,true,false,https://drafts.csswg.org/css-align/#justify-items-property,W3C
 css/properties/justify-items/flex_context,,20,,52,,9,,false,true,false,https://drafts.csswg.org/css-align/#justify-items-property,W3C
 css/properties/justify-items/grid_context,,45,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-align/#justify-items-property,W3C
 css/properties/justify-items/left,,20,,52,,9,,false,true,false,,NONE
@@ -11538,6 +11554,7 @@ css/properties/justify-items/right,,20,,52,,9,,false,true,false,,NONE
 css/properties/justify-self,,45,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-align/#justify-self-property,W3C
 css/properties/justify-self/anchor-center,,,,125,,26,,false,true,false,https://drafts.csswg.org/css-anchor-position-1/#anchor-center,W3C
 css/properties/justify-self/auto,,45,,57,,10.1,,false,true,false,,NONE
+css/properties/justify-self/block_context,,,,130,,,,true,true,false,https://drafts.csswg.org/css-align/#justify-block,W3C
 css/properties/justify-self/grid_context,,45,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-align/#justify-self-property,W3C
 css/properties/justify-self/left,,45,,57,,10.1,,false,true,false,,NONE
 css/properties/justify-self/normal,,45,,57,,10.1,,false,true,false,,NONE
@@ -12984,7 +13001,7 @@ css/selectors/modal,,103,,105,,15.6,,false,true,false,https://html.spec.whatwg.o
 css/selectors/muted,,,,,,15.4,,false,true,false,https://drafts.csswg.org/selectors/#selectordef-muted,W3C
 css/selectors/namespace,,1,,1,,3,,false,true,false,https://drafts.csswg.org/css-namespaces/#declaration,W3C
 css/selectors/nesting,,117,,120,,17.2,,false,true,false,https://drafts.csswg.org/css-nesting/#nest-selector,W3C
-css/selectors/nesting/at-scope,,142,,,,,,true,true,false,,NONE
+css/selectors/nesting/at-scope,,142,,143,,26.2,,false,true,false,,NONE
 css/selectors/next-sibling,,1,,1,,1,,false,true,false,https://drafts.csswg.org/selectors/#adjacent-sibling-combinators,W3C
 css/selectors/not,,1,,1,,3.1,,false,true,false,https://drafts.csswg.org/selectors/#negation,W3C
 css/selectors/not/selector_list,,84,,88,,9,,false,true,false,,NONE
@@ -13085,15 +13102,13 @@ css/types/atan2,,108,,111,,15.4,,false,true,false,https://drafts.csswg.org/css-v
 css/types/attr,,1,,2,,3.1,,false,true,false,https://drafts.csswg.org/css-values-5/#attr-notation,W3C
 css/types/attr/fallback,,119,,133,,18.4,,false,true,false,,NONE
 css/types/attr/type-or-unit,,,,133,,,,true,true,false,,NONE
-css/types/attr/type-or-unit/angle,,,,,,,,true,true,false,,NONE
-css/types/attr/type-or-unit/color,,,,,,,,true,true,false,,NONE
-css/types/attr/type-or-unit/frequency,,,,,,,,true,true,false,,NONE
-css/types/attr/type-or-unit/integer,,,,,,,,true,true,false,,NONE
-css/types/attr/type-or-unit/length,,,,,,,,true,true,false,,NONE
-css/types/attr/type-or-unit/number,,,,,,,,true,true,false,,NONE
-css/types/attr/type-or-unit/percentage,,,,,,,,true,true,false,,NONE
-css/types/attr/type-or-unit/time,,,,,,,,true,true,false,,NONE
-css/types/attr/type-or-unit/url,,,,,,,,true,true,false,,NONE
+css/types/attr/type-or-unit/angle,,,,133,,,,true,true,false,,NONE
+css/types/attr/type-or-unit/color,,,,133,,,,true,true,false,,NONE
+css/types/attr/type-or-unit/integer,,,,133,,,,true,true,false,,NONE
+css/types/attr/type-or-unit/length,,,,133,,,,true,true,false,,NONE
+css/types/attr/type-or-unit/number,,,,133,,,,true,true,false,,NONE
+css/types/attr/type-or-unit/percentage,,,,133,,,,true,true,false,,NONE
+css/types/attr/type-or-unit/time,,,,133,,,,true,true,false,,NONE
 css/types/basic-shape,,54,,37,,10.1,,false,true,false,https://drafts.csswg.org/css-shapes/#basic-shape-functions,W3C
 css/types/basic-shape/animation,,54,,37,,10.1,,false,true,false,,NONE
 css/types/basic-shape/circle,,54,,37,,10.1,,false,true,false,https://drafts.csswg.org/css-shapes/#funcdef-basic-shape-circle,W3C
@@ -14761,6 +14776,7 @@ javascript/builtins/Float64Array/Float64Array/iterable_allowed,,52,,39,,10,,fals
 javascript/builtins/Function,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function-objects,TC39
 javascript/builtins/Function/@@hasInstance,,50,,50,,10,,false,true,false,https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function.prototype-%symbol.hasinstance%,TC39
 javascript/builtins/Function/Function,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function-constructor,TC39
+javascript/builtins/Function/Function/enforces_trusted_types,,preview,,,,26,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-htmlscriptelement-innertext,W3C
 javascript/builtins/Function/apply,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-function.prototype.apply,TC39
 javascript/builtins/Function/apply/generic_arrays_as_arguments,,4,,17,,6,,false,true,false,,NONE
 javascript/builtins/Function/arguments,,1,,1,,1,,false,false,true,,NONE
