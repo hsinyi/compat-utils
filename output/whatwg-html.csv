@@ -8,7 +8,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3586274407,false,<seletedcontent> behavior in disconnected <select>,https://github.com/whatwg/html/issues/11882,2025-11-04T12:02:01Z,2025-11-06T22:46:54Z,annevk,topic: select,0
 3586008179,false,Clearing non-primary selectedcontent elements is broken,https://github.com/whatwg/html/issues/11880,2025-11-04T10:54:22Z,2025-11-06T22:25:06Z,annevk,topic: select,0
 3585215086,false,leftmargin and topmargin attributes should apply to both sides,https://github.com/whatwg/html/issues/11879,2025-11-04T08:07:50Z,2025-11-04T08:07:50Z,zcorpan,compat|topic: rendering,0
-3583278699,false,"Incorrect ""starts with"" order of newImportMapImports' specifier and resolved module set's specifier in ` merge existing and new import maps`",https://github.com/whatwg/html/issues/11875,2025-11-03T18:41:20Z,2025-11-08T00:21:33Z,allstarschh,,0
+3583278699,false,"Incorrect ""starts with"" order of newImportMapImports' specifier and resolved module set's specifier in ` merge existing and new import maps`",https://github.com/whatwg/html/issues/11875,2025-11-03T18:41:20Z,2025-11-08T08:30:00Z,allstarschh,,0
 3583136831,false,Support for disabling scripts from WebDriver BiDi,https://github.com/whatwg/html/issues/11874,2025-11-03T17:57:26Z,2025-11-03T17:57:26Z,juliandescottes,,0
 3582963080,false,Focus chain algorithm and firing focus events,https://github.com/whatwg/html/issues/11873,2025-11-03T17:05:59Z,2025-11-04T23:00:14Z,dSalieri,,0
 3581976852,false,Unitialized document in #focus-update-steps,https://github.com/whatwg/html/issues/11872,2025-11-03T13:02:48Z,2025-11-03T13:02:57Z,farre,topic: navigation,0
@@ -414,7 +414,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2886564942,false,HTMLInputElement type=url “absolute URL string” constraint-validation-API requirements don’t match actual Gecko/Blink/WebKit implementation behavior,https://github.com/whatwg/html/issues/11083,2025-02-28T08:48:01Z,2025-03-01T07:47:51Z,sideshowbarker,compat|topic: forms,0
 2885617001,false,Navigation API: Spec does not accurately describe firing popstate event is intercepted and source is a fragment navigation,https://github.com/whatwg/html/issues/11082,2025-02-27T21:11:53Z,2025-02-28T09:58:16Z,atscott,topic: navigation,0
 2885557148,true,Upcoming WHATNOT meeting on 2025-03-06,https://github.com/whatwg/html/issues/11081,2025-02-27T20:36:28Z,2025-03-07T18:01:43Z,past,agenda+,0
-2885502205,false,Alternative text for short-form video,https://github.com/whatwg/html/issues/11080,2025-02-27T20:05:27Z,2025-08-04T19:09:29Z,tylersticka,addition/proposal|needs implementer interest|topic: media|accessibility|a11y-tracker,35
+2885502205,false,Alternative text for short-form video,https://github.com/whatwg/html/issues/11080,2025-02-27T20:05:27Z,2025-11-08T02:12:32Z,tylersticka,addition/proposal|needs implementer interest|topic: media|accessibility|a11y-tracker,36
 2884736071,false,Clarify why <input type=file> hides the real path,https://github.com/whatwg/html/issues/11079,2025-02-27T14:45:38Z,2025-09-11T10:52:28Z,JB-BISHELCO,clarification,3
 2882914326,false,Additional usage guidance for IDL attribute types (such as DOMString?),https://github.com/whatwg/html/issues/11078,2025-02-26T22:02:24Z,2025-03-23T17:00:10Z,rahimabdi,,1
 2881602648,true,Web Compatibility of Scoped Custom Element Registries,https://github.com/whatwg/html/issues/11076,2025-02-26T13:26:42Z,2025-10-31T09:06:48Z,annevk,,0
@@ -951,7 +951,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2144668268,false,"align=""justify"" should align to start, not to left",https://github.com/whatwg/html/issues/10148,2024-02-20T15:38:05Z,2024-02-21T18:03:20Z,Loirooriol,topic: rendering|needs tests,0
 2143265229,false,UI Element Attribute,https://github.com/whatwg/html/issues/10146,2024-02-19T23:05:03Z,2024-04-17T11:33:27Z,MrMatthewLayton,addition/proposal|needs implementer interest,2
 2142919582,false,"Render-blocking: the definition of ""created by its node document's parser"" is a little bit vague",https://github.com/whatwg/html/issues/10145,2024-02-19T18:08:51Z,2024-03-14T22:55:05Z,cathiechen,topic: parser,0
-2141312881,false,Improve DX of element reference attributes by allowing relative references instead of only ids,https://github.com/whatwg/html/issues/10143,2024-02-19T01:30:10Z,2025-11-05T17:00:17Z,LeaVerou,addition/proposal|needs implementer interest|a11y-tracker,30
+2141312881,false,Improve DX of element reference attributes by allowing relative references instead of only ids,https://github.com/whatwg/html/issues/10143,2024-02-19T01:30:10Z,2025-11-05T17:00:17Z,LeaVerou,addition/proposal|needs implementer interest|a11y-tracker,29
 2141042150,false,"ImageBitmapRenderingContext: clarify behaviour with `premultiplyAlpha: ""none""` createImageBitmap option and canvas",https://github.com/whatwg/html/issues/10142,2024-02-18T15:27:58Z,2024-04-08T22:18:01Z,hybridherbst,topic: canvas,1
 2140571376,true,"Dark mode styling for ""yes"" table attributes is not ledgible",https://github.com/whatwg/html/issues/10141,2024-02-17T20:28:28Z,2024-03-05T02:47:14Z,ADKaster,spec tooling,0
 2137613348,true,Using multiple h1 tag in a page,https://github.com/whatwg/html/issues/10138,2024-02-15T23:28:03Z,2024-02-16T03:27:59Z,bhojpress,,0
