@@ -74,7 +74,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1495954244,false,Function signature change: reading all bytes from a stream,https://github.com/w3c/ServiceWorker/issues/1666,2022-12-14T07:39:15Z,2022-12-14T07:39:15Z,noamr,,0
 1486063465,false,`registerProtocolHandler` support triggering events in service worker instead of navigating to page,https://github.com/w3c/ServiceWorker/issues/1665,2022-12-09T05:45:38Z,2022-12-10T06:21:51Z,hanguokai,,2
 1464078346,false,How to get correct connectStart/End values of a proxied http request inside service worker?,https://github.com/w3c/ServiceWorker/issues/1663,2022-11-25T06:08:35Z,2022-11-25T06:08:35Z,xiaofud,,0
-1449460113,false,clarify behaviour of `AbortSignal` in `FetchEvent::respondWith`,https://github.com/w3c/ServiceWorker/issues/1662,2022-11-15T09:32:23Z,2023-03-08T21:23:06Z,JakobJingleheimer,,0
+1449460113,false,clarify behaviour of `AbortSignal` in `FetchEvent::respondWith`,https://github.com/w3c/ServiceWorker/issues/1662,2022-11-15T09:32:23Z,2025-11-10T19:30:06Z,JakobJingleheimer,,0
 1447363016,false,Add claim option to register(),https://github.com/w3c/ServiceWorker/issues/1661,2022-11-14T04:22:04Z,2022-11-14T04:23:52Z,alancutter,,1
 1429961740,false,"Notion of a ""session"" across same-origin navigations",https://github.com/w3c/ServiceWorker/issues/1660,2022-10-31T14:41:17Z,2022-10-31T14:41:17Z,noamr,,0
 1341744653,true,cache.addAll accepts an array of URLs (not just requests),https://github.com/w3c/ServiceWorker/issues/1657,2022-08-17T13:11:47Z,2022-08-17T14:56:57Z,noamr,,0
@@ -157,7 +157,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 728897747,false,ServiceWorkerContainer's message event is incorrectly linked to ServiceWorkerGlobalScope event list,https://github.com/w3c/ServiceWorker/issues/1549,2020-10-24T23:18:46Z,2021-02-19T07:59:05Z,saschanaz,,0
 724214986,true,unable to open https://wicg.github.io/cookie-store/,https://github.com/w3c/ServiceWorker/issues/1547,2020-10-19T02:43:32Z,2020-11-06T07:27:43Z,danyan,,0
 719889265,true,"<object> having issue with service workers registration, failing with error message Service worker registration failed with: DOMException: Failed to register a ServiceWorker: The document is in an invalid state.",https://github.com/w3c/ServiceWorker/issues/1546,2020-10-13T05:56:19Z,2021-07-30T08:47:57Z,RamLodhi111,,0
-711458084,false,should FetchEvent.request.signal reflect abort status of outer request?,https://github.com/w3c/ServiceWorker/issues/1544,2020-09-29T21:18:01Z,2024-09-24T19:34:14Z,wanderview,,8
+711458084,false,should FetchEvent.request.signal reflect abort status of outer request?,https://github.com/w3c/ServiceWorker/issues/1544,2020-09-29T21:18:01Z,2025-11-10T19:29:19Z,wanderview,,9
 710545360,false,cache.addAll() is not consistent in aborting outstanding requests on error,https://github.com/w3c/ServiceWorker/issues/1543,2020-09-28T20:11:17Z,2020-09-29T00:54:42Z,wanderview,,0
 708039613,true,`Vary` and requests added after the SW,https://github.com/w3c/ServiceWorker/issues/1542,2020-09-24T10:10:10Z,2020-11-23T11:03:13Z,yoavweiss,,0
 704488111,false,Define openWindow() better,https://github.com/w3c/ServiceWorker/issues/1540,2020-09-18T15:58:07Z,2020-09-18T15:58:07Z,annevk,,0
