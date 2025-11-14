@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3624592567,false,"Generalize custom element upgrade concept by allowing `customElements.define(name, Subclass)`",https://github.com/whatwg/html/issues/11914,2025-11-14T08:39:39Z,2025-11-14T08:54:22Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,0
+3623633272,false,Transfer steps for OffscreenCanvas arent realm independent,https://github.com/whatwg/html/issues/11912,2025-11-14T02:36:54Z,2025-11-14T04:04:32Z,me-it-is,,0
 3620606940,false,Allow setting the image opacity on dragging,https://github.com/whatwg/html/issues/11910,2025-11-13T10:35:45Z,2025-11-13T10:35:45Z,A-D-E-A,addition/proposal|needs implementer interest,0
 3619240619,false,"Consider a ""first-time transient activation"" concept.",https://github.com/whatwg/html/issues/11909,2025-11-13T03:36:25Z,2025-11-13T03:36:25Z,mikewest,addition/proposal|needs implementer interest,0
 3618777858,false,CustomElementRegistry's upgrade() should use this,https://github.com/whatwg/html/issues/11908,2025-11-13T00:26:15Z,2025-11-13T00:26:15Z,annevk,topic: custom elements,0
@@ -100,7 +102,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3480086621,false,Forgetting source argument to showPopover() is too easy,https://github.com/whatwg/html/issues/11744,2025-10-03T07:22:01Z,2025-10-08T16:42:04Z,fantasai,topic: popover,0
 3479821271,false,"Proposal: Add optimization to ignore ""duplicate"" navigations",https://github.com/whatwg/html/issues/11743,2025-10-03T05:14:35Z,2025-11-11T19:37:42Z,rakina,addition/proposal|needs implementer interest|topic: navigation,3
 3478171210,true,Meeting 30 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11740,2025-10-02T16:38:24Z,2025-10-23T19:05:03Z,mfreed7,,0
-3574110173,false,customElementRegistry.initialize should provoke custom elements to upgrade,https://github.com/whatwg/html/issues/11858,2025-10-02T15:33:06Z,2025-11-13T23:40:37Z,sorvell,normative change|needs implementer interest|needs tests|needs concrete proposal,2
+3574110173,false,customElementRegistry.initialize should provoke custom elements to upgrade,https://github.com/whatwg/html/issues/11858,2025-10-02T15:33:06Z,2025-11-14T06:19:46Z,sorvell,normative change|topic: custom elements|needs tests|needs concrete proposal,2
 3474315969,true,Navigation API: upcoming API method tracker is not null if `navigate` is called from `onnavigateerror`,https://github.com/whatwg/html/issues/11735,2025-10-01T16:40:38Z,2025-10-21T18:37:03Z,jnjaeschke,topic: navigation,0
 3472725307,false,"Navigation API: ""has been scrolled by user"" is ambiguous",https://github.com/whatwg/html/issues/11732,2025-10-01T09:17:01Z,2025-10-08T19:19:12Z,keithamus,clarification|topic: navigation,1
 3472419842,true,optgroup element text is incorrect,https://github.com/whatwg/html/issues/11730,2025-10-01T07:36:11Z,2025-10-17T05:18:04Z,annevk,topic: select,0
@@ -114,7 +116,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3458474902,false,Navigation API: deferring scroll until intercept promise settles,https://github.com/whatwg/html/issues/11716,2025-09-26T17:24:21Z,2025-10-08T20:28:11Z,keithamus,topic: navigation,0
 3457906418,true,`error` parameter of #abort-the-ongoing-navigation is not passed to #abort-a-navigateevent,https://github.com/whatwg/html/issues/11715,2025-09-26T14:28:11Z,2025-10-29T10:00:27Z,avandolder,topic: navigation,0
 3457203008,true,"#reload synchronously fires a navigate event, triggering asserts",https://github.com/whatwg/html/issues/11714,2025-09-26T11:41:55Z,2025-10-20T13:23:40Z,farre,topic: navigation,0
-3454212770,false,WHATUP at TPAC 2025: agenda suggestions,https://github.com/whatwg/html/issues/11711,2025-09-25T15:49:53Z,2025-11-13T07:38:15Z,cwilso,agenda+,1
+3454212770,false,WHATUP at TPAC 2025: agenda suggestions,https://github.com/whatwg/html/issues/11711,2025-09-25T15:49:53Z,2025-11-14T04:46:45Z,cwilso,agenda+,1
 3453902217,true,targetNavigable is not defined in #navigate,https://github.com/whatwg/html/issues/11709,2025-09-25T14:28:27Z,2025-09-25T15:04:53Z,farre,topic: navigation,0
 3453294237,true,option element form IDL attribute works incorrectly,https://github.com/whatwg/html/issues/11708,2025-09-25T11:58:18Z,2025-10-07T12:59:58Z,annevk,topic: select,0
 3453290739,true,option element disabledness works incorrectly,https://github.com/whatwg/html/issues/11707,2025-09-25T11:57:06Z,2025-10-08T08:10:51Z,annevk,needs tests|topic: select,0
@@ -212,7 +214,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3260411291,true,Meeting 26 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11483,2025-07-24T16:00:41Z,2025-08-14T21:58:41Z,mfreed7,,0
 3255853568,false,Input type monetary,https://github.com/whatwg/html/issues/11480,2025-07-23T10:42:41Z,2025-09-06T03:00:41Z,PlaySafe,addition/proposal|needs implementer interest|topic: forms,0
 3255670043,false,Content-Type on multipart/form-data part without setting filename,https://github.com/whatwg/html/issues/11479,2025-07-23T09:41:01Z,2025-07-25T07:58:40Z,faerytea,addition/proposal|needs implementer interest,0
-3250174379,false,FormControlRange Interface,https://github.com/whatwg/html/issues/11478,2025-07-21T22:11:15Z,2025-10-23T20:36:38Z,t-andresre,addition/proposal|needs implementer interest|agenda+|stage: 1,1
+3250174379,false,FormControlRange Interface,https://github.com/whatwg/html/issues/11478,2025-07-21T22:11:15Z,2025-11-14T07:11:51Z,t-andresre,addition/proposal|needs implementer interest|agenda+|stage: 1,1
 3249337860,false,Base appearance for list box select elements,https://github.com/whatwg/html/issues/11477,2025-07-21T16:42:21Z,2025-11-13T03:06:06Z,josepharhar,topic: select,0
 3249191419,true,Meeting 25 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11476,2025-07-21T15:55:43Z,2025-07-24T16:01:53Z,mfreed7,,0
 3245553588,false,`Link` header parsing too lenient according to RFC 8288,https://github.com/whatwg/html/issues/11468,2025-07-19T18:48:32Z,2025-10-09T13:28:33Z,TimvdLippe,integration,0
@@ -525,7 +527,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2762041321,false,ARIA and Accessibility API in HTML specification,https://github.com/whatwg/html/issues/10885,2024-12-28T23:45:58Z,2024-12-28T23:45:58Z,dSalieri,,0
 2760982461,false,Canvas text direction getter not interoperable,https://github.com/whatwg/html/issues/10884,2024-12-27T15:01:10Z,2025-02-01T16:50:38Z,schenney-chromium,topic: canvas,1
 2754605091,false,valueAsTemporal: date/time input integration with JavaScript Temporal API,https://github.com/whatwg/html/issues/10882,2024-12-22T11:10:04Z,2025-01-16T19:17:03Z,o-t-w,addition/proposal|needs implementer interest|topic: forms,11
-2752376493,false,Audit and fix innerHTML scripting disabled parsing behavior for template,https://github.com/whatwg/html/issues/10879,2024-12-20T09:59:00Z,2025-06-16T21:35:01Z,hsivonen,topic: parser|interop,0
+2752376493,false,Audit and fix innerHTML scripting disabled parsing behavior for template,https://github.com/whatwg/html/issues/10879,2024-12-20T09:59:00Z,2025-11-14T05:59:45Z,hsivonen,topic: parser|interop,0
 2751257695,true,Upcoming WHATNOT meeting on 2025-01-09,https://github.com/whatwg/html/issues/10878,2024-12-19T19:32:37Z,2025-01-09T23:50:17Z,past,agenda+,0
 2751142397,true,Meeting 14 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10877,2024-12-19T18:21:56Z,2025-01-23T19:13:45Z,josepharhar,agenda+,0
 2750910456,false,"Selection in form control elements, user-select, and customizable select",https://github.com/whatwg/html/issues/10876,2024-12-19T16:46:00Z,2025-01-16T15:17:02Z,josepharhar,topic: select,0
@@ -1266,7 +1268,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1758822017,true,`nestedShow` is not initialized in https://html.spec.whatwg.org/#show-popover,https://github.com/whatwg/html/issues/9429,2023-06-15T13:17:53Z,2023-06-29T14:03:02Z,ghost,topic: popover,0
 1758198099,false,HTML fragment parser creates a token which is only used for <annotation-xml encoding>,https://github.com/whatwg/html/issues/9428,2023-06-15T07:18:35Z,2023-06-15T09:38:51Z,zcorpan,clarification|topic: parser,0
 1757555620,true,"""    name — Metadata name     http-equiv — Prag...""",https://github.com/whatwg/html/issues/9427,2023-06-14T20:02:52Z,2023-06-15T00:51:36Z,SteveComstock,,0
-1757474219,false,"Make the HTML parser's scripting flag not depend on ""scripting was enabled""",https://github.com/whatwg/html/issues/9426,2023-06-14T18:57:54Z,2023-06-15T13:42:32Z,zcorpan,topic: parser,1
+1757474219,false,"Make the HTML parser's scripting flag not depend on ""scripting was enabled""",https://github.com/whatwg/html/issues/9426,2023-06-14T18:57:54Z,2025-11-14T06:42:05Z,zcorpan,topic: parser,1
 1755175183,false,Making checkboxes behave like radio buttons,https://github.com/whatwg/html/issues/9420,2023-06-13T15:38:46Z,2023-06-21T09:21:20Z,sovetski,addition/proposal|topic: forms,0
 1752408827,true,https://html.spec.whatwg.org/#hide-popover-algorithm's invocation of https://html.spec.whatwg.org/#hide-all-popovers-until loops infinitely for certain nested popovers,https://github.com/whatwg/html/issues/9415,2023-06-12T10:19:05Z,2023-06-14T12:34:26Z,ghost,topic: popover,0
 1752342253,true,"Popover: consider renaming ""auto popover list"" to ""auto showing popover list"" ",https://github.com/whatwg/html/issues/9413,2023-06-12T09:44:30Z,2023-09-26T09:55:34Z,ghost,clarification|editorial|topic: popover,1

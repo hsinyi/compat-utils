@@ -1,6 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3618265040,false,Editorial: Replace numeric character references with Unicode characters,https://github.com/whatwg/html/pull/11907,2025-11-12T21:17:12Z,2025-11-13T04:46:57Z,saikirankanakala,,0
-3604298847,false,[DRAFT] Upstream the Scroll To Text Fragment specification,https://github.com/whatwg/html/pull/11895,2025-11-09T01:41:40Z,2025-11-09T15:17:37Z,domfarolino,,0
+3624838305,false,Editorial: fix accidental links to the URL concept,https://github.com/whatwg/html/pull/11916,2025-11-14T09:48:08Z,2025-11-14T09:48:08Z,foolip,,0
+3624812231,false,Editorial: wrap asserts in <span>,https://github.com/whatwg/html/pull/11915,2025-11-14T09:41:09Z,2025-11-14T09:50:43Z,foolip,,0
+3624113595,false,Make initialize() upgrade and fix upgrade(),https://github.com/whatwg/html/pull/11913,2025-11-14T06:25:58Z,2025-11-14T06:27:46Z,annevk,topic: custom elements,0
+3618265040,false,Editorial: Replace numeric character references with Unicode characters,https://github.com/whatwg/html/pull/11907,2025-11-12T21:17:12Z,2025-11-14T09:54:35Z,saikirankanakala,,0
+3604298847,false,[DRAFT] Upstream the Scroll To Text Fragment specification,https://github.com/whatwg/html/pull/11895,2025-11-09T01:41:40Z,2025-11-14T05:34:45Z,domfarolino,,0
 3597884153,false,Build list of selectedcontent elements to clear,https://github.com/whatwg/html/pull/11891,2025-11-06T22:24:57Z,2025-11-12T06:55:58Z,josepharhar,,0
 3596273653,false,Update selectedcontent in selectedness setting,https://github.com/whatwg/html/pull/11890,2025-11-06T15:17:42Z,2025-11-06T22:29:42Z,josepharhar,,0
 3592127065,false,Editorial: link directly to a Trusted Types algorithm (not section),https://github.com/whatwg/html/pull/11888,2025-11-05T17:34:44Z,2025-11-05T17:36:30Z,foolip,,0
@@ -18,7 +21,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3556983944,true,"Navigation ""commit"": only set interception state if it was not ""none""",https://github.com/whatwg/html/pull/11836,2025-10-27T14:09:07Z,2025-10-31T13:11:37Z,noamr,,0
 3555120979,true,Update README.md,https://github.com/whatwg/html/pull/11834,2025-10-27T05:30:29Z,2025-10-27T07:29:14Z,JANHAVI0831,invalid,0
 3544339019,true,Add two doctype public IDs that enable XHTML entities,https://github.com/whatwg/html/pull/11823,2025-10-23T11:46:49Z,2025-10-23T16:02:01Z,zcorpan,topic: parser,0
-3541261538,false,Add <template contentmethod> for declarative out-of-order streaming,https://github.com/whatwg/html/pull/11818,2025-10-22T15:04:53Z,2025-11-11T21:04:06Z,foolip,topic: parser,0
+3541261538,false,Add <template contentmethod> for declarative out-of-order streaming,https://github.com/whatwg/html/pull/11818,2025-10-22T15:04:53Z,2025-11-14T10:19:52Z,foolip,topic: parser,0
 3537803331,true,Bring back promoting ongoing API method tracker,https://github.com/whatwg/html/pull/11817,2025-10-21T18:58:06Z,2025-10-22T12:22:52Z,noamr,,0
 3536313338,false,Don't queue a microtask from parallel in update the image data,https://github.com/whatwg/html/pull/11815,2025-10-21T12:25:08Z,2025-10-22T12:45:10Z,zcorpan,,0
 3526583838,false,Fix base appearance select styles,https://github.com/whatwg/html/pull/11805,2025-10-17T15:27:43Z,2025-10-31T13:12:52Z,josepharhar,,0
@@ -1430,7 +1433,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1024385382,true,"Fix missing step in ""update the current document readiness""",https://github.com/whatwg/html/pull/7208,2021-10-12T20:59:33Z,2021-10-13T06:59:42Z,domenic,,0
 1023929064,false,Use the real tokenizer and tree builder for meta scan,https://github.com/whatwg/html/pull/7205,2021-10-12T15:02:21Z,2025-09-26T11:59:20Z,hsivonen,,0
 1023718639,true,Meta: add element attribute to h1-h6,https://github.com/whatwg/html/pull/7204,2021-10-12T11:40:52Z,2021-10-12T14:58:25Z,annevk,,0
-1023575692,false,Disable meta refresh when scripting is disabled,https://github.com/whatwg/html/pull/7203,2021-10-12T09:21:03Z,2023-11-14T08:05:50Z,beaufortfrancois,addition/proposal|needs implementer interest,0
+1023575692,true,Disable meta refresh when scripting is disabled,https://github.com/whatwg/html/pull/7203,2021-10-12T09:21:03Z,2025-11-14T06:14:41Z,beaufortfrancois,addition/proposal|needs implementer interest,0
 1023510566,true,Advance the position after the equals sign in bogo XML decl parsing,https://github.com/whatwg/html/pull/7202,2021-10-12T08:19:43Z,2021-10-12T08:46:51Z,hsivonen,topic: parser,1
 1023116516,true,Note manifest should always be fetched for installed web app,https://github.com/whatwg/html/pull/7200,2021-10-11T21:09:01Z,2021-10-26T20:19:21Z,philloooo,,0
 1022787210,true,docs: tweak spelling from “bread-crumb” to “breadcrumb” (update),https://github.com/whatwg/html/pull/7198,2021-10-11T14:40:14Z,2021-10-12T07:04:50Z,j9t,,0
