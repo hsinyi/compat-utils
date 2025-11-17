@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3632147659,false,Extending `details[name]` grouping to handle sets that expand and collapse together,https://github.com/whatwg/html/issues/11920,2025-11-17T07:52:32Z,2025-11-17T07:52:32Z,nektro,addition/proposal|needs implementer interest,0
 3631215200,false,[import maps] Ability to re-write more dynamically (globs?),https://github.com/whatwg/html/issues/11919,2025-11-16T22:32:07Z,2025-11-16T22:35:13Z,trusktr,,0
 3630571148,false,"The note in ""upgrade an element"" for step 9.3 seems meaningless",https://github.com/whatwg/html/issues/11918,2025-11-16T13:40:55Z,2025-11-16T13:40:55Z,dSalieri,,0
 3624592567,false,"Generalize custom element upgrade concept by allowing `customElements.define(name, Subclass)`",https://github.com/whatwg/html/issues/11914,2025-11-14T08:39:39Z,2025-11-14T08:54:22Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,0
@@ -129,7 +130,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3448317187,true,"""expected native appearance"" is confusing given the definition of ""expected""",https://github.com/whatwg/html/issues/11689,2025-09-24T08:26:26Z,2025-09-25T14:23:03Z,zcorpan,clarification|topic: rendering,0
 3445916090,false,Browsers don't agree with the incumbent settings handling for Promise reactions,https://github.com/whatwg/html/issues/11686,2025-09-23T16:17:54Z,2025-09-24T04:07:24Z,arai-a,normative change|topic: multiple globals,0
 3431044728,true,Meeting 29 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11670,2025-09-18T16:07:45Z,2025-10-02T16:38:32Z,mfreed7,,0
-3426719783,false,Coherent story for HTML-setting methods,https://github.com/whatwg/html/issues/11669,2025-09-17T15:08:01Z,2025-11-16T02:48:21Z,noamr,topic: parser,0
+3426719783,false,Coherent story for HTML-setting methods,https://github.com/whatwg/html/issues/11669,2025-09-17T15:08:01Z,2025-11-17T08:29:03Z,noamr,topic: parser,0
 3421532251,false,"Allow out-of-band text tracks to source kind, label, language from the text track format",https://github.com/whatwg/html/issues/11665,2025-09-16T10:17:26Z,2025-09-16T10:17:55Z,zcorpan,addition/proposal|topic: media,2
 3419489827,true,Upcoming WHATNOT meeting on 2025-09-18,https://github.com/whatwg/html/issues/11664,2025-09-15T20:56:20Z,2025-09-24T20:04:09Z,cwilso,,0
 3419256239,true,Closing Tag Option,https://github.com/whatwg/html/issues/11663,2025-09-15T19:39:38Z,2025-09-16T06:05:14Z,iwelch,addition/proposal|needs implementer interest,0
@@ -3537,7 +3538,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 357490424,false,Should XHR etc. still fire events after its document has gone inactive?,https://github.com/whatwg/html/issues/4007,2018-09-06T04:16:32Z,2018-09-07T14:16:46Z,TimothyGu,topic: fetch|topic: document lifecycle,0
 357460068,true,"""Hexademical character reference start state""",https://github.com/whatwg/html/issues/4006,2018-09-06T01:18:36Z,2018-09-10T12:32:01Z,stevecheckoway,good first issue|topic: parser,0
 357331672,false,WindowProxy exposes cross-origin side channel,https://github.com/whatwg/html/issues/4005,2018-09-05T17:35:35Z,2018-09-06T14:48:10Z,jakemco,security/privacy|topic: multiple globals,0
-357287740,false,The <video> poster attribute should accept multiple sources,https://github.com/whatwg/html/issues/4004,2018-09-05T15:37:34Z,2024-05-30T15:29:57Z,benwiley4000,addition/proposal|topic: media,12
+357287740,false,The <video> poster attribute should accept multiple sources,https://github.com/whatwg/html/issues/4004,2018-09-05T15:37:34Z,2024-05-30T15:29:57Z,benwiley4000,addition/proposal|topic: media,13
 357276278,false,meta refresh waiting is broken,https://github.com/whatwg/html/issues/4003,2018-09-05T15:11:39Z,2018-09-05T15:11:39Z,TimothyGu,topic: navigation,0
 356971691,false,Consider a blocklist for schemes instead of a safelist,https://github.com/whatwg/html/issues/3998,2018-09-04T20:52:06Z,2024-07-29T18:16:15Z,asankah,addition/proposal|topic: custom protocols,2
 356945492,false,Chrome/Safari handles bareword calls to Window methods differently than Firefox,https://github.com/whatwg/html/issues/3997,2018-09-04T19:29:56Z,2018-09-07T14:41:18Z,TimothyGu,topic: multiple globals|interop,0
@@ -5446,7 +5447,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 116572648,true,"""Let target be the MessagePort in whose port message queue the event e now finds itself."" doesn't make sense",https://github.com/whatwg/html/issues/333,2015-11-12T15:30:18Z,2017-09-29T11:28:42Z,smaug----,topic: serialize and transfer,0
 116564125,false,"about:blank gets to inherit cookies, too",https://github.com/whatwg/html/issues/332,2015-11-12T14:52:11Z,2021-01-04T06:37:30Z,annevk,topic: navigation|topic: cookie,0
 116551932,true,Remove `<iframe seamless>`,https://github.com/whatwg/html/issues/331,2015-11-12T13:49:13Z,2024-08-15T02:54:05Z,annevk,removal/deprecation,3
-116513989,false,Expose API for the progress indicator,https://github.com/whatwg/html/issues/330,2015-11-12T09:45:31Z,2018-04-03T07:18:30Z,annevk,addition/proposal|needs implementer interest|needs concrete proposal,27
+116513989,false,Expose API for the progress indicator,https://github.com/whatwg/html/issues/330,2015-11-12T09:45:31Z,2018-04-03T07:18:30Z,annevk,addition/proposal|needs implementer interest|needs concrete proposal,28
 116405258,true,"""Returns the item with ID or name name from the ...""",https://github.com/whatwg/html/issues/328,2015-11-11T19:32:21Z,2015-11-12T18:05:50Z,keith-rollin,,0
 116135152,true,"""If the character reference is being consumed as...""",https://github.com/whatwg/html/issues/326,2015-11-10T15:54:07Z,2016-05-19T22:04:05Z,zcorpan,document conformance|topic: parser,1
 115885323,true,Legacy named character references are missing,https://github.com/whatwg/html/issues/324,2015-11-09T14:16:23Z,2015-11-10T07:36:34Z,abacabadabacaba,spec tooling,0
