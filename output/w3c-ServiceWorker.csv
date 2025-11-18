@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3632295785,false,Problem with spec-prod/gh-pages mismatch,https://github.com/w3c/ServiceWorker/issues/1806,2025-11-17T08:37:50Z,2025-11-17T08:37:50Z,dontcallmedom,,0
+3632295785,false,Problem with spec-prod/gh-pages mismatch,https://github.com/w3c/ServiceWorker/issues/1806,2025-11-17T08:37:50Z,2025-11-17T18:14:21Z,dontcallmedom,,0
 3599881413,false,Preserve sec-fetch-dest for passed navigate requests,https://github.com/w3c/ServiceWorker/issues/1803,2025-11-07T11:21:23Z,2025-11-07T14:57:03Z,ErikWitt,,9
 3581307823,true,Broken links in Service Workers Nightly,https://github.com/w3c/ServiceWorker/issues/1801,2025-11-03T09:47:08Z,2025-11-03T23:14:25Z,dontcallmedom-bot,,0
 3572200742,true,E,https://github.com/w3c/ServiceWorker/issues/1800,2025-10-30T19:29:21Z,2025-10-30T23:26:31Z,Relaxx422,invalid,0
@@ -743,7 +743,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 114505718,true,Complicated sentence is complicated,https://github.com/w3c/ServiceWorker/issues/773,2015-11-02T00:56:44Z,2015-11-03T01:46:45Z,marcoscaceres,,0
 114505680,true,Add SW to the spec,https://github.com/w3c/ServiceWorker/issues/772,2015-11-02T00:55:59Z,2025-09-25T23:51:02Z,marcoscaceres,,0
 113764338,true,"Allow waitUntil to be called multiple times, async",https://github.com/w3c/ServiceWorker/issues/771,2015-10-28T08:08:22Z,2016-11-21T16:18:51Z,jakearchibald,decided,0
-113762437,false,registration.ready promise,https://github.com/w3c/ServiceWorker/issues/770,2015-10-28T07:53:49Z,2025-09-25T23:45:29Z,jakearchibald,apr-2017-f2f|TPAC2025,0
+113762437,false,registration.ready promise,https://github.com/w3c/ServiceWorker/issues/770,2015-10-28T07:53:49Z,2025-11-17T18:49:17Z,jakearchibald,apr-2017-f2f|TPAC2025,0
 113434486,true,"ServiceWorkerContainer.controller prose says to return undefined, but the IDL doesn't allow that",https://github.com/w3c/ServiceWorker/issues/769,2015-10-26T19:36:36Z,2016-04-25T06:18:49Z,bzbarsky,spec detail|decided,0
 113434241,true,Is ServiceWorkerContainer.controller really [SameObject]?,https://github.com/w3c/ServiceWorker/issues/768,2015-10-26T19:35:13Z,2015-10-28T02:14:09Z,bzbarsky,,0
 113431430,true,Are the members of ServiceWorkerRegistration really [SameObject]?,https://github.com/w3c/ServiceWorker/issues/767,2015-10-26T19:21:01Z,2015-10-28T02:12:35Z,bzbarsky,,0
@@ -795,7 +795,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 90331416,true,UA shouldn't be required to invoke Soft Update on every navigation,https://github.com/w3c/ServiceWorker/issues/715,2015-06-23T09:10:29Z,2015-11-04T07:37:13Z,mfalken,question|lifecycle,0
 89084109,true,Support restarting download when storing large resources in Cache,https://github.com/w3c/ServiceWorker/issues/713,2015-06-17T18:01:30Z,2017-11-03T17:52:43Z,wanderview,,0
 88567609,true,Service worker not receiving fetch events from iframe with Blob URL source.,https://github.com/w3c/ServiceWorker/issues/712,2015-06-15T23:33:01Z,2015-10-28T09:24:32Z,noah-freitas,,0
-88391334,false,Add name param to Clients.openWindow() method,https://github.com/w3c/ServiceWorker/issues/711,2015-06-15T11:06:31Z,2025-11-07T17:12:26Z,acperez,TPAC2025,0
+88391334,false,Add name param to Clients.openWindow() method,https://github.com/w3c/ServiceWorker/issues/711,2015-06-15T11:06:31Z,2025-11-17T23:59:25Z,acperez,TPAC2025,0
 87172515,true,spec should be more explicit about accessing internal body on opaque Responses,https://github.com/w3c/ServiceWorker/issues/710,2015-06-11T01:49:40Z,2016-12-21T16:17:53Z,wanderview,decided,0
 86978863,true,Limit Cache API to HTTPS,https://github.com/w3c/ServiceWorker/issues/709,2015-06-10T13:52:31Z,2015-08-10T18:58:02Z,annevk,needs spec|cache,0
 86384003,true,Add cookie accessor/setter methods?,https://github.com/w3c/ServiceWorker/issues/707,2015-06-09T00:25:26Z,2024-04-16T13:27:26Z,slightlyoff,apr-2017-f2f,13
@@ -859,7 +859,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 60301638,true,openWindow(url)'s same origin check should be done against the origin of the final response's url?,https://github.com/w3c/ServiceWorker/issues/646,2015-03-09T05:47:02Z,2015-08-11T09:27:55Z,jungkees,,0
 60086353,true,FetchEvent not defined,https://github.com/w3c/ServiceWorker/issues/645,2015-03-06T10:46:47Z,2015-03-11T06:57:02Z,annevk,,0
 59908760,true,Optimization opportunity for SW (Should sync/push event target a specific server?),https://github.com/w3c/ServiceWorker/issues/644,2015-03-05T05:51:20Z,2025-09-17T11:30:15Z,KenjiBaheux,enhancement|question,0
-59450980,false,Expose environment ids?,https://github.com/w3c/ServiceWorker/issues/643,2015-03-02T08:21:41Z,2025-09-24T06:08:46Z,annevk,TPAC2025,0
+59450980,false,Expose environment ids?,https://github.com/w3c/ServiceWorker/issues/643,2015-03-02T08:21:41Z,2025-11-17T22:39:33Z,annevk,TPAC2025,0
 59200092,true,importScripts() should throw?,https://github.com/w3c/ServiceWorker/issues/642,2015-02-27T07:25:41Z,2015-09-08T00:54:51Z,annevk,,0
 59061101,true,client.focus() should reject if tab failed to focus,https://github.com/w3c/ServiceWorker/issues/640,2015-02-26T11:51:03Z,2015-04-23T03:49:59Z,jakearchibald,needs spec,0
 58970262,true,Byte by byte match does not capture developer friendly behaviour,https://github.com/w3c/ServiceWorker/issues/639,2015-02-25T21:09:41Z,2016-07-15T16:01:26Z,nikhilm,,0

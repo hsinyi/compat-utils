@@ -557,6 +557,7 @@ api/CSSCounterStyleRule/speakAs,,33,,91,,17,,false,true,false,https://drafts.css
 api/CSSCounterStyleRule/suffix,,33,,91,,17,,false,true,false,https://drafts.csswg.org/css-counter-styles/#dom-csscounterstylerule-suffix,W3C
 api/CSSCounterStyleRule/symbols,,33,,91,,17,,false,true,false,https://drafts.csswg.org/css-counter-styles/#dom-csscounterstylerule-symbols,W3C
 api/CSSCounterStyleRule/system,,33,,91,,17,,false,true,false,https://drafts.csswg.org/css-counter-styles/#dom-csscounterstylerule-system,W3C
+api/CSSCustomMediaRule,,146,"[{""name"":""layout.css.custom-media.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://drafts.csswg.org/mediaqueries-5/#csscustommediarule,W3C
 api/CSSFontFaceDescriptors,,,,,,26,,true,true,false,https://drafts.csswg.org/css-fonts/#om-fontface,W3C
 api/CSSFontFaceDescriptors/font-display,,,,,,26,,true,true,false,https://drafts.csswg.org/css-fonts/#dom-cssfontfacedescriptors-font-display,W3C
 api/CSSFontFaceDescriptors/font-family,,,,,,26,,true,true,false,https://drafts.csswg.org/css-fonts/#dom-cssfontfacedescriptors-font-family,W3C
@@ -11547,6 +11548,7 @@ css/properties/justify-content/right,,20,,21,,7,,false,true,false,,NONE
 css/properties/justify-items,,20,,52,,9,,false,true,false,https://drafts.csswg.org/css-align/#justify-items-property,W3C
 css/properties/justify-items/anchor-center,,,,125,,26,,false,true,false,https://drafts.csswg.org/css-anchor-position-1/#anchor-center,W3C
 css/properties/justify-items/block_context,,,,130,,,,true,true,false,https://drafts.csswg.org/css-align/#justify-items-property,W3C
+css/properties/justify-items/center,,20,,52,,9,,false,true,false,,NONE
 css/properties/justify-items/flex_context,,20,,52,,9,,false,true,false,https://drafts.csswg.org/css-align/#justify-items-property,W3C
 css/properties/justify-items/grid_context,,45,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-align/#justify-items-property,W3C
 css/properties/justify-items/left,,20,,52,,9,,false,true,false,,NONE
@@ -14243,7 +14245,7 @@ http/headers/Content-Security-Policy/prefetch-src,,,,,,16.3,,false,false,true,,N
 http/headers/Content-Security-Policy/report-sample,,63,,59,,15.4,,false,true,false,,NONE
 http/headers/Content-Security-Policy/report-to,,130,"[{""name"":""dom.reporting.enabled"",""type"":""preference"",""value_to_set"":""true""}]",70,,16.4,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-report-to,W3C
 http/headers/Content-Security-Policy/report-uri,,23,,25,,7,,false,true,true,https://w3c.github.io/webappsec-csp/#directive-report-uri,W3C
-http/headers/Content-Security-Policy/require-trusted-types-for,,145,,83,,26,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#require-trusted-types-for-csp-directive,W3C
+http/headers/Content-Security-Policy/require-trusted-types-for,,preview,,83,,26,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#require-trusted-types-for-csp-directive,W3C
 http/headers/Content-Security-Policy/sandbox,,50,,25,,7,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-sandbox,W3C
 http/headers/Content-Security-Policy/script-src,,23,,25,,7,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-script-src,W3C
 http/headers/Content-Security-Policy/script-src/external_scripts,,116,,59,,15.6,,false,true,false,https://w3c.github.io/webappsec-csp/#external-hash,W3C
@@ -14620,7 +14622,7 @@ javascript/builtins/Atomics/pause,,137,,133,,18.4,,false,true,false,https://tc39
 javascript/builtins/Atomics/store,,78,,68,,15.2,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.store,TC39
 javascript/builtins/Atomics/sub,,78,,68,,15.2,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.sub,TC39
 javascript/builtins/Atomics/wait,,78,,68,,15.2,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.wait,TC39
-javascript/builtins/Atomics/waitAsync,,145,,87,,16.4,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.waitasync,TC39
+javascript/builtins/Atomics/waitAsync,,145,,90,,16.4,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.waitasync,TC39
 javascript/builtins/Atomics/xor,,78,,68,,15.2,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-atomics.xor,TC39
 javascript/builtins/BigInt,,68,,67,,14,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-bigint-objects,TC39
 javascript/builtins/BigInt/BigInt,,68,,67,,14,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-bigint-constructor,TC39
