@@ -2,22 +2,22 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3637362644,false,Address review feedback on language override of navigator.language/s.,https://github.com/whatwg/html/pull/11922,2025-11-18T10:30:30Z,2025-11-18T10:40:35Z,lutien,,0
 3628905706,false,Editorial: clarify meaning of iframe allow attribute,https://github.com/whatwg/html/pull/11917,2025-11-15T16:18:10Z,2025-11-18T07:06:09Z,vardhan30016,,0
 3624838305,false,Editorial: fix accidental links to the URL concept,https://github.com/whatwg/html/pull/11916,2025-11-14T09:48:08Z,2025-11-18T07:14:11Z,foolip,,0
-3624812231,false,Editorial: wrap asserts in <span>,https://github.com/whatwg/html/pull/11915,2025-11-14T09:41:09Z,2025-11-14T09:50:43Z,foolip,,0
+3624812231,true,Editorial: wrap asserts in <span>,https://github.com/whatwg/html/pull/11915,2025-11-14T09:41:09Z,2025-11-19T07:51:36Z,foolip,,0
 3624113595,false,Make initialize() upgrade and fix upgrade(),https://github.com/whatwg/html/pull/11913,2025-11-14T06:25:58Z,2025-11-18T14:56:34Z,annevk,topic: custom elements,0
 3618265040,true,Editorial: Replace numeric character references with Unicode characters,https://github.com/whatwg/html/pull/11907,2025-11-12T21:17:12Z,2025-11-14T14:36:44Z,saikirankanakala,invalid,0
-3604298847,false,[DRAFT] Upstream the Scroll To Text Fragment specification,https://github.com/whatwg/html/pull/11895,2025-11-09T01:41:40Z,2025-11-14T05:34:45Z,domfarolino,,0
+3604298847,false,[DRAFT] Upstream the Scroll To Text Fragment specification,https://github.com/whatwg/html/pull/11895,2025-11-09T01:41:40Z,2025-11-19T09:29:56Z,domfarolino,,0
 3597884153,false,Build list of selectedcontent elements to clear,https://github.com/whatwg/html/pull/11891,2025-11-06T22:24:57Z,2025-11-12T06:55:58Z,josepharhar,,0
 3596273653,false,Update selectedcontent in selectedness setting,https://github.com/whatwg/html/pull/11890,2025-11-06T15:17:42Z,2025-11-06T22:29:42Z,josepharhar,,0
 3592127065,false,Editorial: link directly to a Trusted Types algorithm (not section),https://github.com/whatwg/html/pull/11888,2025-11-05T17:34:44Z,2025-11-05T17:36:30Z,foolip,,0
 3590044971,false,"Snapshot the margin* attributes on frame/iframe at document creation ",https://github.com/whatwg/html/pull/11887,2025-11-05T09:17:21Z,2025-11-12T02:58:41Z,zcorpan,,0
-3587781461,false,Drop some unhelpful non-normative text about “b” element usage,https://github.com/whatwg/html/pull/11885,2025-11-04T18:32:55Z,2025-11-05T13:39:30Z,sideshowbarker,document conformance,0
-3586374333,false,"[WebDriver BiDi] respect ""WebDriver BiDi scripting is enabled""",https://github.com/whatwg/html/pull/11884,2025-11-04T12:29:47Z,2025-11-14T14:32:37Z,sadym-chromium,,0
+3587781461,true,Drop some unhelpful non-normative text about “b” element usage,https://github.com/whatwg/html/pull/11885,2025-11-04T18:32:55Z,2025-11-19T11:18:03Z,sideshowbarker,document conformance,0
+3586374333,false,"[WebDriver BiDi] respect ""WebDriver BiDi scripting is enabled""",https://github.com/whatwg/html/pull/11884,2025-11-04T12:29:47Z,2025-11-19T11:21:51Z,sadym-chromium,,0
 3586259344,false,Make topmargin and leftmargin attributes apply to both sides,https://github.com/whatwg/html/pull/11881,2025-11-04T11:57:15Z,2025-11-05T09:06:11Z,zcorpan,,0
 3585140699,false,selectedcontent post-connection steps did not break out of the loop,https://github.com/whatwg/html/pull/11878,2025-11-04T07:46:09Z,2025-11-07T10:10:37Z,annevk,,0
 3585120442,true,Editorial: fix references to shadowroot serializable,https://github.com/whatwg/html/pull/11877,2025-11-04T07:38:28Z,2025-11-04T10:59:00Z,Jamesernator,,1
 3580907886,true,Correct contexts where <p> can be used,https://github.com/whatwg/html/pull/11870,2025-11-03T07:31:56Z,2025-11-03T09:10:22Z,annevk,,0
 3580304397,false,Add link to build instructions in README,https://github.com/whatwg/html/pull/11868,2025-11-03T02:12:00Z,2025-11-03T07:58:21Z,2400030303,,0
-3565158334,false,[Origin API] Define an `Origin` interface. (#11534),https://github.com/whatwg/html/pull/11846,2025-10-29T09:48:39Z,2025-11-07T10:55:54Z,mikewest,topic: origin,0
+3565158334,false,[Origin API] Define an `Origin` interface. (#11534),https://github.com/whatwg/html/pull/11846,2025-10-29T09:48:39Z,2025-11-19T09:42:25Z,mikewest,topic: origin,0
 3562694410,true,Resolve `navigation.transition.committed` after `navigate().committed`,https://github.com/whatwg/html/pull/11843,2025-10-28T17:46:46Z,2025-10-28T21:08:46Z,noamr,,0
 3557048968,true,Editorial: Fix markup + wording,https://github.com/whatwg/html/pull/11837,2025-10-27T14:23:27Z,2025-10-29T13:18:31Z,jmdyck,editorial,0
 3556983944,true,"Navigation ""commit"": only set interception state if it was not ""none""",https://github.com/whatwg/html/pull/11836,2025-10-27T14:09:07Z,2025-10-31T13:11:37Z,noamr,,0
@@ -112,7 +112,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3331131522,true,[WebDriver BiDi] emulate network offline,https://github.com/whatwg/html/pull/11575,2025-08-18T15:16:42Z,2025-10-10T16:20:36Z,sadym-chromium,,0
 3327499382,true,mudei cord,https://github.com/whatwg/html/pull/11568,2025-08-16T18:00:25Z,2025-08-16T19:55:40Z,NicolasGimenezAlcalde,invalid,0
 3323021317,false,Remove mentions of XSLT from the HTML spec,https://github.com/whatwg/html/pull/11563,2025-08-14T17:27:01Z,2025-10-23T15:20:35Z,mfreed7,removal/deprecation,78
-3321823554,false,Redact ancestorOrigins using referrer policy,https://github.com/whatwg/html/pull/11560,2025-08-14T11:10:20Z,2025-11-18T12:39:05Z,zcorpan,,0
+3321823554,false,Redact ancestorOrigins using referrer policy,https://github.com/whatwg/html/pull/11560,2025-08-14T11:10:20Z,2025-11-19T11:46:47Z,zcorpan,,0
 3314237971,true,Remove rowspan=0 quirk,https://github.com/whatwg/html/pull/11551,2025-08-12T13:20:05Z,2025-08-14T07:16:55Z,zcorpan,,0
 3300979591,true,Remove connectedness check in script post-connection steps,https://github.com/whatwg/html/pull/11543,2025-08-07T15:31:03Z,2025-09-12T01:53:30Z,domfarolino,topic: script,0
 3297579358,false,"Move `has cross-site ancestor` to the environment, from the ESO",https://github.com/whatwg/html/pull/11540,2025-08-06T18:03:22Z,2025-10-15T16:05:54Z,bvandersloot-mozilla,,0
@@ -153,7 +153,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3229465049,true,Introduce attribute reflection extended attributes,https://github.com/whatwg/html/pull/11450,2025-07-14T17:19:54Z,2025-07-30T12:35:57Z,lukewarlow,,0
 3222567446,true,Editorial: add popover=hint in attribute summary table,https://github.com/whatwg/html/pull/11446,2025-07-11T11:29:54Z,2025-07-12T06:39:19Z,foolip,,0
 3214658625,true,Revamp base URL change processing,https://github.com/whatwg/html/pull/11442,2025-07-09T06:21:00Z,2025-07-23T02:09:39Z,domenic,,0
-3211267153,false,[WebDriver BiDi] enable and disable scripting via BiDi,https://github.com/whatwg/html/pull/11441,2025-07-08T06:49:51Z,2025-11-04T12:31:57Z,sadym-chromium,topic: script|integration,0
+3211267153,false,[WebDriver BiDi] enable and disable scripting via BiDi,https://github.com/whatwg/html/pull/11441,2025-07-08T06:49:51Z,2025-11-19T09:52:32Z,sadym-chromium,topic: script|integration,0
 3210964890,true,Update QuotaExceededError usage,https://github.com/whatwg/html/pull/11440,2025-07-08T04:21:36Z,2025-09-13T00:37:07Z,domenic,,0
 3206351338,true,Meta: add for attribute in element-attr dfns,https://github.com/whatwg/html/pull/11434,2025-07-06T09:56:38Z,2025-07-08T18:40:17Z,arHSM,,0
 3204875494,true,Editorial: make references to No Popover state consistent,https://github.com/whatwg/html/pull/11433,2025-07-05T12:23:23Z,2025-07-07T01:55:38Z,foolip,,0
