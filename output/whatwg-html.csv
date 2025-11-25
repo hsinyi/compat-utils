@@ -1,9 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3657641889,false,"""Policy container"" is defined multiple times.",https://github.com/whatwg/html/issues/11944,2025-11-24T08:17:59Z,2025-11-24T08:19:49Z,mikewest,meta,0
+3659691212,false,"""Appropriate place for inserting a node"" refers to elements, but may include DocumentFragments",https://github.com/whatwg/html/issues/11951,2025-11-24T16:43:57Z,2025-11-24T16:43:57Z,AtkinsSJ,,0
+3659093021,true,Rejected promises are unhandled in #commit-a-navigate-event,https://github.com/whatwg/html/issues/11948,2025-11-24T14:12:07Z,2025-11-24T15:56:25Z,farre,topic: navigation,0
+3658879252,false,Declarative attach shadow uses host's registry instead of host's node document's registry,https://github.com/whatwg/html/issues/11947,2025-11-24T13:21:00Z,2025-11-24T13:22:22Z,annevk,normative change|topic: shadow|topic: custom elements,1
+3657641889,true,"""Policy container"" is defined multiple times.",https://github.com/whatwg/html/issues/11944,2025-11-24T08:17:59Z,2025-11-24T15:44:42Z,mikewest,meta,0
 3655151429,false,Navigation API: Navigation History Entry url getter - bug in spec or tests?,https://github.com/whatwg/html/issues/11941,2025-11-22T22:45:57Z,2025-11-23T09:54:16Z,theIDinside,topic: navigation,0
 3652508538,false,"2D canvas should internally hold a CSS color space, not an enum value",https://github.com/whatwg/html/issues/11939,2025-11-21T17:26:44Z,2025-11-24T06:30:47Z,ccameron-chromium,clarification|topic: canvas,0
 3652485079,false,(scroll-to-text) fragmentDirectives should be allowed to be unique,https://github.com/whatwg/html/issues/11938,2025-11-21T17:17:37Z,2025-11-24T07:49:32Z,vmpstr,topic: navigation,0
-3650494206,false,Incorporate SVG `a` element in the processing model and algorithms of HTML `a` element,https://github.com/whatwg/html/issues/11936,2025-11-21T07:03:55Z,2025-11-24T12:10:27Z,goldenboy777,needs tests|integration|needs concrete proposal|topic: svg,0
+3650494206,false,Incorporate SVG `a` element in the processing model and algorithms of HTML `a` element,https://github.com/whatwg/html/issues/11936,2025-11-21T07:03:55Z,2025-11-24T17:39:22Z,goldenboy777,needs tests|integration|needs concrete proposal|topic: svg,0
 3648584316,false,Optional destination size for `HTMLImageElement.decode()`,https://github.com/whatwg/html/issues/11935,2025-11-20T18:42:01Z,2025-11-21T08:03:53Z,shallawa,addition/proposal|needs implementer interest|topic: img,0
 3648131740,false,Please qualify your various comments on paragraphs,https://github.com/whatwg/html/issues/11934,2025-11-20T16:46:13Z,2025-11-21T18:34:21Z,mbgower,accessibility,0
 3643528484,false,External resources don't have a fallback mechanism,https://github.com/whatwg/html/issues/11928,2025-11-19T16:32:01Z,2025-11-20T09:27:43Z,romainmenke,addition/proposal|needs implementer interest,0
@@ -26,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3605102326,false,"Disallowed characters for `<input type=""number"">` on desktop",https://github.com/whatwg/html/issues/11896,2025-11-09T15:07:47Z,2025-11-19T15:56:09Z,o-t-w,addition/proposal|needs implementer interest|topic: forms,0
 3600141291,false,Nuance of the first sentence of 6.8.6 Writing suggestions,https://github.com/whatwg/html/issues/11894,2025-11-07T12:32:37Z,2025-11-07T22:18:21Z,mtrootyy,,0
 3599238283,false,Ambiguity with notating commands,https://github.com/whatwg/html/issues/11893,2025-11-07T08:22:41Z,2025-11-07T08:22:41Z,Winterhuman,,0
-3599137525,false,serialization of shadowrootcustomelementregistry should compare to document's registry not the host's,https://github.com/whatwg/html/issues/11892,2025-11-07T07:45:14Z,2025-11-21T15:59:11Z,Jamesernator,topic: shadow|topic: custom elements,0
+3599137525,false,serialization of shadowrootcustomelementregistry should compare to document's registry not the host's,https://github.com/whatwg/html/issues/11892,2025-11-07T07:45:14Z,2025-11-24T13:21:49Z,Jamesernator,topic: shadow|topic: custom elements,0
 3592598494,false,Meeting 32 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11889,2025-11-05T20:04:08Z,2025-11-05T20:04:08Z,mfreed7,,0
 3588364287,false,Changing of the focus chain algorithm,https://github.com/whatwg/html/issues/11886,2025-11-04T22:49:19Z,2025-11-04T22:49:19Z,dSalieri,,0
 3586308620,false,<form>.reset() does not reset <selectedcontent>,https://github.com/whatwg/html/issues/11883,2025-11-04T12:13:04Z,2025-11-06T22:27:49Z,annevk,topic: select,0
@@ -71,7 +74,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3541597104,false,Re-importing a module with an invalid dependency specifier,https://github.com/whatwg/html/issues/11820,2025-10-22T16:47:29Z,2025-10-24T15:22:28Z,nicolo-ribaudo,topic: script,0
 3541502820,false,Allow deferring commit of a same-origin cross-document navigation,https://github.com/whatwg/html/issues/11819,2025-10-22T16:14:16Z,2025-11-18T18:53:08Z,noamr,addition/proposal|needs implementer interest|stage: 1,0
 3537533487,true,Navigation API: Remove `ongoing API method tracker` or set it again,https://github.com/whatwg/html/issues/11816,2025-10-21T17:34:41Z,2025-10-22T12:22:53Z,jnjaeschke,,0
-3536147571,false,No implementation calls #resume-applying-the-traverse-history-step entirely async,https://github.com/whatwg/html/issues/11814,2025-10-21T11:38:26Z,2025-11-13T16:59:09Z,farre,compat|topic: navigation,0
+3536147571,false,No implementation calls #resume-applying-the-traverse-history-step entirely async,https://github.com/whatwg/html/issues/11814,2025-10-21T11:38:26Z,2025-11-24T15:02:18Z,farre,compat|topic: navigation,0
 3534577511,false,Stylesheet link response processing rules for content-type contradict rules for processing the type attribute,https://github.com/whatwg/html/issues/11813,2025-10-21T02:19:59Z,2025-11-19T16:15:15Z,jdm,topic: link|topic: style,0
 3534307429,false,"""update the image data"" queues a microtask from ""in parallel""",https://github.com/whatwg/html/issues/11812,2025-10-20T23:39:55Z,2025-10-22T12:44:15Z,jyasskin,topic: img,0
 3533166863,false,A navigation's current entry index can be −1 even when it does not have entries and events disabled,https://github.com/whatwg/html/issues/11811,2025-10-20T16:47:36Z,2025-10-20T16:56:36Z,avandolder,topic: navigation,0
