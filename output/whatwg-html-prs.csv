@@ -1,10 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3664927489,false,Fix argument order in prefetch algorithm,https://github.com/whatwg/html/pull/11961,2025-11-25T23:15:36Z,2025-11-25T23:15:36Z,domfarolino,,0
-3664925691,false,Fix mismatching parenthesis in HostEnqueuePromiseJob(),https://github.com/whatwg/html/pull/11960,2025-11-25T23:14:36Z,2025-11-25T23:14:36Z,domfarolino,,0
+3665740225,false,Editorial: Accommodate changes to InitializeHostDefinedRealm,https://github.com/whatwg/html/pull/11962,2025-11-26T04:47:50Z,2025-11-26T07:44:39Z,jmdyck,,0
+3664927489,true,Fix argument order in prefetch algorithm,https://github.com/whatwg/html/pull/11961,2025-11-25T23:15:36Z,2025-11-26T07:39:20Z,domfarolino,,0
+3664925691,true,Fix mismatching parenthesis in HostEnqueuePromiseJob(),https://github.com/whatwg/html/pull/11960,2025-11-25T23:14:36Z,2025-11-26T07:36:31Z,domfarolino,,0
 3664785623,false,"Set ""is currently stalled"" before firing events",https://github.com/whatwg/html/pull/11959,2025-11-25T22:16:54Z,2025-11-25T22:29:28Z,foolip,,0
 3664001329,false,Update media resource fetch to identify top-level self-fetch for blob URLs,https://github.com/whatwg/html/pull/11957,2025-11-25T17:43:39Z,2025-11-25T20:14:33Z,recvfrom,,0
 3662841679,true,Correct <template>.content getter steps,https://github.com/whatwg/html/pull/11954,2025-11-25T12:18:28Z,2025-11-25T15:29:40Z,annevk,,0
-3662076848,false,Navigation API: Always use a method tracker when navigating,https://github.com/whatwg/html/pull/11952,2025-11-25T08:52:18Z,2025-11-25T21:53:39Z,farre,topic: navigation,0
+3662076848,true,Navigation API: Always use a method tracker when navigating,https://github.com/whatwg/html/pull/11952,2025-11-25T08:52:18Z,2025-11-26T11:33:26Z,farre,topic: navigation,0
 3659192694,true,Adjust custom element registry initialization for declarative shadow trees,https://github.com/whatwg/html/pull/11950,2025-11-24T14:35:26Z,2025-11-25T09:11:12Z,annevk,topic: shadow|topic: custom elements,0
 3659111482,true,[Editorial] Disambiguate two definitions.,https://github.com/whatwg/html/pull/11949,2025-11-24T14:15:55Z,2025-11-24T16:43:41Z,mikewest,,0
 3658867351,true,Adjust shadowrootcustomelementregistry attribute serialization,https://github.com/whatwg/html/pull/11946,2025-11-24T13:17:38Z,2025-11-25T09:13:47Z,annevk,normative change|topic: shadow|topic: custom elements,0
@@ -3234,7 +3235,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 209941739,true,Add note on Shadow DOM behavior about dialog focusing steps.,https://github.com/whatwg/html/pull/2394,2017-02-24T02:19:19Z,2018-06-25T09:55:31Z,TakayoshiKochi,,0
 209766317,true,Correct typo and link in select element,https://github.com/whatwg/html/pull/2389,2017-02-23T13:51:04Z,2017-02-23T16:42:58Z,dakshshah96,,0
 209731209,true,Editorial: fix comment in code example for input.labels,https://github.com/whatwg/html/pull/2387,2017-02-23T11:09:20Z,2017-02-23T11:32:43Z,zcorpan,,0
-209628744,true,Remove appcache from shared workers,https://github.com/whatwg/html/pull/2384,2017-02-23T00:47:41Z,2025-11-25T18:04:20Z,domenic,removal/deprecation|topic: appcache,5
+209628744,true,Remove appcache from shared workers,https://github.com/whatwg/html/pull/2384,2017-02-23T00:47:41Z,2025-11-26T07:32:22Z,domenic,removal/deprecation|topic: appcache,5
 209594447,true,"Add <link> rel=""modulepreload""",https://github.com/whatwg/html/pull/2383,2017-02-22T21:58:44Z,2021-06-15T15:59:56Z,domenic,addition/proposal|topic: script|topic: link,2
 209274274,true,Tweak [CEReactions] definition and usage,https://github.com/whatwg/html/pull/2378,2017-02-21T21:13:25Z,2017-02-22T22:59:55Z,domenic,topic: custom elements,0
 209191487,true,Regression: ASCII lower alpha -> ASCII upper alpha in the parser,https://github.com/whatwg/html/pull/2376,2017-02-21T16:07:23Z,2017-02-21T16:11:42Z,annevk,topic: parser,0

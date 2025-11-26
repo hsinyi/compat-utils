@@ -1,8 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3666215840,false,Editorial: make adopt traverse the tree less,https://github.com/whatwg/dom/pull/1427,2025-11-26T07:25:30Z,2025-11-26T07:25:51Z,annevk,,0
 3662261673,true,Editorial: modernize mutation algorithms,https://github.com/whatwg/dom/pull/1426,2025-11-25T09:44:09Z,2025-11-25T10:07:33Z,annevk,,0
-3645516867,false,Add abortSignal.addAbortCallback,https://github.com/whatwg/dom/pull/1425,2025-11-20T05:22:33Z,2025-11-21T08:22:36Z,jakearchibald,needs implementer interest|addition/proposal|topic: aborting,1
+3645516867,false,Add abortSignal.addAbortCallback,https://github.com/whatwg/dom/pull/1425,2025-11-20T05:22:33Z,2025-11-26T10:53:11Z,jakearchibald,needs implementer interest|addition/proposal|topic: aborting|agenda+,1
 3640633724,true,Allow the creation of null registry element and shadow root,https://github.com/whatwg/dom/pull/1424,2025-11-19T01:28:05Z,2025-11-25T07:42:16Z,ja-y-son,,0
-3635427717,false,Set registry on null registry element on adopt instead of on insert,https://github.com/whatwg/dom/pull/1423,2025-11-17T23:15:11Z,2025-11-25T19:31:12Z,ja-y-son,,0
+3635427717,true,Set registry on null registry element on adopt instead of on insert,https://github.com/whatwg/dom/pull/1423,2025-11-17T23:15:11Z,2025-11-26T06:23:48Z,ja-y-son,,0
 3483508515,true,Make attachShadow() use the global registry by default,https://github.com/whatwg/dom/pull/1409,2025-10-04T10:13:30Z,2025-10-07T15:05:15Z,annevk,,0
 3410621075,false,Add FormControlRange interface,https://github.com/whatwg/dom/pull/1404,2025-09-12T13:58:15Z,2025-10-16T21:54:59Z,stephanieyzhang,,0
 3335702423,false,Remove mentions of XSLT from the DOM spec,https://github.com/whatwg/dom/pull/1400,2025-08-19T21:12:19Z,2025-10-23T15:19:11Z,mfreed7,,5
@@ -191,7 +192,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 550855809,true,Avoid enqueuing tree mutation record when there is no mutation,https://github.com/whatwg/dom/pull/822,2020-01-16T14:49:41Z,2020-01-22T17:40:34Z,shvaikalesh,,2
 549250216,true,Editorial: mark initCustomEvent and createEvent as // historical,https://github.com/whatwg/dom/pull/821,2020-01-13T23:53:42Z,2020-01-15T16:24:34Z,shvaikalesh,,0
 549219316,true,"Editorial: add missing comma in ""add an event listener"" definition",https://github.com/whatwg/dom/pull/820,2020-01-13T22:29:16Z,2020-01-16T14:14:28Z,shvaikalesh,,0
-548131775,false,"Adoption and DocumentFragment, part two",https://github.com/whatwg/dom/pull/819,2020-01-10T15:10:11Z,2023-03-10T20:52:30Z,annevk,,1
+548131775,false,"Adoption and DocumentFragment, part two",https://github.com/whatwg/dom/pull/819,2020-01-10T15:10:11Z,2025-11-26T07:50:17Z,annevk,,1
 544482591,true,Remove document.origin,https://github.com/whatwg/dom/pull/815,2020-01-02T08:09:14Z,2020-01-07T01:35:35Z,annevk,impacts documentation,0
 537556893,true,Review Draft Publication: December 2019,https://github.com/whatwg/dom/pull/810,2019-12-13T13:42:45Z,2019-12-13T17:09:19Z,annevk,,0
 535874322,true,Add attribute validate steps.,https://github.com/whatwg/dom/pull/809,2019-12-10T17:22:20Z,2024-03-13T13:27:36Z,koto,needs tests,0
