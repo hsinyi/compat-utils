@@ -59,7 +59,7 @@ api/Animation/finish,,48,,75,,13.1,,false,true,false,https://drafts.csswg.org/we
 api/Animation/finish_event,,48,,75,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-onfinish,W3C
 api/Animation/finished,,63,,84,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-finished,W3C
 api/Animation/id,,48,,75,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-id,W3C
-api/Animation/overallProgress,,142,,133,,preview,,false,true,false,https://drafts.csswg.org/web-animations-2/#dom-animation-overallprogress,W3C
+api/Animation/overallProgress,,142,,133,,26.2,,false,true,false,https://drafts.csswg.org/web-animations-2/#dom-animation-overallprogress,W3C
 api/Animation/pause,,48,,75,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-pause,W3C
 api/Animation/pending,,59,,76,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-pending,W3C
 api/Animation/persist,,75,,84,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-persist,W3C
@@ -1129,10 +1129,10 @@ api/CloseWatcher/close,,preview,,126,,,,true,true,false,https://html.spec.whatwg
 api/CloseWatcher/close_event,,preview,,126,,,,true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#handler-closewatcher-onclose,WHATWG
 api/CloseWatcher/destroy,,preview,,126,,,,true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-closewatcher-destroy,WHATWG
 api/CloseWatcher/requestClose,,preview,,126,,,,true,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-closewatcher-requestclose,WHATWG
-api/CommandEvent,,144,,135,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#commandevent,WHATWG
-api/CommandEvent/CommandEvent,,144,,135,,preview,,false,true,false,,NONE
-api/CommandEvent/command,,144,,135,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-commandevent-command,WHATWG
-api/CommandEvent/source,,144,,135,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-commandevent-source,WHATWG
+api/CommandEvent,,144,,135,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#commandevent,WHATWG
+api/CommandEvent/CommandEvent,,144,,135,,26.2,,false,true,false,,NONE
+api/CommandEvent/command,,144,,135,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-commandevent-command,WHATWG
+api/CommandEvent/source,,144,,135,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-commandevent-source,WHATWG
 api/Comment,,1,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#interface-comment,WHATWG
 api/Comment/Comment,,24,,29,,8,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-comment-comment①,WHATWG
 api/CompositionEvent,,9,,15,,5,,false,true,false,https://w3c.github.io/uievents/#interface-compositionevent,W3C
@@ -1271,7 +1271,7 @@ api/CustomElementRegistry,,63,,54,,10.1,,false,true,false,https://html.spec.what
 api/CustomElementRegistry/CustomElementRegistry,,,,,,26,,true,true,false,https://html.spec.whatwg.org/multipage/custom-elements.html#dom-customelementregistry,WHATWG
 api/CustomElementRegistry/builtin_element_support,,63,,67,,,,false,true,false,,NONE
 api/CustomElementRegistry/define,,63,,54,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/custom-elements.html#dom-customelementregistry-define-dev,WHATWG
-api/CustomElementRegistry/define/connectedMoveCallback_lifecycle_callback,,,,133,,,,true,true,false,https://html.spec.whatwg.org/multipage/custom-elements.html#preserving-custom-element-state-when-moved,WHATWG
+api/CustomElementRegistry/define/connectedMoveCallback_lifecycle_callback,,144,,133,,,,false,true,false,https://html.spec.whatwg.org/multipage/custom-elements.html#preserving-custom-element-state-when-moved,WHATWG
 api/CustomElementRegistry/define/disabledFeatures_static_property,,92,,77,,,,false,true,false,,NONE
 api/CustomElementRegistry/get,,63,,54,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/custom-elements.html#dom-customelementregistry-get-dev,WHATWG
 api/CustomElementRegistry/getName,,116,,117,,17,,false,true,false,https://html.spec.whatwg.org/multipage/custom-elements.html#dom-customelementregistry-getname,WHATWG
@@ -2937,6 +2937,7 @@ api/HTMLAnchorElement/hostname,,1,,1,,1,,false,true,false,https://html.spec.what
 api/HTMLAnchorElement/href,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-href-dev,WHATWG
 api/HTMLAnchorElement/hrefTranslate,,,,81,,,,true,false,false,,NONE
 api/HTMLAnchorElement/hreflang,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/text-level-semantics.html#dom-a-hreflang,WHATWG
+api/HTMLAnchorElement/interestForElement,,,,142,,,,true,false,false,,NONE
 api/HTMLAnchorElement/name,,1,,1,,1,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-a-name,WHATWG
 api/HTMLAnchorElement/origin,,26,,8,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-origin-dev,WHATWG
 api/HTMLAnchorElement/password,,26,,32,,10,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-password-dev,WHATWG
@@ -2967,6 +2968,7 @@ api/HTMLAreaElement/hash,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org
 api/HTMLAreaElement/host,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-host-dev,WHATWG
 api/HTMLAreaElement/hostname,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-hostname-dev,WHATWG
 api/HTMLAreaElement/href,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-href-dev,WHATWG
+api/HTMLAreaElement/interestForElement,,,,142,,,,true,false,false,,NONE
 api/HTMLAreaElement/noHref,,1,,1,,1,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-area-nohref,WHATWG
 api/HTMLAreaElement/origin,,26,,32,,10,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-origin-dev,WHATWG
 api/HTMLAreaElement/password,,26,,32,,10,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#dom-hyperlink-password-dev,WHATWG
@@ -3003,9 +3005,9 @@ api/HTMLBodyElement/text,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/
 api/HTMLBodyElement/vLink,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-body-vlink,WHATWG
 api/HTMLButtonElement,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#htmlbuttonelement,WHATWG
 api/HTMLButtonElement/checkValidity,,4,,4,,5,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-checkvalidity-dev,WHATWG
-api/HTMLButtonElement/command,,144,,135,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-command,WHATWG
+api/HTMLButtonElement/command,,144,,135,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-command,WHATWG
 api/HTMLButtonElement/command/request-close,,144,,139,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-request-close,WHATWG
-api/HTMLButtonElement/commandForElement,,144,,135,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-commandforelement,WHATWG
+api/HTMLButtonElement/commandForElement,,144,,135,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-commandforelement,WHATWG
 api/HTMLButtonElement/disabled,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fe-disabled,WHATWG
 api/HTMLButtonElement/form,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fae-form-dev,WHATWG
 api/HTMLButtonElement/formAction,,4,,9,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fs-formaction,WHATWG
@@ -3013,6 +3015,7 @@ api/HTMLButtonElement/formEnctype,,4,,9,,5.1,,false,true,false,https://html.spec
 api/HTMLButtonElement/formMethod,,4,,9,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fs-formmethod,WHATWG
 api/HTMLButtonElement/formNoValidate,,4,,4,,5,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fs-formnovalidate,WHATWG
 api/HTMLButtonElement/formTarget,,4,,9,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fs-formtarget,WHATWG
+api/HTMLButtonElement/interestForElement,,,,142,,,,true,false,false,,NONE
 api/HTMLButtonElement/labels,,56,,6,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/forms.html#dom-lfe-labels-dev,WHATWG
 api/HTMLButtonElement/name,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fe-name,WHATWG
 api/HTMLButtonElement/popoverTargetAction,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#dom-popovertargetaction,WHATWG
@@ -3135,9 +3138,11 @@ api/HTMLElement/inert,,112,,102,,15.5,,false,true,false,https://html.spec.whatwg
 api/HTMLElement/inert/ignores_find_in_page,,120,,124,,,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-inert,WHATWG
 api/HTMLElement/innerText,,45,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#the-innertext-idl-attribute,WHATWG
 api/HTMLElement/inputMode,,95,,66,,12.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-inputmode,WHATWG
+api/HTMLElement/interest_event,,,,142,,,,true,false,false,,NONE
 api/HTMLElement/isContentEditable,,4,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-iscontenteditable-dev,WHATWG
 api/HTMLElement/lang,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-lang,WHATWG
 api/HTMLElement/load_event,,1,,1,,1.3,,false,true,false,https://w3c.github.io/uievents/#event-type-load,W3C
+api/HTMLElement/loseinterest_event,,,,142,,,,true,false,false,,NONE
 api/HTMLElement/nonce,,75,,61,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/urls-and-fetching.html#dom-noncedelement-nonce,WHATWG
 api/HTMLElement/offsetHeight,,1,,1,,3,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-htmlelement-offsetheight,W3C
 api/HTMLElement/offsetLeft,,1,,1,,3,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-htmlelement-offsetleft,W3C
@@ -4127,6 +4132,9 @@ api/InputEvent/isComposing,,31,,60,,16.4,,false,true,false,https://w3c.github.io
 api/InstallEvent,,44,,40,,11.1,,false,true,false,https://w3c.github.io/ServiceWorker/#installevent,W3C
 api/InstallEvent/InstallEvent,,,,40,,,,true,true,false,https://w3c.github.io/ServiceWorker/#dom-installevent-installevent,W3C
 api/InstallEvent/addRoutes,,,,123,,,,true,true,false,https://w3c.github.io/ServiceWorker/#register-router-method,W3C
+api/InterestEvent,,,,142,,,,true,false,false,,NONE
+api/InterestEvent/InterestEvent,,,,142,,,,true,false,false,,NONE
+api/InterestEvent/source,,,,142,,,,true,false,false,,NONE
 api/IntersectionObserver,,55,,51,,12.1,,false,true,false,https://w3c.github.io/IntersectionObserver/#intersection-observer-interface,W3C
 api/IntersectionObserver/IntersectionObserver,,55,,51,,12.1,,false,true,false,https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-intersectionobserver,W3C
 api/IntersectionObserver/IntersectionObserver/options_root_parameter_Document,,76,,81,,14,,false,true,false,,NONE
@@ -4933,7 +4941,7 @@ api/Navigator/buildID,,2,,,,,,false,false,false,,NONE
 api/Navigator/canLoadAdAuctionFencedFrame,,,,128,,,,true,true,false,https://wicg.github.io/turtledove/#dom-navigator-canloadadauctionfencedframe,W3CCG
 api/Navigator/canShare,,96,"[{""name"":""dom.webshare.enabled"",""type"":""preference"",""value_to_set"":""true""}]",128,,14,,false,true,false,https://w3c.github.io/web-share/#canshare-data-method,W3C
 api/Navigator/canShare/data_files_parameter,,,,89,,14,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-files,W3C
-api/Navigator/canShare/data_text_parameter,,,,89,,14,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-text,W3C
+api/Navigator/canShare/data_text_parameter,,96,"[{""name"":""dom.webshare.enabled"",""type"":""preference"",""value_to_set"":""true""}]",89,,14,,false,true,false,https://w3c.github.io/web-share/#dom-sharedata-text,W3C
 api/Navigator/clearAppBadge,,,,81,,17,,false,true,false,https://w3c.github.io/badging/#clearappbadge-method,W3C
 api/Navigator/clearOriginJoinedAdInterestGroups,,,,128,,,,true,true,false,https://wicg.github.io/turtledove/#dom-navigator-clearoriginjoinedadinterestgroups,W3CCG
 api/Navigator/clipboard,,63,,66,,13.1,,false,true,false,https://w3c.github.io/clipboard-apis/#navigator-clipboard,W3C
@@ -6653,6 +6661,7 @@ api/SVGAElement,,3,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/linking.
 api/SVGAElement/download,,20,,142,,,,false,true,false,https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__download,W3C
 api/SVGAElement/href,,4,,1,,3,,false,true,false,https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href,W3C
 api/SVGAElement/hreflang,,61,,,,,,false,true,false,https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__hreflang,W3C
+api/SVGAElement/interestForElement,,,,142,,,,true,false,false,,NONE
 api/SVGAElement/ping,,61,,,,,,false,true,false,https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__ping,W3C
 api/SVGAElement/referrerPolicy,,61,,,,,,false,true,false,https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__referrerPolicy,W3C
 api/SVGAElement/rel,,61,,136,,14,,false,true,false,https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__rel,W3C
@@ -10157,9 +10166,9 @@ css/properties/background-position/right,,1,,1,,1,,false,true,false,https://draf
 css/properties/background-position/side-relative_values,,13,,25,,7,,false,true,false,,NONE
 css/properties/background-position/top,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-backgrounds/#valdef-background-position-top,W3C
 css/properties/background-position-x,,49,,1,,1,,false,true,false,https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands,W3C
-css/properties/background-position-x/side-relative_values,,49,,,,15.4,,false,true,false,,NONE
+css/properties/background-position-x/side-relative_values,,49,,143,,15.4,,false,true,false,,NONE
 css/properties/background-position-y,,49,,1,,1,,false,true,false,https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands,W3C
-css/properties/background-position-y/side-relative_values,,49,,,,15.4,,false,true,false,,NONE
+css/properties/background-position-y/side-relative_values,,49,,143,,15.4,,false,true,false,,NONE
 css/properties/background-repeat,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-backgrounds/#background-repeat,W3C
 css/properties/background-repeat/2-value,,13,,3,,5,,false,true,false,,NONE
 css/properties/background-repeat/multiple_backgrounds,,3.6,,1,,1.3,,false,true,false,,NONE
@@ -11792,7 +11801,7 @@ css/properties/mask-type/alpha,,35,,24,,7,,false,true,false,https://drafts.fxtf.
 css/properties/mask-type/luminance,,35,,24,,7,,false,true,false,https://drafts.fxtf.org/css-masking/#valdef-mask-type-luminance,W3C
 css/properties/math-depth,,117,,109,,,,false,true,false,https://w3c.github.io/mathml-core/#the-math-script-level-property,W3C
 css/properties/math-depth/auto-add,,117,,109,,,,false,true,false,"https://w3c.github.io/mathml-core/#the-math-script-level-property:~:text=Value%3A-,auto%2Dadd,-%7C%20add(%3Cinteger",W3C
-css/properties/math-shift,,,,109,,,,true,true,false,https://w3c.github.io/mathml-core/#the-math-shift,W3C
+css/properties/math-shift,,146,,109,,preview,,false,true,false,https://w3c.github.io/mathml-core/#the-math-shift,W3C
 css/properties/math-shift/compact,,,,109,,,,true,true,false,"https://w3c.github.io/mathml-core/#the-math-shift:~:text=math%2Dshift-,Value%3A,normal%20%7C%20compact,-Initial%3A",W3C
 css/properties/math-shift/normal,,,,109,,,,true,true,false,"https://w3c.github.io/mathml-core/#the-math-shift:~:text=math%2Dshift-,Value%3A,normal%20%7C%20compact,-Initial%3A",W3C
 css/properties/math-style,,117,,109,,14.1,,false,true,false,https://w3c.github.io/mathml-core/#the-math-style-property,W3C
@@ -13407,6 +13416,7 @@ html/elements/a/href/href_top,,10,,1,,≤4,,false,true,false,,NONE
 html/elements/a/hreflang,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-hreflang,WHATWG
 html/elements/a/hreftranslate,,,,81,,,,true,false,false,,NONE
 html/elements/a/implicit_noopener,,79,,88,,12.1,,false,true,false,,NONE
+html/elements/a/interestfor,,,,142,,,,true,false,false,,NONE
 html/elements/a/name,,1,,1,,1,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#attr-a-name,WHATWG
 html/elements/a/ping,,1,,12,,6,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#ping,WHATWG
 html/elements/a/referrerpolicy,,50,,51,,14,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-referrerpolicy,WHATWG
@@ -13432,6 +13442,7 @@ html/elements/area/coords,,1,,1,,1,,false,true,false,https://html.spec.whatwg.or
 html/elements/area/download,,20,,54,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-download,WHATWG
 html/elements/area/href,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-href,WHATWG
 html/elements/area/implicit_noopener,,79,,88,,12.1,,false,true,false,,NONE
+html/elements/area/interestfor,,,,142,,,,true,false,false,,NONE
 html/elements/area/nohref,,1,,1,,1,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#attr-area-nohref,WHATWG
 html/elements/area/ping,,1,,12,,6,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#ping,WHATWG
 html/elements/area/referrerpolicy,,50,,51,,14,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-referrerpolicy,WHATWG
@@ -13479,9 +13490,9 @@ html/elements/body/vlink,,1,,1,,≤4,,false,true,true,,NONE
 html/elements/br,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-br-element,WHATWG
 html/elements/br/clear,,1,,1,,≤4,,false,true,true,,NONE
 html/elements/button,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element,WHATWG
-html/elements/button/command,,144,,135,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command,WHATWG
+html/elements/button/command,,144,,135,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command,WHATWG
 html/elements/button/command/request-close,,144,,139,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-request-close,WHATWG
-html/elements/button/commandfor,,144,,135,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-commandfor,WHATWG
+html/elements/button/commandfor,,144,,135,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-commandfor,WHATWG
 html/elements/button/disabled,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-disabled,WHATWG
 html/elements/button/form,,4,,9,,5.1,,false,true,false,,NONE
 html/elements/button/formaction,,4,,9,,5.1,,false,true,false,,NONE
@@ -13489,6 +13500,7 @@ html/elements/button/formenctype,,4,,9,,5.1,,false,true,false,,NONE
 html/elements/button/formmethod,,4,,9,,5.1,,false,true,false,,NONE
 html/elements/button/formnovalidate,,4,,9,,5.1,,false,true,false,,NONE
 html/elements/button/formtarget,,4,,9,,5.1,,false,true,false,,NONE
+html/elements/button/interestfor,,,,142,,,,true,false,false,,NONE
 html/elements/button/name,,1,,1,,≤4,,false,true,false,,NONE
 html/elements/button/popovertarget,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#attr-popovertarget,WHATWG
 html/elements/button/popovertarget/implicit_anchor_reference,,preview,,133,,,,true,true,false,,NONE
@@ -13586,7 +13598,7 @@ html/elements/frameset,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org/mu
 html/elements/frameset/cols,,1,,1,,3,,false,true,true,,NONE
 html/elements/frameset/rows,,1,,1,,3,,false,true,true,,NONE
 html/elements/h1,,1,,1,,1,,false,true,false,"https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",WHATWG
-html/elements/h1/no_ua_styles_in_article_aside_nav_section,,140,,,,,,false,true,false,https://html.spec.whatwg.org/multipage/rendering.html#sections-and-headings,WHATWG
+html/elements/h1/no_ua_styles_in_article_aside_nav_section,,140,,,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/rendering.html#sections-and-headings,WHATWG
 html/elements/h2,,1,,1,,1,,false,true,false,"https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",WHATWG
 html/elements/h3,,1,,1,,1,,false,true,false,"https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",WHATWG
 html/elements/h4,,1,,1,,1,,false,true,false,"https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",WHATWG
@@ -14123,7 +14135,7 @@ html/global_attributes/draggable,,2,,4,,5,,false,true,false,https://html.spec.wh
 html/global_attributes/enterkeyhint,,94,,77,,13.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint,WHATWG
 html/global_attributes/exportparts,,72,,73,,13.1,,false,true,false,https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts,W3C
 html/global_attributes/hidden,,4,,10,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute,WHATWG
-html/global_attributes/hidden/until-found,,139,,102,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute,WHATWG
+html/global_attributes/hidden/until-found,,139,,102,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#the-hidden-attribute,WHATWG
 html/global_attributes/id,,32,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute,WHATWG
 html/global_attributes/inert,,112,,102,,15.5,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute,WHATWG
 html/global_attributes/inert/ignores_find_in_page,,120,,124,,,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees,WHATWG
@@ -14455,7 +14467,7 @@ http/headers/Service-Worker-Navigation-Preload,,preview,,59,,15.4,,false,true,fa
 http/headers/Set-Cookie,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc6265.html#sane-set-cookie,IETF
 http/headers/Set-Cookie/HttpOnly,,3,,1,,5,,false,true,false,,NONE
 http/headers/Set-Cookie/Max-Age,,1,,1,,1,,false,true,false,,NONE
-http/headers/Set-Cookie/Partitioned,,141,,114,,18.4,,false,true,false,https://www.ietf.org/archive/id/draft-cutler-httpbis-partitioned-cookies-01.html#section-2.1,IETF
+http/headers/Set-Cookie/Partitioned,,141,,114,,26.2,,false,true,false,https://www.ietf.org/archive/id/draft-cutler-httpbis-partitioned-cookies-01.html#section-2.1,IETF
 http/headers/Set-Cookie/SameSite,,60,,51,,13,,false,true,false,https://httpwg.org/specs/rfc6265.html#sane-set-cookie,IETF
 http/headers/Set-Cookie/SameSite/Lax,,60,,51,,12,,false,true,false,,NONE
 http/headers/Set-Cookie/SameSite/Lax_default,,69,"[{""name"":""network.cookie.sameSite.laxByDefault"",""type"":""preference"",""value_to_set"":""true""}]",80,,,,false,true,false,,NONE
@@ -15053,7 +15065,7 @@ javascript/builtins/Math/sign,,25,,38,,9,,false,true,false,https://tc39.es/ecma2
 javascript/builtins/Math/sin,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sin,TC39
 javascript/builtins/Math/sinh,,25,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sinh,TC39
 javascript/builtins/Math/sqrt,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sqrt,TC39
-javascript/builtins/Math/sumPrecise,,137,,,,preview,,false,true,false,https://tc39.es/proposal-math-sum/#sec-math.sumprecise,TC39
+javascript/builtins/Math/sumPrecise,,137,,,,26.2,,false,true,false,https://tc39.es/proposal-math-sum/#sec-math.sumprecise,TC39
 javascript/builtins/Math/tan,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.tan,TC39
 javascript/builtins/Math/tanh,,25,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.tanh,TC39
 javascript/builtins/Math/trunc,,25,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.trunc,TC39
@@ -15659,7 +15671,7 @@ javascript/builtins/WeakMap/getOrInsert,,144,,,,,,true,true,false,https://tc39.e
 javascript/builtins/WeakMap/getOrInsertComputed,,144,,,,,,true,true,false,https://tc39.es/proposal-upsert/#sec-weakmap.prototype.getOrInsertComputed,TC39
 javascript/builtins/WeakMap/has,,6,,36,,8,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.has,TC39
 javascript/builtins/WeakMap/set,,6,,36,,8,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.set,TC39
-javascript/builtins/WeakMap/symbol_as_keys,,,,109,,16.4,,false,true,false,,NONE
+javascript/builtins/WeakMap/symbol_as_keys,,146,,109,,16.4,,false,true,false,,NONE
 javascript/builtins/WeakRef,,79,,84,,14.1,,false,true,false,https://tc39.es/ecma262/multipage/managing-memory.html#sec-weak-ref-objects,TC39
 javascript/builtins/WeakRef/WeakRef,,79,,84,,14.1,,false,true,false,https://tc39.es/ecma262/multipage/managing-memory.html#sec-weak-ref-constructor,TC39
 javascript/builtins/WeakRef/WeakRef/symbol_as_target,,,,109,,16.4,,false,true,false,,NONE
@@ -15671,7 +15683,7 @@ javascript/builtins/WeakSet/WeakSet/null_allowed,,37,,36,,9,,false,true,false,,N
 javascript/builtins/WeakSet/add,,34,,36,,9,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakset.prototype.add,TC39
 javascript/builtins/WeakSet/delete,,34,,36,,9,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakset.prototype.delete,TC39
 javascript/builtins/WeakSet/has,,34,,36,,9,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakset.prototype.has,TC39
-javascript/builtins/WeakSet/symbol_as_keys,,,,109,,16.4,,false,true,false,,NONE
+javascript/builtins/WeakSet/symbol_as_keys,,146,,109,,16.4,,false,true,false,,NONE
 javascript/builtins/decodeURI,,1,,1,,1.1,,false,true,false,https://tc39.es/ecma262/multipage/global-object.html#sec-decodeuri-encodeduri,TC39
 javascript/builtins/decodeURIComponent,,1,,1,,1.1,,false,true,false,https://tc39.es/ecma262/multipage/global-object.html#sec-decodeuricomponent-encodeduricomponent,TC39
 javascript/builtins/encodeURI,,1,,1,,1.1,,false,true,false,https://tc39.es/ecma262/multipage/global-object.html#sec-encodeuri-uri,TC39
@@ -15901,6 +15913,7 @@ svg/elements/a,,1.5,,1,,3.1,,false,true,false,https://svgwg.org/svg2-draft/linki
 svg/elements/a/download,,20,,,,,,false,true,false,https://svgwg.org/svg2-draft/linking.html#AElementDownloadAttribute,W3C
 svg/elements/a/href,,51,,50,,12.1,,false,true,false,https://svgwg.org/svg2-draft/linking.html#AElementHrefAttribute,W3C
 svg/elements/a/hreflang,,61,,,,,,false,true,false,https://svgwg.org/svg2-draft/linking.html#AElementHreflangAttribute,W3C
+svg/elements/a/interestfor,,,,142,,,,true,false,false,,NONE
 svg/elements/a/ping,,61,,,,,,true,true,false,https://svgwg.org/svg2-draft/linking.html#AElementPingAttribute,W3C
 svg/elements/a/referrerpolicy,,52,,51,,14,,false,true,false,https://svgwg.org/svg2-draft/linking.html#AElementReferrerpolicyAttribute,W3C
 svg/elements/a/referrerpolicy/no-referrer-when-downgrade,,52,,51,,,,false,true,false,,NONE

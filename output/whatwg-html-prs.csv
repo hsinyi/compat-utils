@@ -1,11 +1,15 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3662841679,false,Correct <template>.content getter steps,https://github.com/whatwg/html/pull/11954,2025-11-25T12:18:28Z,2025-11-25T12:20:12Z,annevk,,0
-3662076848,false,Navigation API: Always use a method tracker when navigating,https://github.com/whatwg/html/pull/11952,2025-11-25T08:52:18Z,2025-11-25T08:56:05Z,farre,topic: navigation,0
+3664927489,false,Fix argument order in prefetch algorithm,https://github.com/whatwg/html/pull/11961,2025-11-25T23:15:36Z,2025-11-25T23:15:36Z,domfarolino,,0
+3664925691,false,Fix mismatching parenthesis in HostEnqueuePromiseJob(),https://github.com/whatwg/html/pull/11960,2025-11-25T23:14:36Z,2025-11-25T23:14:36Z,domfarolino,,0
+3664785623,false,"Set ""is currently stalled"" before firing events",https://github.com/whatwg/html/pull/11959,2025-11-25T22:16:54Z,2025-11-25T22:29:28Z,foolip,,0
+3664001329,false,Update media resource fetch to identify top-level self-fetch for blob URLs,https://github.com/whatwg/html/pull/11957,2025-11-25T17:43:39Z,2025-11-25T20:14:33Z,recvfrom,,0
+3662841679,true,Correct <template>.content getter steps,https://github.com/whatwg/html/pull/11954,2025-11-25T12:18:28Z,2025-11-25T15:29:40Z,annevk,,0
+3662076848,false,Navigation API: Always use a method tracker when navigating,https://github.com/whatwg/html/pull/11952,2025-11-25T08:52:18Z,2025-11-25T21:53:39Z,farre,topic: navigation,0
 3659192694,true,Adjust custom element registry initialization for declarative shadow trees,https://github.com/whatwg/html/pull/11950,2025-11-24T14:35:26Z,2025-11-25T09:11:12Z,annevk,topic: shadow|topic: custom elements,0
 3659111482,true,[Editorial] Disambiguate two definitions.,https://github.com/whatwg/html/pull/11949,2025-11-24T14:15:55Z,2025-11-24T16:43:41Z,mikewest,,0
 3658867351,true,Adjust shadowrootcustomelementregistry attribute serialization,https://github.com/whatwg/html/pull/11946,2025-11-24T13:17:38Z,2025-11-25T09:13:47Z,annevk,normative change|topic: shadow|topic: custom elements,0
 3651347608,true,Editorial: Fix spelling & punctuation,https://github.com/whatwg/html/pull/11937,2025-11-21T11:44:11Z,2025-11-21T14:20:45Z,jmdyck,,0
-3645790808,false,Add text imports,https://github.com/whatwg/html/pull/11933,2025-11-20T07:01:19Z,2025-11-22T18:27:54Z,eemeli,addition/proposal|topic: script|needs implementation bugs,0
+3645790808,false,Add text imports,https://github.com/whatwg/html/pull/11933,2025-11-20T07:01:19Z,2025-11-25T18:17:55Z,eemeli,addition/proposal|topic: script|needs implementation bugs,0
 3644819917,true,Fix Padding Calculation in HTMLOptionsCollection Index Assignment,https://github.com/whatwg/html/pull/11932,2025-11-19T23:51:18Z,2025-11-20T13:04:51Z,lpas,,0
 3643341864,false,Allow deferring same-origin cross-document commit,https://github.com/whatwg/html/pull/11927,2025-11-19T15:45:54Z,2025-11-24T09:40:11Z,noamr,,0
 3637362644,false,Address review feedback on language override of navigator.language/s.,https://github.com/whatwg/html/pull/11922,2025-11-18T10:30:30Z,2025-11-21T18:09:44Z,lutien,,0
@@ -14,7 +18,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3624812231,true,Editorial: wrap asserts in <span>,https://github.com/whatwg/html/pull/11915,2025-11-14T09:41:09Z,2025-11-19T07:51:36Z,foolip,,0
 3624113595,true,Make initialize() upgrade and fix upgrade(),https://github.com/whatwg/html/pull/11913,2025-11-14T06:25:58Z,2025-11-21T07:08:42Z,annevk,topic: custom elements,0
 3618265040,true,Editorial: Replace numeric character references with Unicode characters,https://github.com/whatwg/html/pull/11907,2025-11-12T21:17:12Z,2025-11-14T14:36:44Z,saikirankanakala,invalid,0
-3604298847,false,[DRAFT] Upstream the Scroll To Text Fragment specification,https://github.com/whatwg/html/pull/11895,2025-11-09T01:41:40Z,2025-11-25T02:25:48Z,domfarolino,,0
+3604298847,false,[DRAFT] Upstream the Scroll To Text Fragment specification,https://github.com/whatwg/html/pull/11895,2025-11-09T01:41:40Z,2025-11-25T23:09:52Z,domfarolino,,0
 3597884153,false,Build list of selectedcontent elements to clear,https://github.com/whatwg/html/pull/11891,2025-11-06T22:24:57Z,2025-11-21T10:56:51Z,josepharhar,,0
 3596273653,false,Update selectedcontent in selectedness setting,https://github.com/whatwg/html/pull/11890,2025-11-06T15:17:42Z,2025-11-06T22:29:42Z,josepharhar,,0
 3592127065,true,Editorial: link directly to a Trusted Types algorithm (not section),https://github.com/whatwg/html/pull/11888,2025-11-05T17:34:44Z,2025-11-20T15:40:48Z,foolip,,0
@@ -99,7 +103,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3391512744,false,"Editorial: Remove the ""</sarcasm>"" joke",https://github.com/whatwg/html/pull/11634,2025-09-07T11:10:58Z,2025-09-08T06:12:17Z,BrianJDrake,,0
 3389766548,true,"Editorial: remove duplicate salveagable state change",https://github.com/whatwg/html/pull/11633,2025-09-06T09:31:59Z,2025-09-06T13:45:54Z,TimvdLippe,,0
 3388210153,true,Fix incorrect dialog assert,https://github.com/whatwg/html/pull/11632,2025-09-05T16:55:17Z,2025-09-09T02:13:47Z,keithamus,topic: dialog|topic: close watchers,0
-3388006842,false,Add streamHTMLUnsafe() methods,https://github.com/whatwg/html/pull/11631,2025-09-05T15:46:01Z,2025-11-25T12:05:26Z,foolip,,0
+3388006842,false,Add streamHTMLUnsafe() methods,https://github.com/whatwg/html/pull/11631,2025-09-05T15:46:01Z,2025-11-25T15:20:32Z,foolip,,0
 3387513853,true,"Clone integrity policy as part of ""clone a policy container""",https://github.com/whatwg/html/pull/11628,2025-09-05T13:10:46Z,2025-09-08T09:26:22Z,yoavweiss,topic: policy container,0
 3383145665,true,"Editorial: correctly mark up JS code with class=""js""",https://github.com/whatwg/html/pull/11624,2025-09-04T10:40:34Z,2025-09-06T13:33:13Z,foolip,,0
 3380980195,false,Added support for link rel=compression-dictionary,https://github.com/whatwg/html/pull/11620,2025-09-03T19:14:59Z,2025-11-18T18:01:45Z,pmeenan,,0
@@ -558,7 +562,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2248199462,true,[meta] Complete machine-readable scope of  and  event dfns,https://github.com/whatwg/html/pull/10281,2024-04-17T12:40:38Z,2024-04-18T00:36:25Z,dontcallmedom,,0
 2236940664,true,Delay marking inline module scripts as ready,https://github.com/whatwg/html/pull/10272,2024-04-11T05:29:01Z,2024-04-15T04:06:46Z,domenic,topic: script,0
 2235643011,true,Editorial: Upstream outerHTML property from DOM Parsing,https://github.com/whatwg/html/pull/10270,2024-04-10T13:45:27Z,2024-04-18T07:35:37Z,lukewarlow,addition/proposal|topic: parser,0
-2234668173,true,"Add subresource integrity support for ES modules, through importmaps",https://github.com/whatwg/html/pull/10269,2024-04-10T03:02:35Z,2025-11-25T12:03:50Z,yoavweiss,addition/proposal|topic: script,0
+2234668173,true,"Add subresource integrity support for ES modules, through importmaps",https://github.com/whatwg/html/pull/10269,2024-04-10T03:02:35Z,2025-11-25T12:25:44Z,yoavweiss,addition/proposal|topic: script,0
 2234134025,true,Editorial: Add warning about lack of sanitization to HTML parsing functions.,https://github.com/whatwg/html/pull/10267,2024-04-09T19:06:20Z,2024-04-10T09:34:23Z,lukewarlow,,0
 2233818920,true,Specify the rendering of <details> in more detail.,https://github.com/whatwg/html/pull/10265,2024-04-09T16:14:34Z,2024-08-15T23:15:19Z,dbaron,normative change|topic: rendering,2
 2233706241,true,Editorial: Upstream innerHTML property from DOM Parsing spec,https://github.com/whatwg/html/pull/10264,2024-04-09T15:20:35Z,2024-04-15T10:06:49Z,lukewarlow,addition/proposal|topic: parser,0
@@ -636,7 +640,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2081521972,true,Review Draft Publication: January 2024,https://github.com/whatwg/html/pull/10062,2024-01-15T08:42:04Z,2024-01-15T08:53:36Z,annevk,,0
 2080074867,true,fix/typo issue-#10053,https://github.com/whatwg/html/pull/10060,2024-01-13T04:50:16Z,2024-01-25T05:37:43Z,MustafaMulla29,,0
 2079520948,true,Editorial: Export  for CSS and resolve ambiguity,https://github.com/whatwg/html/pull/10058,2024-01-12T19:09:56Z,2024-01-17T08:58:16Z,noamr,,0
-2079229492,false,Add HTMLImageElement.isTypeSupported(),https://github.com/whatwg/html/pull/10055,2024-01-12T16:27:08Z,2024-01-17T08:02:39Z,annevk,needs implementer interest|needs tests,0
+2079229492,false,Add HTMLImageElement.isTypeSupported(),https://github.com/whatwg/html/pull/10055,2024-01-12T16:27:08Z,2025-11-26T00:32:03Z,annevk,needs implementer interest|needs tests,0
 2077176597,true,Add the media element pseudo-classes,https://github.com/whatwg/html/pull/10051,2024-01-11T17:01:31Z,2024-01-16T15:27:24Z,annevk,topic: media|topic: selectors,0
 2075571078,true,Don't always consume user activation for close watchers,https://github.com/whatwg/html/pull/10048,2024-01-11T02:08:30Z,2024-04-02T08:56:07Z,domenic,do not merge yet|topic: close watchers,0
 2073998014,true,Editorial: add enumerated attribute table for formmethod,https://github.com/whatwg/html/pull/10045,2024-01-10T09:54:13Z,2024-01-31T10:19:19Z,keithamus,,0
@@ -3230,7 +3234,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 209941739,true,Add note on Shadow DOM behavior about dialog focusing steps.,https://github.com/whatwg/html/pull/2394,2017-02-24T02:19:19Z,2018-06-25T09:55:31Z,TakayoshiKochi,,0
 209766317,true,Correct typo and link in select element,https://github.com/whatwg/html/pull/2389,2017-02-23T13:51:04Z,2017-02-23T16:42:58Z,dakshshah96,,0
 209731209,true,Editorial: fix comment in code example for input.labels,https://github.com/whatwg/html/pull/2387,2017-02-23T11:09:20Z,2017-02-23T11:32:43Z,zcorpan,,0
-209628744,true,Remove appcache from shared workers,https://github.com/whatwg/html/pull/2384,2017-02-23T00:47:41Z,2025-04-24T06:41:11Z,domenic,removal/deprecation|topic: appcache,5
+209628744,true,Remove appcache from shared workers,https://github.com/whatwg/html/pull/2384,2017-02-23T00:47:41Z,2025-11-25T18:04:20Z,domenic,removal/deprecation|topic: appcache,5
 209594447,true,"Add <link> rel=""modulepreload""",https://github.com/whatwg/html/pull/2383,2017-02-22T21:58:44Z,2021-06-15T15:59:56Z,domenic,addition/proposal|topic: script|topic: link,2
 209274274,true,Tweak [CEReactions] definition and usage,https://github.com/whatwg/html/pull/2378,2017-02-21T21:13:25Z,2017-02-22T22:59:55Z,domenic,topic: custom elements,0
 209191487,true,Regression: ASCII lower alpha -> ASCII upper alpha in the parser,https://github.com/whatwg/html/pull/2376,2017-02-21T16:07:23Z,2017-02-21T16:11:42Z,annevk,topic: parser,0

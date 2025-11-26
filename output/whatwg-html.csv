@@ -1,13 +1,16 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3662730909,false,Questions about HTMLTemplateElement.content getter,https://github.com/whatwg/html/issues/11953,2025-11-25T11:45:42Z,2025-11-25T12:18:51Z,AtkinsSJ,,0
+3664779454,false,"Timing of ""is currently stalled"" vs progress and stalled events",https://github.com/whatwg/html/issues/11958,2025-11-25T22:14:23Z,2025-11-25T22:17:11Z,foolip,,0
+3663815245,false,Navigation API: allow registering regular handler from within a precommit handler,https://github.com/whatwg/html/issues/11956,2025-11-25T16:43:40Z,2025-11-25T16:43:40Z,noamr,addition/proposal|needs implementer interest,1
+3663632665,false,"""appropriate template contents owner document"" needs to set ""allow declarative shadow roots""",https://github.com/whatwg/html/issues/11955,2025-11-25T15:51:37Z,2025-11-25T21:21:09Z,AtkinsSJ,topic: parser,0
+3662730909,true,Questions about HTMLTemplateElement.content getter,https://github.com/whatwg/html/issues/11953,2025-11-25T11:45:42Z,2025-11-25T21:01:55Z,AtkinsSJ,,0
 3659691212,false,"""Appropriate place for inserting a node"" refers to elements, but may include DocumentFragments",https://github.com/whatwg/html/issues/11951,2025-11-24T16:43:57Z,2025-11-25T11:23:47Z,AtkinsSJ,topic: shadow|topic: parser,1
 3659093021,true,Rejected promises are unhandled in #commit-a-navigate-event,https://github.com/whatwg/html/issues/11948,2025-11-24T14:12:07Z,2025-11-24T15:56:25Z,farre,topic: navigation,0
 3658879252,true,Declarative attach shadow uses host's registry instead of host's node document's registry,https://github.com/whatwg/html/issues/11947,2025-11-24T13:21:00Z,2025-11-25T09:11:12Z,annevk,normative change|topic: shadow|topic: custom elements,1
 3657641889,true,"""Policy container"" is defined multiple times.",https://github.com/whatwg/html/issues/11944,2025-11-24T08:17:59Z,2025-11-24T15:44:42Z,mikewest,meta,0
 3655151429,false,Navigation API: Navigation History Entry url getter - bug in spec or tests?,https://github.com/whatwg/html/issues/11941,2025-11-22T22:45:57Z,2025-11-23T09:54:16Z,theIDinside,topic: navigation,0
 3652508538,false,"2D canvas should internally hold a CSS color space, not an enum value",https://github.com/whatwg/html/issues/11939,2025-11-21T17:26:44Z,2025-11-24T06:30:47Z,ccameron-chromium,clarification|topic: canvas,0
-3652485079,false,(scroll-to-text) fragmentDirectives should be allowed to be unique,https://github.com/whatwg/html/issues/11938,2025-11-21T17:17:37Z,2025-11-24T07:49:32Z,vmpstr,topic: navigation,0
-3650494206,false,Incorporate SVG `a` element in the processing model and algorithms of HTML `a` element,https://github.com/whatwg/html/issues/11936,2025-11-21T07:03:55Z,2025-11-25T10:00:47Z,goldenboy777,needs tests|integration|needs concrete proposal|topic: svg,0
+3652485079,false,(scroll-to-text) fragmentDirectives should be allowed to be unique,https://github.com/whatwg/html/issues/11938,2025-11-21T17:17:37Z,2025-11-25T21:42:04Z,vmpstr,topic: navigation,0
+3650494206,false,Incorporate SVG `a` element in the processing model and algorithms of HTML `a` element,https://github.com/whatwg/html/issues/11936,2025-11-21T07:03:55Z,2025-11-25T15:03:46Z,goldenboy777,needs tests|integration|needs concrete proposal|topic: svg,0
 3648584316,false,Optional destination size for `HTMLImageElement.decode()`,https://github.com/whatwg/html/issues/11935,2025-11-20T18:42:01Z,2025-11-21T08:03:53Z,shallawa,addition/proposal|needs implementer interest|topic: img,0
 3648131740,false,Please qualify your various comments on paragraphs,https://github.com/whatwg/html/issues/11934,2025-11-20T16:46:13Z,2025-11-21T18:34:21Z,mbgower,accessibility,0
 3643528484,false,External resources don't have a fallback mechanism,https://github.com/whatwg/html/issues/11928,2025-11-19T16:32:01Z,2025-11-20T09:27:43Z,romainmenke,addition/proposal|needs implementer interest,0
@@ -58,7 +61,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3565577058,false,Support MediaElement.volume values greater than 1,https://github.com/whatwg/html/issues/11848,2025-10-29T11:41:58Z,2025-11-19T16:15:54Z,Jamie0,addition/proposal|needs implementer interest|topic: media,0
 3565536709,false,Add declarative scroll commands to HTMLButtonElement,https://github.com/whatwg/html/issues/11847,2025-10-29T11:31:35Z,2025-11-13T12:27:01Z,danielsakhapov,addition/proposal|needs implementer interest|topic: button,3
 3565044693,false,Navigation API: Inconsistency between spec and tests about WaitForAll,https://github.com/whatwg/html/issues/11845,2025-10-29T09:18:43Z,2025-11-11T02:34:34Z,jnjaeschke,topic: navigation,0
-3563363702,false,Specify a suggested limit for repeated `replaceState()` calls,https://github.com/whatwg/html/issues/11844,2025-10-28T21:04:54Z,2025-11-21T16:50:25Z,zcorpan,needs implementer interest|topic: navigation,0
+3563363702,false,Specify a suggested limit for repeated `replaceState()` calls,https://github.com/whatwg/html/issues/11844,2025-10-28T21:04:54Z,2025-11-25T19:33:26Z,zcorpan,needs implementer interest|topic: navigation,0
 3562427369,true,Navigation API: Order of promises in spec not consistent with tests,https://github.com/whatwg/html/issues/11842,2025-10-28T16:38:04Z,2025-10-28T21:08:47Z,jnjaeschke,topic: navigation,0
 3561311123,false,Constraint validation for readonly doesn't correspond implementations,https://github.com/whatwg/html/issues/11841,2025-10-28T12:16:56Z,2025-10-28T13:54:19Z,dSalieri,topic: forms|needs tests,0
 3559193661,false,Cryptographically generated domain names,https://github.com/whatwg/html/issues/11840,2025-10-28T00:16:52Z,2025-10-28T12:33:26Z,DemiMarie,addition/proposal|needs implementer interest,1
@@ -73,7 +76,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3546163704,true,Meeting 31 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11824,2025-10-23T19:04:55Z,2025-11-05T20:04:43Z,mfreed7,,0
 3541685968,true,Upcoming WHATNOT meeting on 2025-10-23,https://github.com/whatwg/html/issues/11821,2025-10-22T17:19:17Z,2025-10-24T21:06:01Z,cwilso,,0
 3541597104,false,Re-importing a module with an invalid dependency specifier,https://github.com/whatwg/html/issues/11820,2025-10-22T16:47:29Z,2025-10-24T15:22:28Z,nicolo-ribaudo,topic: script,0
-3541502820,false,Allow deferring commit of a same-origin cross-document navigation,https://github.com/whatwg/html/issues/11819,2025-10-22T16:14:16Z,2025-11-18T18:53:08Z,noamr,addition/proposal|needs implementer interest|stage: 1,0
+3541502820,false,Allow deferring commit of a same-origin cross-document navigation,https://github.com/whatwg/html/issues/11819,2025-10-22T16:14:16Z,2025-11-25T16:07:03Z,noamr,addition/proposal|needs implementer interest|stage: 1,0
 3537533487,true,Navigation API: Remove `ongoing API method tracker` or set it again,https://github.com/whatwg/html/issues/11816,2025-10-21T17:34:41Z,2025-10-22T12:22:53Z,jnjaeschke,,0
 3536147571,false,No implementation calls #resume-applying-the-traverse-history-step entirely async,https://github.com/whatwg/html/issues/11814,2025-10-21T11:38:26Z,2025-11-25T08:58:07Z,farre,compat|topic: navigation,0
 3534577511,false,Stylesheet link response processing rules for content-type contradict rules for processing the type attribute,https://github.com/whatwg/html/issues/11813,2025-10-21T02:19:59Z,2025-11-19T16:15:15Z,jdm,topic: link|topic: style,0
@@ -2163,7 +2166,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 983901409,false,Allow speculative fetches during meta charset prescan,https://github.com/whatwg/html/issues/7001,2021-08-31T14:03:27Z,2021-09-07T08:31:26Z,zcorpan,topic: parser,0
 981789493,false,Recursive event loop spinning: do we still need it if showModalDialog no longer exists?,https://github.com/whatwg/html/issues/6996,2021-08-28T09:34:56Z,2021-08-30T16:01:49Z,qnighy,topic: event loop,0
 980171932,true,"Rendering section's introduction uses ""expected"" keyword",https://github.com/whatwg/html/issues/6991,2021-08-26T12:09:51Z,2021-09-27T11:30:07Z,zcorpan,clarification|topic: rendering,0
-978289492,false,Using the aside element inside other landmarks problematic for screen readers,https://github.com/whatwg/html/issues/6986,2021-08-24T16:42:13Z,2021-08-25T09:31:53Z,JoshTumath,,0
+978289492,false,Using the aside element inside other landmarks problematic for screen readers,https://github.com/whatwg/html/issues/6986,2021-08-24T16:42:13Z,2025-11-25T22:48:12Z,JoshTumath,,0
 982667318,false,`HTMLElement.blur()` should cancel all the focus in sub tree?,https://github.com/whatwg/html/issues/6999,2021-08-20T21:18:41Z,2021-08-30T15:55:58Z,mantou132,interop|topic: focus,0
 975453275,true,"Define top layer behaviour with pointer-events: none; ancestors ",https://github.com/whatwg/html/issues/6976,2021-08-20T09:52:29Z,2021-08-20T09:53:45Z,nt1m,,0
 974712216,true,"What does ""`Location`-object navigate"" navigate?",https://github.com/whatwg/html/issues/6972,2021-08-19T14:16:18Z,2021-08-25T16:32:39Z,yvt,topic: navigation,0
