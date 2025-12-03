@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3687259345,false,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2025-12-02T19:28:37Z,KurtCattiSchmidt,,0
+3689842829,false,Download link: inform the navigation API about aborting,https://github.com/whatwg/html/pull/11983,2025-12-03T11:32:45Z,2025-12-03T11:34:23Z,noamr,,0
+3687259345,false,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2025-12-03T07:23:16Z,KurtCattiSchmidt,,0
 3687064326,false,Add support for video element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2025-12-02T18:28:54Z,scottjehl,,0
 3685135331,true,Specify document conformance for headingoffset/headingreset,https://github.com/whatwg/html/pull/11979,2025-12-02T10:17:37Z,2025-12-02T11:20:06Z,zcorpan,,0
 3685086081,true,Add headingoffset/headingreset to attribute index,https://github.com/whatwg/html/pull/11978,2025-12-02T10:05:59Z,2025-12-02T10:19:51Z,keithamus,,0
@@ -19,7 +20,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3659111482,true,[Editorial] Disambiguate two definitions.,https://github.com/whatwg/html/pull/11949,2025-11-24T14:15:55Z,2025-11-24T16:43:41Z,mikewest,,0
 3658867351,true,Adjust shadowrootcustomelementregistry attribute serialization,https://github.com/whatwg/html/pull/11946,2025-11-24T13:17:38Z,2025-11-25T09:13:47Z,annevk,normative change|topic: shadow|topic: custom elements,0
 3651347608,true,Editorial: Fix spelling & punctuation,https://github.com/whatwg/html/pull/11937,2025-11-21T11:44:11Z,2025-11-21T14:20:45Z,jmdyck,,0
-3645790808,false,Add text imports,https://github.com/whatwg/html/pull/11933,2025-11-20T07:01:19Z,2025-11-25T18:17:55Z,eemeli,addition/proposal|topic: script|needs implementation bugs,0
+3645790808,false,Add text imports,https://github.com/whatwg/html/pull/11933,2025-11-20T07:01:19Z,2025-11-25T18:17:55Z,eemeli,addition/proposal|topic: script|needs implementation bugs,1
 3644819917,true,Fix Padding Calculation in HTMLOptionsCollection Index Assignment,https://github.com/whatwg/html/pull/11932,2025-11-19T23:51:18Z,2025-11-20T13:04:51Z,lpas,,0
 3643341864,false,Allow deferring same-origin cross-document commit,https://github.com/whatwg/html/pull/11927,2025-11-19T15:45:54Z,2025-11-24T09:40:11Z,noamr,,0
 3637362644,false,Address review feedback on language override of navigator.language/s.,https://github.com/whatwg/html/pull/11922,2025-11-18T10:30:30Z,2025-12-02T15:59:29Z,lutien,,0
@@ -40,7 +41,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3585120442,true,Editorial: fix references to shadowroot serializable,https://github.com/whatwg/html/pull/11877,2025-11-04T07:38:28Z,2025-11-04T10:59:00Z,Jamesernator,,1
 3580907886,true,Correct contexts where <p> can be used,https://github.com/whatwg/html/pull/11870,2025-11-03T07:31:56Z,2025-11-03T09:10:22Z,annevk,,0
 3580304397,true,Add link to build instructions in README,https://github.com/whatwg/html/pull/11868,2025-11-03T02:12:00Z,2025-11-20T12:50:49Z,2400030303,,0
-3565158334,false,[Origin API] Define an `Origin` interface. (#11534),https://github.com/whatwg/html/pull/11846,2025-10-29T09:48:39Z,2025-11-21T15:42:26Z,mikewest,topic: origin,0
+3565158334,false,[Origin API] Define an `Origin` interface. (#11534),https://github.com/whatwg/html/pull/11846,2025-10-29T09:48:39Z,2025-12-03T07:05:56Z,mikewest,topic: origin,0
 3562694410,true,Resolve `navigation.transition.committed` after `navigate().committed`,https://github.com/whatwg/html/pull/11843,2025-10-28T17:46:46Z,2025-10-28T21:08:46Z,noamr,,0
 3557048968,true,Editorial: Fix markup + wording,https://github.com/whatwg/html/pull/11837,2025-10-27T14:23:27Z,2025-10-29T13:18:31Z,jmdyck,editorial,0
 3556983944,true,"Navigation ""commit"": only set interception state if it was not ""none""",https://github.com/whatwg/html/pull/11836,2025-10-27T14:09:07Z,2025-10-31T13:11:37Z,noamr,,0
@@ -88,7 +89,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3451051426,false,Add external <script type=speculationrules>,https://github.com/whatwg/html/pull/11697,2025-09-24T21:26:17Z,2025-09-24T21:35:39Z,vickiez,,0
 3449906788,false,use the afterRemoval steps to clean up implicit anchors,https://github.com/whatwg/html/pull/11695,2025-09-24T15:22:53Z,2025-09-24T16:04:00Z,keithamus,,0
 3449447529,true,reorder dialog attr changed steps so that cleanup steps always occur,https://github.com/whatwg/html/pull/11693,2025-09-24T13:26:59Z,2025-10-01T08:46:58Z,keithamus,,0
-3449178913,false,"Add `NavigationTransition.to`, exposing the current navigate event's destination",https://github.com/whatwg/html/pull/11692,2025-09-24T12:14:44Z,2025-10-14T08:01:52Z,noamr,,0
+3449178913,true,"Add `NavigationTransition.to`, exposing the current navigate event's destination",https://github.com/whatwg/html/pull/11692,2025-09-24T12:14:44Z,2025-12-03T11:36:49Z,noamr,,0
 3448693145,true,Editorial: Cross-reference 'expected' in Rendering,https://github.com/whatwg/html/pull/11691,2025-09-24T10:09:23Z,2025-09-25T14:23:04Z,zcorpan,,0
 3447004466,false,Declarative CSS Modules,https://github.com/whatwg/html/pull/11687,2025-09-24T00:00:42Z,2025-10-20T16:49:34Z,KurtCattiSchmidt,,0
 3440906111,true,Add source to ToggleEventInit,https://github.com/whatwg/html/pull/11679,2025-09-22T13:06:20Z,2025-09-30T09:12:09Z,keithamus,topic: dialog|topic: popover,1
