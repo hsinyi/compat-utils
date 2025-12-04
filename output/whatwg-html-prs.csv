@@ -1,7 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3689842829,false,Download link: inform the navigation API about aborting,https://github.com/whatwg/html/pull/11983,2025-12-03T11:32:45Z,2025-12-03T11:34:23Z,noamr,,0
+3691436833,false,Editorial: fix US spelling ('behaviour' → 'behavior') in activation event definition,https://github.com/whatwg/html/pull/11985,2025-12-03T18:37:23Z,2025-12-03T18:39:21Z,nishtha-agarwal-211,,0
+3690361653,false,Expose NavigationPrecommitController.addHandler,https://github.com/whatwg/html/pull/11984,2025-12-03T13:56:50Z,2025-12-03T14:38:20Z,noamr,,0
+3689842829,false,Download link: inform the navigation API about aborting,https://github.com/whatwg/html/pull/11983,2025-12-03T11:32:45Z,2025-12-03T13:35:33Z,noamr,,0
 3687259345,false,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2025-12-03T07:23:16Z,KurtCattiSchmidt,,0
-3687064326,false,Add support for video element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2025-12-02T18:28:54Z,scottjehl,,0
+3687064326,false,Add support for video element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2025-12-03T16:34:40Z,scottjehl,,0
 3685135331,true,Specify document conformance for headingoffset/headingreset,https://github.com/whatwg/html/pull/11979,2025-12-02T10:17:37Z,2025-12-02T11:20:06Z,zcorpan,,0
 3685086081,true,Add headingoffset/headingreset to attribute index,https://github.com/whatwg/html/pull/11978,2025-12-02T10:05:59Z,2025-12-02T10:19:51Z,keithamus,,0
 3682264070,true,Use a task source when dispatching EventSource events. #4506,https://github.com/whatwg/html/pull/11976,2025-12-01T18:17:11Z,2025-12-01T20:36:26Z,wanderview,,0
@@ -13,7 +15,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3664927489,true,Fix argument order in prefetch algorithm,https://github.com/whatwg/html/pull/11961,2025-11-25T23:15:36Z,2025-11-26T07:39:20Z,domfarolino,,0
 3664925691,true,Fix mismatching parenthesis in HostEnqueuePromiseJob(),https://github.com/whatwg/html/pull/11960,2025-11-25T23:14:36Z,2025-11-26T07:36:31Z,domfarolino,,0
 3664785623,false,"Set ""is currently stalled"" before firing events",https://github.com/whatwg/html/pull/11959,2025-11-25T22:16:54Z,2025-11-28T09:48:24Z,foolip,normative change|topic: media,0
-3664001329,false,Update media resource fetch to identify top-level self-fetch for blob URLs,https://github.com/whatwg/html/pull/11957,2025-11-25T17:43:39Z,2025-12-01T19:08:27Z,recvfrom,,0
+3664001329,true,Update media resource fetch to identify top-level self-fetch for blob URLs,https://github.com/whatwg/html/pull/11957,2025-11-25T17:43:39Z,2025-12-03T15:13:55Z,recvfrom,,0
 3662841679,true,Correct <template>.content getter steps,https://github.com/whatwg/html/pull/11954,2025-11-25T12:18:28Z,2025-11-27T09:55:02Z,annevk,,0
 3662076848,true,Navigation API: Always use a method tracker when navigating,https://github.com/whatwg/html/pull/11952,2025-11-25T08:52:18Z,2025-11-26T11:33:26Z,farre,topic: navigation,0
 3659192694,true,Adjust custom element registry initialization for declarative shadow trees,https://github.com/whatwg/html/pull/11950,2025-11-24T14:35:26Z,2025-11-25T09:11:12Z,annevk,topic: shadow|topic: custom elements,0
@@ -41,7 +43,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3585120442,true,Editorial: fix references to shadowroot serializable,https://github.com/whatwg/html/pull/11877,2025-11-04T07:38:28Z,2025-11-04T10:59:00Z,Jamesernator,,1
 3580907886,true,Correct contexts where <p> can be used,https://github.com/whatwg/html/pull/11870,2025-11-03T07:31:56Z,2025-11-03T09:10:22Z,annevk,,0
 3580304397,true,Add link to build instructions in README,https://github.com/whatwg/html/pull/11868,2025-11-03T02:12:00Z,2025-11-20T12:50:49Z,2400030303,,0
-3565158334,false,[Origin API] Define an `Origin` interface. (#11534),https://github.com/whatwg/html/pull/11846,2025-10-29T09:48:39Z,2025-12-03T07:05:56Z,mikewest,topic: origin,0
+3565158334,false,[Origin API] Define an `Origin` interface. (#11534),https://github.com/whatwg/html/pull/11846,2025-10-29T09:48:39Z,2025-12-03T12:40:21Z,mikewest,topic: origin,0
 3562694410,true,Resolve `navigation.transition.committed` after `navigate().committed`,https://github.com/whatwg/html/pull/11843,2025-10-28T17:46:46Z,2025-10-28T21:08:46Z,noamr,,0
 3557048968,true,Editorial: Fix markup + wording,https://github.com/whatwg/html/pull/11837,2025-10-27T14:23:27Z,2025-10-29T13:18:31Z,jmdyck,editorial,0
 3556983944,true,"Navigation ""commit"": only set interception state if it was not ""none""",https://github.com/whatwg/html/pull/11836,2025-10-27T14:09:07Z,2025-10-31T13:11:37Z,noamr,,0
@@ -145,7 +147,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3291533405,true,Canvas2D: Add srgb-linear and display-p3-linear to PredefinedColorSpace enum,https://github.com/whatwg/html/pull/11529,2025-08-05T04:38:31Z,2025-11-24T08:07:10Z,ccameron-chromium,addition/proposal|topic: canvas,1
 3290898664,true,Editorial: fix ending li tag,https://github.com/whatwg/html/pull/11528,2025-08-04T21:58:37Z,2025-08-05T06:20:42Z,josepharhar,,0
 3285874404,true,Add paragraph to hgroup children in indices table,https://github.com/whatwg/html/pull/11524,2025-08-02T12:03:48Z,2025-08-19T06:13:06Z,TrySound,document conformance,0
-3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-11-26T23:22:58Z,ffiori,agenda+,0
+3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-12-03T20:37:49Z,ffiori,,0
 3280953563,false,Imply [Reflect] when [ReflectRange] or [ReflectDefault] are used.,https://github.com/whatwg/html/pull/11518,2025-07-31T15:49:27Z,2025-08-26T15:59:08Z,lukewarlow,,0
 3280885144,true,Remove support ElementInternals reflection flag,https://github.com/whatwg/html/pull/11517,2025-07-31T15:27:38Z,2025-08-22T00:41:19Z,lukewarlow,,0
 3279388233,true,Editorial: clarify worker lifetime definitions,https://github.com/whatwg/html/pull/11515,2025-07-31T07:15:41Z,2025-08-19T05:43:54Z,domenic,clarification|topic: workers,0
