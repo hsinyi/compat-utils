@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3696258025,false,Encourage always-escaping ampersand character.,https://github.com/whatwg/html/pull/11988,2025-12-04T19:49:01Z,2025-12-04T19:50:56Z,dmsnell,,0
+3697248432,true,Ensure CustomElementRegistry.initialize has CEReaction attribute,https://github.com/whatwg/html/pull/11992,2025-12-05T02:23:59Z,2025-12-05T06:02:03Z,ja-y-son,,0
+3696258025,false,Encourage always-escaping ampersand character.,https://github.com/whatwg/html/pull/11988,2025-12-04T19:49:01Z,2025-12-05T11:47:08Z,dmsnell,,0
 3694056250,true,Editorial: clean up condition logic in navigate event firing,https://github.com/whatwg/html/pull/11987,2025-12-04T10:57:22Z,2025-12-04T15:24:07Z,noamr,,0
 3691436833,true,Editorial: fix US spelling ('behaviour' → 'behavior') in activation event definition,https://github.com/whatwg/html/pull/11985,2025-12-03T18:37:23Z,2025-12-04T06:13:02Z,nishtha-agarwal-211,,0
 3690361653,false,Expose NavigationPrecommitController.addHandler,https://github.com/whatwg/html/pull/11984,2025-12-03T13:56:50Z,2025-12-03T14:38:20Z,noamr,,0
@@ -133,7 +134,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3356225711,false,"[FYI, not ready for review] Add globalHDRHeadroom to CanvasCompositing interface",https://github.com/whatwg/html/pull/11597,2025-08-26T15:51:38Z,2025-10-01T08:29:20Z,ccameron-chromium,,0
 3344286687,true,chore(css): normalize prefers-color-scheme spacing in styles.css,https://github.com/whatwg/html/pull/11591,2025-08-22T06:18:20Z,2025-08-22T06:32:55Z,ArjunSaluja,invalid,0
 3342044580,true,use integer over anb syntax for heading,https://github.com/whatwg/html/pull/11589,2025-08-21T14:47:23Z,2025-08-27T12:55:08Z,keithamus,,0
-3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2025-12-05T00:23:56Z,foolip,,1
+3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2025-12-05T12:20:50Z,foolip,,1
 3337110965,true,[meta] Add dfn type and scope for HTMLMediaElement.src,https://github.com/whatwg/html/pull/11581,2025-08-20T08:32:57Z,2025-08-21T00:28:09Z,dontcallmedom,,1
 3336967031,true,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation,0
 3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
@@ -181,7 +182,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3229465049,true,Introduce attribute reflection extended attributes,https://github.com/whatwg/html/pull/11450,2025-07-14T17:19:54Z,2025-07-30T12:35:57Z,lukewarlow,,0
 3222567446,true,Editorial: add popover=hint in attribute summary table,https://github.com/whatwg/html/pull/11446,2025-07-11T11:29:54Z,2025-07-12T06:39:19Z,foolip,,0
 3214658625,true,Revamp base URL change processing,https://github.com/whatwg/html/pull/11442,2025-07-09T06:21:00Z,2025-07-23T02:09:39Z,domenic,,0
-3211267153,false,[WebDriver BiDi] enable and disable scripting via BiDi,https://github.com/whatwg/html/pull/11441,2025-07-08T06:49:51Z,2025-11-24T13:39:29Z,sadym-chromium,topic: script|integration,0
+3211267153,false,[WebDriver BiDi] enable and disable scripting via BiDi,https://github.com/whatwg/html/pull/11441,2025-07-08T06:49:51Z,2025-12-05T09:48:35Z,sadym-chromium,topic: script|integration,0
 3210964890,true,Update QuotaExceededError usage,https://github.com/whatwg/html/pull/11440,2025-07-08T04:21:36Z,2025-09-13T00:37:07Z,domenic,,0
 3206351338,true,Meta: add for attribute in element-attr dfns,https://github.com/whatwg/html/pull/11434,2025-07-06T09:56:38Z,2025-07-08T18:40:17Z,arHSM,,0
 3204875494,true,Editorial: make references to No Popover state consistent,https://github.com/whatwg/html/pull/11433,2025-07-05T12:23:23Z,2025-07-07T01:55:38Z,foolip,,0
@@ -3476,7 +3477,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 183556168,true,"Restore <xmp> to the ""special"" elements list.",https://github.com/whatwg/html/pull/1919,2016-10-17T23:42:57Z,2016-10-18T09:24:05Z,cscott,topic: parser,0
 183519496,true,redact location.ancestorOrigins according to parents referrer policies,https://github.com/whatwg/html/pull/1917,2016-10-17T20:31:25Z,2016-10-17T23:34:36Z,hillbrad,normative change|needs implementer interest|do not merge yet|security/privacy|needs tests,0
 183494831,true,Fix the definition of the ol.start IDL attribute,https://github.com/whatwg/html/pull/1916,2016-10-17T18:44:19Z,2016-10-20T19:44:24Z,domenic,compat,0
-183176033,false,Change javascript: URL processing to use empty body instead of 204,https://github.com/whatwg/html/pull/1904,2016-10-15T00:16:30Z,2023-11-14T08:05:51Z,domenic,do not merge yet|topic: navigation|topic: javascript: URLs,0
+183176033,true,Change javascript: URL processing to use empty body instead of 204,https://github.com/whatwg/html/pull/1904,2016-10-15T00:16:30Z,2025-12-05T09:09:36Z,domenic,do not merge yet|topic: navigation|topic: javascript: URLs,0
 182881505,true,Convert some datalist example images to SVG,https://github.com/whatwg/html/pull/1899,2016-10-13T19:41:11Z,2016-10-14T13:57:42Z,domenic,,0
 182569825,true,Add Brian to the custom elements acknowledgments,https://github.com/whatwg/html/pull/1891,2016-10-12T16:19:38Z,2016-10-24T09:17:24Z,domenic,,1
 182537763,true,Fix off-by-one in deleteCell and deleteRow index checks,https://github.com/whatwg/html/pull/1890,2016-10-12T14:17:49Z,2016-10-18T12:49:08Z,foolip,,0
