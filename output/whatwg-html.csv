@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3714784457,false,Deep copy of the newImportMap during merge import maps is redudant,https://github.com/whatwg/html/issues/12006,2025-12-10T11:25:58Z,2025-12-10T11:25:58Z,allstarschh,,0
 3712001335,false,export some definitions for css-navigation-1,https://github.com/whatwg/html/issues/12003,2025-12-09T17:43:57Z,2025-12-09T17:43:57Z,dbaron,,0
-3711683369,true,my instagram account not open,https://github.com/whatwg/html/issues/12002,2025-12-09T16:23:57Z,2025-12-09T16:47:27Z,m4d5c6p6b5-lang,invalid,1
 3710131321,true,Offscreencanvas markup mistakes for links.,https://github.com/whatwg/html/issues/12001,2025-12-09T10:04:20Z,2025-12-09T11:43:11Z,karlcow,,0
 3700472762,false,Deprecate JSON as `preload` destination in favor of `modulepreload`,https://github.com/whatwg/html/issues/11995,2025-12-05T22:03:31Z,2025-12-05T22:03:31Z,KurtCattiSchmidt,,0
 3698213179,false,"Suggestion: Allow adding `maxcount` to `<input type=""email/file"" multiple>`",https://github.com/whatwg/html/issues/11994,2025-12-05T09:36:51Z,2025-12-09T13:22:29Z,ThomasLandauer,addition/proposal|needs implementer interest|topic: forms,2
@@ -226,7 +226,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3309950964,true,LLMs Meta Tags Standard,https://github.com/whatwg/html/issues/11548,2025-08-11T13:02:49Z,2025-08-11T16:30:30Z,rafaelp,addition/proposal|needs implementer interest,0
 3308378580,false,`PromiseRejectionError` constructor behavior differs by implementation,https://github.com/whatwg/html/issues/11547,2025-08-11T04:06:26Z,2025-08-11T09:12:06Z,petamoriken,needs tests,0
 3308003149,false,Allow `fieldset` to be a CSS subgrid,https://github.com/whatwg/html/issues/11546,2025-08-10T21:46:40Z,2025-08-11T23:42:34Z,kirk-loretz-fsn,addition/proposal|needs implementer interest|topic: fieldset,0
-3299845424,false,"Out of order HTML streaming (""patching"")",https://github.com/whatwg/html/issues/11542,2025-08-07T10:03:34Z,2025-12-05T13:13:29Z,noamr,addition/proposal|topic: parser|stage: 1,5
+3299845424,false,"Out of order HTML streaming (""patching"")",https://github.com/whatwg/html/issues/11542,2025-08-07T10:03:34Z,2025-12-10T09:15:17Z,noamr,addition/proposal|topic: parser|stage: 1,5
 3299685743,true,Upcoming WHATNOT meeting on 2025-08-14,https://github.com/whatwg/html/issues/11541,2025-08-07T09:12:30Z,2025-09-11T10:01:57Z,annevk,,0
 3297402544,false,"""rules for parsing a list of dimensions"" should clarify behavior for large numeric values",https://github.com/whatwg/html/issues/11539,2025-08-06T16:58:06Z,2025-10-08T20:12:46Z,weinig,needs tests,0
 3296458731,false,"Proposal: New HTML attributes mustcontain, requiredchars, and preset for simplified form validation",https://github.com/whatwg/html/issues/11538,2025-08-06T12:11:02Z,2025-08-13T14:30:30Z,sanketbhuite,addition/proposal|needs implementer interest,1
@@ -484,7 +484,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2866798579,false,Keyboard behavior for the `interesttarget` attribute,https://github.com/whatwg/html/issues/11056,2025-02-20T17:13:10Z,2025-07-10T16:02:59Z,mfreed7,,0
 2866789257,true,Upcoming WHATNOT meeting on 2025-02-27,https://github.com/whatwg/html/issues/11055,2025-02-20T17:09:24Z,2025-12-04T21:36:42Z,past,,0
 2865773648,false,Support public ID -//W3C//DTD XHTML Basic 1.1//EN in XML,https://github.com/whatwg/html/issues/11054,2025-02-20T10:42:48Z,2025-02-20T11:15:30Z,meiqinyan,addition/proposal|needs implementer interest,0
-2865646812,false,"popovertarget and popovertargetaction should move to ""16 Obsolete features""",https://github.com/whatwg/html/issues/11052,2025-02-20T09:51:41Z,2025-02-20T11:26:49Z,mtrootyy,document conformance|topic: popover,1
+2865646812,false,"popovertarget and popovertargetaction should move to ""16 Obsolete features""",https://github.com/whatwg/html/issues/11052,2025-02-20T09:51:41Z,2025-02-20T11:26:49Z,mtrootyy,document conformance|topic: popover,2
 2865455825,true,Meeting 16 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11051,2025-02-20T08:37:11Z,2025-12-04T21:36:42Z,nt1m,,0
 2864102366,true,Button type getter ambiguous,https://github.com/whatwg/html/issues/11046,2025-02-19T18:26:21Z,2025-02-20T11:19:41Z,lukewarlow,,0
 2863774207,true,Commandfor buttons with missing or invalid type attributes currently work as command buttons,https://github.com/whatwg/html/issues/11044,2025-02-19T16:01:00Z,2025-03-12T21:09:41Z,lukewarlow,,0
@@ -1427,7 +1427,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1644550338,false,Accessibility Attribute Request,https://github.com/whatwg/html/issues/9084,2023-03-28T19:35:50Z,2023-09-27T23:36:48Z,JaninaSajka,addition/proposal|accessibility|a11y-tracker,1
 1644212949,true,Custom Elements are a means of Extensibility,https://github.com/whatwg/html/issues/9082,2023-03-28T15:36:16Z,2023-05-05T12:32:51Z,bkardell,clarification,2
 1644102877,false,Clarify the sequential focusing behaviour when the current focused element is not in the sequential navigation order,https://github.com/whatwg/html/issues/9081,2023-03-28T14:39:31Z,2023-07-19T20:25:14Z,sefeng211,topic: focus,0
-1642307080,false,"API to get top layer elements ",https://github.com/whatwg/html/issues/9075,2023-03-27T15:18:20Z,2025-02-18T09:24:13Z,sanajaved7,addition/proposal|needs implementer interest,5
+1642307080,false,"API to get top layer elements ",https://github.com/whatwg/html/issues/9075,2023-03-27T15:18:20Z,2025-12-10T04:03:46Z,sanajaved7,addition/proposal|needs implementer interest,5
 1639018892,false,attr-associated elements use inconsistent trees?,https://github.com/whatwg/html/issues/9071,2023-03-24T09:20:42Z,2023-03-24T09:31:50Z,emilio,clarification|topic: shadow|topic: reflect,0
 1638398517,true,Upcoming HTML standard issue triage meeting on 4/6/2023,https://github.com/whatwg/html/issues/9070,2023-03-23T21:59:20Z,2023-04-06T23:46:33Z,past,agenda+,0
 1637320041,true,Should the Window named properties object return supported named properties in [[OwnPropertyKeys]]?,https://github.com/whatwg/html/issues/9068,2023-03-23T11:14:44Z,2023-03-29T05:59:34Z,delan,clarification,0
@@ -1875,7 +1875,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1224980520,false,Allow custom HTTP headers to be defined for a preload request,https://github.com/whatwg/html/issues/7887,2022-05-04T06:44:03Z,2023-02-13T11:38:42Z,yoavweiss,addition/proposal|needs implementer interest|topic: resource hints (inc. preload),0
 1223352851,true,Behavior of inline nonce/hash script if source text is modified between preparation and evaluation,https://github.com/whatwg/html/issues/7882,2022-05-02T20:57:44Z,2022-05-05T20:33:35Z,bathos,,0
 1223022771,false,Hidden attribute is no longer boolean,https://github.com/whatwg/html/issues/7881,2022-05-02T15:25:17Z,2022-05-02T15:31:39Z,scottaohara,,0
-1222247714,true,Suboptimal subheading workarounds,https://github.com/whatwg/html/issues/7879,2022-05-01T18:46:15Z,2025-12-09T08:12:21Z,jcwii,,0
+1222247714,true,Suboptimal subheading workarounds,https://github.com/whatwg/html/issues/7879,2022-05-01T18:46:15Z,2025-12-10T03:51:19Z,jcwii,,0
 1220363886,false,"Early hints: media, imagesrcset, imagesizes",https://github.com/whatwg/html/issues/7873,2022-04-29T09:38:49Z,2022-05-02T09:25:51Z,noamr,,0
 1219347893,false,More semantic way to represent the computer language in `code` element,https://github.com/whatwg/html/issues/7869,2022-04-28T21:52:58Z,2025-08-07T20:51:20Z,IgorGilyazov,addition/proposal|needs implementer interest,7
 1218728578,true,Remove UA style for h1-h6 in section (et. al.) and hgroup,https://github.com/whatwg/html/issues/7867,2022-04-28T13:25:55Z,2025-07-23T21:22:20Z,zcorpan,topic: rendering,4
@@ -1908,7 +1908,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1195606863,false,<canvas> width/height attributes can throw?,https://github.com/whatwg/html/issues/7798,2022-04-07T07:03:42Z,2022-04-15T02:43:36Z,annevk,topic: canvas,1
 1195293940,false,Require user gestures to accept registerProtocolHandler request,https://github.com/whatwg/html/issues/7797,2022-04-06T23:15:58Z,2023-01-23T00:15:11Z,javifernandez,topic: custom protocols,1
 1195246197,true,Inert subtree section is missing requirement that it should NOT be exposed to accessibility,https://github.com/whatwg/html/issues/7796,2022-04-06T22:26:44Z,2023-02-16T06:56:01Z,cookiecrook,,1
-1194256346,false,Feature proposal: input[mask],https://github.com/whatwg/html/issues/7794,2022-04-06T08:28:15Z,2025-05-19T14:48:19Z,Akxe,addition/proposal|needs implementer interest|topic: forms,8
+1194256346,false,Feature proposal: input[mask],https://github.com/whatwg/html/issues/7794,2022-04-06T08:28:15Z,2025-05-19T14:48:19Z,Akxe,addition/proposal|needs implementer interest|topic: forms,10
 1193376515,true,EvenSource BOM definition,https://github.com/whatwg/html/issues/7791,2022-04-05T15:48:34Z,2022-04-05T17:33:02Z,johntalton,clarification|topic: eventsource,0
 1192965142,false,showPicker() doesn't allow detecting whether a picker can be shown,https://github.com/whatwg/html/issues/7790,2022-04-05T10:39:32Z,2022-04-05T17:13:15Z,emilio,topic: forms,7
 1192425309,true,New feature proposal: Popover API,https://github.com/whatwg/html/issues/7785,2022-04-04T23:27:05Z,2023-03-03T15:28:53Z,mfreed7,addition/proposal,3
@@ -3964,7 +3964,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 286602432,true,meta name comparison should be explicitly ASCII case-insensitive,https://github.com/whatwg/html/issues/3332,2018-01-07T21:48:20Z,2018-03-16T03:54:46Z,domenic,clarification|good first issue,0
 286482636,true,"The definition of ""rendered legend"" should use the box tree, or at least the flat tree.",https://github.com/whatwg/html/issues/3331,2018-01-06T12:53:28Z,2018-09-19T18:04:42Z,emilio,topic: rendering|interop|topic: fieldset,0
 286478891,true,"The ""value"" attribute of <input type=""button""> should be directionality-capable",https://github.com/whatwg/html/issues/3330,2018-01-06T11:40:12Z,2023-10-24T13:29:23Z,jfkthame,normative change|topic: forms|i18n-tracker,0
-286465701,false,Feature Request: Adding a <tail> to HTML documents,https://github.com/whatwg/html/issues/3328,2018-01-06T07:06:52Z,2024-08-27T01:16:28Z,gja,addition/proposal,2
+286465701,false,Feature Request: Adding a <tail> to HTML documents,https://github.com/whatwg/html/issues/3328,2018-01-06T07:06:52Z,2025-12-10T04:01:12Z,gja,addition/proposal,2
 286355850,true,"Move stuff out of the middle of ""process a navigate response""",https://github.com/whatwg/html/issues/3327,2018-01-05T17:38:49Z,2019-02-27T18:56:13Z,domenic,clarification|topic: navigation,0
 286248858,false,Maybe standardize window.sidebar,https://github.com/whatwg/html/issues/3325,2018-01-05T10:26:06Z,2018-01-22T13:30:57Z,DavidBruant,addition/proposal|compat,0
 285974532,false,Clarify ImageBitmap's width/height,https://github.com/whatwg/html/issues/3323,2018-01-04T12:42:22Z,2018-01-26T18:31:27Z,Ms2ger,topic: canvas|interop,0
