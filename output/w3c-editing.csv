@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3716285544,false,"Safari Desktop: Adding an empty span to an otherwise empty editable element, makes the element unselectable",https://github.com/w3c/editing/issues/516,2025-12-10T18:13:49Z,2025-12-10T18:18:21Z,michael,,0
+3720299863,false,Ability to anchor a popover to the native selection rectangle using CSS Anchor Positioning,https://github.com/w3c/editing/issues/518,2025-12-11T17:26:39Z,2025-12-11T17:26:39Z,michael,,0
+3716285544,false,"Safari Desktop: Adding an empty span to an otherwise empty editable element, makes the element unselectable",https://github.com/w3c/editing/issues/516,2025-12-10T18:13:49Z,2025-12-11T13:50:05Z,michael,Agenda+,0
 3634998128,false,Safari/Chrome Desktop: Caret movement with up/down arrow keys breaks when DOM is constructed programmatically,https://github.com/w3c/editing/issues/513,2025-11-17T20:42:53Z,2025-12-10T18:16:17Z,michael,,0
 3633640035,false,Expose event.getTargetRanges() in oncompositionstart (and possibly oncompositionend as well),https://github.com/w3c/editing/issues/511,2025-11-17T14:43:53Z,2025-11-18T18:15:31Z,michael,TPAC2025,0
 3633538044,false,"Ability to rollback changes after IME, so that editors that manage their own incremental rendering can assume the same DOM as before the IME",https://github.com/w3c/editing/issues/510,2025-11-17T14:19:05Z,2025-11-26T16:22:37Z,michael,TPAC2025,0
@@ -7,24 +8,24 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3633481635,false,All browsers: Add ability to cancel character composition (IME) at the very beginning,https://github.com/w3c/editing/issues/508,2025-11-17T14:06:34Z,2025-11-17T14:44:46Z,michael,TPAC2025,0
 3633473926,false,"Safari Desktop: When aborting a soft-keyboard-driven IME, the new selection is not set",https://github.com/w3c/editing/issues/507,2025-11-17T14:04:25Z,2025-11-17T14:04:25Z,michael,,0
 3633464111,false,Safari Desktop: Autosuggest/correct only works when native contenteditable is doing the rendering,https://github.com/w3c/editing/issues/506,2025-11-17T14:01:56Z,2025-11-17T14:02:59Z,michael,,0
-3633446049,false,"Safari Desktop: When aborting a composition after pressing a dead key (e.g. `^`) in oncompositionend event.data will have `""""` while `""^""` is expected",https://github.com/w3c/editing/issues/505,2025-11-17T13:57:16Z,2025-12-10T16:46:41Z,michael,Agenda+,0
-3633441300,false,Chrome Desktop + Android: document.execCommand does not trigger a 'historyUndo' onbeforinput event after running document.execCommand('undo'),https://github.com/w3c/editing/issues/504,2025-11-17T13:55:54Z,2025-12-10T16:47:37Z,michael,Agenda+,0
+3633446049,false,"Safari Desktop: When aborting a composition after pressing a dead key (e.g. `^`) in oncompositionend event.data will have `""""` while `""^""` is expected",https://github.com/w3c/editing/issues/505,2025-11-17T13:57:16Z,2025-12-11T16:30:23Z,michael,Agenda+,0
+3633441300,false,Chrome Desktop + Android: document.execCommand does not trigger a 'historyUndo' onbeforinput event after running document.execCommand('undo'),https://github.com/w3c/editing/issues/504,2025-11-17T13:55:54Z,2025-12-11T16:33:39Z,michael,Agenda+,0
 3633432845,false,Speccing placeholders,https://github.com/w3c/editing/issues/503,2025-11-17T13:53:24Z,2025-11-17T13:54:02Z,michael,,0
 3633423984,false,Firefox: Clicking a placeholder inside a contenteditable element does not focus the element,https://github.com/w3c/editing/issues/502,2025-11-17T13:50:38Z,2025-11-17T20:12:20Z,michael,,0
 3633421635,false,Firefox: Cursor is misaligned on centered text with placeholder,https://github.com/w3c/editing/issues/501,2025-11-17T13:49:57Z,2025-11-17T20:11:21Z,michael,,0
-3633414705,false,Firefox: Empty fields with placeholder are not keyboard selectable,https://github.com/w3c/editing/issues/500,2025-11-17T13:48:04Z,2025-11-17T20:11:07Z,michael,,0
-3633409918,false,Safari Desktop: Conditional Show/ Hide of br element in contenteditable element make caret disappear,https://github.com/w3c/editing/issues/499,2025-11-17T13:46:38Z,2025-11-17T20:10:28Z,michael,,0
-3633403386,false,Safari/Chrome: Caret Rendering inconsistent with empty placeholder across browsers,https://github.com/w3c/editing/issues/498,2025-11-17T13:44:43Z,2025-11-17T20:09:39Z,michael,,0
-3633370023,false,Safari Desktop: Editing an empty `<a>` makes content leak outside the `<a>`,https://github.com/w3c/editing/issues/497,2025-11-17T13:34:52Z,2025-12-10T16:52:19Z,michael,Agenda+,0
-3633358126,false,Safari Desktop: position: relative on parent of empty text div makes content leak outside the text div.,https://github.com/w3c/editing/issues/496,2025-11-17T13:31:43Z,2025-12-10T16:52:18Z,michael,Agenda+,0
+3633414705,false,Firefox: Empty fields with placeholder are not keyboard selectable,https://github.com/w3c/editing/issues/500,2025-11-17T13:48:04Z,2025-12-12T00:49:37Z,michael,,0
+3633409918,false,Safari Desktop: Conditional Show/ Hide of br element in contenteditable element make caret disappear,https://github.com/w3c/editing/issues/499,2025-11-17T13:46:38Z,2025-12-11T14:30:42Z,michael,Agenda+,0
+3633403386,false,Safari/Chrome: Caret Rendering inconsistent with empty placeholder across browsers,https://github.com/w3c/editing/issues/498,2025-11-17T13:44:43Z,2025-12-11T14:19:55Z,michael,,0
+3633370023,false,Safari Desktop: Editing an empty `<a>` makes content leak outside the `<a>`,https://github.com/w3c/editing/issues/497,2025-11-17T13:34:52Z,2025-12-11T14:18:04Z,michael,Agenda+,0
+3633358126,false,Safari Desktop: position: relative on parent of empty text div makes content leak outside the text div.,https://github.com/w3c/editing/issues/496,2025-11-17T13:31:43Z,2025-12-11T16:09:02Z,michael,,0
 3633354874,false,Android: At onbeforeinput always fires 'deleteContentBackward' and never 'deleteWordBackward',https://github.com/w3c/editing/issues/495,2025-11-17T13:30:53Z,2025-11-17T20:03:50Z,michael,,0
-3633350373,false,Safari Desktop: `insertReplacementText` not fired,https://github.com/w3c/editing/issues/494,2025-11-17T13:29:33Z,2025-12-10T16:54:43Z,michael,Agenda+,0
-3633335276,false,Firefox: event.getTargetRanges() in beforeinput not consistent with window.getSelection(),https://github.com/w3c/editing/issues/493,2025-11-17T13:25:17Z,2025-12-10T16:54:42Z,michael,Agenda+,0
-3633327124,false,"Safari Desktop: Doesn't fire inputType 'formatBold', 'formatItalic' etc. in beforeinput",https://github.com/w3c/editing/issues/492,2025-11-17T13:22:48Z,2025-12-10T16:54:42Z,michael,Agenda+,0
-3379945555,false,Nested editing hosts do not need to be wrapped in insertParagraph,https://github.com/w3c/editing/issues/490,2025-09-03T13:48:09Z,2025-10-21T01:19:26Z,gmta,Agenda+,0
+3633350373,false,Safari Desktop: `insertReplacementText` not fired,https://github.com/w3c/editing/issues/494,2025-11-17T13:29:33Z,2025-12-11T14:09:10Z,michael,Agenda+,0
+3633335276,false,Firefox: event.getTargetRanges() in beforeinput not consistent with window.getSelection(),https://github.com/w3c/editing/issues/493,2025-11-17T13:25:17Z,2025-12-12T00:43:19Z,michael,Agenda+,0
+3633327124,true,"Safari Desktop: Doesn't fire inputType 'formatBold', 'formatItalic' etc. in beforeinput",https://github.com/w3c/editing/issues/492,2025-11-17T13:22:48Z,2025-12-11T17:53:39Z,michael,,0
+3379945555,false,Nested editing hosts do not need to be wrapped in insertParagraph,https://github.com/w3c/editing/issues/490,2025-09-03T13:48:09Z,2025-12-11T15:27:24Z,gmta,Agenda+,0
 3218956790,true,July 2025 meeting cancelled due to summer holidays,https://github.com/w3c/editing/issues/489,2025-07-10T11:24:23Z,2025-10-09T14:46:00Z,johanneswilm,,1
-3140657848,false,new document defining editing behavior - name is needed,https://github.com/w3c/editing/issues/488,2025-06-12T15:04:06Z,2025-06-12T15:04:16Z,johanneswilm,Agenda+,0
-3140017368,false,TPAC 2025 - Agenda,https://github.com/w3c/editing/issues/487,2025-06-12T12:01:05Z,2025-11-12T23:42:57Z,johanneswilm,Agenda+,0
+3140657848,true,new document defining editing behavior - name is needed,https://github.com/w3c/editing/issues/488,2025-06-12T15:04:06Z,2025-12-11T15:07:32Z,johanneswilm,,0
+3140017368,true,TPAC 2025 - Agenda,https://github.com/w3c/editing/issues/487,2025-06-12T12:01:05Z,2025-12-11T15:07:54Z,johanneswilm,,0
 3079314681,false,Canonicalize Whitespace algorithm does not respect the `white-space-collapse` CSS property,https://github.com/w3c/editing/issues/486,2025-05-21T08:01:54Z,2025-05-21T08:02:06Z,Calme1709,,0
 3049098607,false,2025 May meeting cancelled,https://github.com/w3c/editing/issues/485,2025-05-08T13:58:42Z,2025-06-12T08:29:37Z,johanneswilm,,2
 2986136650,false,Recharter the Web Editing WG,https://github.com/w3c/editing/issues/484,2025-04-10T15:53:09Z,2025-04-10T15:53:09Z,siusin,,1
