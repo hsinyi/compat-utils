@@ -8,7 +8,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3590138853,true,Element's display property affects composedPath() calculation unexpectedly,https://github.com/whatwg/dom/issues/1419,2025-11-05T09:40:47Z,2025-11-05T10:37:28Z,f820602h,,0
 3570634914,true,setAttributeNS incorrect context for validation,https://github.com/whatwg/dom/issues/1417,2025-10-30T12:51:27Z,2025-11-28T14:33:08Z,lukewarlow,,0
 3557487961,true,Autofill Event Needed,https://github.com/whatwg/dom/issues/1416,2025-10-27T15:59:12Z,2025-10-29T13:24:15Z,dujavi,,0
-3536639826,false,Allow `MutationObserver` to observe across `<slot>`s,https://github.com/whatwg/dom/issues/1415,2025-10-21T13:42:43Z,2025-10-24T00:32:03Z,jpzwarte,needs implementer interest|addition/proposal,0
+3536639826,false,Allow `MutationObserver` to observe across `<slot>`s,https://github.com/whatwg/dom/issues/1415,2025-10-21T13:42:43Z,2025-12-13T08:02:34Z,jpzwarte,needs implementer interest|addition/proposal,0
 3500716820,true,custom element registry mutability in an element,https://github.com/whatwg/dom/issues/1414,2025-10-09T21:46:04Z,2025-10-21T19:27:54Z,ja-y-son,topic: custom elements,0
 3499721346,true,Allow elements with a null customElementRegistry without Shadow DOM,https://github.com/whatwg/dom/issues/1413,2025-10-09T15:53:05Z,2025-11-25T07:42:17Z,sorvell,topic: custom elements|needs implementer interest|addition/proposal,1
 3496423284,true,Custom element registry handling on insert after adopt,https://github.com/whatwg/dom/issues/1412,2025-10-08T18:15:22Z,2025-11-14T06:18:19Z,ja-y-son,topic: custom elements,0
@@ -50,7 +50,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2742316968,true,Revamped Scoped Custom Element Registries (DOM side),https://github.com/whatwg/dom/issues/1339,2024-12-16T12:52:54Z,2025-04-14T15:51:00Z,annevk,topic: shadow|topic: custom elements|needs implementer interest|addition/proposal|topic: nodes,0
 2742257680,false,Clarify create an element assertion,https://github.com/whatwg/dom/issues/1338,2024-12-16T12:28:02Z,2024-12-19T04:06:22Z,annevk,clarification|topic: nodes,0
 2737782095,true,moveBefore() cosmetic concerns,https://github.com/whatwg/dom/issues/1335,2024-12-13T08:27:14Z,2025-03-07T14:20:55Z,annevk,topic: nodes,0
-2742770058,false,Allow `MutationObserver` to observe (certain) element property changes,https://github.com/whatwg/dom/issues/1340,2024-11-26T14:04:30Z,2025-12-12T20:31:54Z,bramus,needs implementer interest|addition/proposal|topic: nodes,2
+2742770058,false,Allow `MutationObserver` to observe (certain) element property changes,https://github.com/whatwg/dom/issues/1340,2024-11-26T14:04:30Z,2025-12-13T12:15:55Z,bramus,needs implementer interest|addition/proposal|topic: nodes,2
 2691398174,false,Missing machinery for associated Event data,https://github.com/whatwg/dom/issues/1328,2024-11-25T16:46:16Z,2025-05-29T06:12:11Z,keithamus,topic: events,0
 2675503679,true,Browsers don't throw when using replaceChild() to replace existing doctype,https://github.com/whatwg/dom/issues/1327,2024-11-20T11:14:57Z,2024-11-20T11:59:33Z,awesomekling,topic: nodes,0
 2665648875,true,"""inner invoke"" of event listener with ""once"" doesn't mark listener as ""removed""",https://github.com/whatwg/dom/issues/1323,2024-11-17T10:15:48Z,2024-11-18T09:44:05Z,awesomekling,topic: events,2
@@ -75,7 +75,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2285828515,false,`MutationObserver` flag to observe mutations in (open) shadow trees to facilitate polyfills of HTML syntax,https://github.com/whatwg/dom/issues/1287,2024-05-08T15:02:58Z,2025-11-14T23:13:41Z,LeaVerou,topic: shadow|needs implementer interest|addition/proposal,6
 2276092070,true,Proposal: elementsFromRect(),https://github.com/whatwg/dom/issues/1286,2024-05-02T17:24:16Z,2024-06-08T06:34:36Z,justinfagnani,needs implementer interest|addition/proposal,10
 2268549974,true,Proposal: SelectorObserver,https://github.com/whatwg/dom/issues/1285,2024-04-29T09:30:09Z,2024-06-10T07:00:36Z,keithamus,needs implementer interest|addition/proposal,5
-2266687616,false,`mutationObserver.disconnect({ flush: true })`,https://github.com/whatwg/dom/issues/1283,2024-04-27T01:16:32Z,2024-10-06T04:02:33Z,LeaVerou,needs implementer interest|addition/proposal|topic: nodes,2
+2266687616,false,`mutationObserver.disconnect({ flush: true })`,https://github.com/whatwg/dom/issues/1283,2024-04-27T01:16:32Z,2025-12-13T08:01:33Z,LeaVerou,needs implementer interest|addition/proposal|topic: nodes,2
 2250072811,false,Proposal AbortSignal.prototype.filter(compare),https://github.com/whatwg/dom/issues/1280,2024-04-18T08:29:14Z,2024-04-21T22:49:42Z,mariusGundersen,needs implementer interest|addition/proposal|topic: aborting,0
 2247627283,true,I can't find where inserting DocumentType nodes into Element nodes is disallowed,https://github.com/whatwg/dom/issues/1278,2024-04-17T07:51:06Z,2024-04-18T00:30:53Z,domenic,,0
 2234326330,false,Proposal: AbortSignal.none(),https://github.com/whatwg/dom/issues/1277,2024-04-09T21:26:44Z,2024-04-10T06:20:45Z,nzakas,needs implementer interest|addition/proposal|topic: aborting,0
@@ -243,7 +243,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 730252658,true,"Clarify null ""get-the-parent"" note",https://github.com/whatwg/dom/issues/908,2020-10-27T08:37:40Z,2020-12-08T18:53:47Z,benjamingr,topic: events|clarification,0
 729900008,false,NodeIterator's pre-removing steps does not match browsers,https://github.com/whatwg/dom/issues/907,2020-10-26T20:56:32Z,2025-04-07T13:29:32Z,TRowbotham,compat|topic: nodes,2
 729831439,true,Missing comma in a sentence - makes it somewhat confusing to read,https://github.com/whatwg/dom/issues/906,2020-10-26T19:08:27Z,2020-10-27T13:09:26Z,JasonTheKitten,,0
-725915817,false,Proposal: add `childFilter` option to `MutationObserverInit`,https://github.com/whatwg/dom/issues/905,2020-10-20T20:21:56Z,2020-10-23T09:40:53Z,WebReflection,needs implementer interest|addition/proposal,2
+725915817,false,Proposal: add `childFilter` option to `MutationObserverInit`,https://github.com/whatwg/dom/issues/905,2020-10-20T20:21:56Z,2025-12-13T07:11:47Z,WebReflection,needs implementer interest|addition/proposal,2
 720132986,false,Proposal - Update XPath to (at least) v2.0,https://github.com/whatwg/dom/issues/903,2020-10-13T11:15:11Z,2024-10-06T14:10:45Z,WebReflection,needs implementer interest|addition/proposal,99
 718676541,true,replaceChildren contains a step that is incorrect when node is null,https://github.com/whatwg/dom/issues/901,2020-10-10T18:31:01Z,2020-10-11T01:13:25Z,darinadler,,0
 716269478,true,Dead key symbols not included in KeyboardEvent,https://github.com/whatwg/dom/issues/900,2020-10-07T07:20:39Z,2023-03-03T11:49:36Z,CendioOssman,,0
