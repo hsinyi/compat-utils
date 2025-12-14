@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3720029201,false,[Draft] Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2025-12-11T17:41:13Z,domfarolino,agenda+,0
+3726130924,false,Fix ordering of lifecycle callbacks to match implementations,https://github.com/whatwg/html/pull/12017,2025-12-13T16:09:47Z,2025-12-13T20:17:12Z,lukewarlow,,0
+3720029201,false,[Draft] Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2025-12-14T00:57:14Z,domfarolino,agenda+,0
 3717708776,false,Skip light dismiss when opening select's picker,https://github.com/whatwg/html/pull/12008,2025-12-11T04:33:36Z,2025-12-13T00:17:13Z,josepharhar,,0
 3714324873,true,Add proposal for maxcount attribute,https://github.com/whatwg/html/pull/12005,2025-12-10T09:24:01Z,2025-12-10T12:59:11Z,milanagowda77656-cloud,invalid,0
 3706163049,false,Introduce customelementregistry global attribute,https://github.com/whatwg/html/pull/12000,2025-12-08T12:24:45Z,2025-12-12T02:43:14Z,ja-y-son,,0
@@ -150,7 +151,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3314237971,true,Remove rowspan=0 quirk,https://github.com/whatwg/html/pull/11551,2025-08-12T13:20:05Z,2025-08-14T07:16:55Z,zcorpan,,0
 3300979591,true,Remove connectedness check in script post-connection steps,https://github.com/whatwg/html/pull/11543,2025-08-07T15:31:03Z,2025-09-12T01:53:30Z,domfarolino,topic: script,0
 3297579358,false,"Move `has cross-site ancestor` to the environment, from the ESO",https://github.com/whatwg/html/pull/11540,2025-08-06T18:03:22Z,2025-12-04T17:53:15Z,bvandersloot-mozilla,,0
-3294412090,false,Change light dismiss to use click events,https://github.com/whatwg/html/pull/11536,2025-08-05T20:54:41Z,2025-12-12T23:00:39Z,josepharhar,,0
+3294412090,false,Change light dismiss to use click events,https://github.com/whatwg/html/pull/11536,2025-08-05T20:54:41Z,2025-12-13T23:15:29Z,josepharhar,,0
 3292278858,true,Don't allow the javascript: protocol in navigation.navigate(),https://github.com/whatwg/html/pull/11533,2025-08-05T09:16:45Z,2025-08-27T13:01:34Z,evilpie,normative change|topic: navigation,0
 3291533405,true,Canvas2D: Add srgb-linear and display-p3-linear to PredefinedColorSpace enum,https://github.com/whatwg/html/pull/11529,2025-08-05T04:38:31Z,2025-11-24T08:07:10Z,ccameron-chromium,addition/proposal|topic: canvas,1
 3290898664,true,Editorial: fix ending li tag,https://github.com/whatwg/html/pull/11528,2025-08-04T21:58:37Z,2025-08-05T06:20:42Z,josepharhar,,0
@@ -291,7 +292,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2937017197,true,Html,https://github.com/whatwg/html/pull/11149,2025-03-21T01:37:24Z,2025-03-21T04:06:02Z,Balaji1234551,invalid,0
 2931663923,true,Add ImageData Float16Array support,https://github.com/whatwg/html/pull/11143,2025-03-19T12:44:54Z,2025-04-25T05:38:17Z,ccameron-chromium,addition/proposal|topic: canvas,3
 2929304849,true,Update styles.css,https://github.com/whatwg/html/pull/11142,2025-03-18T17:31:17Z,2025-03-18T20:08:16Z,CyberGhost4150,invalid,0
-2925305838,false,Editorial: export Document's showing hint and auto popover lists,https://github.com/whatwg/html/pull/11140,2025-03-17T14:29:27Z,2025-03-26T03:16:27Z,lukewarlow,topic: popover,1
+2925305838,false,Editorial: export Document's showing hint and auto popover lists,https://github.com/whatwg/html/pull/11140,2025-03-17T14:29:27Z,2025-12-13T22:26:08Z,lukewarlow,topic: popover,1
 2924809039,true,"Provide ""suggestedFilename"" in ""WebDriver BiDi download started"" hook",https://github.com/whatwg/html/pull/11139,2025-03-17T12:01:01Z,2025-03-28T05:53:33Z,sadym-chromium,,0
 2923214135,true,Fix source insertion/moving/removing steps,https://github.com/whatwg/html/pull/11137,2025-03-16T17:55:37Z,2025-03-19T04:53:28Z,domfarolino,topic: img,0
 2921547397,true,Remove references to UA stylesheet in developer edition,https://github.com/whatwg/html/pull/11134,2025-03-15T00:46:32Z,2025-03-19T04:52:17Z,josepharhar,topic: rendering|dev edition,0
@@ -3800,7 +3801,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 154524736,true,Fix inaccurate stack-popping in custom element upgrades,https://github.com/whatwg/html/pull/1242,2016-05-12T16:23:18Z,2016-05-29T06:06:11Z,domenic,topic: custom elements,0
 154314928,true,Remove mentions of obsolete CR character token,https://github.com/whatwg/html/pull/1236,2016-05-11T18:48:41Z,2016-05-14T15:48:13Z,RReverser,,0
 154077401,true,Remove form.requestAutocomplete(),https://github.com/whatwg/html/pull/1227,2016-05-10T18:41:40Z,2016-05-11T19:18:19Z,domenic,removal/deprecation,1
-154065789,true,Remove <style scoped>,https://github.com/whatwg/html/pull/1226,2016-05-10T17:44:37Z,2016-05-11T19:17:17Z,domenic,removal/deprecation,1
+154065789,true,Remove <style scoped>,https://github.com/whatwg/html/pull/1226,2016-05-10T17:44:37Z,2016-05-11T19:17:17Z,domenic,removal/deprecation,2
 154022259,true,Remove MediaController and media element's mediagroup attribute,https://github.com/whatwg/html/pull/1225,2016-05-10T14:35:56Z,2016-05-11T17:40:02Z,annevk,removal/deprecation,0
 153754700,true,Formalize character reference states.,https://github.com/whatwg/html/pull/1220,2016-05-09T11:18:27Z,2016-05-16T10:43:13Z,RReverser,normative change|clarification|document conformance,0
 153706662,true,"Add definition for ""inserted into a shadow-including document""",https://github.com/whatwg/html/pull/1219,2016-05-09T05:40:06Z,2016-05-10T00:47:20Z,TakayoshiKochi,topic: shadow,0

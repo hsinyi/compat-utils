@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3726254957,false,[meta] MutationObserver improvements tracking issue,https://github.com/whatwg/dom/issues/1439,2025-12-13T18:31:56Z,2025-12-13T18:34:03Z,LeaVerou,,0
 3722164714,false,downloads.download() should be appear in the API,https://github.com/whatwg/dom/issues/1438,2025-12-12T06:23:03Z,2025-12-12T06:23:03Z,NagayamaToshiaki,needs implementer interest|addition/proposal,0
 3670099655,false,Adopting children of an intentional null shadow root goes wrong,https://github.com/whatwg/dom/issues/1429,2025-11-27T06:53:23Z,2025-12-02T09:21:50Z,annevk,needs tests|topic: nodes,0
 3666347376,false,adoptNode() needs to account for <iframe> and friends,https://github.com/whatwg/dom/issues/1428,2025-11-26T08:05:32Z,2025-11-26T08:05:42Z,annevk,topic: nodes,0
@@ -8,7 +9,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3590138853,true,Element's display property affects composedPath() calculation unexpectedly,https://github.com/whatwg/dom/issues/1419,2025-11-05T09:40:47Z,2025-11-05T10:37:28Z,f820602h,,0
 3570634914,true,setAttributeNS incorrect context for validation,https://github.com/whatwg/dom/issues/1417,2025-10-30T12:51:27Z,2025-11-28T14:33:08Z,lukewarlow,,0
 3557487961,true,Autofill Event Needed,https://github.com/whatwg/dom/issues/1416,2025-10-27T15:59:12Z,2025-10-29T13:24:15Z,dujavi,,0
-3536639826,false,Allow `MutationObserver` to observe across `<slot>`s,https://github.com/whatwg/dom/issues/1415,2025-10-21T13:42:43Z,2025-12-13T08:02:34Z,jpzwarte,needs implementer interest|addition/proposal,0
+3536639826,false,Allow `MutationObserver` to observe across `<slot>`s,https://github.com/whatwg/dom/issues/1415,2025-10-21T13:42:43Z,2025-12-13T17:29:02Z,jpzwarte,needs implementer interest|addition/proposal,0
 3500716820,true,custom element registry mutability in an element,https://github.com/whatwg/dom/issues/1414,2025-10-09T21:46:04Z,2025-10-21T19:27:54Z,ja-y-son,topic: custom elements,0
 3499721346,true,Allow elements with a null customElementRegistry without Shadow DOM,https://github.com/whatwg/dom/issues/1413,2025-10-09T15:53:05Z,2025-11-25T07:42:17Z,sorvell,topic: custom elements|needs implementer interest|addition/proposal,1
 3496423284,true,Custom element registry handling on insert after adopt,https://github.com/whatwg/dom/issues/1412,2025-10-08T18:15:22Z,2025-11-14T06:18:19Z,ja-y-son,topic: custom elements,0
@@ -51,7 +52,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2742257680,false,Clarify create an element assertion,https://github.com/whatwg/dom/issues/1338,2024-12-16T12:28:02Z,2024-12-19T04:06:22Z,annevk,clarification|topic: nodes,0
 2737782095,true,moveBefore() cosmetic concerns,https://github.com/whatwg/dom/issues/1335,2024-12-13T08:27:14Z,2025-03-07T14:20:55Z,annevk,topic: nodes,0
 2742770058,false,Allow `MutationObserver` to observe (certain) element property changes,https://github.com/whatwg/dom/issues/1340,2024-11-26T14:04:30Z,2025-12-13T12:15:55Z,bramus,needs implementer interest|addition/proposal|topic: nodes,2
-2691398174,false,Missing machinery for associated Event data,https://github.com/whatwg/dom/issues/1328,2024-11-25T16:46:16Z,2025-05-29T06:12:11Z,keithamus,topic: events,0
+2691398174,false,Missing machinery for associated Event data,https://github.com/whatwg/dom/issues/1328,2024-11-25T16:46:16Z,2025-12-13T22:22:08Z,keithamus,topic: events,0
 2675503679,true,Browsers don't throw when using replaceChild() to replace existing doctype,https://github.com/whatwg/dom/issues/1327,2024-11-20T11:14:57Z,2024-11-20T11:59:33Z,awesomekling,topic: nodes,0
 2665648875,true,"""inner invoke"" of event listener with ""once"" doesn't mark listener as ""removed""",https://github.com/whatwg/dom/issues/1323,2024-11-17T10:15:48Z,2024-11-18T09:44:05Z,awesomekling,topic: events,2
 2638019568,false,"Define iteration order of inclusive ancestors in ""remove""",https://github.com/whatwg/dom/issues/1322,2024-11-06T12:56:02Z,2024-11-06T12:56:03Z,zcorpan,,0
