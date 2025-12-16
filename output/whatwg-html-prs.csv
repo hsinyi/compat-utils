@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 3726130924,false,Fix ordering of lifecycle callbacks to match implementations,https://github.com/whatwg/html/pull/12017,2025-12-13T16:09:47Z,2025-12-14T08:59:28Z,lukewarlow,,0
 3720029201,false,[Draft] Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2025-12-14T10:38:30Z,domfarolino,agenda+,0
-3717708776,false,Skip light dismiss when opening select's picker,https://github.com/whatwg/html/pull/12008,2025-12-11T04:33:36Z,2025-12-13T00:17:13Z,josepharhar,,0
+3717708776,false,Skip light dismiss when opening select's picker,https://github.com/whatwg/html/pull/12008,2025-12-11T04:33:36Z,2025-12-15T20:20:41Z,josepharhar,,0
 3714324873,true,Add proposal for maxcount attribute,https://github.com/whatwg/html/pull/12005,2025-12-10T09:24:01Z,2025-12-10T12:59:11Z,milanagowda77656-cloud,invalid,0
 3706163049,false,Introduce customelementregistry global attribute,https://github.com/whatwg/html/pull/12000,2025-12-08T12:24:45Z,2025-12-12T02:43:14Z,ja-y-son,,0
 3703517492,true,"Editorial: Fix typo in WindowOrWorkerGlobalScope's ""extract an origin""",https://github.com/whatwg/html/pull/11998,2025-12-07T13:54:40Z,2025-12-08T06:01:49Z,shannonbooth,,0
@@ -77,7 +77,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3493093695,true,Improve behavior for parsing option end tags,https://github.com/whatwg/html/pull/11764,2025-10-07T21:25:50Z,2025-10-13T17:15:39Z,josepharhar,,1
 3492979858,true,Editorial: split multi-<code> <pre>s into individual <pre><code>,https://github.com/whatwg/html/pull/11763,2025-10-07T20:46:12Z,2025-10-08T07:31:49Z,foolip,,0
 3492316993,true,"Navigation API: pass argument instead of a global ""upcoming method tracker""",https://github.com/whatwg/html/pull/11762,2025-10-07T17:12:31Z,2025-10-20T13:20:58Z,noamr,,0
-3489512245,false,Define base appearance for list box select elements,https://github.com/whatwg/html/pull/11758,2025-10-07T00:07:43Z,2025-12-11T18:31:05Z,josepharhar,,0
+3489512245,true,Define base appearance for list box select elements,https://github.com/whatwg/html/pull/11758,2025-10-07T00:07:43Z,2025-12-15T21:24:55Z,josepharhar,,0
 3488477586,true,"Remove incorrect usages of link options destination",https://github.com/whatwg/html/pull/11757,2025-10-06T18:13:13Z,2025-10-10T08:55:03Z,TimvdLippe,,0
 3484788647,false,Add id attribute to DOM clobbering note,https://github.com/whatwg/html/pull/11754,2025-10-05T13:03:10Z,2025-10-05T13:04:41Z,adi-ray,,0
 3482998078,true,Editorial: fix typo “nulll” should be “null”,https://github.com/whatwg/html/pull/11748,2025-10-04T00:54:17Z,2025-10-04T09:59:53Z,JinDX,,0
@@ -156,7 +156,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3291533405,true,Canvas2D: Add srgb-linear and display-p3-linear to PredefinedColorSpace enum,https://github.com/whatwg/html/pull/11529,2025-08-05T04:38:31Z,2025-11-24T08:07:10Z,ccameron-chromium,addition/proposal|topic: canvas,1
 3290898664,true,Editorial: fix ending li tag,https://github.com/whatwg/html/pull/11528,2025-08-04T21:58:37Z,2025-08-05T06:20:42Z,josepharhar,,0
 3285874404,true,Add paragraph to hgroup children in indices table,https://github.com/whatwg/html/pull/11524,2025-08-02T12:03:48Z,2025-08-19T06:13:06Z,TrySound,document conformance,0
-3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-12-11T14:34:33Z,ffiori,,0
+3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-12-15T22:26:01Z,ffiori,,0
 3280953563,false,Imply [Reflect] when [ReflectRange] or [ReflectDefault] are used.,https://github.com/whatwg/html/pull/11518,2025-07-31T15:49:27Z,2025-08-26T15:59:08Z,lukewarlow,,0
 3280885144,true,Remove support ElementInternals reflection flag,https://github.com/whatwg/html/pull/11517,2025-07-31T15:27:38Z,2025-08-22T00:41:19Z,lukewarlow,,0
 3279388233,true,Editorial: clarify worker lifetime definitions,https://github.com/whatwg/html/pull/11515,2025-07-31T07:15:41Z,2025-08-19T05:43:54Z,domenic,clarification|topic: workers,0
@@ -169,7 +169,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3272617801,false,Update Twitter links to point to `x.com` to avoid redirect,https://github.com/whatwg/html/pull/11501,2025-07-29T08:16:01Z,2025-07-30T22:43:04Z,MrStarfleetCommand,,0
 3270291886,true,"Editorial: Fix variable naming in ""focus another option""",https://github.com/whatwg/html/pull/11495,2025-07-28T15:06:15Z,2025-07-29T04:03:59Z,josepharhar,topic: select,0
 3268259981,true,Explain that http-equiv has nothing to do with HTTP headers,https://github.com/whatwg/html/pull/11494,2025-07-28T06:04:34Z,2025-07-28T06:55:59Z,domenic,clarification,0
-3265195113,true,"Update 4.6.7.9 Link type ""icon"" html example.",https://github.com/whatwg/html/pull/11492,2025-07-26T06:22:56Z,2025-07-26T10:30:49Z,zoltan-konder,invalid,0
+3265195113,true,"Update 4.6.7.9 Link type ""icon"" html example.",https://github.com/whatwg/html/pull/11492,2025-07-26T06:22:56Z,2025-07-26T10:30:49Z,ghost,invalid,0
 3263247523,true,My first edit after forking,https://github.com/whatwg/html/pull/11490,2025-07-25T13:30:50Z,2025-07-26T05:19:36Z,jagadishkasarla,invalid,0
 3263229031,true,My first edit after forking,https://github.com/whatwg/html/pull/11489,2025-07-25T13:24:03Z,2025-07-26T05:19:25Z,jagadishkasarla,invalid,0
 3261575294,false,Update link to ARIA accessible name definition,https://github.com/whatwg/html/pull/11486,2025-07-25T00:19:06Z,2025-08-03T11:47:25Z,513ry,,0
