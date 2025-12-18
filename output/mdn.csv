@@ -1250,6 +1250,7 @@ api/CredentialsContainer/get/identity_option/providers_multiple,,,,136,,,,true,t
 api/CredentialsContainer/get/identity_option/providers_option_domainHint,,,,123,,,,true,true,false,https://w3c-fedid.github.io/FedCM/#dom-identityproviderrequestoptions-domainhint,UNKNOWN
 api/CredentialsContainer/get/identity_option/providers_option_fields,,,,132,,,,true,true,false,https://w3c-fedid.github.io/FedCM/#dom-identityproviderrequestoptions-fields,UNKNOWN
 api/CredentialsContainer/get/identity_option/providers_option_loginHint,,,,116,,,,true,true,false,https://w3c-fedid.github.io/FedCM/#dom-identityproviderrequestoptions-loginhint,UNKNOWN
+api/CredentialsContainer/get/identity_option/providers_option_nonce,,,,108,,,,false,false,true,,NONE
 api/CredentialsContainer/get/identity_option/providers_option_params,,,,132,,,,true,true,false,https://w3c-fedid.github.io/FedCM/#dom-identityproviderrequestoptions-params,UNKNOWN
 api/CredentialsContainer/get/otp_option,,,,93,,,,true,true,false,https://wicg.github.io/web-otp/#dom-credentialrequestoptions-otp,W3CCG
 api/CredentialsContainer/get/publicKey_option,,60,,67,,13,,false,true,false,https://w3c.github.io/webauthn/#sctn-credentialrequestoptions-extension,W3C
@@ -1752,7 +1753,7 @@ api/Document/resume_event,,,,68,,,,true,true,false,https://wicg.github.io/page-l
 api/Document/rootElement,,52,,34,,10.1,,false,true,true,https://svgwg.org/svg2-draft/struct.html#__svg__SVGDocument__rootElement,W3C
 api/Document/scripts,,61,,36,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-document-scripts-dev,WHATWG
 api/Document/scroll_event,,6,,1,,2,,false,true,false,https://drafts.csswg.org/cssom-view/#eventdef-document-scroll,W3C
-api/Document/scrollend_event,,109,,114,,preview,,false,true,false,https://drafts.csswg.org/cssom-view/#eventdef-document-scrollend,W3C
+api/Document/scrollend_event,,109,,114,,26.2,,false,true,false,https://drafts.csswg.org/cssom-view/#eventdef-document-scrollend,W3C
 api/Document/scrollingElement,,48,,44,,9,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-document-scrollingelement,W3C
 api/Document/scrollsnapchange_event,,,,129,,,,true,true,false,https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchange,W3C
 api/Document/scrollsnapchanging_event,,,,129,,,,true,true,false,https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchanging,W3C
@@ -2091,7 +2092,7 @@ api/Element/scrollTop,,1,,1,,1,,false,true,false,https://drafts.csswg.org/cssom-
 api/Element/scrollTopMax,,16,,,,,,false,false,false,,NONE
 api/Element/scrollWidth,,1,,1,,1,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-element-scrollwidth,W3C
 api/Element/scroll_event,,6,,1,,1.3,,false,true,false,https://drafts.csswg.org/cssom-view/#eventdef-document-scroll,W3C
-api/Element/scrollend_event,,109,,114,,preview,,false,true,false,https://drafts.csswg.org/cssom-view/#eventdef-document-scrollend,W3C
+api/Element/scrollend_event,,109,,114,,26.2,,false,true,false,https://drafts.csswg.org/cssom-view/#eventdef-document-scrollend,W3C
 api/Element/scrollsnapchange_event,,,,129,,,,true,true,false,https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchange,W3C
 api/Element/scrollsnapchanging_event,,,,129,,,,true,true,false,https://drafts.csswg.org/css-scroll-snap-2/#scrollsnapchanging,W3C
 api/Element/securitypolicyviolation_event,,63,,41,,10,,false,true,false,https://w3c.github.io/webappsec-csp/#eventdef-globaleventhandlers-securitypolicyviolation,W3C
@@ -3014,7 +3015,7 @@ api/HTMLBodyElement/vLink,,1,,1,,3,,false,true,true,https://html.spec.whatwg.org
 api/HTMLButtonElement,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#htmlbuttonelement,WHATWG
 api/HTMLButtonElement/checkValidity,,4,,4,,5,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-checkvalidity-dev,WHATWG
 api/HTMLButtonElement/command,,144,,135,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-command,WHATWG
-api/HTMLButtonElement/command/request-close,,144,,139,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-request-close,WHATWG
+api/HTMLButtonElement/command/request-close,,144,,139,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-request-close,WHATWG
 api/HTMLButtonElement/commandForElement,,144,,135,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-commandforelement,WHATWG
 api/HTMLButtonElement/disabled,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fe-disabled,WHATWG
 api/HTMLButtonElement/form,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fae-form-dev,WHATWG
@@ -4238,10 +4239,10 @@ api/LargestContentfulPaint,,122,,77,,26.2,,false,true,false,https://w3c.github.i
 api/LargestContentfulPaint/element,,122,,77,,26.2,,false,true,false,https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-element,W3C
 api/LargestContentfulPaint/id,,122,,77,,26.2,,false,true,false,https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-id,W3C
 api/LargestContentfulPaint/loadTime,,122,,77,,26.2,,false,true,false,https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-loadtime,W3C
-api/LargestContentfulPaint/paintTime,,140,,,,26.2,,false,true,false,https://w3c.github.io/paint-timing/#dom-painttimingmixin-painttime,W3C
-api/LargestContentfulPaint/presentationTime,,140,,,,26.2,,false,true,false,https://w3c.github.io/paint-timing/#dom-painttimingmixin-presentationtime,W3C
+api/LargestContentfulPaint/paintTime,,140,,134,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",26.2,,false,true,false,https://w3c.github.io/paint-timing/#dom-painttimingmixin-painttime,W3C
+api/LargestContentfulPaint/presentationTime,,140,,134,"[{""name"":""enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""enabled""}]",26.2,,false,true,false,https://w3c.github.io/paint-timing/#dom-painttimingmixin-presentationtime,W3C
 api/LargestContentfulPaint/renderTime,,122,,77,,26.2,,false,true,false,https://w3c.github.io/largest-contentful-paint/#ref-for-dom-largestcontentfulpaint-rendertime,W3C
-api/LargestContentfulPaint/renderTime/cross-origin,,141,,133,,,,false,true,false,,NONE
+api/LargestContentfulPaint/renderTime/cross-origin,,141,,133,,26.2,,false,true,false,,NONE
 api/LargestContentfulPaint/size,,122,,77,,26.2,,false,true,false,https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-size,W3C
 api/LargestContentfulPaint/toJSON,,122,,77,,26.2,,false,true,false,https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-tojson,W3C
 api/LargestContentfulPaint/url,,122,,77,,26.2,,false,true,false,https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-url,W3C
@@ -6606,7 +6607,7 @@ api/Request/clone,,39,,40,,10.1,,false,true,false,https://fetch.spec.whatwg.org/
 api/Request/credentials,,39,,40,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-request-credentials②,WHATWG
 api/Request/credentials/default_same-origin,,61,,72,,12.1,,false,true,false,,NONE
 api/Request/destination,,61,,65,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-request-destination①,WHATWG
-api/Request/destination/speculationrules,,,,121,,,,true,true,false,,NONE
+api/Request/destination/speculationrules,,,,121,,26.2,"[{""name"":""SpeculationRules prefetch"",""type"":""preference""}]",true,true,false,,NONE
 api/Request/duplex,,,,131,,,,true,true,false,https://fetch.spec.whatwg.org/#dom-request-duplex,WHATWG
 api/Request/formData,,39,,60,,14.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-body-formdata①,WHATWG
 api/Request/headers,,39,,40,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-request-headers②,WHATWG
@@ -13153,17 +13154,17 @@ css/types/attr/type_function,,,,133,,,,true,true,false,https://drafts.csswg.org/
 css/types/attr/type_function/angle,,,,133,,,,true,true,false,https://drafts.csswg.org/css-values-4/#angles,W3C
 css/types/attr/type_function/color,,,,133,,,,true,true,false,https://drafts.csswg.org/css-color/#color-syntax,W3C
 css/types/attr/type_function/custom-ident,,,,133,,,,true,true,false,https://drafts.csswg.org/css-values/#custom-idents,W3C
-css/types/attr/type_function/ident,,,,,,,,true,true,false,https://drafts.csswg.org/css-values/#typedef-ident,W3C
-css/types/attr/type_function/image,,,,,,,,true,true,false,https://drafts.csswg.org/css-images/#image-values,W3C
+css/types/attr/type_function/ident,,,,133,,,,true,true,false,https://drafts.csswg.org/css-values/#typedef-ident,W3C
+css/types/attr/type_function/image,,,,133,,,,true,true,false,https://drafts.csswg.org/css-images/#image-values,W3C
 css/types/attr/type_function/integer,,,,133,,,,true,true,false,https://drafts.csswg.org/css-values/#integers,W3C
 css/types/attr/type_function/length,,,,133,,,,true,true,false,https://drafts.csswg.org/css-values/#lengths,W3C
-css/types/attr/type_function/length-percentage,,,,,,,,true,true,false,https://drafts.csswg.org/css-values/#mixed-percentages,W3C
+css/types/attr/type_function/length-percentage,,,,133,,,,true,true,false,https://drafts.csswg.org/css-values/#mixed-percentages,W3C
 css/types/attr/type_function/number,,,,133,,,,true,true,false,https://drafts.csswg.org/css-values/#numbers,W3C
 css/types/attr/type_function/percentage,,,,133,,,,true,true,false,https://drafts.csswg.org/css-values/#percentages,W3C
-css/types/attr/type_function/resolution,,,,,,,,true,true,false,https://drafts.csswg.org/css-values/#resolution,W3C
+css/types/attr/type_function/resolution,,,,133,,,,true,true,false,https://drafts.csswg.org/css-values/#resolution,W3C
 css/types/attr/type_function/string,,,,133,,,,true,true,false,https://drafts.csswg.org/css-values/#strings,W3C
 css/types/attr/type_function/time,,,,133,,,,true,true,false,https://drafts.csswg.org/css-values/#time,W3C
-css/types/attr/type_function/transform-function,,,,,,,,true,true,false,https://drafts.csswg.org/css-transforms-2/#transform-functions,W3C
+css/types/attr/type_function/transform-function,,,,133,,,,true,true,false,https://drafts.csswg.org/css-transforms-2/#transform-functions,W3C
 css/types/attr/type_function/url,,,,133,,,,true,true,false,https://drafts.csswg.org/css-values/#url-value,W3C
 css/types/basic-shape,,54,,37,,10.1,,false,true,false,https://drafts.csswg.org/css-shapes/#basic-shape-functions,W3C
 css/types/basic-shape/animation,,54,,37,,10.1,,false,true,false,,NONE
@@ -13389,7 +13390,7 @@ css/types/position,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-value
 css/types/position/four_value_syntax,,13,,25,,7,,false,true,false,,NONE
 css/types/position/keyword_value_syntax,,1,,1,,1,,false,true,false,,NONE
 css/types/pow,,118,,120,,15.4,,false,true,false,https://drafts.csswg.org/css-values/#exponent-funcs,W3C
-css/types/progress,,,,138,,,,true,true,false,https://drafts.csswg.org/css-values-5/#progress,W3C
+css/types/progress,,,,138,,26,,false,true,false,https://drafts.csswg.org/css-values-5/#progress,W3C
 css/types/ratio,,3.5,,3,,5,,false,true,false,https://drafts.csswg.org/mediaqueries/#values,W3C
 css/types/ratio/number_value,,78,,,,,,true,true,false,,NONE
 css/types/ray,,122,,116,,16,,false,true,false,https://drafts.fxtf.org/motion/#ray-function,W3C
@@ -13535,7 +13536,7 @@ html/elements/br,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipa
 html/elements/br/clear,,1,,1,,≤4,,false,true,true,,NONE
 html/elements/button,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element,WHATWG
 html/elements/button/command,,144,,135,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command,WHATWG
-html/elements/button/command/request-close,,144,,139,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-request-close,WHATWG
+html/elements/button/command/request-close,,144,,139,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-request-close,WHATWG
 html/elements/button/commandfor,,144,,135,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-commandfor,WHATWG
 html/elements/button/disabled,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-disabled,WHATWG
 html/elements/button/form,,4,,9,,5.1,,false,true,false,,NONE
@@ -13584,6 +13585,7 @@ html/elements/del/datetime,,1,,1,,3,,false,true,false,,NONE
 html/elements/details,,49,,12,,6,,false,true,false,https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element,WHATWG
 html/elements/details/name,,130,,120,,17.2,,false,true,false,,NONE
 html/elements/details/open,,49,,12,,6,,false,true,false,,NONE
+html/elements/details/search_match_opens,,139,,97,,26.2,,false,true,false,,NONE
 html/elements/dfn,,1,,15,,6,,false,true,false,https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-dfn-element,WHATWG
 html/elements/dialog,,98,,37,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element,WHATWG
 html/elements/dialog/closedby,,141,,134,,,,false,true,false,https://html.spec.whatwg.org/multipage/interactive-elements.html#attr-dialog-closedby,WHATWG
@@ -13996,20 +13998,20 @@ html/elements/script/type/importmap,,108,,89,,16.4,,false,true,false,https://htm
 html/elements/script/type/importmap/integrity,,138,,127,,18,,false,true,false,https://html.spec.whatwg.org/multipage/webappapis.html#normalizing-a-module-integrity-map,WHATWG
 html/elements/script/type/importmap/multiple_import_maps,,,,133,,18.4,,false,true,false,https://html.spec.whatwg.org/multipage/webappapis.html#:~:text=multiple%20import%20maps,WHATWG
 html/elements/script/type/module,,60,,61,,10.1,,false,true,false,,NONE
-html/elements/script/type/speculationrules,,,,109,,,,true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading,WHATWG
-html/elements/script/type/speculationrules/eagerness,,,,121,,,,true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rule-eagerness,WHATWG
+html/elements/script/type/speculationrules,,,,109,,26.2,"[{""name"":""SpeculationRules prefetch"",""type"":""preference""}]",true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#speculative-loading,WHATWG
+html/elements/script/type/speculationrules/eagerness,,,,121,,26.2,"[{""name"":""SpeculationRules prefetch"",""type"":""preference""}]",true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rule-eagerness,WHATWG
 html/elements/script/type/speculationrules/expects_no_vary_search,,,,127,,,,true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#valid-speculation-rule:~:text=%22expects_no_vary_search%22%20key,WHATWG
-html/elements/script/type/speculationrules/prefetch,,,,110,,,,true,true,false,"https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rule-set-authoring-requirements:~:text=keys%20%22tag%22%2C-,%22prefetch%22,-and%20%22prerender",WHATWG
+html/elements/script/type/speculationrules/prefetch,,,,110,,26.2,"[{""name"":""SpeculationRules prefetch"",""type"":""preference""}]",true,true,false,"https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rule-set-authoring-requirements:~:text=keys%20%22tag%22%2C-,%22prefetch%22,-and%20%22prerender",WHATWG
 html/elements/script/type/speculationrules/prerender,,,,105,,,,true,true,false,https://wicg.github.io/nav-speculation/prerendering.html#speculation-rules,W3CCG
-html/elements/script/type/speculationrules/referrer_policy,,,,111,,,,true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#valid-speculation-rule:~:text=%22referrer_policy%22%20key,WHATWG
-html/elements/script/type/speculationrules/relative_to,,,,121,,,,true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#valid-speculation-rule:~:text=%20to%20the%20%22relative_to%22%20key,WHATWG
+html/elements/script/type/speculationrules/referrer_policy,,,,111,,26.2,"[{""name"":""SpeculationRules prefetch"",""type"":""preference""}]",true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#valid-speculation-rule:~:text=%22referrer_policy%22%20key,WHATWG
+html/elements/script/type/speculationrules/relative_to,,,,121,,26.2,"[{""name"":""SpeculationRules prefetch"",""type"":""preference""}]",true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#valid-speculation-rule:~:text=%20to%20the%20%22relative_to%22%20key,WHATWG
 html/elements/script/type/speculationrules/requires,,,,110,,,,true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rule-requirement,WHATWG
 html/elements/script/type/speculationrules/requires/anonymous-client-ip-when-cross-origin,,,,110,,,,true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rule-requirement,WHATWG
-html/elements/script/type/speculationrules/source_optional,,,,122,,,,true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#valid-speculation-rule:~:text=%22source%22%20key,WHATWG
-html/elements/script/type/speculationrules/tag,,,,136,,,,true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rule-tag,WHATWG
+html/elements/script/type/speculationrules/source_optional,,,,122,,26.2,"[{""name"":""SpeculationRules prefetch"",""type"":""preference""}]",true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#valid-speculation-rule:~:text=%22source%22%20key,WHATWG
+html/elements/script/type/speculationrules/tag,,,,136,,26.2,"[{""name"":""SpeculationRules prefetch"",""type"":""preference""}]",true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#speculation-rule-tag,WHATWG
 html/elements/script/type/speculationrules/target_hint,,,,138,,,,true,true,false,"https://wicg.github.io/nav-speculation/prerendering.html#:~:text=Let-,targetHint,-be%20null.",W3CCG
-html/elements/script/type/speculationrules/urls,,,,109,,,,true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#valid-speculation-rule:~:text=%22urls%22%20key,WHATWG
-html/elements/script/type/speculationrules/where,,,,121,,,,true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#valid-document-rule-predicate,WHATWG
+html/elements/script/type/speculationrules/urls,,,,109,,26.2,"[{""name"":""SpeculationRules prefetch"",""type"":""preference""}]",true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#valid-speculation-rule:~:text=%22urls%22%20key,WHATWG
+html/elements/script/type/speculationrules/where,,,,121,,26.2,"[{""name"":""SpeculationRules prefetch"",""type"":""preference""}]",true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#valid-document-rule-predicate,WHATWG
 html/elements/search,,118,,118,,17,,false,true,false,https://html.spec.whatwg.org/multipage/grouping-content.html#the-search-element,WHATWG
 html/elements/section,,4,,5,,5,,false,true,false,https://html.spec.whatwg.org/multipage/sections.html#the-section-element,WHATWG
 html/elements/select,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element,WHATWG
@@ -14209,7 +14211,9 @@ http/headers/Accept,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.
 http/headers/Accept-CH,,,,46,,,,false,true,false,https://www.rfc-editor.org/rfc/rfc8942#section-3.1,UNKNOWN
 http/headers/Accept-CH/Content-DPR,,,,46,,,,false,false,true,,NONE
 http/headers/Accept-CH/DPR,,,,46,,,,false,false,true,,NONE
-http/headers/Accept-CH/Device-Memory,,,,61,,,,true,true,false,,NONE
+http/headers/Accept-CH/Device-Memory,,,,61,,,,false,false,true,,NONE
+http/headers/Accept-CH/Sec-CH-DPR,,,,97,,,,true,true,false,https://wicg.github.io/responsive-image-client-hints/#sec-ch-dpr,W3CCG
+http/headers/Accept-CH/Sec-CH-Device-Memory,,,,97,,,,true,true,false,https://www.w3.org/TR/device-memory/#iana-device-memory,W3C
 http/headers/Accept-CH/Sec-CH-UA,,,,89,,,,true,true,false,,NONE
 http/headers/Accept-CH/Sec-CH-UA-Arch,,,,89,,,,true,true,false,,NONE
 http/headers/Accept-CH/Sec-CH-UA-Full-Version,,,,89,,,,true,true,false,,NONE
@@ -14217,6 +14221,8 @@ http/headers/Accept-CH/Sec-CH-UA-Mobile,,,,89,,,,true,true,false,,NONE
 http/headers/Accept-CH/Sec-CH-UA-Model,,,,89,,,,true,true,false,,NONE
 http/headers/Accept-CH/Sec-CH-UA-Platform,,,,89,,,,true,true,false,,NONE
 http/headers/Accept-CH/Sec-CH-UA-Platform-Version,,,,89,,,,true,true,false,,NONE
+http/headers/Accept-CH/Sec-CH-Viewport-Height,,,,105,,,,true,true,false,https://wicg.github.io/responsive-image-client-hints/#sec-ch-viewport-height,W3CCG
+http/headers/Accept-CH/Sec-CH-Viewport-Width,,,,97,,,,true,true,false,https://wicg.github.io/responsive-image-client-hints/#sec-ch-viewport-width,W3CCG
 http/headers/Accept-CH/Viewport-Width,,,,46,,,,false,false,true,,NONE
 http/headers/Accept-CH/Width,,,,46,,,,false,false,true,,NONE
 http/headers/Accept-Encoding,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.accept-encoding,IETF
@@ -14305,7 +14311,7 @@ http/headers/Content-Security-Policy/require-trusted-types-for,,preview,,83,,26,
 http/headers/Content-Security-Policy/sandbox,,50,,25,,7,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-sandbox,W3C
 http/headers/Content-Security-Policy/script-src,,23,,25,,7,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-script-src,W3C
 http/headers/Content-Security-Policy/script-src/external_scripts,,116,,59,,15.6,,false,true,false,https://w3c.github.io/webappsec-csp/#external-hash,W3C
-http/headers/Content-Security-Policy/script-src/inline-speculation-rules,,,,110,,,,true,true,false,,NONE
+http/headers/Content-Security-Policy/script-src/inline-speculation-rules,,,,110,,26.2,"[{""name"":""SpeculationRules prefetch"",""type"":""preference""}]",true,true,false,,NONE
 http/headers/Content-Security-Policy/script-src/trusted-types-eval,,preview,,,,26,,true,true,false,https://w3c.github.io/webappsec-csp/#grammardef-trusted-types-eval,W3C
 http/headers/Content-Security-Policy/script-src/wasm-unsafe-eval,,102,,97,,16,,false,true,false,,NONE
 http/headers/Content-Security-Policy/script-src-attr,,108,,75,,15.4,,false,true,false,https://w3c.github.io/webappsec-csp/#directive-script-src-attr,W3C
@@ -14333,7 +14339,7 @@ http/headers/Cross-Origin-Resource-Policy,,74,,73,,12,,false,true,false,https://
 http/headers/DNT,,4,,23,,6,,false,false,true,,NONE
 http/headers/DPR,,,,46,,,,false,false,true,,NONE
 http/headers/Date,,1,,1,,1,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.date,IETF
-http/headers/Device-Memory,,,,61,,,,false,true,false,https://www.w3.org/TR/device-memory/#iana-device-memory,W3C
+http/headers/Device-Memory,,,,61,,,,false,false,true,,NONE
 http/headers/Dictionary-ID,,,,130,,,,true,true,false,https://www.rfc-editor.org/rfc/rfc9842#name-dictionary-id,UNKNOWN
 http/headers/Downlink,,,,67,,,,true,true,false,https://wicg.github.io/netinfo/#downlink-request-header-field,W3CCG
 http/headers/ECT,,,,67,,,,true,true,false,https://wicg.github.io/netinfo/#ect-request-header-field,W3CCG
@@ -14468,6 +14474,8 @@ http/headers/Reporting-Endpoints,,130,"[{""name"":""dom.reporting.enabled"",""ty
 http/headers/Retry-After,,,,24,,,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.retry-after,IETF
 http/headers/Save-Data,,,,49,,,,true,true,false,https://wicg.github.io/savedata/#save-data-request-header-field,W3CCG
 http/headers/Sec-Browsing-Topics,,,,115,,,,false,false,true,,NONE
+http/headers/Sec-CH-DPR,,,,97,,,,true,true,false,https://wicg.github.io/responsive-image-client-hints/#sec-ch-dpr,W3CCG
+http/headers/Sec-CH-Device-Memory,,,,97,,,,true,true,false,https://www.w3.org/TR/device-memory/#iana-device-memory,W3C
 http/headers/Sec-CH-Prefers-Color-Scheme,,,,93,,,,true,true,false,https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-color-scheme,W3CCG
 http/headers/Sec-CH-Prefers-Reduced-Motion,,,,108,,,,true,true,false,https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-reduced-motion,W3CCG
 http/headers/Sec-CH-Prefers-Reduced-Transparency,,,,119,,,,true,true,false,https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-reduced-transparency,W3CCG
@@ -14482,6 +14490,8 @@ http/headers/Sec-CH-UA-Model,,,,89,,,,true,true,false,https://wicg.github.io/ua-
 http/headers/Sec-CH-UA-Platform,,,,89,,,,true,true,false,https://wicg.github.io/ua-client-hints/#sec-ch-ua-platform,W3CCG
 http/headers/Sec-CH-UA-Platform-Version,,,,89,,,,true,true,false,https://wicg.github.io/ua-client-hints/#sec-ch-ua-platform-version,W3CCG
 http/headers/Sec-CH-UA-WoW64,,,,100,,,,true,true,false,https://wicg.github.io/ua-client-hints/#sec-ch-ua-wow64,W3CCG
+http/headers/Sec-CH-Viewport-Height,,,,105,,,,true,true,false,https://wicg.github.io/responsive-image-client-hints/#sec-ch-viewport-height,W3CCG
+http/headers/Sec-CH-Viewport-Width,,,,97,,,,true,true,false,https://wicg.github.io/responsive-image-client-hints/#sec-ch-viewport-width,W3CCG
 http/headers/Sec-Fetch-Dest,,90,,80,,16.4,,false,true,false,https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-dest-header,W3C
 http/headers/Sec-Fetch-Dest/fencedframe,,,,126,,,,true,true,false,,NONE
 http/headers/Sec-Fetch-Mode,,90,,76,,16.4,,false,true,false,https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-mode-header,W3C
@@ -14494,9 +14504,9 @@ http/headers/Sec-Private-State-Token-Crypto-Version,,,,117,,,,true,true,false,ht
 http/headers/Sec-Private-State-Token-Lifetime,,,,117,,,,true,true,false,https://wicg.github.io/trust-token-api/#sec-private-state-token-lifetime,W3CCG
 http/headers/Sec-Purpose,,115,,110,,,,false,true,false,https://fetch.spec.whatwg.org/#sec-purpose-header,WHATWG
 http/headers/Sec-Purpose/prefetch,,115,,,,,,false,true,false,,NONE
-http/headers/Sec-Purpose/speculationrules,,,,110,,,,true,true,false,,NONE
+http/headers/Sec-Purpose/speculationrules,,,,110,,26.2,"[{""name"":""SpeculationRules prefetch"",""type"":""preference""}]",true,true,false,,NONE
 http/headers/Sec-Redemption-Record,,,,117,,,,true,true,false,https://wicg.github.io/trust-token-api/#sec-redemption-record,W3CCG
-http/headers/Sec-Speculation-Tags,,,,136,,,,true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#the-sec-speculation-tags-header,WHATWG
+http/headers/Sec-Speculation-Tags,,,,136,,26.2,"[{""name"":""SpeculationRules prefetch"",""type"":""preference""}]",true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#the-sec-speculation-tags-header,WHATWG
 http/headers/Sec-WebSocket-Accept,,11,,16,,6,,false,true,false,https://www.rfc-editor.org/rfc/rfc6455#section-11.3.3,UNKNOWN
 http/headers/Sec-WebSocket-Extensions,,11,,16,,6,,false,true,false,https://www.rfc-editor.org/rfc/rfc6455#section-11.3.2,UNKNOWN
 http/headers/Sec-WebSocket-Key,,11,,16,,6,,false,true,false,https://www.rfc-editor.org/rfc/rfc6455#section-11.3.1,UNKNOWN
@@ -14524,7 +14534,7 @@ http/headers/Set-Cookie/http_host-http_prefixes,,143,,140,,,,false,true,false,,N
 http/headers/Set-Login,,138,,120,,,,false,true,false,https://w3c-fedid.github.io/login-status/#login-status-http,UNKNOWN
 http/headers/Snapshot-Content-Location,,,,63,,,,false,false,false,,NONE
 http/headers/SourceMap,,55,,18,,7,,false,true,false,https://tc39.es/ecma426/#sec-linking-http-header,TC39
-http/headers/Speculation-Rules,,,,121,,,,true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#the-speculation-rules-header,WHATWG
+http/headers/Speculation-Rules,,,,121,,26.2,"[{""name"":""SpeculationRules prefetch"",""type"":""preference""}]",true,true,false,https://html.spec.whatwg.org/multipage/speculative-loading.html#the-speculation-rules-header,WHATWG
 http/headers/Strict-Transport-Security,,4,,4,,7,,false,true,false,https://www.rfc-editor.org/rfc/rfc6797#section-6.1,UNKNOWN
 http/headers/Supports-Loading-Mode,,,,109,,,,true,true,false,https://wicg.github.io/nav-speculation/prerendering.html#supports-loading-mode,W3CCG
 http/headers/Supports-Loading-Mode/credentialed-prerender,,,,109,,,,true,true,false,https://wicg.github.io/nav-speculation/prerendering.html#supports-loading-mode-credentialed-prerender,W3CCG
