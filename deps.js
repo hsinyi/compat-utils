@@ -19,6 +19,8 @@ export const REPOS = [
   "w3c/pointerlock",
   "w3c/editcontext",
   "w3c/clipboard-apis",
+  "w3c/selection-api",
+  "w3c/uievents",
   "whatwg/html",
   "w3c/web-performance",
   "w3c/hr-time",
