@@ -1,11 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 3803774703,true,Navigation API: Revert 11987,https://github.com/whatwg/html/pull/12078,2026-01-12T10:53:38Z,2026-01-12T11:28:07Z,noamr,,0
 3802846213,false,Check ongoing navigation before proceeding with javascript: URL navigation,https://github.com/whatwg/html/pull/12076,2026-01-12T05:43:04Z,2026-01-12T16:15:23Z,byteforge38,topic: navigation,0
-3797092339,false,Calculate ancestorOrigins on document creation and store on document,https://github.com/whatwg/html/pull/12071,2026-01-09T14:11:52Z,2026-01-09T14:11:52Z,zcorpan,,0
+3797092339,false,Calculate ancestorOrigins on document creation and store on document,https://github.com/whatwg/html/pull/12071,2026-01-09T14:11:52Z,2026-01-13T10:57:12Z,zcorpan,,0
 3795160292,false,Define base appearance for select multiple drop-down,https://github.com/whatwg/html/pull/12069,2026-01-09T01:58:01Z,2026-01-09T01:59:24Z,josepharhar,,0
 3793961141,false,"WIP: Refactor href getter, setter out of HTMLHyperlinkEelementUtils",https://github.com/whatwg/html/pull/12066,2026-01-08T18:35:39Z,2026-01-08T19:08:28Z,lukewarlow,,0
-3793925711,false,Use the value attribute for color update if dirty value flag is false,https://github.com/whatwg/html/pull/12065,2026-01-08T18:23:44Z,2026-01-09T14:11:32Z,saschanaz,,0
-3792303816,false,"Revert ""Switch dialog/popover to using place-self:dialog""",https://github.com/whatwg/html/pull/12060,2026-01-08T10:27:29Z,2026-01-09T18:12:32Z,annevk,,0
+3793925711,false,Use the value attribute for color update if dirty value flag is false,https://github.com/whatwg/html/pull/12065,2026-01-08T18:23:44Z,2026-01-13T10:37:15Z,saschanaz,,0
+3792303816,true,"Revert ""Switch dialog/popover to using place-self:dialog""",https://github.com/whatwg/html/pull/12060,2026-01-08T10:27:29Z,2026-01-13T11:12:12Z,annevk,,0
 3789585456,true,Ensure data scheme Workers are same origin with themselves,https://github.com/whatwg/html/pull/12058,2026-01-07T17:08:53Z,2026-01-08T11:54:34Z,shannonbooth,topic: workers|topic: origin,0
 3763706378,true,Do not broadcast storage events if storage is already empty,https://github.com/whatwg/html/pull/12042,2025-12-26T16:29:14Z,2026-01-08T12:14:22Z,shannonbooth,,0
 3761063334,true,Update 404.html,https://github.com/whatwg/html/pull/12040,2025-12-24T21:44:22Z,2025-12-25T11:25:56Z,Davixdsh,invalid,0
@@ -29,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3691436833,true,Editorial: fix US spelling ('behaviour' → 'behavior') in activation event definition,https://github.com/whatwg/html/pull/11985,2025-12-03T18:37:23Z,2025-12-04T06:13:02Z,nishtha-agarwal-211,,0
 3690361653,true,Expose NavigationPrecommitController.addHandler,https://github.com/whatwg/html/pull/11984,2025-12-03T13:56:50Z,2025-12-11T13:34:12Z,noamr,,0
 3689842829,true,Download link: inform the navigation API about aborting,https://github.com/whatwg/html/pull/11983,2025-12-03T11:32:45Z,2025-12-11T13:27:52Z,noamr,,0
-3687259345,false,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2026-01-13T00:40:16Z,KurtCattiSchmidt,agenda+,0
+3687259345,false,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2026-01-13T08:31:25Z,KurtCattiSchmidt,agenda+,0
 3687064326,false,Add support for video element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-01-09T21:48:11Z,scottjehl,addition/proposal|needs implementer interest|topic: media|needs tests,2
 3685135331,true,Specify document conformance for headingoffset/headingreset,https://github.com/whatwg/html/pull/11979,2025-12-02T10:17:37Z,2025-12-02T11:20:06Z,zcorpan,,0
 3685086081,true,Add headingoffset/headingreset to attribute index,https://github.com/whatwg/html/pull/11978,2025-12-02T10:05:59Z,2025-12-02T10:19:51Z,keithamus,,0
