@@ -2,29 +2,19 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3738941692,false,No PR diff previews,https://github.com/w3c/uievents/issues/409,2025-12-17T13:33:41Z,2025-12-17T13:33:41Z,zcorpan,spec tooling,0
 3738147110,false,Remove the generated spec from the tree,https://github.com/w3c/uievents/issues/407,2025-12-17T09:47:52Z,2025-12-17T13:17:27Z,zcorpan,spec tooling,0
 3710728927,false,keydown does not specify whether modifier keys should be indicated on dispatched click event,https://github.com/w3c/uievents/issues/406,2025-12-09T12:42:40Z,2025-12-09T12:45:06Z,Psychpsyo,,0
-3524163212,false,"Mention about `<area>` of image map in somewhere, which may be a target of mouse/pointer/touch events",https://github.com/w3c/uievents/issues/404,2025-10-17T02:29:37Z,2025-12-16T15:30:55Z,masayuki-nakano,MouseEvent,0
 3510025896,true,Add new property to `InputEvent` to determine whether the text being input by IME has just been confirmed without help of `compositionend`,https://github.com/w3c/uievents/issues/403,2025-10-13T13:12:13Z,2025-10-13T13:35:10Z,tats-u,,0
 3504707083,false,Proposal: use `relatedTarget` for click events originated from labels,https://github.com/w3c/uievents/issues/402,2025-10-10T22:57:34Z,2025-10-16T13:19:18Z,sb3nder,,0
 3461464007,false,Cannot detect insertion of commited composing text (i.e. press Enter) only by onInput (without state),https://github.com/w3c/uievents/issues/401,2025-09-28T09:35:10Z,2025-09-28T09:35:40Z,tats-u,,0
-3329649097,false,Need clarification with `MouseEvent::mouseleave`,https://github.com/w3c/uievents/issues/400,2025-08-18T08:07:12Z,2025-12-16T15:23:33Z,yezhizhen,MouseEvent,0
 3315133941,false,TPAC 2025 status report,https://github.com/w3c/uievents/issues/399,2025-08-12T17:09:33Z,2025-11-10T13:03:56Z,siusin,,0
-3216139024,false,Define what layerX/layerY do in presence of transforms.,https://github.com/w3c/uievents/issues/398,2025-07-09T14:24:08Z,2025-09-18T13:25:58Z,emilio,,0
 3120319282,false,Compositionend due to deletion still sends last updated character for Korean on macOS(or macOS IME) and... IME differences,https://github.com/w3c/uievents/issues/397,2025-06-05T08:29:53Z,2025-06-05T08:41:30Z,vlwkaos,,0
 2990080182,false,Can KeyboardEvent.repeat ever be true for a keyup event?,https://github.com/w3c/uievents/issues/396,2025-04-12T01:45:39Z,2025-06-22T19:31:41Z,aycyang,,0
 2986600411,false,Clarification about whether requirement to send key events during composition extends to platforms,https://github.com/w3c/uievents/issues/395,2025-04-10T18:56:16Z,2025-04-15T18:34:10Z,ogarai,,4
 2972252797,false,`isComposing` in `onInput` is `true` even when it is the finish of the IME composition / No `onInput` whose `isComposing` is `false` is triggered when you complete IME composition,https://github.com/w3c/uievents/issues/394,2025-04-04T12:33:48Z,2025-09-01T01:32:31Z,tats-u,,0
-2832311611,false,"Clarify `mousemove` event target if preceding `mouseout`, `mouseleave`, `mouseover` or `mouseenter` event listener removes the `mouseover` target",https://github.com/w3c/uievents/issues/393,2025-02-05T08:55:46Z,2025-12-16T15:24:04Z,masayuki-nakano,MouseEvent,0
-2714503686,false,Back and Forward buttons not specified for MouseEvent.buttons,https://github.com/w3c/uievents/issues/391,2024-12-03T09:46:44Z,2024-12-09T17:19:03Z,CendioOssman,,0
-2714494605,false,Button order for MouseEvent.button vs MouseEvent.buttons very easy to miss,https://github.com/w3c/uievents/issues/390,2024-12-03T09:44:04Z,2025-12-16T15:29:50Z,CendioOssman,MouseEvent,0
-2703576560,false,Mandate a minimum dispatch frequency for continuous UI input events,https://github.com/w3c/uievents/issues/389,2024-11-29T01:09:04Z,2025-12-16T15:33:31Z,KingSupernova31,MouseEvent,0
 2666497496,false,Replace Window with WindowProxy in IDL throughout?,https://github.com/w3c/uievents/issues/388,2024-11-17T20:53:14Z,2024-11-18T02:58:38Z,awesomekling,,0
-2553419596,false,"[event-algo] Remove ""6.10. send click event""",https://github.com/w3c/uievents/issues/386,2024-09-27T17:33:40Z,2025-12-16T15:39:50Z,smaug----,MouseEvent-click,0
 2552121538,false,Suggestion for the support of Keyboard Lock API,https://github.com/w3c/uievents/issues/385,2024-09-27T06:36:16Z,2025-04-15T00:40:34Z,xingri,TPAC2024,0
 2552051878,false,[PointerLock] Suggest on the new UI for user authorization for Pointer Lock API,https://github.com/w3c/uievents/issues/384,2024-09-27T05:46:39Z,2024-09-27T16:50:53Z,xingri,TPAC2024,0
-2532107607,false,[MouseEvent algorithms] Boundary event dispatch needs to be tied to native down and up events,https://github.com/w3c/uievents/issues/383,2024-09-17T20:39:32Z,2025-12-16T15:25:06Z,mustaqahmed,MouseEvent,0
 2436995890,false,Suggestion: add timestamp of the event,https://github.com/w3c/uievents/issues/380,2024-07-30T06:20:05Z,2024-07-30T06:31:34Z,alex1yaremchuk,,0
 2301016066,false,Need virtual key codes,https://github.com/w3c/uievents/issues/377,2024-05-16T17:59:09Z,2025-10-14T19:06:47Z,laughinghan,,1
-2225761309,false,Inconsistency on cancelability of dbclick,https://github.com/w3c/uievents/issues/376,2024-04-04T15:01:57Z,2024-04-04T15:01:57Z,dontcallmedom,,0
 2222156219,false,none as default action for keyup event is not consistent with reality,https://github.com/w3c/uievents/issues/375,2024-04-03T07:43:09Z,2024-04-03T08:13:09Z,Zhang-Junzhi,,0
 2140661261,true,KeyboardEvent.getKeyState(),https://github.com/w3c/uievents/issues/374,2024-02-17T23:55:58Z,2024-05-15T18:39:57Z,polywock,,1
 2126210314,true,"Remove ""Changes"" section from spec",https://github.com/w3c/uievents/issues/373,2024-02-08T23:05:43Z,2024-06-22T01:04:43Z,garykac,,0
@@ -39,7 +29,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2017041766,true,Disable autocomplete on tools/key-event-viewer.html,https://github.com/w3c/uievents/issues/363,2023-11-29T17:03:24Z,2024-01-30T23:16:57Z,rcyeh,,0
 2008868187,false,"Cancelable/default action for keydown, composition*, beforeinput, textInput, input",https://github.com/w3c/uievents/issues/361,2023-11-23T22:45:55Z,2024-01-11T20:18:45Z,zcorpan,,1
 1986234886,false,Order of keydown relative to compositionstart,https://github.com/w3c/uievents/issues/360,2023-11-09T19:04:41Z,2023-11-10T19:21:56Z,dandclark,Agenda+,0
-1969520968,false,"Clearify whether `mouseover`, `mouseout`, `mouseenter` and `mouseleave` are fired or not fired when the target is removed by `mousedown` or `mouseup`",https://github.com/w3c/uievents/issues/359,2023-10-31T02:31:02Z,2025-12-16T15:25:16Z,masayuki-nakano,MouseEvent,0
 1896499818,false,"Find def for ""active text passage""",https://github.com/w3c/uievents/issues/358,2023-09-14T12:44:21Z,2023-09-14T12:44:21Z,garykac,,0
 1896498280,false,"Define ""composition session""",https://github.com/w3c/uievents/issues/357,2023-09-14T12:43:33Z,2023-09-14T12:43:33Z,garykac,,0
 1896495353,false,Export composition events from spec,https://github.com/w3c/uievents/issues/356,2023-09-14T12:41:51Z,2023-09-14T12:41:51Z,garykac,,0
@@ -52,40 +41,25 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1728255967,false,"Missing ""Insert"" and ""Delete"" keys from the Event Key Location table",https://github.com/w3c/uievents/issues/347,2023-05-26T21:16:54Z,2023-06-13T14:07:04Z,denilsonsa,,0
 1723847969,false,Clarify `keypress` event handling for keys that map to non-BMP Unicode symbols,https://github.com/w3c/uievents/issues/346,2023-05-24T12:14:13Z,2023-07-11T17:39:45Z,mathiasbynens,,0
 1608492658,false,Dead key symbols not included in KeyboardEvent,https://github.com/w3c/uievents/issues/343,2023-03-03T11:48:53Z,2024-10-21T12:44:14Z,CendioOssman,,0
-1593610992,false,Define behavior for wheel event group when the scroll is handed off,https://github.com/w3c/uievents/issues/342,2023-02-21T14:47:07Z,2025-12-16T15:31:47Z,dlrobertson,WheelEvent,0
-1590824470,false,Define behavior for wheel event group when the initial target is mutated,https://github.com/w3c/uievents/issues/341,2023-02-19T19:35:21Z,2025-12-16T15:32:08Z,dlrobertson,WheelEvent,0
 1559770584,true,Broken references in UI Events,https://github.com/w3c/uievents/issues/340,2023-01-27T13:26:31Z,2023-06-27T22:10:31Z,dontcallmedom-bot,,0
 1514194401,true,definition of MouseEvent.clientX and clientY seems wrong,https://github.com/w3c/uievents/issues/339,2022-12-30T02:38:15Z,2023-01-04T04:47:01Z,allan-bonadio,,0
 1487715243,true,Wheel event groups are not defined,https://github.com/w3c/uievents/issues/338,2022-12-10T00:48:54Z,2023-12-04T21:23:54Z,dlrobertson,,0
-1469248347,false,Wheel event: determine difference between trackpad and mouse events,https://github.com/w3c/uievents/issues/337,2022-11-30T08:35:53Z,2025-12-16T15:25:30Z,funwithtriangles,WheelEvent,25
-1463841480,false,New `contextmenu` event definition missing bypass,https://github.com/w3c/uievents/issues/336,2022-11-24T21:54:38Z,2025-12-16T15:47:51Z,pheki,MouseEvent,0
 1400932720,false,Remove load/unload/abort/error events,https://github.com/w3c/uievents/issues/335,2022-10-07T10:04:44Z,2022-10-07T10:04:44Z,annevk,,2
-1328294294,false,"> Overall, Firefox is the most consistent. Ctrl+click and 2-finger-click should act the same, but Chrome and Safari are not. Safari should send auxclick for non-primary mouse clicks.",https://github.com/w3c/uievents/issues/334,2022-08-04T08:57:41Z,2025-12-16T15:40:30Z,mohamedmosseb,MouseEvent-click,0
 1316343157,true,TPAC 2022 status reports,https://github.com/w3c/uievents/issues/333,2022-07-25T06:37:02Z,2023-06-27T22:11:07Z,LJWatson,,0
-1288686962,false,"Add mousewheel to the ""Legacy Event Types"" section",https://github.com/w3c/uievents/issues/331,2022-06-29T12:58:07Z,2025-12-16T15:32:15Z,garykac,WheelEvent,0
 1283796216,true,Remove dblclick text selection default action to match browsers,https://github.com/w3c/uievents/issues/328,2022-06-24T14:05:20Z,2023-05-09T21:45:46Z,flackr,,0
-1246699787,false,`MouseEvent.buttons` explanation of `contextmenu` event should mention about the platform dependency,https://github.com/w3c/uievents/issues/326,2022-05-24T15:03:51Z,2025-12-16T15:28:21Z,masayuki-nakano,MouseEvent,1
 1228350371,false,"Specify typical default scroll action for keydown events with Arrow, PageUp, PageDown, Home, End keys",https://github.com/w3c/uievents/issues/325,2022-05-06T20:17:06Z,2022-05-06T20:17:06Z,flackr,,0
 1164029923,true,"Keyboard Event Types: possible text missing. ",https://github.com/w3c/uievents/issues/324,2022-03-09T14:43:21Z,2023-08-23T21:10:07Z,MelSumner,,0
-1107723256,false,Specify the field values for non-pointer `contextmenu` event,https://github.com/w3c/uievents/issues/323,2022-01-19T06:46:51Z,2025-12-16T15:47:51Z,andreubotella,MouseEvent,0
 1021523447,false,Auxiliary files in repo not being pushed to w3c.github.io,https://github.com/w3c/uievents/issues/317,2021-10-08T23:00:08Z,2021-10-09T10:55:06Z,garykac,,0
 996542834,true,Specberus errors happen during spec-prod,https://github.com/w3c/uievents/issues/314,2021-09-15T00:27:45Z,2021-09-16T02:36:25Z,saschanaz,,0
 994009655,true,Restore key/char/glyph styles,https://github.com/w3c/uievents/issues/312,2021-09-12T00:54:15Z,2023-08-21T22:28:42Z,saschanaz,,0
 992541702,false,Define groups of events by the interaction that caused them,https://github.com/w3c/uievents/issues/311,2021-09-09T19:07:51Z,2024-01-12T02:15:06Z,npm1,,0
 988673945,true,Linking errors,https://github.com/w3c/uievents/issues/310,2021-09-06T02:08:47Z,2021-09-15T00:17:04Z,marcoscaceres,,0
-980490090,false,Introduce contextmenuclose or similar event.,https://github.com/w3c/uievents/issues/309,2021-08-26T17:38:04Z,2025-12-16T15:47:50Z,flackr,MouseEvent,0
 978822006,true,Status report and planning for TPAC 2021,https://github.com/w3c/uievents/issues/308,2021-08-25T07:37:03Z,2023-08-15T21:46:20Z,LJWatson,,0
-964365209,false,"The specification of `relatedTarget` property of `mouseover` reads ""indicates the event target a pointing device is entering, if any."" but should read ""exiting""",https://github.com/w3c/uievents/issues/307,2021-08-09T20:49:59Z,2021-08-10T03:28:36Z,sbates-idrc,,0
-892160705,false,Specify WheelEvent.wheelDelta / wheelDeltaX / wheelDeltaY,https://github.com/w3c/uievents/issues/305,2021-05-14T18:53:10Z,2021-06-21T07:21:56Z,emilio,,1
-842921120,false,"Different click event order behavior between Firefox , ie , edge and Chrome/Safari",https://github.com/w3c/uievents/issues/303,2021-03-29T02:57:46Z,2022-01-13T03:10:46Z,TurnerXi,,0
 825044617,false,"""UI Actions"" or Event Responses for Simplified UI Scripting",https://github.com/w3c/uievents/issues/295,2021-03-08T23:07:11Z,2021-03-10T12:41:13Z,excitedbox,,0
-822514823,false,Differentiate single click event and double click event,https://github.com/w3c/uievents/issues/294,2021-03-04T21:16:59Z,2025-12-16T15:41:04Z,jimmywarting,MouseEvent-click,0
 818706286,false,Standardize common gestures event,https://github.com/w3c/uievents/issues/293,2021-03-01T10:10:04Z,2025-12-16T15:29:24Z,answershuto,,9
-809116565,false,[feature request] Standardize long press touch event,https://github.com/w3c/uievents/issues/291,2021-02-16T04:46:52Z,2021-02-16T09:00:11Z,Thaina,,0
 792253109,false,A way to determine what the value of an input will be if `beforeinput` is not prevented,https://github.com/w3c/uievents/issues/289,2021-01-22T19:32:14Z,2024-01-12T02:33:53Z,devongovett,,4
 780519891,true,Draft not recognizing IME inputs,https://github.com/w3c/uievents/issues/288,2021-01-06T12:32:45Z,2021-01-06T21:38:54Z,avatar0527,,0
 770436393,true,Expose IDLs for deprecated methods,https://github.com/w3c/uievents/issues/286,2020-12-17T23:01:10Z,2021-03-20T20:10:37Z,saschanaz,,0
-766983666,false,The order in which the `contextmenu` `auxclick` event is triggered,https://github.com/w3c/uievents/issues/285,2020-12-14T22:29:39Z,2025-12-16T15:47:49Z,mantou132,MouseEvent,0
 761726242,false,Browsers do not fire select event with UIEvent,https://github.com/w3c/uievents/issues/284,2020-12-10T23:59:29Z,2024-01-11T20:54:14Z,saschanaz,,0
 756411935,true,"Shall we create a dblclick event when the cursor have moved to a different location between two clicks? ",https://github.com/w3c/uievents/issues/283,2020-12-03T17:46:40Z,2020-12-14T19:51:21Z,sefeng211,,0
 741991677,true,Document the cancelability of wheel events,https://github.com/w3c/uievents/issues/282,2020-11-12T23:04:18Z,2022-06-29T14:49:31Z,smfr,,1
@@ -93,7 +67,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 737026977,false,Composition events lack on* event handler attributes,https://github.com/w3c/uievents/issues/280,2020-11-05T15:24:18Z,2020-11-05T15:25:29Z,saschanaz,,0
 736351120,true,"We don't have a definition for ""contextmenu"" event",https://github.com/w3c/uievents/issues/279,2020-11-04T18:59:05Z,2021-10-15T12:44:45Z,mustaqahmed,,2
 734315750,true,mousemove and preventDefault(),https://github.com/w3c/uievents/issues/278,2020-11-02T08:51:09Z,2024-05-09T18:18:11Z,annevk,,0
-702879909,false,Mouse back/forward buttons: page navigation or JS events?,https://github.com/w3c/uievents/issues/277,2020-09-16T15:51:03Z,2024-08-09T12:38:54Z,smaug----,,0
 685971041,true,Update focusin/focusout event order to match implementations?,https://github.com/w3c/uievents/issues/276,2020-08-26T03:14:59Z,2021-01-23T23:27:47Z,devongovett,,0
 681518896,false,Upstream InputEvent,https://github.com/w3c/uievents/issues/275,2020-08-19T03:30:52Z,2020-08-19T05:12:10Z,annevk,,0
 681413682,false,Giving JavaScript ability to toggle the state of the modifier keys,https://github.com/w3c/uievents/issues/274,2020-08-18T23:43:18Z,2020-08-21T00:45:03Z,gked,,0
@@ -104,23 +77,19 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 641752696,true,TPAC planning and specification status report,https://github.com/w3c/uievents/issues/268,2020-06-19T06:59:27Z,2023-08-15T21:47:35Z,LJWatson,,0
 628717932,false,"""keyCode"" is the only way to work with KeyboardEvents now",https://github.com/w3c/uievents/issues/267,2020-06-01T20:50:22Z,2023-08-24T09:34:32Z,photopea,KeyboardEvent,1
 624169701,false,Redefine when `keypress` event should be fired,https://github.com/w3c/uievents/issues/266,2020-05-25T09:24:17Z,2024-01-11T20:32:17Z,masayuki-nakano,KeyboardEvent,0
-622115774,false,Clarify whether a click event should be dispatched for `control` + click in Mac OS,https://github.com/w3c/uievents/issues/265,2020-05-20T22:11:13Z,2020-07-23T20:51:30Z,EdgarChen,MouseEvent-click,1
 603838937,false,no way to distinguish printable key values from non-printable,https://github.com/w3c/uievents/issues/264,2020-04-21T09:11:48Z,2024-05-15T18:50:10Z,Yaffle,KeyboardEvent,0
 597154469,false,Add an accessibility section,https://github.com/w3c/uievents/issues/263,2020-04-09T09:37:48Z,2020-08-04T23:00:36Z,LJWatson,Editorial,0
 577206642,false,Make sure all UIEvents are data-exported (for xref from other specs),https://github.com/w3c/uievents/issues/262,2020-03-06T22:21:25Z,2020-07-23T20:50:42Z,garykac,Editorial,0
 569316901,false,"Event order of onKeyDown, onKeyPress, onKeyUp, and onPaste when using pasting (CMD + v) in Mac OS X",https://github.com/w3c/uievents/issues/261,2020-02-22T10:45:47Z,2025-10-29T16:09:42Z,aesyondu,KeyboardEvent,0
 551702014,false,Move impl info from glossary to proper algorithmic description of event handlers,https://github.com/w3c/uievents/issues/258,2020-01-18T01:29:20Z,2020-07-23T20:49:41Z,garykac,Editorial,0
-546733245,false,`wheel` event listeners cannot prevent default scroll only along specific direction,https://github.com/w3c/uievents/issues/257,2020-01-08T09:12:04Z,2020-07-23T20:49:33Z,masayuki-nakano,WheelEvent,0
 533693775,false,Should Key event be fired for [Previous] and [Next] key on Virtual Keyboard?,https://github.com/w3c/uievents/issues/253,2019-12-06T01:34:58Z,2020-07-23T20:49:27Z,makotokato,KeyboardEvent,0
 528511807,false,KeyboardEvent.key value definition does not match with existing browsers when modified by AltGraph key does not produce any characters,https://github.com/w3c/uievents/issues/252,2019-11-26T06:12:33Z,2020-07-23T20:49:09Z,masayuki-nakano,KeyboardEvent,0
 528487856,false,Declare whether line breaks in `CompositionEvent.data` and `InputEvent.data` should be as-is or converted to `\n`,https://github.com/w3c/uievents/issues/251,2019-11-26T04:56:36Z,2020-07-23T20:48:58Z,masayuki-nakano,CompositionEvent|InputEvent,0
 521239462,false,Pixel values should all be in CSS pixels,https://github.com/w3c/uievents/issues/250,2019-11-11T23:15:28Z,2020-07-23T20:48:34Z,InstyleVII,Editorial,1
-521238688,false,Change DOM_DELTA_PIXEL to be intended scroll distance instead of exact scroll distance,https://github.com/w3c/uievents/issues/249,2019-11-11T23:13:24Z,2020-07-23T20:48:03Z,InstyleVII,WheelEvent,0
 515711820,true,Add support for keyboard lock to test page,https://github.com/w3c/uievents/issues/248,2019-10-31T20:09:05Z,2020-07-20T22:56:54Z,jamiewalch,,0
 514929655,false,Need property which gives the (base) unmodified key,https://github.com/w3c/uievents/issues/247,2019-10-30T19:33:33Z,2023-04-21T09:21:25Z,tszynalski,Proposal|KeyboardEvent,0
 507576251,false,Propose the new navbeforefocus UIEvent,https://github.com/w3c/uievents/issues/246,2019-10-16T02:32:25Z,2020-07-23T20:47:12Z,anawhj,Proposal|FocusEvent,2
 507575759,true,Propose the new navbeforefocus UIEvent,https://github.com/w3c/uievents/issues/245,2019-10-16T02:30:23Z,2019-10-23T21:12:43Z,lgewst,,0
-501580596,false,Need clarification how mouseenter/leave should behave while modifying DOM tree during event dispatch,https://github.com/w3c/uievents/issues/244,2019-10-02T15:58:24Z,2020-08-05T14:11:06Z,smaug----,MouseEvent,0
 486822885,true,Update to constructor operations,https://github.com/w3c/uievents/issues/243,2019-08-29T08:47:10Z,2020-07-07T02:00:53Z,Ms2ger,,0
 483310558,true,Specification status report for TPAC 2019,https://github.com/w3c/uievents/issues/242,2019-08-21T09:36:59Z,2020-07-22T19:57:42Z,LJWatson,,0
 468802021,false,Pen pendockchange event,https://github.com/w3c/uievents/issues/240,2019-07-16T18:31:32Z,2020-07-23T20:45:27Z,gked,Proposal,0
@@ -128,7 +97,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 463499095,false,Pen Button Events,https://github.com/w3c/uievents/issues/237,2019-07-03T01:16:17Z,2024-07-18T12:00:35Z,gked,Proposal,0
 461770434,false,Should an element remain focused and receive key events if it's display:none-ed?,https://github.com/w3c/uievents/issues/236,2019-06-27T22:07:56Z,2020-07-23T20:44:49Z,dbates-wk,FocusEvent,0
 459876031,true,Change click/auxclick/contextment/dblclick event types to PointerEvent?,https://github.com/w3c/uievents/issues/235,2019-06-24T12:56:07Z,2020-03-02T19:21:44Z,NavidZ,,0
-444580571,false,Click targeting is inconsistent across different UAs and the spec,https://github.com/w3c/uievents/issues/233,2019-05-15T18:24:25Z,2020-07-23T20:43:51Z,NavidZ,MouseEvent-click,3
 443863996,false,Don't redefine event target,https://github.com/w3c/uievents/issues/231,2019-05-14T11:34:57Z,2020-07-23T20:43:14Z,annevk,Editorial,1
 435699886,false,Proposal: Add KeyboardEvent.unmodifiedKey,https://github.com/w3c/uievents/issues/229,2019-04-22T11:45:50Z,2020-07-23T20:42:39Z,adrianholovaty,KeyboardEvent,2
 429157887,false,What happened to the 'resize' event?,https://github.com/w3c/uievents/issues/228,2019-04-04T08:54:06Z,2019-04-04T08:54:06Z,jwatt,,0
@@ -138,7 +106,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 414037548,false,"""Process"" key should be declared with more detail",https://github.com/w3c/uievents/issues/224,2019-02-25T10:34:28Z,2020-07-23T20:17:50Z,masayuki-nakano,KeyboardEvent,2
 409123951,false,Declare more detail of `InputEvent.data` value of `formatFontName`,https://github.com/w3c/uievents/issues/223,2019-02-12T05:13:44Z,2020-07-23T20:17:24Z,masayuki-nakano,InputEvent,0
 409121646,false,Declare `InputEvent.data` value of `insertLink` should be relative URI if it's specified as relative URI,https://github.com/w3c/uievents/issues/222,2019-02-12T05:02:25Z,2020-07-23T20:17:18Z,masayuki-nakano,InputEvent,0
-406214253,false,mouseover/mouseout events can repeatedly causing infinite re-layout in some buggy content,https://github.com/w3c/uievents/issues/221,2019-02-04T07:49:56Z,2020-07-23T20:17:09Z,jidanni,MouseEvent,1
 405621105,false,"Event order between ""keypress"" and ""beforeinput""",https://github.com/w3c/uievents/issues/220,2019-02-01T09:34:56Z,2020-08-03T22:32:33Z,masayuki-nakano,KeyboardEvent|InputEvent,0
 398831376,false,onbeforeinput,https://github.com/w3c/uievents/issues/218,2019-01-14T10:40:55Z,2020-07-23T20:16:41Z,johanneswilm,InputEvent,0
 388750930,true,Missing keycap on Section 4.6.4.1. - keydown ?,https://github.com/w3c/uievents/issues/214,2018-12-07T17:43:16Z,2023-08-21T22:32:23Z,coreh,Editorial,0
@@ -148,14 +115,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 351234453,true,"Consider to make mouseenter/leave (and pointerenter/leave) uncomposed ",https://github.com/w3c/uievents/issues/208,2018-08-16T14:38:20Z,2018-10-18T16:21:03Z,smaug----,,0
 350355715,false,Chromebook keyboard layout missing,https://github.com/w3c/uievents/issues/207,2018-08-14T09:47:29Z,2018-08-14T09:47:29Z,tda2806,,0
 344558816,true,Suppress default browser key handling for keyboard event tester,https://github.com/w3c/uievents/issues/206,2018-07-25T18:35:24Z,2018-08-02T15:28:28Z,jamiewalch,,0
-336252047,false,Need clarification for when mouseenter/mouseleave should be dispatched for moved elements.,https://github.com/w3c/uievents/issues/205,2018-06-27T14:22:18Z,2020-07-23T20:14:21Z,flackr,MouseEvent,0
 316461024,false,"Event order between ""compositionend"" and ""input""",https://github.com/w3c/uievents/issues/202,2018-04-21T04:36:54Z,2026-01-06T02:40:47Z,masayuki-nakano,CompositionEvent|InputEvent,25
-312933349,false,Different mousedown behavior between Firefox and Chrome/Safari,https://github.com/w3c/uievents/issues/201,2018-04-10T13:54:46Z,2020-07-23T20:13:56Z,nuragic,MouseEvent,7
 312692962,false,Need procedural algorithms for all events,https://github.com/w3c/uievents/issues/200,2018-04-09T21:23:50Z,2020-08-24T22:55:27Z,garykac,,1
 312692863,true,Need algorithm for how composition events are fired,https://github.com/w3c/uievents/issues/199,2018-04-09T21:23:25Z,2020-07-31T23:54:10Z,garykac,CompositionEvent,0
 312691906,true,Need algorithm for how input events are fired,https://github.com/w3c/uievents/issues/198,2018-04-09T21:20:08Z,2020-07-31T23:53:56Z,garykac,InputEvent,0
-312690593,false,Need algorithm for how mouse click events are fired,https://github.com/w3c/uievents/issues/197,2018-04-09T21:15:40Z,2020-07-27T15:27:21Z,garykac,MouseEvent-click,0
-312689727,false,Need algorithm for how mouse events are fired,https://github.com/w3c/uievents/issues/196,2018-04-09T21:12:44Z,2020-07-23T20:12:55Z,garykac,MouseEvent,0
 312688022,false,Need algorithm for how focus events are fired,https://github.com/w3c/uievents/issues/195,2018-04-09T21:07:11Z,2020-07-23T20:12:46Z,garykac,FocusEvent,0
 311987840,false,"Define ""event constructing steps"" for complicated events",https://github.com/w3c/uievents/issues/194,2018-04-06T14:02:03Z,2020-07-23T20:10:36Z,annevk,initEvent,0
 311499887,true,Standardizing event.layerX and event.layerY,https://github.com/w3c/uievents/issues/193,2018-04-05T07:27:09Z,2018-04-05T07:42:57Z,WebReflection,,0
@@ -166,24 +129,19 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 304452452,false,Discourage UIEvent reuse,https://github.com/w3c/uievents/issues/187,2018-03-12T16:47:17Z,2020-07-23T20:08:39Z,annevk,UIEvent,0
 304451960,false,UI Event Types,https://github.com/w3c/uievents/issues/186,2018-03-12T16:46:02Z,2020-07-23T20:08:15Z,annevk,UIEvent,0
 300579643,false,Move focus section to HTML,https://github.com/w3c/uievents/issues/185,2018-02-27T10:48:52Z,2020-07-23T20:08:03Z,annevk,FocusEvent,0
-298447866,false,May the state of modifier keys influence MouseEvent.button?,https://github.com/w3c/uievents/issues/184,2018-02-20T01:44:22Z,2020-07-23T20:07:05Z,jfirebaugh,MouseEvent,0
 298091555,false,"Declare keypress event should be fired when pressing Enter, Shift + Enter and Ctrl + Enter",https://github.com/w3c/uievents/issues/183,2018-02-18T15:07:48Z,2020-07-23T20:06:35Z,masayuki-nakano,KeyboardEvent,1
-296193663,false,"Needs alternative WheelEvent.deltaMode, WheelEvent.delta(X|Y|Z)",https://github.com/w3c/uievents/issues/181,2018-02-11T14:22:36Z,2024-10-04T11:08:13Z,masayuki-nakano,WheelEvent,3
 294668852,false,preventDefault() of keydown event should not kill composition start caused by the keydown,https://github.com/w3c/uievents/issues/180,2018-02-06T08:20:56Z,2020-07-23T20:06:12Z,masayuki-nakano,KeyboardEvent|CompositionEvent,0
 294073386,false,keydown event should have an attribute which is set to true when it's followed by a beforeinput or keypress event?,https://github.com/w3c/uievents/issues/179,2018-02-03T02:00:57Z,2020-07-23T20:05:58Z,masayuki-nakano,KeyboardEvent|InputEvent,1
 291412095,true,Have MouseEventInit inherit from EventInit,https://github.com/w3c/uievents/issues/177,2018-01-25T00:44:52Z,2018-01-25T00:54:05Z,garykac,,0
 279314413,false,Dispatch a click event when keyup or keydown?,https://github.com/w3c/uievents/issues/174,2017-12-05T10:03:52Z,2025-12-10T01:48:29Z,mingchou,KeyboardEvent,0
 275241346,false," KeyboardEventInit.code section contains broken link to UIEvents-Code spec",https://github.com/w3c/uievents/issues/173,2017-11-20T05:29:28Z,2020-07-23T20:05:08Z,cvrebert,Editorial,0
 275241176,true,Broken links to Web IDL spec,https://github.com/w3c/uievents/issues/172,2017-11-20T05:28:04Z,2019-06-05T15:10:10Z,cvrebert,,0
-272353265,false,Expose wheel event scrolling state to DOM events,https://github.com/w3c/uievents/issues/170,2017-11-08T21:19:52Z,2020-07-23T20:04:57Z,sahel-sh,WheelEvent,0
 271430406,false,Bug in spec? event.key and casing,https://github.com/w3c/uievents/issues/169,2017-11-06T10:44:08Z,2020-07-23T20:04:49Z,keithamus,KeyboardEvent,1
 268778771,true,Time to CR?,https://github.com/w3c/uievents/issues/168,2017-10-26T14:19:48Z,2020-07-23T20:04:39Z,LJWatson,,0
 267534157,false,Editorial: Grammatical Errors in mouseleave and mouseout Sections,https://github.com/w3c/uievents/issues/167,2017-10-23T03:49:00Z,2020-07-23T20:03:23Z,patrickdark,Editorial,0
 267533749,false,Editorial: Inconsistent Choice of “Descendant”/“Descendent”,https://github.com/w3c/uievents/issues/166,2017-10-23T03:45:39Z,2020-07-23T20:03:13Z,patrickdark,Editorial,0
 267397535,false,Specification Should Link to Its Own Definition of “Cancelable”,https://github.com/w3c/uievents/issues/165,2017-10-21T17:11:24Z,2023-09-29T08:46:36Z,patrickdark,Editorial,0
-266928261,false,Activation behavior and click interaction is not specified,https://github.com/w3c/uievents/issues/164,2017-10-19T17:39:40Z,2020-07-23T20:02:57Z,bzbarsky,MouseEvent-click,0
 264382448,false,Add webidl code snippet for input and beforeinput events,https://github.com/w3c/uievents/issues/162,2017-10-10T21:27:59Z,2020-07-23T20:02:18Z,gked,InputEvent,0
-261403887,false,Can any code be run between mouseup and click handlers?,https://github.com/w3c/uievents/issues/161,2017-09-28T17:45:23Z,2020-07-23T20:02:08Z,NavidZ,MouseEvent-click,0
 260921312,false,"Rationale for ""untrusted events do not trigger default actions""",https://github.com/w3c/uievents/issues/160,2017-09-27T10:17:45Z,2017-09-28T06:21:46Z,pipcet,,0
 258093348,true,Add [Exposed] to all interfaces,https://github.com/w3c/uievents/issues/159,2017-09-15T16:18:30Z,2017-09-15T17:51:56Z,annevk,,0
 256082073,false,Ensure prose for key press handling works well with KeyboardLock,https://github.com/w3c/uievents/issues/158,2017-09-07T21:54:31Z,2020-07-23T20:01:40Z,garykac,KeyboardEvent,0
@@ -191,22 +149,16 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 253488607,true,Support queryKeyCap,https://github.com/w3c/uievents/issues/156,2017-08-28T23:47:41Z,2020-07-23T20:00:52Z,garykac,Proposal,0
 250021613,true,Dispatch mouseenter/leave/out/over when the layout (or scroll) changes,https://github.com/w3c/uievents/issues/154,2017-08-14T12:52:58Z,2017-12-22T14:03:16Z,dtapuska,,0
 244656908,false,Proposal: Way to determine if any modifier key is pressed,https://github.com/w3c/uievents/issues/151,2017-07-21T12:40:14Z,2024-05-15T19:20:35Z,keithamus,KeyboardEvent,6
-242151311,false,MouseEvent.screenX/Y coordinate space is not clear,https://github.com/w3c/uievents/issues/150,2017-07-11T19:03:12Z,2021-10-26T14:47:52Z,NavidZ,MouseEvent,0
 239642150,false,Add specification for AltGraph key & modifier behaviour,https://github.com/w3c/uievents/issues/147,2017-06-29T23:54:14Z,2020-07-23T19:58:56Z,drwez,KeyboardEvent,0
 238457123,true,Unclear when input events are triggered,https://github.com/w3c/uievents/issues/145,2017-06-26T07:06:31Z,2017-09-20T13:39:31Z,johanneswilm,,0
 235701404,true,Time at TPAC?,https://github.com/w3c/uievents/issues/144,2017-06-13T21:40:28Z,2017-06-14T18:19:33Z,LJWatson,,0
 231384735,true,3.1. Event dispatch and DOM event flow - small typo,https://github.com/w3c/uievents/issues/143,2017-05-25T16:09:28Z,2017-05-25T17:43:12Z,kosson,,0
 229134935,false,Need algorithm for how events are fired for key presses,https://github.com/w3c/uievents/issues/142,2017-05-16T18:56:34Z,2020-07-31T23:54:27Z,garykac,KeyboardEvent|CompositionEvent|InputEvent,0
-225742653,false,Click event is not fired when the node is removed and then added back,https://github.com/w3c/uievents/issues/141,2017-05-02T16:04:01Z,2025-10-03T16:38:29Z,NavidZ,MouseEvent-click,0
 218837628,false,InputEventInit data default value should be null,https://github.com/w3c/uievents/issues/139,2017-04-03T06:04:53Z,2020-07-23T20:11:57Z,foolip,InputEvent|initEvent,0
-212934223,false,Add WheelEvent#wheelDelta/wheelDeltaX/wheelDeltaY,https://github.com/w3c/uievents/issues/138,2017-03-09T04:44:43Z,2022-06-20T13:16:20Z,foolip,WheelEvent,0
 210980727,true,"Needs an option to make the <input> element readonly in ""Keyboard Event Viewer""",https://github.com/w3c/uievents/issues/137,2017-03-01T05:02:36Z,2017-05-25T18:24:57Z,masayuki-nakano,,0
-209854492,false,Specify the arguments of initMouseEvent(),https://github.com/w3c/uievents/issues/136,2017-02-23T19:08:41Z,2023-01-07T09:12:32Z,foolip,MouseEvent|initEvent,0
-209843629,true,Standardize layerX/layerY on MouseEvent,https://github.com/w3c/uievents/issues/135,2017-02-23T18:24:01Z,2023-09-15T18:55:28Z,dtapuska,MouseEvent,4
 209654561,false,Specify the arguments of initCompositionEvent(),https://github.com/w3c/uievents/issues/134,2017-02-23T03:35:07Z,2020-07-23T20:12:10Z,foolip,CompositionEvent|initEvent,0
 209153770,false,Clearly specify initUIEvent,https://github.com/w3c/uievents/issues/133,2017-02-21T14:01:21Z,2020-07-23T20:12:15Z,dtapuska,UIEvent|initEvent,0
 201796951,true,initCompositionEvent typo in IDL,https://github.com/w3c/uievents/issues/132,2017-01-19T08:48:34Z,2017-01-25T00:36:32Z,foolip,,0
-201233475,false,Element for dblclick when dblclick results of two clicks on different elements,https://github.com/w3c/uievents/issues/131,2017-01-17T10:23:08Z,2020-07-23T19:56:06Z,maxired,MouseEvent-click,0
 197791479,true,Serious typo in EventModifierInit.ctrlKey's description,https://github.com/w3c/uievents/issues/129,2016-12-28T03:45:44Z,2017-01-19T00:40:46Z,cvrebert,,0
 196070214,true,Use U+ notation to refer to code points,https://github.com/w3c/uievents/issues/127,2016-12-16T14:23:25Z,2016-12-17T15:46:28Z,r12a,i18n-needs-resolution,0
 196069270,true,Are Shift or AltGr fallbacks sufficient?,https://github.com/w3c/uievents/issues/126,2016-12-16T14:18:48Z,2017-01-31T19:00:44Z,r12a,i18n-needs-resolution,0
@@ -220,12 +172,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 196067168,true,Typos,https://github.com/w3c/uievents/issues/118,2016-12-16T14:08:18Z,2017-01-25T00:32:16Z,r12a,i18n-needs-resolution,0
 196066426,true,'Key value' terminology is ambiguous and confusing,https://github.com/w3c/uievents/issues/117,2016-12-16T14:04:34Z,2017-01-25T00:27:45Z,r12a,i18n-needs-resolution,0
 195845073,true,InputEvent.data should be nullable,https://github.com/w3c/uievents/issues/116,2016-12-15T16:07:43Z,2017-01-31T19:16:48Z,chong-z,,0
-188957914,false,WheelEvent.intDelta(X|Y|Z) might be useful for some web apps which cannot scroll its contents smoothly,https://github.com/w3c/uievents/issues/114,2016-11-13T07:59:15Z,2020-07-23T19:52:51Z,masayuki-nakano,Proposal|WheelEvent,0
 187195362,true,Example 33 cleanup,https://github.com/w3c/uievents/issues/113,2016-11-03T21:28:59Z,2017-01-31T19:03:27Z,garykac,,0
 186505707,false,Require support or non-support for legacy init*Event,https://github.com/w3c/uievents/issues/112,2016-11-01T10:47:18Z,2020-07-23T19:52:39Z,zcorpan,Legacy,0
 184688534,true,Fire an event on caret position change,https://github.com/w3c/uievents/issues/111,2016-10-23T12:57:45Z,2020-08-13T18:42:10Z,SebastianZ,,4
 184048552,true,Mark up IDL attributes properly,https://github.com/w3c/uievents/issues/110,2016-10-19T19:09:45Z,2017-01-25T22:34:02Z,domenic,,0
-179296694,false,Reduce scroll performance impact of `wheel` listeners,https://github.com/w3c/uievents/issues/109,2016-09-26T18:02:13Z,2020-07-23T19:47:28Z,RByers,WheelEvent,0
 178870599,false,Consider integrating InputDeviceCapabilities,https://github.com/w3c/uievents/issues/108,2016-09-23T12:59:40Z,2023-02-24T00:11:52Z,RByers,UIEvent,0
 175817479,true,Can't suppress the default action of non-primary button clicks,https://github.com/w3c/uievents/issues/107,2016-09-08T17:46:05Z,2017-08-13T11:56:58Z,RByers,,1
 171212643,false,"definition for ""dispatch"" shouldn't be in the UI events spec",https://github.com/w3c/uievents/issues/106,2016-08-15T16:57:06Z,2020-07-23T19:46:44Z,johanneswilm,Editorial,1
@@ -248,9 +198,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 152068855,false,It is unclear whether beforeinput should be dispatched when input event is triggered because of mouse click,https://github.com/w3c/uievents/issues/87,2016-05-01T03:26:59Z,2020-07-23T18:05:47Z,smaug----,InputEvent,0
 151269866,false,Editorial cleanup to prep for next WD,https://github.com/w3c/uievents/issues/86,2016-04-27T00:25:24Z,2020-07-23T18:05:35Z,garykac,Editorial,0
 146764347,false,Mismatch definition for `beforeinput` with `w3c/editing`,https://github.com/w3c/uievents/issues/85,2016-04-07T22:50:32Z,2020-07-23T18:04:05Z,chong-z,InputEvent,0
-145917985,false,MouseEvent.fromElement/toElement,https://github.com/w3c/uievents/issues/84,2016-04-05T07:47:09Z,2023-10-06T02:20:07Z,cvrebert,MouseEvent,0
 144170882,true,Extraneous <code> in & after §12.1.2. Changes to DOM Level 2 event types,https://github.com/w3c/uievents/issues/82,2016-03-29T06:30:15Z,2016-03-29T13:06:12Z,cvrebert,,0
-144169291,false,Explain that mousedown focuses form controls,https://github.com/w3c/uievents/issues/81,2016-03-29T06:23:12Z,2023-07-17T20:21:55Z,cvrebert,MouseEvent,0
 144162540,true,Set GitHub website field,https://github.com/w3c/uievents/issues/80,2016-03-29T05:42:22Z,2016-04-13T19:35:02Z,cvrebert,,0
 141905248,false,Gamepad-specific DOM keys / location?,https://github.com/w3c/uievents/issues/79,2016-03-18T15:50:19Z,2020-07-23T18:03:07Z,RByers,KeyboardEvent,0
 140780300,false,Clarify expected DomKey for Shift+AltGr+0 on Windows with fr-FR layout,https://github.com/w3c/uievents/issues/78,2016-03-14T19:50:42Z,2020-07-23T18:01:29Z,chong-z,KeyboardEvent,0
@@ -268,13 +216,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 125350873,false,Add a note to document of default action of KeyboardEvent for allowing UA not to fire key events for some shortcut keys,https://github.com/w3c/uievents/issues/65,2016-01-07T08:46:58Z,2020-07-23T17:55:47Z,masayuki-nakano,KeyboardEvent,0
 121453861,true,"""Modifier Keys"" link in KeyboardEvent.getModifierState description is a 404",https://github.com/w3c/uievents/issues/63,2015-12-10T10:35:22Z,2016-03-06T15:55:29Z,cvrebert,,0
 119910212,true,Whethere KeyboardEvent.location depends on .code or .key?,https://github.com/w3c/uievents/issues/62,2015-12-02T10:17:36Z,2015-12-03T19:00:35Z,masayuki-nakano,,0
-119747563,false,Firing of click event after mousedown/up has two different definitions,https://github.com/w3c/uievents/issues/61,2015-12-01T15:58:28Z,2020-07-23T17:54:46Z,smaug----,MouseEvent-click|MouseEvent,0
 118277718,true,Update refs to uievents-key and -code,https://github.com/w3c/uievents/issues/60,2015-11-22T18:00:36Z,2016-03-06T05:14:43Z,garykac,,0
 117491511,false,Add reference to Edit Events spec,https://github.com/w3c/uievents/issues/59,2015-11-18T01:35:37Z,2020-07-23T18:10:06Z,travisleithead,Editorial,0
-116576616,false,Expose 'inertial scrolling state' in wheel events,https://github.com/w3c/uievents/issues/58,2015-11-12T15:46:10Z,2023-12-16T15:56:57Z,lorenbrichter,Proposal|WheelEvent,27
-116576575,false,Expose 'direction-inversion' in wheel events,https://github.com/w3c/uievents/issues/57,2015-11-12T15:45:56Z,2022-07-19T06:12:48Z,lorenbrichter,Proposal|WheelEvent,14
 116242241,true,"Expose modern 'wheel' event parameters (inertial scrolling, direction inversion)",https://github.com/w3c/uievents/issues/56,2015-11-11T01:31:12Z,2015-11-17T23:49:58Z,lorenbrichter,Proposal,0
-112176504,false,Clarify what events are expected from <option> elements in <select> dropdowns,https://github.com/w3c/uievents/issues/55,2015-10-19T16:01:24Z,2020-07-22T23:44:58Z,mikeconley,Needs Tests|MouseEvent,0
 111686942,true,Think it's time for .on .off and .once,https://github.com/w3c/uievents/issues/54,2015-10-15T19:11:22Z,2015-10-15T19:50:55Z,jimmywarting,,0
 111605322,true,Broken links make documentation useless,https://github.com/w3c/uievents/issues/53,2015-10-15T12:22:01Z,2016-01-20T01:37:51Z,AFBarstow,Quick Fix,0
 110151821,false,Keyboard events should specify their target when more than 1 document exists,https://github.com/w3c/uievents/issues/52,2015-10-07T04:51:36Z,2020-07-22T23:44:28Z,garykac,Needs Tests|KeyboardEvent,0
@@ -289,18 +233,15 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 110151005,true,Bug filing script doesn't select the component,https://github.com/w3c/uievents/issues/43,2015-10-07T04:40:44Z,2015-11-11T01:46:12Z,garykac,,0
 110150918,true,CompositionEvent constructor arguments name are atypical,https://github.com/w3c/uievents/issues/42,2015-10-07T04:39:21Z,2016-03-07T04:58:24Z,garykac,Composition and Editing,0
 110150815,true,"Reference to createEvent(""FocusEvent"")",https://github.com/w3c/uievents/issues/41,2015-10-07T04:37:47Z,2016-01-20T02:01:42Z,garykac,Quick Fix,0
-110150713,false,Mouse coordinates represented in CSS pixels do not account for retina displays with window.devicePixelRatio > 1,https://github.com/w3c/uievents/issues/40,2015-10-07T04:36:10Z,2024-07-29T17:26:02Z,garykac,MouseEvent,1
 110150548,true,[code] KeyboardEvent code spec should have featurephone section,https://github.com/w3c/uievents/issues/39,2015-10-07T04:33:27Z,2015-10-21T00:35:24Z,garykac,important!,0
 110150444,true,Need to remove input/beforeinput event info from D3E and point to input event spec,https://github.com/w3c/uievents/issues/38,2015-10-07T04:32:13Z,2016-03-06T05:26:45Z,garykac,Composition and Editing,0
 110150356,true,DOM Level 3 KeyboardEvent key Values specification does not include core key values,https://github.com/w3c/uievents/issues/37,2015-10-07T04:30:40Z,2015-10-21T00:35:52Z,garykac,,0
 110150281,true,Partial interfaces must not inherit,https://github.com/w3c/uievents/issues/36,2015-10-07T04:29:29Z,2016-03-04T18:27:54Z,garykac,Quick Fix,0
-110150152,false,Specify MouseEvent.which,https://github.com/w3c/uievents/issues/35,2015-10-07T04:27:56Z,2020-07-22T23:43:15Z,garykac,MouseEvent,0
 110149984,true,"For synthetic activation, should the original event still be dispatched?",https://github.com/w3c/uievents/issues/34,2015-10-07T04:25:25Z,2016-03-07T05:33:20Z,garykac,Needs Tests,0
 110149898,false,Distinguish between Space and Enter in Forms,https://github.com/w3c/uievents/issues/33,2015-10-07T04:23:57Z,2017-01-24T20:11:58Z,garykac,,0
 110149753,true,[key] Separator,https://github.com/w3c/uievents/issues/32,2015-10-07T04:21:29Z,2015-10-21T00:37:41Z,garykac,,0
-110149621,false,"[Proposal] Add ""Zoom"" event",https://github.com/w3c/uievents/issues/31,2015-10-07T04:19:52Z,2025-05-07T15:23:04Z,garykac,Proposal,18
+110149621,false,"[Proposal] Add ""Zoom"" event",https://github.com/w3c/uievents/issues/31,2015-10-07T04:19:52Z,2026-01-12T22:26:41Z,garykac,Proposal,18
 110149422,true,Need to define UIEvent or link to where it's normatively defined,https://github.com/w3c/uievents/issues/30,2015-10-07T04:16:37Z,2016-03-06T05:33:01Z,garykac,,0
-110149199,false,Define that click doesn't fire on disabled elements,https://github.com/w3c/uievents/issues/29,2015-10-07T04:12:30Z,2020-07-22T23:46:19Z,garykac,Needs Tests|MouseEvent-click,0
 110149089,true,"When .getModifierState(""OS"") should be true?",https://github.com/w3c/uievents/issues/28,2015-10-07T04:11:09Z,2016-03-06T05:30:56Z,garykac,important!,0
 110148883,true,"[key] Needs more explicit explanation of ""MediaSelect"", ""LaunchMediaPlayer"" and ""MediaApps""",https://github.com/w3c/uievents/issues/27,2015-10-07T04:08:26Z,2015-10-21T00:26:59Z,garykac,important!,0
 110148674,true,Needs clearer definition of virtual keyboard's KeyboardEvent.code value if it doesn't emulate physical key event completely,https://github.com/w3c/uievents/issues/26,2015-10-07T04:06:23Z,2015-10-21T00:29:15Z,garykac,,0
@@ -308,13 +249,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 110148403,false,Converge with CSSOM-View,https://github.com/w3c/uievents/issues/24,2015-10-07T04:02:33Z,2025-06-19T14:33:25Z,garykac,Quick Fix|Needs Tests,0
 110148241,false,"Specify the Event Loop integration for various non-deprecated events, incl. hit testing",https://github.com/w3c/uievents/issues/23,2015-10-07T04:01:05Z,2020-07-23T18:36:28Z,garykac,NeedAlgorithms,0
 110147855,false,"Clarify or change the use of ""default action"" to avoid confusion",https://github.com/w3c/uievents/issues/22,2015-10-07T03:56:20Z,2016-03-29T06:49:05Z,garykac,Quick Fix,0
-110147729,false,"Proposal for UIEvent ""role"" property",https://github.com/w3c/uievents/issues/21,2015-10-07T03:54:29Z,2025-12-16T15:48:24Z,garykac,Proposal|MouseEvent|UIEvent,0
 110129824,true,Need 'Unspecified' value for KeyboardEvent.code,https://github.com/w3c/uievents/issues/20,2015-10-07T00:26:06Z,2015-10-21T00:29:52Z,garykac,,0
 110118994,true,D3E and corelation with DOM4(W3C)/DOM(WHATWAG) and DOM3 Core,https://github.com/w3c/uievents/issues/19,2015-10-06T22:58:29Z,2019-08-18T16:02:08Z,garykac,,0
 110118348,false,How do web apps distinguish if a keydown event causes text input?,https://github.com/w3c/uievents/issues/18,2015-10-06T22:53:15Z,2024-05-15T18:53:13Z,garykac,Composition and Editing|KeyboardEvent,0
-110118239,false,Expose ticks in wheel events,https://github.com/w3c/uievents/issues/17,2015-10-06T22:52:08Z,2020-07-22T23:40:13Z,garykac,Proposal|WheelEvent,2
 110117977,true,Mechanism to differentiate pointer input from multiple users/devices missing,https://github.com/w3c/uievents/issues/16,2015-10-06T22:51:02Z,2016-03-06T06:55:08Z,garykac,Device,0
-110117553,false,MouseEvent should have DOMString pseudoElement property like TransitionEvent,https://github.com/w3c/uievents/issues/15,2015-10-06T22:48:48Z,2020-07-22T23:40:26Z,garykac,Proposal|MouseEvent,0
 110116894,false,KeyboardEvent.locale is too general,https://github.com/w3c/uievents/issues/14,2015-10-06T22:44:03Z,2020-07-22T23:38:09Z,garykac,Proposal|KeyboardEvent,0
 110116528,true,Define key names for game controller of Android,https://github.com/w3c/uievents/issues/13,2015-10-06T22:42:02Z,2015-10-21T00:31:05Z,garykac,,0
 110116044,true,Define Home key and Back key of Android smartphone,https://github.com/w3c/uievents/issues/12,2015-10-06T22:39:11Z,2015-10-21T00:34:33Z,garykac,,0
@@ -325,6 +263,5 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 104971802,true,Please mark some definitions as not exported,https://github.com/w3c/uievents/issues/6,2015-09-04T21:17:20Z,2015-09-04T21:57:49Z,tabatkins,,0
 104197016,false,"specify how compositionend works if the caret has been moved to a different element ",https://github.com/w3c/uievents/issues/5,2015-09-01T06:41:44Z,2020-07-23T18:00:20Z,johanneswilm,Composition and Editing|CompositionEvent,0
 104107812,false,"beforeInput should also be triggered when no ""character value"" is produced",https://github.com/w3c/uievents/issues/4,2015-08-31T18:33:31Z,2020-07-23T18:00:30Z,johanneswilm,Composition and Editing|InputEvent,0
-95918634,false,Browser compliance (especially re: click),https://github.com/w3c/uievents/issues/3,2015-07-19T14:12:28Z,2020-07-22T23:34:36Z,stuartpb,Needs Tests|MouseEvent-click,0
 85471154,true,#event-type-input and #event-type-beforeinput appear to have gone missing,https://github.com/w3c/uievents/issues/2,2015-06-05T08:26:02Z,2016-03-06T06:31:10Z,stuartpb,Composition and Editing,0
 70701825,true,"Remove ""(formerly DOM Level 3 Events)"" from the title?",https://github.com/w3c/uievents/issues/1,2015-04-24T14:19:29Z,2015-09-04T22:10:16Z,AFBarstow,,0
