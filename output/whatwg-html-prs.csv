@@ -1,18 +1,19 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3810258395,false,Use cached select in selectedness setting algorithm,https://github.com/whatwg/html/pull/12083,2026-01-13T19:28:19Z,2026-01-13T19:30:00Z,josepharhar,,0
-3808755388,false,Only clean up cross-document method tracker.,https://github.com/whatwg/html/pull/12081,2026-01-13T13:00:53Z,2026-01-13T13:23:38Z,farre,,0
+3812063683,true,HTML parser: handle missing and empty string mostly the same for DOCTYPEs,https://github.com/whatwg/html/pull/12084,2026-01-14T08:03:59Z,2026-01-14T11:30:39Z,annevk,normative change|topic: parser,0
+3810258395,false,Use cached select in selectedness setting algorithm,https://github.com/whatwg/html/pull/12083,2026-01-13T19:28:19Z,2026-01-14T09:26:14Z,josepharhar,,0
+3808755388,true,Only clean up cross-document method tracker.,https://github.com/whatwg/html/pull/12081,2026-01-13T13:00:53Z,2026-01-14T08:27:53Z,farre,,0
 3803774703,true,Navigation API: Revert 11987,https://github.com/whatwg/html/pull/12078,2026-01-12T10:53:38Z,2026-01-12T11:28:07Z,noamr,,0
-3802846213,false,Check ongoing navigation before proceeding with javascript: URL navigation,https://github.com/whatwg/html/pull/12076,2026-01-12T05:43:04Z,2026-01-12T16:15:23Z,byteforge38,topic: navigation,0
+3802846213,false,Check ongoing navigation before proceeding with javascript: URL navigation,https://github.com/whatwg/html/pull/12076,2026-01-12T05:43:04Z,2026-01-14T08:13:47Z,byteforge38,topic: navigation,0
 3797092339,false,Calculate ancestorOrigins on document creation and store on document,https://github.com/whatwg/html/pull/12071,2026-01-09T14:11:52Z,2026-01-13T10:57:12Z,zcorpan,,0
 3795160292,false,Define base appearance for select multiple drop-down,https://github.com/whatwg/html/pull/12069,2026-01-09T01:58:01Z,2026-01-09T01:59:24Z,josepharhar,,0
 3793961141,false,"WIP: Refactor href getter, setter out of HTMLHyperlinkEelementUtils",https://github.com/whatwg/html/pull/12066,2026-01-08T18:35:39Z,2026-01-08T19:08:28Z,lukewarlow,,1
-3793925711,false,Use the value attribute for color update if dirty value flag is false,https://github.com/whatwg/html/pull/12065,2026-01-08T18:23:44Z,2026-01-13T10:37:15Z,saschanaz,,0
+3793925711,false,Use the value attribute for color update if dirty value flag is false,https://github.com/whatwg/html/pull/12065,2026-01-08T18:23:44Z,2026-01-14T10:40:48Z,saschanaz,,0
 3792303816,true,"Revert ""Switch dialog/popover to using place-self:dialog""",https://github.com/whatwg/html/pull/12060,2026-01-08T10:27:29Z,2026-01-13T11:12:12Z,annevk,,0
 3789585456,true,Ensure data scheme Workers are same origin with themselves,https://github.com/whatwg/html/pull/12058,2026-01-07T17:08:53Z,2026-01-08T11:54:34Z,shannonbooth,topic: workers|topic: origin,0
 3763706378,true,Do not broadcast storage events if storage is already empty,https://github.com/whatwg/html/pull/12042,2025-12-26T16:29:14Z,2026-01-08T12:14:22Z,shannonbooth,,0
 3761063334,true,Update 404.html,https://github.com/whatwg/html/pull/12040,2025-12-24T21:44:22Z,2025-12-25T11:25:56Z,Davixdsh,invalid,0
 3753324217,false,"Editorial: fix link to ""potentially free deferred fetch quota""",https://github.com/whatwg/html/pull/12039,2025-12-22T10:52:31Z,2025-12-22T10:54:08Z,TimvdLippe,,0
-3752981634,false,"Set creation URL of worker settings to final URL after redirect",https://github.com/whatwg/html/pull/12038,2025-12-22T09:20:36Z,2026-01-12T02:18:34Z,TimvdLippe,,0
+3752981634,false,"Set creation URL of worker settings to final URL after redirect",https://github.com/whatwg/html/pull/12038,2025-12-22T09:20:36Z,2026-01-14T07:05:09Z,TimvdLippe,,0
 3739393306,false,Avoid unresolved promises in Navigation API traversal,https://github.com/whatwg/html/pull/12031,2025-12-17T15:34:23Z,2025-12-18T11:51:00Z,zcorpan,,0
 3737222223,true,Editorial: Fix wording and punctuation,https://github.com/whatwg/html/pull/12027,2025-12-17T03:51:38Z,2025-12-22T15:11:24Z,jmdyck,,1
 3736701020,false,Add document policy to the policy container,https://github.com/whatwg/html/pull/12026,2025-12-16T23:27:19Z,2025-12-16T23:29:02Z,monica-ch,,0
@@ -31,8 +32,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3691436833,true,Editorial: fix US spelling ('behaviour' → 'behavior') in activation event definition,https://github.com/whatwg/html/pull/11985,2025-12-03T18:37:23Z,2025-12-04T06:13:02Z,nishtha-agarwal-211,,0
 3690361653,true,Expose NavigationPrecommitController.addHandler,https://github.com/whatwg/html/pull/11984,2025-12-03T13:56:50Z,2025-12-11T13:34:12Z,noamr,,0
 3689842829,true,Download link: inform the navigation API about aborting,https://github.com/whatwg/html/pull/11983,2025-12-03T11:32:45Z,2025-12-11T13:27:52Z,noamr,,0
-3687259345,false,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2026-01-13T19:50:34Z,KurtCattiSchmidt,agenda+,0
-3687064326,false,Add support for video element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-01-09T21:48:11Z,scottjehl,addition/proposal|needs implementer interest|topic: media|needs tests,2
+3687259345,false,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2026-01-14T06:34:11Z,KurtCattiSchmidt,agenda+,0
+3687064326,false,Add support for video element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-01-14T10:19:52Z,scottjehl,addition/proposal|topic: media,2
 3685135331,true,Specify document conformance for headingoffset/headingreset,https://github.com/whatwg/html/pull/11979,2025-12-02T10:17:37Z,2025-12-02T11:20:06Z,zcorpan,,0
 3685086081,true,Add headingoffset/headingreset to attribute index,https://github.com/whatwg/html/pull/11978,2025-12-02T10:05:59Z,2025-12-02T10:19:51Z,keithamus,,0
 3682264070,true,Use a task source when dispatching EventSource events. #4506,https://github.com/whatwg/html/pull/11976,2025-12-01T18:17:11Z,2025-12-01T20:36:26Z,wanderview,,0
@@ -62,13 +63,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3618265040,true,Editorial: Replace numeric character references with Unicode characters,https://github.com/whatwg/html/pull/11907,2025-11-12T21:17:12Z,2025-11-14T14:36:44Z,saikirankanakala,invalid,0
 3604298847,false,[DRAFT] Upstream the Scroll To Text Fragment specification,https://github.com/whatwg/html/pull/11895,2025-11-09T01:41:40Z,2025-11-25T23:09:52Z,domfarolino,,0
 3597884153,false,Build list of selectedcontent elements to clear,https://github.com/whatwg/html/pull/11891,2025-11-06T22:24:57Z,2026-01-13T13:49:24Z,josepharhar,topic: select,0
-3596273653,false,Update selectedcontent in selectedness setting,https://github.com/whatwg/html/pull/11890,2025-11-06T15:17:42Z,2026-01-13T18:01:53Z,josepharhar,topic: select,0
+3596273653,false,Update selectedcontent in selectedness setting,https://github.com/whatwg/html/pull/11890,2025-11-06T15:17:42Z,2026-01-14T10:01:38Z,josepharhar,topic: select,0
 3592127065,true,Editorial: link directly to a Trusted Types algorithm (not section),https://github.com/whatwg/html/pull/11888,2025-11-05T17:34:44Z,2025-11-20T15:40:48Z,foolip,,0
 3590044971,false,"Snapshot the margin* attributes on frame/iframe at document creation ",https://github.com/whatwg/html/pull/11887,2025-11-05T09:17:21Z,2025-11-12T02:58:41Z,zcorpan,,0
 3587781461,true,Drop some unhelpful non-normative text about “b” element usage,https://github.com/whatwg/html/pull/11885,2025-11-04T18:32:55Z,2025-11-19T11:18:03Z,sideshowbarker,document conformance,0
 3586374333,true,"[WebDriver BiDi] respect ""WebDriver BiDi scripting is enabled""",https://github.com/whatwg/html/pull/11884,2025-11-04T12:29:47Z,2025-11-24T10:34:40Z,sadym-chromium,,0
 3586259344,false,Make topmargin and leftmargin attributes apply to both sides,https://github.com/whatwg/html/pull/11881,2025-11-04T11:57:15Z,2025-11-05T09:06:11Z,zcorpan,,0
-3585140699,false,selectedcontent post-connection steps did not break out of the loop,https://github.com/whatwg/html/pull/11878,2025-11-04T07:46:09Z,2026-01-09T18:10:14Z,annevk,,0
+3585140699,false,selectedcontent post-connection steps did not break out of the loop,https://github.com/whatwg/html/pull/11878,2025-11-04T07:46:09Z,2026-01-14T09:51:05Z,annevk,,0
 3585120442,true,Editorial: fix references to shadowroot serializable,https://github.com/whatwg/html/pull/11877,2025-11-04T07:38:28Z,2025-11-04T10:59:00Z,Jamesernator,,1
 3580907886,true,Correct contexts where <p> can be used,https://github.com/whatwg/html/pull/11870,2025-11-03T07:31:56Z,2025-11-03T09:10:22Z,annevk,,0
 3580304397,true,Add link to build instructions in README,https://github.com/whatwg/html/pull/11868,2025-11-03T02:12:00Z,2025-11-20T12:50:49Z,2400030303,,0
@@ -160,7 +161,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3356225711,false,"[FYI, not ready for review] Add globalHDRHeadroom to CanvasCompositing interface",https://github.com/whatwg/html/pull/11597,2025-08-26T15:51:38Z,2025-10-01T08:29:20Z,ccameron-chromium,,0
 3344286687,true,chore(css): normalize prefers-color-scheme spacing in styles.css,https://github.com/whatwg/html/pull/11591,2025-08-22T06:18:20Z,2025-08-22T06:32:55Z,ArjunSaluja,invalid,0
 3342044580,true,use integer over anb syntax for heading,https://github.com/whatwg/html/pull/11589,2025-08-21T14:47:23Z,2025-08-27T12:55:08Z,keithamus,,0
-3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2025-12-16T16:30:16Z,foolip,,1
+3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-01-14T08:25:26Z,foolip,,1
 3337110965,true,[meta] Add dfn type and scope for HTMLMediaElement.src,https://github.com/whatwg/html/pull/11581,2025-08-20T08:32:57Z,2025-08-21T00:28:09Z,dontcallmedom,,1
 3336967031,true,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation,0
 3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
