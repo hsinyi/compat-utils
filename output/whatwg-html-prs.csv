@@ -1,9 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3810258395,false,Use cached select in selectedness setting algorithm,https://github.com/whatwg/html/pull/12083,2026-01-13T19:28:19Z,2026-01-13T19:30:00Z,josepharhar,,0
+3808755388,false,Only clean up cross-document method tracker.,https://github.com/whatwg/html/pull/12081,2026-01-13T13:00:53Z,2026-01-13T13:23:38Z,farre,,0
 3803774703,true,Navigation API: Revert 11987,https://github.com/whatwg/html/pull/12078,2026-01-12T10:53:38Z,2026-01-12T11:28:07Z,noamr,,0
 3802846213,false,Check ongoing navigation before proceeding with javascript: URL navigation,https://github.com/whatwg/html/pull/12076,2026-01-12T05:43:04Z,2026-01-12T16:15:23Z,byteforge38,topic: navigation,0
 3797092339,false,Calculate ancestorOrigins on document creation and store on document,https://github.com/whatwg/html/pull/12071,2026-01-09T14:11:52Z,2026-01-13T10:57:12Z,zcorpan,,0
 3795160292,false,Define base appearance for select multiple drop-down,https://github.com/whatwg/html/pull/12069,2026-01-09T01:58:01Z,2026-01-09T01:59:24Z,josepharhar,,0
-3793961141,false,"WIP: Refactor href getter, setter out of HTMLHyperlinkEelementUtils",https://github.com/whatwg/html/pull/12066,2026-01-08T18:35:39Z,2026-01-08T19:08:28Z,lukewarlow,,0
+3793961141,false,"WIP: Refactor href getter, setter out of HTMLHyperlinkEelementUtils",https://github.com/whatwg/html/pull/12066,2026-01-08T18:35:39Z,2026-01-08T19:08:28Z,lukewarlow,,1
 3793925711,false,Use the value attribute for color update if dirty value flag is false,https://github.com/whatwg/html/pull/12065,2026-01-08T18:23:44Z,2026-01-13T10:37:15Z,saschanaz,,0
 3792303816,true,"Revert ""Switch dialog/popover to using place-self:dialog""",https://github.com/whatwg/html/pull/12060,2026-01-08T10:27:29Z,2026-01-13T11:12:12Z,annevk,,0
 3789585456,true,Ensure data scheme Workers are same origin with themselves,https://github.com/whatwg/html/pull/12058,2026-01-07T17:08:53Z,2026-01-08T11:54:34Z,shannonbooth,topic: workers|topic: origin,0
@@ -29,7 +31,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3691436833,true,Editorial: fix US spelling ('behaviour' → 'behavior') in activation event definition,https://github.com/whatwg/html/pull/11985,2025-12-03T18:37:23Z,2025-12-04T06:13:02Z,nishtha-agarwal-211,,0
 3690361653,true,Expose NavigationPrecommitController.addHandler,https://github.com/whatwg/html/pull/11984,2025-12-03T13:56:50Z,2025-12-11T13:34:12Z,noamr,,0
 3689842829,true,Download link: inform the navigation API about aborting,https://github.com/whatwg/html/pull/11983,2025-12-03T11:32:45Z,2025-12-11T13:27:52Z,noamr,,0
-3687259345,false,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2026-01-13T08:31:25Z,KurtCattiSchmidt,agenda+,0
+3687259345,false,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2026-01-13T19:50:34Z,KurtCattiSchmidt,agenda+,0
 3687064326,false,Add support for video element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-01-09T21:48:11Z,scottjehl,addition/proposal|needs implementer interest|topic: media|needs tests,2
 3685135331,true,Specify document conformance for headingoffset/headingreset,https://github.com/whatwg/html/pull/11979,2025-12-02T10:17:37Z,2025-12-02T11:20:06Z,zcorpan,,0
 3685086081,true,Add headingoffset/headingreset to attribute index,https://github.com/whatwg/html/pull/11978,2025-12-02T10:05:59Z,2025-12-02T10:19:51Z,keithamus,,0
@@ -41,7 +43,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3665740225,false,Editorial: Accommodate changes to InitializeHostDefinedRealm,https://github.com/whatwg/html/pull/11962,2025-11-26T04:47:50Z,2025-11-28T06:19:14Z,jmdyck,,0
 3664927489,true,Fix argument order in prefetch algorithm,https://github.com/whatwg/html/pull/11961,2025-11-25T23:15:36Z,2025-11-26T07:39:20Z,domfarolino,,0
 3664925691,true,Fix mismatching parenthesis in HostEnqueuePromiseJob(),https://github.com/whatwg/html/pull/11960,2025-11-25T23:14:36Z,2025-11-26T07:36:31Z,domfarolino,,0
-3664785623,false,"Set ""is currently stalled"" before firing events",https://github.com/whatwg/html/pull/11959,2025-11-25T22:16:54Z,2026-01-09T12:05:49Z,foolip,normative change|topic: media,0
+3664785623,true,"Set ""is currently stalled"" before firing events",https://github.com/whatwg/html/pull/11959,2025-11-25T22:16:54Z,2026-01-13T14:37:25Z,foolip,normative change|topic: media,0
 3664001329,true,Update media resource fetch to identify top-level self-fetch for blob URLs,https://github.com/whatwg/html/pull/11957,2025-11-25T17:43:39Z,2025-12-03T15:13:55Z,recvfrom,,0
 3662841679,true,Correct <template>.content getter steps,https://github.com/whatwg/html/pull/11954,2025-11-25T12:18:28Z,2025-11-27T09:55:02Z,annevk,,0
 3662076848,true,Navigation API: Always use a method tracker when navigating,https://github.com/whatwg/html/pull/11952,2025-11-25T08:52:18Z,2025-11-26T11:33:26Z,farre,topic: navigation,0
@@ -59,8 +61,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3624113595,true,Make initialize() upgrade and fix upgrade(),https://github.com/whatwg/html/pull/11913,2025-11-14T06:25:58Z,2025-11-21T07:08:42Z,annevk,topic: custom elements,0
 3618265040,true,Editorial: Replace numeric character references with Unicode characters,https://github.com/whatwg/html/pull/11907,2025-11-12T21:17:12Z,2025-11-14T14:36:44Z,saikirankanakala,invalid,0
 3604298847,false,[DRAFT] Upstream the Scroll To Text Fragment specification,https://github.com/whatwg/html/pull/11895,2025-11-09T01:41:40Z,2025-11-25T23:09:52Z,domfarolino,,0
-3597884153,false,Build list of selectedcontent elements to clear,https://github.com/whatwg/html/pull/11891,2025-11-06T22:24:57Z,2025-12-09T02:37:35Z,josepharhar,,0
-3596273653,false,Update selectedcontent in selectedness setting,https://github.com/whatwg/html/pull/11890,2025-11-06T15:17:42Z,2025-11-06T22:29:42Z,josepharhar,,0
+3597884153,false,Build list of selectedcontent elements to clear,https://github.com/whatwg/html/pull/11891,2025-11-06T22:24:57Z,2026-01-13T13:49:24Z,josepharhar,topic: select,0
+3596273653,false,Update selectedcontent in selectedness setting,https://github.com/whatwg/html/pull/11890,2025-11-06T15:17:42Z,2026-01-13T18:01:53Z,josepharhar,topic: select,0
 3592127065,true,Editorial: link directly to a Trusted Types algorithm (not section),https://github.com/whatwg/html/pull/11888,2025-11-05T17:34:44Z,2025-11-20T15:40:48Z,foolip,,0
 3590044971,false,"Snapshot the margin* attributes on frame/iframe at document creation ",https://github.com/whatwg/html/pull/11887,2025-11-05T09:17:21Z,2025-11-12T02:58:41Z,zcorpan,,0
 3587781461,true,Drop some unhelpful non-normative text about “b” element usage,https://github.com/whatwg/html/pull/11885,2025-11-04T18:32:55Z,2025-11-19T11:18:03Z,sideshowbarker,document conformance,0
@@ -115,7 +117,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3452356791,true,Meta: mark up a couple more algorithms,https://github.com/whatwg/html/pull/11704,2025-09-25T07:43:10Z,2025-09-25T11:21:16Z,domenic,,0
 3451958776,true,Refresh to a javascript: URL should not work,https://github.com/whatwg/html/pull/11700,2025-09-25T05:28:52Z,2025-11-21T10:46:35Z,annevk,,0
 3451393569,true,"Editorial: relocate ""stopped parsing"" step for non-DOM documents",https://github.com/whatwg/html/pull/11698,2025-09-25T00:37:17Z,2025-09-25T07:37:29Z,domenic,clarification|topic: navigation|topic: frames/navigables/browsing contexts,0
-3451051426,false,Add external <script type=speculationrules>,https://github.com/whatwg/html/pull/11697,2025-09-24T21:26:17Z,2026-01-06T11:02:23Z,vickiez,,0
+3451051426,false,Add external <script type=speculationrules>,https://github.com/whatwg/html/pull/11697,2025-09-24T21:26:17Z,2026-01-13T23:33:30Z,vickiez,,0
 3449906788,false,use the afterRemoval steps to clean up implicit anchors,https://github.com/whatwg/html/pull/11695,2025-09-24T15:22:53Z,2025-09-24T16:04:00Z,keithamus,,0
 3449447529,true,reorder dialog attr changed steps so that cleanup steps always occur,https://github.com/whatwg/html/pull/11693,2025-09-24T13:26:59Z,2025-10-01T08:46:58Z,keithamus,,0
 3449178913,true,"Add `NavigationTransition.to`, exposing the current navigate event's destination",https://github.com/whatwg/html/pull/11692,2025-09-24T12:14:44Z,2025-12-03T11:36:49Z,noamr,,0

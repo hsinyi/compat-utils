@@ -3,7 +3,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3738147110,false,Remove the generated spec from the tree,https://github.com/w3c/uievents/issues/407,2025-12-17T09:47:52Z,2025-12-17T13:17:27Z,zcorpan,spec tooling,0
 3710728927,false,keydown does not specify whether modifier keys should be indicated on dispatched click event,https://github.com/w3c/uievents/issues/406,2025-12-09T12:42:40Z,2025-12-09T12:45:06Z,Psychpsyo,,0
 3510025896,true,Add new property to `InputEvent` to determine whether the text being input by IME has just been confirmed without help of `compositionend`,https://github.com/w3c/uievents/issues/403,2025-10-13T13:12:13Z,2025-10-13T13:35:10Z,tats-u,,0
-3504707083,false,Proposal: use `relatedTarget` for click events originated from labels,https://github.com/w3c/uievents/issues/402,2025-10-10T22:57:34Z,2025-10-16T13:19:18Z,sb3nder,,0
+3504707083,true,Proposal: use `relatedTarget` for click events originated from labels,https://github.com/w3c/uievents/issues/402,2025-10-10T22:57:34Z,2026-01-13T16:58:57Z,sb3nder,,0
 3461464007,false,Cannot detect insertion of commited composing text (i.e. press Enter) only by onInput (without state),https://github.com/w3c/uievents/issues/401,2025-09-28T09:35:10Z,2025-09-28T09:35:40Z,tats-u,,0
 3315133941,false,TPAC 2025 status report,https://github.com/w3c/uievents/issues/399,2025-08-12T17:09:33Z,2025-11-10T13:03:56Z,siusin,,0
 3120319282,false,Compositionend due to deletion still sends last updated character for Korean on macOS(or macOS IME) and... IME differences,https://github.com/w3c/uievents/issues/397,2025-06-05T08:29:53Z,2025-06-05T08:41:30Z,vlwkaos,,0
@@ -180,7 +180,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 175817479,true,Can't suppress the default action of non-primary button clicks,https://github.com/w3c/uievents/issues/107,2016-09-08T17:46:05Z,2017-08-13T11:56:58Z,RByers,,1
 171212643,false,"definition for ""dispatch"" shouldn't be in the UI events spec",https://github.com/w3c/uievents/issues/106,2016-08-15T16:57:06Z,2020-07-23T19:46:44Z,johanneswilm,Editorial,1
 171212040,false,"When beforeinput/input events are fired seems ""strange""",https://github.com/w3c/uievents/issues/105,2016-08-15T16:54:21Z,2020-07-23T19:46:22Z,johanneswilm,InputEvent,0
-171196192,false,"Events do not have ""default action""s",https://github.com/w3c/uievents/issues/104,2016-08-15T15:38:48Z,2020-07-23T19:46:09Z,johanneswilm,Editorial,0
+171196192,false,"Events do not have ""default action""s",https://github.com/w3c/uievents/issues/104,2016-08-15T15:38:48Z,2026-01-13T16:49:06Z,johanneswilm,Editorial,0
 167194350,true,9.4 mutation events are deprecated,https://github.com/w3c/uievents/issues/103,2016-07-23T17:30:41Z,2016-07-26T20:49:46Z,LJWatson,,0
 167194305,true,9.4 mutation events are deprecated,https://github.com/w3c/uievents/issues/102,2016-07-23T17:29:39Z,2020-08-10T22:33:45Z,LJWatson,Editorial|Legacy,0
 167194278,false,5.7 composition events use case,https://github.com/w3c/uievents/issues/101,2016-07-23T17:28:48Z,2020-07-23T18:09:24Z,LJWatson,CompositionEvent,0
