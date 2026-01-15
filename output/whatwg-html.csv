@@ -4,7 +4,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3808566888,false,Find a better way to explain ad-hoc script prepare/cleanup pairs for promise-based APIs,https://github.com/whatwg/html/issues/12080,2026-01-13T12:10:21Z,2026-01-14T09:27:09Z,noamr,,0
 3807918719,true,Navigation API: cleaning up method tracker should only be done when navigation is cross-document,https://github.com/whatwg/html/issues/12079,2026-01-13T09:15:17Z,2026-01-14T08:27:55Z,noamr,,0
 3803675989,true,Early return in step 31 of #inner-navigate-event-firing-algorithm is too strict,https://github.com/whatwg/html/issues/12077,2026-01-12T10:26:44Z,2026-01-12T11:24:34Z,farre,topic: navigation,0
-3802799752,false,javascript URL navigations do not check ongoing navigation status,https://github.com/whatwg/html/issues/12075,2026-01-12T05:15:34Z,2026-01-14T08:08:35Z,jdm,topic: navigation|topic: javascript: URLs,0
+3802799752,true,javascript URL navigations do not check ongoing navigation status,https://github.com/whatwg/html/issues/12075,2026-01-12T05:15:34Z,2026-01-15T10:08:02Z,jdm,topic: navigation|topic: javascript: URLs,0
 3799531562,false,"""mark as ready"" can happen before defining ""steps to run when the result is ready""",https://github.com/whatwg/html/issues/12073,2026-01-10T11:07:57Z,2026-01-10T11:07:57Z,crhaglun,,0
 3796955304,false,"https://html.spec.whatwg.org/#reactivate-a-document 4.3 doesn't match implementations, visibilityState isn't always set to 'visible'",https://github.com/whatwg/html/issues/12070,2026-01-09T13:28:47Z,2026-01-09T20:50:47Z,smaug----,,0
 3795045507,false,<link rel=preload> supported destinations are inconsistent between sections,https://github.com/whatwg/html/issues/12068,2026-01-09T00:56:11Z,2026-01-09T01:00:10Z,KurtCattiSchmidt,,0
@@ -259,12 +259,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3321861958,false,Listed elements change event for form elements,https://github.com/whatwg/html/issues/11561,2025-08-14T11:23:24Z,2025-09-08T13:00:33Z,annevk,addition/proposal|needs implementer interest|topic: forms|topic: events,0
 3320994515,true,Clarify blending isolation in 2D canvas,https://github.com/whatwg/html/issues/11559,2025-08-14T06:45:20Z,2025-09-11T11:33:33Z,sagudev,topic: canvas,0
 3320269233,true,"Are `navigator.platform`, `navigator.vendor`, or any other attributes of the `NavigatorID` mixin deprecated?",https://github.com/whatwg/html/issues/11558,2025-08-14T00:23:44Z,2025-08-19T08:57:06Z,SyntaxColoring,,3
-3318943549,false,Proposal: Support image formats in `<video>`,https://github.com/whatwg/html/issues/11554,2025-08-13T15:39:54Z,2025-09-05T17:32:20Z,LeaVerou,addition/proposal|needs implementer interest|topic: media,6
+3318943549,false,Proposal: Support image formats in `<video>`,https://github.com/whatwg/html/issues/11554,2025-08-13T15:39:54Z,2025-09-05T17:32:20Z,LeaVerou,addition/proposal|needs implementer interest|topic: media,7
 3317223628,false,Add openid4vp: as a safelisted scheme for protocol registration handling,https://github.com/whatwg/html/issues/11552,2025-08-13T07:23:52Z,2025-08-22T16:20:33Z,nvoutsin,addition/proposal|needs implementer interest|topic: custom protocols,0
 3309950964,true,LLMs Meta Tags Standard,https://github.com/whatwg/html/issues/11548,2025-08-11T13:02:49Z,2025-08-11T16:30:30Z,rafaelp,addition/proposal|needs implementer interest,0
 3308378580,false,`PromiseRejectionError` constructor behavior differs by implementation,https://github.com/whatwg/html/issues/11547,2025-08-11T04:06:26Z,2025-08-11T09:12:06Z,petamoriken,needs tests,0
 3308003149,false,Allow `fieldset` to be a CSS subgrid,https://github.com/whatwg/html/issues/11546,2025-08-10T21:46:40Z,2025-08-11T23:42:34Z,kirk-loretz-fsn,addition/proposal|needs implementer interest|topic: fieldset,0
-3299845424,false,"Out of order HTML streaming (""patching"")",https://github.com/whatwg/html/issues/11542,2025-08-07T10:03:34Z,2026-01-14T22:16:36Z,noamr,addition/proposal|topic: parser|stage: 1,8
+3299845424,false,"Out of order HTML streaming (""patching"")",https://github.com/whatwg/html/issues/11542,2025-08-07T10:03:34Z,2026-01-15T09:04:37Z,noamr,addition/proposal|topic: parser|stage: 1,8
 3299685743,true,Upcoming WHATNOT meeting on 2025-08-14,https://github.com/whatwg/html/issues/11541,2025-08-07T09:12:30Z,2025-09-11T10:01:57Z,annevk,,0
 3297402544,false,"""rules for parsing a list of dimensions"" should clarify behavior for large numeric values",https://github.com/whatwg/html/issues/11539,2025-08-06T16:58:06Z,2025-10-08T20:12:46Z,weinig,needs tests,0
 3296458731,false,"Proposal: New HTML attributes mustcontain, requiredchars, and preset for simplified form validation",https://github.com/whatwg/html/issues/11538,2025-08-06T12:11:02Z,2025-08-13T14:30:30Z,sanketbhuite,addition/proposal|needs implementer interest,1
@@ -2172,7 +2172,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1016775991,true,Suggestion: Revisit spec copy for quote need and consistency,https://github.com/whatwg/html/issues/7158,2021-10-05T20:19:27Z,2025-01-14T10:02:25Z,j9t,,0
 1015361028,false,"Add asynchronous version of alert, prompt, and confirm that return promises",https://github.com/whatwg/html/issues/7151,2021-10-04T16:04:08Z,2021-10-05T14:30:57Z,achristensen07,addition/proposal|needs implementer interest,0
 1015313888,true,Standardize Priority Hints,https://github.com/whatwg/html/issues/7150,2021-10-04T15:18:43Z,2023-02-17T06:10:47Z,pmeenan,addition/proposal|topic: fetch,0
-1013183795,false,Require `img` to be able to load the same video formats as `video` supports,https://github.com/whatwg/html/issues/7141,2021-10-01T10:33:10Z,2021-10-04T12:54:07Z,zcorpan,topic: img,27
+1013183795,false,Require `img` to be able to load the same video formats as `video` supports,https://github.com/whatwg/html/issues/7141,2021-10-01T10:33:10Z,2021-10-04T12:54:07Z,zcorpan,topic: img,28
 1013085041,true,`<embed>` elements (HTMLEmbedElement) do not have contentWindow or contentDocument,https://github.com/whatwg/html/issues/7140,2021-10-01T08:54:14Z,2023-04-26T15:29:12Z,Rob--W,addition/proposal|needs implementer interest|topic: embed and object,0
 1012275325,false,Add request metadata to COEP Reporting,https://github.com/whatwg/html/issues/7133,2021-09-30T14:48:44Z,2021-10-29T06:12:33Z,agampafb,topic: cross-origin-embedder-policy,0
 1011378851,true,"Feature proposal: `blocking=""render""` attribute on <link>, <script> and <style>",https://github.com/whatwg/html/issues/7131,2021-09-29T19:46:33Z,2022-08-26T17:00:54Z,xiaochengh,addition/proposal|needs implementer interest|topic: rendering,0
@@ -5032,7 +5032,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 157783300,true,"Events list that trigger ""allowed to show a popup"" seems too small",https://github.com/whatwg/html/issues/1358,2016-05-31T22:17:23Z,2016-10-15T00:20:45Z,domenic,,0
 157658318,true,Navigate improvements,https://github.com/whatwg/html/issues/1352,2016-05-31T12:22:11Z,2017-05-05T09:40:07Z,annevk,topic: navigation,0
 157609617,true,Remove parse error for dashes in comments <!-- -- -->,https://github.com/whatwg/html/issues/1351,2016-05-31T07:48:30Z,2017-02-06T08:11:21Z,zcorpan,document conformance|topic: parser,4
-157550701,false,Define parser behavior for in-body external stylesheets,https://github.com/whatwg/html/issues/1349,2016-05-30T20:00:32Z,2025-11-28T13:49:14Z,pmeenan,compat|topic: parser|topic: style,0
+157550701,false,Define parser behavior for in-body external stylesheets,https://github.com/whatwg/html/issues/1349,2016-05-30T20:00:32Z,2026-01-15T09:42:16Z,pmeenan,compat|topic: parser|topic: style,0
 157515981,true,The Worker's Lifetime TOC entry is broken,https://github.com/whatwg/html/issues/1347,2016-05-30T14:44:11Z,2016-05-30T15:00:02Z,jdm,,0
 157368757,true,"""This event must not bubble, must not be cancela...""",https://github.com/whatwg/html/issues/1341,2016-05-29T04:34:10Z,2016-05-29T04:59:40Z,dannyid,,0
 157356866,true,HTMLHyperlinkElementUtils set the url doesn't say what to do when the attribute is absent,https://github.com/whatwg/html/issues/1340,2016-05-28T21:05:38Z,2016-06-30T21:30:50Z,domenic,clarification|good first issue,0

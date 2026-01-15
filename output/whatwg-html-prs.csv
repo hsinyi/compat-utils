@@ -1,9 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3815793080,false,Add new strings for notRestoredReason for SharedWorker,https://github.com/whatwg/html/pull/12086,2026-01-15T03:08:33Z,2026-01-15T03:22:19Z,llannasatoll,,0
 3812063683,true,HTML parser: handle missing and empty string mostly the same for DOCTYPEs,https://github.com/whatwg/html/pull/12084,2026-01-14T08:03:59Z,2026-01-14T11:30:39Z,annevk,normative change|topic: parser,0
 3810258395,false,Use cached select in selectedness setting algorithm,https://github.com/whatwg/html/pull/12083,2026-01-13T19:28:19Z,2026-01-14T09:26:14Z,josepharhar,,0
 3808755388,true,Only clean up cross-document method tracker.,https://github.com/whatwg/html/pull/12081,2026-01-13T13:00:53Z,2026-01-14T08:27:53Z,farre,,0
 3803774703,true,Navigation API: Revert 11987,https://github.com/whatwg/html/pull/12078,2026-01-12T10:53:38Z,2026-01-12T11:28:07Z,noamr,,0
-3802846213,false,Check ongoing navigation before proceeding with javascript: URL navigation,https://github.com/whatwg/html/pull/12076,2026-01-12T05:43:04Z,2026-01-14T08:13:47Z,byteforge38,topic: navigation,0
+3802846213,true,Check ongoing navigation before proceeding with javascript: URL navigation,https://github.com/whatwg/html/pull/12076,2026-01-12T05:43:04Z,2026-01-15T10:08:46Z,byteforge38,topic: navigation|topic: javascript: URLs,0
 3797092339,false,Calculate ancestorOrigins on document creation and store on document,https://github.com/whatwg/html/pull/12071,2026-01-09T14:11:52Z,2026-01-13T10:57:12Z,zcorpan,,0
 3795160292,false,Define base appearance for select multiple drop-down,https://github.com/whatwg/html/pull/12069,2026-01-09T01:58:01Z,2026-01-09T01:59:24Z,josepharhar,,0
 3793961141,false,Editorial: Refactor HTMLHyperlinkElementUtils,https://github.com/whatwg/html/pull/12066,2026-01-08T18:35:39Z,2026-01-14T14:15:12Z,lukewarlow,,1
@@ -14,7 +15,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3761063334,true,Update 404.html,https://github.com/whatwg/html/pull/12040,2025-12-24T21:44:22Z,2025-12-25T11:25:56Z,Davixdsh,invalid,0
 3753324217,false,"Editorial: fix link to ""potentially free deferred fetch quota""",https://github.com/whatwg/html/pull/12039,2025-12-22T10:52:31Z,2025-12-22T10:54:08Z,TimvdLippe,,0
 3752981634,false,"Set creation URL of worker settings to final URL after redirect",https://github.com/whatwg/html/pull/12038,2025-12-22T09:20:36Z,2026-01-14T07:05:09Z,TimvdLippe,,0
-3739393306,false,Avoid unresolved promises in Navigation API traversal,https://github.com/whatwg/html/pull/12031,2025-12-17T15:34:23Z,2025-12-18T11:51:00Z,zcorpan,,0
+3739393306,false,Avoid unresolved promises in Navigation API traversal,https://github.com/whatwg/html/pull/12031,2025-12-17T15:34:23Z,2026-01-15T10:27:08Z,zcorpan,,0
 3737222223,true,Editorial: Fix wording and punctuation,https://github.com/whatwg/html/pull/12027,2025-12-17T03:51:38Z,2025-12-22T15:11:24Z,jmdyck,,1
 3736701020,false,Add document policy to the policy container,https://github.com/whatwg/html/pull/12026,2025-12-16T23:27:19Z,2025-12-16T23:29:02Z,monica-ch,,0
 3735295434,false,Navigation API: nullify ongoing navigate event on successful cross-document navigation,https://github.com/whatwg/html/pull/12024,2025-12-16T15:31:17Z,2026-01-06T10:51:02Z,noamr,,0
@@ -32,7 +33,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3691436833,true,Editorial: fix US spelling ('behaviour' → 'behavior') in activation event definition,https://github.com/whatwg/html/pull/11985,2025-12-03T18:37:23Z,2025-12-04T06:13:02Z,nishtha-agarwal-211,,0
 3690361653,true,Expose NavigationPrecommitController.addHandler,https://github.com/whatwg/html/pull/11984,2025-12-03T13:56:50Z,2025-12-11T13:34:12Z,noamr,,0
 3689842829,true,Download link: inform the navigation API about aborting,https://github.com/whatwg/html/pull/11983,2025-12-03T11:32:45Z,2025-12-11T13:27:52Z,noamr,,0
-3687259345,false,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2026-01-15T00:52:59Z,KurtCattiSchmidt,agenda+,0
+3687259345,false,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2026-01-15T00:54:42Z,KurtCattiSchmidt,agenda+,0
 3687064326,false,Add support for video element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-01-14T17:42:37Z,scottjehl,addition/proposal|topic: media,2
 3685135331,true,Specify document conformance for headingoffset/headingreset,https://github.com/whatwg/html/pull/11979,2025-12-02T10:17:37Z,2025-12-02T11:20:06Z,zcorpan,,0
 3685086081,true,Add headingoffset/headingreset to attribute index,https://github.com/whatwg/html/pull/11978,2025-12-02T10:05:59Z,2025-12-02T10:19:51Z,keithamus,,0
@@ -102,7 +103,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3488477586,true,"Remove incorrect usages of link options destination",https://github.com/whatwg/html/pull/11757,2025-10-06T18:13:13Z,2025-10-10T08:55:03Z,TimvdLippe,,0
 3484788647,false,Add id attribute to DOM clobbering note,https://github.com/whatwg/html/pull/11754,2025-10-05T13:03:10Z,2025-10-05T13:04:41Z,adi-ray,,0
 3482998078,true,Editorial: fix typo “nulll” should be “null”,https://github.com/whatwg/html/pull/11748,2025-10-04T00:54:17Z,2025-10-04T09:59:53Z,JinDX,,0
-3478824122,false,Integrate OpaqueRange hooks into text controls (input/textarea),https://github.com/whatwg/html/pull/11741,2025-10-02T20:26:35Z,2026-01-14T21:27:27Z,stephanieyzhang,,0
+3478824122,false,Integrate OpaqueRange hooks into text controls (input/textarea),https://github.com/whatwg/html/pull/11741,2025-10-02T20:26:35Z,2026-01-15T10:18:56Z,stephanieyzhang,,0
 3475400447,true,Improve optgroup's list of option elements,https://github.com/whatwg/html/pull/11738,2025-10-01T22:44:46Z,2025-10-17T05:18:57Z,josepharhar,,0
 3475240578,true,Remove optgroup element removal and moving steps,https://github.com/whatwg/html/pull/11737,2025-10-01T21:44:43Z,2025-10-07T12:56:02Z,josepharhar,,0
 3473184206,false,[Not for review yet] Add CanvasToneMapping to CanvasSettings,https://github.com/whatwg/html/pull/11734,2025-10-01T11:35:30Z,2025-10-01T11:37:04Z,ccameron-chromium,,0
