@@ -77,7 +77,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1495954244,false,Function signature change: reading all bytes from a stream,https://github.com/w3c/ServiceWorker/issues/1666,2022-12-14T07:39:15Z,2022-12-14T07:39:15Z,noamr,,0
 1486063465,false,`registerProtocolHandler` support triggering events in service worker instead of navigating to page,https://github.com/w3c/ServiceWorker/issues/1665,2022-12-09T05:45:38Z,2022-12-10T06:21:51Z,hanguokai,,2
 1464078346,false,How to get correct connectStart/End values of a proxied http request inside service worker?,https://github.com/w3c/ServiceWorker/issues/1663,2022-11-25T06:08:35Z,2022-11-25T06:08:35Z,xiaofud,,0
-1449460113,false,clarify behaviour of `AbortSignal` in `FetchEvent::respondWith`,https://github.com/w3c/ServiceWorker/issues/1662,2022-11-15T09:32:23Z,2026-01-15T17:15:22Z,JakobJingleheimer,,0
+1449460113,false,clarify behaviour of `AbortSignal` in `FetchEvent::respondWith`,https://github.com/w3c/ServiceWorker/issues/1662,2022-11-15T09:32:23Z,2026-01-16T09:09:33Z,JakobJingleheimer,,0
 1447363016,false,Add claim option to register(),https://github.com/w3c/ServiceWorker/issues/1661,2022-11-14T04:22:04Z,2022-11-14T04:23:52Z,alancutter,,1
 1429961740,false,"Notion of a ""session"" across same-origin navigations",https://github.com/w3c/ServiceWorker/issues/1660,2022-10-31T14:41:17Z,2022-10-31T14:41:17Z,noamr,,0
 1341744653,true,cache.addAll accepts an array of URLs (not just requests),https://github.com/w3c/ServiceWorker/issues/1657,2022-08-17T13:11:47Z,2022-08-17T14:56:57Z,noamr,,0
@@ -173,7 +173,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 678604402,false,allow service workers to created nested dedicated workers,https://github.com/w3c/ServiceWorker/issues/1529,2020-08-13T17:09:38Z,2025-11-08T04:44:17Z,wanderview,,6
 668821197,false,should sec-ch-ua headers be visible in FetchEvent.request.headers,https://github.com/w3c/ServiceWorker/issues/1525,2020-07-30T14:50:50Z,2020-08-17T14:46:03Z,wanderview,,0
 660093171,true,"Open(cacheName) resolvse with null value, though cacheName matches key",https://github.com/w3c/ServiceWorker/issues/1524,2020-07-18T11:29:43Z,2020-07-28T14:28:18Z,ATerentjev,,0
-653812361,false,What to do when an installed service worker's certificate changes/expires,https://github.com/w3c/ServiceWorker/issues/1523,2020-07-09T06:53:58Z,2020-08-11T08:59:42Z,mfalken,,1
+653812361,false,What to do when an installed service worker's certificate changes/expires,https://github.com/w3c/ServiceWorker/issues/1523,2020-07-09T06:53:58Z,2020-08-11T08:59:42Z,mfalken,,2
 652877656,false,Make WebRTC usable as a backend for Service Workers to fulfill requests from a peer-to-peer network,https://github.com/w3c/ServiceWorker/issues/1522,2020-07-08T03:10:05Z,2021-02-20T21:34:54Z,interfect,,12
 650838554,true,why service-worker.js can not be automatically detected,https://github.com/w3c/ServiceWorker/issues/1521,2020-07-04T06:40:56Z,2020-07-04T13:02:58Z,UNDERCOVERj,,0
 649147533,false,can service worker scope include `username:password@` URL credentials?,https://github.com/w3c/ServiceWorker/issues/1520,2020-07-01T17:23:37Z,2020-07-02T07:11:01Z,wanderview,,0
@@ -432,7 +432,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 242566219,true,Proposal: FetchEvent.navigationLoadType,https://github.com/w3c/ServiceWorker/issues/1167,2017-07-13T02:13:54Z,2018-10-26T13:16:40Z,mfalken,,0
 239807944,false,Allow `None` as value for `Service-Worker-Allowed`.,https://github.com/w3c/ServiceWorker/issues/1165,2017-06-30T15:09:17Z,2017-11-03T12:20:19Z,surma,,4
 237738214,true,"Range header is not send ",https://github.com/w3c/ServiceWorker/issues/1164,2017-06-22T05:49:01Z,2021-09-10T03:48:50Z,vardius,,0
-237337889,false,should an window.open() about:blank document be controlled by opener's controller?,https://github.com/w3c/ServiceWorker/issues/1163,2017-06-20T20:37:59Z,2026-01-15T16:28:12Z,wanderview,,0
+237337889,false,should an window.open() about:blank document be controlled by opener's controller?,https://github.com/w3c/ServiceWorker/issues/1163,2017-06-20T20:37:59Z,2026-01-16T05:41:14Z,wanderview,,0
 235594989,false,"reflect internal ""parsed"" state in ServiceWorkerState enum",https://github.com/w3c/ServiceWorker/issues/1162,2017-06-13T15:29:13Z,2017-11-03T14:36:04Z,wanderview,,1
 235083385,true,Route showNotification() URLs through a fetch event?,https://github.com/w3c/ServiceWorker/issues/1161,2017-06-11T18:36:43Z,2017-06-11T18:52:15Z,alastaircoote,,0
 234525216,true,Service Worker registration failed:  DOMException: Failed to register a ServiceWorker: An SSL certificate error occurred when fetching the script.,https://github.com/w3c/ServiceWorker/issues/1159,2017-06-08T13:21:08Z,2020-05-13T11:12:19Z,GandhasiriSandeep,,0
