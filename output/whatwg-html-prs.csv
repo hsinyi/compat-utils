@@ -15,10 +15,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3763706378,true,Do not broadcast storage events if storage is already empty,https://github.com/whatwg/html/pull/12042,2025-12-26T16:29:14Z,2026-01-08T12:14:22Z,shannonbooth,,0
 3761063334,true,Update 404.html,https://github.com/whatwg/html/pull/12040,2025-12-24T21:44:22Z,2025-12-25T11:25:56Z,Davixdsh,invalid,0
 3753324217,false,"Editorial: fix link to ""potentially free deferred fetch quota""",https://github.com/whatwg/html/pull/12039,2025-12-22T10:52:31Z,2026-01-17T13:26:31Z,TimvdLippe,,0
-3752981634,false,"Set creation URL of worker settings to final URL after redirect",https://github.com/whatwg/html/pull/12038,2025-12-22T09:20:36Z,2026-01-17T13:27:49Z,TimvdLippe,,0
+3752981634,false,"Set creation URL of worker settings to final URL after redirect",https://github.com/whatwg/html/pull/12038,2025-12-22T09:20:36Z,2026-01-19T21:31:50Z,TimvdLippe,,0
 3739393306,false,Avoid unresolved promises in Navigation API traversal,https://github.com/whatwg/html/pull/12031,2025-12-17T15:34:23Z,2026-01-15T10:27:08Z,zcorpan,,0
 3737222223,true,Editorial: Fix wording and punctuation,https://github.com/whatwg/html/pull/12027,2025-12-17T03:51:38Z,2025-12-22T15:11:24Z,jmdyck,,1
-3736701020,false,Add document policy to the policy container,https://github.com/whatwg/html/pull/12026,2025-12-16T23:27:19Z,2025-12-16T23:29:02Z,monica-ch,,0
+3736701020,false,Add document policy to the policy container,https://github.com/whatwg/html/pull/12026,2025-12-16T23:27:19Z,2026-01-19T20:24:17Z,monica-ch,,0
 3735295434,false,Navigation API: nullify ongoing navigate event on successful cross-document navigation,https://github.com/whatwg/html/pull/12024,2025-12-16T15:31:17Z,2026-01-06T10:51:02Z,noamr,,0
 3735064449,true,"Move ""clean up API method tracker"" to the right place",https://github.com/whatwg/html/pull/12022,2025-12-16T14:35:18Z,2026-01-12T10:54:36Z,noamr,,0
 3734374547,true,Fixing button command early-bail steps,https://github.com/whatwg/html/pull/12021,2025-12-16T11:25:01Z,2026-01-09T18:52:27Z,jakearchibald,,1
@@ -59,7 +59,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3643341864,false,Allow deferring same-origin cross-document commit,https://github.com/whatwg/html/pull/11927,2025-11-19T15:45:54Z,2025-12-16T20:01:09Z,noamr,,0
 3637362644,false,Address review feedback on language override of navigator.language/s.,https://github.com/whatwg/html/pull/11922,2025-11-18T10:30:30Z,2025-12-02T15:59:29Z,lutien,,0
 3628905706,false,Editorial: clarify meaning of iframe allow attribute,https://github.com/whatwg/html/pull/11917,2025-11-15T16:18:10Z,2025-11-18T07:06:09Z,vardhan30016,,0
-3624838305,false,Editorial: fix accidental links to the URL concept,https://github.com/whatwg/html/pull/11916,2025-11-14T09:48:08Z,2026-01-15T13:46:25Z,foolip,,0
+3624838305,false,Editorial: fix accidental links to the URL concept,https://github.com/whatwg/html/pull/11916,2025-11-14T09:48:08Z,2026-01-19T12:28:56Z,foolip,,0
 3624812231,true,Editorial: wrap asserts in <span>,https://github.com/whatwg/html/pull/11915,2025-11-14T09:41:09Z,2025-11-19T07:51:36Z,foolip,,0
 3624113595,true,Make initialize() upgrade and fix upgrade(),https://github.com/whatwg/html/pull/11913,2025-11-14T06:25:58Z,2025-11-21T07:08:42Z,annevk,topic: custom elements,0
 3618265040,true,Editorial: Replace numeric character references with Unicode characters,https://github.com/whatwg/html/pull/11907,2025-11-12T21:17:12Z,2025-11-14T14:36:44Z,saikirankanakala,invalid,0
@@ -370,7 +370,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2025-04-16T13:40:27Z,AndresRPerez12,do not merge yet|topic: canvas,0
 2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2025-12-17T12:30:05Z,dandclark,,0
 2831485110,true,Fix dialog focus restoring descendant check,https://github.com/whatwg/html/pull/10994,2025-02-04T23:17:23Z,2025-02-17T02:49:55Z,josepharhar,topic: dialog,0
-2831477610,false,Remove links to defunct Twitter account,https://github.com/whatwg/html/pull/10993,2025-02-04T23:11:22Z,2025-02-12T12:42:41Z,eeeps,meta,0
+2831477610,false,Remove links to defunct Twitter account,https://github.com/whatwg/html/pull/10993,2025-02-04T23:11:22Z,2025-02-12T12:42:41Z,eeeps,meta,1
 2830828832,true,Pass a top-level navigation initiator origin to Fetch,https://github.com/whatwg/html/pull/10991,2025-02-04T17:06:01Z,2025-07-25T09:20:12Z,bvandersloot-mozilla,,0
 2830828723,false,"Add ""has storage access"" boolean to environment",https://github.com/whatwg/html/pull/10990,2025-02-04T17:05:57Z,2026-01-07T15:43:02Z,bvandersloot-mozilla,,1
 2830356239,true,Update the navigation API when a same-document reload occurs,https://github.com/whatwg/html/pull/10989,2025-02-04T13:59:20Z,2025-02-20T02:31:22Z,noamr,topic: navigation,0
