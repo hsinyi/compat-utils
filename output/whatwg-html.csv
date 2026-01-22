@@ -1,10 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3842679445,false,Allow hooking into the console,https://github.com/whatwg/html/issues/12100,2026-01-22T12:18:38Z,2026-01-22T12:18:38Z,remcohaszing,addition/proposal|needs implementer interest,0
+3842523726,false,Selects interplay with popover is sometimes surprising.,https://github.com/whatwg/html/issues/12099,2026-01-22T11:34:18Z,2026-01-22T11:35:11Z,keithamus,needs tests|agenda+|topic: select,0
 3839852600,false,use of oldParent in HTML element removing steps is sometimes wrong,https://github.com/whatwg/html/issues/12098,2026-01-21T20:13:07Z,2026-01-21T20:13:07Z,dbaron,,0
 3838272531,false,selectedcontent removing steps vs pagehide (and unload),https://github.com/whatwg/html/issues/12096,2026-01-21T13:25:08Z,2026-01-21T22:19:03Z,annevk,agenda+|topic: select,0
 3835855483,true,ElementInternals ARIA semantics are opaque to DOM-based accessibility testing tools,https://github.com/whatwg/html/issues/12095,2026-01-20T23:15:02Z,2026-01-21T18:10:01Z,benbeaudry,addition/proposal|needs implementer interest|accessibility|topic: custom elements,4
 3829678534,false,Avoid leaking documents in CustomElementRegistry's scoped document set,https://github.com/whatwg/html/issues/12092,2026-01-19T13:12:45Z,2026-01-20T01:02:46Z,Jamesernator,topic: custom elements,0
 3827339302,false,data:// URLs being considered as IsSecureContext,https://github.com/whatwg/html/issues/12091,2026-01-18T21:13:38Z,2026-01-18T22:53:49Z,shannonbooth,,0
-3819577653,false,Upcoming WHATNOT meeting on 2026-01-22,https://github.com/whatwg/html/issues/12087,2026-01-15T23:11:47Z,2026-01-15T23:11:56Z,cwilso,agenda+,0
+3819577653,false,Upcoming WHATNOT meeting on 2026-01-22,https://github.com/whatwg/html/issues/12087,2026-01-15T23:11:47Z,2026-01-22T08:45:45Z,cwilso,agenda+,0
 3812373513,false,Proposal: Unblock bfcache for active WebSockets by disconnecting on entry,https://github.com/whatwg/html/issues/12085,2026-01-14T09:36:51Z,2026-01-14T09:36:51Z,llannasatoll,,0
 3808937455,false,Should auxiliary browsing contexts load fallback favicons?,https://github.com/whatwg/html/issues/12082,2026-01-13T13:49:21Z,2026-01-16T15:20:39Z,estefysc,needs tests,0
 3808566888,false,Find a better way to explain ad-hoc script prepare/cleanup pairs for promise-based APIs,https://github.com/whatwg/html/issues/12080,2026-01-13T12:10:21Z,2026-01-14T09:27:09Z,noamr,,0
@@ -216,7 +218,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3419489827,true,Upcoming WHATNOT meeting on 2025-09-18,https://github.com/whatwg/html/issues/11664,2025-09-15T20:56:20Z,2025-09-24T20:04:09Z,cwilso,,0
 3419256239,true,Closing Tag Option,https://github.com/whatwg/html/issues/11663,2025-09-15T19:39:38Z,2025-09-16T06:05:14Z,iwelch,addition/proposal|needs implementer interest,0
 3416036844,true,Should the document.cookie API now be marked as deprecated to encourage all users to switch to CookieStore,https://github.com/whatwg/html/issues/11658,2025-09-15T02:29:56Z,2025-09-19T11:15:53Z,Chanran,removal/deprecation|topic: cookie,0
-3408045764,false,"""headingoffset"" attribute & ""headingoffset"" attribute in h1-h6 element",https://github.com/whatwg/html/issues/11655,2025-09-11T21:10:49Z,2026-01-21T21:54:24Z,mtrootyy,clarification,1
+3408045764,false,"""headingoffset"" attribute & ""headingoffset"" attribute in h1-h6 element",https://github.com/whatwg/html/issues/11655,2025-09-11T21:10:49Z,2026-01-22T05:10:21Z,mtrootyy,clarification,1
 3407545253,true,Popping node vs. end tag behavior in <option> and <selectedcontent>,https://github.com/whatwg/html/issues/11653,2025-09-11T17:53:49Z,2025-10-14T07:39:13Z,dmsnell,topic: parser|topic: select,4
 3407152717,false,Could `<big>` be redefined as a semantic element?,https://github.com/whatwg/html/issues/11652,2025-09-11T15:52:00Z,2025-09-15T18:01:15Z,LeaVerou,normative change|document conformance,0
 3405532503,true,WHATNOT meeting minutes 2025-08-22 & 2025-08-28,https://github.com/whatwg/html/issues/11651,2025-09-11T08:57:07Z,2025-09-11T10:01:48Z,noamr,,0
@@ -270,7 +272,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3309950964,true,LLMs Meta Tags Standard,https://github.com/whatwg/html/issues/11548,2025-08-11T13:02:49Z,2025-08-11T16:30:30Z,rafaelp,addition/proposal|needs implementer interest,0
 3308378580,false,`PromiseRejectionError` constructor behavior differs by implementation,https://github.com/whatwg/html/issues/11547,2025-08-11T04:06:26Z,2025-08-11T09:12:06Z,petamoriken,needs tests,0
 3308003149,false,Allow `fieldset` to be a CSS subgrid,https://github.com/whatwg/html/issues/11546,2025-08-10T21:46:40Z,2025-08-11T23:42:34Z,kirk-loretz-fsn,addition/proposal|needs implementer interest|topic: fieldset,0
-3299845424,false,"Out of order HTML streaming (""patching"")",https://github.com/whatwg/html/issues/11542,2025-08-07T10:03:34Z,2026-01-22T00:12:32Z,noamr,addition/proposal|topic: parser|agenda+|stage: 1,8
+3299845424,false,"Out of order HTML streaming (""patching"")",https://github.com/whatwg/html/issues/11542,2025-08-07T10:03:34Z,2026-01-22T10:30:06Z,noamr,addition/proposal|topic: parser|agenda+|stage: 1,8
 3299685743,true,Upcoming WHATNOT meeting on 2025-08-14,https://github.com/whatwg/html/issues/11541,2025-08-07T09:12:30Z,2025-09-11T10:01:57Z,annevk,,0
 3297402544,false,"""rules for parsing a list of dimensions"" should clarify behavior for large numeric values",https://github.com/whatwg/html/issues/11539,2025-08-06T16:58:06Z,2025-10-08T20:12:46Z,weinig,needs tests,0
 3296458731,false,"Proposal: New HTML attributes mustcontain, requiredchars, and preset for simplified form validation",https://github.com/whatwg/html/issues/11538,2025-08-06T12:11:02Z,2025-08-13T14:30:30Z,sanketbhuite,addition/proposal|needs implementer interest,1
@@ -534,7 +536,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2863774207,true,Commandfor buttons with missing or invalid type attributes currently work as command buttons,https://github.com/whatwg/html/issues/11044,2025-02-19T16:01:00Z,2025-03-12T21:09:41Z,lukewarlow,,0
 2863681659,true,"Button activation behavior can call ""show a modal dialog"" with not-connected dialog",https://github.com/whatwg/html/issues/11043,2025-02-19T15:25:17Z,2025-02-24T08:06:26Z,zcorpan,,0
 2858642826,false,💡 Allow window.focus() between same-origin tabs,https://github.com/whatwg/html/issues/11041,2025-02-17T19:25:30Z,2025-02-17T19:25:30Z,lucasefrens,addition/proposal|needs implementer interest,1
-2858132025,false,.elementInternals accessor property,https://github.com/whatwg/html/issues/11040,2025-02-17T15:13:42Z,2026-01-21T14:49:19Z,WilcoFiers,addition/proposal|needs implementer interest|accessibility|topic: custom elements,2
+2858132025,false,.elementInternals accessor property,https://github.com/whatwg/html/issues/11040,2025-02-17T15:13:42Z,2026-01-22T07:54:37Z,WilcoFiers,addition/proposal|needs implementer interest|accessibility|topic: custom elements,2
 2857640792,true,Update `putImageData` documentation to not indicate that it is doing a `memcpy`,https://github.com/whatwg/html/issues/11037,2025-02-17T11:58:15Z,2025-02-21T07:28:40Z,ccameron-chromium,topic: canvas,0
 2857528609,false,Possibly missing lowercasing step for `autocomplete` attribute,https://github.com/whatwg/html/issues/11036,2025-02-17T11:11:08Z,2025-02-17T12:44:33Z,devgianlu,topic: forms,0
 2855295872,false,Reference-style hyperlinks,https://github.com/whatwg/html/issues/11032,2025-02-15T07:11:01Z,2025-02-16T13:43:10Z,knowler,addition/proposal|needs implementer interest,16
@@ -2102,7 +2104,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1066032725,true,Non-cancelled `setTimeout`s would lead to idle deadlines in the past,https://github.com/whatwg/html/issues/7376,2021-11-29T13:21:50Z,2021-11-30T22:13:53Z,andreubotella,,0
 1065446998,true,"""classic script"" definition incomplete",https://github.com/whatwg/html/issues/7374,2021-11-28T21:57:10Z,2021-11-29T16:40:08Z,SmashManiac,,0
 1062927220,false,Adding scriptElement.exports for configuration use cases,https://github.com/whatwg/html/issues/7367,2021-11-24T21:32:38Z,2025-08-06T13:03:53Z,domenic,addition/proposal|topic: script,7
-1062394112,false,Last-Event-ID value space follow-up,https://github.com/whatwg/html/issues/7363,2021-11-24T12:53:55Z,2026-01-21T20:12:58Z,annevk,topic: eventsource,0
+1062394112,false,Last-Event-ID value space follow-up,https://github.com/whatwg/html/issues/7363,2021-11-24T12:53:55Z,2026-01-22T05:09:28Z,annevk,topic: eventsource,0
 1061879455,false,"Geolocations uses ""page visibility change steps""",https://github.com/whatwg/html/issues/7362,2021-11-24T01:18:05Z,2021-11-24T01:18:05Z,marcoscaceres,,0
 1060944661,false,Nit: timer initialization steps should define maximum for id,https://github.com/whatwg/html/issues/7358,2021-11-23T08:15:28Z,2021-11-24T16:16:55Z,annevk,clarification,0
 1060529468,false,Create and use a rigorous way to go from Window -> WindowProxy,https://github.com/whatwg/html/issues/7357,2021-11-22T19:45:10Z,2021-11-22T19:45:10Z,domenic,clarification,0
@@ -3870,7 +3872,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,false,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2019-07-09T15:28:51Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,234
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,237
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
@@ -4902,7 +4904,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 170296910,true,Custom elements section contain too much tutorial-like contents,https://github.com/whatwg/html/issues/1642,2016-08-09T23:44:14Z,2017-10-13T21:10:05Z,rniwa,topic: custom elements,0
 169868874,true,"""create an element for a token"" does not account for duplicate attributes",https://github.com/whatwg/html/issues/1636,2016-08-08T08:29:34Z,2016-08-10T18:19:37Z,annevk,topic: parser|topic: custom elements,0
 169867738,true,Proposal for new properties on HTMLCanvasElement and CanvasRenderingContext2D,https://github.com/whatwg/html/issues/1635,2016-08-08T08:22:02Z,2018-01-23T14:50:35Z,ghost,addition/proposal|needs implementer interest|topic: canvas,0
-169651291,false,Make <label> elements reflect CSS pseudoclasses on associated form element,https://github.com/whatwg/html/issues/1632,2016-08-05T16:58:22Z,2025-03-25T19:51:19Z,AmeliaBR,normative change|needs implementer interest|topic: rendering|topic: selectors,13
+169651291,false,Make <label> elements reflect CSS pseudoclasses on associated form element,https://github.com/whatwg/html/issues/1632,2016-08-05T16:58:22Z,2026-01-22T11:33:39Z,AmeliaBR,normative change|needs implementer interest|topic: rendering|topic: selectors,13
 169510979,true,Parser custom element creation should use the ignore-destructive-writes counter,https://github.com/whatwg/html/issues/1630,2016-08-05T01:37:27Z,2016-08-17T06:44:39Z,dominiccooney,topic: parser|topic: custom elements,0
 169356544,true,What should happen with input.selectionStart = null;,https://github.com/whatwg/html/issues/1628,2016-08-04T11:53:44Z,2016-08-11T15:33:19Z,smaug----,clarification|topic: forms,0
 169355613,true,<menuitem> start tag in <body> should reconstruct the list of active formatting elements,https://github.com/whatwg/html/issues/1627,2016-08-04T11:48:22Z,2016-08-10T17:46:18Z,inikulin,topic: parser,0
