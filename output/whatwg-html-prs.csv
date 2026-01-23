@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3838533899,false,"Apply style quirk also in limited-quirks mode",https://github.com/whatwg/html/pull/12097,2026-01-21T14:30:53Z,2026-01-21T14:32:36Z,TimvdLippe,,0
+3838533899,true,"Apply style quirk also in limited-quirks mode",https://github.com/whatwg/html/pull/12097,2026-01-21T14:30:53Z,2026-01-22T16:30:38Z,TimvdLippe,,0
 3832506598,true,Review Draft Publication: January 2026,https://github.com/whatwg/html/pull/12094,2026-01-20T07:48:52Z,2026-01-20T08:12:36Z,annevk,,0
-3827285210,false,"Do not run ""Update a style block"" while style element is on stack of open elements",https://github.com/whatwg/html/pull/12090,2026-01-18T20:29:05Z,2026-01-21T14:34:38Z,TimvdLippe,,0
+3827285210,false,"Do not run ""Update a style block"" while style element is on stack of open elements",https://github.com/whatwg/html/pull/12090,2026-01-18T20:29:05Z,2026-01-22T17:38:27Z,TimvdLippe,topic: style,0
 3815793080,false,Add new strings for notRestoredReason for SharedWorker,https://github.com/whatwg/html/pull/12086,2026-01-15T03:08:33Z,2026-01-21T04:32:22Z,llannasatoll,,0
 3812063683,true,HTML parser: handle missing and empty string mostly the same for DOCTYPEs,https://github.com/whatwg/html/pull/12084,2026-01-14T08:03:59Z,2026-01-14T11:30:39Z,annevk,normative change|topic: parser,0
 3810258395,false,Use cached select in selectedness setting algorithm,https://github.com/whatwg/html/pull/12083,2026-01-13T19:28:19Z,2026-01-15T20:59:08Z,josepharhar,,0
@@ -20,7 +20,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3752981634,true,"Set creation URL of worker settings to final URL after redirect",https://github.com/whatwg/html/pull/12038,2025-12-22T09:20:36Z,2026-01-20T19:40:19Z,TimvdLippe,,0
 3739393306,false,Avoid unresolved promises in Navigation API traversal,https://github.com/whatwg/html/pull/12031,2025-12-17T15:34:23Z,2026-01-15T10:27:08Z,zcorpan,,0
 3737222223,true,Editorial: Fix wording and punctuation,https://github.com/whatwg/html/pull/12027,2025-12-17T03:51:38Z,2025-12-22T15:11:24Z,jmdyck,,1
-3736701020,false,Add document policy to the policy container,https://github.com/whatwg/html/pull/12026,2025-12-16T23:27:19Z,2026-01-22T02:17:18Z,monica-ch,,0
+3736701020,false,Add document policy to the policy container,https://github.com/whatwg/html/pull/12026,2025-12-16T23:27:19Z,2026-01-22T19:26:35Z,monica-ch,,0
 3735295434,false,Navigation API: nullify ongoing navigate event on successful cross-document navigation,https://github.com/whatwg/html/pull/12024,2025-12-16T15:31:17Z,2026-01-06T10:51:02Z,noamr,,0
 3735064449,true,"Move ""clean up API method tracker"" to the right place",https://github.com/whatwg/html/pull/12022,2025-12-16T14:35:18Z,2026-01-12T10:54:36Z,noamr,,0
 3734374547,true,Fixing button command early-bail steps,https://github.com/whatwg/html/pull/12021,2025-12-16T11:25:01Z,2026-01-09T18:52:27Z,jakearchibald,,1
@@ -37,7 +37,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3690361653,true,Expose NavigationPrecommitController.addHandler,https://github.com/whatwg/html/pull/11984,2025-12-03T13:56:50Z,2025-12-11T13:34:12Z,noamr,,0
 3689842829,true,Download link: inform the navigation API about aborting,https://github.com/whatwg/html/pull/11983,2025-12-03T11:32:45Z,2025-12-11T13:27:52Z,noamr,,0
 3687259345,false,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2026-01-22T05:26:42Z,KurtCattiSchmidt,,0
-3687064326,false,Add support for video element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-01-20T14:10:39Z,scottjehl,addition/proposal|topic: media,2
+3687064326,false,Add support for video and audio element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-01-22T16:32:18Z,scottjehl,addition/proposal|topic: media,2
 3685135331,true,Specify document conformance for headingoffset/headingreset,https://github.com/whatwg/html/pull/11979,2025-12-02T10:17:37Z,2025-12-02T11:20:06Z,zcorpan,,0
 3685086081,true,Add headingoffset/headingreset to attribute index,https://github.com/whatwg/html/pull/11978,2025-12-02T10:05:59Z,2025-12-02T10:19:51Z,keithamus,,0
 3682264070,true,Use a task source when dispatching EventSource events. #4506,https://github.com/whatwg/html/pull/11976,2025-12-01T18:17:11Z,2025-12-01T20:36:26Z,wanderview,,0
@@ -122,7 +122,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3452356791,true,Meta: mark up a couple more algorithms,https://github.com/whatwg/html/pull/11704,2025-09-25T07:43:10Z,2025-09-25T11:21:16Z,domenic,,0
 3451958776,true,Refresh to a javascript: URL should not work,https://github.com/whatwg/html/pull/11700,2025-09-25T05:28:52Z,2025-11-21T10:46:35Z,annevk,,0
 3451393569,true,"Editorial: relocate ""stopped parsing"" step for non-DOM documents",https://github.com/whatwg/html/pull/11698,2025-09-25T00:37:17Z,2025-09-25T07:37:29Z,domenic,clarification|topic: navigation|topic: frames/navigables/browsing contexts,0
-3451051426,false,Add external <script type=speculationrules>,https://github.com/whatwg/html/pull/11697,2025-09-24T21:26:17Z,2026-01-20T19:58:53Z,vickiez,,0
+3451051426,false,Add external <script type=speculationrules>,https://github.com/whatwg/html/pull/11697,2025-09-24T21:26:17Z,2026-01-22T17:41:51Z,vickiez,,0
 3449906788,false,use the afterRemoval steps to clean up implicit anchors,https://github.com/whatwg/html/pull/11695,2025-09-24T15:22:53Z,2025-09-24T16:04:00Z,keithamus,,0
 3449447529,true,reorder dialog attr changed steps so that cleanup steps always occur,https://github.com/whatwg/html/pull/11693,2025-09-24T13:26:59Z,2025-10-01T08:46:58Z,keithamus,,0
 3449178913,true,"Add `NavigationTransition.to`, exposing the current navigate event's destination",https://github.com/whatwg/html/pull/11692,2025-09-24T12:14:44Z,2025-12-03T11:36:49Z,noamr,,0
@@ -181,7 +181,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3291533405,true,Canvas2D: Add srgb-linear and display-p3-linear to PredefinedColorSpace enum,https://github.com/whatwg/html/pull/11529,2025-08-05T04:38:31Z,2025-11-24T08:07:10Z,ccameron-chromium,addition/proposal|topic: canvas,1
 3290898664,true,Editorial: fix ending li tag,https://github.com/whatwg/html/pull/11528,2025-08-04T21:58:37Z,2025-08-05T06:20:42Z,josepharhar,,0
 3285874404,true,Add paragraph to hgroup children in indices table,https://github.com/whatwg/html/pull/11524,2025-08-02T12:03:48Z,2025-08-19T06:13:06Z,TrySound,document conformance,0
-3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2025-12-19T22:39:57Z,ffiori,,0
+3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2026-01-22T17:39:36Z,ffiori,,0
 3280953563,false,Imply [Reflect] when [ReflectRange] or [ReflectDefault] are used.,https://github.com/whatwg/html/pull/11518,2025-07-31T15:49:27Z,2025-08-26T15:59:08Z,lukewarlow,,0
 3280885144,true,Remove support ElementInternals reflection flag,https://github.com/whatwg/html/pull/11517,2025-07-31T15:27:38Z,2025-08-22T00:41:19Z,lukewarlow,,0
 3279388233,true,Editorial: clarify worker lifetime definitions,https://github.com/whatwg/html/pull/11515,2025-07-31T07:15:41Z,2025-08-19T05:43:54Z,domenic,clarification|topic: workers,0
@@ -433,7 +433,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2742760704,true,Editorial: add a concept for Window's CustomElementRegistry,https://github.com/whatwg/html/pull/10865,2024-12-16T15:53:22Z,2024-12-17T07:23:44Z,annevk,,0
 2740270982,true,Remove obsolete manifest attribute references,https://github.com/whatwg/html/pull/10863,2024-12-15T04:24:26Z,2024-12-17T12:05:54Z,wlib,,0
 2736512744,true,Improve integration with DOM's cloning steps,https://github.com/whatwg/html/pull/10859,2024-12-12T17:35:37Z,2024-12-17T07:47:39Z,annevk,,0
-2736284963,false,Support import maps in workers,https://github.com/whatwg/html/pull/10858,2024-12-12T15:52:38Z,2025-08-16T07:11:34Z,nicolo-ribaudo,addition/proposal|topic: workers|topic: script,12
+2736284963,false,Support import maps in workers,https://github.com/whatwg/html/pull/10858,2024-12-12T15:52:38Z,2026-01-23T00:39:11Z,nicolo-ribaudo,addition/proposal|topic: workers|topic: script,12
 2735846383,true,"Editorial: cleanup ""create an element""",https://github.com/whatwg/html/pull/10857,2024-12-12T13:04:51Z,2024-12-12T15:46:19Z,annevk,,0
 2735236716,true,Integrate with the move event for window defined by CSSOM-View,https://github.com/whatwg/html/pull/10853,2024-12-12T08:42:26Z,2025-04-30T16:39:28Z,frivoal,,0
 2731662991,true,"Fix null URL handling in ""get noopener for window open""",https://github.com/whatwg/html/pull/10847,2024-12-11T02:30:42Z,2024-12-12T03:40:58Z,domenic,,3
