@@ -5,7 +5,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3843852715,false,Meeting 35 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12104,2026-01-22T17:03:39Z,2026-01-22T17:04:15Z,mfreed7,,0
 3843592292,true,Re: Issue #11523 Removal of XSLT from the web platform,https://github.com/whatwg/html/issues/12103,2026-01-22T15:59:59Z,2026-01-22T18:27:28Z,jjwhitmore,,1
 3843327465,true,The spec for the `align` attribute on img (and maybe others?) is incomplete,https://github.com/whatwg/html/issues/12102,2026-01-22T14:57:03Z,2026-01-22T15:24:17Z,Psychpsyo,topic: rendering,0
-3842958150,false,Move DOMActivate event from UI Events to HTML,https://github.com/whatwg/html/issues/12101,2026-01-22T13:27:41Z,2026-01-23T12:10:00Z,zcorpan,topic: events|integration,0
+3842958150,false,Move DOMActivate event from UI Events to HTML,https://github.com/whatwg/html/issues/12101,2026-01-22T13:27:41Z,2026-01-26T14:03:14Z,zcorpan,needs tests|topic: events|integration,0
 3842523726,false,Selects interplay with popover is sometimes surprising.,https://github.com/whatwg/html/issues/12099,2026-01-22T11:34:18Z,2026-01-23T12:08:13Z,keithamus,needs tests|agenda+|topic: select,0
 3839852600,false,use of oldParent in HTML element removing steps is sometimes wrong,https://github.com/whatwg/html/issues/12098,2026-01-21T20:13:07Z,2026-01-21T20:13:07Z,dbaron,,0
 3838272531,false,selectedcontent removing steps vs pagehide (and unload),https://github.com/whatwg/html/issues/12096,2026-01-21T13:25:08Z,2026-01-21T22:19:03Z,annevk,agenda+|topic: select,0
@@ -88,7 +88,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3640692765,false,Proposal: Declarative dependent form controls (conditional inputs without scripting),https://github.com/whatwg/html/issues/11925,2025-11-19T01:54:18Z,2025-11-19T01:56:03Z,ghost,,0
 3639749233,false,Why does the disabled algorithm in option stop on certain elements,https://github.com/whatwg/html/issues/11924,2025-11-18T19:31:35Z,2025-11-21T07:59:54Z,dSalieri,topic: select,0
 3638860230,true,External resources don't have a fallback mechanism,https://github.com/whatwg/html/issues/11923,2025-11-18T15:52:01Z,2025-11-19T16:32:16Z,romainmenke,,0
-3635542205,false,Native Footnote/Endnote Element in HTML,https://github.com/whatwg/html/issues/11921,2025-11-18T00:10:55Z,2025-11-24T07:05:23Z,xfq,addition/proposal|needs implementer interest|i18n-tracker,6
+3635542205,false,Native Footnote/Endnote Element in HTML,https://github.com/whatwg/html/issues/11921,2025-11-18T00:10:55Z,2026-01-26T21:02:09Z,xfq,addition/proposal|needs implementer interest|i18n-tracker,8
 3632147659,false,Extending `details[name]` grouping to handle sets that expand and collapse together,https://github.com/whatwg/html/issues/11920,2025-11-17T07:52:32Z,2025-11-18T00:25:20Z,nektro,addition/proposal|needs implementer interest,2
 3631215200,false,[import maps] Ability to re-write more dynamically (globs?),https://github.com/whatwg/html/issues/11919,2025-11-16T22:32:07Z,2025-11-16T22:35:13Z,trusktr,,1
 3630571148,false,"The note in ""upgrade an element"" for step 9.3 seems meaningless",https://github.com/whatwg/html/issues/11918,2025-11-16T13:40:55Z,2025-11-16T13:40:55Z,dSalieri,,0
@@ -137,7 +137,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3562427369,true,Navigation API: Order of promises in spec not consistent with tests,https://github.com/whatwg/html/issues/11842,2025-10-28T16:38:04Z,2025-10-28T21:08:47Z,jnjaeschke,topic: navigation,0
 3561311123,false,Constraint validation for readonly doesn't correspond implementations,https://github.com/whatwg/html/issues/11841,2025-10-28T12:16:56Z,2025-10-28T13:54:19Z,dSalieri,topic: forms|needs tests,0
 3559193661,false,Cryptographically generated domain names,https://github.com/whatwg/html/issues/11840,2025-10-28T00:16:52Z,2025-10-28T12:33:26Z,DemiMarie,addition/proposal|needs implementer interest,1
-3559149268,false,[focus-without-user-activation] Clarify focus behavior for subframes with denied policy,https://github.com/whatwg/html/issues/11839,2025-10-27T23:52:49Z,2026-01-15T23:14:14Z,ffiori,,2
+3559149268,false,[focus-without-user-activation] Clarify focus behavior for subframes with denied policy,https://github.com/whatwg/html/issues/11839,2025-10-27T23:52:49Z,2026-01-26T18:55:55Z,ffiori,agenda+,2
 3557806139,false,Proposal: New `<date>` element for Unix timestamps with calendar integration,https://github.com/whatwg/html/issues/11838,2025-10-27T17:16:39Z,2025-10-27T17:16:39Z,stardraw-fred,addition/proposal|needs implementer interest,0
 3556608387,false,:focus-within edge cases with DOM mutation and focus moves from within blur/focus event listeners,https://github.com/whatwg/html/issues/11835,2025-10-27T12:45:28Z,2025-12-04T17:05:17Z,emilio,topic: focus,1
 3553894799,false,Navigation API: Inconsistency between spec and tests in #abort-a-navigateevent,https://github.com/whatwg/html/issues/11831,2025-10-26T12:56:55Z,2025-10-28T19:55:09Z,jnjaeschke,topic: navigation,0
@@ -202,7 +202,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3470648855,false,`closedby` defaults refer to unspecified “Auto” state,https://github.com/whatwg/html/issues/11728,2025-09-30T18:43:55Z,2025-10-01T16:15:35Z,j9t,topic: reflect,0
 3468199894,true,"`rel=""icon""` requests do not fire since it doesn't translate to a valid preload destination",https://github.com/whatwg/html/issues/11726,2025-09-30T08:36:46Z,2025-10-10T08:34:20Z,TimvdLippe,,0
 3466671369,false,"A way to remove EXIF data on `<input type=""file"">` before sending to server",https://github.com/whatwg/html/issues/11724,2025-09-29T21:25:06Z,2025-10-13T10:55:18Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms,11
-3465829063,false,"Add support for <meta name=""rating"" ...>",https://github.com/whatwg/html/issues/11722,2025-09-29T16:55:14Z,2025-12-01T19:23:19Z,bvandersloot-mozilla,addition/proposal|needs implementer interest|privacy-tracker,2
+3465829063,false,"Add support for <meta name=""rating"" ...>",https://github.com/whatwg/html/issues/11722,2025-09-29T16:55:14Z,2025-12-01T19:23:19Z,bvandersloot-mozilla,addition/proposal|needs implementer interest|privacy-tracker,3
 3460652946,false,Collapsible `table` contents/rows  via `details`/`summary`,https://github.com/whatwg/html/issues/11718,2025-09-27T19:44:40Z,2025-11-20T13:13:44Z,brandonmcconnell,addition/proposal|needs implementer interest,0
 3458986524,true,Upcoming WHATNOT meeting on 2025-10-02,https://github.com/whatwg/html/issues/11717,2025-09-26T20:13:51Z,2025-10-03T23:50:01Z,cwilso,,0
 3458474902,false,Navigation API: deferring scroll until intercept promise settles,https://github.com/whatwg/html/issues/11716,2025-09-26T17:24:21Z,2025-10-08T20:28:11Z,keithamus,topic: navigation,0
@@ -1337,7 +1337,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1788359824,true,"Use ""matches about:blank"" and ""matches about:srcdoc"" in more places",https://github.com/whatwg/html/issues/9488,2023-07-04T19:09:29Z,2023-07-28T00:45:03Z,domfarolino,topic: navigation,1
 1787902159,false,"Showing only a child popover causes ""beforetoggle"" and ""toggle"" events but popover is invisble",https://github.com/whatwg/html/issues/9487,2023-07-04T13:07:44Z,2023-07-12T23:31:37Z,ghost,topic: popover,0
 1785504701,true,Input.valueAsNumber can not be manually set to NaN despite it being a valid value for it,https://github.com/whatwg/html/issues/9480,2023-07-03T07:19:15Z,2023-07-03T22:11:25Z,alexandertrefz,,0
-1784674592,false,Proposal: Meta Tag for AI Generated Content,https://github.com/whatwg/html/issues/9479,2023-07-02T14:49:11Z,2025-12-13T16:53:17Z,evayde,addition/proposal|needs implementer interest,33
+1784674592,false,Proposal: Meta Tag for AI Generated Content,https://github.com/whatwg/html/issues/9479,2023-07-02T14:49:11Z,2026-01-26T17:58:32Z,evayde,addition/proposal|needs implementer interest,33
 1782549061,true,Upcoming HTML standard issue triage meeting on 7/13/2023,https://github.com/whatwg/html/issues/9474,2023-06-30T13:38:01Z,2023-07-13T19:37:28Z,past,agenda+,1
 1782419433,false,Define `X-DNS-Prefetch-Control`,https://github.com/whatwg/html/issues/9473,2023-06-30T12:08:13Z,2023-06-30T12:18:22Z,yoavweiss,removal/deprecation|topic: resource hints (inc. preload),0
 1781091258,false,Specify a maximal depth of backtracking for the pattern attribute on input elements,https://github.com/whatwg/html/issues/9469,2023-06-29T15:38:55Z,2023-09-06T06:47:23Z,vinhill,topic: forms|integration,0
