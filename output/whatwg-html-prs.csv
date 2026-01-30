@@ -1,10 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3866756722,false,Editorial: Use the correct Module Record in HostLoadImportedModule,https://github.com/whatwg/html/pull/12114,2026-01-28T18:23:25Z,2026-01-28T18:23:25Z,nicolo-ribaudo,,0
+3866756722,true,Editorial: Use the correct Module Record in HostLoadImportedModule,https://github.com/whatwg/html/pull/12114,2026-01-28T18:23:25Z,2026-01-29T12:05:08Z,nicolo-ribaudo,,2
 3847284352,true,Replace drafts.fxtf.org links with drafts.csswg.org,https://github.com/whatwg/html/pull/12105,2026-01-23T12:38:28Z,2026-01-23T12:57:48Z,nicolo-ribaudo,,0
 3838533899,true,"Apply style quirk also in limited-quirks mode",https://github.com/whatwg/html/pull/12097,2026-01-21T14:30:53Z,2026-01-22T16:30:38Z,TimvdLippe,,0
 3832506598,true,Review Draft Publication: January 2026,https://github.com/whatwg/html/pull/12094,2026-01-20T07:48:52Z,2026-01-20T08:12:36Z,annevk,,0
-3827285210,false,"Do not run ""Update a style block"" while style element is on stack of open elements",https://github.com/whatwg/html/pull/12090,2026-01-18T20:29:05Z,2026-01-26T22:10:52Z,TimvdLippe,topic: style,0
-3815793080,false,Add new strings for notRestoredReason for SharedWorker,https://github.com/whatwg/html/pull/12086,2026-01-15T03:08:33Z,2026-01-28T07:03:00Z,llannasatoll,,0
+3827285210,true,"Do not run ""Update a style block"" while style element is on stack of open elements",https://github.com/whatwg/html/pull/12090,2026-01-18T20:29:05Z,2026-01-29T15:10:21Z,TimvdLippe,topic: style,0
+3815793080,true,Add new strings for notRestoredReason for SharedWorker,https://github.com/whatwg/html/pull/12086,2026-01-15T03:08:33Z,2026-01-29T18:04:10Z,llannasatoll,,0
 3812063683,true,HTML parser: handle missing and empty string mostly the same for DOCTYPEs,https://github.com/whatwg/html/pull/12084,2026-01-14T08:03:59Z,2026-01-14T11:30:39Z,annevk,normative change|topic: parser,0
 3810258395,false,Use cached select in selectedness setting algorithm,https://github.com/whatwg/html/pull/12083,2026-01-13T19:28:19Z,2026-01-26T15:02:47Z,josepharhar,,0
 3808755388,true,Only clean up cross-document method tracker.,https://github.com/whatwg/html/pull/12081,2026-01-13T13:00:53Z,2026-01-14T08:27:53Z,farre,,0
@@ -178,12 +178,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3314237971,true,Remove rowspan=0 quirk,https://github.com/whatwg/html/pull/11551,2025-08-12T13:20:05Z,2025-08-14T07:16:55Z,zcorpan,,0
 3300979591,true,Remove connectedness check in script post-connection steps,https://github.com/whatwg/html/pull/11543,2025-08-07T15:31:03Z,2025-09-12T01:53:30Z,domfarolino,topic: script,0
 3297579358,false,"Move `has cross-site ancestor` to the environment, from the ESO",https://github.com/whatwg/html/pull/11540,2025-08-06T18:03:22Z,2026-01-15T18:49:27Z,bvandersloot-mozilla,,0
-3294412090,false,Change light dismiss to use click events,https://github.com/whatwg/html/pull/11536,2025-08-05T20:54:41Z,2026-01-23T18:18:22Z,josepharhar,,0
+3294412090,false,Change light dismiss to use click events,https://github.com/whatwg/html/pull/11536,2025-08-05T20:54:41Z,2026-01-29T17:18:50Z,josepharhar,agenda+,0
 3292278858,true,Don't allow the javascript: protocol in navigation.navigate(),https://github.com/whatwg/html/pull/11533,2025-08-05T09:16:45Z,2025-08-27T13:01:34Z,evilpie,normative change|topic: navigation,0
 3291533405,true,Canvas2D: Add srgb-linear and display-p3-linear to PredefinedColorSpace enum,https://github.com/whatwg/html/pull/11529,2025-08-05T04:38:31Z,2025-11-24T08:07:10Z,ccameron-chromium,addition/proposal|topic: canvas,1
 3290898664,true,Editorial: fix ending li tag,https://github.com/whatwg/html/pull/11528,2025-08-04T21:58:37Z,2025-08-05T06:20:42Z,josepharhar,,0
 3285874404,true,Add paragraph to hgroup children in indices table,https://github.com/whatwg/html/pull/11524,2025-08-02T12:03:48Z,2025-08-19T06:13:06Z,TrySound,document conformance,0
-3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2026-01-22T17:39:36Z,ffiori,,0
+3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2026-01-29T21:32:32Z,ffiori,,0
 3280953563,false,Imply [Reflect] when [ReflectRange] or [ReflectDefault] are used.,https://github.com/whatwg/html/pull/11518,2025-07-31T15:49:27Z,2025-08-26T15:59:08Z,lukewarlow,,0
 3280885144,true,Remove support ElementInternals reflection flag,https://github.com/whatwg/html/pull/11517,2025-07-31T15:27:38Z,2025-08-22T00:41:19Z,lukewarlow,,0
 3279388233,true,Editorial: clarify worker lifetime definitions,https://github.com/whatwg/html/pull/11515,2025-07-31T07:15:41Z,2025-08-19T05:43:54Z,domenic,clarification|topic: workers,0

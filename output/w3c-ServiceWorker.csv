@@ -402,7 +402,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 264551924,false,Create F2F agenda - 7 November 2017,https://github.com/w3c/ServiceWorker/issues/1206,2017-10-11T11:33:17Z,2018-11-26T19:45:41Z,jakearchibald,,1
 263564837,true,resurrected service workers don't fire an activate event which may break expectations,https://github.com/w3c/ServiceWorker/issues/1204,2017-10-06T20:37:27Z,2019-06-06T16:01:22Z,wanderview,,0
 263235777,true,Mixed feelings about ServiceWorker for module loader,https://github.com/w3c/ServiceWorker/issues/1203,2017-10-05T19:16:28Z,2018-03-02T04:03:35Z,Krinkle,,0
-261401821,false,should FetchEvent.request ever be a range request if we cannot verify if the underlying resource is the same?,https://github.com/w3c/ServiceWorker/issues/1201,2017-09-28T17:38:06Z,2017-09-29T14:02:06Z,wanderview,,0
+261401821,false,should FetchEvent.request ever be a range request if we cannot verify if the underlying resource is the same?,https://github.com/w3c/ServiceWorker/issues/1201,2017-09-28T17:38:06Z,2026-01-30T00:44:44Z,wanderview,,0
 260286334,false,is the browser required to start the ServiceWorker for postMessage() if there is no message event handler?,https://github.com/w3c/ServiceWorker/issues/1200,2017-09-25T13:57:24Z,2019-11-05T08:39:28Z,wanderview,decided,0
 259611546,false,ready promise doesn't work right when controlling registration is resurrected,https://github.com/w3c/ServiceWorker/issues/1198,2017-09-21T19:49:37Z,2018-12-19T12:15:55Z,wanderview,,1
 259498607,false,Express the job queue in terms of parallel queues,https://github.com/w3c/ServiceWorker/issues/1197,2017-09-21T13:36:22Z,2026-01-23T09:04:59Z,jakearchibald,,0
@@ -431,7 +431,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 244157365,false,respondWith touches JS objects in parallel sections,https://github.com/w3c/ServiceWorker/issues/1169,2017-07-19T20:02:56Z,2026-01-23T00:52:42Z,bzbarsky,,0
 244156865,false,respondWith is not implementable as written,https://github.com/w3c/ServiceWorker/issues/1168,2017-07-19T20:00:56Z,2026-01-23T01:03:08Z,bzbarsky,,0
 242566219,true,Proposal: FetchEvent.navigationLoadType,https://github.com/w3c/ServiceWorker/issues/1167,2017-07-13T02:13:54Z,2018-10-26T13:16:40Z,mfalken,,0
-239807944,false,Allow `None` as value for `Service-Worker-Allowed`.,https://github.com/w3c/ServiceWorker/issues/1165,2017-06-30T15:09:17Z,2017-11-03T12:20:19Z,surma,,4
+239807944,true,Allow `None` as value for `Service-Worker-Allowed`.,https://github.com/w3c/ServiceWorker/issues/1165,2017-06-30T15:09:17Z,2026-01-30T00:50:40Z,surma,,4
 237738214,true,"Range header is not send ",https://github.com/w3c/ServiceWorker/issues/1164,2017-06-22T05:49:01Z,2021-09-10T03:48:50Z,vardius,,0
 237337889,false,should an window.open() about:blank document be controlled by opener's controller?,https://github.com/w3c/ServiceWorker/issues/1163,2017-06-20T20:37:59Z,2026-01-21T16:55:41Z,wanderview,,0
 235594989,false,"reflect internal ""parsed"" state in ServiceWorkerState enum",https://github.com/w3c/ServiceWorker/issues/1162,2017-06-13T15:29:13Z,2017-11-03T14:36:04Z,wanderview,,1
@@ -466,10 +466,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 220869095,true,"If activeWorker’s list of foreign fetch origins is empty, should set originMatches to false",https://github.com/w3c/ServiceWorker/issues/1112,2017-04-11T07:59:32Z,2017-04-11T17:07:36Z,leonhsl,,0
 220441913,true,"Confusing ""Updating a service worker"" section in explainer",https://github.com/w3c/ServiceWorker/issues/1111,2017-04-09T02:22:13Z,2017-11-03T13:59:46Z,kownacki,,0
 220332786,true,"What does it mean to wait ""for a task to be executed (including its asynchronous steps)""?",https://github.com/w3c/ServiceWorker/issues/1109,2017-04-07T21:25:39Z,2025-10-30T23:40:46Z,bzbarsky,,0
-220332136,false,"Touching documents in an ""in parallel"" section makes no sense",https://github.com/w3c/ServiceWorker/issues/1108,2017-04-07T21:22:36Z,2017-11-03T14:11:30Z,bzbarsky,,0
+220332136,true,"Touching documents in an ""in parallel"" section makes no sense",https://github.com/w3c/ServiceWorker/issues/1108,2017-04-07T21:22:36Z,2026-01-30T00:54:38Z,bzbarsky,,0
 219475083,false,Write tests for MIX behaviour,https://github.com/w3c/ServiceWorker/issues/1105,2017-04-05T05:46:06Z,2025-10-30T23:36:36Z,jakearchibald,needs tests,1
 219166186,true,Switch useCache to an enum,https://github.com/w3c/ServiceWorker/issues/1104,2017-04-04T07:45:35Z,2017-08-03T08:45:02Z,jakearchibald,,0
-219155605,false,Change the spec so that when a new SW is being registered it's set to not use cache the first time,https://github.com/w3c/ServiceWorker/issues/1103,2017-04-04T06:50:24Z,2017-11-03T14:13:49Z,n8schloss,,0
+219155605,true,Change the spec so that when a new SW is being registered it's set to not use cache the first time,https://github.com/w3c/ServiceWorker/issues/1103,2017-04-04T06:50:24Z,2026-01-30T01:04:05Z,n8schloss,,0
 219148833,true,API to tell developers why the SW was killed,https://github.com/w3c/ServiceWorker/issues/1101,2017-04-04T06:05:40Z,2025-10-10T17:45:20Z,jakearchibald,,0
 218466047,true,should Client.navigate() require user interaction?,https://github.com/w3c/ServiceWorker/issues/1100,2017-03-31T10:44:40Z,2017-04-03T09:33:43Z,wanderview,,0
 218397242,false,Build spec using travis,https://github.com/w3c/ServiceWorker/issues/1099,2017-03-31T04:48:06Z,2025-10-23T23:29:27Z,jakearchibald,,0
