@@ -2739,6 +2739,7 @@ api/GPUSupportedFeatures/feature_primitive-index,,,,142,,,,true,true,false,https
 api/GPUSupportedFeatures/feature_rg11b10ufloat-renderable,,,,113,,,,true,true,false,https://gpuweb.github.io/gpuweb/#rg11b10ufloat-renderable,UNKNOWN
 api/GPUSupportedFeatures/feature_shader-f16,,,,120,,,,true,true,false,https://gpuweb.github.io/gpuweb/#shader-f16,UNKNOWN
 api/GPUSupportedFeatures/feature_subgroups,,,,134,,,,true,true,false,https://gpuweb.github.io/gpuweb/#subgroups,UNKNOWN
+api/GPUSupportedFeatures/feature_subgroups/subgroup_id_num_subgroups,,,,144,,,,true,true,false,,NONE
 api/GPUSupportedFeatures/feature_texture-component-swizzle,,,,143,,,,true,true,false,https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-texture-component-swizzle,UNKNOWN
 api/GPUSupportedFeatures/feature_texture-compression-astc,,,,113,,,,true,true,false,https://gpuweb.github.io/gpuweb/#texture-compression-astc,UNKNOWN
 api/GPUSupportedFeatures/feature_texture-compression-astc-sliced-3d,,141,,139,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#texture-compression-astc-sliced-3d,UNKNOWN
@@ -6196,6 +6197,7 @@ api/RTCRtpSender/rtcpTransport,,,,75,,,,false,true,true,,NONE
 api/RTCRtpSender/setParameters,,64,,68,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpsender-setparameters,W3C
 api/RTCRtpSender/setParameters/parameters_codecs_parameter,,128,,69,,12.1,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpparameters-codecs,W3C
 api/RTCRtpSender/setParameters/parameters_degradationPreference_parameter,,138,,83,,12.1,,false,true,false,https://w3c.github.io/mst-content-hint/#dom-rtcrtpsendparameters-degradationpreference,W3C
+api/RTCRtpSender/setParameters/parameters_degradationPreference_parameter/maintain-framerate-and-resolution_value,,,,144,,,,true,true,false,https://w3c.github.io/mst-content-hint/#dom-rtcdegradationpreference-maintain-framerate-and-resolution,W3C
 api/RTCRtpSender/setParameters/parameters_encodings_parameter,,46,,69,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpsendparameters-encodings,W3C
 api/RTCRtpSender/setParameters/parameters_encodings_parameter/active,,110,,69,,11.1,,false,true,false,,NONE
 api/RTCRtpSender/setParameters/parameters_encodings_parameter/codec,,142,,119,,,,false,true,false,,NONE
@@ -6515,7 +6517,7 @@ api/Range/comparePoint,,1,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#r
 api/Range/createContextualFragment,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-range-createcontextualfragment,WHATWG
 api/Range/createContextualFragment/enforces_trusted_types,,preview,,83,,26,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-xss-injection-sinks,W3C
 api/Range/deleteContents,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#dom-range-deletecontents,WHATWG
-api/Range/detach,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#dom-range-detach,WHATWG
+api/Range/detach,,1,,1,,1,,false,true,true,https://dom.spec.whatwg.org/#dom-range-detach,WHATWG
 api/Range/endContainer,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-range-endcontainer①,WHATWG
 api/Range/endOffset,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-range-endoffset①,WHATWG
 api/Range/extractContents,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#dom-range-extractcontents,WHATWG
@@ -8526,6 +8528,7 @@ api/WGSLLanguageFeatures/entries,,141,,115,,26,,false,true,false,https://gpuweb.
 api/WGSLLanguageFeatures/extension_packed_4x8_integer_dot_product,,,,123,,,,true,true,false,https://gpuweb.github.io/gpuweb/wgsl/#language_extension-packed_4x8_integer_dot_product,UNKNOWN
 api/WGSLLanguageFeatures/extension_pointer_composite_access,,,,123,,,,true,true,false,https://gpuweb.github.io/gpuweb/wgsl/#language_extension-pointer_composite_access,UNKNOWN
 api/WGSLLanguageFeatures/extension_readonly_and_readwrite_storage_textures,,,,124,,,,true,true,false,https://gpuweb.github.io/gpuweb/wgsl/#language_extension-readonly_and_readwrite_storage_textures,UNKNOWN
+api/WGSLLanguageFeatures/extension_subgroup_id,,,,144,,,,true,true,false,https://gpuweb.github.io/gpuweb/wgsl/#language_extension-subgroup_id,UNKNOWN
 api/WGSLLanguageFeatures/extension_unrestricted_pointer_parameters,,,,123,,,,true,true,false,https://gpuweb.github.io/gpuweb/wgsl/#language_extension-unrestricted_pointer_parameters,UNKNOWN
 api/WGSLLanguageFeatures/forEach,,141,,115,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#gpuwgsllanguagefeatures,UNKNOWN
 api/WGSLLanguageFeatures/has,,141,,115,,26,,false,true,false,https://gpuweb.github.io/gpuweb/#gpuwgsllanguagefeatures,UNKNOWN
@@ -9813,7 +9816,7 @@ css/at-rules/counter-style/speak-as,,33,,91,,,,false,true,false,https://drafts.c
 css/at-rules/counter-style/suffix,,33,,91,,17,,false,true,false,https://drafts.csswg.org/css-counter-styles/#counter-style-suffix,W3C
 css/at-rules/counter-style/symbols,,33,,91,,17,,false,true,false,https://drafts.csswg.org/css-counter-styles/#counter-style-symbols,W3C
 css/at-rules/counter-style/system,,33,,91,,17,,false,true,false,https://drafts.csswg.org/css-counter-styles/#counter-style-system,W3C
-css/at-rules/custom-media,,146,"[{""name"":""layout.css.custom-media.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://drafts.csswg.org/mediaqueries-5/#at-ruledef-custom-media,W3C
+css/at-rules/custom-media,,148,"[{""name"":""layout.css.custom-media.enabled"",""type"":""preference"",""value_to_set"":""true""}]",,,,,true,true,false,https://drafts.csswg.org/mediaqueries-5/#at-ruledef-custom-media,W3C
 css/at-rules/document,,61,,,,,,false,false,true,,NONE
 css/at-rules/font-face,,3.5,,1,,3.1,,false,true,false,https://drafts.csswg.org/css-fonts/#font-face-rule,W3C
 css/at-rules/font-face/OpenType_CBDT_CBLC,,,,66,,,,false,true,false,,NONE
@@ -13391,6 +13394,7 @@ css/types/if/style/range_syntax,,,,142,,,,true,true,false,https://drafts.csswg.o
 css/types/image,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-images/#image-values,W3C
 css/types/image/cross-fade,,,,17,,10,,false,true,false,https://drafts.csswg.org/css-images-4/#cross-fade-function,W3C
 css/types/image/element,,57,,,,,,true,true,false,https://drafts.csswg.org/css-images-4/#element-notation,W3C
+css/types/image/filter,,,,,,9.1,,false,true,false,https://drafts.csswg.org/filter-effects-1/#FilterCSSImageValue,W3C
 css/types/image/image-set,,89,,113,,17,,false,true,false,https://drafts.csswg.org/css-images-4/#image-set-notation,W3C
 css/types/image/paint,,,,65,,,,false,true,false,https://drafts.css-houdini.org/css-paint-api/#paint-notation,W3C
 css/types/image/paint/additional_parameters,,,,,,,,false,true,false,,NONE
@@ -14678,7 +14682,7 @@ javascript/builtins/Array/flat,,62,,69,,12,,false,true,false,https://tc39.es/ecm
 javascript/builtins/Array/flatMap,,62,,69,,12,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.flatmap,TC39
 javascript/builtins/Array/forEach,,1.5,,1,,3,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.foreach,TC39
 javascript/builtins/Array/from,,32,,45,,9,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.from,TC39
-javascript/builtins/Array/fromAsync,,115,,121,,16.4,,false,true,false,https://tc39.es/proposal-array-from-async/#sec-array.fromAsync,TC39
+javascript/builtins/Array/fromAsync,,115,,121,,16.4,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.fromasync,TC39
 javascript/builtins/Array/includes,,43,,47,,9,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.includes,TC39
 javascript/builtins/Array/indexOf,,1.5,,1,,3,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.indexof,TC39
 javascript/builtins/Array/isArray,,4,,4,,5,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.isarray,TC39
@@ -15140,8 +15144,8 @@ javascript/builtins/Map/delete,,13,,38,,8,,false,true,false,https://tc39.es/ecma
 javascript/builtins/Map/entries,,20,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.entries,TC39
 javascript/builtins/Map/forEach,,25,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.foreach,TC39
 javascript/builtins/Map/get,,13,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.get,TC39
-javascript/builtins/Map/getOrInsert,,144,,145,,26.2,,false,true,false,https://tc39.es/proposal-upsert/#sec-map.prototype.getOrInsert,TC39
-javascript/builtins/Map/getOrInsertComputed,,144,,145,,26.2,,false,true,false,https://tc39.es/proposal-upsert/#sec-map.prototype.getOrInsertComputed,TC39
+javascript/builtins/Map/getOrInsert,,144,,145,,26.2,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.getorinsert,TC39
+javascript/builtins/Map/getOrInsertComputed,,144,,145,,26.2,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.getorinsertcomputed,TC39
 javascript/builtins/Map/groupBy,,119,,117,,17.4,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.groupby,TC39
 javascript/builtins/Map/has,,13,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.has,TC39
 javascript/builtins/Map/key_equality_for_zeros,,29,,38,,9,,false,true,false,,NONE
@@ -15191,7 +15195,7 @@ javascript/builtins/Math/sign,,25,,38,,9,,false,true,false,https://tc39.es/ecma2
 javascript/builtins/Math/sin,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sin,TC39
 javascript/builtins/Math/sinh,,25,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sinh,TC39
 javascript/builtins/Math/sqrt,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sqrt,TC39
-javascript/builtins/Math/sumPrecise,,137,,,,26.2,,false,true,false,https://tc39.es/proposal-math-sum/#sec-math.sumprecise,TC39
+javascript/builtins/Math/sumPrecise,,137,,,,26.2,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.sumprecise,TC39
 javascript/builtins/Math/tan,,1,,1,,1,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.tan,TC39
 javascript/builtins/Math/tanh,,25,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.tanh,TC39
 javascript/builtins/Math/trunc,,25,,38,,8,,false,true,false,https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-math.trunc,TC39
@@ -15777,12 +15781,12 @@ javascript/builtins/Uint8Array,,4,,7,,5.1,,false,true,false,https://tc39.es/ecma
 javascript/builtins/Uint8Array/Uint8Array,,4,,7,,5.1,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-constructors,TC39
 javascript/builtins/Uint8Array/Uint8Array/constructor_without_parameters,,55,,7,,5.1,,false,true,false,,NONE
 javascript/builtins/Uint8Array/Uint8Array/iterable_allowed,,52,,39,,10,,false,true,false,,NONE
-javascript/builtins/Uint8Array/fromBase64,,133,,140,,18.2,,false,true,false,https://tc39.es/proposal-arraybuffer-base64/spec/#sec-uint8array.frombase64,TC39
-javascript/builtins/Uint8Array/fromHex,,133,,140,,18.2,,false,true,false,https://tc39.es/proposal-arraybuffer-base64/spec/#sec-uint8array.fromhex,TC39
-javascript/builtins/Uint8Array/setFromBase64,,133,,140,,18.2,,false,true,false,https://tc39.es/proposal-arraybuffer-base64/spec/#sec-uint8array.prototype.setfrombase64,TC39
-javascript/builtins/Uint8Array/setFromHex,,133,,140,,18.2,,false,true,false,https://tc39.es/proposal-arraybuffer-base64/spec/#sec-uint8array.prototype.setfromhex,TC39
-javascript/builtins/Uint8Array/toBase64,,133,,140,,18.2,,false,true,false,https://tc39.es/proposal-arraybuffer-base64/spec/#sec-uint8array.prototype.tobase64,TC39
-javascript/builtins/Uint8Array/toHex,,133,,140,,18.2,,false,true,false,https://tc39.es/proposal-arraybuffer-base64/spec/#sec-uint8array.prototype.tohex,TC39
+javascript/builtins/Uint8Array/fromBase64,,133,,140,,18.2,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.frombase64,TC39
+javascript/builtins/Uint8Array/fromHex,,133,,140,,18.2,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.fromhex,TC39
+javascript/builtins/Uint8Array/setFromBase64,,133,,140,,18.2,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.setfrombase64,TC39
+javascript/builtins/Uint8Array/setFromHex,,133,,140,,18.2,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.setfromhex,TC39
+javascript/builtins/Uint8Array/toBase64,,133,,140,,18.2,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.tobase64,TC39
+javascript/builtins/Uint8Array/toHex,,133,,140,,18.2,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-uint8array.prototype.tohex,TC39
 javascript/builtins/Uint8ClampedArray,,4,,7,,5.1,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-objects,TC39
 javascript/builtins/Uint8ClampedArray/Uint8ClampedArray,,4,,7,,5.1,,false,true,false,https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-constructors,TC39
 javascript/builtins/Uint8ClampedArray/Uint8ClampedArray/constructor_without_parameters,,55,,7,,5.1,,false,true,false,,NONE
@@ -15793,8 +15797,8 @@ javascript/builtins/WeakMap/WeakMap/iterable_allowed,,36,,38,,9,,false,true,fals
 javascript/builtins/WeakMap/WeakMap/null_allowed,,37,,36,,8,,false,true,false,,NONE
 javascript/builtins/WeakMap/delete,,6,,36,,8,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.delete,TC39
 javascript/builtins/WeakMap/get,,6,,36,,8,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.get,TC39
-javascript/builtins/WeakMap/getOrInsert,,144,,145,,26.2,,false,true,false,https://tc39.es/proposal-upsert/#sec-weakmap.prototype.getOrInsert,TC39
-javascript/builtins/WeakMap/getOrInsertComputed,,144,,145,,26.2,,false,true,false,https://tc39.es/proposal-upsert/#sec-weakmap.prototype.getOrInsertComputed,TC39
+javascript/builtins/WeakMap/getOrInsert,,144,,145,,26.2,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.getorinsert,TC39
+javascript/builtins/WeakMap/getOrInsertComputed,,144,,145,,26.2,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.getorinsertcomputed,TC39
 javascript/builtins/WeakMap/has,,6,,36,,8,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.has,TC39
 javascript/builtins/WeakMap/set,,6,,36,,8,,false,true,false,https://tc39.es/ecma262/multipage/keyed-collections.html#sec-weakmap.prototype.set,TC39
 javascript/builtins/WeakMap/symbol_as_keys,,146,,109,,16.4,,false,true,false,,NONE
