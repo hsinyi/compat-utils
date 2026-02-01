@@ -1,6 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3880034971,false,Should appearance: base select button have both `all: unset` and `display: contents` ?,https://github.com/whatwg/html/issues/12121,2026-01-31T20:35:26Z,2026-01-31T21:18:45Z,nt1m,,0
-3879465854,false,Untended behavior change from navigation ID check in javascript URL navigation,https://github.com/whatwg/html/issues/12120,2026-01-31T15:57:50Z,2026-01-31T16:42:34Z,shannonbooth,,0
+3881827060,false,url is not defined in iframe load event steps,https://github.com/whatwg/html/issues/12122,2026-02-01T11:09:49Z,2026-02-01T11:09:49Z,jdm,,0
+3880034971,false,Should appearance: base select button have both `all: unset` and `display: contents` ?,https://github.com/whatwg/html/issues/12121,2026-01-31T20:35:26Z,2026-02-01T10:02:11Z,nt1m,,1
+3879465854,false,Untended behavior change from navigation ID check in javascript URL navigation,https://github.com/whatwg/html/issues/12120,2026-01-31T15:57:50Z,2026-02-01T06:59:54Z,shannonbooth,,1
 3879418981,false,Links (`<a>` & `<link>`) targetting at different version of the current document,https://github.com/whatwg/html/issues/12119,2026-01-31T15:25:48Z,2026-01-31T15:26:12Z,tats-u,addition/proposal|needs implementer interest,0
 3874412357,false,Coordinates of keyboard-driven click events,https://github.com/whatwg/html/issues/12117,2026-01-30T07:27:19Z,2026-01-30T12:13:10Z,annevk,accessibility|needs tests|topic: events|topic: user activation|a11y-tracker|agenda+,0
 3871782267,true,New select is hard to use in a custom element,https://github.com/whatwg/html/issues/12116,2026-01-29T17:21:32Z,2026-01-29T20:22:04Z,jpzwarte,,0
@@ -121,7 +122,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3583278699,false,"Incorrect ""starts with"" order of newImportMapImports' specifier and resolved module set's specifier in ` merge existing and new import maps`",https://github.com/whatwg/html/issues/11875,2025-11-03T18:41:20Z,2025-11-08T08:30:00Z,allstarschh,,0
 3583136831,false,Support for disabling scripts from WebDriver BiDi,https://github.com/whatwg/html/issues/11874,2025-11-03T17:57:26Z,2025-12-11T14:03:30Z,juliandescottes,topic: script|integration,0
 3582963080,false,Focus chain algorithm and firing focus events,https://github.com/whatwg/html/issues/11873,2025-11-03T17:05:59Z,2025-11-04T23:00:14Z,dSalieri,,0
-3581976852,false,Unitialized document in #focus-update-steps,https://github.com/whatwg/html/issues/11872,2025-11-03T13:02:48Z,2025-11-03T13:02:57Z,farre,topic: navigation,0
+3581976852,false,Unitialized document in #focus-update-steps,https://github.com/whatwg/html/issues/11872,2025-11-03T13:02:48Z,2026-02-01T07:02:54Z,farre,topic: navigation,1
 3581624926,false,A (hidden) popover inside a dialog gets detached,https://github.com/whatwg/html/issues/11871,2025-11-03T11:23:27Z,2025-11-20T20:20:06Z,erikblomqvist-huma,topic: dialog|topic: popover,1
 3580528768,true,"fix ""Contexts in which this element can be used:"" of <p> element",https://github.com/whatwg/html/issues/11869,2025-11-03T04:42:12Z,2025-11-14T00:11:05Z,mtrootyy,,0
 3580293656,true,Missing build instructions in README for generating HTML output,https://github.com/whatwg/html/issues/11867,2025-11-03T02:04:13Z,2025-11-20T12:51:15Z,2400030303,,0
@@ -159,7 +160,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3536147571,true,No implementation calls #resume-applying-the-traverse-history-step entirely async,https://github.com/whatwg/html/issues/11814,2025-10-21T11:38:26Z,2025-11-26T11:33:27Z,farre,compat|topic: navigation,0
 3534577511,false,Stylesheet link response processing rules for content-type contradict rules for processing the type attribute,https://github.com/whatwg/html/issues/11813,2025-10-21T02:19:59Z,2025-12-30T08:18:29Z,jdm,topic: link|topic: style,0
 3534307429,false,"""update the image data"" queues a microtask from ""in parallel""",https://github.com/whatwg/html/issues/11812,2025-10-20T23:39:55Z,2025-10-22T12:44:15Z,jyasskin,topic: img,0
-3533166863,false,A navigation's current entry index can be −1 even when it does not have entries and events disabled,https://github.com/whatwg/html/issues/11811,2025-10-20T16:47:36Z,2025-10-20T16:56:36Z,avandolder,topic: navigation,0
+3533166863,false,A navigation's current entry index can be −1 even when it does not have entries and events disabled,https://github.com/whatwg/html/issues/11811,2025-10-20T16:47:36Z,2026-02-01T07:04:22Z,avandolder,topic: navigation,1
 3532979842,true,maybe add 2 additional WAPFORUM public IDs to list used for XHTML entities,https://github.com/whatwg/html/issues/11810,2025-10-20T15:51:53Z,2025-10-23T16:02:00Z,dbaron,interop,0
 3528886275,true,Relaxing content model for <button> to allow more than phrasing content,https://github.com/whatwg/html/issues/11808,2025-10-18T14:43:37Z,2025-10-23T13:45:08Z,sai-30624,addition/proposal|needs implementer interest,0
 3528262733,false,Add native validation attribute for declarative input validation,https://github.com/whatwg/html/issues/11807,2025-10-18T07:48:27Z,2025-10-20T17:15:41Z,mtechamit,addition/proposal|needs implementer interest,0
