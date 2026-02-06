@@ -381,7 +381,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 276907846,true,Allow using async event handlers instead of waitUntil() and respondWith(),https://github.com/w3c/ServiceWorker/issues/1235,2017-11-27T05:48:27Z,2017-11-27T13:40:14Z,Zectbumo,,0
 276791258,true,Please default fetch() init credentials to 'same-origin',https://github.com/w3c/ServiceWorker/issues/1234,2017-11-26T01:33:34Z,2017-11-28T06:20:43Z,Zectbumo,,0
 276788468,true,Cache.addAll() and .add() needs to accept an init argument to use for fetch(),https://github.com/w3c/ServiceWorker/issues/1233,2017-11-26T00:31:29Z,2017-11-27T16:28:36Z,Zectbumo,,0
-275915221,false,"what happens if an initial about:blank inherits a controller, but its navigation request does not match any service worker?",https://github.com/w3c/ServiceWorker/issues/1232,2017-11-22T01:27:45Z,2017-12-01T21:14:26Z,wanderview,,0
+275915221,true,"what happens if an initial about:blank inherits a controller, but its navigation request does not match any service worker?",https://github.com/w3c/ServiceWorker/issues/1232,2017-11-22T01:27:45Z,2026-02-06T01:12:54Z,wanderview,,0
 275911435,false,"consider exposing credentials.get() but only when mediation is set to ""silent""",https://github.com/w3c/ServiceWorker/issues/1231,2017-11-22T01:04:17Z,2026-02-06T01:00:53Z,wanderview,,0
 275388745,false,Merge with storage,https://github.com/w3c/ServiceWorker/issues/1230,2017-11-20T15:11:07Z,2023-06-07T17:54:11Z,jakearchibald,,0
 274733482,true,when will navigation `FetchEvent.resultingClientId` have a reserved client and not an initial about:blank client?,https://github.com/w3c/ServiceWorker/issues/1228,2017-11-17T02:39:29Z,2017-11-17T04:10:28Z,wanderview,,0
@@ -416,7 +416,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 250860504,false,skipWaiting() promise should resolve after promotion to .active,https://github.com/w3c/ServiceWorker/issues/1187,2017-08-17T08:02:20Z,2018-06-20T01:14:57Z,mfalken,,0
 249952168,true,How can we use SW module link in backward-compatible manner?,https://github.com/w3c/ServiceWorker/issues/1186,2017-08-14T07:29:23Z,2026-01-23T01:05:04Z,tzik,,0
 249079902,false,thoughts on exposing multiple-instances to sites via the DOM,https://github.com/w3c/ServiceWorker/issues/1185,2017-08-09T15:59:17Z,2017-08-16T18:49:57Z,wanderview,,0
-249059458,false,error handling for aborted streams feeding a navigation request,https://github.com/w3c/ServiceWorker/issues/1184,2017-08-09T14:56:40Z,2026-02-06T00:48:03Z,wanderview,,0
+249059458,false,error handling for aborted streams feeding a navigation request,https://github.com/w3c/ServiceWorker/issues/1184,2017-08-09T14:56:40Z,2026-02-06T10:46:17Z,wanderview,,0
 248965474,false,How long can the service worker stay awake during an active fetch,https://github.com/w3c/ServiceWorker/issues/1182,2017-08-09T09:09:35Z,2023-07-21T02:09:03Z,jakearchibald,,2
 248915082,true,Cross origin error due to htaccess restrictions,https://github.com/w3c/ServiceWorker/issues/1181,2017-08-09T04:42:44Z,2017-11-03T11:59:40Z,audas,,0
 248726273,true,Job queue items may not have a service worker registration,https://github.com/w3c/ServiceWorker/issues/1180,2017-08-08T14:04:05Z,2017-08-15T11:41:32Z,jakearchibald,,0
@@ -637,7 +637,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 151530581,true,clarify secure context requirements in Handle Fetch,https://github.com/w3c/ServiceWorker/issues/890,2016-04-28T01:48:53Z,2016-11-04T07:29:59Z,wanderview,duplicate|decided,0
 150455694,true,clarify that Clients.matchAll() only returns Window Client objects with active documents,https://github.com/w3c/ServiceWorker/issues/888,2016-04-22T19:46:55Z,2016-08-10T09:50:47Z,wanderview,,0
 150413489,true,spec exactly how to order non-window Client objects,https://github.com/w3c/ServiceWorker/issues/887,2016-04-22T16:22:21Z,2016-11-07T14:05:21Z,wanderview,decided,0
-150082183,false,"consider firing a ""clientcontrolled"" event on ServiceWorkerGlobalScope",https://github.com/w3c/ServiceWorker/issues/886,2016-04-21T13:55:42Z,2017-12-16T21:02:18Z,wanderview,apr-2017-f2f,0
+150082183,false,"consider firing a ""clientcontrolled"" event on ServiceWorkerGlobalScope",https://github.com/w3c/ServiceWorker/issues/886,2016-04-21T13:55:42Z,2026-02-06T01:30:54Z,wanderview,apr-2017-f2f,0
 148771947,true,should EventSource bypass service worker interception?,https://github.com/w3c/ServiceWorker/issues/885,2016-04-15T21:19:31Z,2019-06-08T10:28:40Z,wanderview,,0
 148147282,true,addAll should resolve when the cache is fully & successfully written,https://github.com/w3c/ServiceWorker/issues/884,2016-04-13T18:39:29Z,2017-10-13T14:02:52Z,jakearchibald,decided,0
 148033922,true,Where are ServiceWorker data stored?,https://github.com/w3c/ServiceWorker/issues/883,2016-04-13T11:45:34Z,2016-07-25T15:59:27Z,wklm,,0
@@ -738,7 +738,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 116110575,true,"register() should not allow file://, wss://, etc",https://github.com/w3c/ServiceWorker/issues/780,2015-11-10T13:53:58Z,2015-11-11T02:37:35Z,wanderview,,0
 115744026,true,Disabling the secure origin check via flags,https://github.com/w3c/ServiceWorker/issues/779,2015-11-08T16:52:29Z,2018-06-14T11:42:07Z,nolanlawson,,0
 115671368,true,should service worker still install if onerror event handle cancels error from uncaught exception?,https://github.com/w3c/ServiceWorker/issues/778,2015-11-07T15:02:21Z,2015-11-09T19:22:18Z,wanderview,,0
-115143649,false,spec behavior when ServiceWorkerContainer parent client is dead,https://github.com/w3c/ServiceWorker/issues/777,2015-11-04T20:46:22Z,2017-12-11T07:08:56Z,wanderview,apr-2017-f2f-v1,0
+115143649,false,spec behavior when ServiceWorkerContainer parent client is dead,https://github.com/w3c/ServiceWorker/issues/777,2015-11-04T20:46:22Z,2026-02-06T01:25:22Z,wanderview,apr-2017-f2f-v1,0
 114640085,true,Add note that activate event cannot fail SW activation,https://github.com/w3c/ServiceWorker/issues/776,2015-11-02T17:11:46Z,2015-11-03T08:03:58Z,wanderview,,0
 114507629,true,Add example for Service-Worker-Allowed,https://github.com/w3c/ServiceWorker/issues/775,2015-11-02T01:33:11Z,2015-11-04T03:24:52Z,marcoscaceres,,1
 114505871,true,The user agents?,https://github.com/w3c/ServiceWorker/issues/774,2015-11-02T01:00:06Z,2015-11-02T10:06:44Z,marcoscaceres,,0
