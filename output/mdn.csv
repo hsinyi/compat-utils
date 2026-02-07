@@ -203,8 +203,8 @@ api/AudioParam/automationRate,,,,68,,14,,false,true,false,https://webaudio.githu
 api/AudioParam/cancelAndHoldAtTime,,,,57,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-cancelandholdattime,W3C
 api/AudioParam/cancelScheduledValues,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-cancelscheduledvalues,W3C
 api/AudioParam/defaultValue,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-defaultvalue,W3C
-api/AudioParam/exponentialRampToValueAtTime,,134,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-exponentialramptovalueattime,W3C
-api/AudioParam/linearRampToValueAtTime,,134,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-linearramptovalueattime,W3C
+api/AudioParam/exponentialRampToValueAtTime,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-exponentialramptovalueattime,W3C
+api/AudioParam/linearRampToValueAtTime,,25,,14,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-linearramptovalueattime,W3C
 api/AudioParam/maxValue,,53,,52,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-maxvalue,W3C
 api/AudioParam/minValue,,53,,52,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-minvalue,W3C
 api/AudioParam/setTargetAtTime,,25,,24,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-audioparam-settargetattime,W3C
@@ -2049,7 +2049,7 @@ api/Element/pointerleave_event,,59,,55,,13,,false,true,false,https://w3c.github.
 api/Element/pointermove_event,,59,,55,,13,,false,true,false,https://w3c.github.io/pointerevents/#the-pointermove-event,W3C
 api/Element/pointerout_event,,59,,55,,13,,false,true,false,https://w3c.github.io/pointerevents/#the-pointerout-event,W3C
 api/Element/pointerover_event,,59,,55,,13,,false,true,false,https://w3c.github.io/pointerevents/#the-pointerover-event,W3C
-api/Element/pointerrawupdate_event,,140,,77,,,,false,true,false,https://w3c.github.io/pointerevents/#the-pointerrawupdate-event,W3C
+api/Element/pointerrawupdate_event,,148,,77,,,,false,true,false,https://w3c.github.io/pointerevents/#the-pointerrawupdate-event,W3C
 api/Element/pointerup_event,,59,,55,,13,,false,true,false,https://w3c.github.io/pointerevents/#the-pointerup-event,W3C
 api/Element/prefix,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-element-prefix①,WHATWG
 api/Element/prepend,,49,,54,,10,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-parentnode-prepend①,WHATWG
@@ -9882,6 +9882,9 @@ css/at-rules/media/aspect-ratio,,3.5,,3,,5,,false,true,false,https://drafts.cssw
 css/at-rules/media/calc,,59,,66,,12,,false,true,false,https://drafts.csswg.org/css-values/#calc-notation,W3C
 css/at-rules/media/color,,2,,1,,3,,false,true,false,https://drafts.csswg.org/mediaqueries/#color,W3C
 css/at-rules/media/color-gamut,,110,,58,,10,,false,true,false,https://drafts.csswg.org/mediaqueries/#color-gamut,W3C
+css/at-rules/media/color-gamut/p3,,110,,58,,10,,false,true,false,https://drafts.csswg.org/mediaqueries/#valdef-media-color-gamut-p3,W3C
+css/at-rules/media/color-gamut/rec2020,,110,,58,,10,,false,true,false,https://drafts.csswg.org/mediaqueries/#valdef-media-color-gamut-rec2020,W3C
+css/at-rules/media/color-gamut/srgb,,110,,58,,10,,false,true,false,https://drafts.csswg.org/mediaqueries/#valdef-media-color-gamut-srgb,W3C
 css/at-rules/media/color-index,,,,29,,8,,false,true,false,https://drafts.csswg.org/mediaqueries/#color-index,W3C
 css/at-rules/media/device-aspect-ratio,,2,,1,,3,,false,true,true,https://drafts.csswg.org/mediaqueries/#device-aspect-ratio,W3C
 css/at-rules/media/device-height,,2,,1,,3,,false,true,true,https://drafts.csswg.org/mediaqueries/#device-height,W3C
@@ -10877,8 +10880,9 @@ css/properties/column-wrap,,,,145,,,,true,true,false,https://drafts.csswg.org/cs
 css/properties/column-wrap/auto,,,,145,,,,true,true,false,https://drafts.csswg.org/css-multicol-2/#valdef-column-wrap-auto,W3C
 css/properties/column-wrap/nowrap,,,,145,,,,true,true,false,https://drafts.csswg.org/css-multicol-2/#valdef-column-wrap-nowrap,W3C
 css/properties/column-wrap/wrap,,,,145,,,,true,true,false,https://drafts.csswg.org/css-multicol-2/#valdef-column-wrap-wrap,W3C
-css/properties/columns,,52,,50,,9,,false,true,false,https://drafts.csswg.org/css-multicol/#columns,W3C
+css/properties/columns,,52,,50,,9,,false,true,false,https://drafts.csswg.org/css-multicol-2/#propdef-columns,W3C
 css/properties/columns/auto,,9,,50,,3,,false,true,false,https://drafts.csswg.org/css-multicol/#valdef-column-width-auto,W3C
+css/properties/columns/column-height,,,,145,,,,true,true,false,https://drafts.csswg.org/css-multicol-2/#columns:~:text=%5B%20%2F%20%3C%27column%2Dheight%27%3E%20%5D,W3C
 css/properties/contain,,69,,52,,15.4,,false,true,false,https://drafts.csswg.org/css-contain/#contain-property,W3C
 css/properties/contain/content,,69,,52,,15.4,,false,true,false,https://drafts.csswg.org/css-contain/#valdef-contain-content,W3C
 css/properties/contain/inline-size,,101,,105,,16,,false,true,false,https://drafts.csswg.org/css-contain-2/#valdef-contain-inline-size,W3C
@@ -13284,7 +13288,9 @@ css/types/color/rgb_hexadecimal_notation,,1,,1,,1,,false,true,false,https://draf
 css/types/color/rgb_hexadecimal_notation/alpha_hexadecimal_notation,,49,,62,,10,,false,true,false,,NONE
 css/types/color/system-color,,1,,1,,1,,false,true,false,https://drafts.csswg.org/css-color/#css-system-colors,W3C
 css/types/color/system-color/accentcolor_accentcolortext,,103,,115,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""true""}]",16.5,,false,true,false,https://drafts.csswg.org/css-color/#valdef-color-accentcolor,W3C
-css/types/color/system-color/mark_marktext_buttonborder,,109,,,,,,true,true,false,https://drafts.csswg.org/css-color/#valdef-color-mark,W3C
+css/types/color/system-color/buttonborder,,109,,101,,,,false,true,false,https://drafts.csswg.org/css-color/#valdef-color-buttonborder,W3C
+css/types/color/system-color/mark,,109,,102,,,,false,true,false,https://drafts.csswg.org/css-color/#valdef-color-mark,W3C
+css/types/color/system-color/marktext,,109,,102,,,,false,true,false,https://drafts.csswg.org/css-color/#valdef-color-marktext,W3C
 css/types/color/transparent,,1,,1,,1,,false,true,false,,NONE
 css/types/corner-shape-value,,,,139,,,,true,true,false,https://drafts.csswg.org/css-borders-4/#typedef-corner-shape-value,W3C
 css/types/corner-shape-value/bevel,,,,139,,,,true,true,false,https://drafts.csswg.org/css-borders-4/#valdef-corner-shape-value-bevel,W3C
@@ -13628,7 +13634,7 @@ html/elements/colgroup/valign,,1,,1,,3,,false,true,true,https://html.spec.whatwg
 html/elements/colgroup/width,,1,,1,,≤4,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#attr-col-width,WHATWG
 html/elements/data,,22,,62,,10,,false,true,false,https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-data-element,WHATWG
 html/elements/data/value,,22,,62,,10,,false,true,false,https://html.spec.whatwg.org/multipage/text-level-semantics.html#attr-data-value,WHATWG
-html/elements/datalist,,110,,20,,12.1,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#the-datalist-element,WHATWG
+html/elements/datalist,,4,,20,,12.1,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#the-datalist-element,WHATWG
 html/elements/dd,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/multipage/grouping-content.html#the-dd-element,WHATWG
 html/elements/del,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/multipage/edits.html#the-del-element,WHATWG
 html/elements/del/cite,,1,,1,,3,,false,true,false,,NONE
@@ -14490,6 +14496,7 @@ http/headers/Permissions-Policy/bluetooth,,,,104,,,,true,true,false,https://webb
 http/headers/Permissions-Policy/browsing-topics,,,,115,,,,false,false,true,,NONE
 http/headers/Permissions-Policy/camera,,,,88,,,,true,true,false,https://w3c.github.io/mediacapture-main/#permissions-policy-integration,W3C
 http/headers/Permissions-Policy/captured-surface-control,,,,136,,,,true,true,false,https://w3c.github.io/mediacapture-surface-control/#feature-policy-integration,W3C
+http/headers/Permissions-Policy/ch-ua-high-entropy-values,,,,144,,,,true,true,false,https://wicg.github.io/ua-client-hints/#ch-ua-high-entropy-values,W3CCG
 http/headers/Permissions-Policy/compute-pressure,,,,125,,,,true,true,false,https://w3c.github.io/compute-pressure/#policy-control,W3C
 http/headers/Permissions-Policy/cross-origin-isolated,,,,88,,,,true,true,false,https://html.spec.whatwg.org/multipage/infrastructure.html#cross-origin-isolated-feature,WHATWG
 http/headers/Permissions-Policy/deferred-fetch,,,,135,,,,true,true,false,https://fetch.spec.whatwg.org/#available-deferred-fetch-quota,WHATWG
@@ -15125,6 +15132,8 @@ javascript/builtins/Iterator/reduce,,131,,122,,18.4,,false,true,false,https://tc
 javascript/builtins/Iterator/some,,131,,122,,18.4,,false,true,false,https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.some,TC39
 javascript/builtins/Iterator/take,,131,,122,,18.4,,false,true,false,https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.take,TC39
 javascript/builtins/Iterator/toArray,,131,,122,,18.4,,false,true,false,https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-iterator.prototype.toarray,TC39
+javascript/builtins/Iterator/zip,,148,,,,,,true,true,false,https://tc39.es/proposal-joint-iteration/#sec-IteratorZip,TC39
+javascript/builtins/Iterator/zipKeyed,,148,,,,,,true,true,false,https://tc39.es/proposal-joint-iteration/#sec-iterator.zipkeyed,TC39
 javascript/builtins/JSON,,3.5,,3,,4,,false,true,false,https://tc39.es/ecma262/multipage/structured-data.html#sec-json-object,TC39
 javascript/builtins/JSON/isRawJSON,,135,,114,,,,false,true,false,https://tc39.es/proposal-json-parse-with-source/#sec-json.israwjson,TC39
 javascript/builtins/JSON/json_superset,,62,,66,,12,,false,true,false,,NONE
