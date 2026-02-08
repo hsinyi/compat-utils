@@ -26,7 +26,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3843592292,true,Re: Issue #11523 Removal of XSLT from the web platform,https://github.com/whatwg/html/issues/12103,2026-01-22T15:59:59Z,2026-01-29T22:17:19Z,jjwhitmore,,2
 3843327465,true,The spec for the `align` attribute on img (and maybe others?) is incomplete,https://github.com/whatwg/html/issues/12102,2026-01-22T14:57:03Z,2026-01-22T15:24:17Z,Psychpsyo,topic: rendering,0
 3842958150,false,Move DOMActivate event from UI Events to HTML,https://github.com/whatwg/html/issues/12101,2026-01-22T13:27:41Z,2026-01-26T14:03:14Z,zcorpan,needs tests|topic: events|integration,0
-3842523726,false,Selects interplay with popover is sometimes surprising.,https://github.com/whatwg/html/issues/12099,2026-01-22T11:34:18Z,2026-02-05T18:57:31Z,keithamus,needs tests|topic: select,0
+3842523726,false,Selects interplay with popover is sometimes surprising.,https://github.com/whatwg/html/issues/12099,2026-01-22T11:34:18Z,2026-02-05T18:57:31Z,keithamus,needs tests|topic: select,1
 3839852600,false,use of oldParent in HTML element removing steps is sometimes wrong,https://github.com/whatwg/html/issues/12098,2026-01-21T20:13:07Z,2026-02-05T19:25:01Z,dbaron,,0
 3838272531,false,selectedcontent removing steps vs pagehide (and unload),https://github.com/whatwg/html/issues/12096,2026-01-21T13:25:08Z,2026-01-29T14:02:03Z,annevk,topic: select,0
 3835855483,true,ElementInternals ARIA semantics are opaque to DOM-based accessibility testing tools,https://github.com/whatwg/html/issues/12095,2026-01-20T23:15:02Z,2026-01-21T18:10:01Z,benbeaudry,addition/proposal|needs implementer interest|accessibility|topic: custom elements,4
@@ -399,7 +399,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3095748703,false,WorkerGlobal scope's URL accessed for fetch blob partitioning before being set,https://github.com/whatwg/html/issues/11340,2025-05-28T02:07:54Z,2025-06-24T04:48:06Z,shannonbooth,topic: workers,0
 3095303838,false,Image Elements Should Expose an HTML Attribute or JS Field on Load Fail/Success,https://github.com/whatwg/html/issues/11339,2025-05-27T21:38:45Z,2025-06-05T14:00:25Z,Thoughtscript,addition/proposal|needs implementer interest|topic: img,0
 3094553650,true,fetch the descendants of and link a module script only handles [[ParseError]] case,https://github.com/whatwg/html/issues/11338,2025-05-27T16:43:45Z,2025-06-26T03:48:06Z,allstarschh,topic: script,0
-3089620301,true,Need for programmatic detection of flashing content in <video> elements (accessibility safety concern),https://github.com/whatwg/html/issues/11333,2025-05-25T22:34:53Z,2025-07-24T12:52:50Z,yashrajbharti,addition/proposal|needs implementer interest,0
+3089620301,true,Need for programmatic detection of flashing content in <video> elements (accessibility safety concern),https://github.com/whatwg/html/issues/11333,2025-05-25T22:34:53Z,2025-07-24T12:52:50Z,yashrajbharti,addition/proposal|needs implementer interest,1
 3086868160,false,closedby=closerequest should be closedby=close-request,https://github.com/whatwg/html/issues/11331,2025-05-23T16:11:10Z,2025-06-02T19:55:19Z,keithamus,topic: dialog,0
 3084575899,false,Transient activation and focus,https://github.com/whatwg/html/issues/11330,2025-05-22T21:20:51Z,2025-06-16T20:13:11Z,eladalon1983,integration|topic: user activation,0
 3082849652,true,Upcoming WHATNOT meeting on 2025-05-29,https://github.com/whatwg/html/issues/11328,2025-05-22T10:15:21Z,2025-12-04T21:35:22Z,annevk,,0
@@ -548,7 +548,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2874388234,false,Exposing the DOMParser API in Worker Contexts,https://github.com/whatwg/html/issues/11068,2025-02-24T09:50:37Z,2025-02-25T04:43:48Z,sqwr,addition/proposal|needs implementer interest,0
 2869703835,true,navigation API: resolve the finished promise,https://github.com/whatwg/html/issues/11064,2025-02-21T18:10:39Z,2025-02-26T07:45:51Z,atscott,clarification|topic: navigation,0
 2869493100,true,:host-context(my-el) inside a <my-el> custom element matches even for a standalone <my-el>,https://github.com/whatwg/html/issues/11063,2025-02-21T16:29:23Z,2025-02-24T17:27:51Z,franktopel,,0
-2867510954,false,Proposal: Customized built-in elements via `elementInternals.type`,https://github.com/whatwg/html/issues/11061,2025-02-20T23:34:14Z,2026-01-08T12:17:48Z,sanketj,addition/proposal|stage: 1,16
+2867510954,false,Proposal: Customized built-in elements via `elementInternals.type`,https://github.com/whatwg/html/issues/11061,2025-02-20T23:34:14Z,2026-01-08T12:17:48Z,sanketj,addition/proposal|stage: 1,17
 2867022774,false,"`responsePolicyContainer` in ""determine navigation params policy container"" should be cloned for consistency",https://github.com/whatwg/html/issues/11060,2025-02-20T18:58:05Z,2025-02-25T08:59:19Z,Lubrsi,topic: navigation|topic: policy container,0
 2866860480,true,Meeting 17 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11059,2025-02-20T17:41:25Z,2025-12-04T21:35:12Z,mfreed7,,0
 2866853950,false,Touchscreen behavior for the `interesttarget` attribute,https://github.com/whatwg/html/issues/11058,2025-02-20T17:38:14Z,2025-05-14T01:59:13Z,mfreed7,,1
