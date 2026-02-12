@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3928004867,false,Add Canvas writingMode and textOrientation,https://github.com/whatwg/html/pull/12153,2026-02-11T18:25:01Z,2026-02-11T18:35:30Z,schenney-chromium,topic: canvas,0
+3926643128,false,AsyncContext proposal integration (part 1),https://github.com/whatwg/html/pull/12152,2026-02-11T13:44:30Z,2026-02-11T13:57:06Z,andreubotella,,0
 3924343435,false,Add controls attribute to img,https://github.com/whatwg/html/pull/12151,2026-02-11T01:59:20Z,2026-02-11T05:59:12Z,yoelhawa,addition/proposal|topic: img,0
 3920138877,false,Fix type mismatch for reflected FrozenArray<T>?,https://github.com/whatwg/html/pull/12148,2026-02-10T08:31:24Z,2026-02-10T19:41:08Z,gmvrpw,,0
 3918173144,true,Fix type mismatch for reflected FrozenArray<T>?,https://github.com/whatwg/html/pull/12146,2026-02-09T21:10:24Z,2026-02-09T21:37:07Z,gmvrpw,,0
@@ -48,7 +50,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3690361653,true,Expose NavigationPrecommitController.addHandler,https://github.com/whatwg/html/pull/11984,2025-12-03T13:56:50Z,2025-12-11T13:34:12Z,noamr,,0
 3689842829,true,Download link: inform the navigation API about aborting,https://github.com/whatwg/html/pull/11983,2025-12-03T11:32:45Z,2025-12-11T13:27:52Z,noamr,,0
 3687259345,true,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2026-01-31T10:47:47Z,KurtCattiSchmidt,,0
-3687064326,false,Add support for video and audio element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-02-10T16:11:43Z,scottjehl,addition/proposal|topic: media|stage: 1,6
+3687064326,false,Add support for video and audio element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-02-11T20:44:13Z,scottjehl,addition/proposal|topic: media|stage: 1,6
 3685135331,true,Specify document conformance for headingoffset/headingreset,https://github.com/whatwg/html/pull/11979,2025-12-02T10:17:37Z,2025-12-02T11:20:06Z,zcorpan,,0
 3685086081,true,Add headingoffset/headingreset to attribute index,https://github.com/whatwg/html/pull/11978,2025-12-02T10:05:59Z,2025-12-02T10:19:51Z,keithamus,,0
 3682264070,true,Use a task source when dispatching EventSource events. #4506,https://github.com/whatwg/html/pull/11976,2025-12-01T18:17:11Z,2025-12-01T20:36:26Z,wanderview,,0
@@ -164,7 +166,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3388006842,false,Add streamHTMLUnsafe() methods,https://github.com/whatwg/html/pull/11631,2025-09-05T15:46:01Z,2025-11-27T11:53:35Z,foolip,,0
 3387513853,true,"Clone integrity policy as part of ""clone a policy container""",https://github.com/whatwg/html/pull/11628,2025-09-05T13:10:46Z,2025-09-08T09:26:22Z,yoavweiss,topic: policy container,0
 3383145665,true,"Editorial: correctly mark up JS code with class=""js""",https://github.com/whatwg/html/pull/11624,2025-09-04T10:40:34Z,2025-09-06T13:33:13Z,foolip,,0
-3380980195,false,Added support for link rel=compression-dictionary,https://github.com/whatwg/html/pull/11620,2025-09-03T19:14:59Z,2025-12-16T19:44:22Z,pmeenan,,0
+3380980195,false,Added support for link rel=compression-dictionary,https://github.com/whatwg/html/pull/11620,2025-09-03T19:14:59Z,2026-02-11T15:56:32Z,pmeenan,,0
 3377123672,false,Define normalization of full-width numeric characters in <input type=number> user input,https://github.com/whatwg/html/pull/11616,2025-09-02T18:42:30Z,2025-10-27T17:52:16Z,kyouhei-horizumi,normative change|topic: forms|i18n-tracker|i18n-jlreq|i18n-clreq,2
 3375698830,false,Run snapshot post-layout state steps in resizeObserver loop,https://github.com/whatwg/html/pull/11613,2025-09-02T11:54:25Z,2025-11-07T12:13:57Z,lilles,topic: rendering,0
 3372661973,true,Editorial: Fix punctuation + markup,https://github.com/whatwg/html/pull/11612,2025-09-01T13:15:14Z,2025-09-02T13:47:04Z,jmdyck,,0
@@ -931,7 +933,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1755990245,true,"new changes ",https://github.com/whatwg/html/pull/9421,2023-06-14T03:35:59Z,2024-10-08T14:04:17Z,Amrit-ghale,invalid,0
 1754881399,true,"Initialize `nestedHide` variable in the ""hide a popover"" algorithm",https://github.com/whatwg/html/pull/9419,2023-06-13T13:20:06Z,2023-06-14T11:17:55Z,ghost,topic: popover,0
 1754473779,true,source modified,https://github.com/whatwg/html/pull/9418,2023-06-13T09:42:16Z,2023-06-15T13:55:09Z,arup1221,,0
-1750102943,false,Require support for AsyncContext,https://github.com/whatwg/html/pull/9408,2023-06-09T15:28:34Z,2024-04-12T15:27:25Z,Ms2ger,,0
+1750102943,true,Require support for AsyncContext,https://github.com/whatwg/html/pull/9408,2023-06-09T15:28:34Z,2026-02-11T13:50:51Z,Ms2ger,,0
 1749982433,true,Propagate fetch referrer in dynamic imports,https://github.com/whatwg/html/pull/9407,2023-06-09T14:14:59Z,2023-07-04T07:59:05Z,nicolo-ribaudo,normative change|topic: script,0
 1745979749,true,Add name attribute for grouping details elements into an exclusive accordion,https://github.com/whatwg/html/pull/9400,2023-06-07T13:59:20Z,2023-12-21T21:40:39Z,dbaron,addition/proposal|needs implementer interest,1
 1745722348,true,Null checks for img pending request,https://github.com/whatwg/html/pull/9399,2023-06-07T11:52:31Z,2023-06-09T12:15:43Z,zcorpan,,0
