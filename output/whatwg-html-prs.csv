@@ -1,14 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3928004867,false,Add Canvas writingMode and textOrientation,https://github.com/whatwg/html/pull/12153,2026-02-11T18:25:01Z,2026-02-11T18:35:30Z,schenney-chromium,topic: canvas,0
+3928004867,false,Add Canvas writingMode and textOrientation,https://github.com/whatwg/html/pull/12153,2026-02-11T18:25:01Z,2026-02-12T10:42:18Z,schenney-chromium,topic: canvas,0
 3926643128,false,AsyncContext proposal integration (part 1),https://github.com/whatwg/html/pull/12152,2026-02-11T13:44:30Z,2026-02-11T13:57:06Z,andreubotella,,0
 3924343435,false,Add controls attribute to img,https://github.com/whatwg/html/pull/12151,2026-02-11T01:59:20Z,2026-02-11T05:59:12Z,yoelhawa,addition/proposal|topic: img,0
-3920138877,false,Fix type mismatch for reflected FrozenArray<T>?,https://github.com/whatwg/html/pull/12148,2026-02-10T08:31:24Z,2026-02-10T19:41:08Z,gmvrpw,,0
+3920138877,false,Fix type mismatch for reflected FrozenArray<T>?,https://github.com/whatwg/html/pull/12148,2026-02-10T08:31:24Z,2026-02-12T12:18:06Z,gmvrpw,needs tests,0
 3918173144,true,Fix type mismatch for reflected FrozenArray<T>?,https://github.com/whatwg/html/pull/12146,2026-02-09T21:10:24Z,2026-02-09T21:37:07Z,gmvrpw,,0
-3917443610,false,Pass and use better parent/root information to (re)moving steps.,https://github.com/whatwg/html/pull/12144,2026-02-09T17:47:09Z,2026-02-10T20:03:59Z,dbaron,,0
+3917443610,true,Pass and use better parent/root information to (re)moving steps.,https://github.com/whatwg/html/pull/12144,2026-02-09T17:47:09Z,2026-02-12T12:09:40Z,dbaron,,0
 3912962747,true,Editorial: Fix some markup + wording,https://github.com/whatwg/html/pull/12143,2026-02-08T15:39:46Z,2026-02-09T21:49:27Z,jmdyck,,0
 3891566683,true,"Editorial: modernize/consistify string and ""current token"" style",https://github.com/whatwg/html/pull/12128,2026-02-03T14:31:03Z,2026-02-08T08:50:38Z,foolip,,0
-3889549162,false,Editorial: Clarify return value of Storage property accessor,https://github.com/whatwg/html/pull/12127,2026-02-03T06:56:21Z,2026-02-03T06:57:51Z,shannonbooth,,0
-3885015798,false,Pass the correct iframe fallback URL to resource timing,https://github.com/whatwg/html/pull/12124,2026-02-02T09:56:50Z,2026-02-02T10:05:06Z,noamr,,0
+3889549162,false,Editorial: Clarify return value of Storage property accessor,https://github.com/whatwg/html/pull/12127,2026-02-03T06:56:21Z,2026-02-12T12:19:52Z,shannonbooth,,0
+3885015798,false,Pass the correct iframe fallback URL to resource timing,https://github.com/whatwg/html/pull/12124,2026-02-02T09:56:50Z,2026-02-12T12:25:01Z,noamr,,0
 3877956159,false,Parse XML-style <?target data?> processing instructions,https://github.com/whatwg/html/pull/12118,2026-01-31T00:22:11Z,2026-02-10T22:26:21Z,foolip,,4
 3866756722,true,Editorial: Use the correct Module Record in HostLoadImportedModule,https://github.com/whatwg/html/pull/12114,2026-01-28T18:23:25Z,2026-01-29T12:05:08Z,nicolo-ribaudo,,2
 3847284352,true,Replace drafts.fxtf.org links with drafts.csswg.org,https://github.com/whatwg/html/pull/12105,2026-01-23T12:38:28Z,2026-01-23T12:57:48Z,nicolo-ribaudo,,0
@@ -33,7 +33,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3752981634,true,"Set creation URL of worker settings to final URL after redirect",https://github.com/whatwg/html/pull/12038,2025-12-22T09:20:36Z,2026-02-02T18:01:02Z,TimvdLippe,,0
 3739393306,false,Avoid unresolved promises in Navigation API traversal,https://github.com/whatwg/html/pull/12031,2025-12-17T15:34:23Z,2026-01-15T10:27:08Z,zcorpan,,0
 3737222223,true,Editorial: Fix wording and punctuation,https://github.com/whatwg/html/pull/12027,2025-12-17T03:51:38Z,2025-12-22T15:11:24Z,jmdyck,,1
-3736701020,false,Add document policy to the policy container,https://github.com/whatwg/html/pull/12026,2025-12-16T23:27:19Z,2026-02-04T20:56:48Z,monica-ch,,0
+3736701020,false,Add document policy to the policy container,https://github.com/whatwg/html/pull/12026,2025-12-16T23:27:19Z,2026-02-12T10:37:10Z,monica-ch,,0
 3735295434,false,Navigation API: nullify ongoing navigate event on successful cross-document navigation,https://github.com/whatwg/html/pull/12024,2025-12-16T15:31:17Z,2026-01-06T10:51:02Z,noamr,,0
 3735064449,true,"Move ""clean up API method tracker"" to the right place",https://github.com/whatwg/html/pull/12022,2025-12-16T14:35:18Z,2026-01-12T10:54:36Z,noamr,,0
 3734374547,true,Fixing button command early-bail steps,https://github.com/whatwg/html/pull/12021,2025-12-16T11:25:01Z,2026-01-09T18:52:27Z,jakearchibald,,1
@@ -119,7 +119,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3488477586,true,"Remove incorrect usages of link options destination",https://github.com/whatwg/html/pull/11757,2025-10-06T18:13:13Z,2025-10-10T08:55:03Z,TimvdLippe,,0
 3484788647,false,Add id attribute to DOM clobbering note,https://github.com/whatwg/html/pull/11754,2025-10-05T13:03:10Z,2025-10-05T13:04:41Z,adi-ray,,0
 3482998078,true,Editorial: fix typo “nulll” should be “null”,https://github.com/whatwg/html/pull/11748,2025-10-04T00:54:17Z,2025-10-04T09:59:53Z,JinDX,,0
-3478824122,false,Integrate OpaqueRange hooks into text controls (input/textarea),https://github.com/whatwg/html/pull/11741,2025-10-02T20:26:35Z,2026-02-11T00:56:29Z,stephanieyzhang,,0
+3478824122,false,Integrate OpaqueRange hooks into text controls (input/textarea),https://github.com/whatwg/html/pull/11741,2025-10-02T20:26:35Z,2026-02-12T08:14:35Z,stephanieyzhang,,0
 3475400447,true,Improve optgroup's list of option elements,https://github.com/whatwg/html/pull/11738,2025-10-01T22:44:46Z,2025-10-17T05:18:57Z,josepharhar,,0
 3475240578,true,Remove optgroup element removal and moving steps,https://github.com/whatwg/html/pull/11737,2025-10-01T21:44:43Z,2025-10-07T12:56:02Z,josepharhar,,0
 3473184206,false,[Not for review yet] Add CanvasToneMapping to CanvasSettings,https://github.com/whatwg/html/pull/11734,2025-10-01T11:35:30Z,2025-10-01T11:37:04Z,ccameron-chromium,,0
@@ -156,7 +156,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3403940616,false,Add lightning to the safelisted schemes list,https://github.com/whatwg/html/pull/11649,2025-09-10T21:05:12Z,2025-09-11T02:31:27Z,asoltys,addition/proposal|needs implementer interest|topic: custom protocols,0
 3400996058,true,Meta: note requested permanent anchors in the source,https://github.com/whatwg/html/pull/11647,2025-09-10T05:37:45Z,2025-09-18T08:25:21Z,domenic,,0
 3397194555,true,Account for User-Agent not starting with Mozilla/ in appVersion getter,https://github.com/whatwg/html/pull/11642,2025-09-09T08:12:47Z,2025-09-10T05:17:39Z,annevk,,0
-3395519394,false,Source reformatting: switch to no line-breaking,https://github.com/whatwg/html/pull/11640,2025-09-08T20:01:36Z,2025-11-26T12:27:07Z,zcorpan,spec tooling,0
+3395519394,false,Source reformatting: switch to no line-breaking,https://github.com/whatwg/html/pull/11640,2025-09-08T20:01:36Z,2026-02-12T10:13:47Z,zcorpan,spec tooling,0
 3394917792,true,Remove improper dialog assert,https://github.com/whatwg/html/pull/11638,2025-09-08T16:40:21Z,2025-09-09T02:14:11Z,keithamus,topic: dialog|topic: close watchers,0
 3394359716,true,Create likhitha-contribution.txt,https://github.com/whatwg/html/pull/11636,2025-09-08T13:59:47Z,2025-09-08T14:08:05Z,likhy1922-likhitha,invalid,0
 3392497021,true,Editorial: make serialize/parse roundtrip examples linkable,https://github.com/whatwg/html/pull/11635,2025-09-08T04:02:30Z,2025-09-08T13:45:49Z,domenic,topic: parser,0
