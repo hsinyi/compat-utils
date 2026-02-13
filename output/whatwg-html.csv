@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3934233707,true,09908077062,https://github.com/whatwg/html/issues/12159,2026-02-12T21:58:53Z,2026-02-12T23:04:31Z,mjydkwchkhy89-netizen,invalid,1
+3935920337,false,Exclude whitespace-only src attributes from fetching resources,https://github.com/whatwg/html/issues/12160,2026-02-13T08:09:33Z,2026-02-13T08:26:38Z,hsivonen,topic: fetch|needs tests|needs concrete proposal,0
 3932677519,false,Popover light dismiss pointerup behaviour is too aggressive,https://github.com/whatwg/html/issues/12157,2026-02-12T16:12:02Z,2026-02-12T16:12:02Z,IanRichter,,0
 3930750339,false,Interop: focusability of `dialog[popover]`,https://github.com/whatwg/html/issues/12156,2026-02-12T09:23:09Z,2026-02-12T09:24:24Z,jpzwarte,topic: dialog|topic: popover,0
 3930439514,false,Determining dropEffect based on effectAllowed + modifier keys,https://github.com/whatwg/html/issues/12155,2026-02-12T08:13:21Z,2026-02-12T10:39:04Z,tanu18,,0
@@ -12,9 +12,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3900871470,false,"Interoperability of ""scroll to fragment"" timing",https://github.com/whatwg/html/issues/12138,2026-02-05T10:36:47Z,2026-02-09T15:00:26Z,emilio,,0
 3898478965,true,Upcoming WHATNOT meeting on 02-05-2026,https://github.com/whatwg/html/issues/12134,2026-02-04T21:23:50Z,2026-02-10T13:50:59Z,cwilso,,0
 3897646532,false,Unclear rounding rules for input time/datetime `valueAsNumber`,https://github.com/whatwg/html/issues/12133,2026-02-04T17:35:35Z,2026-02-04T17:35:35Z,ltenmoz,,0
-3896943734,false,Simplify inset styles for dialog,https://github.com/whatwg/html/issues/12132,2026-02-04T14:52:26Z,2026-02-12T14:40:45Z,Loirooriol,,0
+3896943734,false,Simplify inset styles for dialog,https://github.com/whatwg/html/issues/12132,2026-02-04T14:52:26Z,2026-02-13T11:08:06Z,Loirooriol,,0
 3896072008,false,What's about accessible semantics of a popover?,https://github.com/whatwg/html/issues/12131,2026-02-04T11:31:25Z,2026-02-12T21:09:57Z,kantoche,,0
-3893439462,false,No explicit API for closing a select's picker,https://github.com/whatwg/html/issues/12130,2026-02-03T22:00:12Z,2026-02-12T21:17:01Z,josepharhar,addition/proposal|needs implementer interest,2
+3893439462,false,No explicit API for closing a select's picker,https://github.com/whatwg/html/issues/12130,2026-02-03T22:00:12Z,2026-02-13T07:46:02Z,josepharhar,addition/proposal|needs implementer interest|topic: forms|topic: select,2
 3891825072,false,Row headers should apply to all cells in the row,https://github.com/whatwg/html/issues/12129,2026-02-03T15:26:21Z,2026-02-08T08:29:06Z,joelamyman,,0
 3889308242,false,The condition for user activation notification is ambiguous,https://github.com/whatwg/html/issues/12126,2026-02-03T05:56:25Z,2026-02-03T15:28:45Z,stevennovaryo,,0
 3888559108,false,"Editorial anomaly re ""blocked by a modal dialog""",https://github.com/whatwg/html/issues/12125,2026-02-03T02:02:53Z,2026-02-03T02:02:53Z,jmdyck,,0
@@ -113,7 +113,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3648131740,false,Please qualify your various comments on paragraphs,https://github.com/whatwg/html/issues/11934,2025-11-20T16:46:13Z,2025-11-21T18:34:21Z,mbgower,accessibility,0
 3643528484,false,External resources don't have a fallback mechanism,https://github.com/whatwg/html/issues/11928,2025-11-19T16:32:01Z,2025-11-20T09:27:43Z,romainmenke,addition/proposal|needs implementer interest,0
 3640692765,false,Proposal: Declarative dependent form controls (conditional inputs without scripting),https://github.com/whatwg/html/issues/11925,2025-11-19T01:54:18Z,2025-11-19T01:56:03Z,ghost,,0
-3639749233,false,Why does the disabled algorithm in option stop on certain elements,https://github.com/whatwg/html/issues/11924,2025-11-18T19:31:35Z,2026-02-12T19:50:32Z,dSalieri,topic: select,0
+3639749233,false,Why does the disabled algorithm in option stop on certain elements,https://github.com/whatwg/html/issues/11924,2025-11-18T19:31:35Z,2026-02-13T04:20:43Z,dSalieri,topic: select,0
 3638860230,true,External resources don't have a fallback mechanism,https://github.com/whatwg/html/issues/11923,2025-11-18T15:52:01Z,2025-11-19T16:32:16Z,romainmenke,,0
 3635542205,false,Native Footnote/Endnote Element in HTML,https://github.com/whatwg/html/issues/11921,2025-11-18T00:10:55Z,2026-02-05T13:55:38Z,xfq,addition/proposal|needs implementer interest|i18n-tracker,8
 3632147659,false,Extending `details[name]` grouping to handle sets that expand and collapse together,https://github.com/whatwg/html/issues/11920,2025-11-17T07:52:32Z,2025-11-18T00:25:20Z,nektro,addition/proposal|needs implementer interest,2
@@ -320,7 +320,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3279050822,true,The <ol> type attribute doesn't clearly explain invalid/missing value defaults,https://github.com/whatwg/html/issues/11513,2025-07-31T04:01:28Z,2025-07-31T05:20:13Z,rahimabdi,,0
 3278131431,false,"Reword definition of [CEReactions] to not use ""we introduce""",https://github.com/whatwg/html/issues/11511,2025-07-30T18:51:03Z,2025-07-30T18:53:29Z,lukewarlow,editorial,1
 3278049049,false,Browsers disagree on whether/how CSS `:active` selector works on <area> elements.,https://github.com/whatwg/html/issues/11509,2025-07-30T18:16:38Z,2025-10-09T11:06:03Z,Psychpsyo,interop|topic: selectors,0
-3276560620,false,<area> element should responsively scale with its image(s),https://github.com/whatwg/html/issues/11507,2025-07-30T10:50:42Z,2026-02-12T14:36:00Z,Psychpsyo,needs implementer interest,0
+3276560620,false,<area> element should responsively scale with its image(s),https://github.com/whatwg/html/issues/11507,2025-07-30T10:50:42Z,2026-02-13T11:06:43Z,Psychpsyo,needs implementer interest,0
 3276371329,true,Upcoming WHATNOT meeting on 2025-07-31,https://github.com/whatwg/html/issues/11506,2025-07-30T09:44:34Z,2025-12-04T21:35:26Z,cwilso,,0
 3276361965,false,Focusing of dead <area>s is wonky and non-compliant in browsers.,https://github.com/whatwg/html/issues/11505,2025-07-30T09:41:17Z,2025-10-13T12:13:22Z,Psychpsyo,needs tests|topic: focus,0
 3273217528,false,New maxlength attribute for form inputs,https://github.com/whatwg/html/issues/11502,2025-07-29T11:15:06Z,2025-07-30T03:34:52Z,darvi-sh,addition/proposal|needs implementer interest|topic: forms,3
@@ -645,7 +645,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2765141727,true,Wrong link on `:target` css pseudo-class,https://github.com/whatwg/html/issues/10889,2025-01-01T16:00:37Z,2025-01-06T16:24:06Z,skyclouds2001,,0
 2762041321,false,ARIA and Accessibility API in HTML specification,https://github.com/whatwg/html/issues/10885,2024-12-28T23:45:58Z,2024-12-28T23:45:58Z,dSalieri,,0
 2760982461,false,Canvas text direction getter not interoperable,https://github.com/whatwg/html/issues/10884,2024-12-27T15:01:10Z,2025-02-01T16:50:38Z,schenney-chromium,topic: canvas,1
-2754605091,false,valueAsTemporal: date/time input integration with JavaScript Temporal API,https://github.com/whatwg/html/issues/10882,2024-12-22T11:10:04Z,2025-01-16T19:17:03Z,o-t-w,addition/proposal|needs implementer interest|topic: forms,11
+2754605091,false,valueAsTemporal: date/time input integration with JavaScript Temporal API,https://github.com/whatwg/html/issues/10882,2024-12-22T11:10:04Z,2025-01-16T19:17:03Z,o-t-w,addition/proposal|needs implementer interest|topic: forms,12
 2752376493,false,Audit and fix innerHTML scripting disabled parsing behavior for template,https://github.com/whatwg/html/issues/10879,2024-12-20T09:59:00Z,2025-11-14T05:59:45Z,hsivonen,topic: parser|interop,0
 2751257695,true,Upcoming WHATNOT meeting on 2025-01-09,https://github.com/whatwg/html/issues/10878,2024-12-19T19:32:37Z,2025-12-04T21:36:37Z,past,,0
 2751142397,true,Meeting 14 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10877,2024-12-19T18:21:56Z,2025-12-04T21:36:36Z,josepharhar,,0
@@ -938,7 +938,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2327513339,false,[Proposal] capture screen,https://github.com/whatwg/html/issues/10382,2024-05-31T10:35:41Z,2024-09-14T09:51:01Z,hemanth,addition/proposal|needs implementer interest,2
 2326705799,true,Upcoming WHATNOT meeting on 6/6/2024,https://github.com/whatwg/html/issues/10381,2024-05-30T23:34:22Z,2024-06-06T17:00:23Z,past,agenda+,0
 2324176691,false,HTML Video and its Source Elements Should Support SRCSET and SIZES,https://github.com/whatwg/html/issues/10379,2024-05-29T20:16:56Z,2024-08-14T12:07:18Z,scottjehl,addition/proposal|needs implementer interest|topic: media,15
-2324127724,false,HTML Video: Allow a child Picture Element to Control the Video Poster Image,https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2025-11-20T12:49:18Z,scottjehl,addition/proposal|needs implementer interest|topic: media,23
+2324127724,false,HTML Video: Allow a child Picture Element to Control the Video Poster Image,https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2025-11-20T12:49:18Z,scottjehl,addition/proposal|needs implementer interest|topic: media,24
 2324097406,false,"Specify That Responsive Video Elements Re-Evaluate Sources on Media Change, Like Picture",https://github.com/whatwg/html/issues/10377,2024-05-29T19:33:05Z,2025-11-20T12:55:12Z,scottjehl,addition/proposal|needs implementer interest|topic: media,9
 2324056660,false,Video and Audio Element loading=lazy attribute support,https://github.com/whatwg/html/issues/10376,2024-05-29T19:09:50Z,2026-01-28T18:21:54Z,scottjehl,addition/proposal|needs implementer interest|topic: media,31
 2322953911,true,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-10-08T12:22:36Z,yoavweiss,addition/proposal|needs implementer interest|topic: cross-origin-opener-policy,0
