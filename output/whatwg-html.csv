@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+3940575135,false,`Link` (or other) HTTP header to link to external import map?,https://github.com/whatwg/html/issues/12164,2026-02-14T06:11:30Z,2026-02-14T06:11:30Z,LeaVerou,addition/proposal|needs implementer interest|topic: imports/exports,1
+3940513794,false,`specifier:` URL protocol for retrofitting specifiers in places designed for URLs,https://github.com/whatwg/html/issues/12163,2026-02-14T05:32:32Z,2026-02-14T06:13:33Z,LeaVerou,addition/proposal|needs implementer interest|topic: imports/exports,0
 3938865566,false,The `translatable-data-*` attribute,https://github.com/whatwg/html/issues/12162,2026-02-13T19:47:19Z,2026-02-13T21:05:12Z,mfreed7,,0
 3935920337,false,Exclude whitespace-only src attributes from fetching resources,https://github.com/whatwg/html/issues/12160,2026-02-13T08:09:33Z,2026-02-13T08:26:38Z,hsivonen,topic: fetch|needs tests|needs concrete proposal,0
 3932677519,false,Popover light dismiss pointerup behaviour is too aggressive,https://github.com/whatwg/html/issues/12157,2026-02-12T16:12:02Z,2026-02-12T16:12:02Z,IanRichter,,0
@@ -79,7 +81,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3719772218,true,"`createContextualFragment`: implementations preload images, spec doesn't.",https://github.com/whatwg/html/issues/12010,2025-12-11T15:02:01Z,2026-01-08T15:20:06Z,noamr,topic: parser|needs compat analysis,0
 3719140084,false,Proposal: Unified Low-Resource Execution Path for Chromium (Comparison Insight from WebKit Behavior),https://github.com/whatwg/html/issues/12009,2025-12-11T12:12:56Z,2025-12-11T12:12:56Z,Erfan-Mohebali,,0
 3715403513,true,What Does It Mean to Use tabindex=-1 on a type=radio Input Element?,https://github.com/whatwg/html/issues/12007,2025-12-10T14:19:17Z,2026-02-09T15:07:23Z,sb3nder,,0
-3714784457,false,Deep copy of the newImportMap during merge import maps is redudant,https://github.com/whatwg/html/issues/12006,2025-12-10T11:25:58Z,2025-12-10T11:25:58Z,allstarschh,,0
+3714784457,false,Deep copy of the newImportMap during merge import maps is redudant,https://github.com/whatwg/html/issues/12006,2025-12-10T11:25:58Z,2026-02-14T05:18:10Z,allstarschh,topic: imports/exports,0
 3712001335,false,export some definitions for css-navigation-1,https://github.com/whatwg/html/issues/12003,2025-12-09T17:43:57Z,2025-12-09T17:43:57Z,dbaron,,0
 3710131321,true,Offscreencanvas markup mistakes for links.,https://github.com/whatwg/html/issues/12001,2025-12-09T10:04:20Z,2025-12-09T11:43:11Z,karlcow,,0
 3700472762,false,Deprecate JSON as `preload` destination in favor of `modulepreload`,https://github.com/whatwg/html/issues/11995,2025-12-05T22:03:31Z,2025-12-11T17:55:15Z,KurtCattiSchmidt,,0
@@ -118,7 +120,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3638860230,true,External resources don't have a fallback mechanism,https://github.com/whatwg/html/issues/11923,2025-11-18T15:52:01Z,2025-11-19T16:32:16Z,romainmenke,,0
 3635542205,false,Native Footnote/Endnote Element in HTML,https://github.com/whatwg/html/issues/11921,2025-11-18T00:10:55Z,2026-02-05T13:55:38Z,xfq,addition/proposal|needs implementer interest|i18n-tracker,8
 3632147659,false,Extending `details[name]` grouping to handle sets that expand and collapse together,https://github.com/whatwg/html/issues/11920,2025-11-17T07:52:32Z,2025-11-18T00:25:20Z,nektro,addition/proposal|needs implementer interest,2
-3631215200,false,[import maps] Ability to re-write more dynamically (globs?),https://github.com/whatwg/html/issues/11919,2025-11-16T22:32:07Z,2025-11-16T22:35:13Z,trusktr,,1
+3631215200,false,[import maps] Ability to re-write more dynamically (globs?),https://github.com/whatwg/html/issues/11919,2025-11-16T22:32:07Z,2026-02-14T05:18:10Z,trusktr,topic: imports/exports,1
 3630571148,false,"The note in ""upgrade an element"" for step 9.3 seems meaningless",https://github.com/whatwg/html/issues/11918,2025-11-16T13:40:55Z,2025-11-16T13:40:55Z,dSalieri,,0
 3624592567,false,"Generalize custom element upgrade concept by allowing `customElements.define(name, Subclass)`",https://github.com/whatwg/html/issues/11914,2025-11-14T08:39:39Z,2025-12-21T14:38:57Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,0
 3623633272,false,Transfer steps for OffscreenCanvas arent realm independent,https://github.com/whatwg/html/issues/11912,2025-11-14T02:36:54Z,2025-11-19T15:28:29Z,me-it-is,topic: canvas|topic: serialize and transfer,0
@@ -140,7 +142,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3586274407,false,<seletedcontent> behavior in disconnected <select>,https://github.com/whatwg/html/issues/11882,2025-11-04T12:02:01Z,2026-01-15T21:34:03Z,annevk,needs tests|topic: select,0
 3586008179,false,Clearing non-primary selectedcontent elements is broken,https://github.com/whatwg/html/issues/11880,2025-11-04T10:54:22Z,2026-01-02T22:39:33Z,annevk,topic: select,0
 3585215086,false,leftmargin and topmargin attributes should apply to both sides,https://github.com/whatwg/html/issues/11879,2025-11-04T08:07:50Z,2025-11-04T08:07:50Z,zcorpan,compat|topic: rendering,0
-3583278699,false,"Incorrect ""starts with"" order of newImportMapImports' specifier and resolved module set's specifier in ` merge existing and new import maps`",https://github.com/whatwg/html/issues/11875,2025-11-03T18:41:20Z,2025-11-08T08:30:00Z,allstarschh,,0
+3583278699,false,"Incorrect ""starts with"" order of newImportMapImports' specifier and resolved module set's specifier in ` merge existing and new import maps`",https://github.com/whatwg/html/issues/11875,2025-11-03T18:41:20Z,2026-02-14T05:18:09Z,allstarschh,topic: imports/exports,0
 3583136831,false,Support for disabling scripts from WebDriver BiDi,https://github.com/whatwg/html/issues/11874,2025-11-03T17:57:26Z,2025-12-11T14:03:30Z,juliandescottes,topic: script|integration,0
 3582963080,false,Focus chain algorithm and firing focus events,https://github.com/whatwg/html/issues/11873,2025-11-03T17:05:59Z,2025-11-04T23:00:14Z,dSalieri,,0
 3581976852,false,Unitialized document in #focus-update-steps,https://github.com/whatwg/html/issues/11872,2025-11-03T13:02:48Z,2026-02-01T13:04:48Z,farre,topic: navigation,1
@@ -175,7 +177,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3550316064,false,Option selectedness when all children are removed from select,https://github.com/whatwg/html/issues/11825,2025-10-24T17:10:35Z,2026-02-05T18:30:40Z,josepharhar,topic: select,0
 3546163704,true,Meeting 31 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11824,2025-10-23T19:04:55Z,2025-11-05T20:04:43Z,mfreed7,,0
 3541685968,true,Upcoming WHATNOT meeting on 2025-10-23,https://github.com/whatwg/html/issues/11821,2025-10-22T17:19:17Z,2025-10-24T21:06:01Z,cwilso,,0
-3541597104,false,Re-importing a module with an invalid dependency specifier,https://github.com/whatwg/html/issues/11820,2025-10-22T16:47:29Z,2025-10-24T15:22:28Z,nicolo-ribaudo,topic: script,0
+3541597104,false,Re-importing a module with an invalid dependency specifier,https://github.com/whatwg/html/issues/11820,2025-10-22T16:47:29Z,2026-02-14T05:18:09Z,nicolo-ribaudo,topic: script|topic: imports/exports,0
 3541502820,false,Allow deferring commit of a same-origin cross-document navigation,https://github.com/whatwg/html/issues/11819,2025-10-22T16:14:16Z,2025-12-12T11:22:15Z,noamr,addition/proposal|topic: navigation|stage: 1,0
 3537533487,true,Navigation API: Remove `ongoing API method tracker` or set it again,https://github.com/whatwg/html/issues/11816,2025-10-21T17:34:41Z,2025-10-22T12:22:53Z,jnjaeschke,,0
 3536147571,false,No implementation calls #resume-applying-the-traverse-history-step entirely async,https://github.com/whatwg/html/issues/11814,2025-10-21T11:38:26Z,2026-02-09T13:54:55Z,farre,compat|topic: navigation,0
@@ -480,7 +482,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2989087091,true,History's `scrollRestoration` steps refer to undefined node navigable,https://github.com/whatwg/html/issues/11209,2025-04-11T16:04:51Z,2025-04-15T01:15:37Z,AtkinsSJ,topic: history,0
 2984587079,true,createImageData() and getImageData() regressed,https://github.com/whatwg/html/issues/11206,2025-04-10T06:21:24Z,2025-04-10T09:44:25Z,annevk,topic: canvas,0
 2984421467,false,"Discuss out-of-memory etc. agent cluster killing, especially for shared workers?",https://github.com/whatwg/html/issues/11205,2025-04-10T04:33:30Z,2025-08-01T05:42:55Z,domenic,topic: workers|topic: agent,0
-2984245479,false,Allow importing and exporting from inline module scripts,https://github.com/whatwg/html/issues/11202,2025-04-10T01:50:17Z,2025-11-30T00:31:13Z,justinfagnani,addition/proposal|needs implementer interest,18
+2984245479,false,Allow importing and exporting from inline module scripts,https://github.com/whatwg/html/issues/11202,2025-04-10T01:50:17Z,2026-02-14T05:18:08Z,justinfagnani,addition/proposal|needs implementer interest|topic: imports/exports,18
 2983067079,false,Some properties should probably inherit to the anonymous button content box (button layout),https://github.com/whatwg/html/issues/11200,2025-04-09T14:46:41Z,2025-04-09T14:46:41Z,zcorpan,topic: rendering,0
 2982879443,true,"Shared history push/replace state steps access ""associated Document"" of history",https://github.com/whatwg/html/issues/11199,2025-04-09T13:43:24Z,2025-04-10T08:42:46Z,zcorpan,topic: history,0
 2982818865,true,#inner-navigate-event-firing-algorithm uses #fully-active on #concept-relevant-global,https://github.com/whatwg/html/issues/11198,2025-04-09T13:22:43Z,2025-04-10T08:42:58Z,farre,topic: navigation,0
@@ -594,7 +596,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2837242514,true,"Hint popovers can't be the ""topmost open popover ancestor"" of dialog elements",https://github.com/whatwg/html/issues/11008,2025-02-07T05:01:29Z,2025-06-18T01:06:30Z,Gingeh,topic: dialog|topic: popover,2
 2836822957,false,"Should the popoverList in ""hide popover stack until"" and ""close entire popover list"" be dynamically updated?",https://github.com/whatwg/html/issues/11007,2025-02-06T23:16:31Z,2025-02-21T15:31:18Z,Gingeh,topic: popover,1
 2834192046,false,ARIA notify iframe restrictions,https://github.com/whatwg/html/issues/11004,2025-02-05T23:50:07Z,2025-04-15T18:34:12Z,aluhrs13,addition/proposal|needs implementer interest,1
-2833494241,true,Web Workers importmap field,https://github.com/whatwg/html/issues/11002,2025-02-05T17:03:07Z,2025-02-06T06:21:49Z,WebReflection,,4
+2833494241,true,Web Workers importmap field,https://github.com/whatwg/html/issues/11002,2025-02-05T17:03:07Z,2026-02-14T05:18:08Z,WebReflection,topic: imports/exports,4
 2833216763,true,tuple in #concept-origin-tuple should link to https://infra.spec.whatwg.org/#tuple,https://github.com/whatwg/html/issues/10999,2025-02-05T15:08:43Z,2025-02-06T01:25:34Z,farre,,0
 2833183975,true,Clarification of #obtain-similar-origin-window-agent,https://github.com/whatwg/html/issues/10998,2025-02-05T14:56:03Z,2025-02-26T04:19:18Z,farre,clarification|topic: origin,0
 2831961444,false,A new API for work during unload,https://github.com/whatwg/html/issues/10997,2025-02-05T05:42:14Z,2026-02-02T01:37:58Z,domenic,addition/proposal|needs implementer interest,2
@@ -678,7 +680,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2724784236,false,Add additional class based and data attribute based commands for Invoker API,https://github.com/whatwg/html/issues/10836,2024-12-07T19:34:07Z,2024-12-16T19:21:11Z,ggedde,addition/proposal|needs implementer interest,0
 2724585372,true,Add an `<h>` element to replace `<h1-n>`.,https://github.com/whatwg/html/issues/10835,2024-12-07T13:04:42Z,2025-06-11T14:15:32Z,RokeJulianLockhart,addition/proposal|needs implementer interest,1
 2724547102,true,"Calling replaceState before pushState messes up with the state, so when I go back, it does go back, but it should not",https://github.com/whatwg/html/issues/10834,2024-12-07T11:24:48Z,2024-12-08T03:27:40Z,Nedimko123,,0
-2724509105,true,"Invalid reference to ""oldModuleMap"" and ""specifier"" in ""merge existing and new import maps""",https://github.com/whatwg/html/issues/10833,2024-12-07T09:40:47Z,2024-12-09T07:05:50Z,shannonbooth,topic: script,0
+2724509105,true,"Invalid reference to ""oldModuleMap"" and ""specifier"" in ""merge existing and new import maps""",https://github.com/whatwg/html/issues/10833,2024-12-07T09:40:47Z,2026-02-14T05:18:07Z,shannonbooth,topic: script|topic: imports/exports,0
 2722602163,false,Lift restriction on buttons with implicit `type=submit` and `command`/`commandfor` being no-op,https://github.com/whatwg/html/issues/10832,2024-12-06T10:07:50Z,2025-04-07T14:03:26Z,keithamus,addition/proposal|needs implementer interest|topic: forms,0
 2722500950,false,Detect UA transitions on same-origin cross-document navigations,https://github.com/whatwg/html/issues/10831,2024-12-06T09:18:01Z,2025-10-22T08:57:07Z,bramus,addition/proposal|needs implementer interest,3
 2721993883,true,Iframe insertion steps violate rules for what insertion steps are allowed to do,https://github.com/whatwg/html/issues/10828,2024-12-06T03:59:51Z,2024-12-12T03:38:48Z,jdm,integration,0
@@ -771,7 +773,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2025-06-12T00:09:23Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,true,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-11-15T04:41:04Z,tabatkins,integration|topic: popover,0
-2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2026-01-27T16:47:42Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1,2
+2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2026-02-14T05:18:31Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow|topic: script|stage: 1|topic: imports/exports,2
 2564519849,true,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2025-12-11T15:01:38Z,emilio,topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2562416768,true,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-12T00:18:10Z,past,agenda+,0
@@ -1147,7 +1149,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2061045240,false,[forms] <select> element clip is not specified and not interoperable,https://github.com/whatwg/html/issues/10031,2023-12-31T12:30:30Z,2024-01-09T10:40:18Z,emilio,topic: rendering|topic: forms,0
 2060823093,true,Is HTML stagnated?,https://github.com/whatwg/html/issues/10030,2023-12-30T18:35:10Z,2024-01-03T09:41:56Z,alejsanc,,0
 2058728900,false,Should `:target` match after elements are removed and reattached to the document?,https://github.com/whatwg/html/issues/10029,2023-12-28T18:49:59Z,2024-01-05T04:27:08Z,josepharhar,,0
-2058361883,true,Minor error in import map example?,https://github.com/whatwg/html/issues/10028,2023-12-28T12:08:54Z,2024-01-12T04:00:00Z,farsightsoftware,good first issue|topic: script,0
+2058361883,true,Minor error in import map example?,https://github.com/whatwg/html/issues/10028,2023-12-28T12:08:54Z,2026-02-14T05:20:51Z,farsightsoftware,good first issue|topic: script|topic: imports/exports,0
 2057058225,false,Detached OffscreenCanvas is underspecified,https://github.com/whatwg/html/issues/10026,2023-12-27T08:13:45Z,2024-01-03T01:51:15Z,Kaiido,topic: canvas|interop,0
 2057035269,true,[forms] Range input shouldn't clip its contents to the border box,https://github.com/whatwg/html/issues/10024,2023-12-27T07:48:22Z,2024-01-12T15:22:54Z,emilio,topic: rendering|topic: forms,0
 2056889101,false,[CEReactions] and IDL attribute,https://github.com/whatwg/html/issues/10023,2023-12-27T04:10:27Z,2023-12-27T04:10:47Z,dSalieri,,0
@@ -1255,7 +1257,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1913245177,false,Add `autopause` attribute to media elements to allow automatic pausing of media,https://github.com/whatwg/html/issues/9793,2023-09-26T10:54:58Z,2023-10-12T14:21:04Z,keithamus,needs implementer interest|topic: media,11
 1909491215,true,popover=hint,https://github.com/whatwg/html/issues/9776,2023-09-22T20:36:33Z,2025-01-10T16:10:07Z,josepharhar,topic: popover,4
 1909406598,true,Navigation: inner navigate firing algorithm does not say what to do if invoking NavigationInterceptHandler throws,https://github.com/whatwg/html/issues/9774,2023-09-22T19:17:05Z,2023-09-26T03:55:04Z,ADKaster,clarification|topic: navigation,0
-1909396065,false,Attribute index for script's type attribute was not updated for import maps,https://github.com/whatwg/html/issues/9773,2023-09-22T19:07:37Z,2023-10-01T13:48:56Z,domenic,clarification|topic: script,0
+1909396065,false,Attribute index for script's type attribute was not updated for import maps,https://github.com/whatwg/html/issues/9773,2023-09-22T19:07:37Z,2026-02-14T05:20:50Z,domenic,clarification|topic: script|topic: imports/exports,0
 1907577267,false,popover: should audio/video in a popover keep playing after popover is dismissed?,https://github.com/whatwg/html/issues/9770,2023-09-21T18:51:42Z,2023-10-05T08:32:10Z,xiaochengh,clarification|topic: popover,0
 1907562012,false,Rowgroup headers should go into headers list directly after step 3 (assignment of row headers),https://github.com/whatwg/html/issues/9769,2023-09-21T18:43:22Z,2023-10-01T13:51:32Z,jameslpetersen,topic: table,0
 1906566239,true,Proposal : Spoiler content semantics,https://github.com/whatwg/html/issues/9768,2023-09-21T09:48:00Z,2023-09-21T11:05:07Z,medeaoblongata,,0
@@ -1441,7 +1443,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1708344988,false,Clarify natural dimensions of HAVE_METADATA video element with no frame available,https://github.com/whatwg/html/issues/9279,2023-05-12T23:49:10Z,2023-09-16T10:55:49Z,karlt,topic: media|interop,0
 1708075642,false,Keep sharedWorker alive durning reload / next-page,https://github.com/whatwg/html/issues/9278,2023-05-12T19:02:47Z,2025-12-09T14:55:28Z,jimmywarting,topic: workers|needs tests,1
 1706694082,false,Normalize COOP inheritance with policy container,https://github.com/whatwg/html/issues/9277,2023-05-11T23:23:49Z,2023-05-11T23:23:49Z,domfarolino,topic: cross-origin-opener-policy|topic: policy container,0
-1705526325,true,"Import maps cannot be used with HTTP Link rel=modulepreload ",https://github.com/whatwg/html/issues/9274,2023-05-11T10:25:29Z,2025-06-11T04:31:15Z,allstarschh,topic: resource hints (inc. preload),2
+1705526325,true,"Import maps cannot be used with HTTP Link rel=modulepreload ",https://github.com/whatwg/html/issues/9274,2023-05-11T10:25:29Z,2026-02-14T05:18:07Z,allstarschh,topic: resource hints (inc. preload)|topic: imports/exports,2
 1703854743,true,Are interfaces inheriting from `[Seralizable]`/`[Transferable]` interfaces required to have their own steps?,https://github.com/whatwg/html/issues/9269,2023-05-10T12:47:44Z,2024-12-14T06:30:00Z,saschanaz,topic: serialize and transfer,0
 1700748479,true,"Redundant call to ""nearest inclusive open popover"" algorithm?",https://github.com/whatwg/html/issues/9263,2023-05-08T18:50:34Z,2025-07-23T22:21:22Z,nt1m,topic: popover,0
 1696364615,true,Upcoming HTML standard issue triage meeting on 5/18/2023,https://github.com/whatwg/html/issues/9254,2023-05-04T16:57:23Z,2023-05-18T17:03:04Z,past,agenda+,0
@@ -1591,7 +1593,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1583241797,false,Expand `:open`/`:closed` state to more elements,https://github.com/whatwg/html/issues/8884,2023-02-13T23:44:31Z,2023-02-16T06:23:20Z,nt1m,topic: selectors,0
 1582395799,true,Named access on the Window object: `names` is used before it is defined.,https://github.com/whatwg/html/issues/8881,2023-02-13T13:55:15Z,2023-03-24T08:05:03Z,pygy,,0
 1581414494,true,"`{Dedicated,Shared}WorkerGlobalScope` instances should be immutable prototype exotic objects",https://github.com/whatwg/html/issues/8879,2023-02-12T21:23:21Z,2023-02-13T00:55:03Z,andreubotella,topic: workers,0
-1581227363,true,"Feature request: `import(url, {importmap: {...}})`",https://github.com/whatwg/html/issues/8877,2023-02-12T11:47:16Z,2023-02-15T06:48:35Z,szmarczak,,1
+1581227363,true,"Feature request: `import(url, {importmap: {...}})`",https://github.com/whatwg/html/issues/8877,2023-02-12T11:47:16Z,2026-02-14T05:20:50Z,szmarczak,topic: imports/exports,1
 1580485988,false,Non-typical slot uses,https://github.com/whatwg/html/issues/8876,2023-02-10T23:34:17Z,2023-12-12T05:42:51Z,szmarczak,clarification|topic: shadow,0
 1580163957,true,Proposal: Add a `resizeend` event to the Window,https://github.com/whatwg/html/issues/8874,2023-02-10T18:50:00Z,2023-03-01T13:54:29Z,thegreatercurve,,2
 1578330560,true,Upcoming HTML standard issue triage meeting on 2/23/2023,https://github.com/whatwg/html/issues/8873,2023-02-09T17:43:46Z,2023-02-23T23:50:07Z,past,agenda+,0
@@ -1763,7 +1765,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2026-01-28T23:27:10Z,ian97531,addition/proposal|needs implementer interest|topic: workers,18
 1399126032,false,How do shadow roots and slots interact with the content model?,https://github.com/whatwg/html/issues/8361,2022-10-06T08:47:59Z,2022-10-07T10:52:20Z,castholm,,0
 1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,103
-1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2022-10-06T15:43:39Z,annevk,addition/proposal|topic: script,5
+1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2026-02-14T05:20:49Z,annevk,addition/proposal|topic: script|topic: imports/exports,5
 1396727910,false,"Which type of replaced elements should a ""`<img>` with empty src or without src"" be treated",https://github.com/whatwg/html/issues/8354,2022-10-04T19:11:52Z,2022-10-14T18:58:36Z,cathiechen,topic: rendering|topic: img,0
 1396199556,true,Consistify spelling of realm,https://github.com/whatwg/html/issues/8353,2022-10-04T12:32:09Z,2022-10-06T07:14:58Z,annevk,clarification,0
 1393739571,true,"Typo in section ""4.8.13 The area element""",https://github.com/whatwg/html/issues/8346,2022-10-02T11:55:31Z,2022-10-06T07:32:09Z,chalkygames123,good first issue,0
@@ -1833,7 +1835,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1336100700,false,Consider adding auto-sizing for <select> as a listbox,https://github.com/whatwg/html/issues/8183,2022-08-11T15:07:22Z,2022-09-30T12:42:39Z,zcorpan,addition/proposal|topic: rendering|topic: forms,0
 1335409877,false,"HTMLSlotElement's assign method should ""assign slottables for a tree"" for slots in other shadow roots",https://github.com/whatwg/html/issues/8179,2022-08-11T02:58:29Z,2022-08-29T10:51:17Z,rniwa,topic: shadow,1
 1335292987,false,The missing property values of width/height attributes on source elements,https://github.com/whatwg/html/issues/8178,2022-08-10T23:02:23Z,2023-09-20T10:03:26Z,BorisChiou,topic: rendering|topic: img,0
-1332143254,true,Supporting import maps in worker environments,https://github.com/whatwg/html/issues/8173,2022-08-08T16:58:40Z,2022-08-09T00:16:01Z,guybedford,,0
+1332143254,false,Supporting import maps in worker environments,https://github.com/whatwg/html/issues/8173,2022-08-08T16:58:40Z,2026-02-14T06:32:55Z,guybedford,topic: imports/exports,0
 1330070447,true,Upcoming HTML standard issue triage meeting on 8/18/2022 (new time!),https://github.com/whatwg/html/issues/8162,2022-08-05T15:19:03Z,2022-08-19T00:21:57Z,past,agenda+,0
 1328234711,false,Add prevententersubmit attribute to form element,https://github.com/whatwg/html/issues/8158,2022-08-04T08:08:29Z,2022-09-01T01:13:57Z,NagayamaToshiaki,topic: forms|i18n-tracker|i18n-jlreq|i18n-clreq,2
 1328157790,true,focus delegate code seems wrongly only looking at children,https://github.com/whatwg/html/issues/8157,2022-08-04T06:54:57Z,2022-10-22T06:28:29Z,emilio,topic: focus,0
@@ -2137,7 +2139,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1067387017,false,Proposal: Add Element.isRendered() function,https://github.com/whatwg/html/issues/7379,2021-11-30T15:43:49Z,2021-12-01T21:14:55Z,vmpstr,,1
 1066032725,true,Non-cancelled `setTimeout`s would lead to idle deadlines in the past,https://github.com/whatwg/html/issues/7376,2021-11-29T13:21:50Z,2021-11-30T22:13:53Z,andreubotella,,0
 1065446998,true,"""classic script"" definition incomplete",https://github.com/whatwg/html/issues/7374,2021-11-28T21:57:10Z,2021-11-29T16:40:08Z,SmashManiac,,0
-1062927220,false,Adding scriptElement.exports for configuration use cases,https://github.com/whatwg/html/issues/7367,2021-11-24T21:32:38Z,2026-02-04T05:04:16Z,domenic,addition/proposal|topic: script,8
+1062927220,false,Adding scriptElement.exports for configuration use cases,https://github.com/whatwg/html/issues/7367,2021-11-24T21:32:38Z,2026-02-14T05:18:06Z,domenic,addition/proposal|topic: script|topic: imports/exports,8
 1062394112,false,Last-Event-ID value space follow-up,https://github.com/whatwg/html/issues/7363,2021-11-24T12:53:55Z,2026-01-22T05:09:28Z,annevk,topic: eventsource,0
 1061879455,false,"Geolocations uses ""page visibility change steps""",https://github.com/whatwg/html/issues/7362,2021-11-24T01:18:05Z,2021-11-24T01:18:05Z,marcoscaceres,,0
 1060944661,false,Nit: timer initialization steps should define maximum for id,https://github.com/whatwg/html/issues/7358,2021-11-23T08:15:28Z,2021-11-24T16:16:55Z,annevk,clarification,0
