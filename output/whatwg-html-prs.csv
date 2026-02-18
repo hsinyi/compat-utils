@@ -1,12 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3950212501,false,Editorial: Fix misc typos,https://github.com/whatwg/html/pull/12171,2026-02-17T01:04:49Z,2026-02-17T01:06:24Z,jmdyck,,0
+3954615048,false,Clarify the difference between :stalled pseudo-class and stalled event,https://github.com/whatwg/html/pull/12174,2026-02-17T20:49:51Z,2026-02-17T20:51:28Z,alastor0325,,0
+3950212501,true,Editorial: Fix misc typos,https://github.com/whatwg/html/pull/12171,2026-02-17T01:04:49Z,2026-02-17T13:59:21Z,jmdyck,,0
 3949119179,false,Define native appearance and primitive appearance for text inputs,https://github.com/whatwg/html/pull/12170,2026-02-16T18:47:48Z,2026-02-16T18:49:23Z,ChaseKnowlden,,0
 3947655068,true,Editorial: Define the named property setters and deleters for Storage,https://github.com/whatwg/html/pull/12168,2026-02-16T12:57:18Z,2026-02-16T21:10:12Z,shannonbooth,,0
 3946306743,false,Fix merge existing and new import maps - reversed operands,https://github.com/whatwg/html/pull/12167,2026-02-16T07:25:03Z,2026-02-16T07:26:32Z,yoavweiss,,0
 3933097699,true,Fix select base appearance shadow tree issues,https://github.com/whatwg/html/pull/12158,2026-02-12T17:36:00Z,2026-02-13T19:19:22Z,josepharhar,,0
 3928004867,false,Add Canvas writingMode and textOrientation,https://github.com/whatwg/html/pull/12153,2026-02-11T18:25:01Z,2026-02-16T22:08:53Z,schenney-chromium,topic: canvas,0
 3926643128,false,AsyncContext proposal integration (part 1),https://github.com/whatwg/html/pull/12152,2026-02-11T13:44:30Z,2026-02-13T19:55:38Z,andreubotella,,0
-3924343435,false,Add controls attribute to img,https://github.com/whatwg/html/pull/12151,2026-02-11T01:59:20Z,2026-02-14T00:41:54Z,yoelhawa,addition/proposal|topic: img,0
+3924343435,false,Add controls attribute to img,https://github.com/whatwg/html/pull/12151,2026-02-11T01:59:20Z,2026-02-17T23:30:24Z,yoelhawa,addition/proposal|topic: img,0
 3920138877,false,Fix type mismatch for reflected FrozenArray<T>?,https://github.com/whatwg/html/pull/12148,2026-02-10T08:31:24Z,2026-02-13T18:19:39Z,gmvrpw,needs tests,0
 3918173144,true,Fix type mismatch for reflected FrozenArray<T>?,https://github.com/whatwg/html/pull/12146,2026-02-09T21:10:24Z,2026-02-09T21:37:07Z,gmvrpw,,0
 3917443610,true,Pass and use better parent/root information to (re)moving steps.,https://github.com/whatwg/html/pull/12144,2026-02-09T17:47:09Z,2026-02-12T14:38:31Z,dbaron,,0
@@ -55,7 +56,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3690361653,true,Expose NavigationPrecommitController.addHandler,https://github.com/whatwg/html/pull/11984,2025-12-03T13:56:50Z,2025-12-11T13:34:12Z,noamr,,0
 3689842829,true,Download link: inform the navigation API about aborting,https://github.com/whatwg/html/pull/11983,2025-12-03T11:32:45Z,2025-12-11T13:27:52Z,noamr,,0
 3687259345,true,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2026-01-31T10:47:47Z,KurtCattiSchmidt,,0
-3687064326,false,Add support for video and audio element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-02-12T18:36:36Z,scottjehl,addition/proposal|topic: media|stage: 1,6
+3687064326,false,Add support for video and audio element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-02-17T15:52:59Z,scottjehl,addition/proposal|topic: media|stage: 1,6
 3685135331,true,Specify document conformance for headingoffset/headingreset,https://github.com/whatwg/html/pull/11979,2025-12-02T10:17:37Z,2025-12-02T11:20:06Z,zcorpan,,0
 3685086081,true,Add headingoffset/headingreset to attribute index,https://github.com/whatwg/html/pull/11978,2025-12-02T10:05:59Z,2025-12-02T10:19:51Z,keithamus,,0
 3682264070,true,Use a task source when dispatching EventSource events. #4506,https://github.com/whatwg/html/pull/11976,2025-12-01T18:17:11Z,2025-12-01T20:36:26Z,wanderview,,0
@@ -130,7 +131,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3473184206,false,[Not for review yet] Add CanvasToneMapping to CanvasSettings,https://github.com/whatwg/html/pull/11734,2025-10-01T11:35:30Z,2025-10-01T11:37:04Z,ccameron-chromium,,0
 3468542329,true,"Clarify preload ""as"" processing",https://github.com/whatwg/html/pull/11727,2025-09-30T09:52:38Z,2025-10-06T06:38:02Z,noamr,,0
 3468172849,true,Consolidate navigation API abort paths,https://github.com/whatwg/html/pull/11725,2025-09-30T08:30:11Z,2025-10-08T12:54:32Z,noamr,,0
-3466650602,false,"[focusgroup] Add the focusgroup attribute ",https://github.com/whatwg/html/pull/11723,2025-09-29T21:16:04Z,2026-02-10T02:22:15Z,janewman,,0
+3466650602,false,"[focusgroup] Add the focusgroup attribute ",https://github.com/whatwg/html/pull/11723,2025-09-29T21:16:04Z,2026-02-17T22:12:59Z,janewman,,0
 3465600964,true,Make option disabledness look for ancestor optgroups,https://github.com/whatwg/html/pull/11721,2025-09-29T15:45:49Z,2025-11-17T12:19:06Z,josepharhar,,0
 3465492267,true,Make option.form use nearest ancestor select,https://github.com/whatwg/html/pull/11720,2025-09-29T15:18:42Z,2025-10-07T12:59:59Z,josepharhar,topic: select,0
 3464943763,true,Navigation API: Pass abort error as reason,https://github.com/whatwg/html/pull/11719,2025-09-29T13:05:43Z,2025-10-29T10:00:26Z,noamr,topic: navigation,0
@@ -183,7 +184,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3356225711,false,"[FYI, not ready for review] Add globalHDRHeadroom to CanvasCompositing interface",https://github.com/whatwg/html/pull/11597,2025-08-26T15:51:38Z,2025-10-01T08:29:20Z,ccameron-chromium,,0
 3344286687,true,chore(css): normalize prefers-color-scheme spacing in styles.css,https://github.com/whatwg/html/pull/11591,2025-08-22T06:18:20Z,2025-08-22T06:32:55Z,ArjunSaluja,invalid,0
 3342044580,true,use integer over anb syntax for heading,https://github.com/whatwg/html/pull/11589,2025-08-21T14:47:23Z,2025-08-27T12:55:08Z,keithamus,,0
-3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-01-27T15:09:14Z,foolip,,1
+3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-02-17T19:24:10Z,foolip,,1
 3337110965,true,[meta] Add dfn type and scope for HTMLMediaElement.src,https://github.com/whatwg/html/pull/11581,2025-08-20T08:32:57Z,2025-08-21T00:28:09Z,dontcallmedom,,1
 3336967031,true,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation,0
 3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
