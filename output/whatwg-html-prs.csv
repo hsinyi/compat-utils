@@ -1,12 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3954615048,false,Clarify the difference between :stalled pseudo-class and stalled event,https://github.com/whatwg/html/pull/12174,2026-02-17T20:49:51Z,2026-02-18T04:05:57Z,alastor0325,,0
+3960055120,false,Remove unreachable preload destinations from match-preload-type,https://github.com/whatwg/html/pull/12175,2026-02-18T22:24:32Z,2026-02-18T22:26:04Z,KurtCattiSchmidt,,0
+3954615048,false,Clarify the difference between :stalled pseudo-class and stalled event,https://github.com/whatwg/html/pull/12174,2026-02-17T20:49:51Z,2026-02-18T19:38:32Z,alastor0325,,0
 3950212501,true,Editorial: Fix misc typos,https://github.com/whatwg/html/pull/12171,2026-02-17T01:04:49Z,2026-02-18T01:37:16Z,jmdyck,,0
 3949119179,false,Define native appearance and primitive appearance for text inputs,https://github.com/whatwg/html/pull/12170,2026-02-16T18:47:48Z,2026-02-16T18:49:23Z,ChaseKnowlden,,0
 3947655068,true,Editorial: Define the named property setters and deleters for Storage,https://github.com/whatwg/html/pull/12168,2026-02-16T12:57:18Z,2026-02-16T21:10:12Z,shannonbooth,,0
 3946306743,false,Fix merge existing and new import maps - reversed operands,https://github.com/whatwg/html/pull/12167,2026-02-16T07:25:03Z,2026-02-16T07:26:32Z,yoavweiss,,0
 3933097699,true,Fix select base appearance shadow tree issues,https://github.com/whatwg/html/pull/12158,2026-02-12T17:36:00Z,2026-02-13T19:19:22Z,josepharhar,,0
 3928004867,false,Add Canvas writingMode and textOrientation,https://github.com/whatwg/html/pull/12153,2026-02-11T18:25:01Z,2026-02-16T22:08:53Z,schenney-chromium,topic: canvas,0
-3926643128,false,AsyncContext proposal integration (part 1),https://github.com/whatwg/html/pull/12152,2026-02-11T13:44:30Z,2026-02-13T19:55:38Z,andreubotella,,0
+3926643128,false,AsyncContext proposal integration (part 1),https://github.com/whatwg/html/pull/12152,2026-02-11T13:44:30Z,2026-02-18T16:30:18Z,andreubotella,,0
 3924343435,false,Add controls attribute to img,https://github.com/whatwg/html/pull/12151,2026-02-11T01:59:20Z,2026-02-17T23:30:24Z,yoelhawa,addition/proposal|topic: img,0
 3920138877,false,Fix type mismatch for reflected FrozenArray<T>?,https://github.com/whatwg/html/pull/12148,2026-02-10T08:31:24Z,2026-02-13T18:19:39Z,gmvrpw,needs tests,0
 3918173144,true,Fix type mismatch for reflected FrozenArray<T>?,https://github.com/whatwg/html/pull/12146,2026-02-09T21:10:24Z,2026-02-09T21:37:07Z,gmvrpw,,0
@@ -37,7 +38,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3761063334,true,Update 404.html,https://github.com/whatwg/html/pull/12040,2025-12-24T21:44:22Z,2025-12-25T11:25:56Z,Davixdsh,invalid,0
 3753324217,true,"Editorial: fix link to ""potentially free deferred fetch quota""",https://github.com/whatwg/html/pull/12039,2025-12-22T10:52:31Z,2026-01-30T14:25:00Z,TimvdLippe,,0
 3752981634,true,"Set creation URL of worker settings to final URL after redirect",https://github.com/whatwg/html/pull/12038,2025-12-22T09:20:36Z,2026-02-02T18:01:02Z,TimvdLippe,,0
-3739393306,false,Avoid unresolved promises in Navigation API traversal,https://github.com/whatwg/html/pull/12031,2025-12-17T15:34:23Z,2026-01-15T10:27:08Z,zcorpan,,0
+3739393306,false,Avoid unresolved promises in Navigation API traversal,https://github.com/whatwg/html/pull/12031,2025-12-17T15:34:23Z,2026-02-18T16:59:43Z,zcorpan,,0
 3737222223,true,Editorial: Fix wording and punctuation,https://github.com/whatwg/html/pull/12027,2025-12-17T03:51:38Z,2025-12-22T15:11:24Z,jmdyck,,1
 3736701020,false,Add document policy to the policy container,https://github.com/whatwg/html/pull/12026,2025-12-16T23:27:19Z,2026-02-12T17:57:58Z,monica-ch,,0
 3735295434,false,Navigation API: nullify ongoing navigate event on successful cross-document navigation,https://github.com/whatwg/html/pull/12024,2025-12-16T15:31:17Z,2026-01-06T10:51:02Z,noamr,,0
@@ -56,7 +57,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3690361653,true,Expose NavigationPrecommitController.addHandler,https://github.com/whatwg/html/pull/11984,2025-12-03T13:56:50Z,2025-12-11T13:34:12Z,noamr,,0
 3689842829,true,Download link: inform the navigation API about aborting,https://github.com/whatwg/html/pull/11983,2025-12-03T11:32:45Z,2025-12-11T13:27:52Z,noamr,,0
 3687259345,true,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2026-01-31T10:47:47Z,KurtCattiSchmidt,,0
-3687064326,false,Add support for video and audio element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-02-17T15:52:59Z,scottjehl,addition/proposal|topic: media|stage: 1,6
+3687064326,false,Add support for video and audio element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-02-18T18:26:04Z,scottjehl,addition/proposal|topic: media|stage: 1,6
 3685135331,true,Specify document conformance for headingoffset/headingreset,https://github.com/whatwg/html/pull/11979,2025-12-02T10:17:37Z,2025-12-02T11:20:06Z,zcorpan,,0
 3685086081,true,Add headingoffset/headingreset to attribute index,https://github.com/whatwg/html/pull/11978,2025-12-02T10:05:59Z,2025-12-02T10:19:51Z,keithamus,,0
 3682264070,true,Use a task source when dispatching EventSource events. #4506,https://github.com/whatwg/html/pull/11976,2025-12-01T18:17:11Z,2025-12-01T20:36:26Z,wanderview,,0
@@ -77,7 +78,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3651347608,true,Editorial: Fix spelling & punctuation,https://github.com/whatwg/html/pull/11937,2025-11-21T11:44:11Z,2025-11-21T14:20:45Z,jmdyck,,0
 3645790808,false,Add text imports,https://github.com/whatwg/html/pull/11933,2025-11-20T07:01:19Z,2026-02-03T18:25:59Z,eemeli,addition/proposal|topic: script|needs implementation bugs,1
 3644819917,true,Fix Padding Calculation in HTMLOptionsCollection Index Assignment,https://github.com/whatwg/html/pull/11932,2025-11-19T23:51:18Z,2025-11-20T13:04:51Z,lpas,,0
-3643341864,false,Allow deferring same-origin cross-document commit,https://github.com/whatwg/html/pull/11927,2025-11-19T15:45:54Z,2026-02-16T15:59:53Z,noamr,agenda+,0
+3643341864,false,Allow deferring same-origin cross-document commit,https://github.com/whatwg/html/pull/11927,2025-11-19T15:45:54Z,2026-02-18T15:28:46Z,noamr,,0
 3637362644,false,Address review feedback on language override of navigator.language/s.,https://github.com/whatwg/html/pull/11922,2025-11-18T10:30:30Z,2025-12-02T15:59:29Z,lutien,,0
 3628905706,false,Editorial: clarify meaning of iframe allow attribute,https://github.com/whatwg/html/pull/11917,2025-11-15T16:18:10Z,2025-11-18T07:06:09Z,vardhan30016,,0
 3624838305,false,Editorial: fix accidental links to the URL concept,https://github.com/whatwg/html/pull/11916,2025-11-14T09:48:08Z,2026-01-19T12:28:56Z,foolip,,0
