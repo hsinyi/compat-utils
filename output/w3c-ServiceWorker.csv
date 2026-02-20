@@ -351,11 +351,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 293838820,true,What's the possible reason for navigator.serviceWorker.register error？,https://github.com/w3c/ServiceWorker/issues/1275,2018-02-02T10:19:36Z,2018-02-05T02:23:16Z,ywang1724,,0
 293774128,false,"Should the worker be removed from the registration *before* its state is set to ""redundant""?",https://github.com/w3c/ServiceWorker/issues/1273,2018-02-02T05:02:22Z,2019-06-17T14:31:29Z,cdumez,,0
 293751363,false,Scope matching algorithm breaks sites that don't end in a slash,https://github.com/w3c/ServiceWorker/issues/1272,2018-02-02T02:20:06Z,2018-02-16T18:27:17Z,mgiuca,,10
-293640655,false,maybe explicitly set the `self.registration` DOM object on `ServiceWorkerGlobalScope`,https://github.com/w3c/ServiceWorker/issues/1271,2018-02-01T18:43:40Z,2018-02-01T18:43:40Z,wanderview,,0
+293640655,true,maybe explicitly set the `self.registration` DOM object on `ServiceWorkerGlobalScope`,https://github.com/w3c/ServiceWorker/issues/1271,2018-02-01T18:43:40Z,2026-02-20T01:25:08Z,wanderview,,0
 293636797,true,`Clear Registration` should call `Update Registration State` before `Update Worker State`,https://github.com/w3c/ServiceWorker/issues/1270,2018-02-01T18:30:06Z,2018-02-02T16:02:08Z,wanderview,,0
 293250888,false,windowClients state change events - loaded/unloaded,https://github.com/w3c/ServiceWorker/issues/1269,2018-01-31T17:45:05Z,2023-01-06T23:39:08Z,shacharz,,1
 293237026,true,should `ServiceWorker` interface implement `AbstractWorker` mixin?,https://github.com/w3c/ServiceWorker/issues/1268,2018-01-31T17:03:39Z,2026-02-20T00:53:11Z,wanderview,,1
-293196652,false,clarify when FetchEvent.clientId will or will not be set for navigations,https://github.com/w3c/ServiceWorker/issues/1267,2018-01-31T15:19:41Z,2018-02-01T15:28:50Z,wanderview,,0
+293196652,false,clarify when FetchEvent.clientId will or will not be set for navigations,https://github.com/w3c/ServiceWorker/issues/1267,2018-01-31T15:19:41Z,2026-02-20T01:10:12Z,wanderview,,0
 292582643,true,"Until resultingClientId is implemented, what should FetchEvent.clientId be for navigation requests?",https://github.com/w3c/ServiceWorker/issues/1266,2018-01-29T22:21:59Z,2018-02-01T14:22:37Z,wanderview,,0
 291644043,false,should blob URL clients have their controlled updated if their parent's controller is changed?,https://github.com/w3c/ServiceWorker/issues/1265,2018-01-25T17:03:15Z,2020-05-20T15:36:55Z,wanderview,,0
 289850433,true,Suggest a top level service worker or multiple service workers in one domain?,https://github.com/w3c/ServiceWorker/issues/1264,2018-01-19T03:16:52Z,2026-02-13T01:21:16Z,ywang1724,,0
