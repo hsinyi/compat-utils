@@ -354,13 +354,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 293640655,false,maybe explicitly set the `self.registration` DOM object on `ServiceWorkerGlobalScope`,https://github.com/w3c/ServiceWorker/issues/1271,2018-02-01T18:43:40Z,2018-02-01T18:43:40Z,wanderview,,0
 293636797,true,`Clear Registration` should call `Update Registration State` before `Update Worker State`,https://github.com/w3c/ServiceWorker/issues/1270,2018-02-01T18:30:06Z,2018-02-02T16:02:08Z,wanderview,,0
 293250888,false,windowClients state change events - loaded/unloaded,https://github.com/w3c/ServiceWorker/issues/1269,2018-01-31T17:45:05Z,2023-01-06T23:39:08Z,shacharz,,1
-293237026,false,should `ServiceWorker` interface implement `AbstractWorker` mixin?,https://github.com/w3c/ServiceWorker/issues/1268,2018-01-31T17:03:39Z,2018-02-01T10:21:30Z,wanderview,,1
+293237026,true,should `ServiceWorker` interface implement `AbstractWorker` mixin?,https://github.com/w3c/ServiceWorker/issues/1268,2018-01-31T17:03:39Z,2026-02-20T00:53:11Z,wanderview,,1
 293196652,false,clarify when FetchEvent.clientId will or will not be set for navigations,https://github.com/w3c/ServiceWorker/issues/1267,2018-01-31T15:19:41Z,2018-02-01T15:28:50Z,wanderview,,0
 292582643,true,"Until resultingClientId is implemented, what should FetchEvent.clientId be for navigation requests?",https://github.com/w3c/ServiceWorker/issues/1266,2018-01-29T22:21:59Z,2018-02-01T14:22:37Z,wanderview,,0
 291644043,false,should blob URL clients have their controlled updated if their parent's controller is changed?,https://github.com/w3c/ServiceWorker/issues/1265,2018-01-25T17:03:15Z,2020-05-20T15:36:55Z,wanderview,,0
 289850433,true,Suggest a top level service worker or multiple service workers in one domain?,https://github.com/w3c/ServiceWorker/issues/1264,2018-01-19T03:16:52Z,2026-02-13T01:21:16Z,ywang1724,,0
 289798370,true,Should a SW client.id persists across Discards/Reloads of the same page?,https://github.com/w3c/ServiceWorker/issues/1263,2018-01-18T22:29:39Z,2019-06-04T07:54:30Z,fmeawad,,0
-289782768,false,should local URLs check origin before inheritting a controller?,https://github.com/w3c/ServiceWorker/issues/1262,2018-01-18T21:32:05Z,2018-02-01T14:15:34Z,wanderview,,0
+289782768,true,should local URLs check origin before inheritting a controller?,https://github.com/w3c/ServiceWorker/issues/1262,2018-01-18T21:32:05Z,2026-02-20T00:57:50Z,wanderview,,0
 289782412,false,should blob URLs inherit controller from parent environment or environment that called `createObjectURL()`?,https://github.com/w3c/ServiceWorker/issues/1261,2018-01-18T21:30:51Z,2018-01-18T22:22:01Z,wanderview,,0
 289760765,true,What is the correct way to notify the DOM thread about files that have been cached ?,https://github.com/w3c/ServiceWorker/issues/1260,2018-01-18T20:12:52Z,2018-10-18T17:14:49Z,GrosSacASac,,0
 287418855,true,Why is it possible to register a service worker that you won't ever be able to remove?,https://github.com/w3c/ServiceWorker/issues/1258,2018-01-10T12:36:42Z,2018-01-10T13:16:42Z,alexhx5,,0

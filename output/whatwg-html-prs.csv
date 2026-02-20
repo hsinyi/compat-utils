@@ -1,5 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3961529289,false,Abort traversal if tracker is no longer ongoing.,https://github.com/whatwg/html/pull/12177,2026-02-19T08:04:39Z,2026-02-19T10:47:56Z,farre,do not merge yet|topic: navigation,0
+3965690003,false,Simplify orphan worker closing,https://github.com/whatwg/html/pull/12182,2026-02-19T23:41:09Z,2026-02-20T00:39:37Z,domfarolino,topic: workers,0
+3965029544,false,Make sure navigate event is cleared before signaling abort.,https://github.com/whatwg/html/pull/12181,2026-02-19T20:49:51Z,2026-02-19T20:51:25Z,farre,topic: navigation,0
+3961529289,false,Abort traversal if tracker is no longer ongoing.,https://github.com/whatwg/html/pull/12177,2026-02-19T08:04:39Z,2026-02-19T14:58:03Z,farre,do not merge yet|topic: navigation,0
 3960055120,false,Remove unreachable preload destinations from match-preload-type,https://github.com/whatwg/html/pull/12175,2026-02-18T22:24:32Z,2026-02-18T22:26:04Z,KurtCattiSchmidt,,0
 3954615048,false,Clarify the difference between :stalled pseudo-class and stalled event,https://github.com/whatwg/html/pull/12174,2026-02-17T20:49:51Z,2026-02-18T19:38:32Z,alastor0325,,0
 3950212501,true,Editorial: Fix misc typos,https://github.com/whatwg/html/pull/12171,2026-02-17T01:04:49Z,2026-02-18T01:37:16Z,jmdyck,,0
@@ -9,7 +11,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3933097699,true,Fix select base appearance shadow tree issues,https://github.com/whatwg/html/pull/12158,2026-02-12T17:36:00Z,2026-02-13T19:19:22Z,josepharhar,,0
 3928004867,false,Add Canvas writingMode and textOrientation,https://github.com/whatwg/html/pull/12153,2026-02-11T18:25:01Z,2026-02-19T09:35:02Z,schenney-chromium,topic: canvas,0
 3926643128,false,AsyncContext proposal integration (part 1),https://github.com/whatwg/html/pull/12152,2026-02-11T13:44:30Z,2026-02-18T16:30:18Z,andreubotella,,0
-3924343435,false,Add controls attribute to img,https://github.com/whatwg/html/pull/12151,2026-02-11T01:59:20Z,2026-02-17T23:30:24Z,yoelhawa,addition/proposal|topic: img,0
+3924343435,false,Add controls attribute to img,https://github.com/whatwg/html/pull/12151,2026-02-11T01:59:20Z,2026-02-19T18:12:58Z,yoelhawa,addition/proposal|topic: img,0
 3920138877,false,Fix type mismatch for reflected FrozenArray<T>?,https://github.com/whatwg/html/pull/12148,2026-02-10T08:31:24Z,2026-02-13T18:19:39Z,gmvrpw,needs tests,0
 3918173144,true,Fix type mismatch for reflected FrozenArray<T>?,https://github.com/whatwg/html/pull/12146,2026-02-09T21:10:24Z,2026-02-09T21:37:07Z,gmvrpw,,0
 3917443610,true,Pass and use better parent/root information to (re)moving steps.,https://github.com/whatwg/html/pull/12144,2026-02-09T17:47:09Z,2026-02-12T14:38:31Z,dbaron,,0
@@ -17,7 +19,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3891566683,true,"Editorial: modernize/consistify string and ""current token"" style",https://github.com/whatwg/html/pull/12128,2026-02-03T14:31:03Z,2026-02-08T08:50:38Z,foolip,,0
 3889549162,false,Editorial: Clarify return value of Storage property accessor,https://github.com/whatwg/html/pull/12127,2026-02-03T06:56:21Z,2026-02-12T12:51:48Z,shannonbooth,,0
 3885015798,false,Pass the correct iframe fallback URL to resource timing,https://github.com/whatwg/html/pull/12124,2026-02-02T09:56:50Z,2026-02-16T09:20:45Z,noamr,,0
-3877956159,false,Parse XML-style <?target data?> processing instructions,https://github.com/whatwg/html/pull/12118,2026-01-31T00:22:11Z,2026-02-13T13:22:26Z,foolip,,4
+3877956159,false,Parse XML-style <?target data?> processing instructions,https://github.com/whatwg/html/pull/12118,2026-01-31T00:22:11Z,2026-02-19T14:39:04Z,foolip,,4
 3866756722,true,Editorial: Use the correct Module Record in HostLoadImportedModule,https://github.com/whatwg/html/pull/12114,2026-01-28T18:23:25Z,2026-01-29T12:05:08Z,nicolo-ribaudo,,2
 3847284352,true,Replace drafts.fxtf.org links with drafts.csswg.org,https://github.com/whatwg/html/pull/12105,2026-01-23T12:38:28Z,2026-01-23T12:57:48Z,nicolo-ribaudo,,0
 3838533899,true,"Apply style quirk also in limited-quirks mode",https://github.com/whatwg/html/pull/12097,2026-01-21T14:30:53Z,2026-01-22T16:30:38Z,TimvdLippe,,0
@@ -29,8 +31,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3808755388,true,Only clean up cross-document method tracker.,https://github.com/whatwg/html/pull/12081,2026-01-13T13:00:53Z,2026-01-14T08:27:53Z,farre,,0
 3803774703,true,Navigation API: Revert 11987,https://github.com/whatwg/html/pull/12078,2026-01-12T10:53:38Z,2026-01-12T11:28:07Z,noamr,,0
 3802846213,true,Check ongoing navigation before proceeding with javascript: URL navigation,https://github.com/whatwg/html/pull/12076,2026-01-12T05:43:04Z,2026-01-16T08:55:50Z,byteforge38,topic: navigation|topic: javascript: URLs,0
-3797092339,false,Calculate ancestorOrigins on document creation and store on document,https://github.com/whatwg/html/pull/12071,2026-01-09T14:11:52Z,2026-02-18T10:19:28Z,zcorpan,,0
-3795160292,false,Define base appearance for select multiple drop-down,https://github.com/whatwg/html/pull/12069,2026-01-09T01:58:01Z,2026-02-10T22:45:32Z,josepharhar,agenda+,0
+3797092339,true,Calculate ancestorOrigins on document creation and store on document,https://github.com/whatwg/html/pull/12071,2026-01-09T14:11:52Z,2026-02-19T15:27:56Z,zcorpan,,0
+3795160292,false,Define base appearance for select multiple drop-down,https://github.com/whatwg/html/pull/12069,2026-01-09T01:58:01Z,2026-02-19T16:37:02Z,josepharhar,agenda+,0
 3793961141,false,Editorial: Refactor HTMLHyperlinkElementUtils,https://github.com/whatwg/html/pull/12066,2026-01-08T18:35:39Z,2026-01-14T14:15:12Z,lukewarlow,,1
 3793925711,true,Use the value attribute for color update if dirty value flag is false,https://github.com/whatwg/html/pull/12065,2026-01-08T18:23:44Z,2026-01-14T13:00:52Z,saschanaz,,0
 3792303816,true,"Revert ""Switch dialog/popover to using place-self:dialog""",https://github.com/whatwg/html/pull/12060,2026-01-08T10:27:29Z,2026-01-13T11:12:12Z,annevk,,0
@@ -180,7 +182,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3372661973,true,Editorial: Fix punctuation + markup,https://github.com/whatwg/html/pull/11612,2025-09-01T13:15:14Z,2025-09-02T13:47:04Z,jmdyck,,0
 3366034851,true,Navigation API: pass precommitController to handler,https://github.com/whatwg/html/pull/11603,2025-08-29T08:47:59Z,2025-08-29T17:07:27Z,noamr,,0
 3362988058,true,Editorial: Clean up color conversion presentation in HTML canvas,https://github.com/whatwg/html/pull/11601,2025-08-28T11:38:23Z,2025-09-15T11:30:45Z,ccameron-chromium,clarification|topic: canvas,0
-3358169931,false,Add extended lifetime shared workers,https://github.com/whatwg/html/pull/11600,2025-08-27T06:29:57Z,2026-01-15T13:40:31Z,domenic,addition/proposal|do not merge yet|topic: workers,0
+3358169931,false,Add extended lifetime shared workers,https://github.com/whatwg/html/pull/11600,2025-08-27T06:29:57Z,2026-02-19T22:06:16Z,domenic,addition/proposal|do not merge yet|topic: workers,0
 3357835900,true,Further clarify worker lifetime relationships,https://github.com/whatwg/html/pull/11599,2025-08-27T03:00:54Z,2025-11-13T08:48:59Z,domenic,clarification|topic: workers,0
 3357822727,true,"Editorial: collapse ""actively needed"" and ""protected"" for workers",https://github.com/whatwg/html/pull/11598,2025-08-27T02:52:13Z,2025-08-27T02:54:13Z,domenic,clarification|topic: workers,0
 3356225711,false,"[FYI, not ready for review] Add globalHDRHeadroom to CanvasCompositing interface",https://github.com/whatwg/html/pull/11597,2025-08-26T15:51:38Z,2025-10-01T08:29:20Z,ccameron-chromium,,0
@@ -683,7 +685,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2126638785,true,Fix off-by-one error in navigation.canGoForward,https://github.com/whatwg/html/pull/10130,2024-02-09T07:51:29Z,2024-02-09T08:09:41Z,domenic,topic: navigation,0
 2124657255,true,Meta: Drop duplicate dfns of width and height IDL attr for HTMLImageElement,https://github.com/whatwg/html/pull/10127,2024-02-08T08:59:34Z,2024-02-08T09:10:28Z,dontcallmedom,,0
 2123981577,true,Add the :open pseudo-class,https://github.com/whatwg/html/pull/10126,2024-02-07T22:07:51Z,2024-12-10T02:31:19Z,josepharhar,addition/proposal|topic: forms|topic: style|topic: dialog|topic: select,0
-2119551527,false,Close dialog elements when the open attribute is removed,https://github.com/whatwg/html/pull/10124,2024-02-05T22:13:10Z,2026-02-19T09:32:32Z,josepharhar,normative change|topic: dialog,1
+2119551527,false,Close dialog elements when the open attribute is removed,https://github.com/whatwg/html/pull/10124,2024-02-05T22:13:10Z,2026-02-19T22:04:08Z,josepharhar,normative change|topic: dialog,1
 2116642999,true,Update build.yml,https://github.com/whatwg/html/pull/10121,2024-02-03T19:02:32Z,2024-10-08T14:04:25Z,JulianaticID,invalid,0
 2115694515,true,Update README.md to include about us description.,https://github.com/whatwg/html/pull/10120,2024-02-02T20:07:00Z,2024-10-08T14:04:25Z,edxlang,invalid,0
 2115382835,false,Fix #4532: language sensitivity of autocap,https://github.com/whatwg/html/pull/10119,2024-02-02T17:11:41Z,2024-02-09T12:05:58Z,aphillips,clarification,0
