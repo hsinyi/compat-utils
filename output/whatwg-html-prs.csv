@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3965690003,false,Simplify orphan worker closing,https://github.com/whatwg/html/pull/12182,2026-02-19T23:41:09Z,2026-02-20T00:39:37Z,domfarolino,topic: workers,0
+3969497215,false,Handle command buttons inside of popover light dismiss,https://github.com/whatwg/html/pull/12184,2026-02-20T17:03:56Z,2026-02-20T17:07:03Z,lukewarlow,,0
+3965690003,false,Simplify orphan worker closing,https://github.com/whatwg/html/pull/12182,2026-02-19T23:41:09Z,2026-02-20T15:49:46Z,domfarolino,topic: workers,0
 3965029544,false,Make sure navigate event is cleared before signaling abort.,https://github.com/whatwg/html/pull/12181,2026-02-19T20:49:51Z,2026-02-19T20:51:25Z,farre,topic: navigation,0
 3961529289,false,Abort traversal if tracker is no longer ongoing.,https://github.com/whatwg/html/pull/12177,2026-02-19T08:04:39Z,2026-02-19T14:58:03Z,farre,do not merge yet|topic: navigation,0
 3960055120,false,Remove unreachable preload destinations from match-preload-type,https://github.com/whatwg/html/pull/12175,2026-02-18T22:24:32Z,2026-02-18T22:26:04Z,KurtCattiSchmidt,,0
@@ -60,7 +61,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3690361653,true,Expose NavigationPrecommitController.addHandler,https://github.com/whatwg/html/pull/11984,2025-12-03T13:56:50Z,2025-12-11T13:34:12Z,noamr,,0
 3689842829,true,Download link: inform the navigation API about aborting,https://github.com/whatwg/html/pull/11983,2025-12-03T11:32:45Z,2025-12-11T13:27:52Z,noamr,,0
 3687259345,true,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2026-01-31T10:47:47Z,KurtCattiSchmidt,,0
-3687064326,false,Add support for video and audio element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-02-18T18:26:04Z,scottjehl,addition/proposal|topic: media|stage: 1,6
+3687064326,false,Add support for video and audio element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-02-20T14:37:10Z,scottjehl,addition/proposal|topic: media|stage: 1,6
 3685135331,true,Specify document conformance for headingoffset/headingreset,https://github.com/whatwg/html/pull/11979,2025-12-02T10:17:37Z,2025-12-02T11:20:06Z,zcorpan,,0
 3685086081,true,Add headingoffset/headingreset to attribute index,https://github.com/whatwg/html/pull/11978,2025-12-02T10:05:59Z,2025-12-02T10:19:51Z,keithamus,,0
 3682264070,true,Use a task source when dispatching EventSource events. #4506,https://github.com/whatwg/html/pull/11976,2025-12-01T18:17:11Z,2025-12-01T20:36:26Z,wanderview,,0
@@ -150,7 +151,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3449447529,true,reorder dialog attr changed steps so that cleanup steps always occur,https://github.com/whatwg/html/pull/11693,2025-09-24T13:26:59Z,2025-10-01T08:46:58Z,keithamus,,0
 3449178913,true,"Add `NavigationTransition.to`, exposing the current navigate event's destination",https://github.com/whatwg/html/pull/11692,2025-09-24T12:14:44Z,2025-12-03T11:36:49Z,noamr,,0
 3448693145,true,Editorial: Cross-reference 'expected' in Rendering,https://github.com/whatwg/html/pull/11691,2025-09-24T10:09:23Z,2025-09-25T14:23:04Z,zcorpan,,0
-3447004466,false,Declarative CSS Modules,https://github.com/whatwg/html/pull/11687,2025-09-24T00:00:42Z,2025-10-20T16:49:34Z,KurtCattiSchmidt,,0
+3447004466,false,Declarative CSS Modules,https://github.com/whatwg/html/pull/11687,2025-09-24T00:00:42Z,2026-02-21T00:52:45Z,KurtCattiSchmidt,,0
 3440906111,true,Add source to ToggleEventInit,https://github.com/whatwg/html/pull/11679,2025-09-22T13:06:20Z,2025-09-30T09:12:09Z,keithamus,topic: dialog|topic: popover,1
 3437289427,true,"Editorial: Fix markup, spelling, punctuation",https://github.com/whatwg/html/pull/11673,2025-09-20T16:27:02Z,2025-09-22T17:50:33Z,jmdyck,,0
 3437080571,true,Replace numeric character references with Unicode characters(fixes #3683),https://github.com/whatwg/html/pull/11672,2025-09-20T12:04:57Z,2025-09-20T13:01:37Z,sujay-for-tech-01,invalid,0
@@ -182,7 +183,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3372661973,true,Editorial: Fix punctuation + markup,https://github.com/whatwg/html/pull/11612,2025-09-01T13:15:14Z,2025-09-02T13:47:04Z,jmdyck,,0
 3366034851,true,Navigation API: pass precommitController to handler,https://github.com/whatwg/html/pull/11603,2025-08-29T08:47:59Z,2025-08-29T17:07:27Z,noamr,,0
 3362988058,true,Editorial: Clean up color conversion presentation in HTML canvas,https://github.com/whatwg/html/pull/11601,2025-08-28T11:38:23Z,2025-09-15T11:30:45Z,ccameron-chromium,clarification|topic: canvas,0
-3358169931,false,Add extended lifetime shared workers,https://github.com/whatwg/html/pull/11600,2025-08-27T06:29:57Z,2026-02-19T22:06:16Z,domenic,addition/proposal|do not merge yet|topic: workers,0
+3358169931,false,Add extended lifetime shared workers,https://github.com/whatwg/html/pull/11600,2025-08-27T06:29:57Z,2026-02-20T15:18:25Z,domenic,addition/proposal|do not merge yet|topic: workers,0
 3357835900,true,Further clarify worker lifetime relationships,https://github.com/whatwg/html/pull/11599,2025-08-27T03:00:54Z,2025-11-13T08:48:59Z,domenic,clarification|topic: workers,0
 3357822727,true,"Editorial: collapse ""actively needed"" and ""protected"" for workers",https://github.com/whatwg/html/pull/11598,2025-08-27T02:52:13Z,2025-08-27T02:54:13Z,domenic,clarification|topic: workers,0
 3356225711,false,"[FYI, not ready for review] Add globalHDRHeadroom to CanvasCompositing interface",https://github.com/whatwg/html/pull/11597,2025-08-26T15:51:38Z,2025-10-01T08:29:20Z,ccameron-chromium,,0
