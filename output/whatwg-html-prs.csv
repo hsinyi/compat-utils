@@ -3,7 +3,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3965690003,false,Simplify orphan worker closing,https://github.com/whatwg/html/pull/12182,2026-02-19T23:41:09Z,2026-02-20T15:49:46Z,domfarolino,topic: workers,0
 3965029544,false,Make sure navigate event is cleared before signaling abort.,https://github.com/whatwg/html/pull/12181,2026-02-19T20:49:51Z,2026-02-19T20:51:25Z,farre,topic: navigation,0
 3961529289,false,Abort traversal if tracker is no longer ongoing.,https://github.com/whatwg/html/pull/12177,2026-02-19T08:04:39Z,2026-02-19T14:58:03Z,farre,do not merge yet|topic: navigation,0
-3960055120,false,Remove unreachable preload destinations from match-preload-type,https://github.com/whatwg/html/pull/12175,2026-02-18T22:24:32Z,2026-02-18T22:26:04Z,KurtCattiSchmidt,,0
+3960055120,false,Remove unreachable preload destinations from match-preload-type,https://github.com/whatwg/html/pull/12175,2026-02-18T22:24:32Z,2026-02-23T13:27:45Z,KurtCattiSchmidt,,0
 3954615048,false,Clarify the difference between :stalled pseudo-class and stalled event,https://github.com/whatwg/html/pull/12174,2026-02-17T20:49:51Z,2026-02-18T19:38:32Z,alastor0325,,0
 3950212501,true,Editorial: Fix misc typos,https://github.com/whatwg/html/pull/12171,2026-02-17T01:04:49Z,2026-02-18T01:37:16Z,jmdyck,,0
 3949119179,false,Define native appearance and primitive appearance for text inputs,https://github.com/whatwg/html/pull/12170,2026-02-16T18:47:48Z,2026-02-16T18:49:23Z,ChaseKnowlden,,0
@@ -61,7 +61,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3690361653,true,Expose NavigationPrecommitController.addHandler,https://github.com/whatwg/html/pull/11984,2025-12-03T13:56:50Z,2025-12-11T13:34:12Z,noamr,,0
 3689842829,true,Download link: inform the navigation API about aborting,https://github.com/whatwg/html/pull/11983,2025-12-03T11:32:45Z,2025-12-11T13:27:52Z,noamr,,0
 3687259345,true,"Allow ""style"" and ""json"" in `as` attribute for `modulepreload`",https://github.com/whatwg/html/pull/11981,2025-12-02T19:26:51Z,2026-01-31T10:47:47Z,KurtCattiSchmidt,,0
-3687064326,false,Add support for video and audio element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-02-20T14:37:10Z,scottjehl,addition/proposal|topic: media|stage: 1,6
+3687064326,false,Add support for video and audio element lazy-loading via the loading attribute,https://github.com/whatwg/html/pull/11980,2025-12-02T18:27:08Z,2026-02-23T20:23:52Z,scottjehl,addition/proposal|topic: media|stage: 1,6
 3685135331,true,Specify document conformance for headingoffset/headingreset,https://github.com/whatwg/html/pull/11979,2025-12-02T10:17:37Z,2025-12-02T11:20:06Z,zcorpan,,0
 3685086081,true,Add headingoffset/headingreset to attribute index,https://github.com/whatwg/html/pull/11978,2025-12-02T10:05:59Z,2025-12-02T10:19:51Z,keithamus,,0
 3682264070,true,Use a task source when dispatching EventSource events. #4506,https://github.com/whatwg/html/pull/11976,2025-12-01T18:17:11Z,2025-12-01T20:36:26Z,wanderview,,0
@@ -90,7 +90,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3624113595,true,Make initialize() upgrade and fix upgrade(),https://github.com/whatwg/html/pull/11913,2025-11-14T06:25:58Z,2025-11-21T07:08:42Z,annevk,topic: custom elements,0
 3618265040,true,Editorial: Replace numeric character references with Unicode characters,https://github.com/whatwg/html/pull/11907,2025-11-12T21:17:12Z,2025-11-14T14:36:44Z,saikirankanakala,invalid,0
 3604298847,false,[DRAFT] Upstream the Scroll To Text Fragment specification,https://github.com/whatwg/html/pull/11895,2025-11-09T01:41:40Z,2025-11-25T23:09:52Z,domfarolino,,0
-3597884153,false,Build list of selectedcontent elements to clear,https://github.com/whatwg/html/pull/11891,2025-11-06T22:24:57Z,2026-01-15T22:38:52Z,josepharhar,topic: select,0
+3597884153,false,Build list of selectedcontent elements to clear,https://github.com/whatwg/html/pull/11891,2025-11-06T22:24:57Z,2026-02-23T18:15:06Z,josepharhar,topic: select,0
 3596273653,false,Update selectedcontent in selectedness setting,https://github.com/whatwg/html/pull/11890,2025-11-06T15:17:42Z,2026-01-15T20:55:34Z,josepharhar,topic: select,0
 3592127065,true,Editorial: link directly to a Trusted Types algorithm (not section),https://github.com/whatwg/html/pull/11888,2025-11-05T17:34:44Z,2025-11-20T15:40:48Z,foolip,,0
 3590044971,false,"Snapshot the margin* attributes on frame/iframe at document creation ",https://github.com/whatwg/html/pull/11887,2025-11-05T09:17:21Z,2025-11-12T02:58:41Z,zcorpan,,0
@@ -151,7 +151,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3449447529,true,reorder dialog attr changed steps so that cleanup steps always occur,https://github.com/whatwg/html/pull/11693,2025-09-24T13:26:59Z,2025-10-01T08:46:58Z,keithamus,,0
 3449178913,true,"Add `NavigationTransition.to`, exposing the current navigate event's destination",https://github.com/whatwg/html/pull/11692,2025-09-24T12:14:44Z,2025-12-03T11:36:49Z,noamr,,0
 3448693145,true,Editorial: Cross-reference 'expected' in Rendering,https://github.com/whatwg/html/pull/11691,2025-09-24T10:09:23Z,2025-09-25T14:23:04Z,zcorpan,,0
-3447004466,false,Declarative CSS Modules,https://github.com/whatwg/html/pull/11687,2025-09-24T00:00:42Z,2026-02-21T00:52:45Z,KurtCattiSchmidt,,0
+3447004466,false,Declarative CSS Modules,https://github.com/whatwg/html/pull/11687,2025-09-24T00:00:42Z,2026-02-23T17:10:47Z,KurtCattiSchmidt,,0
 3440906111,true,Add source to ToggleEventInit,https://github.com/whatwg/html/pull/11679,2025-09-22T13:06:20Z,2025-09-30T09:12:09Z,keithamus,topic: dialog|topic: popover,1
 3437289427,true,"Editorial: Fix markup, spelling, punctuation",https://github.com/whatwg/html/pull/11673,2025-09-20T16:27:02Z,2025-09-22T17:50:33Z,jmdyck,,0
 3437080571,true,Replace numeric character references with Unicode characters(fixes #3683),https://github.com/whatwg/html/pull/11672,2025-09-20T12:04:57Z,2025-09-20T13:01:37Z,sujay-for-tech-01,invalid,0
@@ -266,7 +266,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3121032722,true,"[Editorial] Early hints: there is no ""pending"" document, only null.",https://github.com/whatwg/html/pull/11355,2025-06-05T12:28:44Z,2025-06-05T13:48:08Z,noamr,,0
 3113398673,false,Add UA style for contenteditable=plaintext-only,https://github.com/whatwg/html/pull/11351,2025-06-03T10:31:38Z,2025-06-03T11:09:30Z,zcorpan,,0
 3113286788,false,[DRAFT] Add the concept of an event source.,https://github.com/whatwg/html/pull/11349,2025-06-03T10:00:27Z,2025-06-05T11:36:57Z,alice,,0
-3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-08-03T20:52:27Z,alexpetros,addition/proposal|topic: forms,95
+3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-08-03T20:52:27Z,alexpetros,addition/proposal|topic: forms,96
 3101529448,true,Improve CommandEvent and ToggleEvent source retargeting,https://github.com/whatwg/html/pull/11345,2025-05-29T21:27:44Z,2025-11-20T18:12:02Z,josepharhar,,0
 3095959996,true,Revamp script element introduction and conformance,https://github.com/whatwg/html/pull/11341,2025-05-28T04:26:27Z,2025-05-29T05:07:03Z,domenic,clarification|document conformance|topic: script,0
 3094310657,true,Add jump functionality to Blue Robot canvas demo,https://github.com/whatwg/html/pull/11337,2025-05-27T15:14:55Z,2025-05-28T00:58:11Z,Ronitsabhaya75,invalid,0
@@ -727,7 +727,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2056778136,false,Implement dangling markup injection mitigation,https://github.com/whatwg/html/pull/10022,2023-12-26T23:59:10Z,2026-01-16T09:41:44Z,shhnjk,security/privacy|integration|security-tracker,0
 2054561873,true,Add a new attribute called `writingsuggestions` to control UA-provided writing assistance,https://github.com/whatwg/html/pull/10018,2023-12-22T22:53:35Z,2025-11-18T06:25:12Z,sanketj,addition/proposal,0
 2053092639,true,Darkmode,https://github.com/whatwg/html/pull/10017,2023-12-21T21:44:11Z,2024-01-10T03:34:58Z,tabatkins,,0
-2051411630,true,Hide all popovers when beforetoggle shows a popover,https://github.com/whatwg/html/pull/10015,2023-12-20T22:47:23Z,2024-02-07T19:40:15Z,josepharhar,topic: popover,0
 2051164772,true,Update 404.html,https://github.com/whatwg/html/pull/10014,2023-12-20T19:44:11Z,2024-10-08T14:04:24Z,21priti,invalid,0
 2049067275,true,Refactor event-loop processing model to perform rendering as a task,https://github.com/whatwg/html/pull/10007,2023-12-19T16:58:39Z,2024-01-31T02:59:48Z,noamr,,0
 2047777111,true,Fix case where the directionality of a <bdi> could be null.,https://github.com/whatwg/html/pull/10005,2023-12-19T01:55:21Z,2024-01-09T15:47:19Z,dbaron,normative change|i18n-tracker,0
