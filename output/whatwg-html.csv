@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-3982788173,false,Is <slot dir=auto> special case needed?,https://github.com/whatwg/html/issues/12192,2026-02-24T10:22:00Z,2026-02-24T10:22:00Z,vinhill,,0
+3984219801,false,optgroup display:block?,https://github.com/whatwg/html/issues/12196,2026-02-24T15:02:50Z,2026-02-24T21:29:22Z,annevk,topic: rendering|topic: select,0
+3982788173,false,Is <slot dir=auto> special case needed?,https://github.com/whatwg/html/issues/12192,2026-02-24T10:22:00Z,2026-02-24T16:55:27Z,vinhill,,0
 3981225253,false,Implementation-defined ordering of task queues leading to interoperability issue with `popstate` and `hashchange` events,https://github.com/whatwg/html/issues/12190,2026-02-24T03:02:03Z,2026-02-24T03:02:03Z,avandolder,,0
 3973118440,false,"Proposal: Improve UI stepping behavior in <input type=""number"">",https://github.com/whatwg/html/issues/12188,2026-02-22T00:06:14Z,2026-02-22T00:07:11Z,xavierholt,addition/proposal|needs implementer interest,1
 3969567391,false,Special case label associated with a button in popover light dismiss,https://github.com/whatwg/html/issues/12185,2026-02-20T17:21:12Z,2026-02-20T18:53:02Z,lukewarlow,addition/proposal|needs implementer interest|topic: popover,1
@@ -1996,7 +1997,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1200400029,false,Add support to the window.open function for the Accept header.,https://github.com/whatwg/html/issues/7810,2022-04-11T18:54:19Z,2025-12-13T15:14:04Z,reallybaldrick,addition/proposal|needs implementer interest|topic: navigation,20
 1200302682,true,Should adding inert attribute force a blur?,https://github.com/whatwg/html/issues/7809,2022-04-11T17:32:47Z,2022-04-11T17:48:14Z,emilio,,0
 1200291987,true,inert on an ancestor of modal dialog,https://github.com/whatwg/html/issues/7808,2022-04-11T17:25:44Z,2024-03-15T18:14:50Z,emilio,topic: dialog,0
-1198621719,false,"""Fetch a classic worker-imported script"" uses fetch's synchronous flag, which is no longer defined",https://github.com/whatwg/html/issues/7804,2022-04-09T14:03:10Z,2022-04-25T13:20:59Z,Lubrsi,topic: workers|topic: fetch|integration,0
+1198621719,false,"""Fetch a classic worker-imported script"" uses fetch's synchronous flag, which is no longer defined",https://github.com/whatwg/html/issues/7804,2022-04-09T14:03:10Z,2026-02-24T23:44:26Z,Lubrsi,topic: workers|topic: fetch|integration,0
 1197653990,true,Upcoming HTML standard issue triage meeting on 5/5/2022,https://github.com/whatwg/html/issues/7802,2022-04-08T18:20:32Z,2022-05-31T23:34:56Z,past,agenda+,0
 1195606863,false,<canvas> width/height attributes can throw?,https://github.com/whatwg/html/issues/7798,2022-04-07T07:03:42Z,2022-04-15T02:43:36Z,annevk,topic: canvas,1
 1195293940,false,Require user gestures to accept registerProtocolHandler request,https://github.com/whatwg/html/issues/7797,2022-04-06T23:15:58Z,2023-01-23T00:15:11Z,javifernandez,topic: custom protocols,1
@@ -4016,7 +4017,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 292255410,true,<script> processing model with various children,https://github.com/whatwg/html/issues/3419,2018-01-29T00:39:00Z,2018-02-12T16:00:16Z,domenic,topic: script|interop,0
 292127534,true,"Add value / placeholder behavior to the <input type=""date""> spec",https://github.com/whatwg/html/issues/3413,2018-01-27T15:06:45Z,2018-01-28T11:42:55Z,MrFaul,addition/proposal|needs implementer interest|topic: forms,0
 291996180,true,Proposal: Allow adding separator rows to <select> boxes using <hr>,https://github.com/whatwg/html/issues/3410,2018-01-26T18:50:22Z,2023-05-02T14:41:02Z,a2sheppy,addition/proposal|topic: forms,0
-291918679,false,Canvas hit regions proposal,https://github.com/whatwg/html/issues/3407,2018-01-26T14:33:05Z,2022-06-08T09:57:06Z,annevk,addition/proposal|needs implementer interest|topic: canvas|accessibility,4
+291918679,false,Canvas hit regions proposal,https://github.com/whatwg/html/issues/3407,2018-01-26T14:33:05Z,2022-06-08T09:57:06Z,annevk,addition/proposal|needs implementer interest|topic: canvas|accessibility,5
 291583266,true,Define webgl2 context,https://github.com/whatwg/html/issues/3404,2018-01-25T14:12:40Z,2018-08-30T07:11:30Z,annevk,topic: canvas|integration,1
 291547569,true,How should document.body setter behave when root is not an `<html>`?,https://github.com/whatwg/html/issues/3403,2018-01-25T12:06:56Z,2018-02-12T16:20:10Z,bzbarsky,interop,0
 291429949,true,"custom-elements: A step to add ""is"" content attribute in ""new""",https://github.com/whatwg/html/issues/3402,2018-01-25T02:31:28Z,2018-02-22T16:52:34Z,tkent-google,topic: custom elements,0
