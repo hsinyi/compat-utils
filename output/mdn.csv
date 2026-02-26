@@ -990,7 +990,7 @@ api/CanvasRenderingContext2D/fill/path_parameter,,31,,36,,7,,false,true,false,,N
 api/CanvasRenderingContext2D/fillRect,,1.5,,1,,2,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fillrect-dev,WHATWG
 api/CanvasRenderingContext2D/fillStyle,,1.5,,1,,2,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fillstyle-dev,WHATWG
 api/CanvasRenderingContext2D/fillText,,3.5,,2,,4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-filltext-dev,WHATWG
-api/CanvasRenderingContext2D/filter,,49,,52,,,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-filter-dev,WHATWG
+api/CanvasRenderingContext2D/filter,,49,,52,,18,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-filter-dev,WHATWG
 api/CanvasRenderingContext2D/font,,3.5,,2,,18.4,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-font-dev,WHATWG
 api/CanvasRenderingContext2D/fontKerning,,104,,99,,,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fontkerning,WHATWG
 api/CanvasRenderingContext2D/fontStretch,,117,,99,,,,false,true,false,https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-fontstretch,WHATWG
@@ -1716,7 +1716,7 @@ api/Document/open,,69,,45,,11,,false,true,false,https://html.spec.whatwg.org/mul
 api/Document/parseHTMLUnsafe_static,,128,,124,,26,,false,true,false,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-parsehtmlunsafe,WHATWG
 api/Document/parseHTMLUnsafe_static/enforces_trusted_types,,preview,,124,,26,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-xss-injection-sinks,W3C
 api/Document/parseHTMLUnsafe_static/options_sanitizer_parameter,,preview,,,,,,true,true,false,https://wicg.github.io/sanitizer-api/#dom-shadowroot-sethtmlunsafe,W3CCG
-api/Document/parseHTML_static,,preview,,,,,,true,true,false,https://wicg.github.io/sanitizer-api/#dom-document-parsehtml,W3CCG
+api/Document/parseHTML_static,,148,,,,,,true,true,false,https://wicg.github.io/sanitizer-api/#dom-document-parsehtml,W3CCG
 api/Document/pictureInPictureElement,,,,69,,13.1,,false,true,false,https://w3c.github.io/picture-in-picture/#dom-documentorshadowroot-pictureinpictureelement,W3C
 api/Document/pictureInPictureEnabled,,,,69,,13.1,,false,true,false,https://w3c.github.io/picture-in-picture/#dom-document-pictureinpictureenabled,W3C
 api/Document/plugins,,61,,36,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-document-plugins-dev,WHATWG
@@ -3033,6 +3033,7 @@ api/HTMLButtonElement/checkValidity,,4,,4,,5,,false,true,false,https://html.spec
 api/HTMLButtonElement/command,,144,,135,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-command,WHATWG
 api/HTMLButtonElement/command/request-close,,144,,139,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-request-close,WHATWG
 api/HTMLButtonElement/commandForElement,,144,,135,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-commandforelement,WHATWG
+api/HTMLButtonElement/commandForElement/implicit_anchor_reference,,147,,135,,26.2,,false,true,false,https://drafts.csswg.org/css-anchor-position/#implicit-anchor-element,W3C
 api/HTMLButtonElement/disabled,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fe-disabled,WHATWG
 api/HTMLButtonElement/form,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fae-form-dev,WHATWG
 api/HTMLButtonElement/formAction,,4,,9,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fs-formaction,WHATWG
@@ -3045,7 +3046,7 @@ api/HTMLButtonElement/labels,,56,,6,,5.1,,false,true,false,https://html.spec.wha
 api/HTMLButtonElement/name,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fe-name,WHATWG
 api/HTMLButtonElement/popoverTargetAction,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#dom-popovertargetaction,WHATWG
 api/HTMLButtonElement/popoverTargetElement,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#dom-popovertargetelement,WHATWG
-api/HTMLButtonElement/popoverTargetElement/implicit_anchor_reference,,preview,,133,,,,true,true,false,,NONE
+api/HTMLButtonElement/popoverTargetElement/implicit_anchor_reference,,147,,133,,26,,false,true,false,https://drafts.csswg.org/css-anchor-position/#implicit-anchor-element,W3C
 api/HTMLButtonElement/reportValidity,,49,,40,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-reportvalidity-dev,WHATWG
 api/HTMLButtonElement/setCustomValidity,,4,,4,,5,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-setcustomvalidity-dev,WHATWG
 api/HTMLButtonElement/type,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#dom-button-type,WHATWG
@@ -3179,7 +3180,7 @@ api/HTMLElement/popover,,125,,114,,17,,false,true,false,https://html.spec.whatwg
 api/HTMLElement/popover/hint,,,,133,,,,true,true,false,https://html.spec.whatwg.org/multipage/popover.html#attr-popover-hint,WHATWG
 api/HTMLElement/showPopover,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#dom-showpopover,WHATWG
 api/HTMLElement/showPopover/options_source_parameter,,144,,137,,26,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-showpopoveroptions-source,WHATWG
-api/HTMLElement/showPopover/options_source_parameter/implicit_anchor_reference,,141,,133,,,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#:~:text=Set%20element's%20implicit%20anchor%20element%20to%20invoker.,WHATWG
+api/HTMLElement/showPopover/options_source_parameter/implicit_anchor_reference,,147,,133,,26,,false,true,false,https://drafts.csswg.org/css-anchor-position/#implicit-anchor-element,W3C
 api/HTMLElement/spellcheck,,2,,9,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-spellcheck-dev,WHATWG
 api/HTMLElement/style,,1,,1,,3,,false,true,false,https://drafts.csswg.org/cssom/#dom-elementcssinlinestyle-style,W3C
 api/HTMLElement/style/returns_CSSStyleProperties,,145,,,,26,,false,true,false,https://drafts.csswg.org/cssom/#dom-elementcssinlinestyle-style,W3C
@@ -3189,7 +3190,7 @@ api/HTMLElement/togglePopover,,125,,114,,17,,false,true,false,https://html.spec.
 api/HTMLElement/togglePopover/force_parameter,,141,,116,,17,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-togglepopoveroptions-force,WHATWG
 api/HTMLElement/togglePopover/options_force_parameter,,141,,130,,18.4,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-togglepopoveroptions-force,WHATWG
 api/HTMLElement/togglePopover/options_source_parameter,,144,,137,,26,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-showpopoveroptions-source,WHATWG
-api/HTMLElement/togglePopover/options_source_parameter/implicit_anchor_reference,,preview,,133,,26,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#:~:text=Set%20element's%20implicit%20anchor%20element%20to%20invoker.,WHATWG
+api/HTMLElement/togglePopover/options_source_parameter/implicit_anchor_reference,,147,,133,,26,,false,true,false,https://drafts.csswg.org/css-anchor-position/#implicit-anchor-element,W3C
 api/HTMLElement/togglePopover/returns_boolean,,125,,116,,17,,false,true,false,,NONE
 api/HTMLElement/toggle_event,,49,,36,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-toggle,WHATWG
 api/HTMLElement/toggle_event/details_elements,,49,,36,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-toggle,WHATWG
@@ -3397,7 +3398,7 @@ api/HTMLInputElement/pattern,,4,,4,,5,,false,true,false,https://html.spec.whatwg
 api/HTMLInputElement/placeholder,,4,,3,,4,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#dom-input-placeholder,WHATWG
 api/HTMLInputElement/popoverTargetAction,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#dom-popovertargetaction,WHATWG
 api/HTMLInputElement/popoverTargetElement,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#dom-popovertargetelement,WHATWG
-api/HTMLInputElement/popoverTargetElement/implicit_anchor_reference,,preview,,133,,,,true,true,false,,NONE
+api/HTMLInputElement/popoverTargetElement/implicit_anchor_reference,,147,,133,,26,,false,true,false,https://drafts.csswg.org/css-anchor-position/#implicit-anchor-element,W3C
 api/HTMLInputElement/readOnly,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#dom-input-readonly,WHATWG
 api/HTMLInputElement/reportValidity,,49,,40,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-reportvalidity-dev,WHATWG
 api/HTMLInputElement/required,,4,,4,,5,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#dom-input-required,WHATWG
@@ -6216,7 +6217,7 @@ api/RTCRtpSender/getParameters/return_object_property_degradationPreference,,138
 api/RTCRtpSender/getParameters/return_object_property_encodings,,46,,69,,12.1,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpsendparameters-encodings,W3C
 api/RTCRtpSender/getParameters/return_object_property_headerExtensions,,46,,69,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpparameters-headerextensions,W3C
 api/RTCRtpSender/getParameters/return_object_property_rtcp,,46,,69,,15,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpparameters-rtcp,W3C
-api/RTCRtpSender/getParameters/return_object_property_transactionId,,,,69,,12.1,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpsendparameters-transactionid,W3C
+api/RTCRtpSender/getParameters/return_object_property_transactionId,,110,,69,,12.1,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpsendparameters-transactionid,W3C
 api/RTCRtpSender/getStats,,55,,67,,12.1,,false,true,false,https://w3c.github.io/webrtc-pc/#widl-RTCRtpSender-getStats-Promise-RTCStatsReport,W3C
 api/RTCRtpSender/replaceTrack,,34,,65,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpsender-replacetrack,W3C
 api/RTCRtpSender/rtcpTransport,,,,75,,,,false,true,true,,NONE
@@ -6235,7 +6236,7 @@ api/RTCRtpSender/setParameters/parameters_encodings_parameter/rid,,46,,,,,,false
 api/RTCRtpSender/setParameters/parameters_encodings_parameter/scaleResolutionDownBy,,46,,74,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpencodingparameters-scaleresolutiondownby,W3C
 api/RTCRtpSender/setParameters/parameters_headerExtensions_parameter,,46,,69,,12.1,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpparameters-headerextensions,W3C
 api/RTCRtpSender/setParameters/parameters_rtcp_parameter,,46,,69,,15,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpparameters-rtcp,W3C
-api/RTCRtpSender/setParameters/parameters_transactionId_parameter,,,,69,,12.1,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpsendparameters-transactionid,W3C
+api/RTCRtpSender/setParameters/parameters_transactionId_parameter,,110,,69,,12.1,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpsendparameters-transactionid,W3C
 api/RTCRtpSender/setStreams,,113,,76,,14.1,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpsender-setstreams,W3C
 api/RTCRtpSender/track,,34,,64,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcrtpsender-track,W3C
 api/RTCRtpSender/transform,,117,,141,,15.4,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcrtpsender-transform,W3C
@@ -7571,7 +7572,7 @@ api/ShadowRoot/pictureInPictureElement,,,,69,,13.1,,false,true,false,https://w3c
 api/ShadowRoot/pointerLockElement,,63,,53,,10.1,,false,true,false,https://w3c.github.io/pointerlock/#dom-documentorshadowroot-pointerlockelement,W3C
 api/ShadowRoot/referenceTarget,,149,"[{""name"":""dom.shadowdom.referenceTarget.enabled"",""type"":""preference"",""value_to_set"":""true""}]",133,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""true""}]",26,"[{""name"":""referenceTarget"",""type"":""preference"",""value_to_set"":""true""},{""name"":""referenceTarget support for aria-owns"",""type"":""preference"",""value_to_set"":""true""}]",true,false,false,,NONE
 api/ShadowRoot/serializable,,128,,125,,18,,false,true,false,https://dom.spec.whatwg.org/#dom-shadowroot-serializable,WHATWG
-api/ShadowRoot/setHTML,,preview,,,,,,true,true,false,https://wicg.github.io/sanitizer-api/#dom-shadowroot-sethtml,W3CCG
+api/ShadowRoot/setHTML,,148,,,,,,true,true,false,https://wicg.github.io/sanitizer-api/#dom-shadowroot-sethtml,W3CCG
 api/ShadowRoot/setHTMLUnsafe,,123,,124,,26,,false,true,false,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-shadowroot-sethtmlunsafe,WHATWG
 api/ShadowRoot/setHTMLUnsafe/enforces_trusted_types,,preview,,124,,26,,false,true,false,https://w3c.github.io/trusted-types/dist/spec/#dom-xss-injection-sinks,W3C
 api/ShadowRoot/setHTMLUnsafe/options_sanitizer_parameter,,preview,,,,,,true,true,false,https://wicg.github.io/sanitizer-api/#dom-shadowroot-sethtmlunsafe,W3CCG
@@ -13216,7 +13217,7 @@ css/selectors/nth-last-child/of_syntax,,113,,111,,9,,false,true,false,,NONE
 css/selectors/nth-last-of-type,,3.5,,4,,3.1,,false,true,false,https://drafts.csswg.org/selectors/#nth-last-of-type-pseudo,W3C
 css/selectors/nth-of-type,,3.5,,1,,3.1,,false,true,false,https://drafts.csswg.org/selectors/#nth-of-type-pseudo,W3C
 css/selectors/only-child,,1.5,,2,,3.1,,false,true,false,https://drafts.csswg.org/selectors/#only-child-pseudo,W3C
-css/selectors/only-child/no_parent_required,,52,,57,,,,false,true,false,,NONE
+css/selectors/only-child/no_parent_required,,52,,57,,17,,false,true,false,,NONE
 css/selectors/only-of-type,,3.5,,1,,3.1,,false,true,false,https://drafts.csswg.org/selectors/#only-of-type-pseudo,W3C
 css/selectors/open,,136,,133,,,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-open,WHATWG
 css/selectors/optional,,4,,10,,5,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-optional,WHATWG
@@ -13701,6 +13702,7 @@ html/elements/button,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/mul
 html/elements/button/command,,144,,135,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command,WHATWG
 html/elements/button/command/request-close,,144,,139,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command-request-close,WHATWG
 html/elements/button/commandfor,,144,,135,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-commandfor,WHATWG
+html/elements/button/commandfor/implicit_anchor_reference,,147,,135,,26.2,,false,true,false,https://drafts.csswg.org/css-anchor-position/#implicit-anchor-element,W3C
 html/elements/button/disabled,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-disabled,WHATWG
 html/elements/button/form,,4,,9,,5.1,,false,true,false,,NONE
 html/elements/button/formaction,,4,,9,,5.1,,false,true,false,,NONE
@@ -13711,7 +13713,7 @@ html/elements/button/formtarget,,4,,9,,5.1,,false,true,false,,NONE
 html/elements/button/interestfor,,,,142,,,,true,false,false,,NONE
 html/elements/button/name,,1,,1,,≤4,,false,true,false,,NONE
 html/elements/button/popovertarget,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#attr-popovertarget,WHATWG
-html/elements/button/popovertarget/implicit_anchor_reference,,preview,,133,,,,true,true,false,,NONE
+html/elements/button/popovertarget/implicit_anchor_reference,,147,,133,,26,,false,true,false,https://drafts.csswg.org/css-anchor-position/#implicit-anchor-element,W3C
 html/elements/button/popovertargetaction,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#attr-popovertargetaction,WHATWG
 html/elements/button/type,,1,,1,,≤4,,false,true,false,,NONE
 html/elements/button/value,,1,,1,,≤4,,false,true,false,,NONE
@@ -13970,7 +13972,7 @@ html/elements/input/name,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org
 html/elements/input/pattern,,4,,4,,5,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#attr-input-pattern,WHATWG
 html/elements/input/placeholder,,4,,3,,4,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#attr-input-placeholder,WHATWG
 html/elements/input/popovertarget,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#attr-popovertarget,WHATWG
-html/elements/input/popovertarget/implicit_anchor_reference,,preview,,133,,,,true,true,false,,NONE
+html/elements/input/popovertarget/implicit_anchor_reference,,147,,133,,26,,false,true,false,https://drafts.csswg.org/css-anchor-position/#implicit-anchor-element,W3C
 html/elements/input/popovertargetaction,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#attr-popovertargetaction,WHATWG
 html/elements/input/readonly,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#attr-input-readonly,WHATWG
 html/elements/input/required,,4,,4,,5,,false,true,false,https://html.spec.whatwg.org/multipage/input.html#attr-input-required,WHATWG
@@ -14054,6 +14056,9 @@ html/elements/link/rel/expect,,,,124,,,,true,true,false,https://html.spec.whatwg
 html/elements/link/rel/icon,,2,,4,,3.1,,false,true,false,,NONE
 html/elements/link/rel/manifest,,,,39,,17,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#link-type-manifest,WHATWG
 html/elements/link/rel/modulepreload,,115,,66,,17,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#link-type-modulepreload,WHATWG
+html/elements/link/rel/modulepreload/as-json,,,,147,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#module-preload-destination,WHATWG
+html/elements/link/rel/modulepreload/as-script,,115,,66,,17,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#module-preload-destination,WHATWG
+html/elements/link/rel/modulepreload/as-style,,,,147,,,,true,true,false,https://html.spec.whatwg.org/multipage/links.html#module-preload-destination,WHATWG
 html/elements/link/rel/preconnect,,39,,46,,11.1,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#link-type-preconnect,WHATWG
 html/elements/link/rel/prefetch,,2,,8,,13.1,"[{""name"":""LinkPrefetch"",""type"":""preference""}]",false,true,false,https://html.spec.whatwg.org/multipage/links.html#link-type-prefetch,WHATWG
 html/elements/link/rel/preload,,85,,50,,11.1,,false,true,false,https://html.spec.whatwg.org/multipage/links.html#link-type-preload,WHATWG
@@ -14631,6 +14636,7 @@ http/headers/Permissions-Policy/deferred-fetch-minimal,,,,135,,,,true,true,false
 http/headers/Permissions-Policy/display-capture,,,,94,,,,true,true,false,https://w3c.github.io/mediacapture-screen-share/#permissions-policy-integration,W3C
 http/headers/Permissions-Policy/encrypted-media,,,,88,,,,true,true,false,https://w3c.github.io/encrypted-media/#permissions-policy-integration,W3C
 http/headers/Permissions-Policy/fullscreen,,,,88,,,,true,true,false,https://fullscreen.spec.whatwg.org/#permissions-policy-integration,WHATWG
+http/headers/Permissions-Policy/gamepad,,,,103,,,,true,true,false,https://w3c.github.io/gamepad/#permission-policy,W3C
 http/headers/Permissions-Policy/geolocation,,,,88,,,,true,true,false,https://w3c.github.io/geolocation/#permissions-policy,W3C
 http/headers/Permissions-Policy/gyroscope,,,,88,,,,true,true,false,https://w3c.github.io/sensors/#permissions-policy,W3C
 http/headers/Permissions-Policy/hid,,,,89,,,,true,true,false,https://wicg.github.io/webhid/#permissions-policy,W3CCG
