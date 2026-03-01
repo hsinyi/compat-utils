@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4005638475,false,Import map read/write API,https://github.com/whatwg/html/issues/12217,2026-02-28T22:57:06Z,2026-02-28T22:57:57Z,LeaVerou,addition/proposal|needs implementer interest|topic: imports/exports,0
+4004866507,false,Feature request: multi-cursor support for `<textarea>` and `contenteditable`,https://github.com/whatwg/html/issues/12216,2026-02-28T15:43:39Z,2026-02-28T15:43:39Z,jimmywarting,addition/proposal|needs implementer interest,0
 4002485888,false,`fetch a single module script` always defaults to javascript modules for top level fetches,https://github.com/whatwg/html/issues/12214,2026-02-27T19:14:07Z,2026-02-27T19:14:07Z,Gae24,,0
 4001978418,false,Cloning a template's content into another template's shadow tree doesn't update its custom element registry,https://github.com/whatwg/html/issues/12213,2026-02-27T17:02:56Z,2026-02-27T17:02:56Z,AtkinsSJ,,0
 4000834624,false,HTML fragment parsing algorithm needs to set its document's base url,https://github.com/whatwg/html/issues/12210,2026-02-27T12:36:54Z,2026-02-27T12:36:54Z,AtkinsSJ,,0
@@ -11,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3984219801,true,optgroup display:block?,https://github.com/whatwg/html/issues/12196,2026-02-24T15:02:50Z,2026-02-25T06:15:47Z,annevk,topic: rendering|topic: select,0
 3982788173,false,Is <slot dir=auto> special case needed?,https://github.com/whatwg/html/issues/12192,2026-02-24T10:22:00Z,2026-02-24T16:55:27Z,vinhill,,0
 3981225253,false,Implementation-defined ordering of task queues leading to interoperability issue with `popstate` and `hashchange` events,https://github.com/whatwg/html/issues/12190,2026-02-24T03:02:03Z,2026-02-26T07:53:10Z,avandolder,topic: navigation,0
-3973118440,false,"Proposal: Improve UI stepping behavior in <input type=""number"">",https://github.com/whatwg/html/issues/12188,2026-02-22T00:06:14Z,2026-02-22T00:07:11Z,xavierholt,addition/proposal|needs implementer interest,1
+3973118440,false,"Proposal: Improve UI stepping behavior in <input type=""number"">",https://github.com/whatwg/html/issues/12188,2026-02-22T00:06:14Z,2026-02-28T20:03:49Z,xavierholt,addition/proposal|needs implementer interest,1
 3969567391,false,Special case label associated with a button in popover light dismiss,https://github.com/whatwg/html/issues/12185,2026-02-20T17:21:12Z,2026-02-20T18:53:02Z,lukewarlow,addition/proposal|needs implementer interest|topic: popover,1
 3969036561,false,:hover and :active changes for <select>,https://github.com/whatwg/html/issues/12183,2026-02-20T15:11:50Z,2026-02-20T17:46:53Z,annevk,topic: selectors|topic: select,0
 3965012045,false,Signaling abort before nulling out onging event in #abort-a-navigateevent can trigger assert in firing navigate event,https://github.com/whatwg/html/issues/12180,2026-02-19T20:46:08Z,2026-02-19T20:46:08Z,farre,topic: navigation,0
@@ -311,7 +313,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3348324478,false,Clarify whether the introduction is normative,https://github.com/whatwg/html/issues/11593,2025-08-23T14:40:50Z,2025-09-17T07:32:25Z,BrianJDrake,clarification,1
 3348303515,false,Clarify whether this specification is being serious,https://github.com/whatwg/html/issues/11592,2025-08-23T14:25:00Z,2025-09-07T10:44:54Z,BrianJDrake,topic: parser,2
 3342439619,true,An urgent concern and petition for XSLT,https://github.com/whatwg/html/issues/11590,2025-08-21T16:35:42Z,2025-08-23T03:41:47Z,sjehuda,,11
-3338775631,false,Support for managing id's declaratively,https://github.com/whatwg/html/issues/11585,2025-08-20T16:30:01Z,2025-08-30T14:39:19Z,bahrus,addition/proposal|needs implementer interest,2
+3338775631,false,Support for managing id's declaratively,https://github.com/whatwg/html/issues/11585,2025-08-20T16:30:01Z,2026-02-28T20:44:26Z,bahrus,addition/proposal|needs implementer interest,2
 3338663410,false,Allow custom-elements to be a labelable element without being form-associated.,https://github.com/whatwg/html/issues/11584,2025-08-20T15:54:56Z,2025-08-21T12:24:55Z,lukewarlow,addition/proposal|needs implementer interest|topic: custom elements|topic: forms,2
 3338121627,false,Proposal: localized command references without IDs,https://github.com/whatwg/html/issues/11583,2025-08-20T13:19:45Z,2025-09-08T14:03:57Z,noamr,addition/proposal|needs implementer interest,2
 3337792182,true,XSLT removal will break multiple government and regulatory sites across the world,https://github.com/whatwg/html/issues/11582,2025-08-20T11:42:09Z,2025-08-23T03:39:49Z,dmitriid,,96
@@ -2011,7 +2013,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1195606863,false,<canvas> width/height attributes can throw?,https://github.com/whatwg/html/issues/7798,2022-04-07T07:03:42Z,2022-04-15T02:43:36Z,annevk,topic: canvas,1
 1195293940,false,Require user gestures to accept registerProtocolHandler request,https://github.com/whatwg/html/issues/7797,2022-04-06T23:15:58Z,2023-01-23T00:15:11Z,javifernandez,topic: custom protocols,1
 1195246197,true,Inert subtree section is missing requirement that it should NOT be exposed to accessibility,https://github.com/whatwg/html/issues/7796,2022-04-06T22:26:44Z,2023-02-16T06:56:01Z,cookiecrook,,1
-1194256346,false,Feature proposal: input[mask],https://github.com/whatwg/html/issues/7794,2022-04-06T08:28:15Z,2025-05-19T14:48:19Z,Akxe,addition/proposal|needs implementer interest|topic: forms,9
+1194256346,false,Feature proposal: input[mask],https://github.com/whatwg/html/issues/7794,2022-04-06T08:28:15Z,2026-02-28T16:09:05Z,Akxe,addition/proposal|needs implementer interest|topic: forms,9
 1193376515,true,EvenSource BOM definition,https://github.com/whatwg/html/issues/7791,2022-04-05T15:48:34Z,2022-04-05T17:33:02Z,johntalton,clarification|topic: eventsource,0
 1192965142,false,showPicker() doesn't allow detecting whether a picker can be shown,https://github.com/whatwg/html/issues/7790,2022-04-05T10:39:32Z,2022-04-05T17:13:15Z,emilio,topic: forms,8
 1192425309,true,New feature proposal: Popover API,https://github.com/whatwg/html/issues/7785,2022-04-04T23:27:05Z,2023-03-03T15:28:53Z,mfreed7,addition/proposal,3
