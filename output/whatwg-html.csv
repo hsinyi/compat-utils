@@ -1,7 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4009527218,true,"Proposal for a native <type-writer> element for declarative, accessible text animation.",https://github.com/whatwg/html/issues/12220,2026-03-02T06:22:39Z,2026-03-02T07:29:59Z,anafibnshahibul,,0
 4005638475,false,Import map read/write API,https://github.com/whatwg/html/issues/12217,2026-02-28T22:57:06Z,2026-02-28T22:57:57Z,LeaVerou,addition/proposal|needs implementer interest|topic: imports/exports,0
 4004866507,false,Feature request: multi-cursor support for `<textarea>` and `contenteditable`,https://github.com/whatwg/html/issues/12216,2026-02-28T15:43:39Z,2026-02-28T15:43:39Z,jimmywarting,addition/proposal|needs implementer interest,0
-4002485888,false,`fetch a single module script` always defaults to javascript modules for top level fetches,https://github.com/whatwg/html/issues/12214,2026-02-27T19:14:07Z,2026-02-27T19:14:07Z,Gae24,,0
+4002485888,false,`fetch a single module script` always defaults to javascript modules for top level fetches,https://github.com/whatwg/html/issues/12214,2026-02-27T19:14:07Z,2026-03-02T09:52:21Z,Gae24,topic: fetch|topic: script,0
 4001978418,false,Cloning a template's content into another template's shadow tree doesn't update its custom element registry,https://github.com/whatwg/html/issues/12213,2026-02-27T17:02:56Z,2026-02-27T17:02:56Z,AtkinsSJ,,0
 4000834624,false,HTML fragment parsing algorithm needs to set its document's base url,https://github.com/whatwg/html/issues/12210,2026-02-27T12:36:54Z,2026-02-27T12:36:54Z,AtkinsSJ,,0
 4000797740,false,HTML fragment parsing algorithm needs to set its document's custom element registry,https://github.com/whatwg/html/issues/12209,2026-02-27T12:27:31Z,2026-02-27T17:03:26Z,AtkinsSJ,topic: parser|topic: custom elements,0
@@ -22,7 +23,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3961466511,false,#navigation-api-method-tracker-clean-up can be re-entered from #performing-a-navigation-api-traversal,https://github.com/whatwg/html/issues/12176,2026-02-19T07:47:58Z,2026-02-19T07:47:58Z,farre,topic: navigation,0
 3948100557,false,"The exact `formDisabledCallback` and `formAssociatedCallback` semantics are not specified, only derivable from informative comments",https://github.com/whatwg/html/issues/12169,2026-02-16T14:41:54Z,2026-02-18T16:51:59Z,Lubrsi,topic: custom elements,0
 3944566036,false,Assert violation in 'resolve the finished promise' for non-intercepted same-document traversals,https://github.com/whatwg/html/issues/12165,2026-02-15T17:44:05Z,2026-02-18T16:52:53Z,tete17,topic: navigation,0
-3940575135,false,`Link` (or other) HTTP header to link to external import map?,https://github.com/whatwg/html/issues/12164,2026-02-14T06:11:30Z,2026-02-28T08:07:10Z,LeaVerou,addition/proposal|needs implementer interest|topic: imports/exports,2
+3940575135,false,`Link` (or other) HTTP header to link to external import map?,https://github.com/whatwg/html/issues/12164,2026-02-14T06:11:30Z,2026-03-02T05:41:09Z,LeaVerou,addition/proposal|needs implementer interest|topic: imports/exports,2
 3940513794,false,`specifier:` URL protocol for retrofitting specifiers in places designed for URLs,https://github.com/whatwg/html/issues/12163,2026-02-14T05:32:32Z,2026-02-27T01:54:07Z,LeaVerou,addition/proposal|needs implementer interest|topic: imports/exports,4
 3938865566,false,The `translatable-data-*` attribute,https://github.com/whatwg/html/issues/12162,2026-02-13T19:47:19Z,2026-02-19T09:54:01Z,mfreed7,,1
 3935920337,false,Exclude whitespace-only src attributes from fetching resources,https://github.com/whatwg/html/issues/12160,2026-02-13T08:09:33Z,2026-02-23T22:48:11Z,hsivonen,topic: fetch|needs tests|needs concrete proposal,0
@@ -938,7 +939,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2367687964,true,Improving Enumerated Attributes in the HTML Standard,https://github.com/whatwg/html/issues/10426,2024-06-22T08:25:54Z,2024-06-22T10:29:21Z,adx04,invalid,0
 2367318674,true,Structured serialization does not allow [[PrivateElements]] or any other ES-internal internal slots,https://github.com/whatwg/html/issues/10425,2024-06-21T22:25:30Z,2024-07-02T01:36:15Z,hotsphink,topic: serialize and transfer,0
 2367309496,false,RawJSON objects should be structured serializable/deserializable,https://github.com/whatwg/html/issues/10424,2024-06-21T22:12:30Z,2024-06-22T09:53:08Z,hotsphink,addition/proposal|needs implementer interest|topic: serialize and transfer,0
-2367172534,false,Allow for named base URLs so that relative links can be used for multiple websites or subsites,https://github.com/whatwg/html/issues/10423,2024-06-21T20:02:42Z,2026-03-01T18:26:41Z,knowler,addition/proposal|needs implementer interest,2
+2367172534,false,Allow for named base URLs so that relative links can be used for multiple websites or subsites,https://github.com/whatwg/html/issues/10423,2024-06-21T20:02:42Z,2026-03-02T06:34:30Z,knowler,addition/proposal|needs implementer interest,2
 2366601411,true,Upcoming WHATNOT meeting on 6/27/2024,https://github.com/whatwg/html/issues/10422,2024-06-21T13:54:03Z,2024-06-27T10:39:48Z,past,agenda+,0
 2364363412,true,Warning for probably-buggy WebIDL conversions?,https://github.com/whatwg/html/issues/10419,2024-06-20T12:49:45Z,2024-06-21T22:14:12Z,benjamingr,,0
 2363995193,true,window.close() incorrectly refers to incumbent global object's node navigable,https://github.com/whatwg/html/issues/10418,2024-06-20T09:39:56Z,2024-07-02T08:54:28Z,awesomekling,,0
@@ -2083,7 +2084,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1128211306,true,Formal complaint: search element standardization,https://github.com/whatwg/html/issues/7594,2022-02-09T08:34:31Z,2022-02-10T10:29:31Z,Kaleidea,,0
 1127384263,true,Add a single radius version of CanvasRenderingContext2D.roundRect,https://github.com/whatwg/html/issues/7592,2022-02-08T15:10:56Z,2022-02-17T21:44:59Z,mysteryDate,addition/proposal|needs implementer interest|topic: canvas,1
 1127115952,false,Consider not exposing ErrorEvent/PromiseRejectionEvent in ShadowRealms,https://github.com/whatwg/html/issues/7591,2022-02-08T11:14:29Z,2024-07-25T08:01:54Z,smaug----,topic: multiple globals|integration,0
-1126672278,false,Deprecate <rp> element,https://github.com/whatwg/html/issues/7590,2022-02-08T01:04:58Z,2023-10-26T11:37:35Z,NagayamaToshiaki,removal/deprecation|document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,6
+1126672278,false,Deprecate <rp> element,https://github.com/whatwg/html/issues/7590,2022-02-08T01:04:58Z,2026-03-02T01:17:17Z,NagayamaToshiaki,removal/deprecation|document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,6
 1126330353,true,"""prepare a script"" could be more precise about documents",https://github.com/whatwg/html/issues/7589,2022-02-07T18:11:42Z,2022-05-18T23:42:17Z,domenic,clarification|topic: script,1
 1125672254,true,Reconsider the `<rb>` element,https://github.com/whatwg/html/issues/7587,2022-02-07T08:36:17Z,2024-03-28T02:24:31Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,1
 1125254296,true,"""Focusing steps"" doesn't initially indicate that ""new focus target"" can be null",https://github.com/whatwg/html/issues/7585,2022-02-06T16:50:25Z,2022-02-07T00:33:18Z,awesomekling,,0
@@ -4906,7 +4907,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 176669868,true,"audio/video loads should set the ""same-origin data-URL"" flag",https://github.com/whatwg/html/issues/1779,2016-09-13T15:18:52Z,2016-10-10T17:30:06Z,bzbarsky,topic: media|topic: fetch,0
 176668497,true,Errors from data: scripts should not be muted,https://github.com/whatwg/html/issues/1778,2016-09-13T15:13:44Z,2016-10-10T17:30:06Z,bzbarsky,topic: fetch,0
 176634547,true,Merge appropriate parts of File and Directory Entries into HTML when ready,https://github.com/whatwg/html/issues/1777,2016-09-13T13:03:49Z,2020-10-13T10:32:01Z,jez9999,addition/proposal|topic: forms|interop,1
-176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2022-10-24T01:32:48Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,0
+176243059,false,rb and rtc element should be removed from the list of obsolete features,https://github.com/whatwg/html/issues/1771,2016-09-11T13:09:32Z,2026-03-02T12:02:08Z,upsuper,document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,1
 175980447,false,Specify how to fetch <link rel=icon>,https://github.com/whatwg/html/issues/1769,2016-09-09T10:43:37Z,2025-09-30T08:41:59Z,zcorpan,topic: fetch,0
 175916893,true,Multipage redirection isn't always working anymore,https://github.com/whatwg/html/issues/1767,2016-09-09T03:06:41Z,2016-09-12T21:33:24Z,domenic,spec tooling,0
 175905234,true,Add onclose event to MessagePort,https://github.com/whatwg/html/issues/1766,2016-09-09T01:30:10Z,2025-10-08T23:05:26Z,isonmad,addition/proposal|needs implementer interest|topic: events,28
