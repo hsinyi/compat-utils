@@ -11,9 +11,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3989379191,false,"Proposal: Reflect whether an element is ""open"" (children being parsed)",https://github.com/whatwg/html/issues/12200,2026-02-25T13:04:56Z,2026-02-25T14:10:14Z,noamr,addition/proposal|needs implementer interest,0
 3989131315,false,option and optgroup rendering requirements,https://github.com/whatwg/html/issues/12199,2026-02-25T12:16:41Z,2026-02-25T19:53:43Z,annevk,topic: rendering|topic: select,0
 3984219801,true,optgroup display:block?,https://github.com/whatwg/html/issues/12196,2026-02-24T15:02:50Z,2026-02-25T06:15:47Z,annevk,topic: rendering|topic: select,0
-3982788173,false,Is <slot dir=auto> special case needed?,https://github.com/whatwg/html/issues/12192,2026-02-24T10:22:00Z,2026-02-24T16:55:27Z,vinhill,,0
+3982788173,false,Is <slot dir=auto> special case needed?,https://github.com/whatwg/html/issues/12192,2026-02-24T10:22:00Z,2026-03-01T15:16:04Z,vinhill,i18n-tracker,0
 3981225253,false,Implementation-defined ordering of task queues leading to interoperability issue with `popstate` and `hashchange` events,https://github.com/whatwg/html/issues/12190,2026-02-24T03:02:03Z,2026-02-26T07:53:10Z,avandolder,topic: navigation,0
-3973118440,false,"Proposal: Improve UI stepping behavior in <input type=""number"">",https://github.com/whatwg/html/issues/12188,2026-02-22T00:06:14Z,2026-03-01T07:09:40Z,xavierholt,addition/proposal|needs implementer interest,1
+3973118440,false,"Proposal: Improve UI stepping behavior in <input type=""number"">",https://github.com/whatwg/html/issues/12188,2026-02-22T00:06:14Z,2026-03-01T14:51:46Z,xavierholt,addition/proposal|needs implementer interest|topic: forms,1
 3969567391,false,Special case label associated with a button in popover light dismiss,https://github.com/whatwg/html/issues/12185,2026-02-20T17:21:12Z,2026-02-20T18:53:02Z,lukewarlow,addition/proposal|needs implementer interest|topic: popover,1
 3969036561,false,:hover and :active changes for <select>,https://github.com/whatwg/html/issues/12183,2026-02-20T15:11:50Z,2026-02-20T17:46:53Z,annevk,topic: selectors|topic: select,0
 3965012045,false,Signaling abort before nulling out onging event in #abort-a-navigateevent can trigger assert in firing navigate event,https://github.com/whatwg/html/issues/12180,2026-02-19T20:46:08Z,2026-02-19T20:46:08Z,farre,topic: navigation,0
@@ -30,7 +30,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3930750339,false,Interop: focusability of `dialog[popover]`,https://github.com/whatwg/html/issues/12156,2026-02-12T09:23:09Z,2026-02-12T09:24:24Z,jpzwarte,topic: dialog|topic: popover,0
 3930439514,false,Determining dropEffect based on effectAllowed + modifier keys,https://github.com/whatwg/html/issues/12155,2026-02-12T08:13:21Z,2026-02-26T17:27:21Z,tanu18,,0
 3928896424,false,Unblock Document-Policy to Policy Container PR,https://github.com/whatwg/html/issues/12154,2026-02-11T22:09:37Z,2026-02-17T14:29:10Z,monica-ch,,0
-3923058520,false,Platform-Provided Behaviors for Custom Elements,https://github.com/whatwg/html/issues/12150,2026-02-10T18:55:59Z,2026-02-27T19:24:50Z,anaskim,addition/proposal|needs implementer interest,0
+3923058520,false,Platform-Provided Behaviors for Custom Elements,https://github.com/whatwg/html/issues/12150,2026-02-10T18:55:59Z,2026-03-01T16:44:26Z,anaskim,addition/proposal|needs implementer interest,0
 3917833084,false,Incorrect definition for media element pseudo class `:stalled`,https://github.com/whatwg/html/issues/12145,2026-02-09T19:42:39Z,2026-02-11T08:04:52Z,alastor0325,topic: media|topic: selectors,0
 3908815904,true,Upcoming WHATNOT meeting on 2026-02-12,https://github.com/whatwg/html/issues/12141,2026-02-06T23:24:04Z,2026-02-26T01:01:22Z,cwilso,,0
 3907067934,false,`<link rel=stylesheet>` waits for critical subresources before we know what they are,https://github.com/whatwg/html/issues/12140,2026-02-06T14:35:46Z,2026-02-09T21:59:31Z,AtkinsSJ,topic: style,0
@@ -938,7 +938,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2367687964,true,Improving Enumerated Attributes in the HTML Standard,https://github.com/whatwg/html/issues/10426,2024-06-22T08:25:54Z,2024-06-22T10:29:21Z,adx04,invalid,0
 2367318674,true,Structured serialization does not allow [[PrivateElements]] or any other ES-internal internal slots,https://github.com/whatwg/html/issues/10425,2024-06-21T22:25:30Z,2024-07-02T01:36:15Z,hotsphink,topic: serialize and transfer,0
 2367309496,false,RawJSON objects should be structured serializable/deserializable,https://github.com/whatwg/html/issues/10424,2024-06-21T22:12:30Z,2024-06-22T09:53:08Z,hotsphink,addition/proposal|needs implementer interest|topic: serialize and transfer,0
-2367172534,false,Allow for named base URLs so that relative links can be used for multiple websites or subsites,https://github.com/whatwg/html/issues/10423,2024-06-21T20:02:42Z,2026-03-01T07:46:54Z,knowler,addition/proposal|needs implementer interest,2
+2367172534,false,Allow for named base URLs so that relative links can be used for multiple websites or subsites,https://github.com/whatwg/html/issues/10423,2024-06-21T20:02:42Z,2026-03-01T18:26:41Z,knowler,addition/proposal|needs implementer interest,2
 2366601411,true,Upcoming WHATNOT meeting on 6/27/2024,https://github.com/whatwg/html/issues/10422,2024-06-21T13:54:03Z,2024-06-27T10:39:48Z,past,agenda+,0
 2364363412,true,Warning for probably-buggy WebIDL conversions?,https://github.com/whatwg/html/issues/10419,2024-06-20T12:49:45Z,2024-06-21T22:14:12Z,benjamingr,,0
 2363995193,true,window.close() incorrectly refers to incumbent global object's node navigable,https://github.com/whatwg/html/issues/10418,2024-06-20T09:39:56Z,2024-07-02T08:54:28Z,awesomekling,,0
@@ -2083,7 +2083,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1128211306,true,Formal complaint: search element standardization,https://github.com/whatwg/html/issues/7594,2022-02-09T08:34:31Z,2022-02-10T10:29:31Z,Kaleidea,,0
 1127384263,true,Add a single radius version of CanvasRenderingContext2D.roundRect,https://github.com/whatwg/html/issues/7592,2022-02-08T15:10:56Z,2022-02-17T21:44:59Z,mysteryDate,addition/proposal|needs implementer interest|topic: canvas,1
 1127115952,false,Consider not exposing ErrorEvent/PromiseRejectionEvent in ShadowRealms,https://github.com/whatwg/html/issues/7591,2022-02-08T11:14:29Z,2024-07-25T08:01:54Z,smaug----,topic: multiple globals|integration,0
-1126672278,false,Deprecate <rp> element,https://github.com/whatwg/html/issues/7590,2022-02-08T01:04:58Z,2023-10-26T11:37:35Z,NagayamaToshiaki,removal/deprecation|document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,5
+1126672278,false,Deprecate <rp> element,https://github.com/whatwg/html/issues/7590,2022-02-08T01:04:58Z,2023-10-26T11:37:35Z,NagayamaToshiaki,removal/deprecation|document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,6
 1126330353,true,"""prepare a script"" could be more precise about documents",https://github.com/whatwg/html/issues/7589,2022-02-07T18:11:42Z,2022-05-18T23:42:17Z,domenic,clarification|topic: script,1
 1125672254,true,Reconsider the `<rb>` element,https://github.com/whatwg/html/issues/7587,2022-02-07T08:36:17Z,2024-03-28T02:24:31Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,1
 1125254296,true,"""Focusing steps"" doesn't initially indicate that ""new focus target"" can be null",https://github.com/whatwg/html/issues/7585,2022-02-06T16:50:25Z,2022-02-07T00:33:18Z,awesomekling,,0
@@ -2442,7 +2442,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 860367184,true,Refresh header field should have an IANA registration,https://github.com/whatwg/html/issues/6590,2021-04-17T09:21:04Z,2021-10-29T11:41:47Z,reschke,meta,0
 859459277,true,Should last activation timestamp be reset after navigation?,https://github.com/whatwg/html/issues/6588,2021-04-16T05:08:42Z,2022-06-27T06:56:13Z,rakina,topic: user activation,0
 858243907,true,Add FTP related protocols to the registerProtocolHandler safelist.,https://github.com/whatwg/html/issues/6583,2021-04-14T20:35:24Z,2022-02-14T15:26:30Z,asankah,,0
-857135442,true,Lazy loaded images and iframes should be forced to eager when printing,https://github.com/whatwg/html/issues/6581,2021-04-13T16:36:00Z,2024-11-08T12:49:44Z,grakz,topic: img,7
+857135442,true,Lazy loaded images and iframes should be forced to eager when printing,https://github.com/whatwg/html/issues/6581,2021-04-13T16:36:00Z,2024-11-08T12:49:44Z,grakz,topic: img,8
 856429921,true,"Maybe all navigations before the document is completely loaded should be ""replace""",https://github.com/whatwg/html/issues/6579,2021-04-12T23:19:19Z,2021-06-23T16:24:21Z,domenic,topic: navigation|interop,0
 856080891,false,New `indeterminate` attribute for <input type=checkbox>,https://github.com/whatwg/html/issues/6578,2021-04-12T15:15:09Z,2024-10-11T11:02:52Z,patrickhlauke,addition/proposal|needs implementer interest|topic: forms,6
 855472854,true,[Feature request]: <dialog> and <form> add new function,https://github.com/whatwg/html/issues/6576,2021-04-12T01:42:35Z,2021-04-27T11:28:17Z,annopnod,addition/proposal|needs implementer interest,0
@@ -3341,7 +3341,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 445428418,false,It is unclear how HostPromiseRejectionTracker should work when the Promise is created and rejected by the UA,https://github.com/whatwg/html/issues/4637,2019-05-17T12:54:38Z,2024-07-25T06:27:49Z,smaug----,topic: script|topic: error reporting,0
 445415497,true,MDN overlay makes content inaccessible,https://github.com/whatwg/html/issues/4635,2019-05-17T12:22:01Z,2019-10-08T06:11:50Z,Krinkle,,0
 445199038,true,"Fixed ""Categories:"" of autonomous-custom-element",https://github.com/whatwg/html/issues/4634,2019-05-16T23:21:57Z,2019-05-31T14:34:12Z,mtrootyy,clarification|document conformance|topic: custom elements,1
-445055689,false,Top layer research,https://github.com/whatwg/html/issues/4633,2019-05-16T16:41:22Z,2024-09-05T23:31:12Z,domenic,addition/proposal|topic: rendering|topic: popover,19
+445055689,false,Top layer research,https://github.com/whatwg/html/issues/4633,2019-05-16T16:41:22Z,2024-09-05T23:31:12Z,domenic,addition/proposal|topic: rendering|topic: popover,20
 444811229,true,"""flow content"" not exported as definition?",https://github.com/whatwg/html/issues/4632,2019-05-16T08:05:25Z,2019-09-19T06:04:19Z,marcoscaceres,,0
 444666582,false,`TimeMarchesOn` won't be ran until media element starts playing or calls seek,https://github.com/whatwg/html/issues/4631,2019-05-15T22:06:45Z,2019-06-03T14:42:02Z,alastor0325,topic: media,0
 444641423,false,Port the ECMAScript Intl API as declarative elements,https://github.com/whatwg/html/issues/4630,2019-05-15T20:56:28Z,2025-05-26T19:29:26Z,phistuck,addition/proposal|needs implementer interest|topic: forms,0
@@ -4362,7 +4362,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 239026363,true,Output caniuse boxes in the dev edition as well,https://github.com/whatwg/html/issues/2794,2017-06-28T01:17:17Z,2017-08-19T13:19:50Z,domenic,dev edition,0
 239022536,false,Allow expanding to the full table of contents in the dev edition,https://github.com/whatwg/html/issues/2793,2017-06-28T00:47:56Z,2024-02-10T21:58:14Z,domenic,spec tooling|dev edition,0
 238786200,true,take port into account for same-origin domain check,https://github.com/whatwg/html/issues/2792,2017-06-27T09:15:55Z,2018-08-07T16:14:03Z,jeisinger,normative change|needs implementer interest|security/privacy|needs compat analysis|topic: origin,0
-238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2025-10-22T13:46:15Z,TakayoshiKochi,addition/proposal|needs implementer interest,208
+238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2025-10-22T13:46:15Z,TakayoshiKochi,addition/proposal|needs implementer interest,207
 238161134,true,typo?,https://github.com/whatwg/html/issues/2788,2017-06-23T14:35:44Z,2017-06-26T19:34:34Z,momdo,,0
 238026392,false,"""its associated CSS layout box""",https://github.com/whatwg/html/issues/2786,2017-06-23T02:47:39Z,2017-06-30T18:14:01Z,cvrebert,clarification,0
 237922790,false,Add inline annotations of the bibliography references,https://github.com/whatwg/html/issues/2782,2017-06-22T17:47:29Z,2024-02-10T21:58:35Z,domenic,spec tooling|dev edition,0
