@@ -338,9 +338,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 308186089,false,Formalizing a timeout API,https://github.com/w3c/ServiceWorker/issues/1292,2018-03-23T21:36:51Z,2019-02-27T07:32:44Z,asakusuma,,5
 308113381,true,Client.postMessage() throwing for unloaded client is problematic,https://github.com/w3c/ServiceWorker/issues/1291,2018-03-23T17:15:35Z,2019-05-28T15:36:44Z,wanderview,,0
 306512765,false,"Allow users to extend ExtendableEvent, anywhere",https://github.com/w3c/ServiceWorker/issues/1290,2018-03-19T15:31:27Z,2023-02-23T17:47:46Z,rektide,,0
-306340870,false,SharedWorker script interception after redirects,https://github.com/w3c/ServiceWorker/issues/1289,2018-03-19T05:52:18Z,2018-03-22T04:23:43Z,mfalken,,0
+306340870,false,SharedWorker script interception after redirects,https://github.com/w3c/ServiceWorker/issues/1289,2018-03-19T05:52:18Z,2026-03-06T01:02:37Z,mfalken,,0
 306066383,false,importScript MIME type checking failure,https://github.com/w3c/ServiceWorker/issues/1288,2018-03-16T20:27:44Z,2018-03-26T18:52:10Z,aliams,,0
-305947483,false,consider a method to force immediate disk deletion even if there are live Cache/Response js objects,https://github.com/w3c/ServiceWorker/issues/1287,2018-03-16T14:24:52Z,2018-03-19T13:58:45Z,wanderview,,0
+305947483,true,consider a method to force immediate disk deletion even if there are live Cache/Response js objects,https://github.com/w3c/ServiceWorker/issues/1287,2018-03-16T14:24:52Z,2026-03-06T00:50:30Z,wanderview,,0
 304652383,true,Interaction of fetch abort with Cache APIs,https://github.com/w3c/ServiceWorker/issues/1286,2018-03-13T07:19:51Z,2018-03-26T00:01:36Z,ricea,,0
 303207289,false,Possible race between Activate and Update Algorithms,https://github.com/w3c/ServiceWorker/issues/1285,2018-03-07T18:20:22Z,2018-03-25T02:47:36Z,catalinb,,0
 302460010,true,Detect Abort Events in Service Worker,https://github.com/w3c/ServiceWorker/issues/1284,2018-03-05T20:58:15Z,2018-03-05T21:05:13Z,anthumchris,,0
@@ -392,7 +392,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 273938966,false,Run Job does not specify which event loop to queue its tasks on,https://github.com/w3c/ServiceWorker/issues/1224,2017-11-14T20:53:45Z,2020-04-14T17:03:43Z,mkruisselbrink,,0
 273357160,true,Provide a way to ask the waiting Service Worker to skip waiting from the outside,https://github.com/w3c/ServiceWorker/issues/1223,2017-11-13T09:13:47Z,2017-11-13T18:00:24Z,dfabulich,,0
 273354469,false,Provide a one-line way to listen for a waiting Service Worker,https://github.com/w3c/ServiceWorker/issues/1222,2017-11-13T09:03:23Z,2023-10-06T09:46:47Z,dfabulich,,9
-272354179,false,Should we specify behavior for using objects from detached contexts?,https://github.com/w3c/ServiceWorker/issues/1221,2017-11-08T21:23:00Z,2018-02-19T17:40:33Z,mfalken,,0
+272354179,false,Should we specify behavior for using objects from detached contexts?,https://github.com/w3c/ServiceWorker/issues/1221,2017-11-08T21:23:00Z,2026-03-06T00:40:37Z,mfalken,,0
 268792547,true,Should we expose reserved clients?,https://github.com/w3c/ServiceWorker/issues/1216,2017-10-26T14:52:19Z,2017-12-11T06:30:47Z,jakearchibald,,0
 268444011,true,Navigating reserved clients,https://github.com/w3c/ServiceWorker/issues/1215,2017-10-25T15:31:40Z,2017-11-23T12:27:14Z,jakearchibald,,0
 267845180,true,"Clarity: ""is dispatched a set of""",https://github.com/w3c/ServiceWorker/issues/1214,2017-10-23T23:06:09Z,2017-11-17T02:08:31Z,JosephPecoraro,,0
