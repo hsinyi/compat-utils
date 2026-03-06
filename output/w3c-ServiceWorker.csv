@@ -325,24 +325,24 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 316899786,true,Response's cache state is back,https://github.com/w3c/ServiceWorker/issues/1308,2018-04-23T17:02:42Z,2018-06-01T02:04:39Z,annevk,,0
 316656337,true,Service-Worker-Allowed can be cross-origin to the script URL.,https://github.com/w3c/ServiceWorker/issues/1307,2018-04-23T04:16:10Z,2023-01-10T05:36:12Z,mfalken,,0
 316567075,true,Correct link to nightly version,https://github.com/w3c/ServiceWorker/issues/1306,2018-04-22T10:25:30Z,2018-04-24T15:39:13Z,Malvoz,,0
-316415499,false,how can unregister()'s same-origin check ever fail?,https://github.com/w3c/ServiceWorker/issues/1305,2018-04-20T21:21:19Z,2018-04-20T21:21:19Z,wanderview,,0
+316415499,false,how can unregister()'s same-origin check ever fail?,https://github.com/w3c/ServiceWorker/issues/1305,2018-04-20T21:21:19Z,2026-03-06T01:30:26Z,wanderview,,0
 316372787,true,"spec says `update()` should resolve to a registration, but browsers do different things",https://github.com/w3c/ServiceWorker/issues/1304,2018-04-20T18:45:42Z,2018-06-14T13:29:40Z,wanderview,,0
 316322942,true,Create F2F agenda - 25 October 2018,https://github.com/w3c/ServiceWorker/issues/1303,2018-04-20T15:57:38Z,2021-03-18T07:55:45Z,jatindersmann,,2
 315053383,false,should prefetch loads trigger FetchEvents?,https://github.com/w3c/ServiceWorker/issues/1302,2018-04-17T13:12:05Z,2018-04-17T16:08:39Z,wanderview,,0
 314311336,false,Does ServiceWorkerContainer.onmessage also get ExtendableMessageEvent object?,https://github.com/w3c/ServiceWorker/issues/1301,2018-04-14T08:35:24Z,2018-10-10T14:37:27Z,saschanaz,,0
 314086141,true,PUT request payload is lost,https://github.com/w3c/ServiceWorker/issues/1300,2018-04-13T12:21:45Z,2018-04-13T13:35:04Z,chris-kruining,,0
 311714896,true,Cache API: Cache-Control headers and Opaque Responses,https://github.com/w3c/ServiceWorker/issues/1299,2018-04-05T18:11:27Z,2021-02-24T22:04:14Z,inexorabletash,cache,0
-311706729,false,Intecepts progress event of AJAX calls,https://github.com/w3c/ServiceWorker/issues/1298,2018-04-05T17:45:26Z,2018-04-05T18:04:03Z,stitchng,,0
+311706729,true,Intecepts progress event of AJAX calls,https://github.com/w3c/ServiceWorker/issues/1298,2018-04-05T17:45:26Z,2026-03-06T01:24:10Z,stitchng,,0
 309587767,false,Allow active worker to immediately evict itself,https://github.com/w3c/ServiceWorker/issues/1296,2018-03-29T01:30:38Z,2019-09-15T12:18:29Z,asakusuma,,2
 309585041,true,Confusion around new events after skipWaiting,https://github.com/w3c/ServiceWorker/issues/1295,2018-03-29T01:12:07Z,2018-10-25T14:42:27Z,asakusuma,,0
 308186089,false,Formalizing a timeout API,https://github.com/w3c/ServiceWorker/issues/1292,2018-03-23T21:36:51Z,2019-02-27T07:32:44Z,asakusuma,,5
 308113381,true,Client.postMessage() throwing for unloaded client is problematic,https://github.com/w3c/ServiceWorker/issues/1291,2018-03-23T17:15:35Z,2019-05-28T15:36:44Z,wanderview,,0
 306512765,false,"Allow users to extend ExtendableEvent, anywhere",https://github.com/w3c/ServiceWorker/issues/1290,2018-03-19T15:31:27Z,2023-02-23T17:47:46Z,rektide,,0
 306340870,false,SharedWorker script interception after redirects,https://github.com/w3c/ServiceWorker/issues/1289,2018-03-19T05:52:18Z,2026-03-06T01:02:37Z,mfalken,,0
-306066383,false,importScript MIME type checking failure,https://github.com/w3c/ServiceWorker/issues/1288,2018-03-16T20:27:44Z,2018-03-26T18:52:10Z,aliams,,0
+306066383,true,importScript MIME type checking failure,https://github.com/w3c/ServiceWorker/issues/1288,2018-03-16T20:27:44Z,2026-03-06T08:36:00Z,aliams,,0
 305947483,true,consider a method to force immediate disk deletion even if there are live Cache/Response js objects,https://github.com/w3c/ServiceWorker/issues/1287,2018-03-16T14:24:52Z,2026-03-06T00:50:30Z,wanderview,,0
 304652383,true,Interaction of fetch abort with Cache APIs,https://github.com/w3c/ServiceWorker/issues/1286,2018-03-13T07:19:51Z,2018-03-26T00:01:36Z,ricea,,0
-303207289,false,Possible race between Activate and Update Algorithms,https://github.com/w3c/ServiceWorker/issues/1285,2018-03-07T18:20:22Z,2018-03-25T02:47:36Z,catalinb,,0
+303207289,true,Possible race between Activate and Update Algorithms,https://github.com/w3c/ServiceWorker/issues/1285,2018-03-07T18:20:22Z,2026-03-06T01:14:54Z,catalinb,,0
 302460010,true,Detect Abort Events in Service Worker,https://github.com/w3c/ServiceWorker/issues/1284,2018-03-05T20:58:15Z,2018-03-05T21:05:13Z,anthumchris,,0
 300275549,false,Service Worker handling of first page load subresources,https://github.com/w3c/ServiceWorker/issues/1282,2018-02-26T15:12:46Z,2020-04-26T04:21:01Z,yoavweiss,,8
 298821745,true,Query Cache algorithm contains orphaned 'f' references,https://github.com/w3c/ServiceWorker/issues/1280,2018-02-21T02:33:55Z,2018-02-23T01:19:59Z,inexorabletash,,0
@@ -492,7 +492,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 209278934,true,"clarify that Client ""creation order"" means when reserved Client created",https://github.com/w3c/ServiceWorker/issues/1078,2017-02-21T21:31:33Z,2017-11-23T15:03:39Z,wanderview,apr-2017-f2f-v1,0
 209250986,true,Find a way for service workers to get their current state,https://github.com/w3c/ServiceWorker/issues/1077,2017-02-21T19:39:45Z,2019-06-21T16:27:59Z,n8schloss,apr-2017-f2f,1
 208148616,true,Service worker ID - remove?,https://github.com/w3c/ServiceWorker/issues/1076,2017-02-16T15:11:04Z,2017-11-28T10:07:06Z,jakearchibald,apr-2017-f2f,0
-208092413,false,Track ancestorOrigins privacy issues,https://github.com/w3c/ServiceWorker/issues/1075,2017-02-16T11:16:37Z,2018-04-03T08:53:38Z,jungkees,apr-2017-f2f-v1,1
+208092413,false,Track ancestorOrigins privacy issues,https://github.com/w3c/ServiceWorker/issues/1075,2017-02-16T11:16:37Z,2026-03-06T10:05:06Z,jungkees,apr-2017-f2f-v1,1
 207922166,true,Update to reference HTML for link rel=serviceworker,https://github.com/w3c/ServiceWorker/issues/1073,2017-02-15T20:43:55Z,2017-06-24T11:52:09Z,domenic,apr-2017-f2f-v1,0
 207399805,true,no way for using a websocket inside a service worker,https://github.com/w3c/ServiceWorker/issues/1072,2017-02-14T02:29:46Z,2017-11-03T16:03:29Z,publicocean0,,3
 207133808,true,useCache attribute design seems very very wrong,https://github.com/w3c/ServiceWorker/issues/1069,2017-02-13T06:39:42Z,2017-02-13T11:49:11Z,domenic,,1

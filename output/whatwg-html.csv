@@ -1,10 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4023814293,false,The selectedcontent element can't be used outside of the select element,https://github.com/whatwg/html/issues/12227,2026-03-04T19:49:32Z,2026-03-04T19:49:32Z,josepharhar,addition/proposal|needs implementer interest|topic: select,0
-4022866339,false,Window.customElements shouldn't change when initial about:blank is replaced with a loaded page?,https://github.com/whatwg/html/issues/12226,2026-03-04T16:20:56Z,2026-03-05T23:40:56Z,smaug----,topic: custom elements,0
+4033059316,true,Content rating meta tag for end users,https://github.com/whatwg/html/issues/12230,2026-03-06T08:59:35Z,2026-03-06T11:58:42Z,linusmartensson,addition/proposal|needs implementer interest,0
+4023814293,false,The selectedcontent element can't be used outside of the select element,https://github.com/whatwg/html/issues/12227,2026-03-04T19:49:32Z,2026-03-06T10:14:51Z,josepharhar,addition/proposal|needs implementer interest|topic: select,0
+4022866339,false,Window.customElements shouldn't change when initial about:blank is replaced with a loaded page?,https://github.com/whatwg/html/issues/12226,2026-03-04T16:20:56Z,2026-03-06T07:24:55Z,smaug----,topic: custom elements,0
 4020686537,false,Intercepted navigate events can call handlers on aborted navigate events,https://github.com/whatwg/html/issues/12225,2026-03-04T08:11:14Z,2026-03-04T08:12:44Z,farre,topic: navigation,0
 4018383661,false,[forms] Should we reconsider <input type=email>'s selection API support?,https://github.com/whatwg/html/issues/12224,2026-03-03T19:42:20Z,2026-03-04T05:20:29Z,emilio,topic: forms,0
 4012017339,false,#commit-a-navigate-event needs to defer calling intercept handlers.,https://github.com/whatwg/html/issues/12222,2026-03-02T16:03:17Z,2026-03-03T12:40:07Z,farre,topic: navigation,1
-4011945208,false,"Proposal: for a native <type-writer> element for declarative, accessible text animation.",https://github.com/whatwg/html/issues/12221,2026-03-02T15:47:06Z,2026-03-03T05:54:34Z,anafibnshahibul,addition/proposal|needs implementer interest,0
+4011945208,false,"Proposal: for a native <type-writer> element for declarative, accessible text animation.",https://github.com/whatwg/html/issues/12221,2026-03-02T15:47:06Z,2026-03-06T11:58:08Z,anafibnshahibul,addition/proposal|needs implementer interest,0
 4009527218,true,"Proposal for a native <type-writer> element for declarative, accessible text animation.",https://github.com/whatwg/html/issues/12220,2026-03-02T06:22:39Z,2026-03-02T15:49:07Z,anafibnshahibul,,0
 4005638475,false,Import map read/write API,https://github.com/whatwg/html/issues/12217,2026-02-28T22:57:06Z,2026-02-28T22:57:57Z,LeaVerou,addition/proposal|needs implementer interest|topic: imports/exports,4
 4004866507,false,Feature request: multi-cursor support for `<textarea>` and `contenteditable`,https://github.com/whatwg/html/issues/12216,2026-02-28T15:43:39Z,2026-02-28T15:43:39Z,jimmywarting,addition/proposal|needs implementer interest,1
@@ -16,7 +17,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3995952241,false,sizes=auto needs to be explicit on timing,https://github.com/whatwg/html/issues/12204,2026-02-26T14:39:46Z,2026-02-26T15:06:49Z,emilio,topic: img,0
 3992557780,true,Upcoming WHATNOT meeting on 2026-02-26,https://github.com/whatwg/html/issues/12202,2026-02-26T00:31:38Z,2026-02-26T17:55:18Z,cwilso,,0
 3989379191,false,"Proposal: Reflect whether an element is ""open"" (children being parsed)",https://github.com/whatwg/html/issues/12200,2026-02-25T13:04:56Z,2026-02-25T14:10:14Z,noamr,addition/proposal|needs implementer interest,0
-3989131315,false,option and optgroup rendering requirements,https://github.com/whatwg/html/issues/12199,2026-02-25T12:16:41Z,2026-03-04T14:22:18Z,annevk,topic: rendering|topic: select,0
+3989131315,false,option and optgroup rendering requirements,https://github.com/whatwg/html/issues/12199,2026-02-25T12:16:41Z,2026-03-06T10:22:14Z,annevk,topic: rendering|topic: select,0
 3984219801,true,optgroup display:block?,https://github.com/whatwg/html/issues/12196,2026-02-24T15:02:50Z,2026-02-25T06:15:47Z,annevk,topic: rendering|topic: select,0
 3982788173,false,Is <slot dir=auto> special case needed?,https://github.com/whatwg/html/issues/12192,2026-02-24T10:22:00Z,2026-03-01T15:16:04Z,vinhill,i18n-tracker,0
 3981225253,false,Implementation-defined ordering of task queues leading to interoperability issue with `popstate` and `hashchange` events,https://github.com/whatwg/html/issues/12190,2026-02-24T03:02:03Z,2026-02-26T07:53:10Z,avandolder,topic: navigation,0
@@ -338,7 +339,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3309950964,true,LLMs Meta Tags Standard,https://github.com/whatwg/html/issues/11548,2025-08-11T13:02:49Z,2025-08-11T16:30:30Z,rafaelp,addition/proposal|needs implementer interest,0
 3308378580,false,`PromiseRejectionError` constructor behavior differs by implementation,https://github.com/whatwg/html/issues/11547,2025-08-11T04:06:26Z,2025-08-11T09:12:06Z,petamoriken,needs tests,0
 3308003149,false,Allow `fieldset` to be a CSS subgrid,https://github.com/whatwg/html/issues/11546,2025-08-10T21:46:40Z,2025-08-11T23:42:34Z,kirk-loretz-fsn,addition/proposal|needs implementer interest|topic: fieldset,0
-3299845424,false,"Out of order HTML streaming (""patching"")",https://github.com/whatwg/html/issues/11542,2025-08-07T10:03:34Z,2026-03-05T22:30:34Z,noamr,addition/proposal|topic: parser|stage: 1,8
+3299845424,false,"Out of order HTML streaming (""patching"")",https://github.com/whatwg/html/issues/11542,2025-08-07T10:03:34Z,2026-03-06T07:23:35Z,noamr,addition/proposal|topic: parser|stage: 1,8
 3299685743,true,Upcoming WHATNOT meeting on 2025-08-14,https://github.com/whatwg/html/issues/11541,2025-08-07T09:12:30Z,2025-09-11T10:01:57Z,annevk,,0
 3297402544,false,"""rules for parsing a list of dimensions"" should clarify behavior for large numeric values",https://github.com/whatwg/html/issues/11539,2025-08-06T16:58:06Z,2025-10-08T20:12:46Z,weinig,needs tests,0
 3296458731,false,"Proposal: New HTML attributes mustcontain, requiredchars, and preset for simplified form validation",https://github.com/whatwg/html/issues/11538,2025-08-06T12:11:02Z,2025-08-13T14:30:30Z,sanketbhuite,addition/proposal|needs implementer interest,1
@@ -4710,7 +4711,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195734740,true,Wring,https://github.com/whatwg/html/issues/2181,2016-12-15T07:24:47Z,2016-12-15T07:25:56Z,cheoklune,,0
 195651796,true,Making Location.ancestorOrigins a FrozenArray is not Web-Compatible,https://github.com/whatwg/html/issues/2179,2016-12-14T21:33:44Z,2017-01-13T00:55:08Z,cdumez,,0
 195558416,true,"""when a select element does not have a sizes attribute""",https://github.com/whatwg/html/issues/2178,2016-12-14T15:18:37Z,2017-02-23T16:42:03Z,deltab,good first issue,0
-195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2025-10-23T08:55:35Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,183
+195549031,false,Setting headers for EventSource,https://github.com/whatwg/html/issues/2177,2016-12-14T14:44:40Z,2025-10-23T08:55:35Z,chicoxyzzy,addition/proposal|needs implementer interest|topic: fetch|topic: eventsource,184
 195497838,true,selectionStart/End/Direction on input and textarea should not be nullable,https://github.com/whatwg/html/issues/2175,2016-12-14T10:46:42Z,2017-01-18T09:22:04Z,foolip,,0
 195494630,true,pushState title is ignored in all implementations?,https://github.com/whatwg/html/issues/2174,2016-12-14T10:32:35Z,2021-03-15T16:59:58Z,foolip,topic: history|interop,3
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
