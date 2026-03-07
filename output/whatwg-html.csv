@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4034009687,false,HTMLOrSVGElement.focus() implies that the element should be scrolled into view when it isn't a focusable area,https://github.com/whatwg/html/issues/12231,2026-03-06T12:36:58Z,2026-03-06T14:12:52Z,mrobinson,needs tests|topic: focus,0
 4033059316,true,Content rating meta tag for end users,https://github.com/whatwg/html/issues/12230,2026-03-06T08:59:35Z,2026-03-06T11:58:42Z,linusmartensson,addition/proposal|needs implementer interest,0
 4023814293,false,The selectedcontent element can't be used outside of the select element,https://github.com/whatwg/html/issues/12227,2026-03-04T19:49:32Z,2026-03-06T10:14:51Z,josepharhar,addition/proposal|needs implementer interest|topic: select,0
 4022866339,false,Window.customElements shouldn't change when initial about:blank is replaced with a loaded page?,https://github.com/whatwg/html/issues/12226,2026-03-04T16:20:56Z,2026-03-06T07:24:55Z,smaug----,topic: custom elements,0
@@ -10,7 +11,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4005638475,false,Import map read/write API,https://github.com/whatwg/html/issues/12217,2026-02-28T22:57:06Z,2026-02-28T22:57:57Z,LeaVerou,addition/proposal|needs implementer interest|topic: imports/exports,4
 4004866507,false,Feature request: multi-cursor support for `<textarea>` and `contenteditable`,https://github.com/whatwg/html/issues/12216,2026-02-28T15:43:39Z,2026-02-28T15:43:39Z,jimmywarting,addition/proposal|needs implementer interest,1
 4002485888,false,`fetch a single module script` always defaults to javascript modules for top level fetches,https://github.com/whatwg/html/issues/12214,2026-02-27T19:14:07Z,2026-03-03T17:15:18Z,Gae24,topic: fetch|topic: script,0
-4001978418,false,Cloning a template's content into another template's shadow tree doesn't update its custom element registry,https://github.com/whatwg/html/issues/12213,2026-02-27T17:02:56Z,2026-03-03T03:00:15Z,AtkinsSJ,,0
+4001978418,false,Cloning a template's content into another template's shadow tree doesn't update its custom element registry,https://github.com/whatwg/html/issues/12213,2026-02-27T17:02:56Z,2026-03-06T23:33:44Z,AtkinsSJ,topic: custom elements,0
 4000834624,false,HTML fragment parsing algorithm needs to set its document's base url,https://github.com/whatwg/html/issues/12210,2026-02-27T12:36:54Z,2026-02-27T12:36:54Z,AtkinsSJ,,0
 4000797740,false,HTML fragment parsing algorithm needs to set its document's custom element registry,https://github.com/whatwg/html/issues/12209,2026-02-27T12:27:31Z,2026-03-04T19:50:49Z,AtkinsSJ,topic: parser|topic: custom elements,0
 3996960841,false,Upcoming WHATNOT meeting on 2026-03-05,https://github.com/whatwg/html/issues/12206,2026-02-26T17:56:48Z,2026-02-26T17:56:48Z,cwilso,agenda+,0
@@ -82,7 +83,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3802799752,true,javascript URL navigations do not check ongoing navigation status,https://github.com/whatwg/html/issues/12075,2026-01-12T05:15:34Z,2026-01-15T10:08:02Z,jdm,topic: navigation|topic: javascript: URLs,0
 3799531562,false,"""mark as ready"" can happen before defining ""steps to run when the result is ready""",https://github.com/whatwg/html/issues/12073,2026-01-10T11:07:57Z,2026-01-10T11:07:57Z,crhaglun,,0
 3796955304,false,"https://html.spec.whatwg.org/#reactivate-a-document 4.3 doesn't match implementations, visibilityState isn't always set to 'visible'",https://github.com/whatwg/html/issues/12070,2026-01-09T13:28:47Z,2026-01-09T20:50:47Z,smaug----,,0
-3795045507,false,<link rel=preload> supported destinations are inconsistent between sections,https://github.com/whatwg/html/issues/12068,2026-01-09T00:56:11Z,2026-02-18T16:12:25Z,KurtCattiSchmidt,,0
+3795045507,true,<link rel=preload> supported destinations are inconsistent between sections,https://github.com/whatwg/html/issues/12068,2026-01-09T00:56:11Z,2026-03-06T16:58:45Z,KurtCattiSchmidt,,0
 3794769867,true,Upcoming WHATNOT meeting on 2026-01-15,https://github.com/whatwg/html/issues/12067,2026-01-08T23:04:54Z,2026-01-15T23:12:25Z,cwilso,agenda+,0
 3793870620,true,Meeting 34 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12064,2026-01-08T18:04:35Z,2026-01-22T17:03:52Z,mfreed7,,0
 3793512429,false,Align anchor IDL across the platform?,https://github.com/whatwg/html/issues/12063,2026-01-08T16:14:25Z,2026-01-29T12:43:22Z,bkardell,needs implementer interest|integration|topic: svg,0
@@ -275,7 +276,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3453290739,true,option element disabledness works incorrectly,https://github.com/whatwg/html/issues/11707,2025-09-25T11:57:06Z,2025-10-08T08:10:51Z,annevk,needs tests|topic: select,0
 3451734772,true,Browsers do not allow meta refresh to javascript: URLs,https://github.com/whatwg/html/issues/11699,2025-09-25T03:34:44Z,2025-11-21T10:46:34Z,domenic,topic: javascript: URLs,1
 3450628485,true,Upcoming WHATNOT meeting on 2025-09-25,https://github.com/whatwg/html/issues/11696,2025-09-24T19:19:01Z,2025-09-26T20:14:31Z,cwilso,,0
-3449544959,false,Popover: Implicit anchor element removed too early,https://github.com/whatwg/html/issues/11694,2025-09-24T13:50:57Z,2026-02-28T10:57:05Z,jakearchibald,agenda+|topic: popover,0
+3449544959,false,Popover: Implicit anchor element removed too early,https://github.com/whatwg/html/issues/11694,2025-09-24T13:50:57Z,2026-03-06T23:58:03Z,jakearchibald,agenda+|topic: popover,0
 3448340951,true,Add `to` or `destination` to `NavigationTransition`,https://github.com/whatwg/html/issues/11690,2025-09-24T08:32:25Z,2025-12-03T11:36:50Z,noamr,addition/proposal|needs implementer interest|topic: navigation,0
 3448317187,true,"""expected native appearance"" is confusing given the definition of ""expected""",https://github.com/whatwg/html/issues/11689,2025-09-24T08:26:26Z,2025-09-25T14:23:03Z,zcorpan,clarification|topic: rendering,0
 3445916090,false,Browsers don't agree with the incumbent settings handling for Promise reactions,https://github.com/whatwg/html/issues/11686,2025-09-23T16:17:54Z,2025-09-24T04:07:24Z,arai-a,normative change|topic: multiple globals,0
@@ -630,7 +631,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2833494241,true,Web Workers importmap field,https://github.com/whatwg/html/issues/11002,2025-02-05T17:03:07Z,2026-02-14T05:18:08Z,WebReflection,topic: imports/exports,4
 2833216763,true,tuple in #concept-origin-tuple should link to https://infra.spec.whatwg.org/#tuple,https://github.com/whatwg/html/issues/10999,2025-02-05T15:08:43Z,2025-02-06T01:25:34Z,farre,,0
 2833183975,true,Clarification of #obtain-similar-origin-window-agent,https://github.com/whatwg/html/issues/10998,2025-02-05T14:56:03Z,2025-02-26T04:19:18Z,farre,clarification|topic: origin,0
-2831961444,false,A new API for work during unload,https://github.com/whatwg/html/issues/10997,2025-02-05T05:42:14Z,2026-02-14T16:39:32Z,domenic,addition/proposal|needs implementer interest,2
+2831961444,true,A new API for work during unload,https://github.com/whatwg/html/issues/10997,2025-02-05T05:42:14Z,2026-03-06T21:01:29Z,domenic,addition/proposal|needs implementer interest,2
 2831676809,true,"Assertion in ""hide all popovers until"" will fail when changing a showing ""hint"" popover to ""auto""",https://github.com/whatwg/html/issues/10996,2025-02-05T02:04:22Z,2025-04-23T01:18:30Z,Gingeh,topic: popover,1
 2829155769,false,The topmost popover ancestor algorithm is used for manual popovers,https://github.com/whatwg/html/issues/10988,2025-02-04T05:12:29Z,2025-02-07T18:21:41Z,Gingeh,,1
 2826073101,true,Initially open dialog with closedby can be broken,https://github.com/whatwg/html/issues/10982,2025-02-02T22:59:48Z,2025-09-03T13:12:43Z,lukewarlow,topic: dialog,0
@@ -812,7 +813,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2555508180,true,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-10-30T05:36:43Z,domenic,normative change|topic: dialog|topic: popover,1
 2551969947,true,Upcoming WHATNOT meeting on 2024-10-03,https://github.com/whatwg/html/issues/10652,2024-09-27T04:30:41Z,2024-10-02T15:00:07Z,past,agenda+,0
 2551884785,false,Nested `contenteditable=true` and `contenteditable=plaintext-only` should win only the ourtermost one,https://github.com/whatwg/html/issues/10651,2024-09-27T02:53:27Z,2024-09-30T21:55:52Z,masayuki-nakano,needs tests|needs concrete proposal|topic: editing,0
-2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-03-05T16:58:07Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|agenda+|stage: 1,1
+2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-03-06T19:04:56Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|agenda+|stage: 1,1
 2549044519,true,Resolving  of transition and finished promises is mismatched between spec and tests,https://github.com/whatwg/html/issues/10646,2024-09-25T21:39:11Z,2024-09-30T10:14:17Z,rwlbuis,topic: navigation,0
 2544017899,true,"'reading-flow' and ""display: contents""",https://github.com/whatwg/html/issues/10643,2024-09-24T00:42:59Z,2024-09-24T16:09:09Z,tabatkins,topic: focus,0
 2543972242,false,tabindex vs reading-flow property,https://github.com/whatwg/html/issues/10642,2024-09-24T00:01:25Z,2025-03-12T17:10:41Z,tabatkins,topic: focus,3
