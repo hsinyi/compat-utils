@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4050134762,false,Translation of proper names,https://github.com/whatwg/html/issues/12237,2026-03-10T08:08:35Z,2026-03-10T08:09:36Z,PRR24,addition/proposal|needs implementer interest,0
 4048638520,false,Spec contradiction: reload navigation ID defaults to null but assertion requires non-null,https://github.com/whatwg/html/issues/12236,2026-03-10T00:28:23Z,2026-03-10T00:28:31Z,gsnedders,topic: navigation,0
 4034009687,false,HTMLOrSVGElement.focus() implies that the element should be scrolled into view when it isn't a focusable area,https://github.com/whatwg/html/issues/12231,2026-03-06T12:36:58Z,2026-03-06T14:12:52Z,mrobinson,needs tests|topic: focus,0
 4033059316,true,Content rating meta tag for end users,https://github.com/whatwg/html/issues/12230,2026-03-06T08:59:35Z,2026-03-06T11:58:42Z,linusmartensson,addition/proposal|needs implementer interest,0
@@ -22,7 +23,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3989131315,false,option and optgroup rendering requirements,https://github.com/whatwg/html/issues/12199,2026-02-25T12:16:41Z,2026-03-09T21:59:26Z,annevk,topic: rendering|topic: select,0
 3984219801,true,optgroup display:block?,https://github.com/whatwg/html/issues/12196,2026-02-24T15:02:50Z,2026-02-25T06:15:47Z,annevk,topic: rendering|topic: select,0
 3982788173,false,Is <slot dir=auto> special case needed?,https://github.com/whatwg/html/issues/12192,2026-02-24T10:22:00Z,2026-03-01T15:16:04Z,vinhill,i18n-tracker,0
-3981225253,false,Implementation-defined ordering of task queues leading to interoperability issue with `popstate` and `hashchange` events,https://github.com/whatwg/html/issues/12190,2026-02-24T03:02:03Z,2026-03-09T16:51:55Z,avandolder,topic: navigation|topic: timing,0
+3981225253,false,Implementation-defined ordering of task queues leading to interoperability issue with `popstate` and `hashchange` events,https://github.com/whatwg/html/issues/12190,2026-02-24T03:02:03Z,2026-03-10T08:38:18Z,avandolder,topic: navigation|topic: timing,0
 3973118440,false,"Proposal: Improve UI stepping behavior in <input type=""number"">",https://github.com/whatwg/html/issues/12188,2026-02-22T00:06:14Z,2026-03-01T14:51:46Z,xavierholt,addition/proposal|needs implementer interest|topic: forms,1
 3969567391,false,Special case label associated with a button in popover light dismiss,https://github.com/whatwg/html/issues/12185,2026-02-20T17:21:12Z,2026-02-20T18:53:02Z,lukewarlow,addition/proposal|needs implementer interest|topic: popover,1
 3969036561,false,:hover and :active changes for <select>,https://github.com/whatwg/html/issues/12183,2026-02-20T15:11:50Z,2026-02-20T17:46:53Z,annevk,topic: selectors|topic: select,0
@@ -41,7 +42,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3930439514,false,Determining dropEffect based on effectAllowed + modifier keys,https://github.com/whatwg/html/issues/12155,2026-02-12T08:13:21Z,2026-02-26T17:27:21Z,tanu18,,0
 3928896424,false,Unblock Document-Policy to Policy Container PR,https://github.com/whatwg/html/issues/12154,2026-02-11T22:09:37Z,2026-02-17T14:29:10Z,monica-ch,,0
 3923058520,false,Platform-Provided Behaviors for Custom Elements,https://github.com/whatwg/html/issues/12150,2026-02-10T18:55:59Z,2026-03-09T21:12:19Z,anaskim,addition/proposal|needs implementer interest|agenda+,0
-3917833084,false,Incorrect definition for media element pseudo class `:stalled`,https://github.com/whatwg/html/issues/12145,2026-02-09T19:42:39Z,2026-02-11T08:04:52Z,alastor0325,topic: media|topic: selectors,0
+3917833084,false,Incorrect definition for media element pseudo class `:stalled`,https://github.com/whatwg/html/issues/12145,2026-02-09T19:42:39Z,2026-03-10T08:41:14Z,alastor0325,topic: media|needs tests|topic: selectors,0
 3908815904,true,Upcoming WHATNOT meeting on 2026-02-12,https://github.com/whatwg/html/issues/12141,2026-02-06T23:24:04Z,2026-02-26T01:01:22Z,cwilso,,0
 3907067934,false,`<link rel=stylesheet>` waits for critical subresources before we know what they are,https://github.com/whatwg/html/issues/12140,2026-02-06T14:35:46Z,2026-02-09T21:59:31Z,AtkinsSJ,topic: style,0
 3902490776,true,Meeting 36 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12139,2026-02-05T16:34:57Z,2026-02-19T17:06:06Z,mfreed7,,0
@@ -145,7 +146,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3652508538,false,"2D canvas should internally hold a CSS color space, not an enum value",https://github.com/whatwg/html/issues/11939,2025-11-21T17:26:44Z,2025-11-24T06:30:47Z,ccameron-chromium,clarification|topic: canvas,0
 3652485079,false,(scroll-to-text) fragmentDirectives should be allowed to be unique,https://github.com/whatwg/html/issues/11938,2025-11-21T17:17:37Z,2025-11-30T20:52:53Z,vmpstr,topic: navigation,0
 3650494206,false,Incorporate SVG `a` element in the processing model and algorithms of HTML `a` element,https://github.com/whatwg/html/issues/11936,2025-11-21T07:03:55Z,2025-12-02T08:46:21Z,goldenboy777,needs tests|topic: hyperlink|integration|needs concrete proposal|topic: svg,0
-3648584316,false,Optional destination size for `HTMLImageElement.decode()`,https://github.com/whatwg/html/issues/11935,2025-11-20T18:42:01Z,2026-03-09T20:52:48Z,shallawa,addition/proposal|needs implementer interest|topic: img|agenda+,4
+3648584316,false,Optional destination size for `HTMLImageElement.decode()`,https://github.com/whatwg/html/issues/11935,2025-11-20T18:42:01Z,2026-03-10T04:45:28Z,shallawa,addition/proposal|needs implementer interest|topic: img|agenda+,4
 3648131740,false,Please qualify your various comments on paragraphs,https://github.com/whatwg/html/issues/11934,2025-11-20T16:46:13Z,2025-11-21T18:34:21Z,mbgower,accessibility,0
 3643528484,false,External resources don't have a fallback mechanism,https://github.com/whatwg/html/issues/11928,2025-11-19T16:32:01Z,2025-11-20T09:27:43Z,romainmenke,addition/proposal|needs implementer interest,0
 3640692765,false,Proposal: Declarative dependent form controls (conditional inputs without scripting),https://github.com/whatwg/html/issues/11925,2025-11-19T01:54:18Z,2025-11-19T01:56:03Z,ghost,,0
@@ -296,7 +297,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3400048571,true,Permanent anchor request: #dom-document-cookie,https://github.com/whatwg/html/issues/11646,2025-09-09T21:36:52Z,2025-09-18T08:25:21Z,sbingler,anchor permanence,1
 3399270456,false,Question: non-obvious steps in document loading algorithms,https://github.com/whatwg/html/issues/11645,2025-09-09T17:11:18Z,2025-09-16T06:40:17Z,TimvdLippe,clarification|topic: navigation|topic: document lifecycle,0
 3397913640,true,Rendering of print media: Clarify specification’s scope,https://github.com/whatwg/html/issues/11644,2025-09-09T11:03:43Z,2025-09-25T14:23:03Z,BrianJDrake,clarification,0
-3395552388,false,[focusgroup] Declarative keyboard focus navigation for a scoped set of composite widgets,https://github.com/whatwg/html/issues/11641,2025-09-08T20:10:20Z,2026-02-10T13:50:21Z,janewman,addition/proposal|needs implementer interest|stage: 2,6
+3395552388,false,[focusgroup] Declarative keyboard focus navigation for a scoped set of composite widgets,https://github.com/whatwg/html/issues/11641,2025-09-08T20:10:20Z,2026-03-10T01:46:04Z,janewman,addition/proposal|needs implementer interest|stage: 2,6
 3395173912,true,How to set the fill- and/or stroke-color without large overhead? (Canvas API -- 2D Rendering Context),https://github.com/whatwg/html/issues/11639,2025-09-08T18:14:03Z,2025-09-12T10:21:59Z,0scarB,,0
 3394777681,false,Proposal: Add `preparePrint()` to land all the resources needed by print,https://github.com/whatwg/html/issues/11637,2025-09-08T15:54:18Z,2025-09-23T08:54:06Z,cathiechen,addition/proposal|needs implementer interest,0
 3387646682,true,The appVersion getter steps assume too much about default User-Agent values.,https://github.com/whatwg/html/issues/11630,2025-09-05T13:53:44Z,2025-09-10T05:17:38Z,Psychpsyo,,0
@@ -351,7 +352,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3290055614,true,Upcoming WHATNOT meeting on 2025-08-07,https://github.com/whatwg/html/issues/11527,2025-08-04T16:19:12Z,2025-12-02T22:52:43Z,annevk,,0
 3288060443,false,Add rec2100-linear to PredefinedColorSpace,https://github.com/whatwg/html/issues/11526,2025-08-04T05:26:53Z,2025-11-05T21:10:39Z,ccameron-chromium,addition/proposal|needs implementer interest|topic: canvas,1
 3285251497,false,Should we remove XSLT from the web platform?,https://github.com/whatwg/html/issues/11523,2025-08-01T22:13:29Z,2025-10-23T16:11:13Z,mfreed7,removal/deprecation|stage: 3,145
-3282807746,false,What should be the interaction between SharedWorkers and inactive documents,https://github.com/whatwg/html/issues/11520,2025-08-01T06:55:32Z,2026-03-09T12:23:45Z,fergald,clarification|topic: workers,0
+3282807746,false,What should be the interaction between SharedWorkers and inactive documents,https://github.com/whatwg/html/issues/11520,2025-08-01T06:55:32Z,2026-03-10T03:30:22Z,fergald,clarification|topic: workers,0
 3280455453,true,Support ElementInternals via IDL extended attribute reflection,https://github.com/whatwg/html/issues/11516,2025-07-31T13:20:11Z,2025-08-22T00:41:20Z,lukewarlow,topic: custom elements|topic: reflect,0
 3279050822,true,The <ol> type attribute doesn't clearly explain invalid/missing value defaults,https://github.com/whatwg/html/issues/11513,2025-07-31T04:01:28Z,2025-07-31T05:20:13Z,rahimabdi,,0
 3278131431,false,"Reword definition of [CEReactions] to not use ""we introduce""",https://github.com/whatwg/html/issues/11511,2025-07-30T18:51:03Z,2025-07-30T18:53:29Z,lukewarlow,editorial,1
@@ -521,7 +522,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2982818865,true,#inner-navigate-event-firing-algorithm uses #fully-active on #concept-relevant-global,https://github.com/whatwg/html/issues/11198,2025-04-09T13:22:43Z,2025-04-10T08:42:58Z,farre,topic: navigation,0
 2977338220,true,A modal dialog should not make inert top layer elements above itself,https://github.com/whatwg/html/issues/11195,2025-04-07T16:03:41Z,2026-01-12T14:55:59Z,lucacasonato,,2
 2977116813,false,Remove support of field-sizing from `<select>`,https://github.com/whatwg/html/issues/11194,2025-04-07T14:45:46Z,2025-04-10T18:36:32Z,sakupi01,topic: rendering|topic: select,0
-2976641426,false,Persistent element at the top of the top layer,https://github.com/whatwg/html/issues/11193,2025-04-07T12:05:47Z,2026-01-12T15:01:59Z,lucacasonato,topic: dialog|topic: popover,2
+2976641426,false,Persistent element at the top of the top layer,https://github.com/whatwg/html/issues/11193,2025-04-07T12:05:47Z,2026-01-12T15:01:59Z,lucacasonato,topic: dialog|topic: popover,3
 2973507099,true,Upcoming WHATNOT meeting on 2025-04-17,https://github.com/whatwg/html/issues/11192,2025-04-04T22:46:19Z,2025-12-04T21:35:17Z,past,,0
 2972357952,true,Allow multiple anchor references via `showPopover`/`togglePopover`,https://github.com/whatwg/html/issues/11188,2025-04-04T13:16:08Z,2025-04-14T14:33:09Z,mozesstumpf,addition/proposal|needs implementer interest|topic: popover,0
 2970214663,true,popover focusing steps and dialog focusing steps are subtly different (probably unintentionally so),https://github.com/whatwg/html/issues/11187,2025-04-03T17:09:38Z,2025-04-08T04:45:40Z,beidson,topic: popover,0
