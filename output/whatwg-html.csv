@@ -1,9 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4063317571,false,"""Scripting is enabled"" is incorrect for fragment parsing",https://github.com/whatwg/html/issues/12254,2026-03-12T09:27:40Z,2026-03-12T11:17:12Z,noamr,topic: parser,0
+4063027387,false,OffscreenCanvas.convertToBlob no-rendering context scenario unspecified,https://github.com/whatwg/html/issues/12253,2026-03-12T08:28:30Z,2026-03-12T10:02:49Z,kkinnunen-apple,topic: canvas|needs tests|interop,0
+4063017346,false,OffscreenCanvas.transferToImageBitmap context loss behavior is unspecified,https://github.com/whatwg/html/issues/12252,2026-03-12T08:26:04Z,2026-03-12T08:33:02Z,kkinnunen-apple,topic: canvas|needs tests,0
+4063008142,false,"OffscreenCanvas.transferToImageBitmap is non-nullable, unspecified when [[bitmap]] has no pixels",https://github.com/whatwg/html/issues/12251,2026-03-12T08:23:50Z,2026-03-12T09:02:10Z,kkinnunen-apple,topic: canvas|needs tests,0
 4058877149,false,sizes=auto images shouldn't use concrete object width to select source,https://github.com/whatwg/html/issues/12248,2026-03-11T15:19:26Z,2026-03-11T15:26:50Z,ltenmoz,,0
 4058225377,false,Calling document.open should abort ongoing navigations if no ongoing navigation,https://github.com/whatwg/html/issues/12247,2026-03-11T13:25:11Z,2026-03-11T13:25:11Z,farre,topic: navigation,0
 4057314569,false,change of the condition under which select element must have placeholder label option,https://github.com/whatwg/html/issues/12246,2026-03-11T10:25:01Z,2026-03-11T15:21:36Z,mtrootyy,topic: select,0
 4054376656,false,Upcoming WHATNOT meeting on 2026-03-12,https://github.com/whatwg/html/issues/12244,2026-03-10T21:42:37Z,2026-03-10T21:53:18Z,cwilso,agenda+,0
-4052592223,false,Meeting 38 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12240,2026-03-10T15:34:35Z,2026-03-10T15:46:03Z,mfreed7,,0
+4052592223,false,Meeting 38 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12240,2026-03-10T15:34:35Z,2026-03-12T12:27:28Z,mfreed7,,0
 4051947235,false,Origin.from method's string handling is inconsistent with WebIDL string handling,https://github.com/whatwg/html/issues/12238,2026-03-10T13:49:55Z,2026-03-11T12:06:58Z,smaug----,,0
 4050134762,false,Translation of proper names,https://github.com/whatwg/html/issues/12237,2026-03-10T08:08:35Z,2026-03-10T08:09:36Z,PRR24,addition/proposal|needs implementer interest,0
 4048638520,false,Spec contradiction: reload navigation ID defaults to null but assertion requires non-null,https://github.com/whatwg/html/issues/12236,2026-03-10T00:28:23Z,2026-03-10T00:28:31Z,gsnedders,topic: navigation,0
@@ -149,7 +153,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3658879252,true,Declarative attach shadow uses host's registry instead of host's node document's registry,https://github.com/whatwg/html/issues/11947,2025-11-24T13:21:00Z,2025-11-25T09:11:12Z,annevk,normative change|topic: shadow|topic: custom elements,1
 3657641889,true,"""Policy container"" is defined multiple times.",https://github.com/whatwg/html/issues/11944,2025-11-24T08:17:59Z,2025-11-24T15:44:42Z,mikewest,meta,0
 3655151429,false,Navigation API: Navigation History Entry url getter - bug in spec or tests?,https://github.com/whatwg/html/issues/11941,2025-11-22T22:45:57Z,2025-11-23T09:54:16Z,theIDinside,topic: navigation,0
-3652508538,false,"2D canvas should internally hold a CSS color space, not an enum value",https://github.com/whatwg/html/issues/11939,2025-11-21T17:26:44Z,2025-11-24T06:30:47Z,ccameron-chromium,clarification|topic: canvas,0
+3652508538,false,"2D canvas should internally hold a CSS color space, not an enum value",https://github.com/whatwg/html/issues/11939,2025-11-21T17:26:44Z,2026-03-12T07:40:59Z,ccameron-chromium,clarification|topic: canvas,0
 3652485079,false,(scroll-to-text) fragmentDirectives should be allowed to be unique,https://github.com/whatwg/html/issues/11938,2025-11-21T17:17:37Z,2025-11-30T20:52:53Z,vmpstr,topic: navigation,0
 3650494206,false,Incorporate SVG `a` element in the processing model and algorithms of HTML `a` element,https://github.com/whatwg/html/issues/11936,2025-11-21T07:03:55Z,2025-12-02T08:46:21Z,goldenboy777,needs tests|topic: hyperlink|integration|needs concrete proposal|topic: svg,0
 3648584316,false,Optional destination size for `HTMLImageElement.decode()`,https://github.com/whatwg/html/issues/11935,2025-11-20T18:42:01Z,2026-03-10T04:45:28Z,shallawa,addition/proposal|needs implementer interest|topic: img|agenda+,4
@@ -256,7 +260,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3488171744,true,"The type of a <script> is fixed once it's connected, but this isn't listed in the spec",https://github.com/whatwg/html/issues/11756,2025-10-06T16:46:47Z,2025-10-08T16:32:40Z,KurtCattiSchmidt,needs tests|topic: script,0
 3486890817,false,Should the module script's error to rethrow be checked during HostLoadImportedModule,https://github.com/whatwg/html/issues/11755,2025-10-06T11:46:20Z,2025-10-16T13:40:13Z,allstarschh,topic: script,0
 3484334435,true,love yall also as someone with a disability calling buttons disabled when they are actually unclickable is driving me up the wall.,https://github.com/whatwg/html/issues/11753,2025-10-05T03:06:22Z,2025-10-08T15:57:44Z,iheartcoding4-hub,addition/proposal|needs implementer interest,0
-3483953704,false,Expose certain behavioural attributes via ElementInternals,https://github.com/whatwg/html/issues/11752,2025-10-04T16:50:21Z,2025-10-30T00:07:01Z,lukewarlow,addition/proposal|needs implementer interest|topic: custom elements,8
+3483953704,false,Expose certain behavioural attributes via ElementInternals,https://github.com/whatwg/html/issues/11752,2025-10-04T16:50:21Z,2026-03-12T10:31:48Z,lukewarlow,addition/proposal|needs implementer interest|topic: custom elements|agenda+,8
 3483917689,false,Can we make `draggable`'s empty value default be True?,https://github.com/whatwg/html/issues/11751,2025-10-04T16:10:57Z,2025-11-06T16:05:51Z,lukewarlow,addition/proposal|needs implementer interest|needs compat analysis|topic: drag and drop,0
 3483015079,false,Initial serialization data for Worker,https://github.com/whatwg/html/issues/11749,2025-10-04T01:12:56Z,2025-10-06T16:11:49Z,guybedford,addition/proposal|needs implementer interest|topic: workers|topic: serialize and transfer,1
 3482893798,true,Upcoming WHATNOT meeting on 2025-10-09,https://github.com/whatwg/html/issues/11747,2025-10-03T23:49:21Z,2025-10-16T15:08:07Z,cwilso,,0
@@ -1280,7 +1284,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1924272839,true,Don't force <details> to be a block.,https://github.com/whatwg/html/issues/9830,2023-10-03T14:27:09Z,2024-06-26T00:57:11Z,emilio,topic: rendering,7
 1923913566,false,Proposed Element : Transcript,https://github.com/whatwg/html/issues/9829,2023-10-03T11:25:04Z,2024-01-08T17:13:23Z,medeaoblongata,addition/proposal|needs implementer interest|topic: media|accessibility,4
 1922743343,true,Navigation: navigate to a fragment updates the navigation api for same-document navigation twice.,https://github.com/whatwg/html/issues/9826,2023-10-02T21:23:00Z,2024-01-09T04:09:00Z,ADKaster,topic: navigation,0
-1921479717,false,Event loop: update the rendering step mismatches implementations in subtle ways,https://github.com/whatwg/html/issues/9824,2023-10-02T08:34:58Z,2026-03-12T00:02:03Z,noamr,topic: event loop,1
+1921479717,true,Event loop: update the rendering step mismatches implementations in subtle ways,https://github.com/whatwg/html/issues/9824,2023-10-02T08:34:58Z,2026-03-12T07:22:42Z,noamr,topic: event loop,1
 1920922082,true,document's url never gets updated on a fragment navigation,https://github.com/whatwg/html/issues/9820,2023-10-01T19:08:23Z,2023-10-04T03:52:44Z,kalenikaliaksandr,topic: navigation,0
 1920835431,true,document should not be unloaded during same-document navigation,https://github.com/whatwg/html/issues/9819,2023-10-01T15:52:29Z,2023-11-15T00:41:37Z,kalenikaliaksandr,topic: navigation,0
 1920394348,false,Clipboard API Doesn't have onChange event,https://github.com/whatwg/html/issues/9817,2023-09-30T20:44:41Z,2023-10-02T16:50:13Z,Mahmoudgalalz,,0
