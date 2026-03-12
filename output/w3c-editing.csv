@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4060519704,false,Spec: Empty addressable content fields with placeholders,https://github.com/w3c/editing/issues/528,2026-03-11T20:32:48Z,2026-03-11T20:46:50Z,michael,Agenda+|caret-movement,1
 3931630483,false,Charter - open tasks,https://github.com/w3c/editing/issues/527,2026-02-12T12:33:24Z,2026-02-12T12:33:24Z,johanneswilm,Agenda+|awaits feedback from Microsoft,0
 3919735868,false,Selection updates from Web APIs should scroll to reveal selection in scrollable containers,https://github.com/w3c/editing/issues/526,2026-02-10T06:40:07Z,2026-02-10T06:40:07Z,shwetabin,,1
 3892188926,false,Spec proposal for document.execCommand(‘insertHTML’),https://github.com/w3c/editing/issues/525,2026-02-03T16:48:41Z,2026-02-04T01:51:34Z,shwetabin,,0
@@ -14,7 +15,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3633481635,false,All browsers: Add ability to cancel character composition (IME) at the very beginning,https://github.com/w3c/editing/issues/508,2025-11-17T14:06:34Z,2025-12-12T07:23:54Z,michael,TPAC2025,0
 3633473926,false,"Safari Desktop: When aborting a soft-keyboard-driven IME, the new selection is not set",https://github.com/w3c/editing/issues/507,2025-11-17T14:04:25Z,2025-11-17T14:04:25Z,michael,,0
 3633464111,false,Safari Desktop: Autosuggest/correct only works when native contenteditable is doing the rendering,https://github.com/w3c/editing/issues/506,2025-11-17T14:01:56Z,2025-11-17T14:02:59Z,michael,,0
-3633446049,false,"Safari Desktop: When aborting a composition after pressing a dead key (e.g. `^`) in oncompositionend event.data will have `""""` while `""^""` is expected",https://github.com/w3c/editing/issues/505,2025-11-17T13:57:16Z,2026-02-12T16:55:25Z,michael,bug-reports-filed,0
+3633446049,false,"Safari Desktop: When aborting a composition after pressing a dead key (e.g. `^`) in oncompositionend event.data will have `""""` while `""^""` is expected",https://github.com/w3c/editing/issues/505,2025-11-17T13:57:16Z,2026-03-11T21:36:35Z,michael,bug-reports-filed|priority,0
 3633441300,false,Firefox + Chrome Desktop + Android: document.execCommand does not trigger a 'historyUndo' onbeforinput event after running document.execCommand('undo'),https://github.com/w3c/editing/issues/504,2025-11-17T13:55:54Z,2026-02-12T17:03:05Z,michael,execCommand,0
 3633432845,false,Speccing placeholders,https://github.com/w3c/editing/issues/503,2025-11-17T13:53:24Z,2025-11-17T13:54:02Z,michael,,0
 3633423984,false,Firefox: Clicking a placeholder inside a contenteditable element does not focus the element,https://github.com/w3c/editing/issues/502,2025-11-17T13:50:38Z,2026-02-12T18:16:05Z,michael,caret-movement,0
@@ -22,8 +23,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3633414705,false,Firefox: Empty fields with placeholder are not keyboard selectable,https://github.com/w3c/editing/issues/500,2025-11-17T13:48:04Z,2026-02-12T18:16:04Z,michael,caret-movement,0
 3633409918,false,Safari Desktop: Conditional Show/ Hide of br element in contenteditable element make caret disappear,https://github.com/w3c/editing/issues/499,2025-11-17T13:46:38Z,2026-02-12T18:16:04Z,michael,bug-reports-filed|caret-movement,0
 3633403386,false,Safari/Chrome/Firefox: Caret Rendering inconsistent with empty placeholder across browsers,https://github.com/w3c/editing/issues/498,2025-11-17T13:44:43Z,2026-02-12T18:16:03Z,michael,caret-movement,0
-3633370023,false,Safari Desktop: Editing an empty `<a>` makes content leak outside the `<a>`,https://github.com/w3c/editing/issues/497,2025-11-17T13:34:52Z,2026-02-12T17:47:55Z,michael,bug-reports-filed,0
-3633358126,false,Safari Desktop: position: relative on parent of empty text div makes content leak outside the text div.,https://github.com/w3c/editing/issues/496,2025-11-17T13:31:43Z,2026-02-12T17:48:16Z,michael,bug-reports-filed,0
+3633370023,false,Safari Desktop: Editing an empty `<a>` makes content leak outside the `<a>`,https://github.com/w3c/editing/issues/497,2025-11-17T13:34:52Z,2026-03-11T21:36:34Z,michael,bug-reports-filed|priority,0
+3633358126,false,Safari Desktop: position: relative on parent of empty text div makes content leak outside the text div.,https://github.com/w3c/editing/issues/496,2025-11-17T13:31:43Z,2026-03-11T21:36:34Z,michael,bug-reports-filed|priority,0
 3633354874,false,Android: At onbeforeinput always fires 'deleteContentBackward' and never 'deleteWordBackward',https://github.com/w3c/editing/issues/495,2025-11-17T13:30:53Z,2025-11-17T20:03:50Z,michael,,0
 3633350373,true,Safari Desktop: `insertReplacementText` not fired,https://github.com/w3c/editing/issues/494,2025-11-17T13:29:33Z,2025-12-13T14:58:25Z,michael,bug-reports-filed,0
 3633335276,false,Firefox: event.getTargetRanges() in beforeinput not consistent with window.getSelection(),https://github.com/w3c/editing/issues/493,2025-11-17T13:25:17Z,2025-12-14T15:24:27Z,michael,Agenda+,0
