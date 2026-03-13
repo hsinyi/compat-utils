@@ -1,12 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4063317571,false,"""Scripting is enabled"" is incorrect for fragment parsing",https://github.com/whatwg/html/issues/12254,2026-03-12T09:27:40Z,2026-03-12T11:17:12Z,noamr,topic: parser,0
+4065847085,false,"interaction of ""form element pointer"", fragment parsing, and <template> elements seems incorrect",https://github.com/whatwg/html/issues/12257,2026-03-12T16:30:30Z,2026-03-12T16:30:30Z,dbaron,,0
+4064415293,false,Proposal: `<toolbar>` element,https://github.com/whatwg/html/issues/12255,2026-03-12T12:45:17Z,2026-03-12T12:45:17Z,lukewarlow,addition/proposal|needs implementer interest|stage: 0,0
+4063317571,false,"""Scripting is enabled"" is incorrect for fragment parsing",https://github.com/whatwg/html/issues/12254,2026-03-12T09:27:40Z,2026-03-12T13:32:46Z,noamr,topic: parser|needs tests,0
 4063027387,false,OffscreenCanvas.convertToBlob no-rendering context scenario unspecified,https://github.com/whatwg/html/issues/12253,2026-03-12T08:28:30Z,2026-03-12T10:02:49Z,kkinnunen-apple,topic: canvas|needs tests|interop,0
 4063017346,false,OffscreenCanvas.transferToImageBitmap context loss behavior is unspecified,https://github.com/whatwg/html/issues/12252,2026-03-12T08:26:04Z,2026-03-12T08:33:02Z,kkinnunen-apple,topic: canvas|needs tests,0
 4063008142,false,"OffscreenCanvas.transferToImageBitmap is non-nullable, unspecified when [[bitmap]] has no pixels",https://github.com/whatwg/html/issues/12251,2026-03-12T08:23:50Z,2026-03-12T09:02:10Z,kkinnunen-apple,topic: canvas|needs tests,0
-4058877149,false,sizes=auto images shouldn't use concrete object width to select source,https://github.com/whatwg/html/issues/12248,2026-03-11T15:19:26Z,2026-03-11T15:26:50Z,ltenmoz,,0
-4058225377,false,Calling document.open should abort ongoing navigations if no ongoing navigation,https://github.com/whatwg/html/issues/12247,2026-03-11T13:25:11Z,2026-03-11T13:25:11Z,farre,topic: navigation,0
+4058877149,false,sizes=auto images shouldn't use concrete object width to select source,https://github.com/whatwg/html/issues/12248,2026-03-11T15:19:26Z,2026-03-12T21:44:10Z,ltenmoz,topic: img,0
+4058225377,false,Calling document.open should abort ongoing navigations if no ongoing navigation,https://github.com/whatwg/html/issues/12247,2026-03-11T13:25:11Z,2026-03-12T13:44:13Z,farre,topic: navigation,0
 4057314569,false,change of the condition under which select element must have placeholder label option,https://github.com/whatwg/html/issues/12246,2026-03-11T10:25:01Z,2026-03-11T15:21:36Z,mtrootyy,topic: select,0
-4054376656,false,Upcoming WHATNOT meeting on 2026-03-12,https://github.com/whatwg/html/issues/12244,2026-03-10T21:42:37Z,2026-03-10T21:53:18Z,cwilso,agenda+,0
+4054376656,false,Upcoming WHATNOT meeting on 2026-03-12,https://github.com/whatwg/html/issues/12244,2026-03-10T21:42:37Z,2026-03-12T15:54:07Z,cwilso,agenda+,0
 4052592223,false,Meeting 38 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12240,2026-03-10T15:34:35Z,2026-03-12T12:27:28Z,mfreed7,,0
 4051947235,false,Origin.from method's string handling is inconsistent with WebIDL string handling,https://github.com/whatwg/html/issues/12238,2026-03-10T13:49:55Z,2026-03-11T12:06:58Z,smaug----,,0
 4050134762,false,Translation of proper names,https://github.com/whatwg/html/issues/12237,2026-03-10T08:08:35Z,2026-03-10T08:09:36Z,PRR24,addition/proposal|needs implementer interest,0
@@ -17,7 +19,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4022866339,false,Window.customElements shouldn't change when initial about:blank is replaced with a loaded page?,https://github.com/whatwg/html/issues/12226,2026-03-04T16:20:56Z,2026-03-10T15:50:54Z,smaug----,topic: custom elements,0
 4020686537,false,Intercepted navigate events can call handlers on aborted navigate events,https://github.com/whatwg/html/issues/12225,2026-03-04T08:11:14Z,2026-03-04T08:12:44Z,farre,topic: navigation,0
 4018383661,false,[forms] Should we reconsider <input type=email>'s selection API support?,https://github.com/whatwg/html/issues/12224,2026-03-03T19:42:20Z,2026-03-04T05:20:29Z,emilio,topic: forms,0
-4012017339,false,#commit-a-navigate-event needs to defer calling intercept handlers.,https://github.com/whatwg/html/issues/12222,2026-03-02T16:03:17Z,2026-03-03T12:40:07Z,farre,topic: navigation,1
+4012017339,false,#commit-a-navigate-event needs to defer calling intercept handlers.,https://github.com/whatwg/html/issues/12222,2026-03-02T16:03:17Z,2026-03-12T13:26:56Z,farre,topic: navigation,1
 4011945208,false,"Proposal: for a native <type-writer> element for declarative, accessible text animation.",https://github.com/whatwg/html/issues/12221,2026-03-02T15:47:06Z,2026-03-11T15:20:01Z,anafibnshahibul,addition/proposal|needs implementer interest,0
 4009527218,true,"Proposal for a native <type-writer> element for declarative, accessible text animation.",https://github.com/whatwg/html/issues/12220,2026-03-02T06:22:39Z,2026-03-02T15:49:07Z,anafibnshahibul,,0
 4005638475,false,Import map read/write API,https://github.com/whatwg/html/issues/12217,2026-02-28T22:57:06Z,2026-02-28T22:57:57Z,LeaVerou,addition/proposal|needs implementer interest|topic: imports/exports,4
@@ -51,7 +53,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3930750339,false,Interop: focusability of `dialog[popover]`,https://github.com/whatwg/html/issues/12156,2026-02-12T09:23:09Z,2026-02-12T09:24:24Z,jpzwarte,topic: dialog|topic: popover,0
 3930439514,false,Determining dropEffect based on effectAllowed + modifier keys,https://github.com/whatwg/html/issues/12155,2026-02-12T08:13:21Z,2026-02-26T17:27:21Z,tanu18,,0
 3928896424,false,Unblock Document-Policy to Policy Container PR,https://github.com/whatwg/html/issues/12154,2026-02-11T22:09:37Z,2026-02-17T14:29:10Z,monica-ch,,0
-3923058520,false,Platform-Provided Behaviors for Custom Elements,https://github.com/whatwg/html/issues/12150,2026-02-10T18:55:59Z,2026-03-11T20:50:01Z,anaskim,addition/proposal|needs implementer interest|agenda+,0
+3923058520,false,Platform-Provided Behaviors for Custom Elements,https://github.com/whatwg/html/issues/12150,2026-02-10T18:55:59Z,2026-03-12T16:48:06Z,anaskim,addition/proposal|needs implementer interest|topic: custom elements|stage: 1,0
 3917833084,false,Incorrect definition for media element pseudo class `:stalled`,https://github.com/whatwg/html/issues/12145,2026-02-09T19:42:39Z,2026-03-10T08:41:14Z,alastor0325,topic: media|needs tests|topic: selectors,0
 3908815904,true,Upcoming WHATNOT meeting on 2026-02-12,https://github.com/whatwg/html/issues/12141,2026-02-06T23:24:04Z,2026-02-26T01:01:22Z,cwilso,,0
 3907067934,false,`<link rel=stylesheet>` waits for critical subresources before we know what they are,https://github.com/whatwg/html/issues/12140,2026-02-06T14:35:46Z,2026-02-09T21:59:31Z,AtkinsSJ,topic: style,0
@@ -156,7 +158,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3652508538,false,"2D canvas should internally hold a CSS color space, not an enum value",https://github.com/whatwg/html/issues/11939,2025-11-21T17:26:44Z,2026-03-12T07:40:59Z,ccameron-chromium,clarification|topic: canvas,0
 3652485079,false,(scroll-to-text) fragmentDirectives should be allowed to be unique,https://github.com/whatwg/html/issues/11938,2025-11-21T17:17:37Z,2025-11-30T20:52:53Z,vmpstr,topic: navigation,0
 3650494206,false,Incorporate SVG `a` element in the processing model and algorithms of HTML `a` element,https://github.com/whatwg/html/issues/11936,2025-11-21T07:03:55Z,2025-12-02T08:46:21Z,goldenboy777,needs tests|topic: hyperlink|integration|needs concrete proposal|topic: svg,0
-3648584316,false,Optional destination size for `HTMLImageElement.decode()`,https://github.com/whatwg/html/issues/11935,2025-11-20T18:42:01Z,2026-03-10T04:45:28Z,shallawa,addition/proposal|needs implementer interest|topic: img|agenda+,4
+3648584316,false,Optional destination size for `HTMLImageElement.decode()`,https://github.com/whatwg/html/issues/11935,2025-11-20T18:42:01Z,2026-03-12T22:05:52Z,shallawa,addition/proposal|needs implementer interest|topic: img|agenda+,4
 3648131740,false,Please qualify your various comments on paragraphs,https://github.com/whatwg/html/issues/11934,2025-11-20T16:46:13Z,2025-11-21T18:34:21Z,mbgower,accessibility,0
 3643528484,false,External resources don't have a fallback mechanism,https://github.com/whatwg/html/issues/11928,2025-11-19T16:32:01Z,2025-11-20T09:27:43Z,romainmenke,addition/proposal|needs implementer interest,0
 3640692765,false,Proposal: Declarative dependent form controls (conditional inputs without scripting),https://github.com/whatwg/html/issues/11925,2025-11-19T01:54:18Z,2025-11-19T01:56:03Z,ghost,,0
@@ -260,7 +262,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3488171744,true,"The type of a <script> is fixed once it's connected, but this isn't listed in the spec",https://github.com/whatwg/html/issues/11756,2025-10-06T16:46:47Z,2025-10-08T16:32:40Z,KurtCattiSchmidt,needs tests|topic: script,0
 3486890817,false,Should the module script's error to rethrow be checked during HostLoadImportedModule,https://github.com/whatwg/html/issues/11755,2025-10-06T11:46:20Z,2025-10-16T13:40:13Z,allstarschh,topic: script,0
 3484334435,true,love yall also as someone with a disability calling buttons disabled when they are actually unclickable is driving me up the wall.,https://github.com/whatwg/html/issues/11753,2025-10-05T03:06:22Z,2025-10-08T15:57:44Z,iheartcoding4-hub,addition/proposal|needs implementer interest,0
-3483953704,false,Expose certain behavioural attributes via ElementInternals,https://github.com/whatwg/html/issues/11752,2025-10-04T16:50:21Z,2026-03-12T10:31:48Z,lukewarlow,addition/proposal|needs implementer interest|topic: custom elements|agenda+,8
+3483953704,false,Expose certain behavioural attributes via ElementInternals,https://github.com/whatwg/html/issues/11752,2025-10-04T16:50:21Z,2026-03-12T16:55:31Z,lukewarlow,addition/proposal|needs implementer interest|topic: custom elements,8
 3483917689,false,Can we make `draggable`'s empty value default be True?,https://github.com/whatwg/html/issues/11751,2025-10-04T16:10:57Z,2025-11-06T16:05:51Z,lukewarlow,addition/proposal|needs implementer interest|needs compat analysis|topic: drag and drop,0
 3483015079,false,Initial serialization data for Worker,https://github.com/whatwg/html/issues/11749,2025-10-04T01:12:56Z,2025-10-06T16:11:49Z,guybedford,addition/proposal|needs implementer interest|topic: workers|topic: serialize and transfer,1
 3482893798,true,Upcoming WHATNOT meeting on 2025-10-09,https://github.com/whatwg/html/issues/11747,2025-10-03T23:49:21Z,2025-10-16T15:08:07Z,cwilso,,0
@@ -352,7 +354,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3309950964,true,LLMs Meta Tags Standard,https://github.com/whatwg/html/issues/11548,2025-08-11T13:02:49Z,2025-08-11T16:30:30Z,rafaelp,addition/proposal|needs implementer interest,0
 3308378580,false,`PromiseRejectionError` constructor behavior differs by implementation,https://github.com/whatwg/html/issues/11547,2025-08-11T04:06:26Z,2025-08-11T09:12:06Z,petamoriken,needs tests,0
 3308003149,false,Allow `fieldset` to be a CSS subgrid,https://github.com/whatwg/html/issues/11546,2025-08-10T21:46:40Z,2025-08-11T23:42:34Z,kirk-loretz-fsn,addition/proposal|needs implementer interest|topic: fieldset,0
-3299845424,false,"Out of order HTML streaming (""patching"")",https://github.com/whatwg/html/issues/11542,2025-08-07T10:03:34Z,2026-03-09T19:15:06Z,noamr,addition/proposal|topic: parser|agenda+|stage: 1,8
+3299845424,false,"Out of order HTML streaming (""patching"")",https://github.com/whatwg/html/issues/11542,2025-08-07T10:03:34Z,2026-03-12T16:48:00Z,noamr,addition/proposal|topic: parser|stage: 2,8
 3299685743,true,Upcoming WHATNOT meeting on 2025-08-14,https://github.com/whatwg/html/issues/11541,2025-08-07T09:12:30Z,2025-09-11T10:01:57Z,annevk,,0
 3297402544,false,"""rules for parsing a list of dimensions"" should clarify behavior for large numeric values",https://github.com/whatwg/html/issues/11539,2025-08-06T16:58:06Z,2025-10-08T20:12:46Z,weinig,needs tests,0
 3296458731,false,"Proposal: New HTML attributes mustcontain, requiredchars, and preset for simplified form validation",https://github.com/whatwg/html/issues/11538,2025-08-06T12:11:02Z,2025-08-13T14:30:30Z,sanketbhuite,addition/proposal|needs implementer interest,1
@@ -602,7 +604,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2874388234,false,Exposing the DOMParser API in Worker Contexts,https://github.com/whatwg/html/issues/11068,2025-02-24T09:50:37Z,2025-02-25T04:43:48Z,sqwr,addition/proposal|needs implementer interest,0
 2869703835,true,navigation API: resolve the finished promise,https://github.com/whatwg/html/issues/11064,2025-02-21T18:10:39Z,2025-02-26T07:45:51Z,atscott,clarification|topic: navigation,0
 2869493100,true,:host-context(my-el) inside a <my-el> custom element matches even for a standalone <my-el>,https://github.com/whatwg/html/issues/11063,2025-02-21T16:29:23Z,2025-02-24T17:27:51Z,franktopel,,0
-2867510954,false,Proposal: Customized built-in elements via `elementInternals.type`,https://github.com/whatwg/html/issues/11061,2025-02-20T23:34:14Z,2026-02-11T22:32:51Z,sanketj,addition/proposal|stage: 1,17
+2867510954,true,Proposal: Customized built-in elements via `elementInternals.type`,https://github.com/whatwg/html/issues/11061,2025-02-20T23:34:14Z,2026-03-12T16:20:24Z,sanketj,addition/proposal|stage: 1,17
 2867022774,false,"`responsePolicyContainer` in ""determine navigation params policy container"" should be cloned for consistency",https://github.com/whatwg/html/issues/11060,2025-02-20T18:58:05Z,2025-02-25T08:59:19Z,Lubrsi,topic: navigation|topic: policy container,0
 2866860480,true,Meeting 17 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11059,2025-02-20T17:41:25Z,2025-12-04T21:35:12Z,mfreed7,,0
 2866853950,false,Touchscreen behavior for the `interesttarget` attribute,https://github.com/whatwg/html/issues/11058,2025-02-20T17:38:14Z,2025-05-14T01:59:13Z,mfreed7,,1
@@ -825,7 +827,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2555508180,true,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-10-30T05:36:43Z,domenic,normative change|topic: dialog|topic: popover,1
 2551969947,true,Upcoming WHATNOT meeting on 2024-10-03,https://github.com/whatwg/html/issues/10652,2024-09-27T04:30:41Z,2024-10-02T15:00:07Z,past,agenda+,0
 2551884785,false,Nested `contenteditable=true` and `contenteditable=plaintext-only` should win only the ourtermost one,https://github.com/whatwg/html/issues/10651,2024-09-27T02:53:27Z,2024-09-30T21:55:52Z,masayuki-nakano,needs tests|needs concrete proposal|topic: editing,0
-2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-03-06T19:04:56Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|agenda+|stage: 1,1
+2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-03-12T16:28:06Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|stage: 1,1
 2549044519,true,Resolving  of transition and finished promises is mismatched between spec and tests,https://github.com/whatwg/html/issues/10646,2024-09-25T21:39:11Z,2024-09-30T10:14:17Z,rwlbuis,topic: navigation,0
 2544017899,true,"'reading-flow' and ""display: contents""",https://github.com/whatwg/html/issues/10643,2024-09-24T00:42:59Z,2024-09-24T16:09:09Z,tabatkins,topic: focus,0
 2543972242,false,tabindex vs reading-flow property,https://github.com/whatwg/html/issues/10642,2024-09-24T00:01:25Z,2025-03-12T17:10:41Z,tabatkins,topic: focus,3
@@ -952,7 +954,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2376337197,false,should default reset/submit button text and default summary text use node's language rather than being locale-specific?,https://github.com/whatwg/html/issues/10437,2024-06-26T21:49:45Z,2024-07-04T18:07:50Z,dbaron,topic: forms|i18n-tracker,0
 2375865288,true,Should popovertarget work on a reset button / input in a form?,https://github.com/whatwg/html/issues/10436,2024-06-26T17:04:31Z,2026-01-13T10:49:29Z,lukewarlow,topic: forms|topic: popover,0
 2373350515,true,fragment parsing algorithm steps take DocumentFragment but it's never used,https://github.com/whatwg/html/issues/10434,2024-06-25T18:20:05Z,2024-06-26T01:05:48Z,lukewarlow,topic: parser,0
-2372772317,false,TC39 AsyncContext Integration,https://github.com/whatwg/html/issues/10432,2024-06-25T13:56:55Z,2026-02-12T17:52:43Z,legendecas,addition/proposal|needs implementer interest|agenda+|stage: 1,1
+2372772317,false,TC39 AsyncContext Integration,https://github.com/whatwg/html/issues/10432,2024-06-25T13:56:55Z,2026-03-12T15:44:59Z,legendecas,addition/proposal|needs implementer interest|stage: 1,1
 2371966968,false,Should clicking a label contained in a button with popovertarget toggle the popover?,https://github.com/whatwg/html/issues/10431,2024-06-25T07:56:12Z,2025-05-09T14:46:49Z,vinhill,topic: events|topic: popover,0
 2371474176,false,DOMString and USVString are not linked in IDL,https://github.com/whatwg/html/issues/10429,2024-06-25T02:10:18Z,2024-06-25T02:17:58Z,nektro,clarification,0
 2370304215,false,Add AbortSignal for popover.showPopover() for initialize internal CloseWatcher,https://github.com/whatwg/html/issues/10428,2024-06-24T13:47:19Z,2024-11-23T11:29:29Z,Jxck,addition/proposal|needs implementer interest|topic: popover,0
@@ -3987,7 +3989,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 301932781,true,"""abort"" Event Isn't Fired When Aborting Document Load",https://github.com/whatwg/html/issues/3525,2018-03-02T23:01:29Z,2021-05-26T16:19:17Z,anthumchris,removal/deprecation|topic: events|topic: document lifecycle,0
 301870486,true,"Proposal: Allow navigation with replacement enabled in additional, optional cases",https://github.com/whatwg/html/issues/3524,2018-03-02T19:01:10Z,2018-05-24T22:35:51Z,natechapin,addition/proposal|topic: navigation,0
 301777319,true,"quirk mode ",https://github.com/whatwg/html/issues/3521,2018-03-02T14:08:38Z,2018-03-02T14:09:54Z,ghost,,0
-301686491,false,<meter> interoperability issue with values on boundaries,https://github.com/whatwg/html/issues/3520,2018-03-02T08:19:32Z,2026-03-10T15:52:11Z,tkent-google,clarification|interop|agenda+,0
+301686491,false,<meter> interoperability issue with values on boundaries,https://github.com/whatwg/html/issues/3520,2018-03-02T08:19:32Z,2026-03-12T16:18:48Z,tkent-google,clarification|interop,0
 301660842,true,I need feedback to see if I am right?,https://github.com/whatwg/html/issues/3519,2018-03-02T05:50:39Z,2018-03-02T10:10:56Z,Thezone1975,,0
 301576285,false,Proposal: HTML passwordrules attribute,https://github.com/whatwg/html/issues/3518,2018-03-01T22:02:50Z,2025-05-02T07:24:57Z,dbates-wk,addition/proposal|needs implementer interest|document conformance|security/privacy|topic: forms,75
 301126578,false,API for structured serialized data,https://github.com/whatwg/html/issues/3517,2018-02-28T18:07:55Z,2024-07-15T07:43:12Z,devsnek,addition/proposal|needs implementer interest|topic: serialize and transfer,9
