@@ -1,10 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4086868250,false,<select> popover integration does not appear to be defined,https://github.com/whatwg/html/issues/12271,2026-03-17T08:03:26Z,2026-03-17T10:40:00Z,annevk,topic: popover|topic: select,0
-4083642883,true,Clarify behavior of calling attachShadow on a declarative shadowRoot,https://github.com/whatwg/html/issues/12268,2026-03-16T16:53:28Z,2026-03-16T19:26:30Z,sorvell,topic: shadow|topic: custom elements|needs tests,0
+4091808568,false,Upcoming WHATNOT meeting on 2026-03-19,https://github.com/whatwg/html/issues/12275,2026-03-17T23:45:09Z,2026-03-17T23:45:09Z,cwilso,agenda+,0
+4090193373,false,Passing the scoped custom element registry to the fragment parser has non-obvious side effects,https://github.com/whatwg/html/issues/12274,2026-03-17T17:54:23Z,2026-03-17T19:16:26Z,noamr,topic: custom elements|agenda+,0
+4088772503,false,Overscroll areas via command=toggle-overscroll,https://github.com/whatwg/html/issues/12273,2026-03-17T14:01:51Z,2026-03-17T14:01:51Z,vmpstr,addition/proposal|needs implementer interest,0
+4086868250,false,<select> popover integration does not appear to be defined,https://github.com/whatwg/html/issues/12271,2026-03-17T08:03:26Z,2026-03-17T21:00:46Z,annevk,topic: popover|topic: select,0
+4083642883,true,Clarify behavior of calling attachShadow on a declarative shadowRoot,https://github.com/whatwg/html/issues/12268,2026-03-16T16:53:28Z,2026-03-17T14:26:49Z,sorvell,topic: shadow|topic: custom elements|needs tests,0
 4078444403,false,Consider marking input buttons as obsolete,https://github.com/whatwg/html/issues/12262,2026-03-15T14:04:07Z,2026-03-16T17:27:12Z,lukewarlow,removal/deprecation|document conformance|topic: forms,5
 4075156789,false,document.readyState transitions for about:blank are unclear,https://github.com/whatwg/html/issues/12259,2026-03-14T08:35:18Z,2026-03-14T08:37:08Z,jdm,,0
 4071102146,false,"`<link rel=""stylesheet"">` that were script blocking during page load later block main thread when rel is set to `stylesheet` again",https://github.com/whatwg/html/issues/12258,2026-03-13T13:22:26Z,2026-03-13T13:49:48Z,TimvdLippe,,0
-4065847085,false,"interaction of ""form element pointer"", fragment parsing, and <template> elements seems incorrect",https://github.com/whatwg/html/issues/12257,2026-03-12T16:30:30Z,2026-03-13T05:15:42Z,dbaron,topic: parser,0
+4065847085,false,"interaction of ""form element pointer"", fragment parsing, and <template> elements seems incorrect",https://github.com/whatwg/html/issues/12257,2026-03-12T16:30:30Z,2026-03-17T13:47:16Z,dbaron,topic: parser,0
 4064415293,false,Proposal: `<toolbar>` element,https://github.com/whatwg/html/issues/12255,2026-03-12T12:45:17Z,2026-03-14T01:17:27Z,lukewarlow,addition/proposal|needs implementer interest|agenda+|stage: 0,0
 4063317571,false,"""Scripting is enabled"" is incorrect for fragment parsing",https://github.com/whatwg/html/issues/12254,2026-03-12T09:27:40Z,2026-03-16T10:05:50Z,noamr,topic: parser|needs tests,0
 4063027387,false,OffscreenCanvas.convertToBlob no-rendering context scenario unspecified,https://github.com/whatwg/html/issues/12253,2026-03-12T08:28:30Z,2026-03-12T10:02:49Z,kkinnunen-apple,topic: canvas|needs tests|interop,0
@@ -13,8 +16,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4058877149,false,sizes=auto images shouldn't use concrete object width to select source,https://github.com/whatwg/html/issues/12248,2026-03-11T15:19:26Z,2026-03-12T21:44:10Z,ltenmoz,topic: img,0
 4058225377,false,Calling document.open should abort ongoing navigations if no ongoing navigation,https://github.com/whatwg/html/issues/12247,2026-03-11T13:25:11Z,2026-03-16T15:05:32Z,farre,topic: navigation,0
 4057314569,false,change of the condition under which select element must have placeholder label option,https://github.com/whatwg/html/issues/12246,2026-03-11T10:25:01Z,2026-03-11T15:21:36Z,mtrootyy,topic: select,0
-4054376656,false,Upcoming WHATNOT meeting on 2026-03-12,https://github.com/whatwg/html/issues/12244,2026-03-10T21:42:37Z,2026-03-12T15:54:07Z,cwilso,agenda+,0
-4052592223,false,Meeting 38 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12240,2026-03-10T15:34:35Z,2026-03-12T12:27:28Z,mfreed7,,0
+4054376656,true,Upcoming WHATNOT meeting on 2026-03-12,https://github.com/whatwg/html/issues/12244,2026-03-10T21:42:37Z,2026-03-17T23:57:16Z,cwilso,,0
+4052592223,false,Meeting 38 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12240,2026-03-10T15:34:35Z,2026-03-17T16:53:58Z,mfreed7,,0
 4051947235,false,Origin.from method's string handling is inconsistent with WebIDL string handling,https://github.com/whatwg/html/issues/12238,2026-03-10T13:49:55Z,2026-03-11T12:06:58Z,smaug----,,0
 4050134762,false,Translation of proper names,https://github.com/whatwg/html/issues/12237,2026-03-10T08:08:35Z,2026-03-10T08:09:36Z,PRR24,addition/proposal|needs implementer interest,0
 4048638520,false,Spec contradiction: reload navigation ID defaults to null but assertion requires non-null,https://github.com/whatwg/html/issues/12236,2026-03-10T00:28:23Z,2026-03-10T00:28:31Z,gsnedders,topic: navigation,0
@@ -295,7 +298,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3453290739,true,option element disabledness works incorrectly,https://github.com/whatwg/html/issues/11707,2025-09-25T11:57:06Z,2025-10-08T08:10:51Z,annevk,needs tests|topic: select,0
 3451734772,true,Browsers do not allow meta refresh to javascript: URLs,https://github.com/whatwg/html/issues/11699,2025-09-25T03:34:44Z,2025-11-21T10:46:34Z,domenic,topic: javascript: URLs,1
 3450628485,true,Upcoming WHATNOT meeting on 2025-09-25,https://github.com/whatwg/html/issues/11696,2025-09-24T19:19:01Z,2025-09-26T20:14:31Z,cwilso,,0
-3449544959,false,Popover: Implicit anchor element removed too early,https://github.com/whatwg/html/issues/11694,2025-09-24T13:50:57Z,2026-03-06T23:58:03Z,jakearchibald,agenda+|topic: popover,0
+3449544959,false,Popover: Implicit anchor element removed too early,https://github.com/whatwg/html/issues/11694,2025-09-24T13:50:57Z,2026-03-17T19:17:24Z,jakearchibald,agenda+|topic: popover,0
 3448340951,true,Add `to` or `destination` to `NavigationTransition`,https://github.com/whatwg/html/issues/11690,2025-09-24T08:32:25Z,2025-12-03T11:36:50Z,noamr,addition/proposal|needs implementer interest|topic: navigation,0
 3448317187,true,"""expected native appearance"" is confusing given the definition of ""expected""",https://github.com/whatwg/html/issues/11689,2025-09-24T08:26:26Z,2025-09-25T14:23:03Z,zcorpan,clarification|topic: rendering,0
 3445916090,false,Browsers don't agree with the incumbent settings handling for Promise reactions,https://github.com/whatwg/html/issues/11686,2025-09-23T16:17:54Z,2025-09-24T04:07:24Z,arai-a,normative change|topic: multiple globals,0
