@@ -1,15 +1,17 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4094686346,false,Script execution triggered on child removals from children change,https://github.com/whatwg/html/issues/12279,2026-03-18T12:02:40Z,2026-03-18T12:02:40Z,shannonbooth,,0
-4091808568,false,Upcoming WHATNOT meeting on 2026-03-19,https://github.com/whatwg/html/issues/12275,2026-03-17T23:45:09Z,2026-03-18T11:26:12Z,cwilso,agenda+,0
-4090193373,false,Passing the scoped custom element registry to the fragment parser has non-obvious side effects,https://github.com/whatwg/html/issues/12274,2026-03-17T17:54:23Z,2026-03-18T10:52:59Z,noamr,topic: custom elements|agenda+,0
+4098352482,false,Creating an iframe's child navigable as written is impossible.,https://github.com/whatwg/html/issues/12285,2026-03-18T23:51:27Z,2026-03-18T23:51:27Z,Psychpsyo,,0
+4095451770,false,Should baseURI for initial top level javascript URIs be the creators base?,https://github.com/whatwg/html/issues/12281,2026-03-18T14:18:04Z,2026-03-18T14:18:04Z,vinhill,,0
+4094686346,false,Script execution triggered on child removals/mutation from children change,https://github.com/whatwg/html/issues/12279,2026-03-18T12:02:40Z,2026-03-18T13:20:46Z,shannonbooth,,0
+4091808568,false,Upcoming WHATNOT meeting on 2026-03-19,https://github.com/whatwg/html/issues/12275,2026-03-17T23:45:09Z,2026-03-18T19:01:00Z,cwilso,agenda+,0
+4090193373,false,Passing the scoped custom element registry to the fragment parser has non-obvious side effects,https://github.com/whatwg/html/issues/12274,2026-03-17T17:54:23Z,2026-03-18T14:27:43Z,noamr,topic: custom elements|agenda+,0
 4088772503,false,Overscroll areas via command=toggle-overscroll,https://github.com/whatwg/html/issues/12273,2026-03-17T14:01:51Z,2026-03-17T14:01:51Z,vmpstr,addition/proposal|needs implementer interest,1
-4086868250,false,<select> popover integration does not appear to be defined,https://github.com/whatwg/html/issues/12271,2026-03-17T08:03:26Z,2026-03-17T21:00:46Z,annevk,topic: popover|topic: select,0
+4086868250,false,<select> popover integration does not appear to be defined,https://github.com/whatwg/html/issues/12271,2026-03-17T08:03:26Z,2026-03-18T22:05:30Z,annevk,topic: popover|topic: select,0
 4083642883,true,Clarify behavior of calling attachShadow on a declarative shadowRoot,https://github.com/whatwg/html/issues/12268,2026-03-16T16:53:28Z,2026-03-17T14:26:49Z,sorvell,topic: shadow|topic: custom elements|needs tests,0
 4078444403,false,Consider marking input buttons as obsolete,https://github.com/whatwg/html/issues/12262,2026-03-15T14:04:07Z,2026-03-16T17:27:12Z,lukewarlow,removal/deprecation|document conformance|topic: forms,5
 4075156789,false,document.readyState transitions for about:blank are unclear,https://github.com/whatwg/html/issues/12259,2026-03-14T08:35:18Z,2026-03-14T08:37:08Z,jdm,,0
 4071102146,false,"`<link rel=""stylesheet"">` that were script blocking during page load later block main thread when rel is set to `stylesheet` again",https://github.com/whatwg/html/issues/12258,2026-03-13T13:22:26Z,2026-03-13T13:49:48Z,TimvdLippe,,0
 4065847085,false,"interaction of ""form element pointer"", fragment parsing, and <template> elements seems incorrect",https://github.com/whatwg/html/issues/12257,2026-03-12T16:30:30Z,2026-03-17T13:47:16Z,dbaron,topic: parser,0
-4064415293,false,Proposal: `<toolbar>` element,https://github.com/whatwg/html/issues/12255,2026-03-12T12:45:17Z,2026-03-18T11:03:56Z,lukewarlow,addition/proposal|needs implementer interest|agenda+|stage: 0,0
+4064415293,false,Proposal: `<toolbar>` element,https://github.com/whatwg/html/issues/12255,2026-03-12T12:45:17Z,2026-03-18T11:03:56Z,lukewarlow,addition/proposal|needs implementer interest|agenda+|stage: 0,1
 4063317571,false,"""Scripting is enabled"" is incorrect for fragment parsing",https://github.com/whatwg/html/issues/12254,2026-03-12T09:27:40Z,2026-03-16T10:05:50Z,noamr,topic: parser|needs tests,0
 4063027387,false,OffscreenCanvas.convertToBlob no-rendering context scenario unspecified,https://github.com/whatwg/html/issues/12253,2026-03-12T08:28:30Z,2026-03-12T10:02:49Z,kkinnunen-apple,topic: canvas|needs tests|interop,0
 4063017346,false,OffscreenCanvas.transferToImageBitmap context loss behavior is unspecified,https://github.com/whatwg/html/issues/12252,2026-03-12T08:26:04Z,2026-03-12T08:33:02Z,kkinnunen-apple,topic: canvas|needs tests,0
@@ -98,7 +100,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3829678534,false,Avoid leaking documents in CustomElementRegistry's scoped document set,https://github.com/whatwg/html/issues/12092,2026-01-19T13:12:45Z,2026-01-20T01:02:46Z,Jamesernator,topic: custom elements,0
 3827339302,false,data:// URLs being considered as IsSecureContext,https://github.com/whatwg/html/issues/12091,2026-01-18T21:13:38Z,2026-01-22T17:01:02Z,shannonbooth,,0
 3819577653,true,Upcoming WHATNOT meeting on 2026-01-22,https://github.com/whatwg/html/issues/12087,2026-01-15T23:11:47Z,2026-01-28T15:38:23Z,cwilso,agenda+,0
-3812373513,false,Proposal: Unblock bfcache for active WebSockets by disconnecting on entry,https://github.com/whatwg/html/issues/12085,2026-01-14T09:36:51Z,2026-03-18T05:08:38Z,llannasatoll,,0
+3812373513,false,Proposal: Unblock bfcache for active WebSockets by disconnecting on entry,https://github.com/whatwg/html/issues/12085,2026-01-14T09:36:51Z,2026-03-18T16:54:25Z,llannasatoll,topic: navigation|topic: websockets,0
 3808937455,false,Should auxiliary browsing contexts load fallback favicons?,https://github.com/whatwg/html/issues/12082,2026-01-13T13:49:21Z,2026-01-16T15:20:39Z,estefysc,needs tests,0
 3808566888,false,Find a better way to explain ad-hoc script prepare/cleanup pairs for promise-based APIs,https://github.com/whatwg/html/issues/12080,2026-01-13T12:10:21Z,2026-01-14T09:27:09Z,noamr,,0
 3807918719,true,Navigation API: cleaning up method tracker should only be done when navigation is cross-document,https://github.com/whatwg/html/issues/12079,2026-01-13T09:15:17Z,2026-01-14T08:27:55Z,noamr,,0
@@ -704,7 +706,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2762041321,false,ARIA and Accessibility API in HTML specification,https://github.com/whatwg/html/issues/10885,2024-12-28T23:45:58Z,2024-12-28T23:45:58Z,dSalieri,,0
 2760982461,false,Canvas text direction getter not interoperable,https://github.com/whatwg/html/issues/10884,2024-12-27T15:01:10Z,2025-02-01T16:50:38Z,schenney-chromium,topic: canvas,1
 2754605091,false,valueAsTemporal: date/time input integration with JavaScript Temporal API,https://github.com/whatwg/html/issues/10882,2024-12-22T11:10:04Z,2025-01-16T19:17:03Z,o-t-w,addition/proposal|needs implementer interest|topic: forms,12
-2752376493,false,Audit and fix innerHTML scripting disabled parsing behavior for template,https://github.com/whatwg/html/issues/10879,2024-12-20T09:59:00Z,2025-11-14T05:59:45Z,hsivonen,topic: parser|interop,0
+2752376493,false,Audit and fix innerHTML scripting disabled parsing behavior for template,https://github.com/whatwg/html/issues/10879,2024-12-20T09:59:00Z,2026-03-18T21:39:57Z,hsivonen,topic: parser|interop,0
 2751257695,true,Upcoming WHATNOT meeting on 2025-01-09,https://github.com/whatwg/html/issues/10878,2024-12-19T19:32:37Z,2025-12-04T21:36:37Z,past,,0
 2751142397,true,Meeting 14 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10877,2024-12-19T18:21:56Z,2025-12-04T21:36:36Z,josepharhar,,0
 2750910456,false,"Selection in form control elements, user-select, and customizable select",https://github.com/whatwg/html/issues/10876,2024-12-19T16:46:00Z,2025-01-16T15:17:02Z,josepharhar,topic: select,0
@@ -836,7 +838,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2555508180,true,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-10-30T05:36:43Z,domenic,normative change|topic: dialog|topic: popover,1
 2551969947,true,Upcoming WHATNOT meeting on 2024-10-03,https://github.com/whatwg/html/issues/10652,2024-09-27T04:30:41Z,2024-10-02T15:00:07Z,past,agenda+,0
 2551884785,false,Nested `contenteditable=true` and `contenteditable=plaintext-only` should win only the ourtermost one,https://github.com/whatwg/html/issues/10651,2024-09-27T02:53:27Z,2024-09-30T21:55:52Z,masayuki-nakano,needs tests|needs concrete proposal|topic: editing,0
-2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-03-16T16:55:03Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|agenda+|stage: 1,1
+2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-03-18T21:02:55Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|agenda+|stage: 1,1
 2549044519,true,Resolving  of transition and finished promises is mismatched between spec and tests,https://github.com/whatwg/html/issues/10646,2024-09-25T21:39:11Z,2024-09-30T10:14:17Z,rwlbuis,topic: navigation,0
 2544017899,true,"'reading-flow' and ""display: contents""",https://github.com/whatwg/html/issues/10643,2024-09-24T00:42:59Z,2024-09-24T16:09:09Z,tabatkins,topic: focus,0
 2543972242,false,tabindex vs reading-flow property,https://github.com/whatwg/html/issues/10642,2024-09-24T00:01:25Z,2025-03-12T17:10:41Z,tabatkins,topic: focus,3
@@ -1439,7 +1441,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1767690214,true,auto-sizes concrete object size ignoring natural dimensions is not implementable,https://github.com/whatwg/html/issues/9448,2023-06-21T14:08:37Z,2023-11-30T12:59:38Z,zcorpan,topic: img,1
 1765973926,false,HTML Video Element: Proposal For Support for Srcset and Sizes attributes on source elements,https://github.com/whatwg/html/issues/9446,2023-06-20T18:52:24Z,2023-06-21T07:29:11Z,scottjehl,addition/proposal|topic: media,21
 1764161923,true,Spec clarification: Are values in fontVariant & fontKerning case sensitive?,https://github.com/whatwg/html/issues/9445,2023-06-19T20:09:46Z,2023-06-19T22:59:06Z,yiyix,,0
-1763904590,false,"Import with type text, bytes, and URL",https://github.com/whatwg/html/issues/9444,2023-06-19T17:07:43Z,2026-01-01T20:13:37Z,kriskowal,addition/proposal|needs implementer interest|topic: script,38
+1763904590,false,"Import with type text, bytes, and URL",https://github.com/whatwg/html/issues/9444,2023-06-19T17:07:43Z,2026-01-01T20:13:37Z,kriskowal,addition/proposal|needs implementer interest|topic: script,39
 1763586145,false,Why is checking document validity skipped sometimes?,https://github.com/whatwg/html/issues/9441,2023-06-19T13:47:43Z,2023-09-04T13:10:28Z,ghost,topic: popover,0
 1759295446,true,Upcoming HTML standard issue triage meeting on 6/29/2023,https://github.com/whatwg/html/issues/9432,2023-06-15T17:52:32Z,2023-06-29T14:43:18Z,past,agenda+,0
 1758822017,true,`nestedShow` is not initialized in https://html.spec.whatwg.org/#show-popover,https://github.com/whatwg/html/issues/9429,2023-06-15T13:17:53Z,2023-06-29T14:03:02Z,ghost,topic: popover,0
@@ -2194,7 +2196,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1067387017,false,Proposal: Add Element.isRendered() function,https://github.com/whatwg/html/issues/7379,2021-11-30T15:43:49Z,2021-12-01T21:14:55Z,vmpstr,,1
 1066032725,true,Non-cancelled `setTimeout`s would lead to idle deadlines in the past,https://github.com/whatwg/html/issues/7376,2021-11-29T13:21:50Z,2021-11-30T22:13:53Z,andreubotella,,0
 1065446998,true,"""classic script"" definition incomplete",https://github.com/whatwg/html/issues/7374,2021-11-28T21:57:10Z,2021-11-29T16:40:08Z,SmashManiac,,0
-1062927220,false,Adding scriptElement.exports for configuration use cases,https://github.com/whatwg/html/issues/7367,2021-11-24T21:32:38Z,2026-02-14T05:18:06Z,domenic,addition/proposal|topic: script|topic: imports/exports,8
+1062927220,false,Adding scriptElement.exports for configuration use cases,https://github.com/whatwg/html/issues/7367,2021-11-24T21:32:38Z,2026-03-18T16:51:41Z,domenic,addition/proposal|topic: script|topic: imports/exports,8
 1062394112,false,Last-Event-ID value space follow-up,https://github.com/whatwg/html/issues/7363,2021-11-24T12:53:55Z,2026-01-22T05:09:28Z,annevk,topic: eventsource,0
 1061879455,false,"Geolocations uses ""page visibility change steps""",https://github.com/whatwg/html/issues/7362,2021-11-24T01:18:05Z,2021-11-24T01:18:05Z,marcoscaceres,,0
 1060944661,false,Nit: timer initialization steps should define maximum for id,https://github.com/whatwg/html/issues/7358,2021-11-23T08:15:28Z,2021-11-24T16:16:55Z,annevk,clarification,0
@@ -4752,7 +4754,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 194134171,true,imageSmoothingQuality attribute description should mention valid values,https://github.com/whatwg/html/issues/2147,2016-12-07T18:48:52Z,2016-12-12T20:26:27Z,salty-horse,clarification|good first issue|topic: canvas,0
 194130836,true,Extra space in imageSmoothingQuality description,https://github.com/whatwg/html/issues/2146,2016-12-07T18:35:55Z,2016-12-08T09:11:52Z,salty-horse,good first issue,0
 194056774,false,"""allowed to use"" active document, browsing context container...",https://github.com/whatwg/html/issues/2143,2016-12-07T14:00:59Z,2020-11-19T15:44:17Z,zcorpan,topic: shadow|needs tests,0
-194033095,false,A way to stream content into an element,https://github.com/whatwg/html/issues/2142,2016-12-07T12:09:02Z,2026-02-04T19:32:37Z,jakearchibald,addition/proposal|stage: 2,39
+194033095,false,A way to stream content into an element,https://github.com/whatwg/html/issues/2142,2016-12-07T12:09:02Z,2026-02-04T19:32:37Z,jakearchibald,addition/proposal|stage: 2,38
 193989605,false,Blocked popup should not throw an exception,https://github.com/whatwg/html/issues/2141,2016-12-07T08:46:06Z,2018-09-01T11:17:30Z,zcorpan,normative change|needs tests,0
 193868767,false,Add a new version of requestAnimationFrame for use with OffscreenCanvas,https://github.com/whatwg/html/issues/2139,2016-12-06T19:55:21Z,2021-06-08T11:27:33Z,junov,topic: canvas,0
 193858040,true,"Editorial: ""that whose"" is not English",https://github.com/whatwg/html/issues/2138,2016-12-06T19:09:57Z,2016-12-28T20:13:33Z,bzbarsky,good first issue,0
