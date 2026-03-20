@@ -1,8 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 4102960016,false,Propose addition to org attribution section for contributions to media lazy loading,https://github.com/whatwg/html/pull/12292,2026-03-19T16:53:52Z,2026-03-19T16:55:41Z,scottjehl,,4
-4097470534,false,Don't prepare script for script elements when src attribute is removed,https://github.com/whatwg/html/pull/12284,2026-03-18T20:12:55Z,2026-03-18T20:14:38Z,shannonbooth,,0
+4097470534,true,Don't prepare script for script elements when src attribute is removed,https://github.com/whatwg/html/pull/12284,2026-03-18T20:12:55Z,2026-03-20T07:09:23Z,shannonbooth,,0
 4097319380,false,Specify popover=auto on ::picker(select),https://github.com/whatwg/html/pull/12283,2026-03-18T19:38:25Z,2026-03-19T11:10:40Z,josepharhar,,0
-4096554341,false,"Use ""children insertion steps"" for script",https://github.com/whatwg/html/pull/12282,2026-03-18T17:10:12Z,2026-03-18T17:22:18Z,noamr,,0
+4096554341,false,"Use ""children insertion steps"" for script",https://github.com/whatwg/html/pull/12282,2026-03-18T17:10:12Z,2026-03-20T08:27:39Z,noamr,,0
 4094855574,false,Remove duplicate declaration,https://github.com/whatwg/html/pull/12280,2026-03-18T12:36:02Z,2026-03-18T12:37:43Z,cdoublev,,0
 4092562422,true,Create index.htm,https://github.com/whatwg/html/pull/12278,2026-03-18T04:05:20Z,2026-03-18T04:51:55Z,maqm41951-eng,invalid,0
 4092538084,true,Create index.htm,https://github.com/whatwg/html/pull/12277,2026-03-18T03:56:21Z,2026-03-18T04:51:19Z,maqm41951-eng,invalid,0
@@ -111,7 +111,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3659111482,true,[Editorial] Disambiguate two definitions.,https://github.com/whatwg/html/pull/11949,2025-11-24T14:15:55Z,2025-11-24T16:43:41Z,mikewest,,0
 3658867351,true,Adjust shadowrootcustomelementregistry attribute serialization,https://github.com/whatwg/html/pull/11946,2025-11-24T13:17:38Z,2025-11-25T09:13:47Z,annevk,normative change|topic: shadow|topic: custom elements,0
 3651347608,true,Editorial: Fix spelling & punctuation,https://github.com/whatwg/html/pull/11937,2025-11-21T11:44:11Z,2025-11-21T14:20:45Z,jmdyck,,0
-3645790808,false,Add text imports,https://github.com/whatwg/html/pull/11933,2025-11-20T07:01:19Z,2026-03-17T09:24:49Z,eemeli,addition/proposal|topic: script|agenda+|needs implementation bugs,1
+3645790808,false,Add text imports,https://github.com/whatwg/html/pull/11933,2025-11-20T07:01:19Z,2026-03-20T10:02:39Z,eemeli,addition/proposal|topic: script|agenda+|needs implementation bugs,1
 3644819917,true,Fix Padding Calculation in HTMLOptionsCollection Index Assignment,https://github.com/whatwg/html/pull/11932,2025-11-19T23:51:18Z,2025-11-20T13:04:51Z,lpas,,0
 3643341864,false,Allow deferring same-origin cross-document commit,https://github.com/whatwg/html/pull/11927,2025-11-19T15:45:54Z,2026-02-18T15:28:46Z,noamr,,0
 3637362644,false,Address review feedback on language override of navigator.language/s.,https://github.com/whatwg/html/pull/11922,2025-11-18T10:30:30Z,2025-12-02T15:59:29Z,lutien,,0
@@ -297,7 +297,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3121032722,true,"[Editorial] Early hints: there is no ""pending"" document, only null.",https://github.com/whatwg/html/pull/11355,2025-06-05T12:28:44Z,2025-06-05T13:48:08Z,noamr,,0
 3113398673,false,Add UA style for contenteditable=plaintext-only,https://github.com/whatwg/html/pull/11351,2025-06-03T10:31:38Z,2025-06-03T11:09:30Z,zcorpan,,0
 3113286788,false,[DRAFT] Add the concept of an event source.,https://github.com/whatwg/html/pull/11349,2025-06-03T10:00:27Z,2025-06-05T11:36:57Z,alice,,0
-3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-08-03T20:52:27Z,alexpetros,addition/proposal|topic: forms,94
+3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-08-03T20:52:27Z,alexpetros,addition/proposal|topic: forms,95
 3101529448,true,Improve CommandEvent and ToggleEvent source retargeting,https://github.com/whatwg/html/pull/11345,2025-05-29T21:27:44Z,2025-11-20T18:12:02Z,josepharhar,,0
 3095959996,true,Revamp script element introduction and conformance,https://github.com/whatwg/html/pull/11341,2025-05-28T04:26:27Z,2025-05-29T05:07:03Z,domenic,clarification|document conformance|topic: script,0
 3094310657,true,Add jump functionality to Blue Robot canvas demo,https://github.com/whatwg/html/pull/11337,2025-05-27T15:14:55Z,2025-05-28T00:58:11Z,Ronitsabhaya75,invalid,0
@@ -1245,7 +1245,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1383571255,true,Editorial: target realm for deserialization steps,https://github.com/whatwg/html/pull/8315,2022-09-23T10:02:44Z,2022-09-27T10:16:05Z,Ms2ger,topic: serialize and transfer,0
 1382803099,true,"Editorial: restore ""with"" (see previous commit)",https://github.com/whatwg/html/pull/8311,2022-09-22T17:43:26Z,2022-09-27T10:43:43Z,annevk,,1
 1382612185,true,Make location.search use UTF-8 unconditionally,https://github.com/whatwg/html/pull/8309,2022-09-22T15:09:13Z,2022-09-22T15:28:59Z,annevk,normative change,0
-1379986329,false,Add integration points for WebDriver BiDi load scripts,https://github.com/whatwg/html/pull/8300,2022-09-20T20:57:08Z,2026-03-19T09:28:51Z,jgraham,topic: frames/navigables/browsing contexts|integration,0
+1379986329,false,Add integration points for WebDriver BiDi load scripts,https://github.com/whatwg/html/pull/8300,2022-09-20T20:57:08Z,2026-03-20T08:03:48Z,jgraham,topic: frames/navigables/browsing contexts|integration,0
 1370447219,true,Reflect changed AO name from ecma262,https://github.com/whatwg/html/pull/8283,2022-09-12T19:58:37Z,2022-09-12T20:53:23Z,bakkot,,0
 1366892345,true,Define contenteditable `plaintext-only` state,https://github.com/whatwg/html/pull/8275,2022-09-08T19:32:18Z,2023-03-08T14:59:35Z,howard-e,,1
 1365802704,true,Remove parse error for <template><tr></tr> </template>,https://github.com/whatwg/html/pull/8271,2022-09-08T08:39:12Z,2022-09-15T19:10:57Z,zcorpan,topic: parser,0
