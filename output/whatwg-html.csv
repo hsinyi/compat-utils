@@ -1,10 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 4126991405,false,Upstream Document Picture-in-Picture,https://github.com/whatwg/html/issues/12309,2026-03-24T10:59:10Z,2026-03-24T10:59:10Z,vinhill,,0
-4125351939,false,Restore <center> as a non-depreciated tag,https://github.com/whatwg/html/issues/12308,2026-03-24T05:23:00Z,2026-03-24T10:22:51Z,sanfordstaab,addition/proposal|needs implementer interest,1
+4125351939,false,Restore <center> as a non-depreciated tag,https://github.com/whatwg/html/issues/12308,2026-03-24T05:23:00Z,2026-03-25T00:59:18Z,sanfordstaab,addition/proposal|needs implementer interest,1
 4124385473,false,Questions about new bullet in `eligible for autoplay`,https://github.com/whatwg/html/issues/12307,2026-03-24T00:00:20Z,2026-03-24T08:28:06Z,jmdyck,topic: media,0
 4123590260,false,Replace height and width attributes for checkbox and radio inputs,https://github.com/whatwg/html/issues/12306,2026-03-23T20:39:29Z,2026-03-24T10:27:39Z,richarddunnebsc,addition/proposal|needs implementer interest|needs concrete proposal,0
 4122010364,false,popover=auto inside popover=hint has really weird results,https://github.com/whatwg/html/issues/12305,2026-03-23T16:10:06Z,2026-03-24T07:16:44Z,jakearchibald,agenda+|topic: popover,0
-4121948352,false,popover=hint inconsistent behavior nested vs unnested,https://github.com/whatwg/html/issues/12304,2026-03-23T15:59:05Z,2026-03-24T12:24:52Z,jakearchibald,agenda+|topic: popover,0
+4121948352,false,popover=hint inconsistent behavior nested vs unnested,https://github.com/whatwg/html/issues/12304,2026-03-23T15:59:05Z,2026-03-24T17:42:57Z,jakearchibald,agenda+|topic: popover,1
 4116408621,false,Allow clean distinction of popover vs dialog.show() vs dialog.showModal() toggle events,https://github.com/whatwg/html/issues/12300,2026-03-22T16:04:50Z,2026-03-24T10:35:37Z,teetotum,,0
 4115528773,false,Setting one permitted sandboxed navigator should not be conditional on noopener being false,https://github.com/whatwg/html/issues/12297,2026-03-22T10:00:46Z,2026-03-22T10:02:27Z,MittelmanDaniel,,0
 4102801725,false,Meeting 39 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12291,2026-03-19T16:22:24Z,2026-03-19T16:24:40Z,mfreed7,,0
@@ -353,7 +353,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3367187820,false,Popover light dismiss algorithm doesn't account for commandfor,https://github.com/whatwg/html/issues/11607,2025-08-29T15:01:59Z,2026-02-20T16:57:18Z,lukewarlow,topic: popover,0
 3366570679,false,A way to make autoplay respect prefers-reduced-motion,https://github.com/whatwg/html/issues/11605,2025-08-29T11:42:13Z,2025-09-12T07:42:47Z,jakearchibald,addition/proposal|needs implementer interest|topic: media|accessibility|a11y-tracker,5
 3366119920,true,Proposal: Native `<tabs>` Element,https://github.com/whatwg/html/issues/11604,2025-08-29T09:11:58Z,2025-09-04T00:31:48Z,ibrsiaika,addition/proposal|needs implementer interest,2
-3364237494,false,Proposal: Opt-In Case-Sensitive Parsing for Custom HTML Elements,https://github.com/whatwg/html/issues/11602,2025-08-28T18:10:21Z,2025-09-22T20:07:46Z,Thaoky,addition/proposal|needs implementer interest|topic: parser|topic: custom elements,2
+3364237494,false,Proposal: Opt-In Case-Sensitive Parsing for Custom HTML Elements,https://github.com/whatwg/html/issues/11602,2025-08-28T18:10:21Z,2025-09-22T20:07:46Z,Thaoky,addition/proposal|needs implementer interest|topic: parser|topic: custom elements,3
 3355949488,false,Intrinsic size specification is not clear with rounding rules,https://github.com/whatwg/html/issues/11596,2025-08-26T14:41:45Z,2025-10-08T19:49:57Z,hybridherbst,topic: img,0
 3351546236,true,Introduce `<partial>` for Native HTML Fragment Inclusion,https://github.com/whatwg/html/issues/11595,2025-08-25T11:53:58Z,2025-08-25T12:18:06Z,aralroca,addition/proposal|needs implementer interest,2
 3349651354,true,range attribute in video tag,https://github.com/whatwg/html/issues/11594,2025-08-24T15:52:07Z,2025-09-12T09:07:04Z,tiuvi,addition/proposal|needs implementer interest,2
@@ -1133,7 +1133,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2175120347,true,"Document ""rendering suppression for view transitions"" also suppresses ""perform pending transition operations""",https://github.com/whatwg/html/issues/10186,2024-03-08T01:40:36Z,2024-03-11T23:40:20Z,nt1m,topic: rendering,0
 2173990781,false,should search for draggable attribute follow dom tree or flattened tree?,https://github.com/whatwg/html/issues/10185,2024-03-07T14:26:12Z,2024-11-07T05:48:19Z,dbaron,,3
 2172574820,false,Is this bad to suggest that placeholder attributes can contain expected formats?,https://github.com/whatwg/html/issues/10183,2024-03-06T22:46:15Z,2024-03-06T22:49:08Z,anevins12,,1
-2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2026-02-18T16:36:26Z,andy-blum,addition/proposal|needs implementer interest|topic: img,28
+2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2026-02-18T16:36:26Z,andy-blum,addition/proposal|needs implementer interest|topic: img,29
 2171191672,true,Nits with link rel=expect,https://github.com/whatwg/html/issues/10180,2024-03-06T10:44:29Z,2024-03-11T06:42:48Z,jakearchibald,clarification|topic: rendering,0
 2161745995,false,Declaratively open popovers (and other elements?) on page load,https://github.com/whatwg/html/issues/10171,2024-02-29T17:19:04Z,2024-12-09T16:43:00Z,josepharhar,topic: dialog|topic: popover,1
 2160066080,false,Worklet termination,https://github.com/whatwg/html/issues/10169,2024-02-28T23:43:54Z,2024-03-04T08:12:24Z,daxpedda,addition/proposal|needs implementer interest|topic: worklets,0
@@ -2181,7 +2181,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1088670414,true,OffscreenCanvas.getContext: definition missing about unsupported context,https://github.com/whatwg/html/issues/7445,2021-12-25T23:49:29Z,2021-12-26T00:27:58Z,rinsuki,,0
 1087720198,true,Should we remove window.blur?,https://github.com/whatwg/html/issues/7441,2021-12-23T13:31:05Z,2022-10-31T05:07:08Z,camillelamy,,0
 1085481721,true,meta tag with attribute http-equiv has a small arbitrary limit on the headers that can be specified,https://github.com/whatwg/html/issues/7435,2021-12-21T06:23:22Z,2025-07-28T06:55:58Z,jacobpersico,clarification,0
-1083879762,false,Allow objects to customize serialization / deserialization for structured clone,https://github.com/whatwg/html/issues/7428,2021-12-18T17:42:47Z,2025-08-18T12:40:05Z,jasnell,,9
+1083879762,false,Allow objects to customize serialization / deserialization for structured clone,https://github.com/whatwg/html/issues/7428,2021-12-18T17:42:47Z,2026-03-24T17:06:26Z,jasnell,,9
 1083874633,true,Need a caretmove event for monitoring caret changes on HTMLInputElement/HTMLTextAreaElement,https://github.com/whatwg/html/issues/7426,2021-12-18T17:14:18Z,2021-12-19T14:21:24Z,LeaVerou,,1
 1081754607,false,Anchor tag with download prop skips contents after # character,https://github.com/whatwg/html/issues/7422,2021-12-16T04:19:59Z,2021-12-27T00:03:37Z,rostamiani,needs tests,0
 1080376605,false,Export DND related definitions,https://github.com/whatwg/html/issues/7421,2021-12-14T22:59:23Z,2021-12-15T08:03:28Z,johanneswilm,meta,1
@@ -2199,7 +2199,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1073943544,false,Focus restoration for same-document/fragment back-forward navigation,https://github.com/whatwg/html/issues/7397,2021-12-08T02:30:02Z,2022-08-08T07:17:42Z,WestonThayer,addition/proposal|topic: history|interop|topic: focus,2
 1072970331,false,"Meta: specs using ""page visibility change steps""",https://github.com/whatwg/html/issues/7396,2021-12-07T06:32:05Z,2021-12-07T06:33:00Z,marcoscaceres,,0
 1072436933,false,<select> dynamic <option> insertion doesn't match browser reality,https://github.com/whatwg/html/issues/7395,2021-12-06T17:56:35Z,2021-12-13T20:18:49Z,dandclark,topic: forms,0
-1071265898,false,"Element request: `<h>` to reconcile heading levels, outlines, and components",https://github.com/whatwg/html/issues/7390,2021-12-04T18:17:36Z,2025-06-28T08:50:43Z,kellytk,addition/proposal|needs implementer interest,24
+1071265898,false,"Element request: `<h>` to reconcile heading levels, outlines, and components",https://github.com/whatwg/html/issues/7390,2021-12-04T18:17:36Z,2025-06-28T08:50:43Z,kellytk,addition/proposal|needs implementer interest,25
 1071222545,false,Support link modulepreload for import assertions,https://github.com/whatwg/html/issues/7388,2021-12-04T14:41:49Z,2021-12-21T21:04:51Z,uasan,addition/proposal|needs implementer interest|topic: link,1
 1071104407,true,"js drawImage ",https://github.com/whatwg/html/issues/7387,2021-12-04T03:00:23Z,2021-12-04T11:57:32Z,Ali-Hassan-Ali,,0
 1071062389,true,What should happen when setting `location.hash = location.hash`?,https://github.com/whatwg/html/issues/7386,2021-12-04T00:07:21Z,2022-01-12T17:14:26Z,cpeterso,topic: navigation|interop,0
