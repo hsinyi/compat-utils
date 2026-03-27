@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4152127214,false,Showing a <dialog> should take its source into account when hiding popovers,https://github.com/whatwg/html/issues/12319,2026-03-27T12:17:05Z,2026-03-27T12:17:05Z,jakearchibald,topic: dialog|topic: popover,0
 4143569724,false,<img controls> for animated images,https://github.com/whatwg/html/issues/12318,2026-03-26T12:43:38Z,2026-03-26T19:57:16Z,annevk,needs implementer interest|topic: media|topic: img|needs concrete proposal,0
 4139766021,false,Upcoming WHATNOT meeting on 2026-03-26,https://github.com/whatwg/html/issues/12317,2026-03-26T01:41:20Z,2026-03-26T01:41:26Z,cwilso,agenda+,0
 4137950064,false,Expose enabled state on close watchers,https://github.com/whatwg/html/issues/12316,2026-03-25T19:26:42Z,2026-03-25T19:26:42Z,lukewarlow,addition/proposal|needs implementer interest,0
@@ -6,16 +7,16 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4126991405,false,Upstream Document Picture-in-Picture,https://github.com/whatwg/html/issues/12309,2026-03-24T10:59:10Z,2026-03-26T10:51:16Z,vinhill,addition/proposal,0
 4125351939,true,Restore <center> as a non-depreciated tag,https://github.com/whatwg/html/issues/12308,2026-03-24T05:23:00Z,2026-03-25T04:58:24Z,sanfordstaab,addition/proposal|needs implementer interest,1
 4124385473,false,Questions about new bullet in `eligible for autoplay`,https://github.com/whatwg/html/issues/12307,2026-03-24T00:00:20Z,2026-03-24T08:28:06Z,jmdyck,topic: media,0
-4123590260,false,Replace height and width attributes for checkbox and radio inputs,https://github.com/whatwg/html/issues/12306,2026-03-23T20:39:29Z,2026-03-24T10:27:39Z,richarddunnebsc,addition/proposal|needs implementer interest|needs concrete proposal,0
+4123590260,true,Replace height and width attributes for checkbox and radio inputs,https://github.com/whatwg/html/issues/12306,2026-03-23T20:39:29Z,2026-03-27T11:31:12Z,richarddunnebsc,addition/proposal|needs implementer interest|needs concrete proposal,0
 4122010364,true,popover=auto inside popover=hint has really weird results,https://github.com/whatwg/html/issues/12305,2026-03-23T16:10:06Z,2026-03-26T16:05:06Z,jakearchibald,topic: popover,1
-4121948352,false,popover=hint has multiple weird and inconsistent behaviours,https://github.com/whatwg/html/issues/12304,2026-03-23T15:59:05Z,2026-03-26T19:28:43Z,jakearchibald,agenda+|topic: popover,2
+4121948352,false,popover=hint has multiple weird and inconsistent behaviours,https://github.com/whatwg/html/issues/12304,2026-03-23T15:59:05Z,2026-03-27T12:33:13Z,jakearchibald,agenda+|topic: popover,2
 4116408621,false,Allow clean distinction of popover vs dialog.show() vs dialog.showModal() toggle events,https://github.com/whatwg/html/issues/12300,2026-03-22T16:04:50Z,2026-03-24T10:35:37Z,teetotum,,0
 4115528773,false,Setting one permitted sandboxed navigator should not be conditional on noopener being false,https://github.com/whatwg/html/issues/12297,2026-03-22T10:00:46Z,2026-03-22T10:02:27Z,MittelmanDaniel,,0
 4102801725,false,Meeting 39 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12291,2026-03-19T16:22:24Z,2026-03-19T16:24:40Z,mfreed7,,0
 4102589118,false,HTMLFormElement.requestSubmit should allow specifying form overrides like a submit button does,https://github.com/whatwg/html/issues/12290,2026-03-19T15:48:46Z,2026-03-20T13:41:41Z,nicksloan,addition/proposal|needs implementer interest|topic: forms,0
 4101153782,false,Removing iframe does not update content document's visibility state.,https://github.com/whatwg/html/issues/12288,2026-03-19T11:47:07Z,2026-03-19T11:50:37Z,Psychpsyo,,0
 4100983306,false,Behavior of showModal on dialog within a hidden container,https://github.com/whatwg/html/issues/12287,2026-03-19T11:12:27Z,2026-03-19T11:12:27Z,Nettsentrisk,,1
-4100815454,false,outline and ::picker(select),https://github.com/whatwg/html/issues/12286,2026-03-19T10:37:48Z,2026-03-26T18:44:24Z,annevk,topic: rendering|topic: focus|topic: select,0
+4100815454,false,outline and ::picker(select),https://github.com/whatwg/html/issues/12286,2026-03-19T10:37:48Z,2026-03-27T11:29:31Z,annevk,topic: rendering|topic: focus|topic: select,0
 4098352482,false,Creating an iframe's child navigable as written is impossible.,https://github.com/whatwg/html/issues/12285,2026-03-18T23:51:27Z,2026-03-20T21:23:50Z,Psychpsyo,,0
 4095451770,false,Should baseURI for initial top level javascript URIs be the creators base?,https://github.com/whatwg/html/issues/12281,2026-03-18T14:18:04Z,2026-03-18T14:18:04Z,vinhill,,0
 4094686346,false,Script execution triggered on child removals/mutation from children change,https://github.com/whatwg/html/issues/12279,2026-03-18T12:02:40Z,2026-03-18T13:20:46Z,shannonbooth,,0
@@ -229,7 +230,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3575273488,false,Navigation API: Dangling ongoing navigate event causes inconsistent behavior in tests,https://github.com/whatwg/html/issues/11860,2025-10-31T14:52:51Z,2025-12-16T14:14:34Z,jnjaeschke,topic: navigation,0
 3575143698,true,Should the HTMLSelectedContentElement interface exist?,https://github.com/whatwg/html/issues/11859,2025-10-31T14:15:25Z,2025-10-31T16:56:12Z,annevk,topic: select,0
 3572880266,false,Clarification on button-layout 'behave as' definition and getComputedStyle().display discrepancy,https://github.com/whatwg/html/issues/11857,2025-10-31T00:03:17Z,2025-10-31T00:03:17Z,lpas,,1
-3572355241,false,`controls` attribute for `<img>` element,https://github.com/whatwg/html/issues/11856,2025-10-30T20:15:43Z,2026-03-26T16:15:28Z,yoelhawa,addition/proposal|needs implementer interest|topic: img,3
+3572355241,false,`controls` attribute for `<img>` element,https://github.com/whatwg/html/issues/11856,2025-10-30T20:15:43Z,2026-03-27T03:49:05Z,yoelhawa,addition/proposal|needs implementer interest|topic: img,3
 3572141394,false,"[Feature Request] Add `target=""_app""` to anchor tags for native app linking",https://github.com/whatwg/html/issues/11855,2025-10-30T19:09:21Z,2025-11-02T12:25:41Z,usherfrisch,addition/proposal|needs implementer interest,0
 3569442004,false,Should #close-a-top-level-traversable set #is-closing?,https://github.com/whatwg/html/issues/11853,2025-10-30T08:27:41Z,2025-10-30T14:18:38Z,vinhill,topic: frames/navigables/browsing contexts,1
 3567077984,true,location.href setter should maybe special-case hashes?,https://github.com/whatwg/html/issues/11852,2025-10-29T17:30:37Z,2025-10-30T08:17:24Z,emilio,topic: navigation,0
@@ -2613,7 +2614,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 794190031,true,COEP still doesn't check for HTTPS,https://github.com/whatwg/html/issues/6328,2021-01-26T12:23:49Z,2021-02-02T20:17:33Z,zcorpan,topic: cross-origin-embedder-policy,0
 793729364,false,Add hyphenation-hint as HTML-element,https://github.com/whatwg/html/issues/6326,2021-01-25T21:12:59Z,2024-08-23T13:08:09Z,OskarGrosser,addition/proposal|topic: rendering|i18n-tracker,2
 792865991,false,Img: add method to check if image format is supported,https://github.com/whatwg/html/issues/6324,2021-01-24T18:50:31Z,2024-01-12T16:19:26Z,mpetroff,addition/proposal|topic: img,4
-792298497,false,media fragments support for anchor links,https://github.com/whatwg/html/issues/6323,2021-01-22T20:53:36Z,2021-01-25T09:27:12Z,heeplr,,0
+792298497,false,media fragments support for anchor links,https://github.com/whatwg/html/issues/6323,2021-01-22T20:53:36Z,2021-01-25T09:27:12Z,heeplr,,1
 791036154,true,Proposal: new element for measurements <m>,https://github.com/whatwg/html/issues/6319,2021-01-21T12:39:48Z,2021-01-30T04:15:15Z,futekov,,3
 790772512,true,Remove Plugin and MimeType classes,https://github.com/whatwg/html/issues/6317,2021-01-21T07:22:31Z,2021-07-13T17:49:07Z,annevk,removal/deprecation,0
 790719506,true,Is about:srcdoc a navigable URL? It doesn't seem so... mostly,https://github.com/whatwg/html/issues/6316,2021-01-21T05:46:40Z,2026-02-17T22:57:14Z,domfarolino,topic: navigation|topic: frames/navigables/browsing contexts,0
@@ -5432,7 +5433,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 137504556,true,Add canonical href for links (<a>/<area>),https://github.com/whatwg/html/issues/773,2016-03-01T08:10:25Z,2016-03-05T19:39:20Z,upsuper,addition/proposal,0
 137388997,true,Structured cloning for new ES types and for IDL-defined objects.,https://github.com/whatwg/html/issues/766,2016-02-29T21:55:09Z,2019-01-02T18:50:26Z,domenic,compat|topic: serialize and transfer,0
 137367535,false,createImageData does not specify rounding behavior for width/height parameters,https://github.com/whatwg/html/issues/765,2016-02-29T20:43:10Z,2016-07-06T13:45:29Z,junov,compat|topic: canvas,0
-137290254,false,Shadow DOM and <iframe>,https://github.com/whatwg/html/issues/763,2016-02-29T15:45:20Z,2022-03-26T01:17:08Z,annevk,topic: shadow,0
+137290254,false,Shadow DOM and <iframe>,https://github.com/whatwg/html/issues/763,2016-02-29T15:45:20Z,2026-03-27T07:46:46Z,annevk,topic: shadow,0
 137286803,true,Shadow DOM and <script>,https://github.com/whatwg/html/issues/762,2016-02-29T15:31:29Z,2016-05-11T15:45:27Z,annevk,topic: shadow,0
 137117087,true,"""The colSpan IDL attribute must reflect the cols...""",https://github.com/whatwg/html/issues/757,2016-02-29T00:31:19Z,2016-04-12T20:52:03Z,cdumez,compat,0
 137049604,true,Cloning Map/Set does not clone own properties in implementations,https://github.com/whatwg/html/issues/754,2016-02-28T12:44:56Z,2019-01-02T18:51:10Z,annevk,normative change|compat|topic: serialize and transfer,0
