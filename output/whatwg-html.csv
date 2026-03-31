@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 4171890982,false,HostEnqueueFinalizationRegistryCleanupJob assumes [[Callback]] has a [[Realm]] slot,https://github.com/whatwg/html/issues/12326,2026-03-30T15:53:15Z,2026-03-30T15:53:15Z,Lubrsi,,0
-4170982205,false,Disallow fragment navigations from `<meta http-equiv=refresh>`,https://github.com/whatwg/html/issues/12325,2026-03-30T14:00:44Z,2026-03-30T14:00:44Z,zcorpan,topic: navigation,0
+4170982205,false,Disallow fragment navigations from `<meta http-equiv=refresh>`,https://github.com/whatwg/html/issues/12325,2026-03-30T14:00:44Z,2026-03-31T10:38:54Z,zcorpan,topic: navigation,0
 4168339981,true,Provide regular release notes or information how to keep oneself up-to-date on HTML spec changes,https://github.com/whatwg/html/issues/12324,2026-03-30T07:42:14Z,2026-03-30T14:09:04Z,GergelyKalmar,,0
 4156610333,false,Upcoming WHATNOT meeting on 2026-04-02,https://github.com/whatwg/html/issues/12322,2026-03-28T00:15:50Z,2026-03-30T17:06:43Z,cwilso,agenda+,0
 4153544407,false,<hr size> integer parsing interop,https://github.com/whatwg/html/issues/12320,2026-03-27T15:08:14Z,2026-03-27T15:08:14Z,annevk,needs tests|interop,0
@@ -14,7 +14,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4124385473,false,Questions about new bullet in `eligible for autoplay`,https://github.com/whatwg/html/issues/12307,2026-03-24T00:00:20Z,2026-03-24T08:28:06Z,jmdyck,topic: media,0
 4123590260,true,Replace height and width attributes for checkbox and radio inputs,https://github.com/whatwg/html/issues/12306,2026-03-23T20:39:29Z,2026-03-27T11:31:12Z,richarddunnebsc,addition/proposal|needs implementer interest|needs concrete proposal,0
 4122010364,true,popover=auto inside popover=hint has really weird results,https://github.com/whatwg/html/issues/12305,2026-03-23T16:10:06Z,2026-03-26T16:05:06Z,jakearchibald,topic: popover,1
-4121948352,false,popover=hint has multiple weird and inconsistent behaviours,https://github.com/whatwg/html/issues/12304,2026-03-23T15:59:05Z,2026-03-30T21:56:39Z,jakearchibald,agenda+|topic: popover,6
+4121948352,false,popover=hint has multiple weird and inconsistent behaviours,https://github.com/whatwg/html/issues/12304,2026-03-23T15:59:05Z,2026-03-31T12:07:00Z,jakearchibald,agenda+|topic: popover,7
 4116408621,false,Allow clean distinction of popover vs dialog.show() vs dialog.showModal() toggle events,https://github.com/whatwg/html/issues/12300,2026-03-22T16:04:50Z,2026-03-24T10:35:37Z,teetotum,,0
 4115528773,false,Setting one permitted sandboxed navigator should not be conditional on noopener being false,https://github.com/whatwg/html/issues/12297,2026-03-22T10:00:46Z,2026-03-22T10:02:27Z,MittelmanDaniel,,0
 4102801725,false,Meeting 39 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12291,2026-03-19T16:22:24Z,2026-03-30T19:23:52Z,mfreed7,,0
@@ -48,7 +48,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4050134762,false,Translation of proper names,https://github.com/whatwg/html/issues/12237,2026-03-10T08:08:35Z,2026-03-10T08:09:36Z,PRR24,addition/proposal|needs implementer interest,0
 4048638520,false,Spec contradiction: reload navigation ID defaults to null but assertion requires non-null,https://github.com/whatwg/html/issues/12236,2026-03-10T00:28:23Z,2026-03-10T00:28:31Z,gsnedders,topic: navigation,0
 4034009687,false,HTMLOrSVGElement.focus() implies that the element should be scrolled into view when it isn't a focusable area,https://github.com/whatwg/html/issues/12231,2026-03-06T12:36:58Z,2026-03-06T14:12:52Z,mrobinson,needs tests|topic: focus,0
-4033059316,true,Content rating meta tag for end users,https://github.com/whatwg/html/issues/12230,2026-03-06T08:59:35Z,2026-03-06T11:58:42Z,linusmartensson,addition/proposal|needs implementer interest,0
+4033059316,true,Content rating meta tag for end users,https://github.com/whatwg/html/issues/12230,2026-03-06T08:59:35Z,2026-03-31T06:05:45Z,linusmartensson,addition/proposal|needs implementer interest,0
 4023814293,false,The selectedcontent element can't be used outside of the select element,https://github.com/whatwg/html/issues/12227,2026-03-04T19:49:32Z,2026-03-06T10:14:51Z,josepharhar,addition/proposal|needs implementer interest|topic: select,1
 4022866339,false,Window.customElements shouldn't change when initial about:blank is replaced with a loaded page?,https://github.com/whatwg/html/issues/12226,2026-03-04T16:20:56Z,2026-03-10T15:50:54Z,smaug----,topic: custom elements,0
 4020686537,false,Intercepted navigate events can call handlers on aborted navigate events,https://github.com/whatwg/html/issues/12225,2026-03-04T08:11:14Z,2026-03-04T08:12:44Z,farre,topic: navigation,0
@@ -861,7 +861,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2555508180,true,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-10-30T05:36:43Z,domenic,normative change|topic: dialog|topic: popover,1
 2551969947,true,Upcoming WHATNOT meeting on 2024-10-03,https://github.com/whatwg/html/issues/10652,2024-09-27T04:30:41Z,2024-10-02T15:00:07Z,past,agenda+,0
 2551884785,false,Nested `contenteditable=true` and `contenteditable=plaintext-only` should win only the ourtermost one,https://github.com/whatwg/html/issues/10651,2024-09-27T02:53:27Z,2024-09-30T21:55:52Z,masayuki-nakano,needs tests|needs concrete proposal|topic: editing,0
-2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-03-30T14:21:03Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|agenda+|stage: 1,1
+2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-03-30T14:21:03Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|agenda+|stage: 1,2
 2549044519,true,Resolving  of transition and finished promises is mismatched between spec and tests,https://github.com/whatwg/html/issues/10646,2024-09-25T21:39:11Z,2024-09-30T10:14:17Z,rwlbuis,topic: navigation,0
 2544017899,true,"'reading-flow' and ""display: contents""",https://github.com/whatwg/html/issues/10643,2024-09-24T00:42:59Z,2024-09-24T16:09:09Z,tabatkins,topic: focus,0
 2543972242,false,tabindex vs reading-flow property,https://github.com/whatwg/html/issues/10642,2024-09-24T00:01:25Z,2025-03-12T17:10:41Z,tabatkins,topic: focus,3
