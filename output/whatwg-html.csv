@@ -1,6 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4168339981,false,Provide regular release notes or information how to keep oneself up-to-date on HTML spec changes,https://github.com/whatwg/html/issues/12324,2026-03-30T07:42:14Z,2026-03-30T07:42:14Z,GergelyKalmar,,0
-4156610333,false,Upcoming WHATNOT meeting on 2026-04-02,https://github.com/whatwg/html/issues/12322,2026-03-28T00:15:50Z,2026-03-30T09:28:36Z,cwilso,agenda+,0
+4171890982,false,HostEnqueueFinalizationRegistryCleanupJob assumes [[Callback]] has a [[Realm]] slot,https://github.com/whatwg/html/issues/12326,2026-03-30T15:53:15Z,2026-03-30T15:53:15Z,Lubrsi,,0
+4170982205,false,Disallow fragment navigations from `<meta http-equiv=refresh>`,https://github.com/whatwg/html/issues/12325,2026-03-30T14:00:44Z,2026-03-30T14:00:44Z,zcorpan,topic: navigation,0
+4168339981,true,Provide regular release notes or information how to keep oneself up-to-date on HTML spec changes,https://github.com/whatwg/html/issues/12324,2026-03-30T07:42:14Z,2026-03-30T14:09:04Z,GergelyKalmar,,0
+4156610333,false,Upcoming WHATNOT meeting on 2026-04-02,https://github.com/whatwg/html/issues/12322,2026-03-28T00:15:50Z,2026-03-30T17:06:43Z,cwilso,agenda+,0
 4153544407,false,<hr size> integer parsing interop,https://github.com/whatwg/html/issues/12320,2026-03-27T15:08:14Z,2026-03-27T15:08:14Z,annevk,needs tests|interop,0
 4152127214,false,Showing a <dialog> should take its source into account when hiding popovers,https://github.com/whatwg/html/issues/12319,2026-03-27T12:17:05Z,2026-03-27T12:17:05Z,jakearchibald,topic: dialog|topic: popover,0
 4143569724,false,<img controls> for animated images,https://github.com/whatwg/html/issues/12318,2026-03-26T12:43:38Z,2026-03-26T19:57:16Z,annevk,needs implementer interest|topic: media|topic: img|needs concrete proposal,0
@@ -12,10 +14,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4124385473,false,Questions about new bullet in `eligible for autoplay`,https://github.com/whatwg/html/issues/12307,2026-03-24T00:00:20Z,2026-03-24T08:28:06Z,jmdyck,topic: media,0
 4123590260,true,Replace height and width attributes for checkbox and radio inputs,https://github.com/whatwg/html/issues/12306,2026-03-23T20:39:29Z,2026-03-27T11:31:12Z,richarddunnebsc,addition/proposal|needs implementer interest|needs concrete proposal,0
 4122010364,true,popover=auto inside popover=hint has really weird results,https://github.com/whatwg/html/issues/12305,2026-03-23T16:10:06Z,2026-03-26T16:05:06Z,jakearchibald,topic: popover,1
-4121948352,false,popover=hint has multiple weird and inconsistent behaviours,https://github.com/whatwg/html/issues/12304,2026-03-23T15:59:05Z,2026-03-30T09:51:06Z,jakearchibald,agenda+|topic: popover,3
+4121948352,false,popover=hint has multiple weird and inconsistent behaviours,https://github.com/whatwg/html/issues/12304,2026-03-23T15:59:05Z,2026-03-30T21:56:39Z,jakearchibald,agenda+|topic: popover,6
 4116408621,false,Allow clean distinction of popover vs dialog.show() vs dialog.showModal() toggle events,https://github.com/whatwg/html/issues/12300,2026-03-22T16:04:50Z,2026-03-24T10:35:37Z,teetotum,,0
 4115528773,false,Setting one permitted sandboxed navigator should not be conditional on noopener being false,https://github.com/whatwg/html/issues/12297,2026-03-22T10:00:46Z,2026-03-22T10:02:27Z,MittelmanDaniel,,0
-4102801725,false,Meeting 39 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12291,2026-03-19T16:22:24Z,2026-03-27T12:54:47Z,mfreed7,,0
+4102801725,false,Meeting 39 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12291,2026-03-19T16:22:24Z,2026-03-30T19:23:52Z,mfreed7,,0
 4102589118,false,HTMLFormElement.requestSubmit should allow specifying form overrides like a submit button does,https://github.com/whatwg/html/issues/12290,2026-03-19T15:48:46Z,2026-03-20T13:41:41Z,nicksloan,addition/proposal|needs implementer interest|topic: forms,0
 4101153782,false,Removing iframe does not update content document's visibility state.,https://github.com/whatwg/html/issues/12288,2026-03-19T11:47:07Z,2026-03-19T11:50:37Z,Psychpsyo,,0
 4100983306,false,Behavior of showModal on dialog within a hidden container,https://github.com/whatwg/html/issues/12287,2026-03-19T11:12:27Z,2026-03-19T11:12:27Z,Nettsentrisk,,1
@@ -85,7 +87,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3930750339,false,Interop: focusability of `dialog[popover]`,https://github.com/whatwg/html/issues/12156,2026-02-12T09:23:09Z,2026-02-12T09:24:24Z,jpzwarte,topic: dialog|topic: popover,0
 3930439514,false,Determining dropEffect based on effectAllowed + modifier keys,https://github.com/whatwg/html/issues/12155,2026-02-12T08:13:21Z,2026-02-26T17:27:21Z,tanu18,,0
 3928896424,false,Unblock Document-Policy to Policy Container PR,https://github.com/whatwg/html/issues/12154,2026-02-11T22:09:37Z,2026-02-17T14:29:10Z,monica-ch,,0
-3923058520,false,Platform-Provided Behaviors for Custom Elements,https://github.com/whatwg/html/issues/12150,2026-02-10T18:55:59Z,2026-03-13T20:31:47Z,anaskim,addition/proposal|needs implementer interest|topic: custom elements|stage: 1,0
+3923058520,false,Platform-Provided Behaviors for Custom Elements,https://github.com/whatwg/html/issues/12150,2026-02-10T18:55:59Z,2026-03-30T16:36:21Z,anaskim,addition/proposal|needs implementer interest|topic: custom elements|agenda+|stage: 1,0
 3917833084,true,Incorrect definition for media element pseudo class `:stalled`,https://github.com/whatwg/html/issues/12145,2026-02-09T19:42:39Z,2026-03-16T17:20:56Z,alastor0325,topic: media|needs tests|topic: selectors,0
 3908815904,true,Upcoming WHATNOT meeting on 2026-02-12,https://github.com/whatwg/html/issues/12141,2026-02-06T23:24:04Z,2026-02-26T01:01:22Z,cwilso,,0
 3907067934,false,`<link rel=stylesheet>` waits for critical subresources before we know what they are,https://github.com/whatwg/html/issues/12140,2026-02-06T14:35:46Z,2026-02-09T21:59:31Z,AtkinsSJ,topic: style,0
@@ -859,7 +861,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2555508180,true,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-10-30T05:36:43Z,domenic,normative change|topic: dialog|topic: popover,1
 2551969947,true,Upcoming WHATNOT meeting on 2024-10-03,https://github.com/whatwg/html/issues/10652,2024-09-27T04:30:41Z,2024-10-02T15:00:07Z,past,agenda+,0
 2551884785,false,Nested `contenteditable=true` and `contenteditable=plaintext-only` should win only the ourtermost one,https://github.com/whatwg/html/issues/10651,2024-09-27T02:53:27Z,2024-09-30T21:55:52Z,masayuki-nakano,needs tests|needs concrete proposal|topic: editing,0
-2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-03-30T06:35:11Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|agenda+|stage: 1,1
+2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-03-30T14:21:03Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|agenda+|stage: 1,1
 2549044519,true,Resolving  of transition and finished promises is mismatched between spec and tests,https://github.com/whatwg/html/issues/10646,2024-09-25T21:39:11Z,2024-09-30T10:14:17Z,rwlbuis,topic: navigation,0
 2544017899,true,"'reading-flow' and ""display: contents""",https://github.com/whatwg/html/issues/10643,2024-09-24T00:42:59Z,2024-09-24T16:09:09Z,tabatkins,topic: focus,0
 2543972242,false,tabindex vs reading-flow property,https://github.com/whatwg/html/issues/10642,2024-09-24T00:01:25Z,2025-03-12T17:10:41Z,tabatkins,topic: focus,3
@@ -4417,7 +4419,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 239026363,true,Output caniuse boxes in the dev edition as well,https://github.com/whatwg/html/issues/2794,2017-06-28T01:17:17Z,2017-08-19T13:19:50Z,domenic,dev edition,0
 239022536,false,Allow expanding to the full table of contents in the dev edition,https://github.com/whatwg/html/issues/2793,2017-06-28T00:47:56Z,2024-02-10T21:58:14Z,domenic,spec tooling|dev edition,0
 238786200,true,take port into account for same-origin domain check,https://github.com/whatwg/html/issues/2792,2017-06-27T09:15:55Z,2018-08-07T16:14:03Z,jeisinger,normative change|needs implementer interest|security/privacy|needs compat analysis|topic: origin,0
-238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2025-10-22T13:46:15Z,TakayoshiKochi,addition/proposal|needs implementer interest,208
+238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2025-10-22T13:46:15Z,TakayoshiKochi,addition/proposal|needs implementer interest,209
 238161134,true,typo?,https://github.com/whatwg/html/issues/2788,2017-06-23T14:35:44Z,2017-06-26T19:34:34Z,momdo,,0
 238026392,false,"""its associated CSS layout box""",https://github.com/whatwg/html/issues/2786,2017-06-23T02:47:39Z,2017-06-30T18:14:01Z,cvrebert,clarification,0
 237922790,false,Add inline annotations of the bibliography references,https://github.com/whatwg/html/issues/2782,2017-06-22T17:47:29Z,2024-02-10T21:58:35Z,domenic,spec tooling|dev edition,0
