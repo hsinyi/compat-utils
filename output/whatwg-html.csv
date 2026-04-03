@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4187739049,false,disallow customized builtin elements from being on the list of active formatting elements,https://github.com/whatwg/html/issues/12327,2026-04-01T15:14:46Z,2026-04-01T15:14:46Z,dbaron,,0
+4195491316,false,[Customizable select] Define UA behavior for interactive content inside <option>,https://github.com/whatwg/html/issues/12328,2026-04-02T15:52:11Z,2026-04-02T15:59:03Z,minorninth,accessibility|a11y-tracker|topic: select,0
+4187739049,false,disallow customized builtin elements from being on the list of active formatting elements,https://github.com/whatwg/html/issues/12327,2026-04-01T15:14:46Z,2026-04-02T13:14:34Z,dbaron,topic: parser|topic: custom elements,0
 4171890982,false,HostEnqueueFinalizationRegistryCleanupJob assumes [[Callback]] has a [[Realm]] slot,https://github.com/whatwg/html/issues/12326,2026-03-30T15:53:15Z,2026-03-30T15:53:15Z,Lubrsi,,0
 4170982205,false,Disallow fragment navigations from `<meta http-equiv=refresh>`,https://github.com/whatwg/html/issues/12325,2026-03-30T14:00:44Z,2026-03-31T10:38:54Z,zcorpan,topic: navigation,0
 4168339981,true,Provide regular release notes or information how to keep oneself up-to-date on HTML spec changes,https://github.com/whatwg/html/issues/12324,2026-03-30T07:42:14Z,2026-03-31T12:57:18Z,GergelyKalmar,,0
@@ -15,14 +16,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4124385473,false,Questions about new bullet in `eligible for autoplay`,https://github.com/whatwg/html/issues/12307,2026-03-24T00:00:20Z,2026-03-24T08:28:06Z,jmdyck,topic: media,0
 4123590260,true,Replace height and width attributes for checkbox and radio inputs,https://github.com/whatwg/html/issues/12306,2026-03-23T20:39:29Z,2026-03-27T11:31:12Z,richarddunnebsc,addition/proposal|needs implementer interest|needs concrete proposal,0
 4122010364,true,popover=auto inside popover=hint has really weird results,https://github.com/whatwg/html/issues/12305,2026-03-23T16:10:06Z,2026-03-26T16:05:06Z,jakearchibald,topic: popover,1
-4121948352,false,popover=hint has multiple weird and inconsistent behaviours,https://github.com/whatwg/html/issues/12304,2026-03-23T15:59:05Z,2026-04-02T10:30:13Z,jakearchibald,agenda+|topic: popover,9
+4121948352,false,popover=hint has multiple weird and inconsistent behaviours,https://github.com/whatwg/html/issues/12304,2026-03-23T15:59:05Z,2026-04-03T00:38:41Z,jakearchibald,topic: popover,9
 4116408621,false,Allow clean distinction of popover vs dialog.show() vs dialog.showModal() toggle events,https://github.com/whatwg/html/issues/12300,2026-03-22T16:04:50Z,2026-04-01T22:22:42Z,teetotum,,0
 4115528773,false,Setting one permitted sandboxed navigator should not be conditional on noopener being false,https://github.com/whatwg/html/issues/12297,2026-03-22T10:00:46Z,2026-03-22T10:02:27Z,MittelmanDaniel,,0
 4102801725,false,Meeting 39 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12291,2026-03-19T16:22:24Z,2026-03-31T15:50:52Z,mfreed7,,0
 4102589118,false,HTMLFormElement.requestSubmit should allow specifying form overrides like a submit button does,https://github.com/whatwg/html/issues/12290,2026-03-19T15:48:46Z,2026-03-20T13:41:41Z,nicksloan,addition/proposal|needs implementer interest|topic: forms,0
 4101153782,false,Removing iframe does not update content document's visibility state.,https://github.com/whatwg/html/issues/12288,2026-03-19T11:47:07Z,2026-03-19T11:50:37Z,Psychpsyo,,0
 4100983306,false,Behavior of showModal on dialog within a hidden container,https://github.com/whatwg/html/issues/12287,2026-03-19T11:12:27Z,2026-03-19T11:12:27Z,Nettsentrisk,,1
-4100815454,false,outline and ::picker(select),https://github.com/whatwg/html/issues/12286,2026-03-19T10:37:48Z,2026-03-31T18:16:35Z,annevk,topic: rendering|topic: focus|topic: select,0
+4100815454,false,outline and ::picker(select),https://github.com/whatwg/html/issues/12286,2026-03-19T10:37:48Z,2026-04-02T20:40:20Z,annevk,topic: rendering|topic: focus|topic: select,0
 4098352482,true,Creating an iframe's child navigable as written is impossible.,https://github.com/whatwg/html/issues/12285,2026-03-18T23:51:27Z,2026-04-01T15:32:09Z,Psychpsyo,,0
 4095451770,false,Should baseURI for initial top level javascript URIs be the creators base?,https://github.com/whatwg/html/issues/12281,2026-03-18T14:18:04Z,2026-03-18T14:18:04Z,vinhill,,0
 4094686346,false,Script execution triggered on child removals/mutation from children change,https://github.com/whatwg/html/issues/12279,2026-03-18T12:02:40Z,2026-03-18T13:20:46Z,shannonbooth,,0
@@ -114,7 +115,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3851339062,true,Business impact of removing XSLT from the HTML Standard,https://github.com/whatwg/html/issues/12107,2026-01-24T14:33:35Z,2026-03-05T23:19:31Z,jjwhitmore,,2
 3847300996,true,select base appearance shadow tree issues,https://github.com/whatwg/html/issues/12106,2026-01-23T12:43:33Z,2026-02-13T19:19:24Z,annevk,topic: select,0
 3843852715,true,Meeting 35 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12104,2026-01-22T17:03:39Z,2026-02-05T16:35:05Z,mfreed7,,0
-3843592292,true,Re: Issue #11523 Removal of XSLT from the web platform,https://github.com/whatwg/html/issues/12103,2026-01-22T15:59:59Z,2026-03-05T22:43:24Z,jjwhitmore,,2
+3843592292,true,Re: Issue #11523 Removal of XSLT from the web platform,https://github.com/whatwg/html/issues/12103,2026-01-22T15:59:59Z,2026-04-02T14:07:52Z,jjwhitmore,,2
 3843327465,true,The spec for the `align` attribute on img (and maybe others?) is incomplete,https://github.com/whatwg/html/issues/12102,2026-01-22T14:57:03Z,2026-01-22T15:24:17Z,Psychpsyo,topic: rendering,0
 3842958150,false,Move DOMActivate event from UI Events to HTML,https://github.com/whatwg/html/issues/12101,2026-01-22T13:27:41Z,2026-02-11T12:38:59Z,zcorpan,needs tests|topic: events|integration,0
 3842523726,false,Selects interplay with popover is sometimes surprising.,https://github.com/whatwg/html/issues/12099,2026-01-22T11:34:18Z,2026-02-05T18:57:31Z,keithamus,needs tests|topic: select,1
@@ -141,7 +142,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3789433373,true,"""update a color well control color"" works based on the input value concept while WPT expects the value attribute",https://github.com/whatwg/html/issues/12057,2026-01-07T16:27:03Z,2026-01-14T13:00:53Z,saschanaz,topic: forms,1
 3787213214,false,Cryptographic User Content Offload/Obfuscation,https://github.com/whatwg/html/issues/12055,2026-01-07T03:26:19Z,2026-01-07T03:26:19Z,skeggse,addition/proposal|needs implementer interest,1
 3785243871,true,Should HTMLInputElement.colorSpace setter trigger sanitization?,https://github.com/whatwg/html/issues/12053,2026-01-06T13:59:06Z,2026-01-06T15:58:14Z,saschanaz,,0
-3771255288,false,Filtering support for customizable select,https://github.com/whatwg/html/issues/12050,2025-12-30T20:46:20Z,2026-04-02T06:58:30Z,josepharhar,addition/proposal|needs implementer interest|topic: select,4
+3771255288,false,Filtering support for customizable select,https://github.com/whatwg/html/issues/12050,2025-12-30T20:46:20Z,2026-04-02T23:52:39Z,josepharhar,addition/proposal|needs implementer interest|topic: select,4
 3771158236,false,Base appearance for drop-down select multiple,https://github.com/whatwg/html/issues/12049,2025-12-30T20:02:00Z,2026-01-09T01:59:57Z,josepharhar,topic: select,0
 3769282508,false,Unclear interactions between Resource Timing and preloads,https://github.com/whatwg/html/issues/12047,2025-12-30T06:50:38Z,2025-12-30T06:50:38Z,jdm,,0
 3768896787,false,Worker constructor specification doesn't match browser behaviour for cross-origin URLs,https://github.com/whatwg/html/issues/12046,2025-12-30T03:06:52Z,2025-12-30T03:07:27Z,jdm,,0
@@ -698,7 +699,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2810743572,true,An HTML Markup Extension for AI Agents,https://github.com/whatwg/html/issues/10946,2025-01-25T03:59:06Z,2025-01-26T04:50:44Z,k-kolomeitsev,addition/proposal|needs implementer interest,1
 2809482300,true,Clarify IDL reflection for `closedby` attribute,https://github.com/whatwg/html/issues/10945,2025-01-24T13:37:23Z,2025-02-27T08:30:31Z,keithamus,normative change|topic: dialog,0
 2809064495,false,Replenishment of element queue or backup element queue can be performed for the same element,https://github.com/whatwg/html/issues/10944,2025-01-24T10:15:23Z,2025-01-27T03:40:10Z,dSalieri,topic: custom elements,0
-2808425148,false,[Feature Request] Improve behavior of element.focus( { focusVisible: false } ),https://github.com/whatwg/html/issues/10943,2025-01-24T03:42:45Z,2025-02-24T02:21:39Z,woody-li,,0
+2808425148,false,[Feature Request] Improve behavior of element.focus( { focusVisible: false } ),https://github.com/whatwg/html/issues/10943,2025-01-24T03:42:45Z,2026-04-02T20:49:05Z,woody-li,addition/proposal|needs implementer interest,0
 2807754812,true,Meeting 15 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10942,2025-01-23T19:37:18Z,2025-12-04T21:36:39Z,chrishtr,,0
 2806843947,true,Upcoming WHATNOT meeting on 2025-01-30,https://github.com/whatwg/html/issues/10941,2025-01-23T12:57:41Z,2025-12-04T21:36:39Z,annevk,,0
 2805379016,false,An event handler for <link rel=preload as=json>?,https://github.com/whatwg/html/issues/10940,2025-01-22T21:27:51Z,2025-01-23T12:42:17Z,allstarschh,topic: resource hints (inc. preload),0
@@ -730,7 +731,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2762041321,false,ARIA and Accessibility API in HTML specification,https://github.com/whatwg/html/issues/10885,2024-12-28T23:45:58Z,2024-12-28T23:45:58Z,dSalieri,,0
 2760982461,false,Canvas text direction getter not interoperable,https://github.com/whatwg/html/issues/10884,2024-12-27T15:01:10Z,2025-02-01T16:50:38Z,schenney-chromium,topic: canvas,1
 2754605091,false,valueAsTemporal: date/time input integration with JavaScript Temporal API,https://github.com/whatwg/html/issues/10882,2024-12-22T11:10:04Z,2025-01-16T19:17:03Z,o-t-w,addition/proposal|needs implementer interest|topic: forms,12
-2752376493,false,Audit and fix innerHTML scripting disabled parsing behavior for template,https://github.com/whatwg/html/issues/10879,2024-12-20T09:59:00Z,2026-04-01T17:17:37Z,hsivonen,topic: parser|interop,0
+2752376493,false,Audit and fix innerHTML scripting disabled parsing behavior for template,https://github.com/whatwg/html/issues/10879,2024-12-20T09:59:00Z,2026-04-02T13:16:45Z,hsivonen,topic: parser|interop,0
 2751257695,true,Upcoming WHATNOT meeting on 2025-01-09,https://github.com/whatwg/html/issues/10878,2024-12-19T19:32:37Z,2025-12-04T21:36:37Z,past,,0
 2751142397,true,Meeting 14 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10877,2024-12-19T18:21:56Z,2025-12-04T21:36:36Z,josepharhar,,0
 2750910456,false,"Selection in form control elements, user-select, and customizable select",https://github.com/whatwg/html/issues/10876,2024-12-19T16:46:00Z,2025-01-16T15:17:02Z,josepharhar,topic: select,0
@@ -3995,7 +3996,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
 305492784,false,EventSource.readyState should be CLOSED if created after a self.close() in a Web Worker,https://github.com/whatwg/html/issues/3573,2018-03-15T10:26:52Z,2018-03-15T11:02:30Z,bakulf,topic: eventsource,0
 305486191,true,When will 'probablySupportsContext' be supported?,https://github.com/whatwg/html/issues/3572,2018-03-15T10:07:17Z,2018-07-08T13:48:40Z,bluzi,,0
-305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2026-03-03T03:16:50Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,34
+305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2026-03-03T03:16:50Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,35
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
 305140900,true,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2025-10-20T17:06:06Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,198
