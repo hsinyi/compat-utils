@@ -601,7 +601,7 @@ api/CSSFontFaceDescriptors/unicode-range,,150,,,,26,,false,true,false,https://dr
 api/CSSFontFaceDescriptors/unicodeRange,,150,,,,26,,false,true,false,https://drafts.csswg.org/css-fonts-5/#dom-cssfontfacedescriptors-unicoderange,W3C
 api/CSSFontFaceRule,,3.5,,1,,3.1,,false,true,false,https://drafts.csswg.org/css-fonts/#om-fontface,W3C
 api/CSSFontFaceRule/style,,3.5,,1,,3.1,,false,true,false,https://drafts.csswg.org/css-fonts/#dom-cssfontfacerule-style,W3C
-api/CSSFontFaceRule/style/type_CSSFontFaceDescriptors,,,,,,26,,true,true,false,,NONE
+api/CSSFontFaceRule/style/type_CSSFontFaceDescriptors,,150,,,,26,,false,true,false,,NONE
 api/CSSFontFeatureValuesMap,,,,111,,,,true,true,false,https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap,W3C
 api/CSSFontFeatureValuesMap/@@iterator,,,,111,,,,true,true,false,https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap,W3C
 api/CSSFontFeatureValuesMap/clear,,,,111,,,,true,true,false,https://drafts.csswg.org/css-fonts/#cssfontfeaturevaluesmap,W3C
@@ -1642,7 +1642,7 @@ api/Document/body,,60,,1,,1,,false,true,false,https://html.spec.whatwg.org/multi
 api/Document/browsingTopics,,,,126,,,,false,false,true,,NONE
 api/Document/captureEvents,,70,,64,,11,,false,true,true,https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-captureevents,WHATWG
 api/Document/caretPositionFromPoint,,20,,128,,26.2,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-document-caretpositionfrompoint,W3C
-api/Document/caretPositionFromPoint/options_parameter,,preview,,128,,26.2,,false,true,false,,NONE
+api/Document/caretPositionFromPoint/options_parameter,,150,,128,,26.2,,false,true,false,,NONE
 api/Document/caretRangeFromPoint,,150,,4,,5,,false,false,false,,NONE
 api/Document/characterSet,,1,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-document-characterset①,WHATWG
 api/Document/childElementCount,,25,,29,,9,,false,true,false,https://dom.spec.whatwg.org/#dom-parentnode-childelementcount,WHATWG
@@ -1677,7 +1677,7 @@ api/Document/createTouchList,,18,,22,,,,false,false,true,,NONE
 api/Document/createTreeWalker,,1,,1,,3,,false,true,false,https://dom.spec.whatwg.org/#dom-document-createtreewalker,WHATWG
 api/Document/createTreeWalker/whatToShow_filter_parameters_optional,,12,,4,,3,,false,true,false,,NONE
 api/Document/currentScript,,4,,29,,8,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-document-currentscript-dev,WHATWG
-api/Document/customElementRegistry,,,,146,,26,,false,true,false,https://dom.spec.whatwg.org/#dom-documentorshadowroot-customelementregistry,WHATWG
+api/Document/customElementRegistry,,150,"[{""name"":""dom.scoped-custom-element-registries.enabled"",""type"":""preference"",""value_to_set"":""true""}]",146,,26,,false,true,false,https://dom.spec.whatwg.org/#dom-documentorshadowroot-customelementregistry,WHATWG
 api/Document/defaultView,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-document-defaultview-dev,WHATWG
 api/Document/designMode,,69,,36,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-document-designmode-dev,WHATWG
 api/Document/dir,,1,,36,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-document-dir,WHATWG
@@ -1910,7 +1910,7 @@ api/Element/animate,,48,,36,,13.1,,false,true,false,https://drafts.csswg.org/web
 api/Element/animate/implicit_tofrom,,75,,84,,13.1,,false,true,false,,NONE
 api/Element/animate/options_composite_parameter,,80,,84,,16,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-keyframeeffectoptions-composite,W3C
 api/Element/animate/options_id_parameter,,48,,50,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-keyframeanimationoptions-id,W3C
-api/Element/animate/options_iterationComposite_parameter,,80,,,,,,true,true,false,https://drafts.csswg.org/web-animations-2/#dom-keyframeeffectoptions-iterationcomposite,W3C
+api/Element/animate/options_iterationComposite_parameter,,80,,,,16.4,,false,true,false,https://drafts.csswg.org/web-animations-2/#dom-keyframeeffectoptions-iterationcomposite,W3C
 api/Element/animate/options_pseudoElement_parameter,,75,,84,,14,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-keyframeeffectoptions-pseudoelement,W3C
 api/Element/animate/options_rangeEnd_parameter,,,,115,,26,,false,true,false,https://drafts.csswg.org/web-animations-2/#dom-keyframeanimationoptions-rangeend,W3C
 api/Element/animate/options_rangeStart_parameter,,,,115,,26,,false,true,false,https://drafts.csswg.org/web-animations-2/#dom-keyframeanimationoptions-rangestart,W3C
@@ -1976,6 +1976,7 @@ api/Element/assignedSlot,,63,,53,,10,,false,true,false,https://dom.spec.whatwg.o
 api/Element/attachShadow,,63,,53,,10,,false,true,false,https://dom.spec.whatwg.org/#dom-element-attachshadow,WHATWG
 api/Element/attachShadow/options_clonable_parameter,,123,,124,,17.4,,false,true,false,https://dom.spec.whatwg.org/#dom-shadowrootinit-clonable,WHATWG
 api/Element/attachShadow/options_delegatesFocus_parameter,,94,,53,,13.1,,false,true,false,https://dom.spec.whatwg.org/#dom-shadowrootinit-delegatesfocus,WHATWG
+api/Element/attachShadow/options_referenceTarget_parameter,,144,"[{""name"":""dom.shadowdom.referenceTarget.enabled"",""type"":""preference"",""value_to_set"":""true""}]",133,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""true""}]",26,"[{""name"":""referenceTarget"",""type"":""preference"",""value_to_set"":""true""},{""name"":""referenceTarget support for aria-owns"",""type"":""preference"",""value_to_set"":""true""}]",true,false,false,,NONE
 api/Element/attachShadow/options_serializable_parameter,,128,,125,,18,,false,true,false,https://dom.spec.whatwg.org/#dom-shadowrootinit-serializable,WHATWG
 api/Element/attributes,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#dom-element-attributes,WHATWG
 api/Element/auxclick_event,,53,,55,,18.2,,false,true,false,https://w3c.github.io/uievents/#event-type-auxclick,W3C
@@ -2012,7 +2013,7 @@ api/Element/contextmenu_event,,6,,1,,3,,false,true,false,https://w3c.github.io/u
 api/Element/contextmenu_event/type_pointerevent,,129,,92,,18.2,,false,true,false,,NONE
 api/Element/copy_event,,22,,1,,3,,false,true,false,https://w3c.github.io/clipboard-apis/#clipboard-event-copy,W3C
 api/Element/currentCSSZoom,,126,,128,,26.4,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-element-currentcsszoom,W3C
-api/Element/customElementRegistry,,,,146,,26,,false,true,false,https://dom.spec.whatwg.org/#dom-element-customelementregistry,WHATWG
+api/Element/customElementRegistry,,150,"[{""name"":""dom.scoped-custom-element-registries.enabled"",""type"":""preference"",""value_to_set"":""true""}]",146,,26,,false,true,false,https://dom.spec.whatwg.org/#dom-element-customelementregistry,WHATWG
 api/Element/cut_event,,22,,1,,3,,false,true,false,https://w3c.github.io/clipboard-apis/#clipboard-event-cut,W3C
 api/Element/dblclick_event,,6,,1,,3,,false,true,false,https://w3c.github.io/uievents/#event-type-dblclick,W3C
 api/Element/elementTiming,,,,77,,,,true,true,false,https://w3c.github.io/element-timing/#dom-element-elementtiming,W3C
@@ -3383,7 +3384,7 @@ api/HTMLImageElement/referrerPolicy/origin-when-cross-origin,,61,,52,,14,,false,
 api/HTMLImageElement/referrerPolicy/unsafe-url,,61,,52,,14,,false,true,false,,NONE
 api/HTMLImageElement/sharedStorageWritable,,,,126,,,,false,true,true,https://wicg.github.io/shared-storage/#html-attr,W3CCG
 api/HTMLImageElement/sizes,,38,,38,,9.1,,false,true,false,https://html.spec.whatwg.org/multipage/embedded-content.html#dom-img-sizes,WHATWG
-api/HTMLImageElement/sizes/auto,,,,126,,,,false,true,false,https://html.spec.whatwg.org/multipage/images.html#valdef-sizes-auto,WHATWG
+api/HTMLImageElement/sizes/auto,,150,,126,,,,false,true,false,https://html.spec.whatwg.org/multipage/images.html#valdef-sizes-auto,WHATWG
 api/HTMLImageElement/src,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/embedded-content.html#dom-img-src,WHATWG
 api/HTMLImageElement/srcset,,38,,34,,8,,false,true,false,https://html.spec.whatwg.org/multipage/embedded-content.html#dom-img-srcset,WHATWG
 api/HTMLImageElement/useMap,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/embedded-content.html#dom-img-usemap,WHATWG
@@ -3853,6 +3854,7 @@ api/HTMLTemplateElement/shadowRootClonable,,125,,124,,18,,false,true,false,https
 api/HTMLTemplateElement/shadowRootCustomElementRegistry,,,,146,,26,,false,true,false,https://html.spec.whatwg.org/multipage/scripting.html#dom-template-shadowrootcustomelementregistry,WHATWG
 api/HTMLTemplateElement/shadowRootDelegatesFocus,,123,,123,,18,,false,true,false,https://html.spec.whatwg.org/multipage/scripting.html#dom-template-shadowrootdelegatesfocus,WHATWG
 api/HTMLTemplateElement/shadowRootMode,,123,,111,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/scripting.html#dom-template-shadowrootmode,WHATWG
+api/HTMLTemplateElement/shadowRootReferenceTarget,,144,"[{""name"":""dom.shadowdom.referenceTarget.enabled"",""type"":""preference"",""value_to_set"":""true""}]",133,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""true""}]",26,"[{""name"":""referenceTarget"",""type"":""preference"",""value_to_set"":""true""},{""name"":""referenceTarget support for aria-owns"",""type"":""preference"",""value_to_set"":""true""}]",false,false,false,,NONE
 api/HTMLTemplateElement/shadowRootSerializable,,128,,125,,18,,false,true,false,https://html.spec.whatwg.org/multipage/scripting.html#dom-template-shadowrootserializable,WHATWG
 api/HTMLTextAreaElement,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#htmltextareaelement,WHATWG
 api/HTMLTextAreaElement/autocomplete,,59,,66,,9.1,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fe-autocomplete,WHATWG
@@ -5403,12 +5405,12 @@ api/OffscreenCanvasRenderingContext2D/wordSpacing,,115,,99,,18.4,,false,true,fal
 api/OrientationSensor,,,,67,,,,false,true,false,https://w3c.github.io/orientation-sensor/#orientationsensor-interface,W3C
 api/OrientationSensor/populateMatrix,,,,67,,,,false,true,false,https://w3c.github.io/orientation-sensor/#orientationsensor-populatematrix,W3C
 api/OrientationSensor/quaternion,,,,67,,,,false,true,false,https://w3c.github.io/orientation-sensor/#orientationsensor-quaternion,W3C
-api/Origin,,,,145,,,,true,true,false,https://html.spec.whatwg.org/multipage/browsers.html#the-origin-interface,WHATWG
-api/Origin/Origin,,,,145,,,,true,true,false,https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-constructor,WHATWG
-api/Origin/from_static,,,,145,,,,true,true,false,https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-from,WHATWG
-api/Origin/isSameOrigin,,,,145,,,,true,true,false,https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-issameorigin,WHATWG
-api/Origin/isSameSite,,,,145,,,,true,true,false,https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-issamesite,WHATWG
-api/Origin/opaque,,,,145,,,,true,true,false,https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-opaque,WHATWG
+api/Origin,,,,145,,26.5,,false,true,false,https://html.spec.whatwg.org/multipage/browsers.html#the-origin-interface,WHATWG
+api/Origin/Origin,,,,145,,26.5,,false,true,false,https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-constructor,WHATWG
+api/Origin/from_static,,,,145,,26.5,,false,true,false,https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-from,WHATWG
+api/Origin/isSameOrigin,,,,145,,26.5,,false,true,false,https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-issameorigin,WHATWG
+api/Origin/isSameSite,,,,145,,26.5,,false,true,false,https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-issamesite,WHATWG
+api/Origin/opaque,,,,145,,26.5,,false,true,false,https://html.spec.whatwg.org/multipage/browsers.html#dom-origin-opaque,WHATWG
 api/OscillatorNode,,25,,20,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#OscillatorNode,W3C
 api/OscillatorNode/OscillatorNode,,53,,55,,14.1,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-oscillatornode-oscillatornode,W3C
 api/OscillatorNode/detune,,25,,20,,6,,false,true,false,https://webaudio.github.io/web-audio-api/#dom-oscillatornode-detune,W3C
@@ -5691,7 +5693,7 @@ api/PerformanceResourceTiming,,35,,29,,11,,false,true,false,https://w3c.github.i
 api/PerformanceResourceTiming/connectEnd,,35,,43,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-connectend,W3C
 api/PerformanceResourceTiming/connectStart,,35,,43,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-connectstart,W3C
 api/PerformanceResourceTiming/contentEncoding,,,,143,,,,true,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-contentencoding,W3C
-api/PerformanceResourceTiming/contentType,,129,,,,,,true,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-contenttype,W3C
+api/PerformanceResourceTiming/contentType,,129,,148,,,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-contenttype,W3C
 api/PerformanceResourceTiming/decodedBodySize,,45,,54,,16.4,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-decodedbodysize,W3C
 api/PerformanceResourceTiming/deliveryType,,,,117,,26.4,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-deliverytype,W3C
 api/PerformanceResourceTiming/deliveryType/navigational-prefetch,,,,117,,,,true,false,false,,NONE
@@ -5787,6 +5789,9 @@ api/Permissions/permission_clipboard-write,,,,64,,,,true,true,false,https://w3c.
 api/Permissions/permission_geolocation,,46,,43,,16,,false,true,false,,NONE
 api/Permissions/permission_gyroscope,,,,51,,,,true,true,false,,NONE
 api/Permissions/permission_local-fonts,,,,103,,,,true,true,false,,NONE
+api/Permissions/permission_local-network,,,,145,,,,true,true,false,https://wicg.github.io/local-network-access/#permissiondef-local-network,W3CCG
+api/Permissions/permission_local-network-access,,,,142,,,,true,true,false,https://wicg.github.io/local-network-access/#permissiondef-local-network-access,W3CCG
+api/Permissions/permission_loopback-network,,,,145,,,,true,true,false,https://wicg.github.io/local-network-access/#permissiondef-loopback-network,W3CCG
 api/Permissions/permission_magnetometer,,,,62,"[{""name"":""#enable-generic-sensor-extra-classes"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,,NONE
 api/Permissions/permission_microphone,,132,,64,,16,,false,true,false,,NONE
 api/Permissions/permission_midi,,110,,43,,,,false,true,false,https://webaudio.github.io/web-midi-api/#permissions-integration,W3C
@@ -6699,6 +6704,7 @@ api/Request/Request/init_keepalive_parameter,,133,,66,,13,,false,true,false,http
 api/Request/Request/init_priority_parameter,,132,,101,,17.2,,false,true,false,https://fetch.spec.whatwg.org/#dom-requestinit-priority,WHATWG
 api/Request/Request/init_privateToken_parameter,,,,117,,,,true,true,false,https://wicg.github.io/trust-token-api/#dom-requestinit-privatetoken,W3CCG
 api/Request/Request/init_referrer_parameter,,47,,47,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#dom-requestinit-referrer,WHATWG
+api/Request/Request/init_targetAddressSpace_parameter,,,,142,,,,true,true,false,https://wicg.github.io/local-network-access/#dom-requestinit-targetaddressspace,W3CCG
 api/Request/Request/request_body_readablestream,,,,105,,,,true,true,false,,NONE
 api/Request/Request/response_body_readablestream,,65,,43,,,,false,true,false,,NONE
 api/Request/arrayBuffer,,39,,42,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-body-arraybuffer①,WHATWG
@@ -6727,7 +6733,7 @@ api/Request/redirect,,43,,46,,10.1,,false,true,false,https://fetch.spec.whatwg.o
 api/Request/referrer,,39,,40,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-request-referrer①,WHATWG
 api/Request/referrerPolicy,,47,,52,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-request-referrerpolicy②,WHATWG
 api/Request/signal,,57,,66,,12.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-request-signal②,WHATWG
-api/Request/targetAddressSpace,,,,138,"[{""name"":""#local-network-access-check"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,https://wicg.github.io/local-network-access/#dom-request-targetaddressspace,W3CCG
+api/Request/targetAddressSpace,,,,142,,,,true,true,false,https://wicg.github.io/local-network-access/#dom-request-targetaddressspace,W3CCG
 api/Request/text,,39,,42,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-body-text①,WHATWG
 api/Request/url,,39,,40,,10.1,,false,true,false,https://fetch.spec.whatwg.org/#ref-for-dom-request-url③,WHATWG
 api/ResizeObserver,,69,,64,,13.1,,false,true,false,https://drafts.csswg.org/resize-observer/#resize-observer-interface,W3C
@@ -7608,7 +7614,7 @@ api/ShadowRoot,,63,,53,,10,,false,true,false,https://dom.spec.whatwg.org/#interf
 api/ShadowRoot/activeElement,,63,,53,,10,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-documentorshadowroot-activeelement-dev,WHATWG
 api/ShadowRoot/adoptedStyleSheets,,101,,73,,16.4,,false,true,false,https://drafts.csswg.org/cssom/#dom-documentorshadowroot-adoptedstylesheets,W3C
 api/ShadowRoot/clonable,,123,,124,,17.4,,false,true,false,https://dom.spec.whatwg.org/#dom-shadowroot-clonable,WHATWG
-api/ShadowRoot/customElementRegistry,,,,146,,26,,false,true,false,https://dom.spec.whatwg.org/#dom-documentorshadowroot-customelementregistry,WHATWG
+api/ShadowRoot/customElementRegistry,,150,"[{""name"":""dom.scoped-custom-element-registries.enabled"",""type"":""preference"",""value_to_set"":""true""}]",146,,26,,false,true,false,https://dom.spec.whatwg.org/#dom-documentorshadowroot-customelementregistry,WHATWG
 api/ShadowRoot/delegatesFocus,,94,,53,,15,,false,true,false,https://dom.spec.whatwg.org/#shadowroot-delegates-focus,WHATWG
 api/ShadowRoot/elementFromPoint,,63,,53,,10.1,,false,false,false,,NONE
 api/ShadowRoot/elementsFromPoint,,63,,53,,11.1,,false,false,false,,NONE
@@ -7624,7 +7630,7 @@ api/ShadowRoot/innerHTML/escapes_lt_gt_in_attributes,,140,,138,,26,,false,false,
 api/ShadowRoot/mode,,63,,53,,10.1,,false,true,false,https://dom.spec.whatwg.org/#dom-shadowroot-mode,WHATWG
 api/ShadowRoot/pictureInPictureElement,,,,69,,13.1,,false,true,false,https://w3c.github.io/picture-in-picture/#dom-pictureinpictureevent-pictureinpicturewindow,W3C
 api/ShadowRoot/pointerLockElement,,63,,53,,10.1,,false,true,false,https://w3c.github.io/pointerlock/#dom-documentorshadowroot-pointerlockelement,W3C
-api/ShadowRoot/referenceTarget,,149,"[{""name"":""dom.shadowdom.referenceTarget.enabled"",""type"":""preference"",""value_to_set"":""true""}]",133,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""true""}]",26,"[{""name"":""referenceTarget"",""type"":""preference"",""value_to_set"":""true""},{""name"":""referenceTarget support for aria-owns"",""type"":""preference"",""value_to_set"":""true""}]",true,false,false,,NONE
+api/ShadowRoot/referenceTarget,,144,"[{""name"":""dom.shadowdom.referenceTarget.enabled"",""type"":""preference"",""value_to_set"":""true""}]",133,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""true""}]",26,"[{""name"":""referenceTarget"",""type"":""preference"",""value_to_set"":""true""},{""name"":""referenceTarget support for aria-owns"",""type"":""preference"",""value_to_set"":""true""}]",true,false,false,,NONE
 api/ShadowRoot/serializable,,128,,125,,18,,false,true,false,https://dom.spec.whatwg.org/#dom-shadowroot-serializable,WHATWG
 api/ShadowRoot/setHTML,,148,,,,,,true,true,false,https://wicg.github.io/sanitizer-api/#dom-shadowroot-sethtml,W3CCG
 api/ShadowRoot/setHTMLUnsafe,,123,,124,,26,,false,true,false,https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#dom-shadowroot-sethtmlunsafe,WHATWG
@@ -8095,7 +8101,7 @@ api/ToggleEvent,,120,,114,,17,,false,true,false,https://html.spec.whatwg.org/mul
 api/ToggleEvent/ToggleEvent,,120,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#toggleevent,WHATWG
 api/ToggleEvent/newState,,120,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-toggleevent-newstate,WHATWG
 api/ToggleEvent/oldState,,120,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-toggleevent-oldstate,WHATWG
-api/ToggleEvent/source,,145,,140,,,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-toggleevent-source,WHATWG
+api/ToggleEvent/source,,145,,140,,26.5,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-toggleevent-source,WHATWG
 api/Touch,,52,,22,,,,false,true,false,https://w3c.github.io/touch-events/#touch-interface,W3C
 api/Touch/Touch,,52,,48,,,,false,true,false,https://w3c.github.io/touch-events/#dom-touch-constructor,W3C
 api/Touch/altitudeAngle,,,,,,,,false,true,false,https://w3c.github.io/touch-events/#dom-touch-altitudeangle,W3C
@@ -9914,6 +9920,7 @@ api/fetch/init_priority_parameter,,132,,101,,17.2,,false,true,false,,NONE
 api/fetch/init_privateToken_parameter,,,,117,,,,true,true,false,https://wicg.github.io/trust-token-api/#dom-requestinit-privatetoken,W3CCG
 api/fetch/init_referrerPolicy_parameter,,52,,52,,11.1,,false,true,false,,NONE
 api/fetch/init_signal_parameter,,57,,66,,11.1,,false,true,false,,NONE
+api/fetch/init_targetAddressSpace_parameter,,,,142,,,,true,true,false,https://wicg.github.io/local-network-access/#dom-requestinit-targetaddressspace,W3CCG
 api/indexedDB,,16,,24,,8,,false,true,false,https://w3c.github.io/IndexedDB/#dom-windoworworkerglobalscope-indexeddb,W3C
 api/indexedDB/worker_support,,37,,24,,10,,false,true,false,,NONE
 api/isSecureContext,,49,,47,,11.1,,false,true,false,https://html.spec.whatwg.org/multipage/webappapis.html#dom-issecurecontext-dev,WHATWG
@@ -10213,7 +10220,7 @@ css/properties/alignment-baseline/text-before-edge,,,,1,,5.1,,false,true,false,,
 css/properties/alignment-baseline/text-bottom,,149,,,,,,true,true,false,https://drafts.csswg.org/css-inline/#valdef-dominant-baseline-text-bottom,W3C
 css/properties/alignment-baseline/text-top,,149,,,,,,true,true,false,https://drafts.csswg.org/css-inline/#valdef-dominant-baseline-text-top,W3C
 css/properties/all,,27,,37,,9.1,,false,true,false,https://drafts.csswg.org/css-cascade/#all-shorthand,W3C
-css/properties/all/revert-rule,,150,,,,,,true,true,false,https://drafts.csswg.org/css-cascade-5/#revert-rule-keyword,W3C
+css/properties/all/revert-rule,,150,,,,preview,,true,true,false,https://drafts.csswg.org/css-cascade-5/#revert-rule-keyword,W3C
 css/properties/alt,,,,,,9,,false,false,true,,NONE
 css/properties/anchor-name,,147,,125,,26,,false,true,false,https://drafts.csswg.org/css-anchor-position-1/#name,W3C
 css/properties/anchor-name/none,,147,,125,,26,,false,true,false,https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-name-none,W3C
@@ -11645,7 +11652,7 @@ css/properties/grid-template-rows/minmax,,52,,57,,10.1,,false,true,false,https:/
 css/properties/grid-template-rows/none,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#valdef-grid-template-rows-none,W3C
 css/properties/grid-template-rows/repeat,,76,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#repeat-notation,W3C
 css/properties/grid-template-rows/subgrid,,71,,117,,16,,false,true,false,https://drafts.csswg.org/css-grid/#subgrids,W3C
-css/properties/hanging-punctuation,,,,,,10,,false,true,false,https://drafts.csswg.org/css-text/#hanging-punctuation-property,W3C
+css/properties/hanging-punctuation,,,,,,preview,,false,true,false,https://drafts.csswg.org/css-text/#hanging-punctuation-property,W3C
 css/properties/hanging-punctuation/allow-end,,,,,,10,,false,true,false,https://drafts.csswg.org/css-text/#valdef-hanging-punctuation-allow-end,W3C
 css/properties/hanging-punctuation/first,,,,,,10,,false,true,false,https://drafts.csswg.org/css-text/#valdef-hanging-punctuation-first,W3C
 css/properties/hanging-punctuation/last,,,,,,10,,false,true,false,https://drafts.csswg.org/css-text/#valdef-hanging-punctuation-last,W3C
@@ -13355,7 +13362,7 @@ css/selectors/nth-of-type,,3.5,,1,,3.1,,false,true,false,https://drafts.csswg.or
 css/selectors/only-child,,1.5,,2,,3.1,,false,true,false,https://drafts.csswg.org/selectors/#only-child-pseudo,W3C
 css/selectors/only-child/no_parent_required,,52,,57,,17,,false,true,false,,NONE
 css/selectors/only-of-type,,3.5,,1,,3.1,,false,true,false,https://drafts.csswg.org/selectors/#only-of-type-pseudo,W3C
-css/selectors/open,,136,,133,,preview,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-open,WHATWG
+css/selectors/open,,136,,133,,26.5,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-open,WHATWG
 css/selectors/optional,,4,,10,,5,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-optional,WHATWG
 css/selectors/out-of-range,,29,,10,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-out-of-range,WHATWG
 css/selectors/part,,72,,73,,13.1,,false,true,false,https://drafts.csswg.org/css-shadow/#part,W3C
@@ -14425,7 +14432,7 @@ html/elements/template/shadowrootclonable,,125,,124,,17.5,,false,true,false,http
 html/elements/template/shadowrootcustomelementregistry,,,,146,,26,,false,true,false,https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootcustomelementregistry,WHATWG
 html/elements/template/shadowrootdelegatesfocus,,123,,123,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootdelegatesfocus,WHATWG
 html/elements/template/shadowrootmode,,123,,111,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootmode,WHATWG
-html/elements/template/shadowrootreferencetarget,,149,"[{""name"":""dom.shadowdom.referenceTarget.enabled"",""type"":""preference"",""value_to_set"":""true""}]",133,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""true""}]",26,"[{""name"":""referenceTarget"",""type"":""preference"",""value_to_set"":""true""},{""name"":""referenceTarget support for aria-owns"",""type"":""preference"",""value_to_set"":""true""}]",true,false,false,,NONE
+html/elements/template/shadowrootreferencetarget,,144,"[{""name"":""dom.shadowdom.referenceTarget.enabled"",""type"":""preference"",""value_to_set"":""true""}]",133,"[{""name"":""#enable-experimental-web-platform-features"",""type"":""preference"",""value_to_set"":""true""}]",26,"[{""name"":""referenceTarget"",""type"":""preference"",""value_to_set"":""true""},{""name"":""referenceTarget support for aria-owns"",""type"":""preference"",""value_to_set"":""true""}]",true,false,false,,NONE
 html/elements/template/shadowrootserializable,,,,125,,18,,false,true,false,https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootserializable,WHATWG
 html/elements/textarea,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/multipage/form-elements.html#the-textarea-element,WHATWG
 html/elements/textarea/autocomplete,,59,,66,,9.1,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete,WHATWG
@@ -14497,7 +14504,6 @@ html/elements/var,,1,,1,,≤4,,false,true,false,https://html.spec.whatwg.org/mul
 html/elements/video,,3.5,,3,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#the-video-element,WHATWG
 html/elements/video/aspect_ratio_computed_from_attributes,,71,,79,,14,,false,true,false,,NONE
 html/elements/video/autoplay,,3.5,,3,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#attr-media-autoplay,WHATWG
-html/elements/video/autoplay/loading,,,,147,"[{""name"":""--enable-features=LazyLoadVideoAndAudio"",""type"":""runtime_flag""}]",,,true,true,false,https://html.spec.whatwg.org/multipage/media.html#attr-media-loading,WHATWG
 html/elements/video/autoplay/requires_muted_audio,,67,,67,,16,,false,false,false,,NONE
 html/elements/video/controls,,3.5,,3,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#attr-media-controls,WHATWG
 html/elements/video/controlslist,,,,58,,,,false,true,false,https://wicg.github.io/controls-list/#solution-outline,W3CCG
@@ -14505,6 +14511,7 @@ html/elements/video/crossorigin,,74,,33,,10,,false,true,false,https://html.spec.
 html/elements/video/disablepictureinpicture,,122,,69,,13.1,,false,true,false,https://w3c.github.io/picture-in-picture/#dom-htmlvideoelement-disablepictureinpicture,W3C
 html/elements/video/disableremoteplayback,,,,121,,13.1,,false,true,false,https://w3c.github.io/remote-playback/#the-disableremoteplayback-attribute,W3C
 html/elements/video/height,,3.5,,3,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/embedded-content-other.html#attr-dim-height,WHATWG
+html/elements/video/loading,,,,147,"[{""name"":""--enable-features=LazyLoadVideoAndAudio"",""type"":""runtime_flag""}]",,,true,true,false,https://html.spec.whatwg.org/multipage/media.html#attr-media-loading,WHATWG
 html/elements/video/loop,,11,,3,,3.1,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#attr-media-loop,WHATWG
 html/elements/video/muted,,11,,30,,5,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#attr-media-muted,WHATWG
 html/elements/video/playsinline,,,,75,,10,,false,true,false,https://html.spec.whatwg.org/multipage/media.html#attr-video-playsinline,WHATWG
@@ -14784,6 +14791,9 @@ http/headers/Permissions-Policy/hid,,,,89,,,,true,true,false,https://wicg.github
 http/headers/Permissions-Policy/identity-credentials-get,,,,110,,,,true,true,false,https://w3c-fedid.github.io/FedCM/#permissions-policy-integration,UNKNOWN
 http/headers/Permissions-Policy/idle-detection,,,,94,,,,true,true,false,https://wicg.github.io/idle-detection/#api-permissions-policy,W3CCG
 http/headers/Permissions-Policy/local-fonts,,,,103,,,,true,true,false,https://wicg.github.io/local-font-access/#permissions-policy,W3CCG
+http/headers/Permissions-Policy/local-network,,,,145,,,,true,true,false,https://wicg.github.io/local-network-access/#permissiondef-local-network,W3CCG
+http/headers/Permissions-Policy/local-network-access,,,,142,,,,true,true,false,https://wicg.github.io/local-network-access/#permissiondef-local-network-access,W3CCG
+http/headers/Permissions-Policy/loopback-network,,,,145,,,,true,true,false,https://wicg.github.io/local-network-access/#permissiondef-loopback-network,W3CCG
 http/headers/Permissions-Policy/magnetometer,,,,66,"[{""name"":""#enable-generic-sensor-extra-classes"",""type"":""preference"",""value_to_set"":""Enabled""}]",,,true,true,false,https://w3c.github.io/sensors/#permissions-policy,W3C
 http/headers/Permissions-Policy/microphone,,,,88,,,,true,true,false,https://w3c.github.io/mediacapture-main/#permissions-policy-integration,W3C
 http/headers/Permissions-Policy/midi,,,,88,,,,true,true,false,https://webaudio.github.io/web-midi-api/#permissions-policy-integration,W3C

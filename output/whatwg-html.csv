@@ -1,7 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4201305466,false,"Add the ""action"" and ""method"" attributes to <button>",https://github.com/whatwg/html/issues/12330,2026-04-03T16:38:54Z,2026-04-04T01:08:57Z,alexpetros,,18
 4199446642,false,Focus update steps do not match browser behavior when Element#focus() is called in a blur event handler,https://github.com/whatwg/html/issues/12329,2026-04-03T09:15:18Z,2026-04-03T09:37:46Z,mrobinson,,0
-4195491316,false,[Customizable select] Define UA behavior for interactive content inside <option>,https://github.com/whatwg/html/issues/12328,2026-04-02T15:52:11Z,2026-04-02T15:59:03Z,minorninth,accessibility|a11y-tracker|topic: select,0
-4187739049,false,disallow customized builtin elements from being on the list of active formatting elements,https://github.com/whatwg/html/issues/12327,2026-04-01T15:14:46Z,2026-04-03T12:19:01Z,dbaron,topic: parser|topic: custom elements,0
+4195491316,false,[Customizable select] Define UA behavior for interactive content inside <option>,https://github.com/whatwg/html/issues/12328,2026-04-02T15:52:11Z,2026-04-03T13:07:55Z,minorninth,accessibility|a11y-tracker|agenda+|topic: select,0
+4187739049,false,disallow customized builtin elements from being on the list of active formatting elements,https://github.com/whatwg/html/issues/12327,2026-04-01T15:14:46Z,2026-04-03T12:41:10Z,dbaron,topic: parser|topic: custom elements,0
 4171890982,false,HostEnqueueFinalizationRegistryCleanupJob assumes [[Callback]] has a [[Realm]] slot,https://github.com/whatwg/html/issues/12326,2026-03-30T15:53:15Z,2026-03-30T15:53:15Z,Lubrsi,,0
 4170982205,false,Disallow fragment navigations from `<meta http-equiv=refresh>`,https://github.com/whatwg/html/issues/12325,2026-03-30T14:00:44Z,2026-03-31T10:38:54Z,zcorpan,topic: navigation,0
 4168339981,true,Provide regular release notes or information how to keep oneself up-to-date on HTML spec changes,https://github.com/whatwg/html/issues/12324,2026-03-30T07:42:14Z,2026-03-31T12:57:18Z,GergelyKalmar,,0
@@ -14,11 +15,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4133935408,true,`load` event isn't fired when iframe navigation is blocked because of CSP,https://github.com/whatwg/html/issues/12311,2026-03-25T09:28:45Z,2026-03-31T14:37:39Z,TimvdLippe,,0
 4126991405,false,Upstream Document Picture-in-Picture,https://github.com/whatwg/html/issues/12309,2026-03-24T10:59:10Z,2026-04-01T13:59:16Z,vinhill,addition/proposal|agenda+,0
 4125351939,true,Restore <center> as a non-depreciated tag,https://github.com/whatwg/html/issues/12308,2026-03-24T05:23:00Z,2026-03-25T04:58:24Z,sanfordstaab,addition/proposal|needs implementer interest,1
-4124385473,false,Questions about new bullet in `eligible for autoplay`,https://github.com/whatwg/html/issues/12307,2026-03-24T00:00:20Z,2026-03-24T08:28:06Z,jmdyck,topic: media,0
+4124385473,false,Questions about new bullet in `eligible for autoplay`,https://github.com/whatwg/html/issues/12307,2026-03-24T00:00:20Z,2026-04-03T14:51:52Z,jmdyck,topic: media,0
 4123590260,true,Replace height and width attributes for checkbox and radio inputs,https://github.com/whatwg/html/issues/12306,2026-03-23T20:39:29Z,2026-03-27T11:31:12Z,richarddunnebsc,addition/proposal|needs implementer interest|needs concrete proposal,0
 4122010364,true,popover=auto inside popover=hint has really weird results,https://github.com/whatwg/html/issues/12305,2026-03-23T16:10:06Z,2026-03-26T16:05:06Z,jakearchibald,topic: popover,1
 4121948352,false,popover=hint has multiple weird and inconsistent behaviours,https://github.com/whatwg/html/issues/12304,2026-03-23T15:59:05Z,2026-04-03T06:21:07Z,jakearchibald,topic: popover,9
-4116408621,false,Allow clean distinction of popover vs dialog.show() vs dialog.showModal() toggle events,https://github.com/whatwg/html/issues/12300,2026-03-22T16:04:50Z,2026-04-01T22:22:42Z,teetotum,,0
+4116408621,false,Allow clean distinction of popover vs dialog.show() vs dialog.showModal() toggle events,https://github.com/whatwg/html/issues/12300,2026-03-22T16:04:50Z,2026-04-03T14:39:14Z,teetotum,topic: events|topic: dialog|topic: popover,0
 4115528773,false,Setting one permitted sandboxed navigator should not be conditional on noopener being false,https://github.com/whatwg/html/issues/12297,2026-03-22T10:00:46Z,2026-03-22T10:02:27Z,MittelmanDaniel,,0
 4102801725,false,Meeting 39 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12291,2026-03-19T16:22:24Z,2026-03-31T15:50:52Z,mfreed7,,0
 4102589118,false,HTMLFormElement.requestSubmit should allow specifying form overrides like a submit button does,https://github.com/whatwg/html/issues/12290,2026-03-19T15:48:46Z,2026-03-20T13:41:41Z,nicksloan,addition/proposal|needs implementer interest|topic: forms,0
@@ -864,7 +865,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2555508180,true,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-10-30T05:36:43Z,domenic,normative change|topic: dialog|topic: popover,1
 2551969947,true,Upcoming WHATNOT meeting on 2024-10-03,https://github.com/whatwg/html/issues/10652,2024-09-27T04:30:41Z,2024-10-02T15:00:07Z,past,agenda+,0
 2551884785,false,Nested `contenteditable=true` and `contenteditable=plaintext-only` should win only the ourtermost one,https://github.com/whatwg/html/issues/10651,2024-09-27T02:53:27Z,2024-09-30T21:55:52Z,masayuki-nakano,needs tests|needs concrete proposal|topic: editing,0
-2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-03-31T15:12:40Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|agenda+|stage: 1,2
+2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-03-31T15:12:40Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|agenda+|stage: 1,3
 2549044519,true,Resolving  of transition and finished promises is mismatched between spec and tests,https://github.com/whatwg/html/issues/10646,2024-09-25T21:39:11Z,2024-09-30T10:14:17Z,rwlbuis,topic: navigation,0
 2544017899,true,"'reading-flow' and ""display: contents""",https://github.com/whatwg/html/issues/10643,2024-09-24T00:42:59Z,2024-09-24T16:09:09Z,tabatkins,topic: focus,0
 2543972242,false,tabindex vs reading-flow property,https://github.com/whatwg/html/issues/10642,2024-09-24T00:01:25Z,2025-03-12T17:10:41Z,tabatkins,topic: focus,3
@@ -1931,7 +1932,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1323380850,false,"CORS, CORP, TAO & ""public static resource"" metadata",https://github.com/whatwg/html/issues/8143,2022-07-31T07:03:55Z,2025-06-03T22:05:48Z,noamr,security/privacy|topic: fetch,1
 1322915430,true,New html element: preview,https://github.com/whatwg/html/issues/8140,2022-07-30T06:29:07Z,2022-07-31T23:22:49Z,ghost,,0
 1321568538,false,Clarify what happens when setting rel content attribute on link element,https://github.com/whatwg/html/issues/8138,2022-07-28T22:45:38Z,2022-09-08T06:59:25Z,rniwa,topic: link,0
-1318917068,false,Which input types should readonly affect constraint validation for?,https://github.com/whatwg/html/issues/8133,2022-07-27T01:40:41Z,2026-02-12T05:35:36Z,nt1m,clarification|topic: forms,0
+1318917068,false,Which input types should readonly affect constraint validation for?,https://github.com/whatwg/html/issues/8133,2022-07-27T01:40:41Z,2026-04-03T13:34:38Z,nt1m,clarification|topic: forms,0
 1318848558,true,Request for Key Term description for 'repair techniques',https://github.com/whatwg/html/issues/8132,2022-07-26T23:26:01Z,2022-08-03T02:17:29Z,LaurenceRLewis,,0
 1317297208,true,Change type of event on('input') to InputEvent,https://github.com/whatwg/html/issues/8131,2022-07-25T19:54:18Z,2022-07-26T00:25:56Z,wbt,,0
 1317100675,true,Environment settings object in the microtask checkpoint,https://github.com/whatwg/html/issues/8130,2022-07-25T16:44:56Z,2022-07-26T08:26:40Z,dSalieri,,0
@@ -3266,7 +3267,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 489023804,true,Element.dataset vs Element.classList prototype names are confusing,https://github.com/whatwg/html/issues/4885,2019-09-04T08:44:30Z,2019-09-04T15:22:31Z,laukstein,,1
 488696702,false,img.complete behavior is wrong when a new load is started for the same image,https://github.com/whatwg/html/issues/4884,2019-09-03T16:09:41Z,2019-10-22T12:47:17Z,bzbarsky,topic: img,0
 488604580,true,"Definition of ""suffering from bad input"" is too vague.",https://github.com/whatwg/html/issues/4883,2019-09-03T13:24:38Z,2019-09-13T12:39:28Z,JimmySevere,,0
-488420032,false,datalist 'nofilter' attribute,https://github.com/whatwg/html/issues/4882,2019-09-03T06:41:53Z,2024-08-26T02:52:59Z,HarshaLaxman,addition/proposal|needs implementer interest|topic: forms,0
+488420032,false,datalist 'nofilter' attribute,https://github.com/whatwg/html/issues/4882,2019-09-03T06:41:53Z,2026-04-03T19:55:44Z,HarshaLaxman,addition/proposal|needs implementer interest|topic: forms,0
 488055983,true,DocumentOrShadowRoot link errors since #4837,https://github.com/whatwg/html/issues/4879,2019-09-02T08:06:11Z,2019-09-09T19:25:39Z,Ms2ger,,0
 487951246,true,Getter and setter of selectionStart/selectionEnd in spec are inconsistent,https://github.com/whatwg/html/issues/4877,2019-09-02T00:51:44Z,2020-03-27T15:26:49Z,normanzb,topic: forms,0
 487675842,false,Changing virtual keyboard layout dynamically by modifying the inputmode attribute,https://github.com/whatwg/html/issues/4876,2019-08-30T21:23:12Z,2020-12-22T08:07:42Z,mustaqahmed,,3
@@ -3991,7 +3992,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,true,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2026-03-31T15:28:33Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,246
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2025-05-30T22:29:59Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,247
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
