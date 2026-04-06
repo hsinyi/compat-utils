@@ -208,8 +208,8 @@ date-tolocaledatestring,other,JS,Yes,Yes,Yes
 declarative-shadow-dom,ls,DOM,Yes,Yes,Yes
 decorators,unoff,JS,No,No,No
 details,ls,HTML5,Yes,Yes,Yes
-deviceorientation,cr,JS API,Partial,No,Partial
-devicepixelratio,wd,"CSS,DOM",Yes,Yes,Yes
+deviceorientation,cr,JS API,Yes,Yes,Yes
+devicepixelratio,wd,"CSS,DOM",Yes,Partial,Yes
 dialog,ls,"DOM,HTML5",Yes,Yes,Yes
 dispatchevent,ls,DOM,Yes,Yes,Yes
 dnssec,other,Security,Partial,Partial,Partial
@@ -486,7 +486,7 @@ tls1-3,other,Security,Yes,Yes,Yes
 touch,rec,"DOM,JS API",Yes,No,Yes
 transforms2d,cr,CSS3,Yes,Yes,Yes
 transforms3d,wd,CSS3,Yes,Yes,Yes
-trusted-types,unoff,"DOM,JS API,Other,Security",No,Yes,Yes
+trusted-types,unoff,"DOM,JS API,Other,Security",Yes,Yes,Yes
 ttf,other,CSS3,Yes,Yes,Yes
 typedarrays,other,JS,Yes,Yes,Yes
 u2f,unoff,"JS API,Security",No,Yes,No
