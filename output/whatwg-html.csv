@@ -40,7 +40,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4094686346,false,Script execution triggered on child removals/mutation from children change,https://github.com/whatwg/html/issues/12279,2026-03-18T12:02:40Z,2026-03-18T13:20:46Z,shannonbooth,,0
 4091808568,true,Upcoming WHATNOT meeting on 2026-03-19,https://github.com/whatwg/html/issues/12275,2026-03-17T23:45:09Z,2026-03-26T01:45:51Z,cwilso,,0
 4090193373,false,Passing the scoped custom element registry to the fragment parser has non-obvious side effects,https://github.com/whatwg/html/issues/12274,2026-03-17T17:54:23Z,2026-03-26T16:03:20Z,noamr,topic: custom elements,0
-4088772503,false,Overscroll areas via command=toggle-overscroll,https://github.com/whatwg/html/issues/12273,2026-03-17T14:01:51Z,2026-04-07T19:41:59Z,vmpstr,addition/proposal|needs implementer interest,1
+4088772503,false,Overscroll areas via command=toggle-overscroll,https://github.com/whatwg/html/issues/12273,2026-03-17T14:01:51Z,2026-04-08T12:36:49Z,vmpstr,addition/proposal|needs implementer interest,1
 4086868250,false,<select> popover integration does not appear to be defined,https://github.com/whatwg/html/issues/12271,2026-03-17T08:03:26Z,2026-03-18T22:05:30Z,annevk,topic: popover|topic: select,0
 4083642883,true,Clarify behavior of calling attachShadow on a declarative shadowRoot,https://github.com/whatwg/html/issues/12268,2026-03-16T16:53:28Z,2026-03-17T14:26:49Z,sorvell,topic: shadow|topic: custom elements|needs tests,0
 4078444403,false,Consider marking input buttons as obsolete,https://github.com/whatwg/html/issues/12262,2026-03-15T14:04:07Z,2026-03-20T04:24:59Z,lukewarlow,removal/deprecation|document conformance|topic: forms,6
@@ -131,7 +131,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3842958150,false,Move DOMActivate event from UI Events to HTML,https://github.com/whatwg/html/issues/12101,2026-01-22T13:27:41Z,2026-02-11T12:38:59Z,zcorpan,needs tests|topic: events|integration,0
 3842523726,false,Selects interplay with popover is sometimes surprising.,https://github.com/whatwg/html/issues/12099,2026-01-22T11:34:18Z,2026-02-05T18:57:31Z,keithamus,needs tests|topic: select,1
 3839852600,true,use of oldParent in HTML element removing steps is sometimes wrong,https://github.com/whatwg/html/issues/12098,2026-01-21T20:13:07Z,2026-02-12T08:38:15Z,dbaron,,0
-3838272531,false,selectedcontent removing steps vs pagehide (and unload),https://github.com/whatwg/html/issues/12096,2026-01-21T13:25:08Z,2026-04-07T21:37:17Z,annevk,agenda+|topic: select,0
+3838272531,false,selectedcontent removing steps vs pagehide (and unload),https://github.com/whatwg/html/issues/12096,2026-01-21T13:25:08Z,2026-04-08T05:22:49Z,annevk,agenda+|topic: select,0
 3835855483,true,ElementInternals ARIA semantics are opaque to DOM-based accessibility testing tools,https://github.com/whatwg/html/issues/12095,2026-01-20T23:15:02Z,2026-01-21T18:10:01Z,benbeaudry,addition/proposal|needs implementer interest|accessibility|topic: custom elements,4
 3829678534,false,Avoid leaking documents in CustomElementRegistry's scoped document set,https://github.com/whatwg/html/issues/12092,2026-01-19T13:12:45Z,2026-01-20T01:02:46Z,Jamesernator,topic: custom elements,0
 3827339302,false,data:// URLs being considered as IsSecureContext,https://github.com/whatwg/html/issues/12091,2026-01-18T21:13:38Z,2026-01-22T17:01:02Z,shannonbooth,,0
@@ -356,7 +356,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3400048571,true,Permanent anchor request: #dom-document-cookie,https://github.com/whatwg/html/issues/11646,2025-09-09T21:36:52Z,2025-09-18T08:25:21Z,sbingler,anchor permanence,1
 3399270456,false,Question: non-obvious steps in document loading algorithms,https://github.com/whatwg/html/issues/11645,2025-09-09T17:11:18Z,2025-09-16T06:40:17Z,TimvdLippe,clarification|topic: navigation|topic: document lifecycle,0
 3397913640,true,Rendering of print media: Clarify specification’s scope,https://github.com/whatwg/html/issues/11644,2025-09-09T11:03:43Z,2025-09-25T14:23:03Z,BrianJDrake,clarification,0
-3395552388,false,[focusgroup] Declarative keyboard focus navigation for a scoped set of composite widgets,https://github.com/whatwg/html/issues/11641,2025-09-08T20:10:20Z,2026-03-31T17:57:34Z,janewman,addition/proposal|needs implementer interest|agenda+|stage: 2,10
+3395552388,false,[focusgroup] Declarative keyboard focus navigation for a scoped set of composite widgets,https://github.com/whatwg/html/issues/11641,2025-09-08T20:10:20Z,2026-03-31T17:57:34Z,janewman,addition/proposal|needs implementer interest|agenda+|stage: 2,11
 3395173912,true,How to set the fill- and/or stroke-color without large overhead? (Canvas API -- 2D Rendering Context),https://github.com/whatwg/html/issues/11639,2025-09-08T18:14:03Z,2025-09-12T10:21:59Z,0scarB,,0
 3394777681,false,Proposal: Add `preparePrint()` to land all the resources needed by print,https://github.com/whatwg/html/issues/11637,2025-09-08T15:54:18Z,2025-09-23T08:54:06Z,cathiechen,addition/proposal|needs implementer interest,0
 3387646682,true,The appVersion getter steps assume too much about default User-Agent values.,https://github.com/whatwg/html/issues/11630,2025-09-05T13:53:44Z,2025-09-10T05:17:38Z,Psychpsyo,,0
@@ -874,7 +874,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2555508180,true,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-10-30T05:36:43Z,domenic,normative change|topic: dialog|topic: popover,1
 2551969947,true,Upcoming WHATNOT meeting on 2024-10-03,https://github.com/whatwg/html/issues/10652,2024-09-27T04:30:41Z,2024-10-02T15:00:07Z,past,agenda+,0
 2551884785,false,Nested `contenteditable=true` and `contenteditable=plaintext-only` should win only the ourtermost one,https://github.com/whatwg/html/issues/10651,2024-09-27T02:53:27Z,2024-09-30T21:55:52Z,masayuki-nakano,needs tests|needs concrete proposal|topic: editing,0
-2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-04-07T18:29:57Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|agenda+|stage: 1,3
+2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-04-08T08:35:07Z,khushalsagar,addition/proposal|needs implementer interest|topic: canvas|agenda+|stage: 1,3
 2549044519,true,Resolving  of transition and finished promises is mismatched between spec and tests,https://github.com/whatwg/html/issues/10646,2024-09-25T21:39:11Z,2024-09-30T10:14:17Z,rwlbuis,topic: navigation,0
 2544017899,true,"'reading-flow' and ""display: contents""",https://github.com/whatwg/html/issues/10643,2024-09-24T00:42:59Z,2024-09-24T16:09:09Z,tabatkins,topic: focus,0
 2543972242,false,tabindex vs reading-flow property,https://github.com/whatwg/html/issues/10642,2024-09-24T00:01:25Z,2025-03-12T17:10:41Z,tabatkins,topic: focus,3
@@ -4001,7 +4001,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,true,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2026-03-31T15:28:33Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2026-04-07T18:45:27Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,250
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2026-04-08T12:48:00Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,250
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
