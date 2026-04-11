@@ -1,5 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4239048933,false,Enhancing import map handling in conjunction with a strict CSP,https://github.com/whatwg/html/issues/12354,2026-04-10T12:09:56Z,2026-04-10T12:09:56Z,jnsttl,addition/proposal|needs implementer interest,0
+4239369065,false,Calling `showPopover` during popover show causes infinite recursion,https://github.com/whatwg/html/issues/12356,2026-04-10T13:11:13Z,2026-04-10T17:38:01Z,jakearchibald,topic: popover,0
+4239268858,false,What should happen if a popover is shown during the hide of another?,https://github.com/whatwg/html/issues/12355,2026-04-10T12:52:50Z,2026-04-10T12:52:50Z,jakearchibald,topic: popover,0
+4239048933,false,Enhancing import map handling in conjunction with a strict CSP,https://github.com/whatwg/html/issues/12354,2026-04-10T12:09:56Z,2026-04-10T12:09:56Z,jnsttl,addition/proposal|needs implementer interest,1
 4233510300,false,Meeting 40 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12351,2026-04-09T16:09:29Z,2026-04-09T16:12:02Z,mfreed7,,0
 4232309288,false,Specify private/sensitive information when drawing <svg><foreignObject> to canvas,https://github.com/whatwg/html/issues/12350,2026-04-09T12:46:31Z,2026-04-10T03:17:54Z,foolip,topic: canvas|security/privacy,4
 4226463791,false,Nesting requestClose() calls inside of cancel event can leave the dialog open.,https://github.com/whatwg/html/issues/12347,2026-04-08T17:41:16Z,2026-04-08T20:18:53Z,lukewarlow,topic: dialog|topic: close watchers,0
@@ -136,7 +138,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3842958150,false,Move DOMActivate event from UI Events to HTML,https://github.com/whatwg/html/issues/12101,2026-01-22T13:27:41Z,2026-02-11T12:38:59Z,zcorpan,needs tests|topic: events|integration,0
 3842523726,false,Selects interplay with popover is sometimes surprising.,https://github.com/whatwg/html/issues/12099,2026-01-22T11:34:18Z,2026-02-05T18:57:31Z,keithamus,needs tests|topic: select,1
 3839852600,true,use of oldParent in HTML element removing steps is sometimes wrong,https://github.com/whatwg/html/issues/12098,2026-01-21T20:13:07Z,2026-02-12T08:38:15Z,dbaron,,0
-3838272531,false,selectedcontent removing steps vs pagehide (and unload),https://github.com/whatwg/html/issues/12096,2026-01-21T13:25:08Z,2026-04-09T16:07:48Z,annevk,agenda+|topic: select,0
+3838272531,false,selectedcontent removing steps vs pagehide (and unload),https://github.com/whatwg/html/issues/12096,2026-01-21T13:25:08Z,2026-04-11T00:24:16Z,annevk,agenda+|topic: select,0
 3835855483,true,ElementInternals ARIA semantics are opaque to DOM-based accessibility testing tools,https://github.com/whatwg/html/issues/12095,2026-01-20T23:15:02Z,2026-01-21T18:10:01Z,benbeaudry,addition/proposal|needs implementer interest|accessibility|topic: custom elements,4
 3829678534,false,Avoid leaking documents in CustomElementRegistry's scoped document set,https://github.com/whatwg/html/issues/12092,2026-01-19T13:12:45Z,2026-01-20T01:02:46Z,Jamesernator,topic: custom elements,0
 3827339302,false,data:// URLs being considered as IsSecureContext,https://github.com/whatwg/html/issues/12091,2026-01-18T21:13:38Z,2026-01-22T17:01:02Z,shannonbooth,,0
@@ -1722,7 +1724,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552047625,true,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-06-11T06:26:34Z,noamr,,0
 1550462824,false,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2024-10-09T15:35:15Z,callumgare,topic: media,0
 1550768319,true,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2024-02-04T07:47:15Z,mfreed7,addition/proposal|topic: shadow,1
-1550024105,false,Native support for indents and flat list structures,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2026-03-13T22:22:54Z,GermanJablo,,6
+1550024105,false,Native support for indents and flat list structures,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2026-04-10T17:19:56Z,GermanJablo,,6
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
 1537442281,false,Add support for rel=stylesheet in Link headers,https://github.com/whatwg/html/issues/8741,2023-01-18T05:55:47Z,2023-02-10T17:07:39Z,domenic,addition/proposal|needs implementer interest|topic: link|topic: style,0
@@ -3235,7 +3237,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 503606041,false,Multiple Selections from Datalist,https://github.com/whatwg/html/issues/4979,2019-10-07T18:06:20Z,2021-03-21T00:07:52Z,ecc521,addition/proposal|needs implementer interest|topic: forms,2
 503303399,false,"Remove the ""template"" use case for hidden=""""",https://github.com/whatwg/html/issues/4977,2019-10-07T08:28:24Z,2019-10-07T09:15:35Z,zcorpan,document conformance,2
 502238532,true,nullable window.top.,https://github.com/whatwg/html/issues/4971,2019-10-03T18:56:16Z,2019-10-11T17:09:23Z,jdalton,,0
-502234364,true,"Utilizing Aspect-Ratio with Art Direction (Multiple Sources with various Aspect Ratios known) ",https://github.com/whatwg/html/issues/4968,2019-10-03T18:47:14Z,2022-12-06T08:20:18Z,AndresInSpace,addition/proposal|needs implementer interest|topic: rendering|topic: img,73
+502234364,true,"Utilizing Aspect-Ratio with Art Direction (Multiple Sources with various Aspect Ratios known) ",https://github.com/whatwg/html/issues/4968,2019-10-03T18:47:14Z,2022-12-06T08:20:18Z,AndresInSpace,addition/proposal|needs implementer interest|topic: rendering|topic: img,74
 502198957,false,load event handling for iframes with no src may not be web compatible,https://github.com/whatwg/html/issues/4965,2019-10-03T17:31:29Z,2020-01-16T10:26:55Z,bzbarsky,compat|topic: frames/navigables/browsing contexts,0
 501429792,true,Use width and height as intrinsic aspect ratio for various non-img elements,https://github.com/whatwg/html/issues/4961,2019-10-02T11:24:59Z,2021-05-12T13:06:11Z,annevk,addition/proposal|topic: media|topic: rendering|topic: img|needs concrete proposal,0
 499962415,false,"Time is defined to have a fraction of a second part, but this is never used",https://github.com/whatwg/html/issues/4949,2019-09-29T19:54:43Z,2019-09-30T12:08:41Z,Zegnat,,0
@@ -5519,7 +5521,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 131328653,true,Make the spec readable on small screens,https://github.com/whatwg/html/issues/621,2016-02-04T12:16:22Z,2016-03-10T17:32:20Z,foolip,spec tooling|good first issue,0
 131274673,true,Make IDL blocks pretty,https://github.com/whatwg/html/issues/620,2016-02-04T08:09:53Z,2020-04-16T13:19:28Z,foolip,spec tooling,0
 131260891,true,Legacy bugs linked inline from the spec,https://github.com/whatwg/html/issues/619,2016-02-04T06:49:10Z,2018-12-13T02:28:54Z,foolip,spec tooling,0
-131154584,false,A setTimeout that returns a promise that resolves after specified time.,https://github.com/whatwg/html/issues/617,2016-02-03T21:09:46Z,2024-07-01T18:46:38Z,jisaacks,addition/proposal|needs implementer interest,15
+131154584,false,A setTimeout that returns a promise that resolves after specified time.,https://github.com/whatwg/html/issues/617,2016-02-03T21:09:46Z,2026-04-10T16:54:43Z,jisaacks,addition/proposal|needs implementer interest,16
 131058546,true,Spellchecking default descriptions are misleading,https://github.com/whatwg/html/issues/615,2016-02-03T15:30:38Z,2016-02-08T16:19:38Z,domenic,clarification|good first issue,0
 131007337,true,Handling of 301 redirects within script type module,https://github.com/whatwg/html/issues/613,2016-02-03T12:18:00Z,2017-09-01T22:03:50Z,guybedford,topic: script,0
 130789071,true,"""ASCII serialisation of an origin"" and ""domain to ASCII""",https://github.com/whatwg/html/issues/611,2016-02-02T19:25:30Z,2016-03-22T19:13:33Z,SimonSapin,,0
