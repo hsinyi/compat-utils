@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4248108275,false,Editorial: Align fragment parsing algorithms with their parameter types,https://github.com/whatwg/html/pull/12361,2026-04-12T13:05:34Z,2026-04-12T13:06:52Z,shannonbooth,,0
+4252902183,false,Fix 404 Error on image - prepend '/' to img URL,https://github.com/whatwg/html/pull/12365,2026-04-13T08:56:07Z,2026-04-13T08:57:30Z,tenzap,,0
+4248108275,false,Editorial: Align fragment parsing algorithms with their parameter types,https://github.com/whatwg/html/pull/12361,2026-04-12T13:05:34Z,2026-04-13T12:07:37Z,shannonbooth,,0
 4248082785,false,Set iframe sandbox flags before child navigable creation,https://github.com/whatwg/html/pull/12360,2026-04-12T12:59:16Z,2026-04-12T22:22:42Z,shannonbooth,,0
 4236882245,false,Pass document's settings object when processing a manifest,https://github.com/whatwg/html/pull/12353,2026-04-10T05:43:11Z,2026-04-10T06:02:04Z,marcoscaceres,,0
 4236268427,true,Add GitHub Actions workflow for Node.js with Webpack,https://github.com/whatwg/html/pull/12352,2026-04-10T03:10:21Z,2026-04-10T07:07:21Z,Nikfuad,invalid,0
@@ -27,7 +28,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4092538084,true,Create index.htm,https://github.com/whatwg/html/pull/12277,2026-03-18T03:56:21Z,2026-03-18T04:51:19Z,maqm41951-eng,invalid,0
 4092425654,true,Create index.htm,https://github.com/whatwg/html/pull/12276,2026-03-18T03:13:19Z,2026-03-18T04:50:49Z,maqm41951-eng,invalid,0
 4088391283,false,Add EventSource.fromReadableStream(),https://github.com/whatwg/html/pull/12272,2026-03-17T12:57:47Z,2026-03-22T23:23:02Z,lachlanhunt,,1
-4083478419,false,Add shadowrootslotassignment attribute,https://github.com/whatwg/html/pull/12267,2026-03-16T16:20:03Z,2026-04-12T12:37:50Z,keithamus,topic: custom elements,0
+4083478419,false,Add shadowrootslotassignment attribute,https://github.com/whatwg/html/pull/12267,2026-03-16T16:20:03Z,2026-04-13T10:34:49Z,keithamus,topic: custom elements,0
 4081539025,true,Set the fragment scripting mode based on the context document,https://github.com/whatwg/html/pull/12266,2026-03-16T10:14:40Z,2026-04-07T12:23:23Z,noamr,,0
 4080722654,true,Meta: correct link to CONTRIBUTING.md in README,https://github.com/whatwg/html/pull/12265,2026-03-16T07:25:30Z,2026-03-16T07:32:17Z,annevk,,0
 4079849363,false,Clone into all descendant selectedcontent elements,https://github.com/whatwg/html/pull/12263,2026-03-16T02:23:25Z,2026-04-11T00:24:54Z,josepharhar,,0
@@ -69,7 +70,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3912962747,true,Editorial: Fix some markup + wording,https://github.com/whatwg/html/pull/12143,2026-02-08T15:39:46Z,2026-02-09T21:49:27Z,jmdyck,,0
 3891566683,true,"Editorial: modernize/consistify string and ""current token"" style",https://github.com/whatwg/html/pull/12128,2026-02-03T14:31:03Z,2026-02-08T08:50:38Z,foolip,,0
 3889549162,false,Editorial: Clarify return value of Storage property accessor,https://github.com/whatwg/html/pull/12127,2026-02-03T06:56:21Z,2026-04-01T07:15:00Z,shannonbooth,,0
-3885015798,false,Pass the correct iframe fallback URL to resource timing,https://github.com/whatwg/html/pull/12124,2026-02-02T09:56:50Z,2026-03-12T10:28:33Z,noamr,,0
+3885015798,false,Pass the correct iframe fallback URL to resource timing,https://github.com/whatwg/html/pull/12124,2026-02-02T09:56:50Z,2026-04-13T12:02:10Z,noamr,,0
 3877956159,false,Parse XML-style <?target data?> processing instructions,https://github.com/whatwg/html/pull/12118,2026-01-31T00:22:11Z,2026-03-18T12:48:29Z,foolip,,4
 3866756722,true,Editorial: Use the correct Module Record in HostLoadImportedModule,https://github.com/whatwg/html/pull/12114,2026-01-28T18:23:25Z,2026-01-29T12:05:08Z,nicolo-ribaudo,,2
 3847284352,true,Replace drafts.fxtf.org links with drafts.csswg.org,https://github.com/whatwg/html/pull/12105,2026-01-23T12:38:28Z,2026-01-23T12:57:48Z,nicolo-ribaudo,,0
@@ -239,7 +240,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3356225711,false,"[FYI, not ready for review] Add globalHDRHeadroom to CanvasCompositing interface",https://github.com/whatwg/html/pull/11597,2025-08-26T15:51:38Z,2025-10-01T08:29:20Z,ccameron-chromium,,0
 3344286687,true,chore(css): normalize prefers-color-scheme spacing in styles.css,https://github.com/whatwg/html/pull/11591,2025-08-22T06:18:20Z,2025-08-22T06:32:55Z,ArjunSaluja,invalid,0
 3342044580,true,use integer over anb syntax for heading,https://github.com/whatwg/html/pull/11589,2025-08-21T14:47:23Z,2025-08-27T12:55:08Z,keithamus,,0
-3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-04-10T14:48:11Z,foolip,,2
+3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-04-13T11:17:38Z,foolip,,3
 3337110965,true,[meta] Add dfn type and scope for HTMLMediaElement.src,https://github.com/whatwg/html/pull/11581,2025-08-20T08:32:57Z,2025-08-21T00:28:09Z,dontcallmedom,,1
 3336967031,true,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation,0
 3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
@@ -670,7 +671,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2285595319,true,Get the base URL from the script rather than Module/Script Record,https://github.com/whatwg/html/pull/10332,2024-05-08T13:23:54Z,2024-05-09T07:26:00Z,nicolo-ribaudo,topic: script,0
 2283831934,true,Add hooks to inform WebDriver BiDi when a navigable is created or destroyed,https://github.com/whatwg/html/pull/10329,2024-05-07T16:59:24Z,2024-06-06T20:34:37Z,OrKoN,,0
 2283092815,true,Update Trusted Types enforcement for document.write/writeln,https://github.com/whatwg/html/pull/10328,2024-05-07T12:05:37Z,2024-05-28T22:04:40Z,lukewarlow,,0
-2283078060,false,Don't cache HTTP errors in the module map,https://github.com/whatwg/html/pull/10327,2024-05-07T11:58:07Z,2024-06-03T15:03:51Z,lucacasonato,,7
+2283078060,false,Don't cache HTTP errors in the module map,https://github.com/whatwg/html/pull/10327,2024-05-07T11:58:07Z,2026-04-13T07:51:13Z,lucacasonato,needs tests|needs implementation bugs,7
 2277390865,true,"Editorial: use comma in ""Otherwise, if ...""",https://github.com/whatwg/html/pull/10319,2024-05-03T10:31:01Z,2024-05-03T12:26:52Z,foolip,,0
 2270683747,true,Editorial: export history handling behavior,https://github.com/whatwg/html/pull/10308,2024-04-30T07:13:40Z,2024-05-09T02:42:31Z,yoshisatoyanagisawa,,0
 2268312798,true,Editorial: group area's shape with other IDL attributes,https://github.com/whatwg/html/pull/10305,2024-04-29T07:23:37Z,2024-05-02T09:36:50Z,annevk,,1
@@ -1892,7 +1893,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 786265314,true,"Editorial: Stop using ""the"" when referring to the link element element variable",https://github.com/whatwg/html/pull/6289,2021-01-14T19:42:11Z,2021-01-14T20:31:39Z,domfarolino,editorial,0
 785410324,true,Add a final newline normalization for form payloads,https://github.com/whatwg/html/pull/6287,2021-01-13T20:14:50Z,2021-05-20T12:17:38Z,andreubotella,,0
 785107778,true,Meta: default branch rename,https://github.com/whatwg/html/pull/6285,2021-01-13T13:32:36Z,2021-01-15T08:39:51Z,annevk,,0
-785081823,false,Temporal proposal HTML serialization support,https://github.com/whatwg/html/pull/6284,2021-01-13T12:56:15Z,2026-03-27T17:20:06Z,littledan,addition/proposal|i18n-tracker|topic: serialize and transfer,9
+785081823,false,Temporal proposal HTML serialization support,https://github.com/whatwg/html/pull/6284,2021-01-13T12:56:15Z,2026-04-13T12:32:46Z,littledan,addition/proposal|i18n-tracker|topic: serialize and transfer,9
 784125935,true,Obsolete <object usemap>,https://github.com/whatwg/html/pull/6283,2021-01-12T10:50:41Z,2021-03-03T15:55:25Z,annevk,removal/deprecation|topic: embed and object|impacts documentation,0
 784103377,true,Specify escaping in the multipart/form-data encoding algorithm,https://github.com/whatwg/html/pull/6282,2021-01-12T10:19:55Z,2024-05-27T04:57:17Z,andreubotella,topic: forms,0
 784068149,true,Remove the object element from submittable elements,https://github.com/whatwg/html/pull/6281,2021-01-12T09:33:13Z,2021-01-14T06:36:00Z,annevk,removal/deprecation|topic: forms|topic: embed and object|impacts documentation,0

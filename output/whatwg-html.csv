@@ -1,5 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4249739814,false,Navigation API: Intercepted history traverse can not be implemented (safely),https://github.com/whatwg/html/issues/12362,2026-04-12T19:53:46Z,2026-04-12T19:53:46Z,theIDinside,,0
+4251887571,false,Licensing issue: Replace non-DFSG pictures by DFSG compliant ones,https://github.com/whatwg/html/issues/12364,2026-04-13T06:31:44Z,2026-04-13T08:13:01Z,tenzap,editorial,0
+4251221793,false,Clarify `EventSource` behavior for documents entering and restoring from BFCache,https://github.com/whatwg/html/issues/12363,2026-04-13T04:16:43Z,2026-04-13T04:23:18Z,zp1996,,0
+4249739814,false,Navigation API: Intercepted history traverse can not be implemented (safely),https://github.com/whatwg/html/issues/12362,2026-04-12T19:53:46Z,2026-04-13T08:36:33Z,theIDinside,,0
 4245435778,false,HTML Fragment Parser sets parsing mode to invalid flag,https://github.com/whatwg/html/issues/12359,2026-04-11T18:08:40Z,2026-04-12T13:08:38Z,shannonbooth,,0
 4239369065,false,Calling `showPopover` during popover show causes infinite recursion,https://github.com/whatwg/html/issues/12356,2026-04-10T13:11:13Z,2026-04-11T08:43:22Z,jakearchibald,topic: popover,0
 4239268858,false,What should happen if a popover is shown during the hide of another?,https://github.com/whatwg/html/issues/12355,2026-04-10T12:52:50Z,2026-04-12T07:01:25Z,jakearchibald,topic: popover,0
@@ -535,8 +537,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3053380943,true,Can we include what header(s) get sent with link type prefetch?,https://github.com/whatwg/html/issues/11294,2025-05-09T23:25:16Z,2025-05-12T20:01:21Z,srwei,,0
 3050537262,true,"""rules for choosing a navigable"" allows named targeting with noopener",https://github.com/whatwg/html/issues/11291,2025-05-09T02:14:24Z,2025-05-09T13:55:33Z,domenic,topic: frames/navigables/browsing contexts,0
 3049580456,true,Upcoming WHATNOT meeting on 2025-05-15,https://github.com/whatwg/html/issues/11290,2025-05-08T16:53:08Z,2025-12-04T21:35:20Z,past,,0
-3043719418,false,Filterable `<select>` via `<input>` (native combobox & more),https://github.com/whatwg/html/issues/11288,2025-05-06T18:51:04Z,2025-07-15T18:08:24Z,brandonmcconnell,addition/proposal|needs implementer interest,10
-3043680396,false,"Spec text for naturalWidth and naturalHeight behavior isn't web-compatible, for cases where attributes are missing",https://github.com/whatwg/html/issues/11287,2025-05-06T18:33:58Z,2025-05-30T21:01:01Z,dholbert,topic: img|interop,1
+3043719418,false,Filterable `<select>` via `<input>` (native combobox & more),https://github.com/whatwg/html/issues/11288,2025-05-06T18:51:04Z,2025-07-15T18:08:24Z,brandonmcconnell,addition/proposal|needs implementer interest,11
+3043680396,false,"Spec text for naturalWidth and naturalHeight behavior isn't web-compatible, for cases where attributes are missing",https://github.com/whatwg/html/issues/11287,2025-05-06T18:33:58Z,2026-04-13T09:41:05Z,dholbert,topic: img|interop,1
 3043061501,false,Expanding the concept of internal resource links,https://github.com/whatwg/html/issues/11286,2025-05-06T14:34:00Z,2025-05-29T22:28:15Z,noamr,topic: link,1
 3040860886,true,"In `blob/88c7d93d0f87e19beadead68f8d2eb28c503a8a8/source#L56`, `<h1 class=""allcaps"">HTML</h1>` should be `<h1 class=""allcaps""><abbr>HTML</abbr></h1>`.",https://github.com/whatwg/html/issues/11285,2025-05-05T21:21:46Z,2025-05-07T11:41:40Z,RokeJulianLockhart,,0
 3037387887,true,Rules for choosing a navigable use a non-existent `targetNavigable` variable,https://github.com/whatwg/html/issues/11282,2025-05-03T12:40:56Z,2025-05-06T14:00:12Z,AtkinsSJ,,0
@@ -1124,7 +1126,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2226878723,true,A way to detect environment such as Workers,https://github.com/whatwg/html/issues/10253,2024-04-05T03:02:32Z,2024-04-05T13:51:36Z,msqr1,addition/proposal|needs implementer interest,0
 2226777317,false,"navigable's ""is delaying load events"" is not reset when navigation aborted",https://github.com/whatwg/html/issues/10252,2024-04-05T01:12:57Z,2024-04-05T01:12:57Z,kalenikaliaksandr,topic: navigation,0
 2226775052,false,Improve handling of malformed unicode bidi control characters,https://github.com/whatwg/html/issues/10251,2024-04-05T01:09:37Z,2025-09-14T17:24:11Z,jamiebuilds,i18n-tracker|i18n-alreq|i18n-hlreq,0
-2225030455,false,Standardize marquee UA styles.,https://github.com/whatwg/html/issues/10249,2024-04-04T09:56:50Z,2025-01-03T15:18:46Z,emilio,topic: rendering,0
+2225030455,false,Standardize marquee UA styles.,https://github.com/whatwg/html/issues/10249,2024-04-04T09:56:50Z,2026-04-13T03:10:10Z,emilio,topic: rendering,0
 2224550963,true,ImageDataSettings should probably be called ImageDataOptions,https://github.com/whatwg/html/issues/10248,2024-04-04T05:46:30Z,2024-04-04T06:49:59Z,adroitwhiz,,0
 2222135930,false,Consider upgrading ARIA reflection from FrozenArray<> to ObservableArray<>,https://github.com/whatwg/html/issues/10246,2024-04-03T07:33:49Z,2024-04-03T13:12:46Z,domenic,topic: reflect,0
 2221771322,false,Elegant and easy solution for making responsive menus that can shift between traditional desktop and mobile hamburger menus,https://github.com/whatwg/html/issues/10245,2024-04-03T02:39:20Z,2024-04-09T00:08:21Z,M-Valentino,addition/proposal|needs implementer interest,1
