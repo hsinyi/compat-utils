@@ -1,12 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4268840174,false,Expose cancellable event or API to disable browser swipe navigation (horizontal/vertical gestures),https://github.com/whatwg/html/issues/12374,2026-04-15T12:17:29Z,2026-04-15T12:17:29Z,cullsin,,0
 4263504465,false,Upcoming WHATNOT meeting on 2026-04-16,https://github.com/whatwg/html/issues/12370,2026-04-14T16:39:13Z,2026-04-14T16:39:13Z,cwilso,agenda+,0
 4256537093,false,Should <selectedcontent> match :disabled?,https://github.com/whatwg/html/issues/12367,2026-04-13T16:55:09Z,2026-04-14T11:53:05Z,emilio,clarification|topic: select,0
 4251887571,false,Licensing issue: Replace non-DFSG pictures by DFSG compliant ones,https://github.com/whatwg/html/issues/12364,2026-04-13T06:31:44Z,2026-04-13T08:13:01Z,tenzap,editorial,0
-4251221793,false,Clarify `EventSource` behavior for documents entering and restoring from BFCache,https://github.com/whatwg/html/issues/12363,2026-04-13T04:16:43Z,2026-04-13T04:23:18Z,zp1996,,0
+4251221793,false,Clarify `EventSource` behavior for documents entering and restoring from BFCache,https://github.com/whatwg/html/issues/12363,2026-04-13T04:16:43Z,2026-04-15T10:29:06Z,zp1996,,1
 4249739814,false,Navigation API: Intercepted history traverse can not be implemented (safely),https://github.com/whatwg/html/issues/12362,2026-04-12T19:53:46Z,2026-04-14T09:40:38Z,theIDinside,,0
 4245435778,true,HTML Fragment Parser sets parsing mode to invalid flag,https://github.com/whatwg/html/issues/12359,2026-04-11T18:08:40Z,2026-04-13T15:02:26Z,shannonbooth,,0
 4239369065,false,Calling `showPopover` during popover show causes infinite recursion,https://github.com/whatwg/html/issues/12356,2026-04-10T13:11:13Z,2026-04-11T08:43:22Z,jakearchibald,topic: popover,0
-4239268858,false,What should happen if a popover is shown during the hide of another?,https://github.com/whatwg/html/issues/12355,2026-04-10T12:52:50Z,2026-04-14T19:14:40Z,jakearchibald,topic: popover,0
+4239268858,false,What should happen if a popover is shown during the hide of another?,https://github.com/whatwg/html/issues/12355,2026-04-10T12:52:50Z,2026-04-15T08:12:08Z,jakearchibald,topic: popover,0
 4239048933,false,Enhancing import map handling in conjunction with a strict CSP,https://github.com/whatwg/html/issues/12354,2026-04-10T12:09:56Z,2026-04-10T12:09:56Z,jnsttl,addition/proposal|needs implementer interest,1
 4233510300,false,Meeting 40 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12351,2026-04-09T16:09:29Z,2026-04-13T17:55:46Z,mfreed7,,0
 4232309288,false,Specify private/sensitive information when drawing <svg><foreignObject> to canvas,https://github.com/whatwg/html/issues/12350,2026-04-09T12:46:31Z,2026-04-10T03:17:54Z,foolip,topic: canvas|security/privacy,4
@@ -129,7 +130,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3888559108,false,"Editorial anomaly re ""blocked by a modal dialog""",https://github.com/whatwg/html/issues/12125,2026-02-03T02:02:53Z,2026-02-03T02:02:53Z,jmdyck,,0
 3882911532,true,Storage object and its support for indexed properties,https://github.com/whatwg/html/issues/12123,2026-02-01T20:48:40Z,2026-02-16T12:57:01Z,shannonbooth,,0
 3881827060,false,url is not defined in iframe load event steps,https://github.com/whatwg/html/issues/12122,2026-02-01T11:09:49Z,2026-02-01T18:23:21Z,jdm,topic: timing,0
-3880034971,false,Should appearance: base select button have both `all: unset` and `display: contents` ?,https://github.com/whatwg/html/issues/12121,2026-01-31T20:35:26Z,2026-04-14T22:30:41Z,nt1m,topic: rendering|topic: select,1
+3880034971,false,Should appearance: base select button have both `all: unset` and `display: contents` ?,https://github.com/whatwg/html/issues/12121,2026-01-31T20:35:26Z,2026-04-15T06:17:40Z,nt1m,topic: rendering|topic: select,1
 3879465854,false,Browsers only cancel pending js url navigations in form submission,https://github.com/whatwg/html/issues/12120,2026-01-31T15:57:50Z,2026-03-25T10:33:36Z,shannonbooth,topic: navigation|topic: javascript: URLs,1
 3879418981,false,Links (`<a>` & `<link>`) targetting at different version of the current document,https://github.com/whatwg/html/issues/12119,2026-01-31T15:25:48Z,2026-01-31T15:26:12Z,tats-u,addition/proposal|needs implementer interest,0
 3874412357,false,Coordinates of keyboard-driven click events,https://github.com/whatwg/html/issues/12117,2026-01-30T07:27:19Z,2026-02-12T17:21:28Z,annevk,accessibility|needs tests|topic: events|topic: user activation|a11y-tracker,0
@@ -355,7 +356,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3448317187,true,"""expected native appearance"" is confusing given the definition of ""expected""",https://github.com/whatwg/html/issues/11689,2025-09-24T08:26:26Z,2025-09-25T14:23:03Z,zcorpan,clarification|topic: rendering,0
 3445916090,false,Browsers don't agree with the incumbent settings handling for Promise reactions,https://github.com/whatwg/html/issues/11686,2025-09-23T16:17:54Z,2025-09-24T04:07:24Z,arai-a,normative change|topic: multiple globals,0
 3431044728,true,Meeting 29 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11670,2025-09-18T16:07:45Z,2025-10-02T16:38:32Z,mfreed7,,0
-3426719783,false,Coherent story for HTML-setting methods,https://github.com/whatwg/html/issues/11669,2025-09-17T15:08:01Z,2026-04-09T09:27:17Z,noamr,topic: parser,0
+3426719783,false,Coherent story for HTML-setting methods,https://github.com/whatwg/html/issues/11669,2025-09-17T15:08:01Z,2026-04-15T10:01:18Z,noamr,topic: parser|agenda+,0
 3421532251,false,"Allow out-of-band text tracks to source kind, label, language from the text track format",https://github.com/whatwg/html/issues/11665,2025-09-16T10:17:26Z,2025-09-16T10:17:55Z,zcorpan,addition/proposal|topic: media,2
 3419489827,true,Upcoming WHATNOT meeting on 2025-09-18,https://github.com/whatwg/html/issues/11664,2025-09-15T20:56:20Z,2025-09-24T20:04:09Z,cwilso,,0
 3419256239,true,Closing Tag Option,https://github.com/whatwg/html/issues/11663,2025-09-15T19:39:38Z,2025-09-16T06:05:14Z,iwelch,addition/proposal|needs implementer interest,0
@@ -540,7 +541,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3050537262,true,"""rules for choosing a navigable"" allows named targeting with noopener",https://github.com/whatwg/html/issues/11291,2025-05-09T02:14:24Z,2025-05-09T13:55:33Z,domenic,topic: frames/navigables/browsing contexts,0
 3049580456,true,Upcoming WHATNOT meeting on 2025-05-15,https://github.com/whatwg/html/issues/11290,2025-05-08T16:53:08Z,2025-12-04T21:35:20Z,past,,0
 3043719418,false,Filterable `<select>` via `<input>` (native combobox & more),https://github.com/whatwg/html/issues/11288,2025-05-06T18:51:04Z,2025-07-15T18:08:24Z,brandonmcconnell,addition/proposal|needs implementer interest,11
-3043680396,false,"Spec text for naturalWidth and naturalHeight behavior isn't web-compatible, for cases where attributes are missing",https://github.com/whatwg/html/issues/11287,2025-05-06T18:33:58Z,2026-04-14T21:24:09Z,dholbert,topic: img|interop|agenda+,1
+3043680396,false,"Spec text for naturalWidth and naturalHeight behavior isn't web-compatible, for cases where attributes are missing",https://github.com/whatwg/html/issues/11287,2025-05-06T18:33:58Z,2026-04-15T06:50:29Z,dholbert,topic: img|interop|agenda+,1
 3043061501,false,Expanding the concept of internal resource links,https://github.com/whatwg/html/issues/11286,2025-05-06T14:34:00Z,2025-05-29T22:28:15Z,noamr,topic: link,1
 3040860886,true,"In `blob/88c7d93d0f87e19beadead68f8d2eb28c503a8a8/source#L56`, `<h1 class=""allcaps"">HTML</h1>` should be `<h1 class=""allcaps""><abbr>HTML</abbr></h1>`.",https://github.com/whatwg/html/issues/11285,2025-05-05T21:21:46Z,2025-05-07T11:41:40Z,RokeJulianLockhart,,0
 3037387887,true,Rules for choosing a navigable use a non-existent `targetNavigable` variable,https://github.com/whatwg/html/issues/11282,2025-05-03T12:40:56Z,2025-05-06T14:00:12Z,AtkinsSJ,,0
