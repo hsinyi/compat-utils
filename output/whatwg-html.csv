@@ -5,14 +5,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4278754667,false,Drag-andDrop setDragImage offset ambiguities,https://github.com/whatwg/html/issues/12384,2026-04-16T21:59:50Z,2026-04-16T21:59:50Z,jabcreations,,0
 4278453504,false,Upcoming WHATNOT meeting on 2026-04-23,https://github.com/whatwg/html/issues/12383,2026-04-16T20:49:13Z,2026-04-16T20:49:13Z,cwilso,agenda+,0
 4276948774,false,Meeting 41 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12380,2026-04-16T16:02:20Z,2026-04-16T16:03:05Z,mfreed7,,0
-4274113296,false,"`setSelectionRange` for `input type=""email""`",https://github.com/whatwg/html/issues/12379,2026-04-16T08:02:37Z,2026-04-17T06:28:54Z,waterplea,,0
+4274113296,true,"`setSelectionRange` for `input type=""email""`",https://github.com/whatwg/html/issues/12379,2026-04-16T08:02:37Z,2026-04-19T06:47:42Z,waterplea,,0
 4273330077,false,cachehint attribute of <script> for inline script caching,https://github.com/whatwg/html/issues/12378,2026-04-16T04:53:34Z,2026-04-16T04:56:35Z,azaika,topic: script,0
-4271545707,false,<img controls> guidance for declaration of alt,https://github.com/whatwg/html/issues/12377,2026-04-15T20:36:59Z,2026-04-17T05:13:03Z,scottaohara,document conformance|accessibility|topic: img,7
+4271545707,true,<img controls> guidance for declaration of alt,https://github.com/whatwg/html/issues/12377,2026-04-15T20:36:59Z,2026-04-19T12:33:33Z,scottaohara,document conformance|accessibility|topic: img,7
 4268840174,false,Expose cancellable event or API to disable browser swipe navigation (horizontal/vertical gestures),https://github.com/whatwg/html/issues/12374,2026-04-15T12:17:29Z,2026-04-15T12:17:29Z,cullsin,,0
 4263504465,true,Upcoming WHATNOT meeting on 2026-04-16,https://github.com/whatwg/html/issues/12370,2026-04-14T16:39:13Z,2026-04-16T20:46:57Z,cwilso,,0
 4256537093,false,Should <selectedcontent> match :disabled?,https://github.com/whatwg/html/issues/12367,2026-04-13T16:55:09Z,2026-04-14T11:53:05Z,emilio,clarification|topic: select,0
 4251887571,false,Licensing issue: Replace non-DFSG pictures by DFSG compliant ones,https://github.com/whatwg/html/issues/12364,2026-04-13T06:31:44Z,2026-04-13T08:13:01Z,tenzap,editorial,0
-4251221793,false,Clarify `EventSource` behavior for documents entering and restoring from BFCache,https://github.com/whatwg/html/issues/12363,2026-04-13T04:16:43Z,2026-04-15T10:29:06Z,zp1996,,1
+4251221793,false,Clarify `EventSource` behavior for documents entering and restoring from BFCache,https://github.com/whatwg/html/issues/12363,2026-04-13T04:16:43Z,2026-04-19T06:43:33Z,zp1996,,1
 4249739814,false,Navigation API: Intercepted history traverse can not be implemented (safely),https://github.com/whatwg/html/issues/12362,2026-04-12T19:53:46Z,2026-04-14T09:40:38Z,theIDinside,,0
 4245435778,true,HTML Fragment Parser sets parsing mode to invalid flag,https://github.com/whatwg/html/issues/12359,2026-04-11T18:08:40Z,2026-04-13T15:02:26Z,shannonbooth,,0
 4239369065,false,Calling `showPopover` during popover show causes infinite recursion,https://github.com/whatwg/html/issues/12356,2026-04-10T13:11:13Z,2026-04-11T08:43:22Z,jakearchibald,topic: popover,0
@@ -88,7 +88,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4023814293,false,The selectedcontent element can't be used outside of the select element,https://github.com/whatwg/html/issues/12227,2026-03-04T19:49:32Z,2026-03-06T10:14:51Z,josepharhar,addition/proposal|needs implementer interest|topic: select,1
 4022866339,false,Window.customElements shouldn't change when initial about:blank is replaced with a loaded page?,https://github.com/whatwg/html/issues/12226,2026-03-04T16:20:56Z,2026-03-10T15:50:54Z,smaug----,topic: custom elements,0
 4020686537,false,Intercepted navigate events can call handlers on aborted navigate events,https://github.com/whatwg/html/issues/12225,2026-03-04T08:11:14Z,2026-03-04T08:12:44Z,farre,topic: navigation,0
-4018383661,false,[forms] Should we reconsider <input type=email>'s selection API support?,https://github.com/whatwg/html/issues/12224,2026-03-03T19:42:20Z,2026-03-19T09:54:25Z,emilio,topic: forms,0
+4018383661,false,[forms] Should we reconsider <input type=email>'s selection API support?,https://github.com/whatwg/html/issues/12224,2026-03-03T19:42:20Z,2026-04-19T10:51:27Z,emilio,topic: forms,0
 4012017339,true,#commit-a-navigate-event needs to defer calling intercept handlers.,https://github.com/whatwg/html/issues/12222,2026-03-02T16:03:17Z,2026-03-20T15:46:37Z,farre,topic: navigation,1
 4011945208,false,"Proposal: for a native <type-writer> element for declarative, accessible text animation.",https://github.com/whatwg/html/issues/12221,2026-03-02T15:47:06Z,2026-03-17T07:10:47Z,anafibnshahibul,addition/proposal|needs implementer interest,0
 4009527218,true,"Proposal for a native <type-writer> element for declarative, accessible text animation.",https://github.com/whatwg/html/issues/12220,2026-03-02T06:22:39Z,2026-03-02T15:49:07Z,anafibnshahibul,,0
@@ -149,7 +149,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3851339062,true,Business impact of removing XSLT from the HTML Standard,https://github.com/whatwg/html/issues/12107,2026-01-24T14:33:35Z,2026-03-05T23:19:31Z,jjwhitmore,,2
 3847300996,true,select base appearance shadow tree issues,https://github.com/whatwg/html/issues/12106,2026-01-23T12:43:33Z,2026-02-13T19:19:24Z,annevk,topic: select,0
 3843852715,true,Meeting 35 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12104,2026-01-22T17:03:39Z,2026-02-05T16:35:05Z,mfreed7,,0
-3843592292,true,Re: Issue #11523 Removal of XSLT from the web platform,https://github.com/whatwg/html/issues/12103,2026-01-22T15:59:59Z,2026-04-02T14:07:52Z,jjwhitmore,,2
+3843592292,true,Re: Issue #11523 Removal of XSLT from the web platform,https://github.com/whatwg/html/issues/12103,2026-01-22T15:59:59Z,2026-04-02T14:07:52Z,jjwhitmore,,3
 3843327465,true,The spec for the `align` attribute on img (and maybe others?) is incomplete,https://github.com/whatwg/html/issues/12102,2026-01-22T14:57:03Z,2026-01-22T15:24:17Z,Psychpsyo,topic: rendering,0
 3842958150,false,Move DOMActivate event from UI Events to HTML,https://github.com/whatwg/html/issues/12101,2026-01-22T13:27:41Z,2026-02-11T12:38:59Z,zcorpan,needs tests|topic: events|integration,0
 3842523726,false,Selects interplay with popover is sometimes surprising.,https://github.com/whatwg/html/issues/12099,2026-01-22T11:34:18Z,2026-02-05T18:57:31Z,keithamus,needs tests|topic: select,1
@@ -4024,7 +4024,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,true,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2026-03-31T15:28:33Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2026-04-13T17:41:36Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,252
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2026-04-13T17:41:36Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,254
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0
