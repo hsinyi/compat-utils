@@ -2,7 +2,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4290723126,false,Process all pending lazy loading intersection observations,https://github.com/whatwg/html/pull/12391,2026-04-19T11:43:15Z,2026-04-19T12:03:20Z,shannonbooth,,0
 4284044415,false,Make the muted content attribute a fallback,https://github.com/whatwg/html/pull/12389,2026-04-17T16:39:28Z,2026-04-17T16:54:59Z,annevk,topic: media,0
 4279303283,true,Add img controls/alt conformance criteria,https://github.com/whatwg/html/pull/12385,2026-04-17T00:22:29Z,2026-04-19T12:33:32Z,yoelhawa,,1
-4277505367,false,Make naturalWidth & naturalHeight return non-0 when the image lacks a dimension,https://github.com/whatwg/html/pull/12382,2026-04-16T17:39:52Z,2026-04-17T06:10:20Z,annevk,normative change|topic: img,0
+4277505367,false,Make naturalWidth & naturalHeight return non-0 when the image lacks a dimension,https://github.com/whatwg/html/pull/12382,2026-04-16T17:39:52Z,2026-04-20T22:18:12Z,annevk,normative change|topic: img,0
 4277324532,false,Clarify EventSource behavior with the back/forward cache,https://github.com/whatwg/html/pull/12381,2026-04-16T17:07:12Z,2026-04-19T06:42:31Z,zp1996,,0
 4271339822,true,Add SpellCheckCustomDictionary API (window.spellCheckDictionary),https://github.com/whatwg/html/pull/12376,2026-04-15T19:55:08Z,2026-04-15T19:56:29Z,bkardell,,0
 4270764921,false,Update issue templates,https://github.com/whatwg/html/pull/12375,2026-04-15T18:05:28Z,2026-04-17T07:37:55Z,cwilso,,0
@@ -19,7 +19,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4236268427,true,Add GitHub Actions workflow for Node.js with Webpack,https://github.com/whatwg/html/pull/12352,2026-04-10T03:10:21Z,2026-04-10T07:07:21Z,Nikfuad,invalid,0
 4231456685,false,Add WebSocket context cleanup steps to support BFCache,https://github.com/whatwg/html/pull/12349,2026-04-09T10:32:09Z,2026-04-13T15:21:07Z,llannasatoll,,0
 4227454878,false,allow structuredClone to clone proxies,https://github.com/whatwg/html/pull/12348,2026-04-08T20:33:27Z,2026-04-08T20:36:39Z,bakkot,,0
-4224993947,false,Simplify popover=hint behaviours & related spec fixes,https://github.com/whatwg/html/pull/12345,2026-04-08T13:45:02Z,2026-04-18T03:47:27Z,jakearchibald,,0
+4224993947,false,Simplify popover=hint behaviours & related spec fixes,https://github.com/whatwg/html/pull/12345,2026-04-08T13:45:02Z,2026-04-20T18:32:21Z,jakearchibald,,0
 4221827990,false,Editorial: Re-word the 4th bullet in `eligible for autoplay`,https://github.com/whatwg/html/pull/12344,2026-04-08T03:14:59Z,2026-04-08T03:16:17Z,jmdyck,,0
 4213516682,false,shadowrootadoptedstylesheets on <template>,https://github.com/whatwg/html/pull/12339,2026-04-06T19:00:19Z,2026-04-16T19:31:46Z,KurtCattiSchmidt,agenda+,0
 4211550583,false,Editorial: queue media element task on DOM manipulation task source e…,https://github.com/whatwg/html/pull/12336,2026-04-06T12:13:26Z,2026-04-06T12:14:46Z,shihab-work,,0
@@ -57,7 +57,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4008340208,false,Expand disabled form control event handling spec text,https://github.com/whatwg/html/pull/12219,2026-03-01T21:41:58Z,2026-03-19T05:40:28Z,hjanuschka,,0
 4000861951,true,Restore the minus sign before the default value of tabIndex getter,https://github.com/whatwg/html/pull/12211,2026-02-27T12:43:34Z,2026-02-27T13:48:24Z,mrobinson,,1
 3996929345,false,Make option and optgroup actually disabled inside disabled select,https://github.com/whatwg/html/pull/12205,2026-02-26T17:50:28Z,2026-04-16T09:12:40Z,josepharhar,,1
-3991450591,false,Define optgroup base appearance rendering,https://github.com/whatwg/html/pull/12201,2026-02-25T19:53:35Z,2026-04-17T11:41:40Z,josepharhar,normative change|topic: rendering|topic: select,0
+3991450591,false,Define optgroup base appearance rendering,https://github.com/whatwg/html/pull/12201,2026-02-25T19:53:35Z,2026-04-20T23:07:22Z,josepharhar,normative change|topic: rendering|topic: select,0
 3986866649,true,Drop color-mix() color space from select base appearance style,https://github.com/whatwg/html/pull/12198,2026-02-25T02:45:49Z,2026-02-25T06:12:48Z,nt1m,,0
 3985923504,true,Add display:block to base appearance optgroups,https://github.com/whatwg/html/pull/12197,2026-02-24T21:29:13Z,2026-02-25T06:16:27Z,josepharhar,,0
 3984130106,false,Add HTMLScriptElement IDL changes for Trusted Types,https://github.com/whatwg/html/pull/12195,2026-02-24T14:46:16Z,2026-02-25T10:03:14Z,lukewarlow,,0
@@ -97,7 +97,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3803774703,true,Navigation API: Revert 11987,https://github.com/whatwg/html/pull/12078,2026-01-12T10:53:38Z,2026-01-12T11:28:07Z,noamr,,0
 3802846213,true,Check ongoing navigation before proceeding with javascript: URL navigation,https://github.com/whatwg/html/pull/12076,2026-01-12T05:43:04Z,2026-01-16T08:55:50Z,byteforge38,topic: navigation|topic: javascript: URLs,0
 3797092339,true,Calculate ancestorOrigins on document creation and store on document,https://github.com/whatwg/html/pull/12071,2026-01-09T14:11:52Z,2026-02-19T15:27:56Z,zcorpan,,0
-3795160292,false,Define base appearance for select multiple drop-down,https://github.com/whatwg/html/pull/12069,2026-01-09T01:58:01Z,2026-04-16T22:08:36Z,josepharhar,agenda+,0
+3795160292,false,Define base appearance for select multiple drop-down,https://github.com/whatwg/html/pull/12069,2026-01-09T01:58:01Z,2026-04-20T23:24:47Z,josepharhar,agenda+,0
 3793961141,true,Editorial: Refactor HTMLHyperlinkElementUtils,https://github.com/whatwg/html/pull/12066,2026-01-08T18:35:39Z,2026-02-27T10:16:52Z,lukewarlow,,1
 3793925711,true,Use the value attribute for color update if dirty value flag is false,https://github.com/whatwg/html/pull/12065,2026-01-08T18:23:44Z,2026-01-14T13:00:52Z,saschanaz,,0
 3792303816,true,"Revert ""Switch dialog/popover to using place-self:dialog""",https://github.com/whatwg/html/pull/12060,2026-01-08T10:27:29Z,2026-01-13T11:12:12Z,annevk,,0
