@@ -1,6 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4339424724,false,Upcoming WHATNOT meeting on 20YY-MM-DD,https://github.com/whatwg/html/issues/12410,2026-04-27T23:16:55Z,2026-04-27T23:16:55Z,alhooti270-create,agenda+,0
+4338459061,false,Should cross-origin isolation be part of the agent cluster key?,https://github.com/whatwg/html/issues/12408,2026-04-27T19:48:00Z,2026-04-27T19:48:00Z,annevk,security/privacy|topic: workers|topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
 4330972826,false,Navigation API: Set ongoing navigation to null aborts history traversal navigate event,https://github.com/whatwg/html/issues/12407,2026-04-26T13:28:21Z,2026-04-27T08:08:17Z,theIDinside,,0
-4325925718,false,"Does the ""shadow root"" concept include UA shadow roots?",https://github.com/whatwg/html/issues/12404,2026-04-24T22:26:45Z,2026-04-25T00:08:00Z,mfreed7,topic: shadow,0
+4325925718,false,"Does the ""shadow root"" concept include UA shadow roots?",https://github.com/whatwg/html/issues/12404,2026-04-24T22:26:45Z,2026-04-27T18:40:43Z,mfreed7,topic: shadow,0
 4323381878,false,<link> quirks should probably match stylesheet origin-clean flag,https://github.com/whatwg/html/issues/12403,2026-04-24T13:52:42Z,2026-04-24T16:11:15Z,emilio,topic: fetch|topic: link|topic: style,0
 4318808114,false,Upcoming WHATNOT meeting on 2026-04-30,https://github.com/whatwg/html/issues/12401,2026-04-23T20:52:41Z,2026-04-23T20:52:41Z,jstenback,agenda+,0
 4316617106,true,"<meta name=""ai:context""> A Standard Convention for Serving Machine-Readable Page Context to AI Agents",https://github.com/whatwg/html/issues/12399,2026-04-23T14:15:18Z,2026-04-23T19:45:44Z,dgautsch,addition/proposal|needs implementer interest,2
@@ -34,7 +36,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4220854226,false,Selectedcontent in select multiple,https://github.com/whatwg/html/issues/12342,2026-04-07T22:06:32Z,2026-04-07T22:06:40Z,josepharhar,addition/proposal|needs implementer interest|topic: select,3
 4220747361,true,Upcoming WHATNOT meeting on 2026-04-09,https://github.com/whatwg/html/issues/12341,2026-04-07T21:44:35Z,2026-04-14T16:39:18Z,cwilso,,0
 4218748041,false,eventsource should never discard event.data on HTTP,https://github.com/whatwg/html/issues/12340,2026-04-07T15:26:25Z,2026-04-07T15:27:25Z,jabcreations,,0
-4212993506,false,Unexpected behavior of `interestfor` with popover controls,https://github.com/whatwg/html/issues/12338,2026-04-06T17:13:18Z,2026-04-25T05:52:43Z,shanthambi,topic: popover|topic: button,0
+4212993506,true,Unexpected behavior of `interestfor` with popover controls,https://github.com/whatwg/html/issues/12338,2026-04-06T17:13:18Z,2026-04-27T19:16:17Z,shanthambi,topic: popover|topic: button,0
 4206849735,false,Extend `datetime` attribute on <time> to support Temporal ZonedDateTime timezone syntax,https://github.com/whatwg/html/issues/12334,2026-04-05T07:34:17Z,2026-04-05T07:34:17Z,Huzaifaabdulrab,,0
 4206845634,false,Add `live` attribute to the <time> element for auto-updating display,https://github.com/whatwg/html/issues/12333,2026-04-05T07:32:49Z,2026-04-05T07:34:58Z,Huzaifaabdulrab,,0
 4205677703,true,Add `live` and `timezone` attributes to the <time> element,https://github.com/whatwg/html/issues/12332,2026-04-04T19:41:58Z,2026-04-05T07:29:31Z,Huzaifaabdulrab,,0
@@ -1065,7 +1067,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2327513339,false,[Proposal] capture screen,https://github.com/whatwg/html/issues/10382,2024-05-31T10:35:41Z,2024-09-14T09:51:01Z,hemanth,addition/proposal|needs implementer interest,2
 2326705799,true,Upcoming WHATNOT meeting on 6/6/2024,https://github.com/whatwg/html/issues/10381,2024-05-30T23:34:22Z,2024-06-06T17:00:23Z,past,agenda+,0
 2324176691,false,HTML Video and its Source Elements Should Support SRCSET and SIZES,https://github.com/whatwg/html/issues/10379,2024-05-29T20:16:56Z,2024-08-14T12:07:18Z,scottjehl,addition/proposal|needs implementer interest|topic: media,16
-2324127724,false,"HTML Video Poster Image: Enable Responsive Images and ALT Text for Poster ",https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2026-04-23T20:29:02Z,scottjehl,addition/proposal|needs implementer interest|topic: media|agenda+,35
+2324127724,false,"HTML Video Poster Image: Enable Responsive Images and ALT Text for Poster ",https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2026-04-23T20:29:02Z,scottjehl,addition/proposal|needs implementer interest|topic: media|agenda+,36
 2324097406,false,"Specify That Responsive Video Elements Re-Evaluate Sources on Media Change, Like Picture",https://github.com/whatwg/html/issues/10377,2024-05-29T19:33:05Z,2025-11-20T12:55:12Z,scottjehl,addition/proposal|needs implementer interest|topic: media,9
 2324056660,true,Video and Audio Element loading=lazy attribute support,https://github.com/whatwg/html/issues/10376,2024-05-29T19:09:50Z,2026-03-23T15:57:20Z,scottjehl,addition/proposal|needs implementer interest|topic: media,31
 2322953911,true,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-10-08T12:22:36Z,yoavweiss,addition/proposal|needs implementer interest|topic: cross-origin-opener-policy,0
