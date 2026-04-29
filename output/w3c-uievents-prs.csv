@@ -5,15 +5,29 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3742997972,true,Remove redundant checkbox in PR template,https://github.com/w3c/uievents/pull/410,2025-12-18T12:46:59Z,2025-12-18T13:18:55Z,zcorpan,,0
 3738857595,true,Fix build errors,https://github.com/w3c/uievents/pull/408,2025-12-17T13:13:01Z,2025-12-17T16:34:54Z,zcorpan,,0
 3537013383,false,Initial 'source' defn,https://github.com/w3c/uievents/pull/405,2025-10-21T15:14:40Z,2025-10-21T15:47:55Z,vmpstr,,0
+2510846833,true,"Remove more definitions of MutationEvent and friends ",https://github.com/w3c/uievents/pull/382,2024-09-06T16:56:01Z,2024-09-07T00:57:19Z,mfreed7,,0
+2487331805,true,Remove definitions of MutationEvent and friends,https://github.com/w3c/uievents/pull/381,2024-08-26T17:02:36Z,2024-09-10T14:53:29Z,mfreed7,,0
+2423591563,false,Make CompositionEvent.init take a Window rather than WindowProxy,https://github.com/w3c/uievents/pull/379,2024-07-22T19:11:00Z,2025-12-16T15:39:52Z,jamierocks,,0
+2042843331,true,Add max number of rows option for keyboard event viewer,https://github.com/w3c/uievents/pull/365,2023-12-15T03:48:59Z,2026-02-14T03:45:13Z,ghost,,0
+2008905992,true,Specify the textInput event,https://github.com/w3c/uievents/pull/362,2023-11-24T00:05:29Z,2024-02-23T11:35:58Z,zcorpan,,1
+1775155273,true,Use `USVString` for input and composition events,https://github.com/w3c/uievents/pull/351,2023-06-26T16:26:10Z,2023-12-05T19:37:55Z,jrandolf-google,,0
+1626544458,true,Specify wheel event groups,https://github.com/w3c/uievents/pull/344,2023-03-16T01:46:03Z,2023-12-04T21:25:40Z,dlrobertson,,0
 1291320933,true,Use <thead> for table headers,https://github.com/w3c/uievents/pull/332,2022-07-01T12:04:28Z,2022-07-01T13:02:23Z,dontcallmedom,,0
+1288634929,true,Specify non-cancelable wheel events when there are no non-passive listeners,https://github.com/w3c/uievents/pull/330,2022-06-29T12:15:01Z,2022-06-29T15:26:09Z,zcorpan,,0
 1283841376,true,Remove text selection from the dblclick default action - #328,https://github.com/w3c/uievents/pull/329,2022-06-24T14:47:16Z,2023-05-09T21:45:45Z,flackr,,0
+1257066348,true,Fixed typos,https://github.com/w3c/uievents/pull/327,2022-06-01T21:19:30Z,2022-06-01T21:30:59Z,chrisn,,0
 1030646713,true,"Revert ""Added a new event to communicate context menu dismissal.""",https://github.com/w3c/uievents/pull/321,2021-10-19T19:01:00Z,2021-10-19T19:02:42Z,garykac,,0
+1030560598,true,Added a new event to communicate context menu dismissal.,https://github.com/w3c/uievents/pull/320,2021-10-19T17:18:57Z,2021-10-19T17:53:59Z,mustaqahmed,,0
 1030523111,true,Update event-interfaces section to match event-types section,https://github.com/w3c/uievents/pull/319,2021-10-19T16:36:04Z,2021-10-19T19:12:35Z,mustaqahmed,,0
 1030497416,true,Update event-interfaces section to match event-types section,https://github.com/w3c/uievents/pull/318,2021-10-19T16:09:18Z,2021-10-19T16:31:30Z,mustaqahmed,,0
 1016849504,true,Add a definition of `contextmenu` event.,https://github.com/w3c/uievents/pull/316,2021-10-05T21:05:21Z,2021-10-15T12:44:45Z,mustaqahmed,,0
 997676211,true,"Chore: add w3cids, fix http:// urls",https://github.com/w3c/uievents/pull/315,2021-09-16T02:03:10Z,2021-09-16T19:05:49Z,marcoscaceres,,0
 994010223,true,Prevent `<code>` becoming propdescs,https://github.com/w3c/uievents/pull/313,2021-09-12T00:58:10Z,2021-09-15T00:18:21Z,saschanaz,,0
 949174193,true,"Editorial: Use the ""Former Editor"" tag for Doug Schepers",https://github.com/w3c/uievents/pull/306,2021-07-20T22:58:43Z,2021-07-20T23:30:08Z,jyasskin,,0
+857641220,true,Add [Exposed=Window] to interface MutationEvent,https://github.com/w3c/uievents/pull/304,2021-04-14T08:10:09Z,2021-04-14T08:29:31Z,foolip,,0
+841028299,true,Add missing params for initCompositionEvent,https://github.com/w3c/uievents/pull/302,2021-03-25T15:10:16Z,2021-03-25T15:23:09Z,saschanaz,,0
+840992276,true,Remove initWheelEvent(),https://github.com/w3c/uievents/pull/301,2021-03-25T14:33:31Z,2021-03-25T14:38:38Z,saschanaz,,0
+840986117,true,Add missing IDL parameters for init*Event methods,https://github.com/w3c/uievents/pull/300,2021-03-25T14:26:59Z,2021-03-25T14:37:28Z,saschanaz,,0
 839069268,true,"Replace link to w3c-test.org with wpt.live, removing a 404",https://github.com/w3c/uievents/pull/299,2021-03-23T19:56:12Z,2021-03-23T20:51:08Z,foolip,,0
 836948991,true,Remove .pr-preview,https://github.com/w3c/uievents/pull/298,2021-03-21T00:11:30Z,2021-03-23T17:10:23Z,saschanaz,,0
 836920724,true,Setup spec-prod CI,https://github.com/w3c/uievents/pull/297,2021-03-20T22:04:31Z,2021-03-23T18:34:16Z,saschanaz,,0
@@ -22,6 +36,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 792680096,true,"Reflect the reality for the focus event order ",https://github.com/w3c/uievents/pull/290,2021-01-23T23:43:25Z,2023-05-10T07:41:36Z,saschanaz,,0
 770451363,true,Expose legacy IDL blocks,https://github.com/w3c/uievents/pull/287,2020-12-17T23:32:07Z,2021-03-20T20:11:10Z,saschanaz,,0
 679813273,true,Mark the legacy dictionary members as IDL,https://github.com/w3c/uievents/pull/272,2020-08-16T19:40:21Z,2020-08-17T03:11:43Z,saschanaz,,0
+564834589,true,Update index.html with the latest bikeshed,https://github.com/w3c/uievents/pull/260,2020-02-13T17:19:36Z,2020-02-13T17:23:33Z,NavidZ,,0
+564786298,true,Change the type of click and auxclick to PointerEvent,https://github.com/w3c/uievents/pull/259,2020-02-13T16:02:54Z,2020-03-09T15:41:56Z,NavidZ,,0
 543704946,true,index.html: rebuild,https://github.com/w3c/uievents/pull/256,2019-12-30T03:22:12Z,2019-12-31T02:20:05Z,vapier,,0
 543695823,true,fix link markdown typo,https://github.com/w3c/uievents/pull/255,2019-12-30T02:54:58Z,2019-12-30T03:13:26Z,vapier,,0
 543332917,true,build.py: get it working under Python 3,https://github.com/w3c/uievents/pull/254,2019-12-29T07:41:16Z,2019-12-29T16:20:45Z,vapier,,0

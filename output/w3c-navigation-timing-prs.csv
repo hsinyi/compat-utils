@@ -2,13 +2,33 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4080755748,false,Add 'attribute' keyword to IDL attribute dfns for Bikeshed,https://github.com/w3c/navigation-timing/pull/214,2026-03-16T07:34:29Z,2026-03-16T07:34:42Z,yoavweiss,,0
 3987759412,true,Change affiliations,https://github.com/w3c/navigation-timing/pull/211,2026-02-25T07:40:49Z,2026-02-25T09:04:24Z,yoavweiss,,0
 3640776813,true,Add `confidence` field to PerformanceNavigationTiming,https://github.com/w3c/navigation-timing/pull/210,2025-11-19T02:33:23Z,2025-12-05T06:16:47Z,mwjacksonmsft,,0
+3611018813,true,Remove references to browsing context,https://github.com/w3c/navigation-timing/pull/209,2025-11-11T07:13:34Z,2025-11-11T07:31:29Z,tunetheweb,,0
 3396814909,true,"Remove references to ""prerender""",https://github.com/w3c/navigation-timing/pull/207,2025-09-09T06:14:00Z,2025-09-29T10:01:49Z,tunetheweb,,1
+2632744787,true,Update diagram to add finalResponseHeadersStart,https://github.com/w3c/navigation-timing/pull/205,2024-11-04T12:55:06Z,2024-11-04T13:06:56Z,tunetheweb,,0
+2495442154,true,Support ReSpec dark mode.,https://github.com/w3c/navigation-timing/pull/203,2024-08-29T19:46:35Z,2024-08-30T12:15:14Z,clelland,,0
+2274095915,true,Fix `firstInterimResponseStart` name on diagram,https://github.com/w3c/navigation-timing/pull/200,2024-05-01T19:54:19Z,2024-07-29T12:32:15Z,tunetheweb,,0
 2173835530,true,Update diagram to better reflect unload timing,https://github.com/w3c/navigation-timing/pull/198,2024-03-07T13:12:41Z,2024-03-07T14:43:47Z,noamr,,0
 2112428420,true,Use correct ref for queuing,https://github.com/w3c/navigation-timing/pull/196,2024-02-01T12:41:33Z,2024-02-01T14:17:01Z,noamr,,0
+2051799723,true,Add notRestoredReasons to PerformanceNavigationTiming attribute,https://github.com/w3c/navigation-timing/pull/195,2023-12-21T06:45:14Z,2024-03-04T11:54:15Z,rubberyuzu,,0
+1958879847,true,Update diagram to make unload parallel,https://github.com/w3c/navigation-timing/pull/191,2023-10-24T09:40:25Z,2023-10-24T10:42:47Z,noamr,,1
+1634042439,true,Add criticalCHRestart,https://github.com/w3c/navigation-timing/pull/188,2023-03-21T14:24:06Z,2023-06-07T13:54:49Z,arichiv,,0
+1571308845,true,Fix some broken refs after navigation refactor,https://github.com/w3c/navigation-timing/pull/187,2023-02-05T08:18:04Z,2023-02-06T15:15:38Z,noamr,,0
+1364603045,true,Navigation timing name should be the initial URL,https://github.com/w3c/navigation-timing/pull/182,2022-09-07T12:38:21Z,2022-09-07T15:03:05Z,noamr,,0
+1174542542,true,Pass response body info through,https://github.com/w3c/navigation-timing/pull/176,2022-03-20T13:11:16Z,2022-06-17T14:57:17Z,noamr,,0
+1163672047,true,"Update diagram: rename ""prompt to unload"" and ""AppCache""",https://github.com/w3c/navigation-timing/pull/175,2022-03-09T09:08:28Z,2022-03-09T09:28:04Z,noamr,,2
+1163595136,true,"Update ""relevant application cache"" to point to HTTP cache",https://github.com/w3c/navigation-timing/pull/174,2022-03-09T07:42:44Z,2022-03-09T07:45:15Z,noamr,,0
+1162957801,true,Rename NavigationType to NavigationTimingType,https://github.com/w3c/navigation-timing/pull/172,2022-03-08T17:59:44Z,2022-03-10T07:22:34Z,domenic,,0
+1127373130,true,Hide redirectStart and redirectEnd for navigations with cross-origin redirects,https://github.com/w3c/navigation-timing/pull/170,2022-02-08T15:02:06Z,2022-02-24T09:36:19Z,noamr,,0
+1105551853,true,Fix multiple lint warnings:,https://github.com/w3c/navigation-timing/pull/168,2022-01-17T08:58:18Z,2022-01-17T09:16:53Z,noamr,,0
+1023796398,true,Fix typo in markup,https://github.com/w3c/navigation-timing/pull/162,2021-10-12T13:01:54Z,2022-02-02T14:55:26Z,clelland,,0
+1007865875,true,Add non-normative notes for attributes.,https://github.com/w3c/navigation-timing/pull/159,2021-09-27T08:41:00Z,2021-09-27T11:07:23Z,noamr,,0
+946340513,true,Improve processing model diagram by illustrating that unload happens out-of-sequence,https://github.com/w3c/navigation-timing/pull/152,2021-07-16T14:22:06Z,2021-08-16T18:27:30Z,sgomes,,0
+932808927,true,Switch to GitHub action,https://github.com/w3c/navigation-timing/pull/150,2021-06-29T15:10:15Z,2021-07-13T12:08:21Z,plehegar,w3c,0
 855263120,true,Integrate with service worker timing,https://github.com/w3c/navigation-timing/pull/143,2021-04-11T09:39:40Z,2021-05-18T09:00:15Z,noamr,,0
 853502861,true,Use real refs for DOM metrics,https://github.com/w3c/navigation-timing/pull/142,2021-04-08T13:57:08Z,2021-04-08T15:08:36Z,noamr,,0
 843159788,true,Integration with the HTML spec,https://github.com/w3c/navigation-timing/pull/141,2021-03-29T09:13:24Z,2021-04-08T09:18:25Z,noamr,,0
 824605133,true,Change editors,https://github.com/w3c/navigation-timing/pull/139,2021-03-08T14:09:31Z,2021-03-08T15:59:32Z,yoavweiss,,0
+702106415,true,workerStart and redirects,https://github.com/w3c/navigation-timing/pull/131,2020-09-15T17:10:22Z,2025-03-28T11:00:50Z,nicjansma,hackathon_15_09_20|hackathon_2020,0
 702031952,true,Use PP2017,https://github.com/w3c/navigation-timing/pull/130,2020-09-15T15:27:08Z,2020-09-15T15:49:29Z,plehegar,w3c,0
 701958474,true,Point navigation type values to HTML spec's new history handling,https://github.com/w3c/navigation-timing/pull/129,2020-09-15T14:03:05Z,2021-02-22T06:46:38Z,gi11es,hackathon_15_09_20|hackathon_2020,0
 552678822,true,run html5 tidy on spec,https://github.com/w3c/navigation-timing/pull/122,2020-01-21T07:44:12Z,2020-01-21T08:04:47Z,janiceshiu,,0
