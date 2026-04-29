@@ -25,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3640633724,true,Allow the creation of null registry element and shadow root,https://github.com/whatwg/dom/pull/1424,2025-11-19T01:28:05Z,2025-11-25T07:42:16Z,ja-y-son,,0
 3635427717,true,Set registry on null registry element on adopt instead of on insert,https://github.com/whatwg/dom/pull/1423,2025-11-17T23:15:11Z,2025-11-27T07:38:08Z,ja-y-son,,0
 3483508515,true,Make attachShadow() use the global registry by default,https://github.com/whatwg/dom/pull/1409,2025-10-04T10:13:30Z,2025-10-07T15:05:15Z,annevk,,0
-3410621075,false,Add OpaqueRange interface,https://github.com/whatwg/dom/pull/1404,2025-09-12T13:58:15Z,2026-04-28T00:12:25Z,stephanieyzhang,,0
+3410621075,false,Add OpaqueRange interface,https://github.com/whatwg/dom/pull/1404,2025-09-12T13:58:15Z,2026-04-28T16:06:01Z,stephanieyzhang,,0
 3335702423,false,Remove mentions of XSLT from the DOM spec,https://github.com/whatwg/dom/pull/1400,2025-08-19T21:12:19Z,2025-10-23T15:19:11Z,mfreed7,,5
 3305642979,true,Meta: link to Korean translation,https://github.com/whatwg/dom/pull/1398,2025-08-09T02:55:23Z,2025-08-12T13:17:28Z,JinDX,,0
 3247977485,true,Scope non-scoped (global) registries to a single document,https://github.com/whatwg/dom/pull/1392,2025-07-21T10:03:02Z,2025-10-09T06:16:57Z,annevk,topic: custom elements,0
@@ -41,7 +41,19 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2831293610,false,Add reference target to shadow root,https://github.com/whatwg/dom/pull/1353,2025-02-04T21:02:41Z,2026-01-29T23:20:20Z,dandclark,,0
 2798694667,true,Editorial: modernize the slot algorithms,https://github.com/whatwg/dom/pull/1350,2025-01-20T09:26:59Z,2025-01-20T09:36:32Z,annevk,,0
 2770680899,true,Editorial: initialize clearTargets in event dispatch correctly,https://github.com/whatwg/dom/pull/1347,2025-01-06T13:37:12Z,2025-01-15T08:48:35Z,annevk,,0
+2745575406,true,Add Scoped Custom Element Registries,https://github.com/whatwg/dom/pull/1341,2024-12-17T17:30:55Z,2025-04-14T15:51:01Z,annevk,topic: shadow|topic: custom elements|addition/proposal|topic: nodes,0
 2741985325,true,Meta: give all document references an explicit for attribute,https://github.com/whatwg/dom/pull/1337,2024-12-16T10:36:14Z,2024-12-16T10:37:57Z,annevk,,0
+2568699400,true,Fix Minor Writing Errors,https://github.com/whatwg/dom/pull/1314,2024-10-06T14:49:02Z,2024-10-07T02:42:34Z,AbdellahBoutmad,invalid,0
+2539071465,true,Meta: link Simplified Chinese translation,https://github.com/whatwg/dom/pull/1312,2024-09-20T15:13:58Z,2024-09-20T15:15:52Z,annevk,,0
+2477996958,true,Corrected the variable's name from 'element' to 'result'.,https://github.com/whatwg/dom/pull/1306,2024-08-21T13:05:51Z,2024-08-21T13:27:23Z,pwombwell,,0
+2463445968,true,Correct doAmazingness() example,https://github.com/whatwg/dom/pull/1305,2024-08-13T14:04:36Z,2024-08-14T11:04:11Z,annevk,,0
+2463397014,true,Correct lookupPrefix() after fourteen years,https://github.com/whatwg/dom/pull/1304,2024-08-13T13:45:09Z,2024-08-14T11:04:54Z,annevk,,1
+2462022510,true,"Update to use new ""report an exception"" algorithm in HTML",https://github.com/whatwg/dom/pull/1303,2024-08-12T22:52:08Z,2024-08-15T15:12:27Z,jeremyroman,,0
+2445510545,true,"Editorial: Update use of WebIDL ""invoke a callback function""",https://github.com/whatwg/dom/pull/1301,2024-08-02T18:07:46Z,2024-08-05T05:43:37Z,jeremyroman,,0
+2422759350,true,"Revert ""Trusted Types integration for ""converting nodes into a node""""",https://github.com/whatwg/dom/pull/1299,2024-07-22T12:31:09Z,2024-08-13T09:34:03Z,lukewarlow,,0
+2223648745,true,Restore missing word in `attach a shadow root`,https://github.com/whatwg/dom/pull/1273,2024-04-03T18:38:18Z,2024-04-04T07:26:21Z,dandclark,,0
+2223025252,true,A clonable shadow tree is cloned in its entirety,https://github.com/whatwg/dom/pull/1272,2024-04-03T13:59:13Z,2024-04-04T07:27:24Z,annevk,topic: shadow,0
+2222632939,true,Expose Node/textContent getter and setter steps,https://github.com/whatwg/dom/pull/1271,2024-04-03T11:10:22Z,2024-04-03T13:14:48Z,lukewarlow,,0
 2211727877,true,Integrate Trusted Types enforcement into attribute handling,https://github.com/whatwg/dom/pull/1268,2024-03-27T19:22:16Z,2025-10-31T08:28:15Z,lukewarlow,,0
 2210171758,true,Record timing info for event handling.,https://github.com/whatwg/dom/pull/1267,2024-03-27T08:31:54Z,2024-04-16T14:20:10Z,noamr,,0
 2159379736,true,Introduce DOM post-connection steps,https://github.com/whatwg/dom/pull/1261,2024-02-28T16:40:34Z,2024-06-05T08:29:12Z,domfarolino,,0
@@ -50,6 +62,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2137794707,true,"Add serializable to ShadowRoot and ""attach a shadow root""",https://github.com/whatwg/dom/pull/1256,2024-02-16T03:10:56Z,2024-04-04T10:01:07Z,mfreed7,topic: shadow,0
 2124784286,true,"createEvent(""textevent"") creates a TextEvent",https://github.com/whatwg/dom/pull/1254,2024-02-08T10:07:53Z,2024-02-23T12:07:04Z,zcorpan,topic: events,0
 2123668722,true,Expose AbortSignal.timeout on all globals,https://github.com/whatwg/dom/pull/1253,2024-02-07T18:54:11Z,2024-02-29T19:42:59Z,ptomato,,0
+2046513068,true,Review Draft Publication: December 2023,https://github.com/whatwg/dom/pull/1242,2023-12-18T12:01:25Z,2023-12-18T12:06:56Z,annevk,,0
+2039919370,true,Editorial: mark up algorithms about Events,https://github.com/whatwg/dom/pull/1240,2023-12-13T15:12:29Z,2023-12-14T14:07:03Z,Ms2ger,,1
+2022207527,true,Add ShadowRoot clonable attribute,https://github.com/whatwg/dom/pull/1237,2023-12-02T21:17:37Z,2023-12-13T08:31:44Z,saschanaz,,0
 1671843752,false,Add before removing steps,https://github.com/whatwg/dom/pull/1185,2023-04-17T19:31:22Z,2023-06-26T18:46:38Z,josepharhar,,0
 1403780183,true,Add pop-up light dismiss logic to event dispatching,https://github.com/whatwg/dom/pull/1117,2022-10-10T22:38:39Z,2022-11-22T23:55:25Z,josepharhar,,0
 1395807942,true,[meta] Define slotchange event,https://github.com/whatwg/dom/pull/1115,2022-10-04T07:43:45Z,2022-10-04T15:54:52Z,dontcallmedom,,0

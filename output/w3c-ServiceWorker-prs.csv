@@ -42,9 +42,69 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2137532392,true,Editorial: Rename both `controller` variables in Handle Fetch algorithm.,https://github.com/w3c/ServiceWorker/pull/1705,2024-02-15T22:09:21Z,2024-05-02T07:38:22Z,mkruisselbrink,,0
 2123220225,true,Flag ServiceWorkerGlobalScope as SecureContext,https://github.com/w3c/ServiceWorker/pull/1704,2024-02-07T14:55:53Z,2024-02-15T22:20:10Z,tidoust,,0
 2081349129,true,ServiceWorker static routing API,https://github.com/w3c/ServiceWorker/pull/1701,2024-01-15T06:39:54Z,2024-02-22T08:40:47Z,yoshisatoyanagisawa,,0
+1732978818,true,Use an AbortController instead of signaling abort on AbortSignal,https://github.com/w3c/ServiceWorker/pull/1683,2023-05-30T20:41:15Z,2023-05-31T12:02:08Z,shaseley,,0
+1694891641,true,Editorial: pass signal to Request/create,https://github.com/w3c/ServiceWorker/pull/1678,2023-05-03T21:46:36Z,2023-05-24T22:02:21Z,shaseley,,0
+1651420657,true,Avoid executing the code in the All Fetch Listeners Are Empty algorithm.,https://github.com/w3c/ServiceWorker/pull/1676,2023-04-03T06:24:47Z,2023-04-11T07:28:37Z,yoshisatoyanagisawa,,0
+1631754672,true,Skip executing fetch handlers if it is no-op.,https://github.com/w3c/ServiceWorker/pull/1674,2023-03-20T09:55:21Z,2023-03-22T16:04:36Z,jakearchibald,,0
+1585235092,true,Skip executing fetch handlers if it is no-op.,https://github.com/w3c/ServiceWorker/pull/1672,2023-02-15T05:17:45Z,2023-03-20T09:55:31Z,yoshisatoyanagisawa,,0
+1466265425,true,Increment encoded/decoded body size for constructed responses,https://github.com/w3c/ServiceWorker/pull/1664,2022-11-28T11:33:06Z,2022-11-28T11:53:34Z,noamr,,0
 1398965075,true,Editorial: HTML removed JavaScript from the realm,https://github.com/w3c/ServiceWorker/pull/1659,2022-10-06T07:10:28Z,2025-01-24T08:01:25Z,annevk,,0
 1394949393,false,Update usages of module fetching html algorithms,https://github.com/w3c/ServiceWorker/pull/1658,2022-10-03T15:43:54Z,2025-01-24T11:15:21Z,nicolo-ribaudo,,0
 1328048452,true,Abort with fetch controller's error in Handle Fetch,https://github.com/w3c/ServiceWorker/pull/1655,2022-08-04T04:24:49Z,2022-11-14T11:31:31Z,nidhijaju,,0
+949879790,true,Update PostMessageOptions → StructuredSerializeOptions,https://github.com/w3c/ServiceWorker/pull/1602,2021-07-21T16:09:40Z,2021-08-02T09:50:20Z,domenic,,0
+544938014,true,Rewriting abstract,https://github.com/w3c/ServiceWorker/pull/1494,2020-01-03T10:33:37Z,2020-01-09T12:01:06Z,jakearchibald,,0
+534031772,true,Fixing ready promise definition,https://github.com/w3c/ServiceWorker/pull/1487,2019-12-06T14:33:07Z,2019-12-20T10:11:54Z,jakearchibald,,0
+527937406,true,Drop 'potential-navigation-or-subresource request'.,https://github.com/w3c/ServiceWorker/pull/1486,2019-11-25T08:51:34Z,2019-12-13T11:27:02Z,mikewest,,0
+526894763,true,Use ExtendableMessageEvent for messageerror in service workers.,https://github.com/w3c/ServiceWorker/pull/1485,2019-11-21T23:16:14Z,2019-12-12T02:29:15Z,mkruisselbrink,,0
+505411332,true,Make serviceWorker.ready spec match implementations,https://github.com/w3c/ServiceWorker/pull/1478,2019-10-10T17:34:14Z,2019-12-09T11:23:43Z,Yannic,,0
+504202450,true,Export ServiceWorkerGlobalScope's service worker for DOM Standards,https://github.com/w3c/ServiceWorker/pull/1476,2019-10-08T18:22:55Z,2019-10-30T16:01:03Z,jungkees,,0
+491498563,true,Updating constructor definitions,https://github.com/w3c/ServiceWorker/pull/1470,2019-09-10T07:26:44Z,2019-09-11T01:49:17Z,jakearchibald,,0
+489286443,true,Updating use of promises,https://github.com/w3c/ServiceWorker/pull/1467,2019-09-04T17:13:17Z,2019-09-05T08:01:01Z,jakearchibald,,0
+488139296,true,Fixing refs,https://github.com/w3c/ServiceWorker/pull/1466,2019-09-02T11:20:48Z,2019-09-04T14:40:22Z,jakearchibald,,0
+483486915,true,Editorial: Update 'wait for all' usage.,https://github.com/w3c/ServiceWorker/pull/1463,2019-08-21T15:18:40Z,2019-09-03T07:50:55Z,Ms2ger,,0
+480770043,true,Fix a typo,https://github.com/w3c/ServiceWorker/pull/1459,2019-08-14T16:17:59Z,2019-08-15T07:58:19Z,jungkees,,0
+476968502,true,Clarify determination of active service worker and spec plan,https://github.com/w3c/ServiceWorker/pull/1455,2019-08-05T17:13:09Z,2019-08-09T16:37:03Z,jungkees,,0
+470613439,true,Define service worker events,https://github.com/w3c/ServiceWorker/pull/1452,2019-07-20T00:25:07Z,2019-08-09T11:20:10Z,jungkees,,0
+470422544,true,Add a note about termination during activation.,https://github.com/w3c/ServiceWorker/pull/1451,2019-07-19T16:31:20Z,2019-09-15T09:03:18Z,josephliccini,,0
+468326374,true,Leave notes on service worker script fetching for V1,https://github.com/w3c/ServiceWorker/pull/1450,2019-07-15T20:43:40Z,2019-07-19T09:59:03Z,jungkees,,0
+466645488,true,Set default value of optional dictionary to {},https://github.com/w3c/ServiceWorker/pull/1448,2019-07-11T03:44:40Z,2019-08-09T13:02:55Z,CYBAI,,0
+462079361,true,How to create registration objects,https://github.com/w3c/ServiceWorker/pull/1445,2019-06-28T15:06:23Z,2019-07-02T03:26:50Z,jakearchibald,,0
+460425982,true,Handle asynchronous modules (top-level await).,https://github.com/w3c/ServiceWorker/pull/1444,2019-06-25T13:30:29Z,2021-06-11T11:41:20Z,Ms2ger,,0
+460378943,true,Experimenting with abortable algorithms,https://github.com/w3c/ServiceWorker/pull/1443,2019-06-25T11:53:52Z,2019-09-15T06:28:40Z,jakearchibald,,0
+458989280,true,Export the Clear Registration Algorithm,https://github.com/w3c/ServiceWorker/pull/1438,2019-06-21T03:25:10Z,2019-06-23T15:23:58Z,asakusuma,,0
+455736322,true,Removing failed registrations,https://github.com/w3c/ServiceWorker/pull/1434,2019-06-13T13:16:51Z,2019-06-13T13:31:53Z,jakearchibald,,0
+454799398,true,Improving service worker state,https://github.com/w3c/ServiceWorker/pull/1432,2019-06-11T16:51:48Z,2019-09-12T08:15:16Z,jakearchibald,,0
+453970464,true,Bikeshed improvements to *force bypass cache for import scripts flag*,https://github.com/w3c/ServiceWorker/pull/1430,2019-06-10T02:17:03Z,2019-06-11T06:27:56Z,mfalken,,0
+453552962,true,One ServiceWorker object per service worker per realm,https://github.com/w3c/ServiceWorker/pull/1428,2019-06-07T14:49:18Z,2019-06-07T17:18:13Z,jakearchibald,,0
+453501478,true,Adding self.serviceWorker to service workers.,https://github.com/w3c/ServiceWorker/pull/1426,2019-06-07T13:00:10Z,2019-06-21T07:42:33Z,jakearchibald,,0
+453466220,true,Fixing a couple of bikeshed errors,https://github.com/w3c/ServiceWorker/pull/1425,2019-06-07T11:27:56Z,2019-06-07T13:16:34Z,jakearchibald,,0
+453361304,true,Fixing max scope to include trailing slash.,https://github.com/w3c/ServiceWorker/pull/1424,2019-06-07T06:42:19Z,2019-06-07T08:39:32Z,jakearchibald,,0
+453156693,true,Add trailing '/' to example of max scope,https://github.com/w3c/ServiceWorker/pull/1422,2019-06-06T17:40:26Z,2019-06-07T16:17:39Z,jeffposnick,,0
+452906199,true,Check for Run Service Worker failure and disallow starting redundant workers.,https://github.com/w3c/ServiceWorker/pull/1419,2019-06-06T08:46:50Z,2019-06-10T01:37:29Z,mfalken,,1
+452818590,true,Fix early return value from Handle Fetch.,https://github.com/w3c/ServiceWorker/pull/1418,2019-06-06T03:50:18Z,2019-06-06T07:59:51Z,mfalken,,0
+452284086,true," Unify the event skipping algorithm when there is no event handler.",https://github.com/w3c/ServiceWorker/pull/1417,2019-06-05T02:12:03Z,2019-06-06T03:43:42Z,mfalken,,0
+451453944,true,Kill resurrection,https://github.com/w3c/ServiceWorker/pull/1415,2019-06-03T12:25:35Z,2019-06-06T16:38:53Z,jakearchibald,,1
+451340763,true,"Fixing link to ""scope"" and copying changes to v1.",https://github.com/w3c/ServiceWorker/pull/1413,2019-06-03T07:52:53Z,2019-06-03T07:55:19Z,jakearchibald,,0
+451316561,true,Fixing deploy,https://github.com/w3c/ServiceWorker/pull/1412,2019-06-03T06:41:57Z,2019-06-03T06:44:40Z,jakearchibald,,0
+451288127,true,"Improve ""update via cache"" and ""worker type"" in register algorithms.",https://github.com/w3c/ServiceWorker/pull/1411,2019-06-03T04:29:24Z,2019-06-03T08:11:22Z,mfalken,,1
+446953840,true,Refinements and description of Service-Worker-Allowed.,https://github.com/w3c/ServiceWorker/pull/1409,2019-05-22T06:26:36Z,2019-05-29T01:00:35Z,mfalken,,1
+440282600,true,Fix environment reference,https://github.com/w3c/ServiceWorker/pull/1404,2019-05-04T04:14:15Z,2019-05-07T01:35:10Z,CYBAI,,0
+401792631,true,Correcting the use of types and simplifying the response body read.,https://github.com/w3c/ServiceWorker/pull/1384,2019-01-22T14:33:57Z,2019-02-11T13:30:48Z,jakearchibald,,0
+400146822,true,Minor improvements around importScripts.,https://github.com/w3c/ServiceWorker/pull/1380,2019-01-17T07:40:15Z,2019-02-18T07:34:42Z,mfalken,,0
+392467233,true,Don't fail update upon error fetching the incumbent worker's import s…,https://github.com/w3c/ServiceWorker/pull/1377,2018-12-19T07:06:09Z,2019-03-05T23:13:11Z,mfalken,,0
+390118660,true,Minor Readme format changes,https://github.com/w3c/ServiceWorker/pull/1376,2018-12-12T08:40:51Z,2019-03-07T07:19:24Z,SachsKaylee,,0
+359679155,true,Remove unused variables,https://github.com/w3c/ServiceWorker/pull/1354,2018-09-12T22:44:50Z,2018-09-14T12:51:37Z,jungkees,,0
+352584931,true,Making it easier to handle the state of extendable events,https://github.com/w3c/ServiceWorker/pull/1348,2018-08-21T15:05:27Z,2018-09-12T10:02:34Z,jakearchibald,,0
+349861464,true,"Clarify ""uncaught runtime script error"".",https://github.com/w3c/ServiceWorker/pull/1346,2018-08-13T01:21:19Z,2018-11-01T04:40:24Z,mfalken,,0
+349637286,true,Add API for postMessage with PostMessageOptions,https://github.com/w3c/ServiceWorker/pull/1344,2018-08-10T19:49:45Z,2019-03-08T02:26:45Z,dtapuska,,0
+349599009,true,Fix #1339: Resolve preloadResponse with a Response object.,https://github.com/w3c/ServiceWorker/pull/1343,2018-08-10T17:34:59Z,2018-08-13T02:38:22Z,jyasskin,,0
+349504349,true,Abstracting cache matching,https://github.com/w3c/ServiceWorker/pull/1341,2018-08-10T12:53:45Z,2018-09-12T10:11:45Z,jakearchibald,,0
+348563211,true,Make Run Service Worker return after initial script evaluation.,https://github.com/w3c/ServiceWorker/pull/1340,2018-08-08T03:36:57Z,2018-08-13T00:33:14Z,mfalken,,0
+348399924,true,Update the strategy argument to 'construct a ReadableStream'.,https://github.com/w3c/ServiceWorker/pull/1338,2018-08-07T16:38:08Z,2018-08-13T04:55:06Z,jyasskin,,0
+340748974,true,Fix syntax error in IDL,https://github.com/w3c/ServiceWorker/pull/1335,2018-07-12T18:27:56Z,2018-08-12T20:39:55Z,lukebjerring,,0
+337330043,true,Change name from targetClientId to replacesClientId,https://github.com/w3c/ServiceWorker/pull/1333,2018-07-01T22:58:31Z,2021-06-04T14:06:43Z,jungkees,,0
+337262982,true,Clean up Clients interface methods,https://github.com/w3c/ServiceWorker/pull/1332,2018-07-01T04:39:00Z,2018-10-19T01:04:40Z,jungkees,,0
+335144266,true,Add Client.frameType back,https://github.com/w3c/ServiceWorker/pull/1329,2018-06-24T01:58:32Z,2018-10-19T00:52:32Z,jungkees,,0
 331497012,true,Update web-platform-tests URLs,https://github.com/w3c/ServiceWorker/pull/1325,2018-06-12T08:56:31Z,2018-06-13T14:26:09Z,foolip,,0
 330172633,true,Clients.get: block on reserved clients.,https://github.com/w3c/ServiceWorker/pull/1323,2018-06-07T08:41:39Z,2018-06-13T23:07:25Z,mfalken,,0
 329690933,true,Maintain the list of functional events,https://github.com/w3c/ServiceWorker/pull/1322,2018-06-06T02:45:37Z,2018-06-15T05:26:32Z,jungkees,,0

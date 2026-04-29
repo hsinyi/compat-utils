@@ -22,13 +22,21 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3075155308,true,"Replace incorrect ""async iterable"" token to ""async_iterable""",https://github.com/whatwg/webidl/pull/1489,2025-05-19T22:31:44Z,2025-07-10T02:07:32Z,saschanaz,topic: syntax,1
 3075059784,false,Add disposer and async_disposer,https://github.com/whatwg/webidl/pull/1488,2025-05-19T21:28:42Z,2026-02-11T14:01:21Z,jasnell,,0
 3038172996,true,Create Ah ny,https://github.com/whatwg/webidl/pull/1486,2025-05-04T18:42:52Z,2025-05-05T06:05:21Z,Explainer8888,invalid,0
+2205662371,true,Add `async iterable<T>` type to WebIDL,https://github.com/whatwg/webidl/pull/1397,2024-03-25T12:41:44Z,2025-06-11T14:03:58Z,lucacasonato,,3
 2192237715,true,Review Draft Publication: March 2024,https://github.com/whatwg/webidl/pull/1395,2024-03-18T13:38:46Z,2024-03-18T13:41:58Z,annevk,,0
 2186897806,false,"Export ""an exception was thrown""",https://github.com/whatwg/webidl/pull/1393,2024-03-14T17:25:30Z,2024-03-14T17:34:06Z,domfarolino,,0
 2179875247,true,Add `{{StringContext}}` extended attribute,https://github.com/whatwg/webidl/pull/1392,2024-03-11T18:15:30Z,2024-04-15T12:05:38Z,lukewarlow,,0
 2179856595,true,Replace CreateMethodProperty with DefineMethodProperty,https://github.com/whatwg/webidl/pull/1391,2024-03-11T18:08:39Z,2024-03-11T18:52:43Z,ljharb,,0
 2179850473,true,Editorial: Replace CreateMethodProperty with DefineMethodProperty,https://github.com/whatwg/webidl/pull/1390,2024-03-11T18:06:12Z,2024-03-11T18:09:19Z,lukewarlow,,0
 2124060303,true,Update ongoing promise in async iterator return() method,https://github.com/whatwg/webidl/pull/1387,2024-02-07T23:13:17Z,2024-02-13T09:12:01Z,MattiasBuelens,,2
+1900384168,true,Review Draft Publication: September 2023,https://github.com/whatwg/webidl/pull/1364,2023-09-18T08:02:12Z,2023-09-18T08:05:08Z,annevk,,0
+1889324745,true,Editorial: Remove the note on `@@unscopables` and `[Global]` interfaces,https://github.com/whatwg/webidl/pull/1361,2023-09-10T21:05:29Z,2023-09-10T21:08:11Z,shvaikalesh,,1
 1889315547,true,Throw TypeError if `[Replaceable]` setter fails to reconfigure the property,https://github.com/whatwg/webidl/pull/1360,2023-09-10T20:36:50Z,2023-10-16T01:11:01Z,shvaikalesh,,1
+1889312853,true,Editorial: Use CreateDataPropertyOrThrow abstract op in more places,https://github.com/whatwg/webidl/pull/1359,2023-09-10T20:26:28Z,2023-09-10T21:08:32Z,shvaikalesh,,1
+1874898904,true,Meta: use XXX as issue class,https://github.com/whatwg/webidl/pull/1355,2023-08-31T06:55:16Z,2023-08-31T07:21:06Z,annevk,,0
+1849842714,true,Remove extra }'s from some TypeError references,https://github.com/whatwg/webidl/pull/1351,2023-08-14T14:03:15Z,2023-08-15T06:58:19Z,rakuco,,0
+1741601598,true,Editorial: remove stray period,https://github.com/whatwg/webidl/pull/1318,2023-06-05T11:45:43Z,2023-06-05T13:15:31Z,Ms2ger,,1
+1732534096,true,Give SharedArrayBuffer a dedicated type,https://github.com/whatwg/webidl/pull/1311,2023-05-30T15:46:58Z,2023-06-15T14:23:55Z,annevk,,0
 1401943432,true,Editorial: lowercase realm,https://github.com/whatwg/webidl/pull/1212,2022-10-08T13:13:26Z,2022-10-13T05:12:09Z,domenic,,0
 1401941492,true,Allow DOMException subclasses to be used as exceptions,https://github.com/whatwg/webidl/pull/1211,2022-10-08T13:06:11Z,2023-06-05T06:48:31Z,domenic,,0
 1397628264,true,"Fix typo - s/an/a before ""NotAllowed""",https://github.com/whatwg/webidl/pull/1209,2022-10-05T11:14:58Z,2022-10-13T08:36:30Z,eladalon1983,,2
@@ -42,9 +50,164 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1337844223,false,Normative: Add DOMException cause,https://github.com/whatwg/webidl/pull/1179,2022-08-13T03:52:31Z,2023-07-05T08:47:43Z,legendecas,,3
 1329597570,true,Ensure [Expose=*] works when the global object is not defined using IDL,https://github.com/whatwg/webidl/pull/1177,2022-08-05T08:05:56Z,2022-08-12T18:29:03Z,Ms2ger,,0
 1315646666,true,Fix incorrect wording in `2.9. Enumerations`,https://github.com/whatwg/webidl/pull/1173,2022-07-23T12:22:49Z,2022-07-25T06:59:22Z,chansuke,,0
+1302794662,true,Make setlike/maplike generated properties enumerable,https://github.com/whatwg/webidl/pull/1166,2022-07-13T01:43:01Z,2022-10-03T07:02:22Z,domenic,,0
+1297796900,true,Editorial: fix uses of `?` with `IfAbruptRejectPromise`,https://github.com/whatwg/webidl/pull/1165,2022-07-07T17:12:04Z,2023-04-05T01:34:12Z,bakkot,,0
+1175190889,true,Review Draft Publication: March 2022,https://github.com/whatwg/webidl/pull/1118,2022-03-21T10:39:02Z,2022-03-21T10:51:27Z,annevk,,0
+1155916716,true,Editorial: Completion reform for ECMAScript AOs,https://github.com/whatwg/webidl/pull/1111,2022-03-01T23:05:10Z,2022-03-07T15:53:23Z,syg,,1
+1154460742,true,Add self to acks,https://github.com/whatwg/webidl/pull/1110,2022-02-28T19:22:29Z,2022-04-29T20:07:47Z,tabatkins,,2
+1107431450,true,Fix distinguishability for bigint and numeric types,https://github.com/whatwg/webidl/pull/1082,2022-01-18T22:38:13Z,2022-01-19T18:57:54Z,domenic,,3
+927536524,true,Meta: move to GitHub Actions,https://github.com/whatwg/webidl/pull/992,2021-06-22T18:48:50Z,2021-06-28T21:12:37Z,domenic,,0
+909886105,true,"Meta: fix linking to ""incumbent settings object""",https://github.com/whatwg/webidl/pull/988,2021-06-02T21:09:27Z,2021-06-03T15:18:46Z,domenic,,0
+909884406,true,Add and improve operations on BufferSources,https://github.com/whatwg/webidl/pull/987,2021-06-02T21:06:46Z,2021-06-28T12:19:52Z,domenic,,0
+895785162,true,Integrate with the resizable buffers proposal,https://github.com/whatwg/webidl/pull/982,2021-05-19T19:05:49Z,2021-08-12T19:12:26Z,syg,,0
+866419160,true,Editorial: simplify the example on default toJSON(),https://github.com/whatwg/webidl/pull/980,2021-04-23T20:42:36Z,2021-04-27T06:35:28Z,foolip,,0
+861525776,true,Allow constants on namespaces,https://github.com/whatwg/webidl/pull/977,2021-04-19T16:53:51Z,2021-05-03T19:20:23Z,domenic,,3
+829532634,true,Adjust sample code so it makes more sense,https://github.com/whatwg/webidl/pull/966,2021-03-11T21:21:13Z,2021-03-12T07:52:58Z,travisleithead,,0
+691723856,true,Allow to use LegacyNullToEmptyString on USVString.,https://github.com/whatwg/webidl/pull/915,2020-09-03T07:36:45Z,2020-09-04T10:49:57Z,emilio,,0
+679195762,true,Ask for Reffy issues from breaking changes,https://github.com/whatwg/webidl/pull/907,2020-08-14T14:29:29Z,2021-07-05T18:30:03Z,foolip,,0
+673873584,true,"void -> undefined, and allow it anywhere.",https://github.com/whatwg/webidl/pull/906,2020-08-05T21:59:10Z,2020-08-18T06:43:09Z,tabatkins,,0
 649965709,true,Editorial: Avoid changing internal methods of ordinary objects,https://github.com/whatwg/webidl/pull/901,2020-07-02T14:15:13Z,2020-07-07T18:23:14Z,ExE-Boss,,0
+629527596,true,Make async iterator return() and next() more like async generators,https://github.com/whatwg/webidl/pull/891,2020-06-02T21:28:08Z,2020-06-11T15:13:53Z,domenic,,0
+629044821,true,Correct assertion in 'exposure set' algorithm.,https://github.com/whatwg/webidl/pull/890,2020-06-02T09:22:14Z,2020-06-02T12:17:57Z,Ms2ger,,0
+625825380,true,Editorial: Add syntax highlighting to async iterable syntax example,https://github.com/whatwg/webidl/pull/889,2020-05-27T16:00:08Z,2020-05-28T11:15:36Z,ExE-Boss,,0
 615651686,true,Define the `[CrossOriginIsolated]` extended attribute.,https://github.com/whatwg/webidl/pull/883,2020-05-11T07:22:11Z,2020-09-21T17:46:34Z,mikewest,,1
 615180823,true,Define definition conventions,https://github.com/whatwg/webidl/pull/882,2020-05-09T13:51:37Z,2021-04-21T06:00:07Z,annevk,,1
+606767499,true,Install @@toStringTag on namespace objects,https://github.com/whatwg/webidl/pull/873,2020-04-25T13:15:05Z,2020-07-23T15:08:25Z,shvaikalesh,do not merge yet,1
+604907339,true,Editorial: Add missing `oldids` attribute to `[LegacyFactoryFunction]`,https://github.com/whatwg/webidl/pull/872,2020-04-22T16:47:06Z,2020-04-22T17:10:29Z,ExE-Boss,,0
+554892571,true,Introduce the observable array type (legacy platform object based),https://github.com/whatwg/webidl/pull/836,2020-01-24T18:40:45Z,2021-10-05T07:30:06Z,domenic,,0
+552865325,true,Fix typo: protoype,https://github.com/whatwg/webidl/pull/834,2020-01-21T13:06:37Z,2020-02-05T17:52:57Z,anpol,,0
+549775418,true,Call Set with Throw=false for [PutForwards],https://github.com/whatwg/webidl/pull/832,2020-01-14T19:38:08Z,2020-01-15T00:33:59Z,TimothyGu,,1
+541955340,true,"Fix ""this"" typo in constructor operations example",https://github.com/whatwg/webidl/pull/830,2019-12-24T01:45:11Z,2019-12-26T15:34:16Z,shvaikalesh,,0
+536678299,true,docs(`callback interface`): Make `EventListener` into reference,https://github.com/whatwg/webidl/pull/826,2019-12-11T23:54:22Z,2019-12-12T13:48:39Z,ExE-Boss,,0
+536515885,true,feat: Add `[NonEnumerableMethods]` extended attribute,https://github.com/whatwg/webidl/pull/825,2019-12-11T17:32:31Z,2020-04-30T16:21:50Z,ExE-Boss,,0
+522319218,true,Correct non-normative summary of the overload resolution algorithm.,https://github.com/whatwg/webidl/pull/822,2019-11-13T16:06:35Z,2019-11-14T10:21:12Z,Ms2ger,,1
+521077281,true,Fix typo: inferface.,https://github.com/whatwg/webidl/pull/821,2019-11-11T17:00:13Z,2019-11-12T09:59:41Z,Ms2ger,,0
+511918709,true,Use Travis-CI deployment support.,https://github.com/whatwg/webidl/pull/818,2019-10-24T12:42:13Z,2020-04-20T16:57:01Z,Ms2ger,,0
+502714897,true,Overload set tuple: callable definition out of sync with new constructor ops,https://github.com/whatwg/webidl/pull/811,2019-10-04T15:53:11Z,2019-10-14T17:41:04Z,bathos,,0
+497558236,true,Tweak async iterator algorithms,https://github.com/whatwg/webidl/pull/802,2019-09-24T09:08:50Z,2019-10-16T10:56:43Z,domenic,,0
+497550353,true,Meta: fix Makefile escaping in fallback case,https://github.com/whatwg/webidl/pull/801,2019-09-24T08:53:49Z,2019-09-24T09:12:01Z,domenic,,0
+497139602,true,Remove use of [Constructor] extended attribute,https://github.com/whatwg/webidl/pull/798,2019-09-23T14:38:54Z,2019-09-23T16:33:14Z,clelland,,0
+494653195,true,"Define ""usual constructor steps""",https://github.com/whatwg/webidl/pull/797,2019-09-17T14:17:57Z,2019-09-24T03:34:45Z,domenic,,0
+488783854,true,"Use ""react"" for the spec promise.then() analog",https://github.com/whatwg/webidl/pull/792,2019-09-03T19:34:19Z,2019-09-04T15:21:14Z,domenic,,0
+488171518,true,Fix example for 'upon settling'.,https://github.com/whatwg/webidl/pull/790,2019-09-02T12:42:10Z,2019-09-04T08:14:04Z,Ms2ger,,0
+487781612,true,"Allow ""constructor"" as an argument name",https://github.com/whatwg/webidl/pull/786,2019-08-31T15:32:27Z,2019-09-03T16:28:25Z,saschanaz,,0
+487554249,true,Clarify the relation between the secure context definitions.,https://github.com/whatwg/webidl/pull/785,2019-08-30T15:49:41Z,2019-09-02T08:18:27Z,Ms2ger,,0
+487027822,true,"Revert ""Use new syntax for DOMException.""",https://github.com/whatwg/webidl/pull/781,2019-08-29T15:25:23Z,2019-09-03T07:22:41Z,bzbarsky,,0
+486831142,true,Use new syntax for DOMException.,https://github.com/whatwg/webidl/pull/780,2019-08-29T09:03:26Z,2019-08-29T15:13:02Z,Ms2ger,,0
+484592654,true,Forbid overloading operations with Promise and non-Promise return types.,https://github.com/whatwg/webidl/pull/776,2019-08-23T15:36:34Z,2020-04-30T16:20:33Z,Ms2ger,,1
+484570263,true,Editorial: Add an example of using ordered map syntax for dictionaries.,https://github.com/whatwg/webidl/pull/775,2019-08-23T14:49:29Z,2019-08-30T08:56:04Z,Ms2ger,,0
+484076469,true,Minor grammar cleanup,https://github.com/whatwg/webidl/pull/773,2019-08-22T15:47:06Z,2020-04-30T06:31:06Z,Ms2ger,,0
+482909844,true,Import the Promises Guide.,https://github.com/whatwg/webidl/pull/772,2019-08-20T14:50:54Z,2019-08-27T10:03:42Z,Ms2ger,,2
+482850903,true,Editorial: Fix markup in DOMException section.,https://github.com/whatwg/webidl/pull/771,2019-08-20T13:08:56Z,2019-08-20T13:12:27Z,Ms2ger,,0
+479582205,true,Allow `async` and `includes` as member names,https://github.com/whatwg/webidl/pull/769,2019-08-12T10:53:40Z,2019-08-14T04:59:49Z,saschanaz,,0
+477784005,true,Editorial: Don't use ReadWriteMapLike/ReadWriteSetLike after 'readonly'.,https://github.com/whatwg/webidl/pull/766,2019-08-07T08:33:44Z,2019-08-13T13:42:49Z,Ms2ger,,0
+477451980,true,Fix grammar reference in the definition of callback interfaces.,https://github.com/whatwg/webidl/pull/765,2019-08-06T15:34:09Z,2020-04-30T06:21:07Z,Ms2ger,,0
+477403452,true,Editorial: Add syntax highlighting to an example.,https://github.com/whatwg/webidl/pull/764,2019-08-06T14:08:04Z,2019-08-06T14:35:28Z,Ms2ger,,0
+477397329,true,Clarify the restrictions on SecureContext combinations.,https://github.com/whatwg/webidl/pull/763,2019-08-06T13:57:09Z,2019-08-06T14:02:13Z,Ms2ger,,0
+469405631,true,Fix one inconsistent use of [] in examples (editorial),https://github.com/whatwg/webidl/pull/759,2019-07-17T19:35:20Z,2019-07-17T20:35:41Z,jan-ivar,,0
+463239517,true,Improve the definition of the void type.,https://github.com/whatwg/webidl/pull/757,2019-07-02T13:45:56Z,2019-08-06T14:43:29Z,Ms2ger,,2
+463189233,true,Editorial: Better explanation of the TreatNonObjectAsNull extended attribute.,https://github.com/whatwg/webidl/pull/756,2019-07-02T12:02:36Z,2020-03-16T09:26:49Z,Ms2ger,,0
+462706714,true,Fix the grammar for CallbackInterfaceMembers.,https://github.com/whatwg/webidl/pull/753,2019-07-01T13:11:38Z,2019-08-06T15:33:34Z,Ms2ger,,1
+462239769,true,"Define a way to specify a default value for dictionaries (the literal ""{}"") and require it to be specified for the dictionary arguments that are required to be optional.",https://github.com/whatwg/webidl/pull/750,2019-06-28T23:35:10Z,2019-09-29T06:46:37Z,bzbarsky,,1
+462102590,true,Editorial: Better explanation of the Global extended attribute.,https://github.com/whatwg/webidl/pull/749,2019-06-28T15:57:59Z,2020-04-30T06:05:03Z,Ms2ger,,0
+461492707,true,Disallow Promise types in unions at the syntax level.,https://github.com/whatwg/webidl/pull/746,2019-06-27T12:11:54Z,2019-07-02T12:33:59Z,Ms2ger,,0
+461491590,true,Disallow combining Global with Constructor/NamedConstructor.,https://github.com/whatwg/webidl/pull/745,2019-06-27T12:09:17Z,2019-06-28T07:37:50Z,Ms2ger,,0
+460883005,true,Use IDL this for the synthetic forEach method.,https://github.com/whatwg/webidl/pull/742,2019-06-26T10:14:37Z,2019-07-01T15:29:17Z,Ms2ger,,0
+460487013,true,Rename Module.Instantiate to Module.Link,https://github.com/whatwg/webidl/pull/741,2019-06-25T15:16:15Z,2019-06-26T09:07:47Z,Ms2ger,,0
+456158081,true,"Meta: use ""good first issue"" label",https://github.com/whatwg/webidl/pull/736,2019-06-14T09:45:57Z,2019-06-14T12:42:00Z,annevk,,0
+450165708,true,Mark DOMException as serializable,https://github.com/whatwg/webidl/pull/732,2019-05-30T07:14:14Z,2022-07-17T01:49:01Z,yutakahirano,,0
+449689597,true,The GetIterator operation in ECMA262 now takes three arguments,https://github.com/whatwg/webidl/pull/731,2019-05-29T09:14:03Z,2019-05-29T10:09:16Z,bathos,,0
+445460128,true,Remove the Error IDL type,https://github.com/whatwg/webidl/pull/728,2019-05-17T14:06:35Z,2019-05-22T07:35:20Z,Ms2ger,,0
+443848563,true,"Editorial: Provide a definition for ""compute an effective overload set"" and use it",https://github.com/whatwg/webidl/pull/727,2019-05-14T10:58:14Z,2019-05-14T13:06:23Z,Ms2ger,,0
+442585464,true,Editorial: Add min-width to distinguishable-table's cells,https://github.com/whatwg/webidl/pull/725,2019-05-10T07:51:15Z,2019-05-13T07:36:51Z,Ms2ger,,1
+442181604,true,Define Synthetic Module Records,https://github.com/whatwg/webidl/pull/722,2019-05-09T11:10:06Z,2019-05-17T18:11:09Z,Ms2ger,,0
+441245719,true,Editorial: Stop using markdown for bold,https://github.com/whatwg/webidl/pull/721,2019-05-07T13:52:48Z,2019-05-10T10:07:46Z,Ms2ger,,0
+439179380,true,Add async_iterable support,https://github.com/whatwg/webidl/pull/720,2019-05-01T14:16:54Z,2019-08-07T10:29:10Z,Ms2ger,,0
+437738687,true,Introduce an UnenumerableOperations extended attribute,https://github.com/whatwg/webidl/pull/719,2019-04-26T15:54:49Z,2021-10-05T07:30:24Z,Ms2ger,do not merge yet,0
+437681575,true,Introduce a SameRealmBrandCheck extended attribute,https://github.com/whatwg/webidl/pull/718,2019-04-26T13:47:19Z,2020-04-30T14:28:36Z,Ms2ger,,0
+433301839,true,Editorial: Shorten the conditions in the [[Set]] algorithm,https://github.com/whatwg/webidl/pull/713,2019-04-15T14:05:55Z,2019-04-16T14:18:21Z,Ms2ger,,0
+431886493,true,JavaScript defines typeof fully now,https://github.com/whatwg/webidl/pull/712,2019-04-11T08:09:14Z,2019-04-11T12:00:19Z,annevk,,1
+430843589,true,Editorial: Add littledan to the acknowledgements,https://github.com/whatwg/webidl/pull/711,2019-04-09T08:47:41Z,2019-04-09T09:24:55Z,Ms2ger,,1
+430433210,true,Editorial: Remove a duplicate emu-nt start tag,https://github.com/whatwg/webidl/pull/710,2019-04-08T12:51:00Z,2019-04-08T16:01:59Z,Ms2ger,,1
+429326896,true,Remove a check for array index in [[Set]],https://github.com/whatwg/webidl/pull/706,2019-04-04T14:56:55Z,2019-04-15T09:54:09Z,Ms2ger,,0
+429289273,true,Stop claiming callback interfaces are interfaces,https://github.com/whatwg/webidl/pull/705,2019-04-04T13:47:07Z,2019-04-15T13:39:52Z,Ms2ger,,0
+428741188,true,Tighten the grammar for the 'inherit' keyword,https://github.com/whatwg/webidl/pull/704,2019-04-03T12:33:20Z,2019-04-03T13:31:20Z,Ms2ger,,0
+426937379,true,Correct the effective overload set use for named constructors,https://github.com/whatwg/webidl/pull/699,2019-03-29T11:15:33Z,2019-04-01T08:41:14Z,Ms2ger,,0
+425457221,true,Update the requirement about the definition of a constructor,https://github.com/whatwg/webidl/pull/697,2019-03-26T14:36:55Z,2019-03-26T16:06:47Z,Ms2ger,,0
+424823308,true,Remove unused callback interface functionality,https://github.com/whatwg/webidl/pull/696,2019-03-25T10:23:46Z,2019-04-02T14:28:24Z,Ms2ger,,0
+424726537,true,Add [AllowShared] in the list of applicable-to-types,https://github.com/whatwg/webidl/pull/695,2019-03-25T05:13:41Z,2019-04-04T08:17:42Z,peria,,0
+423318582,true,Fix a grammar mistake in the 'partial interface' definition,https://github.com/whatwg/webidl/pull/693,2019-03-20T15:30:58Z,2019-04-03T13:36:39Z,Ms2ger,,1
+422646092,true,Remove support for overloading callbacks,https://github.com/whatwg/webidl/pull/690,2019-03-19T10:15:18Z,2019-03-19T16:05:52Z,Ms2ger,,0
+421541245,true,Make the grammar check more robust,https://github.com/whatwg/webidl/pull/688,2019-03-15T14:18:38Z,2019-03-18T10:26:16Z,Ms2ger,,0
+419316806,true,Disallow constants to be null,https://github.com/whatwg/webidl/pull/686,2019-03-11T06:45:02Z,2019-03-15T15:40:39Z,saschanaz,,0
+419232678,true,Editorial: marking former editors as such,https://github.com/whatwg/webidl/pull/685,2019-03-10T21:09:26Z,2019-03-10T21:21:42Z,tobie,,0
+418874375,true,Properly call the imperative creation algorithms for prototypes,https://github.com/whatwg/webidl/pull/684,2019-03-08T17:04:58Z,2019-03-15T11:59:00Z,Ms2ger,,0
+418872868,true,Ensure that interface objects aren't used before they exist,https://github.com/whatwg/webidl/pull/682,2019-03-08T17:01:11Z,2019-03-15T14:40:48Z,Ms2ger,,0
+418425309,true,Remove references to ECMAScript global environments,https://github.com/whatwg/webidl/pull/681,2019-03-07T17:21:10Z,2019-03-08T09:01:32Z,Ms2ger,,0
+418335883,true,Correct the 'indexed getter' cross-reference,https://github.com/whatwg/webidl/pull/679,2019-03-07T14:22:15Z,2019-03-11T22:36:50Z,Ms2ger,,0
+416789023,true,Editorial: Clarify that attributes and operations may be namespace members,https://github.com/whatwg/webidl/pull/678,2019-03-04T12:56:51Z,2019-03-05T08:24:19Z,littledan,,0
+416576254,true,Define Web IDL Modules,https://github.com/whatwg/webidl/pull/675,2019-03-03T22:50:29Z,2019-12-04T15:43:13Z,littledan,,1
+416105107,true,Clarify note about enum conversion exceptions,https://github.com/whatwg/webidl/pull/673,2019-03-01T13:34:19Z,2019-03-01T16:19:43Z,Ms2ger,,0
+416097177,true,Editorial: fix some bikeshed link warnings,https://github.com/whatwg/webidl/pull/672,2019-03-01T13:13:08Z,2019-03-04T08:41:03Z,Ms2ger,,0
+416072534,true,Disallow combining an indexed getter with a maplike/setlike,https://github.com/whatwg/webidl/pull/671,2019-03-01T12:02:22Z,2019-03-07T14:16:17Z,Ms2ger,,0
+415680874,true,Deduplicate unforgeable member functions,https://github.com/whatwg/webidl/pull/668,2019-02-28T15:29:15Z,2019-03-07T13:16:21Z,Ms2ger,,0
+415639353,true,Editorial: remove redundant requirement for existence of 'length',https://github.com/whatwg/webidl/pull/667,2019-02-28T14:04:46Z,2019-03-01T16:20:17Z,Ms2ger,,0
+415200872,true,Editorial: run platform algorithms on IDL objects,https://github.com/whatwg/webidl/pull/666,2019-02-27T16:04:46Z,2019-03-14T15:02:30Z,Ms2ger,,0
+415142691,true,Formalize the 'this' and 'given value' ambient values,https://github.com/whatwg/webidl/pull/665,2019-02-27T14:08:37Z,2019-03-18T10:27:11Z,Ms2ger,,0
+415045990,true,Editorial: improve language around conversions to JS,https://github.com/whatwg/webidl/pull/664,2019-02-27T10:15:50Z,2019-03-04T08:38:41Z,Ms2ger,,0
+414711590,true,Remove the 'user object' concept.,https://github.com/whatwg/webidl/pull/662,2019-02-26T16:48:38Z,2019-03-04T12:19:32Z,Ms2ger,,0
+414194210,true,Formally define a [[Realm]] slot on platform objects,https://github.com/whatwg/webidl/pull/658,2019-02-25T16:34:12Z,2019-02-25T16:49:18Z,Ms2ger,,0
+414150403,true,"Define ""implements"" checks using internal slots",https://github.com/whatwg/webidl/pull/654,2019-02-25T15:07:04Z,2019-02-25T16:27:35Z,Ms2ger,,0
+414064474,true,Clarify object creation in named constructors,https://github.com/whatwg/webidl/pull/652,2019-02-25T11:42:21Z,2019-02-25T14:06:03Z,Ms2ger,,0
+414055101,true,Disallow combining LegacyWindowAlias and LegacyNamespace,https://github.com/whatwg/webidl/pull/651,2019-02-25T11:17:50Z,2019-02-25T14:05:44Z,Ms2ger,,0
+413419021,true,Imperatively define the global property references,https://github.com/whatwg/webidl/pull/648,2019-02-22T14:07:36Z,2019-02-25T16:40:21Z,Ms2ger,,0
+410853254,true,Add a Privacy and Security Considerations section,https://github.com/whatwg/webidl/pull/647,2019-02-15T16:44:19Z,2019-02-22T14:56:22Z,Ms2ger,,0
+409762576,true,Editorial: correct 'callback interface' cross-reference,https://github.com/whatwg/webidl/pull/646,2019-02-13T11:38:54Z,2019-02-13T13:14:51Z,Ms2ger,,0
+409371211,true,Use PerformPromiseThen to perform some steps once a promise is settled,https://github.com/whatwg/webidl/pull/644,2019-02-12T15:56:47Z,2019-02-12T16:14:46Z,Ms2ger,,0
+408806592,true,Editorial: gsnedders's name changed,https://github.com/whatwg/webidl/pull/643,2019-02-11T14:26:50Z,2019-02-11T15:07:32Z,annevk,,1
+408766232,true,Editorial: use the new signature of CreateBuiltinFunction,https://github.com/whatwg/webidl/pull/642,2019-02-11T12:48:00Z,2019-02-11T13:08:29Z,Ms2ger,,1
+407794495,true,Define the static operations on the interface object,https://github.com/whatwg/webidl/pull/641,2019-02-07T16:46:17Z,2019-02-07T21:42:20Z,Ms2ger,,0
+407385753,true,Specify what typeof should return for exotic objects,https://github.com/whatwg/webidl/pull/640,2019-02-06T19:08:08Z,2019-02-25T17:13:56Z,TimothyGu,,0
+407307861,true,Correct requirement to define Global properties on the object itself,https://github.com/whatwg/webidl/pull/639,2019-02-06T16:04:30Z,2019-02-06T16:10:54Z,Ms2ger,,0
+406707582,true,Add cross-reference to 'exposed' in the [SecureContext] definition,https://github.com/whatwg/webidl/pull/637,2019-02-05T10:05:29Z,2019-02-05T11:08:52Z,Ms2ger,,0
+405252055,true,Add an algorithm to create a platform object.,https://github.com/whatwg/webidl/pull/635,2019-01-31T13:44:31Z,2019-02-22T14:04:18Z,Ms2ger,,0
+405135373,true,Meta: point out commit instructions,https://github.com/whatwg/webidl/pull/634,2019-01-31T08:38:59Z,2019-01-31T18:33:50Z,annevk,,0
+404603343,true,Disallow underscore-and-hyphen only identifiers,https://github.com/whatwg/webidl/pull/633,2019-01-30T05:02:57Z,2019-01-30T20:33:23Z,peria,,0
+401389440,true,Editorial: fix language in nullable types section,https://github.com/whatwg/webidl/pull/628,2019-01-21T14:57:43Z,2019-01-21T20:13:30Z,vhf,,0
+400686313,true,Improve the named property visibility algorithm for Window.,https://github.com/whatwg/webidl/pull/626,2019-01-18T11:30:58Z,2021-10-15T03:20:26Z,Ms2ger,,1
+400334855,true,Check ignoreNamedProps before the named property visibility algorithm.,https://github.com/whatwg/webidl/pull/625,2019-01-17T15:40:00Z,2019-01-31T08:30:48Z,Ms2ger,,0
+399822425,true,Disallow a default value for required dictionary members in the grammar.,https://github.com/whatwg/webidl/pull/622,2019-01-16T14:02:48Z,2019-01-28T21:28:08Z,Ms2ger,,0
+399814163,true,Clarify the interpretation of string literal tokens.,https://github.com/whatwg/webidl/pull/621,2019-01-16T13:42:27Z,2019-01-30T15:24:08Z,Ms2ger,,0
+399801799,true,Restrict the extended attributes for partial interfaces.,https://github.com/whatwg/webidl/pull/620,2019-01-16T13:10:23Z,2019-01-29T09:39:17Z,Ms2ger,,0
+399748335,true,Editorial: Make the opName argument required.,https://github.com/whatwg/webidl/pull/619,2019-01-16T10:42:29Z,2019-01-28T21:14:37Z,Ms2ger,,0
+399440084,true,Fix error handling around Call().,https://github.com/whatwg/webidl/pull/618,2019-01-15T16:55:11Z,2019-01-29T17:40:11Z,Ms2ger,,0
+399423423,true,Editorial: Remove section numbers from ES references.,https://github.com/whatwg/webidl/pull/617,2019-01-15T16:21:41Z,2019-02-08T11:06:56Z,Ms2ger,,0
+399414537,true,Rename the 'float' production to 'real'.,https://github.com/whatwg/webidl/pull/616,2019-01-15T16:04:12Z,2019-01-28T14:55:53Z,Ms2ger,,0
+399366166,true,Editorial: Clarify the wording of an Exposed requirement.,https://github.com/whatwg/webidl/pull/615,2019-01-15T14:20:29Z,2019-01-15T14:29:55Z,Ms2ger,,0
+399351779,true,"Disallow Replaceable on namespaces, and fix the attribute setter creation.",https://github.com/whatwg/webidl/pull/614,2019-01-15T13:46:19Z,2019-01-15T16:11:37Z,Ms2ger,,0
+399343455,true,Editorial: Refer to the correct types in integer conversion algorithms.,https://github.com/whatwg/webidl/pull/613,2019-01-15T13:24:54Z,2019-01-15T13:27:59Z,Ms2ger,,0
+399291977,true,Allow identifiers that start with a hyphen.,https://github.com/whatwg/webidl/pull/612,2019-01-15T10:58:26Z,2019-01-29T09:37:57Z,Ms2ger,,0
+399279172,true,Use %PromiseProto_then% to 'perform some steps once a promise is settled'.,https://github.com/whatwg/webidl/pull/611,2019-01-15T10:26:03Z,2019-01-18T14:47:26Z,Ms2ger,,0
+398968943,true,Use map/exists to define dictionary/present.,https://github.com/whatwg/webidl/pull/610,2019-01-14T16:29:41Z,2021-06-30T20:05:32Z,Ms2ger,,0
+398954979,true,Remove [NoInterfaceObject].,https://github.com/whatwg/webidl/pull/609,2019-01-14T15:59:38Z,2021-08-02T15:27:36Z,Ms2ger,do not merge yet,0
+397744587,true,Give Location an immutable prototype object,https://github.com/whatwg/webidl/pull/606,2019-01-10T09:37:53Z,2020-05-09T09:20:19Z,annevk,do not merge yet,0
+397410999,true,Detached ArrayBuffer objects should not throw,https://github.com/whatwg/webidl/pull/605,2019-01-09T15:03:02Z,2019-01-10T09:00:15Z,annevk,,0
+397401900,true,[[ViewedArrayBuffer]] cannot be undefined during usage,https://github.com/whatwg/webidl/pull/604,2019-01-09T14:43:32Z,2019-01-09T18:21:42Z,annevk,,0
+392154391,true,Editorial: Use some more abstract operations.,https://github.com/whatwg/webidl/pull/601,2018-12-18T13:22:25Z,2020-04-30T10:15:07Z,Ms2ger,do not merge yet,0
+390292891,true,Specify that returned Promises are created in the relevant realm,https://github.com/whatwg/webidl/pull/598,2018-12-12T16:01:37Z,2021-08-02T15:26:35Z,littledan,do not merge yet,0
+389139457,true,Adds [CatchTypeErrors] extended type attribute to stop TypeErrors from propagating during conversions,https://github.com/whatwg/webidl/pull/597,2018-12-10T04:54:25Z,2020-05-01T03:43:52Z,mgiuca,do not merge yet,0
+389043826,true,Only [Global] platform objects are immutable prototype,https://github.com/whatwg/webidl/pull/596,2018-12-09T17:19:50Z,2018-12-12T06:14:56Z,littledan,,0
+389043131,true,"Define ""implements"" checks using internal slots",https://github.com/whatwg/webidl/pull/595,2018-12-09T17:12:16Z,2019-02-07T22:14:14Z,littledan,,0
+389015878,true,Editorial: Note that interface mixins' elements are included among interface elements,https://github.com/whatwg/webidl/pull/594,2018-12-09T12:06:42Z,2019-01-29T17:34:57Z,littledan,,0
+388611466,true,Fix typo in example in Namespaces section,https://github.com/whatwg/webidl/pull/593,2018-12-07T11:15:39Z,2018-12-07T22:53:37Z,sideshowbarker,,0
+386058204,true,"Correct the spelling of ""additionally""",https://github.com/whatwg/webidl/pull/590,2018-11-30T06:40:46Z,2018-11-30T08:43:23Z,ricea,,0
+349433247,true,Further cleanup following #573,https://github.com/whatwg/webidl/pull/578,2018-08-10T09:03:06Z,2018-08-20T22:29:25Z,afdw,,0
+348322718,true,Include the legacy namespace identifier in both interface prototype objects and platform objects.,https://github.com/whatwg/webidl/pull/577,2018-08-07T13:32:18Z,2018-09-20T09:03:55Z,Ms2ger,,0
+347736463,true,Fix a place forgotten in #519,https://github.com/whatwg/webidl/pull/576,2018-08-05T22:25:51Z,2018-08-06T09:01:59Z,afdw,,0
+343355226,true,Editorial: add missing [ for [SecureContext],https://github.com/whatwg/webidl/pull/575,2018-07-21T20:56:35Z,2018-07-22T07:13:38Z,foolip,,0
+342695123,true,Cleanup following #562,https://github.com/whatwg/webidl/pull/573,2018-07-19T11:48:49Z,2019-03-11T10:24:29Z,saschanaz,,0
+340831509,true,A dictionary inheriting from a non-JSON type can't be a JSON type.,https://github.com/whatwg/webidl/pull/571,2018-07-12T23:25:51Z,2018-07-17T20:51:47Z,bzbarsky,,0
+338055375,true,Editorial: use less-confusing variable names in dictionary conversion,https://github.com/whatwg/webidl/pull/570,2018-07-03T21:09:14Z,2019-02-05T14:01:48Z,domenic,,1
 331213020,true,Update web-platform-tests URLs,https://github.com/whatwg/webidl/pull/565,2018-06-11T14:27:55Z,2018-06-11T14:43:02Z,foolip,,0
 327751150,true,Disallow multiple keywords for SpecialOperation,https://github.com/whatwg/webidl/pull/562,2018-05-30T14:15:19Z,2018-07-16T21:03:11Z,saschanaz,,0
 326872917,true,Fix a wrong description `[LenientThis]`,https://github.com/whatwg/webidl/pull/560,2018-05-28T01:57:17Z,2018-06-02T23:58:54Z,peria,,0

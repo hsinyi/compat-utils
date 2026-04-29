@@ -21,15 +21,116 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2143225160,true,Add explainer for ReadableStream async iteration,https://github.com/whatwg/streams/pull/1306,2024-02-19T22:18:51Z,2024-02-20T08:24:35Z,MattiasBuelens,,0
 2142963974,true,Review Draft Publication: February 2024,https://github.com/whatwg/streams/pull/1305,2024-02-19T18:44:31Z,2024-02-19T18:52:52Z,annevk,,0
 2104535493,true,Editorial: Export byte streams related terms,https://github.com/whatwg/streams/pull/1303,2024-01-29T02:53:50Z,2024-01-29T05:58:30Z,nidhijaju,,0
+1949218366,true,Meta: upgrade webidl2js dependency to v17,https://github.com/whatwg/streams/pull/1297,2023-10-18T08:53:39Z,2023-10-18T18:57:02Z,saschanaz,,0
+1915672651,true,Meta: update repository files,https://github.com/whatwg/streams/pull/1295,2023-09-27T14:07:02Z,2023-09-27T14:47:42Z,annevk,,0
 1671545996,false,Add support for writablestream owning type,https://github.com/whatwg/streams/pull/1272,2023-04-17T16:18:20Z,2023-04-17T16:27:25Z,youennf,,0
 1338520805,true,Review Draft Publication: August 2022,https://github.com/whatwg/streams/pull/1240,2022-08-15T04:22:24Z,2022-08-15T04:49:15Z,domenic,,1
 1332890507,true,Warn about async processing of written/transformed chunks,https://github.com/whatwg/streams/pull/1239,2022-08-09T08:17:56Z,2022-09-06T00:55:44Z,domenic,,0
 1254592480,true,Fix invalid high water mark for tee branches,https://github.com/whatwg/streams/pull/1234,2022-06-01T01:02:40Z,2022-06-01T03:05:19Z,yonran,,0
 1253275726,false,Clarify: tee is unsafe for independent consumption since it backpressures to the faster consumer,https://github.com/whatwg/streams/pull/1233,2022-05-31T03:03:01Z,2022-06-02T17:43:25Z,yonran,,0
+845401909,true,"Fix dfn refs for arguments of ""TransformStream/set up""",https://github.com/whatwg/streams/pull/1119,2021-03-30T22:44:04Z,2021-03-30T23:17:40Z,MattiasBuelens,,0
+842366538,true,Fix cancelPromise in ReadableStreamTee being resolved twice (again),https://github.com/whatwg/streams/pull/1118,2021-03-27T00:04:24Z,2021-04-01T20:36:23Z,MattiasBuelens,,0
+838716009,true,Meta: update repository files,https://github.com/whatwg/streams/pull/1115,2021-03-23T13:15:36Z,2021-03-23T13:56:41Z,annevk,,0
+836538460,true,Support teeing readable byte streams,https://github.com/whatwg/streams/pull/1114,2021-03-20T00:52:06Z,2021-07-09T02:42:35Z,MattiasBuelens,,0
+836234968,true,Add piping helpers for other specs,https://github.com/whatwg/streams/pull/1113,2021-03-19T17:52:29Z,2021-08-27T20:14:24Z,domenic,other spec interface,0
+836213927,true,"Fix cancelPromise in ReadableStreamTee being resolved twice ",https://github.com/whatwg/streams/pull/1112,2021-03-19T17:21:53Z,2021-03-20T23:12:22Z,MattiasBuelens,,0
+828325999,true,"Remove ""create"" algorithms for other specifications",https://github.com/whatwg/streams/pull/1110,2021-03-10T20:57:56Z,2021-03-30T18:53:18Z,domenic,other spec interface,0
+808535911,true,Review Draft Publication: February 2021,https://github.com/whatwg/streams/pull/1108,2021-02-15T13:22:26Z,2021-02-15T17:07:35Z,annevk,,0
+788616081,true,Settle reader.[[closedPromise]] before performing close/error steps of read requests,https://github.com/whatwg/streams/pull/1102,2021-01-19T00:20:48Z,2021-02-08T23:08:41Z,MattiasBuelens,,0
+785233495,true,Meta: default branch rename,https://github.com/whatwg/streams/pull/1101,2021-01-13T16:05:01Z,2021-01-15T07:28:35Z,annevk,,0
+780535797,true,Typo fix,https://github.com/whatwg/streams/pull/1099,2021-01-06T12:59:56Z,2021-02-09T10:57:26Z,tomayac,,0
+774949044,true,Fix missing check for autoAllocateChunkSize == 0,https://github.com/whatwg/streams/pull/1098,2020-12-26T23:39:58Z,2021-01-05T21:25:33Z,MattiasBuelens,,0
+759911621,true,Add User Benefits section to Byte Streams Explainer,https://github.com/whatwg/streams/pull/1096,2020-12-09T01:25:07Z,2020-12-09T03:15:33Z,nidhijaju,,0
+756735628,true,Add Reader Type assertions,https://github.com/whatwg/streams/pull/1095,2020-12-04T02:05:26Z,2020-12-04T18:24:26Z,nidhijaju,,0
+754843750,true,Add 'Otherwise' to BYOBReaderRead,https://github.com/whatwg/streams/pull/1093,2020-12-02T01:02:45Z,2020-12-02T17:14:44Z,nidhijaju,,0
+754560844,true,Editorial: refactor autoAllocateChunkSize checking,https://github.com/whatwg/streams/pull/1092,2020-12-01T16:53:05Z,2020-12-01T17:26:04Z,domenic,,0
+753977684,true,Add if condition for autoAllocateChunkSize to SetUpReadableByteStreamController(),https://github.com/whatwg/streams/pull/1090,2020-12-01T03:37:00Z,2020-12-01T10:16:38Z,nidhijaju,,0
+749480824,true,Update Byte Streams Explainer,https://github.com/whatwg/streams/pull/1088,2020-11-24T08:12:44Z,2020-11-25T06:07:22Z,nidhijaju,,0
+744393088,true,Editorial: Remove redundant steps from AcquireDefaultReader & BYOBReader,https://github.com/whatwg/streams/pull/1087,2020-11-17T04:09:41Z,2020-11-17T05:19:20Z,nidhijaju,,0
+731241159,true,Add Explainer for Byte Streams,https://github.com/whatwg/streams/pull/1081,2020-10-28T08:56:11Z,2020-10-29T09:46:25Z,nidhijaju,,0
+730433206,true,Fix readable byte stream example,https://github.com/whatwg/streams/pull/1080,2020-10-27T13:05:44Z,2020-10-28T15:04:33Z,nidhijaju,,0
+713067814,true,"Editorial: Add lt=""reading a chunk""",https://github.com/whatwg/streams/pull/1079,2020-10-01T18:01:57Z,2020-10-01T20:14:10Z,jyasskin,,0
+713059627,true,"Editorial: Define ""create a ReadableStream"" instead of just ""create""",https://github.com/whatwg/streams/pull/1078,2020-10-01T17:50:08Z,2021-03-10T20:26:25Z,jyasskin,,0
+711178689,true,Meta: link Review Draft,https://github.com/whatwg/streams/pull/1077,2020-09-29T14:40:43Z,2020-09-29T16:42:35Z,annevk,,0
+701441918,true,Editorial: fix missing async in example,https://github.com/whatwg/streams/pull/1076,2020-09-14T21:34:15Z,2020-09-14T21:51:16Z,MattiasBuelens,,0
+686619711,true,Create a dedicated section for interfacing with other specs,https://github.com/whatwg/streams/pull/1073,2020-08-26T21:13:09Z,2020-10-04T15:21:03Z,domenic,,0
+684223372,true,"Editorial: fix extra ""the"" in controller.error()",https://github.com/whatwg/streams/pull/1070,2020-08-23T17:28:22Z,2020-08-25T20:27:32Z,MattiasBuelens,,0
+681974358,true,Don't error an errored WritableStream on messageerror,https://github.com/whatwg/streams/pull/1069,2020-08-19T16:20:57Z,2020-08-28T16:52:19Z,ricea,,0
+681238214,true,Editorial: Align with Web IDL specification,https://github.com/whatwg/streams/pull/1068,2020-08-18T18:15:43Z,2020-08-18T18:19:31Z,autokagami,,0
+680631916,true,Remove redundant startPromise declaration,https://github.com/whatwg/streams/pull/1067,2020-08-18T02:02:22Z,2020-08-18T16:48:24Z,ricea,,0
+680282802,true,Review Draft Publication: August 2020,https://github.com/whatwg/streams/pull/1066,2020-08-17T14:32:49Z,2020-08-17T15:22:23Z,annevk,,0
+679887259,true,Editorial: Export [[detached]] slots,https://github.com/whatwg/streams/pull/1064,2020-08-17T02:24:40Z,2020-08-18T16:46:33Z,ricea,,0
+673059783,true,Make quotes around code font words consistent,https://github.com/whatwg/streams/pull/1062,2020-08-04T20:25:12Z,2020-08-04T21:52:41Z,ricea,editorial,0
+667270822,true,Editorial: rename internal slots for brevity,https://github.com/whatwg/streams/pull/1061,2020-07-28T18:12:30Z,2020-08-04T12:35:17Z,domenic,,0
+666629517,true,Editorial: tweak constructor/getter step introductions,https://github.com/whatwg/streams/pull/1060,2020-07-27T22:43:07Z,2020-07-28T02:43:55Z,domenic,,0
+664783442,true,Add examples for stopping pipes,https://github.com/whatwg/streams/pull/1059,2020-07-23T21:42:49Z,2020-08-17T17:20:19Z,domenic,,0
+664753967,true,Update WPT,https://github.com/whatwg/streams/pull/1058,2020-07-23T20:44:59Z,2020-07-24T20:29:17Z,MattiasBuelens,,0
+661106179,true,Remove obsolete asserts from reference implementation,https://github.com/whatwg/streams/pull/1056,2020-07-19T22:17:50Z,2020-07-20T09:29:34Z,MattiasBuelens,,0
+657695069,true,Fix argument order in UnderlyingSinkWriteCallback and TransformerTransformCallback definitions,https://github.com/whatwg/streams/pull/1054,2020-07-15T22:16:37Z,2020-07-16T14:33:44Z,MattiasBuelens,,0
+653540357,true,Support transferable streams (postMessage),https://github.com/whatwg/streams/pull/1053,2020-07-08T19:27:19Z,2020-08-14T02:11:07Z,ricea,,0
 651324774,true,Fix couple typos,https://github.com/whatwg/streams/pull/1052,2020-07-06T07:49:02Z,2020-07-07T15:37:17Z,Jamesernator,,0
 650769379,true,Editorial: various fixes,https://github.com/whatwg/streams/pull/1051,2020-07-03T21:18:05Z,2020-07-07T08:33:10Z,MattiasBuelens,,0
 649848891,true,Editorial: add cross-links to internal slots,https://github.com/whatwg/streams/pull/1050,2020-07-02T11:15:33Z,2020-08-13T23:23:02Z,MattiasBuelens,,0
+647394116,true,Meta: update repository files,https://github.com/whatwg/streams/pull/1049,2020-06-29T13:49:43Z,2020-06-29T14:08:00Z,foolip,,0
+644977369,true,Editorial: use structs instead of records,https://github.com/whatwg/streams/pull/1047,2020-06-24T21:12:31Z,2020-06-25T15:23:37Z,domenic,editorial,1
+644169167,true,Run idlharness tests on reference implementation,https://github.com/whatwg/streams/pull/1046,2020-06-23T21:49:16Z,2020-06-23T21:58:29Z,MattiasBuelens,,0
+643377461,true,Editorial: remove forAuthorCode and use dictionaries for read() return value,https://github.com/whatwg/streams/pull/1045,2020-06-22T21:39:09Z,2020-07-06T15:46:07Z,domenic,,0
+638429902,true,Fix typo in pipeTo() description,https://github.com/whatwg/streams/pull/1042,2020-06-14T21:02:14Z,2020-06-14T23:24:05Z,MattiasBuelens,,0
+637899266,true,Meta: migrate to GitHub Actions,https://github.com/whatwg/streams/pull/1041,2020-06-12T17:19:39Z,2020-06-13T21:27:08Z,foolip,,0
+637853383,true,Meta: run reference-implementation tests on GitHub Actions,https://github.com/whatwg/streams/pull/1040,2020-06-12T15:59:14Z,2020-06-12T17:19:49Z,foolip,,1
+637363763,true,Always resolve tee's cancel promise after stream closes or errors,https://github.com/whatwg/streams/pull/1039,2020-06-11T22:41:22Z,2020-08-07T14:29:36Z,MattiasBuelens,,0
+599170210,true,"Rewrite to use Web IDL, and generally modernize",https://github.com/whatwg/streams/pull/1035,2020-04-13T22:20:14Z,2020-06-11T15:52:02Z,domenic,,5
 591727418,true,Meta: update repository files,https://github.com/whatwg/streams/pull/1034,2020-04-01T08:30:04Z,2020-04-06T14:38:24Z,annevk,,0
+571943605,true,Add state checks to Close() and Enqueue(),https://github.com/whatwg/streams/pull/1029,2020-02-27T09:40:14Z,2020-03-11T01:09:19Z,ricea,,0
+566113424,true,Review Draft Publication: February 2020,https://github.com/whatwg/streams/pull/1028,2020-02-17T07:47:33Z,2020-02-17T09:19:35Z,foolip,,0
+558993479,true,Add checks before Close and Enqueue in tee(),https://github.com/whatwg/streams/pull/1027,2020-02-03T10:38:25Z,2020-02-27T09:41:52Z,ricea,,0
+537379126,true,"Export ""identity transform stream""",https://github.com/whatwg/streams/pull/1024,2019-12-13T06:49:45Z,2019-12-13T06:53:22Z,yutakahirano,,0
+519080444,true,Set [[disturbed]] synchronously in ReadableStreamPipeTo,https://github.com/whatwg/streams/pull/1022,2019-11-07T07:00:29Z,2019-11-13T01:05:45Z,ricea,,0
+516567751,true,Change promises-guide references to Web IDL,https://github.com/whatwg/streams/pull/1021,2019-11-02T11:28:15Z,2019-11-03T21:52:53Z,MattiasBuelens,,2
+484832385,true,Add WritableStream.close(),https://github.com/whatwg/streams/pull/1011,2019-08-24T15:09:09Z,2019-11-03T22:45:50Z,MattiasBuelens,,0
+482540844,true,Add helpers to use initial values of Promise methods,https://github.com/whatwg/streams/pull/1010,2019-08-19T21:38:24Z,2019-08-24T10:36:57Z,MattiasBuelens,,0
+482159559,true,Review Draft Publication: August 2019,https://github.com/whatwg/streams/pull/1009,2019-08-19T07:53:11Z,2019-08-19T08:02:31Z,annevk,,0
+467623264,true,Fix pipe not aborting when both preventAbort and preventCancel are set,https://github.com/whatwg/streams/pull/1006,2019-07-12T22:27:55Z,2019-07-29T18:22:56Z,MattiasBuelens,,0
+424518777,true,Make it clear that a chunk size has to be non-negative,https://github.com/whatwg/streams/pull/999,2019-03-23T16:34:08Z,2019-03-28T21:09:38Z,surma,clarification,0
+419130015,true,Remove extra arguments left over from forAuthorCode refactor,https://github.com/whatwg/streams/pull/998,2019-03-10T00:12:51Z,2019-03-11T10:40:57Z,MattiasBuelens,,0
+413756257,true,ReadableStreamTee: do not read when already pulling,https://github.com/whatwg/streams/pull/997,2019-02-23T23:32:46Z,2019-04-02T13:07:17Z,MattiasBuelens,,0
+413103499,true,Simplify [@@asyncIterator]().next(),https://github.com/whatwg/streams/pull/995,2019-02-21T20:12:26Z,2019-05-30T18:38:46Z,MattiasBuelens,,0
+412900446,true,"In ReadableStreamTee, replace _closedOrErrored_ with _closed_",https://github.com/whatwg/streams/pull/994,2019-02-21T12:28:39Z,2019-02-22T12:54:40Z,ricea,clarification,0
+411966500,true,Remove call to ClearPendingPullIntos from SetUpReadableByteSC,https://github.com/whatwg/streams/pull/993,2019-02-19T14:58:59Z,2019-02-20T06:17:11Z,ricea,,0
+411949082,true,ReadableStream reference implementation: remove unnecessary code,https://github.com/whatwg/streams/pull/992,2019-02-19T14:25:06Z,2019-02-20T06:14:12Z,ricea,reference implementation,0
+411682736,true,Initialize ReadableByteStreamController.[[byobRequest]] to undefined,https://github.com/whatwg/streams/pull/990,2019-02-18T23:25:06Z,2019-02-19T12:56:37Z,MattiasBuelens,,0
+411506038,true,Give pipeTo more latitude about byob chunk sizes,https://github.com/whatwg/streams/pull/989,2019-02-18T14:38:26Z,2019-02-21T22:55:50Z,ricea,piping,0
+411464693,true,Stop using better-assert,https://github.com/whatwg/streams/pull/988,2019-02-18T13:00:46Z,2019-02-18T13:53:03Z,ricea,reference implementation,0
+411460154,true,Replace impossible condition with assert,https://github.com/whatwg/streams/pull/987,2019-02-18T12:48:52Z,2019-02-18T17:14:25Z,ricea,,0
+411399855,true,Review Draft Publication: February 2019,https://github.com/whatwg/streams/pull/986,2019-02-18T10:16:22Z,2019-02-18T17:08:45Z,annevk,,0
+408451103,true,Treat forAuthorCode as an internal slot of reader object,https://github.com/whatwg/streams/pull/984,2019-02-09T17:22:45Z,2019-03-01T16:34:10Z,MattiasBuelens,,0
+403454146,true,Add @@asyncIterator to ReadableStream,https://github.com/whatwg/streams/pull/980,2019-01-26T15:53:37Z,2022-06-27T10:46:44Z,MattiasBuelens,,0
+390601161,true,Editorial changes to transferable streams explainer,https://github.com/whatwg/streams/pull/977,2018-12-13T09:58:24Z,2019-02-05T11:19:50Z,ricea,,0
+388687540,true,"Demos: Add lang=""en"" to html files",https://github.com/whatwg/streams/pull/974,2018-12-07T14:56:32Z,2018-12-07T15:55:20Z,ricea,,0
+388681953,true,Update Makefile to copy top-level demos files,https://github.com/whatwg/streams/pull/973,2018-12-07T14:42:35Z,2018-12-10T05:37:05Z,ricea,,0
+387675727,true,[Demos] Update TextDecoderStream polyfill,https://github.com/whatwg/streams/pull/972,2018-12-05T09:53:32Z,2018-12-07T14:20:22Z,ricea,,0
+387517180,true,Match _closeWS parameter name with name used in body,https://github.com/whatwg/streams/pull/971,2018-12-04T22:57:18Z,2018-12-10T05:35:00Z,Garee,,0
+386120701,true,Fix two missing full stops,https://github.com/whatwg/streams/pull/970,2018-11-30T10:10:59Z,2018-11-30T10:17:49Z,ricea,,0
+384471972,true,Treat forAuthorCode as an internal slot of reader object.,https://github.com/whatwg/streams/pull/969,2018-11-26T19:16:33Z,2019-02-18T13:20:58Z,jorendorff,,0
+383990651,true,Fix memory leak in pipe loop reference implementation,https://github.com/whatwg/streams/pull/968,2018-11-24T13:42:26Z,2018-11-29T16:43:19Z,MattiasBuelens,,0
+383592062,true,Use multi-global tests,https://github.com/whatwg/streams/pull/967,2018-11-22T15:58:27Z,2018-11-26T09:29:06Z,MattiasBuelens,,0
+383568356,true,Add a brand check to pipeThrough(),https://github.com/whatwg/streams/pull/966,2018-11-22T14:53:41Z,2018-11-27T14:27:25Z,ricea,,0
+369262044,true,Meta: fix realm issues in reference implementation testing setup,https://github.com/whatwg/streams/pull/957,2018-10-11T19:02:41Z,2018-10-12T15:27:41Z,domenic,,0
+368554510,true,Add explainer for transferable streams,https://github.com/whatwg/streams/pull/956,2018-10-10T08:43:17Z,2018-12-10T11:58:23Z,ricea,editorial,0
+358169065,true,add @@asyncIterator to ReadableStream,https://github.com/whatwg/streams/pull/954,2018-09-07T18:34:14Z,2021-07-08T18:47:02Z,devsnek,,0
+352558578,true,Review Draft Publication: August 2018,https://github.com/whatwg/streams/pull/951,2018-08-21T14:11:49Z,2018-08-21T21:04:03Z,annevk,,0
+351791712,true,add @@asyncIterator to ReadableStreamDefaultReader,https://github.com/whatwg/streams/pull/950,2018-08-18T05:17:40Z,2018-09-14T15:09:19Z,devsnek,,1
+347403139,true,"Export the ""transform stream"" concept",https://github.com/whatwg/streams/pull/949,2018-08-03T13:45:48Z,2018-08-06T14:34:43Z,ricea,,0
+346188652,true,Make rejections from transformAlgorithm error the readable,https://github.com/whatwg/streams/pull/948,2018-07-31T13:30:41Z,2018-08-02T09:45:07Z,ricea,,0
+346160373,true,Clear [[strategySizeAlgorithm]] slot when no longer needed,https://github.com/whatwg/streams/pull/947,2018-07-31T12:12:21Z,2018-07-31T13:31:27Z,ricea,,0
+343501744,true,ReadableStream: clear algorithms once they will no longer be used,https://github.com/whatwg/streams/pull/944,2018-07-23T06:20:09Z,2018-07-31T05:31:21Z,ricea,,0
+341242754,true,Add missing check for WritableStream...ClearAlgorithms,https://github.com/whatwg/streams/pull/943,2018-07-14T15:06:20Z,2018-07-17T14:11:29Z,ricea,editorial|writable streams,1
+340774985,true,Update FAQ on async iterables,https://github.com/whatwg/streams/pull/941,2018-07-12T19:51:11Z,2018-07-13T07:09:16Z,bakkot,,0
+340168049,true,WritableStream: clear algorithms once they will no longer be called,https://github.com/whatwg/streams/pull/940,2018-07-11T09:43:42Z,2018-07-14T14:49:19Z,ricea,writable streams,0
+340114732,true,Set shuttingDown at the beginning of shutdown,https://github.com/whatwg/streams/pull/939,2018-07-11T06:56:33Z,2018-07-11T18:38:10Z,ricea,piping|clarification,0
+337554261,true,TransformStream: clear algorithms once they will no longer be called,https://github.com/whatwg/streams/pull/937,2018-07-02T14:59:04Z,2018-07-03T04:06:47Z,ricea,transform streams,0
+337508897,true,Don't create iterators with Object.prototype for internal use,https://github.com/whatwg/streams/pull/936,2018-07-02T13:01:45Z,2018-07-12T04:29:40Z,ricea,,0
+337491447,true,Add some missing exclamation marks,https://github.com/whatwg/streams/pull/935,2018-07-02T12:08:44Z,2018-07-02T14:21:53Z,ricea,editorial,0
 331186774,true,Update web-platform-tests submodule URL,https://github.com/whatwg/streams/pull/931,2018-06-11T13:22:11Z,2018-06-12T03:00:14Z,foolip,,0
 330412080,true,Add a text encoding step to example 8.9,https://github.com/whatwg/streams/pull/930,2018-06-07T19:51:25Z,2018-11-29T16:55:17Z,MattiasBuelens,,0
 327291316,true,Meta: Review Draft infrastructure,https://github.com/whatwg/streams/pull/928,2018-05-29T12:06:21Z,2018-05-29T15:04:36Z,annevk,,0
