@@ -6,7 +6,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4334134531,false,Responsively-sized iframes,https://github.com/mozilla/standards-positions/issues/1394,2026-04-27T08:08:15Z,2026-04-27T08:19:25Z,kojiishi,,1
 4315674542,false,Request support for path() and shape() basic shape functions in shape-outside property,https://github.com/mozilla/standards-positions/issues/1393,2026-04-23T11:45:50Z,2026-04-23T11:51:40Z,CGQAQ,,0
 4315662037,false,Capability Element - <usermedia> (former PEPC),https://github.com/mozilla/standards-positions/issues/1392,2026-04-23T11:43:29Z,2026-04-23T11:50:36Z,MinhAnhL,,0
-4291545395,false,Request for WebMCP,https://github.com/mozilla/standards-positions/issues/1391,2026-04-19T17:35:40Z,2026-04-20T09:47:37Z,CandelaGreen,,0
+4291545395,false,Request for WebMCP,https://github.com/mozilla/standards-positions/issues/1391,2026-04-19T17:35:40Z,2026-04-20T09:47:37Z,CandelaGreen,,1
 4251316420,false,WebSocket BFCache integration (Disconnect on entry),https://github.com/mozilla/standards-positions/issues/1390,2026-04-13T04:41:44Z,2026-04-13T11:00:09Z,llannasatoll,,0
 4228069778,false,Gamepad Event-Driven Input API,https://github.com/mozilla/standards-positions/issues/1389,2026-04-08T22:23:59Z,2026-04-13T12:09:29Z,gabrielsanbrito,topic: API|team: Graphics,1
 4225073863,false,`<install>` element,https://github.com/mozilla/standards-positions/issues/1388,2026-04-08T13:57:21Z,2026-04-08T13:57:21Z,christianliebel,,4
@@ -160,7 +160,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3033882148,false,Language Detector API,https://github.com/mozilla/standards-positions/issues/1219,2025-05-01T13:36:25Z,2026-01-22T09:12:26Z,saschanaz,,0
 3028165717,true,Web Neural Network API,https://github.com/mozilla/standards-positions/issues/1215,2025-04-29T12:35:20Z,2026-01-12T18:10:11Z,iampi31415,venue: W3C|position: positive|topic: API,0
 3026307416,true,Add prefetchCache and prerenderCache to Clear-Site-Data header,https://github.com/mozilla/standards-positions/issues/1214,2025-04-28T21:42:26Z,2025-12-08T18:49:48Z,srwei,venue: W3C CG|position: positive|topic: HTTP,0
-3025198467,false,Prompt API,https://github.com/mozilla/standards-positions/issues/1213,2025-04-28T14:48:59Z,2026-05-01T09:44:15Z,saschanaz,position: negative,74
+3025198467,false,Prompt API,https://github.com/mozilla/standards-positions/issues/1213,2025-04-28T14:48:59Z,2026-05-01T19:38:23Z,saschanaz,position: negative,82
 3020111890,true,HTML <a> ping attribute,https://github.com/mozilla/standards-positions/issues/1212,2025-04-25T13:43:12Z,2025-06-03T20:59:42Z,hsinyi,position: positive|topic: HTML,0
 3019968319,true,[CSS UI-4] caret-shape property,https://github.com/mozilla/standards-positions/issues/1211,2025-04-25T12:46:51Z,2025-12-08T18:22:31Z,ziransun,venue: W3C|position: positive|topic: CSS,0
 3013330791,true,"Escape ""<"" and "">"" when serializing attribute values",https://github.com/mozilla/standards-positions/issues/1209,2025-04-23T09:31:02Z,2025-04-24T10:47:01Z,evilpie,position: positive|topic: HTML|team: DOM,0
@@ -390,7 +390,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1968372944,true,WebGPU timestamp queries,https://github.com/mozilla/standards-positions/issues/918,2023-10-30T13:33:34Z,2026-03-09T18:53:10Z,beaufortfrancois,venue: W3C|position: positive|topic: API,0
 1961840684,true,WebCodecs support for AV1 screen content coding tools,https://github.com/mozilla/standards-positions/issues/916,2023-10-25T16:51:24Z,2024-12-18T19:56:56Z,fippo,duplicate,0
 1958700960,false,Add a close event to MessagePort,https://github.com/mozilla/standards-positions/issues/914,2023-10-24T07:49:44Z,2026-02-09T18:51:23Z,nononokam,topic: API,2
-1956017646,false,Device Bound Session Credentials,https://github.com/mozilla/standards-positions/issues/912,2023-10-22T19:04:11Z,2026-04-25T16:24:42Z,MrBrain295,,26
+1956017646,false,Device Bound Session Credentials,https://github.com/mozilla/standards-positions/issues/912,2023-10-22T19:04:11Z,2026-04-25T16:24:42Z,MrBrain295,,27
 1950816361,false,Media Capabilities (hdrMetadataType),https://github.com/mozilla/standards-positions/issues/910,2023-10-18T22:35:01Z,2023-10-18T22:35:22Z,dalecurtis,,0
 1947702903,false,Permissions Policy Reporting and Report-Only mode,https://github.com/mozilla/standards-positions/issues/909,2023-10-17T15:28:33Z,2024-05-21T16:20:23Z,clelland,,0
 1946311398,true,Page Embedded Permission Control,https://github.com/mozilla/standards-positions/issues/908,2023-10-17T00:28:55Z,2025-06-23T19:59:50Z,b1tr0t,position: negative|concerns: complexity|concerns: integration|concerns: use cases,0
@@ -439,7 +439,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1815667864,true,Web Environment Integrity API,https://github.com/mozilla/standards-positions/issues/852,2023-07-21T11:45:54Z,2024-10-18T12:53:11Z,gacelperfinian,position: negative,91
 1813637553,false,Media Queries Level 5: prefers-reduced-transparency,https://github.com/mozilla/standards-positions/issues/851,2023-07-20T10:13:31Z,2023-08-16T19:48:34Z,lukewarlow,,1
 1811570156,false,Captured Mouse Events,https://github.com/mozilla/standards-positions/issues/850,2023-07-19T09:37:35Z,2023-07-19T09:37:35Z,eladalon1983,,0
-1809167033,true,css-ui `field-sizing` property,https://github.com/mozilla/standards-positions/issues/849,2023-07-18T05:53:22Z,2026-03-18T12:33:20Z,tkent-google,position: positive,40
+1809167033,true,css-ui `field-sizing` property,https://github.com/mozilla/standards-positions/issues/849,2023-07-18T05:53:22Z,2026-05-01T20:43:12Z,tkent-google,position: positive,40
 1808337238,false,Clear Client Hints via Clear-Site-Data header,https://github.com/mozilla/standards-positions/issues/848,2023-07-17T18:23:52Z,2023-07-17T18:37:30Z,arichiv,,0
 1803472312,true,Web Serial with add-on gating,https://github.com/mozilla/standards-positions/issues/847,2023-07-13T17:30:54Z,2024-10-21T13:17:20Z,Merlin04,duplicate,0
 1799807367,true,"ManagedMediaSource API ",https://github.com/mozilla/standards-positions/issues/845,2023-07-11T21:52:27Z,2024-09-13T15:11:12Z,marcoscaceres,position: positive,0
