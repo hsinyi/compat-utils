@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4371797705,false,Initial about:blank window reuse changes active document too early,https://github.com/whatwg/html/issues/12415,2026-05-03T12:28:30Z,2026-05-03T12:30:22Z,shannonbooth,,0
 4360399157,false,Upcoming WHATNOT meeting on 20YY-MM-DD,https://github.com/whatwg/html/issues/12413,2026-04-30T18:29:10Z,2026-04-30T18:29:10Z,jstenback,agenda+,0
 4359558449,false,Meeting 42 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12412,2026-04-30T16:09:22Z,2026-04-30T23:13:04Z,mfreed7,,0
 4338459061,false,Should cross-origin isolation be part of the agent cluster key?,https://github.com/whatwg/html/issues/12408,2026-04-27T19:48:00Z,2026-05-02T00:14:17Z,annevk,security/privacy|topic: workers|topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,0
@@ -2139,7 +2140,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1177177506,true,Question: Expected behavior for Object.keys with storage objects,https://github.com/whatwg/html/issues/7741,2022-03-22T18:50:05Z,2022-03-22T18:55:43Z,jasonnutter,,0
 1176559847,true,HTML syntax: omitting <body> should not be allowed if first child is <noscript>,https://github.com/whatwg/html/issues/7737,2022-03-22T10:14:53Z,2022-09-15T17:15:31Z,zcorpan,good first issue|document conformance,0
 1176210826,true,Should a preload with SRI and a main request without SRI be matched?,https://github.com/whatwg/html/issues/7736,2022-03-22T03:17:51Z,2022-05-19T00:42:57Z,hiroshige-g,security/privacy|topic: fetch|topic: resource hints (inc. preload),0
-1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2025-10-08T14:10:25Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,98
+1176048863,false,Consider preventing page scroll when modal dialog is visible,https://github.com/whatwg/html/issues/7732,2022-03-21T23:10:00Z,2025-10-08T14:10:25Z,scottaohara,topic: rendering|accessibility|a11y-tracker|topic: dialog,99
 1175078464,false,"Modern browsers don't implement ""4.10.21.2 Implicit submission"" correctly",https://github.com/whatwg/html/issues/7730,2022-03-21T08:59:00Z,2022-03-21T12:40:28Z,IliasDewachter,topic: forms,0
 1172930450,false,<a download> can sometimes just navigate,https://github.com/whatwg/html/issues/7718,2022-03-17T21:19:34Z,2025-03-03T09:50:56Z,domenic,topic: navigation|interop,1
 1172424410,true,Iframe's sandbox IDL definition. Why is it readonly?,https://github.com/whatwg/html/issues/7717,2022-03-17T13:59:33Z,2022-03-17T15:25:41Z,ArthurSonzogni,,0
@@ -3786,7 +3787,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 357331672,false,WindowProxy exposes cross-origin side channel,https://github.com/whatwg/html/issues/4005,2018-09-05T17:35:35Z,2018-09-06T14:48:10Z,jakemco,security/privacy|topic: multiple globals,0
 357287740,false,The <video> poster attribute should accept multiple sources,https://github.com/whatwg/html/issues/4004,2018-09-05T15:37:34Z,2026-04-22T21:18:35Z,benwiley4000,addition/proposal|topic: media,13
 357276278,false,meta refresh waiting is broken,https://github.com/whatwg/html/issues/4003,2018-09-05T15:11:39Z,2018-09-05T15:11:39Z,TimothyGu,topic: navigation,0
-356971691,false,Consider a blocklist for schemes instead of a safelist,https://github.com/whatwg/html/issues/3998,2018-09-04T20:52:06Z,2024-07-29T18:16:15Z,asankah,addition/proposal|topic: custom protocols,2
+356971691,false,Consider a blocklist for schemes instead of a safelist,https://github.com/whatwg/html/issues/3998,2018-09-04T20:52:06Z,2026-05-03T09:08:13Z,asankah,addition/proposal|topic: custom protocols,2
 356945492,false,Chrome/Safari handles bareword calls to Window methods differently than Firefox,https://github.com/whatwg/html/issues/3997,2018-09-04T19:29:56Z,2018-09-07T14:41:18Z,TimothyGu,topic: multiple globals|interop,0
 356895897,false,"Add ""holding a web lock"" to conditions for ""protected worker""",https://github.com/whatwg/html/issues/3996,2018-09-04T16:56:12Z,2018-09-05T10:09:09Z,inexorabletash,topic: workers,0
 356889595,true,Recent TextMetrics baseline changes may have jumped the gun,https://github.com/whatwg/html/issues/3995,2018-09-04T16:36:28Z,2018-09-17T20:51:46Z,domenic,topic: canvas,0
@@ -5501,7 +5502,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 135998052,true,Update request's destination field to match Fetch,https://github.com/whatwg/html/issues/731,2016-02-24T09:04:07Z,2016-07-06T13:43:48Z,annevk,clarification,0
 135983545,true,"event handler doesn't specify event listener's ""passive""",https://github.com/whatwg/html/issues/729,2016-02-24T07:36:08Z,2016-03-01T17:23:38Z,cvrebert,clarification|good first issue,0
 135326640,true,Need a way to styling the disclosure triangle of the <details> (or <summary>) element,https://github.com/whatwg/html/issues/722,2016-02-22T06:11:03Z,2017-03-16T14:30:31Z,aethanyc,,0
-135113216,true,HTML should support self-closing tags in general,https://github.com/whatwg/html/issues/721,2016-02-20T19:40:45Z,2020-04-28T16:48:58Z,nlwillia,addition/proposal|needs implementer interest,35
+135113216,true,HTML should support self-closing tags in general,https://github.com/whatwg/html/issues/721,2016-02-20T19:40:45Z,2020-04-28T16:48:58Z,nlwillia,addition/proposal|needs implementer interest,36
 134919889,true,Need to be clearer about how aborted/terminated script evaluations are handled,https://github.com/whatwg/html/issues/715,2016-02-19T17:13:27Z,2016-02-22T17:02:14Z,bzbarsky,clarification,0
 134896630,true,Deprecate AddSearchProvider?,https://github.com/whatwg/html/issues/713,2016-02-19T15:46:39Z,2016-04-26T11:20:37Z,RByers,removal/deprecation,0
 134763167,true,"Remove <link rel=""sidebar"">?",https://github.com/whatwg/html/issues/711,2016-02-19T03:43:15Z,2016-02-19T03:58:10Z,domenic,removal/deprecation,0
