@@ -10,7 +10,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3302535649,false,The Internal Queue of streams should be exposed upon stream cancellation for proper clean up of pending chunks.,https://github.com/whatwg/streams/issues/1350,2025-08-08T04:00:38Z,2025-08-08T06:27:02Z,BlackAsLight,addition/proposal|needs implementer interest,0
 3265375861,false,"Why does the `read` method of `ReadableStreamBYOBReader` class, need to _transfer_ the buffer it is provided?",https://github.com/whatwg/streams/issues/1348,2025-07-26T09:18:15Z,2025-08-18T19:23:16Z,amn,,0
 3253756132,true,Web IDL syntax error,https://github.com/whatwg/streams/issues/1347,2025-07-22T18:59:25Z,2025-07-23T21:19:47Z,autokagami,,0
-3218526979,false,`async iterable` is now `async_iterable`,https://github.com/whatwg/streams/issues/1345,2025-07-10T09:10:44Z,2025-07-10T12:17:08Z,AtkinsSJ,,1
+3218526979,true,`async iterable` is now `async_iterable`,https://github.com/whatwg/streams/issues/1345,2025-07-10T09:10:44Z,2026-05-03T13:25:02Z,AtkinsSJ,,1
 3023966521,false,Clarify that `ReadableStream`'s `cancel` may be invoked before `start` is complete,https://github.com/whatwg/streams/issues/1344,2025-04-28T07:22:15Z,2025-04-28T07:22:15Z,ardislu,,0
 3002108444,false,Clarify expected behaviour when breaking async iteration of teed ReadableStream,https://github.com/whatwg/streams/issues/1343,2025-04-17T10:38:21Z,2025-04-17T10:55:51Z,lukasIO,,1
 2889726074,true,strategySizeAlgorithm validation in WritableStreamDefaultControllerGetChunkSize,https://github.com/whatwg/streams/issues/1341,2025-03-02T18:59:55Z,2025-04-03T07:12:25Z,daeyeon,writable streams,0
