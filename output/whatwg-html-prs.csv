@@ -6,8 +6,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4317972432,true,"Use ""self"" in select position-try-fallbacks",https://github.com/whatwg/html/pull/12400,2026-04-23T18:22:24Z,2026-04-23T19:36:36Z,josepharhar,normative change|topic: forms|topic: select,0
 4308865632,false,Upstream Document Picture-in-Picture API,https://github.com/whatwg/html/pull/12397,2026-04-22T12:05:20Z,2026-04-28T12:52:10Z,vinhill,,0
 4302841030,false,Upstream sanitizer api,https://github.com/whatwg/html/pull/12395,2026-04-21T13:16:44Z,2026-04-30T12:26:30Z,noamr,,0
-4290723126,false,Process all pending lazy loading intersection observations,https://github.com/whatwg/html/pull/12391,2026-04-19T11:43:15Z,2026-04-19T12:03:20Z,shannonbooth,,0
-4284044415,false,Make the muted content attribute a fallback,https://github.com/whatwg/html/pull/12389,2026-04-17T16:39:28Z,2026-04-17T16:54:59Z,annevk,topic: media,0
+4290723126,false,Process all pending lazy loading intersection observations,https://github.com/whatwg/html/pull/12391,2026-04-19T11:43:15Z,2026-05-05T12:18:59Z,shannonbooth,,0
+4284044415,true,Make the muted content attribute a fallback,https://github.com/whatwg/html/pull/12389,2026-04-17T16:39:28Z,2026-05-05T09:38:55Z,annevk,topic: media,0
 4279303283,true,Add img controls/alt conformance criteria,https://github.com/whatwg/html/pull/12385,2026-04-17T00:22:29Z,2026-04-19T12:33:32Z,yoelhawa,,1
 4277505367,true,Make naturalWidth & naturalHeight return non-0 when the image lacks a dimension,https://github.com/whatwg/html/pull/12382,2026-04-16T17:39:52Z,2026-04-22T16:12:59Z,annevk,normative change|topic: img,0
 4277324532,false,Clarify EventSource behavior with the back/forward cache,https://github.com/whatwg/html/pull/12381,2026-04-16T17:07:12Z,2026-05-04T13:18:53Z,zp1996,,0
@@ -90,7 +90,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3912962747,true,Editorial: Fix some markup + wording,https://github.com/whatwg/html/pull/12143,2026-02-08T15:39:46Z,2026-02-09T21:49:27Z,jmdyck,,0
 3891566683,true,"Editorial: modernize/consistify string and ""current token"" style",https://github.com/whatwg/html/pull/12128,2026-02-03T14:31:03Z,2026-02-08T08:50:38Z,foolip,,0
 3889549162,false,Editorial: Clarify return value of Storage property accessor,https://github.com/whatwg/html/pull/12127,2026-02-03T06:56:21Z,2026-04-01T07:15:00Z,shannonbooth,,0
-3885015798,false,Pass the correct iframe fallback URL to resource timing,https://github.com/whatwg/html/pull/12124,2026-02-02T09:56:50Z,2026-04-13T12:02:10Z,noamr,,0
+3885015798,false,Pass the correct iframe fallback URL to resource timing,https://github.com/whatwg/html/pull/12124,2026-02-02T09:56:50Z,2026-05-05T08:58:48Z,noamr,agenda+,0
 3877956159,false,Parse XML-style <?target data?> processing instructions,https://github.com/whatwg/html/pull/12118,2026-01-31T00:22:11Z,2026-03-18T12:48:29Z,foolip,,4
 3866756722,true,Editorial: Use the correct Module Record in HostLoadImportedModule,https://github.com/whatwg/html/pull/12114,2026-01-28T18:23:25Z,2026-01-29T12:05:08Z,nicolo-ribaudo,,2
 3847284352,true,Replace drafts.fxtf.org links with drafts.csswg.org,https://github.com/whatwg/html/pull/12105,2026-01-23T12:38:28Z,2026-01-23T12:57:48Z,nicolo-ribaudo,,0
@@ -116,7 +116,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3739393306,true,Avoid unresolved promises in Navigation API traversal,https://github.com/whatwg/html/pull/12031,2025-12-17T15:34:23Z,2026-02-26T15:01:44Z,zcorpan,,0
 3737222223,true,Editorial: Fix wording and punctuation,https://github.com/whatwg/html/pull/12027,2025-12-17T03:51:38Z,2025-12-22T15:11:24Z,jmdyck,,1
 3736701020,false,Add document policy to the policy container,https://github.com/whatwg/html/pull/12026,2025-12-16T23:27:19Z,2026-02-12T17:57:58Z,monica-ch,,0
-3735295434,false,Navigation API: nullify ongoing navigate event on successful cross-document navigation,https://github.com/whatwg/html/pull/12024,2025-12-16T15:31:17Z,2026-03-19T07:59:38Z,noamr,,0
+3735295434,false,Navigation API: nullify ongoing navigate event on successful cross-document navigation,https://github.com/whatwg/html/pull/12024,2025-12-16T15:31:17Z,2026-05-05T08:33:15Z,noamr,,0
 3735064449,true,"Move ""clean up API method tracker"" to the right place",https://github.com/whatwg/html/pull/12022,2025-12-16T14:35:18Z,2026-01-12T10:54:36Z,noamr,,0
 3734374547,true,Fixing button command early-bail steps,https://github.com/whatwg/html/pull/12021,2025-12-16T11:25:01Z,2026-01-09T18:52:27Z,jakearchibald,,1
 3726130924,true,Fix ordering of lifecycle callbacks to match implementations,https://github.com/whatwg/html/pull/12017,2025-12-13T16:09:47Z,2026-03-31T16:14:21Z,lukewarlow,,0
