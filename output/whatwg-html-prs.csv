@@ -1,5 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4401847584,false,[DRAFT]  Add readonly attribute to fieldset element,https://github.com/whatwg/html/pull/12424,2026-05-07T20:40:42Z,2026-05-07T22:29:24Z,teoeter,,0
+4406040097,false,Stop defining volumechange in terms of public API,https://github.com/whatwg/html/pull/12428,2026-05-08T11:33:38Z,2026-05-08T11:35:24Z,annevk,,0
+4404999905,false,Pass response to WebDriver BiDi donwnload events.,https://github.com/whatwg/html/pull/12426,2026-05-08T08:32:53Z,2026-05-08T08:34:36Z,lutien,,0
+4401847584,false,[DRAFT]  Add readonly attribute to fieldset element,https://github.com/whatwg/html/pull/12424,2026-05-07T20:40:42Z,2026-05-08T06:03:59Z,teoeter,,0
 4387037484,false,Defer updating the reused window's associated document until activation,https://github.com/whatwg/html/pull/12421,2026-05-05T20:53:14Z,2026-05-05T20:54:59Z,shannonbooth,,0
 4385472705,true,Remove fragment parsing special case for input tags,https://github.com/whatwg/html/pull/12420,2026-05-05T16:06:16Z,2026-05-05T16:34:04Z,josepharhar,,0
 4376443950,true,Rename HTMLOrSVGElement mixin to HTMLOrSVGOrMathMLElement,https://github.com/whatwg/html/pull/12416,2026-05-04T12:10:58Z,2026-05-04T15:56:16Z,lukewarlow,,2
@@ -93,7 +95,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3912962747,true,Editorial: Fix some markup + wording,https://github.com/whatwg/html/pull/12143,2026-02-08T15:39:46Z,2026-02-09T21:49:27Z,jmdyck,,0
 3891566683,true,"Editorial: modernize/consistify string and ""current token"" style",https://github.com/whatwg/html/pull/12128,2026-02-03T14:31:03Z,2026-02-08T08:50:38Z,foolip,,0
 3889549162,false,Editorial: Clarify return value of Storage property accessor,https://github.com/whatwg/html/pull/12127,2026-02-03T06:56:21Z,2026-04-01T07:15:00Z,shannonbooth,,0
-3885015798,false,Pass the correct iframe fallback URL to resource timing,https://github.com/whatwg/html/pull/12124,2026-02-02T09:56:50Z,2026-05-07T16:52:42Z,noamr,agenda+,0
+3885015798,false,Pass the correct iframe fallback URL to resource timing,https://github.com/whatwg/html/pull/12124,2026-02-02T09:56:50Z,2026-05-08T08:31:38Z,noamr,agenda+,0
 3877956159,false,Parse XML-style <?target data?> processing instructions,https://github.com/whatwg/html/pull/12118,2026-01-31T00:22:11Z,2026-03-18T12:48:29Z,foolip,,4
 3866756722,true,Editorial: Use the correct Module Record in HostLoadImportedModule,https://github.com/whatwg/html/pull/12114,2026-01-28T18:23:25Z,2026-01-29T12:05:08Z,nicolo-ribaudo,,2
 3847284352,true,Replace drafts.fxtf.org links with drafts.csswg.org,https://github.com/whatwg/html/pull/12105,2026-01-23T12:38:28Z,2026-01-23T12:57:48Z,nicolo-ribaudo,,0
@@ -204,7 +206,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3488477586,true,"Remove incorrect usages of link options destination",https://github.com/whatwg/html/pull/11757,2025-10-06T18:13:13Z,2025-10-10T08:55:03Z,TimvdLippe,,0
 3484788647,false,Add id attribute to DOM clobbering note,https://github.com/whatwg/html/pull/11754,2025-10-05T13:03:10Z,2025-10-05T13:04:41Z,adi-ray,,0
 3482998078,true,Editorial: fix typo “nulll” should be “null”,https://github.com/whatwg/html/pull/11748,2025-10-04T00:54:17Z,2025-10-04T09:59:53Z,JinDX,,0
-3478824122,false,Integrate OpaqueRange hooks into text controls (input/textarea),https://github.com/whatwg/html/pull/11741,2025-10-02T20:26:35Z,2026-05-06T14:21:05Z,stephanieyzhang,,0
+3478824122,false,Integrate OpaqueRange hooks into text controls (input/textarea),https://github.com/whatwg/html/pull/11741,2025-10-02T20:26:35Z,2026-05-08T10:08:26Z,stephanieyzhang,,0
 3475400447,true,Improve optgroup's list of option elements,https://github.com/whatwg/html/pull/11738,2025-10-01T22:44:46Z,2025-10-17T05:18:57Z,josepharhar,,0
 3475240578,true,Remove optgroup element removal and moving steps,https://github.com/whatwg/html/pull/11737,2025-10-01T21:44:43Z,2025-10-07T12:56:02Z,josepharhar,,0
 3473184206,false,[Not for review yet] Add CanvasToneMapping to CanvasSettings,https://github.com/whatwg/html/pull/11734,2025-10-01T11:35:30Z,2025-10-01T11:37:04Z,ccameron-chromium,,0
@@ -235,7 +237,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3418839498,true,remove synchronous document.cookie api to avoid jank; use cookieStore…,https://github.com/whatwg/html/pull/11662,2025-09-15T17:21:33Z,2025-09-16T04:02:15Z,Chanran,,0
 3418551159,true,Editorial: clarify the xmlns notes by merging them,https://github.com/whatwg/html/pull/11660,2025-09-15T15:52:40Z,2025-09-16T05:21:26Z,annevk,,0
 3416642173,true,Editorial: correct spelling of style sheet,https://github.com/whatwg/html/pull/11659,2025-09-15T07:18:46Z,2025-09-15T11:22:22Z,annevk,,0
-3416025068,false,[import-bytes] add import bytes,https://github.com/whatwg/html/pull/11657,2025-09-15T02:23:05Z,2026-03-05T02:39:18Z,styfle,,2
+3416025068,false,[import-bytes] add import bytes,https://github.com/whatwg/html/pull/11657,2025-09-15T02:23:05Z,2026-05-08T02:59:55Z,styfle,,2
 3412022714,true,Switch dialog/popover to using place-self:dialog,https://github.com/whatwg/html/pull/11656,2025-09-12T21:47:20Z,2025-12-01T09:28:01Z,tabatkins,,2
 3407835189,true,Capitalize autocomplete and autocapitalize attribute states,https://github.com/whatwg/html/pull/11654,2025-09-11T19:43:51Z,2025-09-15T04:47:33Z,lukewarlow,,0
 3403940616,false,Add lightning to the safelisted schemes list,https://github.com/whatwg/html/pull/11649,2025-09-10T21:05:12Z,2025-09-11T02:31:27Z,asoltys,addition/proposal|needs implementer interest|topic: custom protocols,0
@@ -458,7 +460,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2863858337,true,Add request-close command for dialogs,https://github.com/whatwg/html/pull/11045,2025-02-19T16:35:59Z,2025-05-23T11:07:59Z,lukewarlow,addition/proposal|topic: dialog|topic: close watchers,0
 2860036355,true,Editorial: putImageData: Clarify that the operation is not a memcpy,https://github.com/whatwg/html/pull/11042,2025-02-18T10:50:01Z,2025-02-21T07:29:51Z,ccameron-chromium,clarification|topic: canvas,0
 2857117178,true,"Editorial: refer to color components, not channels",https://github.com/whatwg/html/pull/11035,2025-02-17T08:23:12Z,2025-02-21T14:12:43Z,annevk,,0
-2855665815,false,Add immutable array buffer awareness to structuredClone,https://github.com/whatwg/html/pull/11033,2025-02-15T19:10:43Z,2026-04-08T20:39:15Z,gibson042,do not merge yet|topic: script|integration,0
+2855665815,false,Add immutable array buffer awareness to structuredClone,https://github.com/whatwg/html/pull/11033,2025-02-15T19:10:43Z,2026-05-08T02:00:49Z,gibson042,do not merge yet|topic: script|integration,0
 2853979806,true,Implement WebDriver BiDi interception in the show file picker algorithm,https://github.com/whatwg/html/pull/11030,2025-02-14T15:18:17Z,2025-03-12T07:29:40Z,sadym-chromium,integration,1
 2853601072,true,style: use title case for attr-translate-yes-state and attr-translate…,https://github.com/whatwg/html/pull/11027,2025-02-14T12:38:39Z,2025-08-02T06:19:48Z,HarshitGourlariya,,0
 2846556240,true,Editorial: move definition of submit button,https://github.com/whatwg/html/pull/11018,2025-02-11T21:31:34Z,2025-02-11T22:07:06Z,keithamus,,0
