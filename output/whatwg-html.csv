@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4425012079,false,New visibility attribute,https://github.com/whatwg/html/issues/12438,2026-05-11T23:27:41Z,2026-05-11T23:28:04Z,jenli358,addition/proposal|needs implementer interest,0
+4422950454,false,"New ""accessible-autofocus"" attribute",https://github.com/whatwg/html/issues/12436,2026-05-11T17:37:11Z,2026-05-11T17:37:11Z,russell-aciss,addition/proposal|needs implementer interest,0
 4413904707,true,"Broken ""element with default preferred size"" links",https://github.com/whatwg/html/issues/12433,2026-05-09T21:40:06Z,2026-05-10T06:12:24Z,nicolo-ribaudo,,0
 4405745776,true,Declarative Shadow Dom (DSD) - Can it be parsed by ChatGPT crawlers?,https://github.com/whatwg/html/issues/12427,2026-05-08T10:39:03Z,2026-05-08T11:32:26Z,sesa821933-source,,0
 4402161008,false,New <graph> tag,https://github.com/whatwg/html/issues/12425,2026-05-07T21:31:48Z,2026-05-09T11:59:22Z,jenli358,addition/proposal|needs implementer interest,0
@@ -141,7 +143,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3930750339,false,Interop: focusability of `dialog[popover]`,https://github.com/whatwg/html/issues/12156,2026-02-12T09:23:09Z,2026-02-12T09:24:24Z,jpzwarte,topic: dialog|topic: popover,0
 3930439514,false,Determining dropEffect based on effectAllowed + modifier keys,https://github.com/whatwg/html/issues/12155,2026-02-12T08:13:21Z,2026-02-26T17:27:21Z,tanu18,,0
 3928896424,false,Unblock Document-Policy to Policy Container PR,https://github.com/whatwg/html/issues/12154,2026-02-11T22:09:37Z,2026-02-17T14:29:10Z,monica-ch,,0
-3923058520,false,Platform-Provided Behaviors for Custom Elements,https://github.com/whatwg/html/issues/12150,2026-02-10T18:55:59Z,2026-04-23T17:20:00Z,anaskim,addition/proposal|needs implementer interest|topic: custom elements|stage: 1,0
+3923058520,false,Platform-Provided Behaviors for Custom Elements,https://github.com/whatwg/html/issues/12150,2026-02-10T18:55:59Z,2026-04-23T17:20:00Z,anaskim,addition/proposal|needs implementer interest|topic: custom elements|stage: 1,1
 3917833084,true,Incorrect definition for media element pseudo class `:stalled`,https://github.com/whatwg/html/issues/12145,2026-02-09T19:42:39Z,2026-03-16T17:20:56Z,alastor0325,topic: media|needs tests|topic: selectors,0
 3908815904,true,Upcoming WHATNOT meeting on 2026-02-12,https://github.com/whatwg/html/issues/12141,2026-02-06T23:24:04Z,2026-02-26T01:01:22Z,cwilso,,0
 3907067934,false,`<link rel=stylesheet>` waits for critical subresources before we know what they are,https://github.com/whatwg/html/issues/12140,2026-02-06T14:35:46Z,2026-02-09T21:59:31Z,AtkinsSJ,topic: style,0
@@ -286,7 +288,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3580119965,false,Avoid looping in the onerror event of the <img> natively.,https://github.com/whatwg/html/issues/11866,2025-11-02T23:52:00Z,2025-11-03T08:15:28Z,fabioselau077,topic: img,0
 3578053845,false,Navigation API: Spec misses to make order of reacting to committed promise and firing onsuccess explicit,https://github.com/whatwg/html/issues/11864,2025-11-01T14:15:05Z,2025-11-01T14:15:44Z,farre,topic: navigation,0
 3575300039,true,Lazy-loading for `<video>`s and `<audio>`s,https://github.com/whatwg/html/issues/11861,2025-10-31T14:59:26Z,2025-10-31T16:14:04Z,iamakulov,addition/proposal|needs implementer interest,0
-3575273488,false,Navigation API: Dangling ongoing navigate event causes inconsistent behavior in tests,https://github.com/whatwg/html/issues/11860,2025-10-31T14:52:51Z,2025-12-16T14:14:34Z,jnjaeschke,topic: navigation,0
+3575273488,true,Navigation API: Dangling ongoing navigate event causes inconsistent behavior in tests,https://github.com/whatwg/html/issues/11860,2025-10-31T14:52:51Z,2026-05-11T14:37:52Z,jnjaeschke,topic: navigation,0
 3575143698,true,Should the HTMLSelectedContentElement interface exist?,https://github.com/whatwg/html/issues/11859,2025-10-31T14:15:25Z,2025-10-31T16:56:12Z,annevk,topic: select,0
 3572880266,false,Clarification on button-layout 'behave as' definition and getComputedStyle().display discrepancy,https://github.com/whatwg/html/issues/11857,2025-10-31T00:03:17Z,2025-10-31T00:03:17Z,lpas,,1
 3572355241,true,`controls` attribute for `<img>` element,https://github.com/whatwg/html/issues/11856,2025-10-30T20:15:43Z,2026-04-15T13:04:23Z,yoelhawa,addition/proposal|needs implementer interest|topic: img,3
@@ -4239,7 +4241,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 273159140,true,Specify HTML numeric character reference fallback encoding for multipart upload filename characters not representable in form charset,https://github.com/whatwg/html/issues/3223,2017-11-11T16:57:19Z,2021-03-01T14:55:01Z,bsittler,topic: forms,0
 273157511,true,"""dataTransfer = new DataTransfer() Creates a new...""",https://github.com/whatwg/html/issues/3222,2017-11-11T16:33:18Z,2017-11-12T02:52:50Z,guest271314,,0
 272950195,true,The spec for parsing a sizes attribute is not what impls do or what WPT tests,https://github.com/whatwg/html/issues/3220,2017-11-10T14:31:08Z,2017-11-10T21:40:50Z,emilio,topic: img,0
-272749311,false,label-input association across Shadow DOM boundary,https://github.com/whatwg/html/issues/3219,2017-11-09T22:29:20Z,2018-11-06T06:10:58Z,tomalec,topic: shadow|accessibility,7
+272749311,false,label-input association across Shadow DOM boundary,https://github.com/whatwg/html/issues/3219,2017-11-09T22:29:20Z,2018-11-06T06:10:58Z,tomalec,topic: shadow|accessibility,8
 272551695,false,ordering of mediaElement.readyState changing to HAVE_METADATA and video/audio track object creation,https://github.com/whatwg/html/issues/3218,2017-11-09T12:45:12Z,2017-11-28T13:47:43Z,jpiesing,topic: media,0
 272438484,true,How does CEReactions interact with thrown exceptions?,https://github.com/whatwg/html/issues/3217,2017-11-09T04:38:11Z,2017-11-17T16:21:53Z,bzbarsky,topic: custom elements|interop,0
 272249971,true,What should happen with location.reload() on a page that is a POST result?,https://github.com/whatwg/html/issues/3215,2017-11-08T15:56:02Z,2022-10-31T05:06:57Z,bzbarsky,topic: navigation|topic: forms|interop|topic: location,0
