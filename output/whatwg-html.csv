@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4433084847,false,New <spreadsheet> tag,https://github.com/whatwg/html/issues/12443,2026-05-12T22:29:46Z,2026-05-12T22:30:11Z,jenli358,addition/proposal|needs implementer interest,0
 4428360532,false,Extraordinary WHATNOT meeting on 2026-06-??,https://github.com/whatwg/html/issues/12441,2026-05-12T10:36:40Z,2026-05-12T10:38:48Z,lukewarlow,,0
 4425012079,true,New visibility attribute,https://github.com/whatwg/html/issues/12438,2026-05-11T23:27:41Z,2026-05-12T07:36:21Z,jenli358,addition/proposal|needs implementer interest,0
 4422950454,true,"New ""accessible-autofocus"" attribute",https://github.com/whatwg/html/issues/12436,2026-05-11T17:37:11Z,2026-05-12T12:34:35Z,russell-aciss,addition/proposal|needs implementer interest,0
@@ -17,7 +18,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4323381878,false,<link> quirks should probably match stylesheet origin-clean flag,https://github.com/whatwg/html/issues/12403,2026-04-24T13:52:42Z,2026-05-05T08:43:09Z,emilio,topic: fetch|topic: link|topic: style,0
 4318808114,true,Upcoming WHATNOT meeting on 2026-04-30,https://github.com/whatwg/html/issues/12401,2026-04-23T20:52:41Z,2026-04-30T18:25:46Z,jstenback,agenda+,0
 4316617106,true,"<meta name=""ai:context""> A Standard Convention for Serving Machine-Readable Page Context to AI Agents",https://github.com/whatwg/html/issues/12399,2026-04-23T14:15:18Z,2026-04-23T19:45:44Z,dgautsch,addition/proposal|needs implementer interest,2
-4310471094,false,"Should IME composition be treated more explicitly as a distinct input context, rather than ordinary application shortcut input?",https://github.com/whatwg/html/issues/12398,2026-04-22T16:38:02Z,2026-05-12T05:47:44Z,kyouhei-horizumi,topic: events|integration,0
+4310471094,false,"Should IME composition be treated more explicitly as a distinct input context, rather than ordinary application shortcut input?",https://github.com/whatwg/html/issues/12398,2026-04-22T16:38:02Z,2026-05-12T15:44:51Z,kyouhei-horizumi,topic: events|integration,0
 4304294068,true,importNode should allow null customElementRegistry,https://github.com/whatwg/html/issues/12396,2026-04-21T17:32:59Z,2026-04-24T15:16:16Z,sorvell,topic: custom elements,0
 4299148980,false,Close or disable pickers of disabled controls,https://github.com/whatwg/html/issues/12392,2026-04-20T22:54:58Z,2026-04-23T16:03:55Z,sb3nder,addition/proposal|needs implementer interest,0
 4282815474,false,SpellCheck Custom Dictionary / exemptions,https://github.com/whatwg/html/issues/12388,2026-04-17T13:05:36Z,2026-04-30T18:11:40Z,bkardell,addition/proposal|needs implementer interest|stage: 1,0
@@ -57,7 +58,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4195491316,false,[Customizable select] Define UA behavior for interactive content inside <option>,https://github.com/whatwg/html/issues/12328,2026-04-02T15:52:11Z,2026-04-23T20:02:14Z,minorninth,accessibility|a11y-tracker|topic: select,0
 4187739049,false,disallow customized builtin elements from being on the list of active formatting elements,https://github.com/whatwg/html/issues/12327,2026-04-01T15:14:46Z,2026-04-03T12:41:10Z,dbaron,topic: parser|topic: custom elements,0
 4171890982,false,HostEnqueueFinalizationRegistryCleanupJob assumes [[Callback]] has a [[Realm]] slot,https://github.com/whatwg/html/issues/12326,2026-03-30T15:53:15Z,2026-03-30T15:53:15Z,Lubrsi,,0
-4170982205,false,Disallow fragment navigations from `<meta http-equiv=refresh>`,https://github.com/whatwg/html/issues/12325,2026-03-30T14:00:44Z,2026-03-31T10:38:54Z,zcorpan,topic: navigation,0
+4170982205,true,Disallow fragment navigations from `<meta http-equiv=refresh>`,https://github.com/whatwg/html/issues/12325,2026-03-30T14:00:44Z,2026-05-12T15:12:18Z,zcorpan,topic: navigation,0
 4168339981,true,Provide regular release notes or information how to keep oneself up-to-date on HTML spec changes,https://github.com/whatwg/html/issues/12324,2026-03-30T07:42:14Z,2026-03-31T12:57:18Z,GergelyKalmar,,0
 4156610333,true,Upcoming WHATNOT meeting on 2026-04-02,https://github.com/whatwg/html/issues/12322,2026-03-28T00:15:50Z,2026-04-07T21:58:35Z,cwilso,,0
 4153544407,false,<hr size> integer parsing interop,https://github.com/whatwg/html/issues/12320,2026-03-27T15:08:14Z,2026-03-31T14:30:55Z,annevk,needs tests|interop,0
@@ -130,7 +131,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3973118440,false,"Proposal: Improve UI stepping behavior in <input type=""number"">",https://github.com/whatwg/html/issues/12188,2026-02-22T00:06:14Z,2026-03-01T14:51:46Z,xavierholt,addition/proposal|needs implementer interest|topic: forms,1
 3969567391,false,Special case label associated with a button in popover light dismiss,https://github.com/whatwg/html/issues/12185,2026-02-20T17:21:12Z,2026-02-20T18:53:02Z,lukewarlow,addition/proposal|needs implementer interest|topic: popover,1
 3969036561,true,:hover and :active changes for <select>,https://github.com/whatwg/html/issues/12183,2026-02-20T15:11:50Z,2026-03-23T17:57:34Z,annevk,topic: selectors|topic: select,0
-3965012045,false,Signaling abort before nulling out onging event in #abort-a-navigateevent can trigger assert in firing navigate event,https://github.com/whatwg/html/issues/12180,2026-02-19T20:46:08Z,2026-02-19T20:46:08Z,farre,topic: navigation,0
+3965012045,true,Signaling abort before nulling out onging event in #abort-a-navigateevent can trigger assert in firing navigate event,https://github.com/whatwg/html/issues/12180,2026-02-19T20:46:08Z,2026-05-12T15:11:02Z,farre,topic: navigation,0
 3964014908,true,Meeting 37 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12179,2026-02-19T17:02:47Z,2026-03-10T15:46:15Z,mfreed7,,0
 3963413597,false,"""create a link request"" assertion can be hit",https://github.com/whatwg/html/issues/12178,2026-02-19T14:58:41Z,2026-03-04T20:39:52Z,zcorpan,,0
 3961466511,false,#navigation-api-method-tracker-clean-up can be re-entered from #performing-a-navigation-api-traversal,https://github.com/whatwg/html/issues/12176,2026-02-19T07:47:58Z,2026-02-19T07:47:58Z,farre,topic: navigation,0
