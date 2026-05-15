@@ -717,7 +717,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2858132025,false,.elementInternals accessor property,https://github.com/whatwg/html/issues/11040,2025-02-17T15:13:42Z,2026-02-13T20:20:55Z,WilcoFiers,addition/proposal|needs implementer interest|accessibility|topic: custom elements|stage: 0,3
 2857640792,true,Update `putImageData` documentation to not indicate that it is doing a `memcpy`,https://github.com/whatwg/html/issues/11037,2025-02-17T11:58:15Z,2025-02-21T07:28:40Z,ccameron-chromium,topic: canvas,0
 2857528609,false,Possibly missing lowercasing step for `autocomplete` attribute,https://github.com/whatwg/html/issues/11036,2025-02-17T11:11:08Z,2025-02-17T12:44:33Z,devgianlu,topic: forms,0
-2855295872,false,Reference-style hyperlinks,https://github.com/whatwg/html/issues/11032,2025-02-15T07:11:01Z,2025-02-16T13:43:10Z,knowler,addition/proposal|needs implementer interest,17
+2855295872,false,Reference-style hyperlinks,https://github.com/whatwg/html/issues/11032,2025-02-15T07:11:01Z,2025-02-16T13:43:10Z,knowler,addition/proposal|needs implementer interest,18
 2854858498,true,WebAssembly JS String Builtins & the ESM Integration,https://github.com/whatwg/html/issues/11031,2025-02-14T23:15:50Z,2025-10-08T03:58:16Z,guybedford,,0
 2853664242,false,"`createImageBitmap` does not immediately convert color space, premultiply alpha, etc.",https://github.com/whatwg/html/issues/11029,2025-02-14T13:00:25Z,2025-02-25T08:10:11Z,Hajime-san,topic: canvas,0
 2853658770,false,window.open Promise(s),https://github.com/whatwg/html/issues/11028,2025-02-14T12:58:29Z,2025-02-15T11:00:00Z,arichiv,,0
@@ -1083,7 +1083,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2327513339,false,[Proposal] capture screen,https://github.com/whatwg/html/issues/10382,2024-05-31T10:35:41Z,2024-09-14T09:51:01Z,hemanth,addition/proposal|needs implementer interest,2
 2326705799,true,Upcoming WHATNOT meeting on 6/6/2024,https://github.com/whatwg/html/issues/10381,2024-05-30T23:34:22Z,2024-06-06T17:00:23Z,past,agenda+,0
 2324176691,false,HTML Video and its Source Elements Should Support SRCSET and SIZES,https://github.com/whatwg/html/issues/10379,2024-05-29T20:16:56Z,2024-08-14T12:07:18Z,scottjehl,addition/proposal|needs implementer interest|topic: media,16
-2324127724,false,"HTML Video Poster Image: Enable Responsive Images and ALT Text for Poster ",https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2026-05-14T15:03:51Z,scottjehl,addition/proposal|needs implementer interest|topic: media|stage: 1,39
+2324127724,false,"HTML Video Poster Image: Enable Responsive Images and ALT Text for Poster ",https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2026-05-15T07:49:04Z,scottjehl,addition/proposal|needs implementer interest|topic: media|stage: 1,39
 2324097406,false,"Specify That Responsive Video Elements Re-Evaluate Sources on Media Change, Like Picture",https://github.com/whatwg/html/issues/10377,2024-05-29T19:33:05Z,2025-11-20T12:55:12Z,scottjehl,addition/proposal|needs implementer interest|topic: media,9
 2324056660,true,Video and Audio Element loading=lazy attribute support,https://github.com/whatwg/html/issues/10376,2024-05-29T19:09:50Z,2026-03-23T15:57:20Z,scottjehl,addition/proposal|needs implementer interest|topic: media,31
 2322953911,true,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-10-08T12:22:36Z,yoavweiss,addition/proposal|needs implementer interest|topic: cross-origin-opener-policy,0
@@ -4006,7 +4006,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 319399689,true,Need to spec fieldset layout,https://github.com/whatwg/html/issues/3660,2018-05-02T03:37:52Z,2018-09-19T18:04:42Z,bzbarsky,topic: rendering|interop|integration|topic: fieldset,0
 318869706,true,Possible spec bug with allowpaymentrequest and creation of iframe,https://github.com/whatwg/html/issues/3657,2018-04-30T12:13:58Z,2021-05-26T22:48:44Z,zcorpan,topic: navigation,0
 318657454,true,"Character entity larrpl isn't left-arrow-with-plus, to match rarrpl",https://github.com/whatwg/html/issues/3655,2018-04-28T18:12:16Z,2021-09-20T15:08:38Z,ediosyncratic,normative change|needs implementer interest|topic: parser,0
-318410602,false,Describe HTMLOptionsCollection's length tree mutation in terms of DOM,https://github.com/whatwg/html/issues/3652,2018-04-27T13:31:17Z,2026-05-14T22:23:39Z,annevk,clarification|good first issue|topic: forms,0
+318410602,false,Describe HTMLOptionsCollection's length tree mutation in terms of DOM,https://github.com/whatwg/html/issues/3652,2018-04-27T13:31:17Z,2026-05-15T13:23:37Z,annevk,clarification|topic: forms,0
 318322382,true,"Remove ""type"" from ""form data set"" entry",https://github.com/whatwg/html/issues/3648,2018-04-27T08:33:10Z,2018-05-08T09:10:21Z,tkent-google,clarification|topic: forms,0
 317832094,true,"Formalize the concept of ""If any event listeners were triggered""",https://github.com/whatwg/html/issues/3646,2018-04-25T23:55:32Z,2020-10-12T16:13:46Z,gterzian,topic: events,0
 316880989,false,"referer header on <meta http-equiv=""refresh"" content=""0;url="">",https://github.com/whatwg/html/issues/3643,2018-04-23T16:09:39Z,2025-01-28T17:53:46Z,wanderview,topic: fetch|interop,1
