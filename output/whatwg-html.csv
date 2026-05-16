@@ -149,7 +149,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3930750339,false,Interop: focusability of `dialog[popover]`,https://github.com/whatwg/html/issues/12156,2026-02-12T09:23:09Z,2026-02-12T09:24:24Z,jpzwarte,topic: dialog|topic: popover,0
 3930439514,false,Determining dropEffect based on effectAllowed + modifier keys,https://github.com/whatwg/html/issues/12155,2026-02-12T08:13:21Z,2026-02-26T17:27:21Z,tanu18,,0
 3928896424,false,Unblock Document-Policy to Policy Container PR,https://github.com/whatwg/html/issues/12154,2026-02-11T22:09:37Z,2026-02-17T14:29:10Z,monica-ch,,0
-3923058520,false,Platform-Provided Behaviors for Custom Elements,https://github.com/whatwg/html/issues/12150,2026-02-10T18:55:59Z,2026-05-14T06:41:37Z,anaskim,addition/proposal|needs implementer interest|topic: custom elements|stage: 1,1
+3923058520,false,Platform-Provided Behaviors for Custom Elements,https://github.com/whatwg/html/issues/12150,2026-02-10T18:55:59Z,2026-05-15T21:18:48Z,anaskim,addition/proposal|needs implementer interest|topic: custom elements|stage: 1,1
 3917833084,true,Incorrect definition for media element pseudo class `:stalled`,https://github.com/whatwg/html/issues/12145,2026-02-09T19:42:39Z,2026-03-16T17:20:56Z,alastor0325,topic: media|needs tests|topic: selectors,0
 3908815904,true,Upcoming WHATNOT meeting on 2026-02-12,https://github.com/whatwg/html/issues/12141,2026-02-06T23:24:04Z,2026-02-26T01:01:22Z,cwilso,,0
 3907067934,false,`<link rel=stylesheet>` waits for critical subresources before we know what they are,https://github.com/whatwg/html/issues/12140,2026-02-06T14:35:46Z,2026-02-09T21:59:31Z,AtkinsSJ,topic: style,0
@@ -478,7 +478,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3260411291,true,Meeting 26 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11483,2025-07-24T16:00:41Z,2025-08-14T21:58:41Z,mfreed7,,0
 3255853568,false,Input type monetary,https://github.com/whatwg/html/issues/11480,2025-07-23T10:42:41Z,2025-09-06T03:00:41Z,PlaySafe,addition/proposal|needs implementer interest|topic: forms,0
 3255670043,false,Content-Type on multipart/form-data part without setting filename,https://github.com/whatwg/html/issues/11479,2025-07-23T09:41:01Z,2025-07-25T07:58:40Z,faerytea,addition/proposal|needs implementer interest,0
-3250174379,false,OpaqueRange Interface,https://github.com/whatwg/html/issues/11478,2025-07-21T22:11:15Z,2026-04-29T15:44:38Z,t-andresre,addition/proposal|agenda+|stage: 2,3
+3250174379,false,OpaqueRange Interface,https://github.com/whatwg/html/issues/11478,2025-07-21T22:11:15Z,2026-05-15T20:26:03Z,t-andresre,addition/proposal|agenda+|stage: 2,3
 3249337860,true,Base appearance for list box select elements,https://github.com/whatwg/html/issues/11477,2025-07-21T16:42:21Z,2025-12-15T21:24:56Z,josepharhar,topic: select,0
 3249191419,true,Meeting 25 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11476,2025-07-21T15:55:43Z,2025-07-24T16:01:53Z,mfreed7,,0
 3245553588,false,`Link` header parsing too lenient according to RFC 8288,https://github.com/whatwg/html/issues/11468,2025-07-19T18:48:32Z,2025-10-09T13:28:33Z,TimvdLippe,integration,0
@@ -717,7 +717,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2858132025,false,.elementInternals accessor property,https://github.com/whatwg/html/issues/11040,2025-02-17T15:13:42Z,2026-02-13T20:20:55Z,WilcoFiers,addition/proposal|needs implementer interest|accessibility|topic: custom elements|stage: 0,3
 2857640792,true,Update `putImageData` documentation to not indicate that it is doing a `memcpy`,https://github.com/whatwg/html/issues/11037,2025-02-17T11:58:15Z,2025-02-21T07:28:40Z,ccameron-chromium,topic: canvas,0
 2857528609,false,Possibly missing lowercasing step for `autocomplete` attribute,https://github.com/whatwg/html/issues/11036,2025-02-17T11:11:08Z,2025-02-17T12:44:33Z,devgianlu,topic: forms,0
-2855295872,false,Reference-style hyperlinks,https://github.com/whatwg/html/issues/11032,2025-02-15T07:11:01Z,2025-02-16T13:43:10Z,knowler,addition/proposal|needs implementer interest,18
+2855295872,false,Reference-style hyperlinks,https://github.com/whatwg/html/issues/11032,2025-02-15T07:11:01Z,2025-02-16T13:43:10Z,knowler,addition/proposal|needs implementer interest,20
 2854858498,true,WebAssembly JS String Builtins & the ESM Integration,https://github.com/whatwg/html/issues/11031,2025-02-14T23:15:50Z,2025-10-08T03:58:16Z,guybedford,,0
 2853664242,false,"`createImageBitmap` does not immediately convert color space, premultiply alpha, etc.",https://github.com/whatwg/html/issues/11029,2025-02-14T13:00:25Z,2025-02-25T08:10:11Z,Hajime-san,topic: canvas,0
 2853658770,false,window.open Promise(s),https://github.com/whatwg/html/issues/11028,2025-02-14T12:58:29Z,2025-02-15T11:00:00Z,arichiv,,0
@@ -1336,7 +1336,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1998116614,true,How to serialize new CSS color functions in canvas?,https://github.com/whatwg/html/issues/9939,2023-11-17T01:59:39Z,2023-11-17T02:42:23Z,Loirooriol,,0
 1998110326,true,Orphan nested dedicated worker closing seems buggy,https://github.com/whatwg/html/issues/9938,2023-11-17T01:55:30Z,2023-11-18T03:12:22Z,Kaiido,clarification|topic: workers,0
 1997946764,true,Upcoming WHATNOT meeting on 11/30/2023,https://github.com/whatwg/html/issues/9937,2023-11-16T23:11:47Z,2023-12-01T00:02:06Z,past,agenda+,0
-1997483561,false,A popover on top of a modal dialog should be interactable,https://github.com/whatwg/html/issues/9936,2023-11-16T18:24:20Z,2026-04-30T14:36:03Z,benfrain,topic: dialog|topic: popover,51
+1997483561,false,A popover on top of a modal dialog should be interactable,https://github.com/whatwg/html/issues/9936,2023-11-16T18:24:20Z,2026-04-30T14:36:03Z,benfrain,topic: dialog|topic: popover,52
 1996392285,false,Cookie API,https://github.com/whatwg/html/issues/9935,2023-11-16T09:05:17Z,2024-01-16T15:59:46Z,kettanaito,addition/proposal|needs implementer interest|topic: cookie,70
 1990956391,true,Enable lazy loading for URLs on use href,https://github.com/whatwg/html/issues/9929,2023-11-13T15:59:05Z,2023-11-14T03:49:00Z,lfre,addition/proposal|needs implementer interest,0
 1990529573,true,Switch back to official CSSWG specs,https://github.com/whatwg/html/issues/9928,2023-11-13T12:12:23Z,2025-02-06T02:09:13Z,Loirooriol,,0
@@ -1526,7 +1526,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1767690214,true,auto-sizes concrete object size ignoring natural dimensions is not implementable,https://github.com/whatwg/html/issues/9448,2023-06-21T14:08:37Z,2023-11-30T12:59:38Z,zcorpan,topic: img,1
 1765973926,false,HTML Video Element: Proposal For Support for Srcset and Sizes attributes on source elements,https://github.com/whatwg/html/issues/9446,2023-06-20T18:52:24Z,2023-06-21T07:29:11Z,scottjehl,addition/proposal|topic: media,21
 1764161923,true,Spec clarification: Are values in fontVariant & fontKerning case sensitive?,https://github.com/whatwg/html/issues/9445,2023-06-19T20:09:46Z,2023-06-19T22:59:06Z,yiyix,,0
-1763904590,false,"Import with type text, bytes, and URL",https://github.com/whatwg/html/issues/9444,2023-06-19T17:07:43Z,2026-01-01T20:13:37Z,kriskowal,addition/proposal|needs implementer interest|topic: script,39
+1763904590,false,"Import with type text, bytes, and URL",https://github.com/whatwg/html/issues/9444,2023-06-19T17:07:43Z,2026-01-01T20:13:37Z,kriskowal,addition/proposal|needs implementer interest|topic: script,40
 1763586145,false,Why is checking document validity skipped sometimes?,https://github.com/whatwg/html/issues/9441,2023-06-19T13:47:43Z,2023-09-04T13:10:28Z,ghost,topic: popover,0
 1759295446,true,Upcoming HTML standard issue triage meeting on 6/29/2023,https://github.com/whatwg/html/issues/9432,2023-06-15T17:52:32Z,2023-06-29T14:43:18Z,past,agenda+,0
 1758822017,true,`nestedShow` is not initialized in https://html.spec.whatwg.org/#show-popover,https://github.com/whatwg/html/issues/9429,2023-06-15T13:17:53Z,2023-06-29T14:03:02Z,ghost,topic: popover,0
