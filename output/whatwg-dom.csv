@@ -165,7 +165,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1368165602,false,Consider adding a timeout parameter to the AbortController constructor,https://github.com/whatwg/dom/issues/1110,2022-09-09T18:08:54Z,2023-05-17T14:39:31Z,shaseley,needs implementer interest|addition/proposal|topic: aborting,0
 1357367844,false,Minor textContent / string replace all optimization,https://github.com/whatwg/dom/issues/1106,2022-08-31T13:48:13Z,2025-02-14T21:18:54Z,annevk,interop|topic: nodes,2
 1352791054,true,MutationObserver callbacks happen in unexpected order.,https://github.com/whatwg/dom/issues/1105,2022-08-26T22:34:40Z,2025-12-16T15:38:09Z,trusktr,topic: mutation observers,2
-1330866554,false,TreeWalker.nextNode loops forever if last node of a detached node tree is not accepted by the filter,https://github.com/whatwg/dom/issues/1102,2022-08-06T23:08:56Z,2025-11-28T12:38:19Z,Lubrsi,topic: traversal,0
+1330866554,true,TreeWalker.nextNode loops forever if last node of a detached node tree is not accepted by the filter,https://github.com/whatwg/dom/issues/1102,2022-08-06T23:08:56Z,2026-05-21T14:11:27Z,Lubrsi,topic: traversal,0
 1314829605,false,Which interfaces should have event handler attributes?,https://github.com/whatwg/dom/issues/1097,2022-07-22T10:27:32Z,2022-07-22T11:18:59Z,foolip,topic: events,4
 1299866530,true,Does `MutationObserver` `attributeFilter` accept itorators?,https://github.com/whatwg/dom/issues/1092,2022-07-10T08:54:01Z,2022-07-22T07:54:45Z,trusktr,,0
 1285564839,true,Expose `signal.reason` as `error.cause` for `AbortError`,https://github.com/whatwg/dom/issues/1090,2022-06-27T10:06:15Z,2022-07-27T07:05:33Z,LiviaMedeiros,,0
