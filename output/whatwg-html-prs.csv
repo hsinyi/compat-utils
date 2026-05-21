@@ -29,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4319129763,true,Meta: add issue template for WHATNOT meetings,https://github.com/whatwg/html/pull/12402,2026-04-23T21:58:08Z,2026-04-24T12:24:14Z,annevk,,0
 4317972432,true,"Use ""self"" in select position-try-fallbacks",https://github.com/whatwg/html/pull/12400,2026-04-23T18:22:24Z,2026-04-23T19:36:36Z,josepharhar,normative change|topic: forms|topic: select,0
 4308865632,false,Upstream Document Picture-in-Picture API,https://github.com/whatwg/html/pull/12397,2026-04-22T12:05:20Z,2026-04-28T12:52:10Z,vinhill,,0
-4302841030,false,Upstream sanitizer api,https://github.com/whatwg/html/pull/12395,2026-04-21T13:16:44Z,2026-05-13T19:03:05Z,noamr,,0
+4302841030,false,Upstream sanitizer api,https://github.com/whatwg/html/pull/12395,2026-04-21T13:16:44Z,2026-05-20T21:19:08Z,noamr,,0
 4290723126,false,Process all pending lazy loading intersection observations,https://github.com/whatwg/html/pull/12391,2026-04-19T11:43:15Z,2026-05-05T12:18:59Z,shannonbooth,,0
 4284044415,true,Make the muted content attribute a fallback,https://github.com/whatwg/html/pull/12389,2026-04-17T16:39:28Z,2026-05-05T09:38:55Z,annevk,topic: media,0
 4279303283,true,Add img controls/alt conformance criteria,https://github.com/whatwg/html/pull/12385,2026-04-17T00:22:29Z,2026-04-19T12:33:32Z,yoelhawa,,1
@@ -246,7 +246,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3449447529,true,reorder dialog attr changed steps so that cleanup steps always occur,https://github.com/whatwg/html/pull/11693,2025-09-24T13:26:59Z,2025-10-01T08:46:58Z,keithamus,,0
 3449178913,true,"Add `NavigationTransition.to`, exposing the current navigate event's destination",https://github.com/whatwg/html/pull/11692,2025-09-24T12:14:44Z,2025-12-03T11:36:49Z,noamr,,0
 3448693145,true,Editorial: Cross-reference 'expected' in Rendering,https://github.com/whatwg/html/pull/11691,2025-09-24T10:09:23Z,2025-09-25T14:23:04Z,zcorpan,,0
-3447004466,false,Declarative CSS Modules,https://github.com/whatwg/html/pull/11687,2025-09-24T00:00:42Z,2026-05-20T08:47:46Z,KurtCattiSchmidt,,0
+3447004466,false,Declarative CSS Modules,https://github.com/whatwg/html/pull/11687,2025-09-24T00:00:42Z,2026-05-20T23:44:09Z,KurtCattiSchmidt,agenda+,0
 3440906111,true,Add source to ToggleEventInit,https://github.com/whatwg/html/pull/11679,2025-09-22T13:06:20Z,2025-09-30T09:12:09Z,keithamus,topic: dialog|topic: popover,1
 3437289427,true,"Editorial: Fix markup, spelling, punctuation",https://github.com/whatwg/html/pull/11673,2025-09-20T16:27:02Z,2025-09-22T17:50:33Z,jmdyck,,0
 3437080571,true,Replace numeric character references with Unicode characters(fixes #3683),https://github.com/whatwg/html/pull/11672,2025-09-20T12:04:57Z,2025-09-20T13:01:37Z,sujay-for-tech-01,invalid,0
@@ -489,7 +489,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2834196191,true,Editorial: switch links back to official CSSWG drafts,https://github.com/whatwg/html/pull/11005,2025-02-05T23:54:24Z,2025-02-06T02:18:33Z,Loirooriol,,0
 2833243175,true,Editorial: fix link and wording for tuple origin,https://github.com/whatwg/html/pull/11001,2025-02-05T15:17:39Z,2025-02-06T01:25:39Z,zcorpan,clarification|topic: origin,0
 2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2025-04-16T13:40:27Z,AndresRPerez12,do not merge yet|topic: canvas,1
-2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2026-05-19T21:02:58Z,dandclark,,0
+2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2026-05-20T22:29:25Z,dandclark,,0
 2831485110,true,Fix dialog focus restoring descendant check,https://github.com/whatwg/html/pull/10994,2025-02-04T23:17:23Z,2025-02-17T02:49:55Z,josepharhar,topic: dialog,0
 2831477610,false,Remove links to defunct Twitter account,https://github.com/whatwg/html/pull/10993,2025-02-04T23:11:22Z,2025-02-12T12:42:41Z,eeeps,meta,1
 2830828832,true,Pass a top-level navigation initiator origin to Fetch,https://github.com/whatwg/html/pull/10991,2025-02-04T17:06:01Z,2025-07-25T09:20:12Z,bvandersloot-mozilla,,0
@@ -2102,7 +2102,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 695597286,true,Report the exception in timer + Function,https://github.com/whatwg/html/pull/5896,2020-09-08T06:44:18Z,2020-09-08T15:02:44Z,hiroshige-g,,0
 695216338,true,Add width and height attributes to source elements,https://github.com/whatwg/html/pull/5894,2020-09-07T15:33:01Z,2021-02-25T18:36:56Z,yoavweiss,addition/proposal|topic: img|agenda+,6
 691862704,true,Make beforeunload not affect 'salvageable' & fire unload event only if document is no longer salvageable,https://github.com/whatwg/html/pull/5889,2020-09-03T10:51:13Z,2020-10-12T16:11:19Z,rakina,normative change|topic: navigation,0
-690365280,false,Allow user agent to unload nested browsing contexts,https://github.com/whatwg/html/pull/5885,2020-09-01T18:46:55Z,2023-11-14T08:05:50Z,johnivdel,,0
+690365280,false,Allow user agent to unload nested browsing contexts,https://github.com/whatwg/html/pull/5885,2020-09-01T18:46:55Z,2026-05-20T22:33:30Z,johnivdel,,0
 690092479,true,Meta: update the HTML FAQ,https://github.com/whatwg/html/pull/5884,2020-09-01T12:17:12Z,2020-09-01T15:54:07Z,annevk,,0
 689392532,true,Import assertions integration,https://github.com/whatwg/html/pull/5883,2020-08-31T18:06:22Z,2021-07-29T16:30:24Z,dandclark,do not merge yet|topic: script,0
 689328535,true,"Editorial: Rename ""E-mail state"" to ""Email state""",https://github.com/whatwg/html/pull/5882,2020-08-31T16:19:24Z,2020-09-02T06:56:57Z,sideshowbarker,,0
