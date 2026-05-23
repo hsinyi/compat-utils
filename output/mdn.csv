@@ -80,6 +80,7 @@ api/AnimationEffect/getTiming,,63,,75,,13.1,,false,true,false,https://drafts.css
 api/AnimationEffect/updateTiming,,63,,75,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animationeffect-updatetiming,W3C
 api/AnimationEvent,,5,,43,,9,,false,true,false,https://drafts.csswg.org/css-animations/#interface-animationevent,W3C
 api/AnimationEvent/AnimationEvent,,23,,43,,9,,false,true,false,https://drafts.csswg.org/css-animations/#dom-animationevent-animationevent,W3C
+api/AnimationEvent/animation,,152,,,,,,true,true,false,https://drafts.csswg.org/css-animations-2/#dom-animationevent-animation,W3C
 api/AnimationEvent/animationName,,5,,43,,9,,false,true,false,https://drafts.csswg.org/css-animations/#dom-animationevent-animationname,W3C
 api/AnimationEvent/elapsedTime,,5,,43,,9,,false,true,false,https://drafts.csswg.org/css-animations/#dom-animationevent-elapsedtime,W3C
 api/AnimationEvent/pseudoElement,,23,,68,,13.1,,false,true,false,https://drafts.csswg.org/css-animations/#dom-animationevent-pseudoelement,W3C
@@ -2038,6 +2039,8 @@ api/Element/gesturechange_event,,,,,,,,false,false,false,,NONE
 api/Element/gestureend_event,,,,,,,,false,false,false,,NONE
 api/Element/gesturestart_event,,,,,,,,false,false,false,,NONE
 api/Element/getAnimations,,75,,84,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animatable-getanimations,W3C
+api/Element/getAnimations/options_parameter,,75,,84,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animatable-getanimations-options-options,W3C
+api/Element/getAnimations/options_parameter/pseudoElement_option,,152,,,,,,true,true,false,https://drafts.csswg.org/web-animations-1/#dom-getanimationsoptions-pseudoelement,W3C
 api/Element/getAttribute,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-element-getattribute①,WHATWG
 api/Element/getAttributeNS,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-element-getattributens①,WHATWG
 api/Element/getAttributeNames,,45,,61,,10.1,,false,true,false,https://dom.spec.whatwg.org/#ref-for-dom-element-getattributenames①,WHATWG
@@ -2119,7 +2122,7 @@ api/Element/requestFullscreen/options_parameter/navigationUI_option,,,,71,,16.4,
 api/Element/requestFullscreen/options_parameter/screen_option,,,,100,,,,true,true,false,https://w3c.github.io/window-management/#ref-for-dom-fullscreenoptions-screen,W3C
 api/Element/requestFullscreen/returns_promise,,64,,71,,16.4,,false,true,false,https://fullscreen.spec.whatwg.org/#ref-for-dom-element-requestfullscreen①,WHATWG
 api/Element/requestPointerLock,,50,,37,,10.1,,false,true,false,https://w3c.github.io/pointerlock/#dom-element-requestpointerlock,W3C
-api/Element/requestPointerLock/options_unadjustedMovement_parameter,,,,88,,18.4,,false,true,false,https://w3c.github.io/pointerlock/#dom-pointerlockoptions-unadjustedmovement,W3C
+api/Element/requestPointerLock/options_unadjustedMovement_parameter,,152,,88,,18.4,,false,true,false,https://w3c.github.io/pointerlock/#dom-pointerlockoptions-unadjustedmovement,W3C
 api/Element/role,,119,,103,,12.1,,false,true,false,https://w3c.github.io/aria/#dom-ariamixin-role,W3C
 api/Element/scroll,,36,,61,,10.1,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-element-scroll,W3C
 api/Element/scroll/options_behavior_parameter,,36,,61,,14,,false,true,false,https://drafts.csswg.org/cssom-view/#dom-scrolloptions-behavior,W3C
@@ -4571,7 +4574,7 @@ api/MathMLElement/autofocus,,110,,109,,15.4,,false,true,false,https://html.spec.
 api/MathMLElement/blur,,71,,109,,13.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-blur-dev,WHATWG
 api/MathMLElement/dataset,,71,,109,,13.1,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-dataset-dev,WHATWG
 api/MathMLElement/focus,,71,,109,,13.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-focus-dev,WHATWG
-api/MathMLElement/nonce,,,,109,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/urls-and-fetching.html#dom-noncedelement-nonce,WHATWG
+api/MathMLElement/nonce,,152,,109,,15.4,,false,true,false,https://html.spec.whatwg.org/multipage/urls-and-fetching.html#dom-noncedelement-nonce,WHATWG
 api/MathMLElement/style,,71,,109,,13.1,,false,true,false,https://drafts.csswg.org/cssom/#dom-elementcssinlinestyle-style,W3C
 api/MathMLElement/style/returns_CSSStyleProperties,,145,,,,26,,false,true,false,https://drafts.csswg.org/cssom/#dom-elementcssinlinestyle-style,W3C
 api/MathMLElement/tabIndex,,71,,109,,13.1,,false,true,false,https://html.spec.whatwg.org/multipage/interaction.html#dom-tabindex,WHATWG
@@ -5258,7 +5261,7 @@ api/NotRestoredReasons/toJSON,,,,125,,,,true,true,false,https://html.spec.whatwg
 api/NotRestoredReasons/url,,,,125,,,,true,true,false,https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-not-restored-reasons-url,WHATWG
 api/Notification,,22,,20,,7,,false,true,false,https://notifications.spec.whatwg.org/#notification,WHATWG
 api/Notification/Notification,,22,,20,,7,,false,true,false,https://notifications.spec.whatwg.org/#dom-notification-notification,WHATWG
-api/Notification/actions,,preview,,53,,,,true,true,false,https://notifications.spec.whatwg.org/#dom-notification-actions,WHATWG
+api/Notification/actions,,152,,53,,,,false,true,false,https://notifications.spec.whatwg.org/#dom-notification-actions,WHATWG
 api/Notification/badge,,,,53,,,,false,true,false,https://notifications.spec.whatwg.org/#dom-notification-badge,WHATWG
 api/Notification/body,,26,,33,,11,,false,true,false,https://notifications.spec.whatwg.org/#dom-notification-body,WHATWG
 api/Notification/click_event,,22,,20,,7,,false,true,false,https://notifications.spec.whatwg.org/#dom-notification-onclick,WHATWG
@@ -5270,7 +5273,7 @@ api/Notification/error_event,,22,,20,,7,,false,true,false,https://notifications.
 api/Notification/icon,,26,,33,,,,false,true,false,https://notifications.spec.whatwg.org/#dom-notification-icon,WHATWG
 api/Notification/image,,,,56,,,,true,true,false,https://notifications.spec.whatwg.org/#image-resource,WHATWG
 api/Notification/lang,,26,,33,,11,,false,true,false,https://notifications.spec.whatwg.org/#dom-notification-lang,WHATWG
-api/Notification/maxActions_static,,preview,,48,,,,true,true,false,https://notifications.spec.whatwg.org/#dom-notification-maxactions,WHATWG
+api/Notification/maxActions_static,,152,,48,,,,false,true,false,https://notifications.spec.whatwg.org/#dom-notification-maxactions,WHATWG
 api/Notification/navigate,,,,,,18.4,,true,true,false,https://notifications.spec.whatwg.org/#dom-notification-navigate,WHATWG
 api/Notification/permission_static,,22,,32,,7,,false,true,false,https://notifications.spec.whatwg.org/#dom-notification-permission,WHATWG
 api/Notification/renotify,,,,50,,,,true,true,false,https://notifications.spec.whatwg.org/#dom-notification-renotify,WHATWG
@@ -5287,7 +5290,7 @@ api/Notification/vibrate,,,,53,,,,true,true,false,https://notifications.spec.wha
 api/Notification/worker_support,,41,,42,,,,false,true,false,https://notifications.spec.whatwg.org/#api,WHATWG
 api/NotificationEvent,,44,,42,,16,,false,true,false,https://notifications.spec.whatwg.org/#notificationevent,WHATWG
 api/NotificationEvent/NotificationEvent,,44,,42,,16,,false,true,false,https://notifications.spec.whatwg.org/#dom-notificationevent-notificationevent,WHATWG
-api/NotificationEvent/action,,44,,48,,,,false,true,false,https://notifications.spec.whatwg.org/#dom-notification-actions,WHATWG
+api/NotificationEvent/action,,152,,48,,,,false,true,false,https://notifications.spec.whatwg.org/#dom-notification-actions,WHATWG
 api/NotificationEvent/notification,,44,,42,,,,false,true,false,https://notifications.spec.whatwg.org/#dom-notificationevent-notification,WHATWG
 api/OES_draw_buffers_indexed,,108,,100,,16,,false,true,false,https://registry.khronos.org/webgl/extensions/OES_draw_buffers_indexed/,UNKNOWN
 api/OES_draw_buffers_indexed/blendEquationSeparateiOES,,108,,100,,16,,false,true,false,https://registry.khronos.org/webgl/extensions/OES_draw_buffers_indexed/,UNKNOWN
@@ -5736,8 +5739,8 @@ api/PerformanceResourceTiming/domainLookupEnd,,35,,43,,11,,false,true,false,http
 api/PerformanceResourceTiming/domainLookupStart,,35,,43,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-domainlookupstart,W3C
 api/PerformanceResourceTiming/encodedBodySize,,45,,54,,16.4,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-encodedbodysize,W3C
 api/PerformanceResourceTiming/fetchStart,,35,,43,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-fetchstart,W3C
-api/PerformanceResourceTiming/finalResponseHeadersStart,,,,133,,26.4,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-finalresponseheadersstart,W3C
-api/PerformanceResourceTiming/firstInterimResponseStart,,,,115,,26.4,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-firstinterimresponsestart,W3C
+api/PerformanceResourceTiming/finalResponseHeadersStart,,152,,133,,26.4,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-finalresponseheadersstart,W3C
+api/PerformanceResourceTiming/firstInterimResponseStart,,152,,115,,26.4,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-firstinterimresponsestart,W3C
 api/PerformanceResourceTiming/initiatorType,,35,,43,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-initiatortype,W3C
 api/PerformanceResourceTiming/nextHopProtocol,,45,,61,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-nexthopprotocol,W3C
 api/PerformanceResourceTiming/redirectEnd,,35,,43,,11,,false,true,false,https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-redirectend,W3C
@@ -6081,7 +6084,7 @@ api/RTCEncodedAudioFrame/RTCEncodedAudioFrame/options_metadata_captureTime_param
 api/RTCEncodedAudioFrame/RTCEncodedAudioFrame/options_metadata_contributingSources_parameter,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-contributingsources,W3C
 api/RTCEncodedAudioFrame/RTCEncodedAudioFrame/options_metadata_mimeType_parameter,,,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-mimetype,W3C
 api/RTCEncodedAudioFrame/RTCEncodedAudioFrame/options_metadata_payloadType_parameter,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-payloadtype,W3C
-api/RTCEncodedAudioFrame/RTCEncodedAudioFrame/options_metadata_receiveTime_parameter,,,,127,,,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-receivetime,W3C
+api/RTCEncodedAudioFrame/RTCEncodedAudioFrame/options_metadata_receiveTime_parameter,,152,,127,,,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-receivetime,W3C
 api/RTCEncodedAudioFrame/RTCEncodedAudioFrame/options_metadata_rtpTimestamp_parameter,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-rtptimestamp,W3C
 api/RTCEncodedAudioFrame/RTCEncodedAudioFrame/options_metadata_sequenceNumber_parameter,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-sequencenumber,W3C
 api/RTCEncodedAudioFrame/RTCEncodedAudioFrame/options_metadata_synchronizationSource_parameter,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-synchronizationsource,W3C
@@ -6092,7 +6095,7 @@ api/RTCEncodedAudioFrame/getMetadata/return_object_property_captureTime,,,,127,,
 api/RTCEncodedAudioFrame/getMetadata/return_object_property_contributingSources,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-contributingsources,W3C
 api/RTCEncodedAudioFrame/getMetadata/return_object_property_mimeType,,,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-mimetype,W3C
 api/RTCEncodedAudioFrame/getMetadata/return_object_property_payloadType,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-payloadtype,W3C
-api/RTCEncodedAudioFrame/getMetadata/return_object_property_receiveTime,,,,127,,,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-receivetime,W3C
+api/RTCEncodedAudioFrame/getMetadata/return_object_property_receiveTime,,152,,127,,,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-receivetime,W3C
 api/RTCEncodedAudioFrame/getMetadata/return_object_property_rtpTimestamp,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-rtptimestamp,W3C
 api/RTCEncodedAudioFrame/getMetadata/return_object_property_sequenceNumber,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframemetadata-sequencenumber,W3C
 api/RTCEncodedAudioFrame/getMetadata/return_object_property_synchronizationSource,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-synchronizationsource,W3C
@@ -6105,7 +6108,7 @@ api/RTCEncodedVideoFrame/RTCEncodedVideoFrame/options_metadata_frameId_parameter
 api/RTCEncodedVideoFrame/RTCEncodedVideoFrame/options_metadata_height_parameter,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-height,W3C
 api/RTCEncodedVideoFrame/RTCEncodedVideoFrame/options_metadata_mimeType_parameter,,,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-mimetype,W3C
 api/RTCEncodedVideoFrame/RTCEncodedVideoFrame/options_metadata_payloadType_parameter,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-payloadtype,W3C
-api/RTCEncodedVideoFrame/RTCEncodedVideoFrame/options_metadata_receiveTime_parameter,,,,127,,,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-receivetime,W3C
+api/RTCEncodedVideoFrame/RTCEncodedVideoFrame/options_metadata_receiveTime_parameter,,152,,127,,,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-receivetime,W3C
 api/RTCEncodedVideoFrame/RTCEncodedVideoFrame/options_metadata_rtpTimestamp_parameter,,,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-rtptimestamp,W3C
 api/RTCEncodedVideoFrame/RTCEncodedVideoFrame/options_metadata_spatialIndex_parameter,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-spatialindex,W3C
 api/RTCEncodedVideoFrame/RTCEncodedVideoFrame/options_metadata_synchronizationSource_parameter,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-synchronizationsource,W3C
@@ -6119,7 +6122,7 @@ api/RTCEncodedVideoFrame/getMetadata/return_object_property_frameId,,145,,127,,2
 api/RTCEncodedVideoFrame/getMetadata/return_object_property_height,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-height,W3C
 api/RTCEncodedVideoFrame/getMetadata/return_object_property_mimeType,,,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-mimetype,W3C
 api/RTCEncodedVideoFrame/getMetadata/return_object_property_payloadType,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-payloadtype,W3C
-api/RTCEncodedVideoFrame/getMetadata/return_object_property_receiveTime,,,,127,,,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-receivetime,W3C
+api/RTCEncodedVideoFrame/getMetadata/return_object_property_receiveTime,,152,,127,,,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-receivetime,W3C
 api/RTCEncodedVideoFrame/getMetadata/return_object_property_rtpTimestamp,,,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-rtptimestamp,W3C
 api/RTCEncodedVideoFrame/getMetadata/return_object_property_spatialIndex,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframemetadata-spatialindex,W3C
 api/RTCEncodedVideoFrame/getMetadata/return_object_property_synchronizationSource,,145,,127,,26,,false,true,false,https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedframemetadata-synchronizationsource,W3C
@@ -6185,7 +6188,7 @@ api/RTCPeerConnection/RTCPeerConnection/configuration_iceServers_parameter/urls_
 api/RTCPeerConnection/RTCPeerConnection/configuration_iceServers_parameter/username_parameter,,23,,45,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtciceserver-username,W3C
 api/RTCPeerConnection/RTCPeerConnection/configuration_iceTransportPolicy_parameter,,42,,56,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcconfiguration-icetransportpolicy,W3C
 api/RTCPeerConnection/RTCPeerConnection/configuration_peerIdentity_parameter,,32,,,,,,false,true,false,https://w3c.github.io/webrtc-identity/#dom-rtcconfiguration-peeridentity,W3C
-api/RTCPeerConnection/RTCPeerConnection/configuration_rtcpMuxPolicy_parameter,,,,57,,12.1,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcconfiguration-rtcpmuxpolicy,W3C
+api/RTCPeerConnection/RTCPeerConnection/configuration_rtcpMuxPolicy_parameter,,152,,57,,12.1,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-rtcconfiguration-rtcpmuxpolicy,W3C
 api/RTCPeerConnection/addIceCandidate,,22,,24,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-peerconnection-addicecandidate,W3C
 api/RTCPeerConnection/addIceCandidate/returns_promise,,37,,50,,11,,false,true,false,https://w3c.github.io/webrtc-pc/#dom-peerconnection-addicecandidate,W3C
 api/RTCPeerConnection/addStream,,22,,24,,11,,false,false,true,,NONE
@@ -8188,6 +8191,7 @@ api/TransformStreamDefaultController/error,,102,,67,,14.1,,false,true,false,http
 api/TransformStreamDefaultController/terminate,,102,,67,,14.1,,false,true,false,https://streams.spec.whatwg.org/#ts-default-controller-terminate,WHATWG
 api/TransitionEvent,,4,,27,,7,,false,true,false,https://drafts.csswg.org/css-transitions/#interface-transitionevent,W3C
 api/TransitionEvent/TransitionEvent,,23,,27,,7,,false,true,false,https://drafts.csswg.org/css-transitions/#dom-transitionevent-transitionevent,W3C
+api/TransitionEvent/animation,,152,,,,,,true,true,false,https://drafts.csswg.org/css-transitions-2/#Events-TransitionEvent-animation,W3C
 api/TransitionEvent/elapsedTime,,4,,2,,6,,false,true,false,https://drafts.csswg.org/css-transitions/#Events-TransitionEvent-elapsedTime,W3C
 api/TransitionEvent/propertyName,,4,,2,,6,,false,true,false,https://drafts.csswg.org/css-transitions/#Events-TransitionEvent-propertyName,W3C
 api/TransitionEvent/pseudoElement,,23,,2,,6,,false,true,false,https://drafts.csswg.org/css-transitions/#Events-TransitionEvent-pseudoElement,W3C
@@ -10272,7 +10276,7 @@ css/properties/all,,27,,37,,9.1,,false,true,false,https://drafts.csswg.org/css-c
 css/properties/alt,,,,,,9,,false,false,true,,NONE
 css/properties/anchor-name,,147,,125,,26,,false,true,false,https://drafts.csswg.org/css-anchor-position-1/#name,W3C
 css/properties/anchor-name/none,,147,,125,,26,,false,true,false,https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-name-none,W3C
-css/properties/anchor-name/position_after_layout,,,,144,,,,true,true,false,https://drafts.csswg.org/css-anchor-position/#anchor-position-size:~:text=The%20anchor%20box%E2%80%99s%20position%20and%20size%20is%20determined%20after%20layout%2E,W3C
+css/properties/anchor-name/position_after_layout,,,,144,,preview,,true,true,false,https://drafts.csswg.org/css-anchor-position/#anchor-position-size:~:text=The%20anchor%20box%E2%80%99s%20position%20and%20size%20is%20determined%20after%20layout%2E,W3C
 css/properties/anchor-scope,,147,,131,,26,,false,true,false,https://drafts.csswg.org/css-anchor-position-1/#propdef-anchor-scope,W3C
 css/properties/anchor-scope/all,,147,,131,,26,,false,true,false,https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-scope-all,W3C
 css/properties/anchor-scope/none,,147,,131,,26,,false,true,false,https://drafts.csswg.org/css-anchor-position-1/#valdef-anchor-scope-none,W3C
@@ -11413,9 +11417,9 @@ css/properties/dynamic-range-limit/standard,,,,136,,26,,false,true,false,https:/
 css/properties/empty-cells,,1,,1,,1.2,,false,true,false,https://drafts.csswg.org/css2/#empty-cells,W3C
 css/properties/empty-cells/hide,,1,,1,,1.2,,false,true,false,https://drafts.csswg.org/css2/#valdef-empty-cells-hide,W3C
 css/properties/empty-cells/show,,1,,1,,1.2,,false,true,false,https://drafts.csswg.org/css2/#valdef-empty-cells-show,W3C
-css/properties/field-sizing,,,,123,,26.2,,false,true,false,https://drafts.csswg.org/css-forms-1/#propdef-field-sizing,W3C
-css/properties/field-sizing/content,,,,123,,26.2,,false,true,false,https://drafts.csswg.org/css-forms-1/#valdef-field-sizing-content,W3C
-css/properties/field-sizing/fixed,,,,123,,26.2,,false,true,false,https://drafts.csswg.org/css-forms-1/#valdef-field-sizing-fixed,W3C
+css/properties/field-sizing,,152,,123,,26.2,,false,true,false,https://drafts.csswg.org/css-forms-1/#propdef-field-sizing,W3C
+css/properties/field-sizing/content,,152,,123,,26.2,,false,true,false,https://drafts.csswg.org/css-forms-1/#valdef-field-sizing-content,W3C
+css/properties/field-sizing/fixed,,152,,123,,26.2,,false,true,false,https://drafts.csswg.org/css-forms-1/#valdef-field-sizing-fixed,W3C
 css/properties/fill,,3,,1,,4,,false,true,false,https://w3c.github.io/svgwg/svg2-draft/painting.html#FillProperty,W3C
 css/properties/fill/none,,3,,1,,4,,false,true,false,https://w3c.github.io/svgwg/svg2-draft/painting.html#SpecifyingPaint:~:text=none,W3C
 css/properties/fill-opacity,,1,,1,,4,,false,true,false,https://drafts.csswg.org/fill-stroke-3/#fill-opacity,W3C
@@ -13413,7 +13417,7 @@ css/selectors/-webkit-progress-bar,,,,25,,7,,false,false,false,,NONE
 css/selectors/-webkit-progress-inner-element,,,,23,,7,,false,false,false,,NONE
 css/selectors/-webkit-progress-value,,,,25,,7,,false,false,false,,NONE
 css/selectors/-webkit-resizer,,,,2,,4,,false,false,false,,NONE
-css/selectors/-webkit-scrollbar,,preview,"[{""name"":""layout.css.fake-webkit-scrollbar.enabled"",""type"":""preference"",""value_to_set"":""true""}]",2,,4,,false,false,false,,NONE
+css/selectors/-webkit-scrollbar,,152,,2,,4,,false,false,false,,NONE
 css/selectors/-webkit-scrollbar-button,,,,2,,4,,false,false,false,,NONE
 css/selectors/-webkit-scrollbar-corner,,,,2,,4,,false,false,false,,NONE
 css/selectors/-webkit-scrollbar-thumb,,,,2,,4,,false,false,false,,NONE
@@ -13910,6 +13914,8 @@ css/types/text-edge/cap,,149,"[{""name"":""layout.css.text-box.enabled"",""type"
 css/types/text-edge/ex,,149,"[{""name"":""layout.css.text-box.enabled"",""type"":""preference"",""value_to_set"":""true""}]",133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ex,W3C
 css/types/text-edge/text,,149,"[{""name"":""layout.css.text-box.enabled"",""type"":""preference"",""value_to_set"":""true""}]",133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-text,W3C
 css/types/time,,4,,1,,3.1,,false,true,false,https://drafts.csswg.org/css-values/#time,W3C
+css/types/timeline-range-name,,preview,,119,,26,,false,true,false,https://drafts.csswg.org/scroll-animations-1/#view-timelines-ranges,W3C
+css/types/timeline-range-name/scroll,,preview,"[{""name"":""layout.css.scroll-driven-animations.enabled"",""type"":""preference"",""value_to_set"":""true""}]",147,,26.5,,false,true,false,https://drafts.csswg.org/scroll-animations-1/#valdef-animation-timeline-range-scroll,W3C
 css/types/transform-function,,3.5,,1,,3.1,,false,true,false,https://drafts.csswg.org/css-transforms/#transform-functions,W3C
 css/types/transform-function/matrix,,3.5,,1,,3.1,,false,true,false,https://drafts.csswg.org/css-transforms/#funcdef-transform-matrix,W3C
 css/types/transform-function/matrix3d,,10,,12,,4,,false,true,false,https://drafts.csswg.org/css-transforms-2/#funcdef-matrix3d,W3C
@@ -15020,9 +15026,9 @@ http/headers/Refresh,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/mul
 http/headers/Report-To,,149,,70,,,,false,false,true,,NONE
 http/headers/Reporting-Endpoints,,130,,96,,16.4,,false,true,false,https://w3c.github.io/reporting/#header,W3C
 http/headers/Reporting-Endpoints/crash-reporting,,,,139,,,,true,true,false,https://wicg.github.io/crash-reporting/#delivery-priority,W3CCG
-http/headers/Reporting-Endpoints/default,,130,,96,,16.4,,false,true,false,https://w3c.github.io/reporting/#header,W3C
-http/headers/Reporting-Endpoints/default/receives_crash_type,,130,,96,,16.4,,false,true,false,https://wicg.github.io/crash-reporting/#delivery-priority,W3CCG
-http/headers/Reporting-Endpoints/default/receives_deprecation_type,,130,,96,,16.4,,false,true,false,https://wicg.github.io/deprecation-reporting/#deprecation-report:~:text=Deprecation%20reports%20are%20always%20delivered%20to%20the%20endpoint%20named%20default,W3CCG
+http/headers/Reporting-Endpoints/default,,130,,96,,,,false,true,false,https://w3c.github.io/reporting/#header,W3C
+http/headers/Reporting-Endpoints/default/receives_crash_type,,130,,96,,,,false,true,false,https://wicg.github.io/crash-reporting/#delivery-priority,W3CCG
+http/headers/Reporting-Endpoints/default/receives_deprecation_type,,130,,96,,,,false,true,false,https://wicg.github.io/deprecation-reporting/#deprecation-report:~:text=Deprecation%20reports%20are%20always%20delivered%20to%20the%20endpoint%20named%20default,W3CCG
 http/headers/Retry-After,,,,24,,,,false,true,false,https://httpwg.org/specs/rfc9110.html#field.retry-after,IETF
 http/headers/Save-Data,,,,49,,,,true,true,false,https://wicg.github.io/savedata/#save-data-request-header-field,W3CCG
 http/headers/Sec-Browsing-Topics,,,,115,,,,false,false,true,,NONE
