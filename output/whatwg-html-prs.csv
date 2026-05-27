@@ -1,9 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4532637108,false,"Ensure ""topmost popover ancestor"" is only called for auto or hint popovers",https://github.com/whatwg/html/pull/12493,2026-05-27T13:20:47Z,2026-05-27T13:22:28Z,jakearchibald,,0
+4531528389,false,"Specify rate limiter for navigation, history traversal, and pushState/replaceState",https://github.com/whatwg/html/pull/12492,2026-05-27T10:16:48Z,2026-05-27T12:40:56Z,zcorpan,topic: navigation,0
 4527687543,false,Force image inputs to be clipped as well.,https://github.com/whatwg/html/pull/12491,2026-05-26T21:40:30Z,2026-05-26T21:41:15Z,emilio,,0
 4522453089,false,Editorial: correct markup for :heading,https://github.com/whatwg/html/pull/12484,2026-05-26T07:52:42Z,2026-05-26T07:54:12Z,annevk,,0
-4511990521,false,Allow activation of a checked radio button to clear it,https://github.com/whatwg/html/pull/12480,2026-05-24T15:04:24Z,2026-05-24T15:37:45Z,hjanuschka,,2
-4499959663,false,Editorial: Remove inaccurate SecurityError note from createImageBitmap,https://github.com/whatwg/html/pull/12478,2026-05-22T05:00:33Z,2026-05-23T11:16:59Z,Devansh232406,,0
-4495672924,false,Make muted content attribute affect muted IDL attribute only once,https://github.com/whatwg/html/pull/12473,2026-05-21T15:09:23Z,2026-05-26T15:25:44Z,foolip,topic: media|agenda+,0
+4511990521,false,Allow activation of a checked radio button to clear it,https://github.com/whatwg/html/pull/12480,2026-05-24T15:04:24Z,2026-05-27T11:37:59Z,hjanuschka,,2
+4499959663,true,Editorial: Remove inaccurate SecurityError note from createImageBitmap,https://github.com/whatwg/html/pull/12478,2026-05-22T05:00:33Z,2026-05-27T12:41:02Z,Devansh232406,,0
+4495672924,false,Make muted content attribute affect muted IDL attribute only once,https://github.com/whatwg/html/pull/12473,2026-05-21T15:09:23Z,2026-05-27T12:35:26Z,foolip,topic: media|agenda+,0
 4469014759,false,Also check CORS-same-origin in the <link> quirk,https://github.com/whatwg/html/pull/12468,2026-05-18T12:17:58Z,2026-05-18T14:40:14Z,zcorpan,,0
 4459928994,true,Add hreflang and type attribute definitions to dev edition,https://github.com/whatwg/html/pull/12465,2026-05-16T12:54:11Z,2026-05-17T06:09:12Z,lukewarlow,,0
 4454916782,true,Editorial: modernize HTMLOptionsCollection,https://github.com/whatwg/html/pull/12461,2026-05-15T15:07:25Z,2026-05-19T12:21:57Z,annevk,,0
@@ -34,7 +36,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4319129763,true,Meta: add issue template for WHATNOT meetings,https://github.com/whatwg/html/pull/12402,2026-04-23T21:58:08Z,2026-04-24T12:24:14Z,annevk,,0
 4317972432,true,"Use ""self"" in select position-try-fallbacks",https://github.com/whatwg/html/pull/12400,2026-04-23T18:22:24Z,2026-04-23T19:36:36Z,josepharhar,normative change|topic: forms|topic: select,0
 4308865632,false,Upstream Document Picture-in-Picture API,https://github.com/whatwg/html/pull/12397,2026-04-22T12:05:20Z,2026-04-28T12:52:10Z,vinhill,,0
-4302841030,false,Upstream sanitizer api,https://github.com/whatwg/html/pull/12395,2026-04-21T13:16:44Z,2026-05-26T19:27:23Z,noamr,,0
+4302841030,true,Upstream sanitizer api,https://github.com/whatwg/html/pull/12395,2026-04-21T13:16:44Z,2026-05-27T13:12:43Z,noamr,,0
 4290723126,false,Process all pending lazy loading intersection observations,https://github.com/whatwg/html/pull/12391,2026-04-19T11:43:15Z,2026-05-05T12:18:59Z,shannonbooth,,0
 4284044415,true,Make the muted content attribute a fallback,https://github.com/whatwg/html/pull/12389,2026-04-17T16:39:28Z,2026-05-05T09:38:55Z,annevk,topic: media,0
 4279303283,true,Add img controls/alt conformance criteria,https://github.com/whatwg/html/pull/12385,2026-04-17T00:22:29Z,2026-04-19T12:33:32Z,yoelhawa,,1
@@ -149,7 +151,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3735064449,true,"Move ""clean up API method tracker"" to the right place",https://github.com/whatwg/html/pull/12022,2025-12-16T14:35:18Z,2026-01-12T10:54:36Z,noamr,,0
 3734374547,true,Fixing button command early-bail steps,https://github.com/whatwg/html/pull/12021,2025-12-16T11:25:01Z,2026-01-09T18:52:27Z,jakearchibald,,1
 3726130924,true,Fix ordering of lifecycle callbacks to match implementations,https://github.com/whatwg/html/pull/12017,2025-12-13T16:09:47Z,2026-03-31T16:14:21Z,lukewarlow,,0
-3720029201,false,[Draft] Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2026-05-26T19:17:07Z,domfarolino,,0
+3720029201,false,[Draft] Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2026-05-27T13:41:06Z,domfarolino,,0
 3717708776,false,Skip light dismiss when opening select's picker,https://github.com/whatwg/html/pull/12008,2025-12-11T04:33:36Z,2026-04-30T16:34:49Z,josepharhar,,0
 3714324873,true,Add proposal for maxcount attribute,https://github.com/whatwg/html/pull/12005,2025-12-10T09:24:01Z,2025-12-10T12:59:11Z,milanagowda77656-cloud,invalid,0
 3706163049,false,Introduce customelementregistry global attribute,https://github.com/whatwg/html/pull/12000,2025-12-08T12:24:45Z,2026-05-07T18:53:26Z,ja-y-son,,0
