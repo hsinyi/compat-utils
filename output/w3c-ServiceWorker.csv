@@ -305,7 +305,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 354629045,false,Enabling client message queue on DOMContentLoaded is not mentioned in the spec,https://github.com/w3c/ServiceWorker/issues/1349,2018-08-28T08:42:29Z,2018-08-28T08:42:29Z,ytausky,,1
 352478690,false,It's possible to interact with an installing service worker before its 'install' event is dispatched,https://github.com/w3c/ServiceWorker/issues/1347,2018-08-21T10:27:36Z,2018-08-21T10:27:36Z,ytausky,,0
 349696706,false,Consider exposing Page Lifecycle state to service-worker,https://github.com/w3c/ServiceWorker/issues/1345,2018-08-11T01:52:35Z,2019-05-30T05:29:20Z,spanicker,,0
-349505796,false,Ground event listener existence check in new primitive,https://github.com/w3c/ServiceWorker/issues/1342,2018-08-10T12:58:16Z,2018-08-10T12:58:16Z,annevk,,0
+349505796,true,Ground event listener existence check in new primitive,https://github.com/w3c/ServiceWorker/issues/1342,2018-08-10T12:58:16Z,2026-05-29T00:30:38Z,annevk,,0
 348408795,true,preloadResponse resolved to wrong kind of thing?,https://github.com/w3c/ServiceWorker/issues/1339,2018-08-07T17:04:41Z,2018-08-12T05:36:54Z,jyasskin,,0
 347915151,true,Worker Update leaves open notifications behind (unclickable),https://github.com/w3c/ServiceWorker/issues/1337,2018-08-06T13:04:35Z,2018-08-08T16:30:38Z,mariusglauer,,0
 342134315,false,No good way to beacon during activate,https://github.com/w3c/ServiceWorker/issues/1336,2018-07-18T00:29:04Z,2018-10-25T11:11:25Z,asakusuma,,0
@@ -313,18 +313,18 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 336783622,false,A simple globally available store of data per-registration,https://github.com/w3c/ServiceWorker/issues/1331,2018-06-28T21:18:24Z,2018-10-30T13:48:19Z,slightlyoff,,1
 336140645,true,I am loosing my revenue because of sandbox,https://github.com/w3c/ServiceWorker/issues/1330,2018-06-27T09:07:01Z,2018-07-25T07:30:10Z,Srikanth80792,,0
 333773447,true,I dont know what Im doing. Please Help,https://github.com/w3c/ServiceWorker/issues/1328,2018-06-19T17:45:23Z,2018-06-19T19:09:36Z,Racey1,,0
-332157804,false,should getRegistration() return anything for clients with a local URL that inherited the controller?,https://github.com/w3c/ServiceWorker/issues/1326,2018-06-13T20:47:17Z,2018-06-14T13:44:51Z,wanderview,,0
+332157804,false,should getRegistration() return anything for clients with a local URL that inherited the controller?,https://github.com/w3c/ServiceWorker/issues/1326,2018-06-13T20:47:17Z,2026-05-29T00:04:38Z,wanderview,,0
 331005198,true,How to report install progress back to the DOM ?,https://github.com/w3c/ServiceWorker/issues/1324,2018-06-10T21:45:23Z,2018-06-16T21:58:35Z,GrosSacASac,,0
 329352629,false,determine whether nested frame/iframe have same parent client,https://github.com/w3c/ServiceWorker/issues/1321,2018-06-05T08:31:51Z,2018-06-05T13:33:59Z,futurist,,0
-328036349,false,Query Cache algorithm should copy objects it manipulates,https://github.com/w3c/ServiceWorker/issues/1320,2018-05-31T08:10:39Z,2018-05-31T08:10:39Z,annevk,,0
+328036349,true,Query Cache algorithm should copy objects it manipulates,https://github.com/w3c/ServiceWorker/issues/1320,2018-05-31T08:10:39Z,2026-05-28T23:59:00Z,annevk,,0
 327972754,true,importScripts() on ServiceWorkerGlobalScope,https://github.com/w3c/ServiceWorker/issues/1319,2018-05-31T02:40:07Z,2021-06-08T13:06:31Z,jungkees,,0
 327917217,true,Allow active service worker to manage fetch for the update logic,https://github.com/w3c/ServiceWorker/issues/1318,2018-05-30T22:09:58Z,2018-06-14T14:18:35Z,roosmaa,,1
 327755771,true,Is it possible to register a service worker on a not fully HTTPS webapp?,https://github.com/w3c/ServiceWorker/issues/1317,2018-05-30T14:25:35Z,2024-04-24T07:38:53Z,vgalisson,,0
 327566265,true,Is resultingClientId preserved over redirects?,https://github.com/w3c/ServiceWorker/issues/1316,2018-05-30T04:04:32Z,2018-10-10T14:22:51Z,mfalken,,0
-323269448,false,should document.open() inherit the controller?,https://github.com/w3c/ServiceWorker/issues/1313,2018-05-15T15:28:32Z,2018-05-15T22:22:57Z,wanderview,,0
+323269448,false,should document.open() inherit the controller?,https://github.com/w3c/ServiceWorker/issues/1313,2018-05-15T15:28:32Z,2026-05-28T23:49:37Z,wanderview,,0
 322688441,true,"sometimes, we cannot find the request in webview when we use the serviceworker ",https://github.com/w3c/ServiceWorker/issues/1312,2018-05-14T06:34:25Z,2018-05-15T11:12:08Z,normanfan,,0
-319213258,false,Handle Fetch does a dubious SecureContext check on a reserved client,https://github.com/w3c/ServiceWorker/issues/1311,2018-05-01T14:28:37Z,2018-05-01T14:29:12Z,wanderview,,0
-318482119,false,Size constraints for cache names?,https://github.com/w3c/ServiceWorker/issues/1310,2018-04-27T17:02:39Z,2018-04-27T18:25:19Z,mkruisselbrink,,1
+319213258,false,Handle Fetch does a dubious SecureContext check on a reserved client,https://github.com/w3c/ServiceWorker/issues/1311,2018-05-01T14:28:37Z,2026-05-28T23:45:11Z,wanderview,,0
+318482119,false,Size constraints for cache names?,https://github.com/w3c/ServiceWorker/issues/1310,2018-04-27T17:02:39Z,2026-05-28T23:39:22Z,mkruisselbrink,,1
 316899786,true,Response's cache state is back,https://github.com/w3c/ServiceWorker/issues/1308,2018-04-23T17:02:42Z,2018-06-01T02:04:39Z,annevk,,0
 316656337,true,Service-Worker-Allowed can be cross-origin to the script URL.,https://github.com/w3c/ServiceWorker/issues/1307,2018-04-23T04:16:10Z,2023-01-10T05:36:12Z,mfalken,,0
 316567075,true,Correct link to nightly version,https://github.com/w3c/ServiceWorker/issues/1306,2018-04-22T10:25:30Z,2018-04-24T15:39:13Z,Malvoz,,0
@@ -376,7 +376,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 282574775,true,Should the fragment identifier be stripped from the scriptURL?,https://github.com/w3c/ServiceWorker/issues/1249,2017-12-15T23:26:05Z,2017-12-22T02:42:08Z,cdumez,,0
 282178922,false,Provide an easier way to listen for waiting/activated/redundant Service Workers,https://github.com/w3c/ServiceWorker/issues/1247,2017-12-14T17:25:51Z,2020-04-03T11:36:01Z,dfabulich,,12
 280973827,true,fetch() file stream fails when passing through fetch handler,https://github.com/w3c/ServiceWorker/issues/1246,2017-12-11T10:56:23Z,2020-03-17T15:00:34Z,Zectbumo,,0
-280906961,false,Spec additional Client API features in V2,https://github.com/w3c/ServiceWorker/issues/1245,2017-12-11T06:28:56Z,2018-07-01T22:55:50Z,jungkees,,0
+280906961,false,Spec additional Client API features in V2,https://github.com/w3c/ServiceWorker/issues/1245,2017-12-11T06:28:56Z,2026-05-29T00:26:12Z,jungkees,,0
 279005604,true," getRegistrations manipulates ES arrays in parallel steps",https://github.com/w3c/ServiceWorker/issues/1241,2017-12-04T14:00:38Z,2017-12-08T18:53:00Z,bzbarsky,,0
 279002288,true,matchAll manipulates ES arrays in parallel steps,https://github.com/w3c/ServiceWorker/issues/1240,2017-12-04T13:50:09Z,2017-12-08T18:53:00Z,bzbarsky,,1
 278575588,true,"if a worker script redirects from an in-scope URL to an out-of-scope URL, what is the worker's final controller?",https://github.com/w3c/ServiceWorker/issues/1239,2017-12-01T19:45:31Z,2018-04-09T13:27:09Z,wanderview,,0
@@ -417,7 +417,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 254029895,false,What happens to the request body if the fetch isn't handled?,https://github.com/w3c/ServiceWorker/issues/1191,2017-08-30T14:56:02Z,2019-06-06T15:46:49Z,jakearchibald,,0
 251556888,true,Does changing updateViaCache mint a new ServiceWorkerRegistration or update them all?,https://github.com/w3c/ServiceWorker/issues/1189,2017-08-21T05:59:20Z,2019-06-03T08:26:00Z,mfalken,decided,0
 250914006,true,Remove foreign fetch,https://github.com/w3c/ServiceWorker/issues/1188,2017-08-17T11:34:54Z,2022-07-22T05:05:31Z,jakearchibald,,62
-250860504,false,skipWaiting() promise should resolve after promotion to .active,https://github.com/w3c/ServiceWorker/issues/1187,2017-08-17T08:02:20Z,2018-06-20T01:14:57Z,mfalken,,0
+250860504,false,skipWaiting() promise should resolve after promotion to .active,https://github.com/w3c/ServiceWorker/issues/1187,2017-08-17T08:02:20Z,2026-05-29T00:13:09Z,mfalken,,0
 249952168,true,How can we use SW module link in backward-compatible manner?,https://github.com/w3c/ServiceWorker/issues/1186,2017-08-14T07:29:23Z,2026-01-23T01:05:04Z,tzik,,0
 249079902,false,thoughts on exposing multiple-instances to sites via the DOM,https://github.com/w3c/ServiceWorker/issues/1185,2017-08-09T15:59:17Z,2017-08-16T18:49:57Z,wanderview,,0
 249059458,false,error handling for aborted streams feeding a navigation request,https://github.com/w3c/ServiceWorker/issues/1184,2017-08-09T14:56:40Z,2026-02-06T10:46:17Z,wanderview,,0
@@ -523,7 +523,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 197049082,true,async waitUntil() does not allow extension on final promise resolution?,https://github.com/w3c/ServiceWorker/issues/1039,2016-12-21T22:31:03Z,2017-11-03T16:42:37Z,wanderview,,0
 196438654,false,consider how Client API should behave with bfcache,https://github.com/w3c/ServiceWorker/issues/1038,2016-12-19T15:19:09Z,2021-12-17T09:19:11Z,wanderview,apr-2017-f2f-v1,0
 196434325,false,`Clients.matchAll()` should exclude the current environment,https://github.com/w3c/ServiceWorker/issues/1037,2016-12-19T15:00:57Z,2026-02-06T00:54:53Z,wanderview,apr-2017-f2f,0
-196433814,false,Support returning ServiceWorker Client environments from `Clients.matchAll()`,https://github.com/w3c/ServiceWorker/issues/1036,2016-12-19T14:58:49Z,2018-06-24T18:56:16Z,wanderview,apr-2017-f2f,0
+196433814,false,Support returning ServiceWorker Client environments from `Clients.matchAll()`,https://github.com/w3c/ServiceWorker/issues/1036,2016-12-19T14:58:49Z,2026-05-29T00:22:14Z,wanderview,apr-2017-f2f,0
 196408009,true,postMessage() to a reserved client throws,https://github.com/w3c/ServiceWorker/issues/1035,2016-12-19T12:59:31Z,2017-11-23T12:27:31Z,jungkees,spec detail|apr-2017-f2f-v1,0
 196169448,true,what should Client.url return for a reserved Worker Client?,https://github.com/w3c/ServiceWorker/issues/1034,2016-12-16T22:35:33Z,2017-11-23T12:27:43Z,wanderview,bug|spec detail|apr-2017-f2f-v1,0
 196138817,true,Why are only a subset of JS mime types allowed?,https://github.com/w3c/ServiceWorker/issues/1033,2016-12-16T19:41:35Z,2017-09-21T23:52:19Z,domenic,apr-2017-f2f-v1,1
@@ -531,7 +531,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 196089039,true,reserved Client objects and redirected navigations,https://github.com/w3c/ServiceWorker/issues/1031,2016-12-16T15:49:36Z,2017-11-23T15:04:37Z,wanderview,spec detail|apr-2017-f2f-v1,0
 195937396,true,Client.reserved references wrong context state?,https://github.com/w3c/ServiceWorker/issues/1030,2016-12-15T22:50:31Z,2017-11-23T15:04:56Z,wanderview,apr-2017-f2f-v1,0
 195843563,true,activation of the Service Worker on an iframe context,https://github.com/w3c/ServiceWorker/issues/1029,2016-12-15T16:02:13Z,2016-12-16T16:04:06Z,ArturoWipe,,0
-195626543,false,Consider providing `navigation` event,https://github.com/w3c/ServiceWorker/issues/1028,2016-12-14T19:43:08Z,2018-05-18T03:11:13Z,delapuente,apr-2017-f2f,2
+195626543,true,Consider providing `navigation` event,https://github.com/w3c/ServiceWorker/issues/1028,2016-12-14T19:43:08Z,2026-05-28T23:54:06Z,delapuente,apr-2017-f2f,2
 195387761,false,Consider mechanisms to bypass the service worker for things that we know won't be in it's cache,https://github.com/w3c/ServiceWorker/issues/1026,2016-12-13T22:30:37Z,2025-11-09T08:08:32Z,n8schloss,apr-2017-f2f,2
 195064306,true,"consider allowing static routing only for ""foreign fetch"" for anonymous requests",https://github.com/w3c/ServiceWorker/issues/1024,2016-12-12T19:33:34Z,2017-11-03T16:35:36Z,wanderview,apr-2017-f2f,0
 194805603,true,Inconsistent behaviour when client-side certificates are required,https://github.com/w3c/ServiceWorker/issues/1022,2016-12-11T01:24:38Z,2017-03-30T07:23:14Z,olemartinorg,,0
