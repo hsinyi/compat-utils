@@ -1,8 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4571428625,false,Handle media <source> moves around the pointer,https://github.com/whatwg/html/pull/12511,2026-06-02T12:30:57Z,2026-06-02T12:32:41Z,zcorpan,,0
+4579922299,false,Expose redirectCount for TAO opted-in redirect chains,https://github.com/whatwg/html/pull/12513,2026-06-03T12:43:20Z,2026-06-03T15:44:09Z,yoavweiss,,0
+4571428625,false,Handle media <source> moves around the pointer,https://github.com/whatwg/html/pull/12511,2026-06-02T12:30:57Z,2026-06-03T15:20:23Z,zcorpan,,0
 4560026662,true,"Editorial: fix misc punctuation, wording, grammar",https://github.com/whatwg/html/pull/12508,2026-06-01T03:10:16Z,2026-06-02T02:49:25Z,jmdyck,,0
 4550306617,true,Define that <video> and <audio> have a shadow tree with no slots.,https://github.com/whatwg/html/pull/12506,2026-05-29T17:19:08Z,2026-06-01T08:37:48Z,emilio,,0
-4544835024,false,Make select/option content model clearer about children versus descendants,https://github.com/whatwg/html/pull/12504,2026-05-29T00:57:23Z,2026-06-02T19:40:13Z,dbaron,topic: select,0
+4544835024,true,Make select/option content model clearer about children versus descendants,https://github.com/whatwg/html/pull/12504,2026-05-29T00:57:23Z,2026-06-03T15:30:47Z,dbaron,topic: select,0
 4542492585,false,Rework resource selection algorithm to avoid interleaved jumps,https://github.com/whatwg/html/pull/12502,2026-05-28T17:38:01Z,2026-05-29T12:51:19Z,nicolo-ribaudo,topic: media|editorial,0
 4535614284,false,Preserve focused area across bfcache reactivation,https://github.com/whatwg/html/pull/12497,2026-05-27T20:46:06Z,2026-05-27T20:47:41Z,hjanuschka,,0
 4533497903,false,Add `runScripts` to `SetHTMLUnsafeOptions`,https://github.com/whatwg/html/pull/12495,2026-05-27T15:17:32Z,2026-05-28T08:46:03Z,noamr,,0
@@ -26,7 +27,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4442193895,true,Correct first name of River Champeimont,https://github.com/whatwg/html/pull/12449,2026-05-14T00:54:31Z,2026-05-14T06:37:29Z,rchampeimont,,1
 4442034456,true,Markup: Add `for` attribute to `dfn` for HTMLHyperlinkElementUtils target,https://github.com/whatwg/html/pull/12448,2026-05-14T00:11:30Z,2026-05-14T07:24:48Z,jmdyck,,0
 4436913669,true,"Normative: Add hreflang and type to area, SVG a, and MathML a",https://github.com/whatwg/html/pull/12446,2026-05-13T10:05:51Z,2026-05-18T22:20:23Z,lukewarlow,,0
-4436381204,false,"Add `<meta name=""responsive-embedded-sizing"">`",https://github.com/whatwg/html/pull/12444,2026-05-13T08:54:08Z,2026-06-02T10:43:32Z,kojiishi,,0
+4436381204,false,"Add `<meta name=""responsive-embedded-sizing"">`",https://github.com/whatwg/html/pull/12444,2026-05-13T08:54:08Z,2026-06-03T13:00:20Z,kojiishi,,0
 4433013237,true,Editorial: move a and area target IDL to the HTMLHyperlinkElementUtils,https://github.com/whatwg/html/pull/12442,2026-05-12T22:19:15Z,2026-05-13T12:50:36Z,lukewarlow,,0
 4424762864,true,Editorial: Fix typos from recent merges,https://github.com/whatwg/html/pull/12437,2026-05-11T22:32:59Z,2026-05-12T05:00:38Z,jmdyck,,0
 4413928995,true,"Fix ""element with default preferred size"" link",https://github.com/whatwg/html/pull/12434,2026-05-09T21:51:30Z,2026-05-10T06:12:23Z,nicolo-ribaudo,editorial,0
@@ -99,7 +100,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4034613404,false,Make <option> and <optgroup> share a text content algorithm,https://github.com/whatwg/html/pull/12232,2026-03-06T14:49:40Z,2026-03-10T08:17:59Z,annevk,topic: select,0
 4032014779,true,Editorial: Fix misc,https://github.com/whatwg/html/pull/12229,2026-03-06T03:34:03Z,2026-03-06T16:52:03Z,jmdyck,,0
 4017752636,false,Add moduleRequest to modulepreload fetch parameters,https://github.com/whatwg/html/pull/12223,2026-03-03T17:02:58Z,2026-03-20T17:07:28Z,KurtCattiSchmidt,,0
-4008340208,false,Expand disabled form control event handling spec text,https://github.com/whatwg/html/pull/12219,2026-03-01T21:41:58Z,2026-05-18T21:17:52Z,hjanuschka,,1
+4008340208,false,Expand disabled form control event handling spec text,https://github.com/whatwg/html/pull/12219,2026-03-01T21:41:58Z,2026-06-03T11:26:25Z,hjanuschka,,1
 4000861951,true,Restore the minus sign before the default value of tabIndex getter,https://github.com/whatwg/html/pull/12211,2026-02-27T12:43:34Z,2026-02-27T13:48:24Z,mrobinson,,1
 3996929345,true,Make option and optgroup actually disabled inside disabled select,https://github.com/whatwg/html/pull/12205,2026-02-26T17:50:28Z,2026-05-07T13:55:42Z,josepharhar,,1
 3991450591,false,Define option and optgroup base appearance rendering,https://github.com/whatwg/html/pull/12201,2026-02-25T19:53:35Z,2026-05-28T17:28:35Z,josepharhar,normative change|topic: rendering|topic: select,0
