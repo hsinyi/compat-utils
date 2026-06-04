@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4579922299,false,Expose redirectCount for TAO opted-in redirect chains,https://github.com/whatwg/html/pull/12513,2026-06-03T12:43:20Z,2026-06-03T15:44:09Z,yoavweiss,,0
+4579922299,false,Expose redirectCount for TAO opted-in redirect chains,https://github.com/whatwg/html/pull/12513,2026-06-03T12:43:20Z,2026-06-03T20:57:57Z,yoavweiss,,0
 4571428625,false,Handle media <source> moves around the pointer,https://github.com/whatwg/html/pull/12511,2026-06-02T12:30:57Z,2026-06-03T15:20:23Z,zcorpan,,0
 4560026662,true,"Editorial: fix misc punctuation, wording, grammar",https://github.com/whatwg/html/pull/12508,2026-06-01T03:10:16Z,2026-06-02T02:49:25Z,jmdyck,,0
 4550306617,true,Define that <video> and <audio> have a shadow tree with no slots.,https://github.com/whatwg/html/pull/12506,2026-05-29T17:19:08Z,2026-06-01T08:37:48Z,emilio,,0
@@ -36,7 +36,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4406040097,true,Stop defining volumechange in terms of public API,https://github.com/whatwg/html/pull/12428,2026-05-08T11:33:38Z,2026-05-08T16:05:14Z,annevk,,0
 4404999905,false,Pass response to WebDriver BiDi donwnload events.,https://github.com/whatwg/html/pull/12426,2026-05-08T08:32:53Z,2026-05-22T13:30:29Z,lutien,,0
 4401847584,false,[DRAFT]  Add readonly attribute to fieldset element,https://github.com/whatwg/html/pull/12424,2026-05-07T20:40:42Z,2026-05-08T06:03:59Z,teoeter,,0
-4387037484,false,Defer updating the reused window's associated document until activation,https://github.com/whatwg/html/pull/12421,2026-05-05T20:53:14Z,2026-05-05T20:54:59Z,shannonbooth,,0
+4387037484,false,Don't update active document too early for same-origin navigations,https://github.com/whatwg/html/pull/12421,2026-05-05T20:53:14Z,2026-06-03T20:43:26Z,shannonbooth,,0
 4385472705,true,Remove fragment parsing special case for input tags,https://github.com/whatwg/html/pull/12420,2026-05-05T16:06:16Z,2026-05-05T16:34:04Z,josepharhar,,0
 4376443950,true,Rename HTMLOrSVGElement mixin to HTMLOrSVGOrMathMLElement,https://github.com/whatwg/html/pull/12416,2026-05-04T12:10:58Z,2026-05-04T15:56:16Z,lukewarlow,,2
 4361153241,true,Update list of fieldset inherited properties for css-gaps-1,https://github.com/whatwg/html/pull/12414,2026-04-30T20:44:31Z,2026-05-13T06:52:11Z,kbabbitt,,0
@@ -103,7 +103,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4008340208,false,Expand disabled form control event handling spec text,https://github.com/whatwg/html/pull/12219,2026-03-01T21:41:58Z,2026-06-03T11:26:25Z,hjanuschka,,1
 4000861951,true,Restore the minus sign before the default value of tabIndex getter,https://github.com/whatwg/html/pull/12211,2026-02-27T12:43:34Z,2026-02-27T13:48:24Z,mrobinson,,1
 3996929345,true,Make option and optgroup actually disabled inside disabled select,https://github.com/whatwg/html/pull/12205,2026-02-26T17:50:28Z,2026-05-07T13:55:42Z,josepharhar,,1
-3991450591,false,Define option and optgroup base appearance rendering,https://github.com/whatwg/html/pull/12201,2026-02-25T19:53:35Z,2026-05-28T17:28:35Z,josepharhar,normative change|topic: rendering|topic: select,0
+3991450591,false,Define option and optgroup base appearance rendering,https://github.com/whatwg/html/pull/12201,2026-02-25T19:53:35Z,2026-06-03T16:42:09Z,josepharhar,normative change|topic: rendering|topic: select,0
 3986866649,true,Drop color-mix() color space from select base appearance style,https://github.com/whatwg/html/pull/12198,2026-02-25T02:45:49Z,2026-02-25T06:12:48Z,nt1m,,0
 3985923504,true,Add display:block to base appearance optgroups,https://github.com/whatwg/html/pull/12197,2026-02-24T21:29:13Z,2026-02-25T06:16:27Z,josepharhar,,0
 3984130106,false,Add HTMLScriptElement IDL changes for Trusted Types,https://github.com/whatwg/html/pull/12195,2026-02-24T14:46:16Z,2026-02-25T10:03:14Z,lukewarlow,,0
@@ -154,12 +154,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3752981634,true,"Set creation URL of worker settings to final URL after redirect",https://github.com/whatwg/html/pull/12038,2025-12-22T09:20:36Z,2026-02-02T18:01:02Z,TimvdLippe,,0
 3739393306,true,Avoid unresolved promises in Navigation API traversal,https://github.com/whatwg/html/pull/12031,2025-12-17T15:34:23Z,2026-02-26T15:01:44Z,zcorpan,,0
 3737222223,true,Editorial: Fix wording and punctuation,https://github.com/whatwg/html/pull/12027,2025-12-17T03:51:38Z,2025-12-22T15:11:24Z,jmdyck,,1
-3736701020,false,Add document policy to the policy container,https://github.com/whatwg/html/pull/12026,2025-12-16T23:27:19Z,2026-06-02T07:41:21Z,monica-ch,,0
+3736701020,false,Add document policy to the policy container,https://github.com/whatwg/html/pull/12026,2025-12-16T23:27:19Z,2026-06-03T16:32:28Z,monica-ch,,0
 3735295434,true,Navigation API: nullify ongoing navigate event on successful cross-document navigation,https://github.com/whatwg/html/pull/12024,2025-12-16T15:31:17Z,2026-05-11T14:37:51Z,noamr,,0
 3735064449,true,"Move ""clean up API method tracker"" to the right place",https://github.com/whatwg/html/pull/12022,2025-12-16T14:35:18Z,2026-01-12T10:54:36Z,noamr,,0
 3734374547,true,Fixing button command early-bail steps,https://github.com/whatwg/html/pull/12021,2025-12-16T11:25:01Z,2026-01-09T18:52:27Z,jakearchibald,,1
 3726130924,true,Fix ordering of lifecycle callbacks to match implementations,https://github.com/whatwg/html/pull/12017,2025-12-13T16:09:47Z,2026-03-31T16:14:21Z,lukewarlow,,0
-3720029201,false,[Draft] Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2026-05-28T21:35:33Z,domfarolino,agenda+,0
+3720029201,false,Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2026-06-03T19:30:43Z,domfarolino,agenda+,0
 3717708776,false,Skip light dismiss when opening select's picker,https://github.com/whatwg/html/pull/12008,2025-12-11T04:33:36Z,2026-04-30T16:34:49Z,josepharhar,,0
 3714324873,true,Add proposal for maxcount attribute,https://github.com/whatwg/html/pull/12005,2025-12-10T09:24:01Z,2025-12-10T12:59:11Z,milanagowda77656-cloud,invalid,0
 3706163049,false,Introduce customelementregistry global attribute,https://github.com/whatwg/html/pull/12000,2025-12-08T12:24:45Z,2026-05-07T18:53:26Z,ja-y-son,,0
