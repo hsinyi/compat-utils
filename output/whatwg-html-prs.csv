@@ -1,7 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4594833384,false,Meta: improve PR Preview,https://github.com/whatwg/html/pull/12523,2026-06-05T06:41:32Z,2026-06-05T06:44:16Z,annevk,,0
+4594661232,false,Update Acknowledgments for the Sanitizer API,https://github.com/whatwg/html/pull/12522,2026-06-05T06:08:43Z,2026-06-05T07:34:58Z,zcorpan,,1
 4587600268,true,Allow intercepted fragment navigations to be cancelled with window.stop,https://github.com/whatwg/html/pull/12519,2026-06-04T09:42:45Z,2026-06-04T14:36:59Z,noamr,,0
-4579922299,false,Expose redirectCount for TAO opted-in redirect chains,https://github.com/whatwg/html/pull/12513,2026-06-03T12:43:20Z,2026-06-04T06:47:56Z,yoavweiss,,0
-4571428625,false,Handle media <source> moves around the pointer,https://github.com/whatwg/html/pull/12511,2026-06-02T12:30:57Z,2026-06-04T10:48:05Z,zcorpan,,0
+4579922299,false,Expose redirectCount for TAO opted-in redirect chains,https://github.com/whatwg/html/pull/12513,2026-06-03T12:43:20Z,2026-06-05T06:37:15Z,yoavweiss,do not merge yet,0
+4571428625,false,Handle media <source> moves around the pointer,https://github.com/whatwg/html/pull/12511,2026-06-02T12:30:57Z,2026-06-05T07:30:12Z,zcorpan,,0
 4560026662,true,"Editorial: fix misc punctuation, wording, grammar",https://github.com/whatwg/html/pull/12508,2026-06-01T03:10:16Z,2026-06-02T02:49:25Z,jmdyck,,0
 4550306617,true,Define that <video> and <audio> have a shadow tree with no slots.,https://github.com/whatwg/html/pull/12506,2026-05-29T17:19:08Z,2026-06-01T08:37:48Z,emilio,,0
 4544835024,true,Make select/option content model clearer about children versus descendants,https://github.com/whatwg/html/pull/12504,2026-05-29T00:57:23Z,2026-06-03T15:30:47Z,dbaron,topic: select,0
@@ -10,11 +12,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4533497903,false,Add `runScripts` to `SetHTMLUnsafeOptions`,https://github.com/whatwg/html/pull/12495,2026-05-27T15:17:32Z,2026-05-28T08:46:03Z,noamr,,0
 4532637108,true,"Ensure ""topmost popover ancestor"" is only called for auto or hint popovers",https://github.com/whatwg/html/pull/12493,2026-05-27T13:20:47Z,2026-05-28T08:55:08Z,jakearchibald,,1
 4531528389,false,"Specify rate limiter for navigation, history traversal, and pushState/replaceState",https://github.com/whatwg/html/pull/12492,2026-05-27T10:16:48Z,2026-05-27T12:40:56Z,zcorpan,topic: navigation,0
-4527687543,false,Force image inputs to be clipped as well.,https://github.com/whatwg/html/pull/12491,2026-05-26T21:40:30Z,2026-06-05T00:56:55Z,emilio,agenda+,0
+4527687543,true,Force image inputs to be clipped as well.,https://github.com/whatwg/html/pull/12491,2026-05-26T21:40:30Z,2026-06-05T06:38:14Z,emilio,agenda+,0
 4522453089,true,Editorial: correct markup for :heading,https://github.com/whatwg/html/pull/12484,2026-05-26T07:52:42Z,2026-05-28T20:02:01Z,annevk,,0
 4511990521,false,Allow activation of a checked radio button to clear it,https://github.com/whatwg/html/pull/12480,2026-05-24T15:04:24Z,2026-05-27T11:37:59Z,hjanuschka,,2
 4499959663,true,Editorial: Remove inaccurate SecurityError note from createImageBitmap,https://github.com/whatwg/html/pull/12478,2026-05-22T05:00:33Z,2026-05-27T12:41:02Z,Devansh232406,,0
-4495672924,false,Make muted content attribute affect muted IDL attribute only once,https://github.com/whatwg/html/pull/12473,2026-05-21T15:09:23Z,2026-06-04T08:16:42Z,foolip,topic: media|agenda+,0
+4495672924,false,Make muted content attribute affect muted IDL attribute only once,https://github.com/whatwg/html/pull/12473,2026-05-21T15:09:23Z,2026-06-05T13:47:34Z,foolip,topic: media|agenda+,0
 4469014759,false,Also check CORS-same-origin in the <link> quirk,https://github.com/whatwg/html/pull/12468,2026-05-18T12:17:58Z,2026-05-18T14:40:14Z,zcorpan,,0
 4459928994,true,Add hreflang and type attribute definitions to dev edition,https://github.com/whatwg/html/pull/12465,2026-05-16T12:54:11Z,2026-05-17T06:09:12Z,lukewarlow,,0
 4454916782,true,Editorial: modernize HTMLOptionsCollection,https://github.com/whatwg/html/pull/12461,2026-05-15T15:07:25Z,2026-05-19T12:21:57Z,annevk,,0
@@ -91,7 +93,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4083478419,true,Add shadowrootslotassignment attribute,https://github.com/whatwg/html/pull/12267,2026-03-16T16:20:03Z,2026-04-15T16:35:47Z,keithamus,topic: custom elements,0
 4081539025,true,Set the fragment scripting mode based on the context document,https://github.com/whatwg/html/pull/12266,2026-03-16T10:14:40Z,2026-04-07T12:23:23Z,noamr,,0
 4080722654,true,Meta: correct link to CONTRIBUTING.md in README,https://github.com/whatwg/html/pull/12265,2026-03-16T07:25:30Z,2026-03-16T07:32:17Z,annevk,,0
-4079849363,false,Clone into all descendant selectedcontent elements,https://github.com/whatwg/html/pull/12263,2026-03-16T02:23:25Z,2026-05-28T20:34:55Z,josepharhar,topic: select,0
+4079849363,false,Clone into all descendant selectedcontent elements,https://github.com/whatwg/html/pull/12263,2026-03-16T02:23:25Z,2026-06-05T08:39:10Z,josepharhar,topic: select,0
 4077971858,true,Meta: update repository files,https://github.com/whatwg/html/pull/12261,2026-03-15T08:59:42Z,2026-03-16T07:19:31Z,annevk,,0
 4064717937,true,Navigation API: Don't run navigation handlers until entry is committed.,https://github.com/whatwg/html/pull/12256,2026-03-12T13:35:55Z,2026-03-20T15:46:36Z,farre,topic: navigation,0
 4058916279,true,Editorial: grandgrandchild is not correct English,https://github.com/whatwg/html/pull/12249,2026-03-11T15:26:14Z,2026-03-12T21:53:04Z,zcorpan,,0
@@ -233,7 +235,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3509799761,true,Calrify that image presentation is updated even when EXIF is invalid,https://github.com/whatwg/html/pull/11779,2025-10-13T12:06:57Z,2025-10-13T17:13:14Z,noamr,,0
 3503172358,true,Fix variable name in option disabled algorithm,https://github.com/whatwg/html/pull/11772,2025-10-10T14:23:55Z,2025-10-10T15:11:03Z,josepharhar,,0
 3497617752,true,Update 404.html,https://github.com/whatwg/html/pull/11768,2025-10-09T04:43:22Z,2025-10-09T05:23:13Z,Stutiporwal1,invalid,0
-3494102804,false,Navigation: Add optimization to ignore duplicate navigations,https://github.com/whatwg/html/pull/11765,2025-10-08T06:48:17Z,2026-06-04T07:34:02Z,llannasatoll,,0
+3494102804,false,Navigation: Add optimization to ignore duplicate navigations,https://github.com/whatwg/html/pull/11765,2025-10-08T06:48:17Z,2026-06-05T07:58:48Z,llannasatoll,,0
 3493093695,true,Improve behavior for parsing option end tags,https://github.com/whatwg/html/pull/11764,2025-10-07T21:25:50Z,2025-10-13T17:15:39Z,josepharhar,,1
 3492979858,true,Editorial: split multi-<code> <pre>s into individual <pre><code>,https://github.com/whatwg/html/pull/11763,2025-10-07T20:46:12Z,2025-10-08T07:31:49Z,foolip,,0
 3492316993,true,"Navigation API: pass argument instead of a global ""upcoming method tracker""",https://github.com/whatwg/html/pull/11762,2025-10-07T17:12:31Z,2025-10-20T13:20:58Z,noamr,,0
@@ -300,7 +302,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3356225711,false,"[FYI, not ready for review] Add globalHDRHeadroom to CanvasCompositing interface",https://github.com/whatwg/html/pull/11597,2025-08-26T15:51:38Z,2025-10-01T08:29:20Z,ccameron-chromium,,0
 3344286687,true,chore(css): normalize prefers-color-scheme spacing in styles.css,https://github.com/whatwg/html/pull/11591,2025-08-22T06:18:20Z,2025-08-22T06:32:55Z,ArjunSaluja,invalid,0
 3342044580,true,use integer over anb syntax for heading,https://github.com/whatwg/html/pull/11589,2025-08-21T14:47:23Z,2025-08-27T12:55:08Z,keithamus,,0
-3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-06-04T17:08:08Z,foolip,,5
+3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-06-05T13:27:08Z,foolip,,5
 3337110965,true,[meta] Add dfn type and scope for HTMLMediaElement.src,https://github.com/whatwg/html/pull/11581,2025-08-20T08:32:57Z,2025-08-21T00:28:09Z,dontcallmedom,,1
 3336967031,true,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation,0
 3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
