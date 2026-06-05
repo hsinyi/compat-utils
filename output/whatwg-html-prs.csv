@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4587600268,false,Allow intercepted fragment navigations to be cancelled with window.stop,https://github.com/whatwg/html/pull/12519,2026-06-04T09:42:45Z,2026-06-04T13:53:23Z,noamr,,0
+4587600268,true,Allow intercepted fragment navigations to be cancelled with window.stop,https://github.com/whatwg/html/pull/12519,2026-06-04T09:42:45Z,2026-06-04T14:36:59Z,noamr,,0
 4579922299,false,Expose redirectCount for TAO opted-in redirect chains,https://github.com/whatwg/html/pull/12513,2026-06-03T12:43:20Z,2026-06-04T06:47:56Z,yoavweiss,,0
 4571428625,false,Handle media <source> moves around the pointer,https://github.com/whatwg/html/pull/12511,2026-06-02T12:30:57Z,2026-06-04T10:48:05Z,zcorpan,,0
 4560026662,true,"Editorial: fix misc punctuation, wording, grammar",https://github.com/whatwg/html/pull/12508,2026-06-01T03:10:16Z,2026-06-02T02:49:25Z,jmdyck,,0
@@ -10,7 +10,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4533497903,false,Add `runScripts` to `SetHTMLUnsafeOptions`,https://github.com/whatwg/html/pull/12495,2026-05-27T15:17:32Z,2026-05-28T08:46:03Z,noamr,,0
 4532637108,true,"Ensure ""topmost popover ancestor"" is only called for auto or hint popovers",https://github.com/whatwg/html/pull/12493,2026-05-27T13:20:47Z,2026-05-28T08:55:08Z,jakearchibald,,1
 4531528389,false,"Specify rate limiter for navigation, history traversal, and pushState/replaceState",https://github.com/whatwg/html/pull/12492,2026-05-27T10:16:48Z,2026-05-27T12:40:56Z,zcorpan,topic: navigation,0
-4527687543,false,Force image inputs to be clipped as well.,https://github.com/whatwg/html/pull/12491,2026-05-26T21:40:30Z,2026-05-29T10:40:44Z,emilio,agenda+,0
+4527687543,false,Force image inputs to be clipped as well.,https://github.com/whatwg/html/pull/12491,2026-05-26T21:40:30Z,2026-06-05T00:56:55Z,emilio,agenda+,0
 4522453089,true,Editorial: correct markup for :heading,https://github.com/whatwg/html/pull/12484,2026-05-26T07:52:42Z,2026-05-28T20:02:01Z,annevk,,0
 4511990521,false,Allow activation of a checked radio button to clear it,https://github.com/whatwg/html/pull/12480,2026-05-24T15:04:24Z,2026-05-27T11:37:59Z,hjanuschka,,2
 4499959663,true,Editorial: Remove inaccurate SecurityError note from createImageBitmap,https://github.com/whatwg/html/pull/12478,2026-05-22T05:00:33Z,2026-05-27T12:41:02Z,Devansh232406,,0
@@ -41,7 +41,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4385472705,true,Remove fragment parsing special case for input tags,https://github.com/whatwg/html/pull/12420,2026-05-05T16:06:16Z,2026-05-05T16:34:04Z,josepharhar,,0
 4376443950,true,Rename HTMLOrSVGElement mixin to HTMLOrSVGOrMathMLElement,https://github.com/whatwg/html/pull/12416,2026-05-04T12:10:58Z,2026-05-04T15:56:16Z,lukewarlow,,2
 4361153241,true,Update list of fieldset inherited properties for css-gaps-1,https://github.com/whatwg/html/pull/12414,2026-04-30T20:44:31Z,2026-05-13T06:52:11Z,kbabbitt,,0
-4338995744,false,Add platform-provided behaviors for custom elements & submit behavior,https://github.com/whatwg/html/pull/12409,2026-04-27T21:28:55Z,2026-05-18T16:15:38Z,anaskim,agenda+,0
+4338995744,false,Add platform-provided behaviors for custom elements & submit behavior,https://github.com/whatwg/html/pull/12409,2026-04-27T21:28:55Z,2026-06-04T16:52:20Z,anaskim,,0
 4319129763,true,Meta: add issue template for WHATNOT meetings,https://github.com/whatwg/html/pull/12402,2026-04-23T21:58:08Z,2026-04-24T12:24:14Z,annevk,,0
 4317972432,true,"Use ""self"" in select position-try-fallbacks",https://github.com/whatwg/html/pull/12400,2026-04-23T18:22:24Z,2026-04-23T19:36:36Z,josepharhar,normative change|topic: forms|topic: select,0
 4308865632,false,Upstream Document Picture-in-Picture API,https://github.com/whatwg/html/pull/12397,2026-04-22T12:05:20Z,2026-04-28T12:52:10Z,vinhill,,0
@@ -144,7 +144,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3803774703,true,Navigation API: Revert 11987,https://github.com/whatwg/html/pull/12078,2026-01-12T10:53:38Z,2026-01-12T11:28:07Z,noamr,,0
 3802846213,true,Check ongoing navigation before proceeding with javascript: URL navigation,https://github.com/whatwg/html/pull/12076,2026-01-12T05:43:04Z,2026-01-16T08:55:50Z,byteforge38,topic: navigation|topic: javascript: URLs,0
 3797092339,true,Calculate ancestorOrigins on document creation and store on document,https://github.com/whatwg/html/pull/12071,2026-01-09T14:11:52Z,2026-02-19T15:27:56Z,zcorpan,,0
-3795160292,false,Define base appearance for select multiple drop-down,https://github.com/whatwg/html/pull/12069,2026-01-09T01:58:01Z,2026-06-04T12:27:13Z,josepharhar,,0
+3795160292,false,Define base appearance for select multiple drop-down,https://github.com/whatwg/html/pull/12069,2026-01-09T01:58:01Z,2026-06-04T19:05:08Z,josepharhar,,0
 3793961141,true,Editorial: Refactor HTMLHyperlinkElementUtils,https://github.com/whatwg/html/pull/12066,2026-01-08T18:35:39Z,2026-02-27T10:16:52Z,lukewarlow,,1
 3793925711,true,Use the value attribute for color update if dirty value flag is false,https://github.com/whatwg/html/pull/12065,2026-01-08T18:23:44Z,2026-01-14T13:00:52Z,saschanaz,,0
 3792303816,true,"Revert ""Switch dialog/popover to using place-self:dialog""",https://github.com/whatwg/html/pull/12060,2026-01-08T10:27:29Z,2026-01-13T11:12:12Z,annevk,,0
@@ -300,7 +300,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3356225711,false,"[FYI, not ready for review] Add globalHDRHeadroom to CanvasCompositing interface",https://github.com/whatwg/html/pull/11597,2025-08-26T15:51:38Z,2025-10-01T08:29:20Z,ccameron-chromium,,0
 3344286687,true,chore(css): normalize prefers-color-scheme spacing in styles.css,https://github.com/whatwg/html/pull/11591,2025-08-22T06:18:20Z,2025-08-22T06:32:55Z,ArjunSaluja,invalid,0
 3342044580,true,use integer over anb syntax for heading,https://github.com/whatwg/html/pull/11589,2025-08-21T14:47:23Z,2025-08-27T12:55:08Z,keithamus,,0
-3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-06-04T04:20:23Z,foolip,,5
+3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-06-04T17:08:08Z,foolip,,5
 3337110965,true,[meta] Add dfn type and scope for HTMLMediaElement.src,https://github.com/whatwg/html/pull/11581,2025-08-20T08:32:57Z,2025-08-21T00:28:09Z,dontcallmedom,,1
 3336967031,true,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation,0
 3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
@@ -505,7 +505,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2834196191,true,Editorial: switch links back to official CSSWG drafts,https://github.com/whatwg/html/pull/11005,2025-02-05T23:54:24Z,2025-02-06T02:18:33Z,Loirooriol,,0
 2833243175,true,Editorial: fix link and wording for tuple origin,https://github.com/whatwg/html/pull/11001,2025-02-05T15:17:39Z,2025-02-06T01:25:39Z,zcorpan,clarification|topic: origin,0
 2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2025-04-16T13:40:27Z,AndresRPerez12,do not merge yet|topic: canvas,1
-2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2026-06-04T05:25:07Z,dandclark,,0
+2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2026-06-04T15:43:36Z,dandclark,,0
 2831485110,true,Fix dialog focus restoring descendant check,https://github.com/whatwg/html/pull/10994,2025-02-04T23:17:23Z,2025-02-17T02:49:55Z,josepharhar,topic: dialog,0
 2831477610,false,Remove links to defunct Twitter account,https://github.com/whatwg/html/pull/10993,2025-02-04T23:11:22Z,2025-02-12T12:42:41Z,eeeps,meta,1
 2830828832,true,Pass a top-level navigation initiator origin to Fetch,https://github.com/whatwg/html/pull/10991,2025-02-04T17:06:01Z,2025-07-25T09:20:12Z,bvandersloot-mozilla,,0

@@ -298,12 +298,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 366258113,false,Should CacheStorage.match allow partial matches on cache names?,https://github.com/w3c/ServiceWorker/issues/1357,2018-10-03T09:53:00Z,2019-11-28T11:55:38Z,kingsfleet,cache,0
 363889542,true,Clarify dynamic-imported scripts are never installed,https://github.com/w3c/ServiceWorker/issues/1356,2018-09-26T07:19:51Z,2024-05-17T02:13:36Z,d0iasm,decided,3
 360870617,false,Order of messages to clients in same unit of related browsing contexts unclear,https://github.com/w3c/ServiceWorker/issues/1355,2018-09-17T13:30:46Z,2018-10-11T07:19:08Z,ytausky,,0
-358673805,false,Beyond V1,https://github.com/w3c/ServiceWorker/issues/1353,2018-09-10T15:24:11Z,2018-09-20T20:23:51Z,jakearchibald,,0
-357770141,false,Process the events reliably with retries,https://github.com/w3c/ServiceWorker/issues/1352,2018-09-06T18:19:00Z,2018-09-07T15:05:21Z,collimarco,,0
+358673805,true,Beyond V1,https://github.com/w3c/ServiceWorker/issues/1353,2018-09-10T15:24:11Z,2026-06-05T00:28:28Z,jakearchibald,,0
+357770141,true,Process the events reliably with retries,https://github.com/w3c/ServiceWorker/issues/1352,2018-09-06T18:19:00Z,2026-06-05T00:24:28Z,collimarco,,0
 357689700,true,service worker source file is requesting from the server every time any navigation occurs in the page/ an frame is embedded in the page,https://github.com/w3c/ServiceWorker/issues/1351,2018-09-06T14:45:16Z,2018-09-06T16:35:49Z,sonochacko,,0
 357337540,false,should a frame navigated to about:blank inherit a service worker controller?,https://github.com/w3c/ServiceWorker/issues/1350,2018-09-05T17:52:47Z,2018-09-06T13:39:29Z,wanderview,,0
-354629045,false,Enabling client message queue on DOMContentLoaded is not mentioned in the spec,https://github.com/w3c/ServiceWorker/issues/1349,2018-08-28T08:42:29Z,2018-08-28T08:42:29Z,ytausky,,1
-352478690,false,It's possible to interact with an installing service worker before its 'install' event is dispatched,https://github.com/w3c/ServiceWorker/issues/1347,2018-08-21T10:27:36Z,2018-08-21T10:27:36Z,ytausky,,0
+354629045,false,Enabling client message queue on DOMContentLoaded is not mentioned in the spec,https://github.com/w3c/ServiceWorker/issues/1349,2018-08-28T08:42:29Z,2026-06-04T23:54:45Z,ytausky,,1
+352478690,false,It's possible to interact with an installing service worker before its 'install' event is dispatched,https://github.com/w3c/ServiceWorker/issues/1347,2018-08-21T10:27:36Z,2026-06-04T23:46:58Z,ytausky,,0
 349696706,false,Consider exposing Page Lifecycle state to service-worker,https://github.com/w3c/ServiceWorker/issues/1345,2018-08-11T01:52:35Z,2019-05-30T05:29:20Z,spanicker,,0
 349505796,true,Ground event listener existence check in new primitive,https://github.com/w3c/ServiceWorker/issues/1342,2018-08-10T12:58:16Z,2026-05-29T00:30:38Z,annevk,,0
 348408795,true,preloadResponse resolved to wrong kind of thing?,https://github.com/w3c/ServiceWorker/issues/1339,2018-08-07T17:04:41Z,2018-08-12T05:36:54Z,jyasskin,,0
@@ -332,7 +332,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 316372787,true,"spec says `update()` should resolve to a registration, but browsers do different things",https://github.com/w3c/ServiceWorker/issues/1304,2018-04-20T18:45:42Z,2018-06-14T13:29:40Z,wanderview,,0
 316322942,true,Create F2F agenda - 25 October 2018,https://github.com/w3c/ServiceWorker/issues/1303,2018-04-20T15:57:38Z,2021-03-18T07:55:45Z,jatindersmann,,2
 315053383,false,should prefetch loads trigger FetchEvents?,https://github.com/w3c/ServiceWorker/issues/1302,2018-04-17T13:12:05Z,2026-05-15T00:16:29Z,wanderview,,0
-314311336,false,Does ServiceWorkerContainer.onmessage also get ExtendableMessageEvent object?,https://github.com/w3c/ServiceWorker/issues/1301,2018-04-14T08:35:24Z,2018-10-10T14:37:27Z,saschanaz,,0
+314311336,false,Does ServiceWorkerContainer.onmessage also get ExtendableMessageEvent object?,https://github.com/w3c/ServiceWorker/issues/1301,2018-04-14T08:35:24Z,2026-06-05T00:32:13Z,saschanaz,,0
 314086141,true,PUT request payload is lost,https://github.com/w3c/ServiceWorker/issues/1300,2018-04-13T12:21:45Z,2018-04-13T13:35:04Z,chris-kruining,,0
 311714896,true,Cache API: Cache-Control headers and Opaque Responses,https://github.com/w3c/ServiceWorker/issues/1299,2018-04-05T18:11:27Z,2021-02-24T22:04:14Z,inexorabletash,cache,0
 311706729,true,Intecepts progress event of AJAX calls,https://github.com/w3c/ServiceWorker/issues/1298,2018-04-05T17:45:26Z,2026-03-06T01:24:10Z,stitchng,,0
@@ -699,7 +699,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 129207611,true,Should foreign fetch work same-origin?,https://github.com/w3c/ServiceWorker/issues/826,2016-01-27T17:02:44Z,2016-06-08T16:11:14Z,jakearchibald,,0
 129205005,true,Installing a foreign SW as part of a subresource request,https://github.com/w3c/ServiceWorker/issues/825,2016-01-27T16:54:33Z,2017-11-03T17:37:57Z,jakearchibald,apr-2017-f2f,1
 128494723,true,Browser Cache and ServiceWorker,https://github.com/w3c/ServiceWorker/issues/824,2016-01-25T09:27:00Z,2016-04-10T19:07:38Z,andreapernici,,0
-128361560,false,Cache transactions & fixing `addAll`,https://github.com/w3c/ServiceWorker/issues/823,2016-01-24T00:02:29Z,2018-09-04T13:11:51Z,jakearchibald,apr-2017-f2f,0
+128361560,true,Cache transactions & fixing `addAll`,https://github.com/w3c/ServiceWorker/issues/823,2016-01-24T00:02:29Z,2026-06-05T00:08:39Z,jakearchibald,apr-2017-f2f,0
 128030580,false,Preventing server-forced updates,https://github.com/w3c/ServiceWorker/issues/822,2016-01-21T22:04:08Z,2026-01-20T04:08:45Z,mappum,enhancement,7
 127952584,true,skip waiting flag purges active worker early,https://github.com/w3c/ServiceWorker/issues/821,2016-01-21T15:41:03Z,2016-01-22T16:29:37Z,wanderview,,0
 127634987,false,Save initial files into cache storage instead of browser's cache,https://github.com/w3c/ServiceWorker/issues/820,2016-01-20T09:07:09Z,2025-09-26T00:15:01Z,lewispham,,0
