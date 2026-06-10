@@ -1,7 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4630970612,false,headingoffset computation should not use the flat tree,https://github.com/whatwg/html/pull/12562,2026-06-10T12:00:05Z,2026-06-10T12:01:55Z,annevk,,0
+4630326485,false,Make the DocumentFragment to sanitize inert,https://github.com/whatwg/html/pull/12561,2026-06-10T10:32:05Z,2026-06-10T11:30:45Z,zcorpan,topic: sanitizer,0
 4625736254,false,"Editorial: Fix misc punctuation, wording, markup",https://github.com/whatwg/html/pull/12557,2026-06-09T21:25:45Z,2026-06-09T21:27:29Z,jmdyck,,0
-4623343517,false,Define privacy-preserving rendering,https://github.com/whatwg/html/pull/12554,2026-06-09T15:28:34Z,2026-06-09T21:10:38Z,foolip,,0
-4622085813,false,Remove superfluous canonicalization of Sanitizer config,https://github.com/whatwg/html/pull/12552,2026-06-09T12:51:41Z,2026-06-09T12:53:18Z,evilpie,,0
+4623343517,false,Define privacy-preserving rendering,https://github.com/whatwg/html/pull/12554,2026-06-09T15:28:34Z,2026-06-10T14:38:13Z,foolip,,0
+4622085813,true,Remove superfluous canonicalization of Sanitizer config,https://github.com/whatwg/html/pull/12552,2026-06-09T12:51:41Z,2026-06-10T08:45:50Z,evilpie,topic: sanitizer,0
 4617099204,false,Fix several issues with indeterminate,https://github.com/whatwg/html/pull/12531,2026-06-08T22:30:46Z,2026-06-08T23:24:48Z,annevk,,0
 4616174553,false,"Add <meta name=""text-scale"" content=""scale"">",https://github.com/whatwg/html/pull/12530,2026-06-08T19:56:31Z,2026-06-09T19:52:14Z,davidsgrogan,,0
 4613174505,false,HTML insertion positional methods,https://github.com/whatwg/html/pull/12528,2026-06-08T13:12:16Z,2026-06-09T17:29:31Z,noamr,,0
@@ -22,7 +24,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4522453089,true,Editorial: correct markup for :heading,https://github.com/whatwg/html/pull/12484,2026-05-26T07:52:42Z,2026-05-28T20:02:01Z,annevk,,0
 4511990521,false,Allow activation of a checked radio button to clear it,https://github.com/whatwg/html/pull/12480,2026-05-24T15:04:24Z,2026-05-27T11:37:59Z,hjanuschka,,2
 4499959663,true,Editorial: Remove inaccurate SecurityError note from createImageBitmap,https://github.com/whatwg/html/pull/12478,2026-05-22T05:00:33Z,2026-05-27T12:41:02Z,Devansh232406,,0
-4495672924,false,Make muted content attribute affect muted IDL attribute only once,https://github.com/whatwg/html/pull/12473,2026-05-21T15:09:23Z,2026-06-08T23:24:00Z,foolip,topic: media|agenda+,0
+4495672924,false,Make muted content attribute affect muted IDL attribute only once,https://github.com/whatwg/html/pull/12473,2026-05-21T15:09:23Z,2026-06-10T09:53:56Z,foolip,topic: media|agenda+,0
 4469014759,false,Also check CORS-same-origin in the <link> quirk,https://github.com/whatwg/html/pull/12468,2026-05-18T12:17:58Z,2026-05-18T14:40:14Z,zcorpan,,0
 4459928994,true,Add hreflang and type attribute definitions to dev edition,https://github.com/whatwg/html/pull/12465,2026-05-16T12:54:11Z,2026-05-17T06:09:12Z,lukewarlow,,0
 4454916782,true,Editorial: modernize HTMLOptionsCollection,https://github.com/whatwg/html/pull/12461,2026-05-15T15:07:25Z,2026-05-19T12:21:57Z,annevk,,0
@@ -296,7 +298,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3388006842,false,Add stream{*}HTMLUnsafe() methods,https://github.com/whatwg/html/pull/11631,2025-09-05T15:46:01Z,2026-03-25T11:25:31Z,foolip,,0
 3387513853,true,"Clone integrity policy as part of ""clone a policy container""",https://github.com/whatwg/html/pull/11628,2025-09-05T13:10:46Z,2025-09-08T09:26:22Z,yoavweiss,topic: policy container,0
 3383145665,true,"Editorial: correctly mark up JS code with class=""js""",https://github.com/whatwg/html/pull/11624,2025-09-04T10:40:34Z,2025-09-06T13:33:13Z,foolip,,0
-3380980195,false,Added support for link rel=compression-dictionary,https://github.com/whatwg/html/pull/11620,2025-09-03T19:14:59Z,2026-06-09T11:36:31Z,pmeenan,,0
+3380980195,false,Added support for link rel=compression-dictionary,https://github.com/whatwg/html/pull/11620,2025-09-03T19:14:59Z,2026-06-10T06:22:02Z,pmeenan,,0
 3377123672,false,Define normalization of full-width numeric characters in <input type=number> user input,https://github.com/whatwg/html/pull/11616,2025-09-02T18:42:30Z,2025-10-27T17:52:16Z,kyouhei-horizumi,normative change|topic: forms|i18n-tracker|i18n-jlreq|i18n-clreq,2
 3375698830,false,Run snapshot post-layout state steps in resizeObserver loop,https://github.com/whatwg/html/pull/11613,2025-09-02T11:54:25Z,2026-04-29T12:46:11Z,lilles,topic: rendering,0
 3372661973,true,Editorial: Fix punctuation + markup,https://github.com/whatwg/html/pull/11612,2025-09-01T13:15:14Z,2025-09-02T13:47:04Z,jmdyck,,0
