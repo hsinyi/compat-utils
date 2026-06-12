@@ -1,17 +1,18 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4649507998,false,Remove requirement about <dt> uniqueness,https://github.com/whatwg/html/issues/12571,2026-06-12T13:13:22Z,2026-06-12T13:14:06Z,zcorpan,document conformance,0
 4643077279,false,Proposal: Allow `Atomics.wait` on the main thread,https://github.com/whatwg/html/issues/12570,2026-06-11T18:16:24Z,2026-06-11T18:16:24Z,tlively,addition/proposal|needs implementer interest,0
 4642287287,false,Meeting 45 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12569,2026-06-11T16:17:41Z,2026-06-11T16:18:13Z,mfreed7,,0
 4639775560,false,"""Create navigation params by fetching"" missing iframe element referer policy",https://github.com/whatwg/html/issues/12567,2026-06-11T11:01:15Z,2026-06-11T11:01:15Z,AtkinsSJ,,0
 4639615808,false,`container` variable in internal ancestor origin objects list creation steps is unused,https://github.com/whatwg/html/issues/12566,2026-06-11T10:39:19Z,2026-06-11T10:39:19Z,AtkinsSJ,,0
 4636029072,false,"No way to read an image's true intrinsic dimensions when sizes=""auto"" (or any w-descriptor srcset) is used",https://github.com/whatwg/html/issues/12565,2026-06-11T00:13:53Z,2026-06-11T00:28:21Z,austinh,,0
 4634483543,false,Critical/Minor Ambiguity: Server-Sent Events MUST return event.data,https://github.com/whatwg/html/issues/12564,2026-06-10T19:51:29Z,2026-06-11T00:36:18Z,jabcreations,topic: eventsource,0
-4633061375,false,"""Evaluate a javascript url"" refers to non-existent targetSnapshotParams.",https://github.com/whatwg/html/issues/12563,2026-06-10T16:29:41Z,2026-06-10T16:29:41Z,AtkinsSJ,,0
+4633061375,false,"""Evaluate a javascript url"" refers to non-existent targetSnapshotParams.",https://github.com/whatwg/html/issues/12563,2026-06-10T16:29:41Z,2026-06-12T13:26:55Z,AtkinsSJ,topic: javascript: URLs,0
 4630107413,false,Nodes are made non-inert before sanitizing,https://github.com/whatwg/html/issues/12560,2026-06-10T10:02:38Z,2026-06-10T14:55:45Z,zcorpan,topic: sanitizer,0
 4629211457,true,Select min size,https://github.com/whatwg/html/issues/12559,2026-06-10T07:58:01Z,2026-06-10T12:52:55Z,sb3nder,,0
 4627890896,false,"select fallback button text, div element",https://github.com/whatwg/html/issues/12558,2026-06-10T04:11:54Z,2026-06-11T23:04:59Z,sb3nder,topic: select,0
 4624169534,false,Explicit bug report: selectionStart and selectionEnd missing from applicable form fields,https://github.com/whatwg/html/issues/12555,2026-06-09T17:31:22Z,2026-06-09T17:31:22Z,jabcreations,,0
 4623209434,true,Reset Button and Button states should not be auto-directionality form-associated elements,https://github.com/whatwg/html/issues/12553,2026-06-09T15:11:33Z,2026-06-10T11:20:47Z,skyz1,,0
-4613277707,false,The indeterminateness should be included in the cloning steps for input elements,https://github.com/whatwg/html/issues/12529,2026-06-08T13:25:35Z,2026-06-08T20:43:28Z,skyz1,topic: forms,0
+4613277707,true,The indeterminateness should be included in the cloning steps for input elements,https://github.com/whatwg/html/issues/12529,2026-06-08T13:25:35Z,2026-06-12T10:55:19Z,skyz1,topic: forms,0
 4601359287,false,"`<meta name=""text-scale"" content=""scale"" />`",https://github.com/whatwg/html/issues/12526,2026-06-06T01:46:35Z,2026-06-06T01:47:28Z,davidsgrogan,,1
 4598560429,false,[Platform-provided behaviors for CE] Breakout meeting,https://github.com/whatwg/html/issues/12525,2026-06-05T16:47:31Z,2026-06-08T15:41:34Z,anaskim,,0
 4593159823,false,Select in base-appearance mode should probably not have magic clips,https://github.com/whatwg/html/issues/12521,2026-06-05T00:36:19Z,2026-06-10T21:10:04Z,emilio,topic: rendering|needs tests|topic: select,0
@@ -486,7 +487,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3351546236,true,Introduce `<partial>` for Native HTML Fragment Inclusion,https://github.com/whatwg/html/issues/11595,2025-08-25T11:53:58Z,2025-08-25T12:18:06Z,aralroca,addition/proposal|needs implementer interest,2
 3349651354,true,range attribute in video tag,https://github.com/whatwg/html/issues/11594,2025-08-24T15:52:07Z,2025-09-12T09:07:04Z,tiuvi,addition/proposal|needs implementer interest,2
 3348324478,false,Clarify whether the introduction is normative,https://github.com/whatwg/html/issues/11593,2025-08-23T14:40:50Z,2025-09-17T07:32:25Z,BrianJDrake,clarification,1
-3348303515,false,Clarify whether this specification is being serious,https://github.com/whatwg/html/issues/11592,2025-08-23T14:25:00Z,2025-09-07T10:44:54Z,BrianJDrake,topic: parser,2
+3348303515,false,Clarify whether this specification is being serious,https://github.com/whatwg/html/issues/11592,2025-08-23T14:25:00Z,2025-09-07T10:44:54Z,BrianJDrake,topic: parser,3
 3342439619,true,An urgent concern and petition for XSLT,https://github.com/whatwg/html/issues/11590,2025-08-21T16:35:42Z,2025-08-23T03:41:47Z,sjehuda,,11
 3338775631,false,Support for managing id's declaratively,https://github.com/whatwg/html/issues/11585,2025-08-20T16:30:01Z,2026-02-28T20:44:26Z,bahrus,addition/proposal|needs implementer interest,2
 3338663410,false,Allow custom-elements to be a labelable element without being form-associated.,https://github.com/whatwg/html/issues/11584,2025-08-20T15:54:56Z,2025-08-21T12:24:55Z,lukewarlow,addition/proposal|needs implementer interest|topic: custom elements|topic: forms,2
@@ -626,14 +627,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3065467092,true,Upcoming WHATNOT meeting on 2025-05-22,https://github.com/whatwg/html/issues/11307,2025-05-15T08:48:56Z,2025-12-04T21:35:21Z,annevk,,0
 3064856851,true,Navigation fetch always uses document destination,https://github.com/whatwg/html/issues/11306,2025-05-15T04:32:36Z,2025-05-22T08:02:26Z,jdm,clarification,0
 4621598822,true,Upstreaming the Sanitizer API to HTML,https://github.com/whatwg/html/issues/12544,2025-05-14T08:10:35Z,2026-06-09T11:58:53Z,mozfreddyb,topic: sanitizer,0
-3058583719,false,"Add <dfn> for ""indeterminate"" boolean concept",https://github.com/whatwg/html/issues/11301,2025-05-13T02:23:27Z,2025-05-13T02:23:31Z,rahimabdi,,2
+3058583719,true,"Add <dfn> for ""indeterminate"" boolean concept",https://github.com/whatwg/html/issues/11301,2025-05-13T02:23:27Z,2026-06-12T10:55:19Z,rahimabdi,,2
 3056237033,true,popover attribute does not define canonical keyword for auto state,https://github.com/whatwg/html/issues/11298,2025-05-12T09:07:27Z,2025-05-14T13:54:51Z,annevk,topic: popover,0
 3056225719,true,preload attribute does not define canonical keyword for Automatic state,https://github.com/whatwg/html/issues/11297,2025-05-12T09:04:20Z,2025-05-14T13:54:52Z,annevk,topic: media,0
 3054195496,true,expose `Clients` to `SharedWorker`,https://github.com/whatwg/html/issues/11295,2025-05-10T14:31:05Z,2025-05-10T19:12:37Z,jimmywarting,,0
 3053380943,true,Can we include what header(s) get sent with link type prefetch?,https://github.com/whatwg/html/issues/11294,2025-05-09T23:25:16Z,2025-05-12T20:01:21Z,srwei,,0
 3050537262,true,"""rules for choosing a navigable"" allows named targeting with noopener",https://github.com/whatwg/html/issues/11291,2025-05-09T02:14:24Z,2025-05-09T13:55:33Z,domenic,topic: frames/navigables/browsing contexts,0
 3049580456,true,Upcoming WHATNOT meeting on 2025-05-15,https://github.com/whatwg/html/issues/11290,2025-05-08T16:53:08Z,2025-12-04T21:35:20Z,past,,0
-3043719418,false,Filterable `<select>` via `<input>` (native combobox & more),https://github.com/whatwg/html/issues/11288,2025-05-06T18:51:04Z,2025-07-15T18:08:24Z,brandonmcconnell,addition/proposal|needs implementer interest,12
+3043719418,false,Filterable `<select>` via `<input>` (native combobox & more),https://github.com/whatwg/html/issues/11288,2025-05-06T18:51:04Z,2025-07-15T18:08:24Z,brandonmcconnell,addition/proposal|needs implementer interest,14
 3043680396,true,"Spec text for naturalWidth and naturalHeight behavior isn't web-compatible, for cases where attributes are missing",https://github.com/whatwg/html/issues/11287,2025-05-06T18:33:58Z,2026-04-25T19:29:52Z,dholbert,topic: img|interop,1
 3043061501,false,Expanding the concept of internal resource links,https://github.com/whatwg/html/issues/11286,2025-05-06T14:34:00Z,2025-05-29T22:28:15Z,noamr,topic: link,1
 3040860886,true,"In `blob/88c7d93d0f87e19beadead68f8d2eb28c503a8a8/source#L56`, `<h1 class=""allcaps"">HTML</h1>` should be `<h1 class=""allcaps""><abbr>HTML</abbr></h1>`.",https://github.com/whatwg/html/issues/11285,2025-05-05T21:21:46Z,2025-05-07T11:41:40Z,RokeJulianLockhart,,0
@@ -3279,7 +3280,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 522995771,true,Handling of parser-created customized built-in elements with throwing constructors is undefined,https://github.com/whatwg/html/issues/5084,2019-11-14T17:16:40Z,2020-04-20T22:36:05Z,bzbarsky,topic: parser|topic: custom elements|needs tests|interop,0
 521976890,true,Please review.,https://github.com/whatwg/html/issues/5082,2019-11-13T05:54:35Z,2019-11-13T10:57:22Z,firdaus29syafiqa,,0
 521944461,false,<svg> -> <foreignObject> -> <iframe> gets executed in Firefox and rendered as content in Chrome,https://github.com/whatwg/html/issues/5081,2019-11-13T03:59:15Z,2019-11-14T08:29:25Z,susmita-k,,0
-521493626,false,indeterminate <input type=checkbox> definition confusing,https://github.com/whatwg/html/issues/5079,2019-11-12T11:28:51Z,2021-04-12T15:09:07Z,zcorpan,topic: forms,0
+521493626,true,indeterminate <input type=checkbox> definition confusing,https://github.com/whatwg/html/issues/5079,2019-11-12T11:28:51Z,2026-06-12T10:55:19Z,zcorpan,topic: forms,0
 521355857,false,MessagePort underspecified?,https://github.com/whatwg/html/issues/5078,2019-11-12T06:31:24Z,2026-03-29T17:32:28Z,gterzian,clarification|topic: serialize and transfer,0
 521167734,false,CSS to target specific chars in a text input (for formatting purposes).,https://github.com/whatwg/html/issues/5075,2019-11-11T20:22:43Z,2019-11-18T20:59:38Z,jisaacks,addition/proposal|topic: forms,1
 520813675,true,""" // DOM tree accessors   getter object (DOMStri...""",https://github.com/whatwg/html/issues/5074,2019-11-11T08:42:05Z,2019-11-11T08:52:36Z,angelvaldez885,,0
