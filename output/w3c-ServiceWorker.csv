@@ -291,13 +291,13 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 374739000,false,[Proposal] ServiceWorkerContainer.installing(scope) promise,https://github.com/w3c/ServiceWorker/issues/1364,2018-10-28T10:29:50Z,2018-10-29T17:59:28Z,FluorescentHallucinogen,,0
 374416780,true,"""waiting for all"" definition changed",https://github.com/w3c/ServiceWorker/issues/1363,2018-10-26T14:45:33Z,2019-09-03T01:11:04Z,domenic,,0
 373609785,true,"What is the name for `installing`, `waiting` and `active`?",https://github.com/w3c/ServiceWorker/issues/1362,2018-10-24T18:09:42Z,2018-10-25T06:04:44Z,FluorescentHallucinogen,,0
-372003225,false,clarify how navigation preload fetches can be measured using performance API,https://github.com/w3c/ServiceWorker/issues/1361,2018-10-19T15:17:55Z,2018-10-19T15:17:55Z,wanderview,,1
-369568704,false,"Redesign of ""extract header list values"" expected",https://github.com/w3c/ServiceWorker/issues/1360,2018-10-12T14:10:55Z,2018-10-12T14:10:55Z,annevk,,0
+372003225,false,clarify how navigation preload fetches can be measured using performance API,https://github.com/w3c/ServiceWorker/issues/1361,2018-10-19T15:17:55Z,2026-06-11T23:58:13Z,wanderview,,1
+369568704,false,"Redesign of ""extract header list values"" expected",https://github.com/w3c/ServiceWorker/issues/1360,2018-10-12T14:10:55Z,2026-06-11T23:51:09Z,annevk,,0
 366631426,true,Should add a “script type” check in the register algorithm.,https://github.com/w3c/ServiceWorker/issues/1359,2018-10-04T05:48:50Z,2019-06-03T08:29:39Z,d0iasm,,1
 366630778,true,Should add “script type” and “update via cache”  when check two jobs are equivalent.,https://github.com/w3c/ServiceWorker/issues/1358,2018-10-04T05:45:39Z,2019-06-03T08:29:54Z,d0iasm,,1
 366258113,false,Should CacheStorage.match allow partial matches on cache names?,https://github.com/w3c/ServiceWorker/issues/1357,2018-10-03T09:53:00Z,2019-11-28T11:55:38Z,kingsfleet,cache,0
 363889542,true,Clarify dynamic-imported scripts are never installed,https://github.com/w3c/ServiceWorker/issues/1356,2018-09-26T07:19:51Z,2024-05-17T02:13:36Z,d0iasm,decided,3
-360870617,false,Order of messages to clients in same unit of related browsing contexts unclear,https://github.com/w3c/ServiceWorker/issues/1355,2018-09-17T13:30:46Z,2018-10-11T07:19:08Z,ytausky,,0
+360870617,false,Order of messages to clients in same unit of related browsing contexts unclear,https://github.com/w3c/ServiceWorker/issues/1355,2018-09-17T13:30:46Z,2026-06-11T23:41:09Z,ytausky,,0
 358673805,true,Beyond V1,https://github.com/w3c/ServiceWorker/issues/1353,2018-09-10T15:24:11Z,2026-06-05T00:28:28Z,jakearchibald,,0
 357770141,true,Process the events reliably with retries,https://github.com/w3c/ServiceWorker/issues/1352,2018-09-06T18:19:00Z,2026-06-05T00:24:28Z,collimarco,,0
 357689700,true,service worker source file is requesting from the server every time any navigation occurs in the page/ an frame is embedded in the page,https://github.com/w3c/ServiceWorker/issues/1351,2018-09-06T14:45:16Z,2018-09-06T16:35:49Z,sonochacko,,0
@@ -308,7 +308,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 349505796,true,Ground event listener existence check in new primitive,https://github.com/w3c/ServiceWorker/issues/1342,2018-08-10T12:58:16Z,2026-05-29T00:30:38Z,annevk,,0
 348408795,true,preloadResponse resolved to wrong kind of thing?,https://github.com/w3c/ServiceWorker/issues/1339,2018-08-07T17:04:41Z,2018-08-12T05:36:54Z,jyasskin,,0
 347915151,true,Worker Update leaves open notifications behind (unclickable),https://github.com/w3c/ServiceWorker/issues/1337,2018-08-06T13:04:35Z,2018-08-08T16:30:38Z,mariusglauer,,0
-342134315,false,No good way to beacon during activate,https://github.com/w3c/ServiceWorker/issues/1336,2018-07-18T00:29:04Z,2018-10-25T11:11:25Z,asakusuma,,0
+342134315,true,No good way to beacon during activate,https://github.com/w3c/ServiceWorker/issues/1336,2018-07-18T00:29:04Z,2026-06-12T00:22:12Z,asakusuma,,0
 338845358,true,"Align ""uncaught runtime script error"" with the HTML spec",https://github.com/w3c/ServiceWorker/issues/1334,2018-07-06T08:11:01Z,2019-05-22T03:36:20Z,mfalken,,0
 336783622,false,A simple globally available store of data per-registration,https://github.com/w3c/ServiceWorker/issues/1331,2018-06-28T21:18:24Z,2018-10-30T13:48:19Z,slightlyoff,,1
 336140645,true,I am loosing my revenue because of sandbox,https://github.com/w3c/ServiceWorker/issues/1330,2018-06-27T09:07:01Z,2018-07-25T07:30:10Z,Srikanth80792,,0
@@ -350,7 +350,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 300275549,false,Service Worker handling of first page load subresources,https://github.com/w3c/ServiceWorker/issues/1282,2018-02-26T15:12:46Z,2020-04-26T04:21:01Z,yoavweiss,,8
 298821745,true,Query Cache algorithm contains orphaned 'f' references,https://github.com/w3c/ServiceWorker/issues/1280,2018-02-21T02:33:55Z,2018-02-23T01:19:59Z,inexorabletash,,0
 296032608,false,ready promise is kind of weird after you call unregister(),https://github.com/w3c/ServiceWorker/issues/1279,2018-02-09T22:30:59Z,2018-10-26T12:56:28Z,wanderview,,0
-296022898,false,ready promise is kind of weird with overlapping scopes,https://github.com/w3c/ServiceWorker/issues/1278,2018-02-09T21:48:57Z,2018-10-26T12:53:32Z,wanderview,,0
+296022898,false,ready promise is kind of weird with overlapping scopes,https://github.com/w3c/ServiceWorker/issues/1278,2018-02-09T21:48:57Z,2026-06-12T00:29:36Z,wanderview,,0
 294064370,false,The Cache objects do not expire unless authors *or users* delete the entries.,https://github.com/w3c/ServiceWorker/issues/1276,2018-02-03T00:34:15Z,2022-02-25T17:24:56Z,bsittler,,0
 293838820,true,What's the possible reason for navigator.serviceWorker.register error？,https://github.com/w3c/ServiceWorker/issues/1275,2018-02-02T10:19:36Z,2018-02-05T02:23:16Z,ywang1724,,0
 293774128,false,"Should the worker be removed from the registration *before* its state is set to ""redundant""?",https://github.com/w3c/ServiceWorker/issues/1273,2018-02-02T05:02:22Z,2019-06-17T14:31:29Z,cdumez,,0
@@ -402,7 +402,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 267231386,true,async waitUntil microtask issue,https://github.com/w3c/ServiceWorker/issues/1213,2017-10-20T16:27:13Z,2019-04-16T04:09:58Z,wanderview,,1
 267078474,true,The classic script's source text isn't defined in HTML any more,https://github.com/w3c/ServiceWorker/issues/1212,2017-10-20T06:48:13Z,2018-03-13T08:39:07Z,jungkees,spec detail,0
 265799092,true,Require JS content type for serviceworkers is not present in the spec,https://github.com/w3c/ServiceWorker/issues/1209,2017-10-16T14:53:39Z,2017-10-16T15:43:37Z,shhnjk,,0
-265787579,false,Feature request: Provide a way to delay execution of a new service worker,https://github.com/w3c/ServiceWorker/issues/1208,2017-10-16T14:20:57Z,2018-10-24T14:04:49Z,twiss,,15
+265787579,true,Feature request: Provide a way to delay execution of a new service worker,https://github.com/w3c/ServiceWorker/issues/1208,2017-10-16T14:20:57Z,2026-06-12T00:12:24Z,twiss,,15
 264551924,false,Create F2F agenda - 7 November 2017,https://github.com/w3c/ServiceWorker/issues/1206,2017-10-11T11:33:17Z,2018-11-26T19:45:41Z,jakearchibald,,1
 263564837,true,resurrected service workers don't fire an activate event which may break expectations,https://github.com/w3c/ServiceWorker/issues/1204,2017-10-06T20:37:27Z,2019-06-06T16:01:22Z,wanderview,,0
 263235777,true,Mixed feelings about ServiceWorker for module loader,https://github.com/w3c/ServiceWorker/issues/1203,2017-10-05T19:16:28Z,2018-03-02T04:03:35Z,Krinkle,,0
@@ -547,7 +547,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 188335410,true,Behavior of the onfetch setter regarding no-fetch service workers,https://github.com/w3c/ServiceWorker/issues/1004,2016-11-09T19:45:03Z,2019-11-04T19:19:27Z,catalinb,bug|apr-2017-f2f-v1,0
 188177339,true,Spec client.reserved,https://github.com/w3c/ServiceWorker/issues/1003,2016-11-09T06:43:00Z,2016-11-09T06:44:19Z,jungkees,needs spec,0
 186887431,true,Service worker Failed to load resource: net::ERR_UNSAFE_REDIRECT,https://github.com/w3c/ServiceWorker/issues/1001,2016-11-02T18:44:24Z,2016-11-06T19:01:40Z,chebaby,,0
-186437959,false,NavigationPreloadManager.setHeaderValue should reject invalid HTTP header field values,https://github.com/w3c/ServiceWorker/issues/1000,2016-11-01T00:45:35Z,2018-10-23T05:28:58Z,mfalken,apr-2017-f2f,0
+186437959,false,NavigationPreloadManager.setHeaderValue should reject invalid HTTP header field values,https://github.com/w3c/ServiceWorker/issues/1000,2016-11-01T00:45:35Z,2026-06-12T00:04:27Z,mfalken,apr-2017-f2f,0
 184979801,true,Async functions and waitUntil,https://github.com/w3c/ServiceWorker/issues/997,2016-10-24T23:19:32Z,2016-10-24T23:25:52Z,NekR,,0
 184373045,true,Can't register same ServiceWorker file to different subdomain,https://github.com/w3c/ServiceWorker/issues/994,2016-10-21T00:29:16Z,2016-10-22T15:21:34Z,ghost,,0
 184365877,true,Provide a way to skipWaiting when the last tab refreshes,https://github.com/w3c/ServiceWorker/issues/993,2016-10-20T23:31:31Z,2017-11-30T05:28:02Z,dfabulich,,1
