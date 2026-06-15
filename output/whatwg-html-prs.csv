@@ -4,7 +4,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4641833411,false,Remove categories of select/optgroup/option element inner content elements,https://github.com/whatwg/html/pull/12568,2026-06-11T15:16:42Z,2026-06-11T17:12:31Z,dbaron,,0
 4630970612,false,headingoffset computation should not use the flat tree,https://github.com/whatwg/html/pull/12562,2026-06-10T12:00:05Z,2026-06-10T15:47:13Z,annevk,,0
 4630326485,false,Make the DocumentFragment to sanitize inert,https://github.com/whatwg/html/pull/12561,2026-06-10T10:32:05Z,2026-06-10T11:30:45Z,zcorpan,topic: sanitizer,1
-4625736254,false,"Editorial: Fix misc punctuation, wording, markup",https://github.com/whatwg/html/pull/12557,2026-06-09T21:25:45Z,2026-06-13T04:09:50Z,jmdyck,,0
+4625736254,true,"Editorial: Fix misc punctuation, wording, markup",https://github.com/whatwg/html/pull/12557,2026-06-09T21:25:45Z,2026-06-15T11:10:25Z,jmdyck,,0
 4623343517,false,Define privacy-preserving rendering,https://github.com/whatwg/html/pull/12554,2026-06-09T15:28:34Z,2026-06-10T18:23:20Z,foolip,,0
 4622085813,true,Remove superfluous canonicalization of Sanitizer config,https://github.com/whatwg/html/pull/12552,2026-06-09T12:51:41Z,2026-06-10T08:45:50Z,evilpie,topic: sanitizer,0
 4617099204,true,Fix several issues with indeterminate,https://github.com/whatwg/html/pull/12531,2026-06-08T22:30:46Z,2026-06-12T10:55:20Z,annevk,,0
@@ -22,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4535614284,false,Preserve focused area across bfcache reactivation,https://github.com/whatwg/html/pull/12497,2026-05-27T20:46:06Z,2026-05-27T20:47:41Z,hjanuschka,,0
 4533497903,true,Add `runScripts` to `SetHTMLUnsafeOptions`,https://github.com/whatwg/html/pull/12495,2026-05-27T15:17:32Z,2026-06-08T18:47:42Z,noamr,,0
 4532637108,true,"Ensure ""topmost popover ancestor"" is only called for auto or hint popovers",https://github.com/whatwg/html/pull/12493,2026-05-27T13:20:47Z,2026-05-28T08:55:08Z,jakearchibald,,1
-4531528389,false,"Specify rate limiter for navigation, history traversal, and pushState/replaceState",https://github.com/whatwg/html/pull/12492,2026-05-27T10:16:48Z,2026-06-08T06:28:21Z,zcorpan,topic: navigation,0
+4531528389,false,"Specify rate limiter for navigation, history traversal, and pushState/replaceState",https://github.com/whatwg/html/pull/12492,2026-05-27T10:16:48Z,2026-06-15T16:44:51Z,zcorpan,topic: navigation,0
 4527687543,true,Force image inputs to be clipped as well.,https://github.com/whatwg/html/pull/12491,2026-05-26T21:40:30Z,2026-06-05T06:38:14Z,emilio,agenda+,0
 4522453089,true,Editorial: correct markup for :heading,https://github.com/whatwg/html/pull/12484,2026-05-26T07:52:42Z,2026-05-28T20:02:01Z,annevk,,0
 4511990521,false,Allow activation of a checked radio button to clear it,https://github.com/whatwg/html/pull/12480,2026-05-24T15:04:24Z,2026-05-27T11:37:59Z,hjanuschka,,2
@@ -144,7 +144,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3891566683,true,"Editorial: modernize/consistify string and ""current token"" style",https://github.com/whatwg/html/pull/12128,2026-02-03T14:31:03Z,2026-02-08T08:50:38Z,foolip,,0
 3889549162,false,Editorial: Clarify return value of Storage property accessor,https://github.com/whatwg/html/pull/12127,2026-02-03T06:56:21Z,2026-04-01T07:15:00Z,shannonbooth,,0
 3885015798,true,Pass the correct iframe fallback URL to resource timing,https://github.com/whatwg/html/pull/12124,2026-02-02T09:56:50Z,2026-05-11T11:37:25Z,noamr,,0
-3877956159,false,Parse XML-style <?target data?> processing instructions,https://github.com/whatwg/html/pull/12118,2026-01-31T00:22:11Z,2026-05-12T09:10:27Z,foolip,,4
+3877956159,false,Parse XML-style <?target data?> processing instructions,https://github.com/whatwg/html/pull/12118,2026-01-31T00:22:11Z,2026-06-15T11:52:01Z,foolip,,4
 3866756722,true,Editorial: Use the correct Module Record in HostLoadImportedModule,https://github.com/whatwg/html/pull/12114,2026-01-28T18:23:25Z,2026-01-29T12:05:08Z,nicolo-ribaudo,,2
 3847284352,true,Replace drafts.fxtf.org links with drafts.csswg.org,https://github.com/whatwg/html/pull/12105,2026-01-23T12:38:28Z,2026-01-23T12:57:48Z,nicolo-ribaudo,,0
 3838533899,true,"Apply style quirk also in limited-quirks mode",https://github.com/whatwg/html/pull/12097,2026-01-21T14:30:53Z,2026-01-22T16:30:38Z,TimvdLippe,,0
@@ -231,7 +231,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3556983944,true,"Navigation ""commit"": only set interception state if it was not ""none""",https://github.com/whatwg/html/pull/11836,2025-10-27T14:09:07Z,2025-10-31T13:11:37Z,noamr,,0
 3555120979,true,Update README.md,https://github.com/whatwg/html/pull/11834,2025-10-27T05:30:29Z,2025-10-27T07:29:14Z,JANHAVI0831,invalid,0
 3544339019,true,Add two doctype public IDs that enable XHTML entities,https://github.com/whatwg/html/pull/11823,2025-10-23T11:46:49Z,2025-10-23T16:02:01Z,zcorpan,topic: parser,0
-3541261538,false,Add <template for> for declarative out-of-order streaming,https://github.com/whatwg/html/pull/11818,2025-10-22T15:04:53Z,2026-06-12T14:22:26Z,foolip,topic: parser,0
+3541261538,false,Add <template for> for declarative out-of-order streaming,https://github.com/whatwg/html/pull/11818,2025-10-22T15:04:53Z,2026-06-15T11:52:19Z,foolip,topic: parser,0
 3537803331,true,Bring back promoting ongoing API method tracker,https://github.com/whatwg/html/pull/11817,2025-10-21T18:58:06Z,2025-10-22T12:22:52Z,noamr,,0
 3536313338,false,Don't queue a microtask from parallel in update the image data,https://github.com/whatwg/html/pull/11815,2025-10-21T12:25:08Z,2025-10-22T12:45:10Z,zcorpan,,0
 3526583838,true,Fix base appearance select styles,https://github.com/whatwg/html/pull/11805,2025-10-17T15:27:43Z,2025-12-11T14:15:40Z,josepharhar,,0
