@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4659946938,false,"The ""What an img element represents"" algorithm is outdated",https://github.com/whatwg/html/issues/12579,2026-06-14T17:14:57Z,2026-06-14T17:14:57Z,johannesodland,,0
 4657958811,false,Session history: synchronous navigations that jump the queue race the paused apply-the-history-step run’s step bookkeeping,https://github.com/whatwg/html/issues/12576,2026-06-14T04:50:33Z,2026-06-14T04:54:01Z,sideshowbarker,,0
 4657790884,false,Customisable Select Grid Layouts Do Not Support Spatial Arrow Navigation,https://github.com/whatwg/html/issues/12575,2026-06-14T03:28:07Z,2026-06-14T03:28:07Z,michaeltrilford,,0
 4656112445,false,Navigation API: Perform navigation & Update URL and history (via replaceState/pushState) race?,https://github.com/whatwg/html/issues/12574,2026-06-13T16:11:46Z,2026-06-13T16:17:04Z,theIDinside,,0
@@ -545,7 +546,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3245553588,false,`Link` header parsing too lenient according to RFC 8288,https://github.com/whatwg/html/issues/11468,2025-07-19T18:48:32Z,2026-05-19T06:28:13Z,TimvdLippe,integration,0
 3244234594,false,`Element.prototype.states` to expand `:state()` to all elements?,https://github.com/whatwg/html/issues/11466,2025-07-18T19:52:18Z,2026-03-31T17:46:56Z,LeaVerou,addition/proposal|needs implementer interest|topic: selectors,4
 3242529143,true,Upcoming WHATNOT meeting on 2025-07-24,https://github.com/whatwg/html/issues/11464,2025-07-18T09:14:56Z,2025-12-04T21:35:25Z,annevk,,0
-3240918378,true,Generalizing/fixing `<selectedcontent>` (`<use>` for HTML?),https://github.com/whatwg/html/issues/11463,2025-07-17T21:07:47Z,2026-06-04T20:42:27Z,LeaVerou,addition/proposal|topic: select,13
+3240918378,true,Generalizing/fixing `<selectedcontent>` (`<use>` for HTML?),https://github.com/whatwg/html/issues/11463,2025-07-17T21:07:47Z,2026-06-04T20:42:27Z,LeaVerou,addition/proposal|topic: select,15
 3238950352,true,Custom Elements should have a way to declare focusability without sprouting an attribute or elements,https://github.com/whatwg/html/issues/11462,2025-07-17T10:03:13Z,2025-07-17T15:24:20Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: custom elements|topic: focus,0
 3232414481,false,Escape special characters when serializing comments,https://github.com/whatwg/html/issues/11456,2025-07-15T14:04:28Z,2026-03-11T07:27:28Z,evilpie,normative change|topic: parser|security/privacy|security-tracker,0
 3230399023,false,`<select>` attribute to switch between dropdown and listbox (`type`?),https://github.com/whatwg/html/issues/11452,2025-07-15T00:43:46Z,2025-07-23T15:03:24Z,LeaVerou,addition/proposal|needs implementer interest|topic: select,0
@@ -623,7 +624,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3070972453,false,Native playlist support in HTML for `<audio>` and `<video>`,https://github.com/whatwg/html/issues/11317,2025-05-17T18:07:49Z,2026-04-16T16:46:49Z,jimmywarting,addition/proposal|needs implementer interest,1
 3069423614,false,WorkerGlobalScope policies not fully converted to policy containers,https://github.com/whatwg/html/issues/11316,2025-05-16T16:23:19Z,2026-01-28T09:11:39Z,ADKaster,topic: policy container,0
 3067632295,false,SharedWorker constructor presumes sync access to several global objects while in parallel,https://github.com/whatwg/html/issues/11314,2025-05-16T00:16:51Z,2025-05-16T10:17:38Z,ADKaster,clarification|topic: workers,0
-3067235470,false,Make <img> src and srcset attributes optional if the source set can be generated from previous sibling <source> elements,https://github.com/whatwg/html/issues/11313,2025-05-15T19:47:54Z,2026-06-14T07:03:25Z,johannesodland,document conformance|topic: img,1
+3067235470,false,Make <img> src and srcset attributes optional if the source set can be generated from previous sibling <source> elements,https://github.com/whatwg/html/issues/11313,2025-05-15T19:47:54Z,2026-06-14T17:34:03Z,johannesodland,document conformance|topic: img,1
 3066996028,true,Naming of the `interesttarget` attribute,https://github.com/whatwg/html/issues/11312,2025-05-15T17:48:38Z,2025-06-30T15:12:23Z,mfreed7,,0
 3066813596,true,Meeting 21 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11311,2025-05-15T16:31:18Z,2025-12-04T21:35:21Z,mfreed7,,0
 3066122491,true,Remove UI requirement for `<a ping>`,https://github.com/whatwg/html/issues/11309,2025-05-15T12:43:12Z,2025-06-26T12:29:51Z,zcorpan,topic: hyperlink|privacy-tracker,0
@@ -3313,7 +3314,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 512330703,false,Meta referrer being able to loosen Referrer-Policy header restrictions is a security vulnerability,https://github.com/whatwg/html/issues/5041,2019-10-25T06:34:26Z,2022-05-31T13:48:55Z,chris-morgan,,0
 512069720,false,HTML sandbox form restriction bypass when scripts allowed,https://github.com/whatwg/html/issues/5040,2019-10-24T17:05:19Z,2019-10-25T15:11:31Z,tsangtmc,clarification|security/privacy,0
 511584833,false,HTMLConstructor construction steps: inconsistent evaluation order/error cases in implementations,https://github.com/whatwg/html/issues/5037,2019-10-23T21:35:34Z,2019-10-24T08:54:23Z,bathos,topic: custom elements|interop,0
-510489260,true,Consider adding a headingoffset attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2025-10-21T09:38:09Z,annevk,addition/proposal|accessibility,34
+510489260,true,Consider adding a headingoffset attribute,https://github.com/whatwg/html/issues/5033,2019-10-22T07:57:09Z,2026-06-14T13:29:17Z,annevk,addition/proposal|accessibility,34
 509880741,true,---------,https://github.com/whatwg/html/issues/5029,2019-10-21T10:42:33Z,2019-10-22T04:41:25Z,dhilip89,,0
 509693572,true,delegatesFocus doesn't work well with autofocus,https://github.com/whatwg/html/issues/5027,2019-10-21T02:13:20Z,2019-11-11T16:44:20Z,tkent-google,topic: focus,0
 509685886,true,Code Regions,https://github.com/whatwg/html/issues/5026,2019-10-21T01:32:06Z,2019-10-21T16:16:12Z,AdamSobieski,,0
