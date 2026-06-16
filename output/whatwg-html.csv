@@ -1,4 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4675943998,false,DOM Localization,https://github.com/whatwg/html/issues/12584,2026-06-16T16:12:27Z,2026-06-16T16:19:51Z,eemeli,addition/proposal|needs implementer interest|agenda+,0
+4674734873,false,[popover] Light dismiss with associated popover should behave consistently / be specified,https://github.com/whatwg/html/issues/12582,2026-06-16T13:43:30Z,2026-06-16T14:34:47Z,emilio,agenda+,0
+4672074762,false,"Session history: a navigation is silently abandoned, with no recovery, when a traversal re-stamps the navigable’s ongoing navigation during the navigation’s in-parallel unload check",https://github.com/whatwg/html/issues/12581,2026-06-16T07:35:54Z,2026-06-16T07:35:54Z,sideshowbarker,,0
 4659946938,false,"The ""What an img element represents"" algorithm is outdated",https://github.com/whatwg/html/issues/12579,2026-06-14T17:14:57Z,2026-06-14T17:14:57Z,johannesodland,,0
 4657958811,false,Session history: synchronous navigations that jump the queue race the paused apply-the-history-step run’s step bookkeeping,https://github.com/whatwg/html/issues/12576,2026-06-14T04:50:33Z,2026-06-15T11:45:17Z,sideshowbarker,,0
 4657790884,false,Customisable Select Grid Layouts Do Not Support Spatial Arrow Navigation,https://github.com/whatwg/html/issues/12575,2026-06-14T03:28:07Z,2026-06-14T03:28:07Z,michaeltrilford,,0
@@ -54,7 +57,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4447358559,true,Meeting 43 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12455,2026-05-14T16:01:40Z,2026-05-28T18:15:50Z,mfreed7,,0
 4436626954,false,Request for feedback: user activation design in Attribution,https://github.com/whatwg/html/issues/12445,2026-05-13T09:28:06Z,2026-06-02T22:40:51Z,martinthomson,integration|topic: user activation,0
 4433084847,true,New <spreadsheet> tag,https://github.com/whatwg/html/issues/12443,2026-05-12T22:29:46Z,2026-05-13T05:05:20Z,jenli358,addition/proposal|needs implementer interest,0
-4428360532,false,Extraordinary WHATNOT meeting on 2026-06-17,https://github.com/whatwg/html/issues/12441,2026-05-12T10:36:40Z,2026-06-11T08:24:29Z,lukewarlow,meta,0
+4428360532,false,Extraordinary WHATNOT meeting on 2026-06-17,https://github.com/whatwg/html/issues/12441,2026-05-12T10:36:40Z,2026-06-16T15:49:32Z,lukewarlow,meta,0
 4425012079,true,New visibility attribute,https://github.com/whatwg/html/issues/12438,2026-05-11T23:27:41Z,2026-05-12T07:36:21Z,jenli358,addition/proposal|needs implementer interest,0
 4422950454,true,"New ""accessible-autofocus"" attribute",https://github.com/whatwg/html/issues/12436,2026-05-11T17:37:11Z,2026-05-14T22:11:13Z,russell-aciss,addition/proposal|needs implementer interest,0
 4413904707,true,"Broken ""element with default preferred size"" links",https://github.com/whatwg/html/issues/12433,2026-05-09T21:40:06Z,2026-05-10T06:12:24Z,nicolo-ribaudo,,0
@@ -569,7 +572,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3182864489,false,Add showValidationMessage() method for validation without focus management,https://github.com/whatwg/html/issues/11416,2025-06-27T13:34:05Z,2026-06-06T21:23:20Z,Hideki-Kobayashi,addition/proposal|needs implementer interest|accessibility|topic: forms|a11y-tracker,0
 3182780284,true,"The spec inconsistently uses ""0"" or ""zero"".",https://github.com/whatwg/html/issues/11414,2025-06-27T13:07:14Z,2025-06-27T18:07:06Z,keithamus,clarification,0
 3182194053,true,Specify :heading and :heading() selectors,https://github.com/whatwg/html/issues/11412,2025-06-27T09:56:02Z,2025-08-11T23:30:12Z,zcorpan,addition/proposal|topic: selectors,2
-3181719726,false,Repeated navigations with location.hash etc should throw,https://github.com/whatwg/html/issues/11410,2025-06-27T07:33:25Z,2026-05-19T08:38:51Z,zcorpan,topic: navigation|interop,0
+3181719726,true,Repeated navigations with location.hash etc should throw,https://github.com/whatwg/html/issues/11410,2025-06-27T07:33:25Z,2026-06-16T13:22:27Z,zcorpan,topic: navigation|interop,0
 3180574705,true,Upcoming WHATNOT meeting on 2025-07-03,https://github.com/whatwg/html/issues/11408,2025-06-26T22:01:25Z,2025-07-03T14:32:52Z,cwilso,,0
 3179488883,true,"Gecko accepts non-conforming full-width digits in <input type=""number"">",https://github.com/whatwg/html/issues/11405,2025-06-26T15:20:45Z,2025-06-30T18:18:04Z,kyouhei-horizumi,,0
 3178939610,false,"Verify handling of the throw completion returned by ""run a classic script""",https://github.com/whatwg/html/issues/11404,2025-06-26T12:19:12Z,2025-06-27T09:57:18Z,nicolo-ribaudo,clarification|integration,0
@@ -738,7 +741,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2902685931,true,"4.11.4 dialog - ""auto"" value for closedby?",https://github.com/whatwg/html/issues/11112,2025-03-07T10:56:55Z,2025-03-07T13:08:07Z,Rolf-B,topic: dialog,0
 2902330888,true,"Make it explicit that ""this"" is available in parallel",https://github.com/whatwg/html/issues/11110,2025-03-07T08:20:31Z,2025-03-14T01:06:03Z,annevk,,1
 2901145413,true,Meeting 18 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11109,2025-03-06T18:35:15Z,2025-12-04T21:35:14Z,mfreed7,,0
-2901062877,false,History API: PushState can silently fail in Chromium while Gecko/Webkit raises exception,https://github.com/whatwg/html/issues/11108,2025-03-06T17:51:57Z,2026-05-27T20:44:09Z,sefeng211,compat|topic: navigation|interop,0
+2901062877,true,History API: PushState can silently fail in Chromium while Gecko/Webkit raises exception,https://github.com/whatwg/html/issues/11108,2025-03-06T17:51:57Z,2026-06-16T13:22:27Z,sefeng211,compat|topic: navigation|interop,0
 2901004647,false,native/primitive appearance of Customizable <select>,https://github.com/whatwg/html/issues/11107,2025-03-06T17:23:57Z,2025-03-13T22:23:50Z,annevk,topic: rendering|topic: select,1
 2898487706,false,closedby attribute doesn't work when dialog uses the popover API,https://github.com/whatwg/html/issues/11105,2025-03-05T20:59:50Z,2025-08-16T14:38:07Z,o-t-w,topic: dialog|topic: popover,6
 2897746897,false,Consider adding a :hover-drag pseudo selector,https://github.com/whatwg/html/issues/11104,2025-03-05T16:02:38Z,2025-03-07T11:40:51Z,Psychpsyo,addition/proposal|needs implementer interest|topic: selectors,2
@@ -761,7 +764,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2881587544,false,Looking up an element definition no longer depends on the element's node document,https://github.com/whatwg/html/issues/11075,2025-02-26T13:22:08Z,2025-02-26T13:22:47Z,annevk,needs tests,0
 2878740610,true,XML parser does not create custom elements,https://github.com/whatwg/html/issues/11071,2025-02-25T15:19:28Z,2025-02-26T07:41:09Z,annevk,compat|topic: custom elements,0
 2876741297,false,Add `full-framerate` render blocking attribute,https://github.com/whatwg/html/issues/11070,2025-02-25T03:01:39Z,2025-03-11T05:12:50Z,gjc13,addition/proposal|needs implementer interest,0
-2874407586,false,Add an API for `<input type=color alpha>` to return colors in HEX format.,https://github.com/whatwg/html/issues/11069,2025-02-24T09:57:26Z,2025-02-25T06:18:46Z,yisibl,addition/proposal|needs implementer interest|topic: forms,1
+2874407586,false,Add an API for `<input type=color alpha>` to return colors in HEX format.,https://github.com/whatwg/html/issues/11069,2025-02-24T09:57:26Z,2026-06-16T08:25:41Z,yisibl,addition/proposal|needs implementer interest|topic: forms,2
 2874388234,false,Exposing the DOMParser API in Worker Contexts,https://github.com/whatwg/html/issues/11068,2025-02-24T09:50:37Z,2025-02-25T04:43:48Z,sqwr,addition/proposal|needs implementer interest,0
 2869703835,true,navigation API: resolve the finished promise,https://github.com/whatwg/html/issues/11064,2025-02-21T18:10:39Z,2025-02-26T07:45:51Z,atscott,clarification|topic: navigation,0
 2869493100,true,:host-context(my-el) inside a <my-el> custom element matches even for a standalone <my-el>,https://github.com/whatwg/html/issues/11063,2025-02-21T16:29:23Z,2025-02-24T17:27:51Z,franktopel,,0
