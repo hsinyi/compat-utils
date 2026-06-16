@@ -4,7 +4,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4657790884,false,Customisable Select Grid Layouts Do Not Support Spatial Arrow Navigation,https://github.com/whatwg/html/issues/12575,2026-06-14T03:28:07Z,2026-06-14T03:28:07Z,michaeltrilford,,0
 4656112445,false,Navigation API: Perform navigation & Update URL and history (via replaceState/pushState) race?,https://github.com/whatwg/html/issues/12574,2026-06-13T16:11:46Z,2026-06-13T16:17:04Z,theIDinside,,0
 4651429184,false,"Spec text for width/height APIs on not-rendered images (returning ""density-corrected"" natural width and height) does not reflect reality of what browsers do.",https://github.com/whatwg/html/issues/12573,2026-06-12T17:51:34Z,2026-06-12T17:51:34Z,dholbert,,0
-4649507998,false,Remove requirement about <dt> uniqueness,https://github.com/whatwg/html/issues/12571,2026-06-12T13:13:22Z,2026-06-13T00:57:51Z,zcorpan,document conformance,0
+4649507998,false,Remove requirement about <dt> uniqueness,https://github.com/whatwg/html/issues/12571,2026-06-12T13:13:22Z,2026-06-15T20:53:16Z,zcorpan,document conformance,0
 4643077279,false,Proposal: Allow `Atomics.wait` on the main thread,https://github.com/whatwg/html/issues/12570,2026-06-11T18:16:24Z,2026-06-11T18:16:24Z,tlively,addition/proposal|needs implementer interest,0
 4642287287,false,Meeting 45 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12569,2026-06-11T16:17:41Z,2026-06-12T23:25:41Z,mfreed7,,0
 4639775560,false,"""Create navigation params by fetching"" missing iframe element referer policy",https://github.com/whatwg/html/issues/12567,2026-06-11T11:01:15Z,2026-06-11T11:01:15Z,AtkinsSJ,,0
@@ -207,7 +207,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3930750339,false,Interop: focusability of `dialog[popover]`,https://github.com/whatwg/html/issues/12156,2026-02-12T09:23:09Z,2026-02-12T09:24:24Z,jpzwarte,topic: dialog|topic: popover,0
 3930439514,false,Determining dropEffect based on effectAllowed + modifier keys,https://github.com/whatwg/html/issues/12155,2026-02-12T08:13:21Z,2026-02-26T17:27:21Z,tanu18,,0
 3928896424,false,Unblock Document-Policy to Policy Container PR,https://github.com/whatwg/html/issues/12154,2026-02-11T22:09:37Z,2026-02-17T14:29:10Z,monica-ch,,0
-3923058520,false,Platform-Provided Behaviors for Custom Elements,https://github.com/whatwg/html/issues/12150,2026-02-10T18:55:59Z,2026-06-08T15:41:59Z,anaskim,addition/proposal|needs implementer interest|topic: custom elements|stage: 1,1
+3923058520,false,Platform-Provided Behaviors for Custom Elements,https://github.com/whatwg/html/issues/12150,2026-02-10T18:55:59Z,2026-06-15T17:23:09Z,anaskim,addition/proposal|needs implementer interest|topic: custom elements|stage: 1,1
 3917833084,true,Incorrect definition for media element pseudo class `:stalled`,https://github.com/whatwg/html/issues/12145,2026-02-09T19:42:39Z,2026-03-16T17:20:56Z,alastor0325,topic: media|needs tests|topic: selectors,0
 3908815904,true,Upcoming WHATNOT meeting on 2026-02-12,https://github.com/whatwg/html/issues/12141,2026-02-06T23:24:04Z,2026-02-26T01:01:22Z,cwilso,,0
 3907067934,false,`<link rel=stylesheet>` waits for critical subresources before we know what they are,https://github.com/whatwg/html/issues/12140,2026-02-06T14:35:46Z,2026-02-09T21:59:31Z,AtkinsSJ,topic: style,0
@@ -432,7 +432,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3474315969,true,Navigation API: upcoming API method tracker is not null if `navigate` is called from `onnavigateerror`,https://github.com/whatwg/html/issues/11735,2025-10-01T16:40:38Z,2025-10-21T18:37:03Z,jnjaeschke,topic: navigation,0
 3472725307,false,"Navigation API: ""has been scrolled by user"" is ambiguous",https://github.com/whatwg/html/issues/11732,2025-10-01T09:17:01Z,2025-10-08T19:19:12Z,keithamus,clarification|topic: navigation,1
 3472419842,true,optgroup element text is incorrect,https://github.com/whatwg/html/issues/11730,2025-10-01T07:36:11Z,2025-10-17T05:18:04Z,annevk,topic: select,0
-3471213469,false,Menu elements proposal,https://github.com/whatwg/html/issues/11729,2025-09-30T22:10:24Z,2026-06-09T14:04:44Z,domfarolino,addition/proposal|needs implementer interest|agenda+|stage: 1,6
+3471213469,false,Menu elements proposal,https://github.com/whatwg/html/issues/11729,2025-09-30T22:10:24Z,2026-06-15T21:07:30Z,domfarolino,addition/proposal|needs implementer interest|agenda+|stage: 1,6
 3470648855,false,`closedby` defaults refer to unspecified “Auto” state,https://github.com/whatwg/html/issues/11728,2025-09-30T18:43:55Z,2025-10-01T16:15:35Z,j9t,topic: reflect,0
 3468199894,true,"`rel=""icon""` requests do not fire since it doesn't translate to a valid preload destination",https://github.com/whatwg/html/issues/11726,2025-09-30T08:36:46Z,2025-10-10T08:34:20Z,TimvdLippe,,0
 3466671369,false,"A way to remove EXIF data on `<input type=""file"">` before sending to server",https://github.com/whatwg/html/issues/11724,2025-09-29T21:25:06Z,2026-05-06T13:27:19Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms,23
@@ -593,7 +593,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3138150233,false,XML error behavior for parseFromString() causing compat issues,https://github.com/whatwg/html/issues/11373,2025-06-11T21:22:35Z,2025-06-13T23:45:44Z,emilio,topic: parser|interop,0
 3138130461,false,"Interface of returned document with parseFromString(.., ""text/xml"")",https://github.com/whatwg/html/issues/11372,2025-06-11T21:12:24Z,2025-06-13T17:45:25Z,emilio,,0
 3137758166,false,"Make ""is a registrable domain suffix of or is equal to"" return the parsed domain",https://github.com/whatwg/html/issues/11371,2025-06-11T18:29:49Z,2025-06-12T05:00:31Z,masnoble,clarification,0
-3136480634,true,"Permit a `type` attribute for the `code` tag, to embed IANA Media Types.",https://github.com/whatwg/html/issues/11370,2025-06-11T11:27:53Z,2025-06-11T15:02:48Z,RokeJulianLockhart,addition/proposal|needs implementer interest,0
+3136480634,true,"Permit a `type` attribute for the `code` tag, to embed IANA Media Types.",https://github.com/whatwg/html/issues/11370,2025-06-11T11:27:53Z,2025-06-11T15:02:48Z,roke-julian-lockhart,addition/proposal|needs implementer interest,0
 3136037777,true,Add native support for dual-handle range sliders,https://github.com/whatwg/html/issues/11369,2025-06-11T08:57:49Z,2025-06-11T09:19:59Z,nomanocra,addition/proposal|needs implementer interest,0
 3135440084,false,resize event needs to deferred until after page visibility becomes visible,https://github.com/whatwg/html/issues/11368,2025-06-11T04:32:34Z,2025-06-11T11:09:43Z,rniwa,,0
 3134538477,true,Meeting 22 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11367,2025-06-10T18:41:43Z,2025-12-04T21:35:23Z,josepharhar,,0
@@ -642,7 +642,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3043719418,false,Filterable `<select>` via `<input>` (native combobox & more),https://github.com/whatwg/html/issues/11288,2025-05-06T18:51:04Z,2025-07-15T18:08:24Z,brandonmcconnell,addition/proposal|needs implementer interest,14
 3043680396,true,"Spec text for naturalWidth and naturalHeight behavior isn't web-compatible, for cases where attributes are missing",https://github.com/whatwg/html/issues/11287,2025-05-06T18:33:58Z,2026-04-25T19:29:52Z,dholbert,topic: img|interop,1
 3043061501,false,Expanding the concept of internal resource links,https://github.com/whatwg/html/issues/11286,2025-05-06T14:34:00Z,2025-05-29T22:28:15Z,noamr,topic: link,1
-3040860886,true,"In `blob/88c7d93d0f87e19beadead68f8d2eb28c503a8a8/source#L56`, `<h1 class=""allcaps"">HTML</h1>` should be `<h1 class=""allcaps""><abbr>HTML</abbr></h1>`.",https://github.com/whatwg/html/issues/11285,2025-05-05T21:21:46Z,2025-05-07T11:41:40Z,RokeJulianLockhart,,0
+3040860886,true,"In `blob/88c7d93d0f87e19beadead68f8d2eb28c503a8a8/source#L56`, `<h1 class=""allcaps"">HTML</h1>` should be `<h1 class=""allcaps""><abbr>HTML</abbr></h1>`.",https://github.com/whatwg/html/issues/11285,2025-05-05T21:21:46Z,2025-05-07T11:41:40Z,roke-julian-lockhart,,0
 3037387887,true,Rules for choosing a navigable use a non-existent `targetNavigable` variable,https://github.com/whatwg/html/issues/11282,2025-05-03T12:40:56Z,2025-05-06T14:00:12Z,AtkinsSJ,,0
 3035716522,true,"Style sheets created from `<style>` elements have no location, which breaks CSS fetch algorithms",https://github.com/whatwg/html/issues/11281,2025-05-02T10:44:14Z,2025-12-28T14:22:33Z,AtkinsSJ,topic: style|integration,0
 3032620480,true,Upcoming WHATNOT meeting on 2025-05-08,https://github.com/whatwg/html/issues/11278,2025-04-30T21:51:48Z,2025-12-04T21:35:20Z,past,,0
@@ -885,7 +885,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2727636124,false,Expected behaviour when using measureText on input with leading/trailing whitespace,https://github.com/whatwg/html/issues/10839,2024-12-09T16:29:29Z,2024-12-10T02:52:22Z,rwlbuis,topic: canvas,0
 2726439968,true,Loading times of standards website,https://github.com/whatwg/html/issues/10838,2024-12-09T09:10:59Z,2024-12-10T01:27:35Z,HubertKauker,,0
 2724784236,false,Add additional class based and data attribute based commands for Invoker API,https://github.com/whatwg/html/issues/10836,2024-12-07T19:34:07Z,2024-12-16T19:21:11Z,ggedde,addition/proposal|needs implementer interest,0
-2724585372,true,Add an `<h>` element to replace `<h1-n>`.,https://github.com/whatwg/html/issues/10835,2024-12-07T13:04:42Z,2026-04-25T16:24:54Z,RokeJulianLockhart,addition/proposal|needs implementer interest,1
+2724585372,true,Add an `<h>` element to replace `<h1-n>`.,https://github.com/whatwg/html/issues/10835,2024-12-07T13:04:42Z,2026-04-25T16:24:54Z,roke-julian-lockhart,addition/proposal|needs implementer interest,1
 2724547102,true,"Calling replaceState before pushState messes up with the state, so when I go back, it does go back, but it should not",https://github.com/whatwg/html/issues/10834,2024-12-07T11:24:48Z,2024-12-08T03:27:40Z,Nedimko123,,0
 2724509105,true,"Invalid reference to ""oldModuleMap"" and ""specifier"" in ""merge existing and new import maps""",https://github.com/whatwg/html/issues/10833,2024-12-07T09:40:47Z,2026-02-14T05:18:07Z,shannonbooth,topic: script|topic: imports/exports,0
 2722602163,false,Lift restriction on buttons with implicit `type=submit` and `command`/`commandfor` being no-op,https://github.com/whatwg/html/issues/10832,2024-12-06T10:07:50Z,2025-04-07T14:03:26Z,keithamus,addition/proposal|needs implementer interest|topic: forms,0
@@ -1049,7 +1049,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2445242565,false,Rationale for when invalid value default differs from missing value default,https://github.com/whatwg/html/issues/10542,2024-08-02T15:35:51Z,2024-09-04T16:01:43Z,flackr,,0
 2443378115,true,Discussing how to focus navigate absolute position elements that are focusable in CSS reading-flow,https://github.com/whatwg/html/issues/10539,2024-08-01T20:42:22Z,2024-11-21T22:41:45Z,dizhang168,topic: focus,0
 2443111497,true,Upcoming WHATNOT meeting on 2024-08-08,https://github.com/whatwg/html/issues/10538,2024-08-01T18:24:25Z,2024-08-13T16:03:03Z,cwilso,agenda+,0
-2443061834,true,"Allow explicitly indicating an `unchecked` state for an `<input type=""checkbox"">`.",https://github.com/whatwg/html/issues/10537,2024-08-01T18:00:45Z,2024-08-05T23:01:39Z,RokeJulianLockhart,addition/proposal|needs implementer interest,2
+2443061834,true,"Allow explicitly indicating an `unchecked` state for an `<input type=""checkbox"">`.",https://github.com/whatwg/html/issues/10537,2024-08-01T18:00:45Z,2024-08-05T23:01:39Z,roke-julian-lockhart,addition/proposal|needs implementer interest,2
 2442879543,true,Meeting 5 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10536,2024-08-01T16:28:00Z,2024-08-19T16:20:59Z,gregwhitworth,agenda+,0
 2442401692,true,"Example in parallelism section needs to ""queue a task"" to handle the promise",https://github.com/whatwg/html/issues/10535,2024-08-01T13:01:42Z,2024-08-15T01:06:22Z,tidoust,,1
 2441060320,true,Upcoming WHATNOT meeting on 2024-08-01,https://github.com/whatwg/html/issues/10534,2024-07-31T22:40:51Z,2024-08-01T18:32:39Z,cwilso,agenda+,0
@@ -1284,7 +1284,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2151600541,false,Add a way to automatically get script license and unminified code (if available),https://github.com/whatwg/html/issues/10158,2024-02-23T18:33:44Z,2024-02-23T18:33:44Z,Orisphera,addition/proposal|needs implementer interest,1
 2149864472,true,Upcoming WHATNOT meeting on 3/7/2024,https://github.com/whatwg/html/issues/10156,2024-02-22T20:14:39Z,2024-03-15T19:00:37Z,past,agenda+,0
 2148780029,true,It's not clear how constraint validation works for FACE if the 'validation anchor' is null,https://github.com/whatwg/html/issues/10155,2024-02-22T10:52:33Z,2025-06-25T08:51:28Z,EdgarChen,topic: custom elements|topic: forms,2
-2148084073,true,"Allow comment tags (`<!`, `--`, and `>`) to be nested.",https://github.com/whatwg/html/issues/10153,2024-02-22T02:59:53Z,2026-05-11T00:40:44Z,RokeJulianLockhart,addition/proposal|needs implementer interest,6
+2148084073,true,"Allow comment tags (`<!`, `--`, and `>`) to be nested.",https://github.com/whatwg/html/issues/10153,2024-02-22T02:59:53Z,2026-05-11T00:40:44Z,roke-julian-lockhart,addition/proposal|needs implementer interest,6
 2146266830,true,"Different parsing behavior for ""</script>"" and ""</div>"" strings",https://github.com/whatwg/html/issues/10151,2024-02-21T09:39:53Z,2024-02-21T10:14:20Z,ghost,,0
 2144701703,true,Clarification on Element reflected IDL attribute steps,https://github.com/whatwg/html/issues/10150,2024-02-20T15:54:32Z,2024-02-21T17:05:33Z,josepharhar,topic: reflect,0
 2144700071,false,"""Align descendants"" believes used margins are altered in overconstrained cases, but that's no longer the case",https://github.com/whatwg/html/issues/10149,2024-02-20T15:53:41Z,2024-02-21T22:36:36Z,Loirooriol,topic: rendering,0
