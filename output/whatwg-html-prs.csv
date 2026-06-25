@@ -41,7 +41,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4522453089,true,Editorial: correct markup for :heading,https://github.com/whatwg/html/pull/12484,2026-05-26T07:52:42Z,2026-05-28T20:02:01Z,annevk,,0
 4511990521,false,Allow activation of a checked radio button to clear it,https://github.com/whatwg/html/pull/12480,2026-05-24T15:04:24Z,2026-05-27T11:37:59Z,hjanuschka,,2
 4499959663,true,Editorial: Remove inaccurate SecurityError note from createImageBitmap,https://github.com/whatwg/html/pull/12478,2026-05-22T05:00:33Z,2026-05-27T12:41:02Z,Devansh232406,,0
-4495672924,false,Make muted content attribute affect muted IDL attribute only once,https://github.com/whatwg/html/pull/12473,2026-05-21T15:09:23Z,2026-06-10T09:53:56Z,foolip,topic: media|agenda+,0
+4495672924,false,Make muted content attribute affect muted IDL attribute only once,https://github.com/whatwg/html/pull/12473,2026-05-21T15:09:23Z,2026-06-24T22:54:55Z,foolip,topic: media,0
 4469014759,false,Also check CORS-same-origin in the <link> quirk,https://github.com/whatwg/html/pull/12468,2026-05-18T12:17:58Z,2026-05-18T14:40:14Z,zcorpan,,0
 4459928994,true,Add hreflang and type attribute definitions to dev edition,https://github.com/whatwg/html/pull/12465,2026-05-16T12:54:11Z,2026-05-17T06:09:12Z,lukewarlow,,0
 4454916782,true,Editorial: modernize HTMLOptionsCollection,https://github.com/whatwg/html/pull/12461,2026-05-15T15:07:25Z,2026-05-19T12:21:57Z,annevk,,0
@@ -131,7 +131,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4008340208,false,Expand disabled form control event handling spec text,https://github.com/whatwg/html/pull/12219,2026-03-01T21:41:58Z,2026-06-03T11:26:25Z,hjanuschka,,1
 4000861951,true,Restore the minus sign before the default value of tabIndex getter,https://github.com/whatwg/html/pull/12211,2026-02-27T12:43:34Z,2026-02-27T13:48:24Z,mrobinson,,1
 3996929345,true,Make option and optgroup actually disabled inside disabled select,https://github.com/whatwg/html/pull/12205,2026-02-26T17:50:28Z,2026-05-07T13:55:42Z,josepharhar,,1
-3991450591,false,Define option and optgroup base appearance rendering,https://github.com/whatwg/html/pull/12201,2026-02-25T19:53:35Z,2026-06-24T12:52:47Z,josepharhar,normative change|topic: rendering|topic: select,0
+3991450591,false,Define option and optgroup base appearance rendering,https://github.com/whatwg/html/pull/12201,2026-02-25T19:53:35Z,2026-06-24T18:45:44Z,josepharhar,normative change|topic: rendering|topic: select,0
 3986866649,true,Drop color-mix() color space from select base appearance style,https://github.com/whatwg/html/pull/12198,2026-02-25T02:45:49Z,2026-02-25T06:12:48Z,nt1m,,0
 3985923504,true,Add display:block to base appearance optgroups,https://github.com/whatwg/html/pull/12197,2026-02-24T21:29:13Z,2026-02-25T06:16:27Z,josepharhar,,0
 3984130106,false,Add HTMLScriptElement IDL changes for Trusted Types,https://github.com/whatwg/html/pull/12195,2026-02-24T14:46:16Z,2026-06-07T08:12:02Z,lukewarlow,,0
@@ -158,7 +158,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3891566683,true,"Editorial: modernize/consistify string and ""current token"" style",https://github.com/whatwg/html/pull/12128,2026-02-03T14:31:03Z,2026-02-08T08:50:38Z,foolip,,0
 3889549162,false,Editorial: Clarify return value of Storage property accessor,https://github.com/whatwg/html/pull/12127,2026-02-03T06:56:21Z,2026-06-22T08:53:58Z,shannonbooth,,0
 3885015798,true,Pass the correct iframe fallback URL to resource timing,https://github.com/whatwg/html/pull/12124,2026-02-02T09:56:50Z,2026-05-11T11:37:25Z,noamr,,0
-3877956159,false,Parse XML-style <?target data?> processing instructions,https://github.com/whatwg/html/pull/12118,2026-01-31T00:22:11Z,2026-06-24T12:21:43Z,foolip,,4
+3877956159,false,Parse XML-style <?target data?> processing instructions,https://github.com/whatwg/html/pull/12118,2026-01-31T00:22:11Z,2026-06-24T17:41:43Z,foolip,,4
 3866756722,true,Editorial: Use the correct Module Record in HostLoadImportedModule,https://github.com/whatwg/html/pull/12114,2026-01-28T18:23:25Z,2026-01-29T12:05:08Z,nicolo-ribaudo,,2
 3847284352,true,Replace drafts.fxtf.org links with drafts.csswg.org,https://github.com/whatwg/html/pull/12105,2026-01-23T12:38:28Z,2026-01-23T12:57:48Z,nicolo-ribaudo,,0
 3838533899,true,"Apply style quirk also in limited-quirks mode",https://github.com/whatwg/html/pull/12097,2026-01-21T14:30:53Z,2026-01-22T16:30:38Z,TimvdLippe,,0
@@ -187,7 +187,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3735064449,true,"Move ""clean up API method tracker"" to the right place",https://github.com/whatwg/html/pull/12022,2025-12-16T14:35:18Z,2026-01-12T10:54:36Z,noamr,,0
 3734374547,true,Fixing button command early-bail steps,https://github.com/whatwg/html/pull/12021,2025-12-16T11:25:01Z,2026-01-09T18:52:27Z,jakearchibald,,1
 3726130924,true,Fix ordering of lifecycle callbacks to match implementations,https://github.com/whatwg/html/pull/12017,2025-12-13T16:09:47Z,2026-03-31T16:14:21Z,lukewarlow,,0
-3720029201,false,Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2026-06-03T19:30:43Z,domfarolino,agenda+,0
+3720029201,false,Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2026-06-24T22:56:27Z,domfarolino,,0
 3717708776,false,Skip light dismiss when opening select's picker,https://github.com/whatwg/html/pull/12008,2025-12-11T04:33:36Z,2026-04-30T16:34:49Z,josepharhar,,0
 3714324873,true,Add proposal for maxcount attribute,https://github.com/whatwg/html/pull/12005,2025-12-10T09:24:01Z,2025-12-10T12:59:11Z,milanagowda77656-cloud,invalid,0
 3706163049,false,Introduce customelementregistry global attribute,https://github.com/whatwg/html/pull/12000,2025-12-08T12:24:45Z,2026-06-11T00:11:55Z,ja-y-son,,0
@@ -289,7 +289,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3449447529,true,reorder dialog attr changed steps so that cleanup steps always occur,https://github.com/whatwg/html/pull/11693,2025-09-24T13:26:59Z,2025-10-01T08:46:58Z,keithamus,,0
 3449178913,true,"Add `NavigationTransition.to`, exposing the current navigate event's destination",https://github.com/whatwg/html/pull/11692,2025-09-24T12:14:44Z,2025-12-03T11:36:49Z,noamr,,0
 3448693145,true,Editorial: Cross-reference 'expected' in Rendering,https://github.com/whatwg/html/pull/11691,2025-09-24T10:09:23Z,2025-09-25T14:23:04Z,zcorpan,,0
-3447004466,false,Declarative CSS Modules,https://github.com/whatwg/html/pull/11687,2025-09-24T00:00:42Z,2026-05-26T23:19:00Z,KurtCattiSchmidt,agenda+,0
+3447004466,false,Declarative CSS Modules,https://github.com/whatwg/html/pull/11687,2025-09-24T00:00:42Z,2026-06-24T22:57:13Z,KurtCattiSchmidt,,0
 3440906111,true,Add source to ToggleEventInit,https://github.com/whatwg/html/pull/11679,2025-09-22T13:06:20Z,2025-09-30T09:12:09Z,keithamus,topic: dialog|topic: popover,1
 3437289427,true,"Editorial: Fix markup, spelling, punctuation",https://github.com/whatwg/html/pull/11673,2025-09-20T16:27:02Z,2025-09-22T17:50:33Z,jmdyck,,0
 3437080571,true,Replace numeric character references with Unicode characters(fixes #3683),https://github.com/whatwg/html/pull/11672,2025-09-20T12:04:57Z,2025-09-20T13:01:37Z,sujay-for-tech-01,invalid,0
@@ -338,7 +338,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3314237971,true,Remove rowspan=0 quirk,https://github.com/whatwg/html/pull/11551,2025-08-12T13:20:05Z,2025-08-14T07:16:55Z,zcorpan,,0
 3300979591,true,Remove connectedness check in script post-connection steps,https://github.com/whatwg/html/pull/11543,2025-08-07T15:31:03Z,2025-09-12T01:53:30Z,domfarolino,topic: script,0
 3297579358,false,"Move `has cross-site ancestor` to the environment, from the ESO",https://github.com/whatwg/html/pull/11540,2025-08-06T18:03:22Z,2026-01-15T18:49:27Z,bvandersloot-mozilla,,0
-3294412090,false,Change light dismiss to use click events,https://github.com/whatwg/html/pull/11536,2025-08-05T20:54:41Z,2026-06-01T18:22:40Z,josepharhar,agenda+,0
+3294412090,false,Change light dismiss to use click events,https://github.com/whatwg/html/pull/11536,2025-08-05T20:54:41Z,2026-06-24T22:58:01Z,josepharhar,,0
 3292278858,true,Don't allow the javascript: protocol in navigation.navigate(),https://github.com/whatwg/html/pull/11533,2025-08-05T09:16:45Z,2025-08-27T13:01:34Z,evilpie,normative change|topic: navigation,0
 3291533405,true,Canvas2D: Add srgb-linear and display-p3-linear to PredefinedColorSpace enum,https://github.com/whatwg/html/pull/11529,2025-08-05T04:38:31Z,2025-11-24T08:07:10Z,ccameron-chromium,addition/proposal|topic: canvas,1
 3290898664,true,Editorial: fix ending li tag,https://github.com/whatwg/html/pull/11528,2025-08-04T21:58:37Z,2025-08-05T06:20:42Z,josepharhar,,0
@@ -907,7 +907,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1992013329,true,Editorial: Export TextTrackMode enum value defs,https://github.com/whatwg/html/pull/9931,2023-11-14T05:22:05Z,2023-11-14T05:47:37Z,marcoscaceres,,0
 1991924982,true,Export normalized TimeRanges object,https://github.com/whatwg/html/pull/9930,2023-11-14T03:39:51Z,2023-11-19T23:47:48Z,marcoscaceres,,0
 1986916416,true,Change subframe traverse navigate event timing,https://github.com/whatwg/html/pull/9922,2023-11-10T05:13:57Z,2023-11-15T00:40:45Z,domenic,normative change|topic: navigation,0
-1978754702,false,Add device-eid and device-imei autocomplete tokens,https://github.com/whatwg/html/pull/9913,2023-11-06T10:05:21Z,2024-03-18T14:21:04Z,annevk,,0
+1978754702,false,Add device-eid and device-imei autocomplete tokens,https://github.com/whatwg/html/pull/9913,2023-11-06T10:05:21Z,2026-06-24T16:09:41Z,annevk,addition/proposal|topic: forms,0
 1977331415,true,Add invoke defaults for input and select,https://github.com/whatwg/html/pull/9912,2023-11-04T13:18:17Z,2024-04-11T19:52:39Z,lukewarlow,,0
 1974532027,true,HTMLAllCollection: add tags() method,https://github.com/whatwg/html/pull/9908,2023-11-02T15:42:16Z,2023-11-13T05:53:30Z,delan,,0
 1973785754,true,Overhaul document unloading/destruction/aborting,https://github.com/whatwg/html/pull/9907,2023-11-02T08:54:15Z,2024-01-11T05:34:16Z,domenic,topic: navigation,0
