@@ -27,7 +27,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4594833384,true,Meta: improve PR Preview,https://github.com/whatwg/html/pull/12523,2026-06-05T06:41:32Z,2026-06-22T15:13:48Z,annevk,,0
 4594661232,true,Update Acknowledgments for the Sanitizer API,https://github.com/whatwg/html/pull/12522,2026-06-05T06:08:43Z,2026-06-08T08:02:07Z,zcorpan,topic: sanitizer,2
 4587600268,true,Allow intercepted fragment navigations to be cancelled with window.stop,https://github.com/whatwg/html/pull/12519,2026-06-04T09:42:45Z,2026-06-04T14:36:59Z,noamr,,0
-4579922299,false,Expose redirectCount for TAO opted-in redirect chains,https://github.com/whatwg/html/pull/12513,2026-06-03T12:43:20Z,2026-06-24T12:22:09Z,yoavweiss,do not merge yet,0
+4579922299,true,Expose redirectCount for TAO opted-in redirect chains,https://github.com/whatwg/html/pull/12513,2026-06-03T12:43:20Z,2026-06-25T06:37:07Z,yoavweiss,do not merge yet,0
 4571428625,false,Handle media <source> moves around the pointer,https://github.com/whatwg/html/pull/12511,2026-06-02T12:30:57Z,2026-06-08T13:38:48Z,zcorpan,topic: media,0
 4560026662,true,"Editorial: fix misc punctuation, wording, grammar",https://github.com/whatwg/html/pull/12508,2026-06-01T03:10:16Z,2026-06-02T02:49:25Z,jmdyck,,0
 4550306617,true,Define that <video> and <audio> have a shadow tree with no slots.,https://github.com/whatwg/html/pull/12506,2026-05-29T17:19:08Z,2026-06-01T08:37:48Z,emilio,,0
@@ -131,7 +131,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4008340208,false,Expand disabled form control event handling spec text,https://github.com/whatwg/html/pull/12219,2026-03-01T21:41:58Z,2026-06-03T11:26:25Z,hjanuschka,,1
 4000861951,true,Restore the minus sign before the default value of tabIndex getter,https://github.com/whatwg/html/pull/12211,2026-02-27T12:43:34Z,2026-02-27T13:48:24Z,mrobinson,,1
 3996929345,true,Make option and optgroup actually disabled inside disabled select,https://github.com/whatwg/html/pull/12205,2026-02-26T17:50:28Z,2026-05-07T13:55:42Z,josepharhar,,1
-3991450591,false,Define option and optgroup base appearance rendering,https://github.com/whatwg/html/pull/12201,2026-02-25T19:53:35Z,2026-06-24T18:45:44Z,josepharhar,normative change|topic: rendering|topic: select,0
+3991450591,true,Define option and optgroup base appearance rendering,https://github.com/whatwg/html/pull/12201,2026-02-25T19:53:35Z,2026-06-25T06:18:08Z,josepharhar,normative change|topic: rendering|topic: select,0
 3986866649,true,Drop color-mix() color space from select base appearance style,https://github.com/whatwg/html/pull/12198,2026-02-25T02:45:49Z,2026-02-25T06:12:48Z,nt1m,,0
 3985923504,true,Add display:block to base appearance optgroups,https://github.com/whatwg/html/pull/12197,2026-02-24T21:29:13Z,2026-02-25T06:16:27Z,josepharhar,,0
 3984130106,false,Add HTMLScriptElement IDL changes for Trusted Types,https://github.com/whatwg/html/pull/12195,2026-02-24T14:46:16Z,2026-06-07T08:12:02Z,lukewarlow,,0
@@ -158,7 +158,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3891566683,true,"Editorial: modernize/consistify string and ""current token"" style",https://github.com/whatwg/html/pull/12128,2026-02-03T14:31:03Z,2026-02-08T08:50:38Z,foolip,,0
 3889549162,false,Editorial: Clarify return value of Storage property accessor,https://github.com/whatwg/html/pull/12127,2026-02-03T06:56:21Z,2026-06-22T08:53:58Z,shannonbooth,,0
 3885015798,true,Pass the correct iframe fallback URL to resource timing,https://github.com/whatwg/html/pull/12124,2026-02-02T09:56:50Z,2026-05-11T11:37:25Z,noamr,,0
-3877956159,false,Parse XML-style <?target data?> processing instructions,https://github.com/whatwg/html/pull/12118,2026-01-31T00:22:11Z,2026-06-24T17:41:43Z,foolip,,4
+3877956159,true,Parse XML-style <?target data?> processing instructions,https://github.com/whatwg/html/pull/12118,2026-01-31T00:22:11Z,2026-06-25T09:07:27Z,foolip,,4
 3866756722,true,Editorial: Use the correct Module Record in HostLoadImportedModule,https://github.com/whatwg/html/pull/12114,2026-01-28T18:23:25Z,2026-01-29T12:05:08Z,nicolo-ribaudo,,2
 3847284352,true,Replace drafts.fxtf.org links with drafts.csswg.org,https://github.com/whatwg/html/pull/12105,2026-01-23T12:38:28Z,2026-01-23T12:57:48Z,nicolo-ribaudo,,0
 3838533899,true,"Apply style quirk also in limited-quirks mode",https://github.com/whatwg/html/pull/12097,2026-01-21T14:30:53Z,2026-01-22T16:30:38Z,TimvdLippe,,0
@@ -343,7 +343,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3291533405,true,Canvas2D: Add srgb-linear and display-p3-linear to PredefinedColorSpace enum,https://github.com/whatwg/html/pull/11529,2025-08-05T04:38:31Z,2025-11-24T08:07:10Z,ccameron-chromium,addition/proposal|topic: canvas,1
 3290898664,true,Editorial: fix ending li tag,https://github.com/whatwg/html/pull/11528,2025-08-04T21:58:37Z,2025-08-05T06:20:42Z,josepharhar,,0
 3285874404,true,Add paragraph to hgroup children in indices table,https://github.com/whatwg/html/pull/11524,2025-08-02T12:03:48Z,2025-08-19T06:13:06Z,TrySound,document conformance,0
-3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2026-02-04T18:36:55Z,ffiori,,0
+3282026334,false,[focus-without-user-activation] Allow focus if a descendant has focus,https://github.com/whatwg/html/pull/11519,2025-07-31T23:57:59Z,2026-02-04T18:36:55Z,ffiori,,1
 3280953563,true,Imply [Reflect] when [ReflectRange] or [ReflectDefault] are used.,https://github.com/whatwg/html/pull/11518,2025-07-31T15:49:27Z,2026-02-26T17:25:55Z,lukewarlow,,0
 3280885144,true,Remove support ElementInternals reflection flag,https://github.com/whatwg/html/pull/11517,2025-07-31T15:27:38Z,2025-08-22T00:41:19Z,lukewarlow,,0
 3279388233,true,Editorial: clarify worker lifetime definitions,https://github.com/whatwg/html/pull/11515,2025-07-31T07:15:41Z,2025-08-19T05:43:54Z,domenic,clarification|topic: workers,0
@@ -907,7 +907,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1992013329,true,Editorial: Export TextTrackMode enum value defs,https://github.com/whatwg/html/pull/9931,2023-11-14T05:22:05Z,2023-11-14T05:47:37Z,marcoscaceres,,0
 1991924982,true,Export normalized TimeRanges object,https://github.com/whatwg/html/pull/9930,2023-11-14T03:39:51Z,2023-11-19T23:47:48Z,marcoscaceres,,0
 1986916416,true,Change subframe traverse navigate event timing,https://github.com/whatwg/html/pull/9922,2023-11-10T05:13:57Z,2023-11-15T00:40:45Z,domenic,normative change|topic: navigation,0
-1978754702,false,Add device-eid and device-imei autocomplete tokens,https://github.com/whatwg/html/pull/9913,2023-11-06T10:05:21Z,2026-06-24T16:09:41Z,annevk,addition/proposal|topic: forms,0
+1978754702,false,"Add autocomplete tokens for EID, IMEI, and NAL",https://github.com/whatwg/html/pull/9913,2023-11-06T10:05:21Z,2026-06-25T13:44:07Z,annevk,addition/proposal|topic: forms,0
 1977331415,true,Add invoke defaults for input and select,https://github.com/whatwg/html/pull/9912,2023-11-04T13:18:17Z,2024-04-11T19:52:39Z,lukewarlow,,0
 1974532027,true,HTMLAllCollection: add tags() method,https://github.com/whatwg/html/pull/9908,2023-11-02T15:42:16Z,2023-11-13T05:53:30Z,delan,,0
 1973785754,true,Overhaul document unloading/destruction/aborting,https://github.com/whatwg/html/pull/9907,2023-11-02T08:54:15Z,2024-01-11T05:34:16Z,domenic,topic: navigation,0
