@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4744964115,false,[meta] Extending DOM APIs to support shadow roots tracking issue,https://github.com/whatwg/dom/issues/1475,2026-06-25T15:01:09Z,2026-06-25T15:01:09Z,LeaVerou,topic: shadow|addition/proposal,0
 4701226689,false,Add builtin method to calulate line wrapping,https://github.com/whatwg/dom/issues/1472,2026-06-19T13:52:43Z,2026-06-21T03:01:20Z,remcohaszing,needs implementer interest|addition/proposal,0
 4541674796,false,OpaqueRange: cross-post from whatwg/html#11478 for DOM community input,https://github.com/whatwg/dom/issues/1468,2026-05-28T15:32:13Z,2026-05-28T16:04:39Z,stephanieyzhang,topic: ranges,0
 4323869047,false,importNode should allow null customElementRegistry,https://github.com/whatwg/dom/issues/1463,2026-04-24T15:15:46Z,2026-04-29T22:48:49Z,sorvell,needs implementer interest|addition/proposal,0
@@ -15,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3722164714,true,downloads.download() should be appear in the API,https://github.com/whatwg/dom/issues/1438,2025-12-12T06:23:03Z,2025-12-16T08:31:45Z,NagayamaToshiaki,needs implementer interest|addition/proposal,0
 3670099655,false,Adopting children of an intentional null shadow root goes wrong,https://github.com/whatwg/dom/issues/1429,2025-11-27T06:53:23Z,2025-12-02T09:21:50Z,annevk,needs tests|topic: nodes,0
 3666347376,false,adoptNode() needs to account for <iframe> and friends,https://github.com/whatwg/dom/issues/1428,2025-11-26T08:05:32Z,2025-11-26T08:05:42Z,annevk,topic: nodes,0
-3623969714,false,Option to allow `querySelector` to query shadow roots,https://github.com/whatwg/dom/issues/1422,2025-11-14T05:38:00Z,2026-01-30T14:32:56Z,LeaVerou,needs implementer interest|addition/proposal,1
+3623969714,false,Option to allow `querySelector` to query shadow roots,https://github.com/whatwg/dom/issues/1422,2025-11-14T05:38:00Z,2026-06-25T14:46:54Z,LeaVerou,topic: shadow|needs implementer interest|addition/proposal,1
 3611485638,true,"""Set an existing attribute value"" algorithm checks twice if attributes element is null",https://github.com/whatwg/dom/issues/1421,2025-11-11T09:35:35Z,2025-11-23T22:27:55Z,tete17,,0
 3594877127,false,CDATA section can be imported into HTML document,https://github.com/whatwg/dom/issues/1420,2025-11-06T09:19:53Z,2025-11-14T06:14:31Z,meiqinyan,needs implementer interest|addition/proposal,0
 3590138853,true,Element's display property affects composedPath() calculation unexpectedly,https://github.com/whatwg/dom/issues/1419,2025-11-05T09:40:47Z,2025-11-05T10:37:28Z,f820602h,,0
@@ -85,7 +86,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2322048867,true,Closed Shadow DOM blocks accessibility testing,https://github.com/whatwg/dom/issues/1290,2024-05-28T23:02:18Z,2024-05-29T13:19:39Z,tgrushka,topic: shadow|accessibility,4
 2304047539,false,Add a method like .addTeardown to AbortSignal,https://github.com/whatwg/dom/issues/1289,2024-05-18T11:43:23Z,2025-12-09T00:23:19Z,Jamesernator,needs implementer interest|addition/proposal|topic: aborting,2
 2300332837,false,Request for mechanism to determine if children changed steps are called as a result of script or parser,https://github.com/whatwg/dom/issues/1288,2024-05-16T12:55:35Z,2024-07-09T11:31:21Z,lukewarlow,addition/proposal|needs concrete proposal|topic: nodes,0
-2285828515,false,`MutationObserver` flag to observe mutations in (open) shadow trees to facilitate polyfills of HTML syntax,https://github.com/whatwg/dom/issues/1287,2024-05-08T15:02:58Z,2026-06-23T16:51:24Z,LeaVerou,topic: shadow|needs implementer interest|addition/proposal|agenda+|topic: mutation observers,6
+2285828515,false,`MutationObserver` flag to observe mutations in (open) shadow trees to facilitate polyfills of HTML syntax,https://github.com/whatwg/dom/issues/1287,2024-05-08T15:02:58Z,2026-06-25T19:54:14Z,LeaVerou,topic: shadow|needs implementer interest|addition/proposal|topic: mutation observers,6
 2276092070,true,Proposal: elementsFromRect(),https://github.com/whatwg/dom/issues/1286,2024-05-02T17:24:16Z,2024-06-08T06:34:36Z,justinfagnani,needs implementer interest|addition/proposal,10
 2268549974,true,Proposal: SelectorObserver,https://github.com/whatwg/dom/issues/1285,2024-04-29T09:30:09Z,2024-06-10T07:00:36Z,keithamus,needs implementer interest|addition/proposal,5
 2266687616,false,`mutationObserver.disconnect({ flush: true })`,https://github.com/whatwg/dom/issues/1283,2024-04-27T01:16:32Z,2025-12-16T15:41:56Z,LeaVerou,needs implementer interest|addition/proposal|topic: nodes|topic: mutation observers,2
