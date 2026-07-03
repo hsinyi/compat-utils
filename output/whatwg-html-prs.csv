@@ -9,7 +9,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4752597772,false,Refactor fragment parsing algorithm to match implementations,https://github.com/whatwg/html/pull/12624,2026-06-26T14:05:29Z,2026-07-02T16:49:17Z,noamr,,0
 4752570517,true,Editorial: remove Twitter Updates link,https://github.com/whatwg/html/pull/12623,2026-06-26T14:01:25Z,2026-07-02T15:47:43Z,lukewarlow,,0
 4751429827,false,Navigation API: Move resolving/rejecting ongoing API method tracker to before running script.,https://github.com/whatwg/html/pull/12622,2026-06-26T10:57:56Z,2026-06-30T10:23:22Z,jnjaeschke,normative change|topic: navigation,0
-4745686295,false,Update PropertyDescriptor [[Get]]/[[Set]] to [[Getter]]/[[Setter]],https://github.com/whatwg/html/pull/12618,2026-06-25T16:34:20Z,2026-07-02T21:17:19Z,linusg,,0
+4745686295,true,Update PropertyDescriptor [[Get]]/[[Set]] to [[Getter]]/[[Setter]],https://github.com/whatwg/html/pull/12618,2026-06-25T16:34:20Z,2026-07-03T09:03:07Z,linusg,,0
 4731861389,false,Editorial: modernize srcObject getter & setter,https://github.com/whatwg/html/pull/12614,2026-06-24T05:08:35Z,2026-06-24T07:27:35Z,annevk,,0
 4726233004,true,Export 'configure a sanitizer',https://github.com/whatwg/html/pull/12611,2026-06-23T13:18:41Z,2026-06-23T14:08:42Z,noamr,,0
 4724386697,true,"Meta: improve PR Preview, part 2",https://github.com/whatwg/html/pull/12610,2026-06-23T09:17:48Z,2026-06-23T14:08:43Z,annevk,,0
@@ -148,7 +148,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3984130106,false,Add HTMLScriptElement IDL changes for Trusted Types,https://github.com/whatwg/html/pull/12195,2026-02-24T14:46:16Z,2026-06-07T08:12:02Z,lukewarlow,,0
 3983813233,true,Add missing arguments to innerText setter steps,https://github.com/whatwg/html/pull/12194,2026-02-24T13:43:32Z,2026-02-24T13:56:46Z,lukewarlow,,0
 3982762974,true,Meta: Fix broken links to mouse interfaces and events,https://github.com/whatwg/html/pull/12191,2026-02-24T10:17:25Z,2026-02-25T09:05:37Z,dontcallmedom,,0
-3969497215,false,Handle command buttons inside of popover light dismiss,https://github.com/whatwg/html/pull/12184,2026-02-20T17:03:56Z,2026-06-26T14:41:25Z,lukewarlow,,0
+3969497215,false,Handle command buttons inside of popover light dismiss,https://github.com/whatwg/html/pull/12184,2026-02-20T17:03:56Z,2026-07-03T07:34:40Z,lukewarlow,,0
 3965690003,false,Simplify orphan worker closing,https://github.com/whatwg/html/pull/12182,2026-02-19T23:41:09Z,2026-03-30T12:14:45Z,domfarolino,topic: workers,0
 3965029544,true,Make sure navigate event is cleared before signaling abort.,https://github.com/whatwg/html/pull/12181,2026-02-19T20:49:51Z,2026-05-12T15:11:00Z,farre,topic: navigation,0
 3961529289,false,Abort traversal if tracker is no longer ongoing.,https://github.com/whatwg/html/pull/12177,2026-02-19T08:04:39Z,2026-05-13T07:48:09Z,farre,topic: navigation,0
@@ -160,7 +160,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3946306743,false,Fix merge existing and new import maps - reversed operands,https://github.com/whatwg/html/pull/12167,2026-02-16T07:25:03Z,2026-02-16T07:26:32Z,yoavweiss,,0
 3933097699,true,Fix select base appearance shadow tree issues,https://github.com/whatwg/html/pull/12158,2026-02-12T17:36:00Z,2026-02-13T19:19:22Z,josepharhar,,0
 3928004867,false,Add Canvas writingMode and textOrientation,https://github.com/whatwg/html/pull/12153,2026-02-11T18:25:01Z,2026-03-16T01:24:25Z,schenney-chromium,topic: canvas,0
-3926643128,false,AsyncContext proposal integration (part 1),https://github.com/whatwg/html/pull/12152,2026-02-11T13:44:30Z,2026-07-02T13:05:53Z,andreubotella,,1
+3926643128,false,AsyncContext proposal integration (part 1),https://github.com/whatwg/html/pull/12152,2026-02-11T13:44:30Z,2026-07-03T11:41:43Z,andreubotella,,1
 3924343435,true,Add controls attribute to img,https://github.com/whatwg/html/pull/12151,2026-02-11T01:59:20Z,2026-04-15T13:04:22Z,yoelhawa,addition/proposal|topic: img,0
 3920138877,false,Fix type mismatch for reflected FrozenArray<T>?,https://github.com/whatwg/html/pull/12148,2026-02-10T08:31:24Z,2026-03-20T16:36:54Z,gmvrpw,needs tests,0
 3918173144,true,Fix type mismatch for reflected FrozenArray<T>?,https://github.com/whatwg/html/pull/12146,2026-02-09T21:10:24Z,2026-02-09T21:37:07Z,gmvrpw,,0
@@ -271,7 +271,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3509799761,true,Calrify that image presentation is updated even when EXIF is invalid,https://github.com/whatwg/html/pull/11779,2025-10-13T12:06:57Z,2025-10-13T17:13:14Z,noamr,,0
 3503172358,true,Fix variable name in option disabled algorithm,https://github.com/whatwg/html/pull/11772,2025-10-10T14:23:55Z,2025-10-10T15:11:03Z,josepharhar,,0
 3497617752,true,Update 404.html,https://github.com/whatwg/html/pull/11768,2025-10-09T04:43:22Z,2025-10-09T05:23:13Z,Stutiporwal1,invalid,0
-3494102804,false,Navigation: Add optimization to ignore duplicate navigations,https://github.com/whatwg/html/pull/11765,2025-10-08T06:48:17Z,2026-06-08T05:48:46Z,llannasatoll,,0
+3494102804,false,Navigation: Add optimization to ignore duplicate navigations,https://github.com/whatwg/html/pull/11765,2025-10-08T06:48:17Z,2026-07-03T09:36:32Z,llannasatoll,,0
 3493093695,true,Improve behavior for parsing option end tags,https://github.com/whatwg/html/pull/11764,2025-10-07T21:25:50Z,2025-10-13T17:15:39Z,josepharhar,,1
 3492979858,true,Editorial: split multi-<code> <pre>s into individual <pre><code>,https://github.com/whatwg/html/pull/11763,2025-10-07T20:46:12Z,2025-10-08T07:31:49Z,foolip,,0
 3492316993,true,"Navigation API: pass argument instead of a global ""upcoming method tracker""",https://github.com/whatwg/html/pull/11762,2025-10-07T17:12:31Z,2025-10-20T13:20:58Z,noamr,,0
@@ -415,7 +415,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3121032722,true,"[Editorial] Early hints: there is no ""pending"" document, only null.",https://github.com/whatwg/html/pull/11355,2025-06-05T12:28:44Z,2025-06-05T13:48:08Z,noamr,,0
 3113398673,false,Add UA style for contenteditable=plaintext-only,https://github.com/whatwg/html/pull/11351,2025-06-03T10:31:38Z,2025-06-03T11:09:30Z,zcorpan,,0
 3113286788,false,[DRAFT] Add the concept of an event source.,https://github.com/whatwg/html/pull/11349,2025-06-03T10:00:27Z,2025-06-05T11:36:57Z,alice,,0
-3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-08-03T20:52:27Z,alexpetros,addition/proposal|topic: forms,115
+3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-08-03T20:52:27Z,alexpetros,addition/proposal|topic: forms,118
 3101529448,true,Improve CommandEvent and ToggleEvent source retargeting,https://github.com/whatwg/html/pull/11345,2025-05-29T21:27:44Z,2025-11-20T18:12:02Z,josepharhar,,0
 3095959996,true,Revamp script element introduction and conformance,https://github.com/whatwg/html/pull/11341,2025-05-28T04:26:27Z,2025-05-29T05:07:03Z,domenic,clarification|document conformance|topic: script,0
 3094310657,true,Add jump functionality to Blue Robot canvas demo,https://github.com/whatwg/html/pull/11337,2025-05-27T15:14:55Z,2025-05-28T00:58:11Z,Ronitsabhaya75,invalid,0
@@ -543,7 +543,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2834196191,true,Editorial: switch links back to official CSSWG drafts,https://github.com/whatwg/html/pull/11005,2025-02-05T23:54:24Z,2025-02-06T02:18:33Z,Loirooriol,,0
 2833243175,true,Editorial: fix link and wording for tuple origin,https://github.com/whatwg/html/pull/11001,2025-02-05T15:17:39Z,2025-02-06T01:25:39Z,zcorpan,clarification|topic: origin,0
 2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2025-04-16T13:40:27Z,AndresRPerez12,do not merge yet|topic: canvas,2
-2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2026-06-26T22:52:30Z,dandclark,,0
+2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2026-07-03T06:27:47Z,dandclark,addition/proposal,0
 2831485110,true,Fix dialog focus restoring descendant check,https://github.com/whatwg/html/pull/10994,2025-02-04T23:17:23Z,2025-02-17T02:49:55Z,josepharhar,topic: dialog,0
 2831477610,false,Remove links to defunct Twitter account,https://github.com/whatwg/html/pull/10993,2025-02-04T23:11:22Z,2025-02-12T12:42:41Z,eeeps,meta,1
 2830828832,true,Pass a top-level navigation initiator origin to Fetch,https://github.com/whatwg/html/pull/10991,2025-02-04T17:06:01Z,2025-07-25T09:20:12Z,bvandersloot-mozilla,,0

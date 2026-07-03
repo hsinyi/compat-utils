@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4793972573,false,Handle NodeIterator node removal during filtering,https://github.com/whatwg/dom/pull/1479,2026-07-02T11:33:50Z,2026-07-02T16:35:24Z,annevk,,0
-4786754928,true,"Remove ""allow declarative shadow roots""",https://github.com/whatwg/dom/pull/1478,2026-07-01T15:04:41Z,2026-07-02T16:32:17Z,noamr,,0
+4793972573,true,Handle NodeIterator node removal during filtering,https://github.com/whatwg/dom/pull/1479,2026-07-02T11:33:50Z,2026-07-03T08:36:07Z,annevk,,0
+4786754928,true,"Remove ""allow declarative shadow roots""",https://github.com/whatwg/dom/pull/1478,2026-07-01T15:04:41Z,2026-07-03T05:32:37Z,noamr,,0
 4777984229,true,Fix NodeIterator pre-remove steps for ancestors of root,https://github.com/whatwg/dom/pull/1477,2026-06-30T15:06:30Z,2026-07-02T11:46:16Z,annevk,,0
 4751402253,true,Add and export get an element by ID,https://github.com/whatwg/dom/pull/1476,2026-06-26T10:53:47Z,2026-07-02T12:17:31Z,annevk,,0
 4736140461,true,Treat fragment parser documents as not connected,https://github.com/whatwg/dom/pull/1474,2026-06-24T15:21:23Z,2026-06-24T16:01:02Z,shannonbooth,,0
@@ -22,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3814582733,true,Include cloning keep custom element registry null while cloning shadow root,https://github.com/whatwg/dom/pull/1445,2026-01-14T19:34:50Z,2026-01-15T11:11:02Z,ja-y-son,,0
 3788812725,true,Editorial: correct misleading node equals sentence,https://github.com/whatwg/dom/pull/1444,2026-01-07T13:37:46Z,2026-01-09T07:18:21Z,annevk,,0
 3731099432,true,Review Draft Publication: December 2025,https://github.com/whatwg/dom/pull/1441,2025-12-15T16:01:38Z,2025-12-15T16:06:28Z,annevk,,0
-3684551720,false,Update element adoption logic for scoped registry,https://github.com/whatwg/dom/pull/1437,2025-12-02T07:43:54Z,2026-06-10T21:52:16Z,ja-y-son,topic: custom elements,0
+3684551720,false,Update element adoption logic for scoped registry,https://github.com/whatwg/dom/pull/1437,2025-12-02T07:43:54Z,2026-07-03T09:07:53Z,ja-y-son,topic: custom elements,0
 3675112319,true,Editorial: modernize mutation observers,https://github.com/whatwg/dom/pull/1436,2025-11-28T14:29:54Z,2025-12-01T15:05:07Z,annevk,,0
 3675086412,true,Editorial: modernize convert nodes into a node,https://github.com/whatwg/dom/pull/1435,2025-11-28T14:20:30Z,2025-12-02T14:03:06Z,annevk,,0
 3674832483,true,Correct setAttributeNS() validation context,https://github.com/whatwg/dom/pull/1434,2025-11-28T12:50:48Z,2025-11-28T14:33:08Z,annevk,,0
@@ -30,14 +30,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3674711113,true,Editorial: modernize Traversal,https://github.com/whatwg/dom/pull/1432,2025-11-28T12:14:58Z,2025-11-28T12:18:19Z,annevk,,0
 3674011810,true,Make DOMTokenList's supported token concept also depend on element,https://github.com/whatwg/dom/pull/1431,2025-11-28T08:12:14Z,2025-12-01T07:56:41Z,annevk,,0
 3672372045,true,Editorial: modernize Ranges and CharacterData,https://github.com/whatwg/dom/pull/1430,2025-11-27T16:38:42Z,2025-11-28T07:31:53Z,annevk,,0
-3666215840,false,Editorial: make adopt traverse the tree less,https://github.com/whatwg/dom/pull/1427,2025-11-26T07:25:30Z,2025-11-26T07:25:51Z,annevk,,0
+3666215840,true,Editorial: make adopt traverse the tree less,https://github.com/whatwg/dom/pull/1427,2025-11-26T07:25:30Z,2026-07-03T08:51:11Z,annevk,,0
 3662261673,true,Editorial: modernize mutation algorithms,https://github.com/whatwg/dom/pull/1426,2025-11-25T09:44:09Z,2025-11-25T10:07:33Z,annevk,,0
 3645516867,false,Add abortSignal.addAbortCallback,https://github.com/whatwg/dom/pull/1425,2025-11-20T05:22:33Z,2026-02-11T00:33:12Z,jakearchibald,needs implementer interest|addition/proposal|topic: aborting,1
 3640633724,true,Allow the creation of null registry element and shadow root,https://github.com/whatwg/dom/pull/1424,2025-11-19T01:28:05Z,2025-11-25T07:42:16Z,ja-y-son,,0
 3635427717,true,Set registry on null registry element on adopt instead of on insert,https://github.com/whatwg/dom/pull/1423,2025-11-17T23:15:11Z,2025-11-27T07:38:08Z,ja-y-son,,0
 3483508515,true,Make attachShadow() use the global registry by default,https://github.com/whatwg/dom/pull/1409,2025-10-04T10:13:30Z,2025-10-07T15:05:15Z,annevk,,0
 3410621075,false,Add OpaqueRange interface,https://github.com/whatwg/dom/pull/1404,2025-09-12T13:58:15Z,2026-05-21T13:50:21Z,stephanieyzhang,,0
-3335702423,false,Remove mentions of XSLT from the DOM spec,https://github.com/whatwg/dom/pull/1400,2025-08-19T21:12:19Z,2025-10-23T15:19:11Z,mfreed7,,5
+3335702423,false,Remove mentions of XSLT from the DOM spec,https://github.com/whatwg/dom/pull/1400,2025-08-19T21:12:19Z,2026-07-03T08:46:09Z,mfreed7,,5
 3305642979,true,Meta: link to Korean translation,https://github.com/whatwg/dom/pull/1398,2025-08-09T02:55:23Z,2025-08-12T13:17:28Z,JinDX,,0
 3247977485,true,Scope non-scoped (global) registries to a single document,https://github.com/whatwg/dom/pull/1392,2025-07-21T10:03:02Z,2025-10-09T06:16:57Z,annevk,topic: custom elements,0
 3244859890,true,"Link exposed to the WebIDL definition, remove potentially confusing note",https://github.com/whatwg/dom/pull/1391,2025-07-19T04:10:07Z,2025-07-21T07:37:20Z,shannonbooth,,0
