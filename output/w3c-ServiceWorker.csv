@@ -273,7 +273,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 403990952,true,"Service worker not intercepting the call intiated for CSS from JS files “ css:”css/custom.css""",https://github.com/w3c/ServiceWorker/issues/1386,2019-01-28T20:22:03Z,2019-01-29T21:14:16Z,ajeeshc,,1
 402596342,false,clients.get() should not resolve before sandboxing determines the origin of the client,https://github.com/w3c/ServiceWorker/issues/1385,2019-01-24T08:38:44Z,2019-01-24T14:30:20Z,mfalken,,0
 401389158,true,Cache.put() does not read response's body,https://github.com/w3c/ServiceWorker/issues/1383,2019-01-21T14:57:03Z,2019-02-11T13:30:45Z,ytausky,cache,0
-401375894,false,Cache's put() says it clones the response,https://github.com/w3c/ServiceWorker/issues/1382,2019-01-21T14:23:57Z,2019-01-22T11:14:06Z,annevk,cache,0
+401375894,true,Cache's put() says it clones the response,https://github.com/w3c/ServiceWorker/issues/1382,2019-01-21T14:23:57Z,2026-07-03T00:25:33Z,annevk,cache,0
 400702833,true,The compatibility of service worker on ios devices,https://github.com/w3c/ServiceWorker/issues/1381,2019-01-18T12:22:37Z,2019-01-22T11:47:18Z,Lozoe,,0
 395411429,false,Add registeringClientId to the ServiceWorker object,https://github.com/w3c/ServiceWorker/issues/1379,2019-01-02T23:13:50Z,2019-09-16T07:22:13Z,philipwalton,,2
 394030787,true,Can service workers mess with POST variables?,https://github.com/w3c/ServiceWorker/issues/1378,2018-12-25T15:20:21Z,2019-01-02T11:15:52Z,jarodium,,0
@@ -283,16 +283,16 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 387063936,false,Clarification on what happens during a terminated activation,https://github.com/w3c/ServiceWorker/issues/1372,2018-12-04T00:20:20Z,2022-01-21T14:50:30Z,josephliccini,,0
 385091969,true,Refetch API content if there are changed,https://github.com/w3c/ServiceWorker/issues/1371,2018-11-28T04:02:22Z,2018-12-04T12:08:55Z,ngohungphuc,,0
 380958037,false,Expose `display` mode (e.g. `standalone`) on `client`,https://github.com/w3c/ServiceWorker/issues/1370,2018-11-15T01:17:14Z,2019-09-15T09:07:16Z,slightlyoff,,1
-379539674,false,Web Authentication API access in service worker,https://github.com/w3c/ServiceWorker/issues/1369,2018-11-11T16:38:57Z,2018-11-11T16:45:30Z,Jabher,,0
+379539674,true,Web Authentication API access in service worker,https://github.com/w3c/ServiceWorker/issues/1369,2018-11-11T16:38:57Z,2026-07-02T23:37:35Z,Jabher,,0
 377057770,true,ServiceWorker fails to load page,https://github.com/w3c/ServiceWorker/issues/1368,2018-11-03T14:09:52Z,2018-11-04T11:46:29Z,binhle410,,0
-375650074,false,Tee-ing Cache.put()?,https://github.com/w3c/ServiceWorker/issues/1367,2018-10-30T19:12:23Z,2019-01-21T14:23:03Z,lukewagner,cache,1
+375650074,true,Tee-ing Cache.put()?,https://github.com/w3c/ServiceWorker/issues/1367,2018-10-30T19:12:23Z,2026-07-03T00:23:05Z,lukewagner,cache,1
 375590197,true,Why does spec set redirect's mode to error ?,https://github.com/w3c/ServiceWorker/issues/1366,2018-10-30T16:49:11Z,2019-10-30T07:29:33Z,TomPradat,,0
 375571332,true,"Module scripts to be fetched with ""same-origin"" for credentials",https://github.com/w3c/ServiceWorker/issues/1365,2018-10-30T16:09:46Z,2026-06-22T01:14:23Z,annevk,,1
 374739000,true,[Proposal] ServiceWorkerContainer.installing(scope) promise,https://github.com/w3c/ServiceWorker/issues/1364,2018-10-28T10:29:50Z,2026-06-19T00:03:57Z,FluorescentHallucinogen,,0
 374416780,true,"""waiting for all"" definition changed",https://github.com/w3c/ServiceWorker/issues/1363,2018-10-26T14:45:33Z,2019-09-03T01:11:04Z,domenic,,0
 373609785,true,"What is the name for `installing`, `waiting` and `active`?",https://github.com/w3c/ServiceWorker/issues/1362,2018-10-24T18:09:42Z,2018-10-25T06:04:44Z,FluorescentHallucinogen,,0
 372003225,false,clarify how navigation preload fetches can be measured using performance API,https://github.com/w3c/ServiceWorker/issues/1361,2018-10-19T15:17:55Z,2026-06-11T23:58:13Z,wanderview,,1
-369568704,false,"Redesign of ""extract header list values"" expected",https://github.com/w3c/ServiceWorker/issues/1360,2018-10-12T14:10:55Z,2026-06-11T23:51:09Z,annevk,,0
+369568704,false,"Redesign of ""extract header list values"" expected",https://github.com/w3c/ServiceWorker/issues/1360,2018-10-12T14:10:55Z,2026-07-02T15:53:49Z,annevk,,0
 366631426,true,Should add a “script type” check in the register algorithm.,https://github.com/w3c/ServiceWorker/issues/1359,2018-10-04T05:48:50Z,2019-06-03T08:29:39Z,d0iasm,,1
 366630778,true,Should add “script type” and “update via cache”  when check two jobs are equivalent.,https://github.com/w3c/ServiceWorker/issues/1358,2018-10-04T05:45:39Z,2019-06-03T08:29:54Z,d0iasm,,1
 366258113,false,Should CacheStorage.match allow partial matches on cache names?,https://github.com/w3c/ServiceWorker/issues/1357,2018-10-03T09:53:00Z,2019-11-28T11:55:38Z,kingsfleet,cache,0
@@ -349,7 +349,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 302460010,true,Detect Abort Events in Service Worker,https://github.com/w3c/ServiceWorker/issues/1284,2018-03-05T20:58:15Z,2018-03-05T21:05:13Z,anthumchris,,0
 300275549,false,Service Worker handling of first page load subresources,https://github.com/w3c/ServiceWorker/issues/1282,2018-02-26T15:12:46Z,2020-04-26T04:21:01Z,yoavweiss,,8
 298821745,true,Query Cache algorithm contains orphaned 'f' references,https://github.com/w3c/ServiceWorker/issues/1280,2018-02-21T02:33:55Z,2018-02-23T01:19:59Z,inexorabletash,,0
-296032608,false,ready promise is kind of weird after you call unregister(),https://github.com/w3c/ServiceWorker/issues/1279,2018-02-09T22:30:59Z,2018-10-26T12:56:28Z,wanderview,,0
+296032608,true,ready promise is kind of weird after you call unregister(),https://github.com/w3c/ServiceWorker/issues/1279,2018-02-09T22:30:59Z,2026-07-03T00:32:46Z,wanderview,,0
 296022898,false,ready promise is kind of weird with overlapping scopes,https://github.com/w3c/ServiceWorker/issues/1278,2018-02-09T21:48:57Z,2026-06-12T00:29:36Z,wanderview,,0
 294064370,false,The Cache objects do not expire unless authors *or users* delete the entries.,https://github.com/w3c/ServiceWorker/issues/1276,2018-02-03T00:34:15Z,2022-02-25T17:24:56Z,bsittler,,0
 293838820,true,What's the possible reason for navigator.serviceWorker.register error？,https://github.com/w3c/ServiceWorker/issues/1275,2018-02-02T10:19:36Z,2018-02-05T02:23:16Z,ywang1724,,0
@@ -403,12 +403,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 267078474,true,The classic script's source text isn't defined in HTML any more,https://github.com/w3c/ServiceWorker/issues/1212,2017-10-20T06:48:13Z,2018-03-13T08:39:07Z,jungkees,spec detail,0
 265799092,true,Require JS content type for serviceworkers is not present in the spec,https://github.com/w3c/ServiceWorker/issues/1209,2017-10-16T14:53:39Z,2017-10-16T15:43:37Z,shhnjk,,0
 265787579,true,Feature request: Provide a way to delay execution of a new service worker,https://github.com/w3c/ServiceWorker/issues/1208,2017-10-16T14:20:57Z,2026-06-12T00:12:24Z,twiss,,15
-264551924,false,Create F2F agenda - 7 November 2017,https://github.com/w3c/ServiceWorker/issues/1206,2017-10-11T11:33:17Z,2018-11-26T19:45:41Z,jakearchibald,,1
+264551924,true,Create F2F agenda - 7 November 2017,https://github.com/w3c/ServiceWorker/issues/1206,2017-10-11T11:33:17Z,2026-07-02T23:59:50Z,jakearchibald,,1
 263564837,true,resurrected service workers don't fire an activate event which may break expectations,https://github.com/w3c/ServiceWorker/issues/1204,2017-10-06T20:37:27Z,2019-06-06T16:01:22Z,wanderview,,0
 263235777,true,Mixed feelings about ServiceWorker for module loader,https://github.com/w3c/ServiceWorker/issues/1203,2017-10-05T19:16:28Z,2018-03-02T04:03:35Z,Krinkle,,0
 261401821,false,should FetchEvent.request ever be a range request if we cannot verify if the underlying resource is the same?,https://github.com/w3c/ServiceWorker/issues/1201,2017-09-28T17:38:06Z,2026-01-30T00:44:44Z,wanderview,,0
 260286334,false,is the browser required to start the ServiceWorker for postMessage() if there is no message event handler?,https://github.com/w3c/ServiceWorker/issues/1200,2017-09-25T13:57:24Z,2019-11-05T08:39:28Z,wanderview,decided,0
-259611546,false,ready promise doesn't work right when controlling registration is resurrected,https://github.com/w3c/ServiceWorker/issues/1198,2017-09-21T19:49:37Z,2018-12-19T12:15:55Z,wanderview,,1
+259611546,false,ready promise doesn't work right when controlling registration is resurrected,https://github.com/w3c/ServiceWorker/issues/1198,2017-09-21T19:49:37Z,2026-07-03T00:16:19Z,wanderview,,1
 259498607,false,Express the job queue in terms of parallel queues,https://github.com/w3c/ServiceWorker/issues/1197,2017-09-21T13:36:22Z,2026-01-23T09:04:59Z,jakearchibald,,0
 259495035,true,"Issues with ""Handle Functional Event""",https://github.com/w3c/ServiceWorker/issues/1196,2017-09-21T13:25:30Z,2026-01-26T01:56:44Z,jakearchibald,,0
 257542083,true,Proposal: Allow addEventListener/removeEventListener for 'fetch' to called at anytime,https://github.com/w3c/ServiceWorker/issues/1195,2017-09-13T22:36:31Z,2018-10-26T21:20:17Z,bgirard,,0
@@ -463,7 +463,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 222228246,true,Adding a developer-provided name,https://github.com/w3c/ServiceWorker/issues/1121,2017-04-17T20:51:32Z,2017-05-15T06:01:50Z,domenic,,0
 221747590,false,Lifetime of service workers in relation to dedicated and shared workers,https://github.com/w3c/ServiceWorker/issues/1119,2017-04-14T05:57:04Z,2025-10-30T23:48:15Z,annevk,,0
 221716047,true,Match Service Worker Registration should assert same-origin?,https://github.com/w3c/ServiceWorker/issues/1118,2017-04-14T00:37:20Z,2017-05-12T12:49:17Z,estark37,bug,0
-221646243,false,Should a service worker be allowed to register new service workers?,https://github.com/w3c/ServiceWorker/issues/1117,2017-04-13T18:33:31Z,2018-11-26T19:43:03Z,mkruisselbrink,,1
+221646243,false,Should a service worker be allowed to register new service workers?,https://github.com/w3c/ServiceWorker/issues/1117,2017-04-13T18:33:31Z,2026-07-02T23:49:48Z,mkruisselbrink,,1
 221537979,true,Remove StructuredCloneWithTransfer and add a messageerror event,https://github.com/w3c/ServiceWorker/issues/1116,2017-04-13T11:42:15Z,2017-04-29T06:03:18Z,annevk,needs spec,0
 221279133,true,Should a service worker be able to block with shared memory APIs?,https://github.com/w3c/ServiceWorker/issues/1115,2017-04-12T14:21:34Z,2017-04-26T09:46:08Z,annevk,,0
 220962393,true,FetchEventInit.preloadResponse should not be a required member,https://github.com/w3c/ServiceWorker/issues/1114,2017-04-11T14:02:30Z,2018-06-21T13:01:36Z,mfalken,,0
