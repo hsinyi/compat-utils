@@ -63,7 +63,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4540955332,false,Inconsistent cross-browser behavior for mutating child <source>s of a <video>,https://github.com/whatwg/html/issues/12500,2026-05-28T13:55:08Z,2026-06-02T10:01:26Z,nicolo-ribaudo,topic: media,0
 4538120357,false,Proposal: Native include attribute for declarative HTML component composition,https://github.com/whatwg/html/issues/12499,2026-05-28T06:05:50Z,2026-05-28T06:05:50Z,tanvirsajibbd-oss,addition/proposal|needs implementer interest,0
 4537899972,true,Make it possible to render `details` inline,https://github.com/whatwg/html/issues/12498,2026-05-28T05:14:32Z,2026-05-28T06:00:19Z,locrianz,addition/proposal|needs implementer interest,0
-4535612078,false,Make focused area preservation across bfcache reactivation normative,https://github.com/whatwg/html/issues/12496,2026-05-27T20:45:45Z,2026-06-15T09:00:14Z,hjanuschka,,1
+4535612078,true,Make focused area preservation across bfcache reactivation normative,https://github.com/whatwg/html/issues/12496,2026-05-27T20:45:45Z,2026-07-03T14:13:52Z,hjanuschka,,1
 4532970033,false,Explicitly discuss the adjusted insertion location being a descendant of the node itself,https://github.com/whatwg/html/issues/12494,2026-05-27T14:06:27Z,2026-06-08T09:14:14Z,hsivonen,topic: parser,0
 4526000997,false,In-flight `MessagePort` behavior,https://github.com/whatwg/html/issues/12490,2026-05-26T17:03:16Z,2026-05-26T17:17:58Z,francovs,,0
 4523946719,false,"Relaxing the ""`legend` must be the first child of `fieldset`"" requirement",https://github.com/whatwg/html/issues/12485,2026-05-26T11:57:00Z,2026-06-03T13:24:26Z,patrickhlauke,document conformance|topic: fieldset,0
@@ -352,7 +352,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3632147659,false,Extending `details[name]` grouping to handle sets that expand and collapse together,https://github.com/whatwg/html/issues/11920,2025-11-17T07:52:32Z,2025-11-18T00:25:20Z,nektro,addition/proposal|needs implementer interest,2
 3631215200,false,[import maps] Ability to re-write more dynamically (globs?),https://github.com/whatwg/html/issues/11919,2025-11-16T22:32:07Z,2026-02-14T05:18:10Z,trusktr,topic: imports/exports,1
 3630571148,false,"The note in ""upgrade an element"" for step 9.3 seems meaningless",https://github.com/whatwg/html/issues/11918,2025-11-16T13:40:55Z,2025-11-16T13:40:55Z,dSalieri,,0
-3624592567,false,"Generalize custom element upgrade concept by allowing `customElements.define(name, Subclass)`",https://github.com/whatwg/html/issues/11914,2025-11-14T08:39:39Z,2025-12-21T14:38:57Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements,0
+3624592567,false,"Generalize custom element upgrade concept by allowing `customElements.define(name, Subclass)`",https://github.com/whatwg/html/issues/11914,2025-11-14T08:39:39Z,2026-07-03T18:21:06Z,LeaVerou,addition/proposal|needs implementer interest|topic: custom elements|stage: 0,0
 3623633272,false,Transfer steps for OffscreenCanvas arent realm independent,https://github.com/whatwg/html/issues/11912,2025-11-14T02:36:54Z,2025-11-19T15:28:29Z,me-it-is,topic: canvas|topic: serialize and transfer,0
 3620606940,false,Allow setting the image opacity on dragging,https://github.com/whatwg/html/issues/11910,2025-11-13T10:35:45Z,2025-11-19T16:24:03Z,A-D-E-A,addition/proposal|needs implementer interest|topic: drag and drop,5
 3619240619,false,"Consider a ""first-time transient activation"" concept.",https://github.com/whatwg/html/issues/11909,2025-11-13T03:36:25Z,2025-11-20T11:55:06Z,mikewest,addition/proposal|needs implementer interest|topic: user activation,0
@@ -463,7 +463,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3471213469,false,Menu elements proposal,https://github.com/whatwg/html/issues/11729,2025-09-30T22:10:24Z,2026-07-02T14:27:53Z,domfarolino,addition/proposal|needs implementer interest|agenda+|stage: 1,6
 3470648855,false,`closedby` defaults refer to unspecified “Auto” state,https://github.com/whatwg/html/issues/11728,2025-09-30T18:43:55Z,2025-10-01T16:15:35Z,j9t,topic: reflect,0
 3468199894,true,"`rel=""icon""` requests do not fire since it doesn't translate to a valid preload destination",https://github.com/whatwg/html/issues/11726,2025-09-30T08:36:46Z,2025-10-10T08:34:20Z,TimvdLippe,,0
-3466671369,false,"A way to remove EXIF data on `<input type=""file"">` before sending to server",https://github.com/whatwg/html/issues/11724,2025-09-29T21:25:06Z,2026-05-06T13:27:19Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms,23
+3466671369,false,"A way to remove EXIF data on `<input type=""file"">` before sending to server",https://github.com/whatwg/html/issues/11724,2025-09-29T21:25:06Z,2026-05-06T13:27:19Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms,24
 3465829063,false,"Add support for <meta name=""rating"" ...>",https://github.com/whatwg/html/issues/11722,2025-09-29T16:55:14Z,2025-12-01T19:23:19Z,bvandersloot-mozilla,addition/proposal|needs implementer interest|privacy-tracker,4
 3460652946,false,Collapsible `table` contents/rows  via `details`/`summary`,https://github.com/whatwg/html/issues/11718,2025-09-27T19:44:40Z,2025-11-20T13:13:44Z,brandonmcconnell,addition/proposal|needs implementer interest,0
 3458986524,true,Upcoming WHATNOT meeting on 2025-10-02,https://github.com/whatwg/html/issues/11717,2025-09-26T20:13:51Z,2025-10-03T23:50:01Z,cwilso,,0
@@ -2295,7 +2295,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1128211306,true,Formal complaint: search element standardization,https://github.com/whatwg/html/issues/7594,2022-02-09T08:34:31Z,2022-02-10T10:29:31Z,Kaleidea,,0
 1127384263,true,Add a single radius version of CanvasRenderingContext2D.roundRect,https://github.com/whatwg/html/issues/7592,2022-02-08T15:10:56Z,2022-02-17T21:44:59Z,mysteryDate,addition/proposal|needs implementer interest|topic: canvas,1
 1127115952,false,Consider not exposing ErrorEvent/PromiseRejectionEvent in ShadowRealms,https://github.com/whatwg/html/issues/7591,2022-02-08T11:14:29Z,2024-07-25T08:01:54Z,smaug----,topic: multiple globals|integration,0
-1126672278,false,Deprecate <rp> element,https://github.com/whatwg/html/issues/7590,2022-02-08T01:04:58Z,2026-03-02T01:17:17Z,NagayamaToshiaki,removal/deprecation|document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,5
+1126672278,false,Deprecate <rp> element,https://github.com/whatwg/html/issues/7590,2022-02-08T01:04:58Z,2026-07-04T01:06:28Z,NagayamaToshiaki,removal/deprecation|document conformance|i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,5
 1126330353,true,"""prepare a script"" could be more precise about documents",https://github.com/whatwg/html/issues/7589,2022-02-07T18:11:42Z,2022-05-18T23:42:17Z,domenic,clarification|topic: script,1
 1125672254,true,Reconsider the `<rb>` element,https://github.com/whatwg/html/issues/7587,2022-02-07T08:36:17Z,2024-03-28T02:24:31Z,NagayamaToshiaki,i18n-tracker|i18n-jlreq|i18n-clreq|topic: ruby,1
 1125254296,true,"""Focusing steps"" doesn't initially indicate that ""new focus target"" can be null",https://github.com/whatwg/html/issues/7585,2022-02-06T16:50:25Z,2022-02-07T00:33:18Z,awesomekling,,0
@@ -5510,7 +5510,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 144235836,true,"""get the current value of the event handler"" has backwards script-enabled check",https://github.com/whatwg/html/issues/957,2016-03-29T11:34:09Z,2016-04-29T20:33:12Z,Ms2ger,good first issue,0
 144208959,true,Should we preserve the playbackRate between play/pause from user interface?,https://github.com/whatwg/html/issues/956,2016-03-29T09:30:38Z,2016-04-05T09:57:19Z,alastor0325,topic: media,0
 144194271,true,Move https://images.whatwg.org/robots.jpeg into this repository,https://github.com/whatwg/html/issues/955,2016-03-29T08:34:17Z,2016-03-29T22:47:15Z,annevk,good first issue,0
-144165132,true,Event to indicate download started and/or finished,https://github.com/whatwg/html/issues/954,2016-03-29T06:01:14Z,2020-05-15T08:11:01Z,sicking,addition/proposal|needs implementer interest,10
+144165132,true,Event to indicate download started and/or finished,https://github.com/whatwg/html/issues/954,2016-03-29T06:01:14Z,2020-05-15T08:11:01Z,sicking,addition/proposal|needs implementer interest,11
 144079645,false,"HTML should require UAs to apply ""overflow-wrap"" to <textarea>",https://github.com/whatwg/html/issues/953,2016-03-28T20:49:52Z,2018-10-21T14:12:36Z,tabatkins,topic: rendering|topic: forms,0
 144078566,true,Should the spec require the page-specified onbeforeunload message not be used?,https://github.com/whatwg/html/issues/952,2016-03-28T20:44:45Z,2016-04-08T00:19:32Z,avidrissman,removal/deprecation,0
 143924946,true,Add domintro sections to workers,https://github.com/whatwg/html/issues/949,2016-03-28T08:17:54Z,2016-04-05T05:35:16Z,mchaov,clarification,0
