@@ -1,13 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4809337879,false,Editorial: modernize various dimension getters,https://github.com/whatwg/html/pull/12647,2026-07-04T14:28:21Z,2026-07-05T09:40:50Z,annevk,,0
-4792956944,false,Streaming sanitizer (depends on 12624),https://github.com/whatwg/html/pull/12645,2026-07-02T09:09:39Z,2026-07-05T15:56:44Z,noamr,,0
+4816550761,false,Editorial: modernize TextTrack members,https://github.com/whatwg/html/pull/12648,2026-07-06T06:28:36Z,2026-07-06T11:36:41Z,annevk,topic: media,0
+4809337879,true,Editorial: modernize various dimension getters,https://github.com/whatwg/html/pull/12647,2026-07-04T14:28:21Z,2026-07-06T04:39:06Z,annevk,,0
+4792956944,false,Streaming sanitizer (depends on 12624),https://github.com/whatwg/html/pull/12645,2026-07-02T09:09:39Z,2026-07-06T08:46:11Z,noamr,,0
 4784508613,false,Navigation API: Save the persisted state before same-document reload,https://github.com/whatwg/html/pull/12643,2026-07-01T10:04:08Z,2026-07-03T14:33:29Z,noamr,topic: navigation,0
 4784289903,true,Fix URL comparison when processing internal resource links,https://github.com/whatwg/html/pull/12642,2026-07-01T09:33:52Z,2026-07-03T13:51:20Z,noamr,,0
 4769913886,false,Remove exception for nested popover showing,https://github.com/whatwg/html/pull/12635,2026-06-29T16:35:16Z,2026-06-29T16:36:57Z,josepharhar,,0
 4762092213,false,"Editorial: remove unused variable",https://github.com/whatwg/html/pull/12630,2026-06-28T11:37:10Z,2026-06-28T12:30:44Z,TimvdLippe,,0
 4761972554,false,Support picture in the img complete getter steps,https://github.com/whatwg/html/pull/12629,2026-06-28T10:46:34Z,2026-07-01T16:47:02Z,johannesodland,,0
 4758258178,false,Remove requirement for src or srcset attribute on img element,https://github.com/whatwg/html/pull/12627,2026-06-27T12:14:23Z,2026-07-01T18:12:38Z,johannesodland,,0
-4752597772,false,Refactor fragment parsing algorithm to match implementations,https://github.com/whatwg/html/pull/12624,2026-06-26T14:05:29Z,2026-07-02T16:49:17Z,noamr,,0
+4752597772,false,Refactor fragment parsing algorithm to match implementations,https://github.com/whatwg/html/pull/12624,2026-06-26T14:05:29Z,2026-07-06T10:00:33Z,noamr,,0
 4752570517,true,Editorial: remove Twitter Updates link,https://github.com/whatwg/html/pull/12623,2026-06-26T14:01:25Z,2026-07-02T15:47:43Z,lukewarlow,,0
 4751429827,false,Navigation API: Move resolving/rejecting ongoing API method tracker to before running script.,https://github.com/whatwg/html/pull/12622,2026-06-26T10:57:56Z,2026-06-30T10:23:22Z,jnjaeschke,normative change|topic: navigation,0
 4745686295,true,Update PropertyDescriptor [[Get]]/[[Set]] to [[Getter]]/[[Setter]],https://github.com/whatwg/html/pull/12618,2026-06-25T16:34:20Z,2026-07-03T09:03:07Z,linusg,,0
@@ -137,7 +138,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4057254623,true,Editorial: refactor parser scripting mode into an enum,https://github.com/whatwg/html/pull/12245,2026-03-11T10:14:41Z,2026-03-12T11:05:00Z,noamr,,0
 4052380037,true,"HTML integration for ""Error Stack Accessor"" TC39 Proposal",https://github.com/whatwg/html/pull/12239,2026-03-10T14:58:56Z,2026-05-26T07:25:03Z,ljharb,addition/proposal|needs implementer interest|topic: serialize and transfer,0
 4043885631,true,Teach `MessageEvent` to work with origins.,https://github.com/whatwg/html/pull/12235,2026-03-09T07:32:43Z,2026-03-09T16:52:14Z,mikewest,,0
-4034613404,false,Make <option> and <optgroup> share a text content algorithm,https://github.com/whatwg/html/pull/12232,2026-03-06T14:49:40Z,2026-03-10T08:17:59Z,annevk,topic: select,0
+4034613404,false,Make <option> and <optgroup> share a text content algorithm,https://github.com/whatwg/html/pull/12232,2026-03-06T14:49:40Z,2026-07-06T11:41:50Z,annevk,topic: select,0
 4032014779,true,Editorial: Fix misc,https://github.com/whatwg/html/pull/12229,2026-03-06T03:34:03Z,2026-03-06T16:52:03Z,jmdyck,,0
 4017752636,false,Add moduleRequest to modulepreload fetch parameters,https://github.com/whatwg/html/pull/12223,2026-03-03T17:02:58Z,2026-03-20T17:07:28Z,KurtCattiSchmidt,,0
 4008340208,false,Expand disabled form control event handling spec text,https://github.com/whatwg/html/pull/12219,2026-03-01T21:41:58Z,2026-06-03T11:26:25Z,hjanuschka,,1
@@ -327,7 +328,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3388006842,false,Add stream{*}HTMLUnsafe() methods,https://github.com/whatwg/html/pull/11631,2025-09-05T15:46:01Z,2026-03-25T11:25:31Z,foolip,,0
 3387513853,true,"Clone integrity policy as part of ""clone a policy container""",https://github.com/whatwg/html/pull/11628,2025-09-05T13:10:46Z,2025-09-08T09:26:22Z,yoavweiss,topic: policy container,0
 3383145665,true,"Editorial: correctly mark up JS code with class=""js""",https://github.com/whatwg/html/pull/11624,2025-09-04T10:40:34Z,2025-09-06T13:33:13Z,foolip,,0
-3380980195,false,Added support for link rel=compression-dictionary,https://github.com/whatwg/html/pull/11620,2025-09-03T19:14:59Z,2026-06-10T06:22:02Z,pmeenan,,0
+3380980195,false,Added support for link rel=compression-dictionary,https://github.com/whatwg/html/pull/11620,2025-09-03T19:14:59Z,2026-07-06T10:20:20Z,pmeenan,,0
 3377123672,false,Define normalization of full-width numeric characters in <input type=number> user input,https://github.com/whatwg/html/pull/11616,2025-09-02T18:42:30Z,2025-10-27T17:52:16Z,kyouhei-horizumi,normative change|topic: forms|i18n-tracker|i18n-jlreq|i18n-clreq,2
 3375698830,false,Run snapshot post-layout state steps in resizeObserver loop,https://github.com/whatwg/html/pull/11613,2025-09-02T11:54:25Z,2026-04-29T12:46:11Z,lilles,topic: rendering,0
 3372661973,true,Editorial: Fix punctuation + markup,https://github.com/whatwg/html/pull/11612,2025-09-01T13:15:14Z,2025-09-02T13:47:04Z,jmdyck,,0
