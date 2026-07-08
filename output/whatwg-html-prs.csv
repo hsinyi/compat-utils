@@ -1,8 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4830120823,false,"Processing Instruction: Serialize with ""?>"" close",https://github.com/whatwg/html/pull/12654,2026-07-07T15:52:34Z,2026-07-07T15:54:18Z,sirreal,,0
+4837493246,false,Editorial: merge the text track concept into TextTrack,https://github.com/whatwg/html/pull/12659,2026-07-08T12:38:07Z,2026-07-08T12:54:39Z,annevk,topic: media,0
+4836773887,false,Remove inaccurate statement about the insertion mode and CDATA sections,https://github.com/whatwg/html/pull/12658,2026-07-08T10:54:23Z,2026-07-08T10:55:59Z,sirreal,,0
+4833539710,false,Editorial: Link multiplying to the geometry specification,https://github.com/whatwg/html/pull/12655,2026-07-08T01:32:33Z,2026-07-08T01:34:15Z,florexdev,,0
+4830120823,false,"Processing Instruction: Serialize with ""?>"" close",https://github.com/whatwg/html/pull/12654,2026-07-07T15:52:34Z,2026-07-08T13:01:11Z,sirreal,topic: parser,0
 4829075883,false,"Handle processing instruction tokens in head-noscript, template",https://github.com/whatwg/html/pull/12653,2026-07-07T13:41:37Z,2026-07-07T14:42:47Z,sirreal,,0
 4823223422,true,Editorial: Reword 3 grammatically ambiguous sentences,https://github.com/whatwg/html/pull/12651,2026-07-06T21:26:58Z,2026-07-07T08:18:50Z,jmdyck,,0
-4816550761,false,Editorial: modernize TextTrack members,https://github.com/whatwg/html/pull/12648,2026-07-06T06:28:36Z,2026-07-07T17:45:16Z,annevk,topic: media,0
+4816550761,true,Editorial: modernize TextTrack members,https://github.com/whatwg/html/pull/12648,2026-07-06T06:28:36Z,2026-07-08T07:50:39Z,annevk,topic: media,0
 4809337879,true,Editorial: modernize various dimension getters,https://github.com/whatwg/html/pull/12647,2026-07-04T14:28:21Z,2026-07-06T04:39:06Z,annevk,,0
 4792956944,false,Streaming sanitizer (depends on 12624),https://github.com/whatwg/html/pull/12645,2026-07-02T09:09:39Z,2026-07-06T08:46:11Z,noamr,,0
 4784508613,false,Navigation API: Save the persisted state before same-document reload,https://github.com/whatwg/html/pull/12643,2026-07-01T10:04:08Z,2026-07-03T14:33:29Z,noamr,topic: navigation,0
@@ -11,7 +14,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4762092213,false,"Editorial: remove unused variable",https://github.com/whatwg/html/pull/12630,2026-06-28T11:37:10Z,2026-06-28T12:30:44Z,TimvdLippe,,0
 4761972554,false,Support picture in the img complete getter steps,https://github.com/whatwg/html/pull/12629,2026-06-28T10:46:34Z,2026-07-01T16:47:02Z,johannesodland,,0
 4758258178,false,Remove requirement for src or srcset attribute on img element,https://github.com/whatwg/html/pull/12627,2026-06-27T12:14:23Z,2026-07-01T18:12:38Z,johannesodland,,0
-4752597772,false,Refactor fragment parsing algorithm to match implementations,https://github.com/whatwg/html/pull/12624,2026-06-26T14:05:29Z,2026-07-07T15:48:30Z,noamr,,0
+4752597772,false,Refactor fragment parsing algorithm to match implementations,https://github.com/whatwg/html/pull/12624,2026-06-26T14:05:29Z,2026-07-08T06:44:03Z,noamr,,0
 4752570517,true,Editorial: remove Twitter Updates link,https://github.com/whatwg/html/pull/12623,2026-06-26T14:01:25Z,2026-07-02T15:47:43Z,lukewarlow,,0
 4751429827,false,Navigation API: Move resolving/rejecting ongoing API method tracker to before running script.,https://github.com/whatwg/html/pull/12622,2026-06-26T10:57:56Z,2026-06-30T10:23:22Z,jnjaeschke,normative change|topic: navigation,0
 4745686295,true,Update PropertyDescriptor [[Get]]/[[Set]] to [[Getter]]/[[Setter]],https://github.com/whatwg/html/pull/12618,2026-06-25T16:34:20Z,2026-07-03T09:03:07Z,linusg,,0
@@ -2352,7 +2355,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 591782428,true,Meta: keep exporting responsible event loop,https://github.com/whatwg/html/pull/5424,2020-04-01T09:50:00Z,2020-04-01T13:44:05Z,annevk,,0
 590605837,true,fix script element in ‘article’ element example,https://github.com/whatwg/html/pull/5419,2020-03-30T21:23:18Z,2020-03-31T06:05:22Z,ghost,,0
 590454272,true,More explicitly associate agents and event loops,https://github.com/whatwg/html/pull/5416,2020-03-30T17:13:33Z,2020-03-31T16:03:16Z,domenic,clarification|topic: event loop|topic: agent,0
-589522814,false,Align with DOM DocumentFragment adoption changes,https://github.com/whatwg/html/pull/5413,2020-03-28T06:59:26Z,2023-11-14T08:05:50Z,annevk,,0
+589522814,true,Align with DOM DocumentFragment adoption changes,https://github.com/whatwg/html/pull/5413,2020-03-28T06:59:26Z,2026-07-08T08:16:30Z,annevk,,0
 589393520,true,"Convert more ""queue a task"" to ""queue an element task""",https://github.com/whatwg/html/pull/5412,2020-03-27T20:22:38Z,2020-03-30T20:46:36Z,dtapuska,clarification|topic: event loop,0
 589379351,true,Make all agent allocation imperative,https://github.com/whatwg/html/pull/5411,2020-03-27T19:51:19Z,2020-03-31T17:11:28Z,domenic,clarification|topic: agent,0
 589329023,true,"Convert more ""queue a task"" to ""queue an element task""",https://github.com/whatwg/html/pull/5410,2020-03-27T18:37:28Z,2020-04-02T18:54:40Z,dtapuska,clarification|topic: media|topic: event loop,0

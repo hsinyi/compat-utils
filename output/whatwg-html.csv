@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4837763103,false,Processing model of track element handles parent media element in confusing way,https://github.com/whatwg/html/issues/12660,2026-07-08T13:10:57Z,2026-07-08T13:10:57Z,TimvdLippe,,0
+4835807259,false,Should modules really be 'null' if the HTTP status code is not-ok?,https://github.com/whatwg/html/issues/12657,2026-07-08T08:41:15Z,2026-07-08T12:48:56Z,jakearchibald,,0
 4827514114,false,Can we simplify declarative shadow roots opt in?,https://github.com/whatwg/html/issues/12652,2026-07-07T10:17:23Z,2026-07-07T11:06:08Z,noamr,normative change|topic: parser,0
 4821525390,false,Better RTL Support - Bidirectional Text Display And Caret Navigation And Text Selection,https://github.com/whatwg/html/issues/12650,2026-07-06T17:24:38Z,2026-07-06T17:24:49Z,babakfp,,0
 4819926294,false,Should autofocus-delegate use the flat tree?,https://github.com/whatwg/html/issues/12649,2026-07-06T14:09:10Z,2026-07-06T14:18:58Z,ltenmoz,topic: shadow|topic: focus,0
@@ -23,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4695511901,false,Should select with base appearance have overflow:clip or overflow:hidden by default?,https://github.com/whatwg/html/issues/12597,2026-06-18T19:47:22Z,2026-06-19T08:30:28Z,josepharhar,topic: rendering|topic: select,0
 4693230892,false,Scrolling to a fragment should have consistent focus handling,https://github.com/whatwg/html/issues/12596,2026-06-18T14:21:04Z,2026-06-22T14:06:09Z,Th3S4mur41,topic: navigation|topic: focus,1
 4691671077,false,Consider allowing sync loads from the available image list even for srcset / picture cases.,https://github.com/whatwg/html/issues/12595,2026-06-18T10:52:41Z,2026-06-18T10:52:41Z,emilio,topic: img,0
-4685410868,false,Support QUERY method in form submissions,https://github.com/whatwg/html/issues/12594,2026-06-17T17:04:40Z,2026-06-22T13:25:14Z,chris-morgan,addition/proposal|needs implementer interest|topic: forms,20
+4685410868,false,Support QUERY method in form submissions,https://github.com/whatwg/html/issues/12594,2026-06-17T17:04:40Z,2026-06-22T13:25:14Z,chris-morgan,addition/proposal|needs implementer interest|topic: forms,21
 4681867449,false,Localized time formatting without JavaScript,https://github.com/whatwg/html/issues/12591,2026-06-17T09:24:10Z,2026-06-24T16:35:09Z,lucacasonato,addition/proposal|needs implementer interest|i18n-tracker|needs tests|needs concrete proposal|stage: 1,183
 4681580289,false,Specificity of `hidden` attribute table rules is lower than generic `hidden` rules,https://github.com/whatwg/html/issues/12589,2026-06-17T08:43:23Z,2026-06-23T22:52:13Z,mrobinson,topic: rendering,0
 4681421169,false,Proposal: global digest-based inline module resolution,https://github.com/whatwg/html/issues/12588,2026-06-17T08:18:44Z,2026-06-23T17:38:56Z,noamr,addition/proposal|needs implementer interest|topic: script|topic: imports/exports,0
@@ -2592,7 +2594,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 923084614,true,Extend `atob` and `btoa` to support non-ASCII strings,https://github.com/whatwg/html/issues/6779,2021-06-16T20:46:05Z,2021-07-22T22:15:36Z,ethanresnick,addition/proposal|needs implementer interest,1
 922214329,true,Setting document.domain should not work for any public suffix,https://github.com/whatwg/html/issues/6775,2021-06-16T07:36:40Z,2021-06-16T17:09:25Z,thorlacius,,0
 921850934,true,What should history.back() do when sync navigations are involved?,https://github.com/whatwg/html/issues/6773,2021-06-15T22:22:03Z,2022-10-31T05:07:06Z,domenic,topic: history|interop,0
-920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2026-02-05T10:34:19Z,haoqunjiang,topic: script,75
+920923069,false,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2026-07-08T08:41:39Z,haoqunjiang,topic: script,75
 918518896,true,Web compat: don't run async scripts between adjacent sync <script>s,https://github.com/whatwg/html/issues/6761,2021-06-11T09:48:42Z,2024-06-10T19:07:31Z,zcorpan,compat|topic: parser|topic: script,0
 917707970,false,How should timers account for system sleep/suspend?,https://github.com/whatwg/html/issues/6759,2021-06-10T18:46:38Z,2024-01-02T18:59:04Z,shaseley,,0
 917578796,false,Additional definitions exports for Pointer Events,https://github.com/whatwg/html/issues/6758,2021-06-10T17:04:44Z,2021-08-04T17:33:43Z,plehegar,anchor permanence|editorial,0
@@ -3889,7 +3891,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 358519091,true,Order of stylesheet load events and script execution,https://github.com/whatwg/html/issues/4020,2018-09-10T08:30:46Z,2018-09-11T08:17:03Z,emilio,topic: script|topic: style,0
 358264022,true,For,https://github.com/whatwg/html/issues/4018,2018-09-08T04:45:15Z,2018-09-08T16:13:49Z,iwillcatchu72,,0
 358205065,true,Restrict use of `registerProtocolHandler` to secure contexts,https://github.com/whatwg/html/issues/4017,2018-09-07T20:42:14Z,2019-11-19T18:44:26Z,asankah,normative change|security/privacy|impacts documentation,3
-358194786,false,CDATA section in SVG title is handled differently in browsers,https://github.com/whatwg/html/issues/4016,2018-09-07T20:04:42Z,2018-09-07T22:25:14Z,zcorpan,topic: parser,0
+358194786,false,CDATA section in SVG title is handled differently in browsers,https://github.com/whatwg/html/issues/4016,2018-09-07T20:04:42Z,2026-07-08T10:37:18Z,zcorpan,topic: parser,0
 358190337,false,"""in foreign content"" is missing from list of insertion modes",https://github.com/whatwg/html/issues/4015,2018-09-07T19:47:58Z,2024-01-10T10:34:53Z,zcorpan,topic: parser,0
 358180145,true,Rendering when fieldset is fixed height and the legend is much taller,https://github.com/whatwg/html/issues/4014,2018-09-07T19:12:11Z,2018-09-17T19:03:30Z,zcorpan,topic: rendering|interop|topic: fieldset,0
 358143285,true,Have <legend align> map to justify-self,https://github.com/whatwg/html/issues/4013,2018-09-07T17:03:08Z,2018-09-19T18:04:42Z,zcorpan,topic: fieldset,0
