@@ -1,7 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4829075883,false,"Handle processing instruction tokens in head-noscript, template",https://github.com/whatwg/html/pull/12653,2026-07-07T13:41:37Z,2026-07-07T13:43:19Z,sirreal,,0
+4830120823,false,"Processing Instruction: Serialize with ""?>"" close",https://github.com/whatwg/html/pull/12654,2026-07-07T15:52:34Z,2026-07-07T15:54:18Z,sirreal,,0
+4829075883,false,"Handle processing instruction tokens in head-noscript, template",https://github.com/whatwg/html/pull/12653,2026-07-07T13:41:37Z,2026-07-07T14:42:47Z,sirreal,,0
 4823223422,true,Editorial: Reword 3 grammatically ambiguous sentences,https://github.com/whatwg/html/pull/12651,2026-07-06T21:26:58Z,2026-07-07T08:18:50Z,jmdyck,,0
-4816550761,false,Editorial: modernize TextTrack members,https://github.com/whatwg/html/pull/12648,2026-07-06T06:28:36Z,2026-07-07T10:17:15Z,annevk,topic: media,0
+4816550761,false,Editorial: modernize TextTrack members,https://github.com/whatwg/html/pull/12648,2026-07-06T06:28:36Z,2026-07-07T17:45:16Z,annevk,topic: media,0
 4809337879,true,Editorial: modernize various dimension getters,https://github.com/whatwg/html/pull/12647,2026-07-04T14:28:21Z,2026-07-06T04:39:06Z,annevk,,0
 4792956944,false,Streaming sanitizer (depends on 12624),https://github.com/whatwg/html/pull/12645,2026-07-02T09:09:39Z,2026-07-06T08:46:11Z,noamr,,0
 4784508613,false,Navigation API: Save the persisted state before same-document reload,https://github.com/whatwg/html/pull/12643,2026-07-01T10:04:08Z,2026-07-03T14:33:29Z,noamr,topic: navigation,0
@@ -10,7 +11,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4762092213,false,"Editorial: remove unused variable",https://github.com/whatwg/html/pull/12630,2026-06-28T11:37:10Z,2026-06-28T12:30:44Z,TimvdLippe,,0
 4761972554,false,Support picture in the img complete getter steps,https://github.com/whatwg/html/pull/12629,2026-06-28T10:46:34Z,2026-07-01T16:47:02Z,johannesodland,,0
 4758258178,false,Remove requirement for src or srcset attribute on img element,https://github.com/whatwg/html/pull/12627,2026-06-27T12:14:23Z,2026-07-01T18:12:38Z,johannesodland,,0
-4752597772,false,Refactor fragment parsing algorithm to match implementations,https://github.com/whatwg/html/pull/12624,2026-06-26T14:05:29Z,2026-07-07T11:42:16Z,noamr,,0
+4752597772,false,Refactor fragment parsing algorithm to match implementations,https://github.com/whatwg/html/pull/12624,2026-06-26T14:05:29Z,2026-07-07T15:48:30Z,noamr,,0
 4752570517,true,Editorial: remove Twitter Updates link,https://github.com/whatwg/html/pull/12623,2026-06-26T14:01:25Z,2026-07-02T15:47:43Z,lukewarlow,,0
 4751429827,false,Navigation API: Move resolving/rejecting ongoing API method tracker to before running script.,https://github.com/whatwg/html/pull/12622,2026-06-26T10:57:56Z,2026-06-30T10:23:22Z,jnjaeschke,normative change|topic: navigation,0
 4745686295,true,Update PropertyDescriptor [[Get]]/[[Set]] to [[Getter]]/[[Setter]],https://github.com/whatwg/html/pull/12618,2026-06-25T16:34:20Z,2026-07-03T09:03:07Z,linusg,,0
@@ -25,12 +26,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4682477269,false,Add MathML `<a>` handling to sanitization algorithms,https://github.com/whatwg/html/pull/12592,2026-06-17T10:42:58Z,2026-06-22T08:33:36Z,lukewarlow,topic: sanitizer,0
 4681710394,false,[draft] Spell check custom dictionary,https://github.com/whatwg/html/pull/12590,2026-06-17T09:02:23Z,2026-06-18T08:53:40Z,bkardell,addition/proposal|needs implementer interest|i18n-tracker|needs tests|a11y-tracker|stage: 1,0
 4681135612,true,"Attributes index: fix method, formmethod values",https://github.com/whatwg/html/pull/12586,2026-06-17T07:35:03Z,2026-06-17T08:35:19Z,chris-morgan,,0
-4677518436,false,Enable Responsive Images and Alternative Text for HTML Video Poster Images,https://github.com/whatwg/html/pull/12585,2026-06-16T20:06:29Z,2026-06-22T18:14:32Z,scottjehl,,7
+4677518436,false,Enable Responsive Images and Alternative Text for HTML Video Poster Images,https://github.com/whatwg/html/pull/12585,2026-06-16T20:06:29Z,2026-07-07T14:12:25Z,scottjehl,,7
 4674928368,false,Integrate createParserOptions (draft),https://github.com/whatwg/html/pull/12583,2026-06-16T14:05:44Z,2026-07-02T09:52:47Z,noamr,,0
 4667627744,false,Integrate with MakeRealm,https://github.com/whatwg/html/pull/12580,2026-06-15T18:04:33Z,2026-06-24T08:12:31Z,annevk,topic: script|integration,0
 4658488223,false,Specify task source for EventSource queued tasks,https://github.com/whatwg/html/pull/12578,2026-06-14T08:48:46Z,2026-06-26T13:43:33Z,Payal-03,,0
 4649608983,false,Define targetSnapshotParams in the javascript: steps,https://github.com/whatwg/html/pull/12572,2026-06-12T13:28:35Z,2026-06-16T08:03:50Z,zcorpan,topic: javascript: URLs,0
-4641833411,false,Remove categories of select/optgroup/option element inner content elements,https://github.com/whatwg/html/pull/12568,2026-06-11T15:16:42Z,2026-07-07T07:50:03Z,dbaron,document conformance|topic: select,0
+4641833411,true,Remove categories of select/optgroup/option element inner content elements,https://github.com/whatwg/html/pull/12568,2026-06-11T15:16:42Z,2026-07-07T16:02:34Z,dbaron,document conformance|topic: select,0
 4630970612,false,headingoffset computation should not use the flat tree,https://github.com/whatwg/html/pull/12562,2026-06-10T12:00:05Z,2026-07-03T16:11:19Z,annevk,agenda+,0
 4630326485,false,Make the DocumentFragment to sanitize inert,https://github.com/whatwg/html/pull/12561,2026-06-10T10:32:05Z,2026-07-03T17:18:03Z,zcorpan,topic: sanitizer,1
 4625736254,true,"Editorial: Fix misc punctuation, wording, markup",https://github.com/whatwg/html/pull/12557,2026-06-09T21:25:45Z,2026-06-15T22:48:51Z,jmdyck,,0
@@ -385,7 +386,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3235057490,true,ahmedmeshref021@gmail.com,https://github.com/whatwg/html/pull/11458,2025-07-16T08:49:57Z,2025-07-16T08:58:15Z,Ahmedmeshref280,invalid,0
 3233410374,true,Prevent infinite loop in revealing algorithms,https://github.com/whatwg/html/pull/11457,2025-07-15T19:08:36Z,2025-08-11T19:24:57Z,josepharhar,,0
 3231668942,false,Introduce enumerated attribute reflection extended attributes,https://github.com/whatwg/html/pull/11455,2025-07-15T10:09:54Z,2025-07-31T15:58:23Z,lukewarlow,,0
-3230789302,false,Carry over sticky activation for same-origin navs and traversals,https://github.com/whatwg/html/pull/11454,2025-07-15T05:07:58Z,2026-05-11T21:03:51Z,domenic,addition/proposal|topic: user activation,0
+3230789302,false,Carry over sticky activation for same-origin navs and traversals,https://github.com/whatwg/html/pull/11454,2025-07-15T05:07:58Z,2026-07-07T20:16:07Z,domenic,addition/proposal|topic: user activation,0
 3230719017,true,Remove more XML-derived attribute name validation,https://github.com/whatwg/html/pull/11453,2025-07-15T04:28:48Z,2025-07-16T01:01:00Z,domenic,,1
 3229465049,true,Introduce attribute reflection extended attributes,https://github.com/whatwg/html/pull/11450,2025-07-14T17:19:54Z,2025-07-30T12:35:57Z,lukewarlow,,0
 3222567446,true,Editorial: add popover=hint in attribute summary table,https://github.com/whatwg/html/pull/11446,2025-07-11T11:29:54Z,2025-07-12T06:39:19Z,foolip,,0
@@ -1995,7 +1996,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 786265314,true,"Editorial: Stop using ""the"" when referring to the link element element variable",https://github.com/whatwg/html/pull/6289,2021-01-14T19:42:11Z,2021-01-14T20:31:39Z,domfarolino,editorial,0
 785410324,true,Add a final newline normalization for form payloads,https://github.com/whatwg/html/pull/6287,2021-01-13T20:14:50Z,2021-05-20T12:17:38Z,andreubotella,,0
 785107778,true,Meta: default branch rename,https://github.com/whatwg/html/pull/6285,2021-01-13T13:32:36Z,2021-01-15T08:39:51Z,annevk,,0
-785081823,false,Temporal proposal HTML serialization support,https://github.com/whatwg/html/pull/6284,2021-01-13T12:56:15Z,2026-04-13T12:32:46Z,littledan,addition/proposal|i18n-tracker|topic: serialize and transfer,9
+785081823,false,Temporal proposal HTML serialization support,https://github.com/whatwg/html/pull/6284,2021-01-13T12:56:15Z,2026-04-13T12:32:46Z,littledan,addition/proposal|i18n-tracker|topic: serialize and transfer,11
 784125935,true,Obsolete <object usemap>,https://github.com/whatwg/html/pull/6283,2021-01-12T10:50:41Z,2021-03-03T15:55:25Z,annevk,removal/deprecation|topic: embed and object|impacts documentation,0
 784103377,true,Specify escaping in the multipart/form-data encoding algorithm,https://github.com/whatwg/html/pull/6282,2021-01-12T10:19:55Z,2024-05-27T04:57:17Z,andreubotella,topic: forms,0
 784068149,true,Remove the object element from submittable elements,https://github.com/whatwg/html/pull/6281,2021-01-12T09:33:13Z,2021-01-14T06:36:00Z,annevk,removal/deprecation|topic: forms|topic: embed and object|impacts documentation,0
