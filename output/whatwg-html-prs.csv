@@ -1,20 +1,21 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4837493246,false,Editorial: merge the text track concept into TextTrack,https://github.com/whatwg/html/pull/12659,2026-07-08T12:38:07Z,2026-07-08T12:54:39Z,annevk,topic: media,0
-4836773887,false,Remove inaccurate statement about the insertion mode and CDATA sections,https://github.com/whatwg/html/pull/12658,2026-07-08T10:54:23Z,2026-07-08T10:55:59Z,sirreal,,0
+4845278871,true,Mark <base> as Unsafe for Sanitization,https://github.com/whatwg/html/pull/12664,2026-07-09T10:08:19Z,2026-07-09T12:06:52Z,evilpie,security-tracker|topic: sanitizer,0
+4837493246,true,Editorial: merge the text track concept into TextTrack,https://github.com/whatwg/html/pull/12659,2026-07-08T12:38:07Z,2026-07-08T15:04:23Z,annevk,topic: media,0
+4836773887,false,Remove inaccurate statement about the insertion mode and CDATA sections,https://github.com/whatwg/html/pull/12658,2026-07-08T10:54:23Z,2026-07-08T13:37:14Z,sirreal,topic: parser,0
 4833539710,false,Editorial: Link multiplying to the geometry specification,https://github.com/whatwg/html/pull/12655,2026-07-08T01:32:33Z,2026-07-08T01:34:15Z,florexdev,,0
-4830120823,false,"Processing Instruction: Serialize with ""?>"" close",https://github.com/whatwg/html/pull/12654,2026-07-07T15:52:34Z,2026-07-08T13:01:11Z,sirreal,topic: parser,0
-4829075883,false,"Handle processing instruction tokens in head-noscript, template",https://github.com/whatwg/html/pull/12653,2026-07-07T13:41:37Z,2026-07-07T14:42:47Z,sirreal,,0
+4830120823,true,"Processing Instruction: Serialize with ""?>"" close",https://github.com/whatwg/html/pull/12654,2026-07-07T15:52:34Z,2026-07-09T11:19:11Z,sirreal,topic: parser,0
+4829075883,false,"Handle processing instruction tokens in head-noscript, template",https://github.com/whatwg/html/pull/12653,2026-07-07T13:41:37Z,2026-07-08T13:43:42Z,sirreal,normative change|topic: parser,0
 4823223422,true,Editorial: Reword 3 grammatically ambiguous sentences,https://github.com/whatwg/html/pull/12651,2026-07-06T21:26:58Z,2026-07-07T08:18:50Z,jmdyck,,0
 4816550761,true,Editorial: modernize TextTrack members,https://github.com/whatwg/html/pull/12648,2026-07-06T06:28:36Z,2026-07-08T07:50:39Z,annevk,topic: media,0
 4809337879,true,Editorial: modernize various dimension getters,https://github.com/whatwg/html/pull/12647,2026-07-04T14:28:21Z,2026-07-06T04:39:06Z,annevk,,0
-4792956944,false,Streaming sanitizer (depends on 12624),https://github.com/whatwg/html/pull/12645,2026-07-02T09:09:39Z,2026-07-06T08:46:11Z,noamr,,0
+4792956944,false,Sanitize while parsing,https://github.com/whatwg/html/pull/12645,2026-07-02T09:09:39Z,2026-07-09T13:22:14Z,noamr,,0
 4784508613,false,Navigation API: Save the persisted state before same-document reload,https://github.com/whatwg/html/pull/12643,2026-07-01T10:04:08Z,2026-07-03T14:33:29Z,noamr,topic: navigation,0
 4784289903,true,Fix URL comparison when processing internal resource links,https://github.com/whatwg/html/pull/12642,2026-07-01T09:33:52Z,2026-07-03T13:51:20Z,noamr,,0
 4769913886,false,Remove exception for nested popover showing,https://github.com/whatwg/html/pull/12635,2026-06-29T16:35:16Z,2026-06-29T16:36:57Z,josepharhar,,0
 4762092213,false,"Editorial: remove unused variable",https://github.com/whatwg/html/pull/12630,2026-06-28T11:37:10Z,2026-06-28T12:30:44Z,TimvdLippe,,0
 4761972554,false,Support picture in the img complete getter steps,https://github.com/whatwg/html/pull/12629,2026-06-28T10:46:34Z,2026-07-01T16:47:02Z,johannesodland,,0
 4758258178,false,Remove requirement for src or srcset attribute on img element,https://github.com/whatwg/html/pull/12627,2026-06-27T12:14:23Z,2026-07-01T18:12:38Z,johannesodland,,0
-4752597772,false,Refactor fragment parsing algorithm to match implementations,https://github.com/whatwg/html/pull/12624,2026-06-26T14:05:29Z,2026-07-08T06:44:03Z,noamr,,0
+4752597772,true,Refactor fragment parsing algorithm to match implementations,https://github.com/whatwg/html/pull/12624,2026-06-26T14:05:29Z,2026-07-09T12:03:49Z,noamr,,0
 4752570517,true,Editorial: remove Twitter Updates link,https://github.com/whatwg/html/pull/12623,2026-06-26T14:01:25Z,2026-07-02T15:47:43Z,lukewarlow,,0
 4751429827,false,Navigation API: Move resolving/rejecting ongoing API method tracker to before running script.,https://github.com/whatwg/html/pull/12622,2026-06-26T10:57:56Z,2026-06-30T10:23:22Z,jnjaeschke,normative change|topic: navigation,0
 4745686295,true,Update PropertyDescriptor [[Get]]/[[Set]] to [[Getter]]/[[Setter]],https://github.com/whatwg/html/pull/12618,2026-06-25T16:34:20Z,2026-07-03T09:03:07Z,linusg,,0
@@ -35,7 +36,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4658488223,false,Specify task source for EventSource queued tasks,https://github.com/whatwg/html/pull/12578,2026-06-14T08:48:46Z,2026-06-26T13:43:33Z,Payal-03,,0
 4649608983,false,Define targetSnapshotParams in the javascript: steps,https://github.com/whatwg/html/pull/12572,2026-06-12T13:28:35Z,2026-06-16T08:03:50Z,zcorpan,topic: javascript: URLs,0
 4641833411,true,Remove categories of select/optgroup/option element inner content elements,https://github.com/whatwg/html/pull/12568,2026-06-11T15:16:42Z,2026-07-07T16:02:34Z,dbaron,document conformance|topic: select,0
-4630970612,false,headingoffset computation should not use the flat tree,https://github.com/whatwg/html/pull/12562,2026-06-10T12:00:05Z,2026-07-03T16:11:19Z,annevk,agenda+,0
+4630970612,false,headingoffset computation should not use the flat tree,https://github.com/whatwg/html/pull/12562,2026-06-10T12:00:05Z,2026-07-09T13:17:51Z,annevk,agenda+,1
 4630326485,false,Make the DocumentFragment to sanitize inert,https://github.com/whatwg/html/pull/12561,2026-06-10T10:32:05Z,2026-07-03T17:18:03Z,zcorpan,topic: sanitizer,1
 4625736254,true,"Editorial: Fix misc punctuation, wording, markup",https://github.com/whatwg/html/pull/12557,2026-06-09T21:25:45Z,2026-06-15T22:48:51Z,jmdyck,,0
 4623343517,false,Define read-back-allowed rendering,https://github.com/whatwg/html/pull/12554,2026-06-09T15:28:34Z,2026-06-16T15:20:18Z,foolip,topic: canvas|security/privacy,0
@@ -112,7 +113,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4236268427,true,Add GitHub Actions workflow for Node.js with Webpack,https://github.com/whatwg/html/pull/12352,2026-04-10T03:10:21Z,2026-04-10T07:07:21Z,Nikfuad,invalid,0
 4231456685,false,Add WebSocket context cleanup steps to support BFCache,https://github.com/whatwg/html/pull/12349,2026-04-09T10:32:09Z,2026-04-13T15:21:07Z,llannasatoll,,0
 4227454878,false,allow structuredClone to clone proxies,https://github.com/whatwg/html/pull/12348,2026-04-08T20:33:27Z,2026-04-08T20:36:39Z,bakkot,,0
-4224993947,true,Simplify popover=hint behaviours & related spec fixes,https://github.com/whatwg/html/pull/12345,2026-04-08T13:45:02Z,2026-06-29T17:40:28Z,jakearchibald,,2
+4224993947,true,Simplify popover=hint behaviours & related spec fixes,https://github.com/whatwg/html/pull/12345,2026-04-08T13:45:02Z,2026-07-08T13:33:58Z,jakearchibald,,2
 4221827990,false,Editorial: Re-word the 4th bullet in `eligible for autoplay`,https://github.com/whatwg/html/pull/12344,2026-04-08T03:14:59Z,2026-04-08T03:16:17Z,jmdyck,,0
 4213516682,false,shadowrootadoptedstylesheets on <template>,https://github.com/whatwg/html/pull/12339,2026-04-06T19:00:19Z,2026-05-21T18:44:57Z,KurtCattiSchmidt,,0
 4211550583,true,Editorial: queue media element task on DOM manipulation task source e…,https://github.com/whatwg/html/pull/12336,2026-04-06T12:13:26Z,2026-06-26T13:42:22Z,shihab-work,,0
@@ -137,7 +138,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4083478419,true,Add shadowrootslotassignment attribute,https://github.com/whatwg/html/pull/12267,2026-03-16T16:20:03Z,2026-04-15T16:35:47Z,keithamus,topic: custom elements,0
 4081539025,true,Set the fragment scripting mode based on the context document,https://github.com/whatwg/html/pull/12266,2026-03-16T10:14:40Z,2026-04-07T12:23:23Z,noamr,,0
 4080722654,true,Meta: correct link to CONTRIBUTING.md in README,https://github.com/whatwg/html/pull/12265,2026-03-16T07:25:30Z,2026-03-16T07:32:17Z,annevk,,0
-4079849363,false,Clone into all descendant selectedcontent elements,https://github.com/whatwg/html/pull/12263,2026-03-16T02:23:25Z,2026-07-02T14:20:48Z,josepharhar,topic: select,0
+4079849363,false,Clone into all descendant selectedcontent elements,https://github.com/whatwg/html/pull/12263,2026-03-16T02:23:25Z,2026-07-08T16:15:15Z,josepharhar,topic: select,0
 4077971858,true,Meta: update repository files,https://github.com/whatwg/html/pull/12261,2026-03-15T08:59:42Z,2026-03-16T07:19:31Z,annevk,,0
 4064717937,true,Navigation API: Don't run navigation handlers until entry is committed.,https://github.com/whatwg/html/pull/12256,2026-03-12T13:35:55Z,2026-03-20T15:46:36Z,farre,topic: navigation,0
 4058916279,true,Editorial: grandgrandchild is not correct English,https://github.com/whatwg/html/pull/12249,2026-03-11T15:26:14Z,2026-03-12T21:53:04Z,zcorpan,,0
@@ -153,10 +154,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3991450591,true,Define option and optgroup base appearance rendering,https://github.com/whatwg/html/pull/12201,2026-02-25T19:53:35Z,2026-06-25T06:18:08Z,josepharhar,normative change|topic: rendering|topic: select,0
 3986866649,true,Drop color-mix() color space from select base appearance style,https://github.com/whatwg/html/pull/12198,2026-02-25T02:45:49Z,2026-02-25T06:12:48Z,nt1m,,0
 3985923504,true,Add display:block to base appearance optgroups,https://github.com/whatwg/html/pull/12197,2026-02-24T21:29:13Z,2026-02-25T06:16:27Z,josepharhar,,0
-3984130106,false,Add HTMLScriptElement IDL changes for Trusted Types,https://github.com/whatwg/html/pull/12195,2026-02-24T14:46:16Z,2026-06-07T08:12:02Z,lukewarlow,,0
+3984130106,false,Add HTMLScriptElement IDL changes for Trusted Types,https://github.com/whatwg/html/pull/12195,2026-02-24T14:46:16Z,2026-07-08T14:20:44Z,lukewarlow,,0
 3983813233,true,Add missing arguments to innerText setter steps,https://github.com/whatwg/html/pull/12194,2026-02-24T13:43:32Z,2026-02-24T13:56:46Z,lukewarlow,,0
 3982762974,true,Meta: Fix broken links to mouse interfaces and events,https://github.com/whatwg/html/pull/12191,2026-02-24T10:17:25Z,2026-02-25T09:05:37Z,dontcallmedom,,0
-3969497215,false,Handle command buttons inside of popover light dismiss,https://github.com/whatwg/html/pull/12184,2026-02-20T17:03:56Z,2026-07-03T20:15:04Z,lukewarlow,,0
+3969497215,false,Handle command buttons inside of popover light dismiss,https://github.com/whatwg/html/pull/12184,2026-02-20T17:03:56Z,2026-07-08T13:49:13Z,lukewarlow,,0
 3965690003,false,Simplify orphan worker closing,https://github.com/whatwg/html/pull/12182,2026-02-19T23:41:09Z,2026-03-30T12:14:45Z,domfarolino,topic: workers,0
 3965029544,true,Make sure navigate event is cleared before signaling abort.,https://github.com/whatwg/html/pull/12181,2026-02-19T20:49:51Z,2026-05-12T15:11:00Z,farre,topic: navigation,0
 3961529289,false,Abort traversal if tracker is no longer ongoing.,https://github.com/whatwg/html/pull/12177,2026-02-19T08:04:39Z,2026-05-13T07:48:09Z,farre,topic: navigation,0
@@ -209,7 +210,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3720029201,false,Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2026-06-24T22:56:27Z,domfarolino,,0
 3717708776,false,Skip light dismiss when opening select's picker,https://github.com/whatwg/html/pull/12008,2025-12-11T04:33:36Z,2026-04-30T16:34:49Z,josepharhar,,0
 3714324873,true,Add proposal for maxcount attribute,https://github.com/whatwg/html/pull/12005,2025-12-10T09:24:01Z,2025-12-10T12:59:11Z,milanagowda77656-cloud,invalid,0
-3706163049,false,Introduce customelementregistry global attribute,https://github.com/whatwg/html/pull/12000,2025-12-08T12:24:45Z,2026-07-01T15:32:37Z,ja-y-son,,0
+3706163049,false,Introduce customelementregistry global attribute,https://github.com/whatwg/html/pull/12000,2025-12-08T12:24:45Z,2026-07-09T07:42:49Z,ja-y-son,,0
 3703517492,true,"Editorial: Fix typo in WindowOrWorkerGlobalScope's ""extract an origin""",https://github.com/whatwg/html/pull/11998,2025-12-07T13:54:40Z,2025-12-08T06:01:49Z,shannonbooth,,0
 3697248432,true,Ensure CustomElementRegistry.initialize has CEReaction attribute,https://github.com/whatwg/html/pull/11992,2025-12-05T02:23:59Z,2025-12-05T06:02:03Z,ja-y-son,,0
 3696258025,false,Encourage always-escaping ampersand character.,https://github.com/whatwg/html/pull/11988,2025-12-04T19:49:01Z,2026-02-27T16:53:30Z,dmsnell,document conformance|topic: parser,0
@@ -264,7 +265,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3556983944,true,"Navigation ""commit"": only set interception state if it was not ""none""",https://github.com/whatwg/html/pull/11836,2025-10-27T14:09:07Z,2025-10-31T13:11:37Z,noamr,,0
 3555120979,true,Update README.md,https://github.com/whatwg/html/pull/11834,2025-10-27T05:30:29Z,2025-10-27T07:29:14Z,JANHAVI0831,invalid,0
 3544339019,true,Add two doctype public IDs that enable XHTML entities,https://github.com/whatwg/html/pull/11823,2025-10-23T11:46:49Z,2025-10-23T16:02:01Z,zcorpan,topic: parser,0
-3541261538,false,Add <template for> for declarative out-of-order streaming,https://github.com/whatwg/html/pull/11818,2025-10-22T15:04:53Z,2026-06-21T09:53:49Z,foolip,topic: parser,0
+3541261538,false,Add <template for> for declarative out-of-order streaming,https://github.com/whatwg/html/pull/11818,2025-10-22T15:04:53Z,2026-07-09T08:55:59Z,foolip,topic: parser|agenda+,0
 3537803331,true,Bring back promoting ongoing API method tracker,https://github.com/whatwg/html/pull/11817,2025-10-21T18:58:06Z,2025-10-22T12:22:52Z,noamr,,0
 3536313338,false,Don't queue a microtask from parallel in update the image data,https://github.com/whatwg/html/pull/11815,2025-10-21T12:25:08Z,2025-10-22T12:45:10Z,zcorpan,,0
 3526583838,true,Fix base appearance select styles,https://github.com/whatwg/html/pull/11805,2025-10-17T15:27:43Z,2025-12-11T14:15:40Z,josepharhar,,0
@@ -279,7 +280,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3509799761,true,Calrify that image presentation is updated even when EXIF is invalid,https://github.com/whatwg/html/pull/11779,2025-10-13T12:06:57Z,2025-10-13T17:13:14Z,noamr,,0
 3503172358,true,Fix variable name in option disabled algorithm,https://github.com/whatwg/html/pull/11772,2025-10-10T14:23:55Z,2025-10-10T15:11:03Z,josepharhar,,0
 3497617752,true,Update 404.html,https://github.com/whatwg/html/pull/11768,2025-10-09T04:43:22Z,2025-10-09T05:23:13Z,Stutiporwal1,invalid,0
-3494102804,false,Navigation: Add optimization to ignore duplicate navigations,https://github.com/whatwg/html/pull/11765,2025-10-08T06:48:17Z,2026-07-07T11:34:38Z,llannasatoll,,0
+3494102804,false,Navigation: Add optimization to ignore duplicate navigations,https://github.com/whatwg/html/pull/11765,2025-10-08T06:48:17Z,2026-07-09T10:20:35Z,llannasatoll,,0
 3493093695,true,Improve behavior for parsing option end tags,https://github.com/whatwg/html/pull/11764,2025-10-07T21:25:50Z,2025-10-13T17:15:39Z,josepharhar,,1
 3492979858,true,Editorial: split multi-<code> <pre>s into individual <pre><code>,https://github.com/whatwg/html/pull/11763,2025-10-07T20:46:12Z,2025-10-08T07:31:49Z,foolip,,0
 3492316993,true,"Navigation API: pass argument instead of a global ""upcoming method tracker""",https://github.com/whatwg/html/pull/11762,2025-10-07T17:12:31Z,2025-10-20T13:20:58Z,noamr,,0
@@ -334,7 +335,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3388006842,false,Add stream{*}HTMLUnsafe() methods,https://github.com/whatwg/html/pull/11631,2025-09-05T15:46:01Z,2026-03-25T11:25:31Z,foolip,,0
 3387513853,true,"Clone integrity policy as part of ""clone a policy container""",https://github.com/whatwg/html/pull/11628,2025-09-05T13:10:46Z,2025-09-08T09:26:22Z,yoavweiss,topic: policy container,0
 3383145665,true,"Editorial: correctly mark up JS code with class=""js""",https://github.com/whatwg/html/pull/11624,2025-09-04T10:40:34Z,2025-09-06T13:33:13Z,foolip,,0
-3380980195,false,Added support for link rel=compression-dictionary,https://github.com/whatwg/html/pull/11620,2025-09-03T19:14:59Z,2026-07-06T15:41:37Z,pmeenan,,0
+3380980195,false,Added support for link rel=compression-dictionary,https://github.com/whatwg/html/pull/11620,2025-09-03T19:14:59Z,2026-07-09T13:22:08Z,pmeenan,,0
 3377123672,false,Define normalization of full-width numeric characters in <input type=number> user input,https://github.com/whatwg/html/pull/11616,2025-09-02T18:42:30Z,2025-10-27T17:52:16Z,kyouhei-horizumi,normative change|topic: forms|i18n-tracker|i18n-jlreq|i18n-clreq,2
 3375698830,false,Run snapshot post-layout state steps in resizeObserver loop,https://github.com/whatwg/html/pull/11613,2025-09-02T11:54:25Z,2026-04-29T12:46:11Z,lilles,topic: rendering,0
 3372661973,true,Editorial: Fix punctuation + markup,https://github.com/whatwg/html/pull/11612,2025-09-01T13:15:14Z,2025-09-02T13:47:04Z,jmdyck,,0
@@ -375,7 +376,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3272617801,false,Update Twitter links to point to `x.com` to avoid redirect,https://github.com/whatwg/html/pull/11501,2025-07-29T08:16:01Z,2025-07-30T22:43:04Z,MrStarfleetCommand,,0
 3270291886,true,"Editorial: Fix variable naming in ""focus another option""",https://github.com/whatwg/html/pull/11495,2025-07-28T15:06:15Z,2025-07-29T04:03:59Z,josepharhar,topic: select,0
 3268259981,true,Explain that http-equiv has nothing to do with HTTP headers,https://github.com/whatwg/html/pull/11494,2025-07-28T06:04:34Z,2025-07-28T06:55:59Z,domenic,clarification,0
-3265195113,true,"Update 4.6.7.9 Link type ""icon"" html example.",https://github.com/whatwg/html/pull/11492,2025-07-26T06:22:56Z,2025-07-26T10:30:49Z,ghost,invalid,0
 3263247523,true,My first edit after forking,https://github.com/whatwg/html/pull/11490,2025-07-25T13:30:50Z,2025-07-26T05:19:36Z,jagadishkasarla,invalid,0
 3263229031,true,My first edit after forking,https://github.com/whatwg/html/pull/11489,2025-07-25T13:24:03Z,2025-07-26T05:19:25Z,jagadishkasarla,invalid,0
 3261575294,false,Update link to ARIA accessible name definition,https://github.com/whatwg/html/pull/11486,2025-07-25T00:19:06Z,2025-08-03T11:47:25Z,513ry,,0
@@ -701,7 +701,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2478406868,true,Remove mutation events from the spec,https://github.com/whatwg/html/pull/10573,2024-08-21T15:56:33Z,2025-04-25T05:40:58Z,mfreed7,removal/deprecation,0
 2477975517,true,Fixed exception thrown in construction steps.,https://github.com/whatwg/html/pull/10572,2024-08-21T12:56:17Z,2024-08-21T13:31:01Z,pwombwell,,1
 2472611085,true,It's just test I learn git,https://github.com/whatwg/html/pull/10567,2024-08-19T07:02:43Z,2024-08-19T12:02:34Z,Perceptron0,invalid,0
-2472074141,true,added universal selector in style.css,https://github.com/whatwg/html/pull/10566,2024-08-18T17:38:31Z,2024-08-19T02:01:03Z,ghost,invalid,0
 2470070491,true,Editorial: consistently format the empty string keyword,https://github.com/whatwg/html/pull/10564,2024-08-16T11:21:38Z,2024-08-19T12:25:38Z,annevk,,0
 2469748999,true,small change 404.html,https://github.com/whatwg/html/pull/10563,2024-08-16T08:11:09Z,2024-08-16T11:09:47Z,Kabwemwaba,invalid,0
 2468462371,true,Fix incorrect recursion for dir=auto special cases.,https://github.com/whatwg/html/pull/10561,2024-08-15T16:43:24Z,2024-09-16T19:40:27Z,dbaron,topic: shadow|i18n-tracker,0
@@ -777,7 +776,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2285595319,true,Get the base URL from the script rather than Module/Script Record,https://github.com/whatwg/html/pull/10332,2024-05-08T13:23:54Z,2024-05-09T07:26:00Z,nicolo-ribaudo,topic: script,0
 2283831934,true,Add hooks to inform WebDriver BiDi when a navigable is created or destroyed,https://github.com/whatwg/html/pull/10329,2024-05-07T16:59:24Z,2024-06-06T20:34:37Z,OrKoN,,0
 2283092815,true,Update Trusted Types enforcement for document.write/writeln,https://github.com/whatwg/html/pull/10328,2024-05-07T12:05:37Z,2024-05-28T22:04:40Z,lukewarlow,,0
-2283078060,false,Don't cache HTTP errors in the module map,https://github.com/whatwg/html/pull/10327,2024-05-07T11:58:07Z,2026-04-13T07:51:13Z,lucacasonato,needs tests|needs implementation bugs,7
+2283078060,false,Don't cache HTTP errors in the module map,https://github.com/whatwg/html/pull/10327,2024-05-07T11:58:07Z,2026-07-09T10:19:43Z,lucacasonato,needs tests|needs implementation bugs,7
 2277390865,true,"Editorial: use comma in ""Otherwise, if ...""",https://github.com/whatwg/html/pull/10319,2024-05-03T10:31:01Z,2024-05-03T12:26:52Z,foolip,,0
 2270683747,true,Editorial: export history handling behavior,https://github.com/whatwg/html/pull/10308,2024-04-30T07:13:40Z,2024-05-09T02:42:31Z,yoshisatoyanagisawa,,0
 2268312798,true,Editorial: group area's shape with other IDL attributes,https://github.com/whatwg/html/pull/10305,2024-04-29T07:23:37Z,2024-05-02T09:36:50Z,annevk,,1
@@ -1083,7 +1082,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1787565314,true,Test PR,https://github.com/whatwg/html/pull/9485,2023-07-04T09:43:04Z,2024-10-08T14:04:18Z,cijian23,invalid,0
 1787464058,true,Fix links to fetch request initiator type,https://github.com/whatwg/html/pull/9484,2023-07-04T08:48:29Z,2023-07-04T10:07:11Z,nicolo-ribaudo,,0
 1787141228,true,Editorial: fix popover attribute index entries,https://github.com/whatwg/html/pull/9483,2023-07-04T04:52:27Z,2023-07-11T09:12:59Z,domenic,topic: popover,0
-1786022406,true,"Set popover invoker immediately after changing popover's visibility state to ""showing""",https://github.com/whatwg/html/pull/9481,2023-07-03T11:52:48Z,2023-07-20T06:32:39Z,ghost,topic: popover,0
 1779632972,true,Only use sourceOrigin for all about:-schemed Documents,https://github.com/whatwg/html/pull/9465,2023-06-28T19:43:40Z,2023-07-04T02:38:55Z,domfarolino,clarification|topic: navigation,0
 1779529030,true,Snapshot fallback base URL for about:-schemed Documents,https://github.com/whatwg/html/pull/9464,2023-06-28T18:51:33Z,2023-07-13T20:55:06Z,domfarolino,normative change|topic: navigation,0
 1778497411,true,Synchronously populate non-initial about:blank documents,https://github.com/whatwg/html/pull/9463,2023-06-28T08:50:34Z,2023-07-11T09:13:17Z,domenic,topic: navigation|topic: parser,0
@@ -1093,19 +1091,16 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1768695537,true,"Editorial rework of directionality ",https://github.com/whatwg/html/pull/9452,2023-06-22T00:09:07Z,2023-08-29T08:32:48Z,bkardell,,0
 1768470617,true,Make togglePopover throw more exceptions,https://github.com/whatwg/html/pull/9451,2023-06-21T20:56:50Z,2023-06-28T14:34:58Z,josepharhar,topic: popover,0
 1763558894,true,Editorial: remove plugin language from media elements,https://github.com/whatwg/html/pull/9440,2023-06-19T13:32:54Z,2023-06-20T06:28:12Z,annevk,,0
-1763113582,true,"Editorial: change ""show popover"" to call ""check popover validity"" first",https://github.com/whatwg/html/pull/9439,2023-06-19T09:19:32Z,2023-07-03T09:12:04Z,ghost,topic: popover,0
 1760637113,true,Account for optgroup removal,https://github.com/whatwg/html/pull/9434,2023-06-16T13:25:40Z,2023-08-25T10:54:57Z,annevk,,0
 1758889108,false,Clarify the fake token step in fragment parsing,https://github.com/whatwg/html/pull/9430,2023-06-15T13:51:00Z,2023-11-14T08:05:49Z,zcorpan,clarification|topic: parser,0
 1757361836,true,Allow elements with display:contents to be focusable.,https://github.com/whatwg/html/pull/9425,2023-06-14T17:31:45Z,2024-01-31T15:50:47Z,dbaron,topic: focus,7
 1757211335,true,Fix markup so that word is linked correctly.,https://github.com/whatwg/html/pull/9424,2023-06-14T15:53:15Z,2023-06-14T16:02:52Z,dbaron,,0
 1755990245,true,"new changes ",https://github.com/whatwg/html/pull/9421,2023-06-14T03:35:59Z,2024-10-08T14:04:17Z,Amrit-ghale,invalid,0
-1754881399,true,"Initialize `nestedHide` variable in the ""hide a popover"" algorithm",https://github.com/whatwg/html/pull/9419,2023-06-13T13:20:06Z,2023-06-14T11:17:55Z,ghost,topic: popover,0
 1754473779,true,source modified,https://github.com/whatwg/html/pull/9418,2023-06-13T09:42:16Z,2023-06-15T13:55:09Z,arup1221,,0
 1750102943,true,Require support for AsyncContext,https://github.com/whatwg/html/pull/9408,2023-06-09T15:28:34Z,2026-02-11T13:50:51Z,Ms2ger,,0
 1749982433,true,Propagate fetch referrer in dynamic imports,https://github.com/whatwg/html/pull/9407,2023-06-09T14:14:59Z,2023-07-04T07:59:05Z,nicolo-ribaudo,normative change|topic: script,0
 1745979749,true,Add name attribute for grouping details elements into an exclusive accordion,https://github.com/whatwg/html/pull/9400,2023-06-07T13:59:20Z,2023-12-21T21:40:39Z,dbaron,addition/proposal|needs implementer interest,1
 1745722348,true,Null checks for img pending request,https://github.com/whatwg/html/pull/9399,2023-06-07T11:52:31Z,2023-06-09T12:15:43Z,zcorpan,,0
-1745244513,true,"Add asserting element's popover invoker is null in the ""show popover"" algorithm",https://github.com/whatwg/html/pull/9397,2023-06-07T07:27:12Z,2023-06-07T20:19:27Z,ghost,topic: popover,0
 1745032688,true,"Guard ""close a top-level traversable""",https://github.com/whatwg/html/pull/9396,2023-06-07T04:55:44Z,2023-06-09T05:32:47Z,domenic,topic: frames/navigables/browsing contexts,0
 1745024754,true,Define :modal pseudo-class and start using it,https://github.com/whatwg/html/pull/9395,2023-06-07T04:46:13Z,2023-06-09T11:20:48Z,nt1m,topic: dialog|topic: selectors,0
 1744750273,true,Make togglePopover return a boolean,https://github.com/whatwg/html/pull/9393,2023-06-06T23:08:50Z,2023-06-20T06:33:38Z,josepharhar,topic: popover,0
@@ -1488,7 +1483,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1221652773,true,Clean up the script element processing model,https://github.com/whatwg/html/pull/7876,2022-04-29T23:21:37Z,2022-05-19T22:02:36Z,domenic,topic: script,0
 1220428182,true,"Revert ""Add CanvasFilter objects as possible 2D context filters""",https://github.com/whatwg/html/pull/7874,2022-04-29T10:10:51Z,2022-08-30T04:57:35Z,annevk,topic: canvas,0
 1219450270,true,Improve clarity of render-blocking related terms,https://github.com/whatwg/html/pull/7870,2022-04-28T23:35:27Z,2022-05-03T17:19:22Z,xiaochengh,clarification|topic: rendering,0
-1219005122,true,"Added HTML tags, body tag, and indentation",https://github.com/whatwg/html/pull/7868,2022-04-28T16:49:28Z,2024-10-08T14:09:22Z,ghost,invalid,2
 1218370191,true,Editorial: refactor link headers to be declared per-type,https://github.com/whatwg/html/pull/7866,2022-04-28T08:17:30Z,2022-05-26T17:03:34Z,noamr,topic: resource hints (inc. preload),0
 1216305678,false,`modulepreload` in Link header & early hints,https://github.com/whatwg/html/pull/7862,2022-04-26T18:07:26Z,2023-12-09T09:44:43Z,noamr,topic: resource hints (inc. preload),0
 1215253561,true,Don't unblock rendering for implicitly render-blocking elements on `blocking` attribute changes,https://github.com/whatwg/html/pull/7857,2022-04-26T02:00:34Z,2022-05-03T18:02:51Z,xiaochengh,normative change|topic: rendering,0
@@ -1604,7 +1598,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1093788464,true,Add non-normative note about bfcache terminology,https://github.com/whatwg/html/pull/7464,2022-01-04T22:01:52Z,2022-01-05T22:27:09Z,chrishtr,clarification|topic: history,0
 1093042765,true,Editorial: Assert entry list isn't null in the form submission algorithm,https://github.com/whatwg/html/pull/7463,2022-01-04T06:12:12Z,2022-01-04T12:12:12Z,andreubotella,,1
 1090131027,true,file added,https://github.com/whatwg/html/pull/7454,2021-12-28T21:13:36Z,2024-10-08T14:09:10Z,sondosaa,invalid,0
-1086202103,true,Fix mistakes,https://github.com/whatwg/html/pull/7436,2021-12-21T20:20:31Z,2022-01-03T09:48:57Z,ghost,,0
 1085198627,true,Editorial: remove orphaned declaration from navigation algorithm,https://github.com/whatwg/html/pull/7434,2021-12-20T21:01:49Z,2021-12-21T09:38:11Z,shvaikalesh,,0
 1084197890,true,Simplify the After attribute value (quoted) state,https://github.com/whatwg/html/pull/7430,2021-12-19T21:41:00Z,2022-02-01T21:54:07Z,untitaker,,1
 1084111373,true,README.md,https://github.com/whatwg/html/pull/7429,2021-12-19T14:32:03Z,2024-10-08T14:09:09Z,Emeo14,invalid,0
@@ -1946,7 +1939,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 821785833,true,Export link type manifest,https://github.com/whatwg/html/pull/6445,2021-03-04T05:59:33Z,2021-03-12T01:24:05Z,marcoscaceres,meta,0
 821757478,true,Clarify that media and lang affect manifest selection,https://github.com/whatwg/html/pull/6444,2021-03-04T05:06:41Z,2022-06-08T23:51:24Z,marcoscaceres,,0
 818488292,true,Editorial: spell filename as a single word,https://github.com/whatwg/html/pull/6428,2021-03-01T05:39:15Z,2021-03-01T05:52:02Z,annevk,,0
-818068405,true,Fix typos,https://github.com/whatwg/html/pull/6426,2021-02-28T00:58:18Z,2021-03-02T06:12:51Z,ghost,,0
 817356762,true,delet font,https://github.com/whatwg/html/pull/6420,2021-02-26T13:27:58Z,2021-02-26T14:18:49Z,mohamadazizkhani75,,0
 817290428,true,Editorial: say which <source> attributes are allowed where,https://github.com/whatwg/html/pull/6419,2021-02-26T11:47:21Z,2021-03-02T17:07:16Z,zcorpan,clarification|topic: media|document conformance|topic: img,0
 817067834,true,Add missing description for allow-downloads keyword,https://github.com/whatwg/html/pull/6418,2021-02-26T06:00:05Z,2021-03-17T14:38:14Z,triple-underscore,,0
@@ -2353,7 +2345,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 592370322,true,update definition of fontBoundingBoxAscent/Descent and emHeightAscent…,https://github.com/whatwg/html/pull/5429,2020-04-02T05:35:49Z,2020-06-29T07:02:12Z,yiyix,clarification|topic: canvas,0
 591802779,true,Remove the title argument from registerProtocolHandler(),https://github.com/whatwg/html/pull/5425,2020-04-01T10:22:20Z,2020-04-20T15:55:57Z,annevk,removal/deprecation,0
 591782428,true,Meta: keep exporting responsible event loop,https://github.com/whatwg/html/pull/5424,2020-04-01T09:50:00Z,2020-04-01T13:44:05Z,annevk,,0
-590605837,true,fix script element in ‘article’ element example,https://github.com/whatwg/html/pull/5419,2020-03-30T21:23:18Z,2020-03-31T06:05:22Z,ghost,,0
 590454272,true,More explicitly associate agents and event loops,https://github.com/whatwg/html/pull/5416,2020-03-30T17:13:33Z,2020-03-31T16:03:16Z,domenic,clarification|topic: event loop|topic: agent,0
 589522814,true,Align with DOM DocumentFragment adoption changes,https://github.com/whatwg/html/pull/5413,2020-03-28T06:59:26Z,2026-07-08T08:16:30Z,annevk,,0
 589393520,true,"Convert more ""queue a task"" to ""queue an element task""",https://github.com/whatwg/html/pull/5412,2020-03-27T20:22:38Z,2020-03-30T20:46:36Z,dtapuska,clarification|topic: event loop,0
@@ -2559,7 +2550,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 475573718,true,Editorial: export 'focused' cite,https://github.com/whatwg/html/pull/4811,2019-08-01T09:27:10Z,2019-08-13T18:04:47Z,Honry,,0
 472270568,true,Handle shadow host with delegatesFocus=true in focusing steps (click focus + focus()),https://github.com/whatwg/html/pull/4796,2019-07-24T13:01:44Z,2019-10-16T06:46:59Z,rakina,addition/proposal|topic: focus,0
 469806899,true,Explicitly prevent sandboxed navigation in the history interface.,https://github.com/whatwg/html/pull/4787,2019-07-18T14:35:50Z,2019-08-13T20:53:53Z,dtapuska,normative change|security/privacy|topic: history,0
-468651391,true,Editorial: remove erroneous closing parenthesis,https://github.com/whatwg/html/pull/4779,2019-07-16T13:21:35Z,2019-07-16T17:13:32Z,annevk,,0
 468539440,true,Review Draft Publication: July 2019,https://github.com/whatwg/html/pull/4777,2019-07-16T09:14:56Z,2019-07-16T09:50:18Z,annevk,,0
 467520684,true,Use the newly exposed methods to initialize feature policy.,https://github.com/whatwg/html/pull/4772,2019-07-12T17:24:02Z,2019-07-18T16:23:51Z,dtapuska,,0
 467324994,true,Editorial: restore sandboxOrigin ID,https://github.com/whatwg/html/pull/4769,2019-07-12T09:51:19Z,2019-07-12T15:16:56Z,annevk,,0
@@ -2612,7 +2602,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 448324957,true,Editorial: add categories for form-associated custom elements,https://github.com/whatwg/html/pull/4660,2019-05-24T19:36:13Z,2019-05-31T14:34:34Z,domenic,clarification|topic: custom elements,0
 448118430,true,"Editorial: link the term ""CSS box"" and remove parentheticals",https://github.com/whatwg/html/pull/4659,2019-05-24T11:22:11Z,2019-07-02T21:10:12Z,zcorpan,,0
 447811753,true,Allow setting default accessibility semantics for custom elements,https://github.com/whatwg/html/pull/4658,2019-05-23T18:32:09Z,2020-09-18T17:35:44Z,domenic,addition/proposal|do not merge yet|accessibility|topic: custom elements,6
-447698966,true,"Editorial: Replace inputmode=""number"" with inputmode=""numeric""",https://github.com/whatwg/html/pull/4656,2019-05-23T14:32:57Z,2019-05-23T15:33:29Z,dtapuska,,1
 447030153,true,Make 12.2.5.24 consistent with other states where tag tokens are created,https://github.com/whatwg/html/pull/4648,2019-05-22T09:32:12Z,2019-05-29T10:09:14Z,ianh,clarification|topic: parser,0
 446889141,true,Editorial: remove extra semicolon and add closing `</td>`,https://github.com/whatwg/html/pull/4647,2019-05-22T01:16:46Z,2019-05-22T10:16:24Z,golightlyb,,0
 446174978,true,"Editorial: remove redundant src=""main.js"" attribute in script example",https://github.com/whatwg/html/pull/4644,2019-05-20T15:18:23Z,2019-05-22T04:04:17Z,b9a1,topic: script,0
@@ -2774,7 +2763,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 376182340,true,Fix spec citation styling,https://github.com/whatwg/html/pull/4153,2018-10-31T22:19:47Z,2019-05-27T18:43:27Z,Johanna-hub,,1
 375883667,true,If,https://github.com/whatwg/html/pull/4150,2018-10-31T10:01:53Z,2018-10-31T10:09:50Z,Vishal2326,,0
 375879373,true,Restrict application caches to secure contexts,https://github.com/whatwg/html/pull/4149,2018-10-31T09:51:25Z,2018-11-09T21:46:19Z,annevk,impacts documentation,0
-375442521,true,More HTML decoding,https://github.com/whatwg/html/pull/4146,2018-10-30T11:31:00Z,2021-01-15T07:58:17Z,edent,,0
 375437576,true,Create new.html,https://github.com/whatwg/html/pull/4145,2018-10-30T11:18:15Z,2018-10-30T12:18:23Z,adhishagupta24,,0
 375432264,true,Create new.html,https://github.com/whatwg/html/pull/4144,2018-10-30T11:04:42Z,2018-10-30T11:09:24Z,adhishagupta24,,0
 375194816,true,Define button layout,https://github.com/whatwg/html/pull/4143,2018-10-29T20:09:47Z,2019-05-14T16:19:59Z,zcorpan,topic: rendering|topic: forms,0
@@ -2817,8 +2805,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 363870395,true,Attributes `imagesrcset` and `imagesizes` attributes on <link>,https://github.com/whatwg/html/pull/4048,2018-09-26T06:03:14Z,2019-06-03T06:20:20Z,domfarolino,impacts documentation,0
 362925992,true,Fix AudioTrack(List)/VideoTrack(List) props syntax,https://github.com/whatwg/html/pull/4047,2018-09-23T08:58:47Z,2021-10-15T11:20:50Z,sideshowbarker,,2
 360415246,true,"Revert ""Add advances to TextMetrics and change baselines API""",https://github.com/whatwg/html/pull/4037,2018-09-14T18:49:20Z,2018-09-17T20:51:51Z,domenic,topic: canvas,0
-360399647,true,"Add type="""" and start="""" to <ul>",https://github.com/whatwg/html/pull/4036,2018-09-14T17:58:31Z,2020-07-08T20:43:40Z,domenic,,1
-360276165,true,Specify -webkit-appearance: fieldset and legend: auto,https://github.com/whatwg/html/pull/4035,2018-09-14T12:00:39Z,2023-03-20T14:38:57Z,zcorpan,addition/proposal|do not merge yet|topic: rendering|topic: fieldset,0
 359803279,true,Added dfn data for HTMLOrSVGElement/nonce to fix link error in CSP spec,https://github.com/whatwg/html/pull/4032,2018-09-13T08:57:09Z,2018-09-21T07:34:26Z,andypaicu,,0
 359745804,true,Specify when style sheets are no longer script-blocking,https://github.com/whatwg/html/pull/4031,2018-09-13T05:16:53Z,2019-01-17T16:01:55Z,domfarolino,topic: events|interop|topic: link|topic: style,0
 359465181,true,Change the callback type of queueMicrotask from Function to VoidFunction,https://github.com/whatwg/html/pull/4027,2018-09-12T12:50:24Z,2018-09-12T14:04:34Z,yuki3,clarification,0
@@ -2898,7 +2884,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 338135109,true,Remove context2d.resetClip,https://github.com/whatwg/html/pull/3796,2018-07-04T05:31:43Z,2018-07-10T19:30:42Z,zbjornson,removal/deprecation|topic: canvas,0
 337848956,true,Fix example where `<script` is escaped as `<\script`,https://github.com/whatwg/html/pull/3792,2018-07-03T10:59:20Z,2018-07-04T05:31:42Z,mathiasbynens,,0
 337515764,true,Fix crucial typo in script-escaping example,https://github.com/whatwg/html/pull/3791,2018-07-02T13:20:34Z,2018-07-02T15:29:43Z,mathiasbynens,,0
-337331598,true,Change name from target client id to replaces client id,https://github.com/whatwg/html/pull/3788,2018-07-01T23:22:16Z,2018-08-24T11:57:03Z,jungkees,,0
 337147710,true,Meta: link to Wattsi syntax documentation from CONTRIBUTING.md,https://github.com/whatwg/html/pull/3785,2018-06-29T21:50:44Z,2018-07-01T21:55:06Z,domenic,,0
 336746428,true,Clarify and explain agents and agent clusters,https://github.com/whatwg/html/pull/3783,2018-06-28T19:16:44Z,2018-07-25T17:32:30Z,domenic,clarification,0
 336214059,true,Add reference for iframe allow attribute,https://github.com/whatwg/html/pull/3781,2018-06-27T12:45:46Z,2018-06-28T15:29:18Z,clelland,,0
@@ -3179,8 +3164,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 261066869,true,Fixed ref for setTransform(DOMMatrix2dInit),https://github.com/whatwg/html/pull/3079,2017-09-27T18:04:44Z,2017-10-05T18:35:57Z,fserb,topic: canvas,0
 260890518,true,Update CSS Overflow reference to version we need,https://github.com/whatwg/html/pull/3075,2017-09-27T08:34:47Z,2017-10-01T02:21:40Z,sideshowbarker,,0
 260837925,true,Add the Secure Contexts spec to References section,https://github.com/whatwg/html/pull/3074,2017-09-27T03:46:28Z,2017-09-27T12:06:36Z,sideshowbarker,,0
-260741927,true,Clarify canvas drawImage on what to do when HTMLImageElement source is not set	,https://github.com/whatwg/html/pull/3073,2017-09-26T19:29:22Z,2018-01-29T08:11:20Z,zakerinasab,topic: canvas,0
-260566541,true,Swap the words “pick” and “toggle” (§ 4.11.3 “Commands”),https://github.com/whatwg/html/pull/3072,2017-09-26T10:06:37Z,2017-09-27T10:39:24Z,delan,,0
 260434543,true,Remove FileAPI monkey-patch.,https://github.com/whatwg/html/pull/3071,2017-09-25T22:29:20Z,2017-09-26T14:49:16Z,mkruisselbrink,,0
 260293913,true,Make attribute order not matter for <progress>,https://github.com/whatwg/html/pull/3067,2017-09-25T14:19:13Z,2017-10-03T22:45:44Z,annevk,,0
 260044248,true,Depend on Fullscreen API's removing steps when <dialog> is removed,https://github.com/whatwg/html/pull/3064,2017-09-23T23:00:24Z,2021-04-30T09:27:43Z,foolip,do not merge yet|topic: dialog,0
@@ -3301,7 +3284,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 238069672,true,Add scrollOptions for Element.focus(),https://github.com/whatwg/html/pull/2787,2017-06-23T08:05:03Z,2021-02-07T01:59:58Z,jihyerish,addition/proposal|topic: focus,0
 237963438,true,Meta: add contribution guidelines around the developer's edition,https://github.com/whatwg/html/pull/2785,2017-06-22T20:24:50Z,2017-06-27T22:29:09Z,domenic,dev edition,0
 237939104,true,Fix conformance errors in the dev edition,https://github.com/whatwg/html/pull/2784,2017-06-22T18:50:35Z,2017-06-22T20:06:49Z,domenic,dev edition,0
-237933807,true,Make self.name in workers [Replaceable],https://github.com/whatwg/html/pull/2783,2017-06-22T18:30:55Z,2017-06-27T20:52:42Z,domenic,compat|topic: workers,0
 237572348,true,Tweak the exposure of cross-origin properties,https://github.com/whatwg/html/pull/2777,2017-06-21T15:20:46Z,2017-10-31T21:18:41Z,domenic,normative change|security/privacy,0
 237374065,true,"Add ""dealing with the event loop from other specifications""",https://github.com/whatwg/html/pull/2774,2017-06-20T23:33:51Z,2017-06-28T22:02:55Z,domenic,clarification,1
 237124873,true,Fix text surrounding IDL blocks to make sense in dev edition,https://github.com/whatwg/html/pull/2773,2017-06-20T08:04:21Z,2017-06-20T20:00:00Z,zcorpan,,0
@@ -3314,7 +3296,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 235820369,true,Meta: Update link for the WHATWG Code of Conduct,https://github.com/whatwg/html/pull/2755,2017-06-14T09:38:42Z,2017-06-14T19:00:19Z,zcorpan,,0
 234989343,true,Add syntax-highlighting of HTML/CSS/JS examples,https://github.com/whatwg/html/pull/2751,2017-06-10T08:34:34Z,2018-06-23T05:57:09Z,sideshowbarker,spec tooling|do not merge yet,1
 234788896,true,Meta: Persist dfn panel across multipage navigations,https://github.com/whatwg/html/pull/2748,2017-06-09T10:39:56Z,2017-06-13T09:25:36Z,zcorpan,spec tooling,0
-234678812,true,Meta: changes to support a revamped developer's edition,https://github.com/whatwg/html/pull/2747,2017-06-08T22:57:39Z,2017-09-02T21:44:19Z,domenic,spec tooling|dev edition,3
 234676119,true,Parse error table clarifications (closes #2732),https://github.com/whatwg/html/pull/2746,2017-06-08T22:42:02Z,2017-06-21T11:31:46Z,inikulin,clarification|topic: parser,0
 234502826,true,Meta: Fix various regressions in html-dfn.js,https://github.com/whatwg/html/pull/2745,2017-06-08T11:56:33Z,2017-06-08T14:33:38Z,zcorpan,spec tooling,0
 234457446,true,Meta: Fix bug that loaded xref.json for any click,https://github.com/whatwg/html/pull/2744,2017-06-08T09:00:53Z,2017-06-08T14:24:19Z,sideshowbarker,spec tooling,0
@@ -4317,18 +4298,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 131441413,true,Add an id to origin's types,https://github.com/whatwg/html/pull/627,2016-02-04T18:50:46Z,2016-02-04T19:40:16Z,Ritsyy,,0
 131380218,true,"Call fullscreen by its new, hip, unhyphenated name",https://github.com/whatwg/html/pull/625,2016-02-04T15:20:26Z,2016-02-04T15:43:24Z,foolip,,0
 131357333,true,Mention captions in @controls User Interface for media elements,https://github.com/whatwg/html/pull/622,2016-02-04T14:07:29Z,2016-02-04T19:20:32Z,Ritsyy,topic: media,0
-131095212,true,Allow <link> in body for external resource links,https://github.com/whatwg/html/pull/616,2016-02-03T17:25:00Z,2021-06-15T16:01:27Z,igrigorik,normative change|document conformance|topic: link,1
-131016480,true,Replace sniffed MIME type with computed MIME type,https://github.com/whatwg/html/pull/614,2016-02-03T12:57:01Z,2016-02-09T19:51:29Z,Ritsyy,clarification,0
 130819164,true,add Dockerfile for local viewing of build output,https://github.com/whatwg/html/pull/612,2016-02-02T21:16:08Z,2016-02-24T20:05:01Z,defunctzombie,spec tooling,0
 130755721,true,Use the concept of a 'closed' Blob from FileAPI,https://github.com/whatwg/html/pull/610,2016-02-02T17:34:08Z,2016-02-02T17:50:42Z,Ms2ger,,0
 130753565,true,Add worker modules,https://github.com/whatwg/html/pull/608,2016-02-02T17:26:26Z,2022-12-18T10:13:38Z,domenic,addition/proposal|topic: script,0
 130740731,true,"Use ""credentials mode"" instead of ""CORS setting"" for modules",https://github.com/whatwg/html/pull/607,2016-02-02T16:43:09Z,2017-09-01T22:03:50Z,domenic,topic: script,0
 130722491,true,Add output of build-entities.sh,https://github.com/whatwg/html/pull/606,2016-02-02T15:46:44Z,2016-02-04T08:16:57Z,annevk,,0
-130718669,true,Give Charles some space,https://github.com/whatwg/html/pull/605,2016-02-02T15:35:20Z,2016-02-02T15:56:33Z,foolip,,0
 130695692,true,Unusable spec content in n common DOM interfaces,https://github.com/whatwg/html/pull/604,2016-02-02T14:19:28Z,2016-02-02T16:03:34Z,Ritsyy,,0
 130659179,true,"Fix minor typo in ""the same as the those in""",https://github.com/whatwg/html/pull/602,2016-02-02T11:53:25Z,2016-02-02T12:02:57Z,foolip,,0
 130424162,true,Add additional ack for PR #286,https://github.com/whatwg/html/pull/600,2016-02-01T17:20:36Z,2016-02-02T17:44:58Z,foolip,,0
-130242691,true,Add additional ack for #316,https://github.com/whatwg/html/pull/598,2016-02-01T03:12:38Z,2016-02-01T04:38:46Z,foolip,,0
 130109883,true,"Hyperlink term ""dispatched"" in definition of ""Firing a synthetic mouse event named e""",https://github.com/whatwg/html/pull/596,2016-01-31T10:19:03Z,2016-02-02T20:25:58Z,cvrebert,,0
 129857517,true,Update the Gecko Plugin API Reference link (redirected),https://github.com/whatwg/html/pull/591,2016-01-29T19:22:16Z,2016-01-29T22:57:06Z,foolip,,0
 129716895,true,Remove unused references,https://github.com/whatwg/html/pull/590,2016-01-29T09:47:29Z,2016-02-01T22:10:21Z,foolip,,0

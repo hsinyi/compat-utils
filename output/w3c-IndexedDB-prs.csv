@@ -3,6 +3,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3780260327,false,Add TLA+ spec for core concurrency of spec,https://github.com/w3c/IndexedDB/pull/484,2026-01-05T05:53:21Z,2026-01-06T13:10:13Z,gterzian,,0
 3565182440,false,Clarify cursor iteration predicates some more,https://github.com/w3c/IndexedDB/pull/481,2025-10-29T09:56:07Z,2025-10-29T09:56:21Z,stelar7,,0
 3552832502,false,Mark transactions inactive during key serialization,https://github.com/w3c/IndexedDB/pull/479,2025-10-25T18:40:11Z,2026-03-01T15:54:34Z,nolanlawson,,0
+3518418793,false,"Adjust how the direction is defaulted in ""Creating a request to retrieve multiple items""",https://github.com/w3c/IndexedDB/pull/478,2025-10-15T14:51:12Z,2025-10-26T11:52:51Z,stelar7,,0
 3319319710,true,Move Joshua Bell to former editors,https://github.com/w3c/IndexedDB/pull/472,2025-08-13T17:47:42Z,2025-08-15T06:16:51Z,SteveBeckerMSFT,,0
 3318464324,true,Specify that the requests error should go back to the unset state,https://github.com/w3c/IndexedDB/pull/471,2025-08-13T13:23:08Z,2025-08-18T19:32:57Z,stelar7,,0
 3308728183,true,Specify that the state refers to the passed transaction when aborting,https://github.com/w3c/IndexedDB/pull/468,2025-08-11T07:08:20Z,2026-04-04T05:33:08Z,stelar7,,1
@@ -37,6 +38,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1352789314,false,Rename 'array key' to 'composite key',https://github.com/w3c/IndexedDB/pull/392,2022-08-26T22:31:16Z,2025-04-11T18:47:07Z,inexorabletash,TPAC2024,0
 1294327689,true,Fix internal links to events,https://github.com/w3c/IndexedDB/pull/388,2022-07-05T13:47:07Z,2022-07-06T16:33:51Z,dontcallmedom,,0
 1288707565,true,Associate event definitions with the interfaces they fire at,https://github.com/w3c/IndexedDB/pull/387,2022-06-29T13:13:56Z,2022-06-29T15:38:10Z,dontcallmedom,,0
+1268109452,false,Normalize negative zero,https://github.com/w3c/IndexedDB/pull/386,2022-06-11T00:13:31Z,2025-04-11T18:43:09Z,inexorabletash,TPAC2024,0
 1265260347,true,Bikeshed: Enable 'Assume Explicit For' and make links explicit,https://github.com/w3c/IndexedDB/pull/385,2022-06-08T20:24:35Z,2023-03-03T18:18:17Z,inexorabletash,,0
 1259025266,true,Editorial: Add event definition for 'close',https://github.com/w3c/IndexedDB/pull/384,2022-06-03T00:06:10Z,2023-03-03T18:18:15Z,inexorabletash,,0
 1258352854,true,Support Storage Partitioning,https://github.com/w3c/IndexedDB/pull/383,2022-06-02T15:32:44Z,2022-06-08T18:04:35Z,arichiv,,0
@@ -49,10 +51,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 828845172,true,automatic publishing,https://github.com/w3c/IndexedDB/pull/350,2021-03-11T07:05:49Z,2021-03-11T07:12:24Z,deniak,,0
 826318927,true,Editorial: Add note about superseding 2.0,https://github.com/w3c/IndexedDB/pull/349,2021-03-09T17:23:44Z,2021-03-12T12:15:46Z,inexorabletash,,0
 681178566,true,Editorial: Align with Web IDL specification,https://github.com/w3c/IndexedDB/pull/345,2020-08-18T16:33:43Z,2020-08-18T19:10:37Z,autokagami,,0
+648497188,false,[WIP] Initial algorithms / methods for putAll,https://github.com/w3c/IndexedDB/pull/343,2020-06-30T21:13:21Z,2024-06-27T20:22:47Z,inexorabletash,,0
 648392602,true,Use Bikeshed's special syntax for linking to abstract operations,https://github.com/w3c/IndexedDB/pull/341,2020-06-30T18:12:15Z,2020-07-23T16:13:11Z,inexorabletash,,0
 621331242,true,Editorial: Use Bikeshed's algorithm and var more better,https://github.com/w3c/IndexedDB/pull/336,2020-05-19T22:45:05Z,2020-07-23T16:15:51Z,inexorabletash,,0
 620499822,true,Editorial: Use WebIDL's new definition conventions for method/etc steps,https://github.com/w3c/IndexedDB/pull/335,2020-05-18T20:54:14Z,2020-05-19T20:16:07Z,inexorabletash,,0
 619116394,false,"Define Indexed DB as a storage endpoint, use hooks",https://github.com/w3c/IndexedDB/pull/334,2020-05-15T17:03:03Z,2026-03-16T14:45:06Z,inexorabletash,,0
+602289775,false,Initial sketch of manual commit flag for transactions,https://github.com/w3c/IndexedDB/pull/331,2020-04-17T23:35:59Z,2024-06-27T20:22:58Z,inexorabletash,,0
 599732344,true,Editorial: Use settings object definition.,https://github.com/w3c/IndexedDB/pull/330,2020-04-14T17:21:18Z,2020-07-23T16:15:42Z,inexorabletash,,0
 597603687,true,"Add accessibility section draft. ",https://github.com/w3c/IndexedDB/pull/328,2020-04-09T23:07:51Z,2020-07-23T16:15:50Z,inexorabletash,,0
 590649364,true,Add domintro note and simplify markup,https://github.com/w3c/IndexedDB/pull/326,2020-03-30T22:46:39Z,2020-07-23T16:15:41Z,inexorabletash,,0
@@ -69,8 +73,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 526259494,true,Make transactions inactive during clone,https://github.com/w3c/IndexedDB/pull/310,2019-11-20T22:47:48Z,2020-01-22T20:30:03Z,inexorabletash,,0
 504946988,true,"Add ""Repository"" metadata",https://github.com/w3c/IndexedDB/pull/306,2019-10-09T23:27:25Z,2019-10-10T15:59:18Z,tabatkins,,0
 499682439,true,Use IDL this,https://github.com/w3c/IndexedDB/pull/303,2019-09-27T22:52:56Z,2020-03-27T18:54:17Z,inexorabletash,,0
+499662461,false,Sketch out IDBCursor.close(),https://github.com/w3c/IndexedDB/pull/302,2019-09-27T21:38:04Z,2024-06-27T20:23:03Z,inexorabletash,,0
 499050590,true,Sketch out spec text for transaction durability option,https://github.com/w3c/IndexedDB/pull/301,2019-09-26T18:38:16Z,2020-01-22T20:30:00Z,inexorabletash,,0
-497336363,true,Remove lastModifiedDate handling,https://github.com/w3c/IndexedDB/pull/300,2019-09-23T21:24:36Z,2020-03-27T18:54:12Z,inexorabletash,,0
 497333281,true,Remove WebIDL escaping of includes() method,https://github.com/w3c/IndexedDB/pull/299,2019-09-23T21:17:04Z,2020-03-27T18:54:14Z,inexorabletash,,0
 496148040,true,Replace var with let/const in examples.,https://github.com/w3c/IndexedDB/pull/297,2019-09-20T05:08:40Z,2020-03-27T18:54:15Z,inexorabletash,,1
 493829815,true,Editorial: use new constructor syntax from WebIDL,https://github.com/w3c/IndexedDB/pull/296,2019-09-16T03:24:52Z,2019-09-16T05:11:44Z,marcoscaceres,,0
@@ -112,7 +116,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 267360364,true,Mark the Revision History and the Acknowledgements sections as non-normative,https://github.com/w3c/IndexedDB/pull/220,2017-10-21T08:01:26Z,2017-10-22T06:05:46Z,xfq,,0
 266706447,true,Validate HTML,https://github.com/w3c/IndexedDB/pull/219,2017-10-19T03:06:41Z,2017-10-19T05:29:08Z,xfq,,0
 263788912,true,Fix several issue URLs,https://github.com/w3c/IndexedDB/pull/218,2017-10-09T05:32:08Z,2017-10-10T01:44:25Z,xfq,,0
-260243404,true,Support annotated types in IDBFactory and IDBObjectStore,https://github.com/w3c/IndexedDB/pull/217,2017-09-25T11:33:09Z,2017-09-25T17:08:35Z,LisaBelleSuzuki,,0
 238005284,true,Add note about escaping names,https://github.com/w3c/IndexedDB/pull/210,2017-06-22T23:57:33Z,2017-08-28T00:33:53Z,inexorabletash,,1
 228109054,true,Set request result/done flag appropriately in open/delete,https://github.com/w3c/IndexedDB/pull/202,2017-05-11T20:19:21Z,2017-09-26T18:18:06Z,inexorabletash,has-tests,0
 228100667,true,Define db's associated upgrade tx to align with impls/tests,https://github.com/w3c/IndexedDB/pull/201,2017-05-11T19:46:05Z,2017-05-12T17:29:00Z,inexorabletash,has-tests,0

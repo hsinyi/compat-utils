@@ -131,7 +131,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 382053362,true,fix: while retrying complete() returns a rejected promise,https://github.com/w3c/payment-request/pull/808,2018-11-19T04:30:40Z,2018-12-03T22:50:48Z,marcoscaceres,,0
 381014315,true,Warn when errorFields don't match request[[options]],https://github.com/w3c/payment-request/pull/807,2018-11-15T06:09:48Z,2018-12-02T02:57:54Z,marcoscaceres,,0
 377238708,true,Change what canMakePayment() means,https://github.com/w3c/payment-request/pull/806,2018-11-05T03:34:13Z,2018-11-10T02:29:58Z,marcoscaceres,,0
-376286434,true,fix: retry()'s errorFields should be optional per WebIDL,https://github.com/w3c/payment-request/pull/805,2018-11-01T07:39:44Z,2018-11-05T02:42:35Z,marcoscaceres,,0
 374342525,true,Added section and paragraph on accessibility considerations,https://github.com/w3c/payment-request/pull/802,2018-10-26T11:28:58Z,2018-11-14T23:27:44Z,ianbjacobs,Blocked,0
 368015349,true,Remove PaymentItem.type,https://github.com/w3c/payment-request/pull/794,2018-10-09T02:19:19Z,2018-10-18T13:15:41Z,marcoscaceres,,0
 365309661,true,Editorial: fixed grammatical errors,https://github.com/w3c/payment-request/pull/790,2018-10-01T05:01:30Z,2018-10-01T06:14:41Z,wonsuk73,,0
@@ -219,11 +218,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 257461281,true,Chore: Minor link fix,https://github.com/w3c/payment-request/pull/619,2017-09-13T17:33:29Z,2017-09-13T22:37:03Z,ianbjacobs,,0
 256315678,true,"Editorial: removed extra ""the""",https://github.com/w3c/payment-request/pull/616,2017-09-08T17:04:44Z,2017-09-08T17:21:33Z,ianbjacobs,,0
 255797472,true,Editorial: explicitly Expose=Window IDL interface,https://github.com/w3c/payment-request/pull/612,2017-09-07T02:38:40Z,2017-09-07T05:50:40Z,marcoscaceres,needs tests,0
-255197510,true,Only select shippingOption if asked to (closes #609),https://github.com/w3c/payment-request/pull/610,2017-09-05T08:26:39Z,2017-09-08T00:59:02Z,marcoscaceres,,0
 255173353,true,Construct and set attrs on PaymentAddress,https://github.com/w3c/payment-request/pull/607,2017-09-05T06:37:36Z,2017-09-08T04:37:16Z,marcoscaceres,needs tests,0
 255156245,true,Canonicalize PaymentAddress.languageCode (closes #602),https://github.com/w3c/payment-request/pull/605,2017-09-05T04:19:09Z,2017-09-05T05:18:20Z,marcoscaceres,,0
 255156199,true,Fix PaymentAddress attr definition (closes #601),https://github.com/w3c/payment-request/pull/604,2017-09-05T04:18:42Z,2017-09-05T05:18:41Z,marcoscaceres,,0
-254673418,true,Less pull centric,https://github.com/w3c/payment-request/pull/599,2017-09-01T15:21:17Z,2017-09-01T22:15:14Z,ianbjacobs,,0
 254503099,true,Clarify CR exit requirements,https://github.com/w3c/payment-request/pull/598,2017-09-01T00:16:03Z,2018-01-17T04:40:45Z,marcoscaceres,,0
 252809443,true,Throw on dup shippingOptions ids,https://github.com/w3c/payment-request/pull/596,2017-08-25T06:27:40Z,2017-09-04T06:35:59Z,marcoscaceres,cr-substantive,0
 251858270,true,Dont block UI if .updateWith() not called (closes #589),https://github.com/w3c/payment-request/pull/591,2017-08-22T07:08:06Z,2017-09-08T03:56:50Z,marcoscaceres,cr-substantive,0
@@ -243,7 +240,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 244988814,true,chore: rename repo to match shortname,https://github.com/w3c/payment-request/pull/564,2017-07-24T07:03:33Z,2017-07-26T22:56:25Z,marcoscaceres,,0
 244981671,true,"editorial: fix CR exit date, add exit criteria",https://github.com/w3c/payment-request/pull/563,2017-07-24T06:18:17Z,2018-10-12T03:27:27Z,marcoscaceres,,0
 244554484,true,editorial: set CR end date to 31st oct,https://github.com/w3c/payment-request/pull/562,2017-07-21T03:26:36Z,2017-07-25T03:07:50Z,marcoscaceres,,0
-243608000,true,Make privacy section normative (closes #439),https://github.com/w3c/payment-request/pull/561,2017-07-18T06:00:47Z,2018-01-17T04:40:36Z,marcoscaceres,,1
 241861834,true,Editorial changes,https://github.com/w3c/payment-request/pull/559,2017-07-10T21:46:29Z,2017-07-18T04:02:16Z,ianbjacobs,,0
 237701241,true,Editorial: s/serializer/toJSON,https://github.com/w3c/payment-request/pull/556,2017-06-22T00:32:58Z,2017-06-22T06:18:38Z,marcoscaceres,,0
 237317568,true,Typo in example Constructor code,https://github.com/w3c/payment-request/pull/554,2017-06-20T19:23:08Z,2017-06-21T01:06:43Z,nerdkid93,,0
@@ -397,7 +393,6 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 162708709,true,Fix a minor typo in PaymentRequest constructor description.,https://github.com/w3c/payment-request/pull/221,2016-06-28T15:03:10Z,2016-07-05T05:42:30Z,romandev,,0
 161488213,true,Fix two minor typos.,https://github.com/w3c/payment-request/pull/220,2016-06-21T16:55:17Z,2016-09-23T12:08:26Z,romandev,,0
 160705380,true,Remove totalAmount per telcon resolution.,https://github.com/w3c/payment-request/pull/219,2016-06-16T16:33:30Z,2016-06-16T16:41:32Z,adrianba,,1
-160477599,true,Add shippingOption to response,https://github.com/w3c/payment-request/pull/217,2016-06-15T17:20:52Z,2016-06-15T19:20:17Z,adrianba,,0
 159485541,true,Removing notes for closed issues.,https://github.com/w3c/payment-request/pull/214,2016-06-09T19:12:19Z,2016-06-10T09:20:05Z,adrianba,,0
 159295168,true,Remove unnecessary clause about validation.,https://github.com/w3c/payment-request/pull/213,2016-06-08T22:56:47Z,2016-06-15T16:03:00Z,adrianba,,1
 159294205,true,Simple editorial fixes.,https://github.com/w3c/payment-request/pull/212,2016-06-08T22:50:20Z,2016-06-09T07:24:29Z,adrianba,,0
