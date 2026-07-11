@@ -142,7 +142,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1646596906,true,Documents never have their node document set?,https://github.com/whatwg/dom/issues/1178,2023-03-29T22:01:17Z,2023-03-31T08:39:01Z,jyasskin,topic: nodes,0
 1642726849,true,[Range] Should the DOM range spec include an i18n warning?,https://github.com/whatwg/dom/issues/1177,2023-03-27T19:59:45Z,2023-03-28T15:52:39Z,sanketj,,0
 1632575768,false,Allow 'lower-boundary' scoping argument in querySelector(),https://github.com/whatwg/dom/issues/1172,2023-03-20T17:37:14Z,2023-03-23T20:39:09Z,mirisuzanne,needs implementer interest|addition/proposal|topic: nodes,1
-1631794385,false,What exactly does reflect touch target list entity?,https://github.com/whatwg/dom/issues/1171,2023-03-20T10:15:00Z,2023-04-09T12:18:14Z,dSalieri,,0
+1631794385,false,What exactly does reflect touch target list entity?,https://github.com/whatwg/dom/issues/1171,2023-03-20T10:15:00Z,2026-07-11T09:46:20Z,dSalieri,integration,0
 1597239881,true,Allow ExtendableEvent within Document,https://github.com/whatwg/dom/issues/1167,2023-02-23T17:15:00Z,2023-02-23T17:28:50Z,clshortfuse,,0
 1585687811,false,Allow subclassing of AbortController / AbortSignal,https://github.com/whatwg/dom/issues/1162,2023-02-15T11:24:44Z,2023-07-20T02:11:46Z,keithamus,needs implementer interest|addition/proposal|needs concrete proposal|topic: aborting,0
 1582415032,true,MutationObserver GC section looks bogus,https://github.com/whatwg/dom/issues/1159,2023-02-13T14:06:25Z,2023-02-20T08:44:38Z,annevk,,0
@@ -177,7 +177,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1244699995,false,Timeout AbortSignal (or AbortController) that gets input from the operation,https://github.com/whatwg/dom/issues/1082,2022-05-23T07:25:31Z,2023-07-05T01:07:54Z,annevk,topic: aborting,0
 1243019933,false,Element.matches and :scope,https://github.com/whatwg/dom/issues/1081,2022-05-20T11:34:12Z,2026-06-23T06:59:35Z,lifaon74,needs implementer interest|addition/proposal|topic: nodes,2
 1212075304,false,Unspecified behavior when NodeFilter#acceptNode returns null,https://github.com/whatwg/dom/issues/1075,2022-04-22T09:28:33Z,2022-05-18T16:30:39Z,kapouer,needs tests,0
-1198590952,false,`event.target` not cleared if event is not fired on `ShadowRoot`,https://github.com/whatwg/dom/issues/1072,2022-04-09T13:07:50Z,2022-04-19T15:00:51Z,Dragiyski,,0
+1198590952,true,`event.target` not cleared if event is not fired on `ShadowRoot`,https://github.com/whatwg/dom/issues/1072,2022-04-09T13:07:50Z,2026-07-11T09:48:08Z,Dragiyski,topic: events,0
 1191331943,false,Add EventListener Sub Flags [Suggestion] [Feature Request],https://github.com/whatwg/dom/issues/1070,2022-04-04T03:53:31Z,2023-09-20T20:33:16Z,Seagat2011,needs implementer interest|topic: events|addition/proposal,5
 1166656742,true,Please add the links to the old versions?,https://github.com/whatwg/dom/issues/1067,2022-03-11T17:06:31Z,2026-07-08T05:25:16Z,Pomax,meta,0
 1165513358,true,Incorrect x-ref for `extracting` in Range.surroundContents,https://github.com/whatwg/dom/issues/1065,2022-03-10T17:26:25Z,2022-03-22T07:56:55Z,Lubrsi,,1
@@ -503,7 +503,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 227560204,true,Node Tree section should probably include Attr,https://github.com/whatwg/dom/issues/457,2017-05-10T03:50:44Z,2026-07-07T15:02:01Z,cdumez,,0
 227559896,true,"""The value attribute’s getter must return the va...""",https://github.com/whatwg/dom/issues/456,2017-05-10T03:47:47Z,2017-05-10T06:44:17Z,cdumez,,0
 226306594,true,To investigate: do error events bubble to window?,https://github.com/whatwg/dom/issues/455,2017-05-04T14:49:25Z,2017-05-04T16:04:12Z,domenic,,0
-226261807,false,Document's base URL needs to be cloned,https://github.com/whatwg/dom/issues/454,2017-05-04T12:16:34Z,2017-05-04T12:16:34Z,annevk,,0
+226261807,false,Document's base URL needs to be cloned,https://github.com/whatwg/dom/issues/454,2017-05-04T12:16:34Z,2026-07-11T12:08:07Z,annevk,topic: nodes,0
 225683422,false,"Define ""has event listener"" operation",https://github.com/whatwg/dom/issues/453,2017-05-02T12:43:11Z,2026-07-08T07:08:22Z,annevk,topic: events,0
 224866589,true,Web reality: DOMTokenList's toggle() cannot always update the corresponding attribute,https://github.com/whatwg/dom/issues/451,2017-04-27T18:05:00Z,2017-08-08T07:04:36Z,annevk,,0
 224651836,true,Use new DOMException style,https://github.com/whatwg/dom/issues/450,2017-04-27T02:32:05Z,2017-10-12T12:01:35Z,domenic,good first issue,0
