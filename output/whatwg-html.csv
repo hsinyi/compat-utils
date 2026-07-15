@@ -9,7 +9,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4838064226,true,Behavior of `customElementRegistry` with `template.innerHTML`,https://github.com/whatwg/html/issues/12661,2026-07-08T13:49:25Z,2026-07-09T12:03:48Z,noamr,topic: custom elements,0
 4837763103,false,Processing model of track element handles parent media element in confusing way,https://github.com/whatwg/html/issues/12660,2026-07-08T13:10:57Z,2026-07-08T13:10:57Z,TimvdLippe,,0
 4835807259,false,Should modules really be 'null' if the HTTP status code is not-ok?,https://github.com/whatwg/html/issues/12657,2026-07-08T08:41:15Z,2026-07-08T16:05:25Z,jakearchibald,,0
-4827514114,false,Can we simplify declarative shadow roots opt in?,https://github.com/whatwg/html/issues/12652,2026-07-07T10:17:23Z,2026-07-14T09:11:16Z,noamr,normative change|topic: parser,0
+4827514114,false,Can we simplify declarative shadow roots opt in?,https://github.com/whatwg/html/issues/12652,2026-07-07T10:17:23Z,2026-07-14T15:46:42Z,noamr,normative change|topic: parser,0
 4821525390,false,Better RTL Support - Bidirectional Text Display And Caret Navigation And Text Selection,https://github.com/whatwg/html/issues/12650,2026-07-06T17:24:38Z,2026-07-06T17:24:49Z,babakfp,,0
 4819926294,false,Should autofocus-delegate use the flat tree?,https://github.com/whatwg/html/issues/12649,2026-07-06T14:09:10Z,2026-07-09T13:49:02Z,ltenmoz,topic: shadow|topic: focus,0
 4807921591,true,CSS-3 Cursor-Size:,https://github.com/whatwg/html/issues/12646,2026-07-04T06:19:33Z,2026-07-04T07:43:06Z,t14462,addition/proposal|needs implementer interest,0
@@ -60,7 +60,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4624169534,false,Explicit bug report: selectionStart and selectionEnd missing from applicable form fields,https://github.com/whatwg/html/issues/12555,2026-06-09T17:31:22Z,2026-06-09T17:31:22Z,jabcreations,,0
 4623209434,true,Reset Button and Button states should not be auto-directionality form-associated elements,https://github.com/whatwg/html/issues/12553,2026-06-09T15:11:33Z,2026-06-10T11:20:47Z,skyz1,,0
 4613277707,true,The indeterminateness should be included in the cloning steps for input elements,https://github.com/whatwg/html/issues/12529,2026-06-08T13:25:35Z,2026-06-12T10:55:19Z,skyz1,topic: forms,0
-4601359287,false,"`<meta name=""text-scale"" content=""scale"" />`",https://github.com/whatwg/html/issues/12526,2026-06-06T01:46:35Z,2026-06-06T01:47:28Z,davidsgrogan,,2
+4601359287,false,"`<meta name=""text-scale"" content=""scale"" />`",https://github.com/whatwg/html/issues/12526,2026-06-06T01:46:35Z,2026-06-06T01:47:28Z,davidsgrogan,,3
 4598560429,false,[Platform-provided behaviors for CE] Breakout meeting,https://github.com/whatwg/html/issues/12525,2026-06-05T16:47:31Z,2026-06-08T15:41:34Z,anaskim,,0
 4593159823,false,Select in base-appearance mode should probably not have magic clips,https://github.com/whatwg/html/issues/12521,2026-06-05T00:36:19Z,2026-06-10T21:10:04Z,emilio,topic: rendering|needs tests|topic: select,0
 4591919924,true,Upcoming WHATNOT meeting on 2026-06-11,https://github.com/whatwg/html/issues/12520,2026-06-04T20:25:55Z,2026-06-11T09:45:29Z,tabatkins,,0
@@ -1022,7 +1022,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2026-07-02T07:12:37Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,true,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-11-15T04:41:04Z,tabatkins,integration|topic: popover,0
-2565124238,false,Declarative CSS Modules and Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2026-07-01T20:17:00Z,KurtCattiSchmidt,addition/proposal|topic: shadow|topic: script|stage: 2|topic: imports/exports,2
+2565124238,false,Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2026-07-14T20:17:21Z,KurtCattiSchmidt,addition/proposal|topic: shadow|topic: script|agenda+|stage: 2|topic: imports/exports,2
 2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2026-04-23T13:37:13Z,emilio,compat|topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2562416768,true,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-12T00:18:10Z,past,agenda+,0
@@ -1947,7 +1947,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1462764097,false,GC for cached attr-associated elements?,https://github.com/whatwg/html/issues/8545,2022-11-24T05:03:47Z,2024-03-22T15:20:51Z,alice,topic: reflect,0
 1462756977,false,Shadow DOM and ElementInternals ARIAMixin properties,https://github.com/whatwg/html/issues/8544,2022-11-24T04:53:36Z,2023-03-09T23:24:06Z,alice,topic: shadow|topic: custom elements|topic: reflect,0
 1461018906,false,Is it possible to allow `<a>` elements to nest within each other in the future?,https://github.com/whatwg/html/issues/8541,2022-11-23T05:01:58Z,2022-12-06T17:50:58Z,hohoDigidea,,1
-1459558712,false,An iframe whose history can be transferred across parent navigations,https://github.com/whatwg/html/issues/8538,2022-11-22T10:15:42Z,2024-01-28T08:16:46Z,jakearchibald,,30
+1459558712,false,An iframe whose history can be transferred across parent navigations,https://github.com/whatwg/html/issues/8538,2022-11-22T10:15:42Z,2024-01-28T08:16:46Z,jakearchibald,,31
 1457097101,false,"Bogus assertion in ""prepare the script element""?",https://github.com/whatwg/html/issues/8534,2022-11-20T23:58:15Z,2026-01-14T06:52:46Z,awesomekling,topic: script,1
 1456832762,false,A means to extend the life of transient activation,https://github.com/whatwg/html/issues/8529,2022-11-20T09:29:10Z,2022-11-20T09:30:13Z,marcoscaceres,topic: user activation,0
 1455877461,true,"What should happen when the last valid <meta name=""referrer"" content=""...""> tag is removed?",https://github.com/whatwg/html/issues/8525,2022-11-18T22:00:32Z,2022-12-08T07:49:02Z,a4sriniv,topic: fetch|agenda+,0
@@ -5499,7 +5499,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 147086397,false,<li> inside <summary> inherits list-style-position: inside,https://github.com/whatwg/html/issues/1020,2016-04-09T04:04:56Z,2019-08-21T13:41:30Z,aethanyc,topic: rendering|needs tests|interop,0
 147002364,true,Element interfaces across browsers,https://github.com/whatwg/html/issues/1015,2016-04-08T18:26:50Z,2016-04-22T19:45:58Z,domenic,compat,0
 146973001,true,Allow start day of week to be specified for <input type=date />,https://github.com/whatwg/html/issues/1014,2016-04-08T16:17:57Z,2016-04-29T20:30:35Z,ghost,addition/proposal,0
-146815410,false,Introduce pointer to <script> element in module scripts,https://github.com/whatwg/html/issues/1013,2016-04-08T05:08:46Z,2025-03-14T08:39:31Z,annevk,addition/proposal|topic: script,14
+146815410,false,Introduce pointer to <script> element in module scripts,https://github.com/whatwg/html/issues/1013,2016-04-08T05:08:46Z,2026-07-14T18:02:01Z,annevk,addition/proposal|topic: script,14
 146576462,true,Editornal: missing closed parenthesis,https://github.com/whatwg/html/issues/1009,2016-04-07T10:37:46Z,2016-04-08T02:22:38Z,momdo,,0
 146343884,true,"Developers.whatwg requesting insecure Google fonts ",https://github.com/whatwg/html/issues/1007,2016-04-06T15:08:50Z,2016-04-12T19:08:57Z,pjconnors,,0
 146189083,true,Workers: Curtail the browser's license to kill,https://github.com/whatwg/html/issues/1004,2016-04-06T05:20:01Z,2017-04-19T07:37:31Z,lars-t-hansen,normative change|needs implementer interest|topic: workers,0
