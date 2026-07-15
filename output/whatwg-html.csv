@@ -22,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4747016330,true,Upcoming WHATNOT meeting on 2026-07-09,https://github.com/whatwg/html/issues/12619,2026-06-25T20:02:50Z,2026-07-09T19:47:01Z,jstenback,agenda+,0
 4743443042,false,Navigation API: Uncaught reentrancy in #abort-a-navigate-event and #navigate-event-intercept-commit-handler-steps,https://github.com/whatwg/html/issues/12617,2026-06-25T11:40:00Z,2026-06-25T11:59:00Z,jnjaeschke,,0
 4739050191,true,Upcoming WHATNOT meeting on 2026-06-25,https://github.com/whatwg/html/issues/12616,2026-06-24T22:48:30Z,2026-06-25T20:00:03Z,jstenback,agenda+,0
-4737875870,false,`<button>` attribute(s) to indicate priority and destructiveness,https://github.com/whatwg/html/issues/12615,2026-06-24T19:43:45Z,2026-06-24T19:45:59Z,LeaVerou,addition/proposal|needs implementer interest|stage: 0,3
+4737875870,false,`<button>` attribute(s) to indicate priority and destructiveness,https://github.com/whatwg/html/issues/12615,2026-06-24T19:43:45Z,2026-06-24T19:45:59Z,LeaVerou,addition/proposal|needs implementer interest|stage: 0,4
 4727069570,false,Proposal for Native Semantic Feed Elements: `<feed>` and `<item>`,https://github.com/whatwg/html/issues/12612,2026-06-23T15:08:04Z,2026-06-23T15:08:04Z,anafibnshahibul,addition/proposal|needs implementer interest,0
 4719947589,false,`window.stop` should stop planned form navigation(s),https://github.com/whatwg/html/issues/12609,2026-06-22T19:32:06Z,2026-06-24T08:13:03Z,ltenmoz,topic: navigation|topic: forms,0
 4719891396,false,Should planned form navigation be per-form or per-navigable?,https://github.com/whatwg/html/issues/12608,2026-06-22T19:24:14Z,2026-06-24T15:49:13Z,ltenmoz,topic: navigation|topic: forms,0
@@ -150,7 +150,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4206845634,false,Add `live` attribute to the <time> element for auto-updating display,https://github.com/whatwg/html/issues/12333,2026-04-05T07:32:49Z,2026-06-17T09:25:37Z,Huzaifaabdulrab,addition/proposal|needs implementer interest,1
 4205677703,true,Add `live` and `timezone` attributes to the <time> element,https://github.com/whatwg/html/issues/12332,2026-04-04T19:41:58Z,2026-04-05T07:29:31Z,Huzaifaabdulrab,,0
 4205661586,false,"Native layout boolean attributes for HTML elements (flex, grid, wrap)",https://github.com/whatwg/html/issues/12331,2026-04-04T19:31:41Z,2026-04-04T19:31:41Z,Huzaifaabdulrab,,1
-4201305466,false,"Add the ""action"" and ""method"" attributes to <button>",https://github.com/whatwg/html/issues/12330,2026-04-03T16:38:54Z,2026-07-12T21:13:16Z,alexpetros,addition/proposal|topic: forms,51
+4201305466,false,"Add the ""action"" and ""method"" attributes to <button>",https://github.com/whatwg/html/issues/12330,2026-04-03T16:38:54Z,2026-07-12T21:13:16Z,alexpetros,addition/proposal|topic: forms,54
 4199446642,false,Focus update steps do not match browser behavior when Element#focus() is called in a blur event handler,https://github.com/whatwg/html/issues/12329,2026-04-03T09:15:18Z,2026-04-03T09:37:46Z,mrobinson,,0
 4195491316,false,[Customizable select] Define UA behavior for interactive content inside <option>,https://github.com/whatwg/html/issues/12328,2026-04-02T15:52:11Z,2026-04-23T20:02:14Z,minorninth,accessibility|a11y-tracker|topic: select,0
 4187739049,false,disallow customized builtin elements from being on the list of active formatting elements,https://github.com/whatwg/html/issues/12327,2026-04-01T15:14:46Z,2026-04-03T12:41:10Z,dbaron,topic: parser|topic: custom elements,0
@@ -2012,7 +2012,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1400727625,false,`formDisabledCallback` should always fire when governing fieldset's disabled state changes,https://github.com/whatwg/html/issues/8365,2022-10-07T07:16:02Z,2024-09-05T08:45:07Z,bennypowers,topic: custom elements,3
 1400697596,false,Editorial: align with JavaScript spec conventions on records,https://github.com/whatwg/html/issues/8364,2022-10-07T06:44:11Z,2025-10-16T07:41:18Z,domenic,integration,0
 1400696912,false,Editorial: consider using Infra maps instead of JS-spec Records more often,https://github.com/whatwg/html/issues/8363,2022-10-07T06:43:25Z,2022-10-07T06:43:25Z,domenic,clarification|integration,0
-1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2026-01-28T23:27:10Z,ian97531,addition/proposal|needs implementer interest|topic: workers,18
+1400071766,false,Allow workers & shared workers to be created within a service worker,https://github.com/whatwg/html/issues/8362,2022-10-06T17:41:40Z,2026-01-28T23:27:10Z,ian97531,addition/proposal|needs implementer interest|topic: workers,19
 1399126032,false,How do shadow roots and slots interact with the content model?,https://github.com/whatwg/html/issues/8361,2022-10-06T08:47:59Z,2022-10-07T10:52:20Z,castholm,,0
 1398190934,false,Proposal: showEmojiPicker() on HTMLInputElement/HTMLTextareaElement,https://github.com/whatwg/html/issues/8358,2022-10-05T18:23:44Z,2022-10-06T14:31:19Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,103
 1397339666,false,Add external import maps,https://github.com/whatwg/html/issues/8355,2022-10-05T07:08:53Z,2026-06-21T07:40:35Z,annevk,addition/proposal|topic: script|topic: imports/exports,5
@@ -5073,7 +5073,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 182798592,false,"Suggest to allow ""autocomplete"" on input type=checkbox|radio",https://github.com/whatwg/html/issues/1894,2016-10-13T14:03:25Z,2022-10-03T20:52:14Z,SpyroTEQ,addition/proposal|needs implementer interest|topic: forms,6
 182782604,true,checkbox cannot be checked through a synthetic click event when not in a document,https://github.com/whatwg/html/issues/1893,2016-10-13T12:59:25Z,2016-10-25T10:35:12Z,annevk,topic: forms|topic: events,0
 182698734,false,Need new terminology anchor for editable elements,https://github.com/whatwg/html/issues/1892,2016-10-13T05:27:49Z,2016-10-13T16:58:17Z,frivoal,clarification|topic: forms,0
-182334350,true,is mandating CORS for modules the right tradeoff?,https://github.com/whatwg/html/issues/1888,2016-10-11T18:10:25Z,2022-12-01T23:14:40Z,dherman,topic: script,8
+182334350,true,is mandating CORS for modules the right tradeoff?,https://github.com/whatwg/html/issues/1888,2016-10-11T18:10:25Z,2026-07-15T04:48:48Z,dherman,topic: script,8
 182253364,true,"Remove ""Firing a simple event named e""",https://github.com/whatwg/html/issues/1887,2016-10-11T12:41:41Z,2016-10-21T07:36:36Z,annevk,clarification|good first issue|topic: events,0
 182120532,false,Consider a DedicatedWorker and SharedWorker `closed` getter,https://github.com/whatwg/html/issues/1885,2016-10-10T21:32:26Z,2019-04-11T03:28:56Z,wanderview,addition/proposal|topic: workers,0
 182047045,true,Should MessageEvent.port really be nullable?,https://github.com/whatwg/html/issues/1882,2016-10-10T15:39:20Z,2016-10-25T09:37:32Z,cdumez,normative change|compat|topic: events,0
