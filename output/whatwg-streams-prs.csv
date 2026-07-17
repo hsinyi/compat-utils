@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 4717596496,false,"Editorial: Remove redundant assertion in ""ReadableStream pipe through"" and ""ReadableStream pipe to""",https://github.com/whatwg/streams/pull/1375,2026-06-22T14:30:00Z,2026-06-22T14:30:22Z,yezhizhen,,0
 4464812253,true,Meta: roll web platform tests for reference implementation,https://github.com/whatwg/streams/pull/1374,2026-05-17T20:17:05Z,2026-05-18T19:58:55Z,MattiasBuelens,reference implementation,0
-4364671915,false,Use `async_sequence` in `ReadableStream.from`,https://github.com/whatwg/streams/pull/1372,2026-05-01T13:42:30Z,2026-07-13T07:18:15Z,MattiasBuelens,,1
+4364671915,true,Use `async_sequence` in `ReadableStream.from`,https://github.com/whatwg/streams/pull/1372,2026-05-01T13:42:30Z,2026-07-17T06:46:56Z,MattiasBuelens,,1
 4327790774,true,Meta: roll web platform tests for reference implementation,https://github.com/whatwg/streams/pull/1371,2026-04-25T10:12:45Z,2026-04-25T10:49:35Z,MattiasBuelens,reference implementation|tests,0
 4305019287,true,"Export ""set up reader/writer"" algorithms for other specs",https://github.com/whatwg/streams/pull/1370,2026-04-21T20:07:56Z,2026-04-22T21:12:16Z,MattiasBuelens,,0
 4303579759,true,Add `noexport` for abstract operations,https://github.com/whatwg/streams/pull/1369,2026-04-21T15:16:58Z,2026-04-30T13:17:26Z,saschanaz,,0
@@ -35,7 +35,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2343460924,true,[meta] Use automatic links where available,https://github.com/whatwg/streams/pull/1316,2024-06-10T09:53:01Z,2024-06-20T07:01:34Z,dontcallmedom,,0
 2259762501,true,Meta: test promise resolution order of async iterator in reference implementation,https://github.com/whatwg/streams/pull/1313,2024-04-23T21:03:25Z,2024-04-24T06:30:18Z,MattiasBuelens,,0
 2234328764,false,"ReadableStream.prototype.text(), .blob(), and .bytes()",https://github.com/whatwg/streams/pull/1311,2024-04-09T21:28:52Z,2025-06-28T17:04:36Z,jasnell,,4
-2205980692,false,Use `async iterable` webidl type in ReadableStream.from,https://github.com/whatwg/streams/pull/1310,2024-03-25T15:05:58Z,2026-04-13T19:40:56Z,lucacasonato,,1
+2205980692,true,Use `async iterable` webidl type in ReadableStream.from,https://github.com/whatwg/streams/pull/1310,2024-03-25T15:05:58Z,2026-07-17T06:47:51Z,lucacasonato,,1
 2143225160,true,Add explainer for ReadableStream async iteration,https://github.com/whatwg/streams/pull/1306,2024-02-19T22:18:51Z,2024-02-20T08:24:35Z,MattiasBuelens,,0
 2142963974,true,Review Draft Publication: February 2024,https://github.com/whatwg/streams/pull/1305,2024-02-19T18:44:31Z,2024-02-19T18:52:52Z,annevk,,0
 2109994206,true,"Editorial: Export definition ""writable stream writer""",https://github.com/whatwg/streams/pull/1304,2024-01-31T12:31:06Z,2024-02-01T05:18:37Z,ricea,,0
