@@ -248,7 +248,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 453324824,true,maxScopeString definition is missing the trailing '/',https://github.com/w3c/ServiceWorker/issues/1423,2019-06-07T03:37:46Z,2019-06-07T08:39:30Z,mfalken,,0
 452972785,true,oncurrentchange in test,https://github.com/w3c/ServiceWorker/issues/1421,2019-06-06T11:15:25Z,2019-06-07T08:41:20Z,jakearchibald,,0
 452943127,true,Object equality of service worker registrations,https://github.com/w3c/ServiceWorker/issues/1420,2019-06-06T10:04:10Z,2019-06-06T14:21:51Z,jakearchibald,,0
-451347542,false,Should register() trigger an update if only updateViaCache changes?,https://github.com/w3c/ServiceWorker/issues/1414,2019-06-03T08:11:02Z,2019-06-03T13:24:28Z,mfalken,,0
+451347542,false,Should register() trigger an update if only updateViaCache changes?,https://github.com/w3c/ServiceWorker/issues/1414,2019-06-03T08:11:02Z,2026-07-17T00:34:03Z,mfalken,,0
 447976683,true,"Export ""clear registration""",https://github.com/w3c/ServiceWorker/issues/1410,2019-05-24T04:43:57Z,2019-09-07T02:03:56Z,marcoscaceres,,0
 445960920,true,Should register() trigger byte-for-byte checking when WorkerType is updated?,https://github.com/w3c/ServiceWorker/issues/1408,2019-05-20T07:25:17Z,2019-06-03T08:28:23Z,makotoshimazu,,0
 445870405,true,Top-level await integration for ServiceWorkers running modules,https://github.com/w3c/ServiceWorker/issues/1407,2019-05-19T22:15:26Z,2021-06-11T08:20:35Z,littledan,,0
@@ -261,11 +261,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 429311146,true,"Pass credentials on navigator.serviceWorker.register(""/service_worker.js"");",https://github.com/w3c/ServiceWorker/issues/1399,2019-04-04T14:27:51Z,2019-05-19T01:23:21Z,SystemR,,0
 427313545,true,Browsers should not consume the stream right away on ReadableStream responses with 'Content-Disposition: attachment' header.,https://github.com/w3c/ServiceWorker/issues/1398,2019-03-30T18:33:08Z,2019-04-18T05:17:17Z,Khivar,,0
 426624529,true,provide a way to execute work after browser has consumed a response,https://github.com/w3c/ServiceWorker/issues/1397,2019-03-28T17:39:55Z,2020-07-07T14:11:06Z,wanderview,,1
-425657449,false,spec should document Cache API HEIST mitigations,https://github.com/w3c/ServiceWorker/issues/1396,2019-03-26T21:28:30Z,2019-03-26T21:28:30Z,wanderview,,0
-422556588,false,Is respondWith(fetch(event.request)) always the same as not calling respondWith()?,https://github.com/w3c/ServiceWorker/issues/1395,2019-03-19T05:57:11Z,2019-04-05T10:44:46Z,mfalken,,1
+425657449,false,spec should document Cache API HEIST mitigations,https://github.com/w3c/ServiceWorker/issues/1396,2019-03-26T21:28:30Z,2026-07-17T00:07:27Z,wanderview,,0
+422556588,false,Is respondWith(fetch(event.request)) always the same as not calling respondWith()?,https://github.com/w3c/ServiceWorker/issues/1395,2019-03-19T05:57:11Z,2026-07-17T00:18:36Z,mfalken,,1
 421081496,true,Can respondWith() be called from a microtask?,https://github.com/w3c/ServiceWorker/issues/1394,2019-03-14T15:18:46Z,2019-03-15T03:53:47Z,mfalken,,0
-418656590,false,Add WPT for an in-scope iframe inside a data URL iframe.,https://github.com/w3c/ServiceWorker/issues/1393,2019-03-08T06:52:04Z,2019-03-08T06:52:04Z,mfalken,,0
-414721660,false,Fully inline (.js + json manifest) service worker,https://github.com/w3c/ServiceWorker/issues/1392,2019-02-26T17:09:22Z,2019-03-19T09:08:04Z,hatgit,,1
+418656590,true,Add WPT for an in-scope iframe inside a data URL iframe.,https://github.com/w3c/ServiceWorker/issues/1393,2019-03-08T06:52:04Z,2026-07-16T23:50:39Z,mfalken,,0
+414721660,true,Fully inline (.js + json manifest) service worker,https://github.com/w3c/ServiceWorker/issues/1392,2019-02-26T17:09:22Z,2026-07-16T23:57:06Z,hatgit,,1
 412288431,false,A description mistake in spec document,https://github.com/w3c/ServiceWorker/issues/1391,2019-02-20T07:47:32Z,2026-07-10T08:13:47Z,zhansingsong,,0
 412074626,false,`<iframe sandbox />` + SW,https://github.com/w3c/ServiceWorker/issues/1390,2019-02-19T18:57:04Z,2025-10-29T00:17:43Z,Gozala,,13
 411630708,false,Immediate Service Worker,https://github.com/w3c/ServiceWorker/issues/1389,2019-02-18T20:19:40Z,2019-07-22T10:23:27Z,jan-tosovsky-cz,,0
@@ -305,7 +305,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 357337540,false,should a frame navigated to about:blank inherit a service worker controller?,https://github.com/w3c/ServiceWorker/issues/1350,2018-09-05T17:52:47Z,2026-06-06T00:07:05Z,wanderview,,0
 354629045,false,Enabling client message queue on DOMContentLoaded is not mentioned in the spec,https://github.com/w3c/ServiceWorker/issues/1349,2018-08-28T08:42:29Z,2026-06-04T23:54:45Z,ytausky,,1
 352478690,false,It's possible to interact with an installing service worker before its 'install' event is dispatched,https://github.com/w3c/ServiceWorker/issues/1347,2018-08-21T10:27:36Z,2026-06-04T23:46:58Z,ytausky,,0
-349696706,false,Consider exposing Page Lifecycle state to service-worker,https://github.com/w3c/ServiceWorker/issues/1345,2018-08-11T01:52:35Z,2019-05-30T05:29:20Z,spanicker,,0
+349696706,false,Consider exposing Page Lifecycle state to service-worker,https://github.com/w3c/ServiceWorker/issues/1345,2018-08-11T01:52:35Z,2026-07-17T00:23:48Z,spanicker,,0
 349505796,true,Ground event listener existence check in new primitive,https://github.com/w3c/ServiceWorker/issues/1342,2018-08-10T12:58:16Z,2026-05-29T00:30:38Z,annevk,,0
 348408795,true,preloadResponse resolved to wrong kind of thing?,https://github.com/w3c/ServiceWorker/issues/1339,2018-08-07T17:04:41Z,2018-08-12T05:36:54Z,jyasskin,,0
 347915151,true,Worker Update leaves open notifications behind (unclickable),https://github.com/w3c/ServiceWorker/issues/1337,2018-08-06T13:04:35Z,2018-08-08T16:30:38Z,mariusglauer,,0
