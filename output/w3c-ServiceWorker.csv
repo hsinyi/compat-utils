@@ -360,7 +360,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 293636797,true,`Clear Registration` should call `Update Registration State` before `Update Worker State`,https://github.com/w3c/ServiceWorker/issues/1270,2018-02-01T18:30:06Z,2018-02-02T16:02:08Z,wanderview,,0
 293250888,false,windowClients state change events - loaded/unloaded,https://github.com/w3c/ServiceWorker/issues/1269,2018-01-31T17:45:05Z,2023-01-06T23:39:08Z,shacharz,,1
 293237026,true,should `ServiceWorker` interface implement `AbstractWorker` mixin?,https://github.com/w3c/ServiceWorker/issues/1268,2018-01-31T17:03:39Z,2026-02-20T00:53:11Z,wanderview,,1
-293196652,false,clarify when FetchEvent.clientId will or will not be set for navigations,https://github.com/w3c/ServiceWorker/issues/1267,2018-01-31T15:19:41Z,2026-02-20T01:10:12Z,wanderview,,0
+293196652,true,clarify when FetchEvent.clientId will or will not be set for navigations,https://github.com/w3c/ServiceWorker/issues/1267,2018-01-31T15:19:41Z,2026-07-17T15:59:51Z,wanderview,,0
 292582643,true,"Until resultingClientId is implemented, what should FetchEvent.clientId be for navigation requests?",https://github.com/w3c/ServiceWorker/issues/1266,2018-01-29T22:21:59Z,2018-02-01T14:22:37Z,wanderview,,0
 291644043,false,should blob URL clients have their controlled updated if their parent's controller is changed?,https://github.com/w3c/ServiceWorker/issues/1265,2018-01-25T17:03:15Z,2020-05-20T15:36:55Z,wanderview,,0
 289850433,true,Suggest a top level service worker or multiple service workers in one domain?,https://github.com/w3c/ServiceWorker/issues/1264,2018-01-19T03:16:52Z,2026-02-13T01:21:16Z,ywang1724,,0
@@ -477,7 +477,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 219155605,true,Change the spec so that when a new SW is being registered it's set to not use cache the first time,https://github.com/w3c/ServiceWorker/issues/1103,2017-04-04T06:50:24Z,2026-01-30T01:04:05Z,n8schloss,,0
 219148833,true,API to tell developers why the SW was killed,https://github.com/w3c/ServiceWorker/issues/1101,2017-04-04T06:05:40Z,2025-10-10T17:45:20Z,jakearchibald,,0
 218466047,true,should Client.navigate() require user interaction?,https://github.com/w3c/ServiceWorker/issues/1100,2017-03-31T10:44:40Z,2017-04-03T09:33:43Z,wanderview,,0
-218397242,false,Build spec using travis,https://github.com/w3c/ServiceWorker/issues/1099,2017-03-31T04:48:06Z,2025-10-23T23:29:27Z,jakearchibald,,0
+218397242,true,Build spec using travis,https://github.com/w3c/ServiceWorker/issues/1099,2017-03-31T04:48:06Z,2026-07-17T21:58:42Z,jakearchibald,,0
 218278586,true,HTMLLinkElement extension is redundant,https://github.com/w3c/ServiceWorker/issues/1098,2017-03-30T17:58:17Z,2017-03-31T22:40:45Z,saschanaz,,0
 217752644,true,how does service worker interact with html imports?,https://github.com/w3c/ServiceWorker/issues/1095,2017-03-29T03:12:09Z,2017-11-03T14:18:38Z,wanderview,,0
 217139215,true,"How to test ""no-referrer-when-downgrade"" in a web platform test",https://github.com/w3c/ServiceWorker/issues/1094,2017-03-27T05:19:54Z,2017-04-05T06:33:10Z,mfalken,apr-2017-f2f-v1,0

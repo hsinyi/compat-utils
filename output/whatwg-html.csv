@@ -1,4 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+4912453933,false,"Browsers are no longer using an ""anonymous button content box""",https://github.com/whatwg/html/issues/12702,2026-07-17T15:00:28Z,2026-07-17T15:00:28Z,Loirooriol,,0
+4912422241,false,"The ""anonymous button content box"" isn't centered horizontally",https://github.com/whatwg/html/issues/12701,2026-07-17T14:56:18Z,2026-07-17T14:56:18Z,Loirooriol,,0
 4906244129,false,Would s/consume user activation/consume transient activation/ be clearer?,https://github.com/whatwg/html/issues/12694,2026-07-16T21:47:35Z,2026-07-16T21:47:35Z,jan-ivar,,0
 4904411313,false,Upcoming WHATNOT meeting on 2026-07-23,https://github.com/whatwg/html/issues/12693,2026-07-16T17:19:58Z,2026-07-17T00:37:08Z,jstenback,agenda+,0
 4902449001,true,Active Custom Element Constructor Map does not solve re-entrancy due to early removal,https://github.com/whatwg/html/issues/12691,2026-07-16T13:24:11Z,2026-07-17T11:41:09Z,keithamus,topic: custom elements,0
@@ -156,7 +158,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4206845634,false,Add `live` attribute to the <time> element for auto-updating display,https://github.com/whatwg/html/issues/12333,2026-04-05T07:32:49Z,2026-06-17T09:25:37Z,Huzaifaabdulrab,addition/proposal|needs implementer interest,1
 4205677703,true,Add `live` and `timezone` attributes to the <time> element,https://github.com/whatwg/html/issues/12332,2026-04-04T19:41:58Z,2026-04-05T07:29:31Z,Huzaifaabdulrab,,0
 4205661586,false,"Native layout boolean attributes for HTML elements (flex, grid, wrap)",https://github.com/whatwg/html/issues/12331,2026-04-04T19:31:41Z,2026-04-04T19:31:41Z,Huzaifaabdulrab,,1
-4201305466,false,"Add the ""action"" and ""method"" attributes to <button>",https://github.com/whatwg/html/issues/12330,2026-04-03T16:38:54Z,2026-07-16T07:48:54Z,alexpetros,addition/proposal|topic: forms,56
+4201305466,false,"Add the ""action"" and ""method"" attributes to <button>",https://github.com/whatwg/html/issues/12330,2026-04-03T16:38:54Z,2026-07-16T07:48:54Z,alexpetros,addition/proposal|topic: forms,57
 4199446642,false,Focus update steps do not match browser behavior when Element#focus() is called in a blur event handler,https://github.com/whatwg/html/issues/12329,2026-04-03T09:15:18Z,2026-04-03T09:37:46Z,mrobinson,,0
 4195491316,false,[Customizable select] Define UA behavior for interactive content inside <option>,https://github.com/whatwg/html/issues/12328,2026-04-02T15:52:11Z,2026-04-23T20:02:14Z,minorninth,accessibility|a11y-tracker|topic: select,0
 4187739049,false,disallow customized builtin elements from being on the list of active formatting elements,https://github.com/whatwg/html/issues/12327,2026-04-01T15:14:46Z,2026-04-03T12:41:10Z,dbaron,topic: parser|topic: custom elements,0
@@ -3906,7 +3908,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 358264022,true,For,https://github.com/whatwg/html/issues/4018,2018-09-08T04:45:15Z,2018-09-08T16:13:49Z,iwillcatchu72,,0
 358205065,true,Restrict use of `registerProtocolHandler` to secure contexts,https://github.com/whatwg/html/issues/4017,2018-09-07T20:42:14Z,2019-11-19T18:44:26Z,asankah,normative change|security/privacy|impacts documentation,3
 358194786,true,CDATA section in SVG title is handled differently in browsers,https://github.com/whatwg/html/issues/4016,2018-09-07T20:04:42Z,2026-07-16T12:15:40Z,zcorpan,topic: parser,0
-358190337,false,"""in foreign content"" is missing from list of insertion modes",https://github.com/whatwg/html/issues/4015,2018-09-07T19:47:58Z,2026-07-17T10:52:24Z,zcorpan,topic: parser,0
+358190337,false,"""in foreign content"" is missing from list of insertion modes",https://github.com/whatwg/html/issues/4015,2018-09-07T19:47:58Z,2026-07-17T14:44:59Z,zcorpan,topic: parser,0
 358180145,true,Rendering when fieldset is fixed height and the legend is much taller,https://github.com/whatwg/html/issues/4014,2018-09-07T19:12:11Z,2018-09-17T19:03:30Z,zcorpan,topic: rendering|interop|topic: fieldset,0
 358143285,true,Have <legend align> map to justify-self,https://github.com/whatwg/html/issues/4013,2018-09-07T17:03:08Z,2018-09-19T18:04:42Z,zcorpan,topic: fieldset,0
 357813827,false,locking elements for display,https://github.com/whatwg/html/issues/4010,2018-09-06T20:26:46Z,2018-09-07T08:34:03Z,vmpstr,addition/proposal|needs implementer interest,0
@@ -4596,7 +4598,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 239026363,true,Output caniuse boxes in the dev edition as well,https://github.com/whatwg/html/issues/2794,2017-06-28T01:17:17Z,2017-08-19T13:19:50Z,domenic,dev edition,0
 239022536,false,Allow expanding to the full table of contents in the dev edition,https://github.com/whatwg/html/issues/2793,2017-06-28T00:47:56Z,2024-02-10T21:58:14Z,domenic,spec tooling|dev edition,0
 238786200,true,take port into account for same-origin domain check,https://github.com/whatwg/html/issues/2792,2017-06-27T09:15:55Z,2018-08-07T16:14:03Z,jeisinger,normative change|needs implementer interest|security/privacy|needs compat analysis|topic: origin,0
-238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2025-10-22T13:46:15Z,TakayoshiKochi,addition/proposal|needs implementer interest,219
+238741867,false,Client side include feature for HTML,https://github.com/whatwg/html/issues/2791,2017-06-27T05:36:13Z,2025-10-22T13:46:15Z,TakayoshiKochi,addition/proposal|needs implementer interest,221
 238161134,true,typo?,https://github.com/whatwg/html/issues/2788,2017-06-23T14:35:44Z,2017-06-26T19:34:34Z,momdo,,0
 238026392,false,"<video>'s ""associated CSS layout box""",https://github.com/whatwg/html/issues/2786,2017-06-23T02:47:39Z,2026-04-16T08:51:02Z,cvrebert,clarification,0
 237922790,false,Add inline annotations of the bibliography references,https://github.com/whatwg/html/issues/2782,2017-06-22T17:47:29Z,2024-02-10T21:58:35Z,domenic,spec tooling|dev edition,0
