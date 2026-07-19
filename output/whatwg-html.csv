@@ -1,5 +1,4 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-4920657689,false,Upcoming WHATNOT meeting on 20YY-MM-DD,https://github.com/whatwg/html/issues/12705,2026-07-19T00:34:23Z,2026-07-19T00:34:23Z,bmdsadikur-source,agenda+,0
 4918013717,false,"""Update the rendering"" should specify what happens when a Document becomes rendering blocking during a ""update the rendering""",https://github.com/whatwg/html/issues/12704,2026-07-18T11:16:11Z,2026-07-18T11:16:11Z,mrobinson,,0
 4912453933,false,"Browsers are no longer using an ""anonymous button content box""",https://github.com/whatwg/html/issues/12702,2026-07-17T15:00:28Z,2026-07-18T13:55:06Z,Loirooriol,topic: rendering|topic: forms,0
 4912422241,false,"The ""anonymous button content box"" isn't centered horizontally",https://github.com/whatwg/html/issues/12701,2026-07-17T14:56:18Z,2026-07-17T14:56:18Z,Loirooriol,,0
@@ -706,7 +705,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3026564059,false,"Should ""nearest inclusive open popover"" check that `currentNode` is a `HTMLElement`?",https://github.com/whatwg/html/issues/11268,2025-04-29T00:04:20Z,2025-05-07T14:25:29Z,Gingeh,,0
 3025575455,false,CloseWatcher getEnabledState is a little unweildy,https://github.com/whatwg/html/issues/11267,2025-04-28T16:57:20Z,2026-05-26T06:48:53Z,keithamus,topic: dialog|topic: close watchers,0
 3023149850,false,Allow linking a non-nested abbreviation to its definition,https://github.com/whatwg/html/issues/11264,2025-04-27T15:22:00Z,2025-04-28T10:37:14Z,anthonyvdotbe,addition/proposal|needs implementer interest,0
-3020104934,false,"""Named character reference state"" input consumption",https://github.com/whatwg/html/issues/11260,2025-04-25T13:40:59Z,2025-04-28T16:32:28Z,rshadr,clarification|topic: parser,0
+3020104934,true,"""Named character reference state"" input consumption",https://github.com/whatwg/html/issues/11260,2025-04-25T13:40:59Z,2026-07-19T07:30:14Z,rshadr,clarification|topic: parser,0
 3019831909,true,HTMLDialogElement show can put disconnected dialogs in the open dialogs list.,https://github.com/whatwg/html/issues/11259,2025-04-25T11:48:14Z,2025-04-25T11:51:17Z,keithamus,topic: dialog,0
 3018509307,true,Upcoming WHATNOT meeting on 2025-05-01,https://github.com/whatwg/html/issues/11258,2025-04-24T21:34:41Z,2025-12-04T21:35:19Z,past,,0
 3017799515,true,"Agent's active custom element constructor map can have null registries, causing problems",https://github.com/whatwg/html/issues/11256,2025-04-24T16:22:36Z,2025-04-28T11:35:39Z,AtkinsSJ,topic: custom elements,0
@@ -4947,7 +4946,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 195385032,true,"""If the element is flagged as ""parser-inserted"",...""",https://github.com/whatwg/html/issues/2173,2016-12-13T22:18:17Z,2016-12-13T22:19:35Z,JosephPecoraro,,0
 195183669,true,Worker Stock Ticker Example is Broken (500 Responses),https://github.com/whatwg/html/issues/2172,2016-12-13T07:47:39Z,2016-12-16T18:55:16Z,JosephPecoraro,,0
 195122486,true,"Should <dialog> actually create a ""control group"" for focus?",https://github.com/whatwg/html/issues/2171,2016-12-13T00:02:02Z,2023-01-26T09:48:11Z,domenic,addition/proposal|needs implementer interest|topic: focus|topic: dialog,2
-194993683,false,Blink HTML parser divergence,https://github.com/whatwg/html/issues/2168,2016-12-12T14:52:24Z,2022-11-28T10:36:02Z,gsnedders,topic: parser|interop,0
+194993683,true,Blink HTML parser divergence,https://github.com/whatwg/html/issues/2168,2016-12-12T14:52:24Z,2026-07-19T06:54:50Z,gsnedders,topic: parser|interop,0
 194879917,true,Does removing the open attribute trigger the close event on a <dialog>?,https://github.com/whatwg/html/issues/2166,2016-12-12T02:50:15Z,2016-12-16T08:39:56Z,nt1m,clarification,0
 194865625,true,What should happen if absolute-anchored keyword value of position is inherited?,https://github.com/whatwg/html/issues/2165,2016-12-11T23:34:48Z,2016-12-12T20:40:59Z,upsuper,,0
 194687468,true,Event Source processing model suggests a list should be present,https://github.com/whatwg/html/issues/2162,2016-12-09T20:18:22Z,2026-04-21T15:07:44Z,jdm,clarification,0
@@ -5172,7 +5171,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 173610985,true,"Suggestion: Add attribute ""link"" to img tags",https://github.com/whatwg/html/issues/1719,2016-08-27T19:16:28Z,2016-08-28T16:35:19Z,evenstensberg,,0
 173338504,true,HTML shouldn't <dfn> Document,https://github.com/whatwg/html/issues/1715,2016-08-25T23:54:00Z,2016-09-01T10:14:23Z,jyasskin,spec tooling,0
 173121424,true,Event dispatch/firing should reuse DOM terms better,https://github.com/whatwg/html/issues/1713,2016-08-25T06:08:43Z,2016-10-18T16:00:45Z,domenic,clarification,0
-172790680,false,Parser element insertion should use DOM concepts better,https://github.com/whatwg/html/issues/1706,2016-08-23T19:52:54Z,2018-09-11T11:26:15Z,domenic,clarification|topic: parser,0
+172790680,false,Parser element insertion should use DOM concepts better,https://github.com/whatwg/html/issues/1706,2016-08-23T19:52:54Z,2026-07-19T06:24:15Z,domenic,clarification|topic: parser,0
 172634044,true,Custom elements - ES5 constructor support?,https://github.com/whatwg/html/issues/1704,2016-08-23T07:52:35Z,2016-08-23T21:15:31Z,thomaswilburn,,0
 172426085,true,"""If present, its value must be a representation ...""",https://github.com/whatwg/html/issues/1702,2016-08-22T11:09:20Z,2016-11-24T00:52:43Z,KiChjang,clarification|document conformance,0
 172090454,true,Calling InitializeHostDefinedRealm in document.open is probably unnecessary,https://github.com/whatwg/html/issues/1698,2016-08-19T09:26:30Z,2019-01-14T21:03:37Z,rniwa,normative change|topic: history|interop|topic: document.open(),0
