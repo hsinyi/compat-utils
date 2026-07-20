@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 4918013717,false,"""Update the rendering"" should specify what happens when a Document becomes rendering blocking during a ""update the rendering""",https://github.com/whatwg/html/issues/12704,2026-07-18T11:16:11Z,2026-07-18T11:16:11Z,mrobinson,,0
 4912453933,false,"Browsers are no longer using an ""anonymous button content box""",https://github.com/whatwg/html/issues/12702,2026-07-17T15:00:28Z,2026-07-18T13:55:06Z,Loirooriol,topic: rendering|topic: forms,0
-4912422241,false,"The ""anonymous button content box"" isn't centered horizontally",https://github.com/whatwg/html/issues/12701,2026-07-17T14:56:18Z,2026-07-17T14:56:18Z,Loirooriol,,0
+4912422241,false,"The ""anonymous button content box"" isn't centered horizontally",https://github.com/whatwg/html/issues/12701,2026-07-17T14:56:18Z,2026-07-19T14:39:14Z,Loirooriol,topic: rendering|topic: forms,0
 4906244129,false,Would s/consume user activation/consume transient activation/ be clearer?,https://github.com/whatwg/html/issues/12694,2026-07-16T21:47:35Z,2026-07-18T14:01:04Z,jan-ivar,clarification,0
 4904411313,false,Upcoming WHATNOT meeting on 2026-07-23,https://github.com/whatwg/html/issues/12693,2026-07-16T17:19:58Z,2026-07-17T00:37:08Z,jstenback,agenda+,0
 4902449001,true,Active Custom Element Constructor Map does not solve re-entrancy due to early removal,https://github.com/whatwg/html/issues/12691,2026-07-16T13:24:11Z,2026-07-17T11:41:09Z,keithamus,topic: custom elements,0
@@ -559,7 +559,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3320994515,true,Clarify blending isolation in 2D canvas,https://github.com/whatwg/html/issues/11559,2025-08-14T06:45:20Z,2025-09-11T11:33:33Z,sagudev,topic: canvas,0
 3320269233,true,"Are `navigator.platform`, `navigator.vendor`, or any other attributes of the `NavigatorID` mixin deprecated?",https://github.com/whatwg/html/issues/11558,2025-08-14T00:23:44Z,2025-08-19T08:57:06Z,SyntaxColoring,,3
 3318943549,false,Proposal: Support image formats in `<video>`,https://github.com/whatwg/html/issues/11554,2025-08-13T15:39:54Z,2025-09-05T17:32:20Z,LeaVerou,addition/proposal|needs implementer interest|topic: media,7
-3317223628,false,Add openid4vp: as a safelisted scheme for protocol registration handling,https://github.com/whatwg/html/issues/11552,2025-08-13T07:23:52Z,2025-08-22T16:20:33Z,nvoutsin,addition/proposal|needs implementer interest|topic: custom protocols,0
+3317223628,false,Add openid4vp: as a safelisted scheme for protocol registration handling,https://github.com/whatwg/html/issues/11552,2025-08-13T07:23:52Z,2025-08-22T16:20:33Z,nvoutsin,addition/proposal|needs implementer interest|topic: custom protocols,1
 3309950964,true,LLMs Meta Tags Standard,https://github.com/whatwg/html/issues/11548,2025-08-11T13:02:49Z,2026-05-06T01:16:19Z,rafaelp,addition/proposal|needs implementer interest,0
 3308378580,false,`PromiseRejectionError` constructor behavior differs by implementation,https://github.com/whatwg/html/issues/11547,2025-08-11T04:06:26Z,2025-08-11T09:12:06Z,petamoriken,needs tests,0
 3308003149,false,Allow `fieldset` to be a CSS subgrid,https://github.com/whatwg/html/issues/11546,2025-08-10T21:46:40Z,2025-08-11T23:42:34Z,kirk-loretz-fsn,addition/proposal|needs implementer interest|topic: fieldset,0
@@ -4630,7 +4630,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 233740845,true,playbackRate reset on src change,https://github.com/whatwg/html/issues/2739,2017-06-05T23:40:38Z,2017-06-16T04:05:42Z,benwiley4000,,0
 233544403,false,Case sensitivity of namespaced attributes in CSS attr(),https://github.com/whatwg/html/issues/2738,2017-06-05T10:01:44Z,2018-01-22T12:52:30Z,zcorpan,interop|integration,0
 233417356,true,"""The length attribute's getter must this DOMStri...""",https://github.com/whatwg/html/issues/2736,2017-06-04T07:27:57Z,2017-06-19T17:15:48Z,harttle,good first issue,0
-233314545,false,[Parser] We can get rid of Decimal character reference start state in tokenizer,https://github.com/whatwg/html/issues/2733,2017-06-02T22:07:56Z,2021-12-20T15:55:56Z,inikulin,clarification|topic: parser,0
+233314545,true,[Parser] We can get rid of Decimal character reference start state in tokenizer,https://github.com/whatwg/html/issues/2733,2017-06-02T22:07:56Z,2026-07-19T13:52:01Z,inikulin,clarification|topic: parser,0
 233079366,true,"""The parser sets the Document to quirks mode in ...""",https://github.com/whatwg/html/issues/2732,2017-06-02T05:20:09Z,2017-06-21T10:32:47Z,zcorpan,clarification,0
 232886713,true,Remove <menuitem> and context menu specs,https://github.com/whatwg/html/issues/2730,2017-06-01T13:53:17Z,2022-04-29T06:57:11Z,domenic,removal/deprecation,44
 232807613,true,Default style for <legend>: 'padding',https://github.com/whatwg/html/issues/2729,2017-06-01T08:49:27Z,2018-08-15T21:05:45Z,zcorpan,topic: rendering|interop|topic: fieldset,0
@@ -5171,7 +5171,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 173610985,true,"Suggestion: Add attribute ""link"" to img tags",https://github.com/whatwg/html/issues/1719,2016-08-27T19:16:28Z,2016-08-28T16:35:19Z,evenstensberg,,0
 173338504,true,HTML shouldn't <dfn> Document,https://github.com/whatwg/html/issues/1715,2016-08-25T23:54:00Z,2016-09-01T10:14:23Z,jyasskin,spec tooling,0
 173121424,true,Event dispatch/firing should reuse DOM terms better,https://github.com/whatwg/html/issues/1713,2016-08-25T06:08:43Z,2016-10-18T16:00:45Z,domenic,clarification,0
-172790680,false,Parser element insertion should use DOM concepts better,https://github.com/whatwg/html/issues/1706,2016-08-23T19:52:54Z,2026-07-19T06:24:15Z,domenic,clarification|topic: parser,0
+172790680,false,Parser element insertion should use DOM concepts better,https://github.com/whatwg/html/issues/1706,2016-08-23T19:52:54Z,2026-07-19T14:22:14Z,domenic,clarification|topic: parser,0
 172634044,true,Custom elements - ES5 constructor support?,https://github.com/whatwg/html/issues/1704,2016-08-23T07:52:35Z,2016-08-23T21:15:31Z,thomaswilburn,,0
 172426085,true,"""If present, its value must be a representation ...""",https://github.com/whatwg/html/issues/1702,2016-08-22T11:09:20Z,2016-11-24T00:52:43Z,KiChjang,clarification|document conformance,0
 172090454,true,Calling InitializeHostDefinedRealm in document.open is probably unnecessary,https://github.com/whatwg/html/issues/1698,2016-08-19T09:26:30Z,2019-01-14T21:03:37Z,rniwa,normative change|topic: history|interop|topic: document.open(),0
