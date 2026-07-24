@@ -236,15 +236,15 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 474905631,false,A way to specify a pattern of destination URLs to hit/skip SW,https://github.com/w3c/ServiceWorker/issues/1454,2019-07-31T02:35:34Z,2025-11-06T23:37:13Z,kinu,,1
 473030152,true,Service worker cache localisation,https://github.com/w3c/ServiceWorker/issues/1453,2019-07-25T19:21:55Z,2019-12-06T13:15:01Z,robinglen,,0
 468314621,true,content-type in csp report on fetch is missed,https://github.com/w3c/ServiceWorker/issues/1449,2019-07-15T20:15:10Z,2020-03-10T15:06:07Z,maxkuzmin,,1
-465635518,false,Request's origin needs to be set for [[Update]] algorithm,https://github.com/w3c/ServiceWorker/issues/1447,2019-07-09T08:12:19Z,2019-07-09T08:12:19Z,makotoshimazu,,0
+465635518,true,Request's origin needs to be set for [[Update]] algorithm,https://github.com/w3c/ServiceWorker/issues/1447,2019-07-09T08:12:19Z,2026-07-24T00:31:33Z,makotoshimazu,,0
 462577119,true,"""Not Ready For Implementation""",https://github.com/w3c/ServiceWorker/issues/1446,2019-07-01T08:18:09Z,2019-07-01T08:18:53Z,mfalken,,0
 459618740,true,How can I pass or post params to sevirce worker on register or install?,https://github.com/w3c/ServiceWorker/issues/1441,2019-06-23T21:15:40Z,2019-06-24T19:20:02Z,mkkeck,,0
 459022263,true,@alimsaeed2020,https://github.com/w3c/ServiceWorker/issues/1439,2019-06-21T05:55:39Z,2019-06-21T07:01:52Z,alimsaeed10,,0
 458202462,false,Registering service workers for unique origins?,https://github.com/w3c/ServiceWorker/issues/1437,2019-06-19T20:05:46Z,2024-05-04T17:01:36Z,mjbvz,,0
-456066319,false,Add a WPT test for credentialed requests in register()/update,https://github.com/w3c/ServiceWorker/issues/1435,2019-06-14T05:26:17Z,2019-06-14T05:26:17Z,mfalken,,0
-455554915,false,Should we restore the registration record removing step in Clear Registration?,https://github.com/w3c/ServiceWorker/issues/1433,2019-06-13T06:21:09Z,2019-06-13T13:21:07Z,jungkees,,0
+456066319,true,Add a WPT test for credentialed requests in register()/update,https://github.com/w3c/ServiceWorker/issues/1435,2019-06-14T05:26:17Z,2026-07-24T00:09:41Z,mfalken,,0
+455554915,true,Should we restore the registration record removing step in Clear Registration?,https://github.com/w3c/ServiceWorker/issues/1433,2019-06-13T06:21:09Z,2026-07-23T23:46:51Z,jungkees,,0
 453983451,true,Broken links to v1,https://github.com/w3c/ServiceWorker/issues/1431,2019-06-10T03:30:51Z,2019-06-11T12:30:50Z,mfalken,,0
-453924989,false,Should update() always reject if there is an installing worker?,https://github.com/w3c/ServiceWorker/issues/1429,2019-06-09T18:27:30Z,2019-06-13T18:01:40Z,Yannic,,0
+453924989,false,Should update() always reject if there is an installing worker?,https://github.com/w3c/ServiceWorker/issues/1429,2019-06-09T18:27:30Z,2026-07-24T00:00:55Z,Yannic,,0
 453512248,true,"ServiceWorker, ServiceWorkerRegistration should be moved out of ""Client Context"" section",https://github.com/w3c/ServiceWorker/issues/1427,2019-06-07T13:24:09Z,2019-06-10T01:00:55Z,mfalken,,0
 453324824,true,maxScopeString definition is missing the trailing '/',https://github.com/w3c/ServiceWorker/issues/1423,2019-06-07T03:37:46Z,2019-06-07T08:39:30Z,mfalken,,0
 452972785,true,oncurrentchange in test,https://github.com/w3c/ServiceWorker/issues/1421,2019-06-06T11:15:25Z,2019-06-07T08:41:20Z,jakearchibald,,0
@@ -355,7 +355,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 296022898,false,ready promise is kind of weird with overlapping scopes,https://github.com/w3c/ServiceWorker/issues/1278,2018-02-09T21:48:57Z,2026-06-12T00:29:36Z,wanderview,,0
 294064370,false,The Cache objects do not expire unless authors *or users* delete the entries.,https://github.com/w3c/ServiceWorker/issues/1276,2018-02-03T00:34:15Z,2022-02-25T17:24:56Z,bsittler,,0
 293838820,true,What's the possible reason for navigator.serviceWorker.register error？,https://github.com/w3c/ServiceWorker/issues/1275,2018-02-02T10:19:36Z,2018-02-05T02:23:16Z,ywang1724,,0
-293774128,false,"Should the worker be removed from the registration *before* its state is set to ""redundant""?",https://github.com/w3c/ServiceWorker/issues/1273,2018-02-02T05:02:22Z,2019-06-17T14:31:29Z,cdumez,,0
+293774128,false,"Should the worker be removed from the registration *before* its state is set to ""redundant""?",https://github.com/w3c/ServiceWorker/issues/1273,2018-02-02T05:02:22Z,2026-07-24T00:21:34Z,cdumez,,0
 293751363,true,Scope matching algorithm breaks sites that don't end in a slash,https://github.com/w3c/ServiceWorker/issues/1272,2018-02-02T02:20:06Z,2026-05-15T06:43:59Z,mgiuca,,10
 293640655,true,maybe explicitly set the `self.registration` DOM object on `ServiceWorkerGlobalScope`,https://github.com/w3c/ServiceWorker/issues/1271,2018-02-01T18:43:40Z,2026-02-20T01:25:08Z,wanderview,,0
 293636797,true,`Clear Registration` should call `Update Registration State` before `Update Worker State`,https://github.com/w3c/ServiceWorker/issues/1270,2018-02-01T18:30:06Z,2018-02-02T16:02:08Z,wanderview,,0
@@ -416,7 +416,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 257542083,true,Proposal: Allow addEventListener/removeEventListener for 'fetch' to called at anytime,https://github.com/w3c/ServiceWorker/issues/1195,2017-09-13T22:36:31Z,2018-10-26T21:20:17Z,bgirard,,0
 257254657,false," fetch-frame-resource.https.html has a long timeout to detect page load failed",https://github.com/w3c/ServiceWorker/issues/1194,2017-09-13T04:30:51Z,2026-01-28T03:37:22Z,mfalken,,0
 257076853,true,messageerror event should use  ExtendableMessageEvent,https://github.com/w3c/ServiceWorker/issues/1193,2017-09-12T15:02:39Z,2026-01-26T17:03:14Z,bakulf,,0
-254029895,false,What happens to the request body if the fetch isn't handled?,https://github.com/w3c/ServiceWorker/issues/1191,2017-08-30T14:56:02Z,2019-06-06T15:46:49Z,jakearchibald,,0
+254029895,false,What happens to the request body if the fetch isn't handled?,https://github.com/w3c/ServiceWorker/issues/1191,2017-08-30T14:56:02Z,2026-07-23T23:41:56Z,jakearchibald,,0
 251556888,true,Does changing updateViaCache mint a new ServiceWorkerRegistration or update them all?,https://github.com/w3c/ServiceWorker/issues/1189,2017-08-21T05:59:20Z,2019-06-03T08:26:00Z,mfalken,decided,0
 250914006,true,Remove foreign fetch,https://github.com/w3c/ServiceWorker/issues/1188,2017-08-17T11:34:54Z,2022-07-22T05:05:31Z,jakearchibald,,62
 250860504,false,skipWaiting() promise should resolve after promotion to .active,https://github.com/w3c/ServiceWorker/issues/1187,2017-08-17T08:02:20Z,2026-05-29T00:13:09Z,mfalken,,0
