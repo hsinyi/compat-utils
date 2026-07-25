@@ -7,7 +7,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4912317687,true,Clarify that foreign content is not an insertion mode,https://github.com/whatwg/html/pull/12700,2026-07-17T14:41:34Z,2026-07-18T14:31:27Z,annevk,topic: parser,0
 4911643927,true,Review Draft Publication: July 2026,https://github.com/whatwg/html/pull/12697,2026-07-17T13:13:51Z,2026-07-17T13:22:01Z,annevk,,0
 4908819055,true,Restore active custom element constructor map entries after construction,https://github.com/whatwg/html/pull/12696,2026-07-17T06:47:33Z,2026-07-17T11:42:45Z,annevk,,0
-4903256782,false,"Editorial: Define getters for ""limited to only known values"" attributes more formally",https://github.com/whatwg/html/pull/12692,2026-07-16T14:52:56Z,2026-07-19T14:39:53Z,dbaron,topic: reflect,0
+4903256782,false,"Editorial: Define getters for ""limited to only known values"" attributes more formally",https://github.com/whatwg/html/pull/12692,2026-07-16T14:52:56Z,2026-07-24T18:09:04Z,dbaron,topic: reflect,0
 4901519752,false,Add Picture in Picture to unloading document cleanup steps,https://github.com/whatwg/html/pull/12689,2026-07-16T11:27:03Z,2026-07-16T11:27:09Z,chrisn,,0
 4893939076,false,Fix grammar in FAQ,https://github.com/whatwg/html/pull/12687,2026-07-15T15:28:33Z,2026-07-17T17:46:37Z,webgo-oss,,0
 4888469516,true,Editorial: Fix permissions policy attribute processing link,https://github.com/whatwg/html/pull/12685,2026-07-15T01:30:38Z,2026-07-16T16:08:23Z,domfarolino,,0
@@ -30,7 +30,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4823223422,true,Editorial: Reword 3 grammatically ambiguous sentences,https://github.com/whatwg/html/pull/12651,2026-07-06T21:26:58Z,2026-07-10T13:36:18Z,jmdyck,,0
 4816550761,true,Editorial: modernize TextTrack members,https://github.com/whatwg/html/pull/12648,2026-07-06T06:28:36Z,2026-07-08T07:50:39Z,annevk,topic: media,0
 4809337879,true,Editorial: modernize various dimension getters,https://github.com/whatwg/html/pull/12647,2026-07-04T14:28:21Z,2026-07-06T04:39:06Z,annevk,,0
-4792956944,false,Sanitize while parsing,https://github.com/whatwg/html/pull/12645,2026-07-02T09:09:39Z,2026-07-23T10:28:13Z,noamr,,0
+4792956944,false,Sanitize while parsing,https://github.com/whatwg/html/pull/12645,2026-07-02T09:09:39Z,2026-07-24T19:55:58Z,noamr,,0
 4784508613,false,Navigation API: Save the persisted state before same-document reload,https://github.com/whatwg/html/pull/12643,2026-07-01T10:04:08Z,2026-07-03T14:33:29Z,noamr,topic: navigation,0
 4784289903,true,Fix URL comparison when processing internal resource links,https://github.com/whatwg/html/pull/12642,2026-07-01T09:33:52Z,2026-07-03T13:51:20Z,noamr,,0
 4769913886,false,Remove exception for nested popover showing,https://github.com/whatwg/html/pull/12635,2026-06-29T16:35:16Z,2026-06-29T16:36:57Z,josepharhar,,0
@@ -102,7 +102,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4424762864,true,Editorial: Fix typos from recent merges,https://github.com/whatwg/html/pull/12437,2026-05-11T22:32:59Z,2026-06-15T22:50:25Z,jmdyck,,0
 4413928995,true,"Fix ""element with default preferred size"" link",https://github.com/whatwg/html/pull/12434,2026-05-09T21:51:30Z,2026-05-10T06:12:23Z,nicolo-ribaudo,editorial,0
 4412827987,true,Editorial: modernize <table> members,https://github.com/whatwg/html/pull/12432,2026-05-09T14:45:37Z,2026-05-12T15:16:56Z,annevk,,0
-4409920091,false,Support `<selectedcontent>` in `<select multiple>`,https://github.com/whatwg/html/pull/12430,2026-05-08T22:58:41Z,2026-07-24T10:33:54Z,josepharhar,topic: select,3
+4409920091,false,Support `<selectedcontent>` in `<select multiple>`,https://github.com/whatwg/html/pull/12430,2026-05-08T22:58:41Z,2026-07-24T17:54:41Z,josepharhar,topic: select,3
 4406040097,true,Stop defining volumechange in terms of public API,https://github.com/whatwg/html/pull/12428,2026-05-08T11:33:38Z,2026-05-08T16:05:14Z,annevk,,0
 4404999905,false,Pass response to WebDriver BiDi donwnload events.,https://github.com/whatwg/html/pull/12426,2026-05-08T08:32:53Z,2026-05-22T13:30:29Z,lutien,,0
 4401847584,false,[DRAFT]  Add readonly attribute to fieldset element,https://github.com/whatwg/html/pull/12424,2026-05-07T20:40:42Z,2026-05-08T06:03:59Z,teoeter,,0
@@ -160,7 +160,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4083478419,true,Add shadowrootslotassignment attribute,https://github.com/whatwg/html/pull/12267,2026-03-16T16:20:03Z,2026-04-15T16:35:47Z,keithamus,topic: custom elements,0
 4081539025,true,Set the fragment scripting mode based on the context document,https://github.com/whatwg/html/pull/12266,2026-03-16T10:14:40Z,2026-04-07T12:23:23Z,noamr,,0
 4080722654,true,Meta: correct link to CONTRIBUTING.md in README,https://github.com/whatwg/html/pull/12265,2026-03-16T07:25:30Z,2026-03-16T07:32:17Z,annevk,,0
-4079849363,false,Clone into all descendant selectedcontent elements,https://github.com/whatwg/html/pull/12263,2026-03-16T02:23:25Z,2026-07-08T16:15:15Z,josepharhar,topic: select,0
+4079849363,false,Clone into all descendant selectedcontent elements,https://github.com/whatwg/html/pull/12263,2026-03-16T02:23:25Z,2026-07-24T14:57:25Z,josepharhar,topic: select,0
 4077971858,true,Meta: update repository files,https://github.com/whatwg/html/pull/12261,2026-03-15T08:59:42Z,2026-03-16T07:19:31Z,annevk,,0
 4064717937,true,Navigation API: Don't run navigation handlers until entry is committed.,https://github.com/whatwg/html/pull/12256,2026-03-12T13:35:55Z,2026-03-20T15:46:36Z,farre,topic: navigation,0
 4058916279,true,Editorial: grandgrandchild is not correct English,https://github.com/whatwg/html/pull/12249,2026-03-11T15:26:14Z,2026-03-12T21:53:04Z,zcorpan,,0
@@ -229,7 +229,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3735064449,true,"Move ""clean up API method tracker"" to the right place",https://github.com/whatwg/html/pull/12022,2025-12-16T14:35:18Z,2026-01-12T10:54:36Z,noamr,,0
 3734374547,true,Fixing button command early-bail steps,https://github.com/whatwg/html/pull/12021,2025-12-16T11:25:01Z,2026-01-09T18:52:27Z,jakearchibald,,1
 3726130924,true,Fix ordering of lifecycle callbacks to match implementations,https://github.com/whatwg/html/pull/12017,2025-12-13T16:09:47Z,2026-03-31T16:14:21Z,lukewarlow,,0
-3720029201,false,Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2026-07-19T05:46:19Z,domfarolino,,0
+3720029201,false,Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2026-07-24T20:01:00Z,domfarolino,,0
 3717708776,false,Skip light dismiss when opening select's picker,https://github.com/whatwg/html/pull/12008,2025-12-11T04:33:36Z,2026-04-30T16:34:49Z,josepharhar,,0
 3714324873,true,Add proposal for maxcount attribute,https://github.com/whatwg/html/pull/12005,2025-12-10T09:24:01Z,2025-12-10T12:59:11Z,milanagowda77656-cloud,invalid,0
 3706163049,false,Introduce customelementregistry global attribute,https://github.com/whatwg/html/pull/12000,2025-12-08T12:24:45Z,2026-07-09T17:43:15Z,ja-y-son,,0
