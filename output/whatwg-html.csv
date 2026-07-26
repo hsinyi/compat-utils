@@ -49,7 +49,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4695511901,false,Should select with base appearance have overflow:clip or overflow:hidden by default?,https://github.com/whatwg/html/issues/12597,2026-06-18T19:47:22Z,2026-06-19T08:30:28Z,josepharhar,topic: rendering|topic: select,0
 4693230892,false,Scrolling to a fragment should have consistent focus handling,https://github.com/whatwg/html/issues/12596,2026-06-18T14:21:04Z,2026-06-22T14:06:09Z,Th3S4mur41,topic: navigation|topic: focus,5
 4691671077,false,Consider allowing sync loads from the available image list even for srcset / picture cases.,https://github.com/whatwg/html/issues/12595,2026-06-18T10:52:41Z,2026-06-18T10:52:41Z,emilio,topic: img,0
-4685410868,false,Support QUERY method in form submissions,https://github.com/whatwg/html/issues/12594,2026-06-17T17:04:40Z,2026-07-13T05:17:29Z,chris-morgan,addition/proposal|needs implementer interest|topic: forms,24
+4685410868,false,Support QUERY method in form submissions,https://github.com/whatwg/html/issues/12594,2026-06-17T17:04:40Z,2026-07-13T05:17:29Z,chris-morgan,addition/proposal|needs implementer interest|topic: forms,25
 4681867449,false,Localized time formatting without JavaScript,https://github.com/whatwg/html/issues/12591,2026-06-17T09:24:10Z,2026-06-24T16:35:09Z,lucacasonato,addition/proposal|needs implementer interest|i18n-tracker|needs tests|needs concrete proposal|stage: 1,188
 4681580289,false,Specificity of `hidden` attribute table rules is lower than generic `hidden` rules,https://github.com/whatwg/html/issues/12589,2026-06-17T08:43:23Z,2026-06-23T22:52:13Z,mrobinson,topic: rendering,0
 4681421169,false,Proposal: global digest-based inline module resolution,https://github.com/whatwg/html/issues/12588,2026-06-17T08:18:44Z,2026-06-23T17:38:56Z,noamr,addition/proposal|needs implementer interest|topic: script|topic: imports/exports,0
@@ -166,7 +166,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4206845634,false,Add `live` attribute to the <time> element for auto-updating display,https://github.com/whatwg/html/issues/12333,2026-04-05T07:32:49Z,2026-06-17T09:25:37Z,Huzaifaabdulrab,addition/proposal|needs implementer interest,1
 4205677703,true,Add `live` and `timezone` attributes to the <time> element,https://github.com/whatwg/html/issues/12332,2026-04-04T19:41:58Z,2026-04-05T07:29:31Z,Huzaifaabdulrab,,0
 4205661586,false,"Native layout boolean attributes for HTML elements (flex, grid, wrap)",https://github.com/whatwg/html/issues/12331,2026-04-04T19:31:41Z,2026-04-04T19:31:41Z,Huzaifaabdulrab,,1
-4201305466,false,"Add the ""action"" and ""method"" attributes to <button>",https://github.com/whatwg/html/issues/12330,2026-04-03T16:38:54Z,2026-07-16T07:48:54Z,alexpetros,addition/proposal|topic: forms,61
+4201305466,false,"Add the ""action"" and ""method"" attributes to <button>",https://github.com/whatwg/html/issues/12330,2026-04-03T16:38:54Z,2026-07-16T07:48:54Z,alexpetros,addition/proposal|topic: forms,62
 4199446642,false,Focus update steps do not match browser behavior when Element#focus() is called in a blur event handler,https://github.com/whatwg/html/issues/12329,2026-04-03T09:15:18Z,2026-04-03T09:37:46Z,mrobinson,,0
 4195491316,false,[Customizable select] Define UA behavior for interactive content inside <option>,https://github.com/whatwg/html/issues/12328,2026-04-02T15:52:11Z,2026-04-23T20:02:14Z,minorninth,accessibility|a11y-tracker|topic: select,0
 4187739049,false,disallow customized builtin elements from being on the list of active formatting elements,https://github.com/whatwg/html/issues/12327,2026-04-01T15:14:46Z,2026-04-03T12:41:10Z,dbaron,topic: parser|topic: custom elements,0
@@ -299,7 +299,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3838272531,false,selectedcontent removing steps vs pagehide (and unload),https://github.com/whatwg/html/issues/12096,2026-01-21T13:25:08Z,2026-04-22T22:49:21Z,annevk,topic: select,0
 3835855483,true,ElementInternals ARIA semantics are opaque to DOM-based accessibility testing tools,https://github.com/whatwg/html/issues/12095,2026-01-20T23:15:02Z,2026-01-21T18:10:01Z,benbeaudry,addition/proposal|needs implementer interest|accessibility|topic: custom elements,4
 3829678534,false,Avoid leaking documents in CustomElementRegistry's scoped document set,https://github.com/whatwg/html/issues/12092,2026-01-19T13:12:45Z,2026-01-20T01:02:46Z,Jamesernator,topic: custom elements,0
-3827339302,false,data:// URLs being considered as IsSecureContext,https://github.com/whatwg/html/issues/12091,2026-01-18T21:13:38Z,2026-01-22T17:01:02Z,shannonbooth,,0
+3827339302,false,data:// URLs being considered as IsSecureContext,https://github.com/whatwg/html/issues/12091,2026-01-18T21:13:38Z,2026-01-22T17:01:02Z,shannonbooth,,1
 3819577653,true,Upcoming WHATNOT meeting on 2026-01-22,https://github.com/whatwg/html/issues/12087,2026-01-15T23:11:47Z,2026-01-28T15:38:23Z,cwilso,agenda+,0
 3812373513,false,Proposal: Unblock bfcache for active WebSockets by disconnecting on entry,https://github.com/whatwg/html/issues/12085,2026-01-14T09:36:51Z,2026-04-09T10:56:47Z,llannasatoll,topic: navigation|topic: websockets,0
 3808937455,false,Should auxiliary browsing contexts load fallback favicons?,https://github.com/whatwg/html/issues/12082,2026-01-13T13:49:21Z,2026-01-16T15:20:39Z,estefysc,needs tests,0
@@ -392,7 +392,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3606409512,false,`element.defaultRole`,https://github.com/whatwg/html/issues/11900,2025-11-10T06:52:01Z,2025-11-10T23:45:06Z,LeaVerou,addition/proposal|needs implementer interest|accessibility,3
 3605936854,true,Discrepancy between ARIA 1.2 role requirements and HTML Living Standard table naming requirements,https://github.com/whatwg/html/issues/11899,2025-11-10T03:29:14Z,2025-11-10T06:01:46Z,LaurenceRLewis,document conformance|accessibility|a11y-tracker,0
 3605209843,false,Navigation API: `abort the ongoing navigation` never gets called with DOMException?,https://github.com/whatwg/html/issues/11897,2025-11-09T16:56:30Z,2025-11-09T18:05:40Z,theIDinside,topic: navigation,0
-3605102326,true,"Disallowed characters for `<input type=""number"">` on desktop",https://github.com/whatwg/html/issues/11896,2025-11-09T15:07:47Z,2026-01-08T12:15:31Z,o-t-w,addition/proposal|needs implementer interest|topic: forms,0
+3605102326,false,"Disallowed characters for `<input type=""number"">` on desktop",https://github.com/whatwg/html/issues/11896,2025-11-09T15:07:47Z,2026-07-25T20:58:01Z,o-t-w,addition/proposal|needs implementer interest|topic: forms,0
 3600141291,false,Nuance of the first sentence of 6.8.6 Writing suggestions,https://github.com/whatwg/html/issues/11894,2025-11-07T12:32:37Z,2025-11-07T22:18:21Z,mtrootyy,,0
 3599238283,false,Ambiguity with notating commands,https://github.com/whatwg/html/issues/11893,2025-11-07T08:22:41Z,2025-12-01T12:22:22Z,Winterhuman,,0
 3599137525,true,serialization of shadowrootcustomelementregistry should compare to document's registry not the host's,https://github.com/whatwg/html/issues/11892,2025-11-07T07:45:14Z,2025-11-25T09:13:46Z,Jamesernator,topic: shadow|topic: custom elements,0
@@ -1436,7 +1436,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2041234260,false,"colspan=""0"": Formalize a way to get a cell to span all/remaining columns",https://github.com/whatwg/html/issues/9992,2023-12-14T08:53:57Z,2024-01-08T16:57:21Z,andrerom,addition/proposal|needs implementer interest|topic: table,2
 2040145190,false,select.showPicker() in content-visibility: hidden subtree,https://github.com/whatwg/html/issues/9991,2023-12-13T17:10:42Z,2023-12-19T20:46:09Z,lukewarlow,,0
 2036911436,true,Editorial: link the Promise<T> type throughout,https://github.com/whatwg/html/issues/9987,2023-12-12T03:38:59Z,2024-03-15T08:02:25Z,domenic,good first issue|editorial,0
-2033957372,false,<datalist> behavior(s) are inconsistent and unhelpful when options are prefiltered,https://github.com/whatwg/html/issues/9986,2023-12-09T17:36:53Z,2026-01-23T22:06:26Z,broofa,addition/proposal|needs implementer interest|topic: forms,6
+2033957372,false,<datalist> behavior(s) are inconsistent and unhelpful when options are prefiltered,https://github.com/whatwg/html/issues/9986,2023-12-09T17:36:53Z,2026-01-23T22:06:26Z,broofa,addition/proposal|needs implementer interest|topic: forms,7
 2028951452,false,"ShadowRoot with true delegatesFocus, predict the target",https://github.com/whatwg/html/issues/9982,2023-12-06T16:32:41Z,2023-12-06T16:33:36Z,flavi1,addition/proposal|needs implementer interest,0
 2028286303,false,Normative references to discontinued specs in HTML Standard,https://github.com/whatwg/html/issues/9981,2023-12-06T11:00:58Z,2023-12-07T06:39:38Z,dontcallmedom-bot,clarification,0
 2024998082,true,Event handler attributes missing from element content attribute definitions,https://github.com/whatwg/html/issues/9978,2023-12-04T23:40:38Z,2023-12-04T23:44:50Z,isAdrisal,,0
@@ -3450,7 +3450,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 489023804,true,Element.dataset vs Element.classList prototype names are confusing,https://github.com/whatwg/html/issues/4885,2019-09-04T08:44:30Z,2019-09-04T15:22:31Z,laukstein,,1
 488696702,false,img.complete behavior is wrong when a new load is started for the same image,https://github.com/whatwg/html/issues/4884,2019-09-03T16:09:41Z,2019-10-22T12:47:17Z,bzbarsky,topic: img,0
 488604580,true,"Definition of ""suffering from bad input"" is too vague.",https://github.com/whatwg/html/issues/4883,2019-09-03T13:24:38Z,2019-09-13T12:39:28Z,JimmySevere,,0
-488420032,false,datalist 'nofilter' attribute,https://github.com/whatwg/html/issues/4882,2019-09-03T06:41:53Z,2026-04-03T19:55:44Z,HarshaLaxman,addition/proposal|needs implementer interest|topic: forms,0
+488420032,false,datalist 'nofilter' attribute,https://github.com/whatwg/html/issues/4882,2019-09-03T06:41:53Z,2026-07-25T19:54:56Z,HarshaLaxman,addition/proposal|needs implementer interest|topic: forms,0
 488055983,true,DocumentOrShadowRoot link errors since #4837,https://github.com/whatwg/html/issues/4879,2019-09-02T08:06:11Z,2019-09-09T19:25:39Z,Ms2ger,,0
 487951246,true,Getter and setter of selectionStart/selectionEnd in spec are inconsistent,https://github.com/whatwg/html/issues/4877,2019-09-02T00:51:44Z,2020-03-27T15:26:49Z,normanzb,topic: forms,0
 487675842,false,Changing virtual keyboard layout dynamically by modifying the inputmode attribute,https://github.com/whatwg/html/issues/4876,2019-08-30T21:23:12Z,2020-12-22T08:07:42Z,mustaqahmed,,3
