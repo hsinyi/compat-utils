@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5013806157,true,good first issue,https://github.com/whatwg/html/issues/12734,2026-07-29T21:39:27Z,2026-07-29T22:33:02Z,longkompheak,invalid,0
 5007624399,false,Add native support for transforming video frames without affecting `<video>` controls,https://github.com/whatwg/html/issues/12732,2026-07-29T09:23:50Z,2026-07-29T09:24:42Z,jimmywarting,addition/proposal|needs implementer interest,0
 4998906340,false,`scroll to the fragment` should check if target is still connected after ancestor revealing algorithm,https://github.com/whatwg/html/issues/12727,2026-07-28T13:10:24Z,2026-07-28T13:10:24Z,jnjaeschke,,0
 4996926029,true,Htet,https://github.com/whatwg/html/issues/12726,2026-07-28T09:14:50Z,2026-07-28T09:38:17Z,mrhtetlin048-droid,invalid,0
@@ -108,7 +109,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4500083348,false,<textarea> tag reflecting indentation tabs in textarea box.,https://github.com/whatwg/html/issues/12479,2026-05-22T05:26:40Z,2026-05-26T18:06:09Z,sc1-moo,,0
 4497299591,true,Upcoming WHATNOT meeting on 2026-05-28,https://github.com/whatwg/html/issues/12476,2026-05-21T19:19:56Z,2026-06-01T15:51:55Z,jstenback,agenda+,0
 4496751327,false,New IDL attributes or methods on AbstractRange to get/set character offsets regardless of node structure,https://github.com/whatwg/html/issues/12475,2026-05-21T17:46:59Z,2026-05-21T17:48:31Z,LeaVerou,addition/proposal|needs implementer interest|stage: 0,1
-4495775259,false,Properly define <select><button> semantics,https://github.com/whatwg/html/issues/12474,2026-05-21T15:22:55Z,2026-06-01T18:02:52Z,annevk,topic: rendering|needs tests|topic: select,0
+4495775259,false,Properly define <select><button> semantics,https://github.com/whatwg/html/issues/12474,2026-05-21T15:22:55Z,2026-07-29T19:25:10Z,annevk,topic: rendering|needs tests|topic: select,0
 4486863810,true,`scrollLeftMax` and `scrollTopMax`,https://github.com/whatwg/html/issues/12472,2026-05-20T13:29:38Z,2026-05-20T16:18:45Z,waterplea,addition/proposal|needs implementer interest,0
 4481999550,false,[focus-without-user-activation] Restricted frames should not be authorized by the target frame's user activation,https://github.com/whatwg/html/issues/12470,2026-05-20T00:03:48Z,2026-05-20T00:03:48Z,ffiori,,0
 4477726418,false,Missing null check in potentially-reset-the-focus,https://github.com/whatwg/html/issues/12469,2026-05-19T13:22:41Z,2026-05-19T13:22:41Z,ltenmoz,,0
@@ -172,7 +173,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4206845634,false,Add `live` attribute to the <time> element for auto-updating display,https://github.com/whatwg/html/issues/12333,2026-04-05T07:32:49Z,2026-06-17T09:25:37Z,Huzaifaabdulrab,addition/proposal|needs implementer interest,1
 4205677703,true,Add `live` and `timezone` attributes to the <time> element,https://github.com/whatwg/html/issues/12332,2026-04-04T19:41:58Z,2026-04-05T07:29:31Z,Huzaifaabdulrab,,0
 4205661586,false,"Native layout boolean attributes for HTML elements (flex, grid, wrap)",https://github.com/whatwg/html/issues/12331,2026-04-04T19:31:41Z,2026-04-04T19:31:41Z,Huzaifaabdulrab,,1
-4201305466,false,"Add the ""action"" and ""method"" attributes to <button>",https://github.com/whatwg/html/issues/12330,2026-04-03T16:38:54Z,2026-07-16T07:48:54Z,alexpetros,addition/proposal|topic: forms,70
+4201305466,false,"Add the ""action"" and ""method"" attributes to <button>",https://github.com/whatwg/html/issues/12330,2026-04-03T16:38:54Z,2026-07-16T07:48:54Z,alexpetros,addition/proposal|topic: forms,72
 4199446642,false,Focus update steps do not match browser behavior when Element#focus() is called in a blur event handler,https://github.com/whatwg/html/issues/12329,2026-04-03T09:15:18Z,2026-04-03T09:37:46Z,mrobinson,,0
 4195491316,false,[Customizable select] Define UA behavior for interactive content inside <option>,https://github.com/whatwg/html/issues/12328,2026-04-02T15:52:11Z,2026-04-23T20:02:14Z,minorninth,accessibility|a11y-tracker|topic: select,0
 4187739049,false,disallow customized builtin elements from being on the list of active formatting elements,https://github.com/whatwg/html/issues/12327,2026-04-01T15:14:46Z,2026-04-03T12:41:10Z,dbaron,topic: parser|topic: custom elements,0
@@ -473,7 +474,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3509594080,false,`Document.parseHTMLUnsafe()` steps involved using `this` for the `TrustedTypes` integration but the method is static in the IDL,https://github.com/whatwg/html/issues/11778,2025-10-13T11:09:07Z,2025-10-14T16:42:33Z,tete17,,0
 3509589229,true,Prepare an image for presentation step 16 should always run,https://github.com/whatwg/html/issues/11777,2025-10-13T11:07:58Z,2025-10-13T17:13:15Z,zcorpan,clarification|topic: img,0
 3503937445,false,Media element is not considered to have ended playback if loop is enabled after reaching the end,https://github.com/whatwg/html/issues/11775,2025-10-10T17:52:03Z,2025-10-15T12:49:14Z,Zaggy1024,topic: media,0
-3503902111,false,Media elements can loop if they reach the end of media playback while paused,https://github.com/whatwg/html/issues/11774,2025-10-10T17:43:40Z,2025-10-28T16:38:16Z,Zaggy1024,topic: media,0
+3503902111,false,Media elements can loop if they reach the end of media playback while paused,https://github.com/whatwg/html/issues/11774,2025-10-10T17:43:40Z,2026-07-29T19:30:13Z,Zaggy1024,topic: media,0
 3503867217,false,Media elements' seek steps do not set the official playback position before parallel steps begin,https://github.com/whatwg/html/issues/11773,2025-10-10T17:32:13Z,2025-10-15T18:25:55Z,Zaggy1024,topic: media,0
 3500855093,true,Clarify drag and drop pointer events,https://github.com/whatwg/html/issues/11771,2025-10-09T23:01:28Z,2025-10-10T11:12:18Z,sb3nder,topic: drag and drop,0
 3499677685,false,`:` character in custom element name,https://github.com/whatwg/html/issues/11770,2025-10-09T15:41:51Z,2025-10-10T11:06:01Z,iccir,topic: custom elements,0
@@ -531,7 +532,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3400048571,true,Permanent anchor request: #dom-document-cookie,https://github.com/whatwg/html/issues/11646,2025-09-09T21:36:52Z,2025-09-18T08:25:21Z,sbingler,anchor permanence,1
 3399270456,false,Question: non-obvious steps in document loading algorithms,https://github.com/whatwg/html/issues/11645,2025-09-09T17:11:18Z,2025-09-16T06:40:17Z,TimvdLippe,clarification|topic: navigation|topic: document lifecycle,0
 3397913640,true,Rendering of print media: Clarify specification’s scope,https://github.com/whatwg/html/issues/11644,2025-09-09T11:03:43Z,2025-09-25T14:23:03Z,BrianJDrake,clarification,0
-3395552388,false,[focusgroup] Declarative directional focus navigation for composite widgets,https://github.com/whatwg/html/issues/11641,2025-09-08T20:10:20Z,2026-06-18T13:52:23Z,janewman,addition/proposal|stage: 2,14
+3395552388,false,[focusgroup] Declarative directional focus navigation for composite widgets,https://github.com/whatwg/html/issues/11641,2025-09-08T20:10:20Z,2026-07-29T21:48:40Z,janewman,addition/proposal|stage: 2,14
 3395173912,true,How to set the fill- and/or stroke-color without large overhead? (Canvas API -- 2D Rendering Context),https://github.com/whatwg/html/issues/11639,2025-09-08T18:14:03Z,2025-09-12T10:21:59Z,0scarB,,0
 3394777681,false,Proposal: Add `preparePrint()` to land all the resources needed by print,https://github.com/whatwg/html/issues/11637,2025-09-08T15:54:18Z,2025-09-23T08:54:06Z,cathiechen,addition/proposal|needs implementer interest,0
 3387646682,true,The appVersion getter steps assume too much about default User-Agent values.,https://github.com/whatwg/html/issues/11630,2025-09-05T13:53:44Z,2025-09-10T05:17:38Z,Psychpsyo,,0
@@ -2691,7 +2692,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 858243907,true,Add FTP related protocols to the registerProtocolHandler safelist.,https://github.com/whatwg/html/issues/6583,2021-04-14T20:35:24Z,2022-02-14T15:26:30Z,asankah,,0
 857135442,true,Lazy loaded images and iframes should be forced to eager when printing,https://github.com/whatwg/html/issues/6581,2021-04-13T16:36:00Z,2024-11-08T12:49:44Z,grakz,topic: img,8
 856429921,true,"Maybe all navigations before the document is completely loaded should be ""replace""",https://github.com/whatwg/html/issues/6579,2021-04-12T23:19:19Z,2021-06-23T16:24:21Z,domenic,topic: navigation|interop,0
-856080891,false,New `indeterminate` attribute for <input type=checkbox>,https://github.com/whatwg/html/issues/6578,2021-04-12T15:15:09Z,2024-10-11T11:02:52Z,patrickhlauke,addition/proposal|needs implementer interest|topic: forms,6
+856080891,false,New `indeterminate` attribute for <input type=checkbox>,https://github.com/whatwg/html/issues/6578,2021-04-12T15:15:09Z,2024-10-11T11:02:52Z,patrickhlauke,addition/proposal|needs implementer interest|topic: forms,9
 855472854,true,[Feature request]: <dialog> and <form> add new function,https://github.com/whatwg/html/issues/6576,2021-04-12T01:42:35Z,2021-04-27T11:28:17Z,annopnod,addition/proposal|needs implementer interest,0
 855409317,true,"""4.10.18.7 Autofill 4.10.18.7.1 Autofilling form...""",https://github.com/whatwg/html/issues/6575,2021-04-11T21:15:22Z,2023-09-18T16:59:17Z,Johnrobmiller,,0
 855283069,true,"""Emit that DOCTYPE token""",https://github.com/whatwg/html/issues/6571,2021-04-11T11:30:02Z,2021-08-25T16:11:40Z,Moosemorals,topic: parser,0
@@ -3846,7 +3847,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 383304020,true,Should clearly define that the ordinary object internal methods are used when not stated otherwise for WindowProxy and Location,https://github.com/whatwg/html/issues/4189,2018-11-21T21:49:36Z,2018-11-27T14:13:43Z,bzbarsky,,0
 383274575,false,Definition of stable state in terms of microtasks does not seem to match browsers,https://github.com/whatwg/html/issues/4188,2018-11-21T20:04:20Z,2019-01-24T01:57:02Z,bzbarsky,topic: event loop,0
 383218019,true,Proposal: allow a mode of form.submit() that behaves like clicking a submit button,https://github.com/whatwg/html/issues/4187,2018-11-21T17:13:17Z,2019-05-16T19:06:55Z,domenic,addition/proposal|topic: forms,10
-382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2026-07-23T19:49:52Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker|stage: 1,80
+382252874,false,<input type=checkbox switch>,https://github.com/whatwg/html/issues/4180,2018-11-19T14:59:03Z,2026-07-23T19:49:52Z,atishay,addition/proposal|topic: rendering|accessibility|topic: forms|a11y-tracker|stage: 1,81
 381558762,true,Consider downloading rather than rendering resources delivered over FTP.,https://github.com/whatwg/html/issues/4178,2018-11-16T11:22:50Z,2018-12-13T14:59:42Z,mikewest,addition/proposal|topic: navigation,1
 381175681,true,Rendering <input type=range> vertically,https://github.com/whatwg/html/issues/4177,2018-11-15T14:05:52Z,2024-03-04T07:10:36Z,MatsPalmgren,topic: rendering|topic: forms,8
 380737191,false,Potentially don't revalidate /favicon.ico fetches,https://github.com/whatwg/html/issues/4176,2018-11-14T14:58:42Z,2018-11-14T16:38:09Z,annevk,compat|topic: link,0
