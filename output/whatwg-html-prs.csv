@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5040654807,false,Clarify tokenizer and tree construction interaction,https://github.com/whatwg/html/pull/12746,2026-08-02T04:25:59Z,2026-08-03T13:36:11Z,alishaansarjaved-oss,topic: parser|editorial,0
+5040654807,true,Clarify tokenizer and tree construction interaction,https://github.com/whatwg/html/pull/12746,2026-08-02T04:25:59Z,2026-08-03T20:22:29Z,alishaansarjaved-oss,topic: parser|editorial,0
 5013903843,false,Add HTMLMediaElement.removeTextTrack() method,https://github.com/whatwg/html/pull/12735,2026-07-29T21:55:56Z,2026-07-31T21:48:35Z,danae404,agenda+,0
 5012595125,false,Specify MouseEvent in select event.button check,https://github.com/whatwg/html/pull/12733,2026-07-29T18:42:40Z,2026-07-29T18:44:20Z,josepharhar,,0
 4995075259,false,Remove stale null module references from #10327,https://github.com/whatwg/html/pull/12725,2026-07-28T04:58:03Z,2026-07-28T07:27:00Z,yoavweiss,,0
@@ -102,7 +102,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4442193895,true,Correct first name of River Champeimont,https://github.com/whatwg/html/pull/12449,2026-05-14T00:54:31Z,2026-05-14T06:37:29Z,rchampeimont,,1
 4442034456,true,Markup: Add `for` attribute to `dfn` for HTMLHyperlinkElementUtils target,https://github.com/whatwg/html/pull/12448,2026-05-14T00:11:30Z,2026-06-15T22:50:37Z,jmdyck,,0
 4436913669,true,"Normative: Add hreflang and type to area, SVG a, and MathML a",https://github.com/whatwg/html/pull/12446,2026-05-13T10:05:51Z,2026-05-18T22:20:23Z,lukewarlow,,0
-4436381204,false,"Add `<meta name=""responsive-embedded-sizing"">`",https://github.com/whatwg/html/pull/12444,2026-05-13T08:54:08Z,2026-07-28T19:40:01Z,kojiishi,agenda+,0
+4436381204,false,"Add `<meta name=""responsive-embedded-sizing"">`",https://github.com/whatwg/html/pull/12444,2026-05-13T08:54:08Z,2026-08-03T19:00:43Z,kojiishi,agenda+,0
 4433013237,true,Editorial: move a and area target IDL to the HTMLHyperlinkElementUtils,https://github.com/whatwg/html/pull/12442,2026-05-12T22:19:15Z,2026-05-13T12:50:36Z,lukewarlow,,0
 4424762864,true,Editorial: Fix typos from recent merges,https://github.com/whatwg/html/pull/12437,2026-05-11T22:32:59Z,2026-06-15T22:50:25Z,jmdyck,,0
 4413928995,true,"Fix ""element with default preferred size"" link",https://github.com/whatwg/html/pull/12434,2026-05-09T21:51:30Z,2026-05-10T06:12:23Z,nicolo-ribaudo,editorial,0
@@ -234,7 +234,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3735064449,true,"Move ""clean up API method tracker"" to the right place",https://github.com/whatwg/html/pull/12022,2025-12-16T14:35:18Z,2026-01-12T10:54:36Z,noamr,,0
 3734374547,true,Fixing button command early-bail steps,https://github.com/whatwg/html/pull/12021,2025-12-16T11:25:01Z,2026-01-09T18:52:27Z,jakearchibald,,1
 3726130924,true,Fix ordering of lifecycle callbacks to match implementations,https://github.com/whatwg/html/pull/12017,2025-12-13T16:09:47Z,2026-03-31T16:14:21Z,lukewarlow,,0
-3720029201,false,Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2026-07-31T21:08:39Z,domfarolino,,0
+3720029201,false,Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2026-08-03T20:51:35Z,domfarolino,,0
 3717708776,false,Skip light dismiss when opening select's picker,https://github.com/whatwg/html/pull/12008,2025-12-11T04:33:36Z,2026-04-30T16:34:49Z,josepharhar,,0
 3714324873,true,Add proposal for maxcount attribute,https://github.com/whatwg/html/pull/12005,2025-12-10T09:24:01Z,2025-12-10T12:59:11Z,milanagowda77656-cloud,invalid,0
 3706163049,false,Introduce customelementregistry global attribute,https://github.com/whatwg/html/pull/12000,2025-12-08T12:24:45Z,2026-07-09T17:43:15Z,ja-y-son,,0
@@ -864,7 +864,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2137817129,true,Change dir=auto to fall back to ltr rather than inheriting,https://github.com/whatwg/html/pull/10140,2024-02-16T03:43:35Z,2024-02-22T18:42:36Z,dbaron,,0
 2137794594,true,Add getHTML() and the serializable concept,https://github.com/whatwg/html/pull/10139,2024-02-16T03:10:47Z,2025-04-25T05:43:05Z,mfreed7,addition/proposal,0
 2133052396,true,Call the view-transition page-visibility change steps,https://github.com/whatwg/html/pull/10137,2024-02-13T20:10:41Z,2024-04-02T08:46:56Z,noamr,,0
-2127277528,true,Add navigation started before other navigation events for WebDriver BiDi,https://github.com/whatwg/html/pull/10132,2024-02-09T14:39:39Z,2024-04-04T11:37:04Z,jrandolf-google,topic: navigation,0
+2127277528,true,Add navigation started before other navigation events for WebDriver BiDi,https://github.com/whatwg/html/pull/10132,2024-02-09T14:39:39Z,2024-04-04T11:37:04Z,jrandolf,topic: navigation,0
 2126643489,true,[WIP] Add may-block reasons for NotRestoredReasons,https://github.com/whatwg/html/pull/10131,2024-02-09T07:55:49Z,2024-03-06T07:50:06Z,rubberyuzu,,0
 2126638785,true,Fix off-by-one error in navigation.canGoForward,https://github.com/whatwg/html/pull/10130,2024-02-09T07:51:29Z,2024-02-09T08:09:41Z,domenic,topic: navigation,0
 2124657255,true,Meta: Drop duplicate dfns of width and height IDL attr for HTMLImageElement,https://github.com/whatwg/html/pull/10127,2024-02-08T08:59:34Z,2024-02-08T09:10:28Z,dontcallmedom,,0
@@ -989,7 +989,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1939502897,true,Editorial: make http-equiv attributes table consistent,https://github.com/whatwg/html/pull/9850,2023-10-12T08:41:13Z,2023-11-21T09:10:07Z,keithamus,,0
 1939480920,true,Editorial: make preload attributes table consistent,https://github.com/whatwg/html/pull/9849,2023-10-12T08:27:32Z,2023-10-17T09:43:48Z,keithamus,,0
 1935018189,true,Editorial: make kind attributes consistent,https://github.com/whatwg/html/pull/9847,2023-10-10T10:34:57Z,2023-10-10T11:59:18Z,keithamus,editorial,0
-1933058172,true,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2024-04-04T11:37:04Z,jrandolf-google,do not merge yet|integration,0
+1933058172,true,Implement WebDriver BiDi interception in the `show the picker` algorithm,https://github.com/whatwg/html/pull/9844,2023-10-09T13:22:03Z,2024-04-04T11:37:04Z,jrandolf,do not merge yet|integration,0
 1932809665,true,Editorial: make fetch priority attributes consistent,https://github.com/whatwg/html/pull/9842,2023-10-09T10:59:10Z,2023-10-09T11:41:54Z,keithamus,editorial,0
 1932098948,true,Add commandfor & command attributes to HTMLButtonElement,https://github.com/whatwg/html/pull/9841,2023-10-08T23:00:35Z,2026-01-07T11:17:19Z,keithamus,addition/proposal,11
 1931367969,true,Editorial: remove some copypasta around CORS settings attribute,https://github.com/whatwg/html/pull/9840,2023-10-07T14:14:19Z,2023-10-08T14:25:55Z,annevk,,0
