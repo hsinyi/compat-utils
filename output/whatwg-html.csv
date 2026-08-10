@@ -24,7 +24,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4998906340,false,`scroll to the fragment` should check if target is still connected after ancestor revealing algorithm,https://github.com/whatwg/html/issues/12727,2026-07-28T13:10:24Z,2026-07-30T22:08:55Z,jnjaeschke,,0
 4996926029,true,Htet,https://github.com/whatwg/html/issues/12726,2026-07-28T09:14:50Z,2026-07-28T09:38:17Z,mrhtetlin048-droid,invalid,0
 4994265700,false,"Session history: reload-pending is set before the reload is queued — so creation/destruction bookkeeping can reach the ""navigationType is not null"" assert",https://github.com/whatwg/html/issues/12724,2026-07-28T02:32:32Z,2026-08-05T07:26:21Z,sideshowbarker,compat|topic: navigation,0
-4986105997,false,"`iframe` listed as ""Interactive content""",https://github.com/whatwg/html/issues/12722,2026-07-27T08:48:25Z,2026-08-09T01:54:58Z,patrickhlauke,,2
+4986105997,false,"`iframe` listed as ""Interactive content""",https://github.com/whatwg/html/issues/12722,2026-07-27T08:48:25Z,2026-08-10T00:03:49Z,patrickhlauke,,2
 4979499638,true,Lucify,https://github.com/whatwg/html/issues/12720,2026-07-26T06:57:10Z,2026-07-26T17:14:35Z,luckydhiman909090-art,invalid,0
 4972591022,true,عففعتغغغ,https://github.com/whatwg/html/issues/12718,2026-07-24T22:27:21Z,2026-07-24T22:47:58Z,ma3267308-cpu,invalid,0
 4969867148,false,[select] Define which children are vs are not slotted.,https://github.com/whatwg/html/issues/12717,2026-07-24T15:31:04Z,2026-07-30T23:39:22Z,emilio,topic: rendering|topic: select,0
@@ -1355,7 +1355,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2175120347,true,"Document ""rendering suppression for view transitions"" also suppresses ""perform pending transition operations""",https://github.com/whatwg/html/issues/10186,2024-03-08T01:40:36Z,2024-03-11T23:40:20Z,nt1m,topic: rendering,0
 2173990781,false,should search for draggable attribute follow dom tree or flattened tree?,https://github.com/whatwg/html/issues/10185,2024-03-07T14:26:12Z,2024-11-07T05:48:19Z,dbaron,,3
 2172574820,false,Is this bad to suggest that placeholder attributes can contain expected formats?,https://github.com/whatwg/html/issues/10183,2024-03-06T22:46:15Z,2024-03-06T22:49:08Z,anevins12,,1
-2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2026-02-18T16:36:26Z,andy-blum,addition/proposal|needs implementer interest|topic: img,30
+2171650548,false,Allow `<source>` elements to query container sizes,https://github.com/whatwg/html/issues/10182,2024-03-06T14:31:48Z,2026-08-09T16:00:01Z,andy-blum,addition/proposal|needs implementer interest|topic: img,30
 2171191672,true,Nits with link rel=expect,https://github.com/whatwg/html/issues/10180,2024-03-06T10:44:29Z,2024-03-11T06:42:48Z,jakearchibald,clarification|topic: rendering,0
 2161745995,false,Declaratively open popovers (and other elements?) on page load,https://github.com/whatwg/html/issues/10171,2024-02-29T17:19:04Z,2024-12-09T16:43:00Z,josepharhar,topic: dialog|topic: popover,1
 2160066080,false,Worklet termination,https://github.com/whatwg/html/issues/10169,2024-02-28T23:43:54Z,2024-03-04T08:12:24Z,daxpedda,addition/proposal|needs implementer interest|topic: worklets,0
@@ -4211,7 +4211,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 305463698,false,OpenType Features and Variable Fonts for Canvas,https://github.com/whatwg/html/issues/3571,2018-03-15T08:57:18Z,2026-03-03T03:16:50Z,drott,addition/proposal|needs implementer interest|topic: canvas|needs concrete proposal,36
 305369552,true,Proposal: Improve control over HTML/XML syntax parse errors,https://github.com/whatwg/html/issues/3569,2018-03-14T23:56:33Z,2022-04-18T15:28:51Z,dvdckl,addition/proposal|needs implementer interest|topic: parser,0
 305147441,true,"<form method> description only says ""HTTP method""",https://github.com/whatwg/html/issues/3568,2018-03-14T12:58:10Z,2018-04-20T07:53:27Z,annevk,good first issue,0
-305140900,true,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2025-10-20T17:06:06Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,199
+305140900,true,Have some way of opening `<dialog>` elements without JavaScript,https://github.com/whatwg/html/issues/3567,2018-03-14T12:37:39Z,2025-10-20T17:06:06Z,keithamus,addition/proposal|needs implementer interest|accessibility|topic: forms|topic: dialog,200
 305020324,true,Separate out document.open() method declaration definitions,https://github.com/whatwg/html/issues/3565,2018-03-14T04:36:27Z,2018-06-28T15:27:09Z,domenic,clarification|good first issue|topic: document.open(),0
 305019688,true,At least Blink does not support document.open()'s replace parameter,https://github.com/whatwg/html/issues/3564,2018-03-14T04:31:43Z,2018-08-23T18:40:33Z,domenic,topic: history|interop|topic: document.open(),0
 304874091,false,<template> element capability/semantics in SVG parsing context,https://github.com/whatwg/html/issues/3563,2018-03-13T17:59:50Z,2018-03-15T07:34:25Z,kevinpschaaf,addition/proposal|needs implementer interest|topic: parser,0
