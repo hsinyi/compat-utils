@@ -3,9 +3,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5100019626,false,Fix typo in .github/CONTRIBUTING.md,https://github.com/whatwg/html/pull/12769,2026-08-08T23:40:50Z,2026-08-11T03:11:46Z,minirang,,0
 5080814496,true,Close unrelated auto popovers when a dialog opens inside a hint popover,https://github.com/whatwg/html/pull/12764,2026-08-06T11:48:36Z,2026-08-11T12:17:24Z,jakearchibald,agenda+,0
 5079477247,false,Correct reflection definition for commandForElement and popoverTargetElement,https://github.com/whatwg/html/pull/12762,2026-08-06T08:59:43Z,2026-08-06T09:25:27Z,lukewarlow,,0
-5079253045,false,Use System colors for links,https://github.com/whatwg/html/pull/12761,2026-08-06T08:30:38Z,2026-08-11T14:58:47Z,TimvdLippe,,1
+5079253045,false,Use System colors for links,https://github.com/whatwg/html/pull/12761,2026-08-06T08:30:38Z,2026-08-13T11:27:14Z,TimvdLippe,,1
 5064001077,false,Stream HTML into element or ShadowRoot,https://github.com/whatwg/html/pull/12758,2026-08-04T19:09:46Z,2026-08-12T16:09:06Z,noamr,,0
-5063591004,false,Sanitize while parsing,https://github.com/whatwg/html/pull/12756,2026-08-04T18:19:56Z,2026-08-12T16:09:07Z,noamr,,1
+5063591004,false,Sanitize while parsing,https://github.com/whatwg/html/pull/12756,2026-08-04T18:19:56Z,2026-08-13T11:34:27Z,noamr,,1
 5063585642,true,Sanitize while parsing,https://github.com/whatwg/html/pull/12755,2026-08-04T18:19:16Z,2026-08-04T18:20:29Z,noamr,,0
 5063528426,false,Positional HTML methods,https://github.com/whatwg/html/pull/12753,2026-08-04T18:11:51Z,2026-08-12T13:25:39Z,noamr,,1
 5063514258,true,Positional HTML methohds,https://github.com/whatwg/html/pull/12752,2026-08-04T18:10:03Z,2026-08-04T18:11:48Z,noamr,,0
@@ -171,7 +171,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4092562422,true,Create index.htm,https://github.com/whatwg/html/pull/12278,2026-03-18T04:05:20Z,2026-03-18T04:51:55Z,maqm41951-eng,invalid,0
 4092538084,true,Create index.htm,https://github.com/whatwg/html/pull/12277,2026-03-18T03:56:21Z,2026-03-18T04:51:19Z,maqm41951-eng,invalid,0
 4092425654,true,Create index.htm,https://github.com/whatwg/html/pull/12276,2026-03-18T03:13:19Z,2026-03-18T04:50:49Z,maqm41951-eng,invalid,0
-4088391283,false,Add EventSource.fromReadableStream(),https://github.com/whatwg/html/pull/12272,2026-03-17T12:57:47Z,2026-03-22T23:23:02Z,lachlanhunt,,2
+4088391283,false,Add EventSource.fromReadableStream(),https://github.com/whatwg/html/pull/12272,2026-03-17T12:57:47Z,2026-03-22T23:23:02Z,lachlanhunt,,3
 4083478419,true,Add shadowrootslotassignment attribute,https://github.com/whatwg/html/pull/12267,2026-03-16T16:20:03Z,2026-04-15T16:35:47Z,keithamus,topic: custom elements,0
 4081539025,true,Set the fragment scripting mode based on the context document,https://github.com/whatwg/html/pull/12266,2026-03-16T10:14:40Z,2026-04-07T12:23:23Z,noamr,,0
 4080722654,true,Meta: correct link to CONTRIBUTING.md in README,https://github.com/whatwg/html/pull/12265,2026-03-16T07:25:30Z,2026-03-16T07:32:17Z,annevk,,0
@@ -185,7 +185,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4034613404,false,Make <option> and <optgroup> share a text content algorithm,https://github.com/whatwg/html/pull/12232,2026-03-06T14:49:40Z,2026-07-15T00:16:51Z,annevk,topic: select,0
 4032014779,true,Editorial: Fix misc,https://github.com/whatwg/html/pull/12229,2026-03-06T03:34:03Z,2026-03-06T16:52:03Z,jmdyck,,0
 4017752636,false,Add moduleRequest to modulepreload fetch parameters,https://github.com/whatwg/html/pull/12223,2026-03-03T17:02:58Z,2026-03-20T17:07:28Z,KurtCattiSchmidt,,0
-4008340208,false,Expand disabled form control event handling spec text,https://github.com/whatwg/html/pull/12219,2026-03-01T21:41:58Z,2026-08-11T16:42:29Z,hjanuschka,agenda+,1
+4008340208,false,Expand disabled form control event handling spec text,https://github.com/whatwg/html/pull/12219,2026-03-01T21:41:58Z,2026-08-13T09:39:09Z,hjanuschka,agenda+,1
 4000861951,true,Restore the minus sign before the default value of tabIndex getter,https://github.com/whatwg/html/pull/12211,2026-02-27T12:43:34Z,2026-02-27T13:48:24Z,mrobinson,,1
 3996929345,true,Make option and optgroup actually disabled inside disabled select,https://github.com/whatwg/html/pull/12205,2026-02-26T17:50:28Z,2026-05-07T13:55:42Z,josepharhar,,1
 3991450591,true,Define option and optgroup base appearance rendering,https://github.com/whatwg/html/pull/12201,2026-02-25T19:53:35Z,2026-06-25T06:18:08Z,josepharhar,normative change|topic: rendering|topic: select,0
@@ -1092,7 +1092,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1818258169,true,Make the directionality account for missing parent element,https://github.com/whatwg/html/pull/9554,2023-07-24T11:49:33Z,2023-08-31T05:41:01Z,annevk,i18n-tracker,1
 1817297523,true,Tweak `thead` description to clarify it can contain non-header cells,https://github.com/whatwg/html/pull/9552,2023-07-23T21:11:39Z,2023-07-25T09:17:22Z,patrickhlauke,,0
 1815020757,true,selectmenu,https://github.com/whatwg/html/pull/9547,2023-07-21T01:27:53Z,2023-09-23T13:34:59Z,josepharhar,,1
-1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2026-07-23T16:11:53Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms,30
+1814975575,false,Add switch attribute to the input element to allow for a two-state switch control.,https://github.com/whatwg/html/pull/9546,2023-07-21T00:23:09Z,2026-08-13T11:01:33Z,lilyspiniolas,addition/proposal|needs implementer interest|topic: forms,30
 1813916540,true,This Pull Request implements form validation on the HTML <output> element to display the calculated result.,https://github.com/whatwg/html/pull/9544,2023-07-20T12:44:22Z,2024-10-08T14:04:19Z,cijian23,invalid,1
 1813671797,true,Use correct settings object for modules imported in workers,https://github.com/whatwg/html/pull/9541,2023-07-20T10:34:11Z,2023-07-24T07:22:54Z,nicolo-ribaudo,topic: script,0
 1812982540,true,Add setHTMLUnsafe and parseHTMLUnsafe methods,https://github.com/whatwg/html/pull/9538,2023-07-20T01:31:03Z,2023-10-11T23:22:22Z,josepharhar,addition/proposal|topic: parser|impacts documentation,1
