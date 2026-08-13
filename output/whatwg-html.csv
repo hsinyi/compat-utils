@@ -3,7 +3,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5129674249,false,"#navigate should call #abort-the-ongoing-navigation when #checking-if-unloading-is-canceled returns ""canceled-by-beforeunload""",https://github.com/whatwg/html/issues/12779,2026-08-12T10:04:55Z,2026-08-12T10:04:55Z,farre,topic: navigation,0
 5129231100,false,Initial about:blank behavior before load differs between the spec and browsers,https://github.com/whatwg/html/issues/12778,2026-08-12T09:12:13Z,2026-08-12T09:12:13Z,vinhill,,0
 5124031218,false,Support render blocking on content in an iframe,https://github.com/whatwg/html/issues/12777,2026-08-11T19:53:42Z,2026-08-11T19:54:10Z,khushalsagar,addition/proposal|needs implementer interest,0
-5123486560,false,"[focusgroupV2] Add item controls, feed, and grid navigation",https://github.com/whatwg/html/issues/12776,2026-08-11T18:45:33Z,2026-08-11T19:37:31Z,janewman,addition/proposal|needs implementer interest|agenda+,0
+5123486560,false,"[focusgroupV2] Add item controls, feed, and grid navigation",https://github.com/whatwg/html/issues/12776,2026-08-11T18:45:33Z,2026-08-12T23:00:52Z,janewman,addition/proposal|needs implementer interest|agenda+,0
 5121248337,false,"Define the principles of what the ""disable scripting"" preference stands for",https://github.com/whatwg/html/issues/12775,2026-08-11T14:28:22Z,2026-08-11T14:29:03Z,noamr,clarification|topic: script|editorial,0
 5119853370,true,Upcoming WHATNOT meeting on 20YY-MM-DD,https://github.com/whatwg/html/issues/12774,2026-08-11T11:53:01Z,2026-08-11T20:19:24Z,louisevega70-ux,invalid,0
 5113276973,false,Navigable is never taken out of delaying load events mode if javascript: navigation does not create a document,https://github.com/whatwg/html/issues/12773,2026-08-10T18:42:24Z,2026-08-10T18:42:24Z,jdm,,0
@@ -11,7 +11,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5101809509,false,Add `crossOriginStorage` import attribute (COS integration),https://github.com/whatwg/html/issues/12771,2026-08-09T09:20:27Z,2026-08-09T09:20:27Z,tomayac,addition/proposal|needs implementer interest,0
 5101804371,false,Add `crossoriginstorage` attribute to `<link>` and `<script>`,https://github.com/whatwg/html/issues/12770,2026-08-09T09:19:22Z,2026-08-09T09:22:00Z,tomayac,addition/proposal|needs implementer interest,0
 5094001551,false,Style Module Imports via Link Elements,https://github.com/whatwg/html/issues/12767,2026-08-07T21:13:11Z,2026-08-11T20:35:22Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow,1
-5084144115,false,Upcoming WHATNOT meeting on 2026-08-13,https://github.com/whatwg/html/issues/12766,2026-08-06T19:14:45Z,2026-08-08T20:32:48Z,jstenback,agenda+,1
+5084144115,false,Upcoming WHATNOT meeting on 2026-08-13,https://github.com/whatwg/html/issues/12766,2026-08-06T19:14:45Z,2026-08-12T18:21:00Z,jstenback,agenda+,1
 5083998987,true,Upcoming WHATNOT meeting on 20YY-MM-DD,https://github.com/whatwg/html/issues/12765,2026-08-06T18:49:22Z,2026-08-06T19:53:02Z,rushiwanhkede-debug,invalid,0
 5080120847,true,Opening a dialog within a hint popover,https://github.com/whatwg/html/issues/12763,2026-08-06T10:18:23Z,2026-08-11T12:17:23Z,jakearchibald,topic: dialog|topic: popover,0
 5067491643,false,“Apply the history step” clears “reload pending” before both of its consumers read it,https://github.com/whatwg/html/issues/12760,2026-08-05T05:02:55Z,2026-08-05T17:45:05Z,sideshowbarker,compat|topic: navigation|topic: history,0
@@ -354,7 +354,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3789433373,true,"""update a color well control color"" works based on the input value concept while WPT expects the value attribute",https://github.com/whatwg/html/issues/12057,2026-01-07T16:27:03Z,2026-01-14T13:00:53Z,saschanaz,topic: forms,1
 3787213214,false,Cryptographic User Content Offload/Obfuscation,https://github.com/whatwg/html/issues/12055,2026-01-07T03:26:19Z,2026-01-07T03:26:19Z,skeggse,addition/proposal|needs implementer interest,1
 3785243871,true,Should HTMLInputElement.colorSpace setter trigger sanitization?,https://github.com/whatwg/html/issues/12053,2026-01-06T13:59:06Z,2026-01-06T15:58:14Z,saschanaz,,0
-3771255288,false,Filtering support for customizable select,https://github.com/whatwg/html/issues/12050,2025-12-30T20:46:20Z,2026-08-03T18:11:21Z,josepharhar,addition/proposal|needs implementer interest|topic: select,4
+3771255288,false,Filtering support for customizable select,https://github.com/whatwg/html/issues/12050,2025-12-30T20:46:20Z,2026-08-12T20:41:07Z,josepharhar,addition/proposal|needs implementer interest|topic: select,4
 3771158236,false,Base appearance for drop-down select multiple,https://github.com/whatwg/html/issues/12049,2025-12-30T20:02:00Z,2026-01-09T01:59:57Z,josepharhar,topic: select,0
 3769282508,false,Unclear interactions between Resource Timing and preloads,https://github.com/whatwg/html/issues/12047,2025-12-30T06:50:38Z,2025-12-30T06:50:38Z,jdm,,0
 3768896787,false,Worker constructor specification doesn't match browser behaviour for cross-origin URLs,https://github.com/whatwg/html/issues/12046,2025-12-30T03:06:52Z,2025-12-30T03:07:27Z,jdm,,0
