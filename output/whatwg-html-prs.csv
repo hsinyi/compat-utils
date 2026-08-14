@@ -1,13 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5132777487,false,"[forms] Remove anonymous button content-box, and use CSS rather than magic for input / button block axis centering.",https://github.com/whatwg/html/pull/12781,2026-08-12T15:53:27Z,2026-08-12T15:58:57Z,emilio,,0
+5132777487,false,"[forms] Remove anonymous button content-box, and use CSS rather than magic for input / button block axis centering.",https://github.com/whatwg/html/pull/12781,2026-08-12T15:53:27Z,2026-08-13T14:28:16Z,emilio,,0
 5100019626,false,Fix typo in .github/CONTRIBUTING.md,https://github.com/whatwg/html/pull/12769,2026-08-08T23:40:50Z,2026-08-11T03:11:46Z,minirang,,0
 5080814496,true,Close unrelated auto popovers when a dialog opens inside a hint popover,https://github.com/whatwg/html/pull/12764,2026-08-06T11:48:36Z,2026-08-11T12:17:24Z,jakearchibald,agenda+,0
 5079477247,false,Correct reflection definition for commandForElement and popoverTargetElement,https://github.com/whatwg/html/pull/12762,2026-08-06T08:59:43Z,2026-08-06T09:25:27Z,lukewarlow,,0
-5079253045,false,Use System colors for links,https://github.com/whatwg/html/pull/12761,2026-08-06T08:30:38Z,2026-08-13T11:27:14Z,TimvdLippe,,1
-5064001077,false,Stream HTML into element or ShadowRoot,https://github.com/whatwg/html/pull/12758,2026-08-04T19:09:46Z,2026-08-12T16:09:06Z,noamr,,0
-5063591004,false,Sanitize while parsing,https://github.com/whatwg/html/pull/12756,2026-08-04T18:19:56Z,2026-08-13T11:34:27Z,noamr,,1
+5079253045,false,Use System colors for links,https://github.com/whatwg/html/pull/12761,2026-08-06T08:30:38Z,2026-08-13T18:30:58Z,TimvdLippe,,1
+5064001077,false,Stream HTML into element or ShadowRoot,https://github.com/whatwg/html/pull/12758,2026-08-04T19:09:46Z,2026-08-14T12:33:11Z,noamr,,0
+5063591004,false,Sanitize while parsing,https://github.com/whatwg/html/pull/12756,2026-08-04T18:19:56Z,2026-08-14T08:57:16Z,noamr,,1
 5063585642,true,Sanitize while parsing,https://github.com/whatwg/html/pull/12755,2026-08-04T18:19:16Z,2026-08-04T18:20:29Z,noamr,,0
-5063528426,false,Positional HTML methods,https://github.com/whatwg/html/pull/12753,2026-08-04T18:11:51Z,2026-08-12T13:25:39Z,noamr,,1
+5063528426,false,Positional HTML methods,https://github.com/whatwg/html/pull/12753,2026-08-04T18:11:51Z,2026-08-14T08:51:37Z,noamr,,1
 5063514258,true,Positional HTML methohds,https://github.com/whatwg/html/pull/12752,2026-08-04T18:10:03Z,2026-08-04T18:11:48Z,noamr,,0
 5040654807,true,Clarify tokenizer and tree construction interaction,https://github.com/whatwg/html/pull/12746,2026-08-02T04:25:59Z,2026-08-03T20:22:29Z,alishaansarjaved-oss,topic: parser|editorial,0
 5013903843,false,Add HTMLMediaElement.removeTextTrack() method,https://github.com/whatwg/html/pull/12735,2026-07-29T21:55:56Z,2026-08-06T21:55:46Z,danae404,topic: media,0
@@ -68,7 +68,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4681710394,false,[draft] Spell check custom dictionary,https://github.com/whatwg/html/pull/12590,2026-06-17T09:02:23Z,2026-07-30T16:14:42Z,bkardell,addition/proposal|needs implementer interest|i18n-tracker|needs tests|a11y-tracker|stage: 1,0
 4681135612,true,"Attributes index: fix method, formmethod values",https://github.com/whatwg/html/pull/12586,2026-06-17T07:35:03Z,2026-06-17T08:35:19Z,chris-morgan,,0
 4677518436,false,Enable Responsive Images and Alternative Text for HTML Video Poster Images,https://github.com/whatwg/html/pull/12585,2026-06-16T20:06:29Z,2026-07-07T14:12:25Z,scottjehl,,7
-4674928368,false,Integrate fragment parser options with trusted types,https://github.com/whatwg/html/pull/12583,2026-06-16T14:05:44Z,2026-08-12T14:32:11Z,noamr,,0
+4674928368,false,Integrate fragment parser options with trusted types,https://github.com/whatwg/html/pull/12583,2026-06-16T14:05:44Z,2026-08-14T08:59:14Z,noamr,do not merge yet,0
 4667627744,false,Integrate with MakeRealm,https://github.com/whatwg/html/pull/12580,2026-06-15T18:04:33Z,2026-06-24T08:12:31Z,annevk,topic: script|integration,0
 4658488223,false,Specify task source for EventSource queued tasks,https://github.com/whatwg/html/pull/12578,2026-06-14T08:48:46Z,2026-06-26T13:43:33Z,Payal-03,,0
 4649608983,false,Define targetSnapshotParams in the javascript: steps,https://github.com/whatwg/html/pull/12572,2026-06-12T13:28:35Z,2026-06-16T08:03:50Z,zcorpan,topic: javascript: URLs,0
@@ -331,7 +331,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3473184206,false,[Not for review yet] Add CanvasToneMapping to CanvasSettings,https://github.com/whatwg/html/pull/11734,2025-10-01T11:35:30Z,2026-07-21T23:23:29Z,ccameron-chromium,,0
 3468542329,true,"Clarify preload ""as"" processing",https://github.com/whatwg/html/pull/11727,2025-09-30T09:52:38Z,2025-10-06T06:38:02Z,noamr,,0
 3468172849,true,Consolidate navigation API abort paths,https://github.com/whatwg/html/pull/11725,2025-09-30T08:30:11Z,2025-10-08T12:54:32Z,noamr,,0
-3466650602,false,"[focusgroup] Add the focusgroup attribute ",https://github.com/whatwg/html/pull/11723,2025-09-29T21:16:04Z,2026-07-20T16:25:39Z,janewman,,0
+3466650602,false,"[focusgroup] Add the focusgroup attribute ",https://github.com/whatwg/html/pull/11723,2025-09-29T21:16:04Z,2026-08-13T17:26:03Z,janewman,,0
 3465600964,true,Make option disabledness look for ancestor optgroups,https://github.com/whatwg/html/pull/11721,2025-09-29T15:45:49Z,2025-11-17T12:19:06Z,josepharhar,,0
 3465492267,true,Make option.form use nearest ancestor select,https://github.com/whatwg/html/pull/11720,2025-09-29T15:18:42Z,2025-10-07T12:59:59Z,josepharhar,topic: select,0
 3464943763,true,Navigation API: Pass abort error as reason,https://github.com/whatwg/html/pull/11719,2025-09-29T13:05:43Z,2025-10-29T10:00:26Z,noamr,topic: navigation,0
@@ -584,7 +584,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2846556240,true,Editorial: move definition of submit button,https://github.com/whatwg/html/pull/11018,2025-02-11T21:31:34Z,2025-02-11T22:07:06Z,keithamus,,0
 2842888093,true,redefine dialog closedby IDL to return computed value,https://github.com/whatwg/html/pull/11015,2025-02-10T16:00:22Z,2025-02-27T09:06:54Z,keithamus,topic: dialog|topic: close watchers,0
 2838206082,true,"Editorial: remove extra ""value"" in ""nonzero"" definition",https://github.com/whatwg/html/pull/11009,2025-02-07T13:47:22Z,2025-02-07T15:06:30Z,foolip,,0
-2835336619,false,Add the `interestfor` attribute,https://github.com/whatwg/html/pull/11006,2025-02-06T12:01:00Z,2026-04-27T21:05:52Z,foolip,,4
+2835336619,false,Add the `interestfor` attribute,https://github.com/whatwg/html/pull/11006,2025-02-06T12:01:00Z,2026-08-13T20:37:54Z,foolip,,4
 2834196191,true,Editorial: switch links back to official CSSWG drafts,https://github.com/whatwg/html/pull/11005,2025-02-05T23:54:24Z,2025-02-06T02:18:33Z,Loirooriol,,0
 2833243175,true,Editorial: fix link and wording for tuple origin,https://github.com/whatwg/html/pull/11001,2025-02-05T15:17:39Z,2025-02-06T01:25:39Z,zcorpan,clarification|topic: origin,0
 2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2025-04-16T13:40:27Z,AndresRPerez12,do not merge yet|topic: canvas,3

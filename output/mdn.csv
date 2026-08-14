@@ -52,7 +52,7 @@ api/Animation/Animation,,48,,75,,13.1,,false,true,false,https://drafts.csswg.org
 api/Animation/cancel,,48,,75,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-cancel,W3C
 api/Animation/cancel_event,,48,,75,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-oncancel,W3C
 api/Animation/commitStyles,,75,,84,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-commitstyles,W3C
-api/Animation/commitStyles/endpoint_inclusive_commitStyles,,142,,,,,,true,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-commitstyles,W3C
+api/Animation/commitStyles/endpoint_inclusive_commitStyles,,142,,144,,26.2,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-commitstyles,W3C
 api/Animation/currentTime,,48,,75,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-currenttime,W3C
 api/Animation/effect,,63,,75,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-effect,W3C
 api/Animation/finish,,48,,75,,13.1,,false,true,false,https://drafts.csswg.org/web-animations-1/#dom-animation-finish,W3C
@@ -3258,6 +3258,7 @@ api/HTMLElement/togglePopover/options_source_parameter/implicit_anchor_reference
 api/HTMLElement/togglePopover/returns_boolean,,125,,116,,17,,false,true,false,https://html.spec.whatwg.org/multipage/popover.html#dom-togglepopover,WHATWG
 api/HTMLElement/toggle_event,,49,,36,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-toggle,WHATWG
 api/HTMLElement/toggle_event/details_elements,,49,,36,,10.1,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-toggle,WHATWG
+api/HTMLElement/toggle_event/details_elements/uses_toggleevent,,120,,119,,17.2,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-toggle,WHATWG
 api/HTMLElement/toggle_event/dialog_elements,,133,,132,,26,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-toggle,WHATWG
 api/HTMLElement/toggle_event/popover_elements,,125,,114,,17,,false,true,false,https://html.spec.whatwg.org/multipage/indices.html#event-toggle,WHATWG
 api/HTMLElement/translate,,111,,19,,6,,false,true,false,https://html.spec.whatwg.org/multipage/dom.html#dom-translate,WHATWG
@@ -5990,6 +5991,8 @@ api/PressureRecord/state,,,,125,,,,true,true,false,https://w3c.github.io/compute
 api/PressureRecord/time,,,,125,,,,true,true,false,https://w3c.github.io/compute-pressure/#the-time-attribute,W3C
 api/PressureRecord/toJSON,,,,125,,,,true,true,false,https://w3c.github.io/compute-pressure/#the-tojson-member,W3C
 api/ProcessingInstruction,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#interface-processinginstruction,WHATWG
+api/ProcessingInstruction/doc_html,,,,150,,,,true,true,false,https://html.spec.whatwg.org/multipage/syntax.html#processing-instructions,WHATWG
+api/ProcessingInstruction/doc_xml,,1,,1,,1,,false,true,false,https://dom.spec.whatwg.org/#interface-processinginstruction,WHATWG
 api/ProcessingInstruction/getAttribute,,,,150,,,,true,true,false,https://dom.spec.whatwg.org/#dom-processinginstruction-getattribute,WHATWG
 api/ProcessingInstruction/getAttributeNames,,,,150,,,,true,true,false,https://dom.spec.whatwg.org/#dom-processinginstruction-getattributenames,WHATWG
 api/ProcessingInstruction/hasAttribute,,,,150,,,,true,true,false,https://dom.spec.whatwg.org/#dom-processinginstruction-hasattribute,WHATWG
@@ -7439,10 +7442,10 @@ api/SVGTextContentElement/textLength,,1.5,,1,,3,,false,true,false,https://w3c.gi
 api/SVGTextElement,,1.5,,1,,3,,false,true,false,https://w3c.github.io/svgwg/svg2-draft/text.html#InterfaceSVGTextElement,W3C
 api/SVGTextPathElement,,2,,1,,3.1,,false,true,false,https://w3c.github.io/svgwg/svg2-draft/text.html#InterfaceSVGTextPathElement,W3C
 api/SVGTextPathElement/href,,2,,1,,3.1,,false,true,false,https://w3c.github.io/svgwg/svg2-draft/types.html#__svg__SVGURIReference__href,W3C
-api/SVGTextPathElement/method,,20,,1,,3.1,,false,true,false,https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextPathElement__method,W3C
+api/SVGTextPathElement/method,,2,,1,,3.1,,false,true,false,https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextPathElement__method,W3C
 api/SVGTextPathElement/side,,152,,,,,,true,false,false,,NONE
-api/SVGTextPathElement/spacing,,20,,1,,3.1,,false,true,false,https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextPathElement__spacing,W3C
-api/SVGTextPathElement/startOffset,,20,,1,,3.1,,false,true,false,https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextPathElement__startOffset,W3C
+api/SVGTextPathElement/spacing,,2,,1,,3.1,,false,true,false,https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextPathElement__spacing,W3C
+api/SVGTextPathElement/startOffset,,2,,1,,3.1,,false,true,false,https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextPathElement__startOffset,W3C
 api/SVGTextPositioningElement,,1.5,,1,,3,,false,true,false,https://w3c.github.io/svgwg/svg2-draft/text.html#InterfaceSVGTextPositioningElement,W3C
 api/SVGTextPositioningElement/dx,,1.5,,1,,3,,false,true,false,https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextPositioningElement__dx,W3C
 api/SVGTextPositioningElement/dy,,1.5,,1,,3,,false,true,false,https://w3c.github.io/svgwg/svg2-draft/text.html#__svg__SVGTextPositioningElement__dy,W3C
@@ -8610,6 +8613,7 @@ api/VideoFrame/codedRect,,130,,94,,16.4,,false,true,false,https://w3c.github.io/
 api/VideoFrame/codedWidth,,130,,94,,16.4,,false,true,false,https://w3c.github.io/webcodecs/#dom-videoframe-codedwidth,W3C
 api/VideoFrame/colorSpace,,130,,94,,16.4,,false,true,false,https://w3c.github.io/webcodecs/#dom-videoframe-colorspace,W3C
 api/VideoFrame/copyTo,,130,,94,,16.4,,false,true,false,https://w3c.github.io/webcodecs/#dom-videoframe-copyto,W3C
+api/VideoFrame/copyTo/format_property,,130,,127,,,,false,true,false,https://w3c.github.io/webcodecs/#dom-videoframecopytooptions-format,W3C
 api/VideoFrame/displayHeight,,130,,94,,16.4,,false,true,false,https://w3c.github.io/webcodecs/#dom-videoframe-displayheight,W3C
 api/VideoFrame/displayWidth,,130,,94,,16.4,,false,true,false,https://w3c.github.io/webcodecs/#dom-videoframe-displaywidth,W3C
 api/VideoFrame/duration,,130,,94,,16.4,,false,true,false,https://w3c.github.io/webcodecs/#dom-videoframe-duration,W3C
@@ -10225,7 +10229,7 @@ css/at-rules/property,,128,,85,,16.4,,false,true,false,https://drafts.css-houdin
 css/at-rules/property/inherits,,128,,85,,16.4,,false,true,false,https://drafts.css-houdini.org/css-properties-values-api/#inherits-descriptor,W3C
 css/at-rules/property/initial-value,,128,,85,,16.4,,false,true,false,https://drafts.css-houdini.org/css-properties-values-api/#initial-value-descriptor,W3C
 css/at-rules/property/syntax,,128,,85,,16.4,,false,true,false,https://drafts.css-houdini.org/css-properties-values-api/#the-syntax-descriptor,W3C
-css/at-rules/scope,,146,,118,,17.4,,false,true,false,https://drafts.csswg.org/css-cascade-6/#scoped-styles,W3C
+css/at-rules/scope,,146,,118,,26.4,,false,true,false,https://drafts.csswg.org/css-cascade-6/#scoped-styles,W3C
 css/at-rules/starting-style,,129,,117,,17.5,,false,true,false,https://drafts.csswg.org/css-transitions-2/#defining-before-change-style,W3C
 css/at-rules/supports,,22,,28,,9,,false,true,false,https://drafts.csswg.org/css-conditional-5/#at-supports-ext,W3C
 css/at-rules/supports/at-rule,,,,148,,,,true,true,false,https://drafts.csswg.org/css-conditional-5/#typedef-supports-at-rule-fn,W3C
@@ -11804,7 +11808,6 @@ css/properties/grid-template-columns,,52,,57,,10.1,,false,true,false,https://dra
 css/properties/grid-template-columns/animation,,66,,107,,16,,false,true,false,https://drafts.csswg.org/css-animations/#animation,W3C
 css/properties/grid-template-columns/auto,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-auto,W3C
 css/properties/grid-template-columns/fit-content,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#funcdef-grid-template-columns-fit-content,W3C
-css/properties/grid-template-columns/masonry,,preview,,,,preview,,true,true,false,https://drafts.csswg.org/css-grid-3/#grid-lanes-model,W3C
 css/properties/grid-template-columns/max-content,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-max-content,W3C
 css/properties/grid-template-columns/min-content,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-min-content,W3C
 css/properties/grid-template-columns/minmax,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#funcdef-grid-template-columns-minmax,W3C
@@ -11815,7 +11818,6 @@ css/properties/grid-template-rows,,52,,57,,10.1,,false,true,false,https://drafts
 css/properties/grid-template-rows/animation,,66,,107,,16,,false,true,false,https://drafts.csswg.org/css-animations/#animation,W3C
 css/properties/grid-template-rows/auto,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-auto,W3C
 css/properties/grid-template-rows/fit-content,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#funcdef-grid-template-columns-fit-content,W3C
-css/properties/grid-template-rows/masonry,,preview,,,,preview,,true,true,false,https://drafts.csswg.org/css-grid-3/#grid-lanes-model,W3C
 css/properties/grid-template-rows/max-content,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-max-content,W3C
 css/properties/grid-template-rows/min-content,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid-2/#valdef-grid-template-columns-min-content,W3C
 css/properties/grid-template-rows/minmax,,52,,57,,10.1,,false,true,false,https://drafts.csswg.org/css-grid/#funcdef-grid-template-columns-minmax,W3C
@@ -13131,12 +13133,13 @@ css/properties/text-autospace/normal,,145,,140,,18.4,,false,true,false,https://d
 css/properties/text-autospace/punctuation,,,,,,,,false,true,false,https://drafts.csswg.org/css-text-4/#valdef-text-autospace-punctuation,W3C
 css/properties/text-autospace/replace,,,,,,,,false,true,false,https://drafts.csswg.org/css-text-4/#valdef-text-autospace-replace,W3C
 css/properties/text-box,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#text-box-shorthand,W3C
-css/properties/text-box/alphabetic,,154,,,,,,true,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-alphabetic,W3C
+css/properties/text-box/alphabetic,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-alphabetic,W3C
 css/properties/text-box/auto,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-text-box-edge-auto,W3C
-css/properties/text-box/cap,,154,,,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-cap,W3C
-css/properties/text-box/ex,,154,,,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ex,W3C
-css/properties/text-box/ideographic,,154,,,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ideographic,W3C
-css/properties/text-box/ideographic-ink,,154,,,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ideographic-ink,W3C
+css/properties/text-box/cap,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-cap,W3C
+css/properties/text-box/ex,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ex,W3C
+css/properties/text-box/ideographic,,154,,,,,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ideographic,W3C
+css/properties/text-box/ideographic-ink,,154,,,,,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ideographic-ink,W3C
+css/properties/text-box/inline_elements,,154,,,,26.5,,false,true,false,https://drafts.csswg.org/css-inline-3/#propdef-text-box-trim,W3C
 css/properties/text-box/none,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-none,W3C
 css/properties/text-box/normal,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-text-box-normal,W3C
 css/properties/text-box/text,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-text,W3C
@@ -13144,14 +13147,15 @@ css/properties/text-box/trim-both,,154,,133,,18.2,,false,true,false,https://draf
 css/properties/text-box/trim-end,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-trim-end,W3C
 css/properties/text-box/trim-start,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-trim-start,W3C
 css/properties/text-box-edge,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#text-box-edge,W3C
-css/properties/text-box-edge/alphabetic,,154,,,,,,true,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-alphabetic,W3C
+css/properties/text-box-edge/alphabetic,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-alphabetic,W3C
 css/properties/text-box-edge/auto,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-text-box-edge-auto,W3C
-css/properties/text-box-edge/cap,,154,,,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-cap,W3C
-css/properties/text-box-edge/ex,,154,,,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ex,W3C
-css/properties/text-box-edge/ideographic,,154,,,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ideographic,W3C
-css/properties/text-box-edge/ideographic-ink,,154,,,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ideographic-ink,W3C
+css/properties/text-box-edge/cap,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-cap,W3C
+css/properties/text-box-edge/ex,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ex,W3C
+css/properties/text-box-edge/ideographic,,154,,,,,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ideographic,W3C
+css/properties/text-box-edge/ideographic-ink,,154,,,,,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-ideographic-ink,W3C
 css/properties/text-box-edge/text,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-line-fit-edge-text,W3C
 css/properties/text-box-trim,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#text-box-trim,W3C
+css/properties/text-box-trim/inline_elements,,154,,,,26.5,,false,true,false,https://drafts.csswg.org/css-inline-3/#text-box-trim,W3C
 css/properties/text-box-trim/none,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-none,W3C
 css/properties/text-box-trim/trim-both,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-trim-both,W3C
 css/properties/text-box-trim/trim-end,,154,,133,,18.2,,false,true,false,https://drafts.csswg.org/css-inline-3/#valdef-text-box-trim-trim-end,W3C
@@ -13583,6 +13587,7 @@ css/selectors/-webkit-slider-runnable-track,,,,26,,18,,false,false,false,,NONE
 css/selectors/-webkit-slider-thumb,,,,32,,18,,false,false,false,,NONE
 css/selectors/active,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-active,WHATWG
 css/selectors/active/non_a_elements,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-active,WHATWG
+css/selectors/active/top-layer_ancestor_matching_boundary,,,,149,,,,true,true,false,https://drafts.csswg.org/selectors/#useraction-pseudos:~:text=they%20also%20match%20on%20the%20element%E2%80%99s%20flat%20tree%20ancestors%2C%20up%20to%20and%20including%20the%20first%20top%20layer%20element,W3C
 css/selectors/active-view-transition,,144,,125,,18,,false,true,false,https://drafts.csswg.org/css-view-transitions-2/#the-active-view-transition-pseudo,W3C
 css/selectors/active-view-transition-type,,147,,125,,18.2,,false,true,false,https://drafts.csswg.org/css-view-transitions-2/#the-active-view-transition-type-pseudo,W3C
 css/selectors/after,,1.5,,1,,4,,false,true,false,https://drafts.csswg.org/css-pseudo/#generated-content,W3C
@@ -13634,6 +13639,7 @@ css/selectors/first-of-type,,3.5,,1,,3.1,,false,true,false,https://drafts.csswg.
 css/selectors/focus,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-focus,WHATWG
 css/selectors/focus-visible,,85,,86,,15.4,,false,true,false,https://drafts.csswg.org/selectors/#the-focus-visible-pseudo,W3C
 css/selectors/focus-within,,52,,60,,10.1,,false,true,false,https://drafts.csswg.org/selectors/#the-focus-within-pseudo,W3C
+css/selectors/focus-within/top-layer_ancestor_matching_boundary,,,,149,,,,true,true,false,https://drafts.csswg.org/selectors/#useraction-pseudos:~:text=they%20also%20match%20on%20the%20element%E2%80%99s%20flat%20tree%20ancestors%2C%20up%20to%20and%20including%20the%20first%20top%20layer%20element,W3C
 css/selectors/fullscreen,,64,,71,,16.4,,false,true,false,https://drafts.csswg.org/selectors/#selectordef-fullscreen,W3C
 css/selectors/fullscreen/all_elements,,43,,,,,,false,true,false,https://drafts.csswg.org/selectors/#selectordef-fullscreen,W3C
 css/selectors/future,,,,23,,7,,false,true,false,https://drafts.csswg.org/selectors-5/#the-future-pseudo,W3C
@@ -13649,6 +13655,7 @@ css/selectors/hostfunction,,63,,54,,10,,false,true,false,https://drafts.csswg.or
 css/selectors/hover,,1,,1,,2,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-hover,WHATWG
 css/selectors/hover/a_elements,,1,,1,,2,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-hover,WHATWG
 css/selectors/hover/all_elements,,1,,1,,2,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-hover,WHATWG
+css/selectors/hover/top-layer_ancestor_matching_boundary,,,,149,,,,true,true,false,https://drafts.csswg.org/selectors/#useraction-pseudos:~:text=they%20also%20match%20on%20the%20element%E2%80%99s%20flat%20tree%20ancestors%2C%20up%20to%20and%20including%20the%20first%20top%20layer%20element,W3C
 css/selectors/id,,1,,1,,1,,false,true,false,https://drafts.csswg.org/selectors/#id-selectors,W3C
 css/selectors/in-range,,29,,10,,5.1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-in-range,WHATWG
 css/selectors/indeterminate,,2,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/semantics-other.html#selector-indeterminate,WHATWG
@@ -14297,7 +14304,7 @@ html/elements/form,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multi
 html/elements/form/accept-charset,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/forms.html#attr-form-accept-charset,WHATWG
 html/elements/form/action,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-action,WHATWG
 html/elements/form/autocomplete,,4,,14,,6,,false,true,false,https://html.spec.whatwg.org/multipage/forms.html#attr-form-autocomplete,WHATWG
-html/elements/form/autocomplete/new-password,,67,,,,,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete-new-password,WHATWG
+html/elements/form/autocomplete/new-password,,69,,69,,10,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete-new-password,WHATWG
 html/elements/form/autocomplete/one-time-code,,109,,93,,12,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete-one-time-code,WHATWG
 html/elements/form/autocomplete/webauthn,,122,,108,,16.4,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete-webauthn,WHATWG
 html/elements/form/enctype,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-enctype,WHATWG
@@ -14321,7 +14328,7 @@ html/elements/geolocation,,,,144,,,,true,true,false,https://wicg.github.io/PEPC/
 html/elements/geolocation/autolocate,,,,144,,,,true,true,false,https://wicg.github.io/PEPC/geolocation-element.html#element-attrdef-geolocation-autolocate,W3CCG
 html/elements/geolocation/watch,,,,144,,,,true,true,false,https://wicg.github.io/PEPC/geolocation-element.html#element-attrdef-geolocation-watch,W3CCG
 html/elements/h1,,1,,1,,1,,false,true,false,"https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",WHATWG
-html/elements/h1/no_ua_styles_in_article_aside_nav_section,,140,,,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/rendering.html#sections-and-headings,WHATWG
+html/elements/h1/no_ua_styles_in_article_aside_nav_section,,140,,140,,26.2,,false,true,false,https://html.spec.whatwg.org/multipage/rendering.html#sections-and-headings,WHATWG
 html/elements/h2,,1,,1,,1,,false,true,false,"https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",WHATWG
 html/elements/h3,,1,,1,,1,,false,true,false,"https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",WHATWG
 html/elements/h4,,1,,1,,1,,false,true,false,"https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",WHATWG
@@ -14330,6 +14337,7 @@ html/elements/h6,,1,,1,,1,,false,true,false,"https://html.spec.whatwg.org/multip
 html/elements/head,,1,,1,,1,,false,true,false,https://html.spec.whatwg.org/multipage/semantics.html#the-head-element,WHATWG
 html/elements/header,,4,,5,,5,,false,true,false,https://html.spec.whatwg.org/multipage/sections.html#the-header-element,WHATWG
 html/elements/hgroup,,4,,5,,5,,false,true,false,https://html.spec.whatwg.org/multipage/sections.html#the-hgroup-element,WHATWG
+html/elements/hgroup/implicit_group_role,,124,,113,,,,false,true,false,https://w3c.github.io/html-aam/#el-hgroup,W3C
 html/elements/hr,,1,,1,,3,,false,true,false,https://html.spec.whatwg.org/multipage/grouping-content.html#the-hr-element,WHATWG
 html/elements/hr/align,,1,,1,,≤4,,false,false,true,,NONE
 html/elements/hr/color,,1,,33,,10.1,,false,false,true,,NONE
