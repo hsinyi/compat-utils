@@ -1,8 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5157607638,false,Simplify `<object>`/`<embed>` exposedness for document named properties,https://github.com/whatwg/html/issues/12787,2026-08-15T04:18:04Z,2026-08-15T04:18:04Z,domenic,interop|topic: embed and object,0
+5168548796,false,Should a javascript: URL that doesn't create a new document trigger a load event?,https://github.com/whatwg/html/issues/12788,2026-08-17T05:15:12Z,2026-08-17T09:33:02Z,jdm,topic: frames/navigables/browsing contexts|topic: javascript: URLs,0
+5157607638,false,Simplify `<object>`/`<embed>` exposedness for document named properties,https://github.com/whatwg/html/issues/12787,2026-08-15T04:18:04Z,2026-08-17T08:57:02Z,domenic,interop|topic: embed and object,0
 5144169428,false,Upcoming WHATNOT meeting on 2026-08-20,https://github.com/whatwg/html/issues/12783,2026-08-13T17:41:26Z,2026-08-13T17:41:26Z,jstenback,agenda+,0
-5139741830,false,Performance Issue: Main single-page specification loads whole spec at root URL,https://github.com/whatwg/html/issues/12782,2026-08-13T09:12:28Z,2026-08-13T17:34:56Z,YutaKyle,,0
-5130942267,false,Either expose HTTP Header to Javascript or expose the cookies to fetch API's response,https://github.com/whatwg/html/issues/12780,2026-08-12T12:36:55Z,2026-08-13T19:24:25Z,peperronii,addition/proposal|needs implementer interest,0
+5139741830,false,Performance Issue: Main single-page specification loads whole spec at root URL,https://github.com/whatwg/html/issues/12782,2026-08-13T09:12:28Z,2026-08-17T09:43:12Z,YutaKyle,meta,0
 5129674249,false,"#navigate should call #abort-the-ongoing-navigation when #checking-if-unloading-is-canceled returns ""canceled-by-beforeunload""",https://github.com/whatwg/html/issues/12779,2026-08-12T10:04:55Z,2026-08-12T10:04:55Z,farre,topic: navigation,0
 5129231100,false,Initial about:blank behavior before load differs between the spec and browsers,https://github.com/whatwg/html/issues/12778,2026-08-12T09:12:13Z,2026-08-12T09:12:13Z,vinhill,,0
 5124031218,false,Support render blocking on content in an iframe,https://github.com/whatwg/html/issues/12777,2026-08-11T19:53:42Z,2026-08-11T19:54:10Z,khushalsagar,addition/proposal|needs implementer interest,0
@@ -18,7 +18,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5067491643,false,“Apply the history step” clears “reload pending” before both of its consumers read it,https://github.com/whatwg/html/issues/12760,2026-08-05T05:02:55Z,2026-08-05T17:45:05Z,sideshowbarker,compat|topic: navigation|topic: history,0
 5065381762,true,Upcoming WHATNOT meeting on 20YY-MM-DD,https://github.com/whatwg/html/issues/12759,2026-08-04T22:17:45Z,2026-08-05T09:18:53Z,asgharmalik557,invalid,0
 5063719766,false,Media element load algorithm step 7.3 detaches the wrong MediaSource — the assigned media provider object has already been reassigned by then,https://github.com/whatwg/html/issues/12757,2026-08-04T18:36:01Z,2026-08-05T07:26:17Z,sideshowbarker,compat|topic: media,0
-5043319571,false,Proposal: Native Declarative HTML Partial Inclusions (<include> / <html-include>),https://github.com/whatwg/html/issues/12747,2026-08-02T16:06:29Z,2026-08-02T16:06:29Z,alokrathava,addition/proposal|needs implementer interest,0
+5043319571,false,Proposal: Native Declarative HTML Partial Inclusions (<include> / <html-include>),https://github.com/whatwg/html/issues/12747,2026-08-02T16:06:29Z,2026-08-17T02:19:32Z,alokrathava,addition/proposal|needs implementer interest,0
 5037033339,false,Parser text node data modification also needs to fire children changed steps,https://github.com/whatwg/html/issues/12744,2026-08-01T12:38:25Z,2026-08-01T12:38:25Z,domenic,topic: parser,0
 5033567336,false,JS API to associate form controls with a form element.,https://github.com/whatwg/html/issues/12743,2026-07-31T21:36:49Z,2026-08-06T08:05:57Z,lukewarlow,addition/proposal|needs implementer interest,1
 5024620094,true,Brayne,https://github.com/whatwg/html/issues/12739,2026-07-30T22:46:41Z,2026-07-31T00:10:40Z,braintracyini000-stack,invalid,0
@@ -2823,7 +2823,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 799189344,false,Fetch's request's credentials mode not set correctly,https://github.com/whatwg/html/issues/6354,2021-02-02T11:20:39Z,2021-02-23T05:14:37Z,annevk,topic: fetch|integration,0
 798578057,false,Incubation / standardization process for new control primitives,https://github.com/whatwg/html/issues/6350,2021-02-01T17:53:28Z,2021-02-02T07:50:44Z,melanierichards,meta,0
 798571781,true,New feature proposal: <popup> element,https://github.com/whatwg/html/issues/6349,2021-02-01T17:44:42Z,2022-04-04T23:28:19Z,melanierichards,addition/proposal|needs implementer interest,9
-797587617,false,[Idea] a playlist for audio and video,https://github.com/whatwg/html/issues/6345,2021-01-31T00:40:18Z,2021-03-06T13:29:26Z,jimmywarting,addition/proposal|needs implementer interest|topic: media,4
+797587617,true,[Idea] a playlist for audio and video,https://github.com/whatwg/html/issues/6345,2021-01-31T00:40:18Z,2026-08-17T08:03:27Z,jimmywarting,addition/proposal|needs implementer interest|topic: media,4
 796877852,true,Idea for a new specification that can be used to store browser authentication information. Authorization Storage (pseudonym),https://github.com/whatwg/html/issues/6341,2021-01-29T13:22:57Z,2021-01-29T13:25:19Z,aoisensi,,0
 796651486,true,"Fetching worker script algorithms should take ""perform the fetch"" as an optional param.",https://github.com/whatwg/html/issues/6339,2021-01-29T07:27:40Z,2022-09-06T03:12:42Z,mfalken,topic: script,0
 796597523,false,Section 4.3.10 example,https://github.com/whatwg/html/issues/6338,2021-01-29T05:43:53Z,2021-02-04T17:06:45Z,NicoleSharp2000,document conformance,0
