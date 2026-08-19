@@ -5094,6 +5094,40 @@
     ]
   },
   {
+    "url": "https://tc39.es/proposal-await-dictionary/",
+    "seriesComposition": "full",
+    "shortname": "tc39-await-dictionary",
+    "series": {
+      "shortname": "tc39-await-dictionary",
+      "currentSpecification": "tc39-await-dictionary",
+      "title": "Await Dictionary",
+      "shortTitle": "Await Dictionary",
+      "nightlyUrl": "https://tc39.es/proposal-await-dictionary/"
+    },
+    "organization": "Ecma International",
+    "groups": [
+      {
+        "name": "TC39",
+        "url": "https://tc39.es/"
+      }
+    ],
+    "nightly": {
+      "url": "https://tc39.es/proposal-await-dictionary/",
+      "status": "Editor's Draft",
+      "alternateUrls": [],
+      "repository": "https://github.com/tc39/proposal-await-dictionary",
+      "sourcePath": "spec.emu",
+      "filename": "index.html"
+    },
+    "title": "Await Dictionary",
+    "source": "spec",
+    "shortTitle": "Await Dictionary",
+    "categories": [
+      "browser"
+    ],
+    "standing": "good"
+  },
+  {
     "url": "https://tc39.es/proposal-canonical-tz/",
     "seriesComposition": "full",
     "shortname": "tc39-canonical-tz",
@@ -22384,7 +22418,7 @@
     ],
     "release": {
       "url": "https://www.w3.org/TR/epub-a11y-12/",
-      "status": "Candidate Recommendation Snapshot",
+      "status": "Candidate Recommendation Draft",
       "filename": "Overview.html"
     },
     "title": "EPUB Accessibility 1.2",
@@ -25855,7 +25889,13 @@
     "categories": [
       "browser"
     ],
-    "standing": "good"
+    "standing": "good",
+    "tests": {
+      "repository": "https://github.com/web-platform-tests/wpt",
+      "testPaths": [
+        "payment-method-manifest"
+      ]
+    }
   },
   {
     "url": "https://www.w3.org/TR/payment-request/",

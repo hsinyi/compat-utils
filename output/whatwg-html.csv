@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5182836503,false,"Add keyboard modifiers to focused <input type=""number"">",https://github.com/whatwg/html/issues/12795,2026-08-18T14:19:52Z,2026-08-18T14:19:52Z,jsnkuhn,addition/proposal|needs implementer interest,0
 5172651373,false,Possible oversight in `HostLoadImportedModule`,https://github.com/whatwg/html/issues/12790,2026-08-17T14:05:10Z,2026-08-17T14:07:01Z,Gae24,,0
 5168548796,false,Should a javascript: URL that doesn't create a new document trigger a load event?,https://github.com/whatwg/html/issues/12788,2026-08-17T05:15:12Z,2026-08-17T09:33:02Z,jdm,topic: frames/navigables/browsing contexts|topic: javascript: URLs,0
 5157607638,false,Simplify `<object>`/`<embed>` exposedness for document named properties,https://github.com/whatwg/html/issues/12787,2026-08-15T04:18:04Z,2026-08-17T08:57:02Z,domenic,interop|topic: embed and object,0
@@ -77,8 +78,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4695511901,false,Should select with base appearance have overflow:clip or overflow:hidden by default?,https://github.com/whatwg/html/issues/12597,2026-06-18T19:47:22Z,2026-06-19T08:30:28Z,josepharhar,topic: rendering|topic: select,0
 4693230892,false,Scrolling to a fragment should have consistent focus handling,https://github.com/whatwg/html/issues/12596,2026-06-18T14:21:04Z,2026-06-22T14:06:09Z,Th3S4mur41,topic: navigation|topic: focus,5
 4691671077,false,Consider allowing sync loads from the available image list even for srcset / picture cases.,https://github.com/whatwg/html/issues/12595,2026-06-18T10:52:41Z,2026-06-18T10:52:41Z,emilio,topic: img,0
-4685410868,false,Support QUERY method in form submissions,https://github.com/whatwg/html/issues/12594,2026-06-17T17:04:40Z,2026-07-13T05:17:29Z,chris-morgan,addition/proposal|needs implementer interest|topic: forms,27
-4681867449,false,Localized time formatting without JavaScript,https://github.com/whatwg/html/issues/12591,2026-06-17T09:24:10Z,2026-06-24T16:35:09Z,lucacasonato,addition/proposal|needs implementer interest|i18n-tracker|needs tests|needs concrete proposal|stage: 1,183
+4685410868,false,Support QUERY method in form submissions,https://github.com/whatwg/html/issues/12594,2026-06-17T17:04:40Z,2026-07-13T05:17:29Z,chris-morgan,addition/proposal|needs implementer interest|topic: forms,28
+4681867449,false,Localized time formatting without JavaScript,https://github.com/whatwg/html/issues/12591,2026-06-17T09:24:10Z,2026-06-24T16:35:09Z,lucacasonato,addition/proposal|needs implementer interest|i18n-tracker|needs tests|needs concrete proposal|stage: 1,188
 4681580289,false,Specificity of `hidden` attribute table rules is lower than generic `hidden` rules,https://github.com/whatwg/html/issues/12589,2026-06-17T08:43:23Z,2026-06-23T22:52:13Z,mrobinson,topic: rendering,0
 4681421169,false,Proposal: global digest-based inline module resolution,https://github.com/whatwg/html/issues/12588,2026-06-17T08:18:44Z,2026-06-23T17:38:56Z,noamr,addition/proposal|needs implementer interest|topic: script|topic: imports/exports,0
 4681349459,false,"Clarify how proxies (windowproxy, location) are created in terms of js operations",https://github.com/whatwg/html/issues/12587,2026-06-17T08:07:30Z,2026-06-18T09:57:36Z,gterzian,integration|needs concrete proposal,0
@@ -626,7 +627,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3260411291,true,Meeting 26 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11483,2025-07-24T16:00:41Z,2025-08-14T21:58:41Z,mfreed7,,0
 3255853568,false,Input type monetary,https://github.com/whatwg/html/issues/11480,2025-07-23T10:42:41Z,2025-09-06T03:00:41Z,PlaySafe,addition/proposal|needs implementer interest|topic: forms,0
 3255670043,false,Content-Type on multipart/form-data part without setting filename,https://github.com/whatwg/html/issues/11479,2025-07-23T09:41:01Z,2025-07-25T07:58:40Z,faerytea,addition/proposal|needs implementer interest,0
-3250174379,false,OpaqueRange Interface,https://github.com/whatwg/html/issues/11478,2025-07-21T22:11:15Z,2026-07-07T08:23:38Z,t-andresre,addition/proposal|stage: 2,4
+3250174379,false,OpaqueRange Interface,https://github.com/whatwg/html/issues/11478,2025-07-21T22:11:15Z,2026-07-07T08:23:38Z,t-andresre,addition/proposal|stage: 2,5
 3249337860,true,Base appearance for list box select elements,https://github.com/whatwg/html/issues/11477,2025-07-21T16:42:21Z,2025-12-15T21:24:56Z,josepharhar,topic: select,0
 3249191419,true,Meeting 25 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11476,2025-07-21T15:55:43Z,2025-07-24T16:01:53Z,mfreed7,,0
 3245553588,false,`Link` header parsing too lenient according to RFC 8288,https://github.com/whatwg/html/issues/11468,2025-07-19T18:48:32Z,2026-05-19T06:28:13Z,TimvdLippe,integration,0
@@ -1074,7 +1075,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2555508180,true,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-10-30T05:36:43Z,domenic,normative change|topic: dialog|topic: popover,1
 2551969947,true,Upcoming WHATNOT meeting on 2024-10-03,https://github.com/whatwg/html/issues/10652,2024-09-27T04:30:41Z,2024-10-02T15:00:07Z,past,agenda+,0
 2551884785,false,Nested `contenteditable=true` and `contenteditable=plaintext-only` should win only the ourtermost one,https://github.com/whatwg/html/issues/10651,2024-09-27T02:53:27Z,2024-09-30T21:55:52Z,masayuki-nakano,needs tests|needs concrete proposal|topic: editing,0
-2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-06-25T16:05:36Z,khushalsagar,addition/proposal|topic: canvas|stage: 2,3
+2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-08-18T15:08:28Z,khushalsagar,addition/proposal|topic: canvas|agenda+|stage: 2,3
 2549044519,true,Resolving  of transition and finished promises is mismatched between spec and tests,https://github.com/whatwg/html/issues/10646,2024-09-25T21:39:11Z,2024-09-30T10:14:17Z,rwlbuis,topic: navigation,0
 2544017899,true,"'reading-flow' and ""display: contents""",https://github.com/whatwg/html/issues/10643,2024-09-24T00:42:59Z,2024-09-24T16:09:09Z,tabatkins,topic: focus,0
 2543972242,false,tabindex vs reading-flow property,https://github.com/whatwg/html/issues/10642,2024-09-24T00:01:25Z,2025-03-12T17:10:41Z,tabatkins,topic: focus,3

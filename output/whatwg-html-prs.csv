@@ -1,9 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5180768747,false,Remove cross-origin check for simple dialogs,https://github.com/whatwg/html/pull/12794,2026-08-18T10:27:34Z,2026-08-18T11:49:54Z,noamr,,0
+5180768747,true,Remove cross-origin check for simple dialogs,https://github.com/whatwg/html/pull/12794,2026-08-18T10:27:34Z,2026-08-18T12:44:38Z,noamr,,0
 5175041975,false,Editorial: Define tuple origin domains as hosts,https://github.com/whatwg/html/pull/12792,2026-08-17T20:12:50Z,2026-08-17T20:14:27Z,shannonbooth,,0
 5154504729,false,"Editorial: fix the ""reload"" navTimingType cross-reference",https://github.com/whatwg/html/pull/12785,2026-08-14T18:16:11Z,2026-08-14T18:17:46Z,shannonbooth,,0
-5132777487,false,"[forms] Remove anonymous button content-box, and use CSS rather than magic for input / button block axis centering.",https://github.com/whatwg/html/pull/12781,2026-08-12T15:53:27Z,2026-08-18T11:23:39Z,emilio,,0
-5100019626,false,Fix typo in .github/CONTRIBUTING.md,https://github.com/whatwg/html/pull/12769,2026-08-08T23:40:50Z,2026-08-11T03:11:46Z,minirang,,0
+5132777487,false,"[forms] Remove anonymous button content-box, and use CSS rather than magic for input / button block axis centering.",https://github.com/whatwg/html/pull/12781,2026-08-12T15:53:27Z,2026-08-18T17:07:53Z,emilio,,0
+5100019626,false,"Fix typos (even if, suspicious) in CONTRIBUTING.md",https://github.com/whatwg/html/pull/12769,2026-08-08T23:40:50Z,2026-08-18T13:21:17Z,minirang,,0
 5080814496,true,Close unrelated auto popovers when a dialog opens inside a hint popover,https://github.com/whatwg/html/pull/12764,2026-08-06T11:48:36Z,2026-08-11T12:17:24Z,jakearchibald,agenda+,0
 5079477247,false,Correct reflection definition for commandForElement and popoverTargetElement,https://github.com/whatwg/html/pull/12762,2026-08-06T08:59:43Z,2026-08-06T09:25:27Z,lukewarlow,,0
 5079253045,false,Use System colors for links,https://github.com/whatwg/html/pull/12761,2026-08-06T08:30:38Z,2026-08-13T18:30:58Z,TimvdLippe,,1
@@ -19,7 +19,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4986878598,false,Fix grammar in autofill field notes,https://github.com/whatwg/html/pull/12723,2026-07-27T10:21:34Z,2026-07-28T17:02:52Z,Hashim1999164,,0
 4941374041,false,Add WebDriver BiDi CSP bypass hooks,https://github.com/whatwg/html/pull/12711,2026-07-21T17:16:29Z,2026-07-21T17:19:19Z,juliandescottes,,0
 4923298103,false,Drop a node the adoption agency cannot reinsert,https://github.com/whatwg/html/pull/12709,2026-07-19T15:39:18Z,2026-08-18T11:07:42Z,annevk,topic: parser,0
-4922947817,false,Clarify when a parser-inserted element is dropped on the floor,https://github.com/whatwg/html/pull/12708,2026-07-19T13:57:31Z,2026-08-18T10:14:01Z,annevk,topic: parser,0
+4922947817,false,Clarify when a parser-inserted element is dropped on the floor,https://github.com/whatwg/html/pull/12708,2026-07-19T13:57:31Z,2026-08-18T15:39:38Z,annevk,topic: parser,0
 4922039129,true,Editorial: remove redundant decimal character reference start state,https://github.com/whatwg/html/pull/12707,2026-07-19T08:55:40Z,2026-07-19T13:52:02Z,annevk,,0
 4917333393,false,Order shadow root concepts consistently,https://github.com/whatwg/html/pull/12703,2026-07-18T07:39:50Z,2026-07-18T07:41:24Z,annevk,,0
 4912317687,true,Clarify that foreign content is not an insertion mode,https://github.com/whatwg/html/pull/12700,2026-07-17T14:41:34Z,2026-07-18T14:31:27Z,annevk,topic: parser,0
@@ -37,7 +37,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4862183466,false,Account for a cloned document's base URL,https://github.com/whatwg/html/pull/12674,2026-07-11T12:12:56Z,2026-07-11T12:17:03Z,annevk,,0
 4860179569,true,Editorial: correct missing fragment identifiers in anchor links,https://github.com/whatwg/html/pull/12673,2026-07-11T02:47:44Z,2026-07-11T09:50:24Z,JinDX,,0
 4855436442,true,Editorial: Tweak a sentence in `update the image data`,https://github.com/whatwg/html/pull/12671,2026-07-10T13:28:02Z,2026-07-13T02:47:08Z,jmdyck,,0
-4853708251,true,Create nodes in the realm of the document they are created for,https://github.com/whatwg/html/pull/12669,2026-07-10T09:16:57Z,2026-07-17T12:30:35Z,annevk,,0
+4853708251,true,Create nodes in the realm of the document they are created for,https://github.com/whatwg/html/pull/12669,2026-07-10T09:16:57Z,2026-08-18T21:27:07Z,annevk,,0
 4848740709,false,Fix insertion location of <template> for declarative shadow roots,https://github.com/whatwg/html/pull/12666,2026-07-09T18:09:43Z,2026-07-13T13:03:00Z,shannonbooth,,0
 4845278871,true,Mark <base> as Unsafe for Sanitization,https://github.com/whatwg/html/pull/12664,2026-07-09T10:08:19Z,2026-07-09T12:06:52Z,evilpie,security-tracker|topic: sanitizer,0
 4837493246,true,Editorial: merge the text track concept into TextTrack,https://github.com/whatwg/html/pull/12659,2026-07-08T12:38:07Z,2026-07-08T15:04:23Z,annevk,topic: media,0
@@ -188,7 +188,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4034613404,false,Make <option> and <optgroup> share a text content algorithm,https://github.com/whatwg/html/pull/12232,2026-03-06T14:49:40Z,2026-07-15T00:16:51Z,annevk,topic: select,0
 4032014779,true,Editorial: Fix misc,https://github.com/whatwg/html/pull/12229,2026-03-06T03:34:03Z,2026-03-06T16:52:03Z,jmdyck,,0
 4017752636,false,Add moduleRequest to modulepreload fetch parameters,https://github.com/whatwg/html/pull/12223,2026-03-03T17:02:58Z,2026-03-20T17:07:28Z,KurtCattiSchmidt,,0
-4008340208,false,Expand disabled form control event handling spec text,https://github.com/whatwg/html/pull/12219,2026-03-01T21:41:58Z,2026-08-18T11:02:42Z,hjanuschka,,1
+4008340208,false,Expand disabled form control event handling spec text,https://github.com/whatwg/html/pull/12219,2026-03-01T21:41:58Z,2026-08-18T21:33:48Z,hjanuschka,,1
 4000861951,true,Restore the minus sign before the default value of tabIndex getter,https://github.com/whatwg/html/pull/12211,2026-02-27T12:43:34Z,2026-02-27T13:48:24Z,mrobinson,,1
 3996929345,true,Make option and optgroup actually disabled inside disabled select,https://github.com/whatwg/html/pull/12205,2026-02-26T17:50:28Z,2026-05-07T13:55:42Z,josepharhar,,1
 3991450591,true,Define option and optgroup base appearance rendering,https://github.com/whatwg/html/pull/12201,2026-02-25T19:53:35Z,2026-06-25T06:18:08Z,josepharhar,normative change|topic: rendering|topic: select,0
@@ -216,7 +216,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3917443610,true,Pass and use better parent/root information to (re)moving steps.,https://github.com/whatwg/html/pull/12144,2026-02-09T17:47:09Z,2026-02-12T14:38:31Z,dbaron,,0
 3912962747,true,Editorial: Fix some markup + wording,https://github.com/whatwg/html/pull/12143,2026-02-08T15:39:46Z,2026-02-09T21:49:27Z,jmdyck,,0
 3891566683,true,"Editorial: modernize/consistify string and ""current token"" style",https://github.com/whatwg/html/pull/12128,2026-02-03T14:31:03Z,2026-02-08T08:50:38Z,foolip,,0
-3889549162,false,Editorial: Clarify return value of Storage property accessor,https://github.com/whatwg/html/pull/12127,2026-02-03T06:56:21Z,2026-06-22T08:53:58Z,shannonbooth,,0
+3889549162,false,Editorial: Clarify return value of Storage property accessor,https://github.com/whatwg/html/pull/12127,2026-02-03T06:56:21Z,2026-08-18T15:44:42Z,shannonbooth,,0
 3885015798,true,Pass the correct iframe fallback URL to resource timing,https://github.com/whatwg/html/pull/12124,2026-02-02T09:56:50Z,2026-05-11T11:37:25Z,noamr,,0
 3877956159,true,Parse XML-style <?target data?> processing instructions,https://github.com/whatwg/html/pull/12118,2026-01-31T00:22:11Z,2026-06-25T09:07:27Z,foolip,,4
 3866756722,true,Editorial: Use the correct Module Record in HostLoadImportedModule,https://github.com/whatwg/html/pull/12114,2026-01-28T18:23:25Z,2026-01-29T12:05:08Z,nicolo-ribaudo,,2
@@ -334,7 +334,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3473184206,false,[Not for review yet] Add CanvasToneMapping to CanvasSettings,https://github.com/whatwg/html/pull/11734,2025-10-01T11:35:30Z,2026-07-21T23:23:29Z,ccameron-chromium,,0
 3468542329,true,"Clarify preload ""as"" processing",https://github.com/whatwg/html/pull/11727,2025-09-30T09:52:38Z,2025-10-06T06:38:02Z,noamr,,0
 3468172849,true,Consolidate navigation API abort paths,https://github.com/whatwg/html/pull/11725,2025-09-30T08:30:11Z,2025-10-08T12:54:32Z,noamr,,0
-3466650602,false,"[focusgroup] Add the focusgroup attribute ",https://github.com/whatwg/html/pull/11723,2025-09-29T21:16:04Z,2026-08-17T09:17:08Z,janewman,,0
+3466650602,false,"[focusgroup] Add the focusgroup attribute ",https://github.com/whatwg/html/pull/11723,2025-09-29T21:16:04Z,2026-08-19T00:21:01Z,janewman,,0
 3465600964,true,Make option disabledness look for ancestor optgroups,https://github.com/whatwg/html/pull/11721,2025-09-29T15:45:49Z,2025-11-17T12:19:06Z,josepharhar,,0
 3465492267,true,Make option.form use nearest ancestor select,https://github.com/whatwg/html/pull/11720,2025-09-29T15:18:42Z,2025-10-07T12:59:59Z,josepharhar,topic: select,0
 3464943763,true,Navigation API: Pass abort error as reason,https://github.com/whatwg/html/pull/11719,2025-09-29T13:05:43Z,2025-10-29T10:00:26Z,noamr,topic: navigation,0
@@ -387,7 +387,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3356225711,false,"[FYI, not ready for review] Add globalHDRHeadroom to CanvasCompositing interface",https://github.com/whatwg/html/pull/11597,2025-08-26T15:51:38Z,2025-10-01T08:29:20Z,ccameron-chromium,,0
 3344286687,true,chore(css): normalize prefers-color-scheme spacing in styles.css,https://github.com/whatwg/html/pull/11591,2025-08-22T06:18:20Z,2025-08-22T06:32:55Z,ArjunSaluja,invalid,0
 3342044580,true,use integer over anb syntax for heading,https://github.com/whatwg/html/pull/11589,2025-08-21T14:47:23Z,2025-08-27T12:55:08Z,keithamus,,0
-3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-07-15T06:27:31Z,foolip,,5
+3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-08-18T14:30:14Z,foolip,,5
 3337110965,true,[meta] Add dfn type and scope for HTMLMediaElement.src,https://github.com/whatwg/html/pull/11581,2025-08-20T08:32:57Z,2025-08-21T00:28:09Z,dontcallmedom,,1
 3336967031,true,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation,0
 3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
