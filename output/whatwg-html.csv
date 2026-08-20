@@ -1,4 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5195381865,false,`autofocus` can be flaky on a custom element that’s defined asynchronously,https://github.com/whatwg/html/issues/12799,2026-08-19T17:27:27Z,2026-08-19T17:27:27Z,marchbox,,0
+5194390508,false,MessagePort should probably fire `close` event from a task,https://github.com/whatwg/html/issues/12797,2026-08-19T15:34:36Z,2026-08-19T15:34:36Z,nicolo-ribaudo,,0
+5193959579,false,Track element's resource loading algorithm doesn't match browsers,https://github.com/whatwg/html/issues/12796,2026-08-19T14:50:10Z,2026-08-19T14:50:10Z,jdm,,0
 5182836503,false,"Add keyboard modifiers to focused <input type=""number"">",https://github.com/whatwg/html/issues/12795,2026-08-18T14:19:52Z,2026-08-18T14:19:52Z,jsnkuhn,addition/proposal|needs implementer interest,0
 5172651373,false,Possible oversight in `HostLoadImportedModule`,https://github.com/whatwg/html/issues/12790,2026-08-17T14:05:10Z,2026-08-17T14:07:01Z,Gae24,,0
 5168548796,false,Should a javascript: URL that doesn't create a new document trigger a load event?,https://github.com/whatwg/html/issues/12788,2026-08-17T05:15:12Z,2026-08-17T09:33:02Z,jdm,topic: frames/navigables/browsing contexts|topic: javascript: URLs,0
@@ -75,7 +78,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4717722760,false,Switch the return type of `NavigateEvent.scroll()` from `undefined` to `Promise`,https://github.com/whatwg/html/issues/12605,2026-06-22T14:45:07Z,2026-06-22T16:11:14Z,nwidynski,,0
 4709737828,false,List membership of Sanitizer name in Sanitizer API,https://github.com/whatwg/html/issues/12601,2026-06-21T07:40:15Z,2026-06-21T07:41:33Z,kkoyung,topic: sanitizer,0
 4701993729,false,Allow empty specifier in import maps,https://github.com/whatwg/html/issues/12598,2026-06-19T15:52:51Z,2026-06-19T15:53:16Z,LeaVerou,addition/proposal|needs implementer interest|stage: 0|topic: imports/exports,0
-4695511901,false,Should select with base appearance have overflow:clip or overflow:hidden by default?,https://github.com/whatwg/html/issues/12597,2026-06-18T19:47:22Z,2026-06-19T08:30:28Z,josepharhar,topic: rendering|topic: select,0
+4695511901,false,Should select with base appearance have overflow:clip or overflow:hidden by default?,https://github.com/whatwg/html/issues/12597,2026-06-18T19:47:22Z,2026-08-19T16:37:04Z,josepharhar,topic: rendering|topic: select,0
 4693230892,false,Scrolling to a fragment should have consistent focus handling,https://github.com/whatwg/html/issues/12596,2026-06-18T14:21:04Z,2026-06-22T14:06:09Z,Th3S4mur41,topic: navigation|topic: focus,5
 4691671077,false,Consider allowing sync loads from the available image list even for srcset / picture cases.,https://github.com/whatwg/html/issues/12595,2026-06-18T10:52:41Z,2026-06-18T10:52:41Z,emilio,topic: img,0
 4685410868,false,Support QUERY method in form submissions,https://github.com/whatwg/html/issues/12594,2026-06-17T17:04:40Z,2026-07-13T05:17:29Z,chris-morgan,addition/proposal|needs implementer interest|topic: forms,28
@@ -101,7 +104,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4633061375,false,"""Evaluate a javascript url"" refers to non-existent targetSnapshotParams.",https://github.com/whatwg/html/issues/12563,2026-06-10T16:29:41Z,2026-06-12T13:26:55Z,AtkinsSJ,topic: javascript: URLs,0
 4630107413,false,Nodes are made non-inert before sanitizing,https://github.com/whatwg/html/issues/12560,2026-06-10T10:02:38Z,2026-06-10T14:55:45Z,zcorpan,topic: sanitizer,0
 4629211457,true,Select min size,https://github.com/whatwg/html/issues/12559,2026-06-10T07:58:01Z,2026-06-10T12:52:55Z,sb3nder,,0
-4627890896,false,"select fallback button text, div element",https://github.com/whatwg/html/issues/12558,2026-06-10T04:11:54Z,2026-06-25T17:34:52Z,sb3nder,topic: select,0
+4627890896,false,"select fallback button text, div element",https://github.com/whatwg/html/issues/12558,2026-06-10T04:11:54Z,2026-08-19T16:36:11Z,sb3nder,topic: select,0
 4624169534,false,Explicit bug report: selectionStart and selectionEnd missing from applicable form fields,https://github.com/whatwg/html/issues/12555,2026-06-09T17:31:22Z,2026-06-09T17:31:22Z,jabcreations,,0
 4623209434,true,Reset Button and Button states should not be auto-directionality form-associated elements,https://github.com/whatwg/html/issues/12553,2026-06-09T15:11:33Z,2026-06-10T11:20:47Z,skyz1,,0
 4613277707,true,The indeterminateness should be included in the cloning steps for input elements,https://github.com/whatwg/html/issues/12529,2026-06-08T13:25:35Z,2026-06-12T10:55:19Z,skyz1,topic: forms,0
@@ -109,7 +112,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4598560429,false,[Platform-provided behaviors for CE] Breakout meeting,https://github.com/whatwg/html/issues/12525,2026-06-05T16:47:31Z,2026-06-08T15:41:34Z,anaskim,,0
 4593159823,false,Select in base-appearance mode should probably not have magic clips,https://github.com/whatwg/html/issues/12521,2026-06-05T00:36:19Z,2026-06-10T21:10:04Z,emilio,topic: rendering|needs tests|topic: select,0
 4591919924,true,Upcoming WHATNOT meeting on 2026-06-11,https://github.com/whatwg/html/issues/12520,2026-06-04T20:25:55Z,2026-06-11T09:45:29Z,tabatkins,,0
-4581338912,false,"Let's bikeshed `counter(fake-counter-name, disclosure-open)`",https://github.com/whatwg/html/issues/12516,2026-06-03T15:37:04Z,2026-06-10T03:49:34Z,keithamus,topic: select,0
+4581338912,false,"Let's bikeshed `counter(fake-counter-name, disclosure-open)`",https://github.com/whatwg/html/issues/12516,2026-06-03T15:37:04Z,2026-08-19T16:29:31Z,keithamus,topic: select,0
 4580812649,true,Canonicalizing each member in the SanitizerConfig seems too loosely defined,https://github.com/whatwg/html/issues/12515,2026-06-03T14:32:24Z,2026-06-10T08:45:51Z,evilpie,topic: sanitizer,0
 4580812645,false,Backwards sequential focus navigation can get trapped if starting point is inside focused element,https://github.com/whatwg/html/issues/12514,2026-06-03T14:32:24Z,2026-06-03T14:32:24Z,ltenmoz,,0
 4572217198,true,Inconsistent cross-browser behaviour with moveBefore and script elements.,https://github.com/whatwg/html/issues/12512,2026-06-02T14:16:45Z,2026-06-02T15:58:19Z,lukewarlow,interop,0
@@ -223,7 +226,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4115528773,false,Setting one permitted sandboxed navigator should not be conditional on noopener being false,https://github.com/whatwg/html/issues/12297,2026-03-22T10:00:46Z,2026-03-22T10:02:27Z,MittelmanDaniel,,0
 4102801725,true,Meeting 39 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12291,2026-03-19T16:22:24Z,2026-04-09T16:09:38Z,mfreed7,,0
 4102589118,false,HTMLFormElement.requestSubmit should allow specifying form overrides like a submit button does,https://github.com/whatwg/html/issues/12290,2026-03-19T15:48:46Z,2026-03-20T13:41:41Z,nicksloan,addition/proposal|needs implementer interest|topic: forms,0
-4101153782,false,Removing iframe does not update content document's visibility state.,https://github.com/whatwg/html/issues/12288,2026-03-19T11:47:07Z,2026-06-05T10:08:50Z,Psychpsyo,,0
+4101153782,false,Removing iframe does not update content document's visibility state.,https://github.com/whatwg/html/issues/12288,2026-03-19T11:47:07Z,2026-08-20T00:15:56Z,Psychpsyo,compat|topic: frames/navigables/browsing contexts,0
 4100983306,false,Behavior of showModal on dialog within a hidden container,https://github.com/whatwg/html/issues/12287,2026-03-19T11:12:27Z,2026-03-19T11:12:27Z,Nettsentrisk,,1
 4100815454,false,outline and ::picker(select),https://github.com/whatwg/html/issues/12286,2026-03-19T10:37:48Z,2026-04-16T15:52:09Z,annevk,topic: rendering|topic: focus|topic: select,0
 4098352482,true,Creating an iframe's child navigable as written is impossible.,https://github.com/whatwg/html/issues/12285,2026-03-18T23:51:27Z,2026-04-01T15:32:09Z,Psychpsyo,,0
@@ -1067,7 +1070,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2026-07-23T16:04:46Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,true,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-11-15T04:41:04Z,tabatkins,integration|topic: popover,0
-2565124238,false,Declarative Shadow DOM `adoptedstylesheets` attribute,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2026-08-06T21:23:16Z,KurtCattiSchmidt,addition/proposal|topic: shadow|topic: script|stage: 2|topic: imports/exports,2
+2565124238,false,Style Module Imports via `<link>` Elements,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2026-08-19T22:49:25Z,KurtCattiSchmidt,addition/proposal|topic: shadow|topic: script|agenda+|stage: 2|topic: imports/exports,2
 2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2026-08-16T00:02:29Z,emilio,compat|topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2562416768,true,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-12T00:18:10Z,past,agenda+,0
