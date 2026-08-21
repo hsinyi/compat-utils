@@ -1,19 +1,32 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5213335430,false,Navigation API: Option to treat `sameDocument` traverse as a regular navigation when no `intercept()` is registered,https://github.com/whatwg/html/issues/12822,2026-08-21T10:56:39Z,2026-08-21T10:56:39Z,yoavweiss,topic: navigation,0
+5213334639,false,Navigation API: Expose why a navigation was aborted (abort reason / `navigateerror`),https://github.com/whatwg/html/issues/12821,2026-08-21T10:56:33Z,2026-08-21T10:56:33Z,yoavweiss,topic: navigation,0
+5213333757,false,Navigation API: Allow detection of non-intercepted ongoing navigations,https://github.com/whatwg/html/issues/12820,2026-08-21T10:56:26Z,2026-08-21T10:56:26Z,yoavweiss,topic: navigation,0
+5213333051,false,Navigation API: Marking promises as handled is a poor developer experience,https://github.com/whatwg/html/issues/12819,2026-08-21T10:56:20Z,2026-08-21T10:56:20Z,yoavweiss,topic: navigation,0
+5213332326,false,Navigation API: Extending `<a>` with more navigation capabilities,https://github.com/whatwg/html/issues/12818,2026-08-21T10:56:14Z,2026-08-21T10:56:14Z,yoavweiss,topic: navigation,0
+5213331608,false,Navigation API: What happens when returning to entries captured by the navigation API,https://github.com/whatwg/html/issues/12817,2026-08-21T10:56:08Z,2026-08-21T10:56:08Z,yoavweiss,topic: navigation,0
+5213330859,false,"Navigation API: Multiple navigate handlers, and withholding the `navigate` event",https://github.com/whatwg/html/issues/12816,2026-08-21T10:56:01Z,2026-08-21T10:56:01Z,yoavweiss,topic: navigation,0
+5213330139,false,Navigation API: Add the ability to navigate to a download or form submission,https://github.com/whatwg/html/issues/12815,2026-08-21T10:55:55Z,2026-08-21T10:55:55Z,yoavweiss,topic: navigation,0
+5213329444,false,Navigation API: An event for when entries disappear for reasons other than forward-pruning,https://github.com/whatwg/html/issues/12814,2026-08-21T10:55:49Z,2026-08-21T10:55:49Z,yoavweiss,topic: navigation,0
+5213328544,false,Navigation API: Enable third-party JavaScript embeds to safely use the navigation API,https://github.com/whatwg/html/issues/12813,2026-08-21T10:55:43Z,2026-08-21T10:55:43Z,yoavweiss,topic: navigation,0
+5213327817,false,Navigation API: Support history state that builds in stages,https://github.com/whatwg/html/issues/12812,2026-08-21T10:55:37Z,2026-08-21T10:55:37Z,yoavweiss,topic: navigation,0
+5213326925,false,"Navigation API: Updating, deleting, and rearranging non-current history entries",https://github.com/whatwg/html/issues/12811,2026-08-21T10:55:31Z,2026-08-21T10:55:31Z,yoavweiss,topic: navigation,0
+5213326169,false,Navigation API: Better ergonomics for URL rewriting use cases,https://github.com/whatwg/html/issues/12810,2026-08-21T10:55:25Z,2026-08-21T10:55:25Z,yoavweiss,topic: navigation,0
+5213325420,false,"Navigation API: Specify and test `state` persistence across tab discards, crashes, and session restore",https://github.com/whatwg/html/issues/12809,2026-08-21T10:55:18Z,2026-08-21T10:55:18Z,yoavweiss,topic: navigation,0
 5209033495,false,Add sandbox permission to allow native drag-and-drop between sandboxed/cross-origin iframes and parent,https://github.com/whatwg/html/issues/12807,2026-08-21T00:13:46Z,2026-08-21T00:13:46Z,zohayrslileh,addition/proposal|needs implementer interest,0
-5208631384,true,Upcoming WHATNOT meeting on 20YY-MM-DD,https://github.com/whatwg/html/issues/12806,2026-08-20T22:57:41Z,2026-08-20T23:41:41Z,hightowertabletjeromehightower-droid,invalid,0
 5206298493,false,Upcoming WHATNOT meeting on 2026-08-27,https://github.com/whatwg/html/issues/12804,2026-08-20T17:46:10Z,2026-08-20T17:46:10Z,jstenback,agenda+,0
-5205382570,false,Should a same URL navigation from browser UI be a replace?,https://github.com/whatwg/html/issues/12803,2026-08-20T15:56:15Z,2026-08-20T16:02:07Z,shannonbooth,topic: navigation|interop,0
+5205382570,false,Should a same URL navigation from browser UI be a replace?,https://github.com/whatwg/html/issues/12803,2026-08-20T15:56:15Z,2026-08-21T10:05:17Z,shannonbooth,topic: navigation|interop,0
 5205227369,false,beforeunload event handling may hang,https://github.com/whatwg/html/issues/12802,2026-08-20T15:38:58Z,2026-08-20T15:41:49Z,smaug----,topic: navigation|topic: frames/navigables/browsing contexts,0
-5201012520,false,Location's href setter and beforeunload,https://github.com/whatwg/html/issues/12800,2026-08-20T07:47:14Z,2026-08-20T17:50:41Z,annevk,topic: navigation,1
+5201012520,false,Location's href setter and beforeunload,https://github.com/whatwg/html/issues/12800,2026-08-20T07:47:14Z,2026-08-21T11:48:19Z,annevk,topic: navigation,1
 5195381865,false,`autofocus` can be flaky on a custom element that’s defined asynchronously,https://github.com/whatwg/html/issues/12799,2026-08-19T17:27:27Z,2026-08-19T17:27:27Z,marchbox,,0
 5194390508,false,MessagePort should probably fire `close` event from a task,https://github.com/whatwg/html/issues/12797,2026-08-19T15:34:36Z,2026-08-19T15:34:36Z,nicolo-ribaudo,,0
-5193959579,false,Track element's resource loading algorithm doesn't match browsers,https://github.com/whatwg/html/issues/12796,2026-08-19T14:50:10Z,2026-08-19T14:50:10Z,jdm,,0
+5193959579,false,Track element's resource loading algorithm doesn't match browsers,https://github.com/whatwg/html/issues/12796,2026-08-19T14:50:10Z,2026-08-21T10:10:55Z,jdm,topic: media,0
 5182836503,false,"Add keyboard modifiers to focused <input type=""number"">",https://github.com/whatwg/html/issues/12795,2026-08-18T14:19:52Z,2026-08-18T14:19:52Z,jsnkuhn,addition/proposal|needs implementer interest,0
 5172651373,false,Possible oversight in `HostLoadImportedModule`,https://github.com/whatwg/html/issues/12790,2026-08-17T14:05:10Z,2026-08-17T14:07:01Z,Gae24,,0
 5168548796,false,Should a javascript: URL that doesn't create a new document trigger a load event?,https://github.com/whatwg/html/issues/12788,2026-08-17T05:15:12Z,2026-08-17T09:33:02Z,jdm,topic: frames/navigables/browsing contexts|topic: javascript: URLs,0
 5157607638,false,Simplify `<object>`/`<embed>` exposedness for document named properties,https://github.com/whatwg/html/issues/12787,2026-08-15T04:18:04Z,2026-08-17T08:57:02Z,domenic,interop|topic: embed and object,0
 5144169428,true,Upcoming WHATNOT meeting on 2026-08-20,https://github.com/whatwg/html/issues/12783,2026-08-13T17:41:26Z,2026-08-20T17:44:58Z,jstenback,agenda+,0
-5139741830,false,Performance Issue: Main single-page specification loads whole spec at root URL,https://github.com/whatwg/html/issues/12782,2026-08-13T09:12:28Z,2026-08-17T09:43:12Z,YutaKyle,meta,0
+5139741830,false,Performance Issue: Main single-page specification loads whole spec at root URL,https://github.com/whatwg/html/issues/12782,2026-08-13T09:12:28Z,2026-08-21T09:25:08Z,YutaKyle,spec tooling|good first issue|meta,0
 5129674249,false,"#navigate should call #abort-the-ongoing-navigation when #checking-if-unloading-is-canceled returns ""canceled-by-beforeunload""",https://github.com/whatwg/html/issues/12779,2026-08-12T10:04:55Z,2026-08-12T10:04:55Z,farre,topic: navigation,0
 5129231100,false,Initial about:blank behavior before load differs between the spec and browsers,https://github.com/whatwg/html/issues/12778,2026-08-12T09:12:13Z,2026-08-12T09:12:13Z,vinhill,,0
 5124031218,false,Support render blocking on content in an iframe,https://github.com/whatwg/html/issues/12777,2026-08-11T19:53:42Z,2026-08-11T19:54:10Z,khushalsagar,addition/proposal|needs implementer interest,0
@@ -29,7 +42,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5067491643,false,“Apply the history step” clears “reload pending” before both of its consumers read it,https://github.com/whatwg/html/issues/12760,2026-08-05T05:02:55Z,2026-08-05T17:45:05Z,sideshowbarker,compat|topic: navigation|topic: history,0
 5063719766,false,Media element load algorithm step 7.3 detaches the wrong MediaSource — the assigned media provider object has already been reassigned by then,https://github.com/whatwg/html/issues/12757,2026-08-04T18:36:01Z,2026-08-05T07:26:17Z,sideshowbarker,compat|topic: media,0
 5043319571,false,Proposal: Native Declarative HTML Partial Inclusions (<include> / <html-include>),https://github.com/whatwg/html/issues/12747,2026-08-02T16:06:29Z,2026-08-17T02:19:32Z,alokrathava,addition/proposal|needs implementer interest,0
-5037033339,false,Parser text node data modification also needs to fire children changed steps,https://github.com/whatwg/html/issues/12744,2026-08-01T12:38:25Z,2026-08-20T17:37:13Z,domenic,topic: parser,0
+5037033339,false,Parser text node data modification also needs to fire children changed steps,https://github.com/whatwg/html/issues/12744,2026-08-01T12:38:25Z,2026-08-21T11:50:57Z,domenic,topic: parser,0
 5033567336,false,JS API to associate form controls with a form element.,https://github.com/whatwg/html/issues/12743,2026-07-31T21:36:49Z,2026-08-06T08:05:57Z,lukewarlow,addition/proposal|needs implementer interest,1
 5023748914,true,Upcoming WHATNOT meeting on 2026-08-06,https://github.com/whatwg/html/issues/12738,2026-07-30T20:31:20Z,2026-08-06T19:12:25Z,tabatkins,agenda+,0
 5021140480,true,Upcoming WHATNOT meeting on 2026-07-30,https://github.com/whatwg/html/issues/12737,2026-07-30T15:06:11Z,2026-07-30T20:30:51Z,jstenback,agenda+,0
