@@ -215,17 +215,17 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 534212007,true,cors image request retry not work,https://github.com/w3c/ServiceWorker/issues/1488,2019-12-06T19:11:49Z,2019-12-09T04:01:46Z,QingLeiLi,,0
 519422686,false,Behavior for accessing cache storage in opaque origins,https://github.com/w3c/ServiceWorker/issues/1484,2019-11-07T17:56:46Z,2019-11-07T17:56:46Z,mkruisselbrink,,0
 511402614,false,Need to explain name matching rules for cache names,https://github.com/w3c/ServiceWorker/issues/1483,2019-10-23T15:26:20Z,2024-09-25T14:41:22Z,r12a,i18n-needs-resolution,0
-509666698,false,Allow better composability of fetch handlers,https://github.com/w3c/ServiceWorker/issues/1482,2019-10-20T23:08:44Z,2019-10-21T15:49:20Z,devongovett,,1
-507253031,false,VueJS dynamic imports / lazy loading supported by SW?,https://github.com/w3c/ServiceWorker/issues/1481,2019-10-15T13:41:04Z,2019-10-15T13:41:04Z,doorkey,,0
+509666698,false,Allow better composability of fetch handlers,https://github.com/w3c/ServiceWorker/issues/1482,2019-10-20T23:08:44Z,2026-08-21T00:15:40Z,devongovett,,1
+507253031,true,VueJS dynamic imports / lazy loading supported by SW?,https://github.com/w3c/ServiceWorker/issues/1481,2019-10-15T13:41:04Z,2026-08-21T00:06:50Z,doorkey,,0
 506214536,true,Service worker expiration,https://github.com/w3c/ServiceWorker/issues/1480,2019-10-12T17:27:05Z,2019-10-30T15:49:33Z,TomPradat,,0
 505456459,true,The requested service worker becomes redundant and a new and random service worker gets requested and registered,https://github.com/w3c/ServiceWorker/issues/1479,2019-10-10T19:08:29Z,2019-10-16T12:19:31Z,rishabhnigamoyo,,0
 505145192,true,Make serviceWorker.ready spec match implementations,https://github.com/w3c/ServiceWorker/issues/1477,2019-10-10T09:22:46Z,2019-12-20T10:11:30Z,jakearchibald,,0
-502564255,false,Provide a way to attach data to clients,https://github.com/w3c/ServiceWorker/issues/1475,2019-10-04T10:43:22Z,2019-10-07T21:18:51Z,jakearchibald,,2
+502564255,false,Provide a way to attach data to clients,https://github.com/w3c/ServiceWorker/issues/1475,2019-10-04T10:43:22Z,2026-08-21T00:02:27Z,jakearchibald,,2
 495436983,false,NavigationPreloadManager.setHeader spec should verify valid HTTP header values,https://github.com/w3c/ServiceWorker/issues/1474,2019-09-18T20:24:45Z,2021-10-14T15:46:17Z,perryjiang,,0
 494381704,true,"""display-mode"" information on navigation requests",https://github.com/w3c/ServiceWorker/issues/1473,2019-09-17T03:33:22Z,2026-08-14T00:14:26Z,NekR,,0
 493886196,true,The return value for update() is wrong in WebIDL,https://github.com/w3c/ServiceWorker/issues/1472,2019-09-16T07:21:47Z,2025-05-21T09:43:00Z,philipwalton,,1
-493730772,false,Relaying service worker state when serving Clear-Site-Data,https://github.com/w3c/ServiceWorker/issues/1471,2019-09-15T12:17:50Z,2019-09-15T23:19:16Z,asakusuma,,0
-490081869,false,Consider deprecating the ability for scope to match query parameters,https://github.com/w3c/ServiceWorker/issues/1469,2019-09-06T01:20:13Z,2019-09-16T05:42:11Z,mgiuca,,0
+493730772,true,Relaying service worker state when serving Clear-Site-Data,https://github.com/w3c/ServiceWorker/issues/1471,2019-09-15T12:17:50Z,2026-08-20T23:38:03Z,asakusuma,,0
+490081869,false,Consider deprecating the ability for scope to match query parameters,https://github.com/w3c/ServiceWorker/issues/1469,2019-09-06T01:20:13Z,2026-08-20T23:48:47Z,mgiuca,,0
 489409139,false,scope pattern matching,https://github.com/w3c/ServiceWorker/issues/1468,2019-09-04T21:32:42Z,2020-10-13T18:31:35Z,wanderview,,4
 487256403,true,Should the order of registrations returned by getRegistrations() be sorted by scope?,https://github.com/w3c/ServiceWorker/issues/1465,2019-08-30T02:36:26Z,2020-01-16T06:40:43Z,makotoshimazu,,0
 486824910,true,Update to constructor operations,https://github.com/w3c/ServiceWorker/issues/1464,2019-08-29T08:51:14Z,2019-09-11T01:49:13Z,Ms2ger,,0
@@ -279,7 +279,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 401389158,true,Cache.put() does not read response's body,https://github.com/w3c/ServiceWorker/issues/1383,2019-01-21T14:57:03Z,2019-02-11T13:30:45Z,ytausky,cache,0
 401375894,true,Cache's put() says it clones the response,https://github.com/w3c/ServiceWorker/issues/1382,2019-01-21T14:23:57Z,2026-07-03T00:25:33Z,annevk,cache,0
 400702833,true,The compatibility of service worker on ios devices,https://github.com/w3c/ServiceWorker/issues/1381,2019-01-18T12:22:37Z,2019-01-22T11:47:18Z,Lozoe,,0
-395411429,false,Add registeringClientId to the ServiceWorker object,https://github.com/w3c/ServiceWorker/issues/1379,2019-01-02T23:13:50Z,2019-09-16T07:22:13Z,philipwalton,,2
+395411429,false,Add registeringClientId to the ServiceWorker object,https://github.com/w3c/ServiceWorker/issues/1379,2019-01-02T23:13:50Z,2026-08-20T23:57:52Z,philipwalton,,2
 394030787,true,Can service workers mess with POST variables?,https://github.com/w3c/ServiceWorker/issues/1378,2018-12-25T15:20:21Z,2019-01-02T11:15:52Z,jarodium,,0
 389230176,true,Hiding add to homescreen minibar for certain urls.,https://github.com/w3c/ServiceWorker/issues/1375,2018-12-10T10:17:34Z,2019-09-15T09:48:14Z,pnkapadia6,,0
 389191972,true,Update shouldn't fail due to MIME check or 404 for the incumbent's worker scripts,https://github.com/w3c/ServiceWorker/issues/1374,2018-12-10T08:34:06Z,2019-03-05T01:01:18Z,mfalken,,1
@@ -411,7 +411,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 263564837,true,resurrected service workers don't fire an activate event which may break expectations,https://github.com/w3c/ServiceWorker/issues/1204,2017-10-06T20:37:27Z,2019-06-06T16:01:22Z,wanderview,,0
 263235777,true,Mixed feelings about ServiceWorker for module loader,https://github.com/w3c/ServiceWorker/issues/1203,2017-10-05T19:16:28Z,2018-03-02T04:03:35Z,Krinkle,,0
 261401821,false,should FetchEvent.request ever be a range request if we cannot verify if the underlying resource is the same?,https://github.com/w3c/ServiceWorker/issues/1201,2017-09-28T17:38:06Z,2026-01-30T00:44:44Z,wanderview,,0
-260286334,false,is the browser required to start the ServiceWorker for postMessage() if there is no message event handler?,https://github.com/w3c/ServiceWorker/issues/1200,2017-09-25T13:57:24Z,2019-11-05T08:39:28Z,wanderview,decided,0
+260286334,false,is the browser required to start the ServiceWorker for postMessage() if there is no message event handler?,https://github.com/w3c/ServiceWorker/issues/1200,2017-09-25T13:57:24Z,2026-08-21T00:32:40Z,wanderview,decided,0
 259611546,false,ready promise doesn't work right when controlling registration is resurrected,https://github.com/w3c/ServiceWorker/issues/1198,2017-09-21T19:49:37Z,2026-07-03T00:16:19Z,wanderview,,1
 259498607,false,Express the job queue in terms of parallel queues,https://github.com/w3c/ServiceWorker/issues/1197,2017-09-21T13:36:22Z,2026-01-23T09:04:59Z,jakearchibald,,0
 259495035,true,"Issues with ""Handle Functional Event""",https://github.com/w3c/ServiceWorker/issues/1196,2017-09-21T13:25:30Z,2026-01-26T01:56:44Z,jakearchibald,,0
