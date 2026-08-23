@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5226793237,false,Allow specifying favicon location on non-HTML resources,https://github.com/whatwg/html/issues/12825,2026-08-23T12:06:04Z,2026-08-23T12:13:58Z,girst,addition/proposal|needs implementer interest|topic: link,0
 5213335430,false,Navigation API: Option to treat `sameDocument` traverse as a regular navigation when no `intercept()` is registered,https://github.com/whatwg/html/issues/12822,2026-08-21T10:56:39Z,2026-08-21T10:56:39Z,yoavweiss,topic: navigation,0
 5213334639,false,Navigation API: Expose why a navigation was aborted (abort reason / `navigateerror`),https://github.com/whatwg/html/issues/12821,2026-08-21T10:56:33Z,2026-08-21T10:56:33Z,yoavweiss,topic: navigation,0
 5213333757,false,Navigation API: Allow detection of non-intercepted ongoing navigations,https://github.com/whatwg/html/issues/12820,2026-08-21T10:56:26Z,2026-08-21T10:56:26Z,yoavweiss,topic: navigation,0
@@ -15,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5213325420,false,"Navigation API: Specify and test `state` persistence across tab discards, crashes, and session restore",https://github.com/whatwg/html/issues/12809,2026-08-21T10:55:18Z,2026-08-21T10:55:18Z,yoavweiss,topic: navigation,0
 5209033495,false,Add sandbox permission to allow native drag-and-drop between sandboxed/cross-origin iframes and parent,https://github.com/whatwg/html/issues/12807,2026-08-21T00:13:46Z,2026-08-21T00:13:46Z,zohayrslileh,addition/proposal|needs implementer interest,0
 5206298493,false,Upcoming WHATNOT meeting on 2026-08-27,https://github.com/whatwg/html/issues/12804,2026-08-20T17:46:10Z,2026-08-20T17:46:10Z,jstenback,agenda+,0
-5205382570,false,Should a same URL navigation from browser UI be a replace?,https://github.com/whatwg/html/issues/12803,2026-08-20T15:56:15Z,2026-08-21T10:05:17Z,shannonbooth,topic: navigation|interop,0
+5205382570,false,Should a same URL navigation from browser UI be a replace?,https://github.com/whatwg/html/issues/12803,2026-08-20T15:56:15Z,2026-08-23T09:50:14Z,shannonbooth,topic: navigation|interop,0
 5205227369,false,beforeunload event handling may hang,https://github.com/whatwg/html/issues/12802,2026-08-20T15:38:58Z,2026-08-20T15:41:49Z,smaug----,topic: navigation|topic: frames/navigables/browsing contexts,0
 5201012520,false,Location's href setter and beforeunload,https://github.com/whatwg/html/issues/12800,2026-08-20T07:47:14Z,2026-08-21T11:48:19Z,annevk,topic: navigation,1
 5195381865,false,`autofocus` can be flaky on a custom element that’s defined asynchronously,https://github.com/whatwg/html/issues/12799,2026-08-19T17:27:27Z,2026-08-19T17:27:27Z,marchbox,,0
@@ -24,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5182836503,false,"Add keyboard modifiers to focused <input type=""number"">",https://github.com/whatwg/html/issues/12795,2026-08-18T14:19:52Z,2026-08-18T14:19:52Z,jsnkuhn,addition/proposal|needs implementer interest,0
 5172651373,false,Possible oversight in `HostLoadImportedModule`,https://github.com/whatwg/html/issues/12790,2026-08-17T14:05:10Z,2026-08-17T14:07:01Z,Gae24,,0
 5168548796,false,Should a javascript: URL that doesn't create a new document trigger a load event?,https://github.com/whatwg/html/issues/12788,2026-08-17T05:15:12Z,2026-08-17T09:33:02Z,jdm,topic: frames/navigables/browsing contexts|topic: javascript: URLs,0
-5157607638,false,Simplify `<object>`/`<embed>` exposedness for document named properties,https://github.com/whatwg/html/issues/12787,2026-08-15T04:18:04Z,2026-08-22T13:59:48Z,domenic,interop|topic: embed and object,1
+5157607638,false,Simplify `<object>`/`<embed>` exposedness for document named properties,https://github.com/whatwg/html/issues/12787,2026-08-15T04:18:04Z,2026-08-23T02:38:44Z,domenic,interop|topic: embed and object,1
 5144169428,true,Upcoming WHATNOT meeting on 2026-08-20,https://github.com/whatwg/html/issues/12783,2026-08-13T17:41:26Z,2026-08-20T17:44:58Z,jstenback,agenda+,0
 5139741830,false,Performance Issue: Main single-page specification loads whole spec at root URL,https://github.com/whatwg/html/issues/12782,2026-08-13T09:12:28Z,2026-08-21T09:25:08Z,YutaKyle,spec tooling|good first issue|meta,0
 5129674249,false,"#navigate should call #abort-the-ongoing-navigation when #checking-if-unloading-is-canceled returns ""canceled-by-beforeunload""",https://github.com/whatwg/html/issues/12779,2026-08-12T10:04:55Z,2026-08-12T10:04:55Z,farre,topic: navigation,0
