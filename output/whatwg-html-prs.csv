@@ -1,12 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5245006940,false,Only nullify the navigation API state when cross-document,https://github.com/whatwg/html/pull/12838,2026-08-25T10:52:18Z,2026-08-25T10:55:52Z,noamr,,0
 5239389418,false,Fetch a worker's main script before creating its settings object,https://github.com/whatwg/html/pull/12837,2026-08-24T20:59:45Z,2026-08-24T21:28:14Z,shannonbooth,,0
 5236783049,false,"Pass a new ""hasStartedNavigatingForWebDriver"" flag to the ""WebDriver BiDi navigable created"" event.",https://github.com/whatwg/html/pull/12833,2026-08-24T15:55:20Z,2026-08-24T15:56:32Z,lutien,,0
-5236302244,false,"Editorial: Specify parser insertion location as a (parent, reference child) tuple",https://github.com/whatwg/html/pull/12831,2026-08-24T15:07:21Z,2026-08-24T16:35:12Z,noamr,clarification|topic: parser,0
-5236052529,false,Drop an element the parser cannot insert,https://github.com/whatwg/html/pull/12830,2026-08-24T14:45:08Z,2026-08-24T17:15:48Z,annevk,topic: parser,0
+5236302244,false,"Editorial: Specify parser insertion location as a (parent, reference child) tuple",https://github.com/whatwg/html/pull/12831,2026-08-24T15:07:21Z,2026-08-25T09:17:58Z,noamr,clarification|topic: parser,0
+5236052529,false,Drop an element the parser cannot insert,https://github.com/whatwg/html/pull/12830,2026-08-24T14:45:08Z,2026-08-25T10:20:54Z,annevk,topic: parser,0
 5235344907,false,Editorial: define fragment context element on HTML parser,https://github.com/whatwg/html/pull/12829,2026-08-24T13:35:19Z,2026-08-24T13:39:00Z,noamr,,0
 5226295516,false,Use replace history handling for same-URL browser UI navigations,https://github.com/whatwg/html/pull/12824,2026-08-23T09:43:42Z,2026-08-23T09:52:27Z,shannonbooth,,0
 5222222593,true,Remove object/embed exposedness from document named properties,https://github.com/whatwg/html/pull/12823,2026-08-22T13:54:06Z,2026-08-24T14:25:06Z,annevk,,2
-5206663459,false,Mark XSLT deprecated,https://github.com/whatwg/html/pull/12805,2026-08-20T18:30:58Z,2026-08-24T22:06:46Z,mfreed7,,0
+5206663459,false,Mark XSLT deprecated,https://github.com/whatwg/html/pull/12805,2026-08-20T18:30:58Z,2026-08-25T06:07:53Z,mfreed7,do not merge yet,0
 5201729925,true,Editorial: improve prose slightly in the adoption agency algorithm,https://github.com/whatwg/html/pull/12801,2026-08-20T09:11:20Z,2026-08-20T09:26:04Z,annevk,,0
 5194946842,true,Refactor picker-icon to drop counter() syntax,https://github.com/whatwg/html/pull/12798,2026-08-19T16:34:40Z,2026-08-20T08:38:45Z,keithamus,,0
 5180768747,true,Remove cross-origin check for simple dialogs,https://github.com/whatwg/html/pull/12794,2026-08-18T10:27:34Z,2026-08-18T12:44:38Z,noamr,,0
@@ -17,10 +18,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5080814496,true,Close unrelated auto popovers when a dialog opens inside a hint popover,https://github.com/whatwg/html/pull/12764,2026-08-06T11:48:36Z,2026-08-11T12:17:24Z,jakearchibald,agenda+,0
 5079477247,true,Correct reflection definition for commandForElement and popoverTargetElement,https://github.com/whatwg/html/pull/12762,2026-08-06T08:59:43Z,2026-08-21T12:36:13Z,lukewarlow,,0
 5079253045,false,Use System colors for links,https://github.com/whatwg/html/pull/12761,2026-08-06T08:30:38Z,2026-08-13T18:30:58Z,TimvdLippe,,1
-5064001077,false,Stream HTML into element or ShadowRoot,https://github.com/whatwg/html/pull/12758,2026-08-04T19:09:46Z,2026-08-24T16:48:17Z,noamr,,0
-5063591004,false,Sanitize while parsing,https://github.com/whatwg/html/pull/12756,2026-08-04T18:19:56Z,2026-08-24T20:42:40Z,noamr,,1
+5064001077,false,Stream HTML into element or ShadowRoot,https://github.com/whatwg/html/pull/12758,2026-08-04T19:09:46Z,2026-08-25T08:30:28Z,noamr,,0
+5063591004,false,Sanitize while parsing,https://github.com/whatwg/html/pull/12756,2026-08-04T18:19:56Z,2026-08-25T09:05:51Z,noamr,,1
 5063585642,true,Sanitize while parsing,https://github.com/whatwg/html/pull/12755,2026-08-04T18:19:16Z,2026-08-04T18:20:29Z,noamr,,0
-5063528426,false,Positional HTML methods,https://github.com/whatwg/html/pull/12753,2026-08-04T18:11:51Z,2026-08-24T12:41:39Z,noamr,,1
+5063528426,false,Positional HTML methods,https://github.com/whatwg/html/pull/12753,2026-08-04T18:11:51Z,2026-08-25T08:19:31Z,noamr,,1
 5063514258,true,Positional HTML methohds,https://github.com/whatwg/html/pull/12752,2026-08-04T18:10:03Z,2026-08-04T18:11:48Z,noamr,,0
 5040654807,true,Clarify tokenizer and tree construction interaction,https://github.com/whatwg/html/pull/12746,2026-08-02T04:25:59Z,2026-08-03T20:22:29Z,alishaansarjaved-oss,topic: parser|editorial,0
 5013903843,false,Add HTMLMediaElement.removeTextTrack() method,https://github.com/whatwg/html/pull/12735,2026-07-29T21:55:56Z,2026-08-20T18:02:03Z,danae404,topic: media|agenda+,0
@@ -81,7 +82,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4681710394,false,[draft] Spell check custom dictionary,https://github.com/whatwg/html/pull/12590,2026-06-17T09:02:23Z,2026-08-24T14:17:56Z,bkardell,addition/proposal|needs implementer interest|i18n-tracker|needs tests|a11y-tracker|stage: 1,0
 4681135612,true,"Attributes index: fix method, formmethod values",https://github.com/whatwg/html/pull/12586,2026-06-17T07:35:03Z,2026-06-17T08:35:19Z,chris-morgan,,0
 4677518436,false,Enable Responsive Images and Alternative Text for HTML Video Poster Images,https://github.com/whatwg/html/pull/12585,2026-06-16T20:06:29Z,2026-07-07T14:12:25Z,scottjehl,,7
-4674928368,false,Integrate fragment parser options with trusted types,https://github.com/whatwg/html/pull/12583,2026-06-16T14:05:44Z,2026-08-24T16:09:53Z,noamr,do not merge yet,0
+4674928368,false,Integrate fragment parser options with trusted types,https://github.com/whatwg/html/pull/12583,2026-06-16T14:05:44Z,2026-08-25T08:18:58Z,noamr,do not merge yet,0
 4667627744,false,Integrate with MakeRealm,https://github.com/whatwg/html/pull/12580,2026-06-15T18:04:33Z,2026-06-24T08:12:31Z,annevk,topic: script|integration,0
 4658488223,false,Specify task source for EventSource queued tasks,https://github.com/whatwg/html/pull/12578,2026-06-14T08:48:46Z,2026-06-26T13:43:33Z,Payal-03,,0
 4649608983,false,Define targetSnapshotParams in the javascript: steps,https://github.com/whatwg/html/pull/12572,2026-06-12T13:28:35Z,2026-06-16T08:03:50Z,zcorpan,topic: javascript: URLs,0
@@ -134,7 +135,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4406040097,true,Stop defining volumechange in terms of public API,https://github.com/whatwg/html/pull/12428,2026-05-08T11:33:38Z,2026-05-08T16:05:14Z,annevk,,0
 4404999905,false,Pass response to WebDriver BiDi donwnload events.,https://github.com/whatwg/html/pull/12426,2026-05-08T08:32:53Z,2026-05-22T13:30:29Z,lutien,,0
 4401847584,false,[DRAFT]  Add readonly attribute to fieldset element,https://github.com/whatwg/html/pull/12424,2026-05-07T20:40:42Z,2026-05-08T06:03:59Z,teoeter,,0
-4387037484,false,Don't update active document too early for same-origin navigations,https://github.com/whatwg/html/pull/12421,2026-05-05T20:53:14Z,2026-08-24T18:25:49Z,shannonbooth,,0
+4387037484,true,Don't update active document too early for same-origin navigations,https://github.com/whatwg/html/pull/12421,2026-05-05T20:53:14Z,2026-08-25T08:47:12Z,shannonbooth,,0
 4385472705,true,Remove fragment parsing special case for input tags,https://github.com/whatwg/html/pull/12420,2026-05-05T16:06:16Z,2026-05-05T16:34:04Z,josepharhar,,0
 4376443950,true,Rename HTMLOrSVGElement mixin to HTMLOrSVGOrMathMLElement,https://github.com/whatwg/html/pull/12416,2026-05-04T12:10:58Z,2026-05-04T15:56:16Z,lukewarlow,,2
 4361153241,true,Update list of fieldset inherited properties for css-gaps-1,https://github.com/whatwg/html/pull/12414,2026-04-30T20:44:31Z,2026-05-13T06:52:11Z,kbabbitt,,0
@@ -601,7 +602,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2834196191,true,Editorial: switch links back to official CSSWG drafts,https://github.com/whatwg/html/pull/11005,2025-02-05T23:54:24Z,2025-02-06T02:18:33Z,Loirooriol,,0
 2833243175,true,Editorial: fix link and wording for tuple origin,https://github.com/whatwg/html/pull/11001,2025-02-05T15:17:39Z,2025-02-06T01:25:39Z,zcorpan,clarification|topic: origin,0
 2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2026-08-21T16:04:47Z,AndresRPerez12,do not merge yet|topic: canvas,3
-2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2026-08-24T23:13:53Z,dandclark,addition/proposal,0
+2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2026-08-25T07:31:59Z,dandclark,addition/proposal,0
 2831485110,true,Fix dialog focus restoring descendant check,https://github.com/whatwg/html/pull/10994,2025-02-04T23:17:23Z,2025-02-17T02:49:55Z,josepharhar,topic: dialog,0
 2831477610,false,Remove links to defunct Twitter account,https://github.com/whatwg/html/pull/10993,2025-02-04T23:11:22Z,2025-02-12T12:42:41Z,eeeps,meta,1
 2830828832,true,Pass a top-level navigation initiator origin to Fetch,https://github.com/whatwg/html/pull/10991,2025-02-04T17:06:01Z,2025-07-25T09:20:12Z,bvandersloot-mozilla,,0
