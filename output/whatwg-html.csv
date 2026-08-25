@@ -1,4 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5239041499,false,Order of the error event and the pointer advance is not defined in resource selection,https://github.com/whatwg/html/issues/12836,2026-08-24T20:17:37Z,2026-08-24T20:17:37Z,zcorpan,topic: media,0
+5238782056,false,Resource selection: no engine runs the synchronous section at a microtask checkpoint,https://github.com/whatwg/html/issues/12835,2026-08-24T19:46:56Z,2026-08-24T19:46:56Z,zcorpan,topic: media,0
+5237824175,false,"Navigation API: make the ""signals to the user … via … assistive technology … that the navigation is finished"" behavior for intercepted navigations normative",https://github.com/whatwg/html/issues/12834,2026-08-24T17:53:44Z,2026-08-24T18:10:22Z,WestonThayer,,0
+5236337915,false,"""nullify ongoing navigate event"" step breaks same-document navigations",https://github.com/whatwg/html/issues/12832,2026-08-24T15:10:26Z,2026-08-24T16:54:09Z,shannonbooth,,0
 5234290128,false,Adoption agency algorithm can throw after a custom element reaction reparents nodes,https://github.com/whatwg/html/issues/12828,2026-08-24T11:40:26Z,2026-08-24T11:41:32Z,annevk,topic: parser|topic: custom elements,0
 5227650356,false,"Web Storage and IndexedDB should use transactional isolation during prerendering, matching the cookie model",https://github.com/whatwg/html/issues/12826,2026-08-23T15:34:20Z,2026-08-23T15:34:20Z,e1abrador,,0
 5226793237,false,Allow specifying favicon location on non-HTML resources,https://github.com/whatwg/html/issues/12825,2026-08-23T12:06:04Z,2026-08-23T12:13:58Z,girst,addition/proposal|needs implementer interest|topic: link,0
@@ -16,18 +20,18 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5213326925,false,"Navigation API: Updating, deleting, and rearranging non-current history entries",https://github.com/whatwg/html/issues/12811,2026-08-21T10:55:31Z,2026-08-24T08:59:50Z,yoavweiss,topic: navigation|topic: navigation API,0
 5213326169,false,Navigation API: Better ergonomics for URL rewriting use cases,https://github.com/whatwg/html/issues/12810,2026-08-21T10:55:25Z,2026-08-24T08:59:50Z,yoavweiss,topic: navigation|topic: navigation API,0
 5213325420,false,"Navigation API: Specify and test `state` persistence across tab discards, crashes, and session restore",https://github.com/whatwg/html/issues/12809,2026-08-21T10:55:18Z,2026-08-24T08:59:49Z,yoavweiss,topic: navigation|topic: navigation API,0
-5209033495,false,Add sandbox permission to allow native drag-and-drop between sandboxed/cross-origin iframes and parent,https://github.com/whatwg/html/issues/12807,2026-08-21T00:13:46Z,2026-08-21T00:13:46Z,zohayrslileh,addition/proposal|needs implementer interest,0
+5209033495,false,Add sandbox permission to allow native drag-and-drop between sandboxed/cross-origin iframes and parent,https://github.com/whatwg/html/issues/12807,2026-08-21T00:13:46Z,2026-08-24T13:59:53Z,zohayrslileh,addition/proposal|needs implementer interest|topic: drag and drop|security-tracker,0
 5206298493,false,Upcoming WHATNOT meeting on 2026-08-27,https://github.com/whatwg/html/issues/12804,2026-08-20T17:46:10Z,2026-08-20T17:46:10Z,jstenback,agenda+,0
-5205382570,false,Should a same URL navigation from browser UI be a replace?,https://github.com/whatwg/html/issues/12803,2026-08-20T15:56:15Z,2026-08-23T09:50:14Z,shannonbooth,topic: navigation|interop,0
+5205382570,false,Should a same URL navigation from browser UI be a replace?,https://github.com/whatwg/html/issues/12803,2026-08-20T15:56:15Z,2026-08-23T09:50:14Z,shannonbooth,topic: navigation|interop,1
 5205227369,false,beforeunload event handling may hang,https://github.com/whatwg/html/issues/12802,2026-08-20T15:38:58Z,2026-08-20T15:41:49Z,smaug----,topic: navigation|topic: frames/navigables/browsing contexts,0
-5201012520,false,Location's href setter and beforeunload,https://github.com/whatwg/html/issues/12800,2026-08-20T07:47:14Z,2026-08-21T11:48:19Z,annevk,topic: navigation,1
+5201012520,false,Location's href setter and beforeunload,https://github.com/whatwg/html/issues/12800,2026-08-20T07:47:14Z,2026-08-24T13:26:59Z,annevk,topic: navigation,1
 5195381865,false,`autofocus` can be flaky on a custom element that’s defined asynchronously,https://github.com/whatwg/html/issues/12799,2026-08-19T17:27:27Z,2026-08-19T17:27:27Z,marchbox,,0
 5194390508,false,MessagePort should probably fire `close` event from a task,https://github.com/whatwg/html/issues/12797,2026-08-19T15:34:36Z,2026-08-19T15:34:36Z,nicolo-ribaudo,,0
 5193959579,false,Track element's resource loading algorithm doesn't match browsers,https://github.com/whatwg/html/issues/12796,2026-08-19T14:50:10Z,2026-08-21T10:10:55Z,jdm,topic: media,0
 5182836503,false,"Add keyboard modifiers to focused <input type=""number"">",https://github.com/whatwg/html/issues/12795,2026-08-18T14:19:52Z,2026-08-18T14:19:52Z,jsnkuhn,addition/proposal|needs implementer interest,0
 5172651373,false,Possible oversight in `HostLoadImportedModule`,https://github.com/whatwg/html/issues/12790,2026-08-17T14:05:10Z,2026-08-17T14:07:01Z,Gae24,,0
 5168548796,false,Should a javascript: URL that doesn't create a new document trigger a load event?,https://github.com/whatwg/html/issues/12788,2026-08-17T05:15:12Z,2026-08-17T09:33:02Z,jdm,topic: frames/navigables/browsing contexts|topic: javascript: URLs,0
-5157607638,false,Simplify `<object>`/`<embed>` exposedness for document named properties,https://github.com/whatwg/html/issues/12787,2026-08-15T04:18:04Z,2026-08-23T02:38:44Z,domenic,interop|topic: embed and object,1
+5157607638,true,Simplify `<object>`/`<embed>` exposedness for document named properties,https://github.com/whatwg/html/issues/12787,2026-08-15T04:18:04Z,2026-08-24T14:25:05Z,domenic,interop|topic: embed and object,1
 5144169428,true,Upcoming WHATNOT meeting on 2026-08-20,https://github.com/whatwg/html/issues/12783,2026-08-13T17:41:26Z,2026-08-20T17:44:58Z,jstenback,agenda+,0
 5139741830,false,Performance Issue: Main single-page specification loads whole spec at root URL,https://github.com/whatwg/html/issues/12782,2026-08-13T09:12:28Z,2026-08-24T08:59:48Z,YutaKyle,spec tooling|good first issue|meta|topic: navigation API,0
 5129674249,false,"#navigate should call #abort-the-ongoing-navigation when #checking-if-unloading-is-canceled returns ""canceled-by-beforeunload""",https://github.com/whatwg/html/issues/12779,2026-08-12T10:04:55Z,2026-08-12T10:04:55Z,farre,topic: navigation,0
@@ -53,7 +57,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4998906340,false,`scroll to the fragment` should check if target is still connected after ancestor revealing algorithm,https://github.com/whatwg/html/issues/12727,2026-07-28T13:10:24Z,2026-07-30T22:08:55Z,jnjaeschke,,0
 4994265700,false,"Session history: reload-pending is set before the reload is queued — so creation/destruction bookkeeping can reach the ""navigationType is not null"" assert",https://github.com/whatwg/html/issues/12724,2026-07-28T02:32:32Z,2026-08-05T07:26:21Z,sideshowbarker,compat|topic: navigation,0
 4986105997,false,"`iframe` listed as ""Interactive content""",https://github.com/whatwg/html/issues/12722,2026-07-27T08:48:25Z,2026-08-10T00:03:49Z,patrickhlauke,,2
-4969867148,false,[select] Define which children are vs are not slotted.,https://github.com/whatwg/html/issues/12717,2026-07-24T15:31:04Z,2026-08-24T10:43:37Z,emilio,topic: rendering|topic: select,0
+4969867148,false,[select] Define which children are vs are not slotted.,https://github.com/whatwg/html/issues/12717,2026-07-24T15:31:04Z,2026-08-24T17:03:40Z,emilio,topic: rendering|topic: select,0
 4962868248,false,Meeting 48 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12715,2026-07-23T21:00:02Z,2026-08-20T14:58:53Z,mfreed7,,0
 4957449266,false,AIMS -- Artificial Intelligence Memorandum Schemes,https://github.com/whatwg/html/issues/12713,2026-07-23T09:31:19Z,2026-07-23T09:31:19Z,serdult,addition/proposal|needs implementer interest,2
 4956914670,false,`<img sizes=auto>` triggers wasteful fetches when hiding/removing the image,https://github.com/whatwg/html/issues/12712,2026-07-23T08:23:29Z,2026-07-23T09:21:36Z,noamr,topic: img,1
@@ -2714,7 +2718,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 872435429,true,Cross-Origin-Embedder-Policy: credentialless,https://github.com/whatwg/html/issues/6637,2021-04-30T12:33:31Z,2021-11-02T12:55:38Z,ArthurSonzogni,topic: cross-origin-embedder-policy,0
 872131730,true,Lazy loading video element poster attribute,https://github.com/whatwg/html/issues/6636,2021-04-30T07:54:55Z,2026-05-21T21:40:12Z,asuh,addition/proposal|topic: media,20
 872059164,true,`:active` pseudo-class specification doesn't account for children/labels of disabled form elements,https://github.com/whatwg/html/issues/6635,2021-04-30T02:11:14Z,2022-02-10T19:06:49Z,alystair,topic: rendering|topic: forms,0
-870905892,false,Allow <source> to use <img>'s sizes data as a fallback,https://github.com/whatwg/html/issues/6633,2021-04-29T11:24:34Z,2022-02-04T15:46:29Z,jakearchibald,addition/proposal|topic: img,38
+870905892,false,Allow <source> to use <img>'s sizes data as a fallback,https://github.com/whatwg/html/issues/6633,2021-04-29T11:24:34Z,2022-02-04T15:46:29Z,jakearchibald,addition/proposal|topic: img,39
 870188337,true,import.meta.url always uses percent-encodings,https://github.com/whatwg/html/issues/6630,2021-04-28T17:34:16Z,2023-02-24T16:09:38Z,guybedford,,0
 869976363,true,Contiguous window.name leads to weirdness,https://github.com/whatwg/html/issues/6628,2021-04-28T13:54:39Z,2022-10-31T05:07:05Z,jakearchibald,topic: history|interop,1
 869891051,false,Add alt attributes to source elements,https://github.com/whatwg/html/issues/6627,2021-04-28T12:27:32Z,2021-05-17T15:43:12Z,johannesodland,addition/proposal|needs implementer interest|accessibility|topic: img|i18n-tracker,7
