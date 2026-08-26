@@ -1,8 +1,11 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5249642859,false,Alternative to `blur` on removal,https://github.com/whatwg/html/issues/12842,2026-08-25T19:15:45Z,2026-08-25T20:26:27Z,noamr,topic: focus,0
+5249348425,false,Meeting 49 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12841,2026-08-25T18:43:11Z,2026-08-25T19:57:12Z,mfreed7,,0
+5247670435,false,The changes from #11292 seem to break opening links in descendant `<iframe>`,https://github.com/whatwg/html/issues/12839,2026-08-25T15:32:52Z,2026-08-25T15:32:52Z,mrobinson,,0
 5239041499,false,Order of the error event and the pointer advance is not defined in resource selection,https://github.com/whatwg/html/issues/12836,2026-08-24T20:17:37Z,2026-08-24T20:17:37Z,zcorpan,topic: media,0
 5238782056,false,Resource selection: no engine runs the synchronous section at a microtask checkpoint,https://github.com/whatwg/html/issues/12835,2026-08-24T19:46:56Z,2026-08-24T19:46:56Z,zcorpan,topic: media,0
 5237824175,false,"Navigation API: make the ""signals to the user … via … assistive technology … that the navigation is finished"" behavior for intercepted navigations normative",https://github.com/whatwg/html/issues/12834,2026-08-24T17:53:44Z,2026-08-24T18:10:22Z,WestonThayer,,0
-5236337915,false,"""nullify ongoing navigate event"" step breaks same-document navigations",https://github.com/whatwg/html/issues/12832,2026-08-24T15:10:26Z,2026-08-25T06:16:40Z,shannonbooth,,0
+5236337915,false,"""nullify ongoing navigate event"" step breaks same-document navigations",https://github.com/whatwg/html/issues/12832,2026-08-24T15:10:26Z,2026-08-25T14:46:09Z,shannonbooth,,0
 5234290128,false,Adoption agency algorithm can throw after a custom element reaction reparents nodes,https://github.com/whatwg/html/issues/12828,2026-08-24T11:40:26Z,2026-08-24T11:41:32Z,annevk,topic: parser|topic: custom elements,0
 5227650356,false,"Web Storage and IndexedDB should use transactional isolation during prerendering, matching the cookie model",https://github.com/whatwg/html/issues/12826,2026-08-23T15:34:20Z,2026-08-23T15:34:20Z,e1abrador,,0
 5226793237,false,Allow specifying favicon location on non-HTML resources,https://github.com/whatwg/html/issues/12825,2026-08-23T12:06:04Z,2026-08-23T12:13:58Z,girst,addition/proposal|needs implementer interest|topic: link,0
@@ -58,7 +61,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4994265700,false,"Session history: reload-pending is set before the reload is queued — so creation/destruction bookkeeping can reach the ""navigationType is not null"" assert",https://github.com/whatwg/html/issues/12724,2026-07-28T02:32:32Z,2026-08-05T07:26:21Z,sideshowbarker,compat|topic: navigation,0
 4986105997,false,"`iframe` listed as ""Interactive content""",https://github.com/whatwg/html/issues/12722,2026-07-27T08:48:25Z,2026-08-10T00:03:49Z,patrickhlauke,,2
 4969867148,false,[select] Define which children are vs are not slotted.,https://github.com/whatwg/html/issues/12717,2026-07-24T15:31:04Z,2026-08-24T17:03:40Z,emilio,topic: rendering|topic: select,0
-4962868248,false,Meeting 48 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12715,2026-07-23T21:00:02Z,2026-08-20T14:58:53Z,mfreed7,,0
+4962868248,true,Meeting 48 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12715,2026-07-23T21:00:02Z,2026-08-25T18:43:23Z,mfreed7,,0
 4957449266,false,AIMS -- Artificial Intelligence Memorandum Schemes,https://github.com/whatwg/html/issues/12713,2026-07-23T09:31:19Z,2026-07-23T09:31:19Z,serdult,addition/proposal|needs implementer interest,2
 4956914670,false,`<img sizes=auto>` triggers wasteful fetches when hiding/removing the image,https://github.com/whatwg/html/issues/12712,2026-07-23T08:23:29Z,2026-07-23T09:21:36Z,noamr,topic: img,1
 4918013717,false,"""Update the rendering"" should specify what happens when a Document becomes rendering blocking during a ""update the rendering""",https://github.com/whatwg/html/issues/12704,2026-07-18T11:16:11Z,2026-07-18T11:16:11Z,mrobinson,,0
@@ -221,7 +224,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4206845634,false,Add `live` attribute to the <time> element for auto-updating display,https://github.com/whatwg/html/issues/12333,2026-04-05T07:32:49Z,2026-06-17T09:25:37Z,Huzaifaabdulrab,addition/proposal|needs implementer interest,1
 4205677703,true,Add `live` and `timezone` attributes to the <time> element,https://github.com/whatwg/html/issues/12332,2026-04-04T19:41:58Z,2026-04-05T07:29:31Z,Huzaifaabdulrab,,0
 4205661586,false,"Native layout boolean attributes for HTML elements (flex, grid, wrap)",https://github.com/whatwg/html/issues/12331,2026-04-04T19:31:41Z,2026-04-04T19:31:41Z,Huzaifaabdulrab,,1
-4201305466,false,"Add the ""action"" and ""method"" attributes to <button>",https://github.com/whatwg/html/issues/12330,2026-04-03T16:38:54Z,2026-07-16T07:48:54Z,alexpetros,addition/proposal|topic: forms,87
+4201305466,false,"Add the ""action"" and ""method"" attributes to <button>",https://github.com/whatwg/html/issues/12330,2026-04-03T16:38:54Z,2026-07-16T07:48:54Z,alexpetros,addition/proposal|topic: forms,88
 4199446642,false,Focus update steps do not match browser behavior when Element#focus() is called in a blur event handler,https://github.com/whatwg/html/issues/12329,2026-04-03T09:15:18Z,2026-04-03T09:37:46Z,mrobinson,,0
 4195491316,false,[Customizable select] Define UA behavior for interactive content inside <option>,https://github.com/whatwg/html/issues/12328,2026-04-02T15:52:11Z,2026-04-23T20:02:14Z,minorninth,accessibility|a11y-tracker|topic: select,0
 4187739049,false,disallow customized builtin elements from being on the list of active formatting elements,https://github.com/whatwg/html/issues/12327,2026-04-01T15:14:46Z,2026-04-03T12:41:10Z,dbaron,topic: parser|topic: custom elements,0
@@ -495,7 +498,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3546163704,true,Meeting 31 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11824,2025-10-23T19:04:55Z,2025-11-05T20:04:43Z,mfreed7,,0
 3541685968,true,Upcoming WHATNOT meeting on 2025-10-23,https://github.com/whatwg/html/issues/11821,2025-10-22T17:19:17Z,2025-10-24T21:06:01Z,cwilso,,0
 3541597104,false,Re-importing a module with an invalid dependency specifier,https://github.com/whatwg/html/issues/11820,2025-10-22T16:47:29Z,2026-02-14T05:18:09Z,nicolo-ribaudo,topic: script|topic: imports/exports,0
-3541502820,false,Allow deferring commit of a same-origin cross-document navigation,https://github.com/whatwg/html/issues/11819,2025-10-22T16:14:16Z,2026-08-25T10:56:27Z,noamr,addition/proposal|topic: navigation|agenda+|stage: 1,0
+3541502820,false,Allow deferring commit of a same-origin cross-document navigation,https://github.com/whatwg/html/issues/11819,2025-10-22T16:14:16Z,2026-08-25T15:03:27Z,noamr,addition/proposal|topic: navigation|agenda+|stage: 1,0
 3537533487,true,Navigation API: Remove `ongoing API method tracker` or set it again,https://github.com/whatwg/html/issues/11816,2025-10-21T17:34:41Z,2025-10-22T12:22:53Z,jnjaeschke,,0
 3536147571,true,No implementation calls #resume-applying-the-traverse-history-step entirely async,https://github.com/whatwg/html/issues/11814,2025-10-21T11:38:26Z,2026-03-02T15:54:04Z,farre,compat|topic: navigation,0
 3534577511,false,Stylesheet link response processing rules for content-type contradict rules for processing the type attribute,https://github.com/whatwg/html/issues/11813,2025-10-21T02:19:59Z,2025-12-30T08:18:29Z,jdm,topic: link|topic: style,0
@@ -545,7 +548,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3474315969,true,Navigation API: upcoming API method tracker is not null if `navigate` is called from `onnavigateerror`,https://github.com/whatwg/html/issues/11735,2025-10-01T16:40:38Z,2025-10-21T18:37:03Z,jnjaeschke,topic: navigation,0
 3472725307,false,"Navigation API: ""has been scrolled by user"" is ambiguous",https://github.com/whatwg/html/issues/11732,2025-10-01T09:17:01Z,2026-08-24T09:01:34Z,keithamus,clarification|topic: navigation|topic: navigation API,1
 3472419842,true,optgroup element text is incorrect,https://github.com/whatwg/html/issues/11730,2025-10-01T07:36:11Z,2025-10-17T05:18:04Z,annevk,topic: select,0
-3471213469,false,Menu elements proposal,https://github.com/whatwg/html/issues/11729,2025-09-30T22:10:24Z,2026-07-23T18:34:35Z,domfarolino,addition/proposal|needs implementer interest|stage: 2,6
+3471213469,false,Menu elements proposal,https://github.com/whatwg/html/issues/11729,2025-09-30T22:10:24Z,2026-08-25T15:37:36Z,domfarolino,addition/proposal|needs implementer interest|stage: 2,6
 3470648855,false,`closedby` defaults refer to unspecified “Auto” state,https://github.com/whatwg/html/issues/11728,2025-09-30T18:43:55Z,2025-10-01T16:15:35Z,j9t,topic: reflect,0
 3468199894,true,"`rel=""icon""` requests do not fire since it doesn't translate to a valid preload destination",https://github.com/whatwg/html/issues/11726,2025-09-30T08:36:46Z,2025-10-10T08:34:20Z,TimvdLippe,,0
 3466671369,false,"A way to remove EXIF data on `<input type=""file"">` before sending to server",https://github.com/whatwg/html/issues/11724,2025-09-29T21:25:06Z,2026-05-06T13:27:19Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms,24
@@ -1841,7 +1844,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1633613880,true,Is it ok for popover to claim general names like :open and :closed?,https://github.com/whatwg/html/issues/9055,2023-03-21T10:28:08Z,2023-04-06T23:18:08Z,jakearchibald,topic: popover,0
 1633590732,true,Add element.popoverOpen,https://github.com/whatwg/html/issues/9054,2023-03-21T10:13:22Z,2023-06-06T06:25:59Z,jakearchibald,addition/proposal|needs implementer interest|topic: popover,0
 1629220956,false,"Timing of `<dialog>` 'close' event, popover 'toggle' event, `<details>` 'toggle' event",https://github.com/whatwg/html/issues/9046,2023-03-17T12:19:27Z,2024-03-11T22:30:04Z,jakearchibald,topic: dialog|topic: popover,0
-1629156392,true,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-06-06T06:39:49Z,jakearchibald,topic: dialog|topic: popover,6
+1629156392,true,Should popover/dialog show/hide when already shown/hidden throw?,https://github.com/whatwg/html/issues/9045,2023-03-17T11:32:41Z,2023-06-06T06:39:49Z,jakearchibald,topic: dialog|topic: popover,7
 1629078964,false,<dialog> Unclear method of altering/reading attributes,https://github.com/whatwg/html/issues/9044,2023-03-17T10:35:36Z,2023-03-17T11:06:53Z,jakearchibald,topic: dialog,0
 1628986537,true,Should togglePopover() return a boolean?,https://github.com/whatwg/html/issues/9043,2023-03-17T09:30:48Z,2023-06-20T06:33:38Z,jakearchibald,addition/proposal|topic: popover,0
 1628760896,true,popover attribute may not be web compatible,https://github.com/whatwg/html/issues/9042,2023-03-17T06:11:49Z,2023-07-13T19:35:47Z,nt1m,compat|topic: popover,0
