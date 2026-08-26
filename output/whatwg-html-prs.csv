@@ -1,11 +1,14 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5254987417,false,Abort in-flight navigation API traversals to pruned entries,https://github.com/whatwg/html/pull/12846,2026-08-26T08:32:24Z,2026-08-26T08:49:40Z,noamr,,0
+5254791765,false,window.open() with noopener should not always return null,https://github.com/whatwg/html/pull/12845,2026-08-26T08:08:15Z,2026-08-26T12:19:46Z,annevk,,0
+5254336450,true,"Revert part of ""Do not allow named window targeting with noopener""",https://github.com/whatwg/html/pull/12844,2026-08-26T07:12:16Z,2026-08-26T08:40:35Z,annevk,,0
 5249699504,false,"Fix focus navigation trap when starting point is inside focused area, but before any other focusable areas.",https://github.com/whatwg/html/pull/12843,2026-08-25T19:21:58Z,2026-08-25T19:23:39Z,ltenmoz,,0
 5247727723,false,Consult the dimension attributes for width and height when not rendered,https://github.com/whatwg/html/pull/12840,2026-08-25T15:38:54Z,2026-08-25T15:43:54Z,annevk,topic: img,0
-5245006940,false,Only nullify the navigation API state when cross-document,https://github.com/whatwg/html/pull/12838,2026-08-25T10:52:18Z,2026-08-25T21:43:24Z,noamr,,0
+5245006940,false,Only nullify the navigation API state when cross-document,https://github.com/whatwg/html/pull/12838,2026-08-25T10:52:18Z,2026-08-26T08:02:15Z,noamr,,0
 5239389418,false,Fetch a worker's main script before creating its settings object,https://github.com/whatwg/html/pull/12837,2026-08-24T20:59:45Z,2026-08-24T21:28:14Z,shannonbooth,,0
 5236783049,false,"Pass a new ""hasStartedNavigatingForWebDriver"" flag to the ""WebDriver BiDi navigable created"" event.",https://github.com/whatwg/html/pull/12833,2026-08-24T15:55:20Z,2026-08-24T15:56:32Z,lutien,,0
 5236302244,false,"Editorial: Specify parser insertion location as a (parent, reference child) tuple",https://github.com/whatwg/html/pull/12831,2026-08-24T15:07:21Z,2026-08-25T09:17:58Z,noamr,clarification|topic: parser,0
-5236052529,false,Drop an element the parser cannot insert,https://github.com/whatwg/html/pull/12830,2026-08-24T14:45:08Z,2026-08-25T10:20:54Z,annevk,topic: parser,0
+5236052529,true,Drop an element the parser cannot insert,https://github.com/whatwg/html/pull/12830,2026-08-24T14:45:08Z,2026-08-26T05:13:17Z,annevk,topic: parser,0
 5235344907,false,Editorial: define fragment context element on HTML parser,https://github.com/whatwg/html/pull/12829,2026-08-24T13:35:19Z,2026-08-24T13:39:00Z,noamr,,0
 5226295516,false,Use replace history handling for same-URL browser UI navigations,https://github.com/whatwg/html/pull/12824,2026-08-23T09:43:42Z,2026-08-23T09:52:27Z,shannonbooth,,0
 5222222593,true,Remove object/embed exposedness from document named properties,https://github.com/whatwg/html/pull/12823,2026-08-22T13:54:06Z,2026-08-24T14:25:06Z,annevk,,2
@@ -20,7 +23,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5080814496,true,Close unrelated auto popovers when a dialog opens inside a hint popover,https://github.com/whatwg/html/pull/12764,2026-08-06T11:48:36Z,2026-08-11T12:17:24Z,jakearchibald,agenda+,0
 5079477247,true,Correct reflection definition for commandForElement and popoverTargetElement,https://github.com/whatwg/html/pull/12762,2026-08-06T08:59:43Z,2026-08-21T12:36:13Z,lukewarlow,,0
 5079253045,false,Use System colors for links,https://github.com/whatwg/html/pull/12761,2026-08-06T08:30:38Z,2026-08-13T18:30:58Z,TimvdLippe,,1
-5064001077,false,Stream HTML into element or ShadowRoot,https://github.com/whatwg/html/pull/12758,2026-08-04T19:09:46Z,2026-08-25T14:39:33Z,noamr,,0
+5064001077,false,Stream HTML into element or ShadowRoot,https://github.com/whatwg/html/pull/12758,2026-08-04T19:09:46Z,2026-08-26T10:20:57Z,noamr,,0
 5063591004,false,Sanitize while parsing,https://github.com/whatwg/html/pull/12756,2026-08-04T18:19:56Z,2026-08-25T14:39:33Z,noamr,,1
 5063585642,true,Sanitize while parsing,https://github.com/whatwg/html/pull/12755,2026-08-04T18:19:16Z,2026-08-04T18:20:29Z,noamr,,0
 5063528426,false,Positional HTML methods,https://github.com/whatwg/html/pull/12753,2026-08-04T18:11:51Z,2026-08-25T14:39:31Z,noamr,,1
@@ -168,7 +171,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4227454878,false,allow structuredClone to clone proxies,https://github.com/whatwg/html/pull/12348,2026-04-08T20:33:27Z,2026-04-08T20:36:39Z,bakkot,,0
 4224993947,true,Simplify popover=hint behaviours & related spec fixes,https://github.com/whatwg/html/pull/12345,2026-04-08T13:45:02Z,2026-07-13T22:35:19Z,jakearchibald,,2
 4221827990,false,Editorial: Re-word the 4th bullet in `eligible for autoplay`,https://github.com/whatwg/html/pull/12344,2026-04-08T03:14:59Z,2026-04-08T03:16:17Z,jmdyck,,0
-4213516682,false,Module Stylesheet <link> tags,https://github.com/whatwg/html/pull/12339,2026-04-06T19:00:19Z,2026-08-25T21:20:08Z,KurtCattiSchmidt,,0
+4213516682,false,Module Stylesheet <link> tags,https://github.com/whatwg/html/pull/12339,2026-04-06T19:00:19Z,2026-08-26T09:53:05Z,KurtCattiSchmidt,,0
 4211550583,true,Editorial: queue media element task on DOM manipulation task source e…,https://github.com/whatwg/html/pull/12336,2026-04-06T12:13:26Z,2026-06-26T13:42:22Z,shihab-work,,0
 4137163971,true,Editorial: Fix button activation steps to reference element variable rather than…,https://github.com/whatwg/html/pull/12315,2026-03-25T17:27:17Z,2026-03-30T12:23:15Z,lukewarlow,,0
 4136746421,true,Upstream the Sanitizer API (WIP),https://github.com/whatwg/html/pull/12314,2026-03-25T16:26:15Z,2026-06-08T08:00:45Z,zcorpan,,2
@@ -263,7 +266,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3720029201,false,Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2026-08-25T19:26:43Z,domfarolino,,0
 3717708776,false,Skip light dismiss when opening select's picker,https://github.com/whatwg/html/pull/12008,2025-12-11T04:33:36Z,2026-04-30T16:34:49Z,josepharhar,,0
 3714324873,true,Add proposal for maxcount attribute,https://github.com/whatwg/html/pull/12005,2025-12-10T09:24:01Z,2025-12-10T12:59:11Z,milanagowda77656-cloud,invalid,0
-3706163049,false,Introduce scopedcustomelementregistry global attribute,https://github.com/whatwg/html/pull/12000,2025-12-08T12:24:45Z,2026-08-25T23:44:30Z,ja-y-son,,0
+3706163049,false,Introduce scopedcustomelementregistry global attribute,https://github.com/whatwg/html/pull/12000,2025-12-08T12:24:45Z,2026-08-26T06:20:08Z,ja-y-son,,0
 3703517492,true,"Editorial: Fix typo in WindowOrWorkerGlobalScope's ""extract an origin""",https://github.com/whatwg/html/pull/11998,2025-12-07T13:54:40Z,2025-12-08T06:01:49Z,shannonbooth,,0
 3697248432,true,Ensure CustomElementRegistry.initialize has CEReaction attribute,https://github.com/whatwg/html/pull/11992,2025-12-05T02:23:59Z,2025-12-05T06:02:03Z,ja-y-son,,0
 3696258025,false,Encourage always-escaping ampersand character.,https://github.com/whatwg/html/pull/11988,2025-12-04T19:49:01Z,2026-02-27T16:53:30Z,dmsnell,document conformance|topic: parser,0
@@ -400,7 +403,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3356225711,false,"[FYI, not ready for review] Add globalHDRHeadroom to CanvasCompositing interface",https://github.com/whatwg/html/pull/11597,2025-08-26T15:51:38Z,2025-10-01T08:29:20Z,ccameron-chromium,,0
 3344286687,true,chore(css): normalize prefers-color-scheme spacing in styles.css,https://github.com/whatwg/html/pull/11591,2025-08-22T06:18:20Z,2025-08-22T06:32:55Z,ArjunSaluja,invalid,0
 3342044580,true,use integer over anb syntax for heading,https://github.com/whatwg/html/pull/11589,2025-08-21T14:47:23Z,2025-08-27T12:55:08Z,keithamus,,0
-3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-08-20T19:06:05Z,foolip,,5
+3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-08-26T06:45:31Z,foolip,,5
 3337110965,true,[meta] Add dfn type and scope for HTMLMediaElement.src,https://github.com/whatwg/html/pull/11581,2025-08-20T08:32:57Z,2025-08-21T00:28:09Z,dontcallmedom,,1
 3336967031,true,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation,0
 3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
@@ -1898,7 +1901,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 897489317,true,Meta: do not export incumbent settings object,https://github.com/whatwg/html/pull/6702,2021-05-20T21:45:28Z,2021-05-21T05:26:50Z,domenic,,0
 895720668,true,Change the textarea wrapping algorithm to normalize to LF.,https://github.com/whatwg/html/pull/6697,2021-05-19T17:50:00Z,2021-05-20T12:15:54Z,andreubotella,,0
 895442285,true,"Add notes for focus & non-""fully active"" documents",https://github.com/whatwg/html/pull/6696,2021-05-19T13:23:51Z,2021-10-14T16:01:38Z,rakina,topic: focus,0
-895441195,false,Take sizes from <img> if a <source> doesn't have a sizes attribute,https://github.com/whatwg/html/pull/6695,2021-05-19T13:22:48Z,2025-12-16T10:16:40Z,jakearchibald,,4
+895441195,false,Take sizes from <img> if a <source> doesn't have a sizes attribute,https://github.com/whatwg/html/pull/6695,2021-05-19T13:22:48Z,2025-12-16T10:16:40Z,jakearchibald,,5
 892519142,true,Contributionw,https://github.com/whatwg/html/pull/6690,2021-05-15T19:19:05Z,2024-10-08T14:08:39Z,jayeshgpr2856,invalid,0
 892454169,true,"Meta: export ""system focus""",https://github.com/whatwg/html/pull/6689,2021-05-15T14:18:32Z,2021-05-18T18:12:37Z,mfalken,meta,0
 891122673,true,4x4 transforms for CanvasRenderingContext2D,https://github.com/whatwg/html/pull/6683,2021-05-13T15:07:07Z,2023-08-29T18:45:37Z,mysteryDate,addition/proposal|topic: canvas,0
