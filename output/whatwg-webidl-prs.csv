@@ -569,6 +569,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 108290108,true,Fix the SerializerRest production rule,https://github.com/whatwg/webidl/pull/58,2015-09-25T09:14:43Z,2015-09-27T23:23:11Z,nox,,0
 97872961,true,Fragments,https://github.com/whatwg/webidl/pull/56,2015-07-29T06:49:00Z,2016-02-15T04:50:43Z,ylafon,,0
 91173172,true,typo fix,https://github.com/whatwg/webidl/pull/53,2015-06-26T06:46:41Z,2016-02-15T03:31:48Z,ylafon,,0
+89986967,true,Fix arrays,https://github.com/whatwg/webidl/pull/52,2015-06-22T01:37:25Z,2015-07-07T05:37:15Z,heycam,,0
 67721850,true,"Make the properties on the named properties object writable, so they don't prevent assignment to undeclared props on the window.",https://github.com/whatwg/webidl/pull/48,2015-04-11T02:24:25Z,2015-04-18T04:31:48Z,bzbarsky,,0
 67221902,true,Fix up a bunch of cases in maplike/setlike code where we were working with the interface instance when we meant to work with the backing object or returning the backing object when we meant to return the interface instance.,https://github.com/whatwg/webidl/pull/47,2015-04-08T21:15:33Z,2015-04-18T04:31:44Z,bzbarsky,,0
 60143710,true,Add a platform object [[Set]] internal method so we can have prototype setters show through even if an object has a named property of the same name and can have named creators work correctly on [OverrideBuiltins] objects even if thre is a property with the same name on the prototype.,https://github.com/whatwg/webidl/pull/45,2015-03-06T19:02:39Z,2015-03-12T15:44:04Z,bzbarsky,,0

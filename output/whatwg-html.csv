@@ -1,4 +1,8 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5269528839,false,Proposal: New native <rating> element for semantic reviews and interactive scores,https://github.com/whatwg/html/issues/12857,2026-08-27T15:54:44Z,2026-08-27T15:54:44Z,GrappinoRoot,,0
+5269085062,false,Proposal: New declarative <currency> element for semantic web and native internationalization,https://github.com/whatwg/html/issues/12856,2026-08-27T15:07:32Z,2026-08-27T15:57:13Z,GrappinoRoot,,0
+5266860658,false,select validity,https://github.com/whatwg/html/issues/12855,2026-08-27T11:11:47Z,2026-08-27T16:28:56Z,sb3nder,topic: select,0
+5266583359,false,Resource selection algorithm reads the loading attribute before the parser has appended it,https://github.com/whatwg/html/issues/12854,2026-08-27T10:36:45Z,2026-08-27T10:36:45Z,zcorpan,topic: media,0
 5257536024,true,"Parser scripting mode is never set to ""Normal""",https://github.com/whatwg/html/issues/12847,2026-08-26T13:24:14Z,2026-08-26T14:34:10Z,zcorpan,topic: parser,0
 5249642859,false,Alternative to `blur` on removal,https://github.com/whatwg/html/issues/12842,2026-08-25T19:15:45Z,2026-08-26T16:03:35Z,noamr,topic: focus,0
 5249348425,false,Meeting 49 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12841,2026-08-25T18:43:11Z,2026-08-25T19:57:12Z,mfreed7,,0
@@ -37,12 +41,12 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5168548796,false,Should a javascript: URL that doesn't create a new document trigger a load event?,https://github.com/whatwg/html/issues/12788,2026-08-17T05:15:12Z,2026-08-17T09:33:02Z,jdm,topic: frames/navigables/browsing contexts|topic: javascript: URLs,0
 5157607638,true,Simplify `<object>`/`<embed>` exposedness for document named properties,https://github.com/whatwg/html/issues/12787,2026-08-15T04:18:04Z,2026-08-24T14:25:05Z,domenic,interop|topic: embed and object,1
 5144169428,true,Upcoming WHATNOT meeting on 2026-08-20,https://github.com/whatwg/html/issues/12783,2026-08-13T17:41:26Z,2026-08-20T17:44:58Z,jstenback,agenda+,0
-5139741830,false,Performance Issue: Main single-page specification loads whole spec at root URL,https://github.com/whatwg/html/issues/12782,2026-08-13T09:12:28Z,2026-08-24T08:59:48Z,YutaKyle,spec tooling|good first issue|meta|topic: navigation API,0
+5139741830,false,Performance Issue: Main single-page specification loads whole spec at root URL,https://github.com/whatwg/html/issues/12782,2026-08-13T09:12:28Z,2026-08-27T15:35:18Z,YutaKyle,spec tooling|good first issue|meta,0
 5129674249,false,"#navigate should call #abort-the-ongoing-navigation when #checking-if-unloading-is-canceled returns ""canceled-by-beforeunload""",https://github.com/whatwg/html/issues/12779,2026-08-12T10:04:55Z,2026-08-12T10:04:55Z,farre,topic: navigation,0
 5129231100,false,Initial about:blank behavior before load differs between the spec and browsers,https://github.com/whatwg/html/issues/12778,2026-08-12T09:12:13Z,2026-08-12T09:12:13Z,vinhill,,0
 5124031218,false,Support render blocking on content in an iframe,https://github.com/whatwg/html/issues/12777,2026-08-11T19:53:42Z,2026-08-11T19:54:10Z,khushalsagar,addition/proposal|needs implementer interest,0
-5123486560,false,[focusgroupV2] Grid Navigation and supporting features.,https://github.com/whatwg/html/issues/12776,2026-08-11T18:45:33Z,2026-08-20T20:45:57Z,janewman,addition/proposal|needs implementer interest|agenda+,0
-5121248337,false,"Define the principles of what the ""disable scripting"" preference stands for",https://github.com/whatwg/html/issues/12775,2026-08-11T14:28:22Z,2026-08-11T14:29:03Z,noamr,clarification|topic: script|editorial,0
+5123486560,false,[focusgroupV2] Grid Navigation and supporting features.,https://github.com/whatwg/html/issues/12776,2026-08-11T18:45:33Z,2026-08-27T14:05:37Z,janewman,addition/proposal|needs implementer interest|agenda+,0
+5121248337,false,"Define the principles of what the ""disable scripting"" preference stands for",https://github.com/whatwg/html/issues/12775,2026-08-11T14:28:22Z,2026-08-27T16:50:27Z,noamr,clarification|topic: script|editorial,0
 5113276973,false,Navigable is never taken out of delaying load events mode if javascript: navigation does not create a document,https://github.com/whatwg/html/issues/12773,2026-08-10T18:42:24Z,2026-08-10T18:42:24Z,jdm,,0
 5109101569,false,"""Apply the history step"" calls ""attempt to populate the history entry's document"" with too few arguments",https://github.com/whatwg/html/issues/12772,2026-08-10T10:24:58Z,2026-08-10T10:25:22Z,nicolo-ribaudo,,0
 5101809509,false,Add `crossOriginStorage` import attribute (COS integration),https://github.com/whatwg/html/issues/12771,2026-08-09T09:20:27Z,2026-08-09T09:20:27Z,tomayac,addition/proposal|needs implementer interest,0
@@ -54,7 +58,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5063719766,false,Media element load algorithm step 7.3 detaches the wrong MediaSource — the assigned media provider object has already been reassigned by then,https://github.com/whatwg/html/issues/12757,2026-08-04T18:36:01Z,2026-08-05T07:26:17Z,sideshowbarker,compat|topic: media,0
 5043319571,false,Proposal: Native Declarative HTML Partial Inclusions (<include> / <html-include>),https://github.com/whatwg/html/issues/12747,2026-08-02T16:06:29Z,2026-08-17T02:19:32Z,alokrathava,addition/proposal|needs implementer interest,0
 5037033339,false,Parser text node data modification also needs to fire children changed steps,https://github.com/whatwg/html/issues/12744,2026-08-01T12:38:25Z,2026-08-21T11:50:57Z,domenic,topic: parser,0
-5033567336,false,JS API to associate form controls with a form element.,https://github.com/whatwg/html/issues/12743,2026-07-31T21:36:49Z,2026-08-26T17:47:10Z,lukewarlow,addition/proposal|needs implementer interest,2
+5033567336,false,JS API to associate form controls with a form element.,https://github.com/whatwg/html/issues/12743,2026-07-31T21:36:49Z,2026-08-27T19:46:37Z,lukewarlow,addition/proposal|needs implementer interest,2
 5023748914,true,Upcoming WHATNOT meeting on 2026-08-06,https://github.com/whatwg/html/issues/12738,2026-07-30T20:31:20Z,2026-08-06T19:12:25Z,tabatkins,agenda+,0
 5021140480,true,Upcoming WHATNOT meeting on 2026-07-30,https://github.com/whatwg/html/issues/12737,2026-07-30T15:06:11Z,2026-07-30T20:30:51Z,jstenback,agenda+,0
 5007624399,false,Add native support for transforming video frames without affecting `<video>` controls,https://github.com/whatwg/html/issues/12732,2026-07-29T09:23:50Z,2026-08-13T11:15:04Z,jimmywarting,addition/proposal|needs implementer interest,0
@@ -377,7 +381,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3789433373,true,"""update a color well control color"" works based on the input value concept while WPT expects the value attribute",https://github.com/whatwg/html/issues/12057,2026-01-07T16:27:03Z,2026-01-14T13:00:53Z,saschanaz,topic: forms,1
 3787213214,false,Cryptographic User Content Offload/Obfuscation,https://github.com/whatwg/html/issues/12055,2026-01-07T03:26:19Z,2026-01-07T03:26:19Z,skeggse,addition/proposal|needs implementer interest,1
 3785243871,true,Should HTMLInputElement.colorSpace setter trigger sanitization?,https://github.com/whatwg/html/issues/12053,2026-01-06T13:59:06Z,2026-01-06T15:58:14Z,saschanaz,,0
-3771255288,false,Filtering support for customizable select,https://github.com/whatwg/html/issues/12050,2025-12-30T20:46:20Z,2026-08-12T20:41:07Z,josepharhar,addition/proposal|needs implementer interest|topic: select,4
+3771255288,false,Filtering support for customizable select,https://github.com/whatwg/html/issues/12050,2025-12-30T20:46:20Z,2026-08-27T18:10:28Z,josepharhar,addition/proposal|needs implementer interest|topic: select,4
 3771158236,false,Base appearance for drop-down select multiple,https://github.com/whatwg/html/issues/12049,2025-12-30T20:02:00Z,2026-01-09T01:59:57Z,josepharhar,topic: select,0
 3769282508,false,Unclear interactions between Resource Timing and preloads,https://github.com/whatwg/html/issues/12047,2025-12-30T06:50:38Z,2025-12-30T06:50:38Z,jdm,,0
 3768896787,false,Worker constructor specification doesn't match browser behaviour for cross-origin URLs,https://github.com/whatwg/html/issues/12046,2025-12-30T03:06:52Z,2025-12-30T03:07:27Z,jdm,,0
@@ -1105,7 +1109,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2555508180,true,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-10-30T05:36:43Z,domenic,normative change|topic: dialog|topic: popover,1
 2551969947,true,Upcoming WHATNOT meeting on 2024-10-03,https://github.com/whatwg/html/issues/10652,2024-09-27T04:30:41Z,2024-10-02T15:00:07Z,past,agenda+,0
 2551884785,false,Nested `contenteditable=true` and `contenteditable=plaintext-only` should win only the ourtermost one,https://github.com/whatwg/html/issues/10651,2024-09-27T02:53:27Z,2024-09-30T21:55:52Z,masayuki-nakano,needs tests|needs concrete proposal|topic: editing,0
-2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-08-20T15:43:32Z,khushalsagar,addition/proposal|topic: canvas|stage: 2,3
+2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-08-27T17:10:26Z,khushalsagar,addition/proposal|topic: canvas|agenda+|stage: 2,3
 2549044519,true,Resolving  of transition and finished promises is mismatched between spec and tests,https://github.com/whatwg/html/issues/10646,2024-09-25T21:39:11Z,2024-09-30T10:14:17Z,rwlbuis,topic: navigation,0
 2544017899,true,"'reading-flow' and ""display: contents""",https://github.com/whatwg/html/issues/10643,2024-09-24T00:42:59Z,2024-09-24T16:09:09Z,tabatkins,topic: focus,0
 2543972242,false,tabindex vs reading-flow property,https://github.com/whatwg/html/issues/10642,2024-09-24T00:01:25Z,2025-03-12T17:10:41Z,tabatkins,topic: focus,3
@@ -1472,7 +1476,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2062771189,false,Change when button has activation behavior,https://github.com/whatwg/html/issues/10032,2024-01-02T18:08:35Z,2024-03-05T14:38:06Z,vinhill,topic: forms|topic: events|topic: popover,0
 2061045240,false,[forms] <select> element clip is not specified and not interoperable,https://github.com/whatwg/html/issues/10031,2023-12-31T12:30:30Z,2024-01-09T10:40:18Z,emilio,topic: rendering|topic: forms,0
 2060823093,true,Is HTML stagnated?,https://github.com/whatwg/html/issues/10030,2023-12-30T18:35:10Z,2024-01-03T09:41:56Z,alejsanc,,0
-2058728900,false,Should `:target` match after elements are removed and reattached to the document?,https://github.com/whatwg/html/issues/10029,2023-12-28T18:49:59Z,2024-01-05T04:27:08Z,josepharhar,,0
+2058728900,true,Should `:target` match after elements are removed and reattached to the document?,https://github.com/whatwg/html/issues/10029,2023-12-28T18:49:59Z,2026-08-27T15:28:13Z,josepharhar,topic: navigation|topic: selectors,0
 2058361883,true,Minor error in import map example?,https://github.com/whatwg/html/issues/10028,2023-12-28T12:08:54Z,2026-02-14T05:20:51Z,farsightsoftware,good first issue|topic: script|topic: imports/exports,0
 2057058225,false,Detached OffscreenCanvas is underspecified,https://github.com/whatwg/html/issues/10026,2023-12-27T08:13:45Z,2024-01-03T01:51:15Z,Kaiido,topic: canvas|interop,0
 2057035269,true,[forms] Range input shouldn't clip its contents to the border box,https://github.com/whatwg/html/issues/10024,2023-12-27T07:48:22Z,2024-01-12T15:22:54Z,emilio,topic: rendering|topic: forms,0
@@ -2677,7 +2681,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 923084614,true,Extend `atob` and `btoa` to support non-ASCII strings,https://github.com/whatwg/html/issues/6779,2021-06-16T20:46:05Z,2021-07-22T22:15:36Z,ethanresnick,addition/proposal|needs implementer interest,1
 922214329,true,Setting document.domain should not work for any public suffix,https://github.com/whatwg/html/issues/6775,2021-06-16T07:36:40Z,2021-06-16T17:09:25Z,thorlacius,,0
 921850934,true,What should history.back() do when sync navigations are involved?,https://github.com/whatwg/html/issues/6773,2021-06-15T22:22:03Z,2022-10-31T05:07:06Z,domenic,topic: history|interop,0
-920923069,true,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2026-07-15T17:08:34Z,haoqunjiang,topic: script,75
+920923069,true,Failed dynamic import should not always be cached,https://github.com/whatwg/html/issues/6768,2021-06-15T02:19:52Z,2026-07-15T17:08:34Z,haoqunjiang,topic: script,77
 918518896,true,Web compat: don't run async scripts between adjacent sync <script>s,https://github.com/whatwg/html/issues/6761,2021-06-11T09:48:42Z,2024-06-10T19:07:31Z,zcorpan,compat|topic: parser|topic: script,0
 917707970,false,How should timers account for system sleep/suspend?,https://github.com/whatwg/html/issues/6759,2021-06-10T18:46:38Z,2024-01-02T18:59:04Z,shaseley,,0
 917578796,false,Additional definitions exports for Pointer Events,https://github.com/whatwg/html/issues/6758,2021-06-10T17:04:44Z,2021-08-04T17:33:43Z,plehegar,anchor permanence|editorial,0
