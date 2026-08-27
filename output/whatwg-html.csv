@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5249642859,false,Alternative to `blur` on removal,https://github.com/whatwg/html/issues/12842,2026-08-25T19:15:45Z,2026-08-26T11:59:19Z,noamr,topic: focus,0
+5257536024,true,"Parser scripting mode is never set to ""Normal""",https://github.com/whatwg/html/issues/12847,2026-08-26T13:24:14Z,2026-08-26T14:34:10Z,zcorpan,topic: parser,0
+5249642859,false,Alternative to `blur` on removal,https://github.com/whatwg/html/issues/12842,2026-08-25T19:15:45Z,2026-08-26T16:03:35Z,noamr,topic: focus,0
 5249348425,false,Meeting 49 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12841,2026-08-25T18:43:11Z,2026-08-25T19:57:12Z,mfreed7,,0
 5247670435,true,The changes from #11292 seem to break opening links in descendant `<iframe>`,https://github.com/whatwg/html/issues/12839,2026-08-25T15:32:52Z,2026-08-26T08:40:33Z,mrobinson,topic: frames/navigables/browsing contexts,0
 5239041499,false,Order of the error event and the pointer advance is not defined in resource selection,https://github.com/whatwg/html/issues/12836,2026-08-24T20:17:37Z,2026-08-24T20:17:37Z,zcorpan,topic: media,0
@@ -53,7 +54,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5063719766,false,Media element load algorithm step 7.3 detaches the wrong MediaSource — the assigned media provider object has already been reassigned by then,https://github.com/whatwg/html/issues/12757,2026-08-04T18:36:01Z,2026-08-05T07:26:17Z,sideshowbarker,compat|topic: media,0
 5043319571,false,Proposal: Native Declarative HTML Partial Inclusions (<include> / <html-include>),https://github.com/whatwg/html/issues/12747,2026-08-02T16:06:29Z,2026-08-17T02:19:32Z,alokrathava,addition/proposal|needs implementer interest,0
 5037033339,false,Parser text node data modification also needs to fire children changed steps,https://github.com/whatwg/html/issues/12744,2026-08-01T12:38:25Z,2026-08-21T11:50:57Z,domenic,topic: parser,0
-5033567336,false,JS API to associate form controls with a form element.,https://github.com/whatwg/html/issues/12743,2026-07-31T21:36:49Z,2026-08-06T08:05:57Z,lukewarlow,addition/proposal|needs implementer interest,1
+5033567336,false,JS API to associate form controls with a form element.,https://github.com/whatwg/html/issues/12743,2026-07-31T21:36:49Z,2026-08-26T17:47:10Z,lukewarlow,addition/proposal|needs implementer interest,2
 5023748914,true,Upcoming WHATNOT meeting on 2026-08-06,https://github.com/whatwg/html/issues/12738,2026-07-30T20:31:20Z,2026-08-06T19:12:25Z,tabatkins,agenda+,0
 5021140480,true,Upcoming WHATNOT meeting on 2026-07-30,https://github.com/whatwg/html/issues/12737,2026-07-30T15:06:11Z,2026-07-30T20:30:51Z,jstenback,agenda+,0
 5007624399,false,Add native support for transforming video frames without affecting `<video>` controls,https://github.com/whatwg/html/issues/12732,2026-07-29T09:23:50Z,2026-08-13T11:15:04Z,jimmywarting,addition/proposal|needs implementer interest,0
@@ -615,7 +616,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3338121627,false,Proposal: localized command references without IDs,https://github.com/whatwg/html/issues/11583,2025-08-20T13:19:45Z,2025-09-08T14:03:57Z,noamr,addition/proposal|needs implementer interest,2
 3337792182,true,XSLT removal will break multiple government and regulatory sites across the world,https://github.com/whatwg/html/issues/11582,2025-08-20T11:42:09Z,2025-08-23T03:39:49Z,dmitriid,,95
 3336746820,true,Navigation API: consolidate aborting code paths,https://github.com/whatwg/html/issues/11579,2025-08-20T06:32:06Z,2025-10-08T12:54:33Z,domenic,clarification|topic: navigation,1
-3334629769,false,Should the web platform adopt XSLT 3.0?,https://github.com/whatwg/html/issues/11578,2025-08-19T14:33:45Z,2026-01-08T08:35:34Z,tony-sull,addition/proposal|needs implementer interest,246
+3334629769,false,Should the web platform adopt XSLT 3.0?,https://github.com/whatwg/html/issues/11578,2025-08-19T14:33:45Z,2026-01-08T08:35:34Z,tony-sull,addition/proposal|needs implementer interest,247
 3334246333,false,Proposal to add missing IDREF reflection IDL attributes,https://github.com/whatwg/html/issues/11577,2025-08-19T12:44:55Z,2026-07-31T21:05:34Z,lukewarlow,addition/proposal|needs implementer interest,7
 3323703355,true,Meeting 27 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11566,2025-08-14T21:58:26Z,2025-09-04T15:58:28Z,mfreed7,,1
 3323353832,false,toggle and beforetoggle events for the select element,https://github.com/whatwg/html/issues/11564,2025-08-14T19:28:16Z,2026-03-05T09:26:32Z,josepharhar,addition/proposal|needs implementer interest|topic: select,4
@@ -1366,7 +1367,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2202549680,false,Allow a custom element to act as a form,https://github.com/whatwg/html/issues/10220,2024-03-22T13:52:14Z,2026-03-13T20:22:21Z,jakearchibald,addition/proposal|needs implementer interest|topic: shadow|topic: custom elements|topic: forms,11
 2202124851,false,Reflected IDL attributes of type FrozenArray<T>? don't create a FrozenArray,https://github.com/whatwg/html/issues/10219,2024-03-22T09:57:41Z,2025-04-14T10:31:29Z,petervanderbeken,integration|topic: reflect,0
 2200902686,false,Form not submitted warning message before unload,https://github.com/whatwg/html/issues/10218,2024-03-21T18:39:07Z,2024-04-29T12:22:27Z,keithamus,addition/proposal|needs implementer interest,0
-2198694825,false,Recommend against using the <q> element (or fix its behavior),https://github.com/whatwg/html/issues/10216,2024-03-20T22:28:50Z,2026-05-18T19:50:39Z,jyasskin,removal/deprecation|addition/proposal|needs implementer interest|document conformance,3
+2198694825,false,Recommend against using the <q> element (or fix its behavior),https://github.com/whatwg/html/issues/10216,2024-03-20T22:28:50Z,2026-08-27T01:02:35Z,jyasskin,removal/deprecation|addition/proposal|needs implementer interest|document conformance,3
 2198636898,true,Upcoming WHATNOT meeting on 3/28/2024,https://github.com/whatwg/html/issues/10215,2024-03-20T21:51:09Z,2024-03-28T17:02:57Z,past,agenda+,0
 2197065346,true,Web compat: Navigating a lazy-loading iframe with location.replace,https://github.com/whatwg/html/issues/10213,2024-03-20T09:35:00Z,2024-06-25T00:45:24Z,zcorpan,compat|topic: navigation|interop,0
 2194851348,true,template element declarative shadow tree IDL attributes,https://github.com/whatwg/html/issues/10211,2024-03-19T12:33:32Z,2024-03-25T11:18:30Z,annevk,removal/deprecation|topic: shadow,0
@@ -5236,7 +5237,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 173610985,true,"Suggestion: Add attribute ""link"" to img tags",https://github.com/whatwg/html/issues/1719,2016-08-27T19:16:28Z,2016-08-28T16:35:19Z,evenstensberg,,0
 173338504,true,HTML shouldn't <dfn> Document,https://github.com/whatwg/html/issues/1715,2016-08-25T23:54:00Z,2016-09-01T10:14:23Z,jyasskin,spec tooling,0
 173121424,true,Event dispatch/firing should reuse DOM terms better,https://github.com/whatwg/html/issues/1713,2016-08-25T06:08:43Z,2016-10-18T16:00:45Z,domenic,clarification,0
-172790680,false,Parser element insertion should use DOM concepts better,https://github.com/whatwg/html/issues/1706,2016-08-23T19:52:54Z,2026-08-20T08:44:59Z,domenic,clarification|topic: parser,0
+172790680,true,Parser element insertion should use DOM concepts better,https://github.com/whatwg/html/issues/1706,2016-08-23T19:52:54Z,2026-08-26T14:39:50Z,domenic,clarification|topic: parser,0
 172634044,true,Custom elements - ES5 constructor support?,https://github.com/whatwg/html/issues/1704,2016-08-23T07:52:35Z,2016-08-23T21:15:31Z,thomaswilburn,,0
 172426085,true,"""If present, its value must be a representation ...""",https://github.com/whatwg/html/issues/1702,2016-08-22T11:09:20Z,2016-11-24T00:52:43Z,KiChjang,clarification|document conformance,0
 172090454,true,Calling InitializeHostDefinedRealm in document.open is probably unnecessary,https://github.com/whatwg/html/issues/1698,2016-08-19T09:26:30Z,2019-01-14T21:03:37Z,rniwa,normative change|topic: history|interop|topic: document.open(),0
