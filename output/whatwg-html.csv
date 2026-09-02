@@ -1,8 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5325242154,false,A response no longer has a timing info,https://github.com/whatwg/html/issues/12887,2026-09-02T14:29:57Z,2026-09-02T14:36:14Z,annevk,topic: timing,0
+5324608866,true,`has cross-origin redirects` is no longer defined in Fetch,https://github.com/whatwg/html/issues/12885,2026-09-02T13:36:24Z,2026-09-02T14:30:35Z,Lubrsi,,0
 5313407292,false,Source element missing moving steps for media elements,https://github.com/whatwg/html/issues/12879,2026-09-01T14:59:44Z,2026-09-01T15:09:19Z,lukewarlow,,0
-5312437599,false,parseHTML() and parseHTMLUnsafe() documents use an opaque origin,https://github.com/whatwg/html/issues/12878,2026-09-01T13:29:11Z,2026-09-01T19:51:39Z,annevk,needs tests|interop|agenda+,0
+5312437599,true,parseHTML() and parseHTMLUnsafe() documents use an opaque origin,https://github.com/whatwg/html/issues/12878,2026-09-01T13:29:11Z,2026-09-02T13:43:11Z,annevk,interop,0
 5302815477,false,Focus navigation is broken if trigger is a descendant of popover,https://github.com/whatwg/html/issues/12873,2026-08-31T17:06:16Z,2026-09-01T06:16:28Z,ltenmoz,topic: focus|topic: popover,0
-5301871296,false,Should child navigables be populated from history and identified across navigations where their creator reloads / traverses?,https://github.com/whatwg/html/issues/12872,2026-08-31T15:24:47Z,2026-09-01T06:19:44Z,vinhill,topic: history|topic: frames/navigables/browsing contexts,0
+5301871296,false,Should child navigables be populated from history and identified across navigations where their creator reloads / traverses?,https://github.com/whatwg/html/issues/12872,2026-08-31T15:24:47Z,2026-09-02T07:41:07Z,vinhill,topic: history|topic: frames/navigables/browsing contexts,0
 5301701712,false,Relationship between popover and children/shadow root in focus navigation is unclear,https://github.com/whatwg/html/issues/12871,2026-08-31T15:07:04Z,2026-09-01T06:22:26Z,ltenmoz,topic: focus|topic: popover,0
 5300173311,true,Window named access interoperably includes IDs from non-HTML elements,https://github.com/whatwg/html/issues/12868,2026-08-31T12:32:04Z,2026-09-01T11:53:03Z,domenic,compat,0
 5298829407,false,"""fire a focus event"" expects an element as argument, but is called with a Window",https://github.com/whatwg/html/issues/12866,2026-08-31T09:53:39Z,2026-09-01T07:55:43Z,Ms2ger,topic: events|interop,0
@@ -20,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5239041499,false,Order of the error event and the pointer advance is not defined in resource selection,https://github.com/whatwg/html/issues/12836,2026-08-24T20:17:37Z,2026-08-24T20:17:37Z,zcorpan,topic: media,0
 5238782056,false,Resource selection: no engine runs the synchronous section at a microtask checkpoint,https://github.com/whatwg/html/issues/12835,2026-08-24T19:46:56Z,2026-08-24T19:46:56Z,zcorpan,topic: media,0
 5237824175,false,"Navigation API: make the ""signals to the user … via … assistive technology … that the navigation is finished"" behavior for intercepted navigations normative",https://github.com/whatwg/html/issues/12834,2026-08-24T17:53:44Z,2026-08-26T09:04:23Z,WestonThayer,topic: navigation API,0
-5236337915,false,"""nullify ongoing navigate event"" step breaks same-document navigations",https://github.com/whatwg/html/issues/12832,2026-08-24T15:10:26Z,2026-08-25T14:46:09Z,shannonbooth,,0
+5236337915,false,"""nullify ongoing navigate event"" step breaks same-document navigations",https://github.com/whatwg/html/issues/12832,2026-08-24T15:10:26Z,2026-09-02T06:51:19Z,shannonbooth,topic: navigation API,0
 5234290128,false,Adoption agency algorithm can throw after a custom element reaction reparents nodes,https://github.com/whatwg/html/issues/12828,2026-08-24T11:40:26Z,2026-08-24T11:41:32Z,annevk,topic: parser|topic: custom elements,0
 5227650356,false,"Web Storage and IndexedDB should use transactional isolation during prerendering, matching the cookie model",https://github.com/whatwg/html/issues/12826,2026-08-23T15:34:20Z,2026-08-23T15:34:20Z,e1abrador,,0
 5226793237,false,Allow specifying favicon location on non-HTML resources,https://github.com/whatwg/html/issues/12825,2026-08-23T12:06:04Z,2026-08-23T12:13:58Z,girst,addition/proposal|needs implementer interest|topic: link,0
@@ -61,7 +63,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5109101569,false,"""Apply the history step"" calls ""attempt to populate the history entry's document"" with too few arguments",https://github.com/whatwg/html/issues/12772,2026-08-10T10:24:58Z,2026-08-10T10:25:22Z,nicolo-ribaudo,,0
 5101809509,false,Add `crossOriginStorage` import attribute (COS integration),https://github.com/whatwg/html/issues/12771,2026-08-09T09:20:27Z,2026-08-09T09:20:27Z,tomayac,addition/proposal|needs implementer interest,0
 5101804371,false,Add `crossoriginstorage` attribute to `<link>` and `<script>`,https://github.com/whatwg/html/issues/12770,2026-08-09T09:19:22Z,2026-08-09T09:22:00Z,tomayac,addition/proposal|needs implementer interest,0
-5094001551,true,Style Module Imports via Link Elements,https://github.com/whatwg/html/issues/12767,2026-08-07T21:13:11Z,2026-09-01T21:23:43Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow,1
+5094001551,true,Style Module Imports via Link Elements,https://github.com/whatwg/html/issues/12767,2026-08-07T21:13:11Z,2026-09-02T08:40:21Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow,1
 5084144115,true,Upcoming WHATNOT meeting on 2026-08-13,https://github.com/whatwg/html/issues/12766,2026-08-06T19:14:45Z,2026-08-13T17:39:32Z,jstenback,,1
 5080120847,true,Opening a dialog within a hint popover,https://github.com/whatwg/html/issues/12763,2026-08-06T10:18:23Z,2026-08-11T12:17:23Z,jakearchibald,topic: dialog|topic: popover,0
 5067491643,false,“Apply the history step” clears “reload pending” before both of its consumers read it,https://github.com/whatwg/html/issues/12760,2026-08-05T05:02:55Z,2026-08-05T17:45:05Z,sideshowbarker,compat|topic: navigation|topic: history,0
@@ -87,7 +89,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4902449001,true,Active Custom Element Constructor Map does not solve re-entrancy due to early removal,https://github.com/whatwg/html/issues/12691,2026-07-16T13:24:11Z,2026-07-17T11:41:09Z,keithamus,topic: custom elements,0
 4901620435,false,Resumable File Uploads,https://github.com/whatwg/html/issues/12690,2026-07-16T11:40:31Z,2026-07-16T11:45:53Z,annevk,addition/proposal|topic: forms|integration,3
 4898019666,false,reflection of enumerated attributes doesn't seem to process empty/missing/invalid value defaults clearly,https://github.com/whatwg/html/issues/12688,2026-07-16T02:10:30Z,2026-07-16T14:53:20Z,dbaron,,0
-4893087365,false,[Sanitizer] Should JS URL attribute removal be part of the configuration?,https://github.com/whatwg/html/issues/12686,2026-07-15T13:48:37Z,2026-07-20T18:32:18Z,noamr,topic: sanitizer,0
+4893087365,false,[Sanitizer] Should JS URL attribute removal be part of the configuration?,https://github.com/whatwg/html/issues/12686,2026-07-15T13:48:37Z,2026-09-02T09:36:47Z,noamr,agenda+|topic: sanitizer,0
 4878164335,true,Meeting 47 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12684,2026-07-13T22:30:00Z,2026-07-23T21:00:10Z,mfreed7,,0
 4877839282,false,Proposal: agent-discoverable page metadata,https://github.com/whatwg/html/issues/12683,2026-07-13T21:42:05Z,2026-07-13T21:42:05Z,hemanth,,5
 4873141183,false,"No engine implements the container document clause of ""has a style sheet that is blocking scripts""",https://github.com/whatwg/html/issues/12678,2026-07-13T11:25:13Z,2026-07-13T11:26:44Z,awesomekling,,0
@@ -691,7 +693,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3210890254,true,Remove XML name validation from dataset named property setter,https://github.com/whatwg/html/issues/11439,2025-07-08T03:30:24Z,2025-07-16T01:00:15Z,domenic,,0
 3209873571,true,hidden=until-found and details revealing algorithms can loop infinitely,https://github.com/whatwg/html/issues/11436,2025-07-07T18:13:40Z,2025-08-01T10:52:42Z,nt1m,,0
 3209527176,true,Meeting 24 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11435,2025-07-07T15:56:22Z,2025-07-21T15:55:51Z,mfreed7,,0
-3203772187,false,Origin not set for documents created with DOMParser,https://github.com/whatwg/html/issues/11429,2025-07-04T22:05:14Z,2025-07-14T14:28:07Z,tcl3,,0
+3203772187,true,Origin not set for documents created with DOMParser,https://github.com/whatwg/html/issues/11429,2025-07-04T22:05:14Z,2026-09-02T13:43:11Z,tcl3,,0
 3202027393,false,Responsive images with `srcset` unexpectedly upscale when using `object-fit: none` or `scale-down`,https://github.com/whatwg/html/issues/11428,2025-07-04T09:47:33Z,2025-07-07T10:27:49Z,zipper,,5
 3199612715,true,Upcoming WHATNOT meeting on 2025-07-17,https://github.com/whatwg/html/issues/11427,2025-07-03T14:32:35Z,2025-12-04T21:35:24Z,cwilso,,0
 3192305368,false,Add tone mapping parameters to CanvasRenderingContext2DSettings,https://github.com/whatwg/html/issues/11424,2025-07-01T12:31:55Z,2025-07-02T07:46:37Z,ccameron-chromium,addition/proposal|topic: canvas,0
@@ -2143,7 +2145,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1366997910,false,Ordering for Worker termination and Atomics.waitAsync promises,https://github.com/whatwg/html/issues/8276,2022-09-08T21:16:55Z,2022-09-10T22:08:33Z,syg,,0
 1366393164,false,"Why is rel=""canonical"" forbidden on a?",https://github.com/whatwg/html/issues/8274,2022-09-08T13:58:09Z,2022-09-08T13:59:41Z,medeaoblongata,,1
 1366002306,false,Iframe session history for JS-created iframes,https://github.com/whatwg/html/issues/8273,2022-09-08T10:30:09Z,2022-09-10T01:47:12Z,jakearchibald,topic: navigation|topic: history,0
-1365958997,false,Broken references in HTML Standard,https://github.com/whatwg/html/issues/8272,2022-09-08T10:06:57Z,2025-04-10T18:12:25Z,dontcallmedom-bot,,0
+1365958997,false,Broken references in HTML Standard,https://github.com/whatwg/html/issues/8272,2022-09-08T10:06:57Z,2026-09-02T15:24:48Z,dontcallmedom-bot,,0
 1364807017,false,Default UA stylesheet for <select> as a listbox + optgroup + option,https://github.com/whatwg/html/issues/8270,2022-09-07T15:02:26Z,2023-07-27T13:30:00Z,zcorpan,topic: rendering|topic: forms,0
 1362261219,true,Correct the type of `opener` in Window object idl block description,https://github.com/whatwg/html/issues/8263,2022-09-05T16:28:25Z,2022-10-24T13:43:29Z,8176e68a,,0
 1361856367,true,Confusing xref for HostResolveImportedModule,https://github.com/whatwg/html/issues/8262,2022-09-05T12:19:48Z,2022-09-28T05:46:53Z,Ms2ger,good first issue|topic: script,1
