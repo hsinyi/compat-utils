@@ -199,14 +199,14 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 591055696,false,Service workers allow for more responses to be executed as script,https://github.com/w3c/ServiceWorker/issues/1509,2020-03-31T12:11:30Z,2021-11-10T14:14:31Z,annevk,security-tracker,0
 580347402,true,Check if <script>'s fetch request has an integrity attribute,https://github.com/w3c/ServiceWorker/issues/1507,2020-03-13T03:26:39Z,2020-03-13T15:38:08Z,guanzo,,0
 567783738,false,Chrome: serviceWorker.ready() resolves before service worker is active after unregistering,https://github.com/w3c/ServiceWorker/issues/1505,2020-02-19T19:13:38Z,2021-08-16T12:19:40Z,HassHz,,1
-563062426,false,Avoid double refresh on service worker update,https://github.com/w3c/ServiceWorker/issues/1504,2020-02-11T09:08:35Z,2020-02-11T14:23:38Z,novaknole,,0
-559054229,false,Recovering from start failures,https://github.com/w3c/ServiceWorker/issues/1503,2020-02-03T12:32:45Z,2020-02-04T04:53:10Z,ytausky,,0
+563062426,true,Avoid double refresh on service worker update,https://github.com/w3c/ServiceWorker/issues/1504,2020-02-11T09:08:35Z,2026-09-04T00:25:04Z,novaknole,,0
+559054229,false,Recovering from start failures,https://github.com/w3c/ServiceWorker/issues/1503,2020-02-03T12:32:45Z,2026-09-04T00:16:24Z,ytausky,,0
 557379477,true,Should we consider Worklets as clients?,https://github.com/w3c/ServiceWorker/issues/1502,2020-01-30T09:51:41Z,2020-10-19T07:18:40Z,bakulf,,0
 556886194,true,Service worker spec meetup,https://github.com/w3c/ServiceWorker/issues/1501,2020-01-29T14:09:06Z,2020-02-28T08:35:43Z,jakearchibald,,1
-556122534,false,navigate() behavior in browsers for file:/// and mixed content does not match spec,https://github.com/w3c/ServiceWorker/issues/1500,2020-01-28T10:40:43Z,2020-01-29T15:27:41Z,bzbarsky,,0
-555457068,false,Size limits with synchronous WebAssembly functions,https://github.com/w3c/ServiceWorker/issues/1499,2020-01-27T09:39:58Z,2020-02-27T12:34:09Z,Pauan,,0
-551606565,false,OPTIONS request reported as GET,https://github.com/w3c/ServiceWorker/issues/1498,2020-01-17T20:02:45Z,2020-01-17T20:34:31Z,anthumchris,,0
-550040891,false,Credentials on scripts imported by importScripts(),https://github.com/w3c/ServiceWorker/issues/1497,2020-01-15T08:38:33Z,2020-01-17T19:03:16Z,makotoshimazu,,0
+556122534,false,navigate() behavior in browsers for file:/// and mixed content does not match spec,https://github.com/w3c/ServiceWorker/issues/1500,2020-01-28T10:40:43Z,2026-09-04T00:04:21Z,bzbarsky,TPAC2026,0
+555457068,false,Size limits with synchronous WebAssembly functions,https://github.com/w3c/ServiceWorker/issues/1499,2020-01-27T09:39:58Z,2026-09-04T00:32:23Z,Pauan,,0
+551606565,true,OPTIONS request reported as GET,https://github.com/w3c/ServiceWorker/issues/1498,2020-01-17T20:02:45Z,2026-09-03T23:54:09Z,anthumchris,,0
+550040891,false,Credentials on scripts imported by importScripts(),https://github.com/w3c/ServiceWorker/issues/1497,2020-01-15T08:38:33Z,2026-09-03T23:51:16Z,makotoshimazu,,0
 546643688,true,Update algorithm may want to abort in absence of a newest worker,https://github.com/w3c/ServiceWorker/issues/1495,2020-01-08T04:52:01Z,2026-08-28T00:31:13Z,perryjiang,,0
 544617129,true,Inaccurate Abstract,https://github.com/w3c/ServiceWorker/issues/1493,2020-01-02T15:10:07Z,2020-01-09T12:01:02Z,annevk,,0
 539047063,true,React service worker is not working with Keycloak,https://github.com/w3c/ServiceWorker/issues/1492,2019-12-17T12:50:56Z,2019-12-17T15:14:23Z,kumaraswamyDR,,0
@@ -667,7 +667,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 146274377,true,Provide cache.putAll() method,https://github.com/w3c/ServiceWorker/issues/867,2016-04-06T10:55:11Z,2016-07-25T16:15:12Z,AshleyScirra,,0
 146273037,true,Provide a convenience method to run code outside event handler,https://github.com/w3c/ServiceWorker/issues/866,2016-04-06T10:49:40Z,2016-04-06T17:46:45Z,AshleyScirra,,0
 145340121,true,"""// close() method inherited from WorkerGlobalScope should not be accessible.""",https://github.com/w3c/ServiceWorker/issues/865,2016-04-02T05:55:26Z,2016-05-16T01:05:38Z,annevk,spec detail|decided,0
-144925938,false,Allow caches to opt-in to granular cleanup,https://github.com/w3c/ServiceWorker/issues/863,2016-03-31T14:57:55Z,2020-01-08T22:39:32Z,jakearchibald,enhancement,7
+144925938,false,Allow caches to opt-in to granular cleanup,https://github.com/w3c/ServiceWorker/issues/863,2016-03-31T14:57:55Z,2026-09-03T23:43:38Z,jakearchibald,enhancement,7
 144921072,true,`caches.match` search order,https://github.com/w3c/ServiceWorker/issues/862,2016-03-31T14:39:47Z,2016-03-31T16:39:13Z,lewispham,,0
 144350831,true,be more explicit that jobs always run asynchronously,https://github.com/w3c/ServiceWorker/issues/861,2016-03-29T18:39:56Z,2016-04-20T02:29:27Z,wanderview,decided,0
 144343093,true,spec should queue tasks to expose attribute changes on ServiceWorker and ServiceWorkerRegistration,https://github.com/w3c/ServiceWorker/issues/860,2016-03-29T18:06:16Z,2016-04-21T06:22:26Z,wanderview,decided,0
