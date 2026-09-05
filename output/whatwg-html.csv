@@ -1,5 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5342284804,false,"""default object size"" for <video> is not hooking into CSS correctly",https://github.com/whatwg/html/issues/12903,2026-09-03T22:59:44Z,2026-09-04T19:19:42Z,fantasai,topic: media|topic: rendering,0
+5356520008,false,Distinguish drawing priority from no preference in Canvas 2D,https://github.com/whatwg/html/issues/12907,2026-09-05T07:47:49Z,2026-09-05T07:47:49Z,injunchoi98,addition/proposal|needs implementer interest,0
+5342284804,false,"""default object size"" for <video> is not hooking into CSS correctly",https://github.com/whatwg/html/issues/12903,2026-09-03T22:59:44Z,2026-09-05T07:27:01Z,fantasai,topic: media|topic: rendering,0
 5341897461,false,Investigate a native primitive for continuously moving content,https://github.com/whatwg/html/issues/12902,2026-09-03T22:01:02Z,2026-09-03T22:01:02Z,BuddyWinte,addition/proposal|needs implementer interest,0
 5341516923,false,Upcoming WHATNOT meeting on 2026-09-10,https://github.com/whatwg/html/issues/12901,2026-09-03T21:11:41Z,2026-09-03T21:11:41Z,jstenback,agenda+,0
 5339779810,false,Meeting 50 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12900,2026-09-03T17:55:51Z,2026-09-03T17:56:25Z,mfreed7,,0
@@ -212,7 +213,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4323381878,false,<link> quirks should probably match stylesheet origin-clean flag,https://github.com/whatwg/html/issues/12403,2026-04-24T13:52:42Z,2026-05-13T15:02:42Z,emilio,topic: fetch|topic: link|topic: style,0
 4318808114,true,Upcoming WHATNOT meeting on 2026-04-30,https://github.com/whatwg/html/issues/12401,2026-04-23T20:52:41Z,2026-04-30T18:25:46Z,jstenback,agenda+,0
 4316617106,true,"<meta name=""ai:context""> A Standard Convention for Serving Machine-Readable Page Context to AI Agents",https://github.com/whatwg/html/issues/12399,2026-04-23T14:15:18Z,2026-04-23T19:45:44Z,dgautsch,addition/proposal|needs implementer interest,2
-4310471094,false,"Should IME composition be treated more explicitly as a distinct input context, rather than ordinary application shortcut input?",https://github.com/whatwg/html/issues/12398,2026-04-22T16:38:02Z,2026-05-12T15:44:51Z,kyouhei-horizumi,topic: events|integration,0
+4310471094,false,"Should IME composition be treated more explicitly as a distinct input context, rather than ordinary application shortcut input?",https://github.com/whatwg/html/issues/12398,2026-04-22T16:38:02Z,2026-09-05T12:58:45Z,kyouhei-horizumi,topic: events|integration,0
 4304294068,true,importNode should allow null customElementRegistry,https://github.com/whatwg/html/issues/12396,2026-04-21T17:32:59Z,2026-04-24T15:16:16Z,sorvell,topic: custom elements,0
 4299148980,false,Close or disable pickers of disabled controls,https://github.com/whatwg/html/issues/12392,2026-04-20T22:54:58Z,2026-04-23T16:03:55Z,sb3nder,addition/proposal|needs implementer interest,0
 4282815474,false,SpellCheck Custom Dictionary / exemptions,https://github.com/whatwg/html/issues/12388,2026-04-17T13:05:36Z,2026-08-04T13:51:41Z,bkardell,addition/proposal|needs implementer interest|stage: 1,0
@@ -631,7 +632,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3351546236,true,Introduce `<partial>` for Native HTML Fragment Inclusion,https://github.com/whatwg/html/issues/11595,2025-08-25T11:53:58Z,2025-08-25T12:18:06Z,aralroca,addition/proposal|needs implementer interest,2
 3349651354,true,range attribute in video tag,https://github.com/whatwg/html/issues/11594,2025-08-24T15:52:07Z,2025-09-12T09:07:04Z,tiuvi,addition/proposal|needs implementer interest,2
 3348324478,false,Clarify whether the introduction is normative,https://github.com/whatwg/html/issues/11593,2025-08-23T14:40:50Z,2025-09-17T07:32:25Z,BrianJDrake,clarification,1
-3348303515,false,Clarify whether this specification is being serious,https://github.com/whatwg/html/issues/11592,2025-08-23T14:25:00Z,2025-09-07T10:44:54Z,BrianJDrake,topic: parser,3
+3348303515,true,Clarify whether this specification is being serious,https://github.com/whatwg/html/issues/11592,2025-08-23T14:25:00Z,2026-09-05T12:30:20Z,BrianJDrake,topic: parser,3
 3342439619,true,An urgent concern and petition for XSLT,https://github.com/whatwg/html/issues/11590,2025-08-21T16:35:42Z,2025-08-23T03:41:47Z,sjehuda,,11
 3338775631,false,Support for managing id's declaratively,https://github.com/whatwg/html/issues/11585,2025-08-20T16:30:01Z,2026-02-28T20:44:26Z,bahrus,addition/proposal|needs implementer interest,2
 3338663410,false,Allow custom-elements to be a labelable element without being form-associated.,https://github.com/whatwg/html/issues/11584,2025-08-20T15:54:56Z,2025-08-21T12:24:55Z,lukewarlow,addition/proposal|needs implementer interest|topic: custom elements|topic: forms,3
@@ -3996,7 +3997,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 358519091,true,Order of stylesheet load events and script execution,https://github.com/whatwg/html/issues/4020,2018-09-10T08:30:46Z,2018-09-11T08:17:03Z,emilio,topic: script|topic: style,0
 358264022,true,For,https://github.com/whatwg/html/issues/4018,2018-09-08T04:45:15Z,2018-09-08T16:13:49Z,iwillcatchu72,,0
 358205065,true,Restrict use of `registerProtocolHandler` to secure contexts,https://github.com/whatwg/html/issues/4017,2018-09-07T20:42:14Z,2019-11-19T18:44:26Z,asankah,normative change|security/privacy|impacts documentation,3
-358194786,true,CDATA section in SVG title is handled differently in browsers,https://github.com/whatwg/html/issues/4016,2018-09-07T20:04:42Z,2026-07-16T12:15:40Z,zcorpan,topic: parser,0
+358194786,true,CDATA section in SVG title is handled differently in browsers,https://github.com/whatwg/html/issues/4016,2018-09-07T20:04:42Z,2026-09-05T07:18:02Z,zcorpan,topic: parser,0
 358190337,true,"""in foreign content"" is missing from list of insertion modes",https://github.com/whatwg/html/issues/4015,2018-09-07T19:47:58Z,2026-07-18T14:31:20Z,zcorpan,topic: parser,0
 358180145,true,Rendering when fieldset is fixed height and the legend is much taller,https://github.com/whatwg/html/issues/4014,2018-09-07T19:12:11Z,2018-09-17T19:03:30Z,zcorpan,topic: rendering|interop|topic: fieldset,0
 358143285,true,Have <legend align> map to justify-self,https://github.com/whatwg/html/issues/4013,2018-09-07T17:03:08Z,2018-09-19T18:04:42Z,zcorpan,topic: fieldset,0
@@ -4519,7 +4520,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 263833044,true,"Module scripts:  Bare module specifier names for "".\""",https://github.com/whatwg/html/issues/3106,2017-10-09T09:31:40Z,2017-10-10T15:47:02Z,guybedford,topic: script,0
 263676384,false,postMessage()'s `targetOrigin` for an opaque-origin frame,https://github.com/whatwg/html/issues/3105,2017-10-07T22:25:07Z,2017-10-08T15:36:44Z,zhangsu,addition/proposal|needs implementer interest|topic: origin,1
 263545522,true,"What should we do for <a href=""javascript:""><img ismap></a>?",https://github.com/whatwg/html/issues/3103,2017-10-06T19:16:05Z,2017-10-06T19:29:21Z,xiaochengh,,0
-263433568,false,[Parser] [Discussion] </> being the only input ignored in tokenizer,https://github.com/whatwg/html/issues/3101,2017-10-06T12:44:13Z,2017-10-10T10:13:12Z,RReverser,topic: parser,0
+263433568,true,[Parser] [Discussion] </> being the only input ignored in tokenizer,https://github.com/whatwg/html/issues/3101,2017-10-06T12:44:13Z,2026-09-05T10:31:02Z,RReverser,topic: parser,0
 263387307,false,Define behavior for `file://` documents' origin.,https://github.com/whatwg/html/issues/3099,2017-10-06T09:33:19Z,2026-04-29T19:39:27Z,mikewest,security/privacy|topic: origin|topic: cookie,3
 262874043,true,Consider restricting <form accept-charset> to utf-8,https://github.com/whatwg/html/issues/3097,2017-10-04T17:48:25Z,2018-11-26T08:55:52Z,zcorpan,removal/deprecation|document conformance|topic: forms|i18n-tracker|needs compat analysis,0
 262699211,false,"Consider allowing negative source sizes in <img sizes>, clamping to 0",https://github.com/whatwg/html/issues/3093,2017-10-04T08:03:56Z,2017-10-07T00:53:27Z,zcorpan,topic: img,0
