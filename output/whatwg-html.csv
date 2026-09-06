@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5356520008,false,Distinguish drawing priority from no preference in Canvas 2D,https://github.com/whatwg/html/issues/12907,2026-09-05T07:47:49Z,2026-09-05T07:47:49Z,injunchoi98,addition/proposal|needs implementer interest,0
+5356520008,false,Distinguish drawing priority from no preference in Canvas 2D,https://github.com/whatwg/html/issues/12907,2026-09-05T07:47:49Z,2026-09-06T07:05:48Z,injunchoi98,addition/proposal|needs implementer interest|topic: canvas,0
 5342284804,false,"""default object size"" for <video> is not hooking into CSS correctly",https://github.com/whatwg/html/issues/12903,2026-09-03T22:59:44Z,2026-09-05T07:27:01Z,fantasai,topic: media|topic: rendering,0
 5341897461,false,Investigate a native primitive for continuously moving content,https://github.com/whatwg/html/issues/12902,2026-09-03T22:01:02Z,2026-09-03T22:01:02Z,BuddyWinte,addition/proposal|needs implementer interest,0
 5341516923,false,Upcoming WHATNOT meeting on 2026-09-10,https://github.com/whatwg/html/issues/12901,2026-09-03T21:11:41Z,2026-09-03T21:11:41Z,jstenback,agenda+,0
@@ -446,7 +446,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3663815245,true,Navigation API: allow registering regular handler from within a precommit handler,https://github.com/whatwg/html/issues/11956,2025-11-25T16:43:40Z,2025-12-11T13:32:43Z,noamr,addition/proposal|needs implementer interest,1
 3663632665,true,"""appropriate template contents owner document"" needs to set ""allow declarative shadow roots""",https://github.com/whatwg/html/issues/11955,2025-11-25T15:51:37Z,2026-07-09T16:02:30Z,AtkinsSJ,topic: parser,0
 3662730909,true,Questions about HTMLTemplateElement.content getter,https://github.com/whatwg/html/issues/11953,2025-11-25T11:45:42Z,2025-11-25T21:01:55Z,AtkinsSJ,,0
-3659691212,false,"""Appropriate place for inserting a node"" refers to elements, but may include DocumentFragments",https://github.com/whatwg/html/issues/11951,2025-11-24T16:43:57Z,2025-11-25T11:23:47Z,AtkinsSJ,topic: shadow|topic: parser,1
+3659691212,true,"""Appropriate place for inserting a node"" refers to elements, but may include DocumentFragments",https://github.com/whatwg/html/issues/11951,2025-11-24T16:43:57Z,2026-09-06T11:31:28Z,AtkinsSJ,topic: shadow|topic: parser,1
 3659093021,true,Rejected promises are unhandled in #commit-a-navigate-event,https://github.com/whatwg/html/issues/11948,2025-11-24T14:12:07Z,2025-11-24T15:56:25Z,farre,topic: navigation,0
 3658879252,true,Declarative attach shadow uses host's registry instead of host's node document's registry,https://github.com/whatwg/html/issues/11947,2025-11-24T13:21:00Z,2025-11-25T09:11:12Z,annevk,normative change|topic: shadow|topic: custom elements,1
 3657641889,true,"""Policy container"" is defined multiple times.",https://github.com/whatwg/html/issues/11944,2025-11-24T08:17:59Z,2025-11-24T15:44:42Z,mikewest,meta,0
@@ -3069,7 +3069,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 676925106,true,"Possible loophole in COOP together with sandbox=""allow-popups""",https://github.com/whatwg/html/issues/5806,2020-08-11T14:28:47Z,2020-08-12T14:24:18Z,zcorpan,topic: sandbox,0
 676541043,true,Confusing description of invalid value default for the `formmethod` attribute,https://github.com/whatwg/html/issues/5804,2020-08-11T02:57:58Z,2020-08-17T14:57:26Z,triple-underscore,topic: forms,1
 676414389,false,BroadcastChannel needs partitioning,https://github.com/whatwg/html/issues/5803,2020-08-10T21:02:22Z,2023-12-04T12:07:01Z,rniwa,normative change|security/privacy|topic: serialize and transfer|topic: storage,10
-676367464,false,"Dialog should be better-behaved on misuse, probably",https://github.com/whatwg/html/issues/5802,2020-08-10T19:35:20Z,2024-07-10T21:49:59Z,emilio,topic: dialog,0
+676367464,false,"Dialog should be better-behaved on misuse, probably",https://github.com/whatwg/html/issues/5802,2020-08-10T19:35:20Z,2024-07-10T21:49:59Z,emilio,topic: dialog,1
 675733036,false,HTML element for barcodes/qr codes,https://github.com/whatwg/html/issues/5801,2020-08-09T16:52:19Z,2022-05-09T20:18:36Z,ndesmic,addition/proposal|needs implementer interest,6
 674498122,true,"Avoiding action at a distance with ""completely loaded""",https://github.com/whatwg/html/issues/5796,2020-08-06T17:56:06Z,2020-08-18T15:49:27Z,domenic,clarification,0
 673867937,true,Meta discussion: Coordination/specing of overlap content between Open UI & WHATWG,https://github.com/whatwg/html/issues/5793,2020-08-05T21:48:02Z,2026-06-25T14:56:41Z,gregwhitworth,topic: forms|meta,0
@@ -3575,7 +3575,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 474142629,true,Accessing the dom of img loaded images,https://github.com/whatwg/html/issues/4807,2019-07-29T16:24:41Z,2019-10-22T12:42:54Z,henke37,clarification|topic: img|topic: frames/navigables/browsing contexts,0
 474140997,true,Image display vs http reply code vs scripting,https://github.com/whatwg/html/issues/4806,2019-07-29T16:21:11Z,2019-07-29T16:41:45Z,henke37,topic: img,0
 474106098,true,tbody max-height support,https://github.com/whatwg/html/issues/4805,2019-07-29T15:09:32Z,2019-07-29T15:12:32Z,jayh99,,0
-474050240,false,Incorrect fragment case marking for body-template-body,https://github.com/whatwg/html/issues/4804,2019-07-29T13:25:05Z,2019-08-22T07:37:18Z,peteroupc,clarification|topic: parser,0
+474050240,true,Incorrect fragment case marking for body-template-body,https://github.com/whatwg/html/issues/4804,2019-07-29T13:25:05Z,2026-09-06T07:10:42Z,peteroupc,clarification|topic: parser,0
 474035461,true,"<img>additional events, especially onprogress",https://github.com/whatwg/html/issues/4803,2019-07-29T12:54:48Z,2019-07-30T14:21:30Z,Misiu,,0
 474029291,false,Drag and Drop API browsers should not open the file if not handled,https://github.com/whatwg/html/issues/4802,2019-07-29T12:41:46Z,2019-07-30T18:44:43Z,barkermn01,normative change|needs implementer interest|topic: drag and drop,1
 473801910,true,<Iframe /> srcdoc should check doctype as well,https://github.com/whatwg/html/issues/4801,2019-07-29T00:14:52Z,2019-09-19T05:58:49Z,normanzb,,0
@@ -3992,7 +3992,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 359461533,false,TextMetrics.advances should define more details,https://github.com/whatwg/html/issues/4026,2018-09-12T12:40:38Z,2018-09-14T01:22:05Z,kojiishi,topic: canvas|i18n-tracker,0
 359224096,true,Script could possibly be excuted during fragment tree construction,https://github.com/whatwg/html/issues/4025,2018-09-11T21:06:58Z,2019-01-15T19:11:27Z,EdgarChen,topic: parser|topic: custom elements,0
 359148298,true,embed: 'display no plugin' algorithm doesn't fire a load/error event,https://github.com/whatwg/html/issues/4024,2018-09-11T17:35:51Z,2021-09-04T22:23:56Z,riking,topic: embed and object,0
-358859711,false,Script data double escape start and end states,https://github.com/whatwg/html/issues/4023,2018-09-11T02:11:35Z,2018-09-11T07:31:54Z,stevecheckoway,topic: parser,0
+358859711,true,Script data double escape start and end states,https://github.com/whatwg/html/issues/4023,2018-09-11T02:11:35Z,2026-09-06T07:04:15Z,stevecheckoway,topic: parser,0
 358787886,true,Specify how fieldset's padding affects the legend,https://github.com/whatwg/html/issues/4022,2018-09-10T20:46:00Z,2018-10-29T14:53:19Z,zcorpan,topic: fieldset,0
 358519091,true,Order of stylesheet load events and script execution,https://github.com/whatwg/html/issues/4020,2018-09-10T08:30:46Z,2018-09-11T08:17:03Z,emilio,topic: script|topic: style,0
 358264022,true,For,https://github.com/whatwg/html/issues/4018,2018-09-08T04:45:15Z,2018-09-08T16:13:49Z,iwillcatchu72,,0
@@ -4025,7 +4025,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 355698290,true,"Provide open/close events (or equivalent) for dialog popups, such as <input type=file>",https://github.com/whatwg/html/issues/3976,2018-08-30T18:16:20Z,2021-07-28T12:59:30Z,ghost,addition/proposal|needs implementer interest|topic: media|topic: forms,0
 355657010,true,Unclear what exactly should be aborted in document.open(),https://github.com/whatwg/html/issues/3975,2018-08-30T16:14:21Z,2018-09-06T19:24:33Z,TimothyGu,topic: document.open()|topic: document lifecycle,0
 355449466,true,Please document how to use whatpr.org,https://github.com/whatwg/html/issues/3974,2018-08-30T06:58:04Z,2022-06-26T06:56:26Z,kenrussell,spec tooling,0
-355434456,false,Parser: reset the insertion mode appropriately,https://github.com/whatwg/html/issues/3973,2018-08-30T05:53:33Z,2018-08-30T05:53:33Z,annevk,topic: parser,0
+355434456,true,Parser: reset the insertion mode appropriately,https://github.com/whatwg/html/issues/3973,2018-08-30T05:53:33Z,2026-09-06T06:58:58Z,annevk,topic: parser,0
 355010859,false,add srcObject or some such to <img>,https://github.com/whatwg/html/issues/3972,2018-08-29T06:08:46Z,2018-11-16T13:56:52Z,Zhang-Junzhi,addition/proposal|topic: img,2
 354810534,false,"The ""rendered legend"" 'display' handling seems unnecessarily restrictive",https://github.com/whatwg/html/issues/3969,2018-08-28T16:32:48Z,2018-08-30T23:37:42Z,MatsPalmgren,topic: fieldset,0
 354786682,false,-webkit-appearance:fieldset-legend considered harmful,https://github.com/whatwg/html/issues/3968,2018-08-28T15:34:00Z,2018-08-31T12:28:54Z,MatsPalmgren,topic: fieldset,0
