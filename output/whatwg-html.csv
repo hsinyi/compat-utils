@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5365810155,true,Upcoming WHATNOT meeting on 20YY-MM-DD,https://github.com/whatwg/html/issues/12912,2026-09-06T15:09:27Z,2026-09-06T15:59:17Z,zan124,invalid,0
+5373433089,false,Support <slot>-s in processing instructions + <template for>,https://github.com/whatwg/html/issues/12913,2026-09-07T10:31:22Z,2026-09-07T10:31:39Z,aartaka,addition/proposal|needs implementer interest,0
 5356520008,false,Distinguish drawing priority from no preference in Canvas 2D,https://github.com/whatwg/html/issues/12907,2026-09-05T07:47:49Z,2026-09-06T07:05:48Z,injunchoi98,addition/proposal|needs implementer interest|topic: canvas,0
 5342284804,false,"""default object size"" for <video> is not hooking into CSS correctly",https://github.com/whatwg/html/issues/12903,2026-09-03T22:59:44Z,2026-09-05T07:27:01Z,fantasai,topic: media|topic: rendering,0
 5341897461,false,Investigate a native primitive for continuously moving content,https://github.com/whatwg/html/issues/12902,2026-09-03T22:01:02Z,2026-09-03T22:01:02Z,BuddyWinte,addition/proposal|needs implementer interest,0
@@ -9,7 +9,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5327194222,false,Placeholder label option checks if option's parent is a select.,https://github.com/whatwg/html/issues/12892,2026-09-02T17:35:28Z,2026-09-03T09:31:32Z,keithamus,topic: select,0
 5325242154,false,A response no longer has a timing info,https://github.com/whatwg/html/issues/12887,2026-09-02T14:29:57Z,2026-09-02T14:36:14Z,annevk,topic: timing,0
 5324608866,true,`has cross-origin redirects` is no longer defined in Fetch,https://github.com/whatwg/html/issues/12885,2026-09-02T13:36:24Z,2026-09-02T14:30:35Z,Lubrsi,,0
-5313407292,false,Source element missing moving steps for media elements,https://github.com/whatwg/html/issues/12879,2026-09-01T14:59:44Z,2026-09-01T15:09:19Z,lukewarlow,,0
+5313407292,true,Source element missing moving steps for media elements,https://github.com/whatwg/html/issues/12879,2026-09-01T14:59:44Z,2026-09-07T08:02:23Z,lukewarlow,,0
 5312437599,true,parseHTML() and parseHTMLUnsafe() documents use an opaque origin,https://github.com/whatwg/html/issues/12878,2026-09-01T13:29:11Z,2026-09-02T13:43:11Z,annevk,interop,0
 5302815477,false,Focus navigation is broken if trigger is a descendant of popover,https://github.com/whatwg/html/issues/12873,2026-08-31T17:06:16Z,2026-09-02T17:40:55Z,ltenmoz,topic: focus|topic: popover,0
 5301871296,false,Should child navigables be populated from history and identified across navigations where their creator reloads / traverses?,https://github.com/whatwg/html/issues/12872,2026-08-31T15:24:47Z,2026-09-02T07:41:07Z,vinhill,topic: history|topic: frames/navigables/browsing contexts,0
@@ -30,7 +30,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5239041499,false,Order of the error event and the pointer advance is not defined in resource selection,https://github.com/whatwg/html/issues/12836,2026-08-24T20:17:37Z,2026-08-24T20:17:37Z,zcorpan,topic: media,0
 5238782056,false,Resource selection: no engine runs the synchronous section at a microtask checkpoint,https://github.com/whatwg/html/issues/12835,2026-08-24T19:46:56Z,2026-08-24T19:46:56Z,zcorpan,topic: media,0
 5237824175,false,"Navigation API: make the ""signals to the user … via … assistive technology … that the navigation is finished"" behavior for intercepted navigations normative",https://github.com/whatwg/html/issues/12834,2026-08-24T17:53:44Z,2026-08-26T09:04:23Z,WestonThayer,topic: navigation API,0
-5236337915,false,"""nullify ongoing navigate event"" step breaks same-document navigations",https://github.com/whatwg/html/issues/12832,2026-08-24T15:10:26Z,2026-09-02T06:51:19Z,shannonbooth,topic: navigation API,0
+5236337915,true,"""nullify ongoing navigate event"" step breaks same-document navigations",https://github.com/whatwg/html/issues/12832,2026-08-24T15:10:26Z,2026-09-07T13:36:16Z,shannonbooth,topic: navigation API,0
 5234290128,false,Adoption agency algorithm can throw after a custom element reaction reparents nodes,https://github.com/whatwg/html/issues/12828,2026-08-24T11:40:26Z,2026-08-24T11:41:32Z,annevk,topic: parser|topic: custom elements,0
 5227650356,false,"Web Storage and IndexedDB should use transactional isolation during prerendering, matching the cookie model",https://github.com/whatwg/html/issues/12826,2026-08-23T15:34:20Z,2026-08-23T15:34:20Z,e1abrador,,0
 5226793237,false,Allow specifying favicon location on non-HTML resources,https://github.com/whatwg/html/issues/12825,2026-08-23T12:06:04Z,2026-08-23T12:13:58Z,girst,addition/proposal|needs implementer interest|topic: link,0
@@ -293,7 +293,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4078444403,false,Consider marking input buttons as obsolete,https://github.com/whatwg/html/issues/12262,2026-03-15T14:04:07Z,2026-03-20T04:24:59Z,lukewarlow,removal/deprecation|document conformance|topic: forms,7
 4075156789,true,document.readyState transitions for about:blank are unclear,https://github.com/whatwg/html/issues/12259,2026-03-14T08:35:18Z,2026-08-08T00:33:38Z,jdm,topic: events,0
 4071102146,false,"`<link rel=""stylesheet"">` that were script blocking during page load later block main thread when rel is set to `stylesheet` again",https://github.com/whatwg/html/issues/12258,2026-03-13T13:22:26Z,2026-05-19T07:09:47Z,TimvdLippe,,0
-4065847085,false,"interaction of ""form element pointer"", fragment parsing, and <template> elements seems incorrect",https://github.com/whatwg/html/issues/12257,2026-03-12T16:30:30Z,2026-03-17T13:47:16Z,dbaron,topic: parser,0
+4065847085,true,"interaction of ""form element pointer"", fragment parsing, and <template> elements seems incorrect",https://github.com/whatwg/html/issues/12257,2026-03-12T16:30:30Z,2026-09-07T13:23:08Z,dbaron,topic: parser,0
 4064415293,false,Proposal: `<toolbar>` element,https://github.com/whatwg/html/issues/12255,2026-03-12T12:45:17Z,2026-03-19T10:52:20Z,lukewarlow,addition/proposal|needs implementer interest|stage: 1,1
 4063317571,true,"""Scripting is enabled"" is incorrect for fragment parsing",https://github.com/whatwg/html/issues/12254,2026-03-12T09:27:40Z,2026-04-07T12:23:24Z,noamr,topic: parser|needs tests,0
 4063027387,false,OffscreenCanvas.convertToBlob no-rendering context scenario unspecified,https://github.com/whatwg/html/issues/12253,2026-03-12T08:28:30Z,2026-03-12T10:02:49Z,kkinnunen-apple,topic: canvas|needs tests|interop,0
@@ -1289,7 +1289,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2327513339,false,[Proposal] capture screen,https://github.com/whatwg/html/issues/10382,2024-05-31T10:35:41Z,2024-09-14T09:51:01Z,hemanth,addition/proposal|needs implementer interest,2
 2326705799,true,Upcoming WHATNOT meeting on 6/6/2024,https://github.com/whatwg/html/issues/10381,2024-05-30T23:34:22Z,2024-06-06T17:00:23Z,past,agenda+,0
 2324176691,false,HTML Video and its Source Elements Should Support SRCSET and SIZES,https://github.com/whatwg/html/issues/10379,2024-05-29T20:16:56Z,2024-08-14T12:07:18Z,scottjehl,addition/proposal|needs implementer interest|topic: media,16
-2324127724,false,"HTML Video Poster Image: Enable Responsive Images and ALT Text for Poster ",https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2026-06-25T19:53:50Z,scottjehl,addition/proposal|needs implementer interest|topic: media|stage: 1,42
+2324127724,false,"HTML Video Poster Image: Enable Responsive Images and ALT Text for Poster ",https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2026-09-07T09:59:48Z,scottjehl,addition/proposal|needs implementer interest|topic: media|stage: 1,42
 2324097406,false,"Specify That Responsive Video Elements Re-Evaluate Sources on Media Change, Like Picture",https://github.com/whatwg/html/issues/10377,2024-05-29T19:33:05Z,2025-11-20T12:55:12Z,scottjehl,addition/proposal|needs implementer interest|topic: media,9
 2324056660,true,Video and Audio Element loading=lazy attribute support,https://github.com/whatwg/html/issues/10376,2024-05-29T19:09:50Z,2026-03-23T15:57:20Z,scottjehl,addition/proposal|needs implementer interest|topic: media,31
 2322953911,true,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-10-08T12:22:36Z,yoavweiss,addition/proposal|needs implementer interest|topic: cross-origin-opener-policy,0
@@ -3459,7 +3459,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 509880741,true,---------,https://github.com/whatwg/html/issues/5029,2019-10-21T10:42:33Z,2019-10-22T04:41:25Z,dhilip89,,0
 509693572,true,delegatesFocus doesn't work well with autofocus,https://github.com/whatwg/html/issues/5027,2019-10-21T02:13:20Z,2019-11-11T16:44:20Z,tkent-google,topic: focus,0
 509685886,true,Code Regions,https://github.com/whatwg/html/issues/5026,2019-10-21T01:32:06Z,2019-10-21T16:16:12Z,AdamSobieski,,0
-509602016,false,Allow animations to be given a target framerate,https://github.com/whatwg/html/issues/5025,2019-10-20T14:25:44Z,2025-10-24T03:00:45Z,jakearchibald,addition/proposal|needs implementer interest|topic: event loop,28
+509602016,false,Allow animations to be given a target framerate,https://github.com/whatwg/html/issues/5025,2019-10-20T14:25:44Z,2026-09-07T16:27:54Z,jakearchibald,addition/proposal|needs implementer interest|topic: event loop,29
 509100548,false,Browsing context hierarchy needs to go through the embedding document,https://github.com/whatwg/html/issues/5020,2019-10-18T14:01:04Z,2022-03-03T16:32:59Z,annevk,topic: history|topic: frames/navigables/browsing contexts,0
 508932938,true,Reconsider making <style> in body valid,https://github.com/whatwg/html/issues/5019,2019-10-18T08:30:23Z,2019-10-18T16:02:27Z,prlbr,document conformance|topic: style,0
 508302220,false,Form-associated custom elements missing features,https://github.com/whatwg/html/issues/5016,2019-10-17T07:57:12Z,2022-09-10T00:20:08Z,annevk,addition/proposal|accessibility|topic: custom elements|topic: forms,4
@@ -4483,7 +4483,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 270119476,true,Enumerable cross-origin properties don't seem to be web-compatible,https://github.com/whatwg/html/issues/3183,2017-10-31T21:08:11Z,2017-11-06T16:09:46Z,bzbarsky,topic: multiple globals,0
 270111116,false,ImageBitmapRenderingContext: Should expose creation Settings,https://github.com/whatwg/html/issues/3182,2017-10-31T20:39:36Z,2018-01-26T09:34:39Z,grorg,addition/proposal|needs implementer interest|topic: canvas,0
 269905305,false,Drawing crisp lines in canvas,https://github.com/whatwg/html/issues/3181,2017-10-31T10:20:49Z,2023-04-20T21:09:26Z,sc28,addition/proposal|needs implementer interest|topic: canvas,0
-269787330,false,"Should <head><template> set frameset-ok flag to ""not ok""?",https://github.com/whatwg/html/issues/3178,2017-10-30T23:31:16Z,2017-10-31T12:10:16Z,zcorpan,topic: parser,0
+269787330,true,"Should <head><template> set frameset-ok flag to ""not ok""?",https://github.com/whatwg/html/issues/3178,2017-10-30T23:31:16Z,2026-09-07T13:18:58Z,zcorpan,topic: parser,0
 269582717,true,Unclear whether setting defer attribute on script tags guarantees execution in document order,https://github.com/whatwg/html/issues/3176,2017-10-30T12:31:56Z,2017-10-31T10:29:46Z,ghost,,0
 269422784,true,Proposal - add aria property to the HTMLElement (just like dataset),https://github.com/whatwg/html/issues/3174,2017-10-29T18:31:57Z,2021-06-08T19:33:29Z,Konrud,addition/proposal|accessibility,3
 269385179,true,Consider add 'droppable' attribute to <input type=file>,https://github.com/whatwg/html/issues/3172,2017-10-29T09:45:28Z,2017-10-29T18:36:12Z,smalllong,addition/proposal|needs implementer interest|topic: forms,0
