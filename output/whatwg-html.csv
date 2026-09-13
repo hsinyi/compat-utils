@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5435266901,false,Synchronous navigation can leave the current entry index at −1,https://github.com/whatwg/html/issues/12934,2026-09-12T18:39:01Z,2026-09-12T18:39:15Z,shannonbooth,topic: navigation|topic: navigation API,0
 5432903726,false,Same-document replacements do not preserve the navigation API key,https://github.com/whatwg/html/issues/12932,2026-09-12T11:05:14Z,2026-09-12T11:05:22Z,shannonbooth,topic: navigation|topic: navigation API,0
 5416466104,false,Upcoming WHATNOT meeting on 2026-09-17,https://github.com/whatwg/html/issues/12923,2026-09-10T19:29:07Z,2026-09-10T19:29:07Z,jstenback,agenda+,0
 5401677987,false,Policy container stored in history for srcdoc iframes,https://github.com/whatwg/html/issues/12920,2026-09-09T15:50:05Z,2026-09-09T15:50:05Z,antosart,,0
@@ -234,7 +235,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4263504465,true,Upcoming WHATNOT meeting on 2026-04-16,https://github.com/whatwg/html/issues/12370,2026-04-14T16:39:13Z,2026-04-30T22:48:08Z,cwilso,,0
 4256537093,false,Should <selectedcontent> match :disabled?,https://github.com/whatwg/html/issues/12367,2026-04-13T16:55:09Z,2026-04-14T11:53:05Z,emilio,clarification|topic: select,0
 4251887571,false,Licensing issue: Replace non-DFSG pictures by DFSG compliant ones,https://github.com/whatwg/html/issues/12364,2026-04-13T06:31:44Z,2026-04-13T08:13:01Z,tenzap,editorial,0
-4251221793,false,Clarify `EventSource` behavior for documents entering and restoring from BFCache,https://github.com/whatwg/html/issues/12363,2026-04-13T04:16:43Z,2026-09-09T12:05:02Z,zp1996,topic: history|topic: eventsource,3
+4251221793,false,Clarify `EventSource` behavior for documents entering and restoring from BFCache,https://github.com/whatwg/html/issues/12363,2026-04-13T04:16:43Z,2026-09-12T19:00:56Z,zp1996,topic: history|topic: eventsource,3
 4249739814,false,Navigation API: Intercepted history traverse can not be implemented (safely),https://github.com/whatwg/html/issues/12362,2026-04-12T19:53:46Z,2026-08-24T08:59:44Z,theIDinside,topic: navigation API,0
 4245435778,true,HTML Fragment Parser sets parsing mode to invalid flag,https://github.com/whatwg/html/issues/12359,2026-04-11T18:08:40Z,2026-04-13T15:02:26Z,shannonbooth,,0
 4239369065,true,Calling `showPopover` during popover show causes infinite recursion,https://github.com/whatwg/html/issues/12356,2026-04-10T13:11:13Z,2026-05-14T11:08:04Z,jakearchibald,topic: popover,0
@@ -1125,7 +1126,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2026-09-11T10:44:07Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,true,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-11-15T04:41:04Z,tabatkins,integration|topic: popover,0
-2565124238,false,Style Module Imports via `<link>` Elements,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2026-09-12T10:35:47Z,KurtCattiSchmidt,addition/proposal|topic: shadow|topic: script|stage: 2|topic: imports/exports,2
+2565124238,false,Style Module Imports via `<link>` Elements,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2026-09-13T00:32:06Z,KurtCattiSchmidt,addition/proposal|topic: shadow|topic: script|stage: 2|topic: imports/exports,2
 2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2026-08-16T00:02:29Z,emilio,compat|topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2562416768,true,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-12T00:18:10Z,past,agenda+,0
@@ -1156,7 +1157,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2518316469,true,Provide an API for getting visible caret position in textarea/input element,https://github.com/whatwg/html/issues/10614,2024-09-11T02:30:18Z,2025-08-22T17:41:32Z,siliu1,,1
 2516526415,true,"Automated `window.exportPdf()`,  Leveraging Browser's Print Save As PDF functionality",https://github.com/whatwg/html/issues/10612,2024-09-10T13:43:56Z,2025-09-20T11:29:17Z,apurvaojas,addition/proposal|needs implementer interest,7
 2515236890,true,createImageBitmap's Promise resolving,https://github.com/whatwg/html/issues/10611,2024-09-10T01:59:12Z,2025-05-26T05:48:35Z,Kaiido,topic: canvas|interop,0
-2515213556,false,"HTML spec: section 4.11.1, for `<details>` (`HTMLDetailsElement`), should probably briefly but explicitly state that the element uses shadow DOM, and should probably link to section 15.5.5 to direct readers to further information",https://github.com/whatwg/html/issues/10610,2024-09-10T01:32:54Z,2024-09-19T12:26:56Z,DavidJCobb,clarification|topic: rendering,0
+2515213556,false,"HTML spec: section 4.11.1, for `<details>` (`HTMLDetailsElement`), should probably briefly but explicitly state that the element uses shadow DOM, and should probably link to section 15.5.5 to direct readers to further information",https://github.com/whatwg/html/issues/10610,2024-09-10T01:32:54Z,2024-09-19T12:26:56Z,DavidJCobb,clarification|topic: rendering,1
 2514878452,true,Meeting 8 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10609,2024-09-09T20:41:39Z,2024-10-15T22:37:51Z,josepharhar,agenda+,0
 2514047453,false,Missing tasks in parallel steps in HTML Standard,https://github.com/whatwg/html/issues/10608,2024-09-09T13:55:25Z,2024-11-08T13:34:12Z,dontcallmedom-bot,,0
 2510785236,true,Is it ok for `appearance:base` `<select>` not to require user activation before `showPicker()`?,https://github.com/whatwg/html/issues/10604,2024-09-06T16:19:28Z,2026-05-11T11:40:50Z,mfreed7,topic: forms|topic: user activation|topic: select,0
