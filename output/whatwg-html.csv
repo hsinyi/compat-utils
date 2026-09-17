@@ -1,6 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5481753639,true,Define Worker constructor behavior for a detached Window,https://github.com/whatwg/html/issues/12955,2026-09-17T01:36:31Z,2026-09-17T01:44:12Z,kyle-elliott-tob,,0
+5481753237,true,Window.close uses target document flags for the caller sandbox check,https://github.com/whatwg/html/issues/12954,2026-09-17T01:36:27Z,2026-09-17T01:44:29Z,kyle-elliott-tob,,0
+5477501445,true,Upcoming WHATNOT meeting on 20YY-MM-DD,https://github.com/whatwg/html/issues/12953,2026-09-16T16:59:40Z,2026-09-16T19:48:10Z,gazaliyalade-hue,invalid,0
 5475636535,false,Using attr() for select list box appearance makes rendering mismatch semantics,https://github.com/whatwg/html/issues/12952,2026-09-16T14:08:23Z,2026-09-16T14:08:23Z,annevk,topic: rendering|topic: select,1
-5471398619,false,Reconsider validity of `<style>` inside `<body>`,https://github.com/whatwg/html/issues/12951,2026-09-16T07:10:09Z,2026-09-16T14:08:50Z,o-t-w,document conformance,2
+5471398619,false,Reconsider validity of `<style>` inside `<body>`,https://github.com/whatwg/html/issues/12951,2026-09-16T07:10:09Z,2026-09-16T22:44:30Z,o-t-w,document conformance,3
 5466416766,false,Proposed `CanvasRenderingContext2D.fillTextCluster()` takes the same x and y for all clusters,https://github.com/whatwg/html/issues/12950,2026-09-15T19:20:12Z,2026-09-15T19:20:12Z,shallawa,,0
 5466250627,false,Extending `TextMetrics` for text editing/shaping is not suitable for rich text editing,https://github.com/whatwg/html/issues/12949,2026-09-15T19:03:22Z,2026-09-15T19:03:22Z,shallawa,,0
 5465913602,false,Proposed `TextMetrics.getTextClusters()`  is inefficient for uniform styling,https://github.com/whatwg/html/issues/12948,2026-09-15T18:29:16Z,2026-09-15T18:29:16Z,shallawa,,0
@@ -10,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5448892211,false,Should <select>'s first child <button> be able to submit or reset the form?,https://github.com/whatwg/html/issues/12937,2026-09-14T11:47:23Z,2026-09-14T12:48:31Z,annevk,document conformance|topic: select,0
 5435266901,false,Synchronous navigation can leave the current entry index at −1,https://github.com/whatwg/html/issues/12934,2026-09-12T18:39:01Z,2026-09-12T18:39:15Z,shannonbooth,topic: navigation|topic: navigation API,0
 5432903726,true,Same-document replacements do not preserve the navigation API key,https://github.com/whatwg/html/issues/12932,2026-09-12T11:05:14Z,2026-09-15T12:41:43Z,shannonbooth,topic: navigation|topic: navigation API,0
-5416466104,false,Upcoming WHATNOT meeting on 2026-09-17,https://github.com/whatwg/html/issues/12923,2026-09-10T19:29:07Z,2026-09-10T19:29:07Z,jstenback,agenda+,0
+5416466104,false,Upcoming WHATNOT meeting on 2026-09-17,https://github.com/whatwg/html/issues/12923,2026-09-10T19:29:07Z,2026-09-16T20:21:15Z,jstenback,agenda+,0
 5401677987,false,Policy container stored in history for srcdoc iframes,https://github.com/whatwg/html/issues/12920,2026-09-09T15:50:05Z,2026-09-09T15:50:05Z,antosart,,0
 5399369572,false,BFCache: `load` event not fired when restoring document from BFCache,https://github.com/whatwg/html/issues/12918,2026-09-09T12:26:41Z,2026-09-11T12:00:04Z,theIDinside,,0
 5373433089,false,Support <slot>-s in processing instructions + <template for>,https://github.com/whatwg/html/issues/12913,2026-09-07T10:31:22Z,2026-09-07T10:31:39Z,aartaka,addition/proposal|needs implementer interest,0
@@ -102,7 +105,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4969867148,false,[select] Define which children are vs are not slotted.,https://github.com/whatwg/html/issues/12717,2026-07-24T15:31:04Z,2026-08-24T17:03:40Z,emilio,topic: rendering|topic: select,0
 4962868248,true,Meeting 48 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12715,2026-07-23T21:00:02Z,2026-08-25T18:43:23Z,mfreed7,,0
 4957449266,false,AIMS -- Artificial Intelligence Memorandum Schemes,https://github.com/whatwg/html/issues/12713,2026-07-23T09:31:19Z,2026-07-23T09:31:19Z,serdult,addition/proposal|needs implementer interest,2
-4956914670,false,`<img sizes=auto>` triggers wasteful fetches when hiding/removing the image,https://github.com/whatwg/html/issues/12712,2026-07-23T08:23:29Z,2026-07-23T09:21:36Z,noamr,topic: img,1
+4956914670,false,`<img sizes=auto>` triggers wasteful fetches when hiding/removing the image,https://github.com/whatwg/html/issues/12712,2026-07-23T08:23:29Z,2026-09-16T21:45:49Z,noamr,topic: img,1
 4918013717,false,"""Update the rendering"" should specify what happens when a Document becomes rendering blocking during a ""update the rendering""",https://github.com/whatwg/html/issues/12704,2026-07-18T11:16:11Z,2026-07-18T11:16:11Z,mrobinson,,0
 4912453933,true,"Browsers are no longer using an ""anonymous button content box""",https://github.com/whatwg/html/issues/12702,2026-07-17T15:00:28Z,2026-08-31T17:43:15Z,Loirooriol,topic: rendering|topic: forms,0
 4912422241,true,"The ""anonymous button content box"" isn't centered horizontally",https://github.com/whatwg/html/issues/12701,2026-07-17T14:56:18Z,2026-08-31T17:41:37Z,Loirooriol,topic: rendering|topic: forms,0
@@ -231,7 +234,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4310471094,false,"Should IME composition be treated more explicitly as a distinct input context, rather than ordinary application shortcut input?",https://github.com/whatwg/html/issues/12398,2026-04-22T16:38:02Z,2026-09-05T12:58:45Z,kyouhei-horizumi,topic: events|integration,0
 4304294068,true,importNode should allow null customElementRegistry,https://github.com/whatwg/html/issues/12396,2026-04-21T17:32:59Z,2026-04-24T15:16:16Z,sorvell,topic: custom elements,0
 4299148980,false,Close or disable pickers of disabled controls,https://github.com/whatwg/html/issues/12392,2026-04-20T22:54:58Z,2026-04-23T16:03:55Z,sb3nder,addition/proposal|needs implementer interest,0
-4282815474,false,SpellCheck Custom Dictionary / exemptions,https://github.com/whatwg/html/issues/12388,2026-04-17T13:05:36Z,2026-08-04T13:51:41Z,bkardell,addition/proposal|needs implementer interest|stage: 1,0
+4282815474,false,SpellCheck Custom Dictionary / exemptions,https://github.com/whatwg/html/issues/12388,2026-04-17T13:05:36Z,2026-09-16T20:26:52Z,bkardell,addition/proposal|needs implementer interest|agenda+|stage: 1,0
 4281765342,false,"Dragging <a href=""blob:..."" download> should include a File in the drag data store",https://github.com/whatwg/html/issues/12387,2026-04-17T10:05:49Z,2026-04-17T11:25:04Z,janez-resnik,addition/proposal|needs implementer interest,0
 4279874513,false,Native Popover API: Esc key causes focus loss with nested popovers,https://github.com/whatwg/html/issues/12386,2026-04-17T03:11:45Z,2026-04-17T03:11:45Z,shanthambi,,3
 4278754667,false,Drag-andDrop setDragImage offset ambiguities,https://github.com/whatwg/html/issues/12384,2026-04-16T21:59:50Z,2026-04-16T21:59:50Z,jabcreations,,0
@@ -581,7 +584,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3482893798,true,Upcoming WHATNOT meeting on 2025-10-09,https://github.com/whatwg/html/issues/11747,2025-10-03T23:49:21Z,2025-10-16T15:08:07Z,cwilso,,0
 3481524725,false,Expose `navigation.transition` for same-origin cross-document navigation,https://github.com/whatwg/html/issues/11745,2025-10-03T15:21:09Z,2025-10-16T13:38:34Z,noamr,addition/proposal|needs implementer interest|topic: navigation,0
 3480086621,false,Forgetting source argument to showPopover() is too easy,https://github.com/whatwg/html/issues/11744,2025-10-03T07:22:01Z,2026-01-22T17:18:29Z,fantasai,topic: popover,0
-3479821271,false,"Proposal: Add optimization to ignore ""duplicate"" navigations",https://github.com/whatwg/html/issues/11743,2025-10-03T05:14:35Z,2026-07-31T08:09:58Z,rakina,addition/proposal|needs implementer interest|topic: navigation,3
+3479821271,false,"Proposal: Add optimization to ignore ""duplicate"" navigations",https://github.com/whatwg/html/issues/11743,2025-10-03T05:14:35Z,2026-09-16T23:44:04Z,rakina,addition/proposal|needs implementer interest|topic: navigation,3
 3478171210,true,Meeting 30 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11740,2025-10-02T16:38:24Z,2025-10-23T19:05:03Z,mfreed7,,0
 3574110173,true,customElementRegistry.initialize should provoke custom elements to upgrade,https://github.com/whatwg/html/issues/11858,2025-10-02T15:33:06Z,2025-11-21T07:08:41Z,sorvell,normative change|topic: custom elements,2
 3474315969,true,Navigation API: upcoming API method tracker is not null if `navigate` is called from `onnavigateerror`,https://github.com/whatwg/html/issues/11735,2025-10-01T16:40:38Z,2025-10-21T18:37:03Z,jnjaeschke,topic: navigation,0
@@ -1303,7 +1306,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2327513339,false,[Proposal] capture screen,https://github.com/whatwg/html/issues/10382,2024-05-31T10:35:41Z,2024-09-14T09:51:01Z,hemanth,addition/proposal|needs implementer interest,2
 2326705799,true,Upcoming WHATNOT meeting on 6/6/2024,https://github.com/whatwg/html/issues/10381,2024-05-30T23:34:22Z,2024-06-06T17:00:23Z,past,agenda+,0
 2324176691,false,HTML Video and its Source Elements Should Support SRCSET and SIZES,https://github.com/whatwg/html/issues/10379,2024-05-29T20:16:56Z,2024-08-14T12:07:18Z,scottjehl,addition/proposal|needs implementer interest|topic: media,16
-2324127724,false,"HTML Video Poster Image: Enable Responsive Images and ALT Text for Poster ",https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2026-09-16T14:45:24Z,scottjehl,addition/proposal|needs implementer interest|topic: media|stage: 1,43
+2324127724,false,"HTML Video Poster Image: Enable Responsive Images and ALT Text for Poster ",https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2026-09-16T21:22:29Z,scottjehl,addition/proposal|needs implementer interest|topic: media|stage: 1,43
 2324097406,false,"Specify That Responsive Video Elements Re-Evaluate Sources on Media Change, Like Picture",https://github.com/whatwg/html/issues/10377,2024-05-29T19:33:05Z,2025-11-20T12:55:12Z,scottjehl,addition/proposal|needs implementer interest|topic: media,9
 2324056660,true,Video and Audio Element loading=lazy attribute support,https://github.com/whatwg/html/issues/10376,2024-05-29T19:09:50Z,2026-03-23T15:57:20Z,scottjehl,addition/proposal|needs implementer interest|topic: media,31
 2322953911,true,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-10-08T12:22:36Z,yoavweiss,addition/proposal|needs implementer interest|topic: cross-origin-opener-policy,0
