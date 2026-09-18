@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5491281130,false,Evaluate the Trusted Types-rewritten javascript: URL,https://github.com/whatwg/html/pull/12959,2026-09-17T18:34:39Z,2026-09-17T19:10:57Z,shannonbooth,,0
+5491281130,false,Evaluate the Trusted Types-rewritten javascript: URL,https://github.com/whatwg/html/pull/12959,2026-09-17T18:34:39Z,2026-09-18T06:46:25Z,shannonbooth,topic: javascript: URLs,0
 5489838435,false,"Fire the ""close"" event on MessagePort from a task",https://github.com/whatwg/html/pull/12957,2026-09-17T16:05:43Z,2026-09-17T16:12:32Z,nicolo-ribaudo,,0
 5465349816,true,Fixing typos,https://github.com/whatwg/html/pull/12945,2026-09-15T17:35:14Z,2026-09-16T06:52:01Z,KurtCattiSchmidt,,0
 5464695539,false,Move the scripting is disabled check for event handlers to compile time,https://github.com/whatwg/html/pull/12944,2026-09-15T16:32:40Z,2026-09-15T16:35:47Z,annevk,,0
@@ -11,7 +11,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5428396254,true,Track the ongoing navigation only from the navigables event loop,https://github.com/whatwg/html/pull/12930,2026-09-11T19:52:27Z,2026-09-14T16:06:05Z,shannonbooth,topic: navigation|topic: navigation API,0
 5426729038,true,Fire traverse navigate events at descendants whose entry changes,https://github.com/whatwg/html/pull/12929,2026-09-11T16:36:10Z,2026-09-15T12:33:47Z,shannonbooth,topic: navigation|topic: navigation API,0
 5424304793,true,Meta: remove commit-snapshot-shortcut-key.js,https://github.com/whatwg/html/pull/12926,2026-09-11T12:29:46Z,2026-09-14T05:48:43Z,zcorpan,,0
-5422682560,false,Align frame connection steps with iframe,https://github.com/whatwg/html/pull/12925,2026-09-11T09:26:34Z,2026-09-11T09:26:34Z,domenic,compat|topic: shadow|topic: frames/navigables/browsing contexts,0
+5422682560,false,Align frame connection steps with iframe,https://github.com/whatwg/html/pull/12925,2026-09-11T09:26:34Z,2026-09-18T13:11:11Z,domenic,compat|topic: shadow|topic: frames/navigables/browsing contexts,0
 5422192023,true,Meta: subset custom font for #table-example-1,https://github.com/whatwg/html/pull/12924,2026-09-11T08:35:41Z,2026-09-14T07:30:59Z,zcorpan,,0
 5407319472,false,Validate integrity metadata in module map,https://github.com/whatwg/html/pull/12922,2026-09-10T03:19:14Z,2026-09-17T11:17:38Z,hiroshige-g,,0
 5397453057,true,change readme,https://github.com/whatwg/html/pull/12917,2026-09-09T09:12:54Z,2026-09-09T09:40:11Z,vishakha-mahajan,invalid,0
@@ -53,7 +53,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5247727723,true,Consult the dimension attributes for width and height when not rendered,https://github.com/whatwg/html/pull/12840,2026-08-25T15:38:54Z,2026-09-04T09:56:34Z,annevk,topic: img,0
 5245006940,true,Only nullify the navigation API state when cross-document,https://github.com/whatwg/html/pull/12838,2026-08-25T10:52:18Z,2026-09-07T13:36:18Z,noamr,,0
 5239389418,false,Fetch a worker's main script before creating its settings object,https://github.com/whatwg/html/pull/12837,2026-08-24T20:59:45Z,2026-09-13T23:05:19Z,shannonbooth,,0
-5236783049,false,"Pass a new ""hasPlannedNavigationForWebDriver"" flag to the ""WebDriver BiDi navigable created"" event.",https://github.com/whatwg/html/pull/12833,2026-08-24T15:55:20Z,2026-09-16T12:15:20Z,lutien,,0
+5236783049,false,"Pass a new ""hasPlannedNavigationForWebDriver"" flag to the ""WebDriver BiDi navigable created"" event.",https://github.com/whatwg/html/pull/12833,2026-08-24T15:55:20Z,2026-09-18T11:24:17Z,lutien,,0
 5236302244,true,Honor a template's insertion target when foster parenting,https://github.com/whatwg/html/pull/12831,2026-08-24T15:07:21Z,2026-08-26T14:39:50Z,noamr,clarification|topic: parser,0
 5236052529,true,Drop an element the parser cannot insert,https://github.com/whatwg/html/pull/12830,2026-08-24T14:45:08Z,2026-08-26T05:13:17Z,annevk,topic: parser,0
 5235344907,true,Editorial: define fragment context element on HTML parser,https://github.com/whatwg/html/pull/12829,2026-08-24T13:35:19Z,2026-08-26T18:51:30Z,noamr,,0
@@ -156,7 +156,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4550306617,true,Define that <video> and <audio> have a shadow tree with no slots.,https://github.com/whatwg/html/pull/12506,2026-05-29T17:19:08Z,2026-06-01T08:37:48Z,emilio,,0
 4544835024,true,Make select/option content model clearer about children versus descendants,https://github.com/whatwg/html/pull/12504,2026-05-29T00:57:23Z,2026-06-03T15:30:47Z,dbaron,topic: select,0
 4542492585,false,Rework resource selection algorithm to avoid interleaved jumps,https://github.com/whatwg/html/pull/12502,2026-05-28T17:38:01Z,2026-06-08T12:17:33Z,nicolo-ribaudo,topic: media|editorial,0
-4535614284,false,Preserve focused area across bfcache reactivation,https://github.com/whatwg/html/pull/12497,2026-05-27T20:46:06Z,2026-08-24T07:36:20Z,hjanuschka,,0
+4535614284,true,Preserve focused area across bfcache reactivation,https://github.com/whatwg/html/pull/12497,2026-05-27T20:46:06Z,2026-09-18T13:26:25Z,hjanuschka,,0
 4533497903,true,Add `runScripts` to `SetHTMLUnsafeOptions`,https://github.com/whatwg/html/pull/12495,2026-05-27T15:17:32Z,2026-06-08T18:47:42Z,noamr,,0
 4532637108,true,"Ensure ""topmost popover ancestor"" is only called for auto or hint popovers",https://github.com/whatwg/html/pull/12493,2026-05-27T13:20:47Z,2026-05-28T08:55:08Z,jakearchibald,,1
 4531528389,true,"Specify rate limiter for navigation, history traversal, and pushState/replaceState",https://github.com/whatwg/html/pull/12492,2026-05-27T10:16:48Z,2026-06-22T08:15:58Z,zcorpan,topic: navigation,0
@@ -394,7 +394,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3478824122,false,Integrate OpaqueRange hooks into text controls (input/textarea),https://github.com/whatwg/html/pull/11741,2025-10-02T20:26:35Z,2026-05-15T20:28:23Z,stephanieyzhang,,0
 3475400447,true,Improve optgroup's list of option elements,https://github.com/whatwg/html/pull/11738,2025-10-01T22:44:46Z,2025-10-17T05:18:57Z,josepharhar,,0
 3475240578,true,Remove optgroup element removal and moving steps,https://github.com/whatwg/html/pull/11737,2025-10-01T21:44:43Z,2025-10-07T12:56:02Z,josepharhar,,0
-3473184206,false,Add CanvasToneMapping to CanvasSettings,https://github.com/whatwg/html/pull/11734,2025-10-01T11:35:30Z,2026-09-09T18:53:17Z,ccameron-chromium,addition/proposal|topic: canvas,0
+3473184206,false,Add CanvasToneMapping to CanvasSettings,https://github.com/whatwg/html/pull/11734,2025-10-01T11:35:30Z,2026-09-18T09:33:13Z,ccameron-chromium,addition/proposal|topic: canvas,0
 3468542329,true,"Clarify preload ""as"" processing",https://github.com/whatwg/html/pull/11727,2025-09-30T09:52:38Z,2025-10-06T06:38:02Z,noamr,,0
 3468172849,true,Consolidate navigation API abort paths,https://github.com/whatwg/html/pull/11725,2025-09-30T08:30:11Z,2025-10-08T12:54:32Z,noamr,,0
 3466650602,false,"[focusgroup] Add the focusgroup attribute ",https://github.com/whatwg/html/pull/11723,2025-09-29T21:16:04Z,2026-08-20T13:20:07Z,janewman,,0
@@ -450,7 +450,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3356225711,false,"[FYI, not ready for review] Add globalHDRHeadroom to CanvasCompositing interface",https://github.com/whatwg/html/pull/11597,2025-08-26T15:51:38Z,2025-10-01T08:29:20Z,ccameron-chromium,,0
 3344286687,true,chore(css): normalize prefers-color-scheme spacing in styles.css,https://github.com/whatwg/html/pull/11591,2025-08-22T06:18:20Z,2025-08-22T06:32:55Z,ArjunSaluja,invalid,0
 3342044580,true,use integer over anb syntax for heading,https://github.com/whatwg/html/pull/11589,2025-08-21T14:47:23Z,2025-08-27T12:55:08Z,keithamus,,0
-3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-09-18T01:45:29Z,foolip,,6
+3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-09-18T07:01:56Z,foolip,,6
 3337110965,true,[meta] Add dfn type and scope for HTMLMediaElement.src,https://github.com/whatwg/html/pull/11581,2025-08-20T08:32:57Z,2025-08-21T00:28:09Z,dontcallmedom,,1
 3336967031,true,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation,0
 3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
