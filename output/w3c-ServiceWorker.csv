@@ -306,7 +306,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 358673805,true,Beyond V1,https://github.com/w3c/ServiceWorker/issues/1353,2018-09-10T15:24:11Z,2026-06-05T00:28:28Z,jakearchibald,,0
 357770141,true,Process the events reliably with retries,https://github.com/w3c/ServiceWorker/issues/1352,2018-09-06T18:19:00Z,2026-06-05T00:24:28Z,collimarco,,0
 357689700,true,service worker source file is requesting from the server every time any navigation occurs in the page/ an frame is embedded in the page,https://github.com/w3c/ServiceWorker/issues/1351,2018-09-06T14:45:16Z,2018-09-06T16:35:49Z,sonochacko,,0
-357337540,false,should a frame navigated to about:blank inherit a service worker controller?,https://github.com/w3c/ServiceWorker/issues/1350,2018-09-05T17:52:47Z,2026-06-06T00:07:05Z,wanderview,,0
+357337540,true,should a frame navigated to about:blank inherit a service worker controller?,https://github.com/w3c/ServiceWorker/issues/1350,2018-09-05T17:52:47Z,2026-09-18T00:13:42Z,wanderview,,0
 354629045,false,Enabling client message queue on DOMContentLoaded is not mentioned in the spec,https://github.com/w3c/ServiceWorker/issues/1349,2018-08-28T08:42:29Z,2026-06-04T23:54:45Z,ytausky,,1
 352478690,false,It's possible to interact with an installing service worker before its 'install' event is dispatched,https://github.com/w3c/ServiceWorker/issues/1347,2018-08-21T10:27:36Z,2026-06-04T23:46:58Z,ytausky,,0
 349696706,false,Consider exposing Page Lifecycle state to service-worker,https://github.com/w3c/ServiceWorker/issues/1345,2018-08-11T01:52:35Z,2026-07-17T00:23:48Z,spanicker,,0
@@ -326,10 +326,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 327917217,true,Allow active service worker to manage fetch for the update logic,https://github.com/w3c/ServiceWorker/issues/1318,2018-05-30T22:09:58Z,2018-06-14T14:18:35Z,roosmaa,,1
 327755771,true,Is it possible to register a service worker on a not fully HTTPS webapp?,https://github.com/w3c/ServiceWorker/issues/1317,2018-05-30T14:25:35Z,2024-04-24T07:38:53Z,vgalisson,,0
 327566265,true,Is resultingClientId preserved over redirects?,https://github.com/w3c/ServiceWorker/issues/1316,2018-05-30T04:04:32Z,2018-10-10T14:22:51Z,mfalken,,0
-323269448,false,should document.open() inherit the controller?,https://github.com/w3c/ServiceWorker/issues/1313,2018-05-15T15:28:32Z,2026-05-28T23:49:37Z,wanderview,,0
+323269448,false,should document.open() inherit the controller?,https://github.com/w3c/ServiceWorker/issues/1313,2018-05-15T15:28:32Z,2026-09-18T00:14:50Z,wanderview,TPAC2026,0
 322688441,true,"sometimes, we cannot find the request in webview when we use the serviceworker ",https://github.com/w3c/ServiceWorker/issues/1312,2018-05-14T06:34:25Z,2018-05-15T11:12:08Z,normanfan,,0
 319213258,false,Handle Fetch does a dubious SecureContext check on a reserved client,https://github.com/w3c/ServiceWorker/issues/1311,2018-05-01T14:28:37Z,2026-05-28T23:45:11Z,wanderview,,0
-318482119,false,Size constraints for cache names?,https://github.com/w3c/ServiceWorker/issues/1310,2018-04-27T17:02:39Z,2026-05-28T23:39:22Z,mkruisselbrink,,1
+318482119,false,Size constraints for cache names?,https://github.com/w3c/ServiceWorker/issues/1310,2018-04-27T17:02:39Z,2026-09-18T00:09:40Z,mkruisselbrink,TPAC2026,1
 316899786,true,Response's cache state is back,https://github.com/w3c/ServiceWorker/issues/1308,2018-04-23T17:02:42Z,2018-06-01T02:04:39Z,annevk,,0
 316656337,true,Service-Worker-Allowed can be cross-origin to the script URL.,https://github.com/w3c/ServiceWorker/issues/1307,2018-04-23T04:16:10Z,2023-01-10T05:36:12Z,mfalken,,0
 316567075,true,Correct link to nightly version,https://github.com/w3c/ServiceWorker/issues/1306,2018-04-22T10:25:30Z,2018-04-24T15:39:13Z,Malvoz,,0
@@ -376,7 +376,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 287154858,true,Turn off a service worker in parts of the website,https://github.com/w3c/ServiceWorker/issues/1257,2018-01-09T16:43:46Z,2018-01-12T11:07:00Z,ghost,,0
 285307287,true,Spec of Service Worker state,https://github.com/w3c/ServiceWorker/issues/1256,2018-01-01T13:26:28Z,2018-01-02T02:59:07Z,CYBAI,,0
 284229485,false,`updatefound` event in service worker context seems unreliable,https://github.com/w3c/ServiceWorker/issues/1255,2017-12-22T18:54:09Z,2026-02-13T00:50:04Z,wanderview,,2
-283762643,false,should Client.navigate() reject on uncontrolled clients?,https://github.com/w3c/ServiceWorker/issues/1254,2017-12-21T03:24:44Z,2026-02-13T01:13:10Z,wanderview,,0
+283762643,false,should Client.navigate() reject on uncontrolled clients?,https://github.com/w3c/ServiceWorker/issues/1254,2017-12-21T03:24:44Z,2026-09-18T00:02:14Z,wanderview,security-tracker|TPAC2026,0
 282959349,false,Soft Update seems way to aggressive,https://github.com/w3c/ServiceWorker/issues/1250,2017-12-18T17:28:16Z,2026-02-13T01:04:04Z,cdumez,,0
 282574775,true,Should the fragment identifier be stripped from the scriptURL?,https://github.com/w3c/ServiceWorker/issues/1249,2017-12-15T23:26:05Z,2017-12-22T02:42:08Z,cdumez,,0
 282178922,false,Provide an easier way to listen for waiting/activated/redundant Service Workers,https://github.com/w3c/ServiceWorker/issues/1247,2017-12-14T17:25:51Z,2020-04-03T11:36:01Z,dfabulich,,12
@@ -400,7 +400,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 273938966,false,Run Job does not specify which event loop to queue its tasks on,https://github.com/w3c/ServiceWorker/issues/1224,2017-11-14T20:53:45Z,2020-04-14T17:03:43Z,mkruisselbrink,,0
 273357160,true,Provide a way to ask the waiting Service Worker to skip waiting from the outside,https://github.com/w3c/ServiceWorker/issues/1223,2017-11-13T09:13:47Z,2017-11-13T18:00:24Z,dfabulich,,0
 273354469,false,Provide a one-line way to listen for a waiting Service Worker,https://github.com/w3c/ServiceWorker/issues/1222,2017-11-13T09:03:23Z,2023-10-06T09:46:47Z,dfabulich,,9
-272354179,false,Should we specify behavior for using objects from detached contexts?,https://github.com/w3c/ServiceWorker/issues/1221,2017-11-08T21:23:00Z,2026-03-06T00:40:37Z,mfalken,,0
+272354179,false,Should we specify behavior for using objects from detached contexts?,https://github.com/w3c/ServiceWorker/issues/1221,2017-11-08T21:23:00Z,2026-09-18T00:05:18Z,mfalken,,0
 268792547,true,Should we expose reserved clients?,https://github.com/w3c/ServiceWorker/issues/1216,2017-10-26T14:52:19Z,2017-12-11T06:30:47Z,jakearchibald,,0
 268444011,true,Navigating reserved clients,https://github.com/w3c/ServiceWorker/issues/1215,2017-10-25T15:31:40Z,2017-11-23T12:27:14Z,jakearchibald,,0
 267845180,true,"Clarity: ""is dispatched a set of""",https://github.com/w3c/ServiceWorker/issues/1214,2017-10-23T23:06:09Z,2017-11-17T02:08:31Z,JosephPecoraro,,0
@@ -411,7 +411,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 264551924,true,Create F2F agenda - 7 November 2017,https://github.com/w3c/ServiceWorker/issues/1206,2017-10-11T11:33:17Z,2026-07-02T23:59:50Z,jakearchibald,,1
 263564837,true,resurrected service workers don't fire an activate event which may break expectations,https://github.com/w3c/ServiceWorker/issues/1204,2017-10-06T20:37:27Z,2019-06-06T16:01:22Z,wanderview,,0
 263235777,true,Mixed feelings about ServiceWorker for module loader,https://github.com/w3c/ServiceWorker/issues/1203,2017-10-05T19:16:28Z,2018-03-02T04:03:35Z,Krinkle,,0
-261401821,false,should FetchEvent.request ever be a range request if we cannot verify if the underlying resource is the same?,https://github.com/w3c/ServiceWorker/issues/1201,2017-09-28T17:38:06Z,2026-01-30T00:44:44Z,wanderview,,0
+261401821,false,should FetchEvent.request ever be a range request if we cannot verify if the underlying resource is the same?,https://github.com/w3c/ServiceWorker/issues/1201,2017-09-28T17:38:06Z,2026-09-17T23:42:14Z,wanderview,TPAC2026,0
 260286334,false,is the browser required to start the ServiceWorker for postMessage() if there is no message event handler?,https://github.com/w3c/ServiceWorker/issues/1200,2017-09-25T13:57:24Z,2026-08-21T00:32:40Z,wanderview,decided,0
 259611546,false,ready promise doesn't work right when controlling registration is resurrected,https://github.com/w3c/ServiceWorker/issues/1198,2017-09-21T19:49:37Z,2026-07-03T00:16:19Z,wanderview,,1
 259498607,false,Express the job queue in terms of parallel queues,https://github.com/w3c/ServiceWorker/issues/1197,2017-09-21T13:36:22Z,2026-01-23T09:04:59Z,jakearchibald,,0
@@ -747,7 +747,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 116110575,true,"register() should not allow file://, wss://, etc",https://github.com/w3c/ServiceWorker/issues/780,2015-11-10T13:53:58Z,2015-11-11T02:37:35Z,wanderview,,0
 115744026,true,Disabling the secure origin check via flags,https://github.com/w3c/ServiceWorker/issues/779,2015-11-08T16:52:29Z,2018-06-14T11:42:07Z,nolanlawson,,0
 115671368,true,should service worker still install if onerror event handle cancels error from uncaught exception?,https://github.com/w3c/ServiceWorker/issues/778,2015-11-07T15:02:21Z,2015-11-09T19:22:18Z,wanderview,,0
-115143649,false,spec behavior when ServiceWorkerContainer parent client is dead,https://github.com/w3c/ServiceWorker/issues/777,2015-11-04T20:46:22Z,2026-02-06T01:25:22Z,wanderview,apr-2017-f2f-v1,0
+115143649,false,spec behavior when ServiceWorkerContainer parent client is dead,https://github.com/w3c/ServiceWorker/issues/777,2015-11-04T20:46:22Z,2026-09-17T23:50:20Z,wanderview,apr-2017-f2f-v1|TPAC2026,0
 114640085,true,Add note that activate event cannot fail SW activation,https://github.com/w3c/ServiceWorker/issues/776,2015-11-02T17:11:46Z,2015-11-03T08:03:58Z,wanderview,,0
 114507629,true,Add example for Service-Worker-Allowed,https://github.com/w3c/ServiceWorker/issues/775,2015-11-02T01:33:11Z,2015-11-04T03:24:52Z,marcoscaceres,,1
 114505871,true,The user agents?,https://github.com/w3c/ServiceWorker/issues/774,2015-11-02T01:00:06Z,2015-11-02T10:06:44Z,marcoscaceres,,0
