@@ -1,10 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5510081275,false,Meta: update the link to GitHub's blame documentation,https://github.com/whatwg/html/pull/12962,2026-09-19T12:15:22Z,2026-09-19T12:15:22Z,pepplesoniaa-sudo,,0
+5528281678,false,Don't delay the load event for lazy-loading media on source insertion,https://github.com/whatwg/html/pull/12972,2026-09-21T14:24:20Z,2026-09-21T14:24:20Z,zcorpan,,0
+5527102689,false,Read a media element's loading attribute after awaiting a stable state,https://github.com/whatwg/html/pull/12970,2026-09-21T12:40:41Z,2026-09-21T12:44:21Z,zcorpan,,0
+5523257397,true,Bound XML encoding sniffing to the declaration,https://github.com/whatwg/html/pull/12967,2026-09-21T05:49:54Z,2026-09-21T06:22:49Z,domenic,topic: parser,0
+5510081275,false,Meta: update the link to GitHub's blame documentation,https://github.com/whatwg/html/pull/12962,2026-09-19T12:15:22Z,2026-09-21T12:58:10Z,pepplesoniaa-sudo,,0
 5501616447,false,Check the incumbent document's sandboxing flags in window.close(),https://github.com/whatwg/html/pull/12960,2026-09-18T15:50:40Z,2026-09-18T15:50:40Z,shannonbooth,,0
-5491281130,false,Evaluate the Trusted Types-rewritten javascript: URL,https://github.com/whatwg/html/pull/12959,2026-09-17T18:34:39Z,2026-09-18T15:29:40Z,shannonbooth,topic: javascript: URLs,0
+5491281130,true,Evaluate the Trusted Types-rewritten javascript: URL,https://github.com/whatwg/html/pull/12959,2026-09-17T18:34:39Z,2026-09-21T14:55:48Z,shannonbooth,topic: javascript: URLs,0
 5489838435,false,"Fire the ""close"" event on MessagePort from a task",https://github.com/whatwg/html/pull/12957,2026-09-17T16:05:43Z,2026-09-17T16:12:32Z,nicolo-ribaudo,,0
 5465349816,true,Fixing typos,https://github.com/whatwg/html/pull/12945,2026-09-15T17:35:14Z,2026-09-16T06:52:01Z,KurtCattiSchmidt,,0
-5464695539,false,Move the scripting is disabled check for event handlers to compile time,https://github.com/whatwg/html/pull/12944,2026-09-15T16:32:40Z,2026-09-15T16:35:47Z,annevk,,0
+5464695539,false,Move the scripting is disabled check for event handlers to compile time,https://github.com/whatwg/html/pull/12944,2026-09-15T16:32:40Z,2026-09-21T11:20:00Z,annevk,,0
 5451695081,false,Track the ongoing navigation only from the navigables event loop,https://github.com/whatwg/html/pull/12942,2026-09-14T16:05:34Z,2026-09-14T16:13:50Z,shannonbooth,,0
 5450450455,false,Support <button> in <select>'s native appearance,https://github.com/whatwg/html/pull/12940,2026-09-14T14:12:27Z,2026-09-14T14:34:07Z,annevk,topic: select,0
 5449597824,true,Editorial: don't start a switch dt with a line break,https://github.com/whatwg/html/pull/12939,2026-09-14T12:56:15Z,2026-09-14T14:23:18Z,zcorpan,,0
@@ -13,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5428396254,true,Track the ongoing navigation only from the navigables event loop,https://github.com/whatwg/html/pull/12930,2026-09-11T19:52:27Z,2026-09-14T16:06:05Z,shannonbooth,topic: navigation|topic: navigation API,0
 5426729038,true,Fire traverse navigate events at descendants whose entry changes,https://github.com/whatwg/html/pull/12929,2026-09-11T16:36:10Z,2026-09-15T12:33:47Z,shannonbooth,topic: navigation|topic: navigation API,0
 5424304793,true,Meta: remove commit-snapshot-shortcut-key.js,https://github.com/whatwg/html/pull/12926,2026-09-11T12:29:46Z,2026-09-14T05:48:43Z,zcorpan,,0
-5422682560,false,Align frame connection steps with iframe,https://github.com/whatwg/html/pull/12925,2026-09-11T09:26:34Z,2026-09-18T13:11:11Z,domenic,compat|topic: shadow|topic: frames/navigables/browsing contexts,0
+5422682560,true,Align frame connection steps with iframe,https://github.com/whatwg/html/pull/12925,2026-09-11T09:26:34Z,2026-09-21T11:49:57Z,domenic,compat|topic: shadow|topic: frames/navigables/browsing contexts,0
 5422192023,true,Meta: subset custom font for #table-example-1,https://github.com/whatwg/html/pull/12924,2026-09-11T08:35:41Z,2026-09-14T07:30:59Z,zcorpan,,0
 5407319472,false,Validate integrity metadata in module map,https://github.com/whatwg/html/pull/12922,2026-09-10T03:19:14Z,2026-09-17T11:17:38Z,hiroshige-g,,0
 5397453057,true,change readme,https://github.com/whatwg/html/pull/12917,2026-09-09T09:12:54Z,2026-09-09T09:40:11Z,vishakha-mahajan,invalid,0
@@ -528,7 +531,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3121032722,true,"[Editorial] Early hints: there is no ""pending"" document, only null.",https://github.com/whatwg/html/pull/11355,2025-06-05T12:28:44Z,2025-06-05T13:48:08Z,noamr,,0
 3113398673,false,Add UA style for contenteditable=plaintext-only,https://github.com/whatwg/html/pull/11351,2025-06-03T10:31:38Z,2025-06-03T11:09:30Z,zcorpan,,0
 3113286788,false,[DRAFT] Add the concept of an event source.,https://github.com/whatwg/html/pull/11349,2025-06-03T10:00:27Z,2025-06-05T11:36:57Z,alice,,0
-3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-08-03T20:52:27Z,alexpetros,addition/proposal|topic: forms,126
+3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-08-03T20:52:27Z,alexpetros,addition/proposal|topic: forms,129
 3101529448,true,Improve CommandEvent and ToggleEvent source retargeting,https://github.com/whatwg/html/pull/11345,2025-05-29T21:27:44Z,2025-11-20T18:12:02Z,josepharhar,,0
 3095959996,true,Revamp script element introduction and conformance,https://github.com/whatwg/html/pull/11341,2025-05-28T04:26:27Z,2025-05-29T05:07:03Z,domenic,clarification|document conformance|topic: script,0
 3094310657,true,Add jump functionality to Blue Robot canvas demo,https://github.com/whatwg/html/pull/11337,2025-05-27T15:14:55Z,2025-05-28T00:58:11Z,Ronitsabhaya75,invalid,0
