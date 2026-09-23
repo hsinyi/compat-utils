@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5550066625,true,`optgroup` only uses a child `legend` if it's the first child,https://github.com/whatwg/html/issues/12982,2026-09-23T07:13:13Z,2026-09-23T10:28:34Z,zcorpan,topic: select,0
 5539824800,true,Typo in HTML version of standard for: 13.2.5.84 Numeric character reference end state,https://github.com/whatwg/html/issues/12979,2026-09-22T12:51:48Z,2026-09-22T19:25:33Z,matty-hall,topic: parser|editorial,0
 5536390843,false,The display size and effect of <select size=0>,https://github.com/whatwg/html/issues/12977,2026-09-22T07:09:12Z,2026-09-22T08:03:01Z,annevk,topic: rendering|topic: select,0
 5531415780,false,"Declarative Partial Updates:  `<Template for>` Replacement in other then the HTML Namespace (SVG, MathML)",https://github.com/whatwg/html/issues/12976,2026-09-21T19:20:03Z,2026-09-21T19:26:49Z,MaxwellCohen,topic: parser,1
@@ -17,7 +18,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5481753639,true,Define Worker constructor behavior for a detached Window,https://github.com/whatwg/html/issues/12955,2026-09-17T01:36:31Z,2026-09-17T01:44:12Z,kyle-elliott-tob,,0
 5481753237,true,Window.close uses target document flags for the caller sandbox check,https://github.com/whatwg/html/issues/12954,2026-09-17T01:36:27Z,2026-09-17T01:44:29Z,kyle-elliott-tob,,0
 5475636535,false,Using attr() for select list box appearance makes rendering mismatch semantics,https://github.com/whatwg/html/issues/12952,2026-09-16T14:08:23Z,2026-09-16T14:08:23Z,annevk,topic: rendering|topic: select,1
-5471398619,false,Reconsider validity of `<style>` inside `<body>`,https://github.com/whatwg/html/issues/12951,2026-09-16T07:10:09Z,2026-09-16T22:44:30Z,o-t-w,document conformance,6
+5471398619,false,Reconsider validity of `<style>` inside `<body>`,https://github.com/whatwg/html/issues/12951,2026-09-16T07:10:09Z,2026-09-23T07:44:35Z,o-t-w,document conformance,6
 5466416766,false,Proposed `CanvasRenderingContext2D.fillTextCluster()` takes the same x and y for all clusters,https://github.com/whatwg/html/issues/12950,2026-09-15T19:20:12Z,2026-09-15T19:20:12Z,shallawa,,0
 5466250627,false,Extending `TextMetrics` for text editing/shaping is not suitable for rich text editing,https://github.com/whatwg/html/issues/12949,2026-09-15T19:03:22Z,2026-09-15T19:03:22Z,shallawa,,0
 5465913602,false,Proposed `TextMetrics.getTextClusters()`  is inefficient for uniform styling,https://github.com/whatwg/html/issues/12948,2026-09-15T18:29:16Z,2026-09-15T18:29:16Z,shallawa,,0
@@ -280,7 +281,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4206845634,false,Add `live` attribute to the <time> element for auto-updating display,https://github.com/whatwg/html/issues/12333,2026-04-05T07:32:49Z,2026-06-17T09:25:37Z,Huzaifaabdulrab,addition/proposal|needs implementer interest,1
 4205677703,true,Add `live` and `timezone` attributes to the <time> element,https://github.com/whatwg/html/issues/12332,2026-04-04T19:41:58Z,2026-04-05T07:29:31Z,Huzaifaabdulrab,,0
 4205661586,false,"Native layout boolean attributes for HTML elements (flex, grid, wrap)",https://github.com/whatwg/html/issues/12331,2026-04-04T19:31:41Z,2026-04-04T19:31:41Z,Huzaifaabdulrab,,1
-4201305466,false,"Add the ""action"" and ""method"" attributes to <button>",https://github.com/whatwg/html/issues/12330,2026-04-03T16:38:54Z,2026-07-16T07:48:54Z,alexpetros,addition/proposal|topic: forms,93
+4201305466,false,"Add the ""action"" and ""method"" attributes to <button>",https://github.com/whatwg/html/issues/12330,2026-04-03T16:38:54Z,2026-07-16T07:48:54Z,alexpetros,addition/proposal|topic: forms,94
 4199446642,false,Focus update steps do not match browser behavior when Element#focus() is called in a blur event handler,https://github.com/whatwg/html/issues/12329,2026-04-03T09:15:18Z,2026-04-03T09:37:46Z,mrobinson,,0
 4195491316,false,[Customizable select] Define UA behavior for interactive content inside <option>,https://github.com/whatwg/html/issues/12328,2026-04-02T15:52:11Z,2026-04-23T20:02:14Z,minorninth,accessibility|a11y-tracker|topic: select,0
 4187739049,false,disallow customized builtin elements from being on the list of active formatting elements,https://github.com/whatwg/html/issues/12327,2026-04-01T15:14:46Z,2026-04-03T12:41:10Z,dbaron,topic: parser|topic: custom elements,0
@@ -867,7 +868,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2982818865,true,#inner-navigate-event-firing-algorithm uses #fully-active on #concept-relevant-global,https://github.com/whatwg/html/issues/11198,2025-04-09T13:22:43Z,2025-04-10T08:42:58Z,farre,topic: navigation,0
 2977338220,true,A modal dialog should not make inert top layer elements above itself,https://github.com/whatwg/html/issues/11195,2025-04-07T16:03:41Z,2026-01-12T14:55:59Z,lucacasonato,,2
 2977116813,false,Remove support of field-sizing from `<select>`,https://github.com/whatwg/html/issues/11194,2025-04-07T14:45:46Z,2026-06-11T07:14:25Z,sakupi01,topic: rendering|topic: select,0
-2976641426,false,Persistent element at the top of the top layer,https://github.com/whatwg/html/issues/11193,2025-04-07T12:05:47Z,2026-01-12T15:01:59Z,lucacasonato,topic: dialog|topic: popover,4
+2976641426,false,Persistent element at the top of the top layer,https://github.com/whatwg/html/issues/11193,2025-04-07T12:05:47Z,2026-09-23T07:29:24Z,lucacasonato,topic: dialog|topic: popover,4
 2973507099,true,Upcoming WHATNOT meeting on 2025-04-17,https://github.com/whatwg/html/issues/11192,2025-04-04T22:46:19Z,2025-12-04T21:35:17Z,past,,0
 2972357952,true,Allow multiple anchor references via `showPopover`/`togglePopover`,https://github.com/whatwg/html/issues/11188,2025-04-04T13:16:08Z,2025-04-14T14:33:09Z,mozesstumpf,addition/proposal|needs implementer interest|topic: popover,0
 2970214663,true,popover focusing steps and dialog focusing steps are subtly different (probably unintentionally so),https://github.com/whatwg/html/issues/11187,2025-04-03T17:09:38Z,2025-04-08T04:45:40Z,beidson,topic: popover,0
@@ -3714,7 +3715,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 442916636,true,download program,https://github.com/whatwg/html/issues/4612,2019-05-10T22:31:24Z,2019-05-13T07:41:41Z,pecka27,,0
 442900270,false,Spec for iframe removal from the document doesn't match browser behavior,https://github.com/whatwg/html/issues/4611,2019-05-10T21:25:36Z,2026-01-21T13:22:48Z,bzbarsky,topic: document.open()|topic: document lifecycle,0
 442557357,false,What correct behaviour of focus({preventscroll}) for on screen keyboard?,https://github.com/whatwg/html/issues/4608,2019-05-10T06:23:59Z,2019-05-24T22:05:11Z,makotokato,topic: focus,0
-442467904,false,Focus meta-bug,https://github.com/whatwg/html/issues/4607,2019-05-09T22:50:40Z,2020-04-02T23:55:14Z,domenic,topic: focus,15
+442467904,false,Focus meta-bug,https://github.com/whatwg/html/issues/4607,2019-05-09T22:50:40Z,2020-04-02T23:55:14Z,domenic,topic: focus,16
 442425191,false,Scroll to Fragment Identifier clarification,https://github.com/whatwg/html/issues/4605,2019-05-09T20:44:46Z,2019-05-31T20:37:43Z,nickburris,interop|needs compat analysis|integration,0
 442221586,false,"Consider replacing ""outstanding rejected promises weak set"" with a different setup",https://github.com/whatwg/html/issues/4604,2019-05-09T12:54:12Z,2019-05-17T07:39:38Z,EdgarChen,clarification,0
 441912040,true,"postMessage, WebAssembly.Memory, and undetachable ArrayBuffers",https://github.com/whatwg/html/issues/4601,2019-05-08T20:15:10Z,2019-05-10T13:44:28Z,ajklein,topic: serialize and transfer,2
