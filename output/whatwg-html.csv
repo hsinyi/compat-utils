@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5539824800,false,Typo in HTML version of standard for: 13.2.5.84 Numeric character reference end state,https://github.com/whatwg/html/issues/12979,2026-09-22T12:51:48Z,2026-09-22T12:51:48Z,matty-hall,,0
+5539824800,true,Typo in HTML version of standard for: 13.2.5.84 Numeric character reference end state,https://github.com/whatwg/html/issues/12979,2026-09-22T12:51:48Z,2026-09-22T19:25:33Z,matty-hall,topic: parser|editorial,0
 5536390843,false,The display size and effect of <select size=0>,https://github.com/whatwg/html/issues/12977,2026-09-22T07:09:12Z,2026-09-22T08:03:01Z,annevk,topic: rendering|topic: select,0
 5531415780,false,"Declarative Partial Updates:  `<Template for>` Replacement in other then the HTML Namespace (SVG, MathML)",https://github.com/whatwg/html/issues/12976,2026-09-21T19:20:03Z,2026-09-21T19:26:49Z,MaxwellCohen,topic: parser,1
 5529251640,false,load() doesn't actually take precedence over loading=lazy,https://github.com/whatwg/html/issues/12975,2026-09-21T15:48:30Z,2026-09-21T15:48:30Z,zcorpan,topic: media,0
@@ -9,7 +9,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5526394944,false,is-closing / window.closed stays true if beforeunload is canceled,https://github.com/whatwg/html/issues/12969,2026-09-21T11:33:58Z,2026-09-21T15:13:16Z,vinhill,topic: frames/navigables/browsing contexts,0
 5523472865,false,XML encoding scanning in XML documents is not interoperable,https://github.com/whatwg/html/issues/12968,2026-09-21T06:18:52Z,2026-09-21T11:06:26Z,domenic,topic: parser|interop,0
 5518899424,false,Destroying a child navigable should detach its subtree synchronously,https://github.com/whatwg/html/issues/12966,2026-09-20T16:03:14Z,2026-09-20T16:04:02Z,shannonbooth,topic: navigation,0
-5512278971,false,"Is it intentional that the ""check the usability of the image argument"" steps don't fail for natural width/height that don't exist?",https://github.com/whatwg/html/issues/12964,2026-09-19T17:37:25Z,2026-09-21T05:34:17Z,weinig,clarification|topic: canvas,0
+5512278971,false,"Is it intentional that the ""check the usability of the image argument"" steps don't fail for natural width/height that don't exist?",https://github.com/whatwg/html/issues/12964,2026-09-19T17:37:25Z,2026-09-22T16:09:10Z,weinig,clarification|topic: canvas,0
 5512175637,true,"In `appearance: base` <select>, use the label attribute as a fallback rather than a rendering override",https://github.com/whatwg/html/issues/12963,2026-09-19T17:22:14Z,2026-09-22T15:06:11Z,sb3nder,addition/proposal|needs implementer interest,0
 5507031718,false,Session history: a changing navigable continuation activates a target entry that a queue-jumping synchronous navigation has replaced or removed,https://github.com/whatwg/html/issues/12961,2026-09-19T02:03:46Z,2026-09-19T02:40:00Z,sideshowbarker,compat|topic: navigation,0
 5491211336,false,Upcoming WHATNOT meeting on 2026-09-24,https://github.com/whatwg/html/issues/12958,2026-09-17T18:27:10Z,2026-09-17T18:27:10Z,tabatkins,agenda+,0
@@ -604,7 +604,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3474315969,true,Navigation API: upcoming API method tracker is not null if `navigate` is called from `onnavigateerror`,https://github.com/whatwg/html/issues/11735,2025-10-01T16:40:38Z,2025-10-21T18:37:03Z,jnjaeschke,topic: navigation,0
 3472725307,false,"Navigation API: ""has been scrolled by user"" is ambiguous",https://github.com/whatwg/html/issues/11732,2025-10-01T09:17:01Z,2026-08-24T09:01:34Z,keithamus,clarification|topic: navigation|topic: navigation API,1
 3472419842,true,optgroup element text is incorrect,https://github.com/whatwg/html/issues/11730,2025-10-01T07:36:11Z,2025-10-17T05:18:04Z,annevk,topic: select,0
-3471213469,false,Menu elements proposal,https://github.com/whatwg/html/issues/11729,2025-09-30T22:10:24Z,2026-09-17T16:05:49Z,domfarolino,addition/proposal|needs implementer interest|stage: 2,7
+3471213469,false,Menu elements proposal,https://github.com/whatwg/html/issues/11729,2025-09-30T22:10:24Z,2026-09-22T18:12:14Z,domfarolino,addition/proposal|needs implementer interest|agenda+|stage: 2,7
 3470648855,false,`closedby` defaults refer to unspecified “Auto” state,https://github.com/whatwg/html/issues/11728,2025-09-30T18:43:55Z,2025-10-01T16:15:35Z,j9t,topic: reflect,0
 3468199894,true,"`rel=""icon""` requests do not fire since it doesn't translate to a valid preload destination",https://github.com/whatwg/html/issues/11726,2025-09-30T08:36:46Z,2025-10-10T08:34:20Z,TimvdLippe,,0
 3466671369,false,"A way to remove EXIF data on `<input type=""file"">` before sending to server",https://github.com/whatwg/html/issues/11724,2025-09-29T21:25:06Z,2026-05-06T13:27:19Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms,24
@@ -1160,7 +1160,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2555508180,true,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-10-30T05:36:43Z,domenic,normative change|topic: dialog|topic: popover,1
 2551969947,true,Upcoming WHATNOT meeting on 2024-10-03,https://github.com/whatwg/html/issues/10652,2024-09-27T04:30:41Z,2024-10-02T15:00:07Z,past,agenda+,0
 2551884785,false,Nested `contenteditable=true` and `contenteditable=plaintext-only` should win only the ourtermost one,https://github.com/whatwg/html/issues/10651,2024-09-27T02:53:27Z,2024-09-30T21:55:52Z,masayuki-nakano,needs tests|needs concrete proposal|topic: editing,0
-2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-09-17T18:22:28Z,khushalsagar,addition/proposal|topic: canvas|stage: 2,5
+2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-09-22T15:54:27Z,khushalsagar,addition/proposal|topic: canvas|agenda+|stage: 2,5
 2549044519,true,Resolving  of transition and finished promises is mismatched between spec and tests,https://github.com/whatwg/html/issues/10646,2024-09-25T21:39:11Z,2024-09-30T10:14:17Z,rwlbuis,topic: navigation,0
 2544017899,true,"'reading-flow' and ""display: contents""",https://github.com/whatwg/html/issues/10643,2024-09-24T00:42:59Z,2024-09-24T16:09:09Z,tabatkins,topic: focus,0
 2543972242,false,tabindex vs reading-flow property,https://github.com/whatwg/html/issues/10642,2024-09-24T00:01:25Z,2025-03-12T17:10:41Z,tabatkins,topic: focus,3
@@ -1320,7 +1320,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2327513339,false,[Proposal] capture screen,https://github.com/whatwg/html/issues/10382,2024-05-31T10:35:41Z,2024-09-14T09:51:01Z,hemanth,addition/proposal|needs implementer interest,2
 2326705799,true,Upcoming WHATNOT meeting on 6/6/2024,https://github.com/whatwg/html/issues/10381,2024-05-30T23:34:22Z,2024-06-06T17:00:23Z,past,agenda+,0
 2324176691,false,HTML Video and its Source Elements Should Support SRCSET and SIZES,https://github.com/whatwg/html/issues/10379,2024-05-29T20:16:56Z,2024-08-14T12:07:18Z,scottjehl,addition/proposal|needs implementer interest|topic: media,16
-2324127724,false,"HTML Video Poster Image: Enable Responsive Images and ALT Text for Poster ",https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2026-09-22T15:26:54Z,scottjehl,addition/proposal|needs implementer interest|topic: media|stage: 1,43
+2324127724,false,"HTML Video Poster Image: Enable Responsive Images and ALT Text for Poster ",https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2026-09-22T20:21:30Z,scottjehl,addition/proposal|needs implementer interest|topic: media|stage: 1,43
 2324097406,false,"Specify That Responsive Video Elements Re-Evaluate Sources on Media Change, Like Picture",https://github.com/whatwg/html/issues/10377,2024-05-29T19:33:05Z,2025-11-20T12:55:12Z,scottjehl,addition/proposal|needs implementer interest|topic: media,9
 2324056660,true,Video and Audio Element loading=lazy attribute support,https://github.com/whatwg/html/issues/10376,2024-05-29T19:09:50Z,2026-03-23T15:57:20Z,scottjehl,addition/proposal|needs implementer interest|topic: media,31
 2322953911,true,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-10-08T12:22:36Z,yoavweiss,addition/proposal|needs implementer interest|topic: cross-origin-opener-policy,0
