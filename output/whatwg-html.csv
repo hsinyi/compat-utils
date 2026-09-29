@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5628036306,false,History traversal and reload: which initiator does the request carry? (follow-up to #4446),https://github.com/whatwg/html/issues/13003,2026-09-29T09:05:03Z,2026-09-29T09:05:03Z,sideshowbarker,compat|topic: navigation,0
 5610790773,false,Per-list-item `::marker` box sizing/alignment + wrapped list item indentation controls,https://github.com/whatwg/html/issues/13000,2026-09-28T07:14:54Z,2026-09-29T02:22:21Z,commiterate,addition/proposal|needs implementer interest,0
 5594976898,false,Select base appearance needs improvements,https://github.com/whatwg/html/issues/12996,2026-09-26T15:08:00Z,2026-09-28T11:16:15Z,annevk,topic: rendering|topic: select,0
 5583918809,false,"""rules for updating the text track rendering"" is incompatible with WebVTT implementation",https://github.com/whatwg/html/issues/12994,2026-09-25T14:05:38Z,2026-09-25T14:05:38Z,TimvdLippe,,0
@@ -13,7 +14,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5529251640,false,load() doesn't actually take precedence over loading=lazy,https://github.com/whatwg/html/issues/12975,2026-09-21T15:48:30Z,2026-09-21T15:48:30Z,zcorpan,topic: media,0
 5528591351,false,Text tracks of lazy-loading media elements are fetched before the media resumes,https://github.com/whatwg/html/issues/12974,2026-09-21T14:50:44Z,2026-09-21T14:50:44Z,zcorpan,topic: media,0
 5528322326,false,"Lazy-loading media elements fire loadstart and reject source candidates before deferring, unlike Chrome",https://github.com/whatwg/html/issues/12973,2026-09-21T14:27:42Z,2026-09-21T14:30:07Z,zcorpan,topic: media,0
-5527310339,false,Inserting a source element sets the delaying-the-load-event flag even for loading=lazy media,https://github.com/whatwg/html/issues/12971,2026-09-21T13:00:16Z,2026-09-21T13:00:16Z,zcorpan,topic: media,0
+5527310339,true,Inserting a source element sets the delaying-the-load-event flag even for loading=lazy media,https://github.com/whatwg/html/issues/12971,2026-09-21T13:00:16Z,2026-09-29T08:39:01Z,zcorpan,topic: media,0
 5526394944,false,is-closing / window.closed stays true if beforeunload is canceled,https://github.com/whatwg/html/issues/12969,2026-09-21T11:33:58Z,2026-09-21T15:13:16Z,vinhill,topic: frames/navigables/browsing contexts,0
 5523472865,false,XML encoding scanning in XML documents is not interoperable,https://github.com/whatwg/html/issues/12968,2026-09-21T06:18:52Z,2026-09-21T11:06:26Z,domenic,topic: parser|interop,0
 5518899424,false,Destroying a child navigable should detach its subtree synchronously,https://github.com/whatwg/html/issues/12966,2026-09-20T16:03:14Z,2026-09-20T16:04:02Z,shannonbooth,topic: navigation,0
@@ -94,7 +95,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5201012520,false,Location's href setter and beforeunload,https://github.com/whatwg/html/issues/12800,2026-08-20T07:47:14Z,2026-08-28T19:06:25Z,annevk,topic: navigation,1
 5195381865,false,`autofocus` can be flaky on a custom element that’s defined asynchronously,https://github.com/whatwg/html/issues/12799,2026-08-19T17:27:27Z,2026-08-19T17:27:27Z,marchbox,,0
 5194390508,false,MessagePort should probably fire `close` event from a task,https://github.com/whatwg/html/issues/12797,2026-08-19T15:34:36Z,2026-09-18T10:04:20Z,nicolo-ribaudo,topic: events,0
-5193959579,false,Track element's resource loading algorithm doesn't match browsers,https://github.com/whatwg/html/issues/12796,2026-08-19T14:50:10Z,2026-08-21T10:10:55Z,jdm,topic: media,0
+5193959579,false,Track element's resource loading algorithm doesn't match browsers,https://github.com/whatwg/html/issues/12796,2026-08-19T14:50:10Z,2026-09-29T11:55:47Z,jdm,topic: media,0
 5182836503,false,"Add keyboard modifiers to focused <input type=""number"">",https://github.com/whatwg/html/issues/12795,2026-08-18T14:19:52Z,2026-08-18T14:19:52Z,jsnkuhn,addition/proposal|needs implementer interest,0
 5172651373,false,Possible oversight in `HostLoadImportedModule`,https://github.com/whatwg/html/issues/12790,2026-08-17T14:05:10Z,2026-09-04T14:30:11Z,Gae24,topic: script,0
 5168548796,false,Should a javascript: URL that doesn't create a new document trigger a load event?,https://github.com/whatwg/html/issues/12788,2026-08-17T05:15:12Z,2026-08-17T09:33:02Z,jdm,topic: frames/navigables/browsing contexts|topic: javascript: URLs,0
@@ -588,9 +589,9 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3509996026,false,Focus order of image map shapes (area) doesn't match implementations,https://github.com/whatwg/html/issues/11780,2025-10-13T13:03:19Z,2025-10-13T13:03:19Z,zcorpan,interop|topic: focus,0
 3509594080,true,`Document.parseHTMLUnsafe()` steps involved using `this` for the `TrustedTypes` integration but the method is static in the IDL,https://github.com/whatwg/html/issues/11778,2025-10-13T11:09:07Z,2026-09-01T14:11:20Z,tete17,,0
 3509589229,true,Prepare an image for presentation step 16 should always run,https://github.com/whatwg/html/issues/11777,2025-10-13T11:07:58Z,2025-10-13T17:13:15Z,zcorpan,clarification|topic: img,0
-3503937445,false,Media element is not considered to have ended playback if loop is enabled after reaching the end,https://github.com/whatwg/html/issues/11775,2025-10-10T17:52:03Z,2025-10-15T12:49:14Z,Zaggy1024,topic: media,0
-3503902111,false,Media elements can loop if they reach the end of media playback while paused,https://github.com/whatwg/html/issues/11774,2025-10-10T17:43:40Z,2026-07-29T19:30:13Z,Zaggy1024,topic: media,0
-3503867217,false,Media elements' seek steps do not set the official playback position before parallel steps begin,https://github.com/whatwg/html/issues/11773,2025-10-10T17:32:13Z,2026-09-28T23:06:17Z,Zaggy1024,topic: media,0
+3503937445,true,Media element is not considered to have ended playback if loop is enabled after reaching the end,https://github.com/whatwg/html/issues/11775,2025-10-10T17:52:03Z,2026-09-29T13:56:38Z,Zaggy1024,topic: media,0
+3503902111,false,Media elements can loop if they reach the end of media playback while paused,https://github.com/whatwg/html/issues/11774,2025-10-10T17:43:40Z,2026-09-29T16:51:38Z,Zaggy1024,topic: media,0
+3503867217,false,Media elements' seek steps do not set the official playback position before parallel steps begin,https://github.com/whatwg/html/issues/11773,2025-10-10T17:32:13Z,2026-09-29T16:52:58Z,Zaggy1024,topic: media,0
 3500855093,true,Clarify drag and drop pointer events,https://github.com/whatwg/html/issues/11771,2025-10-09T23:01:28Z,2025-10-10T11:12:18Z,sb3nder,topic: drag and drop,0
 3499677685,false,`:` character in custom element name,https://github.com/whatwg/html/issues/11770,2025-10-09T15:41:51Z,2025-10-10T11:06:01Z,iccir,topic: custom elements,0
 3499424598,false,"Image decode() algorithm without ""src"" and ""srcset"" attributes",https://github.com/whatwg/html/issues/11769,2025-10-09T14:26:42Z,2025-10-10T09:41:09Z,tharkum,topic: img,0
@@ -819,7 +820,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3053380943,true,Can we include what header(s) get sent with link type prefetch?,https://github.com/whatwg/html/issues/11294,2025-05-09T23:25:16Z,2025-05-12T20:01:21Z,srwei,,0
 3050537262,true,"""rules for choosing a navigable"" allows named targeting with noopener",https://github.com/whatwg/html/issues/11291,2025-05-09T02:14:24Z,2025-05-09T13:55:33Z,domenic,topic: frames/navigables/browsing contexts,0
 3049580456,true,Upcoming WHATNOT meeting on 2025-05-15,https://github.com/whatwg/html/issues/11290,2025-05-08T16:53:08Z,2025-12-04T21:35:20Z,past,,0
-3043719418,false,Filterable `<select>` via `<input>` (native combobox & more),https://github.com/whatwg/html/issues/11288,2025-05-06T18:51:04Z,2025-07-15T18:08:24Z,brandonmcconnell,addition/proposal|needs implementer interest,15
+3043719418,false,Filterable `<select>` via `<input>` (native combobox & more),https://github.com/whatwg/html/issues/11288,2025-05-06T18:51:04Z,2025-07-15T18:08:24Z,brandonmcconnell,addition/proposal|needs implementer interest,16
 3043680396,true,"Spec text for naturalWidth and naturalHeight behavior isn't web-compatible, for cases where attributes are missing",https://github.com/whatwg/html/issues/11287,2025-05-06T18:33:58Z,2026-07-05T05:04:44Z,dholbert,topic: img|interop,1
 3043061501,false,Expanding the concept of internal resource links,https://github.com/whatwg/html/issues/11286,2025-05-06T14:34:00Z,2025-05-29T22:28:15Z,noamr,topic: link,1
 3040860886,true,"In `blob/88c7d93d0f87e19beadead68f8d2eb28c503a8a8/source#L56`, `<h1 class=""allcaps"">HTML</h1>` should be `<h1 class=""allcaps""><abbr>HTML</abbr></h1>`.",https://github.com/whatwg/html/issues/11285,2025-05-05T21:21:46Z,2025-05-07T11:41:40Z,beedell-roke,,0
@@ -2012,7 +2013,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1552047625,true,"Clarify: CSS import assertions use ""script"" as the destination, is that intended?",https://github.com/whatwg/html/issues/8764,2023-01-22T08:56:49Z,2023-06-11T06:26:34Z,noamr,,0
 1550462824,false,MediaError not acccessible for a video element if using it with source elements,https://github.com/whatwg/html/issues/8757,2023-01-20T08:15:13Z,2024-10-09T15:35:15Z,callumgare,topic: media,0
 1550768319,true,Add DOMParser option to parse declarative shadow DOM,https://github.com/whatwg/html/issues/8759,2023-01-19T23:23:54Z,2024-02-04T07:47:15Z,mfreed7,addition/proposal|topic: shadow,1
-1550024105,false,Native support for indents and flat list structures,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2026-06-18T17:25:08Z,GermanJablo,,6
+1550024105,false,Native support for indents and flat list structures,https://github.com/whatwg/html/issues/8751,2023-01-19T22:11:32Z,2026-09-29T14:32:10Z,GermanJablo,,6
 1548957116,true,[css-view-transitions-1] Interaction with Safari's back/forward previews,https://github.com/whatwg/html/issues/8749,2023-01-19T11:14:58Z,2023-01-19T11:21:46Z,jakearchibald,,0
 1537525438,true,Meta: should dfns in headings be viewed as exported definitions?,https://github.com/whatwg/html/issues/8743,2023-01-18T07:30:06Z,2023-01-20T19:24:39Z,tidoust,,0
 1537442281,false,Add support for rel=stylesheet in Link headers,https://github.com/whatwg/html/issues/8741,2023-01-18T05:55:47Z,2023-02-10T17:07:39Z,domenic,addition/proposal|needs implementer interest|topic: link|topic: style,0
@@ -3265,7 +3266,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 602996850,true,worker global scope's owner set should be updated before CSP initialization,https://github.com/whatwg/html/issues/5469,2020-04-20T07:06:55Z,2020-04-28T14:50:33Z,hiroshige-g,,0
 602570354,false,Allow git+https protocol handlers,https://github.com/whatwg/html/issues/5468,2020-04-18T22:56:40Z,2020-04-20T07:24:34Z,SoniEx2,addition/proposal|topic: custom protocols,0
 602461066,true,[dev edition] Image doesn't show under 'links.html#link-type-modulepreload',https://github.com/whatwg/html/issues/5467,2020-04-18T13:30:33Z,2020-04-20T16:35:15Z,NostraDavid,dev edition,0
-602428251,false,What *is* Canvas desynchronized attribute?,https://github.com/whatwg/html/issues/5466,2020-04-18T10:28:18Z,2025-06-12T10:16:22Z,juj,clarification|topic: canvas,12
+602428251,false,What *is* Canvas desynchronized attribute?,https://github.com/whatwg/html/issues/5466,2020-04-18T10:28:18Z,2025-06-12T10:16:22Z,juj,clarification|topic: canvas,11
 602049599,false,Accessibility of window.opener navigation,https://github.com/whatwg/html/issues/5464,2020-04-17T15:16:47Z,2020-04-24T11:43:07Z,matatk,accessibility|a11y-tracker,0
 601891362,true,Storage object (localStorage/sessionStorage) ordering,https://github.com/whatwg/html/issues/5463,2020-04-17T11:03:54Z,2020-07-10T17:28:43Z,annevk,topic: storage,0
 601057097,false,More clearly distinguish authoring conformance requirements,https://github.com/whatwg/html/issues/5461,2020-04-16T13:31:56Z,2020-04-22T16:59:50Z,domenic,spec tooling|clarification|document conformance|a11y-needs-resolution,1
