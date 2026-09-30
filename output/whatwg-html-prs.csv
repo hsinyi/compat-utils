@@ -1,11 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5648511366,false,Split the scripting is disabled check for event handlers,https://github.com/whatwg/html/pull/13009,2026-09-30T14:59:35Z,2026-09-30T15:03:15Z,annevk,,0
+5640222390,false,Allow `style` in `body`,https://github.com/whatwg/html/pull/13007,2026-09-30T03:04:44Z,2026-09-30T17:08:59Z,zcorpan,document conformance,2
 5638763845,false,Expose cross-origin isolated capability and time origin to worklets,https://github.com/whatwg/html/pull/13006,2026-09-30T00:05:28Z,2026-09-30T00:08:31Z,mjwilson-google,,0
-5632088964,false,Refine when selectedcontent elements are updated,https://github.com/whatwg/html/pull/13005,2026-09-29T14:23:38Z,2026-09-29T14:35:11Z,annevk,topic: select,0
-5631609089,false,Retain last rendered size for auto-sizes images when unrendered,https://github.com/whatwg/html/pull/13004,2026-09-29T13:48:14Z,2026-09-29T14:31:56Z,noamr,,0
+5632088964,false,Refine when selectedcontent elements are updated,https://github.com/whatwg/html/pull/13005,2026-09-29T14:23:38Z,2026-09-30T14:10:41Z,annevk,topic: select,0
+5631609089,false,Retain last rendered size for auto-sizes images when unrendered,https://github.com/whatwg/html/pull/13004,2026-09-29T13:48:14Z,2026-09-30T10:04:14Z,noamr,,0
 5613497991,false,Fix hiding popovers that are removed or moved between documents,https://github.com/whatwg/html/pull/13001,2026-09-28T11:05:50Z,2026-09-28T11:09:03Z,jakearchibald,,0
 5608076203,true,URename README.md to Amazon.com,https://github.com/whatwg/html/pull/12999,2026-09-28T01:38:08Z,2026-09-28T04:33:07Z,david1green30-dot,invalid,0
 5584455220,false,Define the global of an event handler's event listener,https://github.com/whatwg/html/pull/12995,2026-09-25T14:50:53Z,2026-09-25T15:00:58Z,annevk,,0
-5583147113,false,"In #process-scroll-behavior, ""reload"" shouldn't restore scroll.",https://github.com/whatwg/html/pull/12993,2026-09-25T13:00:48Z,2026-09-25T13:14:00Z,farre,topic: navigation API,0
+5583147113,false,"In #process-scroll-behavior, ""reload"" shouldn't restore scroll.",https://github.com/whatwg/html/pull/12993,2026-09-25T13:00:48Z,2026-09-30T10:14:58Z,farre,topic: navigation API,0
 5582087326,false,Use Fetch's multipart/form-data serializer,https://github.com/whatwg/html/pull/12992,2026-09-25T11:21:00Z,2026-09-25T11:24:02Z,annevk,,0
 5553825916,false,Specify and parse COOP and COEP report-to parameters as token or string,https://github.com/whatwg/html/pull/12984,2026-09-23T13:02:37Z,2026-09-23T13:02:37Z,apasel422,,0
 5543287004,true,Pass initialInsertion when navigating an iframe,https://github.com/whatwg/html/pull/12981,2026-09-22T18:01:34Z,2026-09-28T06:17:39Z,shannonbooth,,0
@@ -17,7 +19,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5510081275,false,Meta: update the link to GitHub's blame documentation,https://github.com/whatwg/html/pull/12962,2026-09-19T12:15:22Z,2026-09-21T12:58:10Z,pepplesoniaa-sudo,,0
 5501616447,false,Check the incumbent document's sandboxing flags in window.close(),https://github.com/whatwg/html/pull/12960,2026-09-18T15:50:40Z,2026-09-25T12:15:40Z,shannonbooth,do not merge yet,0
 5491281130,true,Evaluate the Trusted Types-rewritten javascript: URL,https://github.com/whatwg/html/pull/12959,2026-09-17T18:34:39Z,2026-09-21T14:55:48Z,shannonbooth,topic: javascript: URLs,0
-5489838435,false,"Fire the ""close"" event on MessagePort from a task",https://github.com/whatwg/html/pull/12957,2026-09-17T16:05:43Z,2026-09-29T12:06:10Z,nicolo-ribaudo,needs implementer interest,0
+5489838435,false,"Fire the ""close"" event on MessagePort from a task",https://github.com/whatwg/html/pull/12957,2026-09-17T16:05:43Z,2026-09-30T12:19:17Z,nicolo-ribaudo,needs implementer interest,0
 5465349816,true,Fixing typos,https://github.com/whatwg/html/pull/12945,2026-09-15T17:35:14Z,2026-09-16T06:52:01Z,KurtCattiSchmidt,,0
 5464695539,true,Move the scripting is disabled check for event handlers to compile time,https://github.com/whatwg/html/pull/12944,2026-09-15T16:32:40Z,2026-09-24T14:12:00Z,annevk,,0
 5451695081,false,Track the ongoing navigation only from the navigables event loop,https://github.com/whatwg/html/pull/12942,2026-09-14T16:05:34Z,2026-09-14T16:13:50Z,shannonbooth,,0
@@ -195,7 +197,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4442193895,true,Correct first name of River Champeimont,https://github.com/whatwg/html/pull/12449,2026-05-14T00:54:31Z,2026-05-14T06:37:29Z,rchampeimont,,1
 4442034456,true,Markup: Add `for` attribute to `dfn` for HTMLHyperlinkElementUtils target,https://github.com/whatwg/html/pull/12448,2026-05-14T00:11:30Z,2026-06-15T22:50:37Z,jmdyck,,0
 4436913669,true,"Normative: Add hreflang and type to area, SVG a, and MathML a",https://github.com/whatwg/html/pull/12446,2026-05-13T10:05:51Z,2026-05-18T22:20:23Z,lukewarlow,,0
-4436381204,false,"Add `<meta name=""responsive-embedded-sizing"">`",https://github.com/whatwg/html/pull/12444,2026-05-13T08:54:08Z,2026-09-10T18:25:12Z,kojiishi,,0
+4436381204,false,"Add `<meta name=""responsive-embedded-sizing"">`",https://github.com/whatwg/html/pull/12444,2026-05-13T08:54:08Z,2026-09-30T09:14:17Z,kojiishi,,0
 4433013237,true,Editorial: move a and area target IDL to the HTMLHyperlinkElementUtils,https://github.com/whatwg/html/pull/12442,2026-05-12T22:19:15Z,2026-05-13T12:50:36Z,lukewarlow,,0
 4424762864,true,Editorial: Fix typos from recent merges,https://github.com/whatwg/html/pull/12437,2026-05-11T22:32:59Z,2026-06-15T22:50:25Z,jmdyck,,0
 4413928995,true,"Fix ""element with default preferred size"" link",https://github.com/whatwg/html/pull/12434,2026-05-09T21:51:30Z,2026-05-10T06:12:23Z,nicolo-ribaudo,editorial,0
@@ -392,7 +394,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3521695829,true,Use current global object in static method.,https://github.com/whatwg/html/pull/11799,2025-10-16T12:31:08Z,2026-09-01T14:11:18Z,otherdaniel,,1
 3521613537,false,Check if there's a browsing context in window.open() steps,https://github.com/whatwg/html/pull/11798,2025-10-16T12:10:27Z,2025-10-28T17:12:04Z,zcorpan,needs tests,0
 3517217657,true,Add support for WebDriver BiDi language emulation,https://github.com/whatwg/html/pull/11793,2025-10-15T09:41:30Z,2025-11-18T10:31:21Z,lutien,,0
-3515987113,false,Fix a few inconsistencies between the media element spec and implementations,https://github.com/whatwg/html/pull/11792,2025-10-15T01:04:00Z,2026-09-29T17:28:34Z,Zaggy1024,topic: media,0
+3515987113,true,Fix a few inconsistencies between the media element spec and implementations,https://github.com/whatwg/html/pull/11792,2025-10-15T01:04:00Z,2026-09-30T10:44:06Z,Zaggy1024,topic: media,0
 3515567232,true,Improve option insertion and removal algorithms,https://github.com/whatwg/html/pull/11790,2025-10-14T21:27:38Z,2025-10-16T15:32:27Z,josepharhar,,0
 3515561765,true,Improve option element nearest ancestor select algorithm,https://github.com/whatwg/html/pull/11789,2025-10-14T21:25:31Z,2025-10-18T13:23:58Z,josepharhar,,0
 3514202918,true,window.navigation needs to be [Replaceable],https://github.com/whatwg/html/pull/11786,2025-10-14T14:28:15Z,2025-10-16T20:43:57Z,annevk,compat|topic: navigation,0
@@ -467,7 +469,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3356225711,false,"[FYI, not ready for review] Add globalHDRHeadroom to CanvasCompositing interface",https://github.com/whatwg/html/pull/11597,2025-08-26T15:51:38Z,2025-10-01T08:29:20Z,ccameron-chromium,,0
 3344286687,true,chore(css): normalize prefers-color-scheme spacing in styles.css,https://github.com/whatwg/html/pull/11591,2025-08-22T06:18:20Z,2025-08-22T06:32:55Z,ArjunSaluja,invalid,0
 3342044580,true,use integer over anb syntax for heading,https://github.com/whatwg/html/pull/11589,2025-08-21T14:47:23Z,2025-08-27T12:55:08Z,keithamus,,0
-3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-09-29T21:48:59Z,foolip,,6
+3341635110,false,Add HTML-in-Canvas APIs,https://github.com/whatwg/html/pull/11588,2025-08-21T12:51:56Z,2026-09-30T16:35:21Z,foolip,,6
 3337110965,true,[meta] Add dfn type and scope for HTMLMediaElement.src,https://github.com/whatwg/html/pull/11581,2025-08-20T08:32:57Z,2025-08-21T00:28:09Z,dontcallmedom,,1
 3336967031,true,Navigation API deferred commit,https://github.com/whatwg/html/pull/11580,2025-08-20T07:45:51Z,2025-08-21T04:31:59Z,noamr,addition/proposal|topic: navigation,0
 3333877613,true,[WebDriver BiDi] emulate `user-agent` string,https://github.com/whatwg/html/pull/11576,2025-08-19T10:47:17Z,2025-09-17T07:49:56Z,sadym-chromium,,0
@@ -543,7 +545,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3121032722,true,"[Editorial] Early hints: there is no ""pending"" document, only null.",https://github.com/whatwg/html/pull/11355,2025-06-05T12:28:44Z,2025-06-05T13:48:08Z,noamr,,0
 3113398673,false,Add UA style for contenteditable=plaintext-only,https://github.com/whatwg/html/pull/11351,2025-06-03T10:31:38Z,2025-06-03T11:09:30Z,zcorpan,,0
 3113286788,false,[DRAFT] Add the concept of an event source.,https://github.com/whatwg/html/pull/11349,2025-06-03T10:00:27Z,2025-06-05T11:36:57Z,alice,,0
-3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2025-08-03T20:52:27Z,alexpetros,addition/proposal|topic: forms,129
+3104389318,false,"Add PUT, PATCH, and DELETE to form method attribute",https://github.com/whatwg/html/pull/11347,2025-05-30T22:23:10Z,2026-09-30T08:17:39Z,alexpetros,addition/proposal|topic: forms,129
 3101529448,true,Improve CommandEvent and ToggleEvent source retargeting,https://github.com/whatwg/html/pull/11345,2025-05-29T21:27:44Z,2025-11-20T18:12:02Z,josepharhar,,0
 3095959996,true,Revamp script element introduction and conformance,https://github.com/whatwg/html/pull/11341,2025-05-28T04:26:27Z,2025-05-29T05:07:03Z,domenic,clarification|document conformance|topic: script,0
 3094310657,true,Add jump functionality to Blue Robot canvas demo,https://github.com/whatwg/html/pull/11337,2025-05-27T15:14:55Z,2025-05-28T00:58:11Z,Ronitsabhaya75,invalid,0
@@ -1667,7 +1669,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1141420605,true,Define the translate attribute's state when there's no parent element,https://github.com/whatwg/html/pull/7629,2022-02-17T14:35:44Z,2022-02-17T23:24:01Z,zcorpan,,0
 1138870843,true,Process Preload link headers,https://github.com/whatwg/html/pull/7622,2022-02-15T15:48:13Z,2022-05-04T14:22:11Z,noamr,topic: link|topic: resource hints (inc. preload),0
 1138768636,true,Add a single radius version of CanvasRenderingContext2D.roundRect,https://github.com/whatwg/html/pull/7621,2022-02-15T14:28:17Z,2022-02-18T15:01:39Z,mysteryDate,topic: canvas,0
-1137601390,false,Change Origin-Agent-Cluster HTTP header default,https://github.com/whatwg/html/pull/7617,2022-02-14T17:13:35Z,2026-09-27T15:03:51Z,otherdaniel,normative change|do not merge yet,0
+1137601390,false,Change Origin-Agent-Cluster HTTP header default,https://github.com/whatwg/html/pull/7617,2022-02-14T17:13:35Z,2026-09-30T08:51:45Z,otherdaniel,normative change|do not merge yet,0
 1135270137,true,Update README.md,https://github.com/whatwg/html/pull/7615,2022-02-13T05:53:32Z,2024-10-08T14:09:18Z,MasterofAstro,invalid,0
 1135268349,true,Update README.md,https://github.com/whatwg/html/pull/7614,2022-02-13T05:52:05Z,2024-10-08T14:09:18Z,MasterofAstro,invalid,0
 1135265225,true,Update README.md,https://github.com/whatwg/html/pull/7613,2022-02-13T05:49:32Z,2024-10-08T14:09:17Z,MasterofAstro,invalid,0
