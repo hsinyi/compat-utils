@@ -1,12 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5672086267,false,"Cloning into `<selectedcontent>` results in a non-conforming serialized document (empty content model, duplicate ids)",https://github.com/whatwg/html/issues/13022,2026-10-02T02:39:19Z,2026-10-02T02:41:40Z,andersk,,0
+5672086267,false,"Cloning into `<selectedcontent>` results in a non-conforming serialized document (empty content model, duplicate ids)",https://github.com/whatwg/html/issues/13022,2026-10-02T02:39:19Z,2026-10-02T15:17:23Z,andersk,document conformance|topic: parser|topic: select,0
 5669011396,false,Upcoming WHATNOT meeting on 2026-10-08,https://github.com/whatwg/html/issues/13020,2026-10-01T20:54:06Z,2026-10-01T20:54:06Z,jstenback,agenda+,0
 5667988284,false,setTimeout() on a non-fully-active Window,https://github.com/whatwg/html/issues/13019,2026-10-01T19:32:57Z,2026-10-02T01:44:10Z,zcorpan,topic: timing,0
 5667974784,false,Timer string handlers: CSP check is synchronous in implementations,https://github.com/whatwg/html/issues/13018,2026-10-01T19:31:56Z,2026-10-01T19:31:56Z,zcorpan,topic: timing,0
 5665541150,false,Meeting 52 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/13017,2026-10-01T16:26:33Z,2026-10-01T16:27:44Z,mfreed7,,0
 5662820922,false,Consistent handling of A->B->A navigation scenarios,https://github.com/whatwg/html/issues/13015,2026-10-01T13:19:52Z,2026-10-01T13:19:59Z,foolip,topic: navigation,0
-5662267898,false,Navigation API: NavigationPrecommitController redirect expects non-null ongoing API method tracker,https://github.com/whatwg/html/issues/13014,2026-10-01T12:38:47Z,2026-10-01T19:03:34Z,theIDinside,topic: navigation API,0
-5660449132,false,Sanitizer support for legacy full-document sinks,https://github.com/whatwg/html/issues/13013,2026-10-01T10:06:18Z,2026-10-02T01:28:38Z,noamr,addition/proposal|needs implementer interest|topic: sanitizer,0
+5662267898,true,Navigation API: NavigationPrecommitController redirect expects non-null ongoing API method tracker,https://github.com/whatwg/html/issues/13014,2026-10-01T12:38:47Z,2026-10-02T15:54:19Z,theIDinside,topic: navigation API,0
+5660449132,false,Sanitizer support for legacy full-document sinks,https://github.com/whatwg/html/issues/13013,2026-10-01T10:06:18Z,2026-10-02T07:11:47Z,noamr,addition/proposal|needs implementer interest|topic: sanitizer,0
 5655954255,false,"Is whitespace around type=""module"" stripped?",https://github.com/whatwg/html/issues/13012,2026-10-01T02:32:29Z,2026-10-01T02:32:29Z,karlcow,,0
 5654148016,false,Integrate `<install>` element (pending second implementer interest),https://github.com/whatwg/html/issues/13011,2026-09-30T23:02:26Z,2026-09-30T23:02:26Z,LiaHiscock,,1
 5643828813,false,Reflection of `<template for>` in mutation observers,https://github.com/whatwg/html/issues/13008,2026-09-30T08:53:43Z,2026-09-30T08:53:43Z,noamr,addition/proposal|topic: parser,0
@@ -105,7 +105,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5205227369,false,beforeunload event handling may hang,https://github.com/whatwg/html/issues/12802,2026-08-20T15:38:58Z,2026-08-20T15:41:49Z,smaug----,topic: navigation|topic: frames/navigables/browsing contexts,0
 5201012520,false,Location's href setter and beforeunload,https://github.com/whatwg/html/issues/12800,2026-08-20T07:47:14Z,2026-08-28T19:06:25Z,annevk,topic: navigation,1
 5195381865,false,`autofocus` can be flaky on a custom element that’s defined asynchronously,https://github.com/whatwg/html/issues/12799,2026-08-19T17:27:27Z,2026-08-19T17:27:27Z,marchbox,,0
-5194390508,false,MessagePort should probably fire `close` event from a task,https://github.com/whatwg/html/issues/12797,2026-08-19T15:34:36Z,2026-09-18T10:04:20Z,nicolo-ribaudo,topic: events,0
+5194390508,true,MessagePort should probably fire `close` event from a task,https://github.com/whatwg/html/issues/12797,2026-08-19T15:34:36Z,2026-10-02T10:52:19Z,nicolo-ribaudo,topic: events,0
 5193959579,false,Track element's resource loading algorithm doesn't match browsers,https://github.com/whatwg/html/issues/12796,2026-08-19T14:50:10Z,2026-10-01T03:46:54Z,jdm,topic: media,0
 5182836503,false,"Add keyboard modifiers to focused <input type=""number"">",https://github.com/whatwg/html/issues/12795,2026-08-18T14:19:52Z,2026-08-18T14:19:52Z,jsnkuhn,addition/proposal|needs implementer interest,0
 5172651373,false,Possible oversight in `HostLoadImportedModule`,https://github.com/whatwg/html/issues/12790,2026-08-17T14:05:10Z,2026-09-04T14:30:11Z,Gae24,topic: script,0
@@ -292,7 +292,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4226463791,false,Nesting requestClose() calls inside of cancel event can leave the dialog open.,https://github.com/whatwg/html/issues/12347,2026-04-08T17:41:16Z,2026-04-08T20:18:53Z,lukewarlow,topic: dialog|topic: close watchers,0
 4226015284,true,What should happen if you open an auto popover 'within' a hint popover?,https://github.com/whatwg/html/issues/12346,2026-04-08T16:21:51Z,2026-05-14T09:37:31Z,jakearchibald,topic: popover,1
 4221208607,false,Allow multiple elements with the same nearest ancestor `autofocus` scoping root element to have `autofocus`,https://github.com/whatwg/html/issues/12343,2026-04-07T23:47:16Z,2026-04-07T23:48:22Z,andyearnshaw,,0
-4220854226,false,Selectedcontent in select multiple,https://github.com/whatwg/html/issues/12342,2026-04-07T22:06:32Z,2026-09-30T20:09:41Z,josepharhar,addition/proposal|needs implementer interest|agenda+|topic: select,3
+4220854226,false,Selectedcontent in select multiple,https://github.com/whatwg/html/issues/12342,2026-04-07T22:06:32Z,2026-10-02T13:31:36Z,josepharhar,addition/proposal|needs implementer interest|agenda+|topic: select,3
 4220747361,true,Upcoming WHATNOT meeting on 2026-04-09,https://github.com/whatwg/html/issues/12341,2026-04-07T21:44:35Z,2026-04-14T16:39:18Z,cwilso,,0
 4218748041,false,eventsource should never discard event.data on HTTP,https://github.com/whatwg/html/issues/12340,2026-04-07T15:26:25Z,2026-04-07T15:27:25Z,jabcreations,,0
 4212993506,true,Unexpected behavior of `interestfor` with popover controls,https://github.com/whatwg/html/issues/12338,2026-04-06T17:13:18Z,2026-04-27T19:16:17Z,shanthambi,topic: popover|topic: button,0
@@ -946,7 +946,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2886564942,false,HTMLInputElement type=url “absolute URL string” constraint-validation-API requirements don’t match actual Gecko/Blink/WebKit implementation behavior,https://github.com/whatwg/html/issues/11083,2025-02-28T08:48:01Z,2026-08-05T07:26:27Z,sideshowbarker,compat|topic: forms,0
 2885617001,false,Navigation API: Spec does not accurately describe firing popstate event is intercepted and source is a fragment navigation,https://github.com/whatwg/html/issues/11082,2025-02-27T21:11:53Z,2026-08-24T09:01:32Z,atscott,topic: navigation|topic: navigation API,0
 2885557148,true,Upcoming WHATNOT meeting on 2025-03-06,https://github.com/whatwg/html/issues/11081,2025-02-27T20:36:28Z,2025-12-04T21:35:13Z,past,,0
-2885502205,false,Alternative text for short-form video,https://github.com/whatwg/html/issues/11080,2025-02-27T20:05:27Z,2025-11-08T02:12:32Z,tylersticka,addition/proposal|needs implementer interest|topic: media|accessibility|a11y-tracker,36
+2885502205,false,Alternative text for short-form video,https://github.com/whatwg/html/issues/11080,2025-02-27T20:05:27Z,2025-11-08T02:12:32Z,tylersticka,addition/proposal|needs implementer interest|topic: media|accessibility|a11y-tracker,37
 2884736071,false,Clarify why <input type=file> hides the real path,https://github.com/whatwg/html/issues/11079,2025-02-27T14:45:38Z,2025-09-11T10:52:28Z,JB-BISHELCO,clarification,3
 2882914326,false,Additional usage guidance for IDL attribute types (such as DOMString?),https://github.com/whatwg/html/issues/11078,2025-02-26T22:02:24Z,2025-03-23T17:00:10Z,rahimabdi,,1
 2881602648,true,Web Compatibility of Scoped Custom Element Registries,https://github.com/whatwg/html/issues/11076,2025-02-26T13:26:42Z,2025-10-31T09:06:48Z,annevk,,0
@@ -1452,7 +1452,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2188214401,false,Toggle/cycle buttons,https://github.com/whatwg/html/issues/10206,2024-03-15T10:39:26Z,2025-10-10T15:26:52Z,annevk,addition/proposal|topic: forms,5
 2187420666,true,Upcoming WHATNOT meeting on 3/21/2024,https://github.com/whatwg/html/issues/10205,2024-03-14T22:59:41Z,2024-03-20T21:04:47Z,past,agenda+,0
 2186521527,true,HostEnsureCanCompileStrings definition mismatch,https://github.com/whatwg/html/issues/10202,2024-03-14T14:26:46Z,2024-07-26T13:30:54Z,lukewarlow,,0
-2185450782,false,Restrict when MessagePort's onclose event can fire,https://github.com/whatwg/html/issues/10201,2024-03-14T05:15:57Z,2024-05-21T06:47:03Z,fergald,security/privacy|topic: serialize and transfer,0
+2185450782,true,Restrict when MessagePort's onclose event can fire,https://github.com/whatwg/html/issues/10201,2024-03-14T05:15:57Z,2026-10-02T10:52:19Z,fergald,security/privacy|topic: serialize and transfer,0
 2184800834,true,Upcoming WHATNOT meeting on 3/14/2024,https://github.com/whatwg/html/issues/10200,2024-03-13T20:07:23Z,2024-03-15T00:10:25Z,past,agenda+,0
 2182784571,true,Limit NavigationActivation on pageswap to same-origin navigations with no cross-origin redirects,https://github.com/whatwg/html/issues/10196,2024-03-12T22:19:10Z,2024-03-27T02:28:14Z,khushalsagar,topic: navigation,0
 2180571389,false,"Browsers synchronously fire `pagehide` & `unload`, while the standard doesn't",https://github.com/whatwg/html/issues/10194,2024-03-12T02:01:11Z,2024-03-15T11:24:53Z,domfarolino,removal/deprecation,0
