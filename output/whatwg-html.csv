@@ -1,16 +1,20 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5672086267,false,"Cloning into `<selectedcontent>` results in a non-conforming serialized document (empty content model, duplicate ids)",https://github.com/whatwg/html/issues/13022,2026-10-02T02:39:19Z,2026-10-02T02:41:40Z,andersk,,0
+5669011396,false,Upcoming WHATNOT meeting on 2026-10-08,https://github.com/whatwg/html/issues/13020,2026-10-01T20:54:06Z,2026-10-01T20:54:06Z,jstenback,agenda+,0
+5667988284,false,setTimeout() on a non-fully-active Window,https://github.com/whatwg/html/issues/13019,2026-10-01T19:32:57Z,2026-10-02T01:44:10Z,zcorpan,topic: timing,0
+5667974784,false,Timer string handlers: CSP check is synchronous in implementations,https://github.com/whatwg/html/issues/13018,2026-10-01T19:31:56Z,2026-10-01T19:31:56Z,zcorpan,topic: timing,0
 5665541150,false,Meeting 52 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/13017,2026-10-01T16:26:33Z,2026-10-01T16:27:44Z,mfreed7,,0
 5662820922,false,Consistent handling of A->B->A navigation scenarios,https://github.com/whatwg/html/issues/13015,2026-10-01T13:19:52Z,2026-10-01T13:19:59Z,foolip,topic: navigation,0
-5662267898,false,Navigation API: NavigationPrecommitController redirect expects non-null ongoing API method tracker,https://github.com/whatwg/html/issues/13014,2026-10-01T12:38:47Z,2026-10-01T15:19:48Z,theIDinside,topic: navigation API,0
-5660449132,false,Sanitizer support for legacy full-document sinks,https://github.com/whatwg/html/issues/13013,2026-10-01T10:06:18Z,2026-10-01T10:06:18Z,noamr,addition/proposal|needs implementer interest|topic: sanitizer,0
+5662267898,false,Navigation API: NavigationPrecommitController redirect expects non-null ongoing API method tracker,https://github.com/whatwg/html/issues/13014,2026-10-01T12:38:47Z,2026-10-01T19:03:34Z,theIDinside,topic: navigation API,0
+5660449132,false,Sanitizer support for legacy full-document sinks,https://github.com/whatwg/html/issues/13013,2026-10-01T10:06:18Z,2026-10-02T01:28:38Z,noamr,addition/proposal|needs implementer interest|topic: sanitizer,0
 5655954255,false,"Is whitespace around type=""module"" stripped?",https://github.com/whatwg/html/issues/13012,2026-10-01T02:32:29Z,2026-10-01T02:32:29Z,karlcow,,0
 5654148016,false,Integrate `<install>` element (pending second implementer interest),https://github.com/whatwg/html/issues/13011,2026-09-30T23:02:26Z,2026-09-30T23:02:26Z,LiaHiscock,,1
 5643828813,false,Reflection of `<template for>` in mutation observers,https://github.com/whatwg/html/issues/13008,2026-09-30T08:53:43Z,2026-09-30T08:53:43Z,noamr,addition/proposal|topic: parser,0
 5628036306,false,History traversal and reload: which initiator does the request carry? (follow-up to #4446),https://github.com/whatwg/html/issues/13003,2026-09-29T09:05:03Z,2026-09-30T07:46:24Z,sideshowbarker,compat|topic: navigation,0
-5610790773,false,Per-list-item `::marker` box sizing/alignment + wrapped list item indentation controls,https://github.com/whatwg/html/issues/13000,2026-09-28T07:14:54Z,2026-09-30T07:46:46Z,commiterate,addition/proposal|needs implementer interest,0
+5610790773,false,Per-list-item `::marker` box sizing/alignment + wrapped list item indentation controls,https://github.com/whatwg/html/issues/13000,2026-09-28T07:14:54Z,2026-10-02T00:52:13Z,commiterate,addition/proposal|needs implementer interest,0
 5594976898,false,Select base appearance needs improvements,https://github.com/whatwg/html/issues/12996,2026-09-26T15:08:00Z,2026-09-30T07:55:17Z,annevk,topic: rendering|topic: select,0
 5583918809,false,"""rules for updating the text track rendering"" is incompatible with WebVTT implementation",https://github.com/whatwg/html/issues/12994,2026-09-25T14:05:38Z,2026-09-30T07:48:02Z,TimvdLippe,,0
-5574650092,false,Upcoming WHATNOT meeting on 2026-10-01,https://github.com/whatwg/html/issues/12988,2026-09-24T21:14:35Z,2026-09-30T18:32:41Z,jstenback,agenda+,0
+5574650092,true,Upcoming WHATNOT meeting on 2026-10-01,https://github.com/whatwg/html/issues/12988,2026-09-24T21:14:35Z,2026-10-01T20:53:09Z,jstenback,agenda+,0
 5564354868,false,Duplicate MDN annotations and malformed MDN URLs for “Serializable objects”,https://github.com/whatwg/html/issues/12987,2026-09-24T06:49:57Z,2026-09-24T14:08:53Z,JinDX,impacts documentation,0
 5559805314,false,Media elements fire `error` event on `source` even if it has been removed/moved,https://github.com/whatwg/html/issues/12986,2026-09-23T21:34:00Z,2026-09-30T07:54:30Z,zcorpan,topic: media,0
 5556684180,false,"Should setting designMode = ""on"" clear the focused element even if it's in a shadow root?",https://github.com/whatwg/html/issues/12985,2026-09-23T16:58:36Z,2026-09-30T07:54:18Z,ltenmoz,topic: shadow,0
@@ -464,7 +468,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3729869423,false,Active match timing (until-found and <details>),https://github.com/whatwg/html/issues/12019,2025-12-15T10:52:24Z,2025-12-15T13:41:44Z,jakearchibald,interop,0
 3726067147,true,Order of lifecycleCallbacks in customeelementregistry.define doesn't match implementations,https://github.com/whatwg/html/issues/12016,2025-12-13T15:08:33Z,2026-03-31T16:01:01Z,lukewarlow,topic: custom elements,0
 3724735309,true,Upcoming WHATNOT meeting on 2025-12-18,https://github.com/whatwg/html/issues/12015,2025-12-12T20:24:24Z,2025-12-18T21:23:21Z,cwilso,,0
-3723621042,false,Event handler IDL attribute setter works in browsers without an active document,https://github.com/whatwg/html/issues/12014,2025-12-12T14:28:00Z,2026-09-30T15:15:28Z,zcorpan,topic: events,0
+3723621042,true,Event handler IDL attribute setter works in browsers without an active document,https://github.com/whatwg/html/issues/12014,2025-12-12T14:28:00Z,2026-10-02T01:08:04Z,zcorpan,topic: events,0
 3720227072,true,Meeting 33 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12012,2025-12-11T17:05:34Z,2026-09-17T16:30:53Z,mfreed7,task-force-agenda,0
 3719772218,true,"`createContextualFragment`: implementations preload images, spec doesn't.",https://github.com/whatwg/html/issues/12010,2025-12-11T15:02:01Z,2026-01-08T15:20:06Z,noamr,topic: parser|needs compat analysis,0
 3719140084,false,Proposal: Unified Low-Resource Execution Path for Chromium (Comparison Insight from WebKit Behavior),https://github.com/whatwg/html/issues/12009,2025-12-11T12:12:56Z,2025-12-11T12:12:56Z,Erfan-Mohebali,,0
@@ -728,7 +732,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3260411291,true,Meeting 26 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11483,2025-07-24T16:00:41Z,2026-09-17T17:51:32Z,mfreed7,task-force-agenda,0
 3255853568,false,Input type monetary,https://github.com/whatwg/html/issues/11480,2025-07-23T10:42:41Z,2025-09-06T03:00:41Z,PlaySafe,addition/proposal|needs implementer interest|topic: forms,0
 3255670043,false,Content-Type on multipart/form-data part without setting filename,https://github.com/whatwg/html/issues/11479,2025-07-23T09:41:01Z,2025-07-25T07:58:40Z,faerytea,addition/proposal|needs implementer interest,0
-3250174379,false,OpaqueRange Interface,https://github.com/whatwg/html/issues/11478,2025-07-21T22:11:15Z,2026-09-24T17:04:58Z,t-andresre,addition/proposal|stage: 2,5
+3250174379,false,OpaqueRange Interface,https://github.com/whatwg/html/issues/11478,2025-07-21T22:11:15Z,2026-10-01T20:55:13Z,t-andresre,addition/proposal|agenda+|stage: 2,5
 3249337860,true,Base appearance for list box select elements,https://github.com/whatwg/html/issues/11477,2025-07-21T16:42:21Z,2025-12-15T21:24:56Z,josepharhar,topic: select,0
 3249191419,true,Meeting 25 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11476,2025-07-21T15:55:43Z,2026-09-17T17:51:31Z,mfreed7,task-force-agenda,0
 3245553588,false,`Link` header parsing too lenient according to RFC 8288,https://github.com/whatwg/html/issues/11468,2025-07-19T18:48:32Z,2026-05-19T06:28:13Z,TimvdLippe,integration,0
@@ -1043,7 +1047,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2765141727,true,Wrong link on `:target` css pseudo-class,https://github.com/whatwg/html/issues/10889,2025-01-01T16:00:37Z,2025-01-06T16:24:06Z,skyclouds2001,,0
 2762041321,false,ARIA and Accessibility API in HTML specification,https://github.com/whatwg/html/issues/10885,2024-12-28T23:45:58Z,2024-12-28T23:45:58Z,dSalieri,,0
 2760982461,false,Canvas text direction getter not interoperable,https://github.com/whatwg/html/issues/10884,2024-12-27T15:01:10Z,2025-02-01T16:50:38Z,schenney-chromium,topic: canvas,1
-2754605091,false,valueAsTemporal: date/time input integration with JavaScript Temporal API,https://github.com/whatwg/html/issues/10882,2024-12-22T11:10:04Z,2025-01-16T19:17:03Z,o-t-w,addition/proposal|needs implementer interest|topic: forms,15
+2754605091,false,valueAsTemporal: date/time input integration with JavaScript Temporal API,https://github.com/whatwg/html/issues/10882,2024-12-22T11:10:04Z,2025-01-16T19:17:03Z,o-t-w,addition/proposal|needs implementer interest|topic: forms,16
 2752376493,false,Audit and fix innerHTML scripting disabled parsing behavior for template,https://github.com/whatwg/html/issues/10879,2024-12-20T09:59:00Z,2026-08-13T09:00:09Z,hsivonen,topic: parser|interop,0
 2751257695,true,Upcoming WHATNOT meeting on 2025-01-09,https://github.com/whatwg/html/issues/10878,2024-12-19T19:32:37Z,2025-12-04T21:36:37Z,past,,0
 2751142397,true,Meeting 14 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10877,2024-12-19T18:21:56Z,2026-09-17T17:51:27Z,josepharhar,task-force-agenda,0
@@ -4305,7 +4309,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 307205459,true,Participation status checks not green on master,https://github.com/whatwg/html/issues/3582,2018-03-21T11:22:15Z,2018-04-26T19:14:37Z,annevk,spec tooling,0
 307189256,false,Editorial: (re)adopt ECMAScript conventions,https://github.com/whatwg/html/issues/3581,2018-03-21T10:29:42Z,2018-03-21T10:29:42Z,annevk,clarification,1
 307057087,true,window.customElements.define retrieves the lifetime callbacks in an odd order,https://github.com/whatwg/html/issues/3580,2018-03-20T22:10:12Z,2026-03-31T15:28:33Z,mrbkap,normative change|topic: custom elements,0
-306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2026-04-13T17:41:36Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,275
+306240809,false,"HTML forms do not support the PUT, PATCH and DELETE methods",https://github.com/whatwg/html/issues/3577,2018-03-18T13:34:09Z,2026-04-13T17:41:36Z,ericandrewlewis,addition/proposal|needs implementer interest|topic: forms,277
 306030693,false,<embed> and <object> should define cleanup steps,https://github.com/whatwg/html/issues/3576,2018-03-16T18:20:24Z,2018-04-04T14:24:31Z,zetafunction,topic: embed and object,0
 305999314,false,"What is the point of the ""NewTarget is equal to the active function object"" in [HTMLConstructor]?",https://github.com/whatwg/html/issues/3575,2018-03-16T16:43:28Z,2018-05-02T20:42:55Z,bzbarsky,topic: custom elements,0
 305857600,false,Is there a meaningful distinction between having a text entry cursor position and an empty selection?,https://github.com/whatwg/html/issues/3574,2018-03-16T09:33:24Z,2018-03-19T03:33:17Z,domenic,topic: forms,0

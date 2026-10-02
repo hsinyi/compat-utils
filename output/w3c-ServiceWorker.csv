@@ -267,7 +267,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 427313545,true,Browsers should not consume the stream right away on ReadableStream responses with 'Content-Disposition: attachment' header.,https://github.com/w3c/ServiceWorker/issues/1398,2019-03-30T18:33:08Z,2019-04-18T05:17:17Z,Khivar,,0
 426624529,true,provide a way to execute work after browser has consumed a response,https://github.com/w3c/ServiceWorker/issues/1397,2019-03-28T17:39:55Z,2020-07-07T14:11:06Z,wanderview,,1
 425657449,false,spec should document Cache API HEIST mitigations,https://github.com/w3c/ServiceWorker/issues/1396,2019-03-26T21:28:30Z,2026-07-17T00:07:27Z,wanderview,,0
-422556588,false,Is respondWith(fetch(event.request)) always the same as not calling respondWith()?,https://github.com/w3c/ServiceWorker/issues/1395,2019-03-19T05:57:11Z,2026-07-17T00:18:36Z,mfalken,,1
+422556588,true,Is respondWith(fetch(event.request)) always the same as not calling respondWith()?,https://github.com/w3c/ServiceWorker/issues/1395,2019-03-19T05:57:11Z,2026-10-02T00:14:48Z,mfalken,,1
 421081496,true,Can respondWith() be called from a microtask?,https://github.com/w3c/ServiceWorker/issues/1394,2019-03-14T15:18:46Z,2019-03-15T03:53:47Z,mfalken,,0
 418656590,true,Add WPT for an in-scope iframe inside a data URL iframe.,https://github.com/w3c/ServiceWorker/issues/1393,2019-03-08T06:52:04Z,2026-07-16T23:50:39Z,mfalken,,0
 414721660,true,Fully inline (.js + json manifest) service worker,https://github.com/w3c/ServiceWorker/issues/1392,2019-02-26T17:09:22Z,2026-07-16T23:57:06Z,hatgit,,1
@@ -420,7 +420,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 257542083,true,Proposal: Allow addEventListener/removeEventListener for 'fetch' to called at anytime,https://github.com/w3c/ServiceWorker/issues/1195,2017-09-13T22:36:31Z,2018-10-26T21:20:17Z,bgirard,,0
 257254657,false," fetch-frame-resource.https.html has a long timeout to detect page load failed",https://github.com/w3c/ServiceWorker/issues/1194,2017-09-13T04:30:51Z,2026-01-28T03:37:22Z,mfalken,,0
 257076853,true,messageerror event should use  ExtendableMessageEvent,https://github.com/w3c/ServiceWorker/issues/1193,2017-09-12T15:02:39Z,2026-01-26T17:03:14Z,bakulf,,0
-254029895,false,What happens to the request body if the fetch isn't handled?,https://github.com/w3c/ServiceWorker/issues/1191,2017-08-30T14:56:02Z,2026-07-23T23:41:56Z,jakearchibald,,0
+254029895,false,What happens to the request body if the fetch isn't handled?,https://github.com/w3c/ServiceWorker/issues/1191,2017-08-30T14:56:02Z,2026-10-02T00:22:35Z,jakearchibald,,0
 251556888,true,Does changing updateViaCache mint a new ServiceWorkerRegistration or update them all?,https://github.com/w3c/ServiceWorker/issues/1189,2017-08-21T05:59:20Z,2019-06-03T08:26:00Z,mfalken,decided,0
 250914006,true,Remove foreign fetch,https://github.com/w3c/ServiceWorker/issues/1188,2017-08-17T11:34:54Z,2022-07-22T05:05:31Z,jakearchibald,,62
 250860504,false,skipWaiting() promise should resolve after promotion to .active,https://github.com/w3c/ServiceWorker/issues/1187,2017-08-17T08:02:20Z,2026-05-29T00:13:09Z,mfalken,,0
@@ -545,7 +545,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 193004993,true,clientId on ForeignFetchEvents,https://github.com/w3c/ServiceWorker/issues/1017,2016-12-02T00:53:26Z,2017-11-03T16:40:08Z,jridgewell,,1
 192220196,false,serviceworker.skipWaiting,https://github.com/w3c/ServiceWorker/issues/1016,2016-11-29T08:43:36Z,2026-06-19T00:10:02Z,jakearchibald,apr-2017-f2f,16
 191852543,true,The promises returned by skipWaiting() should have more consistent activation-waiting behavior and not call Activate() multiple times,https://github.com/w3c/ServiceWorker/issues/1015,2016-11-27T09:48:59Z,2017-01-18T06:32:07Z,asutherland,,0
-191442959,false,Sort out settings object for service worker module scripts,https://github.com/w3c/ServiceWorker/issues/1013,2016-11-24T06:30:58Z,2026-08-13T23:47:59Z,jungkees,spec detail|apr-2017-f2f-v1,0
+191442959,false,Sort out settings object for service worker module scripts,https://github.com/w3c/ServiceWorker/issues/1013,2016-11-24T06:30:58Z,2026-10-02T00:23:49Z,jungkees,spec detail|apr-2017-f2f-v1,0
 191061623,true,.ready promise should be resolved after updating registration.state properties,https://github.com/w3c/ServiceWorker/issues/1011,2016-11-22T16:50:19Z,2018-04-03T10:52:26Z,catalinb,apr-2017-f2f-v1,0
 190723263,true,Meta: move the specification to the top-level directory,https://github.com/w3c/ServiceWorker/issues/1009,2016-11-21T13:55:13Z,2025-10-09T21:32:44Z,annevk,,0
 190517377,true,Edge case for use of client.frameType,https://github.com/w3c/ServiceWorker/issues/1007,2016-11-19T20:09:06Z,2016-11-22T05:44:09Z,jrd261,,0
