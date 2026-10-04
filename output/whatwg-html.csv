@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5697283114,false,Parser follow-ups for processing instructions and `<template for>`,https://github.com/whatwg/html/issues/13036,2026-10-04T07:41:19Z,2026-10-04T07:42:02Z,annevk,topic: parser,0
 5695209691,false,"“advisory information” algorithm stops at a shadow root, but all engines walk the flat tree",https://github.com/whatwg/html/issues/13035,2026-10-04T01:24:15Z,2026-10-04T01:24:15Z,sideshowbarker,compat|topic: shadow,0
 5688252309,false,"Autofill field name is ""webauthn"" when autocomplete ends in ""webauthn""",https://github.com/whatwg/html/issues/13028,2026-10-03T09:14:14Z,2026-10-03T09:15:44Z,annevk,topic: forms,0
 5686620462,false,Specify closing the select picker when it can no longer be shown,https://github.com/whatwg/html/issues/13027,2026-10-03T04:44:55Z,2026-10-03T19:18:41Z,annevk,topic: select,0
@@ -12,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5662267898,true,Navigation API: NavigationPrecommitController redirect expects non-null ongoing API method tracker,https://github.com/whatwg/html/issues/13014,2026-10-01T12:38:47Z,2026-10-02T15:54:19Z,theIDinside,topic: navigation API,0
 5660449132,false,Sanitizer support for legacy full-document sinks,https://github.com/whatwg/html/issues/13013,2026-10-01T10:06:18Z,2026-10-02T07:11:47Z,noamr,addition/proposal|needs implementer interest|topic: sanitizer,0
 5655954255,false,"Is whitespace around type=""module"" stripped?",https://github.com/whatwg/html/issues/13012,2026-10-01T02:32:29Z,2026-10-01T02:32:29Z,karlcow,,0
-5654148016,false,Integrate `<install>` element (pending second implementer interest),https://github.com/whatwg/html/issues/13011,2026-09-30T23:02:26Z,2026-09-30T23:02:26Z,LiaHiscock,,1
+5654148016,false,Integrate `<install>` element (pending second implementer interest),https://github.com/whatwg/html/issues/13011,2026-09-30T23:02:26Z,2026-09-30T23:02:26Z,LiaHiscock,,2
 5643828813,false,Reflection of `<template for>` in mutation observers,https://github.com/whatwg/html/issues/13008,2026-09-30T08:53:43Z,2026-09-30T08:53:43Z,noamr,addition/proposal|topic: parser,0
 5628036306,false,History traversal and reload: which initiator does the request carry? (follow-up to #4446),https://github.com/whatwg/html/issues/13003,2026-09-29T09:05:03Z,2026-09-30T07:46:24Z,sideshowbarker,compat|topic: navigation,0
 5610790773,false,Per-list-item `::marker` box sizing/alignment + wrapped list item indentation controls,https://github.com/whatwg/html/issues/13000,2026-09-28T07:14:54Z,2026-10-02T00:52:13Z,commiterate,addition/proposal|needs implementer interest,0
@@ -499,7 +500,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3670359685,true,Upcoming WHATNOT meeting on 2025-11-27,https://github.com/whatwg/html/issues/11964,2025-11-27T08:23:34Z,2025-12-04T21:35:26Z,foolip,,0
 3668562101,true,Selectedcontent post-connection steps define unused “ancestor” variable,https://github.com/whatwg/html/issues/11963,2025-11-26T18:09:14Z,2026-01-16T08:51:54Z,F3n67u,topic: select,0
 3664779454,true,"Timing of ""is currently stalled"" vs progress and stalled events",https://github.com/whatwg/html/issues/11958,2025-11-25T22:14:23Z,2026-01-13T14:36:48Z,foolip,,0
-3663815245,true,Navigation API: allow registering regular handler from within a precommit handler,https://github.com/whatwg/html/issues/11956,2025-11-25T16:43:40Z,2026-09-29T19:07:22Z,noamr,addition/proposal|needs implementer interest,2
+3663815245,true,Navigation API: allow registering regular handler from within a precommit handler,https://github.com/whatwg/html/issues/11956,2025-11-25T16:43:40Z,2026-10-04T05:38:47Z,noamr,addition/proposal|needs implementer interest,2
 3663632665,true,"""appropriate template contents owner document"" needs to set ""allow declarative shadow roots""",https://github.com/whatwg/html/issues/11955,2025-11-25T15:51:37Z,2026-07-09T16:02:30Z,AtkinsSJ,topic: parser,0
 3662730909,true,Questions about HTMLTemplateElement.content getter,https://github.com/whatwg/html/issues/11953,2025-11-25T11:45:42Z,2025-11-25T21:01:55Z,AtkinsSJ,,0
 3659691212,true,"""Appropriate place for inserting a node"" refers to elements, but may include DocumentFragments",https://github.com/whatwg/html/issues/11951,2025-11-24T16:43:57Z,2026-09-06T11:31:28Z,AtkinsSJ,topic: shadow|topic: parser,1
@@ -3813,7 +3814,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 430465464,true,The document open steps should set document's CSP to entryDocument's CSP,https://github.com/whatwg/html/issues/4510,2019-04-08T13:54:28Z,2023-09-05T11:50:54Z,andypaicu,integration|topic: document.open(),0
 430200265,true,Default rendering of <svg> depending on viewBox attribute presence,https://github.com/whatwg/html/issues/4509,2019-04-07T22:31:57Z,2019-04-18T13:45:45Z,SelenIT,,0
 430199958,false,Reinstate <style scoped>,https://github.com/whatwg/html/issues/4508,2019-04-07T22:28:11Z,2024-02-24T09:35:49Z,wolfbeast,addition/proposal|needs implementer interest|topic: style,24
-429831279,false,"Update all ""queue a task"" invocations to explicitly specify their task source",https://github.com/whatwg/html/issues/4506,2019-04-05T16:09:19Z,2026-09-29T17:33:17Z,domenic,clarification|good first issue|topic: event loop,1
+429831279,false,"Update all ""queue a task"" invocations to explicitly specify their task source",https://github.com/whatwg/html/issues/4506,2019-04-05T16:09:19Z,2026-10-04T05:39:24Z,domenic,clarification|good first issue|topic: event loop,1
 429262835,false,Define <meta name=supported-color-schemes>,https://github.com/whatwg/html/issues/4504,2019-04-04T12:54:56Z,2021-11-03T00:06:38Z,lilles,addition/proposal|topic: style|impacts documentation,3
 428972778,false,select element sizing should ignore optgroup labels,https://github.com/whatwg/html/issues/4502,2019-04-03T21:00:19Z,2022-08-11T20:29:46Z,heycam,compat|topic: rendering|topic: forms,0
 428861631,true,"""8.1.3.13 HostEnsureCanCompileStrings"" affected by tc39/ecma262 PR #1498",https://github.com/whatwg/html/issues/4501,2019-04-03T16:25:26Z,2024-03-14T14:57:21Z,mikesamuel,addition/proposal|security/privacy|integration,0
