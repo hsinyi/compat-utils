@@ -1,8 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5665177408,false,Do we want to allow a subscription from window.pushManager to fire push event at all?,https://github.com/w3c/push-api/issues/423,2026-10-01T16:00:10Z,2026-10-01T20:11:50Z,saschanaz,,0
-5664189882,false,No way to retreive DWP notification without registering a service worker,https://github.com/w3c/push-api/issues/422,2026-10-01T14:52:59Z,2026-10-01T14:52:59Z,saschanaz,,0
+5711382600,false,Link to the relevant section of the spec in generating ECDH key pair,https://github.com/w3c/push-api/issues/426,2026-10-05T11:43:46Z,2026-10-05T11:43:46Z,saschanaz,,0
+5711359789,false,Define types for P-256 ECDH key pair and authentication secret,https://github.com/w3c/push-api/issues/425,2026-10-05T11:42:02Z,2026-10-05T11:42:42Z,saschanaz,,0
+5665177408,false,Do we want to allow a subscription from window.pushManager to fire push event for non-DWP messages?,https://github.com/w3c/push-api/issues/423,2026-10-01T16:00:10Z,2026-10-05T12:40:26Z,saschanaz,,0
+5664189882,false,No way to retreive DWP notification without registering a service worker,https://github.com/w3c/push-api/issues/422,2026-10-01T14:52:59Z,2026-10-05T11:32:15Z,saschanaz,,0
 5523618239,false,Post-quantum readiness,https://github.com/w3c/push-api/issues/420,2026-09-21T06:36:41Z,2026-09-21T06:36:41Z,martinthomson,,0
-5402513060,false,Notification images shouldn't be fetched through service worker for declarative push,https://github.com/w3c/push-api/issues/419,2026-09-09T17:10:42Z,2026-09-28T07:43:29Z,ltenmoz,,1
+5402513060,true,Notification images shouldn't be fetched through service worker for declarative push,https://github.com/w3c/push-api/issues/419,2026-09-09T17:10:42Z,2026-10-05T16:41:24Z,ltenmoz,,1
 5138343141,false,TPAC 2026 Status Report,https://github.com/w3c/push-api/issues/418,2026-08-13T06:05:54Z,2026-09-28T12:23:14Z,LJWatson,TPAC2026,0
 3681601279,false,Drop permissionState()'s argument?,https://github.com/w3c/push-api/issues/417,2025-12-01T15:39:55Z,2025-12-01T17:08:41Z,annevk,,0
 3401536171,true,The security consideration section still requires service worker unregistration to unsubscribe push,https://github.com/w3c/push-api/issues/409,2025-09-10T08:45:25Z,2025-09-10T12:16:43Z,saschanaz,,0
@@ -14,7 +16,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2958725597,false,Add a way to cancel previous push notification,https://github.com/w3c/push-api/issues/399,2025-03-30T07:51:28Z,2025-03-31T01:29:26Z,saschanaz,,0
 2814507514,true,Http new,https://github.com/w3c/push-api/issues/398,2025-01-28T02:54:09Z,2025-01-28T07:23:41Z,samsulkj1,invalid,0
 2795825172,false,`SecureContext` attribute is redundant for interfaces with `Exposed=ServiceWorker`,https://github.com/w3c/push-api/issues/397,2025-01-17T16:11:52Z,2025-01-20T08:36:34Z,saschanaz,,0
-2795334974,false,Add dictionary for the type of `PushSubscriptionJSON.keys`?,https://github.com/w3c/push-api/issues/396,2025-01-17T12:10:31Z,2025-01-17T12:10:31Z,saschanaz,,0
+2795334974,true,Add dictionary for the type of `PushSubscriptionJSON.keys`?,https://github.com/w3c/push-api/issues/396,2025-01-17T12:10:31Z,2026-10-05T11:40:12Z,saschanaz,,0
 2652344762,false,"""a service worker registration has at most one push subscription"" seems wrong",https://github.com/w3c/push-api/issues/392,2024-11-12T14:26:07Z,2024-11-12T14:30:55Z,annevk,,0
 2533512617,true,Declarative Web Push: mutable field,https://github.com/w3c/push-api/issues/391,2024-09-18T11:47:17Z,2025-08-06T14:29:56Z,annevk,,0
 2491928099,true,Normative references to discontinued specs in Push API,https://github.com/w3c/push-api/issues/390,2024-08-28T12:21:02Z,2025-11-25T16:56:01Z,dontcallmedom-bot,,0
