@@ -1,7 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 5729545263,false,Consider updating the WebDriver endpoint for the `Consume User Activation of Window` command,https://github.com/whatwg/html/issues/13042,2026-10-06T13:50:03Z,2026-10-06T15:01:26Z,whimboo,,0
 5723017870,false,“navigate to a fragment” on an initial about:blank with a null latest entry fails “Assert: entriesForNavigationAPI is given.”,https://github.com/whatwg/html/issues/13041,2026-10-06T04:37:13Z,2026-10-06T04:37:13Z,sideshowbarker,compat|topic: navigation,0
-5705871600,false,Cloning an option that contains a selected option into `<selectedcontent>` loops forever,https://github.com/whatwg/html/issues/13038,2026-10-05T03:12:35Z,2026-10-05T03:12:35Z,meziantou,,0
+5705871600,false,Cloning an option that contains a selected option into `<selectedcontent>` loops forever,https://github.com/whatwg/html/issues/13038,2026-10-05T03:12:35Z,2026-10-07T12:11:10Z,meziantou,topic: select,0
 5697283114,false,Parser follow-ups for processing instructions and `<template for>`,https://github.com/whatwg/html/issues/13036,2026-10-04T07:41:19Z,2026-10-06T15:27:33Z,annevk,topic: parser,0
 5695209691,false,"“advisory information” algorithm stops at a shadow root, but all engines walk the flat tree",https://github.com/whatwg/html/issues/13035,2026-10-04T01:24:15Z,2026-10-04T01:24:15Z,sideshowbarker,compat|topic: shadow,0
 5688252309,false,"Autofill field name is ""webauthn"" when autocomplete ends in ""webauthn""",https://github.com/whatwg/html/issues/13028,2026-10-03T09:14:14Z,2026-10-03T09:15:44Z,annevk,topic: forms,0
@@ -24,7 +24,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5583918809,false,"""rules for updating the text track rendering"" is incompatible with WebVTT implementation",https://github.com/whatwg/html/issues/12994,2026-09-25T14:05:38Z,2026-09-30T07:48:02Z,TimvdLippe,,0
 5574650092,true,Upcoming WHATNOT meeting on 2026-10-01,https://github.com/whatwg/html/issues/12988,2026-09-24T21:14:35Z,2026-10-01T20:53:09Z,jstenback,agenda+,0
 5564354868,false,Duplicate MDN annotations and malformed MDN URLs for “Serializable objects”,https://github.com/whatwg/html/issues/12987,2026-09-24T06:49:57Z,2026-09-24T14:08:53Z,JinDX,impacts documentation,0
-5559805314,false,Media elements fire `error` event on `source` even if it has been removed/moved,https://github.com/whatwg/html/issues/12986,2026-09-23T21:34:00Z,2026-09-30T07:54:30Z,zcorpan,topic: media,0
+5559805314,false,Media elements fire `error` event on `source` even if it has been removed/moved,https://github.com/whatwg/html/issues/12986,2026-09-23T21:34:00Z,2026-10-07T08:45:15Z,zcorpan,topic: media,0
 5556684180,false,"Should setting designMode = ""on"" clear the focused element even if it's in a shadow root?",https://github.com/whatwg/html/issues/12985,2026-09-23T16:58:36Z,2026-09-30T07:54:18Z,ltenmoz,topic: shadow,0
 5550066625,true,`optgroup` only uses a child `legend` if it's the first child,https://github.com/whatwg/html/issues/12982,2026-09-23T07:13:13Z,2026-09-30T18:38:11Z,zcorpan,topic: select,0
 5539824800,true,Typo in HTML version of standard for: 13.2.5.84 Numeric character reference end state,https://github.com/whatwg/html/issues/12979,2026-09-22T12:51:48Z,2026-09-22T19:25:33Z,matty-hall,topic: parser|editorial,0
@@ -300,7 +300,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4226463791,false,Nesting requestClose() calls inside of cancel event can leave the dialog open.,https://github.com/whatwg/html/issues/12347,2026-04-08T17:41:16Z,2026-04-08T20:18:53Z,lukewarlow,topic: dialog|topic: close watchers,0
 4226015284,true,What should happen if you open an auto popover 'within' a hint popover?,https://github.com/whatwg/html/issues/12346,2026-04-08T16:21:51Z,2026-05-14T09:37:31Z,jakearchibald,topic: popover,1
 4221208607,false,Allow multiple elements with the same nearest ancestor `autofocus` scoping root element to have `autofocus`,https://github.com/whatwg/html/issues/12343,2026-04-07T23:47:16Z,2026-04-07T23:48:22Z,andyearnshaw,,0
-4220854226,false,Selectedcontent in select multiple,https://github.com/whatwg/html/issues/12342,2026-04-07T22:06:32Z,2026-10-06T20:00:45Z,josepharhar,addition/proposal|needs implementer interest|agenda+|topic: select,3
+4220854226,false,Selectedcontent in select multiple,https://github.com/whatwg/html/issues/12342,2026-04-07T22:06:32Z,2026-10-07T15:44:18Z,josepharhar,addition/proposal|needs implementer interest|agenda+|topic: select,3
 4220747361,true,Upcoming WHATNOT meeting on 2026-04-09,https://github.com/whatwg/html/issues/12341,2026-04-07T21:44:35Z,2026-04-14T16:39:18Z,cwilso,,0
 4218748041,false,eventsource should never discard event.data on HTTP,https://github.com/whatwg/html/issues/12340,2026-04-07T15:26:25Z,2026-04-07T15:27:25Z,jabcreations,,0
 4212993506,true,Unexpected behavior of `interestfor` with popover controls,https://github.com/whatwg/html/issues/12338,2026-04-06T17:13:18Z,2026-04-27T19:16:17Z,shanthambi,topic: popover|topic: button,0
@@ -358,7 +358,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4063027387,false,OffscreenCanvas.convertToBlob no-rendering context scenario unspecified,https://github.com/whatwg/html/issues/12253,2026-03-12T08:28:30Z,2026-03-12T10:02:49Z,kkinnunen-apple,topic: canvas|needs tests|interop,0
 4063017346,false,OffscreenCanvas.transferToImageBitmap context loss behavior is unspecified,https://github.com/whatwg/html/issues/12252,2026-03-12T08:26:04Z,2026-03-12T08:33:02Z,kkinnunen-apple,topic: canvas|needs tests,0
 4063008142,false,"OffscreenCanvas.transferToImageBitmap is non-nullable, unspecified when [[bitmap]] has no pixels",https://github.com/whatwg/html/issues/12251,2026-03-12T08:23:50Z,2026-03-12T09:02:10Z,kkinnunen-apple,topic: canvas|needs tests,0
-4058877149,false,sizes=auto images shouldn't use concrete object width to select source,https://github.com/whatwg/html/issues/12248,2026-03-11T15:19:26Z,2026-10-06T14:25:09Z,ltenmoz,topic: img,0
+4058877149,false,sizes=auto images shouldn't use concrete object width to select source,https://github.com/whatwg/html/issues/12248,2026-03-11T15:19:26Z,2026-10-07T17:44:04Z,ltenmoz,topic: img,0
 4058225377,false,Calling document.open should abort ongoing navigations if no ongoing navigation,https://github.com/whatwg/html/issues/12247,2026-03-11T13:25:11Z,2026-08-24T09:00:22Z,farre,topic: navigation|topic: navigation API,0
 4057314569,false,change of the condition under which select element must have placeholder label option,https://github.com/whatwg/html/issues/12246,2026-03-11T10:25:01Z,2026-06-11T16:13:25Z,mtrootyy,topic: select,0
 4054376656,true,Upcoming WHATNOT meeting on 2026-03-12,https://github.com/whatwg/html/issues/12244,2026-03-10T21:42:37Z,2026-03-17T23:57:16Z,cwilso,,0
@@ -1384,7 +1384,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2276684787,true,Upcoming WHATNOT meeting on 5/9/2024,https://github.com/whatwg/html/issues/10318,2024-05-03T00:00:41Z,2024-05-10T01:52:32Z,past,agenda+,0
 2276352796,true,Content model and 'what' to render for stylable `<select>` elements,https://github.com/whatwg/html/issues/10317,2024-05-02T19:43:36Z,2025-07-22T03:42:00Z,scottaohara,accessibility|topic: forms|needs concrete proposal|topic: select,5
 2276074163,true,Meeting 1 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10316,2024-05-02T17:17:37Z,2026-09-17T17:51:50Z,past,agenda+|task-force-agenda,0
-2275757289,false,Using URL as map keys is problematic without defining equality,https://github.com/whatwg/html/issues/10315,2024-05-02T14:56:49Z,2024-05-09T19:58:19Z,annevk,,0
+2275757289,true,Using URL as map keys is problematic without defining equality,https://github.com/whatwg/html/issues/10315,2024-05-02T14:56:49Z,2026-10-07T13:52:31Z,annevk,,0
 2274006008,false,Prefixes and suffixes for textual `<input>`s,https://github.com/whatwg/html/issues/10314,2024-05-01T18:52:42Z,2025-03-10T10:31:47Z,LeaVerou,addition/proposal|needs implementer interest|topic: forms,29
 2273644660,false,Allow DOM manipulation scripts when JavaScript is disabled,https://github.com/whatwg/html/issues/10313,2024-05-01T14:51:31Z,2024-05-09T19:59:49Z,NickGard,addition/proposal|needs implementer interest,3
 2273285124,true,textarea autoheight,https://github.com/whatwg/html/issues/10312,2024-05-01T10:20:54Z,2024-05-01T14:44:57Z,MuratovBektur,addition/proposal|needs implementer interest,0
@@ -1878,7 +1878,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1668166261,true,popover invoker should be boolean,https://github.com/whatwg/html/issues/9168,2023-04-14T12:31:32Z,2023-05-08T16:13:14Z,asurkov,topic: popover,0
 1667926564,true,Should popovertarget be generic?,https://github.com/whatwg/html/issues/9167,2023-04-14T09:50:44Z,2023-05-26T09:46:32Z,jakearchibald,normative change|needs implementer interest|topic: dialog|topic: popover,2
 1666754993,true,Need to pass all the descendant of root to handle button invoker's top most popover ancestor,https://github.com/whatwg/html/issues/9164,2023-04-13T16:36:31Z,2023-06-06T06:31:23Z,cathiechen,topic: popover,0
-1666214684,false,Popover: spec for dealing with element removal is incorrect,https://github.com/whatwg/html/issues/9161,2023-04-13T11:13:30Z,2023-06-26T18:45:44Z,jakearchibald,topic: popover,0
+1666214684,true,Popover: spec for dealing with element removal is incorrect,https://github.com/whatwg/html/issues/9161,2023-04-13T11:13:30Z,2026-10-07T16:46:37Z,jakearchibald,topic: popover,0
 1666173855,true,Popover parent/child relationship doesn't seem correct,https://github.com/whatwg/html/issues/9160,2023-04-13T10:45:41Z,2023-05-08T16:13:14Z,jakearchibald,topic: popover,0
 1666044457,false,Exporting definitions linked to by 3+ specs,https://github.com/whatwg/html/issues/9159,2023-04-13T09:19:24Z,2023-04-13T12:25:33Z,dontcallmedom,,0
 1666005013,false,Consider a different process for standardizing registerProtocolHandler schemes,https://github.com/whatwg/html/issues/9158,2023-04-13T08:55:08Z,2025-11-30T02:04:14Z,zcorpan,meta|topic: custom protocols,5
