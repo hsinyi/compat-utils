@@ -209,7 +209,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4642287287,true,Meeting 45 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12569,2026-06-11T16:17:41Z,2026-09-17T16:31:00Z,mfreed7,task-force-agenda,0
 4639775560,false,"""Create navigation params by fetching"" missing iframe element referer policy",https://github.com/whatwg/html/issues/12567,2026-06-11T11:01:15Z,2026-06-11T11:01:15Z,AtkinsSJ,,0
 4639615808,false,`container` variable in internal ancestor origin objects list creation steps is unused,https://github.com/whatwg/html/issues/12566,2026-06-11T10:39:19Z,2026-06-11T10:39:19Z,AtkinsSJ,,0
-4636029072,false,"No way to read an image's true intrinsic dimensions when sizes=""auto"" (or any w-descriptor srcset) is used",https://github.com/whatwg/html/issues/12565,2026-06-11T00:13:53Z,2026-06-11T00:28:21Z,austinh,,0
+4636029072,false,"No way to read an image's true intrinsic dimensions when sizes=""auto"" (or any w-descriptor srcset) is used",https://github.com/whatwg/html/issues/12565,2026-06-11T00:13:53Z,2026-10-06T20:00:34Z,austinh,needs implementer interest|topic: img,0
 4634483543,false,Critical/Minor Ambiguity: Server-Sent Events MUST return event.data,https://github.com/whatwg/html/issues/12564,2026-06-10T19:51:29Z,2026-07-08T17:40:08Z,jabcreations,topic: eventsource,0
 4633061375,false,"""Evaluate a javascript url"" refers to non-existent targetSnapshotParams.",https://github.com/whatwg/html/issues/12563,2026-06-10T16:29:41Z,2026-06-12T13:26:55Z,AtkinsSJ,topic: javascript: URLs,0
 4630107413,false,Nodes are made non-inert before sanitizing,https://github.com/whatwg/html/issues/12560,2026-06-10T10:02:38Z,2026-06-10T14:55:45Z,zcorpan,topic: sanitizer,0
@@ -300,7 +300,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4226463791,false,Nesting requestClose() calls inside of cancel event can leave the dialog open.,https://github.com/whatwg/html/issues/12347,2026-04-08T17:41:16Z,2026-04-08T20:18:53Z,lukewarlow,topic: dialog|topic: close watchers,0
 4226015284,true,What should happen if you open an auto popover 'within' a hint popover?,https://github.com/whatwg/html/issues/12346,2026-04-08T16:21:51Z,2026-05-14T09:37:31Z,jakearchibald,topic: popover,1
 4221208607,false,Allow multiple elements with the same nearest ancestor `autofocus` scoping root element to have `autofocus`,https://github.com/whatwg/html/issues/12343,2026-04-07T23:47:16Z,2026-04-07T23:48:22Z,andyearnshaw,,0
-4220854226,false,Selectedcontent in select multiple,https://github.com/whatwg/html/issues/12342,2026-04-07T22:06:32Z,2026-10-02T22:20:00Z,josepharhar,addition/proposal|needs implementer interest|agenda+|topic: select,3
+4220854226,false,Selectedcontent in select multiple,https://github.com/whatwg/html/issues/12342,2026-04-07T22:06:32Z,2026-10-06T20:00:45Z,josepharhar,addition/proposal|needs implementer interest|agenda+|topic: select,3
 4220747361,true,Upcoming WHATNOT meeting on 2026-04-09,https://github.com/whatwg/html/issues/12341,2026-04-07T21:44:35Z,2026-04-14T16:39:18Z,cwilso,,0
 4218748041,false,eventsource should never discard event.data on HTTP,https://github.com/whatwg/html/issues/12340,2026-04-07T15:26:25Z,2026-04-07T15:27:25Z,jabcreations,,0
 4212993506,true,Unexpected behavior of `interestfor` with popover controls,https://github.com/whatwg/html/issues/12338,2026-04-06T17:13:18Z,2026-04-27T19:16:17Z,shanthambi,topic: popover|topic: button,0
@@ -632,7 +632,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3474315969,true,Navigation API: upcoming API method tracker is not null if `navigate` is called from `onnavigateerror`,https://github.com/whatwg/html/issues/11735,2025-10-01T16:40:38Z,2025-10-21T18:37:03Z,jnjaeschke,topic: navigation,0
 3472725307,false,"Navigation API: ""has been scrolled by user"" is ambiguous",https://github.com/whatwg/html/issues/11732,2025-10-01T09:17:01Z,2026-08-24T09:01:34Z,keithamus,clarification|topic: navigation|topic: navigation API,1
 3472419842,true,optgroup element text is incorrect,https://github.com/whatwg/html/issues/11730,2025-10-01T07:36:11Z,2025-10-17T05:18:04Z,annevk,topic: select,0
-3471213469,false,Menu elements proposal,https://github.com/whatwg/html/issues/11729,2025-09-30T22:10:24Z,2026-09-24T17:04:47Z,domfarolino,addition/proposal|stage: 2,7
+3471213469,false,Menu elements proposal,https://github.com/whatwg/html/issues/11729,2025-09-30T22:10:24Z,2026-10-06T18:52:33Z,domfarolino,addition/proposal|agenda+|stage: 2,7
 3470648855,false,`closedby` defaults refer to unspecified “Auto” state,https://github.com/whatwg/html/issues/11728,2025-09-30T18:43:55Z,2025-10-01T16:15:35Z,j9t,topic: reflect,0
 3468199894,true,"`rel=""icon""` requests do not fire since it doesn't translate to a valid preload destination",https://github.com/whatwg/html/issues/11726,2025-09-30T08:36:46Z,2025-10-10T08:34:20Z,TimvdLippe,,0
 3466671369,false,"A way to remove EXIF data on `<input type=""file"">` before sending to server",https://github.com/whatwg/html/issues/11724,2025-09-29T21:25:06Z,2026-05-06T13:27:19Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms,25
@@ -1055,7 +1055,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2765141727,true,Wrong link on `:target` css pseudo-class,https://github.com/whatwg/html/issues/10889,2025-01-01T16:00:37Z,2025-01-06T16:24:06Z,skyclouds2001,,0
 2762041321,false,ARIA and Accessibility API in HTML specification,https://github.com/whatwg/html/issues/10885,2024-12-28T23:45:58Z,2024-12-28T23:45:58Z,dSalieri,,0
 2760982461,false,Canvas text direction getter not interoperable,https://github.com/whatwg/html/issues/10884,2024-12-27T15:01:10Z,2025-02-01T16:50:38Z,schenney-chromium,topic: canvas,1
-2754605091,false,valueAsTemporal: date/time input integration with JavaScript Temporal API,https://github.com/whatwg/html/issues/10882,2024-12-22T11:10:04Z,2025-01-16T19:17:03Z,o-t-w,addition/proposal|needs implementer interest|topic: forms,16
+2754605091,false,valueAsTemporal: date/time input integration with JavaScript Temporal API,https://github.com/whatwg/html/issues/10882,2024-12-22T11:10:04Z,2025-01-16T19:17:03Z,o-t-w,addition/proposal|needs implementer interest|topic: forms,17
 2752376493,false,Audit and fix innerHTML scripting disabled parsing behavior for template,https://github.com/whatwg/html/issues/10879,2024-12-20T09:59:00Z,2026-08-13T09:00:09Z,hsivonen,topic: parser|interop,0
 2751257695,true,Upcoming WHATNOT meeting on 2025-01-09,https://github.com/whatwg/html/issues/10878,2024-12-19T19:32:37Z,2025-12-04T21:36:37Z,past,,0
 2751142397,true,Meeting 14 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/10877,2024-12-19T18:21:56Z,2026-09-17T17:51:27Z,josepharhar,task-force-agenda,0
