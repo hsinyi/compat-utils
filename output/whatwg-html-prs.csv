@@ -18,7 +18,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5651505367,true,Throw synchronously from string timer Trusted Types checks,https://github.com/whatwg/html/pull/13010,2026-09-30T18:57:16Z,2026-10-01T19:34:18Z,shannonbooth,,1
 5648511366,true,Split the scripting is disabled check for event handlers,https://github.com/whatwg/html/pull/13009,2026-09-30T14:59:35Z,2026-10-02T14:58:39Z,annevk,,0
 5640222390,false,Allow `style` in `body`,https://github.com/whatwg/html/pull/13007,2026-09-30T03:04:44Z,2026-10-05T20:49:20Z,zcorpan,document conformance,2
-5638763845,true,Expose cross-origin isolated capability and time origin to worklets,https://github.com/whatwg/html/pull/13006,2026-09-30T00:05:28Z,2026-10-07T17:14:41Z,mjwilson-google,,0
+5638763845,true,Expose cross-origin isolated capability and time origin to worklets,https://github.com/whatwg/html/pull/13006,2026-09-30T00:05:28Z,2026-10-07T21:34:02Z,mjwilson-google,,0
 5632088964,false,Refine when selectedcontent elements are updated,https://github.com/whatwg/html/pull/13005,2026-09-29T14:23:38Z,2026-10-01T05:27:16Z,annevk,topic: select,0
 5631609089,true,Retain last rendered size for auto-sizes images when unrendered,https://github.com/whatwg/html/pull/13004,2026-09-29T13:48:14Z,2026-10-01T13:56:00Z,noamr,,0
 5613497991,true,Fix hiding popovers that are removed or moved between documents,https://github.com/whatwg/html/pull/13001,2026-09-28T11:05:50Z,2026-10-07T16:46:39Z,jakearchibald,,0
@@ -106,10 +106,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5080814496,true,Close unrelated auto popovers when a dialog opens inside a hint popover,https://github.com/whatwg/html/pull/12764,2026-08-06T11:48:36Z,2026-08-11T12:17:24Z,jakearchibald,agenda+,0
 5079477247,true,Correct reflection definition for commandForElement and popoverTargetElement,https://github.com/whatwg/html/pull/12762,2026-08-06T08:59:43Z,2026-08-21T12:36:13Z,lukewarlow,,0
 5079253045,false,Use System colors for links,https://github.com/whatwg/html/pull/12761,2026-08-06T08:30:38Z,2026-09-11T10:19:10Z,TimvdLippe,,1
-5064001077,false,"Add streaming HTML insertion methods to Element, ShadowRoot, and ChildNode",https://github.com/whatwg/html/pull/12758,2026-08-04T19:09:46Z,2026-10-07T16:12:36Z,noamr,,1
-5063591004,false,Sanitize while parsing,https://github.com/whatwg/html/pull/12756,2026-08-04T18:19:56Z,2026-10-07T17:32:59Z,noamr,,1
+5064001077,false,"Add streaming HTML insertion methods to Element, ShadowRoot, and ChildNode",https://github.com/whatwg/html/pull/12758,2026-08-04T19:09:46Z,2026-10-07T20:41:06Z,noamr,,1
+5063591004,false,Sanitize while parsing,https://github.com/whatwg/html/pull/12756,2026-08-04T18:19:56Z,2026-10-07T20:41:09Z,noamr,,1
 5063585642,true,Sanitize while parsing,https://github.com/whatwg/html/pull/12755,2026-08-04T18:19:16Z,2026-08-04T18:20:29Z,noamr,,0
-5063528426,false,Add positional HTML parsing methods,https://github.com/whatwg/html/pull/12753,2026-08-04T18:11:51Z,2026-10-07T17:36:07Z,noamr,,1
+5063528426,false,Add positional HTML parsing methods,https://github.com/whatwg/html/pull/12753,2026-08-04T18:11:51Z,2026-10-07T20:41:03Z,noamr,,1
 5063514258,true,Positional HTML methohds,https://github.com/whatwg/html/pull/12752,2026-08-04T18:10:03Z,2026-08-04T18:11:48Z,noamr,,0
 5040654807,true,Clarify tokenizer and tree construction interaction,https://github.com/whatwg/html/pull/12746,2026-08-02T04:25:59Z,2026-08-03T20:22:29Z,alishaansarjaved-oss,topic: parser|editorial,0
 5013903843,false,Add HTMLMediaElement.removeTextTrack() method,https://github.com/whatwg/html/pull/12735,2026-07-29T21:55:56Z,2026-09-02T22:29:14Z,danae404,topic: media,0
@@ -169,7 +169,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4682477269,true,Add MathML `<a>` handling to sanitization algorithms,https://github.com/whatwg/html/pull/12592,2026-06-17T10:42:58Z,2026-10-05T13:29:45Z,lukewarlow,topic: sanitizer,0
 4681710394,false,[draft] Spell check custom dictionary,https://github.com/whatwg/html/pull/12590,2026-06-17T09:02:23Z,2026-09-24T15:27:50Z,bkardell,addition/proposal|needs implementer interest|i18n-tracker|needs tests|a11y-tracker|stage: 1,0
 4681135612,true,"Attributes index: fix method, formmethod values",https://github.com/whatwg/html/pull/12586,2026-06-17T07:35:03Z,2026-06-17T08:35:19Z,chris-morgan,,0
-4677518436,false,Add HTML Poster Element: Responsive Images and Alternative Text for HTML Video Poster Images,https://github.com/whatwg/html/pull/12585,2026-06-16T20:06:29Z,2026-10-07T16:20:50Z,scottjehl,,9
+4677518436,false,Introduce HTML <Poster> Element: Enabling Responsive Images and Alternative Text for HTML Video Poster Images,https://github.com/whatwg/html/pull/12585,2026-06-16T20:06:29Z,2026-10-07T23:01:58Z,scottjehl,,9
 4674928368,true,Integrate fragment parser options with trusted types,https://github.com/whatwg/html/pull/12583,2026-06-16T14:05:44Z,2026-10-07T10:52:29Z,noamr,,0
 4667627744,false,Integrate with MakeRealm,https://github.com/whatwg/html/pull/12580,2026-06-15T18:04:33Z,2026-06-24T08:12:31Z,annevk,topic: script|integration,0
 4658488223,false,Specify task source for EventSource queued tasks,https://github.com/whatwg/html/pull/12578,2026-06-14T08:48:46Z,2026-06-26T13:43:33Z,Payal-03,,0
@@ -346,7 +346,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3735064449,true,"Move ""clean up API method tracker"" to the right place",https://github.com/whatwg/html/pull/12022,2025-12-16T14:35:18Z,2026-01-12T10:54:36Z,noamr,,0
 3734374547,true,Fixing button command early-bail steps,https://github.com/whatwg/html/pull/12021,2025-12-16T11:25:01Z,2026-01-09T18:52:27Z,jakearchibald,,1
 3726130924,true,Fix ordering of lifecycle callbacks to match implementations,https://github.com/whatwg/html/pull/12017,2025-12-13T16:09:47Z,2026-03-31T16:14:21Z,lukewarlow,,0
-3720029201,false,Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2026-10-07T14:31:53Z,domfarolino,,0
+3720029201,false,Introduce the new menu elements,https://github.com/whatwg/html/pull/12011,2025-12-11T16:07:05Z,2026-10-07T21:01:24Z,domfarolino,,0
 3717708776,false,Skip light dismiss when opening select's picker,https://github.com/whatwg/html/pull/12008,2025-12-11T04:33:36Z,2026-04-30T16:34:49Z,josepharhar,,0
 3714324873,true,Add proposal for maxcount attribute,https://github.com/whatwg/html/pull/12005,2025-12-10T09:24:01Z,2025-12-10T12:59:11Z,milanagowda77656-cloud,invalid,0
 3706163049,false,Introduce scopedcustomelementregistry global attribute,https://github.com/whatwg/html/pull/12000,2025-12-08T12:24:45Z,2026-09-24T15:15:03Z,ja-y-son,,0
