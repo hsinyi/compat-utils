@@ -1,4 +1,9 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5766110290,false,Upcoming WHATNOT meeting on 2026-10-15,https://github.com/whatwg/html/issues/13052,2026-10-08T17:25:07Z,2026-10-08T17:25:07Z,jstenback,agenda+,0
+5765173687,false,Proposal: Expose sequential focus navigation primitives,https://github.com/whatwg/html/issues/13051,2026-10-08T16:14:48Z,2026-10-08T16:15:22Z,vmpstr,addition/proposal|needs implementer interest,0
+5758984989,false,"""Update the image data"" keeps a stale pixel density when a partially available image is reselected",https://github.com/whatwg/html/issues/13049,2026-10-08T09:03:26Z,2026-10-08T09:06:23Z,zcorpan,topic: img,0
+5758981647,false,"Preload sets href to the result of ""select an image source from a source set"", which isn't a URL",https://github.com/whatwg/html/issues/13048,2026-10-08T09:03:10Z,2026-10-08T09:05:56Z,zcorpan,topic: resource hints (inc. preload),0
+5758518099,false,Expose crossOriginIsolated on worklets,https://github.com/whatwg/html/issues/13047,2026-10-08T08:26:42Z,2026-10-08T08:26:42Z,mjwilson-google,addition/proposal|needs implementer interest,0
 5729545263,false,Consider updating the WebDriver endpoint for the `Consume User Activation of Window` command,https://github.com/whatwg/html/issues/13042,2026-10-06T13:50:03Z,2026-10-06T15:01:26Z,whimboo,,0
 5723017870,false,“navigate to a fragment” on an initial about:blank with a null latest entry fails “Assert: entriesForNavigationAPI is given.”,https://github.com/whatwg/html/issues/13041,2026-10-06T04:37:13Z,2026-10-06T04:37:13Z,sideshowbarker,compat|topic: navigation,0
 5705871600,false,Cloning an option that contains a selected option into `<selectedcontent>` loops forever,https://github.com/whatwg/html/issues/13038,2026-10-05T03:12:35Z,2026-10-07T12:11:10Z,meziantou,topic: select,0
@@ -8,7 +13,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5686620462,false,Specify closing the select picker when it can no longer be shown,https://github.com/whatwg/html/issues/13027,2026-10-03T04:44:55Z,2026-10-05T19:14:50Z,annevk,topic: select,0
 5681420607,false,Expose native localized constraint validation messages,https://github.com/whatwg/html/issues/13025,2026-10-02T18:08:17Z,2026-10-02T18:08:17Z,jcfranco,,0
 5672086267,false,"Cloning into `<selectedcontent>` results in a non-conforming serialized document (empty content model, duplicate ids)",https://github.com/whatwg/html/issues/13022,2026-10-02T02:39:19Z,2026-10-02T15:17:23Z,andersk,document conformance|topic: parser|topic: select,0
-5669011396,false,Upcoming WHATNOT meeting on 2026-10-08,https://github.com/whatwg/html/issues/13020,2026-10-01T20:54:06Z,2026-10-01T20:54:06Z,jstenback,agenda+,0
+5669011396,true,Upcoming WHATNOT meeting on 2026-10-08,https://github.com/whatwg/html/issues/13020,2026-10-01T20:54:06Z,2026-10-08T17:24:02Z,jstenback,agenda+,0
 5667988284,false,setTimeout() on a non-fully-active Window,https://github.com/whatwg/html/issues/13019,2026-10-01T19:32:57Z,2026-10-02T01:44:10Z,zcorpan,topic: timing,0
 5667974784,false,Timer string handlers: CSP check is synchronous in implementations,https://github.com/whatwg/html/issues/13018,2026-10-01T19:31:56Z,2026-10-01T19:31:56Z,zcorpan,topic: timing,0
 5665541150,false,Meeting 52 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/13017,2026-10-01T16:26:33Z,2026-10-01T16:27:44Z,mfreed7,,0
@@ -17,7 +22,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5660449132,false,Sanitizer support for legacy full-document sinks,https://github.com/whatwg/html/issues/13013,2026-10-01T10:06:18Z,2026-10-02T07:11:47Z,noamr,addition/proposal|needs implementer interest|topic: sanitizer,0
 5655954255,true,"Is whitespace around type=""module"" stripped?",https://github.com/whatwg/html/issues/13012,2026-10-01T02:32:29Z,2026-10-05T13:53:33Z,karlcow,,0
 5654148016,false,Integrate `<install>` element (pending second implementer interest),https://github.com/whatwg/html/issues/13011,2026-09-30T23:02:26Z,2026-09-30T23:02:26Z,LiaHiscock,,2
-5643828813,false,Reflection of `<template for>` in mutation observers,https://github.com/whatwg/html/issues/13008,2026-09-30T08:53:43Z,2026-10-05T09:56:27Z,noamr,addition/proposal|topic: parser|agenda+,0
+5643828813,false,Reflection of `<template for>` in mutation observers,https://github.com/whatwg/html/issues/13008,2026-09-30T08:53:43Z,2026-10-08T17:25:58Z,noamr,addition/proposal|topic: parser,0
 5628036306,false,History traversal and reload: which initiator does the request carry? (follow-up to #4446),https://github.com/whatwg/html/issues/13003,2026-09-29T09:05:03Z,2026-09-30T07:46:24Z,sideshowbarker,compat|topic: navigation,0
 5610790773,false,Per-list-item `::marker` box sizing/alignment + wrapped list item indentation controls,https://github.com/whatwg/html/issues/13000,2026-09-28T07:14:54Z,2026-10-02T00:52:13Z,commiterate,addition/proposal|needs implementer interest,0
 5594976898,false,Select base appearance needs improvements,https://github.com/whatwg/html/issues/12996,2026-09-26T15:08:00Z,2026-09-30T07:55:17Z,annevk,topic: rendering|topic: select,0
@@ -38,7 +43,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5523472865,false,XML encoding scanning in XML documents is not interoperable,https://github.com/whatwg/html/issues/12968,2026-09-21T06:18:52Z,2026-09-21T11:06:26Z,domenic,topic: parser|interop,0
 5518899424,false,Destroying a child navigable should detach its subtree synchronously,https://github.com/whatwg/html/issues/12966,2026-09-20T16:03:14Z,2026-09-20T16:04:02Z,shannonbooth,topic: navigation,0
 5512278971,false,"Is it intentional that the ""check the usability of the image argument"" steps don't fail for natural width/height that don't exist?",https://github.com/whatwg/html/issues/12964,2026-09-19T17:37:25Z,2026-09-22T16:09:10Z,weinig,clarification|topic: canvas,0
-5512175637,true,"In `appearance: base` <select>, use the label attribute as a fallback rather than a rendering override",https://github.com/whatwg/html/issues/12963,2026-09-19T17:22:14Z,2026-09-22T15:06:11Z,sb3nder,addition/proposal|needs implementer interest,0
+5512175637,true,"In `appearance: base` <select>, use the label attribute as a fallback rather than a rendering override",https://github.com/whatwg/html/issues/12963,2026-09-19T17:22:14Z,2026-10-08T11:10:49Z,sb3nder,addition/proposal|needs implementer interest,0
 5507031718,false,Session history: a changing navigable continuation activates a target entry that a queue-jumping synchronous navigation has replaced or removed,https://github.com/whatwg/html/issues/12961,2026-09-19T02:03:46Z,2026-09-19T02:40:00Z,sideshowbarker,compat|topic: navigation,0
 5491211336,true,Upcoming WHATNOT meeting on 2026-09-24,https://github.com/whatwg/html/issues/12958,2026-09-17T18:27:10Z,2026-09-24T21:13:04Z,tabatkins,agenda+,0
 5489741744,true,Meeting 51 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12956,2026-09-17T15:56:32Z,2026-10-01T16:26:46Z,mfreed7,task-force-agenda,0
@@ -300,7 +305,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4226463791,false,Nesting requestClose() calls inside of cancel event can leave the dialog open.,https://github.com/whatwg/html/issues/12347,2026-04-08T17:41:16Z,2026-04-08T20:18:53Z,lukewarlow,topic: dialog|topic: close watchers,0
 4226015284,true,What should happen if you open an auto popover 'within' a hint popover?,https://github.com/whatwg/html/issues/12346,2026-04-08T16:21:51Z,2026-05-14T09:37:31Z,jakearchibald,topic: popover,1
 4221208607,false,Allow multiple elements with the same nearest ancestor `autofocus` scoping root element to have `autofocus`,https://github.com/whatwg/html/issues/12343,2026-04-07T23:47:16Z,2026-04-07T23:48:22Z,andyearnshaw,,0
-4220854226,false,Selectedcontent in select multiple,https://github.com/whatwg/html/issues/12342,2026-04-07T22:06:32Z,2026-10-07T15:44:18Z,josepharhar,addition/proposal|needs implementer interest|agenda+|topic: select,3
+4220854226,false,Selectedcontent in select multiple,https://github.com/whatwg/html/issues/12342,2026-04-07T22:06:32Z,2026-10-08T17:27:03Z,josepharhar,addition/proposal|needs implementer interest|topic: select,4
 4220747361,true,Upcoming WHATNOT meeting on 2026-04-09,https://github.com/whatwg/html/issues/12341,2026-04-07T21:44:35Z,2026-04-14T16:39:18Z,cwilso,,0
 4218748041,false,eventsource should never discard event.data on HTTP,https://github.com/whatwg/html/issues/12340,2026-04-07T15:26:25Z,2026-04-07T15:27:25Z,jabcreations,,0
 4212993506,true,Unexpected behavior of `interestfor` with popover controls,https://github.com/whatwg/html/issues/12338,2026-04-06T17:13:18Z,2026-04-27T19:16:17Z,shanthambi,topic: popover|topic: button,0
@@ -358,7 +363,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4063027387,false,OffscreenCanvas.convertToBlob no-rendering context scenario unspecified,https://github.com/whatwg/html/issues/12253,2026-03-12T08:28:30Z,2026-03-12T10:02:49Z,kkinnunen-apple,topic: canvas|needs tests|interop,0
 4063017346,false,OffscreenCanvas.transferToImageBitmap context loss behavior is unspecified,https://github.com/whatwg/html/issues/12252,2026-03-12T08:26:04Z,2026-03-12T08:33:02Z,kkinnunen-apple,topic: canvas|needs tests,0
 4063008142,false,"OffscreenCanvas.transferToImageBitmap is non-nullable, unspecified when [[bitmap]] has no pixels",https://github.com/whatwg/html/issues/12251,2026-03-12T08:23:50Z,2026-03-12T09:02:10Z,kkinnunen-apple,topic: canvas|needs tests,0
-4058877149,false,sizes=auto images shouldn't use concrete object width to select source,https://github.com/whatwg/html/issues/12248,2026-03-11T15:19:26Z,2026-10-07T20:45:40Z,ltenmoz,topic: img,0
+4058877149,false,sizes=auto images shouldn't use concrete object width to select source,https://github.com/whatwg/html/issues/12248,2026-03-11T15:19:26Z,2026-10-08T17:31:34Z,ltenmoz,topic: img,0
 4058225377,false,Calling document.open should abort ongoing navigations if no ongoing navigation,https://github.com/whatwg/html/issues/12247,2026-03-11T13:25:11Z,2026-08-24T09:00:22Z,farre,topic: navigation|topic: navigation API,0
 4057314569,false,change of the condition under which select element must have placeholder label option,https://github.com/whatwg/html/issues/12246,2026-03-11T10:25:01Z,2026-06-11T16:13:25Z,mtrootyy,topic: select,0
 4054376656,true,Upcoming WHATNOT meeting on 2026-03-12,https://github.com/whatwg/html/issues/12244,2026-03-10T21:42:37Z,2026-03-17T23:57:16Z,cwilso,,0
@@ -632,7 +637,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3474315969,true,Navigation API: upcoming API method tracker is not null if `navigate` is called from `onnavigateerror`,https://github.com/whatwg/html/issues/11735,2025-10-01T16:40:38Z,2025-10-21T18:37:03Z,jnjaeschke,topic: navigation,0
 3472725307,false,"Navigation API: ""has been scrolled by user"" is ambiguous",https://github.com/whatwg/html/issues/11732,2025-10-01T09:17:01Z,2026-08-24T09:01:34Z,keithamus,clarification|topic: navigation|topic: navigation API,1
 3472419842,true,optgroup element text is incorrect,https://github.com/whatwg/html/issues/11730,2025-10-01T07:36:11Z,2025-10-17T05:18:04Z,annevk,topic: select,0
-3471213469,false,Menu elements proposal,https://github.com/whatwg/html/issues/11729,2025-09-30T22:10:24Z,2026-10-06T18:52:33Z,domfarolino,addition/proposal|agenda+|stage: 2,7
+3471213469,false,Menu elements proposal,https://github.com/whatwg/html/issues/11729,2025-09-30T22:10:24Z,2026-10-08T16:56:42Z,domfarolino,addition/proposal|stage: 3,7
 3470648855,false,`closedby` defaults refer to unspecified “Auto” state,https://github.com/whatwg/html/issues/11728,2025-09-30T18:43:55Z,2025-10-01T16:15:35Z,j9t,topic: reflect,0
 3468199894,true,"`rel=""icon""` requests do not fire since it doesn't translate to a valid preload destination",https://github.com/whatwg/html/issues/11726,2025-09-30T08:36:46Z,2025-10-10T08:34:20Z,TimvdLippe,,0
 3466671369,false,"A way to remove EXIF data on `<input type=""file"">` before sending to server",https://github.com/whatwg/html/issues/11724,2025-09-29T21:25:06Z,2026-05-06T13:27:19Z,KonnorRogers,addition/proposal|needs implementer interest|topic: forms,25
@@ -711,7 +716,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3317223628,false,Add openid4vp: as a safelisted scheme for protocol registration handling,https://github.com/whatwg/html/issues/11552,2025-08-13T07:23:52Z,2025-08-22T16:20:33Z,nvoutsin,addition/proposal|needs implementer interest|topic: custom protocols,1
 3309950964,true,LLMs Meta Tags Standard,https://github.com/whatwg/html/issues/11548,2025-08-11T13:02:49Z,2026-05-06T01:16:19Z,rafaelp,addition/proposal|needs implementer interest,0
 3308378580,false,`PromiseRejectionError` constructor behavior differs by implementation,https://github.com/whatwg/html/issues/11547,2025-08-11T04:06:26Z,2025-08-11T09:12:06Z,petamoriken,needs tests,0
-3308003149,false,Allow `fieldset` to be a CSS subgrid,https://github.com/whatwg/html/issues/11546,2025-08-10T21:46:40Z,2025-08-11T23:42:34Z,kirk-loretz-fsn,addition/proposal|needs implementer interest|topic: fieldset,0
+3308003149,false,Allow `fieldset` to be a CSS subgrid,https://github.com/whatwg/html/issues/11546,2025-08-10T21:46:40Z,2025-08-11T23:42:34Z,kirk-loretz-fsn,addition/proposal|needs implementer interest|topic: fieldset,1
 3299845424,true,"Out of order HTML streaming (""patching"")",https://github.com/whatwg/html/issues/11542,2025-08-07T10:03:34Z,2026-08-20T06:30:52Z,noamr,addition/proposal|topic: parser|stage: 3,11
 3299685743,true,Upcoming WHATNOT meeting on 2025-08-14,https://github.com/whatwg/html/issues/11541,2025-08-07T09:12:30Z,2025-09-11T10:01:57Z,annevk,,0
 3297402544,false,"""rules for parsing a list of dimensions"" should clarify behavior for large numeric values",https://github.com/whatwg/html/issues/11539,2025-08-06T16:58:06Z,2025-10-08T20:12:46Z,weinig,needs tests,0
@@ -926,7 +931,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2932156264,false,Example using q element is inconsistent with spec,https://github.com/whatwg/html/issues/11144,2025-03-19T15:08:09Z,2025-03-23T13:54:38Z,dschuessler,clarification|document conformance,0
 2928969631,false,Potential additions to the proposed TextCluster API,https://github.com/whatwg/html/issues/11141,2025-03-18T15:41:49Z,2025-04-02T01:49:48Z,AndresRPerez12,topic: canvas,0
 2924735098,false,Clarify correct behavior for requestAnimationFrame for hidden iframes (display: none),https://github.com/whatwg/html/issues/11138,2025-03-17T11:33:54Z,2025-03-27T20:56:05Z,whimboo,interop,0
-2922824425,false,The order of execution of the formAssociatedCallback hook does not match the implementations,https://github.com/whatwg/html/issues/11136,2025-03-16T06:57:08Z,2026-10-01T08:47:00Z,dSalieri,topic: forms|agenda+,0
+2922824425,false,The order of execution of the formAssociatedCallback hook does not match the implementations,https://github.com/whatwg/html/issues/11136,2025-03-16T06:57:08Z,2026-10-08T17:27:17Z,dSalieri,topic: forms,0
 2922710405,false,"Eliminate all uses of ""http:"" except where absolutely necessary to speak of unencrypted HTTP",https://github.com/whatwg/html/issues/11135,2025-03-16T02:20:42Z,2025-03-17T16:46:33Z,zackw,clarification,0
 2920149633,true,"Broken link, there is no ""Rendering section""",https://github.com/whatwg/html/issues/11132,2025-03-14T12:52:16Z,2025-03-19T04:52:18Z,1jj,topic: rendering|dev edition,0
 2918507554,true,Upcoming WHATNOT meeting on 2025-03-20,https://github.com/whatwg/html/issues/11131,2025-03-13T22:26:47Z,2025-12-04T21:35:15Z,past,,0
@@ -1177,10 +1182,10 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568834361,false,Word processor new HTML control proposal,https://github.com/whatwg/html/issues/10680,2024-10-06T19:01:55Z,2024-10-07T06:57:58Z,volkansari,addition/proposal|needs implementer interest|needs incubation,1
 2568484967,true,Issue: Need to add hyperlink to the contents page of WHATWG,https://github.com/whatwg/html/issues/10679,2024-10-06T06:10:29Z,2024-10-07T02:43:04Z,turtlespeedv,invalid,0
 2568335542,true,"In ""close a top-level traversable"", the `is closing` flag is always already set to true",https://github.com/whatwg/html/issues/10678,2024-10-05T21:41:05Z,2024-10-09T01:07:07Z,trflynn89,,0
-2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2026-09-21T21:20:56Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
+2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2026-10-08T12:50:50Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,true,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-11-15T04:41:04Z,tabatkins,integration|topic: popover,0
-2565124238,false,Style Module Imports via `<link>` Elements,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2026-09-29T19:21:50Z,KurtCattiSchmidt,addition/proposal|topic: shadow|topic: script|stage: 2|topic: imports/exports,2
+2565124238,false,Style Module Imports via `<link>` Elements,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2026-10-08T16:56:31Z,KurtCattiSchmidt,addition/proposal|topic: shadow|topic: script|stage: 2|topic: imports/exports,2
 2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2026-10-05T23:06:45Z,emilio,compat|topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2562416768,true,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-12T00:18:10Z,past,agenda+,0
@@ -1188,7 +1193,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2555508180,true,Consider throwing for showModal() and showPopover() in non-fully-active documents,https://github.com/whatwg/html/issues/10659,2024-09-30T04:31:04Z,2024-10-30T05:36:43Z,domenic,normative change|topic: dialog|topic: popover,1
 2551969947,true,Upcoming WHATNOT meeting on 2024-10-03,https://github.com/whatwg/html/issues/10652,2024-09-27T04:30:41Z,2024-10-02T15:00:07Z,past,agenda+,0
 2551884785,false,Nested `contenteditable=true` and `contenteditable=plaintext-only` should win only the ourtermost one,https://github.com/whatwg/html/issues/10651,2024-09-27T02:53:27Z,2024-09-30T21:55:52Z,masayuki-nakano,needs tests|needs concrete proposal|topic: editing,0
-2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-09-24T17:03:08Z,khushalsagar,addition/proposal|topic: canvas|stage: 3,6
+2551197034,false,HTML-in-Canvas,https://github.com/whatwg/html/issues/10650,2024-09-26T17:46:28Z,2026-10-08T17:28:18Z,khushalsagar,addition/proposal|topic: canvas|stage: 3,6
 2549044519,true,Resolving  of transition and finished promises is mismatched between spec and tests,https://github.com/whatwg/html/issues/10646,2024-09-25T21:39:11Z,2024-09-30T10:14:17Z,rwlbuis,topic: navigation,0
 2544017899,true,"'reading-flow' and ""display: contents""",https://github.com/whatwg/html/issues/10643,2024-09-24T00:42:59Z,2024-09-24T16:09:09Z,tabatkins,topic: focus,0
 2543972242,false,tabindex vs reading-flow property,https://github.com/whatwg/html/issues/10642,2024-09-24T00:01:25Z,2025-03-12T17:10:41Z,tabatkins,topic: focus,3
@@ -3565,7 +3570,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 497040604,false,Define a policy container,https://github.com/whatwg/html/issues/4926,2019-09-23T11:28:43Z,2024-12-19T22:28:20Z,annevk,clarification|needs tests|interop|integration|topic: policy container,6
 496594293,true,Design questions about IDREF/Element attribute reflection,https://github.com/whatwg/html/issues/4925,2019-09-21T00:49:20Z,2022-06-30T08:19:53Z,alice,accessibility,0
 496188244,true,COEP mismatches in dedicated workers should block.,https://github.com/whatwg/html/issues/4924,2019-09-20T07:14:14Z,2020-04-20T09:12:18Z,mikewest,topic: cross-origin-embedder-policy,0
-495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2025-05-01T09:22:50Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,258
+495927522,false,add attribute  max-size to input type file,https://github.com/whatwg/html/issues/4923,2019-09-19T17:18:22Z,2025-05-01T09:22:50Z,leandroruel,addition/proposal|needs implementer interest|topic: forms,259
 495810632,false,Allow an extra dimension to the size array for 3D favicon,https://github.com/whatwg/html/issues/4922,2019-09-19T13:46:29Z,2021-01-28T22:05:11Z,rcabanier,addition/proposal|needs implementer interest|topic: link,0
 495595729,true,Decide how to treat CSP sandbox in COOP,https://github.com/whatwg/html/issues/4921,2019-09-19T06:18:06Z,2020-06-24T17:33:26Z,shhnjk,security/privacy|topic: cross-origin-opener-policy,0
 495587240,true,Consider restricting SharedArrayBuffer to same-origin usage,https://github.com/whatwg/html/issues/4920,2019-09-19T05:50:59Z,2019-12-05T15:38:02Z,annevk,addition/proposal|topic: serialize and transfer,0
@@ -4079,7 +4084,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 356643456,true,Fallback base URL computation for a document with about:srcdoc but not an iframe srcdoc document,https://github.com/whatwg/html/issues/3989,2018-09-04T03:48:41Z,2023-07-13T04:41:39Z,tkent-google,topic: document.open()|topic: javascript: URLs,0
 356601280,false,Ambiguity around synchronicity for media resource selection algorithm,https://github.com/whatwg/html/issues/3988,2018-09-03T21:24:41Z,2025-03-11T21:22:33Z,benwiley4000,topic: media|interop,0
 356045286,false,Async css,https://github.com/whatwg/html/issues/3983,2018-08-31T16:23:49Z,2025-08-26T05:53:44Z,andershol,addition/proposal|topic: link|topic: style|needs incubation,37
-355764184,false,`sizes` attribute should directly set the intrinsic width of the image,https://github.com/whatwg/html/issues/3981,2018-08-30T21:39:12Z,2023-09-18T12:07:19Z,tabatkins,normative change|needs implementer interest|topic: img,1
+355764184,false,`sizes` attribute should directly set the intrinsic width of the image,https://github.com/whatwg/html/issues/3981,2018-08-30T21:39:12Z,2026-10-08T08:24:50Z,tabatkins,normative change|needs implementer interest|topic: img,1
 355757409,false,Allow type attribute on <ul>,https://github.com/whatwg/html/issues/3979,2018-08-30T21:16:06Z,2022-11-15T07:02:07Z,fantasai,addition/proposal|needs implementer interest|document conformance|topic: rendering|interop|impacts documentation,4
 355754004,false,Should we throw SecurityError when document.write() is used cross-origin?,https://github.com/whatwg/html/issues/3978,2018-08-30T21:05:34Z,2018-09-04T15:52:51Z,TimothyGu,topic: document.open(),1
 355698290,true,"Provide open/close events (or equivalent) for dialog popups, such as <input type=file>",https://github.com/whatwg/html/issues/3976,2018-08-30T18:16:20Z,2021-07-28T12:59:30Z,ghost,addition/proposal|needs implementer interest|topic: media|topic: forms,0
@@ -4164,7 +4169,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 343411236,false,"Unclear if error event from ""update the image data"" matches implementations",https://github.com/whatwg/html/issues/3839,2018-07-22T14:40:08Z,2023-09-21T10:07:50Z,jdm,good first issue|topic: img,0
 343370113,false,Aborting a document load: which tasks to discard?,https://github.com/whatwg/html/issues/3837,2018-07-22T02:12:36Z,2021-01-28T13:58:56Z,gterzian,topic: eventsource|topic: event loop,0
 343300035,true,Event handlers-created event listener need to be removed sometimes,https://github.com/whatwg/html/issues/3836,2018-07-21T05:40:20Z,2018-08-07T18:25:59Z,TimothyGu,topic: events|interop,2
-343293001,false,"Selected pixel density from ""update the image data"" algorithm is ignored",https://github.com/whatwg/html/issues/3835,2018-07-21T03:27:24Z,2018-08-13T17:03:25Z,jdm,topic: img,0
+343293001,false,"Selected pixel density from ""update the image data"" algorithm is ignored",https://github.com/whatwg/html/issues/3835,2018-07-21T03:27:24Z,2026-10-08T10:59:23Z,jdm,topic: img,0
 343264600,false,"If upgrading an element has failed (for example during parsing), inserting the element to document tries to re-upgrade",https://github.com/whatwg/html/issues/3834,2018-07-20T22:25:53Z,2018-07-31T15:46:44Z,smaug----,topic: custom elements,0
 342923345,true,Inconsistent Custom Elements builtins,https://github.com/whatwg/html/issues/3833,2018-07-19T23:30:08Z,2018-07-20T00:34:44Z,WebReflection,,0
 342874445,true,width fallback value for responsive images is untested and unsupported by multiple browsers,https://github.com/whatwg/html/issues/3832,2018-07-19T20:18:44Z,2020-09-30T19:13:19Z,jdm,topic: img,0
@@ -6074,7 +6079,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 106448103,true,Title,https://github.com/whatwg/html/issues/142,2015-09-14T23:34:55Z,2015-09-14T23:36:48Z,zeyadj,,0
 106121651,true,Origin serialization and RFC 6454,https://github.com/whatwg/html/issues/140,2015-09-12T01:42:25Z,2015-09-17T08:20:23Z,cvrebert,clarification,0
 105811779,true,"Allow to specify a cursor title in ""ondragover"" ",https://github.com/whatwg/html/issues/128,2015-09-10T13:59:09Z,2015-09-13T18:41:39Z,ralfhauser,,0
-105710155,false,Add `document.ready` promise,https://github.com/whatwg/html/issues/127,2015-09-10T00:39:15Z,2026-09-17T17:20:24Z,tabatkins,addition/proposal|agenda+,24
+105710155,false,Add `document.ready` promise,https://github.com/whatwg/html/issues/127,2015-09-10T00:39:15Z,2026-10-08T17:26:16Z,tabatkins,addition/proposal,24
 105704917,true,Note how the SVG that is actually implemented is a mix of SVG 1.1 and SVG Tiny 1.2,https://github.com/whatwg/html/issues/126,2015-09-09T23:43:30Z,2016-01-26T11:28:47Z,tigt,clarification,0
 105610028,false,spec a way to determine when an iframe fails to load,https://github.com/whatwg/html/issues/125,2015-09-09T14:36:54Z,2026-03-20T15:12:39Z,wanderview,addition/proposal|topic: navigation,0
 105598617,true,Increase the number of MIME types rendered as text,https://github.com/whatwg/html/issues/124,2015-09-09T13:40:55Z,2015-09-29T12:32:28Z,wanderview,normative change|addition/proposal,0
