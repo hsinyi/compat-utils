@@ -50,7 +50,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5481753639,true,Define Worker constructor behavior for a detached Window,https://github.com/whatwg/html/issues/12955,2026-09-17T01:36:31Z,2026-09-17T01:44:12Z,kyle-elliott-tob,,0
 5481753237,true,Window.close uses target document flags for the caller sandbox check,https://github.com/whatwg/html/issues/12954,2026-09-17T01:36:27Z,2026-09-17T01:44:29Z,kyle-elliott-tob,,0
 5475636535,false,Using attr() for select list box appearance makes rendering mismatch semantics,https://github.com/whatwg/html/issues/12952,2026-09-16T14:08:23Z,2026-09-30T17:03:15Z,annevk,topic: rendering|topic: select,1
-5471398619,false,Reconsider validity of `<style>` inside `<body>`,https://github.com/whatwg/html/issues/12951,2026-09-16T07:10:09Z,2026-09-30T03:06:14Z,o-t-w,document conformance,7
+5471398619,true,Reconsider validity of `<style>` inside `<body>`,https://github.com/whatwg/html/issues/12951,2026-09-16T07:10:09Z,2026-10-09T08:27:45Z,o-t-w,document conformance,7
 5466416766,false,Proposed `CanvasRenderingContext2D.fillTextCluster()` takes the same x and y for all clusters,https://github.com/whatwg/html/issues/12950,2026-09-15T19:20:12Z,2026-09-15T19:20:12Z,shallawa,,0
 5466250627,false,Extending `TextMetrics` for text editing/shaping is not suitable for rich text editing,https://github.com/whatwg/html/issues/12949,2026-09-15T19:03:22Z,2026-09-15T19:03:22Z,shallawa,,0
 5465913602,false,Proposed `TextMetrics.getTextClusters()`  is inefficient for uniform styling,https://github.com/whatwg/html/issues/12948,2026-09-15T18:29:16Z,2026-09-15T18:29:16Z,shallawa,,0
@@ -234,7 +234,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4564487817,true,Upcoming WHATNOT meeting on 2026-06-04,https://github.com/whatwg/html/issues/12510,2026-06-01T15:54:32Z,2026-06-04T21:21:11Z,jstenback,agenda+,0
 4562905943,false,Customizable Select: Updating selected option's content does not clone into selectedcontent,https://github.com/whatwg/html/issues/12509,2026-06-01T12:01:17Z,2026-06-02T17:51:44Z,jnjaeschke,topic: select,0
 4558447917,true,save lines for browsers,https://github.com/whatwg/html/issues/12507,2026-05-31T17:51:52Z,2026-06-01T14:25:35Z,blueskyusf-code,,0
-4546967681,false,[canvas] How are context dependent values resolved in canvas colors,https://github.com/whatwg/html/issues/12505,2026-05-29T08:28:47Z,2026-10-09T01:07:22Z,Calme1709,topic: canvas,1
+4546967681,false,[canvas] How are context dependent values resolved in canvas colors,https://github.com/whatwg/html/issues/12505,2026-05-29T08:28:47Z,2026-10-09T15:45:42Z,Calme1709,topic: canvas,1
 4542722068,true,Meeting 44 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12503,2026-05-28T18:15:41Z,2026-09-17T16:31:00Z,mfreed7,task-force-agenda,0
 4542369601,false,frameset/frame style adjustments should be defined in HTML UA stylesheet,https://github.com/whatwg/html/issues/12501,2026-05-28T17:17:54Z,2026-05-29T03:50:52Z,nt1m,topic: rendering|interop|topic: frames/navigables/browsing contexts,0
 4540955332,false,Inconsistent cross-browser behavior for mutating child <source>s of a <video>,https://github.com/whatwg/html/issues/12500,2026-05-28T13:55:08Z,2026-10-01T08:51:54Z,nicolo-ribaudo,topic: media,0
@@ -1353,7 +1353,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2327513339,false,[Proposal] capture screen,https://github.com/whatwg/html/issues/10382,2024-05-31T10:35:41Z,2024-09-14T09:51:01Z,hemanth,addition/proposal|needs implementer interest,2
 2326705799,true,Upcoming WHATNOT meeting on 6/6/2024,https://github.com/whatwg/html/issues/10381,2024-05-30T23:34:22Z,2024-06-06T17:00:23Z,past,agenda+,0
 2324176691,false,HTML Video and its Source Elements Should Support SRCSET and SIZES,https://github.com/whatwg/html/issues/10379,2024-05-29T20:16:56Z,2024-08-14T12:07:18Z,scottjehl,addition/proposal|needs implementer interest|topic: media,16
-2324127724,false,"HTML Video Poster Image: Enable Responsive Images and ALT Text for Poster ",https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2026-09-22T20:21:30Z,scottjehl,addition/proposal|needs implementer interest|topic: media|stage: 1,43
+2324127724,false,"HTML Video Poster Image: Enable Responsive Images and ALT Text for Poster ",https://github.com/whatwg/html/issues/10378,2024-05-29T19:46:56Z,2026-10-09T15:53:05Z,scottjehl,addition/proposal|topic: media|stage: 1,43
 2324097406,false,"Specify That Responsive Video Elements Re-Evaluate Sources on Media Change, Like Picture",https://github.com/whatwg/html/issues/10377,2024-05-29T19:33:05Z,2025-11-20T12:55:12Z,scottjehl,addition/proposal|needs implementer interest|topic: media,9
 2324056660,true,Video and Audio Element loading=lazy attribute support,https://github.com/whatwg/html/issues/10376,2024-05-29T19:09:50Z,2026-03-23T15:57:20Z,scottjehl,addition/proposal|needs implementer interest|topic: media,31
 2322953911,true,Severing a document's opener relationship regardless of origin,https://github.com/whatwg/html/issues/10373,2024-05-29T10:23:38Z,2024-10-08T12:22:36Z,yoavweiss,addition/proposal|needs implementer interest|topic: cross-origin-opener-policy,0
