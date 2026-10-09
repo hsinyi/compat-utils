@@ -163,7 +163,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 761186287,true,[Feature request] Clients should know their own IDs,https://github.com/w3c/ServiceWorker/issues/1557,2020-12-10T12:09:45Z,2025-09-04T23:49:46Z,AshleyScirra,,3
 761178223,false,[Feature request] Expose parent client ID for iframe navigations,https://github.com/w3c/ServiceWorker/issues/1556,2020-12-10T11:58:03Z,2022-04-28T04:09:48Z,AshleyScirra,,3
 752993241,true,get importScripts to work offline,https://github.com/w3c/ServiceWorker/issues/1555,2020-11-29T19:54:29Z,2021-02-19T07:42:18Z,tomasgil123,,0
-747078042,false,clients.claim() with a blob URL worker,https://github.com/w3c/ServiceWorker/issues/1554,2020-11-20T02:06:11Z,2021-02-19T07:43:42Z,d0iasm,,0
+747078042,false,clients.claim() with a blob URL worker,https://github.com/w3c/ServiceWorker/issues/1554,2020-11-20T02:06:11Z,2026-10-09T00:32:14Z,d0iasm,,0
 739700408,true,"Virtual call on November 20, 2020",https://github.com/w3c/ServiceWorker/issues/1553,2020-11-10T08:31:12Z,2021-01-22T06:50:16Z,mfalken,,1
 735545299,false,Implementations are missing navigator.serviceWorker in workers,https://github.com/w3c/ServiceWorker/issues/1552,2020-11-03T18:28:44Z,2021-11-30T01:47:53Z,josephliccini,,0
 735216277,true,Service worker & Blocked cookies,https://github.com/w3c/ServiceWorker/issues/1551,2020-11-03T10:50:20Z,2021-02-19T07:49:52Z,jimmywarting,,4
@@ -353,7 +353,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 304652383,true,Interaction of fetch abort with Cache APIs,https://github.com/w3c/ServiceWorker/issues/1286,2018-03-13T07:19:51Z,2018-03-26T00:01:36Z,ricea,,0
 303207289,true,Possible race between Activate and Update Algorithms,https://github.com/w3c/ServiceWorker/issues/1285,2018-03-07T18:20:22Z,2026-03-06T01:14:54Z,catalinb,,0
 302460010,true,Detect Abort Events in Service Worker,https://github.com/w3c/ServiceWorker/issues/1284,2018-03-05T20:58:15Z,2018-03-05T21:05:13Z,anthumchris,,0
-300275549,false,Service Worker handling of first page load subresources,https://github.com/w3c/ServiceWorker/issues/1282,2018-02-26T15:12:46Z,2020-04-26T04:21:01Z,yoavweiss,,8
+300275549,false,Service Worker handling of first page load subresources,https://github.com/w3c/ServiceWorker/issues/1282,2018-02-26T15:12:46Z,2026-10-08T23:56:00Z,yoavweiss,,8
 298821745,true,Query Cache algorithm contains orphaned 'f' references,https://github.com/w3c/ServiceWorker/issues/1280,2018-02-21T02:33:55Z,2018-02-23T01:19:59Z,inexorabletash,,0
 296032608,true,ready promise is kind of weird after you call unregister(),https://github.com/w3c/ServiceWorker/issues/1279,2018-02-09T22:30:59Z,2026-07-03T00:32:46Z,wanderview,,0
 296022898,false,ready promise is kind of weird with overlapping scopes,https://github.com/w3c/ServiceWorker/issues/1278,2018-02-09T21:48:57Z,2026-06-12T00:29:36Z,wanderview,,0
@@ -367,7 +367,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 293237026,true,should `ServiceWorker` interface implement `AbstractWorker` mixin?,https://github.com/w3c/ServiceWorker/issues/1268,2018-01-31T17:03:39Z,2026-02-20T00:53:11Z,wanderview,,1
 293196652,true,clarify when FetchEvent.clientId will or will not be set for navigations,https://github.com/w3c/ServiceWorker/issues/1267,2018-01-31T15:19:41Z,2026-07-17T15:59:51Z,wanderview,,0
 292582643,true,"Until resultingClientId is implemented, what should FetchEvent.clientId be for navigation requests?",https://github.com/w3c/ServiceWorker/issues/1266,2018-01-29T22:21:59Z,2018-02-01T14:22:37Z,wanderview,,0
-291644043,false,should blob URL clients have their controlled updated if their parent's controller is changed?,https://github.com/w3c/ServiceWorker/issues/1265,2018-01-25T17:03:15Z,2020-05-20T15:36:55Z,wanderview,,0
+291644043,false,should blob URL clients have their controlled updated if their parent's controller is changed?,https://github.com/w3c/ServiceWorker/issues/1265,2018-01-25T17:03:15Z,2026-10-09T00:22:01Z,wanderview,,0
 289850433,true,Suggest a top level service worker or multiple service workers in one domain?,https://github.com/w3c/ServiceWorker/issues/1264,2018-01-19T03:16:52Z,2026-02-13T01:21:16Z,ywang1724,,0
 289798370,true,Should a SW client.id persists across Discards/Reloads of the same page?,https://github.com/w3c/ServiceWorker/issues/1263,2018-01-18T22:29:39Z,2019-06-04T07:54:30Z,fmeawad,,0
 289782768,true,should local URLs check origin before inheritting a controller?,https://github.com/w3c/ServiceWorker/issues/1262,2018-01-18T21:32:05Z,2026-02-20T00:57:50Z,wanderview,,0
@@ -380,7 +380,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 283762643,false,should Client.navigate() reject on uncontrolled clients?,https://github.com/w3c/ServiceWorker/issues/1254,2017-12-21T03:24:44Z,2026-09-18T00:02:14Z,wanderview,security-tracker|TPAC2026,0
 282959349,false,Soft Update seems way to aggressive,https://github.com/w3c/ServiceWorker/issues/1250,2017-12-18T17:28:16Z,2026-02-13T01:04:04Z,cdumez,,0
 282574775,true,Should the fragment identifier be stripped from the scriptURL?,https://github.com/w3c/ServiceWorker/issues/1249,2017-12-15T23:26:05Z,2017-12-22T02:42:08Z,cdumez,,0
-282178922,false,Provide an easier way to listen for waiting/activated/redundant Service Workers,https://github.com/w3c/ServiceWorker/issues/1247,2017-12-14T17:25:51Z,2020-04-03T11:36:01Z,dfabulich,,12
+282178922,false,Provide an easier way to listen for waiting/activated/redundant Service Workers,https://github.com/w3c/ServiceWorker/issues/1247,2017-12-14T17:25:51Z,2026-10-08T23:38:06Z,dfabulich,,12
 280973827,true,fetch() file stream fails when passing through fetch handler,https://github.com/w3c/ServiceWorker/issues/1246,2017-12-11T10:56:23Z,2020-03-17T15:00:34Z,Zectbumo,,0
 280906961,false,Spec additional Client API features in V2,https://github.com/w3c/ServiceWorker/issues/1245,2017-12-11T06:28:56Z,2026-05-29T00:26:12Z,jungkees,,0
 279005604,true," getRegistrations manipulates ES arrays in parallel steps",https://github.com/w3c/ServiceWorker/issues/1241,2017-12-04T14:00:38Z,2017-12-08T18:53:00Z,bzbarsky,,0
@@ -398,7 +398,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 274423841,true,Clean up prose about waitUntil on install & activate events,https://github.com/w3c/ServiceWorker/issues/1227,2017-11-16T07:53:09Z,2017-12-21T01:36:11Z,jungkees,spec detail,0
 274208678,false,How to handle redirected URL for login authentication offline.,https://github.com/w3c/ServiceWorker/issues/1226,2017-11-15T15:59:13Z,2023-01-25T16:57:33Z,RakeshLchanSarma,,0
 273944542,true,Why is the scope to registration map and ordered map?,https://github.com/w3c/ServiceWorker/issues/1225,2017-11-14T21:12:38Z,2017-11-16T00:10:32Z,cdumez,,0
-273938966,false,Run Job does not specify which event loop to queue its tasks on,https://github.com/w3c/ServiceWorker/issues/1224,2017-11-14T20:53:45Z,2020-04-14T17:03:43Z,mkruisselbrink,,0
+273938966,false,Run Job does not specify which event loop to queue its tasks on,https://github.com/w3c/ServiceWorker/issues/1224,2017-11-14T20:53:45Z,2026-10-08T23:49:47Z,mkruisselbrink,,0
 273357160,true,Provide a way to ask the waiting Service Worker to skip waiting from the outside,https://github.com/w3c/ServiceWorker/issues/1223,2017-11-13T09:13:47Z,2017-11-13T18:00:24Z,dfabulich,,0
 273354469,false,Provide a one-line way to listen for a waiting Service Worker,https://github.com/w3c/ServiceWorker/issues/1222,2017-11-13T09:03:23Z,2023-10-06T09:46:47Z,dfabulich,,9
 272354179,false,Should we specify behavior for using objects from detached contexts?,https://github.com/w3c/ServiceWorker/issues/1221,2017-11-08T21:23:00Z,2026-09-18T00:05:18Z,mfalken,,0
