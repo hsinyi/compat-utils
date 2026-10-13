@@ -1,5 +1,7 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5821379130,true,Upcoming WHATNOT meeting on 20YY-MM-DD,https://github.com/whatwg/html/issues/13064,2026-10-12T22:33:33Z,2026-10-12T23:57:13Z,jagnusamuyal-ux,invalid,0
+5834313759,false,Authors have no way to ask for a higher or lower pixel density than the browser's default when selecting from `srcset`,https://github.com/whatwg/html/issues/13069,2026-10-13T16:54:52Z,2026-10-13T17:08:46Z,austinh,addition/proposal|needs implementer interest|topic: img,0
+5832955917,false,Media element attributes resolve against the fragment parser's inert document's base URL,https://github.com/whatwg/html/issues/13068,2026-10-13T15:19:54Z,2026-10-13T15:19:54Z,noamr,,0
+5832051542,false,Internal ancestor origin objects list creation steps always get a null parentDoc,https://github.com/whatwg/html/issues/13066,2026-10-13T14:23:04Z,2026-10-13T14:23:04Z,zcorpan,,0
 5766110290,false,Upcoming WHATNOT meeting on 2026-10-15,https://github.com/whatwg/html/issues/13052,2026-10-08T17:25:07Z,2026-10-13T01:41:11Z,jstenback,agenda+,0
 5765173687,false,Proposal: Expose sequential focus navigation primitives,https://github.com/whatwg/html/issues/13051,2026-10-08T16:14:48Z,2026-10-08T16:15:22Z,vmpstr,addition/proposal|needs implementer interest,0
 5758984989,false,"""Update the image data"" keeps a stale pixel density when a partially available image is reselected",https://github.com/whatwg/html/issues/13049,2026-10-08T09:03:26Z,2026-10-08T09:06:23Z,zcorpan,topic: img,0
@@ -30,7 +32,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5583918809,false,"""rules for updating the text track rendering"" is incompatible with WebVTT implementation",https://github.com/whatwg/html/issues/12994,2026-09-25T14:05:38Z,2026-10-12T12:53:49Z,TimvdLippe,topic: media,0
 5574650092,true,Upcoming WHATNOT meeting on 2026-10-01,https://github.com/whatwg/html/issues/12988,2026-09-24T21:14:35Z,2026-10-01T20:53:09Z,jstenback,agenda+,0
 5564354868,false,Duplicate MDN annotations and malformed MDN URLs for “Serializable objects”,https://github.com/whatwg/html/issues/12987,2026-09-24T06:49:57Z,2026-09-24T14:08:53Z,JinDX,impacts documentation,0
-5559805314,false,Media elements fire `error` event on `source` even if it has been removed/moved,https://github.com/whatwg/html/issues/12986,2026-09-23T21:34:00Z,2026-10-07T08:45:15Z,zcorpan,topic: media,0
+5559805314,true,Media elements fire `error` event on `source` even if it has been removed/moved,https://github.com/whatwg/html/issues/12986,2026-09-23T21:34:00Z,2026-10-13T11:05:59Z,zcorpan,topic: media,0
 5556684180,false,"Should setting designMode = ""on"" clear the focused element even if it's in a shadow root?",https://github.com/whatwg/html/issues/12985,2026-09-23T16:58:36Z,2026-09-30T07:54:18Z,ltenmoz,topic: shadow,0
 5550066625,true,`optgroup` only uses a child `legend` if it's the first child,https://github.com/whatwg/html/issues/12982,2026-09-23T07:13:13Z,2026-09-30T18:38:11Z,zcorpan,topic: select,0
 5539824800,true,Typo in HTML version of standard for: 13.2.5.84 Numeric character reference end state,https://github.com/whatwg/html/issues/12979,2026-09-22T12:51:48Z,2026-09-22T19:25:33Z,matty-hall,topic: parser|editorial,0
@@ -466,7 +468,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3789433373,true,"""update a color well control color"" works based on the input value concept while WPT expects the value attribute",https://github.com/whatwg/html/issues/12057,2026-01-07T16:27:03Z,2026-01-14T13:00:53Z,saschanaz,topic: forms,1
 3787213214,false,Cryptographic User Content Offload/Obfuscation,https://github.com/whatwg/html/issues/12055,2026-01-07T03:26:19Z,2026-01-07T03:26:19Z,skeggse,addition/proposal|needs implementer interest,1
 3785243871,true,Should HTMLInputElement.colorSpace setter trigger sanitization?,https://github.com/whatwg/html/issues/12053,2026-01-06T13:59:06Z,2026-01-06T15:58:14Z,saschanaz,,0
-3771255288,false,Filtering support for customizable select,https://github.com/whatwg/html/issues/12050,2025-12-30T20:46:20Z,2026-09-30T18:31:08Z,josepharhar,addition/proposal|needs implementer interest|topic: select,4
+3771255288,false,Filtering support for customizable select,https://github.com/whatwg/html/issues/12050,2025-12-30T20:46:20Z,2026-10-13T17:13:46Z,josepharhar,addition/proposal|needs implementer interest|topic: select,4
 3771158236,false,Base appearance for drop-down select multiple,https://github.com/whatwg/html/issues/12049,2025-12-30T20:02:00Z,2026-01-09T01:59:57Z,josepharhar,topic: select,0
 3769282508,false,Unclear interactions between Resource Timing and preloads,https://github.com/whatwg/html/issues/12047,2025-12-30T06:50:38Z,2025-12-30T06:50:38Z,jdm,,0
 3768896787,false,Worker constructor specification doesn't match browser behaviour for cross-origin URLs,https://github.com/whatwg/html/issues/12046,2025-12-30T03:06:52Z,2025-12-30T03:07:27Z,jdm,,0
@@ -767,7 +769,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3209873571,true,hidden=until-found and details revealing algorithms can loop infinitely,https://github.com/whatwg/html/issues/11436,2025-07-07T18:13:40Z,2025-08-01T10:52:42Z,nt1m,,0
 3209527176,true,Meeting 24 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11435,2025-07-07T15:56:22Z,2026-09-17T17:51:30Z,mfreed7,task-force-agenda,0
 3203772187,true,Origin not set for documents created with DOMParser,https://github.com/whatwg/html/issues/11429,2025-07-04T22:05:14Z,2026-09-02T13:43:11Z,tcl3,,0
-3202027393,false,Responsive images with `srcset` unexpectedly upscale when using `object-fit: none` or `scale-down`,https://github.com/whatwg/html/issues/11428,2025-07-04T09:47:33Z,2025-07-07T10:27:49Z,zipper,,6
+3202027393,false,Responsive images with `srcset` unexpectedly upscale when using `object-fit: none` or `scale-down`,https://github.com/whatwg/html/issues/11428,2025-07-04T09:47:33Z,2026-10-13T17:06:56Z,zipper,,6
 3199612715,true,Upcoming WHATNOT meeting on 2025-07-17,https://github.com/whatwg/html/issues/11427,2025-07-03T14:32:35Z,2025-12-04T21:35:24Z,cwilso,,0
 3192305368,false,Add tone mapping parameters to CanvasRenderingContext2DSettings,https://github.com/whatwg/html/issues/11424,2025-07-01T12:31:55Z,2025-07-02T07:46:37Z,ccameron-chromium,addition/proposal|topic: canvas,0
 3189947347,true,Spec issue: `form` property of input controls in Shadow DOM is inconsistent across browsers,https://github.com/whatwg/html/issues/11423,2025-06-30T21:45:26Z,2025-07-02T10:51:38Z,mozesstumpf,topic: shadow|topic: forms|interop,0
@@ -2541,7 +2543,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1073943544,false,Focus restoration for same-document/fragment back-forward navigation,https://github.com/whatwg/html/issues/7397,2021-12-08T02:30:02Z,2022-08-08T07:17:42Z,WestonThayer,addition/proposal|topic: history|interop|topic: focus,2
 1072970331,false,"Meta: specs using ""page visibility change steps""",https://github.com/whatwg/html/issues/7396,2021-12-07T06:32:05Z,2021-12-07T06:33:00Z,marcoscaceres,,0
 1072436933,false,<select> dynamic <option> insertion doesn't match browser reality,https://github.com/whatwg/html/issues/7395,2021-12-06T17:56:35Z,2021-12-13T20:18:49Z,dandclark,topic: forms,0
-1071265898,false,"Element request: `<h>` to reconcile heading levels, outlines, and components",https://github.com/whatwg/html/issues/7390,2021-12-04T18:17:36Z,2025-06-28T08:50:43Z,kellytk,addition/proposal|needs implementer interest,27
+1071265898,false,"Element request: `<h>` to reconcile heading levels, outlines, and components",https://github.com/whatwg/html/issues/7390,2021-12-04T18:17:36Z,2025-06-28T08:50:43Z,kellytk,addition/proposal|needs implementer interest,28
 1071222545,false,Support link modulepreload for import assertions,https://github.com/whatwg/html/issues/7388,2021-12-04T14:41:49Z,2021-12-21T21:04:51Z,uasan,addition/proposal|needs implementer interest|topic: link,1
 1071104407,true,"js drawImage ",https://github.com/whatwg/html/issues/7387,2021-12-04T03:00:23Z,2021-12-04T11:57:32Z,Ali-Hassan-Ali,,0
 1071062389,true,What should happen when setting `location.hash = location.hash`?,https://github.com/whatwg/html/issues/7386,2021-12-04T00:07:21Z,2022-01-12T17:14:26Z,cpeterso,topic: navigation|interop,0
