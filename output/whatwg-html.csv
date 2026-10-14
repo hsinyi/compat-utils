@@ -1,9 +1,13 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5834313759,false,Authors have no way to ask for a higher or lower pixel density than the browser's default when selecting from `srcset`,https://github.com/whatwg/html/issues/13069,2026-10-13T16:54:52Z,2026-10-13T17:08:46Z,austinh,addition/proposal|needs implementer interest|topic: img,0
+5850202139,false,Custom element registry for elements created inside `<template for>`,https://github.com/whatwg/html/issues/13076,2026-10-14T15:02:23Z,2026-10-14T15:17:28Z,zcorpan,,0
+5850201827,false,Should `<template for>` patch when `shadowrootmode` doesn't attach a shadow root?,https://github.com/whatwg/html/issues/13075,2026-10-14T15:02:22Z,2026-10-14T15:16:33Z,zcorpan,,1
+5846920661,false,`drawImage()` with a density-corrected `img`: image pixels or CSS pixels?,https://github.com/whatwg/html/issues/13074,2026-10-14T11:25:53Z,2026-10-14T14:56:37Z,zcorpan,topic: canvas|topic: img|interop,0
+5845824972,false,Timing of CE reactions with adoption agency,https://github.com/whatwg/html/issues/13072,2026-10-14T10:03:39Z,2026-10-14T10:14:03Z,noamr,topic: sanitizer,0
+5834313759,false,Authors have no way to ask for a higher or lower pixel density than the browser's default when selecting from `srcset`,https://github.com/whatwg/html/issues/13069,2026-10-13T16:54:52Z,2026-10-14T16:01:02Z,austinh,addition/proposal|needs implementer interest|topic: img,0
 5832955917,false,Media element attributes resolve against the fragment parser's inert document's base URL,https://github.com/whatwg/html/issues/13068,2026-10-13T15:19:54Z,2026-10-13T22:08:10Z,noamr,topic: media,0
 5832051542,false,Internal ancestor origin objects list creation steps always get a null parentDoc,https://github.com/whatwg/html/issues/13066,2026-10-13T14:23:04Z,2026-10-13T14:23:04Z,zcorpan,,0
 5766110290,false,Upcoming WHATNOT meeting on 2026-10-15,https://github.com/whatwg/html/issues/13052,2026-10-08T17:25:07Z,2026-10-13T01:41:11Z,jstenback,agenda+,0
-5765173687,false,Proposal: Expose sequential focus navigation primitives,https://github.com/whatwg/html/issues/13051,2026-10-08T16:14:48Z,2026-10-08T16:15:22Z,vmpstr,addition/proposal|needs implementer interest,0
+5765173687,false,Proposal: Expose sequential focus navigation primitives,https://github.com/whatwg/html/issues/13051,2026-10-08T16:14:48Z,2026-10-08T16:15:22Z,vmpstr,addition/proposal|needs implementer interest,2
 5758984989,false,"""Update the image data"" keeps a stale pixel density when a partially available image is reselected",https://github.com/whatwg/html/issues/13049,2026-10-08T09:03:26Z,2026-10-08T09:06:23Z,zcorpan,topic: img,0
 5758981647,false,"Preload sets href to the result of ""select an image source from a source set"", which isn't a URL",https://github.com/whatwg/html/issues/13048,2026-10-08T09:03:10Z,2026-10-08T09:05:56Z,zcorpan,topic: resource hints (inc. preload),0
 5758518099,false,Expose crossOriginIsolated on worklets,https://github.com/whatwg/html/issues/13047,2026-10-08T08:26:42Z,2026-10-08T08:26:42Z,mjwilson-google,addition/proposal|needs implementer interest,0
@@ -25,7 +29,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5660449132,false,Sanitizer support for legacy full-document sinks,https://github.com/whatwg/html/issues/13013,2026-10-01T10:06:18Z,2026-10-02T07:11:47Z,noamr,addition/proposal|needs implementer interest|topic: sanitizer,0
 5655954255,true,"Is whitespace around type=""module"" stripped?",https://github.com/whatwg/html/issues/13012,2026-10-01T02:32:29Z,2026-10-05T13:53:33Z,karlcow,,0
 5654148016,false,Integrate `<install>` element (pending second implementer interest),https://github.com/whatwg/html/issues/13011,2026-09-30T23:02:26Z,2026-09-30T23:02:26Z,LiaHiscock,,2
-5643828813,false,Reflection of `<template for>` in mutation observers,https://github.com/whatwg/html/issues/13008,2026-09-30T08:53:43Z,2026-10-13T20:35:33Z,noamr,addition/proposal|topic: parser,0
+5643828813,false,Reflection of `<template for>` in mutation observers,https://github.com/whatwg/html/issues/13008,2026-09-30T08:53:43Z,2026-10-14T06:40:42Z,noamr,addition/proposal|topic: parser,0
 5628036306,false,History traversal and reload: which initiator does the request carry? (follow-up to #4446),https://github.com/whatwg/html/issues/13003,2026-09-29T09:05:03Z,2026-09-30T07:46:24Z,sideshowbarker,compat|topic: navigation,0
 5610790773,false,Per-list-item `::marker` box sizing/alignment + wrapped list item indentation controls,https://github.com/whatwg/html/issues/13000,2026-09-28T07:14:54Z,2026-10-02T00:52:13Z,commiterate,addition/proposal|needs implementer interest,0
 5594976898,false,Select base appearance needs improvements,https://github.com/whatwg/html/issues/12996,2026-09-26T15:08:00Z,2026-09-30T07:55:17Z,annevk,topic: rendering|topic: select,0
@@ -217,7 +221,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4642287287,true,Meeting 45 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12569,2026-06-11T16:17:41Z,2026-09-17T16:31:00Z,mfreed7,task-force-agenda,0
 4639775560,false,"""Create navigation params by fetching"" missing iframe element referer policy",https://github.com/whatwg/html/issues/12567,2026-06-11T11:01:15Z,2026-06-11T11:01:15Z,AtkinsSJ,,0
 4639615808,false,`container` variable in internal ancestor origin objects list creation steps is unused,https://github.com/whatwg/html/issues/12566,2026-06-11T10:39:19Z,2026-06-11T10:39:19Z,AtkinsSJ,,0
-4636029072,false,"No way to read an image's true intrinsic dimensions when sizes=""auto"" (or any w-descriptor srcset) is used",https://github.com/whatwg/html/issues/12565,2026-06-11T00:13:53Z,2026-10-12T08:33:46Z,austinh,needs implementer interest|topic: img,0
+4636029072,false,"No way to read an image's true intrinsic dimensions when sizes=""auto"" (or any w-descriptor srcset) is used",https://github.com/whatwg/html/issues/12565,2026-06-11T00:13:53Z,2026-10-14T14:52:41Z,austinh,needs implementer interest|topic: img,0
 4634483543,false,Critical/Minor Ambiguity: Server-Sent Events MUST return event.data,https://github.com/whatwg/html/issues/12564,2026-06-10T19:51:29Z,2026-07-08T17:40:08Z,jabcreations,topic: eventsource,0
 4633061375,false,"""Evaluate a javascript url"" refers to non-existent targetSnapshotParams.",https://github.com/whatwg/html/issues/12563,2026-06-10T16:29:41Z,2026-06-12T13:26:55Z,AtkinsSJ,topic: javascript: URLs,0
 4630107413,true,Nodes are made non-inert before sanitizing,https://github.com/whatwg/html/issues/12560,2026-06-10T10:02:38Z,2026-10-13T22:19:53Z,zcorpan,topic: sanitizer,0
@@ -2664,7 +2668,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 992032832,true,What should happen when a page redirects to a data: URL?,https://github.com/whatwg/html/issues/7045,2021-09-09T10:00:45Z,2021-09-10T16:27:33Z,jakearchibald,,0
 991247586,true,"[COOP] ""check if enforcing report-only COOP would require a browsing context group switch"" algorithm doesn't seem to match WPT tests",https://github.com/whatwg/html/issues/7041,2021-09-08T15:10:35Z,2021-09-09T00:17:32Z,cdumez,,0
 991235595,false,"[COOP] Typo in ""check if enforcing report-only COOP would require a browsing context group switch"" algorithm",https://github.com/whatwg/html/issues/7040,2021-09-08T14:59:14Z,2021-09-08T15:57:54Z,cdumez,clarification|topic: cross-origin-opener-policy,1
-991105055,false,Proposal for Element.currentLang and Element.currentDir,https://github.com/whatwg/html/issues/7039,2021-09-08T12:48:15Z,2025-08-07T08:27:36Z,claviska,addition/proposal|needs implementer interest|i18n-tracker,54
+991105055,false,Proposal for Element.currentLang and Element.currentDir,https://github.com/whatwg/html/issues/7039,2021-09-08T12:48:15Z,2026-10-14T15:09:33Z,claviska,addition/proposal|needs implementer interest|i18n-tracker,54
 991087850,true,SubmitEvent.submitter should be HTMLButtonElement instead of HTMLElement,https://github.com/whatwg/html/issues/7038,2021-09-08T12:32:51Z,2021-09-08T18:01:55Z,poacher2k,,0
 990422869,false,Why is <object> doing half of replaced element sizing negotiation?,https://github.com/whatwg/html/issues/7037,2021-09-07T23:19:15Z,2021-09-08T13:11:25Z,tabatkins,topic: embed and object,0
 990069095,false,Where are steps about recalculate styles and update layer tree before painting? (question),https://github.com/whatwg/html/issues/7036,2021-09-07T14:50:55Z,2021-09-16T09:32:47Z,dSalieri,clarification|interop,0
