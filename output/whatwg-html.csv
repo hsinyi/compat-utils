@@ -1,6 +1,6 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 5834313759,false,Authors have no way to ask for a higher or lower pixel density than the browser's default when selecting from `srcset`,https://github.com/whatwg/html/issues/13069,2026-10-13T16:54:52Z,2026-10-13T17:08:46Z,austinh,addition/proposal|needs implementer interest|topic: img,0
-5832955917,false,Media element attributes resolve against the fragment parser's inert document's base URL,https://github.com/whatwg/html/issues/13068,2026-10-13T15:19:54Z,2026-10-13T15:19:54Z,noamr,,0
+5832955917,false,Media element attributes resolve against the fragment parser's inert document's base URL,https://github.com/whatwg/html/issues/13068,2026-10-13T15:19:54Z,2026-10-13T22:08:10Z,noamr,topic: media,0
 5832051542,false,Internal ancestor origin objects list creation steps always get a null parentDoc,https://github.com/whatwg/html/issues/13066,2026-10-13T14:23:04Z,2026-10-13T14:23:04Z,zcorpan,,0
 5766110290,false,Upcoming WHATNOT meeting on 2026-10-15,https://github.com/whatwg/html/issues/13052,2026-10-08T17:25:07Z,2026-10-13T01:41:11Z,jstenback,agenda+,0
 5765173687,false,Proposal: Expose sequential focus navigation primitives,https://github.com/whatwg/html/issues/13051,2026-10-08T16:14:48Z,2026-10-08T16:15:22Z,vmpstr,addition/proposal|needs implementer interest,0
@@ -25,7 +25,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5660449132,false,Sanitizer support for legacy full-document sinks,https://github.com/whatwg/html/issues/13013,2026-10-01T10:06:18Z,2026-10-02T07:11:47Z,noamr,addition/proposal|needs implementer interest|topic: sanitizer,0
 5655954255,true,"Is whitespace around type=""module"" stripped?",https://github.com/whatwg/html/issues/13012,2026-10-01T02:32:29Z,2026-10-05T13:53:33Z,karlcow,,0
 5654148016,false,Integrate `<install>` element (pending second implementer interest),https://github.com/whatwg/html/issues/13011,2026-09-30T23:02:26Z,2026-09-30T23:02:26Z,LiaHiscock,,2
-5643828813,false,Reflection of `<template for>` in mutation observers,https://github.com/whatwg/html/issues/13008,2026-09-30T08:53:43Z,2026-10-12T16:42:34Z,noamr,addition/proposal|topic: parser,0
+5643828813,false,Reflection of `<template for>` in mutation observers,https://github.com/whatwg/html/issues/13008,2026-09-30T08:53:43Z,2026-10-13T20:35:33Z,noamr,addition/proposal|topic: parser,0
 5628036306,false,History traversal and reload: which initiator does the request carry? (follow-up to #4446),https://github.com/whatwg/html/issues/13003,2026-09-29T09:05:03Z,2026-09-30T07:46:24Z,sideshowbarker,compat|topic: navigation,0
 5610790773,false,Per-list-item `::marker` box sizing/alignment + wrapped list item indentation controls,https://github.com/whatwg/html/issues/13000,2026-09-28T07:14:54Z,2026-10-02T00:52:13Z,commiterate,addition/proposal|needs implementer interest,0
 5594976898,false,Select base appearance needs improvements,https://github.com/whatwg/html/issues/12996,2026-09-26T15:08:00Z,2026-09-30T07:55:17Z,annevk,topic: rendering|topic: select,0
@@ -220,7 +220,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4636029072,false,"No way to read an image's true intrinsic dimensions when sizes=""auto"" (or any w-descriptor srcset) is used",https://github.com/whatwg/html/issues/12565,2026-06-11T00:13:53Z,2026-10-12T08:33:46Z,austinh,needs implementer interest|topic: img,0
 4634483543,false,Critical/Minor Ambiguity: Server-Sent Events MUST return event.data,https://github.com/whatwg/html/issues/12564,2026-06-10T19:51:29Z,2026-07-08T17:40:08Z,jabcreations,topic: eventsource,0
 4633061375,false,"""Evaluate a javascript url"" refers to non-existent targetSnapshotParams.",https://github.com/whatwg/html/issues/12563,2026-06-10T16:29:41Z,2026-06-12T13:26:55Z,AtkinsSJ,topic: javascript: URLs,0
-4630107413,false,Nodes are made non-inert before sanitizing,https://github.com/whatwg/html/issues/12560,2026-06-10T10:02:38Z,2026-06-10T14:55:45Z,zcorpan,topic: sanitizer,0
+4630107413,true,Nodes are made non-inert before sanitizing,https://github.com/whatwg/html/issues/12560,2026-06-10T10:02:38Z,2026-10-13T22:19:53Z,zcorpan,topic: sanitizer,0
 4629211457,true,Select min size,https://github.com/whatwg/html/issues/12559,2026-06-10T07:58:01Z,2026-06-10T12:52:55Z,sb3nder,,0
 4627890896,false,"select fallback button text, div element",https://github.com/whatwg/html/issues/12558,2026-06-10T04:11:54Z,2026-08-19T16:36:11Z,sb3nder,topic: select,0
 4624169534,false,Explicit bug report: selectionStart and selectionEnd missing from applicable form fields,https://github.com/whatwg/html/issues/12555,2026-06-09T17:31:22Z,2026-06-09T17:31:22Z,jabcreations,,0
@@ -675,7 +675,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3400048571,true,Permanent anchor request: #dom-document-cookie,https://github.com/whatwg/html/issues/11646,2025-09-09T21:36:52Z,2025-09-18T08:25:21Z,sbingler,anchor permanence,1
 3399270456,false,Question: non-obvious steps in document loading algorithms,https://github.com/whatwg/html/issues/11645,2025-09-09T17:11:18Z,2025-09-16T06:40:17Z,TimvdLippe,clarification|topic: navigation|topic: document lifecycle,0
 3397913640,true,Rendering of print media: Clarify specification’s scope,https://github.com/whatwg/html/issues/11644,2025-09-09T11:03:43Z,2025-09-25T14:23:03Z,BrianJDrake,clarification,0
-3395552388,false,[focusgroup] Declarative directional focus navigation for composite widgets,https://github.com/whatwg/html/issues/11641,2025-09-08T20:10:20Z,2026-07-30T03:18:50Z,janewman,addition/proposal|stage: 2,13
+3395552388,false,[focusgroup] Declarative directional focus navigation for composite widgets,https://github.com/whatwg/html/issues/11641,2025-09-08T20:10:20Z,2026-07-30T03:18:50Z,janewman,addition/proposal|stage: 2,14
 3395173912,true,How to set the fill- and/or stroke-color without large overhead? (Canvas API -- 2D Rendering Context),https://github.com/whatwg/html/issues/11639,2025-09-08T18:14:03Z,2025-09-12T10:21:59Z,0scarB,,0
 3394777681,false,Proposal: Add `preparePrint()` to land all the resources needed by print,https://github.com/whatwg/html/issues/11637,2025-09-08T15:54:18Z,2025-09-23T08:54:06Z,cathiechen,addition/proposal|needs implementer interest,0
 3387646682,true,The appVersion getter steps assume too much about default User-Agent values.,https://github.com/whatwg/html/issues/11630,2025-09-05T13:53:44Z,2025-09-10T05:17:38Z,Psychpsyo,,0
@@ -1957,7 +1957,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1620435821,true,Need a clean and standardized way to retreive some informations about user agent enabled features from server side,https://github.com/whatwg/html/issues/9014,2023-03-12T17:00:05Z,2023-03-13T10:46:00Z,flavi1,,0
 1620389163,true,[proposal] shadow dom support on <prefixed:xml_element />,https://github.com/whatwg/html/issues/9013,2023-03-12T14:39:28Z,2023-03-13T15:55:08Z,flavi1,,0
 1619037226,true,[proposal] Integrate handlebars as a native available template engine in html,https://github.com/whatwg/html/issues/9004,2023-03-10T14:06:38Z,2023-03-12T06:33:30Z,flavi1,,0
-4621590082,false,Streaming sanitizer support,https://github.com/whatwg/html/issues/12543,2023-03-10T12:23:02Z,2026-06-09T11:40:17Z,zcorpan,topic: sanitizer,0
+4621590082,true,Streaming sanitizer support,https://github.com/whatwg/html/issues/12543,2023-03-10T12:23:02Z,2026-10-13T22:19:54Z,zcorpan,topic: sanitizer,0
 1618871157,false,[Proposal] A way to load parts of a page instead of the entire page.,https://github.com/whatwg/html/issues/9003,2023-03-10T12:03:32Z,2023-03-10T19:52:38Z,flavi1,,0
 1618129848,true,Upcoming HTML standard issue triage meeting on 3/23/2023,https://github.com/whatwg/html/issues/9002,2023-03-09T23:18:35Z,2023-03-23T22:01:10Z,past,agenda+,0
 1616877531,false,Storage Access API Standardization,https://github.com/whatwg/html/issues/9000,2023-03-09T10:16:50Z,2025-11-12T05:44:57Z,johannhof,addition/proposal|topic: cookie,3
