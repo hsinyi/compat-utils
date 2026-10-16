@@ -76,7 +76,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1812204018,false,"Unregister a service worker when another tab is controlled by it can ""resurrect"" it (Chrome)",https://github.com/w3c/ServiceWorker/issues/1687,2023-07-19T15:31:54Z,2024-04-16T15:58:48Z,signorpipo,,0
 1788564093,false,Wanna know what kind of module i'm dealing with,https://github.com/w3c/ServiceWorker/issues/1685,2023-07-04T23:41:42Z,2023-07-04T23:55:35Z,jimmywarting,,1
 1760195685,false,Should Cache#addAll reject with AbortSignal's reason if the signal is already aborted?,https://github.com/w3c/ServiceWorker/issues/1684,2023-06-16T08:42:10Z,2023-07-26T22:43:28Z,CYBAI,,0
-1716243163,false,Support subresource integrity for service workers,https://github.com/w3c/ServiceWorker/issues/1680,2023-05-18T20:49:28Z,2024-07-19T20:25:30Z,hlandau,,14
+1716243163,false,Support subresource integrity for service workers,https://github.com/w3c/ServiceWorker/issues/1680,2023-05-18T20:49:28Z,2024-07-19T20:25:30Z,hlandau,,15
 1713254048,false,FetchEvent: add origin check before setting replacesClientId,https://github.com/w3c/ServiceWorker/issues/1679,2023-05-17T06:59:32Z,2023-05-17T07:00:09Z,gterzian,,0
 1671860408,false,Batch Cache Operations can't return an empty list,https://github.com/w3c/ServiceWorker/issues/1677,2023-04-17T19:44:39Z,2023-04-17T19:44:39Z,KhafraDev,,0
 1600079409,false,Service Worker Redirect,https://github.com/w3c/ServiceWorker/issues/1673,2023-02-26T14:33:55Z,2023-02-28T14:06:07Z,kemalogluk,,0
@@ -182,15 +182,15 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 696269208,true,Virtual Call: pattern matching scopes,https://github.com/w3c/ServiceWorker/issues/1535,2020-09-09T00:05:10Z,2020-10-13T21:24:21Z,wanderview,,0
 683700596,false,Proposal: clientURL property on FetchEvent,https://github.com/w3c/ServiceWorker/issues/1532,2020-08-21T17:15:46Z,2020-08-24T19:47:15Z,jeffposnick,,2
 678604402,false,allow service workers to created nested dedicated workers,https://github.com/w3c/ServiceWorker/issues/1529,2020-08-13T17:09:38Z,2025-11-08T04:44:17Z,wanderview,,7
-668821197,false,should sec-ch-ua headers be visible in FetchEvent.request.headers,https://github.com/w3c/ServiceWorker/issues/1525,2020-07-30T14:50:50Z,2020-08-17T14:46:03Z,wanderview,,0
+668821197,false,should sec-ch-ua headers be visible in FetchEvent.request.headers,https://github.com/w3c/ServiceWorker/issues/1525,2020-07-30T14:50:50Z,2026-10-16T00:59:15Z,wanderview,,0
 660093171,true,"Open(cacheName) resolvse with null value, though cacheName matches key",https://github.com/w3c/ServiceWorker/issues/1524,2020-07-18T11:29:43Z,2020-07-28T14:28:18Z,ATerentjev,,0
-653812361,false,What to do when an installed service worker's certificate changes/expires,https://github.com/w3c/ServiceWorker/issues/1523,2020-07-09T06:53:58Z,2020-08-11T08:59:42Z,mfalken,,2
+653812361,false,What to do when an installed service worker's certificate changes/expires,https://github.com/w3c/ServiceWorker/issues/1523,2020-07-09T06:53:58Z,2026-10-16T00:52:15Z,mfalken,,2
 652877656,false,Make WebRTC usable as a backend for Service Workers to fulfill requests from a peer-to-peer network,https://github.com/w3c/ServiceWorker/issues/1522,2020-07-08T03:10:05Z,2021-02-20T21:34:54Z,interfect,,12
 650838554,true,why service-worker.js can not be automatically detected,https://github.com/w3c/ServiceWorker/issues/1521,2020-07-04T06:40:56Z,2020-07-04T13:02:58Z,UNDERCOVERj,,0
-649147533,false,can service worker scope include `username:password@` URL credentials?,https://github.com/w3c/ServiceWorker/issues/1520,2020-07-01T17:23:37Z,2020-07-02T07:11:01Z,wanderview,,0
-643925241,false,Error handling inconsistent with other Workers,https://github.com/w3c/ServiceWorker/issues/1519,2020-06-23T15:12:19Z,2020-07-14T16:50:20Z,scottpledger,,0
+649147533,false,can service worker scope include `username:password@` URL credentials?,https://github.com/w3c/ServiceWorker/issues/1520,2020-07-01T17:23:37Z,2026-10-16T00:35:36Z,wanderview,,0
+643925241,false,Error handling inconsistent with other Workers,https://github.com/w3c/ServiceWorker/issues/1519,2020-06-23T15:12:19Z,2026-10-16T00:46:05Z,scottpledger,,0
 638612378,true,register() lacks same origin check,https://github.com/w3c/ServiceWorker/issues/1518,2020-06-15T07:27:49Z,2021-03-05T08:43:35Z,annevk,security-tracker,0
-638294333,false,"Handle Fetch ""process response"" callback appears to run on wrong event-loop",https://github.com/w3c/ServiceWorker/issues/1517,2020-06-14T06:31:48Z,2020-06-14T09:27:40Z,gterzian,,0
+638294333,false,"Handle Fetch ""process response"" callback appears to run on wrong event-loop",https://github.com/w3c/ServiceWorker/issues/1517,2020-06-14T06:31:48Z,2026-10-16T00:28:01Z,gterzian,,0
 626821473,false,Service worker client URL discrepancy,https://github.com/w3c/ServiceWorker/issues/1515,2020-05-28T21:18:47Z,2026-05-29T08:22:41Z,JackieNiebling,,3
 626332312,false,Service Workers with Self Signed Certificates over SSL,https://github.com/w3c/ServiceWorker/issues/1514,2020-05-28T08:45:59Z,2022-04-28T01:35:45Z,diipak-bisht,,2
 622034299,false,Expose the Fetch Metadata Request Headers,https://github.com/w3c/ServiceWorker/issues/1513,2020-05-20T19:36:05Z,2024-11-05T04:46:04Z,samdenty,,1
