@@ -1,9 +1,10 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5866656439,false,Don't set force async to false in Fragment scripting mode,https://github.com/whatwg/html/pull/13080,2026-10-15T13:03:54Z,2026-10-16T15:28:47Z,noamr,,0
+5892476091,false,Only run the CORP check on HTTP(S) navigation responses,https://github.com/whatwg/html/pull/13087,2026-10-16T23:12:52Z,2026-10-17T00:39:28Z,shannonbooth,,0
+5866656439,false,Don't set force async to false in Fragment scripting mode,https://github.com/whatwg/html/pull/13080,2026-10-15T13:03:54Z,2026-10-16T21:51:19Z,noamr,,0
 5853944465,false,Allow callers of navigate to supply the navigation ID,https://github.com/whatwg/html/pull/13078,2026-10-14T19:07:42Z,2026-10-14T19:10:50Z,stalgiag,,0
 5846507950,false,"Meta: Fix prototype lookup, regex defects, canvas stroke, and worker bugs",https://github.com/whatwg/html/pull/13073,2026-10-14T10:54:26Z,2026-10-14T10:57:25Z,shashidhar-02,,0
 5838376474,false,Editorial: fix undefined variable when creating a Document,https://github.com/whatwg/html/pull/13070,2026-10-13T21:59:38Z,2026-10-13T22:02:42Z,shannonbooth,,0
-5832189435,false,Fix `location.ancestorOrigins` always being empty,https://github.com/whatwg/html/pull/13067,2026-10-13T14:32:01Z,2026-10-16T09:50:35Z,zcorpan,,1
+5832189435,false,Fix `location.ancestorOrigins` always being empty,https://github.com/whatwg/html/pull/13067,2026-10-13T14:32:01Z,2026-10-16T22:29:56Z,zcorpan,do not merge yet,1
 5814417462,false,AsyncContext proposal integration,https://github.com/whatwg/html/pull/13063,2026-10-12T13:18:24Z,2026-10-13T17:14:34Z,nicolo-ribaudo,,2
 5789509169,false,Ensure that img dimensions are derived synchronously,https://github.com/whatwg/html/pull/13057,2026-10-10T08:17:22Z,2026-10-14T09:15:15Z,TimvdLippe,,0
 5780136237,true,Allow restricting serialization and transfer to the same agent cluster,https://github.com/whatwg/html/pull/13055,2026-10-09T14:56:13Z,2026-10-14T06:15:05Z,annevk,topic: serialize and transfer|topic: agent,0
@@ -273,7 +274,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4136746421,true,Upstream the Sanitizer API (WIP),https://github.com/whatwg/html/pull/12314,2026-03-25T16:26:15Z,2026-06-08T08:00:45Z,zcorpan,,2
 4136066854,true,Editorial: Fix missing document argument when calling check popover validity wit…,https://github.com/whatwg/html/pull/12313,2026-03-25T14:55:52Z,2026-03-30T12:23:54Z,lukewarlow,,0
 4134584015,true,Editorial: add note why error pages still fire a load event,https://github.com/whatwg/html/pull/12312,2026-03-25T11:12:34Z,2026-03-31T14:37:38Z,TimvdLippe,,0
-4120801613,false,Pass `targetSnapshotParams` to evaluate a `javascript:` URL,https://github.com/whatwg/html/pull/12303,2026-03-23T13:15:44Z,2026-10-15T11:15:04Z,zcorpan,topic: javascript: URLs,0
+4120801613,false,Pass `targetSnapshotParams` to evaluate a `javascript:` URL,https://github.com/whatwg/html/pull/12303,2026-03-23T13:15:44Z,2026-10-15T11:15:04Z,zcorpan,topic: javascript: URLs,1
 4119309987,true,Editorial: Specify `for` on two structs' properties.,https://github.com/whatwg/html/pull/12302,2026-03-23T08:57:47Z,2026-03-25T09:21:12Z,mikewest,,0
 4116391071,true,Editorial: Fix misc markup and punctuation,https://github.com/whatwg/html/pull/12299,2026-03-22T15:56:20Z,2026-03-23T18:47:27Z,jmdyck,,0
 4115548108,false,Move setting one permitted sandboxed navigator outside noopener branch,https://github.com/whatwg/html/pull/12298,2026-03-22T10:07:19Z,2026-03-22T10:09:02Z,MittelmanDaniel,,0
@@ -443,7 +444,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3478824122,false,Integrate OpaqueRange hooks into text controls (input/textarea),https://github.com/whatwg/html/pull/11741,2025-10-02T20:26:35Z,2026-09-29T00:15:27Z,stephanieyzhang,,0
 3475400447,true,Improve optgroup's list of option elements,https://github.com/whatwg/html/pull/11738,2025-10-01T22:44:46Z,2025-10-17T05:18:57Z,josepharhar,,0
 3475240578,true,Remove optgroup element removal and moving steps,https://github.com/whatwg/html/pull/11737,2025-10-01T21:44:43Z,2025-10-07T12:56:02Z,josepharhar,,0
-3473184206,false,Add CanvasToneMapping to CanvasSettings,https://github.com/whatwg/html/pull/11734,2025-10-01T11:35:30Z,2026-10-15T03:01:04Z,ccameron-chromium,addition/proposal|topic: canvas,0
+3473184206,false,Add CanvasToneMapping to CanvasSettings,https://github.com/whatwg/html/pull/11734,2025-10-01T11:35:30Z,2026-10-16T20:53:10Z,ccameron-chromium,addition/proposal|topic: canvas,0
 3468542329,true,"Clarify preload ""as"" processing",https://github.com/whatwg/html/pull/11727,2025-09-30T09:52:38Z,2025-10-06T06:38:02Z,noamr,,0
 3468172849,true,Consolidate navigation API abort paths,https://github.com/whatwg/html/pull/11725,2025-09-30T08:30:11Z,2025-10-08T12:54:32Z,noamr,,0
 3466650602,false,"[focusgroup] Add the focusgroup attribute ",https://github.com/whatwg/html/pull/11723,2025-09-29T21:16:04Z,2026-10-13T22:32:31Z,janewman,,0
@@ -699,11 +700,11 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2846556240,true,Editorial: move definition of submit button,https://github.com/whatwg/html/pull/11018,2025-02-11T21:31:34Z,2025-02-11T22:07:06Z,keithamus,,0
 2842888093,true,redefine dialog closedby IDL to return computed value,https://github.com/whatwg/html/pull/11015,2025-02-10T16:00:22Z,2025-02-27T09:06:54Z,keithamus,topic: dialog|topic: close watchers,0
 2838206082,true,"Editorial: remove extra ""value"" in ""nonzero"" definition",https://github.com/whatwg/html/pull/11009,2025-02-07T13:47:22Z,2025-02-07T15:06:30Z,foolip,,0
-2835336619,false,Add the `interestfor` attribute,https://github.com/whatwg/html/pull/11006,2025-02-06T12:01:00Z,2026-10-05T19:06:56Z,foolip,,4
+2835336619,false,Add the `interestfor` attribute,https://github.com/whatwg/html/pull/11006,2025-02-06T12:01:00Z,2026-10-16T18:29:03Z,foolip,,4
 2834196191,true,Editorial: switch links back to official CSSWG drafts,https://github.com/whatwg/html/pull/11005,2025-02-05T23:54:24Z,2025-02-06T02:18:33Z,Loirooriol,,0
 2833243175,true,Editorial: fix link and wording for tuple origin,https://github.com/whatwg/html/pull/11001,2025-02-05T15:17:39Z,2025-02-06T01:25:39Z,zcorpan,clarification|topic: origin,0
 2833220272,false,Extend Canvas TextMetrics for editing and text styling,https://github.com/whatwg/html/pull/11000,2025-02-05T15:09:52Z,2026-08-28T15:06:02Z,AndresRPerez12,do not merge yet|topic: canvas,3
-2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2026-10-16T14:23:35Z,dandclark,addition/proposal,0
+2831651123,false,Add reference target,https://github.com/whatwg/html/pull/10995,2025-02-05T01:39:54Z,2026-10-16T18:30:21Z,dandclark,addition/proposal,0
 2831485110,true,Fix dialog focus restoring descendant check,https://github.com/whatwg/html/pull/10994,2025-02-04T23:17:23Z,2025-02-17T02:49:55Z,josepharhar,topic: dialog,0
 2831477610,false,Remove links to defunct Twitter account,https://github.com/whatwg/html/pull/10993,2025-02-04T23:11:22Z,2025-02-12T12:42:41Z,eeeps,meta,1
 2830828832,true,Pass a top-level navigation initiator origin to Fetch,https://github.com/whatwg/html/pull/10991,2025-02-04T17:06:01Z,2025-07-25T09:20:12Z,bvandersloot-mozilla,,0

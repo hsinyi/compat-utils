@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5892440068,false,"""create navigation params by fetching"" blocks `about:blank` and `data:` iframes under COEP",https://github.com/whatwg/html/issues/13086,2026-10-16T23:08:42Z,2026-10-16T23:21:10Z,shannonbooth,,0
 5882314358,false,Inserting an `iframe` into a non-fully active document creates a child navigable,https://github.com/whatwg/html/issues/13085,2026-10-16T10:10:53Z,2026-10-16T12:20:06Z,zcorpan,topic: frames/navigables/browsing contexts,0
 5876108329,true,"unloadPromptCanceled is initialized to false, then checked if it's false",https://github.com/whatwg/html/issues/13084,2026-10-16T00:29:45Z,2026-10-16T00:33:36Z,jdm,topic: document lifecycle,0
 5874144873,false,Lazy `video` poster never loads when no media fetch is parked,https://github.com/whatwg/html/issues/13083,2026-10-15T21:21:55Z,2026-10-15T21:21:55Z,zcorpan,topic: media,0
@@ -211,7 +212,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4693230892,false,Scrolling to a fragment should have consistent focus handling,https://github.com/whatwg/html/issues/12596,2026-06-18T14:21:04Z,2026-10-15T09:06:02Z,Th3S4mur41,topic: navigation|topic: focus,5
 4691671077,false,Consider allowing sync loads from the available image list even for srcset / picture cases.,https://github.com/whatwg/html/issues/12595,2026-06-18T10:52:41Z,2026-06-18T10:52:41Z,emilio,topic: img,0
 4685410868,false,Support QUERY method in form submissions,https://github.com/whatwg/html/issues/12594,2026-06-17T17:04:40Z,2026-07-13T05:17:29Z,chris-morgan,addition/proposal|needs implementer interest|topic: forms,31
-4681867449,false,Localized time formatting without JavaScript,https://github.com/whatwg/html/issues/12591,2026-06-17T09:24:10Z,2026-06-24T16:35:09Z,lucacasonato,addition/proposal|needs implementer interest|i18n-tracker|needs tests|needs concrete proposal|stage: 1,188
+4681867449,false,Localized time formatting without JavaScript,https://github.com/whatwg/html/issues/12591,2026-06-17T09:24:10Z,2026-06-24T16:35:09Z,lucacasonato,addition/proposal|needs implementer interest|i18n-tracker|needs tests|needs concrete proposal|stage: 1,191
 4681580289,false,Specificity of `hidden` attribute table rules is lower than generic `hidden` rules,https://github.com/whatwg/html/issues/12589,2026-06-17T08:43:23Z,2026-06-23T22:52:13Z,mrobinson,topic: rendering,0
 4681421169,false,Proposal: global digest-based inline module resolution,https://github.com/whatwg/html/issues/12588,2026-06-17T08:18:44Z,2026-06-23T17:38:56Z,noamr,addition/proposal|needs implementer interest|topic: script|topic: imports/exports,0
 4681349459,false,"Clarify how proxies (windowproxy, location) are created in terms of js operations",https://github.com/whatwg/html/issues/12587,2026-06-17T08:07:30Z,2026-06-18T09:57:36Z,gterzian,integration|needs concrete proposal,0
@@ -1050,7 +1051,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2802689110,true,"Add a new `<input type=""duration"" ... >`",https://github.com/whatwg/html/issues/10937,2025-01-21T19:55:29Z,2025-01-22T07:18:30Z,TheOneTheOnlyJJ,addition/proposal|needs implementer interest,2
 2801230312,true,"Wording of X-Frame-Options as legacy and ""obseleted""",https://github.com/whatwg/html/issues/10936,2025-01-21T09:32:59Z,2025-01-23T16:16:19Z,tunetheweb,clarification|document conformance,0
 2800651532,false,Details toggle event does not report reason for toggle,https://github.com/whatwg/html/issues/10935,2025-01-21T04:07:37Z,2025-01-21T04:08:13Z,legowerewolf,,0
-2800430480,false,Declarative shadow root adoption,https://github.com/whatwg/html/issues/10933,2025-01-20T23:52:29Z,2025-01-31T20:30:54Z,dead-claudia,addition/proposal|needs implementer interest,1
+2800430480,false,Declarative shadow root adoption,https://github.com/whatwg/html/issues/10933,2025-01-20T23:52:29Z,2025-01-31T20:30:54Z,dead-claudia,addition/proposal|needs implementer interest,0
 2797577015,true,Expand FontFace to expose glyph vector data and unicode shaping.,https://github.com/whatwg/html/issues/10930,2025-01-19T11:34:28Z,2025-01-20T08:27:41Z,CraigglesO,addition/proposal|needs implementer interest,0
 2797380844,true,Reset algorithm doesn't work in form-associated custom elements,https://github.com/whatwg/html/issues/10927,2025-01-19T03:05:16Z,2025-04-01T14:12:51Z,dSalieri,topic: custom elements|topic: forms,0
 2793924035,true,Upcoming WHATNOT meeting on 2025-01-23,https://github.com/whatwg/html/issues/10923,2025-01-16T22:38:09Z,2025-12-04T21:36:38Z,past,,0
@@ -1199,7 +1200,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2568148074,false,Canvas TextMetrics additions for editing and text styling,https://github.com/whatwg/html/issues/10677,2024-10-05T14:53:28Z,2026-10-08T12:50:50Z,schenney-chromium,addition/proposal|needs implementer interest|topic: canvas|i18n-tracker,0
 2567566544,false,Change page refresh URL without redirect,https://github.com/whatwg/html/issues/10676,2024-10-05T00:45:50Z,2024-10-05T07:51:30Z,elcheapogary,addition/proposal|needs implementer interest,1
 2567340503,true,The declarative popover invoker feature needs to automatically establish an implicit anchor element,https://github.com/whatwg/html/issues/10675,2024-10-04T20:49:45Z,2024-11-15T04:41:04Z,tabatkins,integration|topic: popover,0
-2565124238,false,Style Module Imports via `<link>` Elements,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2026-10-16T15:16:38Z,KurtCattiSchmidt,addition/proposal|topic: shadow|topic: script|stage: 2|topic: imports/exports,2
+2565124238,false,Style Module Imports via `<link>` Elements,https://github.com/whatwg/html/issues/10673,2024-10-03T22:55:24Z,2026-10-16T19:11:46Z,KurtCattiSchmidt,addition/proposal|topic: shadow|topic: script|stage: 2|topic: imports/exports,1
 2564519849,false,[images] Lazy loading and out of band loads.,https://github.com/whatwg/html/issues/10671,2024-10-03T16:57:35Z,2026-10-05T23:06:45Z,emilio,compat|topic: img,0
 2563515517,false," dialog ::backdrop default background should adapt to `color-scheme: dark`",https://github.com/whatwg/html/issues/10669,2024-10-03T09:08:32Z,2024-10-04T09:16:16Z,danieltroger,normative change|topic: rendering|topic: dialog,0
 2562416768,true,Upcoming WHATNOT meeting on 2024-10-10,https://github.com/whatwg/html/issues/10666,2024-10-02T18:47:23Z,2024-10-12T00:18:10Z,past,agenda+,0
@@ -1526,7 +1527,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2110281736,false,Autocomplete attribute value to indicate form input is third-party data,https://github.com/whatwg/html/issues/10115,2024-01-31T14:53:46Z,2024-02-10T22:05:47Z,Crissov,addition/proposal|needs implementer interest,0
 2110168598,true,New attribute for avoiding to autocapitalize text input fields,https://github.com/whatwg/html/issues/10114,2024-01-31T14:03:53Z,2024-01-31T14:13:34Z,abelardo-it,addition/proposal|needs implementer interest,0
 2109672413,false,A way to run code before the next frame,https://github.com/whatwg/html/issues/10113,2024-01-31T09:36:50Z,2024-02-10T22:06:50Z,jakearchibald,addition/proposal|needs implementer interest|topic: event loop,0
-2109482796,false,Constrain OffscreenCanvas with a placeholder canvas element,https://github.com/whatwg/html/issues/10112,2024-01-31T07:47:16Z,2026-10-16T15:24:59Z,beaufortfrancois,topic: canvas|topic: workers|topic: serialize and transfer|topic: event loop|agenda+,0
+2109482796,false,Constrain OffscreenCanvas with a placeholder canvas element,https://github.com/whatwg/html/issues/10112,2024-01-31T07:47:16Z,2026-10-16T15:58:25Z,beaufortfrancois,topic: canvas|topic: workers|topic: serialize and transfer|topic: event loop|agenda+,0
 2108396078,false,"`<img sizes=""auto, 100px"" loading=""eager"">`: `auto` equates to `100wv` but should ideally be ignored",https://github.com/whatwg/html/issues/10110,2024-01-30T17:30:07Z,2024-02-28T14:49:26Z,iamakulov,topic: img,4
 2106432046,true,"Should `<a target=""_blank"">` and `window.open` consume the transient activation?",https://github.com/whatwg/html/issues/10108,2024-01-29T21:08:29Z,2024-11-20T09:17:03Z,EdgarChen,topic: user activation,0
 2106308432,true,Should there be an opt-out for declarative shadow roots having `clonable=true`?,https://github.com/whatwg/html/issues/10107,2024-01-29T19:59:06Z,2024-02-13T12:32:37Z,mfreed7,topic: shadow,0
