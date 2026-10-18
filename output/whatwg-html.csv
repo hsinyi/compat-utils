@@ -10,7 +10,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5850202139,false,Custom element registry for elements created inside `<template for>`,https://github.com/whatwg/html/issues/13076,2026-10-14T15:02:23Z,2026-10-14T15:17:28Z,zcorpan,,0
 5850201827,false,Should `<template for>` patch when `shadowrootmode` doesn't attach a shadow root?,https://github.com/whatwg/html/issues/13075,2026-10-14T15:02:22Z,2026-10-14T15:16:33Z,zcorpan,,1
 5846920661,false,`drawImage()` with a density-corrected `img`: image pixels or CSS pixels?,https://github.com/whatwg/html/issues/13074,2026-10-14T11:25:53Z,2026-10-14T14:56:37Z,zcorpan,topic: canvas|topic: img|interop,0
-5845824972,false,Timing of CE reactions with adoption agency,https://github.com/whatwg/html/issues/13072,2026-10-14T10:03:39Z,2026-10-14T10:14:03Z,noamr,topic: sanitizer,0
+5845824972,false,Timing of CE reactions with adoption agency,https://github.com/whatwg/html/issues/13072,2026-10-14T10:03:39Z,2026-10-18T11:54:03Z,noamr,topic: sanitizer,0
 5834313759,false,Authors have no way to ask for a higher or lower pixel density than the browser's default when selecting from `srcset`,https://github.com/whatwg/html/issues/13069,2026-10-13T16:54:52Z,2026-10-14T16:26:06Z,austinh,addition/proposal|needs implementer interest|topic: img,0
 5832955917,false,Media element attributes resolve against the fragment parser's inert document's base URL,https://github.com/whatwg/html/issues/13068,2026-10-13T15:19:54Z,2026-10-13T22:08:10Z,noamr,topic: media,0
 5832051542,false,Internal ancestor origin objects list creation steps always get a null parentDoc,https://github.com/whatwg/html/issues/13066,2026-10-13T14:23:04Z,2026-10-13T14:23:04Z,zcorpan,,0
@@ -781,7 +781,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3209873571,true,hidden=until-found and details revealing algorithms can loop infinitely,https://github.com/whatwg/html/issues/11436,2025-07-07T18:13:40Z,2025-08-01T10:52:42Z,nt1m,,0
 3209527176,true,Meeting 24 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/11435,2025-07-07T15:56:22Z,2026-09-17T17:51:30Z,mfreed7,task-force-agenda,0
 3203772187,true,Origin not set for documents created with DOMParser,https://github.com/whatwg/html/issues/11429,2025-07-04T22:05:14Z,2026-09-02T13:43:11Z,tcl3,,0
-3202027393,false,Responsive images with `srcset` unexpectedly upscale when using `object-fit: none` or `scale-down`,https://github.com/whatwg/html/issues/11428,2025-07-04T09:47:33Z,2026-10-13T17:06:56Z,zipper,,6
+3202027393,false,Responsive images with `srcset` unexpectedly upscale when using `object-fit: none` or `scale-down`,https://github.com/whatwg/html/issues/11428,2025-07-04T09:47:33Z,2026-10-13T17:06:56Z,zipper,,7
 3199612715,true,Upcoming WHATNOT meeting on 2025-07-17,https://github.com/whatwg/html/issues/11427,2025-07-03T14:32:35Z,2025-12-04T21:35:24Z,cwilso,,0
 3192305368,false,Add tone mapping parameters to CanvasRenderingContext2DSettings,https://github.com/whatwg/html/issues/11424,2025-07-01T12:31:55Z,2025-07-02T07:46:37Z,ccameron-chromium,addition/proposal|topic: canvas,0
 3189947347,true,Spec issue: `form` property of input controls in Shadow DOM is inconsistent across browsers,https://github.com/whatwg/html/issues/11423,2025-06-30T21:45:26Z,2025-07-02T10:51:38Z,mozesstumpf,topic: shadow|topic: forms|interop,0
@@ -1936,7 +1936,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1644550338,false,Accessibility Attribute Request,https://github.com/whatwg/html/issues/9084,2023-03-28T19:35:50Z,2023-09-27T23:36:48Z,JaninaSajka,addition/proposal|accessibility|a11y-tracker,1
 1644212949,true,Custom Elements are a means of Extensibility,https://github.com/whatwg/html/issues/9082,2023-03-28T15:36:16Z,2023-05-05T12:32:51Z,bkardell,clarification,2
 1644102877,false,Clarify the sequential focusing behaviour when the current focused element is not in the sequential navigation order,https://github.com/whatwg/html/issues/9081,2023-03-28T14:39:31Z,2023-07-19T20:25:14Z,sefeng211,topic: focus,0
-1642307080,false,"API to get top layer elements ",https://github.com/whatwg/html/issues/9075,2023-03-27T15:18:20Z,2026-06-09T22:58:54Z,sanajaved7,addition/proposal|needs implementer interest,7
+1642307080,false,"API to get top layer elements ",https://github.com/whatwg/html/issues/9075,2023-03-27T15:18:20Z,2026-10-18T12:50:22Z,sanajaved7,addition/proposal|needs implementer interest,8
 1639018892,false,attr-associated elements use inconsistent trees?,https://github.com/whatwg/html/issues/9071,2023-03-24T09:20:42Z,2023-03-24T09:31:50Z,emilio,clarification|topic: shadow|topic: reflect,0
 1638398517,true,Upcoming HTML standard issue triage meeting on 4/6/2023,https://github.com/whatwg/html/issues/9070,2023-03-23T21:59:20Z,2023-04-06T23:46:33Z,past,agenda+,0
 1637320041,true,Should the Window named properties object return supported named properties in [[OwnPropertyKeys]]?,https://github.com/whatwg/html/issues/9068,2023-03-23T11:14:44Z,2023-03-29T05:59:34Z,delan,clarification,0
