@@ -1,5 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
-5892440068,false,"""create navigation params by fetching"" blocks `about:blank` and `data:` iframes under COEP",https://github.com/whatwg/html/issues/13086,2026-10-16T23:08:42Z,2026-10-16T23:21:10Z,shannonbooth,,0
+5892440068,false,"""create navigation params by fetching"" blocks `about:blank` and `data:` iframes under COEP",https://github.com/whatwg/html/issues/13086,2026-10-16T23:08:42Z,2026-10-18T00:04:05Z,shannonbooth,,0
 5882314358,false,Inserting an `iframe` into a non-fully active document creates a child navigable,https://github.com/whatwg/html/issues/13085,2026-10-16T10:10:53Z,2026-10-16T12:20:06Z,zcorpan,topic: frames/navigables/browsing contexts,0
 5876108329,true,"unloadPromptCanceled is initialized to false, then checked if it's false",https://github.com/whatwg/html/issues/13084,2026-10-16T00:29:45Z,2026-10-16T00:33:36Z,jdm,topic: document lifecycle,0
 5874144873,false,Lazy `video` poster never loads when no media fetch is parked,https://github.com/whatwg/html/issues/13083,2026-10-15T21:21:55Z,2026-10-15T21:21:55Z,zcorpan,topic: media,0
@@ -324,7 +324,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4220747361,true,Upcoming WHATNOT meeting on 2026-04-09,https://github.com/whatwg/html/issues/12341,2026-04-07T21:44:35Z,2026-04-14T16:39:18Z,cwilso,,0
 4218748041,false,eventsource should never discard event.data on HTTP,https://github.com/whatwg/html/issues/12340,2026-04-07T15:26:25Z,2026-04-07T15:27:25Z,jabcreations,,0
 4212993506,true,Unexpected behavior of `interestfor` with popover controls,https://github.com/whatwg/html/issues/12338,2026-04-06T17:13:18Z,2026-04-27T19:16:17Z,shanthambi,topic: popover|topic: button,0
-4206849735,false,Extend `datetime` attribute on <time> to support Temporal ZonedDateTime timezone syntax,https://github.com/whatwg/html/issues/12334,2026-04-05T07:34:17Z,2026-06-17T09:26:27Z,Huzaifaabdulrab,addition/proposal|needs implementer interest,0
+4206849735,false,Extend `datetime` attribute on <time> to support Temporal ZonedDateTime timezone syntax,https://github.com/whatwg/html/issues/12334,2026-04-05T07:34:17Z,2026-06-17T09:26:27Z,Huzaifaabdulrab,addition/proposal|needs implementer interest,1
 4206845634,false,Add `live` attribute to the <time> element for auto-updating display,https://github.com/whatwg/html/issues/12333,2026-04-05T07:32:49Z,2026-06-17T09:25:37Z,Huzaifaabdulrab,addition/proposal|needs implementer interest,1
 4205677703,true,Add `live` and `timezone` attributes to the <time> element,https://github.com/whatwg/html/issues/12332,2026-04-04T19:41:58Z,2026-04-05T07:29:31Z,Huzaifaabdulrab,,0
 4205661586,false,"Native layout boolean attributes for HTML elements (flex, grid, wrap)",https://github.com/whatwg/html/issues/12331,2026-04-04T19:31:41Z,2026-04-04T19:31:41Z,Huzaifaabdulrab,,1
@@ -1527,7 +1527,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2110281736,false,Autocomplete attribute value to indicate form input is third-party data,https://github.com/whatwg/html/issues/10115,2024-01-31T14:53:46Z,2024-02-10T22:05:47Z,Crissov,addition/proposal|needs implementer interest,0
 2110168598,true,New attribute for avoiding to autocapitalize text input fields,https://github.com/whatwg/html/issues/10114,2024-01-31T14:03:53Z,2024-01-31T14:13:34Z,abelardo-it,addition/proposal|needs implementer interest,0
 2109672413,false,A way to run code before the next frame,https://github.com/whatwg/html/issues/10113,2024-01-31T09:36:50Z,2024-02-10T22:06:50Z,jakearchibald,addition/proposal|needs implementer interest|topic: event loop,0
-2109482796,false,Constrain OffscreenCanvas with a placeholder canvas element,https://github.com/whatwg/html/issues/10112,2024-01-31T07:47:16Z,2026-10-16T15:58:25Z,beaufortfrancois,topic: canvas|topic: workers|topic: serialize and transfer|topic: event loop|agenda+,0
+2109482796,false,Constrain OffscreenCanvas with a placeholder canvas element,https://github.com/whatwg/html/issues/10112,2024-01-31T07:47:16Z,2026-10-17T14:53:19Z,beaufortfrancois,topic: canvas|topic: workers|topic: serialize and transfer|topic: event loop|agenda+,0
 2108396078,false,"`<img sizes=""auto, 100px"" loading=""eager"">`: `auto` equates to `100wv` but should ideally be ignored",https://github.com/whatwg/html/issues/10110,2024-01-30T17:30:07Z,2024-02-28T14:49:26Z,iamakulov,topic: img,4
 2106432046,true,"Should `<a target=""_blank"">` and `window.open` consume the transient activation?",https://github.com/whatwg/html/issues/10108,2024-01-29T21:08:29Z,2024-11-20T09:17:03Z,EdgarChen,topic: user activation,0
 2106308432,true,Should there be an opt-out for declarative shadow roots having `clonable=true`?,https://github.com/whatwg/html/issues/10107,2024-01-29T19:59:06Z,2024-02-13T12:32:37Z,mfreed7,topic: shadow,0
@@ -5431,7 +5431,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 164424161,true,<style> entry in index of elements has not been updated to reflect removal of `scoped` attribute,https://github.com/whatwg/html/issues/1521,2016-07-07T22:47:17Z,2016-07-23T16:58:48Z,ExplodingCabbage,clarification,0
 164423097,true,consider removing support for multiple in <input type=range>,https://github.com/whatwg/html/issues/1520,2016-07-07T22:39:01Z,2018-01-01T21:17:02Z,smaug----,removal/deprecation|topic: forms,0
 164418695,true,Should HTMLTableElement.deleteRow(-1) throw when there are no rows?,https://github.com/whatwg/html/issues/1519,2016-07-07T22:09:03Z,2016-10-19T15:21:20Z,cdumez,,0
-164404944,false,Nested browsing context with identical URLs,https://github.com/whatwg/html/issues/1518,2016-07-07T20:54:10Z,2026-10-17T07:45:04Z,mystor,compat|topic: navigation|interop,0
+164404944,false,Nested browsing context with identical URLs,https://github.com/whatwg/html/issues/1518,2016-07-07T20:54:10Z,2026-10-18T00:53:55Z,mystor,compat|topic: navigation|interop,0
 164361869,false,"Cause <a rel=""noopener"" target=""_top""> navigations to create a new browsing context",https://github.com/whatwg/html/issues/1515,2016-07-07T17:16:34Z,2019-01-24T15:07:55Z,mystor,addition/proposal|needs implementer interest|topic: navigation|topic: frames/navigables/browsing contexts,0
 164186167,true,Inconsistent ordering between history traversal algorithm and history.pushState algorithm,https://github.com/whatwg/html/issues/1511,2016-07-06T22:08:28Z,2016-07-07T18:55:04Z,majido,topic: history,0
 164166862,false,"Security: window.open(url, name) is vulnerable to XSS with ""name"" collision",https://github.com/whatwg/html/issues/1509,2016-07-06T20:31:32Z,2019-01-23T15:26:36Z,zcorpan,security/privacy|topic: frames/navigables/browsing contexts,0
