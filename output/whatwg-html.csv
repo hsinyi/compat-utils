@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+5929828436,false,Proposal: Native Current Date Rendering with the <date> Element,https://github.com/whatwg/html/issues/13102,2026-10-19T19:05:07Z,2026-10-19T20:00:45Z,Vosoone,addition/proposal|needs implementer interest,0
 5926891688,false,DataTransfer.setDragImage() steps are unclear on how to size passed in <img>,https://github.com/whatwg/html/issues/13099,2026-10-19T15:37:42Z,2026-10-19T15:37:42Z,weinig,,0
 5920750894,false,Iframes aren't reactivated when their page is restored from bfcache,https://github.com/whatwg/html/issues/13096,2026-10-19T08:48:56Z,2026-10-19T08:50:07Z,zcorpan,topic: frames/navigables/browsing contexts|topic: navigation API,0
 5916657265,false,Explicitly specifying no favicon,https://github.com/whatwg/html/issues/13094,2026-10-19T02:17:04Z,2026-10-19T10:07:47Z,SaekiTominaga,addition/proposal|needs implementer interest,0
@@ -104,7 +105,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5280972490,false,History traversal dereferences a null target document after a 204/205 response,https://github.com/whatwg/html/issues/12858,2026-08-28T18:07:04Z,2026-09-19T02:38:29Z,shannonbooth,topic: navigation,0
 5269528839,false,Proposal: New native <rating> element for semantic reviews and interactive scores,https://github.com/whatwg/html/issues/12857,2026-08-27T15:54:44Z,2026-08-27T15:54:44Z,GrappinoRoot,,0
 5269085062,false,Proposal: New declarative <currency> element for semantic web and native internationalization,https://github.com/whatwg/html/issues/12856,2026-08-27T15:07:32Z,2026-08-27T15:57:13Z,GrappinoRoot,,0
-5266860658,false,select validity,https://github.com/whatwg/html/issues/12855,2026-08-27T11:11:47Z,2026-09-30T18:24:36Z,sb3nder,topic: select,0
+5266860658,false,select validity,https://github.com/whatwg/html/issues/12855,2026-08-27T11:11:47Z,2026-10-19T23:18:56Z,sb3nder,topic: select,0
 5266583359,true,Resource selection algorithm reads the loading attribute before the parser has appended it,https://github.com/whatwg/html/issues/12854,2026-08-27T10:36:45Z,2026-09-25T09:21:16Z,zcorpan,topic: media,0
 5257536024,true,"Parser scripting mode is never set to ""Normal""",https://github.com/whatwg/html/issues/12847,2026-08-26T13:24:14Z,2026-08-26T14:34:10Z,zcorpan,topic: parser,0
 5249642859,false,Alternative to `blur` and `focusout` on removal,https://github.com/whatwg/html/issues/12842,2026-08-25T19:15:45Z,2026-09-03T21:12:40Z,noamr,topic: focus,0
@@ -233,7 +234,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 4642287287,true,Meeting 45 for joint OpenUI-WHATWG/HTML-CSSWG task force on styleable form controls,https://github.com/whatwg/html/issues/12569,2026-06-11T16:17:41Z,2026-09-17T16:31:00Z,mfreed7,task-force-agenda,0
 4639775560,false,"""Create navigation params by fetching"" missing iframe element referer policy",https://github.com/whatwg/html/issues/12567,2026-06-11T11:01:15Z,2026-06-11T11:01:15Z,AtkinsSJ,,0
 4639615808,false,`container` variable in internal ancestor origin objects list creation steps is unused,https://github.com/whatwg/html/issues/12566,2026-06-11T10:39:19Z,2026-06-11T10:39:19Z,AtkinsSJ,,0
-4636029072,false,"No way to read an image's true intrinsic dimensions when sizes=""auto"" (or any w-descriptor srcset) is used",https://github.com/whatwg/html/issues/12565,2026-06-11T00:13:53Z,2026-10-15T07:44:32Z,austinh,needs implementer interest|topic: img,0
+4636029072,false,"No way to read an image's true intrinsic dimensions when sizes=""auto"" (or any w-descriptor srcset) is used",https://github.com/whatwg/html/issues/12565,2026-06-11T00:13:53Z,2026-10-19T23:46:08Z,austinh,needs implementer interest|topic: img,0
 4634483543,false,Critical/Minor Ambiguity: Server-Sent Events MUST return event.data,https://github.com/whatwg/html/issues/12564,2026-06-10T19:51:29Z,2026-07-08T17:40:08Z,jabcreations,topic: eventsource,0
 4633061375,false,"""Evaluate a javascript url"" refers to non-existent targetSnapshotParams.",https://github.com/whatwg/html/issues/12563,2026-06-10T16:29:41Z,2026-06-12T13:26:55Z,AtkinsSJ,topic: javascript: URLs,0
 4630107413,true,Nodes are made non-inert before sanitizing,https://github.com/whatwg/html/issues/12560,2026-06-10T10:02:38Z,2026-10-13T22:19:53Z,zcorpan,topic: sanitizer,0
@@ -465,7 +466,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 3838272531,true,selectedcontent removing steps vs pagehide (and unload),https://github.com/whatwg/html/issues/12096,2026-01-21T13:25:08Z,2026-09-28T08:43:37Z,annevk,topic: select,0
 3835855483,true,ElementInternals ARIA semantics are opaque to DOM-based accessibility testing tools,https://github.com/whatwg/html/issues/12095,2026-01-20T23:15:02Z,2026-01-21T18:10:01Z,benbeaudry,addition/proposal|needs implementer interest|accessibility|topic: custom elements,4
 3829678534,false,Avoid leaking documents in CustomElementRegistry's scoped document set,https://github.com/whatwg/html/issues/12092,2026-01-19T13:12:45Z,2026-09-25T07:27:04Z,Jamesernator,topic: custom elements,0
-3827339302,false,data:// URLs being considered as IsSecureContext,https://github.com/whatwg/html/issues/12091,2026-01-18T21:13:38Z,2026-10-17T13:04:17Z,shannonbooth,,1
+3827339302,true,data:// URLs being considered as IsSecureContext,https://github.com/whatwg/html/issues/12091,2026-01-18T21:13:38Z,2026-10-19T20:30:16Z,shannonbooth,,1
 3819577653,true,Upcoming WHATNOT meeting on 2026-01-22,https://github.com/whatwg/html/issues/12087,2026-01-15T23:11:47Z,2026-01-28T15:38:23Z,cwilso,agenda+,0
 3812373513,false,Proposal: Unblock bfcache for active WebSockets by disconnecting on entry,https://github.com/whatwg/html/issues/12085,2026-01-14T09:36:51Z,2026-04-09T10:56:47Z,llannasatoll,topic: navigation|topic: websockets,0
 3808937455,false,Should auxiliary browsing contexts load fallback favicons?,https://github.com/whatwg/html/issues/12082,2026-01-13T13:49:21Z,2026-01-16T15:20:39Z,estefysc,needs tests,0
@@ -2953,7 +2954,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 805637649,true,COOP Reporting: typo ancestor -> accessor,https://github.com/whatwg/html/issues/6374,2021-02-10T15:52:25Z,2021-02-11T20:23:17Z,zcorpan,topic: cross-origin-opener-policy,1
 805098484,true,Upcoming HTML standard issue triage meeting on 3/4/2021,https://github.com/whatwg/html/issues/6371,2021-02-10T02:16:37Z,2021-03-11T21:25:16Z,past,agenda+,0
 804798139,true,Auto-open details when seeking content within it,https://github.com/whatwg/html/issues/6370,2021-02-09T18:21:20Z,2021-02-10T06:27:04Z,fantasai,,3
-804761074,false,Surprising secure context inheritance behavior for opened windows,https://github.com/whatwg/html/issues/6369,2021-02-09T17:33:45Z,2021-04-19T15:28:38Z,letitz,,0
+804761074,true,Surprising secure context inheritance behavior for opened windows,https://github.com/whatwg/html/issues/6369,2021-02-09T17:33:45Z,2026-10-19T20:30:16Z,letitz,,0
 802699195,false,"Allowing top-level communication for cross-origin isolated documents ",https://github.com/whatwg/html/issues/6364,2021-02-06T13:07:49Z,2025-04-01T00:19:28Z,arturjanc,topic: cross-origin-opener-policy|topic: cross-origin-embedder-policy,4
 802248120,true,HTML Video Element: Proposal For Reintroduction of Media in Source Elements,https://github.com/whatwg/html/issues/6363,2021-02-05T15:18:23Z,2023-06-20T18:53:32Z,scottjehl,addition/proposal|topic: media,29
 801055941,false,Interoperable <video> underflow,https://github.com/whatwg/html/issues/6359,2021-02-04T08:35:02Z,2021-04-09T23:12:54Z,chcunningham,topic: media,3
