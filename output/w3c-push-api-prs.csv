@@ -89,3 +89,111 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 192178375,true,Switching to contiguous webidl,https://github.com/w3c/push-api/pull/229,2016-11-29T03:22:57Z,2016-12-07T00:19:17Z,martinthomson,editorial,0
 191732229,true,Allow passing a base64url-encoded value to `applicationServerKey`,https://github.com/w3c/push-api/pull/227,2016-11-25T16:09:20Z,2016-12-14T09:55:39Z,beverloo,,0
 190245012,true,Clarify encryption key lifetime and intention,https://github.com/w3c/push-api/pull/224,2016-11-18T06:22:29Z,2016-11-24T13:17:16Z,beverloo,,0
+189873787,true,Remove references to the soft update algorithm,https://github.com/w3c/push-api/pull/223,2016-11-16T22:50:00Z,2016-11-16T23:34:15Z,beverloo,,0
+187992036,true,"Add Peter Beverloo as an editor, retire Michael",https://github.com/w3c/push-api/pull/220,2016-11-08T13:30:32Z,2016-11-08T13:41:21Z,beverloo,,0
+187027996,true,Rewrite introduction to clarify applicability and use cases,https://github.com/w3c/push-api/pull/218,2016-11-03T10:54:42Z,2016-11-07T03:16:09Z,martinthomson,,0
+187021868,true,Update reference to DSS spec,https://github.com/w3c/push-api/pull/217,2016-11-03T10:25:41Z,2016-11-03T10:30:40Z,martinthomson,,0
+167182104,true,Running tidy,https://github.com/w3c/push-api/pull/207,2016-07-23T12:25:35Z,2016-07-25T09:01:38Z,martinthomson,,0
+167181421,true,JSON.parse produces any not object,https://github.com/w3c/push-api/pull/206,2016-07-23T12:04:35Z,2016-07-25T09:01:18Z,martinthomson,,0
+166593144,true,Use the correct terminology for secure contexts,https://github.com/w3c/push-api/pull/203,2016-07-20T14:19:51Z,2016-07-22T16:19:18Z,beverloo,,0
+165454536,true,Options are...optional.,https://github.com/w3c/push-api/pull/201,2016-07-14T01:00:10Z,2016-07-15T09:32:42Z,martinthomson,,0
+164357468,true,Make applicationServerKey [SameObject] not [Throws],https://github.com/w3c/push-api/pull/199,2016-07-07T16:53:40Z,2016-07-08T07:29:58Z,johnmellor,,0
+159314951,true,The user agent should be permitted to acknowledge even if the SW rejects,https://github.com/w3c/push-api/pull/196,2016-06-09T02:09:15Z,2016-06-10T10:01:23Z,martinthomson,,0
+159312295,true,Acknowledge messages that fail to decrypt,https://github.com/w3c/push-api/pull/195,2016-06-09T01:37:05Z,2016-06-10T09:49:04Z,martinthomson,,0
+154375638,true,Use NotAllowedError instead of defining a new PermissionDeniedError. …,https://github.com/w3c/push-api/pull/192,2016-05-12T01:03:59Z,2016-05-12T09:26:10Z,martinthomson,,0
+153031048,true,Note that the subscription shares fate with the registration,https://github.com/w3c/push-api/pull/191,2016-05-04T14:49:15Z,2016-05-12T09:25:11Z,martinthomson,,0
+138447174,true,Expose options,https://github.com/w3c/push-api/pull/187,2016-03-04T11:10:21Z,2016-03-22T10:22:01Z,martinthomson,,0
+127645488,true,Provide support for subscription association,https://github.com/w3c/push-api/pull/182,2016-01-20T09:59:45Z,2016-05-04T03:29:55Z,martinthomson,,0
+127642714,true,"It's PushEvent, not PushMessageEvent",https://github.com/w3c/push-api/pull/181,2016-01-20T09:46:09Z,2016-01-20T10:16:39Z,martinthomson,,0
+127642628,true,"Voluntary server identification, WebCrypto version",https://github.com/w3c/push-api/pull/180,2016-01-20T09:45:41Z,2016-01-20T22:46:16Z,martinthomson,,0
+122844590,true,Adding base64 reference,https://github.com/w3c/push-api/pull/178,2015-12-17T23:21:53Z,2016-01-04T12:27:55Z,martinthomson,,0
+118386059,true,Only expose PushMessageData in Service Workers,https://github.com/w3c/push-api/pull/175,2015-11-23T14:05:58Z,2015-11-23T15:18:41Z,beverloo,,0
+117247364,true,Add authentication secret,https://github.com/w3c/push-api/pull/174,2015-11-16T23:56:27Z,2015-12-04T17:13:20Z,martinthomson,,0
+117191990,true,Updating references to Promise and JSON.parse,https://github.com/w3c/push-api/pull/173,2015-11-16T18:46:35Z,2015-11-17T13:25:41Z,martinthomson,,0
+117190968,true,Review use of webapp vs. Service Worker,https://github.com/w3c/push-api/pull/172,2015-11-16T18:40:45Z,2015-11-19T10:11:24Z,martinthomson,,0
+116785670,true,Add a brief clarification about the expected X9.62 representation,https://github.com/w3c/push-api/pull/171,2015-11-13T15:07:47Z,2015-11-13T16:47:05Z,beverloo,,0
+111503530,true,PushMessageData.arrayBuffer() re-throws exceptions from ArrayBuffer creation,https://github.com/w3c/push-api/pull/170,2015-10-14T22:04:12Z,2015-10-16T05:18:52Z,junov-google,,0
+108050376,true,Making checks in the makefile solid; fixing tidy shortcoming,https://github.com/w3c/push-api/pull/167,2015-09-24T03:33:02Z,2015-09-24T10:16:56Z,martinthomson,,0
+107041201,true,Rewriting push event handling; allowing data to be optional.,https://github.com/w3c/push-api/pull/166,2015-09-17T18:14:31Z,2016-01-15T19:12:39Z,martinthomson,,0
+106880636,true,Making pushsubscriptionchange event extendable; defining algorithm,https://github.com/w3c/push-api/pull/164,2015-09-16T22:55:28Z,2015-09-17T18:21:16Z,martinthomson,,0
+104772984,true,Adding make check and circle CI support,https://github.com/w3c/push-api/pull/162,2015-09-03T20:16:52Z,2015-10-16T05:20:31Z,martinthomson,,0
+102417730,true,Making PushMessageDataInit a union,https://github.com/w3c/push-api/pull/160,2015-08-21T16:40:13Z,2015-08-25T19:18:53Z,martinthomson,,0
+99251187,true,Adding typedef for JSON matching the fetch spec.,https://github.com/w3c/push-api/pull/158,2015-08-05T17:01:28Z,2015-08-06T15:07:59Z,martinthomson,,0
+99069355,true,eventInitDict is always present when constructing an event,https://github.com/w3c/push-api/pull/157,2015-08-04T21:48:18Z,2015-08-05T15:59:39Z,martinthomson,,0
+99027610,true,Moving to using data-lt= rather than title= for a and dfn,https://github.com/w3c/push-api/pull/156,2015-08-04T18:18:04Z,2015-08-05T16:00:37Z,martinthomson,,0
+97645213,true,Adding offline use case,https://github.com/w3c/push-api/pull/155,2015-07-28T08:26:14Z,2015-10-21T23:01:25Z,martinthomson,,0
+97645158,true,Protocol updates,https://github.com/w3c/push-api/pull/154,2015-07-28T08:26:05Z,2015-08-04T20:12:49Z,martinthomson,,0
+97644723,true,Removing tidy warnings with haxx,https://github.com/w3c/push-api/pull/153,2015-07-28T08:25:16Z,2015-08-04T20:15:25Z,martinthomson,,0
+97644491,true,Rewording abstract text again,https://github.com/w3c/push-api/pull/152,2015-07-28T08:24:45Z,2015-08-05T16:00:22Z,martinthomson,,0
+78752633,true,Making cardinality clear,https://github.com/w3c/push-api/pull/148,2015-05-21T00:09:55Z,2015-08-04T20:15:12Z,martinthomson,,0
+70186703,true,Fix method links from IDL.,https://github.com/w3c/push-api/pull/143,2015-04-22T17:25:39Z,2015-04-22T17:25:45Z,mvano,,0
+70182992,true,Rename hasPermission to permissionState,https://github.com/w3c/push-api/pull/142,2015-04-22T17:12:41Z,2015-04-22T17:16:02Z,miguelgarciaarribas,,0
+70129048,true,Readme implementations,https://github.com/w3c/push-api/pull/141,2015-04-22T13:41:17Z,2015-04-22T13:41:23Z,mvano,,0
+70126250,true,Add serializer for PushSubscription and run tidy.,https://github.com/w3c/push-api/pull/140,2015-04-22T13:28:36Z,2015-04-22T13:28:47Z,mvano,,0
+70109702,true,Rename hasPermission to permissionState,https://github.com/w3c/push-api/pull/139,2015-04-22T12:17:33Z,2015-04-22T16:58:47Z,miguelgarciaarribas,,0
+69564200,true,Rename userVisible to userVisibleOnly,https://github.com/w3c/push-api/pull/138,2015-04-20T11:17:39Z,2015-04-22T12:57:01Z,beverloo,,0
+68946112,true,"Rename ""App server"" to ""Application server"" in diagram",https://github.com/w3c/push-api/pull/135,2015-04-16T15:16:42Z,2015-04-16T15:17:32Z,mvano,,0
+68942086,true,Add the source of the sequence diagram in vdx format.,https://github.com/w3c/push-api/pull/134,2015-04-16T14:57:04Z,2015-04-16T14:57:44Z,mvano,,0
+64122622,true,Add a PushSubscriptionOptions dictionary with a userVisible option.,https://github.com/w3c/push-api/pull/131,2015-03-24T23:04:46Z,2015-04-13T18:00:15Z,beverloo,,0
+62547791,true,Message encryption,https://github.com/w3c/push-api/pull/130,2015-03-18T00:14:27Z,2015-11-03T03:41:10Z,martinthomson,,0
+62544205,true,Move to using just endpoint,https://github.com/w3c/push-api/pull/129,2015-03-17T23:43:09Z,2015-08-05T16:00:14Z,martinthomson,,0
+62533791,true,Push service definition,https://github.com/w3c/push-api/pull/128,2015-03-17T22:31:37Z,2015-08-05T16:00:13Z,martinthomson,,0
+62528411,true,Fixing definition of push message,https://github.com/w3c/push-api/pull/126,2015-03-17T22:01:10Z,2015-08-05T16:00:13Z,martinthomson,,0
+60698040,true,Removed NoInterfaceObject from PushMessageData (closes #123),https://github.com/w3c/push-api/pull/124,2015-03-11T17:42:20Z,2015-04-13T16:48:09Z,marcoscaceres,,0
+59087679,true,"Replace ""webapp server"" with ""appplication server"".",https://github.com/w3c/push-api/pull/117,2015-02-26T15:23:31Z,2015-02-26T15:23:39Z,mvano,,0
+57447540,true,Clean up push service terminology.,https://github.com/w3c/push-api/pull/114,2015-02-12T11:19:48Z,2015-02-12T11:20:32Z,mvano,,0
+56413672,true,"Clarify subscription relationships, lifecycle, and uniqueness.",https://github.com/w3c/push-api/pull/112,2015-02-03T18:01:08Z,2015-02-05T11:47:56Z,mvano,,0
+54782184,true,"Better description of pushsubscriptionchange, with more likely reason.",https://github.com/w3c/push-api/pull/110,2015-01-19T16:11:49Z,2015-01-19T16:13:38Z,mvano,,0
+54371902,true,Require an active service worker for subscribe.,https://github.com/w3c/push-api/pull/108,2015-01-14T20:25:55Z,2015-01-16T16:31:10Z,mvano,,0
+54212494,true,Define PermissionDeniedError.,https://github.com/w3c/push-api/pull/106,2015-01-13T16:14:50Z,2015-01-13T16:51:39Z,mvano,,0
+54084232,true,Rename pushsubscriptionlost to pushsubscriptionchange.,https://github.com/w3c/push-api/pull/105,2015-01-12T17:48:37Z,2015-01-13T11:38:57Z,mvano,,0
+53742495,true,The endpoint is of type USVString.,https://github.com/w3c/push-api/pull/103,2015-01-08T11:50:12Z,2015-01-08T11:50:53Z,mvano,,0
+53649540,true,Rename registration to subscription to align with Web Push protocol.,https://github.com/w3c/push-api/pull/102,2015-01-07T16:17:50Z,2015-01-08T11:55:20Z,mvano,,0
+53530389,true,Resolve with null if not registered.,https://github.com/w3c/push-api/pull/101,2015-01-06T16:10:21Z,2015-01-14T11:53:36Z,mvano,,0
+52017368,true,Rename PushRegistrationManager to PushManager.,https://github.com/w3c/push-api/pull/99,2014-12-15T17:53:34Z,2014-12-15T17:59:38Z,mvano,,0
+51992011,true,Move unregister() to PushRegistration.,https://github.com/w3c/push-api/pull/97,2014-12-15T14:32:41Z,2014-12-15T20:40:53Z,mounirlamouri,,0
+51151344,true,removed wrong curly bracket in example,https://github.com/w3c/push-api/pull/91,2014-12-05T22:02:53Z,2014-12-05T22:25:59Z,paul-em,,0
+50800970,true,Make PushEventInit inherit from ExtendableEventInit,https://github.com/w3c/push-api/pull/90,2014-12-03T08:22:32Z,2014-12-03T11:57:47Z,bashi,,0
+49890579,true,Add and Encryption Key array to the PushRegistration interface,https://github.com/w3c/push-api/pull/89,2014-11-24T13:43:22Z,2015-08-04T20:14:46Z,miguelgarciaarribas,,0
+49120780,true,Make PushEvent's data payload binary instead of just a string,https://github.com/w3c/push-api/pull/88,2014-11-17T17:36:00Z,2014-11-26T14:53:34Z,johnmellor,,0
+48654731,true,Add optional userVisibleOnly parameter to register & hasPermission,https://github.com/w3c/push-api/pull/87,2014-11-13T16:09:03Z,2015-08-11T11:16:08Z,johnmellor,,0
+45383883,true,"Nit: Clarify wording of ""univocal"" identifier",https://github.com/w3c/push-api/pull/76,2014-10-09T15:57:06Z,2015-08-04T20:13:37Z,johnmellor,,0
+44829138,true,Refresh WD snapshot.,https://github.com/w3c/push-api/pull/73,2014-10-03T17:58:03Z,2014-10-03T17:58:07Z,mvano,,0
+44827615,true,Clean up links that redirect and define the DOM bits.,https://github.com/w3c/push-api/pull/72,2014-10-03T17:44:18Z,2014-10-03T17:52:47Z,mvano,,0
+44814334,true,Fresh snapshot for working draft,https://github.com/w3c/push-api/pull/70,2014-10-03T15:25:05Z,2014-10-03T15:25:13Z,mvano,,0
+44813550,true,Fix internal idl links.,https://github.com/w3c/push-api/pull/69,2014-10-03T15:17:51Z,2014-10-03T15:18:09Z,mvano,,0
+44791206,true,Snapshot for publishing working draft 20141007,https://github.com/w3c/push-api/pull/68,2014-10-03T10:47:09Z,2014-10-03T10:49:21Z,mvano,,0
+44787706,true,Fix typo in example for getting event data,https://github.com/w3c/push-api/pull/67,2014-10-03T09:53:37Z,2014-10-03T09:53:46Z,mvano,,0
+44703999,true,Add participation links,https://github.com/w3c/push-api/pull/64,2014-10-02T15:55:23Z,2014-10-02T18:18:56Z,mvano,,0
+44686613,true,Clean up events and define relationship to service workers,https://github.com/w3c/push-api/pull/59,2014-10-02T13:36:47Z,2014-10-02T15:16:50Z,mvano,,0
+44570669,true,Set noLegacyStyle: true and adjust structure accordingly,https://github.com/w3c/push-api/pull/57,2014-10-01T14:37:51Z,2014-10-02T13:11:00Z,mvano,,0
+44472976,true,Fix respec warnings and a bad idl definition,https://github.com/w3c/push-api/pull/54,2014-09-30T17:09:03Z,2014-10-01T16:24:23Z,mvano,,0
+44459144,true,Remove generated code,https://github.com/w3c/push-api/pull/51,2014-09-30T15:17:11Z,2014-09-30T21:10:14Z,mvano,,0
+44440732,true,Abstract should mention service worker and drop non-normative references,https://github.com/w3c/push-api/pull/50,2014-09-30T13:05:03Z,2014-10-01T06:13:10Z,mvano,,0
+44313702,true,Fix reference to service worker spec,https://github.com/w3c/push-api/pull/46,2014-09-29T16:29:23Z,2014-09-29T18:48:31Z,mvano,,0
+44311649,true,Make registration types and ownership consistent. Run tidy.,https://github.com/w3c/push-api/pull/45,2014-09-29T16:11:40Z,2014-09-29T18:49:51Z,mvano,,0
+44305376,true,"Delete concept of ""push service extension"". Run tidy.",https://github.com/w3c/push-api/pull/43,2014-09-29T15:17:25Z,2014-09-30T06:56:32Z,mvano,,0
+44294645,true,Add Michaël van Ouwerkerk as editor,https://github.com/w3c/push-api/pull/41,2014-09-29T13:46:00Z,2014-09-30T06:56:46Z,mvano,,0
+41922700,true,Add viewport meta tag,https://github.com/w3c/push-api/pull/37,2014-09-04T11:03:56Z,2014-09-15T17:34:19Z,mvano,,0
+41836263,true,Rename pushEndpoint to endpoint. Fixes issue #31,https://github.com/w3c/push-api/pull/36,2014-09-03T16:31:08Z,2014-09-16T14:16:25Z,mvano,,0
+41812165,true,Updated image of sequence diagram (issue #29),https://github.com/w3c/push-api/pull/35,2014-09-03T12:47:40Z,2014-09-03T12:52:24Z,mvano,,0
+41710850,true,Remove pushRegistrationId from PushMessage. Fixes issue #32.,https://github.com/w3c/push-api/pull/34,2014-09-02T13:49:02Z,2014-09-03T12:34:19Z,mvano,,0
+41505359,true,Delete note about History API,https://github.com/w3c/push-api/pull/28,2014-08-29T14:23:28Z,2014-09-01T05:46:39Z,mvano,,0
+41489276,true,Add contributing.md file.,https://github.com/w3c/push-api/pull/27,2014-08-29T10:41:48Z,2014-08-29T10:43:12Z,mounirlamouri,,0
+41488794,true,Add LICENSE file.,https://github.com/w3c/push-api/pull/26,2014-08-29T10:35:08Z,2014-08-29T10:38:59Z,mounirlamouri,,0
+41488711,true,Add tidyconfig.txt and tidy the spec.,https://github.com/w3c/push-api/pull/25,2014-08-29T10:33:37Z,2014-09-15T17:42:27Z,mounirlamouri,,0
+41416337,true,Link to the specification and communication channels from the README.,https://github.com/w3c/push-api/pull/24,2014-08-28T17:17:26Z,2014-08-29T16:30:13Z,jyasskin,,0
+41413263,true,"Cleaner steps for register, unregister, getRegistration",https://github.com/w3c/push-api/pull/23,2014-08-28T16:49:55Z,2014-09-15T17:32:38Z,mvano,,0
+41385041,true,Clean up terminology section,https://github.com/w3c/push-api/pull/22,2014-08-28T12:34:24Z,2014-08-29T07:40:58Z,mvano,,0
+41379971,true,Clean up ReSpec config,https://github.com/w3c/push-api/pull/21,2014-08-28T11:19:15Z,2014-08-29T07:40:48Z,mvano,,0
+41295279,true,Clean up the JavaScript example,https://github.com/w3c/push-api/pull/20,2014-08-27T15:23:36Z,2014-09-15T17:34:06Z,mvano,,0
+41288005,true,Rename PushManager to PushRegistrationManager,https://github.com/w3c/push-api/pull/19,2014-08-27T14:16:52Z,2014-09-16T15:50:53Z,mvano,,0
+40143974,true,PushRegistration interface clarifications,https://github.com/w3c/push-api/pull/14,2014-08-13T11:05:38Z,2014-08-20T10:47:55Z,efullea,,0
+40143230,true,Push manager. Fixes issue #2,https://github.com/w3c/push-api/pull/13,2014-08-13T10:55:08Z,2014-09-16T15:49:36Z,efullea,,0
+40127439,true,Single registration per webapp,https://github.com/w3c/push-api/pull/12,2014-08-13T06:48:19Z,2014-08-20T10:47:34Z,efullea,,0
+39962783,true,Delete version attribute,https://github.com/w3c/push-api/pull/11,2014-08-11T14:22:27Z,2014-08-12T05:52:23Z,mvano,,0
+39711312,true,Delete version attribute,https://github.com/w3c/push-api/pull/10,2014-08-07T10:15:07Z,2014-08-12T05:54:58Z,mvano,,0
+39710848,true,Data attribute is nullable DOMString,https://github.com/w3c/push-api/pull/9,2014-08-07T10:08:33Z,2014-08-11T14:19:32Z,mvano,,0
+39013497,true,Parameterize the Promises in WebIDL.,https://github.com/w3c/push-api/pull/8,2014-07-29T17:37:08Z,2014-08-11T14:19:45Z,mvano,,0
+39008285,true,Data attribute is nullable DOMString,https://github.com/w3c/push-api/pull/7,2014-07-29T16:40:33Z,2014-08-07T10:04:22Z,mvano,,0
+38994215,true,Delete version attribute,https://github.com/w3c/push-api/pull/6,2014-07-29T14:29:29Z,2014-08-07T10:12:38Z,mvano,,0

@@ -36,3 +36,113 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 728155508,true,Talk about instances of decoders and encoders,https://github.com/whatwg/encoding/issues/240,2020-10-23T11:51:56Z,2020-10-26T17:23:04Z,annevk,clarification,0
 727539467,true,Prepending or conversion of a sequence possibly not exact enough explained,https://github.com/whatwg/encoding/issues/239,2020-10-22T16:24:07Z,2020-10-27T06:11:47Z,wlammen,clarification,0
 725396895,true,Encode hook not adequate,https://github.com/whatwg/encoding/issues/235,2020-10-20T09:35:52Z,2020-10-23T14:44:28Z,annevk,,0
+688460927,true,EUC-JP encoding is currently ambiguous,https://github.com/whatwg/encoding/issues/225,2020-08-29T05:03:56Z,2020-09-02T15:43:51Z,achristensen07,,1
+638042257,false,Consider decode() with offset/length,https://github.com/whatwg/encoding/issues/219,2020-06-12T23:03:37Z,2025-04-23T15:16:31Z,inexorabletash,addition/proposal|needs implementer interest|topic: api,1
+617124960,true,TextDecoder and TextDecoderStream could share more concepts,https://github.com/whatwg/encoding/issues/212,2020-05-13T04:08:50Z,2020-05-14T05:05:36Z,annevk,clarification,0
+603555432,true,Allow other encodings,https://github.com/whatwg/encoding/issues/207,2020-04-20T21:44:47Z,2020-05-07T05:18:08Z,JordenVerwer,,0
+580255776,true,"""Let code point be null if pointer is null""",https://github.com/whatwg/encoding/issues/202,2020-03-12T22:20:26Z,2020-03-12T23:47:56Z,Hibou57,,0
+549395946,true,Clarify that encoding tokens are scalar values,https://github.com/whatwg/encoding/issues/195,2020-01-14T07:57:34Z,2020-01-20T13:28:27Z,andreubotella,good first issue|clarification|security/privacy,0
+545239536,true,Tryit,https://github.com/whatwg/encoding/issues/193,2020-01-04T04:28:54Z,2020-01-04T07:25:08Z,ProrokEskobar1,,2
+488930194,true,What's the correct use of {stream: true} option for Textdecoder.decode,https://github.com/whatwg/encoding/issues/184,2019-09-04T04:14:48Z,2019-09-04T04:27:23Z,lin7sh,,1
+486829899,true,Update to constructor operations,https://github.com/whatwg/encoding/issues/183,2019-08-29T09:01:01Z,2019-09-24T13:59:12Z,Ms2ger,,0
+476634647,true,Export `pushed` concept to ReSpec,https://github.com/whatwg/encoding/issues/180,2019-08-05T03:00:16Z,2020-09-08T11:03:04Z,Honry,,0
+457810127,true,Consider not running the validator on all the encoding tables?,https://github.com/whatwg/encoding/issues/178,2019-06-19T05:15:36Z,2019-06-19T11:12:16Z,domenic,,0
+448166485,true,Editorial: change remaining flags to booleans,https://github.com/whatwg/encoding/issues/176,2019-05-24T13:17:51Z,2020-03-03T13:46:18Z,annevk,good first issue|clarification,0
+428038119,true,Consider adding TextEncoder.containsLoneSurrogates() static,https://github.com/whatwg/encoding/issues/174,2019-04-02T05:59:58Z,2021-08-20T06:23:29Z,annevk,i18n-tracker|addition/proposal|topic: api,1
+407431911,true,Make decode() and encodeInto() accept SharedArrayBuffer-backed views,https://github.com/whatwg/encoding/issues/172,2019-02-06T21:10:31Z,2023-06-20T08:12:22Z,juj,addition/proposal|topic: api,3
+402380061,false,"Big5 encoding mishandles some trailing bytes, with possible XSS",https://github.com/whatwg/encoding/issues/171,2019-01-23T18:48:38Z,2021-08-10T11:42:48Z,mihnita,needs implementer interest|security/privacy,0
+393166517,true,Differences between tests and specification,https://github.com/whatwg/encoding/issues/169,2018-12-20T18:42:34Z,2020-08-15T16:18:11Z,mrmixer,,0
+390832896,true,Additional UTF-8 and UTF-16 labels,https://github.com/whatwg/encoding/issues/168,2018-12-13T19:50:20Z,2020-05-06T17:48:40Z,inexorabletash,,0
+390644377,true,"Once IDL defines ""this"", use it",https://github.com/whatwg/encoding/issues/167,2018-12-13T11:52:49Z,2020-05-13T14:26:53Z,annevk,,0
+386242969,true,"iso-2022-jp decoder, ""trail byte"" case says to prepend byte in the end of stream step",https://github.com/whatwg/encoding/issues/164,2018-11-30T15:50:57Z,2018-11-30T20:03:47Z,mrmixer,,0
+368887395,true,Коды,https://github.com/whatwg/encoding/issues/161,2018-10-10T22:56:37Z,2018-10-11T06:36:14Z,Dark-Dredd,,0
+365263508,true,Bad,https://github.com/whatwg/encoding/issues/160,2018-09-30T21:30:21Z,2018-10-01T07:10:38Z,ghost,,0
+365253334,true,bind encoder to self,https://github.com/whatwg/encoding/issues/159,2018-09-30T19:26:20Z,2018-10-17T20:45:06Z,jimmywarting,,0
+365135045,true,A,https://github.com/whatwg/encoding/issues/158,2018-09-29T14:03:19Z,2018-09-29T14:03:45Z,ghost,,0
+364837096,true,Consider defining Japanese encoding sniffing,https://github.com/whatwg/encoding/issues/157,2018-09-28T10:44:36Z,2020-06-08T11:56:02Z,hsivonen,,1
+355521109,true,TextDecoder's serialize stream algorithm seems unnecessarily convoluted.,https://github.com/whatwg/encoding/issues/154,2018-08-30T10:22:55Z,2020-05-14T04:48:04Z,ghost,good first issue|clarification|topic: api,1
+348050728,true,Need to define global used to create the ArrayBuffer and Uint8Array in TextEncoder's encode(),https://github.com/whatwg/encoding/issues/150,2018-08-06T19:22:18Z,2025-04-24T08:31:26Z,bzbarsky,normative|topic: api,0
+332244584,true,"gb18030 decoder doesn't clear first, second, third after returning 4-byte encoded code point",https://github.com/whatwg/encoding/issues/146,2018-06-14T04:05:18Z,2018-08-30T12:17:09Z,chfoo,normative|good first issue,0
+324647944,true,"Allow conformant implementations to support non-UTF-8 encodings ",https://github.com/whatwg/encoding/issues/144,2018-05-19T17:54:02Z,2018-08-30T09:38:30Z,eyalroz,,0
+322608098,true,Meta: remove FTP dependency from tools-index.py,https://github.com/whatwg/encoding/issues/141,2018-05-13T16:30:11Z,2018-05-15T10:37:53Z,annevk,,0
+321151234,true,"""html"" error mode somewhat incompatible with URLs",https://github.com/whatwg/encoding/issues/139,2018-05-08T11:40:48Z,2018-05-23T06:45:15Z,annevk,,0
+318084107,true,Identity encoding?,https://github.com/whatwg/encoding/issues/138,2018-04-26T15:32:56Z,2018-08-30T22:25:43Z,zb3,,0
+305131805,true,Editorial: Charset alias matching link,https://github.com/whatwg/encoding/issues/134,2018-03-14T12:07:16Z,2018-04-25T11:59:11Z,r12a,good first issue,0
+284631215,true,[clarification] encodeURI and pseudo-utf-16 surrogates in the astral planes,https://github.com/whatwg/encoding/issues/131,2017-12-27T01:35:46Z,2017-12-27T02:05:16Z,pygy,,0
+281377640,true,Figure out if anything is needed for better HTML integration,https://github.com/whatwg/encoding/issues/128,2017-12-12T13:07:02Z,2020-03-24T08:43:10Z,annevk,,0
+276730798,true,Need more changes for common deploy,https://github.com/whatwg/encoding/issues/126,2017-11-25T06:53:14Z,2018-04-25T09:53:38Z,annevk,,0
+264284888,true,Give advice around specification hooks,https://github.com/whatwg/encoding/issues/125,2017-10-10T16:01:22Z,2018-08-30T12:05:27Z,annevk,,0
+261573776,true,Missing legacy encodings,https://github.com/whatwg/encoding/issues/123,2017-09-29T08:52:33Z,2017-09-29T08:53:23Z,MM-Mikhail,,0
+260335980,true," index",https://github.com/whatwg/encoding/issues/122,2017-09-25T16:21:02Z,2017-09-25T17:29:59Z,Manochehrgham,,0
+236854511,false,Concatenating two ISO-2022-JP outputs from a conforming encoder doesn't result in conforming input,https://github.com/whatwg/encoding/issues/115,2017-06-19T11:03:26Z,2025-04-23T17:16:19Z,hsivonen,normative|needs implementer interest,0
+235778286,true,"When encoding U+301C to legacy Japanese encodings, consider encoding as U+FF5E",https://github.com/whatwg/encoding/issues/114,2017-06-14T06:47:41Z,2018-04-26T13:32:14Z,hsivonen,normative,0
+233420473,true,New Unicode Character Set Encoding,https://github.com/whatwg/encoding/issues/113,2017-06-04T08:45:55Z,2017-06-04T09:56:46Z,ersaroj,,0
+228310395,true,For your information: Illegal UTF-8 proposal,https://github.com/whatwg/encoding/issues/112,2017-05-12T14:32:31Z,2017-08-04T14:25:16Z,peteroupc,,0
+227931873,true,Should not prepend gb18030 second and third when range decode fails upon fourth,https://github.com/whatwg/encoding/issues/110,2017-05-11T09:31:56Z,2017-05-15T09:44:19Z,hsivonen,,0
+226511690,true,Half-width Katakana should be representable in ISO-2022-JP,https://github.com/whatwg/encoding/issues/105,2017-05-05T08:57:14Z,2017-05-08T09:00:23Z,hsivonen,normative,1
+223992361,false,Amount of bytes to sniff for encoding detection,https://github.com/whatwg/encoding/issues/102,2017-04-25T01:13:02Z,2020-06-08T12:03:04Z,JinsukKim,normative,0
+215170973,true,Important warnings getting lost in the noise,https://github.com/whatwg/encoding/issues/97,2017-03-18T06:37:44Z,2017-06-02T09:16:07Z,annevk,,0
+215151010,true,iso-8859-8-i encoding entry in table not valid html (missing columns),https://github.com/whatwg/encoding/issues/95,2017-03-18T00:16:11Z,2017-03-19T06:09:02Z,aphillips,,0
+214610471,true,Unicode Character U+11100 to U+1114F not rendered in Web Browser.,https://github.com/whatwg/encoding/issues/94,2017-03-16T06:30:38Z,2017-03-16T07:33:33Z,ersaroj,,0
+206385112,true,""" push a copy of input """,https://github.com/whatwg/encoding/issues/92,2017-02-09T02:20:10Z,2017-03-20T07:20:49Z,ricea,,0
+205486537,true,"""decoder = TextDecoder(encoding)""",https://github.com/whatwg/encoding/issues/90,2017-02-06T04:36:02Z,2017-02-07T09:57:49Z,ricea,,0
+199772192,true,Non-browser versus JavaScript,https://github.com/whatwg/encoding/issues/87,2017-01-10T09:33:47Z,2018-05-15T11:00:05Z,annevk,,0
+199618008,true,"[HTML], [URL], and [XML] should probably be informative references",https://github.com/whatwg/encoding/issues/86,2017-01-09T17:53:47Z,2017-01-10T09:30:50Z,domenic,,0
+196267402,true,Decode without BOM,https://github.com/whatwg/encoding/issues/85,2016-12-18T09:52:44Z,2017-01-06T17:04:05Z,annevk,,0
+188706010,true,Commit snapshots,https://github.com/whatwg/encoding/issues/80,2016-11-11T08:07:49Z,2016-11-16T11:49:01Z,annevk,,0
+186135623,true,Inform readers about the structure of the sparsity of index-euc-kr,https://github.com/whatwg/encoding/issues/78,2016-10-30T13:16:30Z,2017-01-20T10:45:45Z,hsivonen,,0
+181206518,true,Editorial style nits,https://github.com/whatwg/encoding/issues/76,2016-10-05T16:41:26Z,2016-11-15T09:30:43Z,domenic,,0
+180760626,true,Confusion between Big5 and Big5-HKSCS encodings,https://github.com/whatwg/encoding/issues/75,2016-10-03T22:13:36Z,2016-11-16T08:36:50Z,bhaible,,0
+180749000,true,Confusion between KOI8-U and KOI8-RU encodings,https://github.com/whatwg/encoding/issues/74,2016-10-03T21:14:56Z,2016-11-16T08:35:49Z,bhaible,,0
+180741365,true,windows-1255 encoding: add mapping for 0xCA,https://github.com/whatwg/encoding/issues/73,2016-10-03T20:41:25Z,2016-10-24T17:06:06Z,bhaible,,0
+179426018,true,Add Streams support,https://github.com/whatwg/encoding/issues/72,2016-09-27T08:19:07Z,2018-08-29T10:16:13Z,annevk,normative,4
+172511241,true,"Add ""replacement"" as a label for the replacement encoding",https://github.com/whatwg/encoding/issues/70,2016-08-22T17:39:59Z,2017-07-18T16:25:10Z,hsivonen,,0
+172126826,true,TextEncoder#encode - write to existing Uint8Array,https://github.com/whatwg/encoding/issues/69,2016-08-19T13:03:50Z,2023-02-04T17:27:55Z,maciejhirsz,normative|addition/proposal|topic: api,3
+168427149,false,Add UTF-7 to replacement encoding list? / Encoding sniffing,https://github.com/whatwg/encoding/issues/68,2016-07-29T22:31:13Z,2025-04-23T17:15:41Z,jungshik,normative|needs implementer interest,0
+168255454,true,"""URL parsing HTML form submission""",https://github.com/whatwg/encoding/issues/67,2016-07-29T05:49:12Z,2016-07-29T07:12:37Z,ricea,,0
+168250190,true,"""In equations, all numbers are integers, additio...""",https://github.com/whatwg/encoding/issues/66,2016-07-29T04:50:25Z,2017-03-20T07:45:44Z,ricea,,0
+167222369,true,Correct [Exposed] syntax,https://github.com/whatwg/encoding/issues/64,2016-07-24T07:57:07Z,2016-07-24T08:04:20Z,Ms2ger,,0
+162655191,true,Editorial: Clean up gb18030 math,https://github.com/whatwg/encoding/issues/63,2016-06-28T10:40:02Z,2016-08-04T10:24:59Z,hsivonen,,0
+161237037,true,EUK-kr encoding/decoding support,https://github.com/whatwg/encoding/issues/62,2016-06-20T16:26:23Z,2018-10-17T07:51:50Z,r12a,,0
+161234984,true,Shift-JIS encoding/decoding support,https://github.com/whatwg/encoding/issues/61,2016-06-20T16:16:57Z,2018-10-17T07:52:07Z,r12a,,0
+161233302,true,ISO 2022-jp encoding/decoding support,https://github.com/whatwg/encoding/issues/60,2016-06-20T16:09:18Z,2018-11-06T11:00:47Z,r12a,,0
+161230785,true,EUC-jp encoding/decoding support,https://github.com/whatwg/encoding/issues/59,2016-06-20T15:58:15Z,2018-10-17T07:51:29Z,r12a,,0
+161227205,true,Big5 encoding/decoding support,https://github.com/whatwg/encoding/issues/58,2016-06-20T15:43:32Z,2018-10-17T07:50:46Z,r12a,,0
+161211577,true,gb18030 encoding/decoding support,https://github.com/whatwg/encoding/issues/57,2016-06-20T14:42:03Z,2024-09-18T13:20:27Z,r12a,,0
+161205053,true,GBK encoding/decoding support,https://github.com/whatwg/encoding/issues/56,2016-06-20T14:15:02Z,2024-12-17T04:04:57Z,r12a,,0
+157872131,true,Please double-check the end of the EUDC range,https://github.com/whatwg/encoding/issues/53,2016-06-01T10:19:49Z,2016-09-16T15:47:37Z,hsivonen,,0
+157867413,true,Editorial optimization: Move EUDC before index lookup,https://github.com/whatwg/encoding/issues/52,2016-06-01T09:56:19Z,2016-06-21T11:51:28Z,hsivonen,,0
+157861730,true,Editorial: Exclude index entries instead of just pointers,https://github.com/whatwg/encoding/issues/51,2016-06-01T09:28:14Z,2016-06-01T12:35:48Z,hsivonen,,0
+157861249,true,"Edititorial: Add a note about duplicates to ""index Shift_JIS pointer""",https://github.com/whatwg/encoding/issues/50,2016-06-01T09:25:42Z,2016-06-01T12:26:09Z,hsivonen,,0
+157187481,true,Group constants together in half-width math,https://github.com/whatwg/encoding/issues/49,2016-05-27T11:33:45Z,2016-06-21T11:30:39Z,hsivonen,,0
+152586895,true,index-jis0208.txt should be JIS X 0208 and add another index file,https://github.com/whatwg/encoding/issues/47,2016-05-02T16:15:24Z,2017-03-19T11:58:06Z,takahashim,,0
+149177614,true,Document buffer tricks?,https://github.com/whatwg/encoding/issues/44,2016-04-18T15:04:20Z,2017-03-20T11:06:37Z,annevk,,0
+146430831,true,"utf-8 decoder lead byte switch branches 0xE0 to 0xEF, 0xF0 to 0xF4 need 'return continue'",https://github.com/whatwg/encoding/issues/42,2016-04-06T20:50:23Z,2016-04-20T14:55:38Z,inexorabletash,,0
+146278446,true,"Adding BRF as ""legacy"" single-byte encoding for braille",https://github.com/whatwg/encoding/issues/40,2016-04-06T11:12:07Z,2024-01-25T01:28:50Z,sthibaul,,0
+128649111,true,Replacement encoding should handle empty input better,https://github.com/whatwg/encoding/issues/33,2016-01-25T21:51:14Z,2016-02-10T14:57:44Z,annevk,,0
+128324093,true,Consider making the DOM name the canonical name,https://github.com/whatwg/encoding/issues/32,2016-01-23T11:55:19Z,2016-02-10T14:20:22Z,hsivonen,,0
+128231604,true,SHIFT_JISX0213 are not supported.,https://github.com/whatwg/encoding/issues/31,2016-01-22T19:55:50Z,2016-02-10T14:29:13Z,lygstate,,0
+128211592,true,Creating test suites for each encoding.,https://github.com/whatwg/encoding/issues/30,2016-01-22T18:11:03Z,2016-05-16T19:25:51Z,lygstate,,0
+128165714,true,"Introduce ""output encoding""",https://github.com/whatwg/encoding/issues/29,2016-01-22T14:21:08Z,2016-02-10T15:42:44Z,annevk,,0
+127119360,true,What's the correct choice for BIG5 F9FE?,https://github.com/whatwg/encoding/issues/28,2016-01-17T20:01:39Z,2016-01-19T12:38:34Z,lygstate,,0
+127105302,true,"If gb18030 is revised, consider aligning the Encoding Standard",https://github.com/whatwg/encoding/issues/27,2016-01-17T16:13:47Z,2024-10-04T08:30:18Z,lygstate,normative|i18n-tracker|i18n-clreq,3
+123179249,true,BufferSource is not specified,https://github.com/whatwg/encoding/issues/24,2015-12-20T19:39:04Z,2015-12-21T05:46:08Z,phistuck,,0
+122516061,true,Use floor() more,https://github.com/whatwg/encoding/issues/23,2015-12-16T14:31:15Z,2016-01-05T13:07:32Z,annevk,,0
+121582156,true,GB 18030 2000 vs 2005,https://github.com/whatwg/encoding/issues/22,2015-12-10T21:33:26Z,2016-01-20T16:09:26Z,jungshik,,0
+121563086,true,"Treatment of U+2022 is incorrect in Shift_JIS, EUC-JP and ISO-2022-JP",https://github.com/whatwg/encoding/issues/21,2015-12-10T19:46:34Z,2015-12-15T17:48:35Z,jungshik,,0
+120566327,true,Clarify result of division in algorithms,https://github.com/whatwg/encoding/issues/20,2015-12-05T15:35:58Z,2015-12-16T10:59:34Z,r12a,,0
+120566228,true,Unclear text in utf-8 decoder,https://github.com/whatwg/encoding/issues/19,2015-12-05T15:33:27Z,2015-12-15T16:55:47Z,r12a,,0
+119912144,true,Consider removing TextEncoder support for UTF-16,https://github.com/whatwg/encoding/issues/18,2015-12-02T10:29:11Z,2016-04-20T16:42:42Z,hsivonen,,9
+118251366,true,"""gb18030 ranges"" have problematic definitions",https://github.com/whatwg/encoding/issues/17,2015-11-22T08:42:23Z,2016-01-20T16:02:45Z,peteroupc,,0
+116915839,true,UTf7 supports,https://github.com/whatwg/encoding/issues/16,2015-11-14T10:10:28Z,2015-11-15T14:27:45Z,lygstate,,0
+116711200,true,iso-2022-jp encoder XSS risks,https://github.com/whatwg/encoding/issues/15,2015-11-13T06:41:12Z,2016-02-15T10:43:06Z,t-tera,,0
+115554338,true,"Add do not flush flag to encode API, accept DOMString",https://github.com/whatwg/encoding/issues/14,2015-11-06T17:49:08Z,2015-11-15T14:25:49Z,inexorabletash,,0
+114641047,true,Streaming should be a flag on the decoder instead of being a flag on the decode() call,https://github.com/whatwg/encoding/issues/13,2015-11-02T17:17:07Z,2015-11-06T14:39:17Z,hsivonen,,0
+114639878,true,Signaling EOF in the streaming case is unspecified (or too unclear),https://github.com/whatwg/encoding/issues/12,2015-11-02T17:10:47Z,2015-11-06T15:01:11Z,hsivonen,,0
+112412896,true,The title of the document needs to be more than one (commonly used) word,https://github.com/whatwg/encoding/issues/11,2015-10-20T16:51:34Z,2015-11-12T08:12:20Z,dwsinger,,0
+112334882,true,Clarify scope of document in preface,https://github.com/whatwg/encoding/issues/10,2015-10-20T10:21:56Z,2015-11-04T15:17:02Z,nigelmegitt,,0
+104422318,true,Big5 encoder treats a code point as error when both an HKSCS and non-HKSCS pointer exists for the code point,https://github.com/whatwg/encoding/issues/9,2015-09-02T07:57:58Z,2015-09-06T14:41:14Z,hsivonen,,0
+102317573,true,Add more labels to the replacement encoding,https://github.com/whatwg/encoding/issues/8,2015-08-21T07:38:07Z,2020-10-23T12:15:24Z,annevk,normative,0
+94776731,true,Serializing internal TextDecoder state?,https://github.com/whatwg/encoding/issues/7,2015-07-13T18:01:58Z,2016-11-11T08:21:11Z,domenic,,0
+88986763,true,Big5 decoder fails to prepend ASCII byte when pointer is non-null but code point is null,https://github.com/whatwg/encoding/issues/5,2015-06-17T11:09:47Z,2015-06-17T12:59:21Z,hsivonen,,0
+78018722,true,"Benefits of ""Legacy"" Encodings  – Byte Counter",https://github.com/whatwg/encoding/issues/4,2015-05-19T09:51:32Z,2015-08-21T09:35:59Z,zomp,,0

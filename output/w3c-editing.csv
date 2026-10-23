@@ -242,3 +242,102 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 137308624,true,"""beforeinput""/""beforeInput"" naming clarification",https://github.com/w3c/editing/issues/116,2016-02-29T16:55:48Z,2016-02-29T21:36:10Z,chong-z,,0
 134828161,false,Avoiding nesting like pre > p or p > h2 that works but aren't valid in html,https://github.com/w3c/editing/issues/115,2016-02-19T10:21:52Z,2016-04-11T15:25:13Z,caub,ContentEditableTrue|execCommand,0
 134826275,false,execCommand('underline') on links,https://github.com/w3c/editing/issues/114,2016-02-19T10:17:54Z,2016-04-11T03:04:07Z,caub,execCommand,0
+134022301,true,"The Ranges type is not defined, should be FrozenArray<Range>?",https://github.com/w3c/editing/issues/113,2016-02-16T16:09:11Z,2016-04-28T01:06:30Z,foolip,,0
+128915374,false,"execCommand('inserttext',...) behavior",https://github.com/w3c/editing/issues/112,2016-01-26T19:15:19Z,2016-04-08T01:06:58Z,gked,execCommand,0
+126321591,true,inputType should be tied to the command names and having that tied to a way of declaring what you support,https://github.com/w3c/editing/issues/110,2016-01-13T01:54:39Z,2016-08-25T12:55:45Z,gked,InputEvents,0
+126321437,true,"Should DOM be modified before or after compositionupdate? edge/IE do one thing, chrome/saf/firefox do another?",https://github.com/w3c/editing/issues/109,2016-01-13T01:53:16Z,2016-01-13T02:02:50Z,gked,,0
+126320951,true,"•	   Currently, there are multiple documents that pertain to editing. We should merge all the editing related specs into one",https://github.com/w3c/editing/issues/108,2016-01-13T01:49:20Z,2016-02-17T02:54:48Z,gked,,0
+126320796,true,We should  ensure drag/drop also fires beforeInput,https://github.com/w3c/editing/issues/107,2016-01-13T01:48:32Z,2016-07-24T20:46:07Z,gked,InputEvents,0
+126320638,true,"We should keep data in UI events for beforeInput that does the text/plain serialization. We should add dataTransfer to the editing spec for other mime types(html, text with line breaks, etc)",https://github.com/w3c/editing/issues/106,2016-01-13T01:47:38Z,2016-07-24T21:44:42Z,gked,InputEvents,0
+126320529,true,"We could have ""data"" property that returns the text/plain version and a dataTransfer field for richer things.",https://github.com/w3c/editing/issues/105,2016-01-13T01:46:26Z,2016-05-23T08:05:21Z,gked,,0
+126320451,true,We should update the spec with an ImmutableStaticRange that is a subset of the Range interface and return them via the getTargetRanges method. s/ImmutableStaticRange/StaticRange/ in the actual spec,https://github.com/w3c/editing/issues/104,2016-01-13T01:45:43Z,2016-06-04T11:15:54Z,gked,InputEvents,0
+126320375,true,"isComposing field should be consistent with the composition events, no need to redefine it. So just provide a reference to spec.",https://github.com/w3c/editing/issues/103,2016-01-13T01:45:01Z,2016-02-04T18:37:00Z,gked,,0
+126320211,true,Chrome/Safari need to fix a bug. Compositioinupdate is not firing before the compositionend.,https://github.com/w3c/editing/issues/102,2016-01-13T01:43:37Z,2016-02-04T18:37:37Z,gked,,0
+126320165,true,"We should fire beforeInput event before compositioinupdate. ",https://github.com/w3c/editing/issues/101,2016-01-13T01:42:54Z,2016-01-13T02:26:11Z,gked,,0
+126320086,true,Cancelable attribute should be removed from the spec because it already referenced in Event.idl,https://github.com/w3c/editing/issues/100,2016-01-13T01:42:00Z,2016-08-25T12:56:52Z,gked,InputEvents,0
+126319977,true,"Base definition and ordering of beforeInput/input events should be in UI events, but the editing specific stuff should be in a separate editing spec.",https://github.com/w3c/editing/issues/99,2016-01-13T01:41:20Z,2016-03-07T20:39:39Z,gked,,0
+126319930,true,We should remove EditTypes/InputTypes it from the UI events spec.  It should be specced in editing Spec.,https://github.com/w3c/editing/issues/98,2016-01-13T01:40:47Z,2016-01-28T06:20:40Z,gked,,0
+126319846,true,rename EditTypes to InputTypes for beforeInput events,https://github.com/w3c/editing/issues/97,2016-01-13T01:39:56Z,2016-01-27T15:17:10Z,gked,,0
+126319719,true,"beforeInput/input events should be fired for any element with contentEditable enabled, input and textArea elements where input element and textArea will have targetRanges set to null.",https://github.com/w3c/editing/issues/96,2016-01-13T01:38:36Z,2016-08-25T13:12:40Z,gked,,0
+116616889,true,Selection API - difference between collpase() and setPosition,https://github.com/w3c/editing/issues/94,2015-11-12T18:58:24Z,2015-11-17T01:05:46Z,glyukshin,,0
+113733223,true,Add a mechanism to opt-in/opt-out editing features,https://github.com/w3c/editing/issues/93,2015-10-28T02:59:03Z,2016-08-25T12:59:21Z,rniwa,,0
+113728778,true,Determine what kind of object is exposed on beforeInput/input events,https://github.com/w3c/editing/issues/92,2015-10-28T02:15:25Z,2016-08-25T12:57:54Z,rniwa,InputEvents,0
+113728625,true,We need a new static range API,https://github.com/w3c/editing/issues/91,2015-10-28T02:13:22Z,2016-06-07T23:17:09Z,rniwa,,0
+111579360,true,Broken links make documentation useless,https://github.com/w3c/editing/issues/90,2015-10-15T09:34:14Z,2015-10-15T12:23:31Z,IanKemp,,0
+105407006,true,The web doesn't need another badly implemented API,https://github.com/w3c/editing/issues/88,2015-09-08T15:32:55Z,2015-09-08T15:34:10Z,mightyiam,,0
+103473528,true,change of event names beforeInput -> beforeEdit -> beforeInput?,https://github.com/w3c/editing/issues/87,2015-08-27T10:10:42Z,2015-11-30T16:19:42Z,johanneswilm,InputEvents,0
+103040940,true,RESOLUTION: We think we want strict subsets - events is a subset of caret is a subset of typing which is a subset of true.,https://github.com/w3c/editing/issues/86,2015-08-25T14:57:42Z,2016-05-23T08:08:16Z,johanneswilm,ContentEditable,0
+103040636,true,RESOLUTION: We are going to focus on describing ce=typing as a priority.,https://github.com/w3c/editing/issues/85,2015-08-25T14:56:12Z,2016-07-24T20:42:07Z,johanneswilm,,0
+103040272,true,"RESOLUTION: We will have typing with compositionstart (cancelable) when you can set a selection point, then a series on non cancelable beforeinputs to replace text, and two kinds of delete events - one inside composition not cancelable, and a ""normal"" one to be handled by the application",https://github.com/w3c/editing/issues/84,2015-08-25T14:54:31Z,2015-08-31T21:09:56Z,johanneswilm,,0
+103038227,true,RESOLUTION: We will ask the accessibility people to look at IMEs and the problems we should have considered here but didn’t.,https://github.com/w3c/editing/issues/83,2015-08-25T14:45:05Z,2016-08-25T12:57:28Z,johanneswilm,InputEvents,0
+103038006,true,RESOLUTION: have a relatedEvent to point to the UI event that caused a DI event to be fired,https://github.com/w3c/editing/issues/82,2015-08-25T14:43:46Z,2016-08-25T13:34:00Z,johanneswilm,InputEvents,0
+103008136,true,RESOLUTION: We want to be able to insert newline or new paragraph,https://github.com/w3c/editing/issues/81,2015-08-25T12:10:38Z,2015-08-25T12:10:55Z,johanneswilm,InputEvents,0
+102993273,true,set targetRange to null for all editTypes where the targetRange would always have been equal to the selection range,https://github.com/w3c/editing/issues/80,2015-08-25T10:11:04Z,2015-08-31T20:46:23Z,johanneswilm,InputEvents,0
+102968307,true,list all required editTypes for beforeEdit/Edit events,https://github.com/w3c/editing/issues/79,2015-08-25T07:38:05Z,2016-06-07T23:26:28Z,johanneswilm,InputEvents,0
+102762669,false,Make dependent events polyfillable,https://github.com/w3c/editing/issues/78,2015-08-24T10:38:26Z,2015-08-24T12:06:19Z,rniwa,ContentEditableEvents|Future,0
+102693471,true,Can composition contain element boundaries?,https://github.com/w3c/editing/issues/77,2015-08-24T03:26:02Z,2015-08-25T08:24:24Z,kojiishi,,0
+102628506,true,should not use the shadow DOM for beforeInput,https://github.com/w3c/editing/issues/76,2015-08-23T15:05:48Z,2016-06-11T18:29:06Z,ojanvafai,ContentEditableEvents,0
+102549302,true,Legal caret positions – invisible text nodes,https://github.com/w3c/editing/issues/75,2015-08-22T16:32:32Z,2015-08-22T17:27:08Z,Reinmar,,0
+102545595,true,Definition of legal caret positions before/after inline elements is unclear,https://github.com/w3c/editing/issues/74,2015-08-22T15:44:10Z,2015-08-22T17:02:48Z,Reinmar,,0
+102321886,true,move all caret movement intention events from beforeinput to beforeselectionchange?,https://github.com/w3c/editing/issues/73,2015-08-21T08:06:06Z,2015-08-27T10:12:06Z,johanneswilm,InputEvents,0
+102286440,true,InputEvent.targetRange in <input>,https://github.com/w3c/editing/issues/72,2015-08-21T03:09:52Z,2015-08-25T08:21:47Z,masayuki-nakano,InputEvents,0
+101387021,true,Should cE=events (or cE=whatever now) handle selection?,https://github.com/w3c/editing/issues/71,2015-08-17T10:08:53Z,2015-08-18T11:38:14Z,Reinmar,,0
+101379122,false,When should UA synthesize heights of an element?,https://github.com/w3c/editing/issues/70,2015-08-17T09:36:49Z,2016-09-05T13:59:17Z,kojiishi,ContentEditableEvents,0
+100450531,true,"Definition of ""Invisible elements"" is vague",https://github.com/w3c/editing/issues/68,2015-08-12T02:09:43Z,2015-08-22T21:08:59Z,rniwa,ContentEditableEvents,0
+100450318,true,Definitions of inline and block elements are imprecise,https://github.com/w3c/editing/issues/67,2015-08-12T02:06:52Z,2015-08-26T08:48:49Z,rniwa,ContentEditableEvents,0
+100450081,true,"""CE Events Container"" should be replaced by ""editing host""",https://github.com/w3c/editing/issues/66,2015-08-12T02:04:36Z,2015-08-18T11:37:27Z,rniwa,ContentEditableEvents,0
+100445402,true,Do everything needed to do block direction movement of the caret when in cE=Events?,https://github.com/w3c/editing/issues/65,2015-08-12T01:10:10Z,2015-08-18T13:51:31Z,johanneswilm,ContentEditableEvents,0
+100445115,false,What do we need to integrate with the clipboard api?,https://github.com/w3c/editing/issues/64,2015-08-12T01:06:50Z,2015-08-25T09:18:27Z,johanneswilm,ContentEditableEvents|Future,0
+98749302,true,Do we need to spec device specific events?,https://github.com/w3c/editing/issues/62,2015-08-03T13:57:39Z,2016-08-25T09:18:04Z,johanneswilm,InputEvents|Future,0
+97711320,true,Reference actions in clipboard API spec for execCommand copy/cut/paste,https://github.com/w3c/editing/issues/61,2015-07-28T13:45:58Z,2015-08-12T01:02:24Z,hallvors,execCommand,0
+97238631,true,Change name of contentEditable=typing to contentEditable=intent,https://github.com/w3c/editing/issues/60,2015-07-25T16:51:28Z,2015-08-05T15:38:57Z,johanneswilm,ContentEditableEvents,0
+84603708,true,What to do with IME input when typing over a large selection?,https://github.com/w3c/editing/issues/59,2015-06-03T14:49:33Z,2015-07-25T16:45:57Z,johanneswilm,ContentEditableEvents,0
+84489587,true,"Should the caret move by default, and should we define this behavior?",https://github.com/w3c/editing/issues/58,2015-06-03T10:44:46Z,2015-08-03T09:27:52Z,johanneswilm,ContentEditableEvents,0
+81663103,true,"Can we use textnodes, and block/inline nodes as shadow roots for transparent IME handling?",https://github.com/w3c/editing/issues/57,2015-05-27T23:05:02Z,2015-08-03T06:21:47Z,johanneswilm,ContentEditableEvents,0
+81662541,true,What browser internals can be exposed to help us move the caret in (and against) the block direction?,https://github.com/w3c/editing/issues/56,2015-05-27T23:03:03Z,2015-08-19T08:52:26Z,johanneswilm,ContentEditableEvents,0
+81662243,true,How do we switch the caret between overtype and insert mode?,https://github.com/w3c/editing/issues/55,2015-05-27T23:02:11Z,2015-08-02T21:25:22Z,johanneswilm,ContentEditableEvents,0
+81584278,true,What to do with contentEditableTrue?,https://github.com/w3c/editing/issues/54,2015-05-27T19:15:02Z,2015-08-25T07:50:15Z,johanneswilm,ContentEditableTrue,0
+81583314,true,What to do with execCommand?,https://github.com/w3c/editing/issues/53,2015-05-27T19:12:19Z,2015-08-25T07:47:03Z,johanneswilm,execCommand,0
+81566916,true,What intentions do we need?,https://github.com/w3c/editing/issues/52,2015-05-27T18:27:56Z,2015-08-02T21:42:52Z,johanneswilm,InputEvents,0
+81423545,true,What caret positions do we need to allow?,https://github.com/w3c/editing/issues/51,2015-05-27T12:12:38Z,2015-08-03T09:52:18Z,johanneswilm,ContentEditableEvents,0
+80607785,true,spell checking should be able to span multiple Typing Nodes,https://github.com/w3c/editing/issues/50,2015-05-25T17:30:30Z,2015-08-02T21:59:35Z,teleclimber,ContentEditableEvents,0
+80594127,true,Do we need formatting events?,https://github.com/w3c/editing/issues/49,2015-05-25T16:48:08Z,2015-05-27T23:26:49Z,johanneswilm,InputEvents,0
+77776672,true,define relation to HTML Editing APIs,https://github.com/w3c/editing/issues/48,2015-05-18T19:33:02Z,2015-05-25T16:44:00Z,johanneswilm,,0
+70471230,true,"execCommand has now been spec'd to trigger a ""User Intent"" for cut/copy/paste",https://github.com/w3c/editing/issues/47,2015-04-23T17:49:37Z,2015-05-19T14:57:07Z,teleclimber,,0
+55053816,true,Prevent recursive beforeInput calls,https://github.com/w3c/editing/issues/44,2015-01-21T17:58:22Z,2015-05-25T17:04:39Z,BenjamP,InputEvents,0
+55053717,true,beforeinput should be fired only when the DOM change is caused by direct input by keypress or composition,https://github.com/w3c/editing/issues/43,2015-01-21T17:57:35Z,2016-06-20T22:22:18Z,BenjamP,InputEvents,0
+55053578,true,"Add ""intention"" integration point to 'beforeinput' event's interface",https://github.com/w3c/editing/issues/42,2015-01-21T17:56:23Z,2015-01-28T21:18:37Z,BenjamP,,0
+55053389,true,"D3E defines input event should be fired immediately after the DOM as been updated but it shouldn't be so if the editor value is changed by setting value attribute ",https://github.com/w3c/editing/issues/41,2015-01-21T17:54:59Z,2015-05-25T16:34:16Z,BenjamP,InputEvents,0
+53959791,true,Target range in device independent events,https://github.com/w3c/editing/issues/39,2015-01-10T14:32:47Z,2015-05-25T19:38:43Z,kojiishi,InputEvents,0
+52778321,true,how does cE=typing handle autocorrect and spelling suggestions?,https://github.com/w3c/editing/issues/37,2014-12-23T21:58:54Z,2015-05-25T16:28:15Z,teleclimber,InputEvents|ContentEditable,0
+52772903,true,How can sites access browser spellchecking?,https://github.com/w3c/editing/issues/36,2014-12-23T20:37:52Z,2015-08-03T09:24:50Z,BenjamP,,0
+52303609,true,How does cE=typing support IME text replacement?,https://github.com/w3c/editing/issues/34,2014-12-17T22:56:36Z,2015-05-27T18:12:41Z,BenjamP,InputEvents|ContentEditable,0
+52043699,true,Should execCommand be spec'd to do nothing in cE=typing?,https://github.com/w3c/editing/issues/33,2014-12-15T21:50:56Z,2015-04-23T16:51:45Z,BenjamP,ContentEditable,0
+51589850,true,How do we feature detect Responsive Input Events?,https://github.com/w3c/editing/issues/32,2014-12-10T17:58:06Z,2015-01-28T21:33:48Z,BenjamP,,0
+51589794,true,Should sites be able to control Responsive Input Language?,https://github.com/w3c/editing/issues/31,2014-12-10T17:57:36Z,2015-05-27T22:56:42Z,BenjamP,InputEvents,0
+51589287,true,Should undo/redo be beforeInput events?,https://github.com/w3c/editing/issues/30,2014-12-10T17:53:38Z,2015-05-25T17:10:53Z,BenjamP,InputEvents,0
+51588987,true,Need to spec the data in beforeInput event,https://github.com/w3c/editing/issues/29,2014-12-10T17:50:44Z,2015-02-23T21:56:45Z,BenjamP,InputEvents,0
+51588913,true,How does cE=typing work with overtype (insert key is on),https://github.com/w3c/editing/issues/28,2014-12-10T17:50:04Z,2015-05-27T22:53:40Z,BenjamP,InputEvents|ContentEditable,0
+51588845,true,Should beforeFocus be another Edit Event?,https://github.com/w3c/editing/issues/27,2014-12-10T17:49:26Z,2016-05-23T08:09:50Z,BenjamP,InputEvents|Future,0
+51588730,true,Should beforeInput Event happen if there is no selection?,https://github.com/w3c/editing/issues/26,2014-12-10T17:48:27Z,2015-01-28T21:39:15Z,BenjamP,,0
+51588675,true,Should Device-Specific Edit Events say what Device-Independent Edit Event they will cause?,https://github.com/w3c/editing/issues/25,2014-12-10T17:47:51Z,2016-08-25T09:17:24Z,BenjamP,InputEvents|Future,0
+51588500,true,What should be the target element for Responsive Input Events?,https://github.com/w3c/editing/issues/24,2014-12-10T17:46:20Z,2015-05-27T23:32:08Z,BenjamP,InputEvents,0
+51347955,true,behavior of text nodes inside cE=typing,https://github.com/w3c/editing/issues/22,2014-12-08T20:27:55Z,2015-05-24T23:39:24Z,teleclimber,InputEvents|ContentEditable,0
+51336503,true,Where can text be inserted? (and how? can UA create text nodes?),https://github.com/w3c/editing/issues/21,2014-12-08T18:44:31Z,2015-02-23T21:59:15Z,BenjamP,InputEvents,0
+51335560,true,ContentEditable with UserSelect=None needs to be documented,https://github.com/w3c/editing/issues/20,2014-12-08T18:36:52Z,2015-08-03T09:27:30Z,BenjamP,ContentEditableTrue,0
+48332834,true,Track the source of Intentions,https://github.com/w3c/editing/issues/19,2014-11-11T00:26:34Z,2016-08-25T09:16:46Z,BenjamP,InputEvents|Future,0
+48131650,true,How should custom controls declare their Responsive Input mapping?,https://github.com/w3c/editing/issues/18,2014-11-07T21:18:18Z,2015-05-25T19:23:57Z,BenjamP,InputEvents,0
+47098535,true,"Notification after completion of  Responsive Input Event (especially ""custom"" event types)",https://github.com/w3c/editing/issues/17,2014-10-29T00:28:26Z,2015-05-27T18:19:12Z,joanmarie,InputEvents,0
+47089854,true,intents originating from components resp. scripts,https://github.com/w3c/editing/issues/16,2014-10-28T22:29:56Z,2015-05-25T17:14:35Z,h0ru5,,0
+47067091,true,Support for custom Responsive Input events,https://github.com/w3c/editing/issues/14,2014-10-28T18:59:59Z,2015-05-25T17:10:20Z,joanmarie,InputEvents,0
+46957894,true,"Need to be clear about users having control, then sites, then browser",https://github.com/w3c/editing/issues/13,2014-10-27T20:52:17Z,2015-05-27T23:42:44Z,BenjamP,InputEvents,0
+45294806,true,Consistent Shape for Intention Events,https://github.com/w3c/editing/issues/12,2014-10-08T20:47:47Z,2014-12-03T05:01:21Z,BenjamP,,0
+42790506,true,Should we include the default result in the Intention Event?,https://github.com/w3c/editing/issues/10,2014-09-15T16:22:35Z,2014-12-03T05:06:56Z,BenjamP,,0
+42790339,true,BeforeInput or CommandEvent?,https://github.com/w3c/editing/issues/9,2014-09-15T16:20:57Z,2014-12-03T05:00:52Z,BenjamP,,0
+42790232,true,Does ClipboardEvents need to match the shape of other Intention Events,https://github.com/w3c/editing/issues/8,2014-09-15T16:20:00Z,2014-12-03T05:00:45Z,BenjamP,,0
+42789832,true,Should the term be Device Independent Events?,https://github.com/w3c/editing/issues/7,2014-09-15T16:16:20Z,2015-02-23T22:00:00Z,BenjamP,InputEvents,0
+42789729,true,How can we integrate with rich forms and validation?,https://github.com/w3c/editing/issues/6,2014-09-15T16:15:16Z,2015-05-27T23:00:59Z,BenjamP,,0
+42789548,true,execCommand or something new to fire IntentionEvents?,https://github.com/w3c/editing/issues/5,2014-09-15T16:13:32Z,2014-12-03T05:00:30Z,BenjamP,,0
+42789155,true,What should be the shape of contentEditable?,https://github.com/w3c/editing/issues/4,2014-09-15T16:09:57Z,2014-12-03T05:03:47Z,BenjamP,,0
+42788912,true,"Add a section for ""new low-level APIs"" to Editing Explainer",https://github.com/w3c/editing/issues/3,2014-09-15T16:08:01Z,2014-12-03T05:00:10Z,BenjamP,,0
+35978555,true,Relationship to IndieUI: Events 1.0,https://github.com/w3c/editing/issues/1,2014-06-18T12:13:45Z,2014-06-18T17:29:06Z,AFBarstow,,0

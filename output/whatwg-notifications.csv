@@ -92,3 +92,35 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 60329624,true,Notification.data should be replaced by Notification.id or specify very clear data size limit,https://github.com/whatwg/notifications/issues/39,2015-03-09T11:23:55Z,2015-06-10T13:30:47Z,mounirlamouri,,0
 60029745,true,Notification.data limitations,https://github.com/whatwg/notifications/issues/38,2015-03-05T22:51:42Z,2015-03-06T12:16:47Z,beverloo,,0
 60029209,true,Notification.get() partial exposure,https://github.com/whatwg/notifications/issues/37,2015-03-05T22:47:04Z,2021-01-29T09:54:18Z,beverloo,,0
+59367695,true,Notification.hasPermission resolving with denied but setting Notification.permission to default,https://github.com/whatwg/notifications/issues/35,2015-03-01T00:04:58Z,2015-03-03T07:52:11Z,owencm,,0
+59367151,true,"new Notification succeeds even if permission is ""denied""",https://github.com/whatwg/notifications/issues/34,2015-02-28T23:56:58Z,2015-07-30T12:41:07Z,owencm,,0
+59224328,true,"Reflecting renotify, silent, noscreen and sticky on the Notification interface.",https://github.com/whatwg/notifications/issues/32,2015-02-27T11:27:38Z,2015-02-27T15:57:24Z,beverloo,,0
+58884216,true,Notification close event for a notification,https://github.com/whatwg/notifications/issues/31,2015-02-25T10:57:25Z,2016-01-25T13:00:07Z,gauntface,,0
+56517030,false,"Allow ""notificationclick"" to focus/open windows",https://github.com/whatwg/notifications/issues/30,2015-02-04T11:49:51Z,2015-07-21T22:43:23Z,jakearchibald,,0
+52108862,true,How to tell if new Notification shown successfully?,https://github.com/whatwg/notifications/issues/29,2014-12-16T12:50:06Z,2014-12-16T13:55:57Z,johnmellor,,0
+51922364,false,Supporting multiple image definitions for a Notification,https://github.com/whatwg/notifications/issues/28,2014-12-14T15:36:16Z,2018-08-09T17:11:48Z,beverloo,,0
+51922148,true,Usage of TypeError throughout the specification,https://github.com/whatwg/notifications/issues/27,2014-12-14T15:28:20Z,2015-02-19T10:06:13Z,beverloo,,0
+51826030,true,Deprecating non-persistent notifications,https://github.com/whatwg/notifications/issues/26,2014-12-12T16:41:11Z,2017-01-02T20:13:06Z,beverloo,,0
+51814775,true,Not being able to construct a Notification object in SW conflicts with NotificationEventInit,https://github.com/whatwg/notifications/issues/25,2014-12-12T15:02:24Z,2015-07-30T12:47:41Z,beverloo,,0
+41878822,true,Actions triggered when replacing a notification,https://github.com/whatwg/notifications/issues/24,2014-09-03T23:16:14Z,2015-07-30T13:27:34Z,robertbindar,,0
+40785874,true,Consider badges,https://github.com/whatwg/notifications/issues/23,2014-08-21T09:11:32Z,2015-02-27T07:20:14Z,annevk,,0
+40228486,true,Notification behavior,https://github.com/whatwg/notifications/issues/22,2014-08-14T07:11:20Z,2014-11-25T16:09:25Z,annevk,,0
+39609912,true,Allow lists of title/body pairs,https://github.com/whatwg/notifications/issues/21,2014-08-06T10:51:30Z,2017-04-24T09:16:01Z,annevk,,0
+39609878,true,Add date/timestamp field,https://github.com/whatwg/notifications/issues/20,2014-08-06T10:50:55Z,2015-10-14T11:34:11Z,annevk,,0
+39526522,true,Add service worker support,https://github.com/whatwg/notifications/issues/19,2014-08-05T14:49:48Z,2014-11-25T16:12:28Z,annevk,,0
+38933174,false,Custom data object [SameObject] extended attribute,https://github.com/whatwg/notifications/issues/18,2014-07-28T21:04:29Z,2015-08-13T05:35:14Z,robertbindar,,0
+35893703,false,Add progress based notifications,https://github.com/whatwg/notifications/issues/17,2014-06-17T14:23:44Z,2014-06-18T14:51:14Z,keithamus,,2
+35203953,true,Cross-realm notifications,https://github.com/whatwg/notifications/issues/16,2014-06-07T08:32:48Z,2014-10-08T14:57:34Z,annevk,,0
+34958776,true,More detail for Activating a notification,https://github.com/whatwg/notifications/issues/15,2014-06-04T13:33:17Z,2014-08-05T14:00:11Z,ArkadiuszMichalski,,0
+34957863,true,Some corrects in prose,https://github.com/whatwg/notifications/issues/14,2014-06-04T13:22:11Z,2014-06-09T08:01:00Z,ArkadiuszMichalski,,0
+31710930,true,Reconsider window.focus() note,https://github.com/whatwg/notifications/issues/12,2014-04-17T08:54:41Z,2014-09-23T10:31:36Z,annevk,,0
+31710887,true,Add duration member,https://github.com/whatwg/notifications/issues/11,2014-04-17T08:53:58Z,2018-02-27T11:44:43Z,annevk,,0
+27552255,true,createTime property,https://github.com/whatwg/notifications/issues/10,2014-02-13T21:05:14Z,2014-02-14T21:25:51Z,mikehenrty,,0
+26983496,true,Notification.get exposes GC semantics,https://github.com/whatwg/notifications/issues/9,2014-02-05T18:02:26Z,2014-08-20T08:39:15Z,reuben,,0
+26983263,true,"After step 6.2 in the static get(filter) method, nothing is added to the objects list",https://github.com/whatwg/notifications/issues/8,2014-02-05T17:59:06Z,2014-02-07T13:53:47Z,reuben,,0
+26562422,true,Notification.get() needs to be better defined if Notifications are enabled on workers,https://github.com/whatwg/notifications/issues/7,2014-01-29T23:18:28Z,2014-01-29T23:42:38Z,nikhilm,,0
+25502731,true,Interaction between page and clicking a notification,https://github.com/whatwg/notifications/issues/6,2014-01-13T15:06:25Z,2014-10-08T14:07:57Z,annevk,,0
+24054061,false,Image fetching lacks a bunch of detail,https://github.com/whatwg/notifications/issues/5,2013-12-10T18:08:05Z,2016-12-16T11:10:27Z,annevk,,0
+23748198,false,Allow timeout for icon fetch,https://github.com/whatwg/notifications/issues/4,2013-12-04T21:37:32Z,2016-01-19T17:56:51Z,annevk,,0
+22911619,true,Append custom data,https://github.com/whatwg/notifications/issues/3,2013-11-19T13:29:58Z,2014-05-01T14:22:14Z,annevk,,0
+22711773,true,Mention window.focus(),https://github.com/whatwg/notifications/issues/2,2013-11-15T04:12:15Z,2013-11-19T13:19:08Z,annevk,,0
