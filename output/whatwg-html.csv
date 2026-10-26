@@ -1,4 +1,5 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
+6042157146,false,"SVG script element: HTML and SVG 2 point at each other, and HTML links to SVG Tiny 1.2",https://github.com/whatwg/html/issues/13149,2026-10-26T14:53:34Z,2026-10-26T16:38:40Z,karlcow,topic: script|integration|topic: svg,0
 6010592672,false,Reset focus when closing a dialog with no previously focused element,https://github.com/whatwg/html/issues/13118,2026-10-24T07:30:30Z,2026-10-24T07:30:47Z,hjanuschka,,0
 6010045728,false,"In ""time-marches-on"", consider moving step 6 ""queueing time-update event"" to step 1.",https://github.com/whatwg/html/issues/13117,2026-10-24T06:16:16Z,2026-10-24T06:17:04Z,rayguo17,,0
 5995667773,false,Can a focusable element match `:active` if it has no activation behavior?,https://github.com/whatwg/html/issues/13116,2026-10-23T09:53:38Z,2026-10-24T13:17:14Z,cdoublev,,0
@@ -162,8 +163,8 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 5121248337,false,"Define the principles of what the ""disable scripting"" preference stands for",https://github.com/whatwg/html/issues/12775,2026-08-11T14:28:22Z,2026-08-27T16:50:27Z,noamr,clarification|topic: script|editorial,0
 5113276973,false,Navigable is never taken out of delaying load events mode if javascript: navigation does not create a document,https://github.com/whatwg/html/issues/12773,2026-08-10T18:42:24Z,2026-08-10T18:42:24Z,jdm,,0
 5109101569,false,"""Apply the history step"" calls ""attempt to populate the history entry's document"" with too few arguments",https://github.com/whatwg/html/issues/12772,2026-08-10T10:24:58Z,2026-08-10T10:25:22Z,nicolo-ribaudo,,0
-5101809509,false,Add `crossOriginStorage` import attribute (COS integration),https://github.com/whatwg/html/issues/12771,2026-08-09T09:20:27Z,2026-08-09T09:20:27Z,tomayac,addition/proposal|needs implementer interest,0
-5101804371,false,Add `crossoriginstorage` attribute to `<link>` and `<script>`,https://github.com/whatwg/html/issues/12770,2026-08-09T09:19:22Z,2026-08-09T09:22:00Z,tomayac,addition/proposal|needs implementer interest,0
+5101809509,false,Add `crossOriginStorage` import attribute (COS integration),https://github.com/whatwg/html/issues/12771,2026-08-09T09:20:27Z,2026-10-26T09:46:00Z,tomayac,addition/proposal|needs implementer interest,0
+5101804371,false,Add `crossoriginstorage` attribute to `<link>` and `<script>`,https://github.com/whatwg/html/issues/12770,2026-08-09T09:19:22Z,2026-10-26T09:44:56Z,tomayac,addition/proposal|needs implementer interest,0
 5094001551,true,Style Module Imports via Link Elements,https://github.com/whatwg/html/issues/12767,2026-08-07T21:13:11Z,2026-09-02T08:40:21Z,KurtCattiSchmidt,addition/proposal|needs implementer interest|topic: shadow,1
 5084144115,true,Upcoming WHATNOT meeting on 2026-08-13,https://github.com/whatwg/html/issues/12766,2026-08-06T19:14:45Z,2026-08-13T17:39:32Z,jstenback,,1
 5080120847,true,Opening a dialog within a hint popover,https://github.com/whatwg/html/issues/12763,2026-08-06T10:18:23Z,2026-08-11T12:17:23Z,jakearchibald,topic: dialog|topic: popover,0
@@ -2433,7 +2434,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 1195246197,true,Inert subtree section is missing requirement that it should NOT be exposed to accessibility,https://github.com/whatwg/html/issues/7796,2022-04-06T22:26:44Z,2023-02-16T06:56:01Z,cookiecrook,,1
 1194256346,false,Feature proposal: input[mask],https://github.com/whatwg/html/issues/7794,2022-04-06T08:28:15Z,2026-02-28T16:09:05Z,Akxe,addition/proposal|needs implementer interest|topic: forms,10
 1193376515,true,EvenSource BOM definition,https://github.com/whatwg/html/issues/7791,2022-04-05T15:48:34Z,2022-04-05T17:33:02Z,johntalton,clarification|topic: eventsource,0
-1192965142,false,showPicker() doesn't allow detecting whether a picker can be shown,https://github.com/whatwg/html/issues/7790,2022-04-05T10:39:32Z,2022-04-05T17:13:15Z,emilio,topic: forms,8
+1192965142,false,showPicker() doesn't allow detecting whether a picker can be shown,https://github.com/whatwg/html/issues/7790,2022-04-05T10:39:32Z,2022-04-05T17:13:15Z,emilio,topic: forms,9
 1192425309,true,New feature proposal: Popover API,https://github.com/whatwg/html/issues/7785,2022-04-04T23:27:05Z,2023-03-03T15:28:53Z,mfreed7,addition/proposal,3
 1191266112,true,Is behavior of structuredClone() + SharedArrayBuffer + no transfer + no isolation intentional?,https://github.com/whatwg/html/issues/7781,2022-04-04T05:14:01Z,2022-06-08T06:43:39Z,bathos,topic: serialize and transfer,0
 1190641435,true,Event loop uses current high resolution time without a global object,https://github.com/whatwg/html/issues/7776,2022-04-02T13:59:34Z,2022-04-14T16:06:23Z,skyrising,integration,0
@@ -3389,7 +3390,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 572368643,true,Question: site equality examples,https://github.com/whatwg/html/issues/5316,2020-02-27T21:24:30Z,2020-02-28T19:36:22Z,lazdmx,clarification,0
 570587270,true,Lazyload: N-fetches for each relevant mutation,https://github.com/whatwg/html/issues/5314,2020-02-25T13:53:54Z,2020-05-15T16:45:55Z,domfarolino,topic: img,1
 570474276,true,"""the document has finished loading""",https://github.com/whatwg/html/issues/5313,2020-02-25T10:39:45Z,2020-02-26T09:24:46Z,amn,,0
-570415383,false,"Form Submission: Fix the ""Double Submit problem"" at the spec level",https://github.com/whatwg/html/issues/5312,2020-02-25T09:07:07Z,2026-09-21T13:35:57Z,bramus,addition/proposal|topic: forms,196
+570415383,false,"Form Submission: Fix the ""Double Submit problem"" at the spec level",https://github.com/whatwg/html/issues/5312,2020-02-25T09:07:07Z,2026-10-26T16:13:38Z,bramus,addition/proposal|topic: forms,196
 570310032,false,Proposal: canvas to blob URL function,https://github.com/whatwg/html/issues/5311,2020-02-25T04:51:26Z,2020-02-25T22:21:22Z,rhendric,addition/proposal|needs implementer interest|topic: canvas|security/privacy,0
 569316279,true,"Event order of onKeyDown, onKeyPress, onKeyUp, and onPaste when using pasting (CMD + v) in Mac OS X",https://github.com/whatwg/html/issues/5310,2020-02-22T10:39:21Z,2020-02-22T10:46:10Z,aesyondu,,0
 569187828,true,"<img alt=""""> definition doesn't match reality.",https://github.com/whatwg/html/issues/5309,2020-02-21T21:15:09Z,2020-02-26T09:24:49Z,emilio,compat|topic: rendering|topic: img,5
