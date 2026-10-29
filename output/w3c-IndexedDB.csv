@@ -1,12 +1,12 @@
 id,closed,title,url,created_at,updated_at,user,labels,reactions
 5704830518,false,SSD wear: does it sound like a real risk?,https://github.com/w3c/IndexedDB/issues/511,2026-10-05T00:47:37Z,2026-10-05T00:47:37Z,Josh-Cena,,0
 5692231435,false,IDBKeyRange.bound(): equal keys with an open bound should throw DataError (all engines do; 1.0 did),https://github.com/w3c/IndexedDB/issues/510,2026-10-03T18:10:34Z,2026-10-03T18:10:34Z,bcardarella,,0
-5558388683,false,Clarify usage of resizable ArrayBuffer as keys,https://github.com/w3c/IndexedDB/issues/509,2026-09-23T19:26:36Z,2026-09-24T14:43:02Z,ArnaudBienner,TPAC2026,0
+5558388683,false,Clarify usage of resizable ArrayBuffer as keys,https://github.com/w3c/IndexedDB/issues/509,2026-09-23T19:26:36Z,2026-10-28T10:48:24Z,ArnaudBienner,TPAC2026,0
 5465102956,false,deleteDatabase() developer note says result is null; the method steps set it to undefined,https://github.com/w3c/IndexedDB/issues/507,2026-09-15T17:11:07Z,2026-09-15T17:11:07Z,RizgarOzan,,0
 5464148770,false,Clarify usage of SharedArrayBuffer as key,https://github.com/w3c/IndexedDB/issues/506,2026-09-15T15:43:43Z,2026-09-24T14:43:22Z,evanstade,TPAC2026,0
-5138316520,false,TPAC 2026 Status Report,https://github.com/w3c/IndexedDB/issues/500,2026-08-13T06:01:37Z,2026-10-08T22:03:30Z,LJWatson,TPAC2026,0
-4516985289,false,"Avoid ""converting a value to a key"" being called twice in ""Creating a request to retrieve multiple items""",https://github.com/w3c/IndexedDB/issues/497,2026-05-25T12:44:17Z,2026-10-03T06:19:22Z,ArnaudBienner,TPAC2026,1
-4495557337,false,IDBRecord's key/primaryKey aliasing,https://github.com/w3c/IndexedDB/issues/496,2026-05-21T14:54:04Z,2026-10-03T06:22:26Z,ArnaudBienner,TPAC2026,0
+5138316520,true,TPAC 2026 Status Report,https://github.com/w3c/IndexedDB/issues/500,2026-08-13T06:01:37Z,2026-10-28T16:11:27Z,LJWatson,TPAC2026,0
+4516985289,true,"Avoid ""converting a value to a key"" being called twice in ""Creating a request to retrieve multiple items""",https://github.com/w3c/IndexedDB/issues/497,2026-05-25T12:44:17Z,2026-10-28T09:41:35Z,ArnaudBienner,TPAC2026,1
+4495557337,true,IDBRecord's key/primaryKey aliasing,https://github.com/w3c/IndexedDB/issues/496,2026-05-21T14:54:04Z,2026-10-28T09:43:54Z,ArnaudBienner,TPAC2026,0
 4413214639,false,IDBRecord getters and key conversion to value caching,https://github.com/w3c/IndexedDB/issues/494,2026-05-09T17:13:19Z,2026-10-03T06:15:27Z,ArnaudBienner,TPAC2026,1
 4202985240,false,"Clarification on what `range` should be in ""create-a-request-to-retrieve-multiple-items"" when `queryOrOptions` is undefined/null",https://github.com/w3c/IndexedDB/issues/493,2026-04-04T02:11:29Z,2026-05-26T14:18:45Z,RupinMittal,,0
 4102419865,false,"Clarify ""convert-a-value-to-a-key-range"" when used with getAll/getAllKeys method and NaN",https://github.com/w3c/IndexedDB/issues/492,2026-03-19T15:21:38Z,2026-03-19T15:21:38Z,ArnaudBienner,,0
@@ -44,7 +44,7 @@ id,closed,title,url,created_at,updated_at,user,labels,reactions
 2711000388,false,Spec clarification regarding implied steps,https://github.com/w3c/IndexedDB/issues/433,2024-12-02T08:27:16Z,2024-12-14T00:22:29Z,stelar7,needs-pr,0
 2642144073,false,Return explicit failure from object store retrieval operations,https://github.com/w3c/IndexedDB/issues/432,2024-11-07T20:36:20Z,2024-11-08T18:16:50Z,inexorabletash,needs-pr,1
 2588856164,false,Delete entire site data on data corruption/loss?,https://github.com/w3c/IndexedDB/issues/431,2024-10-15T13:52:07Z,2025-10-17T20:30:20Z,abhishek-shanthkumar,TPAC2025,1
-2560311905,false,Support Temporal as key/value,https://github.com/w3c/IndexedDB/issues/429,2024-10-01T22:18:12Z,2025-11-05T21:22:08Z,SteveBeckerMSFT,external dependency|TPAC2024|TPAC2025,3
+2560311905,false,Support Temporal as key/value,https://github.com/w3c/IndexedDB/issues/429,2024-10-01T22:18:12Z,2026-10-28T18:32:29Z,SteveBeckerMSFT,external dependency|TPAC2024|TPAC2025,3
 2559936186,false,Configurable task priority for IDBRequest and IDBTransaction?,https://github.com/w3c/IndexedDB/issues/428,2024-10-01T18:36:25Z,2025-10-17T20:30:46Z,SteveBeckerMSFT,TPAC2024|TPAC2025,0
 2559875643,true,Add direction option to getAll() and getAllKeys(),https://github.com/w3c/IndexedDB/issues/427,2024-10-01T18:04:21Z,2024-10-14T18:36:34Z,SteveBeckerMSFT,TPAC2024,0
 2557576529,false,IDBIndex::getAllIndexKeys(),https://github.com/w3c/IndexedDB/issues/426,2024-09-30T20:27:16Z,2024-09-30T20:27:16Z,SteveBeckerMSFT,TPAC2024,3
